@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="_ds/modernist-5fa86008-2cf9-46da-9dfc-2464fb85de11/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap">
+<style>
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:#f3f2f2; color:#201e1d; font-family:"Archivo",system-ui,sans-serif; }
+  * { box-sizing:border-box; }
+  img { display:block; max-width:100%; }
+  a { color:#ae1800; text-decoration:none; }
+  a:hover { color:#ec3013; }
+  a:focus-visible, button:focus-visible, input:focus-visible { outline:2px solid #ec3013; outline-offset:2px; }
+  ::selection { background:#ffc4b8; }
+  p, li { text-wrap:pretty; }
+  button { font-family:inherit; }
+  table { border-collapse:collapse; width:100%; font-size:14.5px; min-width:440px; }
+  th { text-align:left; font-weight:800; font-size:11px; letter-spacing:.12em; text-transform:uppercase; padding:0 14px 8px 0; border-bottom:2px solid #201e1d; vertical-align:bottom; }
+  td { padding:11px 14px 11px 0; border-bottom:1px solid #d7d3d3; vertical-align:top; line-height:1.5; }
+  tr td:last-child, tr th:last-child { padding-right:0; }
+  .tw { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:22px 0; }
+  .in { max-width:1180px; margin:0 auto; padding:clamp(28px,4vw,56px) clamp(16px,4vw,40px); }
+  .p { margin:0 0 16px; font-size:17px; line-height:1.7; max-width:38em; }
+  .h3 { margin:34px 0 12px; font-size:clamp(18px,2.4vw,21px); font-weight:800; letter-spacing:-.01em; }
+  .filters { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:2px; background:#c9c5c5; border:2px solid #201e1d; width:100%; }
+  .filterbar { max-width:1180px; margin:0 auto; padding:12px clamp(16px,4vw,40px); }
+  .lbl { display:block; margin:0 0 6px; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#ec3013; }
+  .note { margin:26px 0; border-top:2px solid #ec3013; padding:14px 0 0; max-width:40em; }
+  .note p { margin:0; font-size:15.5px; line-height:1.65; }
+  ul.l, ol.l { margin:0 0 16px; padding-left:1.15em; max-width:38em; font-size:16.5px; line-height:1.7; }
+  ul.l li, ol.l li { margin-bottom:8px; }
+  figure { margin:26px 0; }
+  figcaption { margin-top:9px; font-size:12.5px; line-height:1.5; color:#605d5d; }
+</style>
+</helmet>
+
+<div style="background:#f3f2f2;min-height:100vh">
+
+  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:30">
+    <div style="max-width:1180px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:baseline;gap:16px;flex-wrap:wrap">
+      <a href="index.dc.html" style="display:flex;align-items:baseline;gap:10px;color:#201e1d">
+        <span title="wa — « wa » · l'harmonie, et le Japon" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:900;font-size:22px;color:#ec3013;line-height:1">和</span>
+        <span style="font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase">Washoku</span>
+      </a>
+      <nav style="display:flex;gap:clamp(10px,2vw,22px);margin-left:auto;flex-wrap:wrap;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase">
+        <a href="guide-1-manger.dc.html" style="color:#201e1d">1 · Manger</a>
+        <a href="guide-2-recettes.dc.html" style="color:#201e1d">2 · Recettes</a>
+        <a href="guide-3-supermarche.dc.html" style="color:#201e1d">3 · Supermarché</a>
+        <a href="guide-4-bouger.dc.html" style="color:#ec3013">4 · Bouger</a>
+      </nav>
+    </div>
+  </header>
+
+  <sc-if value="{{ showFiche }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
+    <article style="max-width:1180px;margin:0 auto;padding:clamp(20px,3vw,36px) clamp(16px,4vw,40px) clamp(48px,7vw,90px)">
+      <button onClick="{{ close }}" style="display:inline-flex;align-items:center;gap:8px;background:none;border:0;border-bottom:2px solid #201e1d;padding:0 0 3px;margin-bottom:26px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#201e1d" style-hover="color:#ec3013;border-color:#ec3013">← Tous les exercices</button>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:clamp(20px,4vw,44px);align-items:stretch">
+        <div>
+          <p style="margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">Exercice {{ open.n }} · {{ open.zone }}</p>
+          <h1 style="margin:0;font-weight:800;font-size:clamp(26px,4.4vw,44px);line-height:1.05;letter-spacing:-.02em">{{ open.fr }}</h1>
+          <p style="margin:6px 0 0;font-size:clamp(15px,2vw,19px);font-style:italic;color:#605d5d">{{ open.en }}</p>
+          <p style="margin:16px 0 0;font-size:16.5px;line-height:1.65;color:#444141;max-width:34em">{{ open.why }}</p>
+        </div>
+        <div style="background:#201e1d;color:#f3f2f2;padding:clamp(22px,3vw,34px);display:flex;flex-direction:column;justify-content:space-between;min-height:200px">
+          <span title="{{ open.jpt }}" style="font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(40px,7vw,72px);color:#ec3013;line-height:1;cursor:help">{{ open.jp }}</span>
+          <div>
+            <p style="margin:0 0 4px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#9b9797">Répétitions</p>
+            <p style="margin:0;font-size:clamp(20px,3vw,28px);font-weight:800;line-height:1.15">{{ open.reps }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:clamp(26px,4vw,44px)">
+        <p style="margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Le mouvement</p>
+        <sc-for list="{{ open.steps }}" as="s" hint-placeholder-count="3">
+          <div style="display:flex;gap:16px;padding:14px 0;border-bottom:1px solid #d7d3d3;max-width:52em">
+            <span style="flex:0 0 auto;font-weight:800;font-size:17px;color:#ec3013;line-height:1.5;min-width:1.4em">{{ s.n }}</span>
+            <p style="margin:0;font-size:16px;line-height:1.65">{{ s.t }}</p>
+          </div>
+        </sc-for>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:clamp(26px,4vw,40px)">
+        <div style="background:#f3f2f2;padding:20px">
+          <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#7d7979">Régression — plus facile</p>
+          <p style="margin:0;font-size:15.5px;line-height:1.65">{{ open.reg }}</p>
+        </div>
+        <div style="background:#fff2ef;padding:20px">
+          <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Standard — commence ici</p>
+          <p style="margin:0;font-size:15.5px;line-height:1.65">{{ open.std }}</p>
+        </div>
+        <div style="background:#f3f2f2;padding:20px">
+          <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#7d7979">Progression — plus difficile</p>
+          <p style="margin:0;font-size:15.5px;line-height:1.65">{{ open.pro }}</p>
+        </div>
+      </div>
+
+      <sc-if value="{{ open.hasNote }}" hint-placeholder-val="{{ false }}">
+        <div style="border-top:2px solid #ec3013;padding:14px 0 0;margin-top:30px;max-width:46em">
+          <p style="margin:0 0 5px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ec3013">Attention</p>
+          <p style="margin:0;font-size:15.5px;line-height:1.65">{{ open.note }}</p>
+        </div>
+      </sc-if>
+
+      <div style="margin-top:32px">
+        <p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#7d7979">Fait partie du format</p>
+        <p style="margin:0;font-size:16px;font-weight:700">{{ open.formats }}</p>
+      </div>
+    </article>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ showList }}" hint-placeholder-val="{{ true }}">
+    <div>
+      <section style="max-width:1180px;margin:0 auto;padding:clamp(30px,5vw,66px) clamp(16px,4vw,40px) clamp(18px,3vw,28px)">
+        <p style="margin:0 0 14px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">Guide 4 sur 4 · Bouger</p>
+        <h1 style="margin:0;font-weight:800;font-size:clamp(34px,6.5vw,70px);line-height:1.02;letter-spacing:-.025em;max-width:12em">Bouger</h1>
+        <p style="margin:16px 0 0;font-family:'Noto Serif JP',serif;font-weight:600;font-size:clamp(16px,2.4vw,22px);color:#605d5d"><span title="undō — « oune-dô » · l'exercice" style="cursor:help;border-bottom:1px dotted currentColor">運動</span> — reprendre l'activité à poids élevé, sans impact</p>
+        <figure style="margin:clamp(24px,4vw,40px) 0 0">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Akasawa%20Natural%20Recreational%20Forest-2.jpg?width=1600" alt="Sentier de marche dans une forêt de cyprès" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:21/9;object-fit:cover;border:2px solid #201e1d">
+          <figcaption>La forêt d'Akasawa, dans la vallée de Kiso — le lieu où le mot <em>shinrin-yoku</em> a été inventé en 1982. La marche est le meilleur rapport effort-bénéfice du document&nbsp;: gratuite, aucun apprentissage, aucun impact articulaire, et elle se glisse partout.</figcaption>
+        </figure>
+      </section>
+
+      <section class="in" style="border-top:2px solid #201e1d">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(16px,4vw,48px)">
+          <div>
+            <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+              <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">01</span>
+              <span title="rikai — « ri-kaï » · comprendre" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">理解</span>
+            </div>
+            <h2 style="margin:0;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Ce qu'il faut comprendre avant de commencer</h2>
+          </div>
+          <p style="margin:0;font-size:17px;line-height:1.65;font-weight:600;align-self:end">L'exercice ne fait pas maigrir. Il fait tout le reste. L'alimentation gère le poids&nbsp;; l'exercice gère le maintien et la santé.</p>
+        </div>
+        <p class="p" style="margin-top:24px">Une heure de marche rapide brûle environ 300 calories, soit une pointe de pizza. Le corps compense en partie, l'appétit répond, et les essais où l'on ajoute de l'exercice sans toucher à l'alimentation produisent des pertes décevantes. <strong>Mais</strong>&nbsp;:</p>
+        <ul class="l">
+          <li>La quasi-totalité des gens qui perdent beaucoup de poids <strong>et le maintiennent</strong> font de l'activité physique régulière. C'est le prédicteur le plus fiable du maintien à long terme.</li>
+          <li>Sans stimulus musculaire, une part importante du poids perdu est du muscle — souvent le quart. Le muscle perdu abaisse la dépense au repos et rend la reprise plus facile.</li>
+          <li>Les bénéfices sur la tension, la glycémie, le sommeil, l'apnée, l'humeur et l'énergie sont <strong>indépendants de la perte de poids</strong>.</li>
+        </ul>
+        <p style="margin:28px 0;font-size:clamp(19px,3vw,26px);font-weight:800;line-height:1.3;letter-spacing:-.015em;max-width:22em;border-left:3px solid #ec3013;padding-left:18px">Ne juge jamais ton entraînement à la balance. Si tu attends de l'exercice qu'il te fasse maigrir, tu vas l'abandonner en six semaines.</p>
+        <div class="note"><span class="lbl">Le vrai risque du débutant</span><p>Ce n'est pas le surentraînement. C'est <strong>d'en faire trop, trop vite, d'avoir mal pendant cinq jours, et de ne jamais y retourner</strong>. La règle qui prime sur toutes les autres&nbsp;: commencer plus doucement que ce dont tu te sens capable. Tu dois finir tes premières séances en te disant « j'aurais pu en faire plus ».</p></div>
+      </section>
+
+      <section class="in" style="border-top:2px solid #201e1d">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(16px,4vw,48px)">
+          <div>
+            <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+              <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">02</span>
+              <span title="aruku — « a-rou-kou » · marcher" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">歩く</span>
+            </div>
+            <h2 style="margin:0;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">La marche</h2>
+          </div>
+          <p style="margin:0;font-size:17px;line-height:1.65;font-weight:600;align-self:end">Faut-il des jours de repos&nbsp;? Non. La marche n'est pas une activité qui demande de la récupération — c'est le mouvement pour lequel le corps humain est conçu.</p>
+        </div>
+        <p class="p" style="margin-top:24px"><strong>Marcher tous les jours est mieux que marcher trois fois par semaine.</strong> Il n'y a pas de contre-indication tant que l'intensité reste modérée (tu peux tenir une conversation), que tu as des chaussures adéquates, et que tu écoutes les douleurs articulaires — celles-là sont un vrai signal. La logique des jours de repos s'applique à la musculation, pas à la marche.</p>
+
+        <div class="tw"><table>
+          <tr><th style="width:34%">Activité</th><th>Plus, est-ce mieux&nbsp;?</th></tr>
+          <tr><td><strong>Marche modérée</strong></td><td>Oui, jusqu'à environ 60 à 90 min/jour. Rendements décroissants ensuite, mais pas de risque.</td></tr>
+          <tr><td><strong>Musculation</strong></td><td><strong>Non.</strong> Le muscle se construit pendant la récupération, pas pendant la séance. 48 h entre deux séances travaillant les mêmes muscles.</td></tr>
+          <tr><td><strong>Cardio intense</strong></td><td>Non. Trois séances intenses par semaine maximum pour un débutant.</td></tr>
+          <tr><td><strong>Étirements, mobilité</strong></td><td>Oui, sans limite pratique.</td></tr>
+        </table></div>
+
+        <h3 class="h3">Combien, concrètement</h3>
+        <div class="tw"><table>
+          <tr><th>Étape</th><th>Fréquence</th><th>Durée</th></tr>
+          <tr><td>Départ</td><td>3 à 4 fois/semaine</td><td>20 min</td></tr>
+          <tr><td>Après 1 mois</td><td>5 fois/semaine</td><td>30 min</td></tr>
+          <tr><td>Après 3 mois</td><td>Tous les jours</td><td>30 à 45 min</td></tr>
+          <tr><td>Cible de croisière</td><td>Tous les jours</td><td>45 à 60 min, ou 2 marches de 25 min</td></tr>
+        </table></div>
+        <p class="p"><strong>Fractionner compte autant que faire d'un coup.</strong> Deux marches de 20 minutes valent une marche de 40, et sont souvent plus faciles à caser.</p>
+
+        <div class="note"><span class="lbl">La marche qui rapporte le plus</span><p>Celle de 10 à 15 minutes <strong>après un repas</strong>. Elle abaisse la glycémie postprandiale de façon mesurable — un bénéfice direct et immédiat pour qui est diabétique ou prédiabétique. C'est le meilleur rapport effort-bénéfice de tout ce document.</p></div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin:36px 0 26px">
+          <div style="background:#201e1d;color:#f3f2f2;padding:clamp(22px,3vw,30px);display:flex;flex-direction:column;justify-content:space-between;gap:18px">
+            <div>
+              <p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ff563c">Où marcher</p>
+              <p style="margin:0;font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(34px,5.5vw,54px);line-height:1.1;color:#ff563c" title="shinrin-yoku — prononcer « chine-rine yo-kou »">森林浴</p>
+              <p style="margin:8px 0 0;font-size:clamp(17px,2.2vw,21px);font-style:italic;color:#bab6b6">shinrin-yoku</p>
+              <p style="margin:14px 0 0;font-size:19px;font-weight:800;line-height:1.25">« Bain de forêt »</p>
+            </div>
+            <p style="margin:0;font-size:13.5px;line-height:1.6;color:#9b9797">Terme créé en 1982 par l'Agence forestière japonaise (<span title="Rinyachō — « rine-ya-tchô » · l'Agence forestière japonaise" style="cursor:help;border-bottom:1px dotted currentColor">林野庁</span>), à Akasawa dans la vallée de Kiso.</p>
+          </div>
+          <div style="background:#f3f2f2;padding:clamp(22px,3vw,30px);grid-column:span 2;min-width:0">
+            <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7">Le Japon est couvert de forêt à environ 67&nbsp;%, et l'État y a fait quelque chose d'inhabituel&nbsp;: il a transformé la promenade en forêt en <strong>intervention de santé publique</strong>. Le pays compte aujourd'hui une soixantaine de « forêts thérapeutiques » officiellement certifiées, et des médecins y dirigent réellement des patients.</p>
+            <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7">Ce n'est pas de la poésie. Une méta-analyse de 2019 dans l'<em>International Journal of Biometeorology</em> a retenu 22 études&nbsp;: le <strong>cortisol salivaire</strong> — le marqueur de stress le plus utilisé — était significativement plus bas après une marche en forêt qu'après la même marche en ville, dans presque toutes. Les travaux de Qing Li, à la Nippon Medical School, ont aussi mesuré une hausse de l'activité des cellules NK et un basculement du système nerveux autonome vers le parasympathique — l'état « repos et digestion » plutôt que « fuite ou combat ».</p>
+            <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7">L'hypothèse principale pour expliquer l'écart avec la marche urbaine&nbsp;: les <strong>phytoncides</strong>, les composés volatils que les conifères émettent pour se défendre contre les insectes et les champignons. On les respire simplement en étant là.</p>
+            <div style="border-top:2px solid #ec3013;padding-top:12px;margin-top:20px">
+              <p style="margin:0 0 5px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ec3013">Ce que ça change ici</p>
+              <p style="margin:0;font-size:15.5px;line-height:1.65"><strong>Le sentier bat le trottoir, et le trottoir bat le tapis roulant.</strong> À dépense calorique identique, l'effet sur le stress, la tension et l'humeur n'est pas le même. Une marche de 40 minutes sur la montagne un samedi vaut plus que ce que la balance en dira.</p>
+              <p style="margin:12px 0 0;font-size:15.5px;line-height:1.65">Et le protocole est délibérément vide&nbsp;: on marche <strong>lentement</strong>, sans destination, sans écouteurs, sans compter les pas. Ce n'est pas une séance de cardio — les études qui montrent l'effet portent sur des marches tranquilles de deux heures, pas sur de la marche rapide. Les deux sont utiles, mais elles ne font pas la même chose.</p>
+            </div>
+            <p style="margin:18px 0 0;font-size:13px;line-height:1.6;color:#7d7979">Réserve honnête&nbsp;: la plupart de ces études sont petites, à court terme, et sans aveugle possible — on sait toujours si on est dans une forêt. L'effet est réel et constant, son ampleur exacte l'est moins.</p>
+          </div>
+        </div>
+
+        <h3 class="h3">Récupérer le NEAT perdu en télétravail</h3>
+        <p class="p">Quelqu'un qui faisait 90 minutes de transport en commun par jour et qui passe au travail à domicile perd facilement 200 à 400 calories de dépense quotidienne. Rien n'a changé dans son alimentation, mais l'équation s'est déplacée.</p>
+        <ul class="l">
+          <li><strong>Une marche de 15 minutes le matin, à l'heure où tu partais avant.</strong> Le rituel compte autant que la dépense.</li>
+          <li>Une autre en fin de journée, pour marquer la fin du travail</li>
+          <li>Se lever et marcher pendant les appels sans écran</li>
+          <li>Les escaliers systématiquement ▪ stationner loin ▪ descendre un arrêt plus tôt</li>
+        </ul>
+        <p class="p">Le bureau debout, lui, apporte environ 50 calories de plus par heure. Trois heures debout par jour, c'est 150 calories&nbsp;: non négligeable, mais c'est une stratégie de posture et d'énergie, pas de perte de poids.</p>
+      </section>
+
+      <section class="in" style="border-top:2px solid #201e1d">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+          <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">03</span>
+          <span title="mushōgeki — « mou-chô-gué-ki » · sans impact" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">無衝撃</span>
+        </div>
+        <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Les autres activités sans impact</h2>
+        <p class="p">Alterner deux ou trois modalités règle le problème de l'ennui et répartit la charge sur des articulations différentes.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:clamp(14px,2vw,24px);margin:26px 0">
+          <figure style="margin:0">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fahrrad-Ergometer_01_KMJ.jpg?width=1200" alt="Vélo stationnaire" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d">
+            <figcaption><strong>Vélo stationnaire</strong> — impact nul. Le corps est assis, zéro contrainte articulaire. Idéal en hiver.</figcaption>
+          </figure>
+          <figure style="margin:0">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elliptical_machine.jpg?width=1200" alt="Appareil elliptique" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d">
+            <figcaption><strong>Elliptique</strong> — impact nul. Mouvement complet, haut et bas du corps en même temps.</figcaption>
+          </figure>
+          <figure style="margin:0">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Opera_Garnier_Stairway_2008.JPG?width=1200" alt="Escalier" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d">
+            <figcaption><strong>Les escaliers</strong> — la dépense la moins chère qui existe. Systématiquement, jamais l'ascenseur.</figcaption>
+          </figure>
+          <figure style="margin:0">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Trenirovachni_lastici_set.JPG?width=1200" alt="Jeu de bandes élastiques" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d">
+            <figcaption><strong>Bandes élastiques</strong> — 30 à 50 $ pour un jeu complet. Le meilleur rapport qualité-prix, zéro encombrement.</figcaption>
+          </figure>
+        </div>
+        <div class="tw"><table>
+          <tr><th>Activité</th><th>Impact</th><th>Commentaire</th></tr>
+          <tr><td><strong>Vélo stationnaire</strong></td><td>Nul</td><td>Le corps est assis, zéro contrainte articulaire</td></tr>
+          <tr><td><strong>Elliptique</strong></td><td>Nul</td><td>Excellent. Mouvement complet, haut et bas du corps.</td></tr>
+          <tr><td><strong>Natation</strong></td><td>Nul</td><td>L'eau porte le corps</td></tr>
+          <tr><td><strong>Aquaforme</strong></td><td>Nul</td><td>Parfait quand les articulations sont douloureuses</td></tr>
+          <tr><td><strong>Vélo extérieur</strong></td><td>Nul</td><td>Bonus plein air, qui aide beaucoup à l'assiduité</td></tr>
+          <tr><td><strong>Rameur</strong></td><td>Faible</td><td>Excellent, mais exige une bonne technique du dos</td></tr>
+          <tr><td><strong>Randonnée</strong></td><td>Faible</td><td>Attention aux descentes, plus exigeantes pour les genoux</td></tr>
+          <tr><td><strong>Patin libre</strong></td><td>Faible</td><td>Agréable, saisonnier. Risque de chute à considérer.</td></tr>
+          <tr><td><strong>Course à pied</strong></td><td><strong>Élevé</strong></td><td>À reporter. Chaque foulée encaisse 2 à 3 fois le poids du corps.</td></tr>
+          <tr><td><strong>Sports d'équipe</strong></td><td><strong>Élevé</strong></td><td>Changements de direction et pivots&nbsp;: risque élevé de blessure au genou</td></tr>
+        </table></div>
+      </section>
+
+      <section id="exos" class="in" style="border-top:2px solid #201e1d;padding-bottom:6px">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(16px,4vw,48px)">
+          <div>
+            <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+              <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">04</span>
+              <span title="kintore — « kine-to-ré » · la musculation" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">筋トレ</span>
+            </div>
+            <h2 style="margin:0;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Les seize exercices</h2>
+          </div>
+          <p style="margin:0;font-size:17px;line-height:1.65;font-weight:600;align-self:end">L'entraînement en résistance détermine si le poids perdu est du gras ou du muscle. Ce n'est pas un supplément optionnel au cardio — c'est probablement plus important que lui pendant une perte de poids.</p>
+        </div>
+        <p class="p" style="margin-top:24px"><strong>La forme avant les répétitions.</strong> Cinq répétitions bien faites valent mieux que quinze bâclées. <strong>La surcharge progressive&nbsp;:</strong> chaque semaine, ajouter une répétition, une seconde, ou un centimètre d'amplitude. <strong>48 heures</strong> entre deux séances travaillant les mêmes muscles. Chaque fiche donne une régression et une progression&nbsp;: commence par la version où tu réussis <strong>8 répétitions propres</strong>.</p>
+      </section>
+
+      <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:49px;z-index:20">
+        <div class="filterbar">
+          <div class="filters">
+            <sc-for list="{{ zones }}" as="c" hint-placeholder-count="6">
+              <button onClick="{{ c.go }}" style="{{ c.style }}">{{ c.label }}</button>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+
+      <section style="max-width:1180px;margin:0 auto;padding:clamp(22px,3vw,36px) clamp(16px,4vw,40px) clamp(40px,6vw,70px)">
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d">
+          <sc-for list="{{ list }}" as="r" hint-placeholder-count="16">
+            <button onClick="{{ r.go }}" style="display:block;width:100%;text-align:left;background:#f3f2f2;border:0;padding:20px 18px 22px;cursor:pointer;font-family:inherit;color:#201e1d" style-hover="background:#fff2ef">
+              <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px">
+                <span style="font-weight:800;font-size:32px;color:#ec3013;line-height:1">{{ r.n }}</span>
+                <span title="{{ r.jpt }}" style="font-family:'Noto Serif JP',serif;font-weight:600;font-size:19px;color:#9b9797;cursor:help">{{ r.jp }}</span>
+              </div>
+              <p style="margin:10px 0 4px;font-size:17px;font-weight:800;line-height:1.2;letter-spacing:-.01em">{{ r.fr }}</p>
+              <p style="margin:0 0 10px;font-size:12.5px;font-style:italic;color:#7d7979">{{ r.en }}</p>
+              <p style="margin:0;font-size:13.5px;line-height:1.55;color:#605d5d">{{ r.short }}</p>
+              <p style="margin:12px 0 0;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#ec3013">{{ r.reps }}</p>
+            </button>
+          </sc-for>
+        </div>
+        <div class="note"><span class="lbl">Ne fais pas de redressements assis ni de crunchs</span><p>Ils compriment les disques lombaires en flexion répétée, pour un bénéfice inférieur au bird dog et au dead bug.</p></div>
+      </section>
+
+      <section class="in" style="border-top:2px solid #201e1d">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+          <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">05</span>
+          <span title="sankeishiki — « sane-ké-chi-ki » · trois formats" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">三形式</span>
+        </div>
+        <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Les trois formats</h2>
+        <p class="p">Repos de 45 secondes entre les séries.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:26px">
+          <div style="background:#ec3013;color:#fff;padding:22px">
+            <p style="margin:0 0 4px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ffc4b8">Le plancher</p>
+            <p style="margin:0 0 4px;font-size:30px;font-weight:800;line-height:1">15 minutes</p>
+            <p style="margin:0 0 14px;font-size:14px;line-height:1.6">L'essentiel. À faire même les mauvaises journées. Quatre exercices qui couvrent le corps entier&nbsp;: pousser, se lever, hanches, tronc.</p>
+            <p style="margin:0;font-size:15px;line-height:1.9">9. Lever de chaise — 2 × 10<br>3. Poussée inclinée — 2 × 8<br>10. Pont fessier — 2 × 12<br>6. Bird dog — 2 × 8 par côté</p>
+          </div>
+          <div style="background:#f3f2f2;padding:22px">
+            <p style="margin:0 0 4px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">L'objectif de croisière</p>
+            <p style="margin:0 0 4px;font-size:30px;font-weight:800;line-height:1">30 minutes</p>
+            <p style="margin:0 0 14px;font-size:14px;line-height:1.6;color:#444141">Les quatre ci-dessus, <strong>3 séries chacun</strong>, plus&nbsp;:</p>
+            <p style="margin:0;font-size:15px;line-height:1.9">4. Tirage à la bande — 3 × 12<br>11. Montée de marche — 2 × 8 par jambe<br>7. Dead bug — 2 × 8 par côté<br>12. Chaise murale — 2 × 30 sec</p>
+          </div>
+          <div style="background:#f3f2f2;padding:22px">
+            <p style="margin:0 0 4px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Quand le temps et l'envie sont là</p>
+            <p style="margin:0 0 4px;font-size:30px;font-weight:800;line-height:1">45 minutes</p>
+            <p style="margin:0 0 14px;font-size:14px;line-height:1.6;color:#444141">Tout ce qui précède, plus&nbsp;:</p>
+            <p style="margin:0;font-size:15px;line-height:1.9">5. Développé au-dessus de la tête — 3 × 10<br>16. Port de charge — 3 allers-retours<br>13. Élévation latérale — 2 × 12 par côté<br>14. Élévation sur la pointe — 2 × 15<br>8. Planche inclinée — 2 × 30 sec<br>1, 2, 15 — mobilité, 1 série chacun</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="in" style="border-top:2px solid #201e1d">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+          <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">06</span>
+          <span title="jūnishū — « djou-ni-chou » · douze semaines" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">十二週</span>
+        </div>
+        <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">La progression sur douze semaines</h2>
+        <div class="tw"><table>
+          <tr><th>Semaines</th><th>Marche</th><th>Musculation</th><th>Objectif</th></tr>
+          <tr><td><strong>1 – 2</strong></td><td>20 min, 3 à 4 fois</td><td>Aucune</td><td>Installer l'habitude. Rien d'autre.</td></tr>
+          <tr><td><strong>3 – 4</strong></td><td>25 min, 4 fois</td><td><strong>2 fois</strong>, format 15 min, 1 série</td><td>Apprendre les mouvements</td></tr>
+          <tr><td><strong>5 – 8</strong></td><td>30 min, 5 fois</td><td><strong>2 fois</strong>, format 15 min, 2 séries</td><td>Construire la base</td></tr>
+          <tr><td><strong>9 – 12</strong></td><td>30 à 45 min, 5 à 6 fois</td><td><strong>3 fois</strong>, format 30 min</td><td>Monter en volume</td></tr>
+          <tr><td><strong>Après 3 mois</strong></td><td>Tous les jours</td><td>3 fois, format 30 à 45 min</td><td>Ajouter des charges</td></tr>
+        </table></div>
+        <h3 class="h3">Une semaine type à partir du troisième mois</h3>
+        <div class="tw"><table>
+          <tr><th style="width:24%">Jour</th><th>Activité</th></tr>
+          <tr><td>Lundi</td><td>Musculation 30 min + marche 20 min</td></tr>
+          <tr><td>Mardi</td><td>Marche 40 min ou elliptique</td></tr>
+          <tr><td>Mercredi</td><td>Musculation 30 min + marche 20 min</td></tr>
+          <tr><td>Jeudi</td><td>Marche 40 min</td></tr>
+          <tr><td>Vendredi</td><td>Musculation 30 min + marche 20 min</td></tr>
+          <tr><td>Samedi</td><td>Marche longue, 45 à 60 min</td></tr>
+          <tr><td>Dimanche</td><td>Marche légère, mobilité</td></tr>
+        </table></div>
+        <p class="p">Noter qu'il n'y a <strong>aucun jour complètement inactif</strong>, mais que la musculation laisse toujours 48 heures entre les séances.</p>
+
+        <h3 class="h3">Passer aux charges</h3>
+        <p class="p">Après trois à quatre mois, le poids du corps ne suffira plus pour progresser sur certains mouvements. Trois options&nbsp;:</p>
+        <ul class="l">
+          <li><strong>Bandes élastiques</strong> — 30 à 50 $ pour un jeu complet. Le meilleur rapport qualité-prix, zéro encombrement.</li>
+          <li><strong>Haltères ajustables</strong> — 150 à 300 $. Un seul jeu couvre des années de progression.</li>
+          <li><strong>Gym avec appareils guidés</strong> — les appareils imposent la trajectoire, donc le risque de mauvaise forme est faible. <strong>Deux ou trois séances avec un entraîneur au départ</strong> valent largement leur coût&nbsp;: elles évitent des mois de mauvaises habitudes.</li>
+        </ul>
+      </section>
+
+      <section class="in" style="border-top:2px solid #201e1d">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+          <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">07</span>
+          <span title="chūshi — « tchou-chi » · arrêter" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">中止</span>
+        </div>
+        <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Quand s'arrêter, et quand consulter</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:26px">
+          <div style="background:#ec3013;color:#fff;padding:22px">
+            <p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ffc4b8">Arrêter la séance immédiatement</p>
+            <p style="margin:0;font-size:15.5px;line-height:1.8">Douleur à la poitrine, dans la mâchoire ou dans le bras gauche<br>Essoufflement disproportionné à l'effort<br>Étourdissements, vision trouble<br>Douleur articulaire vive et localisée</p>
+          </div>
+          <div style="background:#f3f2f2;padding:22px">
+            <p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Consulter</p>
+            <p style="margin:0;font-size:15.5px;line-height:1.8;color:#444141">Une douleur qui persiste plus de 48 heures au même endroit<br>Un gonflement articulaire<br>Un essoufflement à l'effort qui s'aggrave de semaine en semaine plutôt que de s'améliorer</p>
+          </div>
+          <div style="background:#f3f2f2;padding:22px">
+            <p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Courbature ou blessure&nbsp;?</p>
+            <p style="margin:0;font-size:15.5px;line-height:1.7;color:#444141">Les <strong>courbatures</strong> sont diffuses, symétriques, et s'améliorent quand on bouge. Elles culminent 24 à 48 heures après et disparaissent ensuite. Une <strong>blessure</strong> est localisée, vive, et empire quand on la sollicite.</p>
+          </div>
+        </div>
+        <div class="note"><span class="lbl">Un signal particulier pour qui prend des médicaments pour la tension</span><p>En perdant du poids, la tension baisse, et l'exercice l'abaisse aussi temporairement. Des étourdissements en se relevant, une faiblesse inhabituelle ou une fatigue nouvelle ne sont probablement pas dus à l'entraînement — c'est le signal d'appeler le médecin pour réviser les doses.</p></div>
+      </section>
+
+      <section class="in" style="border-top:2px solid #201e1d">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+          <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">08</span>
+          <span title="kiroku — « ki-ro-kou » · le suivi" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">記録</span>
+        </div>
+        <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Mesurer autre chose que le poids</h2>
+        <p class="p">L'exercice ne fera pas descendre la balance. Il faut donc d'autres indicateurs, sinon la motivation s'effondre.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:clamp(20px,3vw,36px);margin-top:26px">
+          <div>
+            <p style="margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Chaque semaine</p>
+            <p style="margin:0;font-size:15.5px;line-height:1.8">Le nombre de levers de chaise en une minute<br>La durée de la chaise murale<br>Le niveau de poussée inclinée atteint (mur → comptoir → chaise → sol)</p>
+          </div>
+          <div>
+            <p style="margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Chaque mois</p>
+            <p style="margin:0;font-size:15.5px;line-height:1.8">Le tour de taille<br>L'essoufflement dans un escalier — combien de marches avant de devoir souffler<br>La distance parcourue en 30 minutes de marche<br>La tension artérielle au repos</p>
+          </div>
+          <div>
+            <p style="margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">En continu</p>
+            <p style="margin:0;font-size:15.5px;line-height:1.8">La qualité du sommeil<br>L'énergie en fin de journée<br>La facilité à se relever du sol ou d'un fauteuil bas</p>
+          </div>
+        </div>
+        <div class="note"><span class="lbl">Le meilleur indicateur de tous</span><p>La facilité des gestes du quotidien. Monter un escalier sans y penser, se lever d'une chaise basse sans les mains, porter les sacs d'épicerie d'un seul voyage. Ces changements arrivent bien avant que la balance impressionne, et ce sont eux qui rendent le reste possible.</p></div>
+      </section>
+
+      <section class="in" style="border-top:2px solid #201e1d">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+          <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">09</span>
+          <span title="go gensoku — « go guène-so-kou » · cinq règles" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">五原則</span>
+        </div>
+        <h2 style="margin:0 0 26px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Les cinq règles</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d">
+          <div style="background:#f3f2f2;padding:22px"><p style="margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1">1</p><p style="margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2">Commencer plus doucement que ce dont tu te sens capable.</p><p style="margin:0;font-size:14px;line-height:1.6;color:#605d5d">Finir en se disant « j'aurais pu en faire plus » est le signe qu'on y retournera.</p></div>
+          <div style="background:#f3f2f2;padding:22px"><p style="margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1">2</p><p style="margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2">La marche tous les jours, la musculation trois fois.</p><p style="margin:0;font-size:14px;line-height:1.6;color:#605d5d">La première ne demande pas de récupération, la seconde en a besoin.</p></div>
+          <div style="background:#f3f2f2;padding:22px"><p style="margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1">3</p><p style="margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2">Sans impact, toujours.</p><p style="margin:0;font-size:14px;line-height:1.6;color:#605d5d">Marche, vélo, elliptique, natation, appareils. La course attendra.</p></div>
+          <div style="background:#f3f2f2;padding:22px"><p style="margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1">4</p><p style="margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2">La forme avant les répétitions, la constance avant l'intensité.</p><p style="margin:0;font-size:14px;line-height:1.6;color:#605d5d">Vingt minutes six fois par semaine battent une heure une fois.</p></div>
+          <div style="background:#f3f2f2;padding:22px"><p style="margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1">5</p><p style="margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2">Ne jamais juger l'exercice à la balance.</p><p style="margin:0;font-size:14px;line-height:1.6;color:#605d5d">L'alimentation gère le poids. L'exercice protège le résultat, et améliore à peu près tout le reste.</p></div>
+          <div style="background:#201e1d;color:#bab6b6;padding:22px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ff563c">Avant de commencer</p><p style="margin:0;font-size:14.5px;line-height:1.65">Toute personne ayant des conditions cardiovasculaires, métaboliques ou articulaires devrait valider son plan avec son médecin — particulièrement pour l'intensité.</p></div>
+        </div>
+      </section>
+    </div>
+  </sc-if>
+
+  <footer style="border-top:2px solid #201e1d;background:#201e1d;color:#bab6b6">
+    <div style="max-width:1180px;margin:0 auto;padding:clamp(32px,5vw,56px) clamp(16px,4vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px">
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Le reste du dossier</p>
+        <p style="margin:0;font-size:15px;line-height:1.7">Le <a href="guide-1-manger.dc.html" style="color:#f8f4f4;text-decoration:underline">guide 1</a> pour les principes, le <a href="guide-2-recettes.dc.html" style="color:#f8f4f4;text-decoration:underline">recueil de recettes</a> pour cuisiner, le <a href="guide-3-supermarche.dc.html" style="color:#f8f4f4;text-decoration:underline">guide du supermarché</a> pour trouver les ingrédients.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Pourquoi pas de photos d'exercices</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">Les banques d'images libres de droits n'ont pratiquement rien d'utilisable pour ces mouvements précis. Une photo générique d'un inconnu qui fait autre chose serait pire que pas de photo — les fiches décrivent donc le mouvement en mots, avec une régression et une progression.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Avertissement</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">Rien ici n'est un avis médical. Valider tout programme d'activité avec un professionnel de la santé.</p>
+        <p style="margin:14px 0 0"><a href="index.dc.html" style="color:#f8f4f4;text-decoration:underline;font-size:14px">← Retour à l'accueil</a></p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+
+const PRON = (ro) => {
+  if (!ro) return "";
+  let s = ro.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  s = s.replace(/[^a-z\s-]/g, "").trim();
+  if (!s) return "";
+  const parts = s.split(/[\s-]+/).map(w => {
+    let x = w;
+    x = x.replace(/shi/g, "CHI").replace(/sha/g, "CHA").replace(/shu/g, "CHOU").replace(/sho/g, "CHO").replace(/she/g, "CHE");
+    x = x.replace(/chi/g, "TCHI").replace(/cha/g, "TCHA").replace(/chu/g, "TCHOU").replace(/cho/g, "TCHO");
+    x = x.replace(/ji/g, "DJI").replace(/ja/g, "DJA").replace(/ju/g, "DJOU").replace(/jo/g, "DJO");
+    x = x.replace(/tsu/g, "TSOU");
+    x = x.replace(/fu/g, "FOU");
+    x = x.replace(/ou/g, "Ô").replace(/uu/g, "Ô").replace(/oo/g, "Ô");
+    x = x.replace(/ai/g, "AÏ").replace(/ei/g, "É").replace(/ui/g, "OUÏ");
+    x = x.replace(/u/g, "OU");
+    x = x.replace(/e/g, "É");
+    x = x.replace(/y/g, "Y");
+    // mora split
+    let out = "", buf = "";
+    for (const ch of x.toLowerCase()) {
+      buf += ch;
+      if ("aeiouôéï".includes(ch)) { out += buf + "-"; buf = ""; }
+      else if (ch === "n" && buf.length > 1) { out += buf + "-"; buf = ""; }
+    }
+    out += buf;
+    return out.replace(/-+$/, "").replace(/--+/g, "-");
+  });
+  return parts.join(" ");
+};
+const JPT = (jp, ro) => { const p = PRON(ro); return ro ? (ro + (p && p !== ro ? " — « " + p + " »" : "")) : jp; };
+const ZONES = [
+  {k:"tous",label:"Tout"},
+  {k:"cou",label:"Cou et haut du dos"},
+  {k:"haut",label:"Poitrine, épaules, bras"},
+  {k:"tronc",label:"Tronc"},
+  {k:"jambes",label:"Hanches, fessiers, cuisses"},
+  {k:"mollets",label:"Mollets et chevilles"},
+  {k:"fonc",label:"Fonctionnel"}
+];
+const ZL = {}; ZONES.forEach(z => ZL[z.k] = z.label);
+
+const E = [
+{n:1,z:"cou",jp:"顎引き",fr:"Rétraction du menton",en:"chin tuck",reps:"10 répétitions",
+ short:"Contre la posture avancée du travail à l'écran.",
+ why:"Contre la posture avancée du travail à l'écran, et les maux de tête de tension. C'est un exercice de mobilité, pas de force — il se fait tous les jours, sans récupération.",
+ steps:["Assis ou debout, le regard à l'horizontale.","Reculer le menton vers l'arrière comme pour faire un double menton, sans baisser la tête.","Tenir 5 secondes, relâcher."],
+ reg:"Assis, dos appuyé contre un dossier haut pour sentir le mouvement.",
+ std:"Debout ou assis, 10 répétitions de 5 secondes.",
+ pro:"Debout dos au mur, en gardant l'arrière de la tête en contact.",
+ fmt:"45 minutes (mobilité)"},
+
+{n:2,z:"cou",jp:"壁天使",fr:"Anges muraux",en:"wall angels",reps:"8 répétitions",
+ short:"Ouvre la poitrine et remet les épaules en place.",
+ why:"Contrebalance des heures passées les épaules enroulées vers l'avant. C'est un exercice de mobilité thoracique autant que de force.",
+ steps:["Dos au mur, talons à 15 cm du mur, bas du dos plaqué contre le mur.","Bras en W contre le mur, coudes et dos des mains en contact.","Monter lentement les bras vers un Y, sans décoller les avant-bras du mur.","Redescendre lentement en gardant le contact."],
+ reg:"Ne monter que jusqu'où le contact tient. Un centimètre de plus chaque semaine.",
+ std:"8 répétitions complètes, du W au Y, sans perdre le contact.",
+ pro:"Ralentir : 4 secondes pour monter, 4 secondes pour descendre.",
+ fmt:"45 minutes (mobilité)"},
+
+{n:3,z:"haut",jp:"腕立て",fr:"Poussée inclinée",en:"incline push-up",reps:"8 à 12 répétitions",
+ short:"La version la plus importante du haut du corps.",
+ why:"C'est le mouvement de poussée fondamental. L'inclinaison change la difficulté sans changer la technique — c'est ce qui permet de progresser pendant des mois avec le même exercice.",
+ steps:["Mains à la largeur des épaules sur la surface choisie.","Corps droit de la tête aux talons, gainé.","Descendre en 3 secondes, en gardant les coudes à environ 45 degrés du corps.","Remonter en 1 seconde."],
+ reg:"Mains contre un mur, corps à 30 degrés.",
+ std:"Mains sur le comptoir de cuisine.",
+ pro:"Mains sur une chaise solide, puis sur une marche, puis au sol sur les genoux.",
+ fmt:"15, 30 et 45 minutes"},
+
+{n:4,z:"haut",jp:"引き",fr:"Tirage à la bande élastique",en:"band row",reps:"10 à 12 répétitions",
+ short:"Équilibre la poussée et corrige la posture. Ne le saute pas.",
+ why:"Sans tirage, la poussée déséquilibre les épaules vers l'avant et aggrave la posture au lieu de l'améliorer. C'est l'exercice le plus souvent omis, et celui dont l'absence se paie.",
+ steps:["Passer la bande autour d'une poignée de porte ou d'un poteau, à hauteur de poitrine.","Reculer jusqu'à ce que la bande soit légèrement tendue, bras tendus.","Tirer les coudes vers l'arrière en serrant les omoplates l'une vers l'autre.","Revenir lentement, en contrôlant."],
+ reg:"Sans bande : serrer les omoplates l'une vers l'autre, tenir 5 secondes, 12 fois. Moins efficace, mais mieux que rien.",
+ std:"Bande de résistance moyenne, 10 à 12 répétitions.",
+ pro:"Bande plus forte, ou reculer d'un pas pour augmenter la tension de départ.",
+ fmt:"30 et 45 minutes"},
+
+{n:5,z:"haut",jp:"頭上押し",fr:"Développé au-dessus de la tête",en:"overhead press",reps:"10 répétitions",
+ short:"Deux bouteilles d'eau de 1 L suffisent pour commencer.",
+ why:"L'épaule perd son amplitude au-dessus de la tête plus vite que n'importe quelle autre articulation. Ce mouvement la garde.",
+ steps:["Une bouteille d'eau de 1 L ou une boîte de conserve dans chaque main, au niveau des épaules.","Pousser au-dessus de la tête sans cambrer le bas du dos.","Descendre lentement, en 3 secondes."],
+ reg:"Une seule bouteille à la fois, assis sur une chaise avec dossier.",
+ std:"Deux bouteilles de 1 L, debout, 10 répétitions.",
+ pro:"Des haltères, en augmentant de 1 kg à la fois.",
+ note:"Si le bas du dos se cambre pour compenser, la charge est trop lourde. Serrer les fessiers pendant la poussée règle souvent le problème.",
+ fmt:"45 minutes"},
+
+{n:6,z:"tronc",jp:"バードドッグ",fr:"Bird dog",en:"bird dog",reps:"8 par côté",
+ short:"L'exercice de tronc le plus sécuritaire qui existe.",
+ why:"Stabilité lombaire sans aucune compression de la colonne. C'est exactement ce qu'un dos fragile a besoin de faire, et l'inverse d'un redressement assis.",
+ steps:["À quatre pattes, mains sous les épaules, genoux sous les hanches.","Tendre le bras droit vers l'avant et la jambe gauche vers l'arrière, à l'horizontale.","Tenir 5 secondes en gardant le bassin parfaitement stable — imaginer un verre d'eau posé sur le bas du dos.","Revenir, alterner."],
+ reg:"Bras seulement, puis jambe seulement, avant de combiner.",
+ std:"Bras et jambe opposés, 8 par côté, 5 secondes de maintien.",
+ pro:"Allonger le maintien à 10 secondes, ou ajouter un mouvement coude-genou entre chaque répétition.",
+ fmt:"15, 30 et 45 minutes"},
+
+{n:7,z:"tronc",jp:"デッドバグ",fr:"Dead bug",en:"dead bug",reps:"8 par côté",
+ short:"Le bas du dos ne quitte jamais le sol.",
+ why:"Apprend au tronc à résister à l'extension pendant que les membres bougent. C'est exactement ce qui manque quand on se relève d'une chaise ou qu'on porte quelque chose.",
+ steps:["Sur le dos, bras tendus vers le plafond, genoux à 90 degrés au-dessus des hanches.","Plaquer le bas du dos contre le sol et le garder plaqué tout le long.","Descendre lentement un bras derrière la tête et la jambe opposée vers le sol.","Revenir, alterner."],
+ reg:"Jambes seulement, sans les bras.",
+ std:"Bras et jambe opposés, 8 par côté.",
+ pro:"Descendre plus bas et plus lentement, jusqu'à frôler le sol.",
+ note:"Dès que le bas du dos décolle du sol, l'exercice ne travaille plus ce qu'il doit travailler. Réduire l'amplitude plutôt que de forcer.",
+ fmt:"30 et 45 minutes"},
+
+{n:8,z:"tronc",jp:"斜めプランク",fr:"Planche inclinée",en:"incline plank",reps:"15 à 30 secondes",
+ short:"Sur le comptoir, pas au sol.",
+ why:"Une planche au sol à poids élevé sollicite énormément les poignets, les épaules et le bas du dos. L'inclinaison règle les trois d'un coup.",
+ steps:["Avant-bras sur le comptoir de cuisine, coudes sous les épaules.","Corps droit de la tête aux talons, fessiers serrés.","Tenir 15 à 30 secondes en respirant normalement."],
+ reg:"Avant-bras plus haut : le dossier d'un fauteuil solide, ou le mur.",
+ std:"Comptoir de cuisine, 2 × 30 secondes.",
+ pro:"Descendre progressivement : une chaise, puis une marche, puis le sol.",
+ fmt:"45 minutes"},
+
+{n:9,z:"jambes",jp:"立ち上がり",fr:"Lever de chaise",en:"sit-to-stand",reps:"8 à 12 répétitions",
+ short:"L'exercice le plus important de toute la liste.",
+ why:"C'est un squat, mais avec une amplitude limitée par la chaise et un filet de sécurité. C'est aussi le mouvement le plus utile de la vie quotidienne — se lever d'une chaise, d'un lit, de la toilette, de la voiture. La force qu'il développe se transfère directement.",
+ steps:["S'asseoir au bord d'une chaise, pieds à plat, largeur des hanches.","Se relever sans utiliser les mains, en poussant dans les talons.","Se rasseoir en contrôlant la descente sur 3 secondes — c'est la partie qui compte.","Ne pas se laisser tomber sur la chaise."],
+ reg:"Chaise plus haute, ou s'aider légèrement des mains sur les cuisses.",
+ std:"Chaise de cuisine ordinaire, sans les mains, 8 à 12 répétitions.",
+ pro:"Chaise plus basse, puis une jambe légèrement en avant, puis tenir un poids contre la poitrine.",
+ fmt:"15, 30 et 45 minutes"},
+
+{n:10,z:"jambes",jp:"ヒップリフト",fr:"Pont fessier",en:"glute bridge",reps:"12 à 15 répétitions",
+ short:"Réveille des fessiers désactivés par la position assise.",
+ why:"La position assise prolongée désactive les fessiers. Faibles, ils reportent le travail sur les lombaires — c'est une cause fréquente de mal de dos chez les gens qui travaillent assis.",
+ steps:["Sur le dos, genoux pliés, pieds à plat au sol à environ 30 cm des fesses.","Pousser dans les talons pour soulever les hanches jusqu'à une ligne droite épaules-genoux.","Serrer les fessiers 2 secondes en haut.","Redescendre lentement sans poser complètement."],
+ reg:"Amplitude réduite : ne monter qu'à mi-hauteur.",
+ std:"12 à 15 répétitions, 2 secondes de contraction en haut.",
+ pro:"Un pied levé (pont unilatéral), ou un poids posé sur les hanches.",
+ fmt:"15, 30 et 45 minutes"},
+
+{n:11,z:"jambes",jp:"踏み台昇降",fr:"Montée de marche",en:"step-up",reps:"8 par jambe",
+ short:"Une marche d'escalier suffit.",
+ why:"Travaille une jambe à la fois, ce qui corrige les déséquilibres et sollicite l'équilibre en même temps. Et ça se transfère littéralement à monter un escalier.",
+ steps:["Face à une marche ou un banc bas, un pied dessus.","Monter en poussant dans la jambe avant, sans prendre d'élan avec l'autre pied.","Redescendre lentement, en contrôlant.","Terminer les répétitions d'un côté avant de changer."],
+ reg:"Marche très basse, 10 cm. Se tenir à une rampe.",
+ std:"Une marche d'escalier standard, 8 par jambe, main légère sur la rampe.",
+ pro:"Marche plus haute, ou un poids dans chaque main.",
+ fmt:"30 et 45 minutes"},
+
+{n:12,z:"jambes",jp:"空気椅子",fr:"Chaise murale",en:"wall sit",reps:"15 à 45 secondes",
+ short:"Aucun mouvement, beaucoup de travail.",
+ why:"Un exercice isométrique : les cuisses travaillent fort sans aucun mouvement articulaire. C'est aussi le test de progression le plus facile à mesurer — chronomètre-le chaque semaine.",
+ steps:["Dos au mur, pieds à environ 50 cm du mur.","Glisser vers le bas jusqu'à ce que les cuisses soient à mi-chemin de l'horizontale.","Tenir 15 à 45 secondes, en respirant normalement.","Remonter en poussant dans les talons."],
+ reg:"Descendre moins bas. Même dix centimètres de flexion comptent.",
+ std:"Cuisses à mi-chemin, 2 × 30 secondes.",
+ pro:"Descendre jusqu'aux cuisses parallèles au sol, ou tenir plus longtemps.",
+ fmt:"30 et 45 minutes"},
+
+{n:13,z:"jambes",jp:"横上げ",fr:"Élévation latérale de jambe",en:"side leg raise",reps:"12 par côté",
+ short:"Les fessiers moyens stabilisent le bassin à la marche.",
+ why:"Faibles, les fessiers moyens laissent le bassin basculer à chaque pas — ce qui cause des douleurs de genou et de hanche chez les gens qui recommencent à marcher beaucoup.",
+ steps:["Debout, une main sur le dossier d'une chaise.","Lever une jambe tendue sur le côté, sans pencher le buste.","Monter seulement jusqu'où le bassin reste droit — environ 30 à 45 degrés suffisent.","Redescendre lentement."],
+ reg:"Amplitude plus courte, deux mains sur la chaise.",
+ std:"12 par côté, buste droit.",
+ pro:"Une bande élastique autour des chevilles, ou couché sur le côté au sol.",
+ fmt:"45 minutes"},
+
+{n:14,z:"mollets",jp:"かかと上げ",fr:"Élévation sur la pointe des pieds",en:"calf raise",reps:"15 répétitions",
+ short:"Le mollet est la pompe veineuse de la jambe.",
+ why:"Renforce les mollets et améliore le retour veineux — utile quand on passe beaucoup de temps assis. Se fait n'importe où, en attendant que l'eau bouille.",
+ steps:["Debout, mains légèrement posées sur un comptoir.","Monter sur la pointe des pieds, le plus haut possible.","Descendre lentement, en 3 secondes.","Ne pas rebondir en bas."],
+ reg:"Deux mains sur le comptoir pour se soulager d'une partie du poids.",
+ std:"15 répétitions, descente contrôlée.",
+ pro:"Sur une marche, en laissant les talons descendre sous le niveau de la marche. Puis sur une jambe.",
+ fmt:"45 minutes"},
+
+{n:15,z:"mollets",jp:"足首回し",fr:"Cercles de cheville",en:"ankle circles",reps:"10 cercles par direction, par pied",
+ short:"La première articulation limitante quand on recommence à marcher.",
+ why:"Souvent négligé, et pourtant la cheville est la première articulation qui bloque quand on augmente le volume de marche. Trente secondes par jour suffisent.",
+ steps:["Assis, une jambe légèrement soulevée.","Dessiner de grands cercles avec la pointe du pied, 10 fois dans un sens.","10 fois dans l'autre sens.","Changer de pied."],
+ reg:"Pied posé au sol, en pivotant seulement l'avant du pied.",
+ std:"Jambe soulevée, 10 cercles par direction, par pied.",
+ pro:"Dessiner l'alphabet avec la pointe du pied.",
+ fmt:"45 minutes (mobilité)"},
+
+{n:16,z:"fonc",jp:"荷物運び",fr:"Port de charge",en:"farmer carry",reps:"3 allers-retours de 20 à 30 pas",
+ short:"Deux sacs d'épicerie lourds. Aucun équipement requis.",
+ why:"Renforce la préhension, les épaules, le tronc et les jambes en même temps, et se transfère directement à la vie réelle — porter les sacs d'épicerie d'un seul voyage est un des meilleurs indicateurs de progrès du guide.",
+ steps:["Un sac d'épicerie lourd dans chaque main.","Marcher 20 à 30 pas en gardant le tronc droit et les épaules basses, jamais remontées vers les oreilles.","Poser, se reposer 45 secondes, recommencer.","Trois allers-retours."],
+ reg:"Sacs plus légers, distance plus courte.",
+ std:"Deux sacs qui deviennent inconfortables vers le vingtième pas.",
+ pro:"Plus lourd, plus loin, ou un seul sac (port asymétrique — beaucoup plus exigeant pour le tronc).",
+ fmt:"45 minutes"}
+];
+
+class Component extends DCLogic {
+  state = { zone: "tous", open: null };
+
+  componentDidMount() {
+    this.sync();
+    this._h = () => this.sync();
+    window.addEventListener("hashchange", this._h);
+
+  }
+  componentWillUnmount() { window.removeEventListener("hashchange", this._h); }
+
+  sync() {
+    const id = (location.hash || "").replace("#", "");
+    const m = id.match(/^E(\d+)$/);
+    const found = m ? E.find(e => e.n === +m[1]) : null;
+    this.setState({ open: found ? found.n : null });
+  }
+  go(n) { location.hash = "E" + n; this.setState({ open: n }); }
+  close() {
+    history.replaceState(null, "", location.pathname + location.search);
+    this.setState({ open: null });
+  }
+
+  renderVals() {
+    const { zone, open } = this.state;
+    const list = E.filter(e => zone === "tous" || e.z === zone).map(e => ({
+      n: e.n, jp: e.jp, fr: e.fr, en: e.en, short: e.short, reps: e.reps, jpt: e.jp + " — " + e.en + " · " + e.fr,
+      go: () => this.go(e.n)
+    }));
+
+    const o = E.find(e => e.n === open);
+    const openVal = o ? {
+      n: o.n, jp: o.jp, fr: o.fr, en: o.en, why: o.why, reps: o.reps, jpt: o.jp + " — " + o.en + " · " + o.fr,
+      zone: ZL[o.z],
+      steps: o.steps.map((t, i) => ({ n: i + 1, t })),
+      reg: o.reg, std: o.std, pro: o.pro,
+      hasNote: !!o.note, note: o.note || "",
+      formats: o.fmt
+    } : null;
+
+    const base = "background:#f3f2f2;border:0;padding:9px 13px;font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:inherit;color:#201e1d";
+    const on = "background:#ec3013;border:0;padding:9px 13px;font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:inherit;color:#fff";
+
+    return {
+      zones: ZONES.map(z => ({ label: z.label, style: z.k === zone ? on : base, go: () => this.setState({ zone: z.k }) })),
+      list,
+      open: openVal,
+      showFiche: !!openVal,
+      showList: true,
+      close: () => this.close()
+    };
+  }
+}
+</script>
+</body>
+</html>

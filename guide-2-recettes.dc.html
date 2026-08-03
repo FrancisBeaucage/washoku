@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="_ds/modernist-5fa86008-2cf9-46da-9dfc-2464fb85de11/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap">
+<style>
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:#f3f2f2; color:#201e1d; font-family:"Archivo",system-ui,sans-serif; }
+  * { box-sizing:border-box; }
+  img { display:block; max-width:100%; }
+  a { color:#ae1800; text-decoration:none; }
+  a:hover { color:#ec3013; }
+  a:focus-visible, button:focus-visible, input:focus-visible { outline:2px solid #ec3013; outline-offset:2px; }
+  ::selection { background:#ffc4b8; }
+  p, li { text-wrap:pretty; }
+  button { font-family:inherit; }
+  table { border-collapse:collapse; width:100%; font-size:14.5px; min-width:440px; }
+  th { text-align:left; font-weight:800; font-size:11px; letter-spacing:.12em; text-transform:uppercase; padding:0 14px 8px 0; border-bottom:2px solid #201e1d; vertical-align:bottom; }
+  td { padding:11px 14px 11px 0; border-bottom:1px solid #d7d3d3; vertical-align:top; line-height:1.5; }
+  tr td:last-child, tr th:last-child { padding-right:0; }
+  .tw { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:22px 0; }
+  .in { max-width:1180px; margin:0 auto; padding:clamp(28px,4vw,52px) clamp(16px,4vw,40px); }
+  .filters { display:grid; grid-template-columns:repeat(auto-fit,minmax(118px,1fr)); gap:2px; background:#c9c5c5; border:2px solid #201e1d; width:100%; }
+  .filterbar { max-width:1180px; margin:0 auto; padding:12px clamp(16px,4vw,40px); display:grid; gap:10px; }
+  .fiche2 { display:grid; grid-template-columns:minmax(230px,320px) 1fr; gap:clamp(24px,4vw,52px); align-items:start; }
+  .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:#201e1d; border:2px solid #201e1d; margin:clamp(22px,3vw,34px) 0; }
+  @media (max-width:760px) { .fiche2 { grid-template-columns:1fr; } .metrics { grid-template-columns:repeat(2,1fr); } }
+</style>
+</helmet>
+
+<div style="background:#f3f2f2;min-height:100vh">
+
+  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:30">
+    <div style="max-width:1180px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:baseline;gap:16px;flex-wrap:wrap">
+      <a href="index.dc.html" style="display:flex;align-items:baseline;gap:10px;color:#201e1d">
+        <span title="wa — « wa » · l'harmonie, et le Japon" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:900;font-size:22px;color:#ec3013;line-height:1">和</span>
+        <span style="font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase">Washoku</span>
+      </a>
+      <nav style="display:flex;gap:clamp(10px,2vw,22px);margin-left:auto;flex-wrap:wrap;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase">
+        <a href="guide-1-manger.dc.html" style="color:#201e1d">1 · Manger</a>
+        <a href="guide-2-recettes.dc.html" style="color:#ec3013">2 · Recettes</a>
+        <a href="guide-3-supermarche.dc.html" style="color:#201e1d">3 · Supermarché</a>
+        <a href="guide-4-bouger.dc.html" style="color:#201e1d">4 · Bouger</a>
+      </nav>
+    </div>
+  </header>
+
+  <sc-if value="{{ showFiche }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
+    <article style="max-width:1180px;margin:0 auto;padding:clamp(20px,3vw,36px) clamp(16px,4vw,40px) clamp(48px,7vw,90px)">
+      <button onClick="{{ close }}" style="display:inline-flex;align-items:center;gap:8px;background:none;border:0;border-bottom:2px solid #201e1d;padding:0 0 3px;margin-bottom:26px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#201e1d" style-hover="color:#ec3013;border-color:#ec3013">← Toutes les fiches</button>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(20px,4vw,44px);align-items:start">
+        <div>
+          <p style="margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">{{ open.id }} · {{ open.catLabel }}</p>
+          <p title="{{ open.jpt }}" style="margin:0;font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(30px,6vw,58px);line-height:1.05;letter-spacing:-.01em;cursor:help">{{ open.jp }}</p>
+          <p style="margin:6px 0 0;font-size:clamp(15px,2vw,19px);font-style:italic;color:#605d5d">{{ open.ro }}</p>
+          <h1 style="margin:12px 0 0;font-weight:800;font-size:clamp(22px,3.4vw,34px);line-height:1.1;letter-spacing:-.02em">{{ open.fr }}</h1>
+          <p style="margin:14px 0 0;font-size:16.5px;line-height:1.65;color:#444141;max-width:34em">{{ open.sub }}</p>
+        </div>
+        <figure style="margin:0">
+          <div role="img" aria-label="{{ open.fr }}" style="width:100%;aspect-ratio:4/3;border:2px solid #201e1d;background-color:#eae9e9;background-size:cover;background-position:center;background-image:{{ open.bg }}"></div>
+        </figure>
+      </div>
+
+      <div class="metrics">
+        <div style="background:#f3f2f2;padding:14px 16px"><p style="margin:0 0 3px;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#7d7979">Portions</p><p style="margin:0;font-size:19px;font-weight:800">{{ open.por }}</p></div>
+        <div style="background:#f3f2f2;padding:14px 16px"><p style="margin:0 0 3px;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#7d7979">Temps réel</p><p style="margin:0;font-size:19px;font-weight:800">{{ open.tps }}</p></div>
+        <div style="background:#f3f2f2;padding:14px 16px"><p style="margin:0 0 3px;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#7d7979">Protéines</p><p style="margin:0;font-size:19px;font-weight:800;color:#ec3013">{{ open.pro }}</p></div>
+        <div style="background:#f3f2f2;padding:14px 16px"><p style="margin:0 0 3px;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#7d7979">Calories <span style="text-transform:none;letter-spacing:0">(estimé)</span></p><p style="margin:0;font-size:19px;font-weight:800">{{ open.cal }}</p></div>
+      </div>
+
+      <div class="fiche2">
+        <div>
+          <p style="margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Ingrédients</p>
+          <sc-for list="{{ open.ing }}" as="i" hint-placeholder-count="5">
+            <p style="margin:0;padding:9px 0;border-bottom:1px solid #d7d3d3;font-size:15.5px;line-height:1.5">{{ i.t }}</p>
+          </sc-for>
+          <sc-if value="{{ open.hasTech }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:22px">
+              <p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Techniques utilisées</p>
+              <sc-for list="{{ open.tech }}" as="t" hint-placeholder-count="2">
+                <button onClick="{{ t.go }}" style="display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid #d7d3d3;padding:8px 0;font-size:14.5px;cursor:pointer;color:#ae1800" style-hover="color:#ec3013">{{ t.label }} →</button>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+
+        <div style="min-width:0">
+          <p style="margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Préparation</p>
+          <sc-for list="{{ open.steps }}" as="s" hint-placeholder-count="4">
+            <div style="display:flex;gap:16px;padding:14px 0;border-bottom:1px solid #d7d3d3">
+              <span style="flex:0 0 auto;font-weight:800;font-size:17px;color:#ec3013;line-height:1.5;min-width:1.4em">{{ s.n }}</span>
+              <p style="margin:0;font-size:16px;line-height:1.65">{{ s.t }}</p>
+            </div>
+          </sc-for>
+          <sc-if value="{{ open.hasNotes }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:26px">
+              <sc-for list="{{ open.notes }}" as="n" hint-placeholder-count="1">
+                <div style="border-top:2px solid #ec3013;padding:12px 0 0;margin-bottom:20px">
+                  <p style="margin:0 0 5px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ec3013">{{ n.k }}</p>
+                  <p style="margin:0;font-size:15.5px;line-height:1.65">{{ n.t }}</p>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </article>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ showList }}" hint-placeholder-val="{{ true }}">
+    <div>
+      <section style="max-width:1180px;margin:0 auto;padding:clamp(30px,5vw,66px) clamp(16px,4vw,40px) clamp(20px,3vw,32px)">
+        <p style="margin:0 0 14px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">Guide 2 sur 4 · Cuisiner</p>
+        <h1 style="margin:0;font-weight:800;font-size:clamp(32px,6vw,64px);line-height:1.02;letter-spacing:-.025em;max-width:14em">Recueil de recettes et de techniques</h1>
+        <p style="margin:16px 0 0;font-family:'Noto Serif JP',serif;font-weight:600;font-size:clamp(16px,2.4vw,22px);color:#605d5d"><span title="ryōrichō — « ryô-ri-tchô » · le carnet de recettes" style="cursor:help;border-bottom:1px dotted currentColor">料理帖</span> — 7 techniques, 49 recettes</p>
+        <p style="margin:20px 0 0;font-size:17px;line-height:1.7;max-width:38em;color:#444141">Ce document se consulte, il ne se lit pas. Chaque recette est une fiche&nbsp;: photo, portions, temps réel, protéines, calories estimées, ingrédients, étapes. Les techniques <strong>T1 à T7</strong> sont les gestes de base — elles reviennent partout, lisez-les une fois avant de commencer.</p>
+        <p style="margin:12px 0 0;font-size:14.5px;line-height:1.7;max-width:38em;color:#605d5d">Le symbole <strong style="color:#ec3013">†</strong> signale un aliment qui fait l'objet d'une note de santé dans la <a href="guide-1-manger.dc.html#s13">partie D du guide 1</a>. Les calories sont des estimations calculées à partir des quantités indiquées, pas des valeurs mesurées.</p>
+      </section>
+
+      <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:49px;z-index:20">
+        <div class="filterbar">
+          <div class="filters">
+            <sc-for list="{{ cats }}" as="c" hint-placeholder-count="8">
+              <button onClick="{{ c.go }}" style="{{ c.style }}">{{ c.label }}</button>
+            </sc-for>
+          </div>
+          <input type="search" placeholder="Chercher une recette ou un ingrédient…" value="{{ q }}" onInput="{{ search }}" style="width:100%;padding:10px 12px;border:2px solid #201e1d;background:#fff;font-family:inherit;font-size:14px;border-radius:0">
+        </div>
+      </div>
+
+      <section style="max-width:1180px;margin:0 auto;padding:clamp(24px,4vw,40px) clamp(16px,4vw,40px) clamp(48px,7vw,90px)">
+        <p style="margin:0 0 18px;font-size:12.5px;font-weight:700;letter-spacing:.06em;color:#7d7979">{{ count }}</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d">
+          <sc-for list="{{ list }}" as="r" hint-placeholder-count="12">
+            <button onClick="{{ r.go }}" style="display:block;width:100%;text-align:left;background:#f3f2f2;border:0;padding:0;cursor:pointer;font-family:inherit;color:#201e1d" style-hover="background:#fff2ef">
+              <div role="img" aria-label="{{ r.fr }}" style="width:100%;aspect-ratio:4/3;background-color:#eae9e9;background-size:cover;background-position:center;background-image:{{ r.bg }}"></div>
+              <div style="padding:14px 16px 18px">
+                <div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px">
+                  <span style="font-weight:800;font-size:13px;letter-spacing:.06em;color:#ec3013">{{ r.id }}</span>
+                  <span style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#9b9797">{{ r.catLabel }}</span>
+                </div>
+                <p title="{{ r.jpt }}" style="margin:8px 0 2px;font-family:'Noto Serif JP',serif;font-weight:600;font-size:20px;line-height:1.2;cursor:help">{{ r.jp }}</p>
+                <p style="margin:0 0 6px;font-size:12.5px;font-style:italic;color:#7d7979">{{ r.ro }}</p>
+                <p style="margin:0;font-size:15px;font-weight:800;line-height:1.25;letter-spacing:-.01em">{{ r.fr }}</p>
+                <p style="margin:10px 0 0;font-size:12.5px;color:#605d5d">{{ r.meta }}</p>
+              </div>
+            </button>
+          </sc-for>
+        </div>
+      </section>
+
+      <section id="lexique" style="border-top:2px solid #201e1d">
+        <div class="in">
+          <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:6px">
+            <h2 style="margin:0;font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.02em">Lexique</h2>
+            <span title="yōgo — « yô-go » · le lexique" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">用語</span>
+          </div>
+          <p style="margin:0 0 6px;font-size:16px;line-height:1.7;max-width:38em;color:#444141">Les mots qui reviennent partout dans les quatre guides.</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(20px,3vw,40px);margin-top:26px">
+            <div>
+              <p style="margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Les bases</p>
+              <div class="tw" style="margin:0"><table style="min-width:0">
+                <tr><td style="width:38%"><strong title="washoku — « wa-cho-kou » · la cuisine japonaise traditionnelle" style="cursor:help">和食</strong><br><em>washoku</em></td><td>La cuisine japonaise traditionnelle dans son ensemble. Patrimoine immatériel de l'UNESCO depuis 2013.</td></tr>
+                <tr><td><strong title="ichiju sansai — « i-tchi-djou sane-saï » · une soupe, trois plats" style="cursor:help">一汁三菜</strong><br><em>ichiju sansai</em></td><td>« Une soupe, trois plats ». La structure canonique d'un repas japonais.</td></tr>
+                <tr><td><strong title="dashi — « da-chi » · le bouillon de base" style="cursor:help">だし</strong><br><em>dashi</em></td><td>Le bouillon de base. Kombu, katsuobushi, shiitakes séchés ou sardines séchées.</td></tr>
+                <tr><td><strong title="umami — « ou-ma-mi » · la cinquième saveur" style="cursor:help">旨味</strong><br><em>umami</em></td><td>La cinquième saveur, après le sucré, le salé, l'acide et l'amer.</td></tr>
+                <tr><td><strong title="gohan — « go-hane » · le riz cuit, et le repas" style="cursor:help">ご飯</strong><br><em>gohan</em></td><td>Le riz cuit, et par extension « repas ». Le riz cru se dit <em>kome</em> (<span title="kome — « ko-mé » · le riz cru" style="cursor:help;border-bottom:1px dotted currentColor">米</span>).</td></tr>
+                <tr><td><strong title="tamago — « ta-ma-go » · l'œuf" style="cursor:help">卵</strong><br><em>tamago</em></td><td>Œuf.</td></tr>
+              </table></div>
+            </div>
+            <div>
+              <p style="margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Les techniques</p>
+              <div class="tw" style="margin:0"><table style="min-width:0">
+                <tr><td style="width:38%"><strong title="shioyaki — « chi-o-ya-ki » · grillé au sel" style="cursor:help">塩焼き</strong><br><em>shioyaki</em></td><td>« Grillé au sel ». Poisson salé puis passé au gril, sans huile.</td></tr>
+                <tr><td><strong title="shiojime — « chi-o-dji-mé » · le salage préalable" style="cursor:help">塩締め</strong><br><em>shiojime</em></td><td>Le salage préalable qui précède la cuisson.</td></tr>
+                <tr><td><strong title="teriyaki — « té-ri-ya-ki » · grillé puis glacé" style="cursor:help">照り焼き</strong><br><em>teriyaki</em></td><td>Grillé puis glacé à la sauce sucrée-salée.</td></tr>
+                <tr><td><strong title="nitsuke — « ni-tsou-ké » · mijoté au soya et gingembre" style="cursor:help">煮付け</strong><br><em>nitsuke</em></td><td>Mijoté dans soya, mirin et gingembre.</td></tr>
+                <tr><td><strong title="saikyō-yaki — « saï-kyô ya-ki » · mariné au miso puis grillé" style="cursor:help">西京焼き</strong><br><em>saikyo-yaki</em></td><td>Mariné dans du miso blanc sucré, puis grillé.</td></tr>
+                <tr><td><strong title="nanbanzuke — « nane-bane-zou-ké » · frit puis mariné au vinaigre" style="cursor:help">南蛮漬け</strong><br><em>nanbanzuke</em></td><td>Frit puis mariné dans un vinaigre aromatisé.</td></tr>
+                <tr><td><strong title="zuke — « zou-ké » · poisson cru mariné au soya" style="cursor:help">漬け</strong><br><em>zuke</em></td><td>Poisson cru mariné dans la sauce soya.</td></tr>
+                <tr><td><strong title="ohitashi — « o-hi-ta-chi » · verdure blanchie au dashi" style="cursor:help">お浸し</strong><br><em>ohitashi</em></td><td>Verdure blanchie puis trempée dans du dashi assaisonné.</td></tr>
+                <tr><td><strong title="goma-ae — « go-ma a-é » · légumes au sésame broyé" style="cursor:help">胡麻和え</strong><br><em>goma-ae</em></td><td>Légumes enrobés d'une sauce au sésame broyé.</td></tr>
+                <tr><td><strong title="sunomono — « sou-no-mo-no » · salade vinaigrée" style="cursor:help">酢の物</strong><br><em>sunomono</em></td><td>Salade vinaigrée.</td></tr>
+                <tr><td><strong title="kinpira — « kine-pi-ra » · racines sautées puis glacées" style="cursor:help">金平</strong><br><em>kinpira</em></td><td>Légumes-racines sautés puis glacés.</td></tr>
+                <tr><td><strong title="velveting — « chàng jiāng » · attendrir au bicarbonate et à la fécule" style="cursor:help">上漿</strong><br><em>velveting</em> <span style="color:#7d7979">(chinois)</span></td><td>Attendrir la viande au bicarbonate et à la fécule avant de la sauter.</td></tr>
+              </table></div>
+            </div>
+            <div>
+              <p style="margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Les ingrédients</p>
+              <div class="tw" style="margin:0"><table style="min-width:0">
+                <tr><td style="width:38%"><strong title="kombu — « kone-bou » · algue laminaire séchée" style="cursor:help">昆布</strong><br><em>kombu</em> †</td><td>Algue laminaire séchée. Base du dashi. La poudre blanche en surface est l'umami — ne pas la laver.</td></tr>
+                <tr><td><strong title="katsuobushi — « ka-tsou-o-bou-chi » · copeaux de bonite séchée" style="cursor:help">鰹節</strong><br><em>katsuobushi</em></td><td>Bonite séchée, fumée et fermentée, rasée en copeaux très fins.</td></tr>
+                <tr><td><strong title="niboshi — « ni-bo-chi » · petites sardines séchées" style="cursor:help">煮干し</strong><br><em>niboshi</em></td><td>Petites sardines séchées.</td></tr>
+                <tr><td><strong title="miso — « mi-so » · pâte de soya fermenté" style="cursor:help">味噌</strong><br><em>miso</em></td><td>Pâte de soya fermenté. <em>Shiro</em> = blanc et doux. <em>Aka</em> = rouge et corsé.</td></tr>
+                <tr><td><strong title="nattō — « na-tô » · fèves de soya fermentées" style="cursor:help">納豆</strong><br><em>natto</em></td><td>Fèves de soya fermentées. Collant, filant, odeur forte. Très protéiné.</td></tr>
+                <tr><td><strong title="nori — « no-ri » · feuille d'algue séchée" style="cursor:help">海苔</strong><br><em>nori</em> †</td><td>Feuilles d'algue séchée pressée. <em>Yaki nori</em> = nature, grillé.</td></tr>
+                <tr><td><strong title="wakame — « wa-ka-mé » · algue tendre" style="cursor:help">わかめ</strong><br><em>wakame</em> †</td><td>Algue tendre, réhydratée dans les soupes et salades.</td></tr>
+                <tr><td><strong title="konnyaku — « kone-nya-kou » · gelée de konjac" style="cursor:help">こんにゃく</strong><br><em>konnyaku</em></td><td>Gelée ferme de racine de konjac. ~5 calories aux 100 g. En blocs ou en nouilles (<em>shirataki</em>).</td></tr>
+                <tr><td><strong title="tōfu — « tô-fou » · le tofu" style="cursor:help">豆腐</strong><br><em>tofu</em></td><td><em>Momen</em> = ferme. <em>Kinugoshi</em> = soyeux. <em>Atsuage</em> = frit en surface.</td></tr>
+                <tr><td><strong title="daikon — « daï-kone » · gros radis blanc" style="cursor:help">大根</strong><br><em>daikon</em></td><td>Gros radis blanc japonais. Doux, croquant, très peu calorique.</td></tr>
+                <tr><td><strong title="shiso — « chi-so » · herbe entre menthe et basilic" style="cursor:help">紫蘇</strong><br><em>shiso</em></td><td>Herbe aromatique, entre la menthe et le basilic.</td></tr>
+                <tr><td><strong title="yuzu — « you-zou » · agrume japonais" style="cursor:help">柚子</strong><br><em>yuzu</em></td><td>Agrume japonais, entre le pamplemousse et la mandarine.</td></tr>
+                <tr><td><strong title="edamame — « é-da-ma-mé » · fèves de soya en cosses" style="cursor:help">枝豆</strong><br><em>edamame</em> †</td><td>Fèves de soya immatures, servies en cosses.</td></tr>
+                <tr><td><strong title="panko — « pane-ko » · chapelure japonaise" style="cursor:help">パン粉</strong><br><em>panko</em></td><td>Chapelure japonaise, en flocons légers.</td></tr>
+              </table></div>
+            </div>
+            <div>
+              <p style="margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Les condiments</p>
+              <div class="tw" style="margin:0"><table style="min-width:0">
+                <tr><td style="width:38%"><strong title="ponzu — « pone-zou » · sauce soya-agrume" style="cursor:help">ポン酢</strong><br><em>ponzu</em></td><td>Sauce à base de soya et de jus d'agrume. Acidulée, légère.</td></tr>
+                <tr><td><strong title="mirin — « mi-rine » · vin de riz sucré" style="cursor:help">みりん</strong><br><em>mirin</em></td><td>Vin de riz sucré pour la cuisine. Apporte brillant et rondeur.</td></tr>
+                <tr><td><strong title="tare — « ta-ré » · sauce-glaçage réduite" style="cursor:help">タレ</strong><br><em>tare</em></td><td>Sauce-glaçage réduite (soya, mirin, saké, sucre) pour badigeonner.</td></tr>
+                <tr><td><strong title="furikake — « fou-ri-ka-ké » · mélange sec pour le riz" style="cursor:help">ふりかけ</strong><br><em>furikake</em></td><td>Mélange sec à saupoudrer sur le riz. Des dizaines de variétés.</td></tr>
+                <tr><td><strong title="shichimi tōgarashi — « chi-tchi-mi tô-ga-ra-chi » · mélange de sept épices" style="cursor:help">七味唐辛子</strong><br><em>shichimi togarashi</em></td><td>Mélange de sept épices avec piment. Poudre rouge-orangé.</td></tr>
+                <tr><td><strong title="sanshō — « sane-chô » · poivre japonais citronné" style="cursor:help">山椒</strong><br><em>sansho</em></td><td>Poivre japonais, citronné et légèrement engourdissant.</td></tr>
+                <tr><td><strong title="yuzu koshō — « you-zou ko-chô » · pâte de piment au yuzu" style="cursor:help">柚子胡椒</strong><br><em>yuzu kosho</em></td><td>Pâte de piment, sel et zeste de yuzu. Très puissante.</td></tr>
+                <tr><td><strong title="karashi — « ka-ra-chi » · moutarde japonaise" style="cursor:help">辛子</strong><br><em>karashi</em></td><td>Moutarde japonaise, très forte, jaune vif.</td></tr>
+                <tr><td><strong title="goma — « go-ma » · le sésame" style="cursor:help">胡麻</strong><br><em>goma</em></td><td>Sésame. <em>Goma dare</em> = sauce au sésame.</td></tr>
+                <tr><td><strong title="tsukemono — « tsou-ké-mo-no » · légumes marinés" style="cursor:help">漬物</strong><br><em>tsukemono</em></td><td>Légumes marinés.</td></tr>
+                <tr><td><strong title="umeboshi — « ou-mé-bo-chi » · prune salée" style="cursor:help">梅干し</strong><br><em>umeboshi</em></td><td>Prune (abricot japonais) salée et fermentée. Très acide et salée.</td></tr>
+                <tr><td><strong title="yakumi — « ya-kou-mi » · les garnitures fraîches" style="cursor:help">薬味</strong><br><em>yakumi</em></td><td>L'ensemble des petites garnitures fraîches d'un repas.</td></tr>
+                <tr><td><strong title="gochujang — « ko-tchou-djane » · pâte de piment fermentée" style="cursor:help">고추장</strong><br><em>gochujang</em> <span style="color:#7d7979">(coréen)</span></td><td>Pâte de piment fermentée, épaisse et légèrement sucrée.</td></tr>
+                <tr><td><strong title="gochugaru — « ko-tchou-ga-rou » · flocons de piment coréen" style="cursor:help">고춧가루</strong><br><em>gochugaru</em> <span style="color:#7d7979">(coréen)</span></td><td>Flocons de piment coréen. Colorés, plus parfumés que piquants.</td></tr>
+                <tr><td><strong title="doubanjiang — « dou-bane-djiane » · pâte de fèves fermentées" style="cursor:help">豆瓣醬</strong><br><em>doubanjiang</em> <span style="color:#7d7979">(chinois)</span></td><td>Pâte de fèves fermentées épicée. Base du mapo tofu.</td></tr>
+              </table></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="yakumi" style="border-top:2px solid #201e1d">
+        <div class="in">
+          <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:6px">
+            <h2 style="margin:0;font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.02em">Les yakumi</h2>
+            <span title="yakumi — « ya-kou-mi » · les garnitures fraîches" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">薬味</span>
+          </div>
+          <p style="margin:0;font-size:16px;line-height:1.7;max-width:38em;color:#444141">Les garnitures fraîches. La plupart se préparent en moins d'une minute. Ce n'est pas de la cuisine, c'est du râpage — et c'est ce qui fait qu'un même plat n'a jamais le même goût deux fois.</p>
+          <div class="tw"><table>
+            <tr><th>Garniture</th><th>Préparation</th><th>Va avec</th></tr>
+            <tr><td><strong title="daikon oroshi — « daï-kone o-ro-chi » · daikon râpé" style="cursor:help">大根おろし</strong> daikon râpé</td><td>Râper cru, presser légèrement</td><td>Poisson grillé, tempura</td></tr>
+            <tr><td><strong title="shōga — « chô-ga » · le gingembre" style="cursor:help">生姜</strong> gingembre râpé</td><td>Râper finement, sans peler si frais</td><td>Poisson mijoté, tofu froid</td></tr>
+            <tr><td><strong title="negi — « né-gui » · l'oignon vert" style="cursor:help">葱</strong> oignon vert</td><td>Émincer très fin en biseau</td><td>Tout</td></tr>
+            <tr><td><strong title="shiso — « chi-so » · herbe entre menthe et basilic" style="cursor:help">紫蘇</strong> shiso</td><td>Ciseler en lanières</td><td>Sashimi, riz</td></tr>
+            <tr><td><strong title="goma — « go-ma » · le sésame" style="cursor:help">胡麻</strong> sésame grillé</td><td>Griller à sec 2 min dans une poêle, écraser</td><td>Légumes, riz</td></tr>
+            <tr><td><strong title="yuzu — « you-zou » · agrume japonais" style="cursor:help">柚子</strong> zeste de yuzu ou de lime</td><td>Râper juste avant de servir</td><td>Soupes, poisson</td></tr>
+            <tr><td><strong title="nori — « no-ri » · feuille d'algue séchée" style="cursor:help">海苔</strong> nori émincé</td><td>Ciseaux, directement au-dessus du bol</td><td>Riz, ochazuke</td></tr>
+            <tr><td><strong title="katsuobushi — « ka-tsou-o-bou-chi » · copeaux de bonite séchée" style="cursor:help">鰹節</strong> katsuobushi</td><td>Tel quel — il bouge sur les plats chauds</td><td>Tofu froid, légumes</td></tr>
+            <tr><td><strong title="umeboshi — « ou-mé-bo-chi » · prune salée" style="cursor:help">梅干し</strong> umeboshi</td><td>S'achète tout fait, dénoyauter</td><td>Riz, ochazuke</td></tr>
+            <tr><td><strong title="gari — « ga-ri » · gingembre mariné" style="cursor:help">ガリ</strong> gingembre mariné</td><td>Voir la fiche T7</td><td>Poisson gras</td></tr>
+          </table></div>
+        </div>
+      </section>
+
+      <section id="depannage" style="border-top:2px solid #201e1d">
+        <div class="in">
+          <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:6px">
+            <h2 style="margin:0;font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.02em">Le dépannage</h2>
+            <span title="hijōji — « hi-djô-dji » · l'urgence" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">非常時</span>
+          </div>
+          <p style="margin:0 0 20px;font-size:16px;line-height:1.7;max-width:38em;color:#444141">Il y aura des soirs sans énergie, sans épicerie, sans plan. L'objectif n'est pas la perfection — c'est d'avoir une option qui bat la commande de pizza.</p>
+
+          <h3 style="margin:30px 0 10px;font-size:20px;font-weight:800">Les nouilles instantanées&nbsp;: la vérité</h3>
+          <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em">Un paquet typique, c'est <strong>380 à 500 calories, 15 à 20 g de gras, 1 500 à 2 000 mg de sodium, et seulement 8 à 10 g de protéines</strong>. Ce n'est pas un aliment de perte de poids. <strong>Mais</strong> bien utilisé, ça devient un vrai repas à 500 calories avec 35 g de protéines, pour cinq minutes de travail. C'est exactement ce que font les Asiatiques — le paquet est une base, rarement le repas complet.</p>
+          <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em">La majorité des nouilles instantanées sont <strong>frites</strong> avant séchage, d'où les 15 à 20 g de gras. Cherchez les mentions <em>non-fried</em>, <em>air-dried</em> ou <span title="namamen — « na-ma-mène » · nouilles non frites" style="cursor:help;border-bottom:1px dotted currentColor">生麺</span> sur l'emballage.</p>
+          <div class="tw"><table>
+            <tr><th>Marque</th><th>Origine</th><th>Note</th></tr>
+            <tr><td><strong>Nissin Raoh</strong></td><td>Japon</td><td><strong>Le meilleur choix.</strong> Nouilles non frites, texture proche du vrai ramen.</td></tr>
+            <tr><td><strong>A-Sha</strong></td><td>Taïwan</td><td>Séchées à l'air, souvent vendues sans sachet de gras</td></tr>
+            <tr><td><strong>Prima Taste</strong></td><td>Singapour</td><td>Régulièrement classée meilleure au monde. Riche par contre.</td></tr>
+            <tr><td><strong>Nongshim Shin Ramyun</strong></td><td>Corée</td><td>Le standard. Nouilles correctes, bouillon très salé.</td></tr>
+            <tr><td><strong>Samyang Buldak</strong></td><td>Corée</td><td>Très épicé, sauce plutôt que bouillon</td></tr>
+            <tr><td><strong>Indomie Mi Goreng</strong></td><td>Indonésie</td><td>Style sauté, pas en soupe</td></tr>
+            <tr><td><strong>À éviter</strong></td><td></td><td>Les marques génériques bon marché&nbsp;: nouilles frites, sachet ultra-salé, zéro nutriment</td></tr>
+          </table></div>
+
+          <h3 style="margin:30px 0 10px;font-size:20px;font-weight:800">Les trois règles</h3>
+          <ol style="margin:0 0 20px;padding-left:1.15em;max-width:38em;font-size:16.5px;line-height:1.7">
+            <li style="margin-bottom:8px"><strong>Utiliser la moitié du sachet d'assaisonnement.</strong> C'est là qu'est presque tout le sodium. Compenser avec de l'ail, du gingembre, du vinaigre, du piment ou une pincée de MSG.</li>
+            <li style="margin-bottom:8px"><strong>Ne pas boire tout le bouillon.</strong> Environ 40&nbsp;% du sodium reste dans le bol.</li>
+            <li><strong>Jeter la moitié des nouilles, doubler les légumes.</strong> Le paquet devient une portion raisonnable.</li>
+          </ol>
+          <div class="tw"><table>
+            <tr><th>Ajout</th><th>Comment</th><th>Apport</th></tr>
+            <tr><td><strong>1 ou 2 œufs</strong></td><td>Casser directement dans le bouillon frémissant, 2 à 3 minutes sans brasser</td><td>+12 g de protéines</td></tr>
+            <tr><td><strong>Edamames † congelés</strong></td><td>Une poignée jetée dans le bouillon, ils décongèlent en 1 minute</td><td>+9 g</td></tr>
+            <tr><td><strong>Épinards ou bok choy</strong></td><td>Jetés crus à la fin, ils tombent en 30 secondes</td><td>Volume</td></tr>
+            <tr><td><strong>Fèves germées</strong></td><td>Crues, au fond du bol, avant de verser</td><td>Croquant et volume</td></tr>
+            <tr><td><strong>Tofu ferme en cubes</strong></td><td>2 minutes dans le bouillon</td><td>+8 g</td></tr>
+            <tr><td><strong>Reste de poulet ou de porc</strong></td><td>Effiloché, ajouté à la fin</td><td>+25 g</td></tr>
+            <tr><td><strong>Crevettes congelées</strong></td><td>3 minutes dans le bouillon</td><td>+20 g</td></tr>
+            <tr><td><strong>Kimchi</strong></td><td>2 c. à soupe, ajoute acidité et profondeur</td><td>Saveur</td></tr>
+          </table></div>
+          <div style="border-top:2px solid #ec3013;padding-top:12px;max-width:40em;margin-top:8px">
+            <p style="margin:0 0 5px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ec3013">Le format qui marche à tout coup</p>
+            <p style="margin:0;font-size:15.5px;line-height:1.65">Sachet + 2 œufs + une poignée d'edamames + deux poignées d'épinards + oignon vert. Cinq minutes, environ 550 calories, 32 g de protéines, et beaucoup plus rassasiant que le paquet seul.</p>
+          </div>
+
+          <h3 style="margin:34px 0 10px;font-size:20px;font-weight:800">Les autres dépannages</h3>
+          <ul style="margin:0;padding-left:1.15em;max-width:38em;font-size:16.5px;line-height:1.7">
+            <li style="margin-bottom:8px"><strong>Gyoza congelés à la vapeur</strong> — 6 à 8 gyoza dans un panier vapeur, 8 minutes. Avec une soupe-entrée et une salade de concombre, c'est un souper complet à 400 calories.</li>
+            <li style="margin-bottom:8px"><strong>Onigiri du commerce</strong> — environ 200 calories. Avec des edamames et un œuf dur, ça devient un vrai dîner.</li>
+            <li style="margin-bottom:8px"><strong>Tofu froid</strong> — un bloc de tofu soyeux, du ponzu, de l'oignon vert, du katsuobushi. Trente secondes, 15 g de protéines.</li>
+            <li><strong>Le bol de restes</strong> — voir la fiche R9. C'est toujours la meilleure option.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="the" style="border-top:2px solid #201e1d">
+        <div class="in">
+          <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:6px">
+            <h2 style="margin:0;font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.02em">Le thé</h2>
+            <span title="ocha — « o-tcha » · le thé" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">お茶</span>
+          </div>
+          <p style="margin:0 0 20px;font-size:16px;line-height:1.7;max-width:38em;color:#444141">La différence principale entre un bon et un mauvais thé n'est pas la marque, c'est le <strong>format de la feuille</strong>. Les sachets de masse contiennent des <em>fannings</em> et de la poussière&nbsp;: ils infusent vite, libèrent beaucoup de tanins d'un coup, et donnent un thé plat et amer. Si l'emballage montre des feuilles reconnaissables, c'est bon signe.</p>
+
+          <h3 style="margin:26px 0 10px;font-size:20px;font-weight:800">Températures et durées</h3>
+          <p style="margin:0 0 8px;font-size:16.5px;line-height:1.7;max-width:38em">C'est ici que la plupart des gens ratent leur thé. <strong>Le thé vert infusé à l'eau bouillante devient amer</strong> — les catéchines s'extraient trop vite à haute température.</p>
+          <div class="tw"><table>
+            <tr><th>Thé</th><th>Température</th><th>Durée</th><th>2<sup>e</sup> infusion</th></tr>
+            <tr><td><strong><span title="sencha — « sène-tcha » · thé vert infusé" style="cursor:help;border-bottom:1px dotted currentColor">煎茶</span> Sencha</strong></td><td><strong>70 à 75 °C</strong></td><td>1 min 30 à 2 min</td><td>Oui, plus courte</td></tr>
+            <tr><td><strong><span title="gyokuro — « gyo-kou-ro » · thé vert d'ombre" style="cursor:help;border-bottom:1px dotted currentColor">玉露</span> Gyokuro</strong></td><td>50 à 60 °C</td><td>2 min</td><td>Oui</td></tr>
+            <tr><td><strong><span title="genmaicha — « guène-maï-tcha » · thé vert au riz soufflé" style="cursor:help;border-bottom:1px dotted currentColor">玄米茶</span> Genmaicha</strong></td><td>80 à 85 °C</td><td>1 min</td><td>Oui</td></tr>
+            <tr><td><strong><span title="hōjicha — « hô-dji-tcha » · thé vert torréfié" style="cursor:help;border-bottom:1px dotted currentColor">ほうじ茶</span> Hojicha</strong></td><td>90 à 95 °C</td><td>30 sec à 1 min</td><td>Oui</td></tr>
+            <tr><td><strong><span title="mugicha — « mou-gui-tcha » · thé d'orge grillé" style="cursor:help;border-bottom:1px dotted currentColor">麦茶</span> Mugicha</strong> (chaud)</td><td>Eau bouillante</td><td>3 à 5 min</td><td>Non</td></tr>
+            <tr><td><strong><span title="mugicha — « mou-gui-tcha » · thé d'orge grillé" style="cursor:help;border-bottom:1px dotted currentColor">麦茶</span> Mugicha</strong> (froid)</td><td>Eau froide</td><td>Une nuit au frigo</td><td>Non</td></tr>
+            <tr><td><strong><span title="ūroncha — « ou-rone-tcha » · thé oolong" style="cursor:help;border-bottom:1px dotted currentColor">烏龍茶</span> Oolong</strong></td><td>85 à 95 °C</td><td>1 à 3 min</td><td>Oui, plusieurs fois</td></tr>
+            <tr><td><strong>Thé noir</strong></td><td>95 à 100 °C</td><td>3 à 5 min</td><td>Non</td></tr>
+            <tr><td><strong><span title="molihuacha — « mo-li-houa-tcha » · thé au jasmin" style="cursor:help;border-bottom:1px dotted currentColor">茉莉花茶</span> Jasmin</strong></td><td>80 à 85 °C</td><td>2 à 3 min</td><td>Oui</td></tr>
+            <tr><td><strong><span title="pǔ'ěr chá — « pou-eur tcha » · thé pu-erh" style="cursor:help;border-bottom:1px dotted currentColor">普洱茶</span> Pu-erh</strong></td><td>95 à 100 °C</td><td>2 à 5 min</td><td>Oui, plusieurs fois</td></tr>
+          </table></div>
+          <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em"><strong>Dosage général</strong>&nbsp;: environ 2 g pour 200 ml, soit une cuillère à thé bien remplie. <strong>Retirer les feuilles à la fin de l'infusion</strong> — les laisser tremper est la deuxième cause d'amertume après la température.</p>
+          <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em"><strong>Sans thermomètre</strong>&nbsp;: eau bouillante = 100 °C ▪ versée dans une tasse froide et attendre 1 minute ≈ 85 °C ▪ transvidée une deuxième fois ≈ 75 °C ▪ petites bulles au fond de la casserole, sans remontée ≈ 70 à 80 °C.</p>
+
+          <h3 style="margin:26px 0 10px;font-size:20px;font-weight:800">L'infusion à froid (<span title="mizudashi — « mi-zou-da-chi » · l'infusion à froid" style="cursor:help;border-bottom:1px dotted currentColor">水出し</span> <em>mizudashi</em>)</h3>
+          <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em"><strong>La meilleure découverte pour qui trouve le thé vert amer.</strong> L'eau froide n'extrait presque pas de catéchines ni de caféine, mais extrait les acides aminés — dont la théanine, responsable de la douceur et de l'umami. Résultat&nbsp;: un thé vert <strong>doux, presque sucré, sans aucune amertume</strong>.</p>
+          <p style="margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em"><strong>Méthode</strong>&nbsp;: 10 g de feuilles dans 1 L d'eau froide, une nuit au réfrigérateur, filtrer. Se garde 2 jours. Fonctionne pour le sencha, le genmaicha, l'oolong et le jasmin.</p>
+
+          <h3 style="margin:26px 0 10px;font-size:20px;font-weight:800">Où acheter à Montréal</h3>
+          <div class="tw"><table>
+            <tr><th style="width:34%">Endroit</th><th>Note</th></tr>
+            <tr><td><strong>Camellia Sinensis</strong> (Ontario Est)</td><td>La meilleure sélection en ville. On peut goûter et demander conseil.</td></tr>
+            <tr><td><strong>Kim Phat, Marché Hawaii</strong></td><td>Mugicha, hojicha, genmaicha à prix imbattable. Boîtes de 50 sachets.</td></tr>
+            <tr><td><strong>David's Tea</strong></td><td>Correct, mais beaucoup de mélanges aromatisés sucrés</td></tr>
+            <tr><td><strong>Épicerie standard</strong></td><td>Harney &amp; Sons, Stash, Bigelow et le Earl Grey de Twinings passent. Lipton, Red Rose et Tetley, non.</td></tr>
+          </table></div>
+          <p style="margin:0;font-size:16.5px;line-height:1.7;max-width:38em"><strong>Conservation.</strong> Le thé craint quatre choses&nbsp;: l'air, la lumière, l'humidité et les odeurs. Un contenant opaque et hermétique, dans une armoire, loin des épices et du café. Le thé vert se dégrade plus vite que le noir — six mois à un an.</p>
+        </div>
+      </section>
+    </div>
+  </sc-if>
+
+  <footer style="border-top:2px solid #201e1d;background:#201e1d;color:#bab6b6">
+    <div style="max-width:1180px;margin:0 auto;padding:clamp(32px,5vw,56px) clamp(16px,4vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px">
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Suite</p>
+        <p style="margin:0;font-size:15px;line-height:1.7">Voir le <a href="guide-1-manger.dc.html" style="color:#f8f4f4;text-decoration:underline">guide 1</a> pour les principes, et le <a href="guide-3-supermarche.dc.html" style="color:#f8f4f4;text-decoration:underline">guide du supermarché</a> pour trouver les ingrédients.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Les calories</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">Toutes les valeurs caloriques de ce recueil sont des <strong>estimations</strong> calculées à partir des quantités indiquées. Elles servent à comparer les recettes entre elles, pas à tenir une comptabilité précise.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Crédits</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">Photographies&nbsp;: Wikimedia Commons.</p>
+        <p style="margin:14px 0 0"><a href="index.dc.html" style="color:#f8f4f4;text-decoration:underline;font-size:14px">← Retour à l'accueil</a></p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+
+const PRON = (ro) => {
+  if (!ro) return "";
+  const V = { a:"a", i:"i", u:"ou", e:"é", o:"o", ou:"ô", oo:"ô", uu:"ou", aa:"â", ii:"i", ee:"é", ei:"é", ai:"aï" };
+  const C = { sh:"ch", ch:"tch", ts:"ts", j:"dj", ky:"ky", gy:"gy", ny:"ny", hy:"hy", by:"by", py:"py", my:"my", ry:"ry",
+              k:"k", g:"g", s:"s", z:"z", t:"t", d:"d", n:"n", h:"h", b:"b", p:"p", m:"m", y:"y", r:"r", w:"w", f:"f", v:null };
+  let s = ro.toLowerCase().normalize("NFC")
+    .replace(/[ōô]/g,"ou").replace(/[ūû]/g,"uu").replace(/ā/g,"aa").replace(/ī/g,"ii").replace(/[ēê]/g,"ee");
+  if (/[^a-z\s'-]/.test(s)) return "";
+  const words = s.split(/[\s-]+/).filter(Boolean);
+  const out = [];
+  for (const w of words) {
+    const syl = []; let i = 0, guard = 0;
+    while (i < w.length && guard++ < 40) {
+      // sokuon: doubled consonant
+      let gem = "";
+      const two = w.slice(i, i + 2);
+      if (/^([kgstdbpm])\1$/.test(two)) { gem = two[0]; i += 1; }
+      else if (w.slice(i, i + 3) === "tch") { gem = "t"; i += 1; }
+      const rest = w.slice(i);
+      const m = rest.match(/^(sh|ch|ts|ky|gy|ny|hy|by|py|my|ry|[kgszjtdnhbpmyrwf])?(ou|oo|uu|aa|ii|ee|ei|ai|[aeiou])(n(?![aeiouy]))?/);
+      if (!m || (!m[1] && !m[2])) {
+        if (rest === "n" || rest === "n'") { syl.push("ne"); i = w.length; break; }
+        return "";
+      }
+      let cons = m[1] ? C[m[1]] : "";
+      if (cons === null || cons === undefined) return "";
+      let vow = V[m[2]];
+      if (!vow) return "";
+      if (/g$/.test(cons) && /^[éi]/.test(vow)) cons = cons.slice(0, -1) + "gu";
+      let piece = cons + vow + (m[3] ? "ne" : "");
+      if (gem) { if (syl.length) syl[syl.length - 1] += gem; else piece = gem + piece; }
+      syl.push(piece);
+      i += m[0].length;
+    }
+    if (i < w.length) return "";
+    out.push(syl.join("-"));
+  }
+  return out.join(" ");
+};
+const JPT = (jp, ro, fr, pr) => { const p = pr || PRON(ro); let t = ro || jp; if (p && p !== ro) t += " — « " + p + " »"; if (fr) t += " · " + fr; return t; };
+const IMG = {
+  T1:"https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
+  T2:"https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
+  T3:"https://commons.wikimedia.org/wiki/Special:FilePath/Maquereaux_etal.jpg?width=1200",
+  T4:"https://commons.wikimedia.org/wiki/Special:FilePath/Soi_yakizakana.JPG?width=1200",
+  T5:"https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
+  T6:"https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
+  T7:"https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
+  dej:"https://commons.wikimedia.org/wiki/Special:FilePath/Hotel_Kanra_Kyoto_%28Main%29_B2F_The_Kitchen_Kanra_Japanese-style_breakfast_20210628-001.jpg?width=1200",
+  miso:"https://commons.wikimedia.org/wiki/Special:FilePath/Miso_Soup_001.jpg?width=1200",
+  natto:"https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",
+  tkg:"https://commons.wikimedia.org/wiki/Special:FilePath/Tamagokake-gohan_001.jpg?width=1200",
+  bibimbap:"https://commons.wikimedia.org/wiki/Special:FilePath/Dolsot-bibimbap.jpg?width=1200",
+  okayu:"https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_rice_congee.jpg?width=1200",
+  chawanmushi:"https://commons.wikimedia.org/wiki/Special:FilePath/Chawan-mushi.JPG?width=1200",
+  oeuf:"https://commons.wikimedia.org/wiki/Special:FilePath/Asage(Instant%20miso%20soup).jpg?width=1200",
+  donburi:"https://commons.wikimedia.org/wiki/Special:FilePath/Gyudon_by_jetalone_in_Higashi-Ginza%2C_Tokyo.jpg?width=1200",
+  hiyayakko:"https://commons.wikimedia.org/wiki/Special:FilePath/Hiyayakko_with_bonito_flakes_and_welsh_onion_2.jpg?width=1200",
+  ochazuke:"https://commons.wikimedia.org/wiki/Special:FilePath/Una_chazuke_by_Kossy%40FINEDAYS_in_Akabane.jpg?width=1200",
+  soba:"https://commons.wikimedia.org/wiki/Special:FilePath/Dried_soba_noodles_by_FotoosVanRobin.jpg?width=1200",
+  onigiri:"https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
+  saikyo:"https://commons.wikimedia.org/wiki/Special:FilePath/Salmon_Saikyo-Yaki.jpg?width=1200",
+  morue:"https://commons.wikimedia.org/wiki/Special:FilePath/Yellowtail%20Kingfish%20and%20tofu%20simmered%20in%20soy%20sauce%20-%20%E5%B1%B1%E5%AE%B6%20Yama-ya.jpg?width=1200",
+  boeufbroc:"https://commons.wikimedia.org/wiki/Special:FilePath/Beef_and_broccoli_stir_fry.jpg?width=1200",
+  buncha:"https://commons.wikimedia.org/wiki/Special:FilePath/Bun_cha_Hanoi.jpg?width=1200",
+  oyakodon:"https://commons.wikimedia.org/wiki/Special:FilePath/Oyakodon_003.jpg?width=1200",
+  chirashi:"https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1200",
+  yakitori:"https://commons.wikimedia.org/wiki/Special:FilePath/Cooking_yakitori.jpg?width=1200",
+  poulet:"https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20chicken%20thighs.jpg?width=1200",
+  okonomiyaki:"https://commons.wikimedia.org/wiki/Special:FilePath/Okonomiyaki_001.jpg?width=1200",
+  shabu:"https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
+  suanla:"https://commons.wikimedia.org/wiki/Special:FilePath/Ping_SJ_hot_%26_sour_soup.JPG?width=1200",
+  mapo:"https://commons.wikimedia.org/wiki/Special:FilePath/Chen_Mapo_Tofu.jpg?width=1200",
+  tomyum:"https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
+  tomkha:"https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_preppybyday_4711943668--Tom_kha_gai.jpg?width=1200",
+  sundubu:"https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=1200",
+  yukgaejang:"https://commons.wikimedia.org/wiki/Special:FilePath/Korean_soup-Yukgaejang-01.jpg?width=1200",
+  wonton:"https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_wonton_soup.JPG?width=1200",
+  tsukune:"https://commons.wikimedia.org/wiki/Special:FilePath/Tsukune_%28chicken_meatballs%29_%2816065642291%29.jpg?width=1200",
+  oden:"https://commons.wikimedia.org/wiki/Special:FilePath/Yataioden.jpg?width=1200",
+  vapeur:"https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_DimSum_%289023590541%29.jpg?width=1200",
+  pho:"https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_Meatball_pho.jpg?width=1200",
+  shirataki:"https://commons.wikimedia.org/wiki/Special:FilePath/Wet_shirataki_noodles.jpg?width=1200",
+  canh:"https://commons.wikimedia.org/wiki/Special:FilePath/Canhchua2.jpg?width=1200",
+  suimono:"https://commons.wikimedia.org/wiki/Special:FilePath/Suimono_by_Joi.jpg?width=1200",
+  tomate:"https://commons.wikimedia.org/wiki/Special:FilePath/Tomato_je.jpg?width=1200",
+  daikon:"https://commons.wikimedia.org/wiki/Special:FilePath/Daikon.Japan.jpg?width=1200",
+  gomaae:"https://commons.wikimedia.org/wiki/Special:FilePath/Goma-ae_salad.jpg?width=1200",
+  sunomono:"https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
+  kinpira:"https://commons.wikimedia.org/wiki/Special:FilePath/Kinpira_002.jpg?width=1200",
+  concombre:"https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
+  edamame:"https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
+  epinard:"https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200"
+};
+
+const CATS = [
+  {k:"tous", label:"Tout"},
+  {k:"tech", label:"Techniques"},
+  {k:"dej", label:"Déjeuners"},
+  {k:"din", label:"Dîners"},
+  {k:"sou", label:"Soupers"},
+  {k:"soupe", label:"Soupes-entrées"},
+  {k:"gar", label:"Garnitures"},
+  {k:"col", label:"Collations"}
+];
+const CATLABEL = {tech:"Technique", dej:"Déjeuner", din:"Dîner", sou:"Souper", soupe:"Soupe-entrée", gar:"Garniture", col:"Collation"};
+
+const R = [
+{id:"T1",cat:"tech",jp:"米の研ぎ方",ro:"kome no togikata",fr:"Le riz : rinçage et cuisson",img:IMG.T1,por:"6 portions",tps:"10 min + trempage",pro:"3 g / portion",cal:"≈ 200 / bol",
+ sub:"Le rinçage n'est pas facultatif. Il enlève l'amidon de surface qui rend le riz gommant, une partie de l'arsenic inorganique, et les poussières de mouture.",
+ ing:["Riz à grain court japonais — environ 80 g cru par portion de 140 g cuit","Eau froide","Un bol et une passoire fine"],
+ steps:["Mesurer le riz cru dans un bol. Compter environ 80 g de riz cru par portion.","Couvrir d'eau froide. L'eau devient blanche immédiatement — c'est l'amidon.","Brasser du bout des doigts en mouvement circulaire, une quinzaine de secondes. Pas besoin de frotter fort.","Vider l'eau en retenant le riz avec la main, ou verser dans une passoire.","Répéter trois ou quatre fois, jusqu'à ce que l'eau soit presque claire. Pas parfaitement transparente — légèrement laiteuse suffit.","Laisser tremper 30 minutes dans l'eau de cuisson avant de partir le cuiseur. Facultatif, mais donne un grain nettement meilleur.","Cuire au cuiseur selon les proportions du fabricant. Sans cuiseur : 1 volume de riz pour 1,2 volume d'eau, porter à ébullition, couvrir, feu très doux 12 minutes, puis 10 minutes hors du feu sans soulever le couvercle.","Aérer avec une spatule en coupant plutôt qu'en brassant, pour ne pas écraser les grains."],
+ notes:[{k:"Six portions d'avance",t:"Laisser tiédir 15 à 20 minutes à découvert, répartir en portions individuelles, couvrir et réfrigérer. 4 à 5 jours au frigo, un mois au congélateur. Refroidi 24 h, le riz développe de l'amidon résistant — le réchauffer ne défait pas la transformation."},{k:"Sécurité",t:"Ne jamais laisser du riz cuit plusieurs heures à température ambiante : Bacillus cereus produit une toxine résistante à la chaleur. Réfrigérer dans l'heure ou deux."}]},
+
+{id:"T2",cat:"tech",jp:"出汁",ro:"dashi",fr:"Le dashi — trois versions",img:IMG.T2,por:"1,5 L",tps:"10 min actives",pro:"—",cal:"≈ 10 / tasse",
+ sub:"Le bouillon de base de toute la cuisine japonaise. Environ 50 mg de sodium par tasse, contre 600 à 900 pour un bouillon commercial. Si vous ne faites qu'une seule chose maison, c'est celle-là.",
+ ing:["a) AWASE DASHI — 1 morceau de kombu † de 5 cm","20 g de katsuobushi","1,5 L d'eau froide","b) KATSUO DASHI — 30 g de katsuobushi, 1,5 L d'eau","c) SHIITAKE DASHI — 6 à 8 shiitakes séchés, 1,5 L d'eau froide"],
+ steps:["AWASE — Mettre le kombu dans l'eau froide. Laisser tremper 30 minutes. C'est du temps passif.","Chauffer doucement à feu moyen-doux. Surveiller : de petites bulles vont apparaître sur les bords.","Retirer le kombu juste avant l'ébullition. C'est le seul moment critique. Si l'eau bout avec le kombu dedans, le bouillon devient amer et légèrement gluant.","Ajouter le katsuobushi et retirer immédiatement du feu. Les copeaux vont couler.","Laisser infuser 2 minutes. Pas plus.","Filtrer à travers une passoire fine. Ne pas presser les copeaux — ça libère de l'amertume.","KATSUO — Porter 1,5 L d'eau à ébullition, retirer du feu, ajouter 30 g de katsuobushi, infuser 3 minutes, filtrer. Presque pas d'iode.","SHIITAKE — Faire tremper les champignons dans 1,5 L d'eau froide, au réfrigérateur, 6 heures ou toute une nuit. Filtrer. Zéro iode, végétalien. Les champignons réhydratés se mangent."],
+ notes:[{k:"Pourquoi l'eau froide pour le shiitake",t:"À chaud, le shiitake libère des composés amers. Le trempage à froid extrait le guanylate sans l'amertume."},{k:"Conservation",t:"4 jours au réfrigérateur, un mois au congélateur. À la fin d'un lot : deux contenants de 750 ml au congélateur pour les soupes, le reste en bacs à glaçons. Un cube ≈ 30 ml ≈ 2 c. à soupe."},{k:"Iode",t:"Alterner les trois versions règle la question de l'iode. Un morceau de kombu de 5 cm pour 1,5 L suffit largement — les recettes traditionnelles sont plus généreuses parce que l'iode n'était pas une préoccupation."}]},
+
+{id:"T3",cat:"tech",jp:"塩締め",ro:"shiojime",fr:"Le salage préalable",img:IMG.T3,por:"Par filet",tps:"20 min d'attente",pro:"—",cal:"0",
+ sub:"Le geste qui distingue un poisson correct d'un poisson excellent. Vingt minutes d'attente, aucune compétence.",
+ ing:["Un filet de poisson de 150 g","½ à 1 c. à thé de sel","Papier absorbant"],
+ steps:["Éponger le poisson avec du papier absorbant.","Saler les deux côtés. Tenir la main à une trentaine de centimètres au-dessus et laisser tomber le sel — ça répartit beaucoup mieux que de le déposer. Sur toute la surface, peau comprise.","Déposer sur une grille ou une assiette, au réfrigérateur, 20 minutes.","Observer : des gouttelettes perlent à la surface. C'est l'eau que le sel a tirée de la chair.","Éponger ces gouttelettes. Ne pas rincer — le sel a déjà pénétré, le rincer annulerait l'effet. On enlève l'eau, pas le sel."],
+ notes:[{k:"Ce que ça accomplit",t:"Le sel assaisonne en profondeur au lieu de rester en surface, la chair se raffermit, et la peau peut croustiller parce que l'eau qui l'en empêchait est partie. On utilise moins de sel pour un résultat plus salé en bouche."}]},
+
+{id:"T4",cat:"tech",jp:"塩焼き",ro:"shioyaki",fr:"La grillade au sel",img:IMG.T4,por:"Par filet",tps:"8 min",pro:"—",cal:"0 ajoutée",
+ sub:"Aucune matière grasse. C'est la différence entre un souper à 320 calories et le même à 500, sans modifier un seul ingrédient.",
+ ing:["Un filet de poisson préparé selon T3","Papier d'aluminium","Aucune huile"],
+ steps:["Faire T3 (salage préalable, 20 minutes).","Préchauffer le gril du four (fonction broil) 5 minutes, grille placée à environ 15 cm de l'élément.","Déposer le poisson sur une plaque tapissée de papier d'aluminium. Aucune huile.","Peau vers le haut, 6 à 8 minutes pour un filet de 150 g. Ne pas retourner.","Vérifier : la chair se sépare en flocons quand on la pousse avec une fourchette. Si elle résiste, remettre 2 minutes."],
+ notes:[{k:"Poisson entier",t:"Compter 12 à 15 minutes et retourner à mi-cuisson."}]},
+
+{id:"T5",cat:"tech",jp:"上漿",ro:"velveting",pr:"tchang djiang",fr:"Le velouté",img:IMG.T5,por:"400 g de viande",tps:"10 min + 45 min",pro:"—",cal:"≈ 40 ajoutées",
+ sub:"Rend les coupes maigres et bon marché aussi tendres que les coupes grasses. La technique la plus utile du recueil pour qui cherche à réduire les calories sans perdre le plaisir.",
+ ing:["400 g de viande tranchée très mince","¾ c. à thé de bicarbonate de soude","1 c. à soupe de fécule de maïs","1 c. à soupe de sauce soya","1 c. à thé d'huile"],
+ steps:["Trancher la viande très mince contre le grain. Astuce : la mettre 20 minutes au congélateur avant, elle se coupe beaucoup mieux.","Masser avec le bicarbonate de soude. Bien enrober.","Réfrigérer 30 minutes. Pas plus de 40 — au-delà, la texture devient spongieuse.","Rincer abondamment à l'eau froide, au moins trois changements d'eau. Cette étape n'est pas négociable : le bicarbonate résiduel laisse un goût savonneux.","Bien éponger.","Mariner 15 minutes avec la fécule, la sauce soya et l'huile."],
+ notes:[{k:"À la cuisson",t:"Poêle très chaude, saisir en une seule couche, 90 secondes, ne pas brasser constamment."}]},
+
+{id:"T6",cat:"tech",jp:"茹で方",ro:"yudekata",fr:"Le blanchiment des verdures",img:IMG.T6,por:"1 botte",tps:"5 min",pro:"—",cal:"0",
+ sub:"La base de l'ohitashi. Élimine aussi une partie des oxalates des épinards, ce qui améliore l'absorption du fer.",
+ ing:["1 botte d'épinards ou de verdure","Beaucoup d'eau bouillante salée","Un bol d'eau glacée"],
+ steps:["Grande casserole d'eau bouillante salée. Beaucoup d'eau — c'est ce qui garde la couleur.","Plonger les épinards 45 secondes (bok choy : 90 secondes).","Transférer immédiatement dans l'eau glacée. Ça fixe la couleur verte et arrête la cuisson.","Presser fermement entre les mains pour extraire l'eau. Serrer vraiment — il doit rester un boudin compact.","Couper en tronçons de 4 cm."],
+ notes:[]},
+
+{id:"T7",cat:"tech",jp:"即席漬け",ro:"sokuseki-zuke",fr:"Les marinades express",img:IMG.T7,por:"Variable",tps:"3 à 5 min",pro:"—",cal:"≈ 20 à 70",
+ sub:"Trois marinades qui se font pendant que le reste cuit et qui se gardent plusieurs jours.",
+ ing:["CONCOMBRE — 1 concombre, 2 c. à soupe de vinaigre de riz, ½ c. à thé de sel, 1 c. à thé de sucre, sésame","ŒUFS — 6 œufs, 100 ml de soya, 100 ml de mirin, 200 ml d'eau","GINGEMBRE — gingembre frais, 100 ml de vinaigre de riz, 2 c. à soupe de sucre, ½ c. à thé de sel"],
+ steps:["CONCOMBRE (3 min) — Trancher finement à la mandoline, mélanger avec le vinaigre, le sel, le sucre et le sésame. Laisser 15 minutes, presser légèrement l'eau rendue.","ŒUFS MARINÉS (5 min + attente) — Faire bouillir les œufs 7 minutes, refroidir à l'eau glacée, écaler. Immerger dans la marinade, dans un sac refermable, 12 heures au réfrigérateur. Se garde 4 jours.","GINGEMBRE (5 min) — Trancher ultra-fin, ébouillanter 1 minute, mariner dans le vinaigre sucré-salé."],
+ notes:[{k:"Les œufs marinés",t:"Six par semaine, préparés le dimanche. 6 g de protéines chacun, et une collation qui règle la fringale de fin d'après-midi sans réflexion."}]},
+
+{id:"R1",cat:"dej",jp:"和朝食",ro:"wa-chōshoku",fr:"Set japonais complet",img:IMG.dej,por:"1",tps:"20 min",pro:"38 g",cal:"≈ 620",
+ sub:"Le déjeuner traditionnel complet. Tout se fait en parallèle : le poisson au gril pendant que l'œuf cuit et que la soupe chauffe.",
+ ing:["1 petit bol de riz (140 g)","1 bol de soupe miso (voir R43)","1 filet de saumon de 120 g","1 œuf mollet","Concombre mariné (T7)","1 feuille de nori † nature"],
+ steps:["Saler le saumon la veille selon T3.","Le matin, mettre le saumon au gril selon T4.","Pendant ce temps, cuire l'œuf 6 min 30 dans l'eau bouillante, puis eau glacée.","Chauffer la soupe miso.","Réchauffer le riz avec une cuillère à thé d'eau, couvert, 1 à 2 minutes.","Servir tout en même temps, dans des contenants séparés."],
+ notes:[{k:"Le principe",t:"Ce n'est pas une assiette, c'est un assemblage. La variété sensorielle vient du nombre de contenants, pas de la quantité."}],tech:["T3","T4","T7"]},
+
+{id:"R2",cat:"dej",jp:"味噌汁",ro:"misoshiru",fr:"Soupe miso déjeuner au tofu et à l'œuf",img:IMG.miso,por:"1",tps:"5 min",pro:"22 g",cal:"≈ 210",
+ sub:"Le déjeuner de cinq minutes qui remplace les céréales. Salé, protéiné, chaud.",
+ ing:["400 ml de dashi (T2)","2 c. à thé de miso blanc","100 g de tofu ferme en cubes","1 œuf","1 c. à soupe de wakame † séché","Oignon vert"],
+ steps:["Chauffer le dashi jusqu'au frémissement. Ajouter le tofu.","Casser l'œuf directement dedans, feu doux, 3 minutes sans brasser. Le blanc prend, le jaune reste coulant.","Retirer du feu. Délayer le miso dans une louche de bouillon prélevée, puis reverser.","Ajouter le wakame et l'oignon vert."],
+ notes:[{k:"Ne jamais faire bouillir après le miso",t:"La chaleur détruit les arômes et les cultures. C'est l'erreur la plus fréquente."}],tech:["T2"]},
+
+{id:"R3",cat:"dej",jp:"納豆ご飯",ro:"nattō gohan",fr:"Natto gohan",img:IMG.natto,por:"1",tps:"3 min",pro:"26 g",cal:"≈ 400",
+ sub:"Trois minutes, 26 g de protéines. L'aliment le plus divisif du répertoire — et un des plus efficaces.",
+ ing:["1 paquet de natto","1 petit bol de riz chaud","1 œuf cru ou mollet","Oignon vert","Moutarde karashi"],
+ steps:["Ouvrir le natto. Mettre les deux sachets de côté.","Brasser le natto énergiquement 30 à 50 fois avec des baguettes, avant d'ajouter quoi que ce soit. Il devient blanchâtre et très filant. Cette étape développe la texture crémeuse et adoucit le goût.","Ajouter la moitié du sachet de sauce (c'est là qu'est presque tout le sodium) et un peu de karashi.","Verser sur le riz chaud, ajouter l'œuf et l'oignon vert. Mélanger le tout dans le bol."],
+ notes:[{k:"On ne mange pas le natto nature à la cuillère",t:"Il se mélange au riz — c'est le riz qui le rend agréable. Si le natto ne passe pas après trois essais, remplacez-le par une tasse d'edamames † écossés : mêmes fèves de soya, 18 g de protéines. Vous perdez la vitamine K2 et les probiotiques, pas les protéines."}]},
+
+{id:"R4",cat:"dej",jp:"卵かけご飯",ro:"tamago kake gohan",fr:"Tamago kake gohan",img:IMG.tkg,por:"1",tps:"2 min",pro:"18 g",cal:"≈ 360",
+ sub:"Deux minutes. La chaleur du riz cuit partiellement les œufs et crée une texture crémeuse.",
+ ing:["1 bol de riz brûlant (fraîchement cuit ou réchauffé)","2 œufs battus","1 c. à thé de sauce soya","Furikake, oignon vert"],
+ steps:["Réchauffer le riz jusqu'à ce qu'il soit vraiment brûlant.","Verser les œufs battus dessus et mélanger vigoureusement.","Ajouter la sauce soya, le furikake et l'oignon vert."],
+ notes:[{k:"Œufs crus",t:"Au Japon, les œufs sont pasteurisés pour cet usage. Ici, utilisez des œufs très frais, ou faites-les mollets."}]},
+
+{id:"R5",cat:"dej",jp:"韓国風丼",ro:"kankoku-fū don",fr:"Bol coréen express",img:IMG.bibimbap,por:"1",tps:"5 min",pro:"20 g",cal:"≈ 430",
+ sub:"Un reste de riz, deux œufs, du kimchi et des épinards. Cinq minutes.",
+ ing:["2 œufs brouillés","Reste de riz","½ tasse de kimchi rincé rapidement","1 tasse d'épinards blanchis (T6) à l'ail","1 c. à thé d'huile de sésame, graines de sésame"],
+ steps:["Blanchir les épinards selon T6 et les assaisonner d'ail et de sésame.","Brouiller les œufs.","Monter le bol : riz, épinards, kimchi, œufs.","Filet d'huile de sésame et graines de sésame."],
+ notes:[{k:"Rincer le kimchi",t:"Un rinçage rapide enlève une partie du sel sans rien enlever au goût."}],tech:["T6"]},
+
+{id:"R6",cat:"dej",jp:"鶏がゆ",ro:"tori-gayu",fr:"Okayu au poulet",img:IMG.okayu,por:"2",tps:"20 min",pro:"25 g",cal:"≈ 300",
+ sub:"Énorme volume pour environ 300 calories la portion. La bouillie de riz japonaise, l'équivalent du congee.",
+ ing:["1 tasse de riz cuit","750 ml de dashi (T2)","250 g de poulet haché","1 c. à soupe de gingembre râpé","2 œufs","Oignon vert, un filet de vinaigre de riz"],
+ steps:["Mijoter riz et dashi 15 minutes en brassant de temps en temps. Le riz éclate et le bouillon épaissit.","Ajouter le poulet en petites boulettes et le gingembre, 5 minutes.","Pocher un œuf par bol.","Garnir d'oignon vert et d'un filet de vinaigre de riz."],
+ notes:[],tech:["T2"]},
+
+{id:"R7",cat:"dej",jp:"茶碗蒸し",ro:"chawanmushi",fr:"Œufs vapeur au gingembre",img:IMG.chawanmushi,por:"2",tps:"15 min",pro:"14 g",cal:"≈ 130",
+ sub:"Un flan d'œuf salé cuit à la vapeur. La texture soyeuse vient d'une seule étape : le filtrage.",
+ ing:["3 œufs battus","450 ml de dashi tiède (T2)","1 c. à thé de sauce soya, 1 c. à thé de mirin","Garnitures : crevettes, champignons, oignon vert"],
+ steps:["Battre les œufs sans faire de mousse. Ajouter le dashi tiède et les assaisonnements.","Filtrer à travers une passoire fine. C'est ce qui donne la texture soyeuse.","Répartir dans des tasses, déposer les garnitures.","Cuire à la vapeur à feu doux, à couvert, 12 minutes."],
+ notes:[{k:"Feu doux, vraiment",t:"Feu trop fort = texture caillée avec des trous. C'est la seule chose qui peut rater dans cette recette."}],tech:["T2"]},
+
+{id:"R8",cat:"dej",jp:"非常朝食",ro:"hijō chōshoku",fr:"Le déjeuner d'urgence",img:IMG.oeuf,por:"1",tps:"90 secondes",pro:"24 g",cal:"≈ 260",
+ sub:"Ce n'est pas de la cuisine. C'est mieux que rien, et infiniment mieux qu'un muffin.",
+ ing:["1 sachet de soupe miso instantanée","2 œufs durs préparés d'avance","1 poignée d'edamames † congelés"],
+ steps:["Préparer la soupe miso instantanée.","Jeter les edamames congelés dedans — ils décongèlent en une minute.","Manger avec les deux œufs durs."],
+ notes:[]},
+
+{id:"R9",cat:"din",jp:"丼の公式",ro:"donburi no kōshiki",fr:"La formule donburi",img:IMG.donburi,por:"1 par colonne",tps:"5 min",pro:"25 à 45 g",cal:"≈ 400 à 550",
+ sub:"Ce n'est pas une recette, c'est un gabarit. Choisir une colonne de chaque. Trois protéines préparées le dimanche — poisson grillé (R14), poulet grillé (R49) et œufs marinés (T7) — donnent cinq dîners différents.",
+ ing:["BASE — riz (140 g) ▪ chou émincé ▪ soba froides ▪ salade","PROTÉINE — poulet grillé ▪ saumon ▪ tofu ▪ œufs durs","LÉGUME — concombre ▪ edamames † ▪ épinards (T6) ▪ champignons","SAUCE — ponzu ▪ soya-sésame ▪ gochujang délayé ▪ sauce sésame","CROQUANT — nori † émincé ▪ graines de sésame ▪ oignon vert ▪ furikake"],
+ steps:["Choisir une base et la mettre au fond du bol.","Ajouter la protéine, réchauffée ou froide selon l'envie.","Ajouter le légume.","Arroser de sauce.","Finir par le croquant, toujours en dernier."],
+ notes:[{k:"Sauce sésame de base",t:"2 c. à soupe de tahini, 1 c. à soupe de soya, 1 c. à thé de vinaigre de riz, de l'eau pour détendre."},{k:"La vraie stratégie",t:"Cuisiner une portion et demie au souper, et assembler le lendemain en cinq minutes. Le meilleur dîner est presque toujours le souper de la veille."}],tech:["T6"]},
+
+{id:"R10",cat:"din",jp:"冷奴",ro:"hiyayakko",fr:"Hiyayakko au thon",img:IMG.hiyayakko,por:"1",tps:"5 min",pro:"35 g",cal:"≈ 320",
+ sub:"Zéro cuisson, 35 g de protéines. Le dîner de bureau le plus rapide du recueil.",
+ ing:["1 bloc de tofu soyeux","1 boîte de thon pâle égoutté","½ tasse d'edamames † écossés décongelés","Oignon vert, gingembre râpé, katsuobushi","Ponzu"],
+ steps:["Déposer le tofu dans un bol et le briser grossièrement.","Couvrir du thon, des edamames et des garnitures.","Arroser de ponzu au moment de manger."],
+ notes:[]},
+
+{id:"R11",cat:"din",jp:"お茶漬け",ro:"ochazuke",fr:"Ochazuke",img:IMG.ochazuke,por:"1",tps:"4 min",pro:"variable",cal:"≈ 280",
+ sub:"Le plat de restes par excellence, et une des meilleures idées de toute la cuisine japonaise. Mêmes ingrédients qu'hier soir, plat complètement différent.",
+ ing:["1 bol de riz (froid, c'est parfait)","Un reste de poisson grillé, effiloché","200 ml de thé vert chaud ou de dashi chaud","Nori † émincé, wasabi, graines de sésame, un umeboshi"],
+ steps:["Déposer le riz et le poisson dans un bol.","Verser le liquide chaud dessus.","Garnir de nori, de wasabi, de sésame et d'un umeboshi."],
+ notes:[{k:"Le repas de fin de soirée",t:"C'est le classique japonais quand on rentre tard et qu'on n'a envie de rien cuisiner."}]},
+
+{id:"R12",cat:"din",jp:"蕎麦サラダ",ro:"soba sarada",fr:"Salade de soba",img:IMG.soba,por:"2",tps:"12 min",pro:"32 g",cal:"≈ 460",
+ sub:"Se transporte parfaitement. Les soba de sarrasin apportent plus de protéines et de fibres que le blé.",
+ ing:["200 g de nouilles soba sèches","300 g de poulet grillé (R49) tranché, ou de crevettes","1 concombre en julienne, 1 tasse d'edamames †, oignon vert","SAUCE — 4 c. à soupe de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de vinaigre de riz, 1 c. à thé d'huile de sésame"],
+ steps:["Cuire les soba selon le paquet, généralement 4 à 5 minutes.","Rincer abondamment à l'eau froide en frottant les nouilles entre les mains. Étape essentielle : elle enlève l'amidon de surface, sans quoi les soba collent en bloc.","Bien égoutter.","Mélanger la sauce et assembler."],
+ notes:[],tech:["T2"]},
+
+{id:"R13",cat:"din",jp:"おにぎらず",ro:"onigirazu",fr:"Onigirazu",img:IMG.onigiri,por:"2",tps:"10 min",pro:"18 g",cal:"≈ 380",
+ sub:"La version « sandwich » de l'onigiri. Se façonne à la main, se transporte, et les enfants adorent en faire.",
+ ing:["2 grandes feuilles de nori †","300 g de riz cuit","Garniture : saumon grillé effiloché, ou œuf, ou thon","Salade de chou, concombre mariné (T7)"],
+ steps:["Poser une feuille de nori en losange sur une pellicule plastique.","Étaler une fine couche de riz au centre, en carré.","Empiler la garniture, puis une deuxième couche de riz.","Replier les quatre coins du nori vers le centre, comme une enveloppe.","Envelopper serré dans la pellicule et laisser 5 minutes — c'est ce qui soude le tout.","Couper en deux avec un couteau bien aiguisé, à travers la pellicule."],
+ notes:[],tech:["T7"]},
+
+{id:"R14",cat:"sou",jp:"鮭の塩焼き",ro:"sake no shioyaki",fr:"Saumon shioyaki et daikon râpé",img:IMG.T4,por:"2",tps:"20 min",pro:"35 g",cal:"≈ 320",
+ sub:"Zéro huile ajoutée. La recette la plus facile du recueil, et celle par laquelle commencer.",
+ ing:["2 filets de saumon de 150 g","Sel pour T3","½ daikon","Ponzu, oignon vert, shichimi togarashi, quartiers de citron"],
+ steps:["Faire T3 (salage préalable, 20 minutes) puis T4 (gril, 6 à 8 minutes).","Râper le daikon sur les gros trous d'une râpe ou à l'oroshigane. Presser légèrement entre les mains pour enlever l'excès d'eau — il doit rester humide, pas détrempé.","Servir le poisson sur un petit tas de daikon.","Arroser de ponzu, garnir d'oignon vert, de shichimi et d'un quartier de citron."],
+ notes:[{k:"Le citron n'est pas décoratif",t:"La vitamine C améliore l'absorption du fer du repas. Voir le guide 1, section 16."}],tech:["T3","T4"]},
+
+{id:"R15",cat:"sou",jp:"西京焼き",ro:"saikyo-yaki",fr:"Poisson mariné au miso",img:IMG.saikyo,por:"2",tps:"10 min + 24 à 48 h",pro:"34 g",cal:"≈ 340",
+ sub:"Le plat le plus impressionnant du recueil pour l'effort le plus faible. Cinq minutes de travail, deux jours d'attente.",
+ ing:["2 filets de morue noire, de flétan ou de saumon","MARINADE — 4 c. à soupe de miso blanc, 2 c. à soupe de mirin, 1 c. à soupe de saké, 1 c. à thé de sucre"],
+ steps:["Mélanger la marinade jusqu'à consistance lisse.","Éponger le poisson, l'enrober complètement, mettre dans un sac refermable.","Réfrigérer 24 à 48 heures.","Retirer la marinade en essuyant avec le doigt ou un papier absorbant. Ne pas rincer à l'eau. S'il reste du miso, il brûlera.","Gril du four, 6 à 8 minutes, en surveillant : le sucre du mirin caramélise vite."],
+ notes:[]},
+
+{id:"R16",cat:"sou",jp:"魚の煮付け",ro:"sakana no nitsuke",fr:"Poisson mijoté au gingembre",img:IMG.morue,por:"2",tps:"20 min",pro:"32 g",cal:"≈ 290",
+ sub:"Mijoté dans soya, mirin et gingembre. Le poisson ne se retourne jamais.",
+ ing:["2 filets de poisson blanc ou de maquereau","200 ml de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de sucre","1 morceau de gingembre en fines juliennes"],
+ steps:["Porter le liquide à frémissement dans une poêle large avec le gingembre.","Déposer le poisson en une seule couche, peau vers le haut.","Couvrir d'un otoshibuta — un couvercle qui repose directement sur les aliments. Un cercle de papier parchemin fait l'affaire.","Mijoter 10 à 12 minutes."],
+ notes:[{k:"L'otoshibuta",t:"Ça fait circuler le liquide par-dessus le poisson sans qu'on ait à le retourner. C'est ce qui empêche les filets de se défaire."}],tech:["T2"]},
+
+{id:"R17",cat:"sou",jp:"牛肉とブロッコリー",ro:"gyūniku to burokkorī",fr:"Bœuf et brocoli",img:IMG.boeufbroc,por:"2",tps:"25 min",pro:"40 g",cal:"≈ 420",
+ sub:"Le plat le plus familier du recueil, et la meilleure démonstration du velouté. 500 g de brocoli pour 400 g de bœuf — au restaurant, c'est l'inverse.",
+ ing:["400 g de bifteck de flanc ou de ronde, préparé selon T5","1 gros brocoli (environ 500 g) en fleurettes","SAUCE — 3 c. à soupe de bouillon, 1 c. à soupe de sauce d'huîtres, 1 c. à soupe de soya réduit en sodium, 1 c. à thé de vinaigre de riz, 1 c. à thé de fécule, 1 c. à thé de sucre","4 gousses d'ail, 1 c. à soupe de gingembre râpé","1 c. à soupe d'huile, mesurée"],
+ steps:["Faire T5 sur le bœuf (velouté).","Blanchir le brocoli 2 minutes à l'eau bouillante, égoutter et bien assécher.","Grande poêle très chaude, 1 c. à soupe d'huile. Saisir le bœuf en une seule couche, sans le déplacer, 90 secondes. Retourner, 30 secondes. Réserver.","Ail et gingembre, 30 secondes. Ajouter le brocoli.","Verser la sauce, remettre le bœuf, enrober 1 minute."],
+ notes:[{k:"La sauce entre en dernier, toujours",t:"Le sucre qu'elle contient brûle en moins d'une minute sur du métal chaud. C'est l'erreur qui ruine le plus de sautés."},{k:"Mesurer l'huile",t:"Une cuillère à soupe fait 120 calories. Versée à l'œil dans une poêle chaude, c'en est facilement trois."}],tech:["T5"]},
+
+{id:"R18",cat:"sou",jp:"ブンチャー",ro:"bún chả",pr:"boune tcha",fr:"Bun cha vietnamien en bol",img:IMG.buncha,por:"2",tps:"30 min",pro:"38 g",cal:"≈ 480",
+ sub:"Trois tasses de verdure fraîche par bol. Ce n'est pas une exagération, c'est la signature vietnamienne.",
+ ing:["400 g de porc haché maigre","MARINADE — 1 c. à soupe de sauce de poisson, 1 c. à soupe de sucre, 2 gousses d'ail, 1 échalote hachée, poivre","Laitue, concombre, carotte marinée, menthe, coriandre, basilic thaï — en quantité","NUOC CHAM — 3 c. à soupe d'eau tiède, 2 c. à soupe de jus de lime, 1,5 c. à soupe de sauce de poisson, 1 c. à soupe de sucre, ail, piment","Vermicelles de riz, portion modeste"],
+ steps:["Mariner le porc 20 minutes, former de petites galettes plates.","Gril du four ou poêle, 4 minutes par côté.","Monter le bol : herbes et laitue en base, galettes dessus.","Nuoc cham à verser au moment de manger."],
+ notes:[]},
+
+{id:"R19",cat:"sou",jp:"親子丼",ro:"oyakodon",fr:"Oyakodon",img:IMG.oyakodon,por:"2",tps:"20 min",pro:"42 g",cal:"≈ 550",
+ sub:"Littéralement « bol parent-enfant » — le poulet et l'œuf. Les œufs doivent rester baveux : c'est la signature du plat, pas une cuisson incomplète.",
+ ing:["400 g de hauts de cuisse de poulet en morceaux","1 oignon en fines lamelles","300 ml de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de sucre","4 œufs battus grossièrement (il doit rester des traînées de blanc et de jaune)","Oignon vert, shichimi","2 petits bols de riz"],
+ steps:["Mijoter dashi, assaisonnements et oignon 5 minutes dans une petite poêle.","Ajouter le poulet, cuire 8 minutes.","Verser les œufs en spirale sur toute la surface. Couvrir, feu doux, 90 secondes.","Faire glisser sur le riz. Garnir d'oignon vert et de shichimi."],
+ notes:[],tech:["T2"]},
+
+{id:"R20",cat:"sou",jp:"ちらし丼",ro:"chirashi don",fr:"Chirashi bowl",img:IMG.chirashi,por:"2",tps:"10 min",pro:"36 g",cal:"≈ 490",
+ sub:"Zéro cuisson. Dix minutes pour un plat qui a l'air d'un restaurant. Le riz refroidi apporte en plus le bonus d'amidon résistant.",
+ ing:["280 g de riz refroidi, assaisonné de 2 c. à soupe de vinaigre de riz, 1 c. à thé de sucre, ½ c. à thé de sel","250 g de saumon ou de thon qualité sashimi, en cubes","Concombre, avocat, edamames †, radis","Wakame † réhydraté","SAUCE — 2 c. à soupe de soya, 1 c. à thé d'huile de sésame, 1 c. à thé de vinaigre de riz, gingembre râpé","Nori †, sésame, gingembre mariné (T7), wasabi"],
+ steps:["Assaisonner le riz refroidi avec le vinaigre, le sucre et le sel.","Couper le poisson en cubes réguliers.","Monter les bols : riz, puis poisson et légumes disposés par secteurs.","Arroser de sauce, garnir."],
+ notes:[{k:"Le thon frais",t:"Il est visé par l'avis de Santé Canada sur le mercure : 150 g par semaine maximum pour un homme adulte. Le saumon n'a aucune restriction."}],tech:["T7"]},
+
+{id:"R21",cat:"sou",jp:"焼き鳥",ro:"yakitori",fr:"Yakitori",img:IMG.yakitori,por:"3",tps:"25 min",pro:"35 g",cal:"≈ 400",
+ sub:"Ce sont des brochettes. Avec les enfants, c'est réglé. La tare se conserve un mois au réfrigérateur et s'améliore.",
+ ing:["600 g de hauts de cuisse de poulet en cubes de 3 cm","Oignons verts en tronçons de 4 cm","TARE — 4 c. à soupe de soya, 4 c. à soupe de mirin, 2 c. à soupe de saké, 1 c. à soupe de sucre","Brochettes de bois trempées 20 minutes","Shichimi togarashi"],
+ steps:["Faire la tare d'abord : porter à ébullition et réduire de moitié à feu moyen, environ 8 minutes. Elle doit napper le dos d'une cuillère.","Alterner poulet et oignon vert sur les brochettes.","Gril du four : 5 minutes → badigeonner → 3 minutes → badigeonner → 2 minutes."],
+ notes:[]},
+
+{id:"R49",cat:"sou",jp:"鶏の塩焼き",ro:"tori no shioyaki",fr:"Poulet grillé au sel",img:IMG.poulet,por:"4",tps:"25 min",pro:"38 g",cal:"≈ 260",
+ sub:"La troisième protéine du rituel du dimanche. Aucune huile, aucune marinade, et quatre portions qui deviennent des dîners toute la semaine.",
+ ing:["800 g de hauts de cuisse de poulet désossés, sans la peau","Sel pour T3 — environ 1 c. à thé au total","Poivre blanc","Quartiers de citron ou de lime pour servir"],
+ steps:["Éponger le poulet et le saler des deux côtés, en tenant la main haut au-dessus pour bien répartir. Réfrigérer 20 minutes, à découvert.","Éponger les gouttelettes qui ont perlé. Ne pas rincer.","Préchauffer le gril du four 5 minutes, grille à environ 15 cm de l'élément.","Déposer les morceaux à plat sur une plaque tapissée de papier d'aluminium, sans les superposer. Aucune huile.","8 minutes, retourner, 5 à 7 minutes. Le jus qui perce doit être clair.","Laisser reposer 5 minutes avant de trancher — sinon le jus se répand sur la planche au lieu de rester dans la chair."],
+ notes:[{k:"Pourquoi les hauts de cuisse",t:"Plus savoureux que la poitrine et beaucoup plus tolérants à la cuisson : cinq minutes de trop ne les assèchent pas. C'est ce qui les rend adaptés à une cuisson en lot le dimanche."},{k:"Ce que ça débloque",t:"Tranché froid, il devient la protéine par défaut de la formule donburi (R9) et de la salade de soba (R12). Se garde 4 jours au réfrigérateur."}],tech:["T3","T4"]},
+
+{id:"R22",cat:"sou",jp:"お好み焼き",ro:"okonomiyaki",fr:"Okonomiyaki",img:IMG.okonomiyaki,por:"2",tps:"25 min",pro:"26 g",cal:"≈ 350",
+ sub:"400 g de chou tenus par deux œufs et quatre cuillères de farine. Énorme dans l'assiette. Le plat le plus populaire auprès des enfants.",
+ ing:["400 g de chou vert ou nappa finement émincé — c'est 80 % du plat","2 œufs","4 c. à soupe de farine","3 c. à soupe de dashi","200 g de crevettes ou de porc tranché mince","Oignons verts","Garniture : sauce okonomiyaki avec parcimonie, katsuobushi, aonori"],
+ steps:["Émincer le chou le plus finement possible — la mandoline est parfaite pour ça.","Mélanger œufs, farine et dashi. Incorporer le chou. La pâte doit à peine lier : c'est du chou avec un peu de liant, pas une pâte avec du chou.","Poêle antiadhésive, 1 c. à thé d'huile, feu moyen. Étaler en galette épaisse de 2 cm. Déposer les crevettes dessus.","6 minutes sans y toucher. Retourner d'un coup avec deux spatules. 6 minutes."],
+ notes:[{k:"Le nom",t:"お好み焼き signifie « grillé comme tu l'aimes ». La garniture est ouverte — c'est un plat conçu pour être improvisé."}],tech:["T2"]},
+
+{id:"R23",cat:"sou",jp:"ビビンバ",ro:"bibimbap",pr:"bi-bime-bap",fr:"Bibimbap à ratio inversé",img:IMG.bibimbap,por:"2",tps:"25 min",pro:"38 g",cal:"≈ 520",
+ sub:"Un petit bol de riz pour quatre tasses de légumes. Chaque légume prend 3 minutes — préparez-les le dimanche, l'assemblage prend 5 minutes en semaine.",
+ ing:["Riz (140 g par personne)","Épinards blanchis (T6), assaisonnés de sésame et d'ail","Carottes en julienne sautées 2 minutes","Fèves germées ébouillantées 1 minute, huile de sésame et sel","Courgette en demi-lunes","Shiitakes tranchés, sautés","250 g de bœuf haché maigre au bulgogi, ou tofu","2 œufs au miroir","SAUCE — 2 c. à soupe de gochujang, 1 c. à soupe de vinaigre de riz, 1 c. à thé d'huile de sésame, 1 c. à thé de sucre"],
+ steps:["Préparer chaque légume séparément, chacun avec son propre assaisonnement.","Cuire la protéine.","Monter le bol : riz au fond, légumes disposés en secteurs, protéine au centre.","Œuf au miroir sur le dessus.","Sauce à côté, à mélanger au moment de manger."],
+ notes:[],tech:["T6"]},
+
+{id:"R24",cat:"sou",jp:"しゃぶしゃぶ",ro:"shabu-shabu",fr:"Shabu-shabu",img:IMG.shabu,por:"4",tps:"30 min",pro:"40 g",cal:"≈ 450",
+ sub:"Le meilleur repas de famille du recueil. Chacun contrôle sa propre assiette, les enfants adorent participer, et il est impossible de manger vite.",
+ ing:["1,5 L de bouillon léger : eau + 1 morceau de kombu † de 5 cm + 1 c. à soupe de soya","500 g de bœuf ou de porc tranché shabu","½ chou nappa, 4 tasses d'épinards, 227 g de champignons enoki","300 g de tofu ferme, 3 tasses de fèves germées","PONZU MAISON — 3 c. à soupe de soya, 3 c. à soupe de jus de lime, 1 c. à thé de vinaigre de riz","SAUCE SÉSAME — 2 c. à soupe de tahini, 1 c. à soupe de soya, 1 c. à thé de vinaigre, eau"],
+ steps:["Casserole au centre de la table, sur une plaque portative.","Chacun trempe sa tranche de viande 15 à 30 secondes dans le bouillon frémissant — elle est cuite dès qu'elle perd sa couleur rosée.","Tremper dans la sauce de son choix.","Ajouter les légumes et le tofu au fur et à mesure.","À la fin, le bouillon est devenu riche : on le boit."],
+ notes:[{k:"L'argument familial",t:"C'est un souper où personne ne cuisine vraiment. Si vous devez convaincre quelqu'un d'embarquer, commencez par celui-là."}]},
+
+{id:"R25",cat:"sou",jp:"酸辣湯",ro:"suān là tāng",pr:"souane la tang",fr:"Soupe aigre-piquante",img:IMG.suanla,por:"2",tps:"25 min",pro:"35 g",cal:"≈ 330",
+ sub:"Le piquant vient du poivre blanc, pas du piment. Goûter et ajuster : ça doit piquer et être franchement acide.",
+ ing:["1 L de bouillon","350 g de poulet en lanières, 200 g de tofu ferme en bâtonnets","1 tasse de champignons : shiitakes, oreilles de bois réhydratées","3 c. à soupe de vinaigre noir de Chinkiang","1 c. à soupe de soya, 1 c. à thé de poivre blanc moulu (généreux)","2 œufs battus, 1 c. à soupe de fécule délayée"],
+ steps:["Frémir le bouillon, ajouter poulet, champignons et tofu. 6 minutes.","Vinaigre, soya, poivre blanc. Goûter et ajuster.","Épaissir légèrement avec la fécule.","Verser les œufs battus en filet mince, d'une main, en brassant lentement de l'autre dans une seule direction. C'est ce qui fait les rubans plutôt que des grumeaux."],
+ notes:[]},
+
+{id:"R26",cat:"sou",jp:"麻婆豆腐",ro:"mápó dòufu",pr:"ma-po dow-fou",fr:"Mapo tofu allégé",img:IMG.mapo,por:"2",tps:"20 min",pro:"32 g",cal:"≈ 380",
+ sub:"600 g de tofu, 200 g de porc au lieu des 400 habituels. Le tofu porte le plat, le porc n'est plus qu'un assaisonnement.",
+ ing:["600 g de tofu ferme ou mi-ferme en cubes de 2 cm","200 g de porc haché maigre","1 c. à soupe de doubanjiang","1 c. à thé de poivre de Sichuan moulu","3 gousses d'ail, 1 c. à soupe de gingembre","200 ml de bouillon, 1 c. à soupe de fécule délayée","Oignons verts"],
+ steps:["Pocher les cubes de tofu 2 minutes dans de l'eau salée frémissante, puis égoutter. Ça les raffermit et les empêche de se défaire.","Saisir le porc, ajouter doubanjiang, ail et gingembre, 2 minutes.","Ajouter le bouillon et le tofu. Mijoter 5 minutes sans brasser — secouer la poêle par le manche.","Épaissir. Poivre de Sichuan à la toute fin, hors du feu : la chaleur détruit son parfum citronné."],
+ notes:[]},
+
+{id:"R27",cat:"sou",jp:"トムヤムクン",ro:"tom yum kung",pr:"tome youme koung",fr:"Tom yum aux crevettes",img:IMG.tomyum,por:"2",tps:"20 min",pro:"38 g",cal:"≈ 260",
+ sub:"Bouillon clair, aromates, acidité. Le lait de coco est facultatif — et sans lui, c'est une soupe-repas à 260 calories.",
+ ing:["1 L de bouillon","400 g de crevettes crues décortiquées","2 c. à soupe de pâte tom yum","3 tranches de galanga, 2 tiges de citronnelle écrasées, 4 feuilles de lime kaffir déchirées","227 g de champignons","2 c. à soupe de sauce de poisson, jus de 2 limes","Coriandre, piments oiseaux écrasés"],
+ steps:["Frémir bouillon et aromates 10 minutes.","Pâte tom yum et champignons, 3 minutes.","Crevettes, 2 à 3 minutes — dès qu'elles sont roses et courbées en C.","Hors du feu : sauce de poisson et jus de lime. Le jus de lime devient amer s'il bout."],
+ notes:[]},
+
+{id:"R28",cat:"sou",jp:"トムカーガイ",ro:"tom kha gai",pr:"tome ka gaï",fr:"Tom kha gai allégé",img:IMG.tomkha,por:"2",tps:"25 min",pro:"36 g",cal:"≈ 390",
+ sub:"Au lait de coco léger, jamais bouilli — sinon il tranche.",
+ ing:["500 ml de bouillon + 250 ml de lait de coco léger","400 g de poulet en morceaux","Citronnelle, galanga, feuilles de lime kaffir","227 g de champignons","2 c. à soupe de sauce de poisson, jus de 2 limes, coriandre"],
+ steps:["Infuser les aromates dans le bouillon 10 minutes.","Ajouter le lait de coco, le poulet et les champignons. Mijoter 10 minutes sans jamais faire bouillir.","Hors du feu : sauce de poisson, lime, coriandre."],
+ notes:[]},
+
+{id:"R29",cat:"sou",jp:"순두부찌개",ro:"sundubu jjigae",pr:"soune-dou-bou tchi-gué",fr:"Sundubu jjigae",img:IMG.sundubu,por:"2",tps:"25 min",pro:"34 g",cal:"≈ 400",
+ sub:"Un ragoût bouillant au tofu soyeux. L'œuf se casse dans le bol au service, pas dans la casserole.",
+ ing:["700 ml de bouillon","600 g de tofu soyeux","200 g de porc haché ou de fruits de mer","2 c. à soupe de gochugaru, 1 c. à soupe de gochujang","3 gousses d'ail, 1 tasse de kimchi haché","2 œufs, 1 c. à thé d'huile de sésame"],
+ steps:["Revenir le porc avec l'ail, 3 minutes.","Kimchi, gochugaru et gochujang, 2 minutes.","Bouillon, mijoter 10 minutes.","Ajouter le tofu soyeux en grosses cuillerées, sans le briser davantage.","Casser un œuf dans chaque bol au moment de servir, filet d'huile de sésame."],
+ notes:[]},
+
+{id:"R30",cat:"sou",jp:"육개장",ro:"yukgaejang",pr:"youk-gué-djang",fr:"Yukgaejang simplifié",img:IMG.yukgaejang,por:"2",tps:"35 min",pro:"40 g",cal:"≈ 420",
+ sub:"Bœuf effiloché, gochugaru, deux tasses de fèves germées. La couleur rouge vient de l'huile infusée, pas du piquant.",
+ ing:["1,2 L de bouillon de bœuf","400 g de bœuf à ragoût, effiloché après cuisson","3 c. à soupe de gochugaru mélangés à 2 c. à soupe d'huile","4 gousses d'ail, 1 c. à soupe de soya","6 oignons verts en tronçons de 5 cm","2 tasses de fèves germées, 2 œufs battus"],
+ steps:["Chauffer doucement le gochugaru dans l'huile 1 minute — ça libère la couleur rouge et la saveur. Ne pas le laisser noircir.","Bœuf et ail, 3 minutes.","Bouillon et soya, 20 minutes.","Oignons verts et fèves germées, 5 minutes.","Œufs en filet à la fin."],
+ notes:[]},
+
+{id:"R31",cat:"sou",jp:"雲呑スープ",ro:"wonton sūpu",fr:"Soupe won-ton déconstruite",img:IMG.wonton,por:"2",tps:"25 min",pro:"40 g",cal:"≈ 340",
+ sub:"Toute la saveur du won-ton, zéro pâte.",
+ ing:["1 L de bouillon","400 g de porc ou de poulet haché","1 c. à soupe de gingembre râpé, 2 gousses d'ail","1 c. à soupe de soya, 1 c. à thé d'huile de sésame","1 blanc d'œuf, 1 c. à soupe de fécule","4 tasses de bok choy en lanières, shiitakes, oignons verts"],
+ steps:["Mélanger la viande avec tous les assaisonnements, le blanc d'œuf et la fécule. Brasser énergiquement dans un seul sens jusqu'à texture collante — c'est ce qui rend les boulettes moelleuses plutôt que friables.","Former des boulettes de la taille d'une noix à la cuillère, directement dans le bouillon frémissant. Pocher 8 à 10 minutes.","Shiitakes et bok choy, 3 minutes."],
+ notes:[]},
+
+{id:"R32",cat:"sou",jp:"つくね汁",ro:"tsukune-jiru",fr:"Soupe aux boulettes de poulet",img:IMG.tsukune,por:"2",tps:"30 min",pro:"42 g",cal:"≈ 360",
+ sub:"Même technique que R31, en version japonaise au dashi.",
+ ing:["450 g de poulet haché","1 c. à soupe de gingembre, 2 oignons verts","1 c. à soupe de soya, 1 c. à thé de miso, 1 œuf, 2 c. à soupe de fécule","1 L de dashi (T2) + 1 c. à soupe de mirin","4 tasses de chou nappa, 1 tasse de shiitakes"],
+ steps:["Mélanger le poulet avec tous les assaisonnements. Brasser énergiquement dans un seul sens jusqu'à texture collante.","Former des boulettes directement dans le dashi frémissant avec le mirin. Pocher 8 à 10 minutes.","Ajouter le chou nappa et les shiitakes, 5 minutes."],
+ notes:[],tech:["T2"]},
+
+{id:"R33",cat:"sou",jp:"鮭の味噌汁",ro:"sake no misoshiru",fr:"Soupe miso au saumon, tofu et edamame",img:IMG.miso,por:"2",tps:"20 min",pro:"38 g",cal:"≈ 350",
+ sub:"Une soupe-repas complète, pas une soupe-entrée. 38 g de protéines par portion.",
+ ing:["1 L de dashi (T2)","3 c. à soupe de miso blanc","300 g de saumon ou de morue en cubes","200 g de tofu ferme, 1 tasse d'edamames †","Wakame †, oignons verts"],
+ steps:["Chauffer le dashi. Poisson, tofu et edamames, 5 à 6 minutes à frémissement.","Retirer du feu. Délayer le miso dans une louche de bouillon, puis l'incorporer.","Wakame et oignons verts."],
+ notes:[],tech:["T2"]},
+
+{id:"R34",cat:"sou",jp:"おでん",ro:"oden",fr:"Oden",img:IMG.oden,por:"4",tps:"45 min, presque sans travail",pro:"25 g",cal:"≈ 260",
+ sub:"Le mijoté d'hiver. Meilleur réchauffé le lendemain. Le konnyaku fait environ 5 calories aux 100 g et remplit l'estomac.",
+ ing:["BOUILLON — 1,5 L de dashi (T2) + 2 c. à soupe de soya + 1 c. à soupe de mirin + 1 c. à thé de sucre","Daikon en rondelles de 3 cm","Œufs durs entiers","Konnyaku en triangles","Tofu grillé (atsuage)","Pilons de poulet, poulpe, shiitakes entiers","Moutarde karashi pour servir"],
+ steps:["Peler le daikon largement et arrondir les arêtes au couteau — ça l'empêche de s'effriter.","Le faire bouillir 10 minutes dans de l'eau séparée avant de l'ajouter au dashi. Ça enlève l'amertume. Jeter cette eau.","Entailler le konnyaku en croisillons sur les deux faces : il absorbe beaucoup mieux.","Tout mettre dans le dashi assaisonné, mijoter à tout petit feu, 30 minutes minimum. Ça ne doit jamais bouillir franchement.","Servir avec de la moutarde karashi à côté."],
+ notes:[{k:"À limiter",t:"Les gâteaux de poisson traditionnels — chikuwa, satsuma-age, hanpen — sont très salés. Idem pour les saucisses enrobées et le mochi kinchaku."}],tech:["T2"]},
+
+{id:"R35",cat:"sou",jp:"清蒸魚",ro:"qīngzhēng yú",pr:"tching-djeng you",fr:"Poisson vapeur cantonais",img:IMG.vapeur,por:"2",tps:"18 min",pro:"34 g",cal:"≈ 250",
+ sub:"Le plat le plus élégant du répertoire chinois. Le geste central est l'huile fumante versée sur les aromates.",
+ ing:["1 poisson blanc entier (bar, tilapia) ou 2 filets épais","Gingembre en fines juliennes, oignons verts en filaments","2 c. à soupe de sauce soya pour poisson vapeur + 1 c. à soupe d'eau","1 c. à soupe d'huile d'arachide"],
+ steps:["Déposer le poisson sur une assiette creuse avec la moitié du gingembre. Placer dans un panier vapeur au-dessus de l'eau bouillante. 8 à 12 minutes selon l'épaisseur.","Jeter le liquide accumulé dans l'assiette — il est amer.","Couvrir de gingembre et d'oignon vert frais.","Chauffer l'huile jusqu'à ce qu'elle fume légèrement, puis la verser directement sur les aromates. Le grésillement libère tout le parfum.","Arroser de sauce autour, jamais dessus."],
+ notes:[{k:"Au comptoir poisson",t:"Ils vont écailler et vider le poisson pour vous si vous le demandez. C'est la seule difficulté de la recette, et elle se délègue."}]},
+
+{id:"R36",cat:"sou",jp:"鶏のフォー風",ro:"tori no phở-fū",pr:"to-ri no feu fou",fr:"Faux-pho au poulet",img:IMG.pho,por:"2",tps:"30 min",pro:"42 g",cal:"≈ 320",
+ sub:"Ce n'est pas un phở — un vrai bouillon mijote six à douze heures et contient des nouilles. C'est un bouillon aromatique qui en emprunte le profil, sans nouilles.",
+ ing:["1 L de bouillon de poulet","400 g de poulet tranché très mince","1 morceau de gingembre de 5 cm, 1 oignon coupé en deux","2 anis étoilés, 1 bâton de cannelle, 3 clous de girofle","1 c. à soupe de sauce de poisson","3 tasses de fèves germées","Coriandre, oignons verts, basilic thaï, lime, jalapeño"],
+ steps:["Griller l'oignon et le gingembre à sec dans la casserole, 5 minutes, jusqu'à ce qu'ils noircissent par endroits. C'est ce qui donne la profondeur.","Ajouter le bouillon et les épices, mijoter 20 minutes à couvert, puis filtrer.","Fèves germées crues au fond des bols, puis le poulet cru tranché mince par-dessus.","Verser le bouillon bouillant : il cuit le poulet en 1 à 2 minutes.","Garnir généreusement, ajouter la lime au moment de manger."],
+ notes:[{k:"Le meilleur substitut de nouilles du recueil",t:"Les fèves germées gardent leur croquant sous le bouillon chaud."}]},
+
+{id:"R37",cat:"sou",jp:"しらたき炒め",ro:"shirataki itame",fr:"Nouilles konjac aux légumes",img:IMG.shirataki,por:"2",tps:"15 min",pro:"30 g",cal:"≈ 230",
+ sub:"Les shirataki font environ 5 calories aux 100 g. L'étape 2 n'est pas facultative.",
+ ing:["2 paquets de nouilles shirataki","300 g de protéine au choix","Daikon, carotte, champignons, chou","SAUCE — 2 c. à soupe de soya, 1 c. à soupe de mirin, 1 c. à thé d'huile de sésame","Shichimi"],
+ steps:["Rincer les shirataki abondamment, 1 minute sous l'eau froide.","Les faire sauter à sec dans une poêle chaude, 2 à 3 minutes, jusqu'à ce qu'ils grincent. Cette étape enlève l'odeur caractéristique et améliore énormément la texture. Ne la sautez pas.","Ajouter le reste et sauter 5 minutes."],
+ notes:[]},
+
+{id:"R38",cat:"soupe",jp:"味噌汁",ro:"misoshiru",fr:"Soupe miso de base",img:IMG.miso,por:"2 bols",tps:"3 min",pro:"4 g",cal:"≈ 50",
+ sub:"Le meilleur outil qui existe contre la fringale de 21 h. Trois minutes si le dashi est au réfrigérateur.",
+ ing:["400 ml de dashi (T2)","1 c. à soupe de miso blanc (pas plus — le dashi porte le goût)","60 g de tofu soyeux en petits cubes","1 c. à thé de wakame † séché","Oignon vert"],
+ steps:["Chauffer le dashi jusqu'au frémissement, ajouter le tofu.","Retirer du feu. Mettre le miso dans une petite passoire ou une louche, ajouter un peu de bouillon chaud, écraser avec le dos d'une cuillère pour le délayer, puis reverser.","Wakame et oignon vert."],
+ notes:[{k:"Les variantes",t:"Aux champignons (enoki ou shimeji, 1 min) ▪ au daikon (fines lamelles, 3 min) ▪ aux palourdes (6 palourdes jusqu'à ouverture — riche en fer) ▪ au miso rouge (plus corsé, réduire à 2 c. à thé) ▪ tonjiru (porc et légumes-racines : devient une soupe-repas)."},{k:"Ne jamais faire bouillir après le miso",t:"La chaleur détruit les arômes et les cultures."}],tech:["T2"]},
+
+{id:"R39",cat:"soupe",jp:"canh",ro:"canh",pr:"kang",fr:"Canh vietnamienne",img:IMG.canh,por:"2 bols",tps:"8 min",pro:"3 g",cal:"≈ 60",
+ sub:"La soupe maison qu'on sert à table dans tous les restaurants vietnamiens.",
+ ing:["500 ml de bouillon léger","1 tomate en quartiers","2 tasses de verdure : cresson, épinards, chou nappa","1 c. à thé de sauce de poisson","Oignon vert, coriandre, poivre blanc"],
+ steps:["Frémir le bouillon avec la tomate 5 minutes.","Ajouter la verdure, 1 minute.","Assaisonner hors du feu."],
+ notes:[]},
+
+{id:"R40",cat:"soupe",jp:"吸い物",ro:"suimono",fr:"Suimono — bouillon clair",img:IMG.suimono,por:"2 bols",tps:"3 min",pro:"2 g",cal:"≈ 25",
+ sub:"Le plus élégant et le plus léger. L'esthétique compte : deux éléments qui flottent, rien d'autre.",
+ ing:["400 ml de dashi","½ c. à thé de soya clair, une pincée de sel","Un ou deux éléments seulement : une crevette, un cube de tofu, une feuille de shiso, un champignon enoki, un zeste de yuzu"],
+ steps:["Chauffer le dashi jusqu'au frémissement.","Assaisonner très légèrement.","Déposer un ou deux éléments dans chaque bol et verser le bouillon dessus."],
+ notes:[],tech:["T2"]},
+
+{id:"R41",cat:"soupe",jp:"卵とトマトのスープ",ro:"tamago to tomato no sūpu",fr:"Soupe aux œufs et tomate",img:IMG.tomate,por:"2 bols",tps:"6 min",pro:"6 g",cal:"≈ 80",
+ sub:"Six minutes, six ingrédients.",
+ ing:["500 ml de bouillon","1 tomate en dés","1 œuf battu","1 c. à thé de fécule délayée","Oignon vert, un filet d'huile de sésame"],
+ steps:["Frémir bouillon et tomate 4 minutes.","Épaissir légèrement avec la fécule.","Verser l'œuf en filet en brassant lentement dans une seule direction.","Oignon vert et filet d'huile de sésame."],
+ notes:[]},
+
+{id:"R42",cat:"soupe",jp:"大根の澄まし汁",ro:"daikon no sumashi-jiru",fr:"Bouillon au daikon et gingembre",img:IMG.daikon,por:"2 bols",tps:"10 min",pro:"1 g",cal:"≈ 40",
+ sub:"Réconfortant, digestif, presque zéro calorie.",
+ ing:["400 ml de dashi","½ tasse de daikon en fines lamelles","1 c. à thé de gingembre râpé","1 c. à thé de soya"],
+ steps:["Frémir le dashi avec le daikon 8 minutes, jusqu'à ce qu'il devienne translucide.","Ajouter le gingembre et le soya hors du feu."],
+ notes:[],tech:["T2"]},
+
+{id:"R43",cat:"gar",jp:"お浸し",ro:"ohitashi",fr:"Ohitashi — épinards au dashi",img:IMG.epinard,por:"4",tps:"8 min",pro:"3 g",cal:"≈ 25",
+ sub:"Se garde 3 jours. Environ 25 calories la portion, et le blanchiment améliore l'absorption du fer.",
+ ing:["1 grosse botte d'épinards, préparée selon T6","TREMPETTE — 100 ml de dashi, 1 c. à soupe de soya, 1 c. à thé de mirin","Katsuobushi, sésame"],
+ steps:["Faire T6 (blanchiment).","Couper le boudin d'épinards en tronçons de 4 cm.","Immerger dans le mélange de dashi, au moins 30 minutes au réfrigérateur.","Servir en petits tas, garnir de katsuobushi."],
+ notes:[],tech:["T2","T6"]},
+
+{id:"R44",cat:"gar",jp:"胡麻和え",ro:"goma-ae",fr:"Goma-ae — haricots au sésame",img:IMG.gomaae,por:"4",tps:"10 min",pro:"4 g",cal:"≈ 70",
+ sub:"L'étape qui fait tout : écraser les graines de sésame au mortier. C'est ce qui libère l'huile et fait la sauce.",
+ ing:["300 g de haricots verts ou d'épinards","SAUCE — 3 c. à soupe de graines de sésame blanches, 1 c. à soupe de soya, 1 c. à thé de sucre, 1 c. à thé de dashi"],
+ steps:["Blanchir les haricots 3 minutes, refroidir à l'eau glacée, égoutter.","Griller les graines de sésame à sec dans une poêle, 2 minutes, en secouant. Elles doivent embaumer et commencer à sauter.","Les écraser au mortier ou au fond d'un bol avec une cuillère, jusqu'à texture de sable humide.","Ajouter les assaisonnements, mélanger aux haricots."],
+ notes:[]},
+
+{id:"R45",cat:"gar",jp:"酢の物",ro:"sunomono",fr:"Sunomono — concombre vinaigré",img:IMG.sunomono,por:"4",tps:"8 min",pro:"1 g",cal:"≈ 35",
+ sub:"Réduit aussi la réponse glycémique du repas qui suit. À côté de son assiette au souper familial, personne ne remarque rien.",
+ ing:["2 concombres asiatiques en tranches très fines","1 c. à thé de sel","VINAIGRETTE — 3 c. à soupe de vinaigre de riz, 1 c. à soupe de sucre, 1 c. à thé de soya","Wakame † réhydraté, sésame"],
+ steps:["Saler les tranches, laisser dégorger 10 minutes.","Presser fermement entre les mains pour extraire l'eau. C'est ce qui empêche la salade de se diluer.","Mélanger à la vinaigrette.","Garnir de wakame et de sésame."],
+ notes:[]},
+
+{id:"R46",cat:"gar",jp:"金平",ro:"kinpira",fr:"Kinpira de carotte et daikon",img:IMG.kinpira,por:"4",tps:"12 min",pro:"1 g",cal:"≈ 60",
+ sub:"Se garde 4 jours. La mandoline fait les juliennes en trente secondes.",
+ ing:["2 carottes et ¼ de daikon en juliennes","1 c. à thé d'huile de sésame","1 c. à soupe de soya, 1 c. à soupe de mirin","Sésame, shichimi"],
+ steps:["Sauter les juliennes 4 minutes à feu vif.","Ajouter les liquides, réduire jusqu'à ce qu'ils enrobent.","Sésame et shichimi."],
+ notes:[]},
+
+{id:"R47",cat:"gar",jp:"叩ききゅうり",ro:"tataki kyūri",fr:"Concombre tataki",img:IMG.concombre,por:"2",tps:"5 min",pro:"1 g",cal:"≈ 40",
+ sub:"Pratiquement zéro calorie, et addictif. Les surfaces déchirées absorbent beaucoup mieux la marinade que des tranches nettes.",
+ ing:["1 concombre","1 gousse d'ail écrasée","1 c. à soupe de vinaigre de riz","1 c. à thé d'huile de sésame, piment"],
+ steps:["Écraser le concombre au plat d'un large couteau jusqu'à ce qu'il craque et se fende.","Déchirer en morceaux irréguliers à la main.","Mariner 15 minutes."],
+ notes:[]},
+
+{id:"R48",cat:"col",jp:"枝豆",ro:"edamame",fr:"Edamames au sésame",img:IMG.edamame,por:"4",tps:"5 min",pro:"18 g / tasse",cal:"≈ 190 / tasse",
+ sub:"Acheter nature congelés, pas salés — on dose soi-même. Décortiquer ralentit le rythme, ce qui fait partie de l'intérêt.",
+ ing:["1 sac d'edamames † en cosses, congelés nature","Une pincée de sel","Un filet d'huile de sésame"],
+ steps:["Décongeler les edamames.","Sauter à sec 2 minutes dans une poêle chaude jusqu'à ce qu'ils marquent.","Assaisonner d'une pincée de sel et d'un filet d'huile de sésame."],
+ notes:[{k:"Les autres collations sans préparation",t:"Nori † grillé (1 paquet ≈ 30 cal) ▪ senbei (4 à 5) ▪ gelée de konjac (≈ 20 cal) ▪ calmar séché (20 g) ▪ yogourt grec 0 % + kinako (175 g, 17 g de protéines) ▪ mikan, kaki, poire asiatique ▪ patate douce japonaise rôtie (four à 200 °C, 45 min) ▪ tofu froid au ponzu (½ bloc, 3 minutes)."}]}
+];
+
+class Component extends DCLogic {
+  state = { cat: "tous", q: "", open: null };
+
+  componentDidMount() {
+    this.sync();
+    this._h = () => this.sync();
+    window.addEventListener("hashchange", this._h);
+
+  }
+  componentWillUnmount() { window.removeEventListener("hashchange", this._h); }
+
+  sync() {
+    const id = (location.hash || "").replace("#", "");
+    const found = R.find(r => r.id === id);
+    this.setState({ open: found ? found.id : null });
+  }
+  go(id) {
+    location.hash = id;
+    this.setState({ open: id });
+  }
+  close() {
+    history.replaceState(null, "", location.pathname + location.search);
+    this.setState({ open: null });
+  }
+
+  renderVals() {
+    const { cat, q, open } = this.state;
+    const norm = s => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const term = norm(q);
+    const list = R.filter(r => (cat === "tous" || r.cat === cat))
+      .filter(r => !term || norm(r.fr + " " + r.ro + " " + r.id + " " + r.sub + " " + r.ing.join(" ")).includes(term))
+      .map(r => ({
+        id: r.id, jp: r.jp, ro: r.ro, fr: r.fr, img: r.img, bg: 'url("' + r.img + '")', jpt: JPT(r.jp, r.ro, r.fr, r.pr),
+        catLabel: CATLABEL[r.cat],
+        meta: r.tps + " · " + r.pro + " · " + r.cal + " cal",
+        go: () => this.go(r.id)
+      }));
+
+    const o = R.find(r => r.id === open);
+    const openVal = o ? {
+      id: o.id, jp: o.jp, ro: o.ro, fr: o.fr, sub: o.sub, img: o.img, bg: 'url("' + o.img + '")',
+      jpt: JPT(o.jp, o.ro, o.fr, o.pr),
+      catLabel: CATLABEL[o.cat], por: o.por, tps: o.tps, pro: o.pro, cal: o.cal,
+      ing: o.ing.map(t => ({ t })),
+      steps: o.steps.map((t, i) => ({ n: i + 1, t })),
+      notes: (o.notes || []).map(n => ({ k: n.k, t: n.t })),
+      hasNotes: !!(o.notes && o.notes.length),
+      hasTech: !!(o.tech && o.tech.length),
+      tech: (o.tech || []).map(id => {
+        const t = R.find(x => x.id === id);
+        return { label: id + " — " + (t ? t.fr : ""), go: () => this.go(id) };
+      })
+    } : null;
+
+    const base = "background:#f3f2f2;border:0;padding:9px 14px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;font-family:inherit;color:#201e1d";
+    const on = "background:#ec3013;border:0;padding:9px 14px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;font-family:inherit;color:#fff";
+
+    return {
+      cats: CATS.map(c => ({ label: c.label, style: c.k === cat ? on : base, go: () => this.setState({ cat: c.k }) })),
+      list,
+      q,
+      count: list.length + (list.length > 1 ? " fiches" : " fiche"),
+      search: e => this.setState({ q: e.target.value }),
+      open: openVal,
+      showFiche: !!openVal,
+      showList: true,
+      close: () => this.close()
+    };
+  }
+}
+</script>
+</body>
+</html>
