@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap">
 <style>
-  html { -webkit-text-size-adjust:100%; }
+  html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:64px; }
   body { margin:0; background:#f3f2f2; color:#201e1d; font-family:"Archivo",system-ui,sans-serif; }
   * { box-sizing:border-box; }
   img { display:block; max-width:100%; }
@@ -133,7 +133,27 @@
         </figure>
       </section>
 
-      <section class="in" style="border-top:2px solid #201e1d">
+      <section style="border-top:2px solid #201e1d">
+        <div class="in" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(20px,4vw,48px)">
+          <div>
+            <span style="display:block;margin:0 0 6px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ec3013">Dans ce guide</span>
+            <p style="margin:0;font-size:16px;line-height:1.7;color:#444141">Les seize exercices (section&nbsp;4) se cherchent et se filtrent, mais ils ne sont qu'une pièce du guide. Autour&nbsp;: pourquoi bouger à poids élevé, la marche, les formats, la progression sur douze semaines et les signaux d'alerte.</p>
+          </div>
+          <nav style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px 18px;font-size:14px;line-height:1.95;align-content:start">
+            <a href="#s1" style="display:block">1 Comprendre avant de commencer</a>
+            <a href="#s2" style="display:block">2 La marche</a>
+            <a href="#s3" style="display:block">3 Les autres activités sans impact</a>
+            <a href="#exos" style="display:block">4 Les seize exercices</a>
+            <a href="#s5" style="display:block">5 Les trois formats</a>
+            <a href="#s6" style="display:block">6 La progression sur douze semaines</a>
+            <a href="#s7" style="display:block">7 Quand s'arrêter, quand consulter</a>
+            <a href="#s8" style="display:block">8 Mesurer autre chose que le poids</a>
+            <a href="#s9" style="display:block">9 Les cinq règles</a>
+          </nav>
+        </div>
+      </section>
+
+      <section id="s1" class="in" style="border-top:2px solid #201e1d">
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(16px,4vw,48px)">
           <div>
             <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
@@ -154,7 +174,7 @@
         <div class="note"><span class="lbl">Le vrai risque du débutant</span><p>Ce n'est pas le surentraînement. C'est <strong>d'en faire trop, trop vite, d'avoir mal pendant cinq jours, et de ne jamais y retourner</strong>. La règle qui prime sur toutes les autres&nbsp;: commencer plus doucement que ce dont tu te sens capable. Tu dois finir tes premières séances en te disant « j'aurais pu en faire plus ».</p></div>
       </section>
 
-      <section class="in" style="border-top:2px solid #201e1d">
+      <section id="s2" class="in" style="border-top:2px solid #201e1d">
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(16px,4vw,48px)">
           <div>
             <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
@@ -221,7 +241,7 @@
         <p class="p">Le bureau debout, lui, apporte environ 50 calories de plus par heure. Trois heures debout par jour, c'est 150 calories&nbsp;: non négligeable, mais c'est une stratégie de posture et d'énergie, pas de perte de poids.</p>
       </section>
 
-      <section class="in" style="border-top:2px solid #201e1d">
+      <section id="s3" class="in" style="border-top:2px solid #201e1d">
         <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
           <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">03</span>
           <span title="mushōgeki — « mou-chô-gué-ki » · sans impact" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">無衝撃</span>
@@ -303,7 +323,7 @@
         <div class="note"><span class="lbl">Ne fais pas de redressements assis ni de crunchs</span><p>Ils compriment les disques lombaires en flexion répétée, pour un bénéfice inférieur au bird dog et au dead bug.</p></div>
       </section>
 
-      <section class="in" style="border-top:2px solid #201e1d">
+      <section id="s5" class="in" style="border-top:2px solid #201e1d">
         <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
           <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">05</span>
           <span title="sankeishiki — « sane-ké-chi-ki » · trois formats" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">三形式</span>
@@ -332,7 +352,7 @@
         </div>
       </section>
 
-      <section class="in" style="border-top:2px solid #201e1d">
+      <section id="s6" class="in" style="border-top:2px solid #201e1d">
         <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
           <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">06</span>
           <span title="jūnishū — « djou-ni-chou » · douze semaines" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">十二週</span>
@@ -368,7 +388,7 @@
         </ul>
       </section>
 
-      <section class="in" style="border-top:2px solid #201e1d">
+      <section id="s7" class="in" style="border-top:2px solid #201e1d">
         <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
           <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">07</span>
           <span title="chūshi — « tchou-chi » · arrêter" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">中止</span>
@@ -391,7 +411,7 @@
         <div class="note"><span class="lbl">Un signal particulier pour qui prend des médicaments pour la tension</span><p>En perdant du poids, la tension baisse, et l'exercice l'abaisse aussi temporairement. Des étourdissements en se relevant, une faiblesse inhabituelle ou une fatigue nouvelle ne sont probablement pas dus à l'entraînement — c'est le signal d'appeler le médecin pour réviser les doses.</p></div>
       </section>
 
-      <section class="in" style="border-top:2px solid #201e1d">
+      <section id="s8" class="in" style="border-top:2px solid #201e1d">
         <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
           <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">08</span>
           <span title="kiroku — « ki-ro-kou » · le suivi" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">記録</span>
@@ -415,7 +435,7 @@
         <div class="note"><span class="lbl">Le meilleur indicateur de tous</span><p>La facilité des gestes du quotidien. Monter un escalier sans y penser, se lever d'une chaise basse sans les mains, porter les sacs d'épicerie d'un seul voyage. Ces changements arrivent bien avant que la balance impressionne, et ce sont eux qui rendent le reste possible.</p></div>
       </section>
 
-      <section class="in" style="border-top:2px solid #201e1d">
+      <section id="s9" class="in" style="border-top:2px solid #201e1d">
         <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
           <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">09</span>
           <span title="go gensoku — « go guène-so-kou » · cinq règles" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">五原則</span>
