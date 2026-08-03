@@ -25,7 +25,7 @@
 </style>
 </helmet>
 
-<div style="min-height:100vh;background:#f3f2f2">
+<div style="min-height:100vh;display:flex;flex-direction:column;background:#f3f2f2">
 
   <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:20">
     <div style="max-width:1180px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:baseline;gap:16px;flex-wrap:wrap">
@@ -130,13 +130,26 @@
         <p style="margin:0 0 6px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Par où commencer</p>
         <p style="margin:0;font-size:14px;line-height:1.6;color:#444141">Le guide 1, en entier, une fois. Ensuite le guide 3 avant la première épicerie. Les guides 2 et 5 se consultent, ils ne se lisent pas.</p>
       </div>
+    </div>
+  </section>
+
+  <footer style="margin-top:auto;border-top:2px solid #201e1d;background:#201e1d;color:#bab6b6">
+    <div style="max-width:1180px;margin:0 auto;padding:clamp(32px,5vw,56px) clamp(16px,4vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px">
       <div>
-        <p style="margin:0 0 6px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Avertissement</p>
-        <p style="margin:0;font-size:14px;line-height:1.6;color:#444141">Rien ici n'est un avis médical. Les cibles chiffrées du guide 4 sont un premier jet à faire corriger par une nutritionniste et un médecin.</p>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Le dossier</p>
+        <p style="margin:0;font-size:15px;line-height:1.7">Quatre guides qui se complètent&nbsp;: <a href="guide-1-manger.dc.html" style="color:#f8f4f4;text-decoration:underline">Manger</a> pour les principes, <a href="guide-2-recettes.dc.html" style="color:#f8f4f4;text-decoration:underline">Recettes</a> pour cuisiner, <a href="guide-3-supermarche.dc.html" style="color:#f8f4f4;text-decoration:underline">Supermarché</a> pour s'approvisionner, <a href="guide-4-bouger.dc.html" style="color:#f8f4f4;text-decoration:underline">Bouger</a> pour l'activité.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Avertissement</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">Rien ici n'est un avis médical. Toute condition cardiovasculaire, métabolique ou thyroïdienne demande une validation professionnelle avant tout changement significatif.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Crédits</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">Photographies&nbsp;: Wikimedia Commons.</p>
+        <p style="margin:14px 0 0"><a href="conditions.dc.html" style="color:#f8f4f4;text-decoration:underline;font-size:14px">Conditions d'utilisation</a></p>
       </div>
     </div>
-    <p style="margin:32px 0 0;font-size:12px;color:#7d7979">Photographies : Wikimedia Commons.</p>
-  </section>
+  </footer>
 
 </div>
 </x-dc>
