@@ -1,0 +1,5 @@
+# Ne jamais publier de PDF ni de données personnelles sur ce dépôt public
+*.pdf
+*-PRIVE*
+*-prive*
+.DS_Store
