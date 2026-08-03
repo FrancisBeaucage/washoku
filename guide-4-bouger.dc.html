@@ -671,9 +671,31 @@ class Component extends DCLogic {
     this.sync();
     this._h = () => this.sync();
     window.addEventListener("hashchange", this._h);
-
+    this._syncScroll();
   }
-  componentWillUnmount() { window.removeEventListener("hashchange", this._h); }
+  componentDidUpdate() { this._syncScroll(); }
+  componentWillUnmount() { window.removeEventListener("hashchange", this._h); this._setScrollLock(false); }
+
+  // Fige le défilement de la liste en arrière-plan quand une fiche est ouverte,
+  // et restaure la position exacte à la fermeture.
+  _syncScroll() { this._setScrollLock(!!this.state.open); }
+  _setScrollLock(locked) {
+    const b = document.body;
+    if (locked) {
+      if (b.hasAttribute("data-scroll-lock")) return;
+      const y = window.scrollY || window.pageYOffset || 0;
+      b.setAttribute("data-scroll-lock", String(y));
+      b.style.position = "fixed"; b.style.top = (-y) + "px";
+      b.style.left = "0"; b.style.right = "0"; b.style.width = "100%";
+    } else {
+      if (!b.hasAttribute("data-scroll-lock")) return;
+      const y = parseInt(b.getAttribute("data-scroll-lock"), 10) || 0;
+      b.removeAttribute("data-scroll-lock");
+      b.style.position = ""; b.style.top = "";
+      b.style.left = ""; b.style.right = ""; b.style.width = "";
+      window.scrollTo({ top: y, left: 0, behavior: "instant" });
+    }
+  }
 
   sync() {
     const id = (location.hash || "").replace("#", "");
