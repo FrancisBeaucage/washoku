@@ -35,7 +35,7 @@
   .filterbar { max-width:1180px; margin:0 auto; padding:12px clamp(16px,4vw,40px); display:grid; gap:10px; }
   .fiche2 { display:grid; grid-template-columns:minmax(230px,320px) 1fr; gap:clamp(24px,4vw,52px); align-items:start; }
   .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:#201e1d; border:2px solid #201e1d; margin:clamp(22px,3vw,34px) 0; }
-  @media (max-width:760px) { .fiche2 { grid-template-columns:1fr; gap:40px; } .metrics { grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:760px) { .fiche2 { grid-template-columns:1fr; } .metrics { grid-template-columns:repeat(2,1fr); } }
 </style>
 </helmet>
 
@@ -83,7 +83,7 @@
       </div>
 
       <sc-if value="{{ open.hasVideo }}" hint-placeholder-val="{{ false }}">
-        <div style="margin:clamp(22px,3vw,34px) 0 0">
+        <div style="margin:clamp(22px,3vw,34px) 0 clamp(30px,4vw,44px)">
           <p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">En vidéo</p>
           <div style="position:relative;aspect-ratio:16/9;border:2px solid #201e1d;background:#000">
             <iframe src="https://www.youtube-nocookie.com/embed/{{ open.yt }}" title="{{ open.fr }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe>
@@ -562,7 +562,7 @@ const R = [
  steps:["Faire T3 (salage préalable, 20 minutes).","Préchauffer le gril du four (fonction broil) 5 minutes, grille placée à environ 15 cm de l'élément.","Déposer le poisson sur une plaque tapissée de papier d'aluminium. Aucune huile.","Peau vers le haut, 6 à 8 minutes pour un filet de 150 g. Ne pas retourner.","Vérifier : la chair se sépare en flocons quand on la pousse avec une fourchette. Si elle résiste, remettre 2 minutes."],
  notes:[{k:"Poisson entier",t:"Compter 12 à 15 minutes et retourner à mi-cuisson."}]},
 
-{id:"T5",cat:"tech",jp:"上漿",ro:"velveting",pr:"tchang djiang",fr:"Le velouté",img:IMG.T5,por:"400 g de viande",tps:"10 min + 45 min",pro:"—",cal:"≈ 40 ajoutées",
+{id:"T5",yt:"odGG8AEf0LU",ytBy:"The Woks of Life",cat:"tech",jp:"上漿",ro:"velveting",pr:"tchang djiang",fr:"Le velouté",img:IMG.T5,por:"400 g de viande",tps:"10 min + 45 min",pro:"—",cal:"≈ 40 ajoutées",
  sub:"Rend les coupes maigres et bon marché aussi tendres que les coupes grasses. La technique la plus utile du recueil pour qui cherche à réduire les calories sans perdre le plaisir.",
  ing:["400 g de viande tranchée très mince","¾ c. à thé de bicarbonate de soude","1 c. à soupe de fécule de maïs","1 c. à soupe de sauce soya","1 c. à thé d'huile"],
  steps:["Trancher la viande très mince contre le grain. Astuce : la mettre 20 minutes au congélateur avant, elle se coupe beaucoup mieux.","Masser avec le bicarbonate de soude. Bien enrober.","Réfrigérer 30 minutes. Pas plus de 40 — au-delà, la texture devient spongieuse.","Rincer abondamment à l'eau froide, au moins trois changements d'eau. Cette étape n'est pas négociable : le bicarbonate résiduel laisse un goût savonneux.","Bien éponger.","Mariner 15 minutes avec la fécule, la sauce soya et l'huile."],
@@ -604,7 +604,7 @@ const R = [
  steps:["Réchauffer le riz jusqu'à ce qu'il soit vraiment brûlant.","Verser les œufs battus dessus et mélanger vigoureusement.","Ajouter la sauce soya, le furikake et l'oignon vert."],
  notes:[{k:"Œufs crus",t:"Au Japon, les œufs sont pasteurisés pour cet usage. Ici, utilisez des œufs très frais, ou faites-les mollets."}]},
 
-{id:"R5",cat:"dej",jp:"韓国風丼",ro:"kankoku-fū don",fr:"Bol coréen express",img:IMG.bibimbap,por:"1",tps:"5 min",pro:"20 g",cal:"≈ 430",
+{id:"R5",yt:"5YMJqshTBMI",ytBy:"Aaron and Claire",cat:"dej",jp:"韓国風丼",ro:"kankoku-fū don",fr:"Bol coréen express",img:IMG.bibimbap,por:"1",tps:"5 min",pro:"20 g",cal:"≈ 430",
  sub:"Un reste de riz, deux œufs, du kimchi et des épinards. Cinq minutes.",
  ing:["2 œufs brouillés","Reste de riz","½ tasse de kimchi rincé rapidement","1 tasse d'épinards blanchis (T6) à l'ail","1 c. à thé d'huile de sésame, graines de sésame"],
  steps:["Blanchir les épinards selon T6 et les assaisonner d'ail et de sésame.","Brouiller les œufs.","Monter le bol : riz, épinards, kimchi, œufs.","Filet d'huile de sésame et graines de sésame."],
@@ -646,7 +646,7 @@ const R = [
  steps:["Déposer le riz et le poisson dans un bol.","Verser le liquide chaud dessus.","Garnir de nori, de wasabi, de sésame et d'un umeboshi."],
  notes:[{k:"Le repas de fin de soirée",t:"C'est le classique japonais quand on rentre tard et qu'on n'a envie de rien cuisiner."}]},
 
-{id:"R12",cat:"din",jp:"蕎麦サラダ",ro:"soba sarada",fr:"Salade de soba",img:IMG.soba,por:"2",tps:"12 min",pro:"32 g",cal:"≈ 460",
+{id:"R12",yt:"-ojltkREE1c",cat:"din",jp:"蕎麦サラダ",ro:"soba sarada",fr:"Salade de soba",img:IMG.soba,por:"2",tps:"12 min",pro:"32 g",cal:"≈ 460",
  sub:"Se transporte parfaitement. Les soba de sarrasin apportent plus de protéines et de fibres que le blé.",
  ing:["200 g de nouilles soba sèches","300 g de poulet grillé (R49) tranché, ou de crevettes","1 concombre en julienne, 1 tasse d'edamames †, oignon vert","SAUCE — 4 c. à soupe de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de vinaigre de riz, 1 c. à thé d'huile de sésame"],
  steps:["Cuire les soba selon le paquet, généralement 4 à 5 minutes.","Rincer abondamment à l'eau froide en frottant les nouilles entre les mains. Étape essentielle : elle enlève l'amidon de surface, sans quoi les soba collent en bloc.","Bien égoutter.","Mélanger la sauce et assembler."],
@@ -658,7 +658,7 @@ const R = [
  steps:["Poser une feuille de nori en losange sur une pellicule plastique.","Étaler une fine couche de riz au centre, en carré.","Empiler la garniture, puis une deuxième couche de riz.","Replier les quatre coins du nori vers le centre, comme une enveloppe.","Envelopper serré dans la pellicule et laisser 5 minutes — c'est ce qui soude le tout.","Couper en deux avec un couteau bien aiguisé, à travers la pellicule."],
  notes:[],tech:["T7"]},
 
-{id:"R14",cat:"sou",jp:"鮭の塩焼き",ro:"sake no shioyaki",fr:"Saumon shioyaki et daikon râpé",img:IMG.T4,por:"2",tps:"20 min",pro:"35 g",cal:"≈ 320",
+{id:"R14",yt:"cr2cP89TtIk",ytBy:"Japanese Cooking 101",cat:"sou",jp:"鮭の塩焼き",ro:"sake no shioyaki",fr:"Saumon shioyaki et daikon râpé",img:IMG.T4,por:"2",tps:"20 min",pro:"35 g",cal:"≈ 320",
  sub:"Zéro huile ajoutée. La recette la plus facile du recueil, et celle par laquelle commencer.",
  ing:["2 filets de saumon de 150 g","Sel pour T3","½ daikon","Ponzu, oignon vert, shichimi togarashi, quartiers de citron"],
  steps:["Faire T3 (salage préalable, 20 minutes) puis T4 (gril, 6 à 8 minutes).","Râper le daikon sur les gros trous d'une râpe ou à l'oroshigane. Presser légèrement entre les mains pour enlever l'excès d'eau — il doit rester humide, pas détrempé.","Servir le poisson sur un petit tas de daikon.","Arroser de ponzu, garnir d'oignon vert, de shichimi et d'un quartier de citron."],
@@ -676,13 +676,13 @@ const R = [
  steps:["Porter le liquide à frémissement dans une poêle large avec le gingembre.","Déposer le poisson en une seule couche, peau vers le haut.","Couvrir d'un otoshibuta — un couvercle qui repose directement sur les aliments. Un cercle de papier parchemin fait l'affaire.","Mijoter 10 à 12 minutes."],
  notes:[{k:"L'otoshibuta",t:"Ça fait circuler le liquide par-dessus le poisson sans qu'on ait à le retourner. C'est ce qui empêche les filets de se défaire."}],tech:["T2"]},
 
-{id:"R17",cat:"sou",jp:"牛肉とブロッコリー",ro:"gyūniku to burokkorī",fr:"Bœuf et brocoli",img:IMG.boeufbroc,por:"2",tps:"25 min",pro:"40 g",cal:"≈ 420",
+{id:"R17",yt:"n_0JYAQzYAg",ytBy:"Made With Lau",cat:"sou",jp:"牛肉とブロッコリー",ro:"gyūniku to burokkorī",fr:"Bœuf et brocoli",img:IMG.boeufbroc,por:"2",tps:"25 min",pro:"40 g",cal:"≈ 420",
  sub:"Le plat le plus familier du recueil, et la meilleure démonstration du velouté. 500 g de brocoli pour 400 g de bœuf — au restaurant, c'est l'inverse.",
  ing:["400 g de bifteck de flanc ou de ronde, préparé selon T5","1 gros brocoli (environ 500 g) en fleurettes","SAUCE — 3 c. à soupe de bouillon, 1 c. à soupe de sauce d'huîtres, 1 c. à soupe de soya réduit en sodium, 1 c. à thé de vinaigre de riz, 1 c. à thé de fécule, 1 c. à thé de sucre","4 gousses d'ail, 1 c. à soupe de gingembre râpé","1 c. à soupe d'huile, mesurée"],
  steps:["Faire T5 sur le bœuf (velouté).","Blanchir le brocoli 2 minutes à l'eau bouillante, égoutter et bien assécher.","Grande poêle très chaude, 1 c. à soupe d'huile. Saisir le bœuf en une seule couche, sans le déplacer, 90 secondes. Retourner, 30 secondes. Réserver.","Ail et gingembre, 30 secondes. Ajouter le brocoli.","Verser la sauce, remettre le bœuf, enrober 1 minute."],
  notes:[{k:"La sauce entre en dernier, toujours",t:"Le sucre qu'elle contient brûle en moins d'une minute sur du métal chaud. C'est l'erreur qui ruine le plus de sautés."},{k:"Mesurer l'huile",t:"Une cuillère à soupe fait 120 calories. Versée à l'œil dans une poêle chaude, c'en est facilement trois."}],tech:["T5"]},
 
-{id:"R18",cat:"sou",jp:"ブンチャー",ro:"bún chả",pr:"boune tcha",fr:"Bun cha vietnamien en bol",img:IMG.buncha,por:"2",tps:"30 min",pro:"38 g",cal:"≈ 480",
+{id:"R18",yt:"iZJzTScgB-c",ytBy:"Helen's Recipes",cat:"sou",jp:"ブンチャー",ro:"bún chả",pr:"boune tcha",fr:"Bun cha vietnamien en bol",img:IMG.buncha,por:"2",tps:"30 min",pro:"38 g",cal:"≈ 480",
  sub:"Trois tasses de verdure fraîche par bol. Ce n'est pas une exagération, c'est la signature vietnamienne.",
  ing:["400 g de porc haché maigre","MARINADE — 1 c. à soupe de sauce de poisson, 1 c. à soupe de sucre, 2 gousses d'ail, 1 échalote hachée, poivre","Laitue, concombre, carotte marinée, menthe, coriandre, basilic thaï — en quantité","NUOC CHAM — 3 c. à soupe d'eau tiède, 2 c. à soupe de jus de lime, 1,5 c. à soupe de sauce de poisson, 1 c. à soupe de sucre, ail, piment","Vermicelles de riz, portion modeste"],
  steps:["Mariner le porc 20 minutes, former de petites galettes plates.","Gril du four ou poêle, 4 minutes par côté.","Monter le bol : herbes et laitue en base, galettes dessus.","Nuoc cham à verser au moment de manger."],
@@ -718,7 +718,7 @@ const R = [
  steps:["Émincer le chou le plus finement possible — la mandoline est parfaite pour ça.","Mélanger œufs, farine et dashi. Incorporer le chou. La pâte doit à peine lier : c'est du chou avec un peu de liant, pas une pâte avec du chou.","Poêle antiadhésive, 1 c. à thé d'huile, feu moyen. Étaler en galette épaisse de 2 cm. Déposer les crevettes dessus.","6 minutes sans y toucher. Retourner d'un coup avec deux spatules. 6 minutes."],
  notes:[{k:"Le nom",t:"お好み焼き signifie « grillé comme tu l'aimes ». La garniture est ouverte — c'est un plat conçu pour être improvisé."}],tech:["T2"]},
 
-{id:"R23",cat:"sou",jp:"ビビンバ",ro:"bibimbap",pr:"bi-bime-bap",fr:"Bibimbap à ratio inversé",img:IMG.bibimbap,por:"2",tps:"25 min",pro:"38 g",cal:"≈ 520",
+{id:"R23",yt:"6QQ67F8y2b8",ytBy:"Maangchi",cat:"sou",jp:"ビビンバ",ro:"bibimbap",pr:"bi-bime-bap",fr:"Bibimbap à ratio inversé",img:IMG.bibimbap,por:"2",tps:"25 min",pro:"38 g",cal:"≈ 520",
  sub:"Un petit bol de riz pour quatre tasses de légumes. Chaque légume prend 3 minutes — préparez-les le dimanche, l'assemblage prend 5 minutes en semaine.",
  ing:["Riz (140 g par personne)","Épinards blanchis (T6), assaisonnés de sésame et d'ail","Carottes en julienne sautées 2 minutes","Fèves germées ébouillantées 1 minute, huile de sésame et sel","Courgette en demi-lunes","Shiitakes tranchés, sautés","250 g de bœuf haché maigre au bulgogi, ou tofu","2 œufs au miroir","SAUCE — 2 c. à soupe de gochujang, 1 c. à soupe de vinaigre de riz, 1 c. à thé d'huile de sésame, 1 c. à thé de sucre"],
  steps:["Préparer chaque légume séparément, chacun avec son propre assaisonnement.","Cuire la protéine.","Monter le bol : riz au fond, légumes disposés en secteurs, protéine au centre.","Œuf au miroir sur le dessus.","Sauce à côté, à mélanger au moment de manger."],
@@ -730,43 +730,43 @@ const R = [
  steps:["Casserole au centre de la table, sur une plaque portative.","Chacun trempe sa tranche de viande 15 à 30 secondes dans le bouillon frémissant — elle est cuite dès qu'elle perd sa couleur rosée.","Tremper dans la sauce de son choix.","Ajouter les légumes et le tofu au fur et à mesure.","À la fin, le bouillon est devenu riche : on le boit."],
  notes:[{k:"L'argument familial",t:"C'est un souper où personne ne cuisine vraiment. Si vous devez convaincre quelqu'un d'embarquer, commencez par celui-là."}]},
 
-{id:"R25",cat:"sou",jp:"酸辣湯",ro:"suān là tāng",pr:"souane la tang",fr:"Soupe aigre-piquante",img:IMG.suanla,por:"2",tps:"25 min",pro:"35 g",cal:"≈ 330",
+{id:"R25",yt:"8eMk9yTm_34",ytBy:"Omnivore's Cookbook",cat:"sou",jp:"酸辣湯",ro:"suān là tāng",pr:"souane la tang",fr:"Soupe aigre-piquante",img:IMG.suanla,por:"2",tps:"25 min",pro:"35 g",cal:"≈ 330",
  sub:"Le piquant vient du poivre blanc, pas du piment. Goûter et ajuster : ça doit piquer et être franchement acide.",
  ing:["1 L de bouillon","350 g de poulet en lanières, 200 g de tofu ferme en bâtonnets","1 tasse de champignons : shiitakes, oreilles de bois réhydratées","3 c. à soupe de vinaigre noir de Chinkiang","1 c. à soupe de soya, 1 c. à thé de poivre blanc moulu (généreux)","2 œufs battus, 1 c. à soupe de fécule délayée"],
  steps:["Frémir le bouillon, ajouter poulet, champignons et tofu. 6 minutes.","Vinaigre, soya, poivre blanc. Goûter et ajuster.","Épaissir légèrement avec la fécule.","Verser les œufs battus en filet mince, d'une main, en brassant lentement de l'autre dans une seule direction. C'est ce qui fait les rubans plutôt que des grumeaux."],
  notes:[]},
 
-{id:"R26",cat:"sou",jp:"麻婆豆腐",ro:"mápó dòufu",pr:"ma-po dow-fou",fr:"Mapo tofu allégé",img:IMG.mapo,por:"2",tps:"20 min",pro:"32 g",cal:"≈ 380",
+{id:"R26",yt:"AujuLHK3hvs",ytBy:"Chinese Cooking Demystified",cat:"sou",jp:"麻婆豆腐",ro:"mápó dòufu",pr:"ma-po dow-fou",fr:"Mapo tofu allégé",img:IMG.mapo,por:"2",tps:"20 min",pro:"32 g",cal:"≈ 380",
  sub:"600 g de tofu, 200 g de porc au lieu des 400 habituels. Le tofu porte le plat, le porc n'est plus qu'un assaisonnement.",
  ing:["600 g de tofu ferme ou mi-ferme en cubes de 2 cm","200 g de porc haché maigre","1 c. à soupe de doubanjiang","1 c. à thé de poivre de Sichuan moulu","3 gousses d'ail, 1 c. à soupe de gingembre","200 ml de bouillon, 1 c. à soupe de fécule délayée","Oignons verts"],
  steps:["Pocher les cubes de tofu 2 minutes dans de l'eau salée frémissante, puis égoutter. Ça les raffermit et les empêche de se défaire.","Saisir le porc, ajouter doubanjiang, ail et gingembre, 2 minutes.","Ajouter le bouillon et le tofu. Mijoter 5 minutes sans brasser — secouer la poêle par le manche.","Épaissir. Poivre de Sichuan à la toute fin, hors du feu : la chaleur détruit son parfum citronné."],
  notes:[]},
 
-{id:"R27",cat:"sou",jp:"トムヤムクン",ro:"tom yum kung",pr:"tome youme koung",fr:"Tom yum aux crevettes",img:IMG.tomyum,por:"2",tps:"20 min",pro:"38 g",cal:"≈ 260",
+{id:"R27",yt:"hXaaZiMgvgI",ytBy:"Hot Thai Kitchen",cat:"sou",jp:"トムヤムクン",ro:"tom yum kung",pr:"tome youme koung",fr:"Tom yum aux crevettes",img:IMG.tomyum,por:"2",tps:"20 min",pro:"38 g",cal:"≈ 260",
  sub:"Bouillon clair, aromates, acidité. Le lait de coco est facultatif — et sans lui, c'est une soupe-repas à 260 calories.",
  ing:["1 L de bouillon","400 g de crevettes crues décortiquées","2 c. à soupe de pâte tom yum","3 tranches de galanga, 2 tiges de citronnelle écrasées, 4 feuilles de lime kaffir déchirées","227 g de champignons","2 c. à soupe de sauce de poisson, jus de 2 limes","Coriandre, piments oiseaux écrasés"],
  steps:["Frémir bouillon et aromates 10 minutes.","Pâte tom yum et champignons, 3 minutes.","Crevettes, 2 à 3 minutes — dès qu'elles sont roses et courbées en C.","Hors du feu : sauce de poisson et jus de lime. Le jus de lime devient amer s'il bout."],
  notes:[]},
 
-{id:"R28",cat:"sou",jp:"トムカーガイ",ro:"tom kha gai",pr:"tome ka gaï",fr:"Tom kha gai allégé",img:IMG.tomkha,por:"2",tps:"25 min",pro:"36 g",cal:"≈ 390",
+{id:"R28",yt:"OooFZU2ZktY",ytBy:"Hot Thai Kitchen",cat:"sou",jp:"トムカーガイ",ro:"tom kha gai",pr:"tome ka gaï",fr:"Tom kha gai allégé",img:IMG.tomkha,por:"2",tps:"25 min",pro:"36 g",cal:"≈ 390",
  sub:"Au lait de coco léger, jamais bouilli — sinon il tranche.",
  ing:["500 ml de bouillon + 250 ml de lait de coco léger","400 g de poulet en morceaux","Citronnelle, galanga, feuilles de lime kaffir","227 g de champignons","2 c. à soupe de sauce de poisson, jus de 2 limes, coriandre"],
  steps:["Infuser les aromates dans le bouillon 10 minutes.","Ajouter le lait de coco, le poulet et les champignons. Mijoter 10 minutes sans jamais faire bouillir.","Hors du feu : sauce de poisson, lime, coriandre."],
  notes:[]},
 
-{id:"R29",cat:"sou",jp:"순두부찌개",ro:"sundubu jjigae",pr:"soune-dou-bou tchi-gué",fr:"Sundubu jjigae",img:IMG.sundubu,por:"2",tps:"25 min",pro:"34 g",cal:"≈ 400",
+{id:"R29",yt:"Mg9zeD01kEw",ytBy:"Maangchi",cat:"sou",jp:"순두부찌개",ro:"sundubu jjigae",pr:"soune-dou-bou tchi-gué",fr:"Sundubu jjigae",img:IMG.sundubu,por:"2",tps:"25 min",pro:"34 g",cal:"≈ 400",
  sub:"Un ragoût bouillant au tofu soyeux. L'œuf se casse dans le bol au service, pas dans la casserole.",
  ing:["700 ml de bouillon","600 g de tofu soyeux","200 g de porc haché ou de fruits de mer","2 c. à soupe de gochugaru, 1 c. à soupe de gochujang","3 gousses d'ail, 1 tasse de kimchi haché","2 œufs, 1 c. à thé d'huile de sésame"],
  steps:["Revenir le porc avec l'ail, 3 minutes.","Kimchi, gochugaru et gochujang, 2 minutes.","Bouillon, mijoter 10 minutes.","Ajouter le tofu soyeux en grosses cuillerées, sans le briser davantage.","Casser un œuf dans chaque bol au moment de servir, filet d'huile de sésame."],
  notes:[]},
 
-{id:"R30",cat:"sou",jp:"육개장",ro:"yukgaejang",pr:"youk-gué-djang",fr:"Yukgaejang simplifié",img:IMG.yukgaejang,por:"2",tps:"35 min",pro:"40 g",cal:"≈ 420",
+{id:"R30",yt:"FxSmBbXSDl0",ytBy:"Maangchi",cat:"sou",jp:"육개장",ro:"yukgaejang",pr:"youk-gué-djang",fr:"Yukgaejang simplifié",img:IMG.yukgaejang,por:"2",tps:"35 min",pro:"40 g",cal:"≈ 420",
  sub:"Bœuf effiloché, gochugaru, deux tasses de fèves germées. La couleur rouge vient de l'huile infusée, pas du piquant.",
  ing:["1,2 L de bouillon de bœuf","400 g de bœuf à ragoût, effiloché après cuisson","3 c. à soupe de gochugaru mélangés à 2 c. à soupe d'huile","4 gousses d'ail, 1 c. à soupe de soya","6 oignons verts en tronçons de 5 cm","2 tasses de fèves germées, 2 œufs battus"],
  steps:["Chauffer doucement le gochugaru dans l'huile 1 minute — ça libère la couleur rouge et la saveur. Ne pas le laisser noircir.","Bœuf et ail, 3 minutes.","Bouillon et soya, 20 minutes.","Oignons verts et fèves germées, 5 minutes.","Œufs en filet à la fin."],
  notes:[]},
 
-{id:"R31",cat:"sou",jp:"雲呑スープ",ro:"wonton sūpu",fr:"Soupe won-ton déconstruite",img:IMG.wonton,por:"2",tps:"25 min",pro:"40 g",cal:"≈ 340",
+{id:"R31",yt:"0RPCzzm8l9I",ytBy:"Made With Lau",cat:"sou",jp:"雲呑スープ",ro:"wonton sūpu",fr:"Soupe won-ton déconstruite",img:IMG.wonton,por:"2",tps:"25 min",pro:"40 g",cal:"≈ 340",
  sub:"Toute la saveur du won-ton, zéro pâte.",
  ing:["1 L de bouillon","400 g de porc ou de poulet haché","1 c. à soupe de gingembre râpé, 2 gousses d'ail","1 c. à soupe de soya, 1 c. à thé d'huile de sésame","1 blanc d'œuf, 1 c. à soupe de fécule","4 tasses de bok choy en lanières, shiitakes, oignons verts"],
  steps:["Mélanger la viande avec tous les assaisonnements, le blanc d'œuf et la fécule. Brasser énergiquement dans un seul sens jusqu'à texture collante — c'est ce qui rend les boulettes moelleuses plutôt que friables.","Former des boulettes de la taille d'une noix à la cuillère, directement dans le bouillon frémissant. Pocher 8 à 10 minutes.","Shiitakes et bok choy, 3 minutes."],
@@ -778,7 +778,7 @@ const R = [
  steps:["Mélanger le poulet avec tous les assaisonnements. Brasser énergiquement dans un seul sens jusqu'à texture collante.","Former des boulettes directement dans le dashi frémissant avec le mirin. Pocher 8 à 10 minutes.","Ajouter le chou nappa et les shiitakes, 5 minutes."],
  notes:[],tech:["T2"]},
 
-{id:"R33",cat:"sou",jp:"鮭の味噌汁",ro:"sake no misoshiru",fr:"Soupe miso au saumon, tofu et edamame",img:IMG.miso,por:"2",tps:"20 min",pro:"38 g",cal:"≈ 350",
+{id:"R33",yt:"8wVjpLI2mp0",ytBy:"Japanese Cooking 101",cat:"sou",jp:"鮭の味噌汁",ro:"sake no misoshiru",fr:"Soupe miso au saumon, tofu et edamame",img:IMG.miso,por:"2",tps:"20 min",pro:"38 g",cal:"≈ 350",
  sub:"Une soupe-repas complète, pas une soupe-entrée. 38 g de protéines par portion.",
  ing:["1 L de dashi (T2)","3 c. à soupe de miso blanc","300 g de saumon ou de morue en cubes","200 g de tofu ferme, 1 tasse d'edamames †","Wakame †, oignons verts"],
  steps:["Chauffer le dashi. Poisson, tofu et edamames, 5 à 6 minutes à frémissement.","Retirer du feu. Délayer le miso dans une louche de bouillon, puis l'incorporer.","Wakame et oignons verts."],
@@ -790,19 +790,19 @@ const R = [
  steps:["Peler le daikon largement et arrondir les arêtes au couteau — ça l'empêche de s'effriter.","Le faire bouillir 10 minutes dans de l'eau séparée avant de l'ajouter au dashi. Ça enlève l'amertume. Jeter cette eau.","Entailler le konnyaku en croisillons sur les deux faces : il absorbe beaucoup mieux.","Tout mettre dans le dashi assaisonné, mijoter à tout petit feu, 30 minutes minimum. Ça ne doit jamais bouillir franchement.","Servir avec de la moutarde karashi à côté."],
  notes:[{k:"À limiter",t:"Les gâteaux de poisson traditionnels — chikuwa, satsuma-age, hanpen — sont très salés. Idem pour les saucisses enrobées et le mochi kinchaku."}],tech:["T2"]},
 
-{id:"R35",cat:"sou",jp:"清蒸魚",ro:"qīngzhēng yú",pr:"tching-djeng you",fr:"Poisson vapeur cantonais",img:IMG.vapeur,por:"2",tps:"18 min",pro:"34 g",cal:"≈ 250",
+{id:"R35",yt:"NaiL0SeTz_s",ytBy:"Made With Lau",cat:"sou",jp:"清蒸魚",ro:"qīngzhēng yú",pr:"tching-djeng you",fr:"Poisson vapeur cantonais",img:IMG.vapeur,por:"2",tps:"18 min",pro:"34 g",cal:"≈ 250",
  sub:"Le plat le plus élégant du répertoire chinois. Le geste central est l'huile fumante versée sur les aromates.",
  ing:["1 poisson blanc entier (bar, tilapia) ou 2 filets épais","Gingembre en fines juliennes, oignons verts en filaments","2 c. à soupe de sauce soya pour poisson vapeur + 1 c. à soupe d'eau","1 c. à soupe d'huile d'arachide"],
  steps:["Déposer le poisson sur une assiette creuse avec la moitié du gingembre. Placer dans un panier vapeur au-dessus de l'eau bouillante. 8 à 12 minutes selon l'épaisseur.","Jeter le liquide accumulé dans l'assiette — il est amer.","Couvrir de gingembre et d'oignon vert frais.","Chauffer l'huile jusqu'à ce qu'elle fume légèrement, puis la verser directement sur les aromates. Le grésillement libère tout le parfum.","Arroser de sauce autour, jamais dessus."],
  notes:[{k:"Au comptoir poisson",t:"Ils vont écailler et vider le poisson pour vous si vous le demandez. C'est la seule difficulté de la recette, et elle se délègue."}]},
 
-{id:"R36",cat:"sou",jp:"鶏のフォー風",ro:"tori no phở-fū",pr:"to-ri no feu fou",fr:"Faux-pho au poulet",img:IMG.pho,por:"2",tps:"30 min",pro:"42 g",cal:"≈ 320",
+{id:"R36",yt:"36E3XXqab40",ytBy:"Helen's Recipes",cat:"sou",jp:"鶏のフォー風",ro:"tori no phở-fū",pr:"to-ri no feu fou",fr:"Faux-pho au poulet",img:IMG.pho,por:"2",tps:"30 min",pro:"42 g",cal:"≈ 320",
  sub:"Ce n'est pas un phở — un vrai bouillon mijote six à douze heures et contient des nouilles. C'est un bouillon aromatique qui en emprunte le profil, sans nouilles.",
  ing:["1 L de bouillon de poulet","400 g de poulet tranché très mince","1 morceau de gingembre de 5 cm, 1 oignon coupé en deux","2 anis étoilés, 1 bâton de cannelle, 3 clous de girofle","1 c. à soupe de sauce de poisson","3 tasses de fèves germées","Coriandre, oignons verts, basilic thaï, lime, jalapeño"],
  steps:["Griller l'oignon et le gingembre à sec dans la casserole, 5 minutes, jusqu'à ce qu'ils noircissent par endroits. C'est ce qui donne la profondeur.","Ajouter le bouillon et les épices, mijoter 20 minutes à couvert, puis filtrer.","Fèves germées crues au fond des bols, puis le poulet cru tranché mince par-dessus.","Verser le bouillon bouillant : il cuit le poulet en 1 à 2 minutes.","Garnir généreusement, ajouter la lime au moment de manger."],
  notes:[{k:"Le meilleur substitut de nouilles du recueil",t:"Les fèves germées gardent leur croquant sous le bouillon chaud."}]},
 
-{id:"R37",cat:"sou",jp:"しらたき炒め",ro:"shirataki itame",fr:"Nouilles konjac aux légumes",img:IMG.shirataki,por:"2",tps:"15 min",pro:"30 g",cal:"≈ 230",
+{id:"R37",yt:"qkv_CxkdWB4",ytBy:"Yeung Man Cooking",cat:"sou",jp:"しらたき炒め",ro:"shirataki itame",fr:"Nouilles konjac aux légumes",img:IMG.shirataki,por:"2",tps:"15 min",pro:"30 g",cal:"≈ 230",
  sub:"Les shirataki font environ 5 calories aux 100 g. L'étape 2 n'est pas facultative.",
  ing:["2 paquets de nouilles shirataki","300 g de protéine au choix","Daikon, carotte, champignons, chou","SAUCE — 2 c. à soupe de soya, 1 c. à soupe de mirin, 1 c. à thé d'huile de sésame","Shichimi"],
  steps:["Rincer les shirataki abondamment, 1 minute sous l'eau froide.","Les faire sauter à sec dans une poêle chaude, 2 à 3 minutes, jusqu'à ce qu'ils grincent. Cette étape enlève l'odeur caractéristique et améliore énormément la texture. Ne la sautez pas.","Ajouter le reste et sauter 5 minutes."],
@@ -814,7 +814,7 @@ const R = [
  steps:["Chauffer le dashi jusqu'au frémissement, ajouter le tofu.","Retirer du feu. Mettre le miso dans une petite passoire ou une louche, ajouter un peu de bouillon chaud, écraser avec le dos d'une cuillère pour le délayer, puis reverser.","Wakame et oignon vert."],
  notes:[{k:"Les variantes",t:"Aux champignons (enoki ou shimeji, 1 min) ▪ au daikon (fines lamelles, 3 min) ▪ aux palourdes (6 palourdes jusqu'à ouverture — riche en fer) ▪ au miso rouge (plus corsé, réduire à 2 c. à thé) ▪ tonjiru (porc et légumes-racines : devient une soupe-repas)."},{k:"Ne jamais faire bouillir après le miso",t:"La chaleur détruit les arômes et les cultures."}],tech:["T2"]},
 
-{id:"R39",cat:"soupe",jp:"canh",ro:"canh",pr:"kang",fr:"Canh vietnamienne",img:IMG.canh,por:"2 bols",tps:"8 min",pro:"3 g",cal:"≈ 60",
+{id:"R39",yt:"vO81lQvYodI",ytBy:"Helen's Recipes",cat:"soupe",jp:"canh",ro:"canh",pr:"kang",fr:"Canh vietnamienne",img:IMG.canh,por:"2 bols",tps:"8 min",pro:"3 g",cal:"≈ 60",
  sub:"La soupe maison qu'on sert à table dans tous les restaurants vietnamiens.",
  ing:["500 ml de bouillon léger","1 tomate en quartiers","2 tasses de verdure : cresson, épinards, chou nappa","1 c. à thé de sauce de poisson","Oignon vert, coriandre, poivre blanc"],
  steps:["Frémir le bouillon avec la tomate 5 minutes.","Ajouter la verdure, 1 minute.","Assaisonner hors du feu."],
@@ -826,13 +826,13 @@ const R = [
  steps:["Chauffer le dashi jusqu'au frémissement.","Assaisonner très légèrement.","Déposer un ou deux éléments dans chaque bol et verser le bouillon dessus."],
  notes:[],tech:["T2"]},
 
-{id:"R41",cat:"soupe",jp:"卵とトマトのスープ",ro:"tamago to tomato no sūpu",fr:"Soupe aux œufs et tomate",img:IMG.tomate,por:"2 bols",tps:"6 min",pro:"6 g",cal:"≈ 80",
+{id:"R41",yt:"pvacqcbDb0Y",ytBy:"Wei's Red House Kitchen",cat:"soupe",jp:"卵とトマトのスープ",ro:"tamago to tomato no sūpu",fr:"Soupe aux œufs et tomate",img:IMG.tomate,por:"2 bols",tps:"6 min",pro:"6 g",cal:"≈ 80",
  sub:"Six minutes, six ingrédients.",
  ing:["500 ml de bouillon","1 tomate en dés","1 œuf battu","1 c. à thé de fécule délayée","Oignon vert, un filet d'huile de sésame"],
  steps:["Frémir bouillon et tomate 4 minutes.","Épaissir légèrement avec la fécule.","Verser l'œuf en filet en brassant lentement dans une seule direction.","Oignon vert et filet d'huile de sésame."],
  notes:[]},
 
-{id:"R42",cat:"soupe",jp:"大根の澄まし汁",ro:"daikon no sumashi-jiru",fr:"Bouillon au daikon et gingembre",img:IMG.daikon,por:"2 bols",tps:"10 min",pro:"1 g",cal:"≈ 40",
+{id:"R42",yt:"MAUc-bAVymc",ytBy:"ochikeron",cat:"soupe",jp:"大根の澄まし汁",ro:"daikon no sumashi-jiru",fr:"Bouillon au daikon et gingembre",img:IMG.daikon,por:"2 bols",tps:"10 min",pro:"1 g",cal:"≈ 40",
  sub:"Réconfortant, digestif, presque zéro calorie.",
  ing:["400 ml de dashi","½ tasse de daikon en fines lamelles","1 c. à thé de gingembre râpé","1 c. à thé de soya"],
  steps:["Frémir le dashi avec le daikon 8 minutes, jusqu'à ce qu'il devienne translucide.","Ajouter le gingembre et le soya hors du feu."],
