@@ -829,7 +829,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const { sec, q, open } = this.state;
-    const norm = s => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const norm = s => (s || "").toLowerCase().replace(/\u0153/g, "oe").replace(/\u00e6/g, "ae").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const term = norm(q);
     const flt = I.filter(x => sec === "tous" || x.s === sec)
       .filter(x => !term || norm(x.fr + " " + x.ro + " " + x.jp + " " + x.d + " " + x.l).includes(term));
