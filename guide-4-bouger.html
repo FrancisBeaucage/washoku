@@ -64,9 +64,20 @@
   </header>
 
   <sc-if value="{{ showFiche }}" hint-placeholder-val="{{ false }}">
-    <div style="position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
+    <div id="ficheScroll" style="position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
     <article style="max-width:1180px;margin:0 auto;padding:clamp(20px,3vw,36px) clamp(16px,4vw,40px) clamp(48px,7vw,90px)">
-      <button onClick="{{ close }}" style="display:inline-flex;align-items:center;gap:8px;background:none;border:0;border-bottom:2px solid #201e1d;padding:0 0 3px;margin-bottom:26px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#201e1d" style-hover="color:#ec3013;border-color:#ec3013">← Tous les exercices</button>
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:26px;flex-wrap:wrap">
+        <button onClick="{{ close }}" style="display:inline-flex;align-items:center;gap:8px;background:none;border:0;border-bottom:2px solid #201e1d;padding:0 0 3px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#201e1d" style-hover="color:#ec3013;border-color:#ec3013">← Tous les exercices</button>
+        <div style="display:flex;align-items:center;gap:6px">
+          <sc-if value="{{ open.hasPrev }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ open.goPrev }}" title="Exercice précédent" aria-label="Exercice précédent" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:34px;background:#f3f2f2;border:2px solid #201e1d;font-size:17px;font-weight:800;cursor:pointer;color:#201e1d" style-hover="background:#ec3013;color:#fff;border-color:#ec3013">←</button>
+          </sc-if>
+          <span style="font-size:11px;font-weight:700;letter-spacing:.06em;color:#7d7979;min-width:3.6em;text-align:center">{{ open.pos }}</span>
+          <sc-if value="{{ open.hasNext }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ open.goNext }}" title="Exercice suivant" aria-label="Exercice suivant" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:34px;background:#f3f2f2;border:2px solid #201e1d;font-size:17px;font-weight:800;cursor:pointer;color:#201e1d" style-hover="background:#ec3013;color:#fff;border-color:#ec3013">→</button>
+          </sc-if>
+        </div>
+      </div>
 
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:clamp(20px,4vw,44px);align-items:stretch">
         <div>
@@ -677,7 +688,14 @@ class Component extends DCLogic {
     window.addEventListener("hashchange", this._h);
     this._syncScroll();
   }
-  componentDidUpdate() { this._syncScroll(); }
+  componentDidUpdate() {
+    this._syncScroll();
+    if (this.state.open && this.state.open !== this._prevOpen) {
+      const el = document.getElementById("ficheScroll");
+      if (el) el.scrollTop = 0;
+    }
+    this._prevOpen = this.state.open;
+  }
   componentWillUnmount() { window.removeEventListener("hashchange", this._h); this._setScrollLock(false); }
 
   // Fige le défilement de la liste en arrière-plan quand une fiche est ouverte,
@@ -720,10 +738,19 @@ class Component extends DCLogic {
       go: () => this.go(e.n)
     }));
 
+    const listNums = list.map(e => e.n);
+    const nav = listNums.indexOf(open);
+    const prevN = nav > 0 ? listNums[nav - 1] : null;
+    const nextN = (nav >= 0 && nav < listNums.length - 1) ? listNums[nav + 1] : null;
+
     const o = E.find(e => e.n === open);
     const openVal = o ? {
       n: o.n, jp: o.jp, fr: o.fr, en: o.en, why: o.why, reps: o.reps, jpt: o.jp + " — " + o.en + " · " + o.fr,
       zone: ZL[o.z],
+      hasPrev: prevN !== null, hasNext: nextN !== null,
+      goPrev: () => prevN !== null && this.go(prevN),
+      goNext: () => nextN !== null && this.go(nextN),
+      pos: nav >= 0 ? (nav + 1) + " / " + listNums.length : "",
       steps: o.steps.map((t, i) => ({ n: i + 1, t })),
       reg: o.reg, std: o.std, pro: o.pro,
       hasNote: !!o.note, note: o.note || "",

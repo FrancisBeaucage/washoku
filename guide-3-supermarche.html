@@ -63,9 +63,20 @@
   </header>
 
   <sc-if value="{{ showFiche }}" hint-placeholder-val="{{ false }}">
-    <div style="position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
+    <div id="ficheScroll" style="position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
     <article style="max-width:1180px;margin:0 auto;padding:clamp(20px,3vw,36px) clamp(16px,4vw,40px) clamp(48px,7vw,90px)">
-      <button onClick="{{ close }}" style="display:inline-flex;align-items:center;gap:8px;background:none;border:0;border-bottom:2px solid #201e1d;padding:0 0 3px;margin-bottom:26px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#201e1d" style-hover="color:#ec3013;border-color:#ec3013">← Tous les ingrédients</button>
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:26px;flex-wrap:wrap">
+        <button onClick="{{ close }}" style="display:inline-flex;align-items:center;gap:8px;background:none;border:0;border-bottom:2px solid #201e1d;padding:0 0 3px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#201e1d" style-hover="color:#ec3013;border-color:#ec3013">← Tous les ingrédients</button>
+        <div style="display:flex;align-items:center;gap:6px">
+          <sc-if value="{{ open.hasPrev }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ open.goPrev }}" title="Fiche précédente" aria-label="Fiche précédente" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:34px;background:#f3f2f2;border:2px solid #201e1d;font-size:17px;font-weight:800;cursor:pointer;color:#201e1d" style-hover="background:#ec3013;color:#fff;border-color:#ec3013">←</button>
+          </sc-if>
+          <span style="font-size:11px;font-weight:700;letter-spacing:.06em;color:#7d7979;min-width:3.6em;text-align:center">{{ open.pos }}</span>
+          <sc-if value="{{ open.hasNext }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ open.goNext }}" title="Fiche suivante" aria-label="Fiche suivante" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:34px;background:#f3f2f2;border:2px solid #201e1d;font-size:17px;font-weight:800;cursor:pointer;color:#201e1d" style-hover="background:#ec3013;color:#fff;border-color:#ec3013">→</button>
+          </sc-if>
+        </div>
+      </div>
 
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:clamp(20px,4vw,44px);align-items:start">
         <div>
@@ -772,7 +783,14 @@ class Component extends DCLogic {
     window.addEventListener("hashchange", this._h);
     this._syncScroll();
   }
-  componentDidUpdate() { this._syncScroll(); }
+  componentDidUpdate() {
+    this._syncScroll();
+    if (this.state.open && this.state.open !== this._prevOpen) {
+      const el = document.getElementById("ficheScroll");
+      if (el) el.scrollTop = 0;
+    }
+    this._prevOpen = this.state.open;
+  }
   componentWillUnmount() { window.removeEventListener("hashchange", this._h); this._setScrollLock(false); }
 
   // Fige le défilement de la liste en arrière-plan quand une fiche est ouverte,
@@ -813,18 +831,27 @@ class Component extends DCLogic {
     const { sec, q, open } = this.state;
     const norm = s => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const term = norm(q);
-    const list = I.filter(x => sec === "tous" || x.s === sec)
-      .filter(x => !term || norm(x.fr + " " + x.ro + " " + x.jp + " " + x.d + " " + x.l).includes(term))
-      .map(x => ({
+    const flt = I.filter(x => sec === "tous" || x.s === sec)
+      .filter(x => !term || norm(x.fr + " " + x.ro + " " + x.jp + " " + x.d + " " + x.l).includes(term));
+    const list = flt.map(x => ({
         jp: x.jp, ro: x.ro, fr: x.fr, img: x.img, bg: 'url("' + x.img + '")', jpt: JPT(x.jp, x.ro, x.fr, x.pr),
         secLabel: SECLABEL[x.s],
         go: () => this.go(this.slug(x))
       }));
 
+    const listSlugs = flt.map(x => this.slug(x));
+    const nav = listSlugs.indexOf(open);
+    const prevId = nav > 0 ? listSlugs[nav - 1] : null;
+    const nextId = (nav >= 0 && nav < listSlugs.length - 1) ? listSlugs[nav + 1] : null;
+
     const o = I.find(x => this.slug(x) === open);
     const openVal = o ? {
       jp: o.jp, ro: o.ro, fr: o.fr, desc: o.d, img: o.img, bg: 'url("' + o.img + '")', jpt: JPT(o.jp, o.ro, o.fr, o.pr),
       secLabel: SECLABEL[o.s], where: o.w, look: o.l,
+      hasPrev: !!prevId, hasNext: !!nextId,
+      goPrev: () => prevId && this.go(prevId),
+      goNext: () => nextId && this.go(nextId),
+      pos: nav >= 0 ? (nav + 1) + " / " + listSlugs.length : "",
       slot: "pack-" + this.slug(o),
       hasNote: !!o.n, noteK: o.nk || "Note", note: o.n || "",
       hasUses: !!(o.u && o.u.length),
