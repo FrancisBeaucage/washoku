@@ -75,7 +75,7 @@
 
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(20px,4vw,44px);align-items:start">
         <div>
-          <p style="margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">{{ open.id }} · {{ open.catLabel }}</p>
+          <p style="margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">{{ open.id }} · {{ open.catLabel }} · {{ open.cuiLabel }}</p>
           <p title="{{ open.jpt }}" style="margin:0;font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(30px,6vw,58px);line-height:1.05;letter-spacing:-.01em;cursor:help">{{ open.jp }}</p>
           <p style="margin:6px 0 0;font-size:clamp(15px,2vw,19px);font-style:italic;color:#605d5d">{{ open.ro }}</p>
           <h1 style="margin:12px 0 0;font-weight:800;font-size:clamp(22px,3.4vw,34px);line-height:1.1;letter-spacing:-.02em">{{ open.fr }}</h1>
@@ -198,6 +198,11 @@
               <button onClick="{{ c.go }}" style="{{ c.style }}">{{ c.label }}</button>
             </sc-for>
           </div>
+          <div class="filters">
+            <sc-for list="{{ cuisines }}" as="c" hint-placeholder-count="6">
+              <button onClick="{{ c.go }}" style="{{ c.style }}">{{ c.label }}</button>
+            </sc-for>
+          </div>
           <input type="search" placeholder="Chercher une recette ou un ingrédient…" value="{{ q }}" onInput="{{ search }}" style="width:100%;padding:10px 12px;border:2px solid #201e1d;background:#fff;font-family:inherit;font-size:14px;border-radius:0">
         </div>
       </div>
@@ -216,7 +221,7 @@
                 <p title="{{ r.jpt }}" style="margin:8px 0 2px;font-family:'Noto Serif JP',serif;font-weight:600;font-size:20px;line-height:1.2;cursor:help">{{ r.jp }}</p>
                 <p style="margin:0 0 6px;font-size:12.5px;font-style:italic;color:#7d7979">{{ r.ro }}</p>
                 <p style="margin:0;font-size:15px;font-weight:800;line-height:1.25;letter-spacing:-.01em">{{ r.fr }}</p>
-                <p style="margin:10px 0 0"><span style="display:inline-block;padding:2px 8px;background:#201e1d;color:#f3f2f2;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase">{{ r.spdLabel }}</span></p>
+                <p style="margin:10px 0 0;display:flex;flex-wrap:wrap;gap:5px"><span style="display:inline-block;padding:2px 8px;background:#201e1d;color:#f3f2f2;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase">{{ r.spdLabel }}</span><span style="display:inline-block;padding:2px 8px;background:#e2dede;color:#201e1d;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase">{{ r.cuiLabel }}</span></p>
                 <p style="margin:8px 0 0;font-size:12.5px;color:#605d5d">{{ r.meta }}</p>
               </div>
             </button>
@@ -559,339 +564,341 @@ const CATS = [
 const CATLABEL = {tech:"Technique", dej:"Déjeuner", din:"Dîner", sou:"Souper", soupe:"Soupe-entrée", gar:"Garniture", col:"Collation"};
 const SPEEDS = [{k:"tous",label:"Toute durée"},{k:"xs",label:"Ultra rapide"},{k:"s",label:"Rapide"},{k:"m",label:"Moyen"},{k:"l",label:"Long"},{k:"xl",label:"Extra long"}];
 const SPDLABEL = {xs:"Ultra rapide", s:"Rapide", m:"Moyen", l:"Long", xl:"Extra long"};
+const CUISINES = [{k:"tous",label:"Toute origine"},{k:"jp",label:"Japonais"},{k:"cn",label:"Chinois"},{k:"kr",label:"Coréen"},{k:"th",label:"Thaï"},{k:"vn",label:"Vietnamien"}];
+const CUILABEL = {jp:"Japonais", cn:"Chinois", kr:"Coréen", th:"Thaï", vn:"Vietnamien"};
 
 const R = [
-{id:"T1",yt:"xjkottdHL_k",cat:"tech",jp:"米の研ぎ方",ro:"kome no togikata",fr:"Le riz : rinçage et cuisson",img:IMG.T1,por:"6 portions",tps:"\u2248 61 min",prep:6,cook:15,rest:40,spd:"xl",wait:"",pro:"3 g / portion",cal:"≈ 200 / bol",
+{id:"T1",cui:"jp",yt:"xjkottdHL_k",cat:"tech",jp:"米の研ぎ方",ro:"kome no togikata",fr:"Le riz : rinçage et cuisson",img:IMG.T1,por:"6 portions",tps:"\u2248 61 min",prep:6,cook:15,rest:40,spd:"xl",wait:"",pro:"3 g / portion",cal:"≈ 200 / bol",
  sub:"Le rinçage n'est pas facultatif. Il enlève l'amidon de surface qui rend le riz gommant, une partie de l'arsenic inorganique, et les poussières de mouture.",
  ing:["Riz à grain court japonais — environ 80 g cru par portion de 140 g cuit","Eau froide","Un bol et une passoire fine"],
  steps:["Mesurer le riz cru dans un bol. Compter environ 80 g de riz cru par portion.","Couvrir d'eau froide. L'eau devient blanche immédiatement — c'est l'amidon.","Brasser du bout des doigts en mouvement circulaire, une quinzaine de secondes. Pas besoin de frotter fort.","Vider l'eau en retenant le riz avec la main, ou verser dans une passoire.","Répéter trois ou quatre fois, jusqu'à ce que l'eau soit presque claire. Pas parfaitement transparente — légèrement laiteuse suffit.","Laisser tremper 30 minutes dans l'eau de cuisson avant de partir le cuiseur. Facultatif, mais donne un grain nettement meilleur.","Cuire au cuiseur selon les proportions du fabricant. Sans cuiseur : 1 volume de riz pour 1,2 volume d'eau, porter à ébullition, couvrir, feu très doux 12 minutes, puis 10 minutes hors du feu sans soulever le couvercle.","Aérer avec une spatule en coupant plutôt qu'en brassant, pour ne pas écraser les grains."],
  notes:[{k:"Six portions d'avance",t:"Laisser tiédir 15 à 20 minutes à découvert, répartir en portions individuelles, couvrir et réfrigérer. 4 à 5 jours au frigo, un mois au congélateur. Refroidi 24 h, le riz développe de l'amidon résistant — le réchauffer ne défait pas la transformation."},{k:"Sécurité",t:"Ne jamais laisser du riz cuit plusieurs heures à température ambiante : Bacillus cereus produit une toxine résistante à la chaleur. Réfrigérer dans l'heure ou deux."}]},
 
-{id:"T2",cat:"tech",jp:"出汁",ro:"dashi",fr:"Le dashi — trois versions",yt:"5qBAcsM31Rg",img:IMG.T2,por:"1,5 L",tps:"\u2248 47 min",prep:5,cook:12,rest:30,spd:"l",wait:"",pro:"—",cal:"≈ 10 / tasse",
+{id:"T2",cui:"jp",cat:"tech",jp:"出汁",ro:"dashi",fr:"Le dashi — trois versions",yt:"5qBAcsM31Rg",img:IMG.T2,por:"1,5 L",tps:"\u2248 47 min",prep:5,cook:12,rest:30,spd:"l",wait:"",pro:"—",cal:"≈ 10 / tasse",
  sub:"Le bouillon de base de toute la cuisine japonaise. Environ 50 mg de sodium par tasse, contre 600 à 900 pour un bouillon commercial. Si vous ne faites qu'une seule chose maison, c'est celle-là.",
  ing:["a) AWASE DASHI — 1 morceau de kombu † de 5 cm","20 g de katsuobushi","1,5 L d'eau froide","b) KATSUO DASHI — 30 g de katsuobushi, 1,5 L d'eau","c) SHIITAKE DASHI — 6 à 8 shiitakes séchés, 1,5 L d'eau froide"],
  steps:["AWASE — Mettre le kombu dans l'eau froide. Laisser tremper 30 minutes. C'est du temps passif.","Chauffer doucement à feu moyen-doux. Surveiller : de petites bulles vont apparaître sur les bords.","Retirer le kombu juste avant l'ébullition. C'est le seul moment critique. Si l'eau bout avec le kombu dedans, le bouillon devient amer et légèrement gluant.","Ajouter le katsuobushi et retirer immédiatement du feu. Les copeaux vont couler.","Laisser infuser 2 minutes. Pas plus.","Filtrer à travers une passoire fine. Ne pas presser les copeaux — ça libère de l'amertume.","KATSUO — Porter 1,5 L d'eau à ébullition, retirer du feu, ajouter 30 g de katsuobushi, infuser 3 minutes, filtrer. Presque pas d'iode.","SHIITAKE — Faire tremper les champignons dans 1,5 L d'eau froide, au réfrigérateur, 6 heures ou toute une nuit. Filtrer. Zéro iode, végétalien. Les champignons réhydratés se mangent."],
  notes:[{k:"Pourquoi l'eau froide pour le shiitake",t:"À chaud, le shiitake libère des composés amers. Le trempage à froid extrait le guanylate sans l'amertume."},{k:"Conservation",t:"4 jours au réfrigérateur, un mois au congélateur. À la fin d'un lot : deux contenants de 750 ml au congélateur pour les soupes, le reste en bacs à glaçons. Un cube ≈ 30 ml ≈ 2 c. à soupe."},{k:"Iode",t:"Alterner les trois versions règle la question de l'iode. Un morceau de kombu de 5 cm pour 1,5 L suffit largement — les recettes traditionnelles sont plus généreuses parce que l'iode n'était pas une préoccupation."}]},
 
-{id:"T3",yt:"cr2cP89TtIk",ytBy:"Japanese Cooking 101",cat:"tech",jp:"塩締め",ro:"shiojime",fr:"Le salage préalable",img:IMG.T3,por:"Par filet",tps:"\u2248 26 min",prep:6,cook:0,rest:20,spd:"m",wait:"",pro:"—",cal:"0",
+{id:"T3",cui:"jp",yt:"cr2cP89TtIk",ytBy:"Japanese Cooking 101",cat:"tech",jp:"塩締め",ro:"shiojime",fr:"Le salage préalable",img:IMG.T3,por:"Par filet",tps:"\u2248 26 min",prep:6,cook:0,rest:20,spd:"m",wait:"",pro:"—",cal:"0",
  sub:"Le geste qui distingue un poisson correct d'un poisson excellent. Vingt minutes d'attente, aucune compétence.",
  ing:["Un filet de poisson de 150 g","½ à 1 c. à thé de sel","Papier absorbant"],
  steps:["Éponger le poisson avec du papier absorbant.","Saler les deux côtés. Tenir la main à une trentaine de centimètres au-dessus et laisser tomber le sel — ça répartit beaucoup mieux que de le déposer. Sur toute la surface, peau comprise.","Déposer sur une grille ou une assiette, au réfrigérateur, 20 minutes.","Observer : des gouttelettes perlent à la surface. C'est l'eau que le sel a tirée de la chair.","Éponger ces gouttelettes. Ne pas rincer — le sel a déjà pénétré, le rincer annulerait l'effet. On enlève l'eau, pas le sel."],
  notes:[{k:"Ce que ça accomplit",t:"Le sel assaisonne en profondeur au lieu de rester en surface, la chair se raffermit, et la peau peut croustiller parce que l'eau qui l'en empêchait est partie. On utilise moins de sel pour un résultat plus salé en bouche."}]},
 
-{id:"T4",yt:"cr2cP89TtIk",ytBy:"Japanese Cooking 101",cat:"tech",jp:"塩焼き",ro:"shioyaki",fr:"La grillade au sel",img:IMG.T4,por:"Par filet",tps:"\u2248 37 min",prep:4,cook:13,rest:20,spd:"l",wait:"",pro:"—",cal:"0 ajoutée",
+{id:"T4",cui:"jp",yt:"cr2cP89TtIk",ytBy:"Japanese Cooking 101",cat:"tech",jp:"塩焼き",ro:"shioyaki",fr:"La grillade au sel",img:IMG.T4,por:"Par filet",tps:"\u2248 37 min",prep:4,cook:13,rest:20,spd:"l",wait:"",pro:"—",cal:"0 ajoutée",
  sub:"Aucune matière grasse. C'est la différence entre un souper à 320 calories et le même à 500, sans modifier un seul ingrédient.",
  ing:["Un filet de poisson préparé selon T3","Papier d'aluminium","Aucune huile"],
  steps:["Faire T3 (salage préalable, 20 minutes).","Préchauffer le gril du four (fonction broil) 5 minutes, grille placée à environ 15 cm de l'élément.","Déposer le poisson sur une plaque tapissée de papier d'aluminium. Aucune huile.","Peau vers le haut, 6 à 8 minutes pour un filet de 150 g. Ne pas retourner.","Vérifier : la chair se sépare en flocons quand on la pousse avec une fourchette. Si elle résiste, remettre 2 minutes."],
  notes:[{k:"Poisson entier",t:"Compter 12 à 15 minutes et retourner à mi-cuisson."}]},
 
-{id:"T5",yt:"odGG8AEf0LU",ytBy:"The Woks of Life",cat:"tech",jp:"上漿",ro:"velveting",pr:"tchang djiang",fr:"Le velouté",img:IMG.T5,por:"400 g de viande",tps:"\u2248 55 min",prep:15,cook:0,rest:40,spd:"l",wait:"",pro:"—",cal:"≈ 40 ajoutées",
+{id:"T5",cui:"cn",yt:"odGG8AEf0LU",ytBy:"The Woks of Life",cat:"tech",jp:"上漿",ro:"velveting",pr:"tchang djiang",fr:"Le velouté",img:IMG.T5,por:"400 g de viande",tps:"\u2248 55 min",prep:15,cook:0,rest:40,spd:"l",wait:"",pro:"—",cal:"≈ 40 ajoutées",
  sub:"Rend les coupes maigres et bon marché aussi tendres que les coupes grasses. La technique la plus utile du recueil pour qui cherche à réduire les calories sans perdre le plaisir.",
  ing:["400 g de viande tranchée très mince","¾ c. à thé de bicarbonate de soude","1 c. à soupe de fécule de maïs","1 c. à soupe de sauce soya","1 c. à thé d'huile"],
  steps:["Trancher la viande très mince contre le grain. Astuce : la mettre 20 minutes au congélateur avant, elle se coupe beaucoup mieux.","Masser avec le bicarbonate de soude. Bien enrober.","Réfrigérer 30 minutes. Pas plus de 40 — au-delà, la texture devient spongieuse.","Rincer abondamment à l'eau froide, au moins trois changements d'eau. Cette étape n'est pas négociable : le bicarbonate résiduel laisse un goût savonneux.","Bien éponger.","Mariner 15 minutes avec la fécule, la sauce soya et l'huile."],
  notes:[{k:"À la cuisson",t:"Poêle très chaude, saisir en une seule couche, 90 secondes, ne pas brasser constamment."}]},
 
-{id:"T6",yt:"DfFv9gTxrbs",cat:"tech",jp:"茹で方",ro:"yudekata",fr:"Le blanchiment des verdures",img:IMG.T6,por:"1 botte",tps:"\u2248 15 min",prep:5,cook:10,rest:0,spd:"s",wait:"",pro:"—",cal:"0",
+{id:"T6",cui:"jp",yt:"DfFv9gTxrbs",cat:"tech",jp:"茹で方",ro:"yudekata",fr:"Le blanchiment des verdures",img:IMG.T6,por:"1 botte",tps:"\u2248 15 min",prep:5,cook:10,rest:0,spd:"s",wait:"",pro:"—",cal:"0",
  sub:"La base de l'ohitashi. Élimine aussi une partie des oxalates des épinards, ce qui améliore l'absorption du fer.",
  ing:["1 botte d'épinards ou de verdure","Beaucoup d'eau bouillante salée","Un bol d'eau glacée"],
  steps:["Grande casserole d'eau bouillante salée. Beaucoup d'eau — c'est ce qui garde la couleur.","Plonger les épinards 45 secondes (bok choy : 90 secondes).","Transférer immédiatement dans l'eau glacée. Ça fixe la couleur verte et arrête la cuisson.","Presser fermement entre les mains pour extraire l'eau. Serrer vraiment — il doit rester un boudin compact.","Couper en tronçons de 4 cm."],
  notes:[]},
 
-{id:"T7",yt:"bsDgZXoieFU",cat:"tech",jp:"即席漬け",ro:"sokuseki-zuke",fr:"Les marinades express",img:IMG.T7,por:"Variable",tps:"\u2248 22 min",prep:10,cook:12,rest:0,spd:"m",wait:"12 h (œufs marinés)",pro:"—",cal:"≈ 20 à 70",
+{id:"T7",cui:"jp",yt:"bsDgZXoieFU",cat:"tech",jp:"即席漬け",ro:"sokuseki-zuke",fr:"Les marinades express",img:IMG.T7,por:"Variable",tps:"\u2248 22 min",prep:10,cook:12,rest:0,spd:"m",wait:"12 h (œufs marinés)",pro:"—",cal:"≈ 20 à 70",
  sub:"Trois marinades qui se font pendant que le reste cuit et qui se gardent plusieurs jours.",
  ing:["CONCOMBRE — 1 concombre, 2 c. à soupe de vinaigre de riz, ½ c. à thé de sel, 1 c. à thé de sucre, sésame","ŒUFS — 6 œufs, 100 ml de soya, 100 ml de mirin, 200 ml d'eau","GINGEMBRE — gingembre frais, 100 ml de vinaigre de riz, 2 c. à soupe de sucre, ½ c. à thé de sel"],
  steps:["CONCOMBRE (3 min) — Trancher finement à la mandoline, mélanger avec le vinaigre, le sel, le sucre et le sésame. Laisser 15 minutes, presser légèrement l'eau rendue.","ŒUFS MARINÉS (5 min + attente) — Faire bouillir les œufs 7 minutes, refroidir à l'eau glacée, écaler. Immerger dans la marinade, dans un sac refermable, 12 heures au réfrigérateur. Se garde 4 jours.","GINGEMBRE (5 min) — Trancher ultra-fin, ébouillanter 1 minute, mariner dans le vinaigre sucré-salé."],
  notes:[{k:"Les œufs marinés",t:"Six par semaine, préparés le dimanche. 6 g de protéines chacun, et une collation qui règle la fringale de fin d'après-midi sans réflexion."}]},
 
-{id:"R1",yt:"VP9odZtZw3g",ytBy:"Kyodokan",cat:"dej",jp:"和朝食",ro:"wa-chōshoku",fr:"Set japonais complet",img:IMG.dej,por:"1",tps:"\u2248 23 min",prep:8,cook:15,rest:0,spd:"m",wait:"12 h (salage)",pro:"38 g",cal:"≈ 620",
+{id:"R1",cui:"jp",yt:"VP9odZtZw3g",ytBy:"Kyodokan",cat:"dej",jp:"和朝食",ro:"wa-chōshoku",fr:"Set japonais complet",img:IMG.dej,por:"1",tps:"\u2248 23 min",prep:8,cook:15,rest:0,spd:"m",wait:"12 h (salage)",pro:"38 g",cal:"≈ 620",
  sub:"Le déjeuner traditionnel complet. Tout se fait en parallèle : le poisson au gril pendant que l'œuf cuit et que la soupe chauffe.",
  ing:["1 petit bol de riz (140 g)","1 bol de soupe miso (voir R43)","1 filet de saumon de 120 g","1 œuf mollet","Concombre mariné (T7)","1 feuille de nori † nature"],
  steps:["Saler le saumon la veille selon T3.","Le matin, mettre le saumon au gril selon T4.","Pendant ce temps, cuire l'œuf 6 min 30 dans l'eau bouillante, puis eau glacée.","Chauffer la soupe miso.","Réchauffer le riz avec une cuillère à thé d'eau, couvert, 1 à 2 minutes.","Servir tout en même temps, dans des contenants séparés."],
  notes:[{k:"Le principe",t:"Ce n'est pas une assiette, c'est un assemblage. La variété sensorielle vient du nombre de contenants, pas de la quantité."}],tech:["T3","T4","T7"]},
 
-{id:"R2",yt:"wshf6yZbhwk",cat:"dej",jp:"味噌汁",ro:"misoshiru",fr:"Soupe miso déjeuner au tofu et à l'œuf",img:IMG.miso,por:"1",tps:"\u2248 14 min",prep:6,cook:8,rest:0,spd:"s",wait:"",pro:"22 g",cal:"≈ 210",
+{id:"R2",cui:"jp",yt:"wshf6yZbhwk",cat:"dej",jp:"味噌汁",ro:"misoshiru",fr:"Soupe miso déjeuner au tofu et à l'œuf",img:IMG.miso,por:"1",tps:"\u2248 14 min",prep:6,cook:8,rest:0,spd:"s",wait:"",pro:"22 g",cal:"≈ 210",
  sub:"Le déjeuner de cinq minutes qui remplace les céréales. Salé, protéiné, chaud.",
  ing:["400 ml de dashi (T2)","2 c. à thé de miso blanc","100 g de tofu ferme en cubes","1 œuf","1 c. à soupe de wakame † séché","Oignon vert"],
  steps:["Chauffer le dashi jusqu'au frémissement. Ajouter le tofu.","Casser l'œuf directement dedans, feu doux, 3 minutes sans brasser. Le blanc prend, le jaune reste coulant.","Retirer du feu. Délayer le miso dans une louche de bouillon prélevée, puis reverser.","Ajouter le wakame et l'oignon vert."],
  notes:[{k:"Ne jamais faire bouillir après le miso",t:"La chaleur détruit les arômes et les cultures. C'est l'erreur la plus fréquente."}],tech:["T2"]},
 
-{id:"R3",yt:"6eHsqXOsyek",ytBy:"ochikeron",cat:"dej",jp:"納豆ご飯",ro:"nattō gohan",fr:"Natto gohan",img:IMG.natto,por:"1",tps:"\u2248 6 min",prep:6,cook:0,rest:0,spd:"xs",wait:"",pro:"26 g",cal:"≈ 400",
+{id:"R3",cui:"jp",yt:"6eHsqXOsyek",ytBy:"ochikeron",cat:"dej",jp:"納豆ご飯",ro:"nattō gohan",fr:"Natto gohan",img:IMG.natto,por:"1",tps:"\u2248 6 min",prep:6,cook:0,rest:0,spd:"xs",wait:"",pro:"26 g",cal:"≈ 400",
  sub:"Trois minutes, 26 g de protéines. L'aliment le plus divisif du répertoire — et un des plus efficaces.",
  ing:["1 paquet de natto","1 petit bol de riz chaud","1 œuf cru ou mollet","Oignon vert","Moutarde karashi"],
  steps:["Ouvrir le natto. Mettre les deux sachets de côté.","Brasser le natto énergiquement 30 à 50 fois avec des baguettes, avant d'ajouter quoi que ce soit. Il devient blanchâtre et très filant. Cette étape développe la texture crémeuse et adoucit le goût.","Ajouter la moitié du sachet de sauce (c'est là qu'est presque tout le sodium) et un peu de karashi.","Verser sur le riz chaud, ajouter l'œuf et l'oignon vert. Mélanger le tout dans le bol."],
  notes:[{k:"On ne mange pas le natto nature à la cuillère",t:"Il se mélange au riz — c'est le riz qui le rend agréable. Si le natto ne passe pas après trois essais, remplacez-le par une tasse d'edamames † écossés : mêmes fèves de soya, 18 g de protéines. Vous perdez la vitamine K2 et les probiotiques, pas les protéines."}]},
 
-{id:"R4",yt:"pCH0jEOczQQ",ytBy:"No Recipes",cat:"dej",jp:"卵かけご飯",ro:"tamago kake gohan",fr:"Tamago kake gohan",img:IMG.tkg,por:"1",tps:"\u2248 5 min",prep:3,cook:2,rest:0,spd:"xs",wait:"",pro:"18 g",cal:"≈ 360",
+{id:"R4",cui:"jp",yt:"pCH0jEOczQQ",ytBy:"No Recipes",cat:"dej",jp:"卵かけご飯",ro:"tamago kake gohan",fr:"Tamago kake gohan",img:IMG.tkg,por:"1",tps:"\u2248 5 min",prep:3,cook:2,rest:0,spd:"xs",wait:"",pro:"18 g",cal:"≈ 360",
  sub:"Deux minutes. La chaleur du riz cuit partiellement les œufs et crée une texture crémeuse.",
  ing:["1 bol de riz brûlant (fraîchement cuit ou réchauffé)","2 œufs battus","1 c. à thé de sauce soya","Furikake, oignon vert"],
  steps:["Réchauffer le riz jusqu'à ce qu'il soit vraiment brûlant.","Verser les œufs battus dessus et mélanger vigoureusement.","Ajouter la sauce soya, le furikake et l'oignon vert."],
  notes:[{k:"Œufs crus",t:"Au Japon, les œufs sont pasteurisés pour cet usage. Ici, utilisez des œufs très frais, ou faites-les mollets."}]},
 
-{id:"R5",yt:"5YMJqshTBMI",ytBy:"Aaron and Claire",cat:"dej",jp:"韓国風丼",ro:"kankoku-fū don",fr:"Bol coréen express",img:IMG.bibimbap,por:"1",tps:"\u2248 16 min",prep:8,cook:8,rest:0,spd:"s",wait:"",pro:"20 g",cal:"≈ 430",
+{id:"R5",cui:"kr",yt:"5YMJqshTBMI",ytBy:"Aaron and Claire",cat:"dej",jp:"韓国風丼",ro:"kankoku-fū don",fr:"Bol coréen express",img:IMG.bibimbap,por:"1",tps:"\u2248 16 min",prep:8,cook:8,rest:0,spd:"s",wait:"",pro:"20 g",cal:"≈ 430",
  sub:"Un reste de riz, deux œufs, du kimchi et des épinards. Cinq minutes.",
  ing:["2 œufs brouillés","Reste de riz","½ tasse de kimchi rincé rapidement","1 tasse d'épinards blanchis (T6) à l'ail","1 c. à thé d'huile de sésame, graines de sésame"],
  steps:["Blanchir les épinards selon T6 et les assaisonner d'ail et de sésame.","Brouiller les œufs.","Monter le bol : riz, épinards, kimchi, œufs.","Filet d'huile de sésame et graines de sésame."],
  notes:[{k:"Rincer le kimchi",t:"Un rinçage rapide enlève une partie du sel sans rien enlever au goût."}],tech:["T6"]},
 
-{id:"R6",yt:"UE7iz3ePi_E",ytBy:"Japanese Cooking 101",cat:"dej",jp:"鶏がゆ",ro:"tori-gayu",fr:"Okayu au poulet",img:IMG.okayu,por:"2",tps:"\u2248 28 min",prep:6,cook:22,rest:0,spd:"m",wait:"",pro:"25 g",cal:"≈ 300",
+{id:"R6",cui:"jp",yt:"UE7iz3ePi_E",ytBy:"Japanese Cooking 101",cat:"dej",jp:"鶏がゆ",ro:"tori-gayu",fr:"Okayu au poulet",img:IMG.okayu,por:"2",tps:"\u2248 28 min",prep:6,cook:22,rest:0,spd:"m",wait:"",pro:"25 g",cal:"≈ 300",
  sub:"Énorme volume pour environ 300 calories la portion. La bouillie de riz japonaise, l'équivalent du congee.",
  ing:["1 tasse de riz cuit","750 ml de dashi (T2)","250 g de poulet haché","1 c. à soupe de gingembre râpé","2 œufs","Oignon vert, un filet de vinaigre de riz"],
  steps:["Mijoter riz et dashi 15 minutes en brassant de temps en temps. Le riz éclate et le bouillon épaissit.","Ajouter le poulet en petites boulettes et le gingembre, 5 minutes.","Pocher un œuf par bol.","Garnir d'oignon vert et d'un filet de vinaigre de riz."],
  notes:[],tech:["T2"]},
 
-{id:"R7",yt:"OEqu5c2edSw",cat:"dej",jp:"茶碗蒸し",ro:"chawanmushi",fr:"Œufs vapeur au gingembre",img:IMG.chawanmushi,por:"2",tps:"\u2248 22 min",prep:8,cook:14,rest:0,spd:"m",wait:"",pro:"14 g",cal:"≈ 130",
+{id:"R7",cui:"jp",yt:"OEqu5c2edSw",cat:"dej",jp:"茶碗蒸し",ro:"chawanmushi",fr:"Œufs vapeur au gingembre",img:IMG.chawanmushi,por:"2",tps:"\u2248 22 min",prep:8,cook:14,rest:0,spd:"m",wait:"",pro:"14 g",cal:"≈ 130",
  sub:"Un flan d'œuf salé cuit à la vapeur. La texture soyeuse vient d'une seule étape : le filtrage.",
  ing:["3 œufs battus","450 ml de dashi tiède (T2)","1 c. à thé de sauce soya, 1 c. à thé de mirin","Garnitures : crevettes, champignons, oignon vert"],
  steps:["Battre les œufs sans faire de mousse. Ajouter le dashi tiède et les assaisonnements.","Filtrer à travers une passoire fine. C'est ce qui donne la texture soyeuse.","Répartir dans des tasses, déposer les garnitures.","Cuire à la vapeur à feu doux, à couvert, 12 minutes."],
  notes:[{k:"Feu doux, vraiment",t:"Feu trop fort = texture caillée avec des trous. C'est la seule chose qui peut rater dans cette recette."}],tech:["T2"]},
 
-{id:"R8",cat:"dej",jp:"非常朝食",ro:"hijō chōshoku",fr:"Le déjeuner d'urgence",img:IMG.oeuf,por:"1",tps:"\u2248 4 min",prep:2,cook:2,rest:0,spd:"xs",wait:"",pro:"24 g",cal:"≈ 260",
+{id:"R8",cui:"jp",cat:"dej",jp:"非常朝食",ro:"hijō chōshoku",fr:"Le déjeuner d'urgence",img:IMG.oeuf,por:"1",tps:"\u2248 4 min",prep:2,cook:2,rest:0,spd:"xs",wait:"",pro:"24 g",cal:"≈ 260",
  sub:"Ce n'est pas de la cuisine. C'est mieux que rien, et infiniment mieux qu'un muffin.",
  ing:["1 sachet de soupe miso instantanée","2 œufs durs préparés d'avance","1 poignée d'edamames † congelés"],
  steps:["Préparer la soupe miso instantanée.","Jeter les edamames congelés dedans — ils décongèlent en une minute.","Manger avec les deux œufs durs."],
  notes:[]},
 
-{id:"R9",cat:"din",jp:"丼の公式",ro:"donburi no kōshiki",fr:"La formule donburi",img:IMG.donburi,por:"1 par colonne",tps:"\u2248 11 min",prep:8,cook:3,rest:0,spd:"s",wait:"",pro:"25 à 45 g",cal:"≈ 400 à 550",
+{id:"R9",cui:"jp",cat:"din",jp:"丼の公式",ro:"donburi no kōshiki",fr:"La formule donburi",img:IMG.donburi,por:"1 par colonne",tps:"\u2248 11 min",prep:8,cook:3,rest:0,spd:"s",wait:"",pro:"25 à 45 g",cal:"≈ 400 à 550",
  sub:"Ce n'est pas une recette, c'est un gabarit. Choisir une colonne de chaque. Trois protéines préparées le dimanche — poisson grillé (R14), poulet grillé (R49) et œufs marinés (T7) — donnent cinq dîners différents.",
  ing:["BASE — riz (140 g) ▪ chou émincé ▪ soba froides ▪ salade","PROTÉINE — poulet grillé ▪ saumon ▪ tofu ▪ œufs durs","LÉGUME — concombre ▪ edamames † ▪ épinards (T6) ▪ champignons","SAUCE — ponzu ▪ soya-sésame ▪ gochujang délayé ▪ sauce sésame","CROQUANT — nori † émincé ▪ graines de sésame ▪ oignon vert ▪ furikake"],
  steps:["Choisir une base et la mettre au fond du bol.","Ajouter la protéine, réchauffée ou froide selon l'envie.","Ajouter le légume.","Arroser de sauce.","Finir par le croquant, toujours en dernier."],
  notes:[{k:"Sauce sésame de base",t:"2 c. à soupe de tahini, 1 c. à soupe de soya, 1 c. à thé de vinaigre de riz, de l'eau pour détendre."},{k:"La vraie stratégie",t:"Cuisiner une portion et demie au souper, et assembler le lendemain en cinq minutes. Le meilleur dîner est presque toujours le souper de la veille."}],tech:["T6"]},
 
-{id:"R10",yt:"Fkyb1mixSCE",ytBy:"Sudachi",cat:"din",jp:"冷奴",ro:"hiyayakko",fr:"Hiyayakko au thon",img:IMG.hiyayakko,por:"1",tps:"\u2248 6 min",prep:6,cook:0,rest:0,spd:"xs",wait:"",pro:"35 g",cal:"≈ 320",
+{id:"R10",cui:"jp",yt:"Fkyb1mixSCE",ytBy:"Sudachi",cat:"din",jp:"冷奴",ro:"hiyayakko",fr:"Hiyayakko au thon",img:IMG.hiyayakko,por:"1",tps:"\u2248 6 min",prep:6,cook:0,rest:0,spd:"xs",wait:"",pro:"35 g",cal:"≈ 320",
  sub:"Zéro cuisson, 35 g de protéines. Le dîner de bureau le plus rapide du recueil.",
  ing:["1 bloc de tofu soyeux","1 boîte de thon pâle égoutté","½ tasse d'edamames † écossés décongelés","Oignon vert, gingembre râpé, katsuobushi","Ponzu"],
  steps:["Déposer le tofu dans un bol et le briser grossièrement.","Couvrir du thon, des edamames et des garnitures.","Arroser de ponzu au moment de manger."],
  notes:[]},
 
-{id:"R11",yt:"VEodY9THtmw",cat:"din",jp:"お茶漬け",ro:"ochazuke",fr:"Ochazuke",img:IMG.ochazuke,por:"1",tps:"\u2248 7 min",prep:4,cook:3,rest:0,spd:"xs",wait:"",pro:"variable",cal:"≈ 280",
+{id:"R11",cui:"jp",yt:"VEodY9THtmw",cat:"din",jp:"お茶漬け",ro:"ochazuke",fr:"Ochazuke",img:IMG.ochazuke,por:"1",tps:"\u2248 7 min",prep:4,cook:3,rest:0,spd:"xs",wait:"",pro:"variable",cal:"≈ 280",
  sub:"Le plat de restes par excellence, et une des meilleures idées de toute la cuisine japonaise. Mêmes ingrédients qu'hier soir, plat complètement différent.",
  ing:["1 bol de riz (froid, c'est parfait)","Un reste de poisson grillé, effiloché","200 ml de thé vert chaud ou de dashi chaud","Nori † émincé, wasabi, graines de sésame, un umeboshi"],
  steps:["Déposer le riz et le poisson dans un bol.","Verser le liquide chaud dessus.","Garnir de nori, de wasabi, de sésame et d'un umeboshi."],
  notes:[{k:"Le repas de fin de soirée",t:"C'est le classique japonais quand on rentre tard et qu'on n'a envie de rien cuisiner."}]},
 
-{id:"R12",yt:"-ojltkREE1c",cat:"din",jp:"蕎麦サラダ",ro:"soba sarada",fr:"Salade de soba",img:IMG.soba,por:"2",tps:"\u2248 22 min",prep:12,cook:10,rest:0,spd:"m",wait:"",pro:"32 g",cal:"≈ 460",
+{id:"R12",cui:"jp",yt:"-ojltkREE1c",cat:"din",jp:"蕎麦サラダ",ro:"soba sarada",fr:"Salade de soba",img:IMG.soba,por:"2",tps:"\u2248 22 min",prep:12,cook:10,rest:0,spd:"m",wait:"",pro:"32 g",cal:"≈ 460",
  sub:"Se transporte parfaitement. Les soba de sarrasin apportent plus de protéines et de fibres que le blé.",
  ing:["200 g de nouilles soba sèches","300 g de poulet grillé (R49) tranché, ou de crevettes","1 concombre en julienne, 1 tasse d'edamames †, oignon vert","SAUCE — 4 c. à soupe de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de vinaigre de riz, 1 c. à thé d'huile de sésame"],
  steps:["Cuire les soba selon le paquet, généralement 4 à 5 minutes.","Rincer abondamment à l'eau froide en frottant les nouilles entre les mains. Étape essentielle : elle enlève l'amidon de surface, sans quoi les soba collent en bloc.","Bien égoutter.","Mélanger la sauce et assembler."],
  notes:[],tech:["T2"]},
 
-{id:"R13",yt:"fdzM_zovmyo",cat:"din",jp:"おにぎらず",ro:"onigirazu",fr:"Onigirazu",img:IMG.onigiri,por:"2",tps:"\u2248 17 min",prep:12,cook:0,rest:5,spd:"s",wait:"",pro:"18 g",cal:"≈ 380",
+{id:"R13",cui:"jp",yt:"fdzM_zovmyo",cat:"din",jp:"おにぎらず",ro:"onigirazu",fr:"Onigirazu",img:IMG.onigiri,por:"2",tps:"\u2248 17 min",prep:12,cook:0,rest:5,spd:"s",wait:"",pro:"18 g",cal:"≈ 380",
  sub:"La version « sandwich » de l'onigiri. Se façonne à la main, se transporte, et les enfants adorent en faire.",
  ing:["2 grandes feuilles de nori †","300 g de riz cuit","Garniture : saumon grillé effiloché, ou œuf, ou thon","Salade de chou, concombre mariné (T7)"],
  steps:["Poser une feuille de nori en losange sur une pellicule plastique.","Étaler une fine couche de riz au centre, en carré.","Empiler la garniture, puis une deuxième couche de riz.","Replier les quatre coins du nori vers le centre, comme une enveloppe.","Envelopper serré dans la pellicule et laisser 5 minutes — c'est ce qui soude le tout.","Couper en deux avec un couteau bien aiguisé, à travers la pellicule."],
  notes:[],tech:["T7"]},
 
-{id:"R14",yt:"cr2cP89TtIk",ytBy:"Japanese Cooking 101",cat:"sou",jp:"鮭の塩焼き",ro:"sake no shioyaki",fr:"Saumon shioyaki et daikon râpé",img:IMG.T4,por:"2",tps:"\u2248 41 min",prep:8,cook:13,rest:20,spd:"l",wait:"",pro:"35 g",cal:"≈ 320",
+{id:"R14",cui:"jp",yt:"cr2cP89TtIk",ytBy:"Japanese Cooking 101",cat:"sou",jp:"鮭の塩焼き",ro:"sake no shioyaki",fr:"Saumon shioyaki et daikon râpé",img:IMG.T4,por:"2",tps:"\u2248 41 min",prep:8,cook:13,rest:20,spd:"l",wait:"",pro:"35 g",cal:"≈ 320",
  sub:"Zéro huile ajoutée. La recette la plus facile du recueil, et celle par laquelle commencer.",
  ing:["2 filets de saumon de 150 g","Sel pour T3","½ daikon","Ponzu, oignon vert, shichimi togarashi, quartiers de citron"],
  steps:["Faire T3 (salage préalable, 20 minutes) puis T4 (gril, 6 à 8 minutes).","Râper le daikon sur les gros trous d'une râpe ou à l'oroshigane. Presser légèrement entre les mains pour enlever l'excès d'eau — il doit rester humide, pas détrempé.","Servir le poisson sur un petit tas de daikon.","Arroser de ponzu, garnir d'oignon vert, de shichimi et d'un quartier de citron."],
  notes:[{k:"Le citron n'est pas décoratif",t:"La vitamine C améliore l'absorption du fer du repas. Voir le guide 1, section 16."}],tech:["T3","T4"]},
 
-{id:"R15",yt:"a_YTAcSZOPw",cat:"sou",jp:"西京焼き",ro:"saikyo-yaki",fr:"Poisson mariné au miso",img:IMG.saikyo,por:"2",tps:"\u2248 18 min",prep:8,cook:10,rest:0,spd:"s",wait:"24 à 48 h (marinade)",pro:"34 g",cal:"≈ 340",
+{id:"R15",cui:"jp",yt:"a_YTAcSZOPw",cat:"sou",jp:"西京焼き",ro:"saikyo-yaki",fr:"Poisson mariné au miso",img:IMG.saikyo,por:"2",tps:"\u2248 18 min",prep:8,cook:10,rest:0,spd:"s",wait:"24 à 48 h (marinade)",pro:"34 g",cal:"≈ 340",
  sub:"Le plat le plus impressionnant du recueil pour l'effort le plus faible. Cinq minutes de travail, deux jours d'attente.",
  ing:["2 filets de morue noire, de flétan ou de saumon","MARINADE — 4 c. à soupe de miso blanc, 2 c. à soupe de mirin, 1 c. à soupe de saké, 1 c. à thé de sucre"],
  steps:["Mélanger la marinade jusqu'à consistance lisse.","Éponger le poisson, l'enrober complètement, mettre dans un sac refermable.","Réfrigérer 24 à 48 heures.","Retirer la marinade en essuyant avec le doigt ou un papier absorbant. Ne pas rincer à l'eau. S'il reste du miso, il brûlera.","Gril du four, 6 à 8 minutes, en surveillant : le sucre du mirin caramélise vite."],
  notes:[]},
 
-{id:"R16",yt:"KG8pBlF2Lsg",ytBy:"Sudachi",cat:"sou",jp:"魚の煮付け",ro:"sakana no nitsuke",fr:"Poisson mijoté au gingembre",img:IMG.morue,por:"2",tps:"\u2248 23 min",prep:8,cook:15,rest:0,spd:"m",wait:"",pro:"32 g",cal:"≈ 290",
+{id:"R16",cui:"jp",yt:"KG8pBlF2Lsg",ytBy:"Sudachi",cat:"sou",jp:"魚の煮付け",ro:"sakana no nitsuke",fr:"Poisson mijoté au gingembre",img:IMG.morue,por:"2",tps:"\u2248 23 min",prep:8,cook:15,rest:0,spd:"m",wait:"",pro:"32 g",cal:"≈ 290",
  sub:"Mijoté dans soya, mirin et gingembre. Le poisson ne se retourne jamais.",
  ing:["2 filets de poisson blanc ou de maquereau","200 ml de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de sucre","1 morceau de gingembre en fines juliennes"],
  steps:["Porter le liquide à frémissement dans une poêle large avec le gingembre.","Déposer le poisson en une seule couche, peau vers le haut.","Couvrir d'un otoshibuta — un couvercle qui repose directement sur les aliments. Un cercle de papier parchemin fait l'affaire.","Mijoter 10 à 12 minutes."],
  notes:[{k:"L'otoshibuta",t:"Ça fait circuler le liquide par-dessus le poisson sans qu'on ait à le retourner. C'est ce qui empêche les filets de se défaire."}],tech:["T2"]},
 
-{id:"R17",yt:"n_0JYAQzYAg",ytBy:"Made With Lau",cat:"sou",jp:"牛肉とブロッコリー",ro:"gyūniku to burokkorī",fr:"Bœuf et brocoli",img:IMG.boeufbroc,por:"2",tps:"\u2248 66 min",prep:16,cook:10,rest:40,spd:"xl",wait:"",pro:"40 g",cal:"≈ 420",
+{id:"R17",cui:"cn",yt:"n_0JYAQzYAg",ytBy:"Made With Lau",cat:"sou",jp:"牛肉とブロッコリー",ro:"gyūniku to burokkorī",fr:"Bœuf et brocoli",img:IMG.boeufbroc,por:"2",tps:"\u2248 66 min",prep:16,cook:10,rest:40,spd:"xl",wait:"",pro:"40 g",cal:"≈ 420",
  sub:"Le plat le plus familier du recueil, et la meilleure démonstration du velouté. 500 g de brocoli pour 400 g de bœuf — au restaurant, c'est l'inverse.",
  ing:["400 g de bifteck de flanc ou de ronde, préparé selon T5","1 gros brocoli (environ 500 g) en fleurettes","SAUCE — 3 c. à soupe de bouillon, 1 c. à soupe de sauce d'huîtres, 1 c. à soupe de soya réduit en sodium, 1 c. à thé de vinaigre de riz, 1 c. à thé de fécule, 1 c. à thé de sucre","4 gousses d'ail, 1 c. à soupe de gingembre râpé","1 c. à soupe d'huile, mesurée"],
  steps:["Faire T5 sur le bœuf (velouté).","Blanchir le brocoli 2 minutes à l'eau bouillante, égoutter et bien assécher.","Grande poêle très chaude, 1 c. à soupe d'huile. Saisir le bœuf en une seule couche, sans le déplacer, 90 secondes. Retourner, 30 secondes. Réserver.","Ail et gingembre, 30 secondes. Ajouter le brocoli.","Verser la sauce, remettre le bœuf, enrober 1 minute."],
  notes:[{k:"La sauce entre en dernier, toujours",t:"Le sucre qu'elle contient brûle en moins d'une minute sur du métal chaud. C'est l'erreur qui ruine le plus de sautés."},{k:"Mesurer l'huile",t:"Une cuillère à soupe fait 120 calories. Versée à l'œil dans une poêle chaude, c'en est facilement trois."}],tech:["T5"]},
 
-{id:"R18",yt:"iZJzTScgB-c",ytBy:"Helen's Recipes",cat:"sou",jp:"ブンチャー",ro:"bún chả",pr:"boune tcha",fr:"Bun cha vietnamien en bol",img:IMG.buncha,por:"2",tps:"\u2248 50 min",prep:20,cook:10,rest:20,spd:"l",wait:"",pro:"38 g",cal:"≈ 480",
+{id:"R18",cui:"vn",yt:"iZJzTScgB-c",ytBy:"Helen's Recipes",cat:"sou",jp:"ブンチャー",ro:"bún chả",pr:"boune tcha",fr:"Bun cha vietnamien en bol",img:IMG.buncha,por:"2",tps:"\u2248 50 min",prep:20,cook:10,rest:20,spd:"l",wait:"",pro:"38 g",cal:"≈ 480",
  sub:"Trois tasses de verdure fraîche par bol. Ce n'est pas une exagération, c'est la signature vietnamienne.",
  ing:["400 g de porc haché maigre","MARINADE — 1 c. à soupe de sauce de poisson, 1 c. à soupe de sucre, 2 gousses d'ail, 1 échalote hachée, poivre","Laitue, concombre, carotte marinée, menthe, coriandre, basilic thaï — en quantité","NUOC CHAM — 3 c. à soupe d'eau tiède, 2 c. à soupe de jus de lime, 1,5 c. à soupe de sauce de poisson, 1 c. à soupe de sucre, ail, piment","Vermicelles de riz, portion modeste"],
  steps:["Mariner le porc 20 minutes, former de petites galettes plates.","Gril du four ou poêle, 4 minutes par côté.","Monter le bol : herbes et laitue en base, galettes dessus.","Nuoc cham à verser au moment de manger."],
  notes:[]},
 
-{id:"R19",yt:"Vlp6ufKYDzk",cat:"sou",jp:"親子丼",ro:"oyakodon",fr:"Oyakodon",img:IMG.oyakodon,por:"2",tps:"\u2248 23 min",prep:8,cook:15,rest:0,spd:"m",wait:"",pro:"42 g",cal:"≈ 550",
+{id:"R19",cui:"jp",yt:"Vlp6ufKYDzk",cat:"sou",jp:"親子丼",ro:"oyakodon",fr:"Oyakodon",img:IMG.oyakodon,por:"2",tps:"\u2248 23 min",prep:8,cook:15,rest:0,spd:"m",wait:"",pro:"42 g",cal:"≈ 550",
  sub:"Littéralement « bol parent-enfant » — le poulet et l'œuf. Les œufs doivent rester baveux : c'est la signature du plat, pas une cuisson incomplète.",
  ing:["400 g de hauts de cuisse de poulet en morceaux","1 oignon en fines lamelles","300 ml de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de sucre","4 œufs battus grossièrement (il doit rester des traînées de blanc et de jaune)","Oignon vert, shichimi","2 petits bols de riz"],
  steps:["Mijoter dashi, assaisonnements et oignon 5 minutes dans une petite poêle.","Ajouter le poulet, cuire 8 minutes.","Verser les œufs en spirale sur toute la surface. Couvrir, feu doux, 90 secondes.","Faire glisser sur le riz. Garnir d'oignon vert et de shichimi."],
  notes:[],tech:["T2"]},
 
-{id:"R20",yt:"Bqpc4TtXmPo",ytBy:"Japanese Cooking 101",cat:"sou",jp:"ちらし丼",ro:"chirashi don",fr:"Chirashi bowl",img:IMG.chirashi,por:"2",tps:"\u2248 15 min",prep:15,cook:0,rest:0,spd:"s",wait:"",pro:"36 g",cal:"≈ 490",
+{id:"R20",cui:"jp",yt:"Bqpc4TtXmPo",ytBy:"Japanese Cooking 101",cat:"sou",jp:"ちらし丼",ro:"chirashi don",fr:"Chirashi bowl",img:IMG.chirashi,por:"2",tps:"\u2248 15 min",prep:15,cook:0,rest:0,spd:"s",wait:"",pro:"36 g",cal:"≈ 490",
  sub:"Zéro cuisson. Dix minutes pour un plat qui a l'air d'un restaurant. Le riz refroidi apporte en plus le bonus d'amidon résistant.",
  ing:["280 g de riz refroidi, assaisonné de 2 c. à soupe de vinaigre de riz, 1 c. à thé de sucre, ½ c. à thé de sel","250 g de saumon ou de thon qualité sashimi, en cubes","Concombre, avocat, edamames †, radis","Wakame † réhydraté","SAUCE — 2 c. à soupe de soya, 1 c. à thé d'huile de sésame, 1 c. à thé de vinaigre de riz, gingembre râpé","Nori †, sésame, gingembre mariné (T7), wasabi"],
  steps:["Assaisonner le riz refroidi avec le vinaigre, le sucre et le sel.","Couper le poisson en cubes réguliers.","Monter les bols : riz, puis poisson et légumes disposés par secteurs.","Arroser de sauce, garnir."],
  notes:[{k:"Le thon frais",t:"Il est visé par l'avis de Santé Canada sur le mercure : 150 g par semaine maximum pour un homme adulte. Le saumon n'a aucune restriction."}],tech:["T7"]},
 
-{id:"R21",yt:"3woUacOV5KQ",cat:"sou",jp:"焼き鳥",ro:"yakitori",fr:"Yakitori",img:IMG.yakitori,por:"3",tps:"\u2248 50 min",prep:12,cook:18,rest:20,spd:"l",wait:"",pro:"35 g",cal:"≈ 400",
+{id:"R21",cui:"jp",yt:"3woUacOV5KQ",cat:"sou",jp:"焼き鳥",ro:"yakitori",fr:"Yakitori",img:IMG.yakitori,por:"3",tps:"\u2248 50 min",prep:12,cook:18,rest:20,spd:"l",wait:"",pro:"35 g",cal:"≈ 400",
  sub:"Ce sont des brochettes. Avec les enfants, c'est réglé. La tare se conserve un mois au réfrigérateur et s'améliore.",
  ing:["600 g de hauts de cuisse de poulet en cubes de 3 cm","Oignons verts en tronçons de 4 cm","TARE — 4 c. à soupe de soya, 4 c. à soupe de mirin, 2 c. à soupe de saké, 1 c. à soupe de sucre","Brochettes de bois trempées 20 minutes","Shichimi togarashi"],
  steps:["Faire la tare d'abord : porter à ébullition et réduire de moitié à feu moyen, environ 8 minutes. Elle doit napper le dos d'une cuillère.","Alterner poulet et oignon vert sur les brochettes.","Gril du four : 5 minutes → badigeonner → 3 minutes → badigeonner → 2 minutes."],
  notes:[]},
 
-{id:"R49",yt:"00Qcvz21Bak",ytBy:"Japanese Cooking 101",cat:"sou",jp:"鶏の塩焼き",ro:"tori no shioyaki",fr:"Poulet grillé au sel",img:IMG.poulet,por:"4",tps:"\u2248 44 min",prep:6,cook:18,rest:20,spd:"l",wait:"",pro:"38 g",cal:"≈ 260",
+{id:"R49",cui:"jp",yt:"00Qcvz21Bak",ytBy:"Japanese Cooking 101",cat:"sou",jp:"鶏の塩焼き",ro:"tori no shioyaki",fr:"Poulet grillé au sel",img:IMG.poulet,por:"4",tps:"\u2248 44 min",prep:6,cook:18,rest:20,spd:"l",wait:"",pro:"38 g",cal:"≈ 260",
  sub:"La troisième protéine du rituel du dimanche. Aucune huile, aucune marinade, et quatre portions qui deviennent des dîners toute la semaine.",
  ing:["800 g de hauts de cuisse de poulet désossés, sans la peau","Sel pour T3 — environ 1 c. à thé au total","Poivre blanc","Quartiers de citron ou de lime pour servir"],
  steps:["Éponger le poulet et le saler des deux côtés, en tenant la main haut au-dessus pour bien répartir. Réfrigérer 20 minutes, à découvert.","Éponger les gouttelettes qui ont perlé. Ne pas rincer.","Préchauffer le gril du four 5 minutes, grille à environ 15 cm de l'élément.","Déposer les morceaux à plat sur une plaque tapissée de papier d'aluminium, sans les superposer. Aucune huile.","8 minutes, retourner, 5 à 7 minutes. Le jus qui perce doit être clair.","Laisser reposer 5 minutes avant de trancher — sinon le jus se répand sur la planche au lieu de rester dans la chair."],
  notes:[{k:"Pourquoi les hauts de cuisse",t:"Plus savoureux que la poitrine et beaucoup plus tolérants à la cuisson : cinq minutes de trop ne les assèchent pas. C'est ce qui les rend adaptés à une cuisson en lot le dimanche."},{k:"Ce que ça débloque",t:"Tranché froid, il devient la protéine par défaut de la formule donburi (R9) et de la salade de soba (R12). Se garde 4 jours au réfrigérateur."}],tech:["T3","T4"]},
 
-{id:"R22",yt:"RtqpS9FHEbc",cat:"sou",jp:"お好み焼き",ro:"okonomiyaki",fr:"Okonomiyaki",img:IMG.okonomiyaki,por:"2",tps:"\u2248 29 min",prep:15,cook:14,rest:0,spd:"m",wait:"",pro:"26 g",cal:"≈ 350",
+{id:"R22",cui:"jp",yt:"RtqpS9FHEbc",cat:"sou",jp:"お好み焼き",ro:"okonomiyaki",fr:"Okonomiyaki",img:IMG.okonomiyaki,por:"2",tps:"\u2248 29 min",prep:15,cook:14,rest:0,spd:"m",wait:"",pro:"26 g",cal:"≈ 350",
  sub:"400 g de chou tenus par deux œufs et quatre cuillères de farine. Énorme dans l'assiette. Le plat le plus populaire auprès des enfants.",
  ing:["400 g de chou vert ou nappa finement émincé — c'est 80 % du plat","2 œufs","4 c. à soupe de farine","3 c. à soupe de dashi","200 g de crevettes ou de porc tranché mince","Oignons verts","Garniture : sauce okonomiyaki avec parcimonie, katsuobushi, aonori"],
  steps:["Émincer le chou le plus finement possible — la mandoline est parfaite pour ça.","Mélanger œufs, farine et dashi. Incorporer le chou. La pâte doit à peine lier : c'est du chou avec un peu de liant, pas une pâte avec du chou.","Poêle antiadhésive, 1 c. à thé d'huile, feu moyen. Étaler en galette épaisse de 2 cm. Déposer les crevettes dessus.","6 minutes sans y toucher. Retourner d'un coup avec deux spatules. 6 minutes."],
  notes:[{k:"Le nom",t:"お好み焼き signifie « grillé comme tu l'aimes ». La garniture est ouverte — c'est un plat conçu pour être improvisé."}],tech:["T2"]},
 
-{id:"R23",yt:"6QQ67F8y2b8",ytBy:"Maangchi",cat:"sou",jp:"ビビンバ",ro:"bibimbap",pr:"bi-bime-bap",fr:"Bibimbap à ratio inversé",img:IMG.bibimbap,por:"2",tps:"\u2248 40 min",prep:22,cook:18,rest:0,spd:"l",wait:"",pro:"38 g",cal:"≈ 520",
+{id:"R23",cui:"kr",yt:"6QQ67F8y2b8",ytBy:"Maangchi",cat:"sou",jp:"ビビンバ",ro:"bibimbap",pr:"bi-bime-bap",fr:"Bibimbap à ratio inversé",img:IMG.bibimbap,por:"2",tps:"\u2248 40 min",prep:22,cook:18,rest:0,spd:"l",wait:"",pro:"38 g",cal:"≈ 520",
  sub:"Un petit bol de riz pour quatre tasses de légumes. Chaque légume prend 3 minutes — préparez-les le dimanche, l'assemblage prend 5 minutes en semaine.",
  ing:["Riz (140 g par personne)","Épinards blanchis (T6), assaisonnés de sésame et d'ail","Carottes en julienne sautées 2 minutes","Fèves germées ébouillantées 1 minute, huile de sésame et sel","Courgette en demi-lunes","Shiitakes tranchés, sautés","250 g de bœuf haché maigre au bulgogi, ou tofu","2 œufs au miroir","SAUCE — 2 c. à soupe de gochujang, 1 c. à soupe de vinaigre de riz, 1 c. à thé d'huile de sésame, 1 c. à thé de sucre"],
  steps:["Préparer chaque légume séparément, chacun avec son propre assaisonnement.","Cuire la protéine.","Monter le bol : riz au fond, légumes disposés en secteurs, protéine au centre.","Œuf au miroir sur le dessus.","Sauce à côté, à mélanger au moment de manger."],
  notes:[],tech:["T6"]},
 
-{id:"R24",yt:"tw8EXKWwudQ",cat:"sou",jp:"しゃぶしゃぶ",ro:"shabu-shabu",fr:"Shabu-shabu",img:IMG.shabu,por:"4",tps:"\u2248 35 min",prep:20,cook:15,rest:0,spd:"m",wait:"",pro:"40 g",cal:"≈ 450",
+{id:"R24",cui:"jp",yt:"tw8EXKWwudQ",cat:"sou",jp:"しゃぶしゃぶ",ro:"shabu-shabu",fr:"Shabu-shabu",img:IMG.shabu,por:"4",tps:"\u2248 35 min",prep:20,cook:15,rest:0,spd:"m",wait:"",pro:"40 g",cal:"≈ 450",
  sub:"Le meilleur repas de famille du recueil. Chacun contrôle sa propre assiette, les enfants adorent participer, et il est impossible de manger vite.",
  ing:["1,5 L de bouillon léger : eau + 1 morceau de kombu † de 5 cm + 1 c. à soupe de soya","500 g de bœuf ou de porc tranché shabu","½ chou nappa, 4 tasses d'épinards, 227 g de champignons enoki","300 g de tofu ferme, 3 tasses de fèves germées","PONZU MAISON — 3 c. à soupe de soya, 3 c. à soupe de jus de lime, 1 c. à thé de vinaigre de riz","SAUCE SÉSAME — 2 c. à soupe de tahini, 1 c. à soupe de soya, 1 c. à thé de vinaigre, eau"],
  steps:["Casserole au centre de la table, sur une plaque portative.","Chacun trempe sa tranche de viande 15 à 30 secondes dans le bouillon frémissant — elle est cuite dès qu'elle perd sa couleur rosée.","Tremper dans la sauce de son choix.","Ajouter les légumes et le tofu au fur et à mesure.","À la fin, le bouillon est devenu riche : on le boit."],
  notes:[{k:"L'argument familial",t:"C'est un souper où personne ne cuisine vraiment. Si vous devez convaincre quelqu'un d'embarquer, commencez par celui-là."}]},
 
-{id:"R25",yt:"8eMk9yTm_34",ytBy:"Omnivore's Cookbook",cat:"sou",jp:"酸辣湯",ro:"suān là tāng",pr:"souane la tang",fr:"Soupe aigre-piquante",img:IMG.suanla,por:"2",tps:"\u2248 54 min",prep:12,cook:12,rest:30,spd:"l",wait:"",pro:"35 g",cal:"≈ 330",
+{id:"R25",cui:"cn",yt:"8eMk9yTm_34",ytBy:"Omnivore's Cookbook",cat:"sou",jp:"酸辣湯",ro:"suān là tāng",pr:"souane la tang",fr:"Soupe aigre-piquante",img:IMG.suanla,por:"2",tps:"\u2248 54 min",prep:12,cook:12,rest:30,spd:"l",wait:"",pro:"35 g",cal:"≈ 330",
  sub:"Le piquant vient du poivre blanc, pas du piment. Goûter et ajuster : ça doit piquer et être franchement acide.",
  ing:["1 L de bouillon","350 g de poulet en lanières, 200 g de tofu ferme en bâtonnets","1 tasse de champignons : shiitakes, oreilles de bois réhydratées","3 c. à soupe de vinaigre noir de Chinkiang","1 c. à soupe de soya, 1 c. à thé de poivre blanc moulu (généreux)","2 œufs battus, 1 c. à soupe de fécule délayée"],
  steps:["Frémir le bouillon, ajouter poulet, champignons et tofu. 6 minutes.","Vinaigre, soya, poivre blanc. Goûter et ajuster.","Épaissir légèrement avec la fécule.","Verser les œufs battus en filet mince, d'une main, en brassant lentement de l'autre dans une seule direction. C'est ce qui fait les rubans plutôt que des grumeaux."],
  notes:[]},
 
-{id:"R26",yt:"AujuLHK3hvs",ytBy:"Chinese Cooking Demystified",cat:"sou",jp:"麻婆豆腐",ro:"mápó dòufu",pr:"ma-po dow-fou",fr:"Mapo tofu allégé",img:IMG.mapo,por:"2",tps:"\u2248 24 min",prep:10,cook:14,rest:0,spd:"m",wait:"",pro:"32 g",cal:"≈ 380",
+{id:"R26",cui:"cn",yt:"AujuLHK3hvs",ytBy:"Chinese Cooking Demystified",cat:"sou",jp:"麻婆豆腐",ro:"mápó dòufu",pr:"ma-po dow-fou",fr:"Mapo tofu allégé",img:IMG.mapo,por:"2",tps:"\u2248 24 min",prep:10,cook:14,rest:0,spd:"m",wait:"",pro:"32 g",cal:"≈ 380",
  sub:"600 g de tofu, 200 g de porc au lieu des 400 habituels. Le tofu porte le plat, le porc n'est plus qu'un assaisonnement.",
  ing:["600 g de tofu ferme ou mi-ferme en cubes de 2 cm","200 g de porc haché maigre","1 c. à soupe de doubanjiang","1 c. à thé de poivre de Sichuan moulu","3 gousses d'ail, 1 c. à soupe de gingembre","200 ml de bouillon, 1 c. à soupe de fécule délayée","Oignons verts"],
  steps:["Pocher les cubes de tofu 2 minutes dans de l'eau salée frémissante, puis égoutter. Ça les raffermit et les empêche de se défaire.","Saisir le porc, ajouter doubanjiang, ail et gingembre, 2 minutes.","Ajouter le bouillon et le tofu. Mijoter 5 minutes sans brasser — secouer la poêle par le manche.","Épaissir. Poivre de Sichuan à la toute fin, hors du feu : la chaleur détruit son parfum citronné."],
  notes:[]},
 
-{id:"R27",yt:"hXaaZiMgvgI",ytBy:"Hot Thai Kitchen",cat:"sou",jp:"トムヤムクン",ro:"tom yum kung",pr:"tome youme koung",fr:"Tom yum aux crevettes",img:IMG.tomyum,por:"2",tps:"\u2248 27 min",prep:12,cook:15,rest:0,spd:"m",wait:"",pro:"38 g",cal:"≈ 260",
+{id:"R27",cui:"th",yt:"hXaaZiMgvgI",ytBy:"Hot Thai Kitchen",cat:"sou",jp:"トムヤムクン",ro:"tom yum kung",pr:"tome youme koung",fr:"Tom yum aux crevettes",img:IMG.tomyum,por:"2",tps:"\u2248 27 min",prep:12,cook:15,rest:0,spd:"m",wait:"",pro:"38 g",cal:"≈ 260",
  sub:"Bouillon clair, aromates, acidité. Le lait de coco est facultatif — et sans lui, c'est une soupe-repas à 260 calories.",
  ing:["1 L de bouillon","400 g de crevettes crues décortiquées","2 c. à soupe de pâte tom yum","3 tranches de galanga, 2 tiges de citronnelle écrasées, 4 feuilles de lime kaffir déchirées","227 g de champignons","2 c. à soupe de sauce de poisson, jus de 2 limes","Coriandre, piments oiseaux écrasés"],
  steps:["Frémir bouillon et aromates 10 minutes.","Pâte tom yum et champignons, 3 minutes.","Crevettes, 2 à 3 minutes — dès qu'elles sont roses et courbées en C.","Hors du feu : sauce de poisson et jus de lime. Le jus de lime devient amer s'il bout."],
  notes:[]},
 
-{id:"R28",yt:"OooFZU2ZktY",ytBy:"Hot Thai Kitchen",cat:"sou",jp:"トムカーガイ",ro:"tom kha gai",pr:"tome ka gaï",fr:"Tom kha gai allégé",img:IMG.tomkha,por:"2",tps:"\u2248 32 min",prep:10,cook:22,rest:0,spd:"m",wait:"",pro:"36 g",cal:"≈ 390",
+{id:"R28",cui:"th",yt:"OooFZU2ZktY",ytBy:"Hot Thai Kitchen",cat:"sou",jp:"トムカーガイ",ro:"tom kha gai",pr:"tome ka gaï",fr:"Tom kha gai allégé",img:IMG.tomkha,por:"2",tps:"\u2248 32 min",prep:10,cook:22,rest:0,spd:"m",wait:"",pro:"36 g",cal:"≈ 390",
  sub:"Au lait de coco léger, jamais bouilli — sinon il tranche.",
  ing:["500 ml de bouillon + 250 ml de lait de coco léger","400 g de poulet en morceaux","Citronnelle, galanga, feuilles de lime kaffir","227 g de champignons","2 c. à soupe de sauce de poisson, jus de 2 limes, coriandre"],
  steps:["Infuser les aromates dans le bouillon 10 minutes.","Ajouter le lait de coco, le poulet et les champignons. Mijoter 10 minutes sans jamais faire bouillir.","Hors du feu : sauce de poisson, lime, coriandre."],
  notes:[]},
 
-{id:"R29",yt:"Mg9zeD01kEw",ytBy:"Maangchi",cat:"sou",jp:"순두부찌개",ro:"sundubu jjigae",pr:"soune-dou-bou tchi-gué",fr:"Sundubu jjigae",img:IMG.sundubu,por:"2",tps:"\u2248 25 min",prep:8,cook:17,rest:0,spd:"m",wait:"",pro:"34 g",cal:"≈ 400",
+{id:"R29",cui:"kr",yt:"Mg9zeD01kEw",ytBy:"Maangchi",cat:"sou",jp:"순두부찌개",ro:"sundubu jjigae",pr:"soune-dou-bou tchi-gué",fr:"Sundubu jjigae",img:IMG.sundubu,por:"2",tps:"\u2248 25 min",prep:8,cook:17,rest:0,spd:"m",wait:"",pro:"34 g",cal:"≈ 400",
  sub:"Un ragoût bouillant au tofu soyeux. L'œuf se casse dans le bol au service, pas dans la casserole.",
  ing:["700 ml de bouillon","600 g de tofu soyeux","200 g de porc haché ou de fruits de mer","2 c. à soupe de gochugaru, 1 c. à soupe de gochujang","3 gousses d'ail, 1 tasse de kimchi haché","2 œufs, 1 c. à thé d'huile de sésame"],
  steps:["Revenir le porc avec l'ail, 3 minutes.","Kimchi, gochugaru et gochujang, 2 minutes.","Bouillon, mijoter 10 minutes.","Ajouter le tofu soyeux en grosses cuillerées, sans le briser davantage.","Casser un œuf dans chaque bol au moment de servir, filet d'huile de sésame."],
  notes:[]},
 
-{id:"R30",yt:"FxSmBbXSDl0",ytBy:"Maangchi",cat:"sou",jp:"육개장",ro:"yukgaejang",pr:"youk-gué-djang",fr:"Yukgaejang simplifié",img:IMG.yukgaejang,por:"2",tps:"\u2248 40 min",prep:10,cook:30,rest:0,spd:"l",wait:"",pro:"40 g",cal:"≈ 420",
+{id:"R30",cui:"kr",yt:"FxSmBbXSDl0",ytBy:"Maangchi",cat:"sou",jp:"육개장",ro:"yukgaejang",pr:"youk-gué-djang",fr:"Yukgaejang simplifié",img:IMG.yukgaejang,por:"2",tps:"\u2248 40 min",prep:10,cook:30,rest:0,spd:"l",wait:"",pro:"40 g",cal:"≈ 420",
  sub:"Bœuf effiloché, gochugaru, deux tasses de fèves germées. La couleur rouge vient de l'huile infusée, pas du piquant.",
  ing:["1,2 L de bouillon de bœuf","400 g de bœuf à ragoût, effiloché après cuisson","3 c. à soupe de gochugaru mélangés à 2 c. à soupe d'huile","4 gousses d'ail, 1 c. à soupe de soya","6 oignons verts en tronçons de 5 cm","2 tasses de fèves germées, 2 œufs battus"],
  steps:["Chauffer doucement le gochugaru dans l'huile 1 minute — ça libère la couleur rouge et la saveur. Ne pas le laisser noircir.","Bœuf et ail, 3 minutes.","Bouillon et soya, 20 minutes.","Oignons verts et fèves germées, 5 minutes.","Œufs en filet à la fin."],
  notes:[]},
 
-{id:"R31",yt:"0RPCzzm8l9I",ytBy:"Made With Lau",cat:"sou",jp:"雲呑スープ",ro:"wonton sūpu",fr:"Soupe won-ton déconstruite",img:IMG.wonton,por:"2",tps:"\u2248 27 min",prep:12,cook:15,rest:0,spd:"m",wait:"",pro:"40 g",cal:"≈ 340",
+{id:"R31",cui:"cn",yt:"0RPCzzm8l9I",ytBy:"Made With Lau",cat:"sou",jp:"雲呑スープ",ro:"wonton sūpu",fr:"Soupe won-ton déconstruite",img:IMG.wonton,por:"2",tps:"\u2248 27 min",prep:12,cook:15,rest:0,spd:"m",wait:"",pro:"40 g",cal:"≈ 340",
  sub:"Toute la saveur du won-ton, zéro pâte.",
  ing:["1 L de bouillon","400 g de porc ou de poulet haché","1 c. à soupe de gingembre râpé, 2 gousses d'ail","1 c. à soupe de soya, 1 c. à thé d'huile de sésame","1 blanc d'œuf, 1 c. à soupe de fécule","4 tasses de bok choy en lanières, shiitakes, oignons verts"],
  steps:["Mélanger la viande avec tous les assaisonnements, le blanc d'œuf et la fécule. Brasser énergiquement dans un seul sens jusqu'à texture collante — c'est ce qui rend les boulettes moelleuses plutôt que friables.","Former des boulettes de la taille d'une noix à la cuillère, directement dans le bouillon frémissant. Pocher 8 à 10 minutes.","Shiitakes et bok choy, 3 minutes."],
  notes:[]},
 
-{id:"R32",yt:"IyXQemAcKLw",cat:"sou",jp:"つくね汁",ro:"tsukune-jiru",fr:"Soupe aux boulettes de poulet",img:IMG.tsukune,por:"2",tps:"\u2248 29 min",prep:12,cook:17,rest:0,spd:"m",wait:"",pro:"42 g",cal:"≈ 360",
+{id:"R32",cui:"jp",yt:"IyXQemAcKLw",cat:"sou",jp:"つくね汁",ro:"tsukune-jiru",fr:"Soupe aux boulettes de poulet",img:IMG.tsukune,por:"2",tps:"\u2248 29 min",prep:12,cook:17,rest:0,spd:"m",wait:"",pro:"42 g",cal:"≈ 360",
  sub:"Même technique que R31, en version japonaise au dashi.",
  ing:["450 g de poulet haché","1 c. à soupe de gingembre, 2 oignons verts","1 c. à soupe de soya, 1 c. à thé de miso, 1 œuf, 2 c. à soupe de fécule","1 L de dashi (T2) + 1 c. à soupe de mirin","4 tasses de chou nappa, 1 tasse de shiitakes"],
  steps:["Mélanger le poulet avec tous les assaisonnements. Brasser énergiquement dans un seul sens jusqu'à texture collante.","Former des boulettes directement dans le dashi frémissant avec le mirin. Pocher 8 à 10 minutes.","Ajouter le chou nappa et les shiitakes, 5 minutes."],
  notes:[],tech:["T2"]},
 
-{id:"R33",yt:"8wVjpLI2mp0",ytBy:"Japanese Cooking 101",cat:"sou",jp:"鮭の味噌汁",ro:"sake no misoshiru",fr:"Soupe miso au saumon, tofu et edamame",img:IMG.miso,por:"2",tps:"\u2248 18 min",prep:8,cook:10,rest:0,spd:"s",wait:"",pro:"38 g",cal:"≈ 350",
+{id:"R33",cui:"jp",yt:"8wVjpLI2mp0",ytBy:"Japanese Cooking 101",cat:"sou",jp:"鮭の味噌汁",ro:"sake no misoshiru",fr:"Soupe miso au saumon, tofu et edamame",img:IMG.miso,por:"2",tps:"\u2248 18 min",prep:8,cook:10,rest:0,spd:"s",wait:"",pro:"38 g",cal:"≈ 350",
  sub:"Une soupe-repas complète, pas une soupe-entrée. 38 g de protéines par portion.",
  ing:["1 L de dashi (T2)","3 c. à soupe de miso blanc","300 g de saumon ou de morue en cubes","200 g de tofu ferme, 1 tasse d'edamames †","Wakame †, oignons verts"],
  steps:["Chauffer le dashi. Poisson, tofu et edamames, 5 à 6 minutes à frémissement.","Retirer du feu. Délayer le miso dans une louche de bouillon, puis l'incorporer.","Wakame et oignons verts."],
  notes:[],tech:["T2"]},
 
-{id:"R34",yt:"T_rV_Vwdpdw",ytBy:"Chef JA Cooks",cat:"sou",jp:"おでん",ro:"oden",fr:"Oden",img:IMG.oden,por:"4",tps:"\u2248 60 min",prep:15,cook:15,rest:30,spd:"xl",wait:"",pro:"25 g",cal:"≈ 260",
+{id:"R34",cui:"jp",yt:"T_rV_Vwdpdw",ytBy:"Chef JA Cooks",cat:"sou",jp:"おでん",ro:"oden",fr:"Oden",img:IMG.oden,por:"4",tps:"\u2248 60 min",prep:15,cook:15,rest:30,spd:"xl",wait:"",pro:"25 g",cal:"≈ 260",
  sub:"Le mijoté d'hiver. Meilleur réchauffé le lendemain. Le konnyaku fait environ 5 calories aux 100 g et remplit l'estomac.",
  ing:["BOUILLON — 1,5 L de dashi (T2) + 2 c. à soupe de soya + 1 c. à soupe de mirin + 1 c. à thé de sucre","Daikon en rondelles de 3 cm","Œufs durs entiers","Konnyaku en triangles","Tofu grillé (atsuage)","Pilons de poulet, poulpe, shiitakes entiers","Moutarde karashi pour servir"],
  steps:["Peler le daikon largement et arrondir les arêtes au couteau — ça l'empêche de s'effriter.","Le faire bouillir 10 minutes dans de l'eau séparée avant de l'ajouter au dashi. Ça enlève l'amertume. Jeter cette eau.","Entailler le konnyaku en croisillons sur les deux faces : il absorbe beaucoup mieux.","Tout mettre dans le dashi assaisonné, mijoter à tout petit feu, 30 minutes minimum. Ça ne doit jamais bouillir franchement.","Servir avec de la moutarde karashi à côté."],
  notes:[{k:"À limiter",t:"Les gâteaux de poisson traditionnels — chikuwa, satsuma-age, hanpen — sont très salés. Idem pour les saucisses enrobées et le mochi kinchaku."}],tech:["T2"]},
 
-{id:"R35",yt:"NaiL0SeTz_s",ytBy:"Made With Lau",cat:"sou",jp:"清蒸魚",ro:"qīngzhēng yú",pr:"tching-djeng you",fr:"Poisson vapeur cantonais",img:IMG.vapeur,por:"2",tps:"\u2248 24 min",prep:10,cook:14,rest:0,spd:"m",wait:"",pro:"34 g",cal:"≈ 250",
+{id:"R35",cui:"cn",yt:"NaiL0SeTz_s",ytBy:"Made With Lau",cat:"sou",jp:"清蒸魚",ro:"qīngzhēng yú",pr:"tching-djeng you",fr:"Poisson vapeur cantonais",img:IMG.vapeur,por:"2",tps:"\u2248 24 min",prep:10,cook:14,rest:0,spd:"m",wait:"",pro:"34 g",cal:"≈ 250",
  sub:"Le plat le plus élégant du répertoire chinois. Le geste central est l'huile fumante versée sur les aromates.",
  ing:["1 poisson blanc entier (bar, tilapia) ou 2 filets épais","Gingembre en fines juliennes, oignons verts en filaments","2 c. à soupe de sauce soya pour poisson vapeur + 1 c. à soupe d'eau","1 c. à soupe d'huile d'arachide"],
  steps:["Déposer le poisson sur une assiette creuse avec la moitié du gingembre. Placer dans un panier vapeur au-dessus de l'eau bouillante. 8 à 12 minutes selon l'épaisseur.","Jeter le liquide accumulé dans l'assiette — il est amer.","Couvrir de gingembre et d'oignon vert frais.","Chauffer l'huile jusqu'à ce qu'elle fume légèrement, puis la verser directement sur les aromates. Le grésillement libère tout le parfum.","Arroser de sauce autour, jamais dessus."],
  notes:[{k:"Au comptoir poisson",t:"Ils vont écailler et vider le poisson pour vous si vous le demandez. C'est la seule difficulté de la recette, et elle se délègue."}]},
 
-{id:"R36",yt:"36E3XXqab40",ytBy:"Helen's Recipes",cat:"sou",jp:"鶏のフォー風",ro:"tori no phở-fū",pr:"to-ri no feu fou",fr:"Faux-pho au poulet",img:IMG.pho,por:"2",tps:"\u2248 40 min",prep:12,cook:28,rest:0,spd:"l",wait:"",pro:"42 g",cal:"≈ 320",
+{id:"R36",cui:"vn",yt:"36E3XXqab40",ytBy:"Helen's Recipes",cat:"sou",jp:"鶏のフォー風",ro:"tori no phở-fū",pr:"to-ri no feu fou",fr:"Faux-pho au poulet",img:IMG.pho,por:"2",tps:"\u2248 40 min",prep:12,cook:28,rest:0,spd:"l",wait:"",pro:"42 g",cal:"≈ 320",
  sub:"Ce n'est pas un phở — un vrai bouillon mijote six à douze heures et contient des nouilles. C'est un bouillon aromatique qui en emprunte le profil, sans nouilles.",
  ing:["1 L de bouillon de poulet","400 g de poulet tranché très mince","1 morceau de gingembre de 5 cm, 1 oignon coupé en deux","2 anis étoilés, 1 bâton de cannelle, 3 clous de girofle","1 c. à soupe de sauce de poisson","3 tasses de fèves germées","Coriandre, oignons verts, basilic thaï, lime, jalapeño"],
  steps:["Griller l'oignon et le gingembre à sec dans la casserole, 5 minutes, jusqu'à ce qu'ils noircissent par endroits. C'est ce qui donne la profondeur.","Ajouter le bouillon et les épices, mijoter 20 minutes à couvert, puis filtrer.","Fèves germées crues au fond des bols, puis le poulet cru tranché mince par-dessus.","Verser le bouillon bouillant : il cuit le poulet en 1 à 2 minutes.","Garnir généreusement, ajouter la lime au moment de manger."],
  notes:[{k:"Le meilleur substitut de nouilles du recueil",t:"Les fèves germées gardent leur croquant sous le bouillon chaud."}]},
 
-{id:"R37",yt:"qkv_CxkdWB4",ytBy:"Yeung Man Cooking",cat:"sou",jp:"しらたき炒め",ro:"shirataki itame",fr:"Nouilles konjac aux légumes",img:IMG.shirataki,por:"2",tps:"\u2248 20 min",prep:10,cook:10,rest:0,spd:"s",wait:"",pro:"30 g",cal:"≈ 230",
+{id:"R37",cui:"jp",yt:"qkv_CxkdWB4",ytBy:"Yeung Man Cooking",cat:"sou",jp:"しらたき炒め",ro:"shirataki itame",fr:"Nouilles konjac aux légumes",img:IMG.shirataki,por:"2",tps:"\u2248 20 min",prep:10,cook:10,rest:0,spd:"s",wait:"",pro:"30 g",cal:"≈ 230",
  sub:"Les shirataki font environ 5 calories aux 100 g. L'étape 2 n'est pas facultative.",
  ing:["2 paquets de nouilles shirataki","300 g de protéine au choix","Daikon, carotte, champignons, chou","SAUCE — 2 c. à soupe de soya, 1 c. à soupe de mirin, 1 c. à thé d'huile de sésame","Shichimi"],
  steps:["Rincer les shirataki abondamment, 1 minute sous l'eau froide.","Les faire sauter à sec dans une poêle chaude, 2 à 3 minutes, jusqu'à ce qu'ils grincent. Cette étape enlève l'odeur caractéristique et améliore énormément la texture. Ne la sautez pas.","Ajouter le reste et sauter 5 minutes."],
  notes:[]},
 
-{id:"R38",yt:"wshf6yZbhwk",cat:"soupe",jp:"味噌汁",ro:"misoshiru",fr:"Soupe miso de base",img:IMG.miso,por:"2 bols",tps:"\u2248 11 min",prep:5,cook:6,rest:0,spd:"s",wait:"",pro:"4 g",cal:"≈ 50",
+{id:"R38",cui:"jp",yt:"wshf6yZbhwk",cat:"soupe",jp:"味噌汁",ro:"misoshiru",fr:"Soupe miso de base",img:IMG.miso,por:"2 bols",tps:"\u2248 11 min",prep:5,cook:6,rest:0,spd:"s",wait:"",pro:"4 g",cal:"≈ 50",
  sub:"Le meilleur outil qui existe contre la fringale de 21 h. Trois minutes si le dashi est au réfrigérateur.",
  ing:["400 ml de dashi (T2)","1 c. à soupe de miso blanc (pas plus — le dashi porte le goût)","60 g de tofu soyeux en petits cubes","1 c. à thé de wakame † séché","Oignon vert"],
  steps:["Chauffer le dashi jusqu'au frémissement, ajouter le tofu.","Retirer du feu. Mettre le miso dans une petite passoire ou une louche, ajouter un peu de bouillon chaud, écraser avec le dos d'une cuillère pour le délayer, puis reverser.","Wakame et oignon vert."],
  notes:[{k:"Les variantes",t:"Aux champignons (enoki ou shimeji, 1 min) ▪ au daikon (fines lamelles, 3 min) ▪ aux palourdes (6 palourdes jusqu'à ouverture — riche en fer) ▪ au miso rouge (plus corsé, réduire à 2 c. à thé) ▪ tonjiru (porc et légumes-racines : devient une soupe-repas)."},{k:"Ne jamais faire bouillir après le miso",t:"La chaleur détruit les arômes et les cultures."}],tech:["T2"]},
 
-{id:"R39",yt:"vO81lQvYodI",ytBy:"Helen's Recipes",cat:"soupe",jp:"canh",ro:"canh",pr:"kang",fr:"Canh vietnamienne",img:IMG.canh,por:"2 bols",tps:"\u2248 13 min",prep:5,cook:8,rest:0,spd:"s",wait:"",pro:"3 g",cal:"≈ 60",
+{id:"R39",cui:"vn",yt:"vO81lQvYodI",ytBy:"Helen's Recipes",cat:"soupe",jp:"canh",ro:"canh",pr:"kang",fr:"Canh vietnamienne",img:IMG.canh,por:"2 bols",tps:"\u2248 13 min",prep:5,cook:8,rest:0,spd:"s",wait:"",pro:"3 g",cal:"≈ 60",
  sub:"La soupe maison qu'on sert à table dans tous les restaurants vietnamiens.",
  ing:["500 ml de bouillon léger","1 tomate en quartiers","2 tasses de verdure : cresson, épinards, chou nappa","1 c. à thé de sauce de poisson","Oignon vert, coriandre, poivre blanc"],
  steps:["Frémir le bouillon avec la tomate 5 minutes.","Ajouter la verdure, 1 minute.","Assaisonner hors du feu."],
  notes:[]},
 
-{id:"R40",yt:"m7d0FJjlT1U",cat:"soupe",jp:"吸い物",ro:"suimono",fr:"Suimono — bouillon clair",img:IMG.suimono,por:"2 bols",tps:"\u2248 8 min",prep:3,cook:5,rest:0,spd:"xs",wait:"",pro:"2 g",cal:"≈ 25",
+{id:"R40",cui:"jp",yt:"m7d0FJjlT1U",cat:"soupe",jp:"吸い物",ro:"suimono",fr:"Suimono — bouillon clair",img:IMG.suimono,por:"2 bols",tps:"\u2248 8 min",prep:3,cook:5,rest:0,spd:"xs",wait:"",pro:"2 g",cal:"≈ 25",
  sub:"Le plus élégant et le plus léger. L'esthétique compte : deux éléments qui flottent, rien d'autre.",
  ing:["400 ml de dashi","½ c. à thé de soya clair, une pincée de sel","Un ou deux éléments seulement : une crevette, un cube de tofu, une feuille de shiso, un champignon enoki, un zeste de yuzu"],
  steps:["Chauffer le dashi jusqu'au frémissement.","Assaisonner très légèrement.","Déposer un ou deux éléments dans chaque bol et verser le bouillon dessus."],
  notes:[],tech:["T2"]},
 
-{id:"R41",yt:"pvacqcbDb0Y",ytBy:"Wei's Red House Kitchen",cat:"soupe",jp:"卵とトマトのスープ",ro:"tamago to tomato no sūpu",fr:"Soupe aux œufs et tomate",img:IMG.tomate,por:"2 bols",tps:"\u2248 12 min",prep:5,cook:7,rest:0,spd:"s",wait:"",pro:"6 g",cal:"≈ 80",
+{id:"R41",cui:"cn",yt:"pvacqcbDb0Y",ytBy:"Wei's Red House Kitchen",cat:"soupe",jp:"卵とトマトのスープ",ro:"tamago to tomato no sūpu",fr:"Soupe aux œufs et tomate",img:IMG.tomate,por:"2 bols",tps:"\u2248 12 min",prep:5,cook:7,rest:0,spd:"s",wait:"",pro:"6 g",cal:"≈ 80",
  sub:"Six minutes, six ingrédients.",
  ing:["500 ml de bouillon","1 tomate en dés","1 œuf battu","1 c. à thé de fécule délayée","Oignon vert, un filet d'huile de sésame"],
  steps:["Frémir bouillon et tomate 4 minutes.","Épaissir légèrement avec la fécule.","Verser l'œuf en filet en brassant lentement dans une seule direction.","Oignon vert et filet d'huile de sésame."],
  notes:[]},
 
-{id:"R42",yt:"MAUc-bAVymc",ytBy:"ochikeron",cat:"soupe",jp:"大根の澄まし汁",ro:"daikon no sumashi-jiru",fr:"Bouillon au daikon et gingembre",img:IMG.daikon,por:"2 bols",tps:"\u2248 15 min",prep:6,cook:9,rest:0,spd:"s",wait:"",pro:"1 g",cal:"≈ 40",
+{id:"R42",cui:"jp",yt:"MAUc-bAVymc",ytBy:"ochikeron",cat:"soupe",jp:"大根の澄まし汁",ro:"daikon no sumashi-jiru",fr:"Bouillon au daikon et gingembre",img:IMG.daikon,por:"2 bols",tps:"\u2248 15 min",prep:6,cook:9,rest:0,spd:"s",wait:"",pro:"1 g",cal:"≈ 40",
  sub:"Réconfortant, digestif, presque zéro calorie.",
  ing:["400 ml de dashi","½ tasse de daikon en fines lamelles","1 c. à thé de gingembre râpé","1 c. à thé de soya"],
  steps:["Frémir le dashi avec le daikon 8 minutes, jusqu'à ce qu'il devienne translucide.","Ajouter le gingembre et le soya hors du feu."],
  notes:[],tech:["T2"]},
 
-{id:"R43",yt:"DfFv9gTxrbs",cat:"gar",jp:"お浸し",ro:"ohitashi",fr:"Ohitashi — épinards au dashi",img:IMG.epinard,por:"4",tps:"\u2248 48 min",prep:8,cook:10,rest:30,spd:"l",wait:"",pro:"3 g",cal:"≈ 25",
+{id:"R43",cui:"jp",yt:"DfFv9gTxrbs",cat:"gar",jp:"お浸し",ro:"ohitashi",fr:"Ohitashi — épinards au dashi",img:IMG.epinard,por:"4",tps:"\u2248 48 min",prep:8,cook:10,rest:30,spd:"l",wait:"",pro:"3 g",cal:"≈ 25",
  sub:"Se garde 3 jours. Environ 25 calories la portion, et le blanchiment améliore l'absorption du fer.",
  ing:["1 grosse botte d'épinards, préparée selon T6","TREMPETTE — 100 ml de dashi, 1 c. à soupe de soya, 1 c. à thé de mirin","Katsuobushi, sésame"],
  steps:["Faire T6 (blanchiment).","Couper le boudin d'épinards en tronçons de 4 cm.","Immerger dans le mélange de dashi, au moins 30 minutes au réfrigérateur.","Servir en petits tas, garnir de katsuobushi."],
  notes:[],tech:["T2","T6"]},
 
-{id:"R44",yt:"CvOoXbwUySI",cat:"gar",jp:"胡麻和え",ro:"goma-ae",fr:"Goma-ae — haricots au sésame",img:IMG.gomaae,por:"4",tps:"\u2248 20 min",prep:10,cook:10,rest:0,spd:"s",wait:"",pro:"4 g",cal:"≈ 70",
+{id:"R44",cui:"jp",yt:"CvOoXbwUySI",cat:"gar",jp:"胡麻和え",ro:"goma-ae",fr:"Goma-ae — haricots au sésame",img:IMG.gomaae,por:"4",tps:"\u2248 20 min",prep:10,cook:10,rest:0,spd:"s",wait:"",pro:"4 g",cal:"≈ 70",
  sub:"L'étape qui fait tout : écraser les graines de sésame au mortier. C'est ce qui libère l'huile et fait la sauce.",
  ing:["300 g de haricots verts ou d'épinards","SAUCE — 3 c. à soupe de graines de sésame blanches, 1 c. à soupe de soya, 1 c. à thé de sucre, 1 c. à thé de dashi"],
  steps:["Blanchir les haricots 3 minutes, refroidir à l'eau glacée, égoutter.","Griller les graines de sésame à sec dans une poêle, 2 minutes, en secouant. Elles doivent embaumer et commencer à sauter.","Les écraser au mortier ou au fond d'un bol avec une cuillère, jusqu'à texture de sable humide.","Ajouter les assaisonnements, mélanger aux haricots."],
  notes:[]},
 
-{id:"R45",yt:"KYRAk2qY_h4",cat:"gar",jp:"酢の物",ro:"sunomono",fr:"Sunomono — concombre vinaigré",img:IMG.sunomono,por:"4",tps:"\u2248 20 min",prep:10,cook:0,rest:10,spd:"s",wait:"",pro:"1 g",cal:"≈ 35",
+{id:"R45",cui:"jp",yt:"KYRAk2qY_h4",cat:"gar",jp:"酢の物",ro:"sunomono",fr:"Sunomono — concombre vinaigré",img:IMG.sunomono,por:"4",tps:"\u2248 20 min",prep:10,cook:0,rest:10,spd:"s",wait:"",pro:"1 g",cal:"≈ 35",
  sub:"Réduit aussi la réponse glycémique du repas qui suit. À côté de son assiette au souper familial, personne ne remarque rien.",
  ing:["2 concombres asiatiques en tranches très fines","1 c. à thé de sel","VINAIGRETTE — 3 c. à soupe de vinaigre de riz, 1 c. à soupe de sucre, 1 c. à thé de soya","Wakame † réhydraté, sésame"],
  steps:["Saler les tranches, laisser dégorger 10 minutes.","Presser fermement entre les mains pour extraire l'eau. C'est ce qui empêche la salade de se diluer.","Mélanger à la vinaigrette.","Garnir de wakame et de sésame."],
  notes:[]},
 
-{id:"R46",yt:"ZHbYTUq8M7U",cat:"gar",jp:"金平",ro:"kinpira",fr:"Kinpira de carotte et daikon",img:IMG.kinpira,por:"4",tps:"\u2248 22 min",prep:15,cook:7,rest:0,spd:"m",wait:"",pro:"1 g",cal:"≈ 60",
+{id:"R46",cui:"jp",yt:"ZHbYTUq8M7U",cat:"gar",jp:"金平",ro:"kinpira",fr:"Kinpira de carotte et daikon",img:IMG.kinpira,por:"4",tps:"\u2248 22 min",prep:15,cook:7,rest:0,spd:"m",wait:"",pro:"1 g",cal:"≈ 60",
  sub:"Se garde 4 jours. La mandoline fait les juliennes en trente secondes.",
  ing:["2 carottes et ¼ de daikon en juliennes","1 c. à thé d'huile de sésame","1 c. à soupe de soya, 1 c. à soupe de mirin","Sésame, shichimi"],
  steps:["Sauter les juliennes 4 minutes à feu vif.","Ajouter les liquides, réduire jusqu'à ce qu'ils enrobent.","Sésame et shichimi."],
  notes:[]},
 
-{id:"R47",yt:"09g-HSTI7_o",ytBy:"No Recipes",cat:"gar",jp:"叩ききゅうり",ro:"tataki kyūri",fr:"Concombre tataki",img:IMG.concombre,por:"2",tps:"\u2248 21 min",prep:6,cook:0,rest:15,spd:"m",wait:"",pro:"1 g",cal:"≈ 40",
+{id:"R47",cui:"jp",yt:"09g-HSTI7_o",ytBy:"No Recipes",cat:"gar",jp:"叩ききゅうり",ro:"tataki kyūri",fr:"Concombre tataki",img:IMG.concombre,por:"2",tps:"\u2248 21 min",prep:6,cook:0,rest:15,spd:"m",wait:"",pro:"1 g",cal:"≈ 40",
  sub:"Pratiquement zéro calorie, et addictif. Les surfaces déchirées absorbent beaucoup mieux la marinade que des tranches nettes.",
  ing:["1 concombre","1 gousse d'ail écrasée","1 c. à soupe de vinaigre de riz","1 c. à thé d'huile de sésame, piment"],
  steps:["Écraser le concombre au plat d'un large couteau jusqu'à ce qu'il craque et se fende.","Déchirer en morceaux irréguliers à la main.","Mariner 15 minutes."],
  notes:[]},
 
-{id:"R48",yt:"zBnR0bdU_JM",ytBy:"Japanese Cooking 101",cat:"col",jp:"枝豆",ro:"edamame",fr:"Edamames au sésame",img:IMG.edamame,por:"4",tps:"\u2248 8 min",prep:3,cook:5,rest:0,spd:"xs",wait:"",pro:"18 g / tasse",cal:"≈ 190 / tasse",
+{id:"R48",cui:"jp",yt:"zBnR0bdU_JM",ytBy:"Japanese Cooking 101",cat:"col",jp:"枝豆",ro:"edamame",fr:"Edamames au sésame",img:IMG.edamame,por:"4",tps:"\u2248 8 min",prep:3,cook:5,rest:0,spd:"xs",wait:"",pro:"18 g / tasse",cal:"≈ 190 / tasse",
  sub:"Acheter nature congelés, pas salés — on dose soi-même. Décortiquer ralentit le rythme, ce qui fait partie de l'intérêt.",
  ing:["1 sac d'edamames † en cosses, congelés nature","Une pincée de sel","Un filet d'huile de sésame"],
  steps:["Décongeler les edamames.","Sauter à sec 2 minutes dans une poêle chaude jusqu'à ce qu'ils marquent.","Assaisonner d'une pincée de sel et d'un filet d'huile de sésame."],
@@ -899,7 +906,7 @@ const R = [
 ];
 
 class Component extends DCLogic {
-  state = { cat: "tous", spd: "tous", q: "", open: null };
+  state = { cat: "tous", spd: "tous", cui: "tous", q: "", open: null };
 
   componentDidMount() {
     this.sync();
@@ -953,15 +960,16 @@ class Component extends DCLogic {
   }
 
   renderVals() {
-    const { cat, spd, q, open } = this.state;
+    const { cat, spd, cui, q, open } = this.state;
     const norm = s => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const term = norm(q);
     const list = R.filter(r => (cat === "tous" || r.cat === cat))
       .filter(r => (spd === "tous" || r.spd === spd))
+      .filter(r => (cui === "tous" || r.cui === cui))
       .filter(r => !term || norm(r.fr + " " + r.ro + " " + r.id + " " + r.sub + " " + r.ing.join(" ")).includes(term))
       .map(r => ({
         id: r.id, jp: r.jp, ro: r.ro, fr: r.fr, img: r.img, bg: 'url("' + r.img + '")', jpt: JPT(r.jp, r.ro, r.fr, r.pr),
-        catLabel: CATLABEL[r.cat], spdLabel: SPDLABEL[r.spd],
+        catLabel: CATLABEL[r.cat], spdLabel: SPDLABEL[r.spd], cuiLabel: CUILABEL[r.cui],
         meta: r.tps + " · " + r.pro + " · " + r.cal + " cal",
         go: () => this.go(r.id)
       }));
@@ -976,7 +984,7 @@ class Component extends DCLogic {
       id: o.id, jp: o.jp, ro: o.ro, fr: o.fr, sub: o.sub, img: o.img, bg: 'url("' + o.img + '")',
       jpt: JPT(o.jp, o.ro, o.fr, o.pr),
       catLabel: CATLABEL[o.cat], por: o.por, tps: o.tps, pro: o.pro, cal: o.cal,
-      spdLabel: SPDLABEL[o.spd],
+      spdLabel: SPDLABEL[o.spd], cuiLabel: CUILABEL[o.cui],
       breakdown: o.prep + " min prép" + (o.cook ? " · " + o.cook + " min cuisson" : "") + (o.rest ? " · " + o.rest + " min attente" : ""),
       hasWait: !!o.wait, wait: o.wait || "",
       ing: o.ing.map(t => ({ t })),
@@ -1004,6 +1012,7 @@ class Component extends DCLogic {
     return {
       cats: CATS.map(c => ({ label: c.label, style: c.k === cat ? on : base, go: () => this.setState({ cat: c.k }) })),
       speeds: SPEEDS.map(c => ({ label: c.label, style: c.k === spd ? on : base, go: () => this.setState({ spd: c.k }) })),
+      cuisines: CUISINES.map(c => ({ label: c.label, style: c.k === cui ? on : base, go: () => this.setState({ cui: c.k }) })),
       list,
       q,
       count: list.length + (list.length > 1 ? " fiches" : " fiche"),
