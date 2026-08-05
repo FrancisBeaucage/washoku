@@ -34,6 +34,8 @@
   .in { max-width:1180px; margin:0 auto; padding:clamp(28px,4vw,52px) clamp(16px,4vw,40px); }
   .filters { display:grid; grid-template-columns:repeat(auto-fit,minmax(118px,1fr)); gap:2px; background:#c9c5c5; border:2px solid #201e1d; width:100%; }
   .filterbar { max-width:1180px; margin:0 auto; padding:12px clamp(16px,4vw,40px); display:grid; gap:10px; }
+  .fsel { flex:1 1 140px; min-width:0; padding:9px 30px 9px 12px; border:2px solid #201e1d; border-radius:0; background:#fff url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='10'%20height='6'%3E%3Cpath%20d='M1%201l4%204%204-4'%20fill='none'%20stroke='%23201e1d'%20stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 11px center; font-family:inherit; font-size:13px; font-weight:700; color:#201e1d; cursor:pointer; -webkit-appearance:none; appearance:none; }
+  .fsel:focus-visible { outline:2px solid #ec3013; outline-offset:2px; }
   .fiche2 { display:grid; grid-template-columns:minmax(230px,320px) 1fr; gap:clamp(24px,4vw,52px); align-items:start; }
   .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:#201e1d; border:2px solid #201e1d; margin:clamp(22px,3vw,34px) 0; }
   @media (max-width:760px) { .fiche2 { grid-template-columns:1fr; } .metrics { grid-template-columns:repeat(2,1fr); } }
@@ -189,22 +191,18 @@
 
       <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:49px;z-index:20">
         <div class="filterbar">
-          <div class="filters">
-            <sc-for list="{{ cats }}" as="c" hint-placeholder-count="8">
-              <button onClick="{{ c.go }}" style="{{ c.style }}">{{ c.label }}</button>
-            </sc-for>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+            <select aria-label="Type de repas" value="{{ cat }}" onChange="{{ setCat }}" class="fsel">
+              <sc-for list="{{ cats }}" as="c" hint-placeholder-count="8"><option value="{{ c.k }}">{{ c.label }}</option></sc-for>
+            </select>
+            <select aria-label="Durée" value="{{ spd }}" onChange="{{ setSpd }}" class="fsel">
+              <sc-for list="{{ speeds }}" as="c" hint-placeholder-count="6"><option value="{{ c.k }}">{{ c.label }}</option></sc-for>
+            </select>
+            <select aria-label="Origine" value="{{ cui }}" onChange="{{ setCui }}" class="fsel">
+              <sc-for list="{{ cuisines }}" as="c" hint-placeholder-count="6"><option value="{{ c.k }}">{{ c.label }}</option></sc-for>
+            </select>
+            <input type="search" placeholder="Chercher une recette ou un ingrédient…" value="{{ q }}" onInput="{{ search }}" style="flex:3 1 180px;min-width:0;padding:9px 12px;border:2px solid #201e1d;background:#fff;font-family:inherit;font-size:14px;border-radius:0">
           </div>
-          <div class="filters">
-            <sc-for list="{{ speeds }}" as="c" hint-placeholder-count="6">
-              <button onClick="{{ c.go }}" style="{{ c.style }}">{{ c.label }}</button>
-            </sc-for>
-          </div>
-          <div class="filters">
-            <sc-for list="{{ cuisines }}" as="c" hint-placeholder-count="6">
-              <button onClick="{{ c.go }}" style="{{ c.style }}">{{ c.label }}</button>
-            </sc-for>
-          </div>
-          <input type="search" placeholder="Chercher une recette ou un ingrédient…" value="{{ q }}" onInput="{{ search }}" style="width:100%;padding:10px 12px;border:2px solid #201e1d;background:#fff;font-family:inherit;font-size:14px;border-radius:0">
         </div>
       </div>
 
@@ -581,7 +579,7 @@ const IMG = {
 };
 
 const CATS = [
-  {k:"tous", label:"Tout"},
+  {k:"tous", label:"Tous les repas"},
   {k:"tech", label:"Techniques"},
   {k:"dej", label:"Déjeuners"},
   {k:"din", label:"Dîners"},
@@ -1081,13 +1079,12 @@ class Component extends DCLogic {
       })
     } : null;
 
-    const base = "background:#f3f2f2;border:0;padding:9px 14px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;font-family:inherit;color:#201e1d";
-    const on = "background:#ec3013;border:0;padding:9px 14px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;font-family:inherit;color:#fff";
-
     return {
-      cats: CATS.map(c => ({ label: c.label, style: c.k === cat ? on : base, go: () => this.setState({ cat: c.k }) })),
-      speeds: SPEEDS.map(c => ({ label: c.label, style: c.k === spd ? on : base, go: () => this.setState({ spd: c.k }) })),
-      cuisines: CUISINES.map(c => ({ label: c.label, style: c.k === cui ? on : base, go: () => this.setState({ cui: c.k }) })),
+      cats: CATS, speeds: SPEEDS, cuisines: CUISINES,
+      cat, spd, cui,
+      setCat: e => this.setState({ cat: e.target.value }),
+      setSpd: e => this.setState({ spd: e.target.value }),
+      setCui: e => this.setState({ cui: e.target.value }),
       list,
       q,
       count: list.length + (list.length > 1 ? " fiches" : " fiche"),

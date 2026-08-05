@@ -36,6 +36,8 @@
   .h3 { margin:34px 0 12px; font-size:clamp(18px,2.4vw,21px); font-weight:800; letter-spacing:-.01em; }
   .filters { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:2px; background:#c9c5c5; border:2px solid #201e1d; width:100%; }
   .filterbar { max-width:1180px; margin:0 auto; padding:12px clamp(16px,4vw,40px); }
+  .fsel { flex:1 1 140px; min-width:0; padding:9px 30px 9px 12px; border:2px solid #201e1d; border-radius:0; background:#fff url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='10'%20height='6'%3E%3Cpath%20d='M1%201l4%204%204-4'%20fill='none'%20stroke='%23201e1d'%20stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 11px center; font-family:inherit; font-size:13px; font-weight:700; color:#201e1d; cursor:pointer; -webkit-appearance:none; appearance:none; }
+  .fsel:focus-visible { outline:2px solid #ec3013; outline-offset:2px; }
   .lbl { display:block; margin:0 0 6px; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#ec3013; }
   .note { margin:26px 0; border-top:2px solid #ec3013; padding:14px 0 0; max-width:40em; }
   .note p { margin:0; font-size:15.5px; line-height:1.65; }
@@ -312,10 +314,10 @@
 
       <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:49px;z-index:20">
         <div class="filterbar">
-          <div class="filters">
-            <sc-for list="{{ zones }}" as="c" hint-placeholder-count="6">
-              <button onClick="{{ c.go }}" style="{{ c.style }}">{{ c.label }}</button>
-            </sc-for>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+            <select aria-label="Zone du corps" value="{{ zone }}" onChange="{{ setZone }}" class="fsel" style="flex:0 1 300px">
+              <sc-for list="{{ zones }}" as="c" hint-placeholder-count="6"><option value="{{ c.k }}">{{ c.label }}</option></sc-for>
+            </select>
           </div>
         </div>
       </div>
@@ -522,7 +524,7 @@ const PRON = (ro) => {
 };
 const JPT = (jp, ro) => { const p = PRON(ro); return ro ? (ro + (p && p !== ro ? " — « " + p + " »" : "")) : jp; };
 const ZONES = [
-  {k:"tous",label:"Tout"},
+  {k:"tous",label:"Toutes les zones"},
   {k:"cou",label:"Cou et haut du dos"},
   {k:"haut",label:"Poitrine, épaules, bras"},
   {k:"tronc",label:"Tronc"},
@@ -758,11 +760,9 @@ class Component extends DCLogic {
       formats: o.fmt
     } : null;
 
-    const base = "background:#f3f2f2;border:0;padding:9px 13px;font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:inherit;color:#201e1d";
-    const on = "background:#ec3013;border:0;padding:9px 13px;font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:inherit;color:#fff";
-
     return {
-      zones: ZONES.map(z => ({ label: z.label, style: z.k === zone ? on : base, go: () => this.setState({ zone: z.k }) })),
+      zones: ZONES, zone,
+      setZone: e => this.setState({ zone: e.target.value }),
       list,
       open: openVal,
       showFiche: !!openVal,
