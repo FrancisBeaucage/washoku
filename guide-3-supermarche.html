@@ -15,7 +15,6 @@
 <link rel="stylesheet" href="_ds/modernist-5fa86008-2cf9-46da-9dfc-2464fb85de11/styles.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap">
-<script src="./image-slot.js"></script>
 <style>
   html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:64px; }
   body { margin:0; background:#f3f2f2; color:#201e1d; font-family:"Archivo",system-ui,sans-serif; }
@@ -106,9 +105,18 @@
           <p style="margin:0;font-size:15.5px;line-height:1.65">{{ open.look }}</p>
         </div>
         <div>
-          <p style="margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">Ta photo de l'emballage</p>
-          <image-slot id="{{ open.slot }}" shape="rect" style="width:100%;height:200px" placeholder="Dépose ta photo du produit"></image-slot>
-          <p style="margin:8px 0 0;font-size:12px;line-height:1.5;color:#7d7979">Prends la photo en magasin la prochaine fois — la marque exacte que tu achètes.</p>
+          <p style="margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">La photo de l'emballage</p>
+          <sc-if value="{{ open.hasPack }}" hint-placeholder-val="{{ true }}">
+            <figure style="margin:0">
+              <img src="{{ open.packSrc }}" alt="Emballage — {{ open.fr }}" loading="lazy" style="width:100%;height:200px;object-fit:cover;border:2px solid #201e1d;display:block">
+              <figcaption style="margin:8px 0 0;font-size:12px;line-height:1.5;color:#7d7979">La marque exacte trouvée en magasin (Kim Phat, Montréal).</figcaption>
+            </figure>
+          </sc-if>
+          <sc-if value="{{ open.noPack }}" hint-placeholder-val="{{ false }}">
+            <div style="width:100%;height:200px;border:2px dashed #b9b5b5;background:#f3f2f2;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box">
+              <p style="margin:0;font-size:12.5px;line-height:1.5;color:#7d7979">Photo de l'emballage à venir —<br>ajoutée après la prochaine visite.</p>
+            </div>
+          </sc-if>
         </div>
       </div>
 
@@ -159,6 +167,7 @@
             <a href="#s5" style="display:block">5 Demander de l'aide</a>
             <a href="#s6" style="display:block">6 Ta première visite</a>
             <a href="#s7" style="display:block">7 La liste complète</a>
+            <a href="#s8" style="display:block">8 Où acheter à Montréal</a>
           </nav>
         </div>
       </section>
@@ -178,8 +187,8 @@
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin:30px 0">
           <div style="background:#f3f2f2;padding:22px">
             <p style="margin:0 0 8px;font-weight:800;font-size:28px;color:#ec3013;line-height:1">1</p>
-            <p style="margin:0 0 8px;font-size:18px;font-weight:800;line-height:1.2">Le magasin est organisé par pays, pas par produit.</p>
-            <p style="margin:0;font-size:14.5px;line-height:1.65;color:#444141">Il y a de la sauce soya dans l'allée japonaise, dans l'allée chinoise, dans l'allée coréenne et dans l'allée philippine. Ce ne sont pas les mêmes produits et ils ne sont jamais côte à côte. <strong>La première question n'est pas « c'est quel type de produit&nbsp;? » mais « ça vient de quel pays&nbsp;? »</strong> Cette seule règle règle 70&nbsp;% des problèmes.</p>
+            <p style="margin:0 0 8px;font-size:18px;font-weight:800;line-height:1.2">Le magasin est organisé par catégorie — mais chaque pays a son bout de tablette.</p>
+            <p style="margin:0;font-size:14.5px;line-height:1.65;color:#444141">Une allée de sauces, une allée de nouilles, une allée de riz. À l'intérieur d'une même allée, les produits sont regroupés par origine&nbsp;: la sauce soya japonaise n'est pas mêlée à la chinoise ni à la coréenne. <strong>Deux questions, dans cet ordre&nbsp;: « quel type de produit&nbsp;? » pour trouver l'allée, puis « ça vient de quel pays&nbsp;? » pour la bonne bouteille.</strong> Les très grandes surfaces pan-asiatiques (T&amp;T, H&nbsp;Mart) ont parfois une allée complète par cuisine&nbsp;; chez Kim&nbsp;Phat, non — c'est par catégorie.</p>
           </div>
           <div style="background:#f3f2f2;padding:22px">
             <p style="margin:0 0 8px;font-weight:800;font-size:28px;color:#ec3013;line-height:1">2</p>
@@ -206,11 +215,11 @@
           <div style="border:2px solid #201e1d;background:#f3f2f2">
             <div style="padding:10px 16px;border-bottom:2px solid #201e1d;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;text-align:center;background:#201e1d;color:#f3f2f2">Entrée</div>
             <div style="padding:14px 16px;border-bottom:1px solid #d7d3d3"><p style="margin:0;font-size:15px;font-weight:800">① Fruits et légumes</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">Tu arrives ici en premier. Herbes et champignons souvent réfrigérés en bordure.</p></div>
-            <div style="padding:14px 16px;border-bottom:2px solid #201e1d;background:#eae9e9"><p style="margin:0;font-size:15px;font-weight:800">Allées centrales — 5 à 12 allées</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">Les secs, par pays&nbsp;: japonaise, coréenne, chinoise, Asie du Sud-Est. Plus l'allée des séchés et l'allée du thé.</p></div>
-            <div style="padding:14px 16px;border-bottom:1px solid #d7d3d3"><p style="margin:0;font-size:15px;font-weight:800">② Mur réfrigéré</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">Tofu, konnyaku, miso, natto, kimchi, nouilles fraîches. La moitié de ta liste.</p></div>
+            <div style="padding:14px 16px;border-bottom:2px solid #201e1d;background:#eae9e9"><p style="margin:0;font-size:15px;font-weight:800">Allées centrales — 5 à 12 allées</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">Les secs, regroupés par catégorie (sauces, nouilles, riz…), avec les produits rangés par origine à l'intérieur de chaque allée. Plus l'allée des séchés et l'allée du thé.</p></div>
+            <div style="padding:14px 16px;border-bottom:1px solid #d7d3d3"><p style="margin:0;font-size:15px;font-weight:800">② Mur réfrigéré</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">Tofu, konnyaku, miso, kimchi, nouilles fraîches. La moitié de ta liste.</p></div>
             <div style="padding:14px 16px;border-bottom:1px solid #d7d3d3"><p style="margin:0;font-size:15px;font-weight:800">③ Comptoir poisson</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">Souvent au fond. Sashimi dans un présentoir séparé.</p></div>
             <div style="padding:14px 16px;border-bottom:1px solid #d7d3d3"><p style="margin:0;font-size:15px;font-weight:800">④ Comptoir viande</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">La viande tranchée shabu est ici, et nulle part ailleurs.</p></div>
-            <div style="padding:14px 16px;border-bottom:2px solid #201e1d"><p style="margin:0;font-size:15px;font-weight:800">⑤ Congélateurs</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">Souvent un mur ou une allée complète. Edamames, gyoza, crevettes.</p></div>
+            <div style="padding:14px 16px;border-bottom:2px solid #201e1d"><p style="margin:0;font-size:15px;font-weight:800">⑤ Congélateurs</p><p style="margin:2px 0 0;font-size:13.5px;color:#605d5d">Souvent un mur ou une allée complète. Edamames, gyoza, crevettes — et le natto, importé congelé ici.</p></div>
             <div style="padding:10px 16px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;text-align:center;color:#7d7979">Caisses</div>
           </div>
         </div>
@@ -265,7 +274,7 @@
           <div style="background:#f3f2f2;padding:20px"><p style="margin:0 0 6px;font-weight:800;font-size:24px;color:#ec3013;line-height:1">3</p><p style="margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2">Acheter la mauvaise sauce soya.</p><p style="margin:0;font-size:14px;line-height:1.6;color:#605d5d">La soya chinoise foncée et la soya japonaise ne sont pas interchangeables. Pour ce guide&nbsp;: <strong>Kikkoman réduit en sodium</strong>.</p></div>
           <div style="background:#f3f2f2;padding:20px"><p style="margin:0 0 6px;font-weight:800;font-size:24px;color:#ec3013;line-height:1">4</p><p style="margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2">Confondre les deux formats de dashi.</p><p style="margin:0;font-size:14px;line-height:1.6;color:#605d5d">Les <strong>sachets</strong> (vrais ingrédients) et la <strong>poudre Hondashi</strong> (granulés, très salée) sont côte à côte. Avec ta tension, prends les sachets.</p></div>
           <div style="background:#f3f2f2;padding:20px"><p style="margin:0 0 6px;font-weight:800;font-size:24px;color:#ec3013;line-height:1">5</p><p style="margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2">Acheter du nori assaisonné en pensant acheter du nori nature.</p><p style="margin:0;font-size:14px;line-height:1.6;color:#605d5d">Le nori en collation est salé et huilé. Le <strong>yaki nori nature</strong> est en grandes feuilles, dans un paquet plat rigide.</p></div>
-          <div style="background:#ec3013;color:#fff;padding:20px"><p style="margin:0 0 6px;font-weight:800;font-size:24px;color:#ffc4b8;line-height:1">6</p><p style="margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2">Vouloir tout acheter d'un coup.</p><p style="margin:0;font-size:14px;line-height:1.6">C'est ce qui te paralyse. Voir la première visite ci-dessous&nbsp;: douze articles, et l'objectif est de repérer les sections, pas de remplir le panier.</p></div>
+          <div style="background:#ec3013;color:#fff;padding:20px"><p style="margin:0 0 6px;font-weight:800;font-size:24px;color:#ffc4b8;line-height:1">6</p><p style="margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2">Vouloir tout acheter d'un coup.</p><p style="margin:0;font-size:14px;line-height:1.6">C'est ce qui te paralyse. Voir la première visite ci-dessous&nbsp;: une liste courte, et l'objectif est de repérer les sections, pas de remplir le panier.</p></div>
         </div>
       </section>
 
@@ -282,6 +291,7 @@
             <p style="margin:0 0 12px;font-size:16.5px;line-height:1.7"><strong>La meilleure&nbsp;: montre une photo.</strong> Sors ton téléphone, cherche l'image du produit, montre-la. Ça règle tous les problèmes de langue et de prononciation en trois secondes. C'est aussi ce qui donne le moins l'impression de « demander de l'aide » — et c'est exactement pour ça que chaque fiche de cette page a une photo.</p>
             <p style="margin:0 0 12px;font-size:16.5px;line-height:1.7"><strong>La deuxième&nbsp;: nomme le produit, pas la catégorie.</strong> « Où est le katsuobushi&nbsp;? » fonctionne beaucoup mieux que « je cherche des flocons de poisson séché ». Les employés connaissent les noms des produits.</p>
             <p style="margin:0;font-size:16.5px;line-height:1.7"><strong>Et le raccourci ultime&nbsp;:</strong> prends une photo des tablettes après avoir trouvé quelque chose de difficile. La prochaine fois, tu vas droit au but. L'anglais fonctionne partout dans ces magasins, souvent mieux que le français.</p>
+            <p style="margin:16px 0 0;font-size:14.5px;line-height:1.8;color:#605d5d">Les mots à montrer pour les items les plus difficiles à trouver&nbsp;: <strong>natto</strong> 納豆 · <strong>kombu</strong> 昆布 · <strong>furikake</strong> ふりかけ · <strong>mugicha</strong> 麦茶.</p>
           </div>
         </div>
       </section>
@@ -291,14 +301,17 @@
           <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">06</span>
           <span title="shokai — « cho-kaï » · la première fois" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">初回</span>
         </div>
-        <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Ta première visite&nbsp;: douze articles</h2>
-        <p class="p">Ne prends que ça la première fois. L'objectif n'est pas de remplir le panier — c'est de <strong>repérer les sections</strong>. Tu vas ressortir avec l'essentiel et une carte mentale. Total approximatif&nbsp;: 45 à 60 $.</p>
+        <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Ta première visite&nbsp;: la liste de départ</h2>
+        <p class="p">Ne prends que ça la première fois. L'objectif n'est pas de remplir le panier — c'est de <strong>repérer les sections</strong> et de couvrir les premières fiches. Tu vas ressortir avec l'essentiel et une carte mentale. Deux articles (œufs, thon) s'achètent plutôt à l'épicerie ordinaire.</p>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:24px">
-          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">① Fruits et légumes</p><p style="margin:0;font-size:15px;line-height:1.8">☐ Gingembre frais<br>☐ Oignons verts (une grosse botte)<br>☐ Bok choy ou chou nappa</p></div>
-          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">② Mur réfrigéré</p><p style="margin:0;font-size:15px;line-height:1.8">☐ Tofu ferme (1 bloc)<br>☐ Miso blanc (1 pot)<br>☐ Natto (1 paquet de trois)</p></div>
-          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑥ Allée des séchés</p><p style="margin:0 0 8px;font-size:15px;line-height:1.8">☐ Kombu<br>☐ Katsuobushi</p><p style="margin:0;font-size:13px;line-height:1.55;color:#605d5d">Prends le temps de trouver cette allée — c'est le repérage le plus important de la visite.</p></div>
-          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑦ Allée japonaise</p><p style="margin:0;font-size:15px;line-height:1.8">☐ Sauce soya Kikkoman réduite en sodium<br>☐ Furikake (2 variétés, à l'instinct)</p></div>
-          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑪ Thé · ⑤ Congélateurs</p><p style="margin:0;font-size:15px;line-height:1.8">☐ Mugicha (une boîte de sachets)<br>☐ Edamames (1 sac)</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">① Fruits et légumes</p><p style="margin:0;font-size:15px;line-height:1.8">☐ Gingembre frais<br>☐ Oignons verts (une grosse botte)<br>☐ Bok choy ou chou nappa<br>☐ Concombre</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">② Mur réfrigéré</p><p style="margin:0;font-size:15px;line-height:1.8">☐ Tofu ferme (1 bloc)<br>☐ Tofu soyeux (1 bloc)<br>☐ Miso blanc (1 pot)</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑤ Congélateurs</p><p style="margin:0 0 8px;font-size:15px;line-height:1.8">☐ Natto (1 paquet de trois)<br>☐ Edamames écossés (1 sac)</p><p style="margin:0;font-size:13px;line-height:1.55;color:#605d5d">Le natto est ici, pas au mur réfrigéré — c'est l'erreur classique.</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑥ Allée des séchés</p><p style="margin:0 0 8px;font-size:15px;line-height:1.8">☐ Kombu<br>☐ Katsuobushi<br>☐ Wakame séché</p><p style="margin:0;font-size:13px;line-height:1.55;color:#605d5d">Prends le temps de trouver cette allée — c'est le repérage le plus important de la visite.</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑦ Allée japonaise</p><p style="margin:0;font-size:15px;line-height:1.8">☐ Sauce soya Kikkoman réduite en sodium<br>☐ Furikake (2 variétés)<br>☐ Mirin<br>☐ Vinaigre de riz</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑫ Riz · ⑪ Thé · Nouilles</p><p style="margin:0;font-size:15px;line-height:1.8">☐ Riz à grain court japonais<br>☐ Mugicha (ou hojicha si introuvable)<br>☐ Nouilles instantanées non frites</p></div>
+          <div style="background:#fff;border:2px solid #201e1d;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">À l'épicerie ordinaire</p><p style="margin:0 0 8px;font-size:15px;line-height:1.8">☐ Œufs<br>☐ Thon pâle en conserve dans l'eau</p><p style="margin:0;font-size:13px;line-height:1.55;color:#605d5d">Meilleur prix et meilleure rotation sur les œufs, et accès au thon pâle nature dans l'eau plutôt qu'aux thons importés à l'huile.</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Vaisselle — même visite</p><p style="margin:0 0 8px;font-size:15px;line-height:1.8">☐ 4 bols à riz de 4,5 po (<em>chawan</em>)<br>☐ 2-3 petits plats pour les accompagnements</p><p style="margin:0;font-size:13px;line-height:1.55;color:#605d5d">Le contenant décide de la portion&nbsp;: 140 g de riz forment un petit dôme dans un bol de 4,5 po, une flaque dans un bol de 6 po. En rentrant, pèse 140 g de riz cuit dans le bol et regarde la ligne — c'est ta calibration. Autour de 1,50 $ le bol.</p></div>
           <div style="background:#ec3013;color:#fff;padding:18px"><p style="margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ffc4b8">Ce que ça débloque</p><p style="margin:0;font-size:15px;line-height:1.6">Avec ça, tu peux faire du dashi, de la soupe miso, du natto gohan, du riz au furikake et du mugicha <strong>dès le lendemain</strong>.</p></div>
         </div>
       </section>
@@ -312,15 +325,50 @@
         <p class="p">Le parcours suit l'ordre du magasin. Coche ce dont tu as besoin avant de partir.</p>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:24px;font-size:14.5px;line-height:1.85">
           <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">① Fruits et légumes</p><p style="margin:0">☐ Gingembre ☐ Ail ☐ Oignons verts ☐ Bok choy ☐ Chou nappa ☐ Chou vert ☐ Daikon ☐ Concombres ☐ Limes ☐ Coriandre ☐ Menthe ☐ Basilic thaï ☐ Champignons (enoki, shimeji, shiitake) ☐ Fèves germées ☐ Clémentines / poires asiatiques</p></div>
-          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">② Mur réfrigéré</p><p style="margin:0">☐ Tofu ferme ☐ Tofu soyeux ☐ Atsuage ☐ Konnyaku ☐ Nouilles shirataki ☐ Miso blanc ☐ Miso rouge ☐ Natto ☐ Kimchi ☐ Nouilles fraîches</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">② Mur réfrigéré</p><p style="margin:0">☐ Tofu ferme ☐ Tofu soyeux ☐ Atsuage ☐ Konnyaku ☐ Nouilles shirataki ☐ Miso blanc ☐ Miso rouge ☐ Kimchi ☐ Nouilles fraîches</p></div>
           <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">③ Comptoir poisson</p><p style="margin:0">☐ Saumon ☐ Poisson blanc entier ☐ Maquereau ☐ Sashimi</p><p style="margin:14px 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">④ Comptoir viande</p><p style="margin:0">☐ Bœuf tranché shabu ☐ Porc tranché ☐ Porc haché maigre ☐ Poulet haché ☐ Hauts de cuisse de poulet</p></div>
-          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑤ Congélateurs</p><p style="margin:0">☐ Edamames ☐ Crevettes crues ☐ Gyoza ☐ Filets de poisson</p><p style="margin:14px 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑥ Allée des séchés</p><p style="margin:0">☐ Kombu ☐ Katsuobushi ☐ Nori nature ☐ Wakame ☐ Shiitake séchés</p></div>
+          <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑤ Congélateurs</p><p style="margin:0">☐ Natto ☐ Edamames ☐ Crevettes crues ☐ Gyoza ☐ Filets de poisson</p><p style="margin:14px 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑥ Allée des séchés</p><p style="margin:0">☐ Kombu ☐ Katsuobushi ☐ Nori nature ☐ Wakame ☐ Shiitake séchés</p></div>
           <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑦ Allée japonaise</p><p style="margin:0">☐ Sauce soya réduite en sodium ☐ Mirin ☐ Saké de cuisine ☐ Ponzu ☐ Vinaigre de riz ☐ Sachets de dashi ☐ Furikake ☐ Shichimi togarashi ☐ Wasabi ☐ Soba ☐ Panko</p></div>
           <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑧ Allée coréenne</p><p style="margin:0">☐ Gochujang ☐ Gochugaru ☐ Huile de sésame</p><p style="margin:14px 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑨ Allée chinoise</p><p style="margin:0">☐ Sauce d'huîtres ☐ Doubanjiang ☐ Vinaigre noir ☐ Poivre de Sichuan ☐ Fécule de maïs ☐ Ajinomoto (MSG)</p></div>
           <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑩ Asie du Sud-Est</p><p style="margin:0">☐ Sauce de poisson ☐ Pâte de cari rouge ☐ Pâte tom yum ☐ Lait de coco léger ☐ Vermicelles de riz</p></div>
           <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">⑪ Thé · ⑫ Riz et collations</p><p style="margin:0">☐ Mugicha ☐ Hojicha ☐ Genmaicha ☐ Sencha ☐ Riz à grain court ☐ Senbei ☐ Gelée de konjac ☐ Calmar séché ☐ Nori collation</p></div>
         </div>
         <div class="note" style="margin-top:30px"><span class="lbl">La règle d'or</span><p><strong>N'entre jamais sans liste, et organise la liste par section, pas par recette.</strong> C'est exactement pour ça que tu ressortais les mains vides&nbsp;: tu entrais avec une intention au lieu d'un parcours. Avec un parcours, ça devient une course de vingt minutes comme une autre.</p></div>
+      </section>
+
+      <section id="s8" class="in" style="border-top:2px solid #201e1d">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+          <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">08</span>
+          <span title="tenpo — « tène-po » · les magasins" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">店舗</span>
+        </div>
+        <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Où acheter à Montréal</h2>
+        <p class="p"><strong>Un magasin asiatique n'est pas neutre — il a une cuisine d'origine.</strong> Un magasin fondé par une famille chinoise, cambodgienne ou vietnamienne a une section japonaise réelle mais compacte&nbsp;: les 30-40 produits qui se vendent. Comme ce recueil est à 80&nbsp;% japonais, ça change où il vaut la peine d'aller. En pratique&nbsp;: le pan-asiatique couvre 90&nbsp;% de la liste et coûte moins cher&nbsp;; le japonais et le coréen servent à combler le 10&nbsp;% qui manque.</p>
+
+        <div style="margin-top:26px">
+          <p style="margin:0 0 12px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Le pan-asiatique — la base, le meilleur prix</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d">
+            <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 4px;font-size:16px;font-weight:800">Marché Kim Phat</p><p style="margin:0 0 6px;font-size:13px;color:#605d5d">4 succursales dans le Grand Montréal</p><p style="margin:0;font-size:14px;line-height:1.6">Racines sino-cambodgiennes, rangé par catégorie. Excellents fruits/légumes, poisson, viande&nbsp;; section japonaise réelle mais compacte. Prix imbattables.<br><strong>Jarry</strong> — 3733 rue Jarry E (la succursale de ces photos) · <strong>Goyer</strong> — 3588 rue Goyer · <strong>Saint-Laurent</strong> — 1935 boul. Keller · <strong>Brossard</strong> — 7209 boul. Taschereau.</p></div>
+            <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 4px;font-size:16px;font-weight:800">T&amp;T Supermarket</p><p style="margin:0 0 6px;font-size:13px;color:#605d5d">300 av. Sainte-Croix, Saint-Laurent</p><p style="margin:0;font-size:14px;line-height:1.6">La plus grande surface pan-asiatique du Québec. Section japonaise nettement plus étoffée que chez Kim&nbsp;Phat, et ouvert tard. <strong>Probablement la meilleure adresse unique</strong> pour ce recueil&nbsp;: couverture japonaise correcte + tout le reste.</p></div>
+          </div>
+        </div>
+
+        <div style="margin-top:22px">
+          <p style="margin:0 0 12px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Le japonais — pour ce que le pan-asiatique n'a pas</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d">
+            <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 4px;font-size:16px;font-weight:800">Miyamoto — Épicerie japonaise</p><p style="margin:0 0 6px;font-size:13px;color:#605d5d">382 av. Victoria, Westmount · 10 h-19 h (sam. 18 h, dim. 17 h)</p><p style="margin:0;font-size:14px;line-height:1.6">La seule vraie épicerie japonaise de Montréal, institution depuis plus de 40 ans. Petit, mais tout est japonais et importé&nbsp;: mugicha, tsukemono, poisson qualité sashimi, sushi frais sur place. Stationnement difficile — à pied ou en transport si possible.</p></div>
+          </div>
+        </div>
+
+        <div style="margin-top:22px">
+          <p style="margin:0 0 12px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013">Le coréen — la meilleure passerelle vers le japonais</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d">
+            <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 4px;font-size:16px;font-weight:800">Marché Korea (NDG)</p><p style="margin:0 0 6px;font-size:13px;color:#605d5d">6170 rue Sherbrooke O, Montréal</p><p style="margin:0;font-size:14px;line-height:1.6">Grand, très propre, forte section japonaise. Cafétéria sur place.</p></div>
+            <div style="background:#f3f2f2;padding:18px"><p style="margin:0 0 4px;font-size:16px;font-weight:800">H Mart</p><p style="margin:0 0 6px;font-size:13px;color:#605d5d">6785 rue Saint-Jacques O, Montréal</p><p style="margin:0;font-size:14px;line-height:1.6">Chaîne nord-américaine, section japonaise sérieuse, stationnement à l'arrière.</p></div>
+          </div>
+        </div>
+
+        <div class="note" style="margin-top:26px"><span class="lbl">Si tu ne trouves pas de mugicha</span><p>Trois options, dans l'ordre&nbsp;: <strong>1.</strong> cherche du <strong>boricha (보리차)</strong> dans une épicerie coréenne — c'est exactement le même produit (thé d'orge grillé), souvent en grand format économique&nbsp;; <strong>2.</strong> <strong>Miyamoto</strong>, la seule adresse qui a le mugicha japonais à coup sûr&nbsp;; <strong>3.</strong> le <strong>hojicha</strong> — pas la même chose, mais même registre grillé, presque sans caféine, à boire froid en pichet.</p></div>
+        <p style="margin:16px 0 0;font-size:12.5px;color:#7d7979;line-height:1.6">Adresses relevées en août 2026. Les heures d'ouverture changent — vérifie avant de te déplacer.</p>
       </section>
     </div>
   </sc-if>
@@ -333,7 +381,7 @@
       </div>
       <div>
         <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Les photos d'emballage</p>
-        <p style="margin:0;font-size:14px;line-height:1.7">Chaque fiche a un emplacement vide pour ta propre photo du produit. Prends-la en magasin&nbsp;: c'est la marque exacte que tu achètes qui te sera utile, pas une photo générique.</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">Chaque fiche montre la marque exacte trouvée en magasin (Kim&nbsp;Phat, Montréal) — c'est ça qui aide à repérer le bon produit, pas une photo générique. Les fiches sans photo attendent une prochaine visite.</p>
       </div>
       <div>
         <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Crédits</p>
@@ -388,6 +436,17 @@ const PRON = (ro) => {
   return out.join(" ");
 };
 const JPT = (jp, ro, fr, pr) => { const p = pr || PRON(ro); let t = ro || jp; if (p && p !== ro) t += " — « " + p + " »"; if (fr) t += " · " + fr; return t; };
+// RT (« rich text ») : rend une chaîne contenant du HTML (<strong>, <em>, &nbsp;…) comme
+// vrai HTML. Le moteur de gabarit affiche tel quel un élément React (walkText), mais échappe
+// les chaînes ; on convertit donc les champs riches en élément React ici, dans le contenu de
+// la page — sans toucher au runtime généré (support.js). Chaîne sans balise ni entité : on la
+// retourne telle quelle (aucun <span> superflu).
+const RT = (s) => {
+  if (s == null || s === "") return s;
+  const str = String(s);
+  if (!/[<&]/.test(str)) return str;
+  return window.React.createElement("span", { dangerouslySetInnerHTML: { __html: str } });
+};
 const SECS = [
   {k:"tous",label:"Toutes les sections"},
   {k:"leg",label:"① Fruits et légumes"},
@@ -407,22 +466,22 @@ const SECLABEL = {}; SECS.forEach(s => SECLABEL[s.k] = s.label);
 
 const I = [
 // ① FRUITS ET LÉGUMES
-{s:"leg",jp:"生姜",ro:"shōga",fr:"Gingembre frais",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Ginger_root.jpg?width=1200",
+{s:"leg",jp:"生姜",ro:"shōga",fr:"Gingembre frais",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Ginger_root.jpg?width=1200",pack:"assets/produits/gingembre.jpg",
  d:"La racine de base de presque tout. Râpé cru pour les yakumi, en juliennes pour les mijotés, écrasé pour les bouillons.",
  w:"À l'entrée, souvent en vrac dans un bac, juste à côté de l'ail. Beaucoup moins cher qu'à l'épicerie régulière.",
- l:"Rhizomes beiges noueux, en vrac. Choisis les morceaux fermes à peau lisse et tendue — une peau ridée veut dire vieux et fibreux.",
+ l:"Rhizomes beiges noueux, en vrac. Choisis les morceaux fermes, lourds pour leur taille, à peau lisse et tendue — une peau ridée veut dire vieux et fibreux. L'origine (Pérou, Chine, Brésil) ne désigne pas une variété : les morceaux chinois ou brésiliens sont plus gros et juteux, meilleurs à râper ou à presser ; le péruvien, souvent bio, est plus petit et fibreux, très bon en tranches ou en julienne pour infuser un bouillon.",
  u:["R1","R6","R7","R16","R17","R23","R26","R31","R34","R35","R36","R42","T7"]},
 {s:"leg",jp:"大蒜",ro:"ninniku",fr:"Ail",img:"https://commons.wikimedia.org/wiki/Special:FilePath/GarlicBasket.jpg?width=1200",
  d:"Surtout présent dans les recettes chinoises, coréennes et vietnamiennes. La cuisine japonaise en utilise étonnamment peu.",
  w:"Fruits et légumes, en vrac ou en gros filets de plusieurs têtes.",
  l:"Souvent vendu en filets de 5 à 10 têtes pour le prix d'une seule ailleurs.",
  u:["R17","R23","R26","R27","R29","R30","R31","R47"]},
-{s:"leg",jp:"葱",ro:"negi",fr:"Oignons verts",img:"https://commons.wikimedia.org/wiki/Special:FilePath/GreenOnions.jpg?width=1200",
+{s:"leg",jp:"葱",ro:"negi",fr:"Oignons verts",img:"https://commons.wikimedia.org/wiki/Special:FilePath/GreenOnions.jpg?width=1200",pack:"assets/produits/oignons-verts.jpg",
  d:"Le yakumi universel. Émincé très fin en biseau, il va sur à peu près tout.",
  w:"Fruits et légumes, en grosses bottes. Très bon marché — souvent trois fois plus gros qu'au IGA pour le même prix.",
  l:"Grosses bottes attachées. Les variétés asiatiques sont souvent plus épaisses et plus longues que celles d'ici.",
  u:["R2","R3","R4","R10","R19","R21","R25","R29","R30","R31"]},
-{s:"leg",jp:"青梗菜",ro:"chingensai",fr:"Bok choy",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Bok_Choy_%2849553125456%29.jpg?width=1200",
+{s:"leg",jp:"青梗菜",ro:"chingensai",fr:"Bok choy",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Bok_Choy_%2849553125456%29.jpg?width=1200",pack:"assets/produits/bok-choy.jpg",
  d:"Le légume vert le plus polyvalent du répertoire. Blanchi 90 secondes, sauté à l'ail, ou jeté cru dans un bouillon.",
  w:"Fruits et légumes. Souvent en deux formats : gros bok choy et « baby bok choy ».",
  l:"Tiges blanches épaisses et feuilles vert foncé. Les petits sont plus tendres et cuisent plus vite.",
@@ -441,10 +500,10 @@ const I = [
  w:"Fruits et légumes, souvent empilés en pyramide. Cherche les plus fermes et les plus lourds.",
  l:"Longs radis blancs de 30 à 45 cm. Une peau lisse et une chair ferme au toucher. S'il plie, il est vieux.",
  u:["R14","R34","R37","R42","R46"]},
-{s:"leg",jp:"胡瓜",ro:"kyūri",fr:"Concombre asiatique",img:"https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
+{s:"leg",jp:"胡瓜",ro:"kyūri",fr:"Concombre asiatique",img:"https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",pack:"assets/produits/concombre.jpg",
  d:"Plus long, plus mince et beaucoup moins aqueux que le nôtre. C'est ce qui fait que les marinades express fonctionnent.",
  w:"Fruits et légumes. Souvent vendus en paquets de trois ou quatre.",
- l:"Minces, bosselés, vert foncé, sans cire. Le concombre anglais fonctionne en remplacement, le concombre de champ non.",
+ l:"Classement pour l'usage japonais : <strong>Kirby</strong> (court, trapu, peau bosselée non cirée) — le plus croquant, le moins aqueux, premier choix pour les marinades ; <strong>libanais ou persan</strong> — le meilleur compromis au quotidien, peu de pépins ; <strong>anglais</strong> — correct mais mou, il rend beaucoup d'eau (sale-le et laisse dégorger 10 min) ; <strong>concombre de champ</strong> (gros, peau épaisse et cirée) — le moins bon, à peler et épépiner.",
  u:["R12","R13","R20","R45","R47","T7"]},
 {s:"leg",jp:"もやし",ro:"moyashi",fr:"Fèves germées",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Moyashi-Mung-bean-sprouts.jpg?width=1200",
  d:"Le meilleur substitut de nouilles du recueil. Elles gardent leur croquant même sous un bouillon bouillant.",
@@ -476,15 +535,15 @@ const I = [
  u:["R18","R27","R28","R36","R39"]},
 
 // ② MUR RÉFRIGÉRÉ
-{s:"frigo",jp:"木綿豆腐",ro:"momen dōfu",fr:"Tofu ferme",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",
+{s:"frigo",jp:"木綿豆腐",ro:"momen dōfu",fr:"Tofu ferme",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",pack:"assets/produits/tofu-ferme.jpg",
  d:"17 g de protéines aux 150 g. Se poche deux minutes dans l'eau salée avant de le mijoter — ça le raffermit et l'empêche de se défaire.",
  w:"Mur réfrigéré, bloc tofu — parfois deux mètres de linéaire complet.",
- l:"Blocs blancs dans des barquettes remplies d'eau. Les mentions japonaises disent <em>momen</em> (木綿), les chinoises « firm » ou « extra firm ».",
+ l:"Blocs blancs dans des barquettes remplies d'eau. Mentions : <em>momen</em> (木綿) en japonais, « firm » ou « extra firm » en anglais. <strong>Piège des caractères chinois : 老豆腐 (lao, « vieux ») veut dire ferme.</strong> Ne te fie pas à l'image sur l'emballage — fie-toi au mot français sur l'étiquette de tablette. ~11,8 g de protéines/100 g.",
  u:["R2","R24","R26","R33","R37"]},
-{s:"frigo",jp:"絹ごし豆腐",ro:"kinugoshi dōfu",fr:"Tofu soyeux",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",
+{s:"frigo",jp:"絹ごし豆腐",ro:"kinugoshi dōfu",fr:"Tofu soyeux",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",pack:"assets/produits/tofu-soyeux.jpg",
  d:"Texture de flan. Se mange froid tel quel avec du ponzu — trente secondes, 15 g de protéines.",
  w:"Mur réfrigéré, à côté du tofu ferme.",
- l:"Boîtes rectangulaires souvent scellées sous vide, sans eau autour. La mention est <em>kinugoshi</em> (絹ごし) ou « silken ».",
+ l:"Boîtes rectangulaires souvent scellées sous vide, sans eau autour. Mention : <em>kinugoshi</em> (絹ごし) ou « silken ». <strong>Piège des caractères chinois : 嫩豆腐 (nen, « tendre ») veut dire soyeux</strong> — l'inverse de ce qu'on croit. ~4,7 g de protéines/100 g.",
  u:["R10","R29","R38"]},
 {s:"frigo",jp:"厚揚げ",ro:"atsuage",fr:"Atsuage — tofu frit en surface",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Atsuage.jpg?width=1200",
  d:"Tofu dont la surface a été frite. La croûte tient à la cuisson et absorbe le bouillon. Indispensable dans l'oden.",
@@ -501,18 +560,18 @@ const I = [
  w:"Mur réfrigéré, à côté du tofu. Jamais dans l'allée des nouilles.",
  l:"Nouilles blanchâtres translucides dans des sachets d'eau. Odeur légèrement marine à l'ouverture — elle disparaît au rinçage.",
  u:["R37"]},
-{s:"frigo",jp:"味噌",ro:"miso",fr:"Miso blanc et rouge",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Miso_001.jpg?width=1200",
+{s:"frigo",jp:"味噌",ro:"miso",fr:"Miso blanc et rouge",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Miso_001.jpg?width=1200",pack:"assets/produits/miso.jpg",
  d:"Pâte de soya fermenté. <em>Shiro</em> (blanc) est doux et sucré, <em>aka</em> (rouge) est corsé. Une cuillère à soupe ≈ 630 mg de sodium : deux cuillères à thé suffisent dans un bon dashi.",
- w:"Mur réfrigéré, bloc japonais, souvent près du tofu et du natto.",
- l:"Pots de plastique ou sachets souples. Le blanc est beige clair, le rouge est brun foncé. Il existe aussi des mélanges (<em>awase</em>).",
+ w:"Mur réfrigéré, bloc japonais, souvent près du tofu.",
+ l:"Pots de plastique ou sachets souples. Le blanc est beige clair, le rouge est brun foncé. Il existe aussi des mélanges (<em>awase</em>). <strong>Prends du shiro (blanc), nature</strong> — évite les miso <em>dashi-iri</em> (dashi déjà incorporé), qui court-circuitent le geste qu'on apprend avec T2, et les soupes miso instantanées, au sodium très élevé.",
  u:["R2","R15","R33","R38","R43","R44","R45"],
  nk:"Sodium",n:"Ne jamais faire bouillir après avoir ajouté le miso : la chaleur détruit les arômes et les cultures. Délayer dans une louche de bouillon prélevée, puis reverser hors du feu."},
-{s:"frigo",jp:"納豆",ro:"nattō",fr:"Natto",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",
- d:"Fèves de soya fermentées. Collant, filant, odeur forte, 17 g de protéines par paquet. Se brasse 30 à 50 fois avant d'ajouter quoi que ce soit — c'est ce qui développe la texture crémeuse.",
- w:"Mur réfrigéré, souvent à côté du miso ou du tofu.",
- l:"Petites boîtes carrées de styromousse, empilées et vendues par trois, film transparent sur le dessus. Environ 4 $ le paquet de trois.",
+{s:"congel",jp:"納豆",ro:"nattō",fr:"Natto",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",pack:"assets/produits/natto.jpg",
+ d:"Fèves de soya fermentées. Collant, filant, odeur forte, 7 à 9 g de protéines par barquette (≈ 45-50 g, 80 cal). Se brasse avant d'ajouter quoi que ce soit — c'est ce qui développe la texture crémeuse.",
+ w:"<strong>Au congélateur, pas au frigo.</strong> C'est l'erreur classique&nbsp;: au Japon le natto est vendu frais, mais au Canada il est importé congelé et il y reste. Cherche dans les congélateurs de dumplings et de poissons — petits blocs de styromousse blanche par paquets de trois empilés. Le paquet est petit, il se perd entre les gros sacs.",
+ l:"Premier achat&nbsp;: <strong>Mizkan « Kin no Tsubu »</strong> (paquets jaune-orange), petites fèves, arôme doux, avec sauce et moutarde <em>karashi</em> incluses — sans ça, le natto nature est austère. La variante とろっ豆 (<em>Toromame</em>) est encore plus douce, la texture plus filante&nbsp;: parfaite pour un premier essai. Éviter le <em>Mito natto</em> (boîtes rouges) pour commencer — c'est le plus typé. Environ 4 $ le paquet de trois.",
  u:["R3"],
- nk:"Le sachet de sauce",n:"Utiliser la moitié du sachet seulement — c'est là qu'est presque tout le sodium. Si le natto ne passe pas après trois essais, remplace-le par une tasse d'edamames écossés : mêmes fèves, 18 g de protéines."},
+ nk:"Le geste",n:"Décongèle une barquette au frigo la veille — le natto ne se fait pas sur un coup de tête, c'est à mettre dans la routine du dimanche. Brasse les fèves 20 à 30 fois aux baguettes <em>avant</em> d'ajouter la sauce&nbsp;: c'est ce qui développe les fils et adoucit le goût. Puis la sauce (la moitié du sachet suffit — presque tout le sodium est là), le karashi, l'oignon vert, sur le riz chaud. Si ça ne passe pas après trois essais, remplace par une tasse d'edamames écossés."},
 {s:"frigo",jp:"김치",ro:"kimchi",pr:"kime-tchi",fr:"Kimchi",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Korean_packaged_kimchi_in_a_shop.jpg?width=1200",
  d:"Chou nappa fermenté au piment. À acheter, jamais à faire : la fermentation prend plusieurs jours.",
  w:"Mur réfrigéré, bloc coréen — parfois une porte de réfrigérateur au complet.",
@@ -566,10 +625,10 @@ const I = [
  u:["R19","R21"]},
 
 // ⑤ CONGÉLATEURS
-{s:"congel",jp:"枝豆",ro:"edamame",fr:"Edamames",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
+{s:"congel",jp:"枝豆",ro:"edamame",fr:"Edamames",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",pack:"assets/produits/edamame.jpg",
  d:"18 g de protéines la tasse. Déjà blanchis — il n'y a qu'à décongeler. La collation la plus utile du guide.",
  w:"Congélateurs. Cherche les sacs verts.",
- l:"Sacs de 500 g à 1 kg, en cosses ou écossés. <strong>Prends les « nature », pas les salés</strong> — on dose soi-même.",
+ l:"Sacs de 500 g à 1 kg, en cosses ou écossés. <strong>Prends les écossés comme achat principal</strong> — prêts à ajouter au bol, à la soupe, au donburi ; les gousses sont une collation, pas un ingrédient. Et <strong>« nature », pas salés</strong> : on dose soi-même.",
  u:["R8","R9","R10","R12","R20","R33","R48"],
  nk:"Sodium",n:"Vendus salés, ou salés au service dans les restaurants. Achète-les nature congelés et sale toi-même très légèrement — ou pas du tout, avec du sésame."},
 {s:"congel",jp:"餃子",ro:"gyōza",fr:"Gyoza et dumplings",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Gyoza_no_Antei_-_3.jpg?width=1200",
@@ -583,24 +642,25 @@ const I = [
  u:["R22","R27","R40"]},
 
 // ⑥ ALLÉE DES SÉCHÉS
-{s:"sec",jp:"昆布",ro:"kombu",pr:"kone-bou",fr:"Kombu",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
+{s:"sec",jp:"昆布",ro:"kombu",pr:"kone-bou",fr:"Kombu",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",pack:"assets/produits/kombu.jpg",
  d:"Algue laminaire séchée. La source de glutamate du dashi. Un morceau de 5 cm suffit pour 1,5 L.",
  w:"<strong>Allée des séchés et des algues</strong> — celle qui ressemble à une herboristerie. Pas près du thé.",
- l:"Sachets plats transparents, grandes feuilles noir-verdâtre rigides. <strong>Elles sont couvertes d'une poudre blanchâtre — c'est normal, c'est l'umami. Ne la lave jamais.</strong>",
+ l:"Sachets plats transparents, grandes feuilles noir-verdâtre rigides. <strong>Elles sont couvertes d'une poudre blanchâtre — c'est normal, c'est l'umami. Ne la lave jamais.</strong> Cherche le <strong>dashi kombu</strong> (large feuille épaisse) — pas l'<em>ito-kiri kombu</em> en fines lanières, qui est un ingrédient de mijoté, pas de bouillon.",
  u:["T2","R24"],
  nk:"Iode †",n:"L'aliment le plus riche en iode de la planète : ~2 267 mcg/g, contre une limite quotidienne tolérable de 1 100 mcg. Trois mesures : doser à 5 cm pour 1,5 L, ne pas manger le kombu lui-même, et alterner avec le katsuo dashi et le shiitake dashi. Un dosage de TSH avant de commencer une consommation régulière donne un point de référence."},
-{s:"sec",jp:"鰹節",ro:"katsuobushi",fr:"Katsuobushi",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi_02.jpg?width=1200",
+{s:"sec",jp:"鰹節",ro:"katsuobushi",fr:"Katsuobushi",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi_02.jpg?width=1200",pack:"assets/produits/katsuobushi.jpg",
  d:"Bonite séchée, fumée, fermentée puis rasée en copeaux fins comme du papier. La source d'inosinate du dashi.",
  w:"Allée des séchés, à côté du kombu.",
- l:"<strong>Gros sacs qui ont l'air presque vides</strong> parce que les copeaux sont ultralégers. Rose pâle à beige. Si le sac a l'air rempli d'air, c'est le bon.",
- u:["T2","R10","R22","R43"]},
+ l:"<strong>Gros sacs qui ont l'air presque vides</strong> parce que les copeaux sont ultralégers. Rose pâle à beige. Cherche かつお削りぶし, idéalement JAS et 国内製造 (fabriqué au Japon).",
+ u:["T2","R10","R22","R43"],
+ nk:"Conservation",n:"Au congélateur après ouverture : les copeaux sont gras et rancissent — c'est ce goût de vieux poisson qu'on attribue à tort au dashi lui-même. Congelés, ils restent souples et s'utilisent directement. Côté quantité, un sac de 70 g donne ~3,5 L de dashi (une quinzaine de bols de miso), donc il part vite. Mercure : aucun enjeu, on en consomme quelques grammes."},
 {s:"sec",jp:"海苔",ro:"nori",fr:"Nori",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Nori.jpg?width=1200",
  d:"Feuilles d'algue séchée pressée. Une feuille entière apporte environ 144 mcg d'iode — dans la fourchette normale, tous les jours si on veut.",
  w:"Allée des séchés. Le nori en collation, lui, est dans l'allée des collations.",
  l:"Feuilles noires empilées, en paquets plats rigides. Cherche <strong>yaki nori</strong> (焼き海苔) = grillé nature.",
  u:["R1","R11","R13","R20"],
  nk:"Le piège",n:"Le nori <em>assaisonné</em> en collation (petits paquets minces, souvent aromatisés) est salé et huilé. Le yaki nori nature est en grandes feuilles, sans assaisonnement — ce n'est pas le même produit."},
-{s:"sec",jp:"若布",ro:"wakame",fr:"Wakame",img:"https://commons.wikimedia.org/wiki/Special:FilePath/CSIRO_ScienceImage_952_Undaria_pinnatifida_Japanese_kelp.jpg?width=1200",
+{s:"sec",jp:"若布",ro:"wakame",fr:"Wakame",img:"https://commons.wikimedia.org/wiki/Special:FilePath/CSIRO_ScienceImage_952_Undaria_pinnatifida_Japanese_kelp.jpg?width=1200",pack:"assets/produits/wakame.jpg",
  d:"Algue tendre qui se réhydrate en trente secondes. Une cuillère à thé sèche devient une bonne poignée.",
  w:"Allée des séchés, en sachets.",
  l:"Petits morceaux vert très foncé, presque noirs, dans des sachets plats. Ils gonflent énormément — ne pas en mettre trop.",
@@ -617,21 +677,23 @@ const I = [
  l:"Sacs de petits poissons argentés séchés entiers, de 3 à 8 cm."},
 
 // ⑦ ALLÉE JAPONAISE
-{s:"jp",jp:"醤油",ro:"shōyu",fr:"Sauce soya japonaise",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Soy_sauce_2.jpg?width=1200",
+{s:"jp",jp:"醤油",ro:"shōyu",fr:"Sauce soya japonaise",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Soy_sauce_2.jpg?width=1200",pack:"assets/produits/sauce-soya.jpg",
  d:"Présente dans presque toutes les recettes. La version réduite en sodium fait ~500 mg par cuillère à soupe contre ~900 pour la régulière.",
  w:"Allée japonaise. Attention : il y a aussi de la sauce soya dans l'allée chinoise, la coréenne et la philippine. Ce ne sont pas les mêmes produits.",
  l:"Bouteille de verre à goulot étroit. <strong>Bouchon rouge = régulière. Bouchon vert-bleu = réduite en sodium.</strong> Prends la verte.",
- nk:"Le piège",n:"La « sauce soya » chinoise foncée et la sauce soya japonaise ne sont pas interchangeables. Pour les recettes de ce recueil, prends du Kikkoman réduit en sodium."},
-{s:"jp",jp:"味醂",ro:"mirin",fr:"Mirin",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Mirinbowl.jpg?width=1200",
+ nk:"Le geste qui compte",n:"La « sauce soya » chinoise foncée et la japonaise ne sont pas interchangeables — pour ce recueil, prends du Kikkoman réduit en sodium (brassé traditionnellement : on perd ~38 % du sodium, ~575 mg par c. à soupe contre ~900, sans perdre l'umami). Surtout : mets la sauce dans un petit contenant à côté de l'assiette et <strong>trempe, ne verse pas dessus</strong> — trois fois moins de sel pour le même goût perçu, parce que le sel touche directement la langue."},
+{s:"jp",jp:"味醂",ro:"mirin",fr:"Mirin",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Mirinbowl.jpg?width=1200",pack:"assets/produits/mirin.jpg",
  d:"Vin de riz sucré pour la cuisine. Apporte brillant et rondeur, et c'est lui qui caramélise sous le gril.",
  w:"Allée japonaise, à côté du saké de cuisine et du vinaigre de riz.",
- l:"Bouteilles de 500 ml, liquide ambré clair. Cherche <em>hon-mirin</em> (vrai mirin) plutôt que <em>mirin-fū</em> (imitation sucrée).",
- u:["T2","R14","R16","R19","R21","R24","R32","R37","R43","R46"]},
-{s:"jp",jp:"ポン酢",ro:"ponzu",fr:"Ponzu",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Canada_Prime_Beef_Tataki_with_ponzu_pearls_and_horseradish_%285895881268%29.jpg?width=1200",
+ l:"Bouteilles de ~250-500 ml, liquide ambré clair. Distingue le <em>hon-mirin</em> (vrai mirin, fermenté, ~14 % alcool) du <em>aji-mirin</em> / « mirin-style seasoning » (<em>mirin-fū</em> — sirop de glucose + sel ajouté). Le Kikkoman « Kotteri Mirin » (みりん風) est de ce second type : acceptable, mais il contient du sodium, à compter dans une recette déjà salée.",
+ u:["T2","R14","R16","R19","R21","R24","R32","R37","R43","R46"],
+ nk:"Si tu n'en as pas",n:"Le mirin n'est pas un vinaigre — c'est un alcool de riz sucré (sucre + alcool + umami), alors que le vinaigre de riz apporte de l'acidité ; on ne remplace pas l'un par l'autre. Avec du saké (le plus proche) : 1 c. à soupe de mirin = 1 c. à soupe de saké + 1 c. à thé de sucre, chauffé doucement. Sans saké : 1 c. à soupe d'eau + 1 c. à thé de sucre. Tu perds la brillance et la rondeur, mais c'est parfaitement fonctionnel pour une marinade d'œufs (T7) ou une sauce de donburi (R9). Impact macro négligeable (~40 cal, surtout du sucre)."},
+{s:"jp",jp:"ポン酢",ro:"ponzu",fr:"Ponzu",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Canada_Prime_Beef_Tataki_with_ponzu_pearls_and_horseradish_%285895881268%29.jpg?width=1200",pack:"assets/produits/ponzu.jpg",
  d:"Soya + jus d'agrume. Acidulé, léger, et il remplace avantageusement une vinaigrette sur à peu près tout.",
  w:"Allée japonaise.",
  l:"Bouteille ambrée, souvent avec un dessin de yuzu ou de citron sur l'étiquette.",
- u:["R10","R14","R19","R20","R24"]},
+ u:["R10","R14","R19","R20","R24"],
+ nk:"Bon à savoir",n:"Contrairement à ce qu'on croit, le ponzu est <strong>moins salé</strong> que la sauce soya régulière par cuillère — il est dilué de vinaigre et de jus d'agrume. Arbitrage : sous 5 $, prends-la (tofu froid, légumes blanchis, trempette à gyoza, salade de concombre ; se garde un an au frigo) ; à 8 $ et plus, soya + jus de lime moitié-moitié fait la job."},
 {s:"jp",jp:"米酢",ro:"komezu",fr:"Vinaigre de riz",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Rice_vinegar.jpg?width=1200",
  d:"Moins agressif que le vinaigre blanc. Base de toutes les marinades express — et l'acidité amplifie la perception du salé, donc elle permet de saler moins.",
  w:"Allée japonaise ou chinoise.",
@@ -642,11 +704,12 @@ const I = [
  w:"<strong>Allée japonaise</strong> — pas avec le thé, et pas avec le kombu.",
  l:"Boîtes cartonnées contenant des sachets. Cherche un dessin de flocons de bonite ou de poisson, et les mentions « reduced salt » ou « no salt added ».",
  nk:"Le piège",n:"Les sachets (vrais ingrédients) et la poudre Hondashi (granulés, très salée, boîte jaune-orange) sont côte à côte sur la tablette. Prends les sachets."},
-{s:"jp",jp:"ふりかけ",ro:"furikake",fr:"Furikake",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Furikake_%281%29.jpg?width=1200",
+{s:"jp",jp:"ふりかけ",ro:"furikake",fr:"Furikake",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Furikake_%281%29.jpg?width=1200",pack:"assets/produits/furikake.jpg",
  d:"Mélanges secs à saupoudrer sur le riz. Environ 3 $ le pot, et c'est ce qui règle le problème de la monotonie. Achètes-en trois, pas un.",
  w:"Allée japonaise, souvent tout un présentoir. Des dizaines de variétés.",
- l:"Petits contenants colorés, souvent avec une fenêtre transparente qui montre les paillettes. Sésame-nori, saumon séché, prune-shiso, wasabi.",
- u:["R4","R9","R11"]},
+ l:"Petits contenants colorés, souvent avec une fenêtre transparente qui montre les paillettes. <strong>Première paire : Nori Komi</strong> (nori + sésame, le plus neutre et polyvalent) <strong>et Noritama</strong> (nori + œuf, le classique légèrement sucré, le plus facile pour un premier essai). Katsuo, saumon, ebi fumi, yasai fumi : pour un troisième pot.",
+ u:["R4","R9","R11"],
+ nk:"Deux mises au point",n:"Malgré les noms (saumon, crevette, bonite), le furikake n'apporte pas de protéines — une portion ≈ 2 g, ~10 cal, moins d'un gramme de protéines. C'est du goût. Et c'est salé (~15-20 %), soit 150-250 mg de sodium sur un bol : <strong>ne combine pas furikake et sauce soya sur le même bol</strong>. Son vrai rôle : rendre le riz nature intéressant sans y ajouter de gras — c'est ce qui fait que 140 g suffisent au lieu d'en redemander."},
 {s:"jp",jp:"七味唐辛子",ro:"shichimi tōgarashi",fr:"Shichimi togarashi",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Shichimi_002.jpg?width=1200",
  d:"Mélange de sept épices avec piment. Plus parfumé que piquant. Va sur les soupes, les grillades, les nouilles.",
  w:"Allée japonaise.",
@@ -666,6 +729,11 @@ const I = [
  d:"Chapelure japonaise en flocons légers. Absorbe beaucoup moins d'huile que la chapelure fine — mais on ne fait pas beaucoup de friture dans ce recueil.",
  w:"Allée japonaise.",
  l:"Gros sacs légers de flocons blancs irréguliers, beaucoup plus gros que de la chapelure ordinaire."},
+{s:"jp",jp:"胡麻",ro:"goma",fr:"Graines de sésame",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Sesame-Seeds.jpg?width=1200", pack:"assets/produits/graines-sesame.jpg",
+ d:"Le « pouce » des repères visuels — un gras, pas une protéine. Une cuillère à soupe ≈ 50 cal, 4,5 g de gras, 1,5 g de protéines. Son vrai rôle : parfumer le riz nature et les légumes sans y ajouter grand-chose.",
+ w:"Allée japonaise, près des furikake et des assaisonnements.",
+ l:"Prends le non décortiqué — 煎り胡麻 (iri goma), sachet jaune. Le décortiqué (皮むき, kawamuki, sachet bleu) a perdu son enveloppe, là où logent l'essentiel du goût de noisette, le croquant et presque tout le calcium — et il rancit plus vite.",
+ nk:"Le geste",n:"Ne jamais saupoudrer tel quel : une graine entière traverse le système intacte. Écrase entre les doigts ou au mortier juste avant de servir — écrasée, elle libère son huile et son parfum. Griller à sec 2 minutes ravive tout. Conserver au frigo après ouverture."},
 
 // ⑧ ALLÉE CORÉENNE
 {s:"kr",jp:"고추장",ro:"gochujang",pr:"ko-tchou-djang",fr:"Gochujang",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Korean_chili_pepper_paste_GOCHUJANG.jpg?width=1200",
@@ -745,8 +813,9 @@ const I = [
 {s:"the",jp:"麦茶",ro:"mugicha",fr:"Mugicha — thé d'orge",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese-Barley_tea-Mugicha.jpg?width=1200",
  d:"<strong>L'achat le plus rentable de la liste.</strong> Zéro calorie, zéro caféine, zéro sucre. Goût de grain grillé. Un sachet dans un litre d'eau froide, une nuit au frigo.",
  w:"Allée du thé — séparée de tout le reste, souvent près des breuvages ou en bout d'allée.",
- l:"Boîte cartonnée brun-doré, souvent avec un dessin d'épi d'orge. Ito En est la marque courante. Boîtes de 30 à 60 sachets."},
-{s:"the",jp:"ほうじ茶",ro:"hōjicha",fr:"Hojicha — thé vert torréfié",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Houjicha.jpg?width=1200",
+ l:"Boîte cartonnée brun-doré, souvent avec un dessin d'épi d'orge. Ito En est la marque courante. Boîtes de 30 à 60 sachets.",
+ nk:"Si tu n'en trouves pas",n:"Trois options, dans l'ordre : le <strong>boricha coréen (보리차)</strong> est exactement le même produit — thé d'orge grillé — cherche-le en épicerie coréenne ; sinon l'épicerie japonaise Miyamoto en a à coup sûr ; en dernier recours, le <strong>hojicha</strong> (thé vert torréfié) — pas la même chose, mais même registre grillé, presque sans caféine, à boire froid en pichet de la même façon."},
+{s:"the",jp:"ほうじ茶",ro:"hōjicha",fr:"Hojicha — thé vert torréfié",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Houjicha.jpg?width=1200",pack:"assets/produits/hojicha.jpg",
  d:"Torréfié, donc presque décaféiné. Notes de caramel et de chocolat. C'est le thé du soir.",
  w:"Allée du thé.",
  l:"Feuilles brun rougeâtre, très différentes du vert du sencha. En sachets ou en vrac."},
@@ -756,10 +825,10 @@ const I = [
  l:"Le genmaicha contient des grains de riz soufflé visibles — c'est le plus facile à réussir des deux. Si l'emballage montre des feuilles reconnaissables plutôt qu'une poudre brunâtre, c'est bon signe."},
 
 // ⑫ RIZ ET COLLATIONS
-{s:"riz",jp:"米",ro:"kome",fr:"Riz à grain court",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
+{s:"riz",jp:"米",ro:"kome",fr:"Riz à grain court",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",pack:"assets/produits/riz.jpg",
  d:"Le grain court japonais colle juste assez pour se manger à la baguette. C'est ce qui rend le petit bol possible.",
  w:"Presque toujours en gros sacs, sur des palettes au sol ou des tablettes basses, souvent en bout d'allée ou près de la sortie.",
- l:"Sacs de 5 à 15 kg. Cherche « short grain » ou « sushi rice ». Marques courantes : Nishiki, Kokuho Rose, Tamaki Gold.",
+ l:"Sacs de 2 à 15 kg. Choix par défaut : <strong>Nishiki</strong> (sac blanc), fiable et bon rapport qualité-prix. « Sushi rice », « premium medium grain » et « Calrose » désignent essentiellement la même chose. <strong>Le piège à éviter : les sacs marqués 糯米 ou « sweet / mochi rice »</strong> — c'est du riz gluant (mochigome), un ingrédient à part ; cuit comme du gohan, ça donne une masse immangeable. « Sweet » n'a rien à voir avec le sucre. Un sac de 2,27 kg donne ~5 kg de riz cuit, soit une trentaine de portions.",
  u:["T1"],
  nk:"Arsenic",n:"Le riz accumule plus d'arsenic inorganique que les autres céréales, et le riz brun plus que le blanc. Rincer jusqu'à ce que l'eau soit claire — ce que la méthode japonaise prescrit déjà — et varier les féculents."},
 {s:"riz",jp:"煎餅",ro:"senbei",fr:"Senbei et collations",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Senbeis.jpg?width=1200",
@@ -849,14 +918,15 @@ class Component extends DCLogic {
 
     const o = I.find(x => this.slug(x) === open);
     const openVal = o ? {
-      jp: o.jp, ro: o.ro, fr: o.fr, desc: o.d, img: o.img, bg: 'url("' + o.img + '")', jpt: JPT(o.jp, o.ro, o.fr, o.pr),
-      secLabel: SECLABEL[o.s], where: o.w, look: o.l,
+      jp: o.jp, ro: o.ro, fr: o.fr, desc: RT(o.d), img: o.img, bg: 'url("' + o.img + '")', jpt: JPT(o.jp, o.ro, o.fr, o.pr),
+      secLabel: SECLABEL[o.s], where: RT(o.w), look: RT(o.l),
       hasPrev: !!prevId, hasNext: !!nextId,
       goPrev: () => prevId && this.go(prevId),
       goNext: () => nextId && this.go(nextId),
       pos: nav >= 0 ? (nav + 1) + " / " + listSlugs.length : "",
       slot: "pack-" + this.slug(o),
-      hasNote: !!o.n, noteK: o.nk || "Note", note: o.n || "",
+      packSrc: o.pack || "", hasPack: !!o.pack, noPack: !o.pack,
+      hasNote: !!o.n, noteK: o.nk || "Note", note: RT(o.n || ""),
       hasUses: !!(o.u && o.u.length),
       uses: (o.u || []).map(id => ({ label: id, href: "guide-2-recettes.html#" + id }))
     } : null;
