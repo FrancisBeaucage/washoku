@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Washoku</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='12'%20fill='%23f3f2f2'/%3E%3Ctext%20x='32'%20y='49'%20text-anchor='middle'%20font-family='serif'%20font-weight='900'%20font-size='46'%20fill='%23ec3013'%3E%E5%92%8C%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="_ds/modernist-5fa86008-2cf9-46da-9dfc-2464fb85de11/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap">
+<style>
+  html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:64px; }
+  body { margin:0; background:#f3f2f2; color:#201e1d; font-family:"Archivo",system-ui,sans-serif; }
+  * { box-sizing:border-box; }
+  img { display:block; max-width:100%; }
+  a { color:#ae1800; text-decoration:none; }
+  a:hover { color:#ec3013; }
+  a:focus-visible, button:focus-visible, input:focus-visible { outline:2px solid #ec3013; outline-offset:2px; }
+  ::selection { background:#ffc4b8; }
+  p, li { text-wrap:pretty; }
+  button { font-family:inherit; }
+  table { border-collapse:collapse; width:100%; font-size:14.5px; min-width:440px; }
+  th { text-align:left; font-weight:800; font-size:11px; letter-spacing:.12em; text-transform:uppercase; padding:0 14px 8px 0; border-bottom:2px solid #201e1d; vertical-align:bottom; }
+  td { padding:11px 14px 11px 0; border-bottom:1px solid #d7d3d3; vertical-align:top; line-height:1.5; }
+  tr td:last-child, tr th:last-child { padding-right:0; }
+  .tw { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:22px 0; }
+  .in { max-width:1180px; margin:0 auto; padding:clamp(28px,4vw,56px) clamp(16px,4vw,40px); }
+  .p { margin:0 0 16px; font-size:17px; line-height:1.7; max-width:38em; }
+  .h3 { margin:34px 0 12px; font-size:clamp(18px,2.4vw,21px); font-weight:800; letter-spacing:-.01em; }
+  .lbl { display:block; margin:0 0 6px; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#ec3013; }
+  .note { margin:26px 0; border-top:2px solid #ec3013; padding:14px 0 0; max-width:40em; }
+  .note p { margin:0; font-size:15.5px; line-height:1.65; }
+  ul.l, ol.l { margin:0 0 16px; padding-left:1.15em; max-width:38em; font-size:16.5px; line-height:1.7; }
+  ul.l li, ol.l li { margin-bottom:8px; }
+  /* journal-specific */
+  .steps { display:grid; gap:2px; max-width:42em; margin:22px 0; }
+  .step { display:grid; grid-template-columns:auto 1fr; gap:16px; align-items:start; border:2px solid #201e1d; padding:16px 18px; }
+  .step .k { font-family:'Noto Serif JP',serif; font-weight:900; font-size:34px; color:#ec3013; line-height:1; }
+  .step .romaji { font-size:11px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:#605d5d; }
+  .step h4 { margin:2px 0 4px; font-size:19px; font-weight:800; }
+  .step p { margin:0; font-size:15px; line-height:1.6; color:#444141; }
+  .tpl { max-width:42em; margin:20px 0; border:2px solid #201e1d; background:#eceaea; }
+  .tpl .tpl-h { font-size:11px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:#ec3013; padding:12px 18px; border-bottom:1px solid #c9c5c5; }
+  .tpl pre { margin:0; padding:16px 18px; font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:13.5px; line-height:1.75; white-space:pre-wrap; color:#201e1d; }
+  .st { display:inline-block; font-weight:800; }
+  .st-ok { color:#1f7a3a; }
+  .st-warn { color:#b06a00; }
+  .st-q { color:#605d5d; }
+  .entry { border:2px solid #201e1d; background:#f8f6f6; margin:0 0 clamp(28px,4vw,44px); }
+  .entry-body { padding:clamp(22px,3.5vw,40px); }
+  .entry-eyebrow { margin:0 0 10px; font-size:12px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#ec3013; }
+  .entry h3 { margin:0 0 6px; font-size:clamp(23px,3.4vw,32px); font-weight:800; line-height:1.08; letter-spacing:-.02em; }
+  .entry .fiches { margin:0 0 4px; font-weight:700; font-size:15px; }
+  .entry .kicker { margin:0; font-style:italic; color:#605d5d; font-size:15.5px; }
+  .entry .h5 { margin:28px 0 10px; font-size:13px; font-weight:800; letter-spacing:.13em; text-transform:uppercase; color:#201e1d; border-bottom:2px solid #ec3013; padding-bottom:6px; display:inline-block; }
+  .entry .p { color:#2b2928; }
+  .photo-ph { margin:22px 0; border:2px dashed #b7b2b2; background:#efeded; aspect-ratio:16/10; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; text-align:center; padding:20px; }
+  .photo-ph .pi { font-family:'Noto Serif JP',serif; font-size:30px; color:#c9c5c5; line-height:1; }
+  .photo-ph .pt { font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:#8f8a8a; max-width:24em; line-height:1.5; }
+  .count { margin:8px 0 0; font-size:18px; font-weight:800; }
+  .count .cible { font-weight:600; font-size:14px; color:#605d5d; }
+</style>
+</helmet>
+
+<div style="background:#f3f2f2;min-height:100vh">
+
+  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:30">
+    <div style="max-width:1180px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      <a href="index.html" style="display:flex;align-items:center;gap:10px;color:#201e1d">
+        <span title="wa — « wa » · l'harmonie, et le Japon" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:900;font-size:22px;color:#ec3013;line-height:1">和</span>
+        <span style="font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase">Washoku</span>
+      </a>
+      <nav style="display:flex;gap:clamp(10px,2vw,22px);margin-left:auto;flex-wrap:wrap;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase">
+        <a href="guide-1-manger.html" style="color:#201e1d">1 · Manger</a>
+        <a href="guide-2-recettes.html" style="color:#201e1d">2 · Recettes</a>
+        <a href="guide-3-supermarche.html" style="color:#201e1d">3 · Supermarché</a>
+        <a href="guide-4-bouger.html" style="color:#201e1d">4 · Bouger</a>
+        <a href="guide-5-plan.html" style="color:#201e1d">5 · Plan</a>
+        <a href="guide-6-journal.html" style="color:#ec3013">6 · Journal</a>
+      </nav>
+    </div>
+  </header>
+
+  <section style="max-width:1180px;margin:0 auto;padding:clamp(30px,5vw,66px) clamp(16px,4vw,40px) clamp(18px,3vw,28px)">
+    <p style="margin:0 0 14px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">Guide 6 sur 6 · Pratiquer</p>
+    <h1 style="margin:0;font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(40px,9vw,88px);line-height:1;letter-spacing:-.02em"><span title="keiko — « kéï-ko » · la pratique répétée" style="cursor:help">稽古</span></h1>
+    <p style="margin:14px 0 0;font-weight:800;font-size:clamp(24px,4vw,42px);line-height:1.05;letter-spacing:-.02em">KEIKO</p>
+    <p style="margin:14px 0 0;font-family:'Noto Serif JP',serif;font-weight:600;font-size:clamp(16px,2.4vw,22px);color:#605d5d">Le carnet de pratique — ce que chaque repas m'a appris</p>
+    <figure style="margin:clamp(24px,4vw,40px) 0 0">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hotel_Kanra_Kyoto_%28Main%29_B2F_The_Kitchen_Kanra_Japanese-style_breakfast_20210628-001.jpg?width=1600" alt="Déjeuner japonais complet servi sur un plateau : riz, soupe, poisson grillé, petits plats" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:21/9;object-fit:cover;border:2px solid #201e1d">
+      <figcaption style="margin-top:9px;font-size:12.5px;color:#605d5d">Les cinq autres guides disent <em>quoi faire</em>. Celui-ci garde la trace de <em>ce qui s'est passé quand on l'a fait</em>.</figcaption>
+    </figure>
+    <p style="margin:20px 0 0;font-size:17px;line-height:1.7;max-width:38em;color:#444141">Trois documents de corrections sont nés en deux jours — d'une visite à l'épicerie et de deux repas. Le journal n'est pas une addition décorative&nbsp;: c'est le mécanisme de correction rendu visible, et archivé. Il garde la trace de ce qui a été essayé, il documente les erreurs <strong>avant</strong> qu'elles soient corrigées dans les fiches, et il capture le goût et le ressenti — que les fiches n'enregistrent jamais.</p>
+    <div class="note" style="margin-top:22px"><span class="lbl">Ce que ce n'est pas</span><p>Pas un journal alimentaire de comptage. Le guide 5 s'occupe déjà des chiffres, et il dit lui-même qu'on arrête de compter après deux semaines. Ici, on n'enregistre pas des calories&nbsp;: on enregistre des <strong>apprentissages</strong>.</p></div>
+  </section>
+
+  <section style="border-top:2px solid #201e1d">
+    <div class="in" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(20px,4vw,48px)">
+      <div>
+        <span class="lbl">Dans ce guide</span>
+        <p style="margin:0;font-size:16px;line-height:1.7;color:#444141">Le cadre qui donne un terme à la répétition, la façon de tenir le carnet sans qu'il s'épuise, l'état des lieux de la pratique, le journal des repas, et comment s'en servir.</p>
+      </div>
+      <nav style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px 18px;font-size:14px;line-height:1.95;align-content:start">
+        <a href="#s1" style="display:block">1 Le cadre — 守破離</a>
+        <a href="#s2" style="display:block">2 Tenir le carnet</a>
+        <a href="#s3" style="display:block">3 Où j'en suis</a>
+        <a href="#s4" style="display:block">4 Le journal</a>
+        <a href="#s5" style="display:block">5 Comment je m'en sers</a>
+      </nav>
+    </div>
+  </section>
+
+  <section id="s1" class="in" style="border-top:2px solid #201e1d">
+    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">01</span>
+      <span title="shu-ha-ri — « chou-ha-ri » · suivre, adapter, se détacher" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">守破離</span>
+    </div>
+    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Le cadre</h2>
+    <p class="p"><em>Keiko</em> est le mot japonais pour la pratique répétée&nbsp;: celle des arts martiaux, de la calligraphie, de la cérémonie du thé. Il ne désigne pas l'entraînement au sens sportif, mais <strong>le fait de refaire la même forme jusqu'à ce qu'elle devienne un réflexe.</strong></p>
+    <p class="p">Le nom est un rappel, pas une décoration. Si le dossier réussit, ce sera parce que les recettes auront été <strong>refaites</strong>, pas parce qu'elles auront été lues. Et parce que refaire toujours la même chose est difficile, la tradition japonaise donne à ce trajet trois étapes.</p>
+
+    <div class="steps">
+      <div class="step">
+        <span class="k" title="shu — « chou » · suivre">守</span>
+        <div>
+          <p class="romaji">Shu · suivre</p>
+          <h4>On exécute la fiche à la lettre</h4>
+          <p>Sans improviser. La forme d'abord, la compréhension viendra en la faisant.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="k" title="ha — « ha » · briser, adapter">破</span>
+        <div>
+          <p class="romaji">Ha · adapter</p>
+          <h4>On connaît assez la forme pour la modifier avec raison</h4>
+          <p>On sait pourquoi chaque geste est là, donc on peut en changer un en sachant ce qu'on fait.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="k" title="ri — « ri » · quitter, se détacher">離</span>
+        <div>
+          <p class="romaji">Ri · se détacher</p>
+          <h4>La fiche n'est plus nécessaire, on cuisine</h4>
+          <p>Le geste est devenu un réflexe. On n'a plus à relire pour faire.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="note"><span class="lbl">Pourquoi ça compte ici</span><p>La répétition n'est pas le but&nbsp;: c'est l'étape 1 sur 3. On refait une fiche jusqu'à ce qu'elle devienne un réflexe — et ensuite on n'a plus à la refaire. Ce n'est pas un tapis roulant, c'est un passage.</p></div>
+  </section>
+
+  <section id="s2" class="in" style="border-top:2px solid #201e1d">
+    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">02</span>
+      <span title="kiroku — « ki-ro-kou » · l'enregistrement, la trace écrite" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">記録</span>
+    </div>
+    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Tenir le carnet</h2>
+    <p class="p">Deux règles découlent directement du choix du nom. Elles ne sont pas cosmétiques&nbsp;: sans elles, un journal de répétition s'abandonne en trois semaines.</p>
+
+    <h3 class="h3">Règle 1 — Une entrée de répétition ne documente que l'écart</h3>
+    <p class="p">Le premier essai d'une fiche est documenté au complet — les sept blocs ci-dessous. <strong>Les essais suivants sont courts et ne racontent qu'une chose&nbsp;: ce qui a changé.</strong></p>
+    <div class="tpl">
+      <div class="tpl-h">Gabarit court · 2ᵉ essai et suivants</div>
+      <pre>Date · Fiche
+Ce que j'ai changé :
+Ce que ça a donné :
+Verdict : mieux / pareil / moins bien</pre>
+    </div>
+    <p class="p">Trois lignes. Refaire devient bon marché à consigner, et l'entrée met en évidence le <strong>delta</strong> — la seule chose intéressante quand on répète. On ne réécrit jamais deux fois la même chose.</p>
+
+    <h3 class="h3">Règle 2 — Une fiche maîtrisée sort de la liste</h3>
+    <p class="p">La répétition a un terme. Trois ou quatre passages, et la fiche quitte la liste des choses à travailler. C'est la récompense&nbsp;: on ne répète pas pour toujours, on répète pour <strong>graduer</strong>.</p>
+    <div class="tw"><table>
+      <tr><th style="width:14%">Essai</th><th style="width:32%">Statut</th><th>Ce qu'on cherche</th></tr>
+      <tr><td>1ᵉʳ</td><td><strong>Découverte</strong></td><td>Est-ce que ça marche&nbsp;?</td></tr>
+      <tr><td>2ᵉ</td><td><strong>Correction</strong></td><td>Appliquer ce qu'on a appris</td></tr>
+      <tr><td>3ᵉ</td><td><strong>Fluidité</strong></td><td>Le faire sans relire la fiche</td></tr>
+      <tr><td>4ᵉ +</td><td><strong>稽古 acquis</strong></td><td>Retiré de la pratique active — c'est devenu un réflexe</td></tr>
+    </table></div>
+    <div class="note"><span class="lbl">Le corollaire</span><p>À tout moment, la liste des fiches en pratique active devrait être <strong>courte</strong> — trois ou quatre, pas quarante-neuf. Le reste attend, ou est acquis. C'est ce qui rend l'ensemble supportable.</p></div>
+
+    <h3 class="h3">Le gabarit complet — sept blocs</h3>
+    <p class="p">Pour un premier essai. Les blocs 5, 6 et 7 sont le cœur&nbsp;; les autres sont du contexte.</p>
+    <div class="tpl">
+      <div class="tpl-h">Gabarit complet · 1ᵉʳ essai</div>
+      <pre>1. EN-TÊTE          Date · Repas · Fiches utilisées (R3, R2, T7a…)
+2. PHOTO            Le repas tel qu'il était
+3. LE PLATEAU       Tableau : ingrédient · quantité
+4. LE COMPTE        Calories et protéines estimées, avec la cible
+5. LE VERDICT       Ce qui a marché, ce qui n'a pas. Franc.
+6. CE QUE J'AI APPRIS   Les constats généralisables → renvois vers les fiches
+7. LA PROCHAINE FOIS    Une à trois actions concrètes</pre>
+    </div>
+    <p class="p"><strong>Le bloc 6 est celui qui justifie le guide.</strong> C'est lui qui relie le journal aux cinq autres&nbsp;: chaque apprentissage pointe vers la fiche qu'il corrige ou enrichit. Sans ça, ce n'est qu'un carnet.</p>
+  </section>
+
+  <section id="s3" class="in" style="border-top:2px solid #201e1d">
+    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">03</span>
+      <span title="ichiran — « i-tchi-rane » · la vue d'ensemble" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">一覧</span>
+    </div>
+    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Où j'en suis</h2>
+    <p class="p">Deux tables se remplissent à mesure que les entrées s'ajoutent. Elles transforment la répétition en progression visible.</p>
+
+    <h3 class="h3">Les fiches essayées</h3>
+    <p class="p">Ce qui est en pratique active, ce qui est acquis, ce qui dort encore. <strong>La colonne « statut » est le moteur du guide.</strong></p>
+    <div class="tw"><table>
+      <tr><th>Fiche</th><th>Essais</th><th>Dernier</th><th>Statut</th><th>Note</th></tr>
+      <tr><td>T1 Riz</td><td>1</td><td>8 août</td><td>Découverte <span class="st st-ok">✓</span></td><td>Le cuiseur fait le travail</td></tr>
+      <tr><td>T2 Dashi</td><td>1</td><td>8 août</td><td>Découverte <span class="st st-ok">✓</span></td><td>Excellent du premier coup</td></tr>
+      <tr><td>T7a Œufs marinés</td><td>1</td><td>8 août</td><td>Découverte <span class="st st-ok">✓</span></td><td>7 min = bon chiffre</td></tr>
+      <tr><td>T7b Sunomono</td><td>1</td><td>8 août</td><td>Découverte <span class="st st-warn">⚠</span></td><td>Geste raté — à refaire</td></tr>
+      <tr><td>T6 Blanchiment</td><td>1</td><td>8 août</td><td>Découverte <span class="st st-ok">✓</span></td><td>Famille B</td></tr>
+      <tr><td>R2 Soupe miso</td><td>1</td><td>9 août</td><td>Découverte <span class="st st-ok">✓</span></td><td></td></tr>
+      <tr><td>R3 Natto gohan</td><td>1</td><td>9 août</td><td>Découverte <span class="st st-q">?</span></td><td>Verdict en suspens</td></tr>
+    </table></div>
+    <div class="note"><span class="lbl">En pratique active en ce moment</span><p><strong>7 fiches.</strong> C'est déjà beaucoup — la cible est trois ou quatre. Les prochaines semaines devraient servir à en faire graduer, pas à en ouvrir de nouvelles.</p></div>
+
+    <h3 class="h3">Les corrections issues du journal</h3>
+    <p class="p">La traçabilité entre le carnet et les guides&nbsp;: ce qui a été appris en cuisinant, et où c'est parti.</p>
+    <div class="tw"><table>
+      <tr><th style="width:14%">Date</th><th>Constat</th><th style="width:30%">Corrigé dans</th></tr>
+      <tr><td>8 août</td><td>T6 est écrite pour l'épinard, inapplicable au bok choy</td><td>Doc 2, §1 → <a href="guide-2-recettes.html">T6</a></td></tr>
+      <tr><td>8 août</td><td>« Marinade » unifie deux techniques japonaises sans lien</td><td>Doc 2, §4 → <a href="guide-2-recettes.html">T7a / T7b</a></td></tr>
+      <tr><td>9 août</td><td>Aucun lexique des termes de cuisine français</td><td>Doc 3, §1 → <a href="guide-2-recettes.html">Guide 2</a></td></tr>
+      <tr><td>9 août</td><td>Le déjeuner ne monte pas seul à 40 g de protéines</td><td>Doc 3 → <a href="guide-5-plan.html">Guide 5</a></td></tr>
+    </table></div>
+  </section>
+
+  <section id="s4" class="in" style="border-top:2px solid #201e1d">
+    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">04</span>
+      <span title="nikki — « nik-ki » · le journal, le carnet de bord" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">日記</span>
+    </div>
+    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Le journal</h2>
+    <p class="p">Le plus récent en haut&nbsp;: le carnet se lit à rebours.</p>
+
+    <!-- Entrée 9 août -->
+    <article class="entry">
+      <div class="entry-body">
+        <p class="entry-eyebrow">9 août 2026 · Déjeuner</p>
+        <h3>Premier déjeuner complet</h3>
+        <p class="fiches">Fiches&nbsp;: R3 (natto gohan) · R2 (soupe miso) · T7a (œufs marinés) · T7b (sunomono)</p>
+        <p class="kicker">Premier <span title="ichiju sansai — « i-tchi-djou sane-saï » · une soupe, trois plats" style="cursor:help;border-bottom:1px dotted currentColor">ichiju sansai</span> monté au complet.</p>
+
+        <div class="photo-ph">
+          <span class="pi">写真</span>
+          <span class="pt">Photo à venir — le plateau&nbsp;: bol de riz avec natto et œufs, soupe miso, petit plat de concombres au sésame</span>
+        </div>
+
+        <p class="h5">Le plateau</p>
+        <div class="tw"><table style="min-width:0">
+          <tr><th style="width:60%">Ingrédient</th><th>Quantité</th></tr>
+          <tr><td>Riz cuit</td><td>140 g</td></tr>
+          <tr><td>Natto</td><td>1 barquette (~45 g)</td></tr>
+          <tr><td>Œufs marinés</td><td>2</td></tr>
+          <tr><td>Dashi</td><td>300 ml</td></tr>
+          <tr><td>Miso blanc</td><td>1 c. à soupe bombée</td></tr>
+          <tr><td>Tofu ferme</td><td>100 g</td></tr>
+          <tr><td>Edamames écossés</td><td>~90 g</td></tr>
+          <tr><td>Wakame séché</td><td>1 c. à thé</td></tr>
+          <tr><td>Oignon vert</td><td>1 c. à soupe</td></tr>
+          <tr><td>Concombres marinés</td><td>1 petit plat</td></tr>
+        </table></div>
+        <p class="count">~590 cal · ~41 g de protéines <span class="cible">(cible déjeuner&nbsp;: 450 cal / 40 g)</span></p>
+
+        <p class="h5">Le verdict</p>
+        <p class="p"><strong>La soupe miso&nbsp;: excellente.</strong> Rien à redire. Opaque, homogène, sans grumeaux. Le tofu tient ses cubes, le wakame est bien dosé. Le dashi maison fait toute la différence.</p>
+        <p class="p"><strong>Les œufs marinés&nbsp;: réussis du premier coup.</strong> Jaune orangé fondant au centre, pris sur le pourtour, blanc teinté par la marinade. Les 7 minutes sont le bon chiffre.</p>
+        <p class="p"><strong>Le natto&nbsp;: verdict en suspens.</strong> Pas mauvais, mais les dernières bouchées sont difficiles. Il y en a beaucoup. Ce n'est pas un rejet du goût — c'est de la saturation. Le mélange avec l'oignon vert semble donner un mauvais goût, à vérifier.</p>
+        <p class="p"><strong>Les concombres&nbsp;: un peu amers.</strong> Le bout de la tige n'a pas été jeté, et surtout ils ont été <strong>épongés</strong> au papier absorbant au lieu d'être <strong>pressés</strong> à la main. L'eau amère est restée dedans.</p>
+        <p class="p"><strong>La satiété&nbsp;: c'est le vrai résultat.</strong> Plein pour un bon bout, avec 590 calories. Un déjeuner québécois équivalent en ferait 900.</p>
+
+        <p class="h5">Ce que j'ai appris</p>
+        <ol class="l">
+          <li><strong>Presser n'est pas éponger.</strong> La cucurbitacine du concombre est soluble dans l'eau&nbsp;: elle sort avec l'eau que le sel tire des cellules — mais seulement si on presse pour de vrai. Éponger enlève la surface et laisse l'amertume. → <a href="guide-2-recettes.html"><em>T7b</em></a></li>
+          <li><strong>Une barquette entière de natto, c'est trop.</strong> Au Japon, le natto est un des <em>sai</em>, pas la vedette du bol. Le problème n'est pas le goût, c'est le ratio riz-natto. → <a href="guide-2-recettes.html"><em>R3</em></a></li>
+          <li><strong>Oignon vert et natto ne se marient peut-être pas.</strong> Les composés soufrés de l'allium et les notes de la fermentation semblent se renforcer au lieu de se compenser. À tester avec plus de karashi et moins d'oignon, ou avec du nori. → <a href="guide-2-recettes.html"><em>R3</em></a></li>
+          <li><strong>Cinq sources de soya dans un seul repas.</strong> Natto, miso, tofu, edamames, sauce soya des œufs. Le déjeuner japonais traditionnel met du <strong>poisson grillé</strong> en protéine principale, avec du soya en accompagnement — pas l'inverse. C'est un effet de bord de la cible de 40 g de protéines. → <a href="guide-5-plan.html"><em>Guide 5</em></a></li>
+          <li><strong>Le sodium s'accumule plus vite que le soya.</strong> Miso + sauce à natto + marinade des œufs ≈ 1 300-1 400 mg, soit plus de la moitié d'une journée en un repas. C'est ça, le vrai plafond du modèle. → <a href="guide-1-manger.html"><em>Guide 1, partie santé</em></a></li>
+        </ol>
+
+        <p class="h5">La prochaine fois</p>
+        <ul class="l">
+          <li>Demi-barquette de natto, pas une entière</li>
+          <li>Karashi à la place de l'oignon vert, ou nori en lanières</li>
+          <li>Concombre&nbsp;: jeter 2 cm du bout de la tige, et <strong>presser à pleine main</strong></li>
+          <li>Écraser les graines de sésame entre les doigts avant de servir</li>
+          <li>Essayer un déjeuner au <strong>poisson grillé</strong> une ou deux fois par semaine, pour casser l'empilement de soya et de sodium</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Entrée 8 août -->
+    <article class="entry">
+      <div class="entry-body">
+        <p class="entry-eyebrow">8 août 2026 · Préparation</p>
+        <h3>La session de mise en place</h3>
+        <p class="fiches">Fiches&nbsp;: T1 (riz) · T2 (dashi) · T6 (blanchiment) · T7a (œufs marinés) · T7b (sunomono)</p>
+        <p class="kicker">Une session de préparation, pas un repas&nbsp;: ni plateau ni compte, mais tout ce qui a rendu le déjeuner du lendemain possible.</p>
+
+        <div class="photo-ph">
+          <span class="pi">写真</span>
+          <span class="pt">Photo à venir — le plan de travail après la session&nbsp;: contenants de dashi, œufs dans leur marinade, riz portionné, bok choy et concombres</span>
+        </div>
+
+        <p class="h5">La séquence — 1 h 15</p>
+        <p class="p">Une seule mise en place pour toute la semaine. Le riz au cuiseur en premier parce qu'il est le plus long&nbsp;; le dashi pendant qu'il cuit&nbsp;; les œufs et les légumes en parallèle&nbsp;; la marinade des œufs et le salage des concombres pour finir, parce qu'ils travaillent seuls au frigo ensuite.</p>
+
+        <p class="h5">Ce qui en est sorti</p>
+        <div class="tw"><table style="min-width:0">
+          <tr><th style="width:40%">Préparation</th><th>Détail</th></tr>
+          <tr><td>Dashi</td><td>Base de la semaine, pour les soupes miso</td></tr>
+          <tr><td>Œufs marinés</td><td>Au frigo dans leur marinade — 7 min de cuisson</td></tr>
+          <tr><td>Riz portionné</td><td>En portions de 140 g, prêtes à réchauffer</td></tr>
+          <tr><td>Bok choy blanchi</td><td>Famille B — mais la fiche T6 ne s'applique pas telle quelle (voir plus bas)</td></tr>
+          <tr><td>Concombres salés</td><td>Pour le sunomono du lendemain</td></tr>
+          <tr><td>Oignons verts émincés</td><td>Prêts pour garnir</td></tr>
+        </table></div>
+
+        <p class="h5">Ce que j'ai appris</p>
+        <ol class="l">
+          <li><strong>T6 est écrite pour l'épinard, pas pour le bok choy.</strong> Le temps et le geste de blanchiment de la fiche supposent une feuille tendre&nbsp;; le bok choy a une côte épaisse qui demande un traitement différent de la feuille. La fiche a été scindée en conséquence. → <a href="guide-2-recettes.html"><em>T6</em></a></li>
+          <li><strong>« Marinade » unifiait deux techniques sans lien.</strong> Les œufs (<em>ni-tamago</em>, trempage dans une sauce soya-mirin) et les concombres (<em>sunomono</em>, salage puis vinaigre) n'ont rien en commun côté japonais. Un seul mot français cachait deux gestes distincts. La technique a été séparée en T7a et T7b. → <a href="guide-2-recettes.html"><em>T7a / T7b</em></a></li>
+          <li><strong>Il manque un lexique des termes de cuisine français.</strong> « Blanchir », « éponger », « émincer », « portionner » — les gestes sont supposés connus alors qu'ils ne le sont pas tous. Un vocabulaire explicite manquait. → <a href="guide-2-recettes.html"><em>Guide 2</em></a></li>
+          <li><strong>Le cuiseur à riz prend 50 minutes.</strong> Ce n'est pas un détail&nbsp;: c'est la contrainte qui organise toute la session. On lance le riz d'abord et on travaille autour, sinon on attend pour rien. → <a href="guide-2-recettes.html"><em>T1</em></a></li>
+        </ol>
+
+        <p class="h5">La prochaine fois</p>
+        <ul class="l">
+          <li>Lancer le riz <strong>avant</strong> de sortir le reste — 50 minutes, c'est le chemin critique</li>
+          <li>Traiter la côte et la feuille du bok choy séparément</li>
+          <li><strong>Presser</strong> les concombres, ne pas les éponger (constat confirmé le lendemain)</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section id="s5" class="in" style="border-top:2px solid #201e1d">
+    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
+      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">05</span>
+      <span title="jissen — « djis-sène » · la mise en pratique" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">実践</span>
+    </div>
+    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Comment je m'en sers</h2>
+    <ul class="l">
+      <li><strong>Pas tous les repas.</strong> Écrire une entrée quand il y a <strong>quelque chose à apprendre</strong>&nbsp;: une première fois, un ratage, une découverte, un changement de saison. Un ou deux par semaine au début, moins ensuite.</li>
+      <li><strong>Le plus récent en haut.</strong> Le journal se lit à rebours.</li>
+      <li><strong>La photo n'est pas optionnelle.</strong> C'est ce qui distingue le journal d'un carnet de notes, et la seule trace du dressage — que le texte ne rend jamais bien.</li>
+      <li><strong>Le ton&nbsp;: franc.</strong> Une entrée qui dit seulement que tout s'est bien passé n'apprend rien. La valeur est dans les ratages.</li>
+      <li><strong>Le lien est bidirectionnel.</strong> Le journal renvoie aux fiches&nbsp;; et une fiche corrigée grâce au journal peut porter une petite mention (« corrigé après le premier essai, 8 août »). Ça montre que le dossier est vivant plutôt que figé.</li>
+    </ul>
+    <div class="note"><span class="lbl">Ce qu'il ne faut pas y mettre</span><p>Le poids, les mesures corporelles, les chiffres de progression personnelle. Le journal documente une <strong>pratique culinaire</strong>, pas un corps. Le <a href="guide-5-plan.html">guide 5</a> s'occupe déjà des chiffres, et il dit lui-même qu'on arrête de compter après deux semaines.</p></div>
+  </section>
+
+  <footer style="border-top:2px solid #201e1d;background:#201e1d;color:#bab6b6">
+    <div style="max-width:1180px;margin:0 auto;padding:clamp(32px,5vw,56px) clamp(16px,4vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px">
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Le reste du dossier</p>
+        <p style="margin:0;font-size:15px;line-height:1.7">Le <a href="guide-1-manger.html" style="color:#f8f4f4;text-decoration:underline">guide 1</a> pour les principes, le <a href="guide-2-recettes.html" style="color:#f8f4f4;text-decoration:underline">recueil de recettes</a> pour cuisiner, le <a href="guide-3-supermarche.html" style="color:#f8f4f4;text-decoration:underline">guide du supermarché</a> pour trouver les ingrédients, le <a href="guide-4-bouger.html" style="color:#f8f4f4;text-decoration:underline">guide Bouger</a> pour l'activité, le <a href="guide-5-plan.html" style="color:#f8f4f4;text-decoration:underline">Plan</a> pour chiffrer.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">稽古 — pratiquer</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">On refait une fiche jusqu'à ce qu'elle devienne un réflexe — puis on n'a plus à la refaire. La répétition a un terme.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Avertissement</p>
+        <p style="margin:0;font-size:14px;line-height:1.7">Rien ici n'est un avis médical.</p>
+        <p style="margin:14px 0 0"><a href="index.html" style="color:#f8f4f4;text-decoration:underline;font-size:14px">← Retour à l'accueil</a></p>
+        <p style="margin:6px 0 0"><a href="conditions.html" style="color:#f8f4f4;text-decoration:underline;font-size:14px">Conditions d'utilisation</a></p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+</body>
+</html>
