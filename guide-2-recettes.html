@@ -39,6 +39,11 @@
   .fiche2 { display:grid; grid-template-columns:minmax(230px,320px) 1fr; gap:clamp(24px,4vw,52px); align-items:start; }
   .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:#201e1d; border:2px solid #201e1d; margin:clamp(22px,3vw,34px) 0; }
   @media (max-width:760px) { .fiche2 { grid-template-columns:1fr; } .metrics { grid-template-columns:repeat(2,1fr); } }
+  /* Zoom au survol des images (hero + vignettes) */
+  .zoomwrap{overflow:hidden}
+  .zoomwrap>.zoomimg{width:100%;height:100%;display:block;transition:transform .5s cubic-bezier(.2,.6,.2,1)}
+  .zoomwrap:hover>.zoomimg{transform:scale(1.1)}
+  @media (prefers-reduced-motion:reduce){.zoomwrap>.zoomimg{transition:none}.zoomwrap:hover>.zoomimg{transform:none}}
 </style>
 </helmet>
 
@@ -85,7 +90,7 @@
           <p style="margin:14px 0 0;font-size:16.5px;line-height:1.65;color:#444141;max-width:34em">{{ open.sub }}</p>
         </div>
         <figure style="margin:0">
-          <div role="img" aria-label="{{ open.fr }}" style="width:100%;aspect-ratio:4/3;border:2px solid #201e1d;background-color:#eae9e9;background-size:cover;background-position:center;background-image:{{ open.bg }}"></div>
+          <div class="zoomwrap" style="width:100%;aspect-ratio:4/3;border:2px solid #201e1d;background-color:#eae9e9"><div role="img" aria-label="{{ open.fr }}" class="zoomimg" style="background-size:cover;background-position:center;background-image:{{ open.bg }}"></div></div>
         </figure>
       </div>
 
@@ -211,7 +216,7 @@
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d">
           <sc-for list="{{ list }}" as="r" hint-placeholder-count="12">
             <button onClick="{{ r.go }}" style="display:block;width:100%;text-align:left;background:#f3f2f2;border:0;padding:0;cursor:pointer;font-family:inherit;color:#201e1d" style-hover="background:#fff2ef">
-              <div role="img" aria-label="{{ r.fr }}" style="width:100%;aspect-ratio:4/3;background-color:#eae9e9;background-size:cover;background-position:center;background-image:{{ r.bg }}"></div>
+              <div class="zoomwrap" style="width:100%;aspect-ratio:4/3;background-color:#eae9e9"><div role="img" aria-label="{{ r.fr }}" class="zoomimg" style="background-size:cover;background-position:center;background-image:{{ r.bg }}"></div></div>
               <div style="padding:14px 16px 18px">
                 <div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px">
                   <span style="font-weight:800;font-size:13px;letter-spacing:.06em;color:#ec3013">{{ r.id }}</span>
@@ -631,7 +636,7 @@ const R = [
  steps:["FAMILLE A — verdures molles (épinard, komatsuna, mizuna, cresson). Laver, garder entier.","Eau bouillante salée 30 s à 1 min (tiges épaisses en premier), puis eau glacée immédiatement.","Presser fort : former une botte serrée, tordre, extraire le maximum d'eau. Trancher en tronçons de 4-5 cm.","FAMILLE B — verdures à tiges (bok choy, chou nappa, gai lan, choy sum). Parer 5 mm à la base (le disque sec de la coupe du champ, pas plus : c'est ce qui tient les tiges ensemble pour le lavage), puis fendre en deux dans la longueur.","Laver en écartant les tiges sous l'eau courante — le sable se cache à la base, là où les tiges se rejoignent. Séparer les tiges blanches des feuilles vertes.","Eau bouillante salée : tiges 1 min 30 à 2 min, puis feuilles 30 s. Eau glacée immédiatement.","Presser DOUCEMENT : tiges à peine (secouer, égoutter, éponger), feuilles une seule pression légère de la main. Pas de découpe finale — c'est déjà coupé."],
  notes:[{k:"Le test du pressage",t:"Si la tige s'affaisse ou craque sous les doigts, c'est trop. Le bok choy blanchi doit rester ferme et rebondi, avec un léger croquant. C'est la confusion la plus coûteuse : appliquer à des tiges charnues le « presser fort » de l'épinard les écrase et les rend filandreuses."},{k:"Bok choy nain (baby bok choy)",t:"Garder les demi-têtes entières, base parée. Blanchir d'un coup, tiges et feuilles ensemble, 2 minutes. Belle présentation en bol."},{k:"Conservation",t:"3 jours au frigo dans un contenant fermé, avec un morceau d'essuie-tout au fond (les verdures continuent de rendre de l'eau). Ranger nature, sans assaisonnement : c'est une base neutre. On assaisonne au moment de servir — soya + katsuobushi (ohitashi), sésame écrasé (goma-ae), ou rien du tout dans un donburi. Assaisonné trois jours d'avance, ça rend de l'eau et devient fade. Et blanchir même si on ne mange pas tout de suite : le bok choy cru dans son sac se flétrit plus vite que blanchi dans un contenant."}]},
 
-{id:"T7a",cui:"jp",cat:"tech",jp:"漬ける",ro:"tsukeru",fr:"Faire tremper (ajitsuke tamago)",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Soy%20egg.jpg?width=1200",por:"6 œufs",tps:"\u2248 10 min + attente",prep:8,cook:8,rest:0,spd:"m",wait:"4 h à 1 nuit",pro:"6 g / œuf",cal:"\u2248 70 / œuf",
+{id:"T7a",cui:"jp",cat:"tech",jp:"漬ける",ro:"tsukeru",fr:"Faire tremper (ajitsuke tamago)",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Boiled%20eggs%20in%20soy%20sauce%20-Jangjolim-%20%286275954552%29.jpg?width=1200",por:"6 œufs",tps:"\u2248 10 min + attente",prep:8,cook:8,rest:0,spd:"m",wait:"4 h à 1 nuit",pro:"6 g / œuf",cal:"\u2248 70 / œuf",
  sub:"Faire tremper dans un liquide salé et umami (dashi, soya, mirin). Une technique de fond — la même pour les œufs, le tofu, le poulet, le poisson. Ici : l'ajitsuke tamago, l'œuf mariné.",
  ing:["6 œufs","120 ml de dashi (T2)","60 ml de sauce soya moins salée","60 ml de mirin"],
  steps:["Préparer la marinade en premier : porter dashi + soya + mirin à frémissement 30 secondes pour évaporer l'alcool du mirin, puis retirer du feu et laisser refroidir complètement.","Pendant ce temps, cuire les œufs 7 minutes (voir T8), les refroidir 5 minutes à l'eau glacée, les écaler.","Immerger les œufs dans la marinade froide, dans un sac refermable, en chassant l'air pour qu'ils restent couverts.","Minimum 4 heures, idéalement toute la nuit. Se garde 3 à 4 jours."],
@@ -968,7 +973,7 @@ const R = [
  sub:"焼き芋 yaki-imo. Sucrée naturellement, très rassasiante. Au four, elle se fait toute seule pendant qu'on fait autre chose.",
  ing:["1 patate douce japonaise (satsumaimo)"],
  steps:["Préchauffer le four à 200 °C.","Piquer la patate à la fourchette, la déposer sur une plaque.","Rôtir environ 45 minutes, jusqu'à ce qu'elle soit fondante et qu'un sirop perle.","Bonne chaude ou froide ; se garde quelques jours au frigo."]},
-{id:"R57",cui:"jp",cat:"din",jp:"即席麺",ro:"sokusekimen",fr:"Nouilles instantanées, version repas",img:"https://commons.wikimedia.org/wiki/Special:FilePath/%E9%B6%8F%E5%A4%A9%E3%81%AE%E3%81%86%E3%81%A9%E3%82%93.jpg?width=1200",por:"1",tps:"\u2248 8 min",prep:3,cook:5,rest:0,spd:"xs",wait:"",pro:"32 g",cal:"≈ 550",
+{id:"R57",cui:"jp",cat:"din",jp:"即席麺",ro:"sokusekimen",fr:"Nouilles instantanées, version repas",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Instant_noodles.jpg?width=1200",por:"1",tps:"\u2248 8 min",prep:3,cook:5,rest:0,spd:"xs",wait:"",pro:"32 g",cal:"≈ 550",
  sub:"Le paquet est une base, pas le repas. Avec des œufs et des légumes, ça devient un vrai souper à 550 calories et 32 g de protéines en cinq minutes — et ça bat la pizza.",
  ing:["1 paquet de nouilles instantanées (idéalement non frites — voir la note)","1 à 2 œufs","1 poignée d'edamames † congelés","2 poignées d'épinards ou de bok choy","Oignon vert","La moitié du sachet d'assaisonnement seulement"],
  steps:["Dans une casserole sur le feu (pas de l'eau versée d'une bouilloire — elle refroidit trop vite pour cuire un œuf cru), porter l'eau à ébullition et ajouter les nouilles.","Œuf poché façon ramen (blanc pris, jaune coulant) : baisser à léger frémissement, casser l'œuf dans le bouillon et cuire 3 minutes à couvert, sans brasser. Pour des filaments d'œuf soyeux : battre l'œuf et le verser en filet dans le bouillon qui bout, en brassant doucement.","Jeter les edamames (1 minute) puis les épinards (30 secondes).","N'utiliser que la moitié du sachet d'assaisonnement ; compenser avec ail, gingembre, vinaigre ou piment.","Ne pas boire tout le bouillon — environ 40 % du sodium y reste."],
