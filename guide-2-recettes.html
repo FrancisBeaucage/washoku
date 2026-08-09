@@ -39,11 +39,9 @@
   .fiche2 { display:grid; grid-template-columns:minmax(230px,320px) 1fr; gap:clamp(24px,4vw,52px); align-items:start; }
   .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:#201e1d; border:2px solid #201e1d; margin:clamp(22px,3vw,34px) 0; }
   @media (max-width:760px) { .fiche2 { grid-template-columns:1fr; } .metrics { grid-template-columns:repeat(2,1fr); } }
-  /* Zoom au survol des images (hero + vignettes) */
-  .zoomwrap{overflow:hidden}
-  .zoomwrap>.zoomimg{width:100%;height:100%;display:block;transition:transform .5s cubic-bezier(.2,.6,.2,1)}
-  .zoomwrap:hover>.zoomimg{transform:scale(1.1)}
-  @media (prefers-reduced-motion:reduce){.zoomwrap>.zoomimg{transition:none}.zoomwrap:hover>.zoomimg{transform:none}}
+  /* Loupe au survol (façon catalogue) : l'image s'agrandit et suit le curseur — piloté par JS */
+  .zoomwrap{overflow:hidden;cursor:zoom-in}
+  .zoomwrap>.zoomimg{width:100%;height:100%;display:block;transform-origin:center;will-change:transform}
 </style>
 </helmet>
 
@@ -1112,6 +1110,31 @@ class Component extends DCLogic {
     };
   }
 }
+</script>
+<script>
+/* Loupe au survol façon catalogue. Délégation sur document : survit aux
+   re-rendus du gabarit (fiches ouvertes/fermées, liste filtrée). L'image
+   grossit (transform:scale) avec origine sous le curseur, donc elle suit
+   le pointeur ; le cadre reste fixe grâce à overflow:hidden sur .zoomwrap. */
+(function(){
+  var Z=2.6;
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  var cur=null;
+  function img(w){return w&&w.querySelector('.zoomimg');}
+  function enter(w){var i=img(w);if(i)i.style.transition='none';}
+  function pan(w,e){var i=img(w);if(!i)return;var r=w.getBoundingClientRect();if(!r.width||!r.height)return;
+    var x=Math.max(0,Math.min(100,(e.clientX-r.left)/r.width*100));
+    var y=Math.max(0,Math.min(100,(e.clientY-r.top)/r.height*100));
+    i.style.transformOrigin=x+'% '+y+'%';i.style.transform='scale('+Z+')';}
+  function leave(w){var i=img(w);if(!i)return;i.style.transition=reduce?'none':'transform .25s ease-out';
+    i.style.transform='none';i.style.transformOrigin='center';}
+  document.addEventListener('mousemove',function(e){
+    var w=e.target&&e.target.closest?e.target.closest('.zoomwrap'):null;
+    if(w){if(w!==cur){if(cur)leave(cur);cur=w;enter(w);}pan(w,e);}
+    else if(cur){leave(cur);cur=null;}
+  },{passive:true});
+  document.addEventListener('mouseleave',function(){if(cur){leave(cur);cur=null;}});
+})();
 </script>
 </body>
 </html>

@@ -43,11 +43,9 @@
   .note p { margin:0; font-size:15.5px; line-height:1.65; }
   ul.l, ol.l { margin:0 0 16px; padding-left:1.15em; max-width:38em; font-size:16.5px; line-height:1.7; }
   ul.l li, ol.l li { margin-bottom:8px; }
-  /* Zoom au survol des images (hero, emballage, vignettes) */
-  .zoomwrap{overflow:hidden}
-  .zoomwrap>.zoomimg{width:100%;height:100%;display:block;transition:transform .5s cubic-bezier(.2,.6,.2,1)}
-  .zoomwrap:hover>.zoomimg{transform:scale(1.1)}
-  @media (prefers-reduced-motion:reduce){.zoomwrap>.zoomimg{transition:none}.zoomwrap:hover>.zoomimg{transform:none}}
+  /* Loupe au survol (façon catalogue) : l'image s'agrandit et suit le curseur — piloté par JS */
+  .zoomwrap{overflow:hidden;cursor:zoom-in}
+  .zoomwrap>.zoomimg{width:100%;height:100%;display:block;transform-origin:center;will-change:transform}
 </style>
 </helmet>
 
@@ -113,7 +111,7 @@
           <p style="margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase">La photo de l'emballage</p>
           <sc-if value="{{ open.hasPack }}" hint-placeholder-val="{{ true }}">
             <figure style="margin:0">
-              <div class="zoomwrap" style="height:200px;border:2px solid #201e1d"><img src="{{ open.packSrc }}" alt="Emballage — {{ open.fr }}" loading="lazy" class="zoomimg" style="object-fit:cover"></div>
+              <div class="zoomwrap" style="height:260px;border:2px solid #201e1d;background:#eae9e9"><img src="{{ open.packSrc }}" alt="Emballage — {{ open.fr }}" loading="lazy" class="zoomimg" style="object-fit:contain"></div>
               <figcaption style="margin:8px 0 0;font-size:12px;line-height:1.5;color:#7d7979">La marque exacte trouvée en magasin (Kim Phat, Montréal).</figcaption>
             </figure>
           </sc-if>
@@ -962,6 +960,31 @@ class Component extends DCLogic {
     };
   }
 }
+</script>
+<script>
+/* Loupe au survol façon catalogue. Délégation sur document : survit aux
+   re-rendus du gabarit (fiches ouvertes/fermées, liste filtrée). L'image
+   grossit (transform:scale) avec origine sous le curseur, donc elle suit
+   le pointeur ; le cadre reste fixe grâce à overflow:hidden sur .zoomwrap. */
+(function(){
+  var Z=2.6;
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  var cur=null;
+  function img(w){return w&&w.querySelector('.zoomimg');}
+  function enter(w){var i=img(w);if(i)i.style.transition='none';}
+  function pan(w,e){var i=img(w);if(!i)return;var r=w.getBoundingClientRect();if(!r.width||!r.height)return;
+    var x=Math.max(0,Math.min(100,(e.clientX-r.left)/r.width*100));
+    var y=Math.max(0,Math.min(100,(e.clientY-r.top)/r.height*100));
+    i.style.transformOrigin=x+'% '+y+'%';i.style.transform='scale('+Z+')';}
+  function leave(w){var i=img(w);if(!i)return;i.style.transition=reduce?'none':'transform .25s ease-out';
+    i.style.transform='none';i.style.transformOrigin='center';}
+  document.addEventListener('mousemove',function(e){
+    var w=e.target&&e.target.closest?e.target.closest('.zoomwrap'):null;
+    if(w){if(w!==cur){if(cur)leave(cur);cur=w;enter(w);}pan(w,e);}
+    else if(cur){leave(cur);cur=null;}
+  },{passive:true});
+  document.addEventListener('mouseleave',function(){if(cur){leave(cur);cur=null;}});
+})();
 </script>
 </body>
 </html>
