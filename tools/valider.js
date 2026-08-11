@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 'use strict';
-/* Les neuf règles du document 7, §9. Chacune correspond à une erreur réellement
-   survenue pendant les documents 1 à 6 ; le but est qu'elle ne puisse plus
-   passer inaperçue. Sortie non nulle dès qu'une règle échoue. */
+/* Les neuf règles du document 7 §9, plus les règles 10 à 15 des documents 8 et
+   9. Chacune correspond à une erreur réellement survenue ; le but est qu'elle ne
+   puisse plus passer inaperçue. Sortie non nulle dès qu'une règle échoue. */
 
 const fs = require('fs');
 const path = require('path');
 const { RACINE, DATA } = require('./lib/sources');
+const { nombre } = require('./lib/champs');
+const { nombresCites, valeursCibles } = require('./lib/plan');
 
 const lire = (n) => JSON.parse(fs.readFileSync(path.join(DATA, n), 'utf8'));
 const fiches = lire('guide-2-fiches.json');
@@ -14,6 +16,9 @@ const ingredients = lire('guide-3-ingredients.json');
 const exercices = lire('guide-4-exercices.json');
 const journal = fs.existsSync(path.join(DATA, 'guide-6-journal.json')) ? lire('guide-6-journal.json') : [];
 const manifeste = fs.existsSync(path.join(DATA, 'manifeste.json')) ? lire('manifeste.json') : null;
+const optionnel = (n) => (fs.existsSync(path.join(DATA, n)) ? lire(n) : null);
+const annexes = optionnel('guide-2-annexes.json');
+const plan = optionnel('guide-5-plan.json');
 
 const echecs = [];
 const regle = (n, titre, problemes) => {
@@ -114,6 +119,106 @@ for (const [page, motifs] of Object.entries({
   }
 }
 regle(9, 'Les nombres affichés dans les pages sont à jour', durs);
+
+/* ── Documents 8 et 9 ─────────────────────────────────────────────────── */
+
+// 10 — la prose du guide 5 ne contredit pas les cibles chiffrées
+const chiffres = [];
+if (plan) {
+  const cites = nombresCites(plan.sections);
+  for (const { chemin, valeur } of valeursCibles(plan.cibles)) {
+    if (!cites.has(valeur)) chiffres.push(`${chemin} = ${valeur} n’apparaît nulle part dans la prose`);
+  }
+  const somme = (cle) => plan.cibles.repartition.reduce((t, r) => t + r[cle], 0);
+  if (somme('calories') !== plan.cibles.calories_jour) {
+    chiffres.push(`repartition : ${somme('calories')} calories au total, cible ${plan.cibles.calories_jour}`);
+  }
+  if (somme('proteines_g') !== plan.cibles.proteines_g_jour.max) {
+    chiffres.push(`repartition : ${somme('proteines_g')} g de protéines au total, cible haute ${plan.cibles.proteines_g_jour.max}`);
+  }
+}
+regle(10, 'La prose du guide 5 s’accorde avec les cibles chiffrées', chiffres);
+
+/* 11 — la mise en forme. Les champs texte des FICHES du guide 2 sont rendus
+   tels quels par la page : une balise s’y afficherait en toutes lettres. Le
+   journal, les annexes et le plan sont du HTML : les balises en ligne y sont
+   permises, mais rien d’autre — et le markdown nulle part, il ne se rend
+   jamais. */
+const EN_LIGNE = /^<\/?(?:a|strong|em|span|br|sup)(?:[\s/>])/;
+const IGNORER = new Set(['source', 'attrs', 'attrs_table', 'commentaire_source', 'infobulle']);
+
+function parcourirTexte(valeur, ou, visiter, cle = null) {
+  if (typeof valeur === 'string') return cle === null || IGNORER.has(cle) ? undefined : visiter(valeur, ou);
+  if (Array.isArray(valeur)) return valeur.forEach((v, i) => parcourirTexte(v, `${ou}[${i}]`, visiter, cle));
+  if (valeur && typeof valeur === 'object') {
+    if (valeur.type === 'html') return undefined; // échappatoire assumée : du balisage brut
+    for (const [k, v] of Object.entries(valeur)) {
+      if (!IGNORER.has(k)) parcourirTexte(v, `${ou}.${k}`, visiter, k);
+    }
+  }
+  return undefined;
+}
+
+const forme = [];
+const CHAMPS_FICHE = (f) => [
+  ['sous_titre', f.sous_titre],
+  ...(f.ingredients || []).map((x, i) => [`ingredients[${i}]`, x.texte]),
+  ...(f.etapes || []).map((x, i) => [`etapes[${i}]`, x.texte]),
+  ...(f.notes || []).flatMap((x, i) => [[`notes[${i}].titre`, x.titre], [`notes[${i}].texte`, x.texte]]),
+];
+for (const f of fiches) {
+  for (const [ou, texte] of CHAMPS_FICHE(f)) {
+    if (typeof texte !== 'string') continue;
+    if (texte.includes('<')) forme.push(`${f.id} → ${ou} : « < » interdit dans une fiche`);
+    if (texte.includes('**')) forme.push(`${f.id} → ${ou} : « ** » ne se rend pas`);
+  }
+}
+for (const [nom, contenu] of [['guide 6', journal], ['annexes', annexes], ['guide 5', plan && plan.sections]]) {
+  if (!contenu) continue;
+  parcourirTexte(contenu, nom, (texte, ou) => {
+    if (texte.includes('**')) forme.push(`${ou} : « ** » ne se rend pas`);
+    for (const m of texte.matchAll(/</g)) {
+      const bout = texte.slice(m.index);
+      if (!EN_LIGNE.test(bout)) forme.push(`${ou} : balise non permise « ${bout.slice(0, 24)} »`);
+    }
+  });
+}
+regle(11, 'Aucune mise en forme qui ne se rendrait pas', forme);
+
+/* 12 — les entrées de journal sont bien formées. Le « au moins un renvoi »
+   demandé par le document 8 est la règle 8, qui ne s’exerçait jusqu’ici sur
+   rien : le journal vivait dans le HTML. */
+const REPAS = new Set(['dejeuner', 'diner', 'souper', 'preparation', 'journee']);
+regle(12, 'Toute entrée de journal est bien formée', journal.flatMap((e) => {
+  const maux = [];
+  if (!REPAS.has(e.repas)) maux.push(`${e.id} : repas « ${e.repas} » hors de la liste`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(e.date)) maux.push(`${e.id} : date « ${e.date} » mal formée`);
+  if (e.id !== `K-${e.date}-${e.repas}`) maux.push(`${e.id} : identifiant incohérent avec la date et le repas`);
+  (e.corps || []).forEach((b, i) => {
+    if (b.type === 'figure' && !(e.photos || [])[b.photo]) maux.push(`${e.id} : corps[${i}] renvoie à une photo absente`);
+  });
+  return maux;
+}));
+
+// 13 — l’affichage nutritionnel ne dérive pas de la donnée
+regle(13, 'Protéines affichées et protéines calculées concordent',
+  actives.filter((f) => !f.nutrition.variable && f.nutrition.proteines_g != null)
+    .map((f) => {
+      const affiche = nombre(f.nutrition.proteines_affiche);
+      if (affiche == null) return `${f.id} : « ${f.nutrition.proteines_affiche} » ne contient aucun nombre`;
+      const ecart = Math.abs(affiche - f.nutrition.proteines_g) / Math.max(f.nutrition.proteines_g, 1);
+      return ecart > 0.2 ? `${f.id} : affiché « ${f.nutrition.proteines_affiche} », donnée ${f.nutrition.proteines_g} g` : null;
+    }).filter(Boolean));
+
+// 14 — les renvois des annexes et des ingrédients pointent vers des fiches réelles
+const morts = [];
+for (const x of ingredients) for (const u of x.sert_dans || []) if (!identifiants.has(u)) morts.push(`${x.id} → sert_dans : ${u}`);
+if (annexes) {
+  for (const [id, a] of Object.entries(annexes)) {
+    for (const f of a.fiches_liees || []) if (!identifiants.has(f)) morts.push(`annexe ${id} → fiches_liees : ${f}`);
+  }
+}
+regle(14, 'Les renvois des annexes et des ingrédients aboutissent', morts);
 
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }

@@ -26,6 +26,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -152,6 +153,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -284,6 +286,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -367,6 +370,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -487,6 +491,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -590,6 +595,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -701,6 +707,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -805,6 +812,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -918,6 +926,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1007,6 +1016,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1113,6 +1123,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1226,6 +1237,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1340,6 +1352,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1420,6 +1433,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1511,6 +1525,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1602,6 +1617,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1688,6 +1704,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1758,6 +1775,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1857,6 +1875,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -1966,6 +1985,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2075,6 +2095,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": true,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2155,6 +2176,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2236,6 +2258,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2325,6 +2348,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2416,6 +2440,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2513,6 +2538,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2586,6 +2612,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2667,6 +2694,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2766,6 +2794,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2850,6 +2879,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -2941,6 +2971,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3037,6 +3068,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3117,6 +3149,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3216,6 +3249,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3317,6 +3351,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3427,6 +3462,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3525,6 +3561,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3614,6 +3651,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3708,6 +3746,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3802,6 +3841,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3882,6 +3922,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -3975,6 +4016,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4068,6 +4110,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4153,6 +4196,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4235,6 +4279,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4317,6 +4362,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4422,6 +4468,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4510,6 +4557,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4613,6 +4661,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4693,6 +4742,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4784,6 +4834,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4864,6 +4915,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -4936,6 +4988,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5020,6 +5073,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5093,6 +5147,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5170,6 +5225,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5267,6 +5323,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5346,6 +5403,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5421,6 +5479,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5496,6 +5555,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5583,6 +5643,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5638,6 +5699,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5689,6 +5751,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5744,6 +5807,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5799,6 +5863,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5854,6 +5919,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5919,6 +5985,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -5982,6 +6049,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -6083,6 +6151,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -6157,6 +6226,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -6231,6 +6301,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [
@@ -6347,6 +6418,7 @@
       "lipides_g": null,
       "sodium_mg": null,
       "variable": false,
+      "source": "estime",
       "note": "Ordres de grandeur. L'étiquette du produit prime."
     },
     "ingredients": [

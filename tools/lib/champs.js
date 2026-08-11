@@ -35,8 +35,15 @@ function remettreSante(ing) {
   return ing.texte.slice(0, i) + ' †' + ing.texte.slice(i);
 }
 
+/** « Les bases » → « les-bases ». Sert à fabriquer les identifiants stables. */
+function limace(s) {
+  return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 module.exports = {
   CUISINES, VITESSES, CATEGORIES,
+  limace,
   CUISINES_INV: inverse(CUISINES), VITESSES_INV: inverse(VITESSES), CATEGORIES_INV: inverse(CATEGORIES),
   nombre, extraireSante, remettreSante,
 };

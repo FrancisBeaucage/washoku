@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
-const { SOURCES, RACINE, DATA } = require('./lib/sources');
+const { SOURCES, PROSES, RACINE, DATA } = require('./lib/sources');
 const { lireBloc, remplacerBloc, lireFichier, ecrireFichier } = require('./lib/blocs');
 const { objetMultiligne, tableau } = require('./lib/ecrire-js');
 
@@ -81,6 +81,30 @@ for (const src of SOURCES) {
   console.log(`${verifier ? 'vérifié' : 'écrit  '} ${src.page} — ${actifs.length} entrées (${src.bloc})`);
 }
 
+/* Les sources de prose. Même contrat que les tableaux de données : on compare
+   ce que la page contient à ce que /data dit, et on signale l'écart. La
+   comparaison porte sur la partie rendue — les cibles chiffrées du guide 5,
+   par exemple, ne se rendent pas : c'est la règle 10 qui les surveille. */
+for (const src of PROSES) {
+  const chemin = path.join(RACINE, src.page);
+  const html = lireFichier(chemin);
+  const donnees = lireJson(path.join(DATA, `${src.cle}.json`));
+
+  try {
+    assert.deepStrictEqual(src.mapper.partieRendue(donnees), src.mapper.lire(html));
+  } catch (e) {
+    ecarts += 1;
+    console.error(`\n✗ ${src.cle} : le contenu de /data diffère de celui de la page.`);
+    console.error(String(e.message).split('\n').slice(0, 24).join('\n'));
+  }
+
+  const { nb_entrees, nb_actives } = src.compte(donnees);
+  fichiers.push({ nom: `${src.cle}.json`, description: src.description, nb_entrees, nb_actives });
+
+  if (!verifier) ecrireFichier(chemin, src.mapper.reinjecter(html, src.mapper.partieRendue(donnees)));
+  console.log(`${verifier ? 'vérifié' : 'écrit  '} ${src.page} — ${nb_actives} entrées (${src.cle})`);
+}
+
 /* Les nombres de fiches ne s'écrivent plus à la main nulle part : ils sont
    recalculés ici à partir des données. Règle 9 du document 7. */
 const NOMBRES = [
@@ -102,7 +126,7 @@ const manifeste = {
   site: 'washoku',
   version_schema: '1.0',
   derniere_maj: process.env.WASHOKU_DATE || new Date().toISOString().slice(0, 10),
-  dernier_document_applique: 7,
+  dernier_document_applique: 8,
   note: "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   fichiers,
   compteurs,
@@ -110,5 +134,13 @@ const manifeste = {
 if (!verifier) fs.writeFileSync(path.join(DATA, 'manifeste.json'), JSON.stringify(manifeste, null, 2) + '\n', 'utf8');
 
 console.log(`\ncompteurs : ${compteurs.techniques} techniques, ${compteurs.recettes} recettes, ${compteurs.fiches_retirees} retirée(s)`);
-if (ecarts) { console.error(`\n${ecarts} écart(s). Rien n'a été publié.`); process.exit(1); }
+/* Un écart n'est pas forcément une faute : c'est le cas normal juste après une
+   édition de /data. Le code de sortie non nul force à relire le diff avant de
+   commiter, ce qui est exactement le contrôle qualité voulu. */
+if (ecarts) {
+  console.error(verifier
+    ? `\n${ecarts} écart(s) entre /data et les pages. Rien n'a été écrit — lancer \`npm run generer\`.`
+    : `\n${ecarts} écart(s) : les pages ont été réécrites à partir de /data. Relire le diff avant de commiter.`);
+  process.exit(1);
+}
 console.log(verifier ? 'Vérification : aucun écart.' : 'Génération terminée.');

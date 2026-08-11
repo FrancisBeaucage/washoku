@@ -843,6 +843,46 @@
     "photo_emballage": null
   },
   {
+    "id": "chirimenjako",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "ちりめんじゃこ",
+    "jp_lecture": "tchi-ri-mène-dja-ko",
+    "romaji": "chirimenjako",
+    "fr": "Chirimenjako — petites sardines séchées",
+    "description": "De minuscules alevins de sardine, bouillis dans l'eau salée puis séchés. Blancs, souples, longs de un à trois centimètres. Environ 40 g de protéines aux 100 g — c'est la façon japonaise d'ajouter des protéines à un bol sans en changer les proportions.",
+    "ou_le_trouver": "Allée des produits séchés, près du katsuobushi et des niboshi. Parfois au réfrigérateur.",
+    "a_quoi_ca_ressemble": "Un sac transparent de petits poissons blancs entiers, tête et queue comprises. Se vend souvent réfrigéré ou congelé.",
+    "sert_dans": [
+      "R62"
+    ],
+    "note": {
+      "titre": "Comment s'en servir",
+      "texte": "Se saupoudre tel quel sur le riz chaud, ou se fait revenir 30 secondes à sec pour le croustillant. Contient du sel : compter environ 100 mg de sodium par cuillerée à table. Se conserve au congélateur."
+    },
+    "photo": null,
+    "photo_emballage": null
+  },
+  {
+    "id": "sakura-ebi",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "桜えび",
+    "jp_lecture": "sa-kou-ra é-bi",
+    "romaji": "sakura ebi",
+    "fr": "Sakura ebi — petites crevettes séchées",
+    "description": "De minuscules crevettes séchées, roses, entières. Environ 65 g de protéines aux 100 g, et une intensité de goût sans commune mesure avec leur volume.",
+    "ou_le_trouver": "Allée des produits séchés, avec les autres produits de la mer séchés.",
+    "a_quoi_ca_ressemble": "Un sac de petites crevettes roses translucides, longues de un à deux centimètres, très légères.",
+    "sert_dans": [],
+    "note": {
+      "titre": "Comment s'en servir",
+      "texte": "Se saupoudrent telles quelles sur le riz, dans une omelette ou sur des légumes. Une cuillerée à table suffit. Se conservent au congélateur pour éviter le rancissement."
+    },
+    "photo": null,
+    "photo_emballage": null
+  },
+  {
     "id": "sauce-soya-japonaise",
     "statut": "actif",
     "section": "jp",

@@ -1,0 +1,1218 @@
+{
+  "cibles": {
+    "calories_jour": 2000,
+    "proteines_g_jour": {
+      "min": 145,
+      "max": 165,
+      "moyenne_visee": 155,
+      "plancher_absolu": 130
+    },
+    "lipides_g_jour": {
+      "cible": 65,
+      "plancher": 50
+    },
+    "glucides_g_jour": 190,
+    "sodium_mg_jour": null,
+    "repartition": [
+      {
+        "repas": "dejeuner",
+        "calories": 450,
+        "proteines_g": 40
+      },
+      {
+        "repas": "diner",
+        "calories": 500,
+        "proteines_g": 40
+      },
+      {
+        "repas": "souper",
+        "calories": 750,
+        "proteines_g": 60
+      },
+      {
+        "repas": "collations",
+        "calories": 300,
+        "proteines_g": 25
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "numero": "01",
+      "jp": "目標",
+      "jp_infobulle": "mokuhyō — « mo-kou-hyô » · la cible, l'objectif",
+      "titre": "Les cibles",
+      "corps": [
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Quatre chiffres, un seul non négociable."
+        },
+        {
+          "type": "tableau",
+          "attrs": "",
+          "attrs_table": "",
+          "lignes": [
+            {
+              "cellules": [
+                {
+                  "balise": "th",
+                  "attrs": " style=\"width:26%\"",
+                  "html": "Cible"
+                },
+                {
+                  "balise": "th",
+                  "attrs": " style=\"width:26%\"",
+                  "html": "Valeur"
+                },
+                {
+                  "balise": "th",
+                  "html": "Note"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Calories</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "<strong>2 000 par jour</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "Déficit modéré et soutenable"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Protéines</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "<strong>145 à 165 g par jour</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "Moyenne hebdomadaire visée&nbsp;: 155 g. Plancher absolu&nbsp;: 130 g."
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Lipides"
+                },
+                {
+                  "balise": "td",
+                  "html": "~65 g"
+                },
+                {
+                  "balise": "td",
+                  "html": "Plancher&nbsp;: ne pas descendre sous 50 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Glucides"
+                },
+                {
+                  "balise": "td",
+                  "html": "~190 g"
+                },
+                {
+                  "balise": "td",
+                  "html": "Le reste. Ni faible ni élevé."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Perte prévue&nbsp;: <strong>environ 1,5 lb par semaine.</strong>"
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "La cible&nbsp;: 145 à 165 g par jour",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Le chiffre de <strong>165 g</strong> correspond à environ <strong>1,8 g par kg de poids cible</strong> — le haut de la fourchette utile. Le seuil en dessous duquel un déficit calorique commence réellement à coûter du muscle se situe plutôt autour de <strong>1,6 g/kg, soit environ 145 g</strong>. C'est donc un plancher fonctionnel, pas un arrondi de confort."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Ce qui compte est la <strong>moyenne de la semaine</strong>, pas le compte de chaque jour. Une journée à 150 g où tous les plats étaient bons vaut mieux qu'une journée à 165 g où deux plats étaient difficiles à finir — parce que la seconde ne se répète pas longtemps."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "<strong>Plancher absolu&nbsp;: 130 g.</strong> En dessous, le bénéfice principal de la méthode — préserver le muscle pendant qu'on perd du gras — s'érode. Une journée à 125 g arrive&nbsp;; elle ne se planifie pas."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Pourquoi la fourchette reste haute&nbsp;:"
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "classe": "l",
+          "attrs": "",
+          "elements": [
+            {
+              "texte": "<strong>Sans stimulus protéique suffisant, une part importante du poids perdu est du muscle</strong> — souvent le quart, parfois davantage. Le muscle perdu abaisse la dépense au repos, ce qui rend la reprise plus facile et chaque perte suivante plus difficile."
+            },
+            {
+              "texte": "<strong>Les protéines rassasient plus que tout le reste.</strong> C'est le levier le plus fiable&nbsp;: la satiété, pas la restriction en glucides."
+            },
+            {
+              "texte": "Combinées à deux séances hebdomadaires de résistance, elles protègent la masse maigre."
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "<strong>Bonne nouvelle&nbsp;: le recueil est déjà construit pour ça.</strong> Chaque soupe-repas fournit 35 à 45 g par portion."
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "La répartition par repas",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "tableau",
+          "attrs": "",
+          "attrs_table": " style=\"min-width:0\"",
+          "lignes": [
+            {
+              "cellules": [
+                {
+                  "balise": "th",
+                  "html": "Repas"
+                },
+                {
+                  "balise": "th",
+                  "html": "Calories"
+                },
+                {
+                  "balise": "th",
+                  "html": "Protéines"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Déjeuner"
+                },
+                {
+                  "balise": "td",
+                  "html": "~450"
+                },
+                {
+                  "balise": "td",
+                  "html": "40 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Dîner"
+                },
+                {
+                  "balise": "td",
+                  "html": "~500"
+                },
+                {
+                  "balise": "td",
+                  "html": "40 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Souper"
+                },
+                {
+                  "balise": "td",
+                  "html": "~750"
+                },
+                {
+                  "balise": "td",
+                  "html": "60 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Collations"
+                },
+                {
+                  "balise": "td",
+                  "html": "~300"
+                },
+                {
+                  "balise": "td",
+                  "html": "25 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Total</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "<strong>2 000</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "<strong>165 g</strong>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Le souper est plus généreux parce que c'est le repas partagé — celui où il faut le moins de friction."
+        },
+        {
+          "type": "note",
+          "attrs": "",
+          "titre": "Le piège du déjeuner japonais",
+          "paragraphes": [
+            {
+              "texte": "Il est rassasiant, léger et pile sur la cible en calories — mais il n'atteint pas 40&nbsp;g de protéines tout seul. Riz 140&nbsp;g + natto + 2 œufs marinés + soupe miso au tofu ferme&nbsp;: <strong>~480 cal mais seulement ~31&nbsp;g de protéines</strong>, soit 9&nbsp;g courts (le riz n'apporte que 3&nbsp;g, le natto 8, le miso 2 — ce sont les œufs qui portent presque tout). Le levier le plus propre&nbsp;: <strong>80-100&nbsp;g d'edamames écossés</strong> (+10&nbsp;g pour ~110 cal), dans la soupe ou à côté. Autres options&nbsp;: un troisième œuf (+6&nbsp;g / 70 cal), du tofu <em>ferme</em> plutôt que soyeux dans le miso (+3&nbsp;g à quantité égale — sans augmenter la quantité, voir la note suivante), ou un <a href=\"guide-2-recettes.html#T4\">poisson grillé</a> si le rituel du dimanche en a préparé."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "attrs": "",
+          "titre": "La cible déforme les plats si on la poursuit plat par plat",
+          "paragraphes": [
+            {
+              "texte": "Deux exemples réels, deux jours consécutifs&nbsp;: <strong>cinq sources de soya dans un déjeuner</strong> (natto, miso, tofu, edamames, sauce soya des œufs), parce que chaque plat devait contribuer&nbsp;; et <strong>80&nbsp;g de tofu dans une soupe miso</strong>, soit le double de la norme japonaise, pour la même raison. Dans les deux cas, le résultat est un repas qui atteint sa cible mais qui n'est plus le plat qu'il devait être."
+            },
+            {
+              "attrs": " style=\"margin-top:12px\"",
+              "texte": "<strong>La règle&nbsp;:</strong> la cible se joue au niveau du <strong>repas</strong>, portée par <strong>une</strong> protéine principale — poisson, œuf, viande, ou tofu comme plat à part entière. Les autres plats gardent leurs proportions normales et apportent ce qu'ils apportent. Un <em>ichiju sansai</em> où chaque bol est gonflé aux protéines n'est plus un <em>ichiju sansai</em>. Les deux corrections sont documentées au <a href=\"guide-6-journal.html\">journal</a>."
+            }
+          ],
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "note",
+          "attrs": "",
+          "titre": "Le plancher de 50&nbsp;g de lipides n'est pas qu'une contrainte nutritionnelle",
+          "paragraphes": [
+            {
+              "texte": "<strong>Le gras est le véhicule des arômes</strong>&nbsp;: il les transporte et les fait durer en bouche. Un repas construit sans gras se lit comme <em>fade</em>, même correctement assaisonné — et un repas fade se paie deux heures plus tard en envie de chips et de chocolat. Ce n'est pas un manque de volonté, c'est le corps qui réclame ce qui manquait."
+            },
+            {
+              "attrs": " style=\"margin-top:12px\"",
+              "texte": "<strong>Cas vécu le 10 août&nbsp;:</strong> deux repas, 77&nbsp;g de protéines, environ 955 calories — et à peine <strong>15&nbsp;g de lipides</strong>. Le dîner était jugé fade. Fringale de sucré-salé en milieu d'après-midi."
+            },
+            {
+              "attrs": " style=\"margin-top:12px\"",
+              "texte": "Le correctif coûte presque rien&nbsp;: <strong>1 c. à thé d'huile de sésame grillé = environ 40 calories et 4,5&nbsp;g de gras.</strong> Sur un plat froid à base de conserve à l'eau, c'est la différence entre fade et bon."
+            },
+            {
+              "attrs": " style=\"margin-top:12px\"",
+              "texte": "Quand on planifie une journée, <strong>vérifier le gras au même titre que les protéines</strong>. Un plat de poisson en conserve à l'eau, du tofu et des légumes blanchis, c'est une journée à zéro lipide sans qu'on s'en aperçoive."
+            }
+          ],
+          "blanc": "\n\n    "
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "numero": "02",
+      "jp": "二段階",
+      "jp_infobulle": "nidankai — « ni-dane-kaï » · deux phases",
+      "titre": "La méthode en deux phases",
+      "corps": [
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "Phase 1 — Deux semaines de mesure",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "<strong>L'objectif n'est pas de perdre du poids. C'est d'apprendre.</strong> Deux semaines suffisent à découvrir où sont réellement les calories, ce qui est presque toujours une surprise. Ensuite, on peut arrêter de compter."
+        },
+        {
+          "type": "liste",
+          "ordonnee": true,
+          "classe": "l",
+          "attrs": "",
+          "elements": [
+            {
+              "texte": "<strong>Installer une application</strong> — MyFitnessPal (meilleure base de données canadienne) ou Cronometer (plus précis sur les micronutriments)."
+            },
+            {
+              "texte": "<strong>Acheter une balance de cuisine numérique.</strong> 20&nbsp;$. Indispensable pendant ces deux semaines seulement."
+            },
+            {
+              "texte": "<strong>Tout inscrire.</strong> Y compris l'huile de cuisson, les sauces, les gorgées, les bouchées debout devant le comptoir. Surtout celles-là."
+            },
+            {
+              "texte": "<strong>Ne rien changer la première semaine.</strong> Manger normalement et observer. Le chiffre de départ est une information, pas un jugement."
+            },
+            {
+              "texte": "<strong>Appliquer la cible la deuxième semaine.</strong>"
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "<strong>Les cinq choses qu'on découvre presque toujours&nbsp;:</strong>"
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "classe": "l",
+          "attrs": "",
+          "elements": [
+            {
+              "texte": "L'huile de cuisson versée à l'œil représente 200 à 400 calories par jour"
+            },
+            {
+              "texte": "Les boissons sucrées comptent pour bien plus qu'on ne le croyait"
+            },
+            {
+              "texte": "Les portions de féculents font le double de ce qu'on estimait"
+            },
+            {
+              "texte": "Les protéines sont beaucoup plus basses que prévu — c'est la découverte la plus fréquente"
+            },
+            {
+              "texte": "Le grignotage du soir est le poste le plus sous-estimé de tous"
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "Phase 2 — Les gabarits",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Après deux semaines, on abandonne le comptage quotidien. On garde <strong>une seule cible chiffrée&nbsp;: les protéines.</strong> Le reste passe aux repères visuels."
+        },
+        {
+          "type": "tableau",
+          "attrs": "",
+          "attrs_table": "",
+          "lignes": [
+            {
+              "cellules": [
+                {
+                  "balise": "th",
+                  "html": "Élément"
+                },
+                {
+                  "balise": "th",
+                  "html": "Repère"
+                },
+                {
+                  "balise": "th",
+                  "html": "Équivaut à"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Protéine</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "1 à 2 paumes de la main"
+                },
+                {
+                  "balise": "td",
+                  "html": "30 à 60 g de protéines"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Riz ou féculent</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "Le petit bol japonais, rempli une fois"
+                },
+                {
+                  "balise": "td",
+                  "html": "140 g cuit, ~200 cal"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Légumes</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "2 poings minimum, sans limite supérieure"
+                },
+                {
+                  "balise": "td",
+                  "html": "50 à 100 cal"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Gras ajouté</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "1 pouce (le doigt, pas la longueur)"
+                },
+                {
+                  "balise": "td",
+                  "html": "1 c. à soupe, ~120 cal"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Soupe-entrée</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "1 petit bol avant le souper"
+                },
+                {
+                  "balise": "td",
+                  "html": "40 à 80 cal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "<strong>La règle du souper&nbsp;:</strong> la moitié de l'assiette en légumes, le quart en protéine, le quart en féculent. Le petit bol règle le féculent tout seul."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "<strong>Le seul chiffre à garder en tête&nbsp;: 155 g de protéines en moyenne sur la semaine</strong>, dans une fourchette de 145 à 165. Tout le reste suit."
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "Pourquoi cette approche plutôt qu'une autre",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Compter fonctionne très bien pendant six semaines et s'effondre au troisième mois. Ce n'est pas un défaut de caractère, c'est la nature de la tâche&nbsp;: elle demande un effort quotidien qui ne diminue jamais."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Les gabarits demandent un effort initial d'apprentissage, puis presque rien. Mais ils ne fonctionnent que si l'œil est calibré — d'où les deux semaines de mesure."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "numero": "03",
+      "jp": "たんぱく質",
+      "jp_infobulle": "tanpakushitsu — « tane-pa-kou-chi-tsou » · les protéines",
+      "titre": "Atteindre la cible protéique",
+      "corps": [
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "C'est la partie qu'il faut planifier, parce qu'elle ne se fait pas toute seule."
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "Ce que fournit chaque aliment",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "tableau",
+          "attrs": "",
+          "attrs_table": " style=\"min-width:0\"",
+          "lignes": [
+            {
+              "cellules": [
+                {
+                  "balise": "th",
+                  "html": "Aliment"
+                },
+                {
+                  "balise": "th",
+                  "html": "Portion"
+                },
+                {
+                  "balise": "th",
+                  "html": "Protéines"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Poitrine de poulet"
+                },
+                {
+                  "balise": "td",
+                  "html": "150 g cuit"
+                },
+                {
+                  "balise": "td",
+                  "html": "45 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Saumon"
+                },
+                {
+                  "balise": "td",
+                  "html": "150 g"
+                },
+                {
+                  "balise": "td",
+                  "html": "34 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Bœuf maigre"
+                },
+                {
+                  "balise": "td",
+                  "html": "150 g"
+                },
+                {
+                  "balise": "td",
+                  "html": "40 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Crevettes"
+                },
+                {
+                  "balise": "td",
+                  "html": "150 g"
+                },
+                {
+                  "balise": "td",
+                  "html": "30 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Thon en conserve"
+                },
+                {
+                  "balise": "td",
+                  "html": "1 boîte"
+                },
+                {
+                  "balise": "td",
+                  "html": "25 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Tofu ferme"
+                },
+                {
+                  "balise": "td",
+                  "html": "150 g"
+                },
+                {
+                  "balise": "td",
+                  "html": "17 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Œuf"
+                },
+                {
+                  "balise": "td",
+                  "html": "1 gros"
+                },
+                {
+                  "balise": "td",
+                  "html": "6 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Natto"
+                },
+                {
+                  "balise": "td",
+                  "html": "1 paquet"
+                },
+                {
+                  "balise": "td",
+                  "html": "17 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Edamames écossés"
+                },
+                {
+                  "balise": "td",
+                  "html": "1 tasse"
+                },
+                {
+                  "balise": "td",
+                  "html": "18 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Yogourt grec 0 %"
+                },
+                {
+                  "balise": "td",
+                  "html": "175 g"
+                },
+                {
+                  "balise": "td",
+                  "html": "17 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Soba (sarrasin)"
+                },
+                {
+                  "balise": "td",
+                  "html": "100 g sec"
+                },
+                {
+                  "balise": "td",
+                  "html": "14 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "Riz"
+                },
+                {
+                  "balise": "td",
+                  "html": "140 g cuit"
+                },
+                {
+                  "balise": "td",
+                  "html": "3 g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "Une journée type dans le haut de la fourchette",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "tableau",
+          "attrs": "",
+          "attrs_table": "",
+          "lignes": [
+            {
+              "cellules": [
+                {
+                  "balise": "th",
+                  "html": "Repas"
+                },
+                {
+                  "balise": "th",
+                  "html": "Contenu"
+                },
+                {
+                  "balise": "th",
+                  "html": "Protéines"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Déjeuner</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "2 œufs + 1 natto + riz + soupe miso au tofu"
+                },
+                {
+                  "balise": "td",
+                  "html": "40 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Dîner</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "Bol de tofu froid + 1 boîte de thon + edamames"
+                },
+                {
+                  "balise": "td",
+                  "html": "45 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Collation</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "2 œufs marinés + yogourt grec"
+                },
+                {
+                  "balise": "td",
+                  "html": "29 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": "<strong>Souper</strong>"
+                },
+                {
+                  "balise": "td",
+                  "html": "Saumon 200 g + riz + légumes + soupe"
+                },
+                {
+                  "balise": "td",
+                  "html": "48 g"
+                }
+              ]
+            },
+            {
+              "cellules": [
+                {
+                  "balise": "td",
+                  "html": ""
+                },
+                {
+                  "balise": "td",
+                  "html": ""
+                },
+                {
+                  "balise": "td",
+                  "html": "<strong>162 g</strong>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "Les trois leviers si le compte ne rentre pas",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "liste",
+          "ordonnee": true,
+          "classe": "l",
+          "attrs": "",
+          "elements": [
+            {
+              "texte": "<strong>Doubler la protéine des soupes-repas.</strong> Elles sont conçues pour 400 g de protéine par recette de 2 portions — monter à 500 g change peu le goût."
+            },
+            {
+              "texte": "<strong>Le yogourt grec 0 % comme collation par défaut.</strong> 17 g pour 100 calories, le meilleur ratio disponible."
+            },
+            {
+              "texte": "<strong>Les œufs marinés en permanence au frigo.</strong> Six par semaine, préparés le dimanche."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "numero": "04",
+      "jp": "小皿",
+      "jp_infobulle": "kozara — « ko-za-ra » · le petit plat",
+      "titre": "Atteindre la cible sans dénaturer les plats",
+      "corps": [
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Il existe une façon de <strong>rater la cible en l'atteignant</strong>. Elle consiste à prendre une recette normale et à en gonfler le contenu jusqu'à ce que les chiffres tombent juste. On obtient alors un plat qui n'est plus lui-même&nbsp;: un hiyayakko dont on ne voit plus le tofu, un bol de nouilles dont on ne voit plus les nouilles, une portion qu'on n'arrive pas à finir."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Ce n'est pas une erreur de calcul, c'est <strong>une erreur de structure</strong>. Les deux se sont produites le 9 et le 10 août, à un jour d'intervalle. Voici les quatre règles qui les évitent."
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "1. Le plafond des 25&nbsp;%",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Une fiche peut être servie jusqu'à environ <strong>un quart au-dessus</strong> de sa portion de référence. Au-delà, on change de plat."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Une fiche à 15 g de protéines peut monter à 19. <strong>Elle ne peut pas monter à 39</strong>&nbsp;: à ce point-là, la garniture pèse autant que le sujet et le plat perd son identité."
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "2. Quand il manque des protéines, on ajoute un plat",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "C'est la réponse japonaise, et elle est inscrite dans la structure du repas. <em>Ichiju sansai</em> (<span title=\"ichijū sansai — « i-tchi-djou sane-saï » · une soupe et trois plats\" style=\"cursor:help;border-bottom:1px dotted currentColor\">一汁三菜</span>, une soupe et trois plats) a un grand frère&nbsp;: <em>ichiju gosai</em> (<span title=\"ichijū gosai — « i-tchi-djou go-saï » · une soupe et cinq plats\" style=\"cursor:help;border-bottom:1px dotted currentColor\">一汁五菜</span>, une soupe et cinq plats). Quand un repas doit porter davantage, <strong>on ajoute un kobachi. On ne double pas le contenu des bols existants.</strong>"
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Un petit plat de plus à 10 g de protéines règle un écart de 10 g sans toucher au reste du repas. Concrètement&nbsp;: des <a href=\"guide-2-recettes.html#R48\">edamames</a>, un œuf, un kobachi de poisson, une salade de daikon au chirimenjako."
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "3. Les collations sont un poste du plan, pas un extra",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Le plan prévoit <strong>300 calories et 25 g de protéines en collations</strong>. Ce n'est pas une marge de sécurité&nbsp;: c'est <strong>un cinquième de l'apport protéique de la journée</strong>."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Les compter à zéro et essayer de rattraper l'écart dans les trois repas est exactement ce qui mène à la surcharge. Un œuf dur et un yogourt grec, c'est 25 g sans toucher à un seul plat."
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "4. Une journée en dessous de la cible n'est pas un échec",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "La cible haute de 165 g correspond à environ 1,8 g par kilo de poids cible&nbsp;; le plancher fonctionnel de 145 g, à environ 1,6 g/kg. L'écart de bénéfice entre les deux est réel, mais <strong>modeste</strong> — c'est pourquoi la cible est une fourchette et non un nombre (voir la section 1)."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Ce qui compte est la <strong>moyenne sur la semaine</strong>, visée à 155 g — pas le compte de chaque jour."
+        },
+        {
+          "type": "texte",
+          "balise": "h3",
+          "classe": "h3",
+          "attrs": "",
+          "texte": "Et les protéines en poudre&nbsp;?",
+          "blanc": "\n\n    "
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "C'est une option réelle, avec des conditions — mais <strong>la piste est écartée pour le moment</strong>. Ce qui suit est là pour documenter la décision, pas pour la recommander."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Un <strong>isolat de lactosérum non aromatisé</strong> apporte environ 25 à 30 g de protéines par mesure, pour à peu près 110 calories, sans goût marqué. C'est une protéine complète, riche en <strong>leucine</strong> — l'acide aminé qui déclenche la synthèse musculaire."
+        },
+        {
+          "type": "note",
+          "attrs": "",
+          "titre": "Il coagule dans un liquide chaud",
+          "paragraphes": [
+            {
+              "texte": "La seule méthode qui fonctionne&nbsp;: le <strong>délayer d'abord dans un peu de liquide froid</strong> pour en faire une pâte lisse, puis l'incorporer au plat <strong>retiré du feu</strong>. Même mécanique que le miso, et même interdiction de faire bouillir ensuite."
+            },
+            {
+              "attrs": " style=\"margin-top:12px\"",
+              "texte": "<strong>Un mythe à écarter&nbsp;:</strong> la chaleur ne «&nbsp;détruit&nbsp;» pas la protéine. La dénaturation est un changement de structure&nbsp;; les acides aminés restent disponibles et la valeur nutritionnelle demeure."
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "<strong>Le collagène est le mauvais choix ici.</strong> Il se dissout pourtant magnifiquement à chaud, ce qui le rend tentant. Mais il ne contient pas de tryptophane — c'est une protéine incomplète — et il est très pauvre en leucine. Pour préserver du muscle en déficit, c'est précisément le pire choix disponible."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "<strong>Où la poudre a sa place&nbsp;: dans la collation, pas dans le plat.</strong> Un bouillon dashi additionné d'isolat devient trouble et laiteux. Le repas reste intact, la collation comble l'écart — c'est plus honnête que de maquiller un bouillon."
+        },
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "Pour ajouter des protéines <em>dans</em> un plat sans le dénaturer, la solution est ailleurs&nbsp;: katsuobushi, chirimenjako, sakura ebi, niboshi. Voir <a href=\"guide-3-supermarche.html#poudres\">les protéines à saupoudrer</a> au guide 3."
+        },
+        {
+          "type": "note",
+          "attrs": "",
+          "titre": "Ce document n'est pas un avis médical",
+          "paragraphes": [
+            {
+              "texte": "Cette section touche à l'apport protéique. Toute décision de fond sur les cibles nutritionnelles relève d'un professionnel de la santé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "numero": "05",
+      "jp": "開始",
+      "jp_infobulle": "kaishi — « kaï-chi » · le départ, le commencement",
+      "titre": "Pour démarrer",
+      "corps": [
+        {
+          "type": "texte",
+          "balise": "p",
+          "classe": "p",
+          "attrs": "",
+          "texte": "La liste de la première semaine."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "classe": "l",
+          "attrs": "",
+          "elements": [
+            {
+              "texte": "Installer une application de suivi"
+            },
+            {
+              "texte": "Acheter une balance de cuisine"
+            },
+            {
+              "texte": "Acheter le petit bol à riz et le pichet"
+            },
+            {
+              "texte": "<strong>Semaine 1&nbsp;:</strong> manger normalement et tout inscrire, sans rien changer"
+            },
+            {
+              "texte": "Prendre les mesures de départ&nbsp;: poids, tour de taille, photos"
+            },
+            {
+              "texte": "Marcher 20 minutes, trois fois"
+            },
+            {
+              "texte": "Prendre rendez-vous avec la nutritionniste"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "attrs": "",
+          "titre": "Le principe de départ",
+          "paragraphes": [
+            {
+              "texte": "<strong>Ne pas commencer le déficit avant d'avoir une semaine de données.</strong> L'information vaut plus que les sept jours perdus."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

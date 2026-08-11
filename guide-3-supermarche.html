@@ -705,6 +705,17 @@ const I = [
  d:"Le quatrième dashi. Robuste, rustique, très peu d'iode. Retirer la tête et les entrailles pour éviter l'amertume.",
  w:"Allée des séchés, à côté des crevettes et pétoncles séchés.",
  l:"Sacs de petits poissons argentés séchés entiers, de 3 à 8 cm."},
+{s:"sec",jp:"ちりめんじゃこ",ro:"chirimenjako",pr:"tchi-ri-mène-dja-ko",fr:"Chirimenjako — petites sardines séchées",img:null,
+ d:"De minuscules alevins de sardine, bouillis dans l'eau salée puis séchés. Blancs, souples, longs de un à trois centimètres. Environ 40 g de protéines aux 100 g — c'est la façon japonaise d'ajouter des protéines à un bol sans en changer les proportions.",
+ w:"Allée des produits séchés, près du katsuobushi et des niboshi. Parfois au réfrigérateur.",
+ l:"Un sac transparent de petits poissons blancs entiers, tête et queue comprises. Se vend souvent réfrigéré ou congelé.",
+ u:["R62"],
+ nk:"Comment s'en servir",n:"Se saupoudre tel quel sur le riz chaud, ou se fait revenir 30 secondes à sec pour le croustillant. Contient du sel : compter environ 100 mg de sodium par cuillerée à table. Se conserve au congélateur."},
+{s:"sec",jp:"桜えび",ro:"sakura ebi",pr:"sa-kou-ra é-bi",fr:"Sakura ebi — petites crevettes séchées",img:null,
+ d:"De minuscules crevettes séchées, roses, entières. Environ 65 g de protéines aux 100 g, et une intensité de goût sans commune mesure avec leur volume.",
+ w:"Allée des produits séchés, avec les autres produits de la mer séchés.",
+ l:"Un sac de petites crevettes roses translucides, longues de un à deux centimètres, très légères.",
+ nk:"Comment s'en servir",n:"Se saupoudrent telles quelles sur le riz, dans une omelette ou sur des légumes. Une cuillerée à table suffit. Se conservent au congélateur pour éviter le rancissement."},
 
 // ⑦ ALLÉE JAPONAISE
 {s:"jp",jp:"醤油",ro:"shōyu",fr:"Sauce soya japonaise",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Soy_sauce_2.jpg?width=1200",pack:"assets/produits/sauce-soya.jpg",
@@ -960,7 +971,7 @@ class Component extends DCLogic {
     const flt = I.filter(x => sec === "tous" || x.s === sec)
       .filter(x => !term || norm(x.fr + " " + x.ro + " " + x.jp + " " + x.d + " " + x.l).includes(term));
     const list = flt.map(x => ({
-        jp: x.jp, ro: x.ro, fr: x.fr, img: x.img, bg: 'url("' + x.img + '")', jpt: JPT(x.jp, x.ro, x.fr, x.pr),
+        jp: x.jp, ro: x.ro, fr: x.fr, img: x.img, bg: x.img ? 'url("' + x.img + '")' : 'none', jpt: JPT(x.jp, x.ro, x.fr, x.pr),
         secLabel: SECLABEL[x.s],
         go: () => this.go(this.slug(x))
       }));
@@ -972,7 +983,7 @@ class Component extends DCLogic {
 
     const o = I.find(x => this.slug(x) === open);
     const openVal = o ? {
-      jp: o.jp, ro: o.ro, fr: o.fr, desc: RT(o.d), img: o.img, bg: 'url("' + o.img + '")', jpt: JPT(o.jp, o.ro, o.fr, o.pr),
+      jp: o.jp, ro: o.ro, fr: o.fr, desc: RT(o.d), img: o.img, bg: o.img ? 'url("' + o.img + '")' : 'none', jpt: JPT(o.jp, o.ro, o.fr, o.pr),
       secLabel: SECLABEL[o.s], where: RT(o.w), look: RT(o.l),
       hasPrev: !!prevId, hasNext: !!nextId,
       goPrev: () => prevId && this.go(prevId),

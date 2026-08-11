@@ -1,8 +1,8 @@
 {
   "site": "washoku",
   "version_schema": "1.0",
-  "derniere_maj": "2026-08-10",
-  "dernier_document_applique": 7,
+  "derniere_maj": "2026-08-11",
+  "dernier_document_applique": 8,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "fichiers": [
     {
@@ -14,14 +14,32 @@
     {
       "nom": "guide-3-ingredients.json",
       "description": "Fiches d’ingrédients du guide 3",
-      "nb_entrees": 74,
-      "nb_actives": 74
+      "nb_entrees": 76,
+      "nb_actives": 76
     },
     {
       "nom": "guide-4-exercices.json",
       "description": "Exercices du guide 4",
       "nb_entrees": 16,
       "nb_actives": 16
+    },
+    {
+      "nom": "guide-6-journal.json",
+      "description": "Entrées du journal du guide 6",
+      "nb_entrees": 5,
+      "nb_actives": 5
+    },
+    {
+      "nom": "guide-2-annexes.json",
+      "description": "Annexes du guide 2 : lexique, yakumi, dépannage, thé",
+      "nb_entrees": 4,
+      "nb_actives": 4
+    },
+    {
+      "nom": "guide-5-plan.json",
+      "description": "Cibles chiffrées et sections du guide 5",
+      "nb_entrees": 5,
+      "nb_actives": 5
     }
   ],
   "compteurs": {

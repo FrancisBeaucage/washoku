@@ -7,15 +7,11 @@
 
 const fs = require('fs');
 const path = require('path');
-const { SOURCES, RACINE, DATA } = require('./lib/sources');
+const { SOURCES, PROSES, RACINE, DATA } = require('./lib/sources');
 const { lireBloc, lireFichier, decouperEntrees } = require('./lib/blocs');
+const { limace } = require('./lib/champs');
 
 const force = process.argv.includes('--force');
-
-function limace(s) {
-  return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
-    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-}
 
 if (fs.existsSync(DATA) && !force) {
   console.error('/data existe déjà. Relancer avec --force pour le réécrire.');
@@ -54,6 +50,21 @@ for (const src of SOURCES) {
   );
   compteurs[src.cle] = objets.length;
   console.log(`${src.cle}.json — ${objets.length} entrées`);
+}
+
+/* Les sources de prose : sections de page entières, extraites en blocs.
+   L'aller-retour est vérifié tout de suite — une extraction qui ne saurait pas
+   revenir en arrière est une perte de contenu déguisée. */
+for (const src of PROSES) {
+  const html = lireFichier(path.join(RACINE, src.page));
+  const donnees = src.mapper.extraire(html);
+  const retour = src.mapper.reinjecter(html, src.mapper.partieRendue(donnees));
+  if (retour !== html) throw new Error(`${src.cle} : l'aller-retour n'est pas exact, extraction refusée`);
+
+  fs.writeFileSync(path.join(DATA, `${src.cle}.json`), JSON.stringify(donnees, null, 2) + '\n', 'utf8');
+  const { nb_entrees } = src.compte(donnees);
+  compteurs[src.cle] = nb_entrees;
+  console.log(`${src.cle}.json — ${nb_entrees} entrées (aller-retour exact)`);
 }
 
 fs.writeFileSync(path.join(DATA, '.compteurs-extraction.json'), JSON.stringify(compteurs, null, 2) + '\n', 'utf8');

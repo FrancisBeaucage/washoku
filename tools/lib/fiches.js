@@ -30,6 +30,12 @@ function versJson(r) {
       sodium_mg: null,
       // Vrai pour les plats de restes, dont l'apport dépend de ce qu'on y met.
       variable: /variable/i.test(String(r.pro)) || /variable/i.test(String(r.cal)),
+      /* D'où viennent les chiffres. « estime » = tables génériques, ce qu'était
+         tout le dossier au départ ; « etiquette » = relevé sur l'emballage des
+         produits réellement utilisés ; « pese » = pesé ingrédient par
+         ingrédient. Le remplissage est opportuniste : une fiche passe à
+         « etiquette » le jour où elle est cuisinée, jamais rétroactivement. */
+      source: 'estime',
       note: "Ordres de grandeur. L'étiquette du produit prime.",
     },
     ingredients: ing,

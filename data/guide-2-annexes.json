@@ -1,0 +1,1609 @@
+{
+  "lexique": {
+    "id": "lexique",
+    "numero": "02",
+    "titre": "Lexique",
+    "jp_infobulle": "yōgo — « yô-go » · le lexique",
+    "jp": "用語",
+    "intro": "Les mots qui reviennent partout dans les quatre guides.",
+    "intro_attrs": " style=\"margin:0 0 6px;font-size:16px;line-height:1.7;max-width:38em;color:#444141\"",
+    "categories": [
+      {
+        "id": "les-bases",
+        "titre": "Les bases",
+        "entrees": [
+          {
+            "id": "washoku",
+            "jp": "和食",
+            "jp_lecture": null,
+            "infobulle": "washoku — « wa-cho-kou » · la cuisine japonaise traditionnelle",
+            "romaji": "washoku",
+            "definition": "La cuisine japonaise traditionnelle dans son ensemble. Patrimoine immatériel de l'UNESCO depuis 2013."
+          },
+          {
+            "id": "ichiju-sansai",
+            "jp": "一汁三菜",
+            "jp_lecture": null,
+            "infobulle": "ichiju sansai — « i-tchi-djou sane-saï » · une soupe, trois plats",
+            "romaji": "ichiju sansai",
+            "definition": "« Une soupe, trois plats ». La structure canonique d'un repas japonais."
+          },
+          {
+            "id": "kobachi",
+            "jp": "小鉢",
+            "jp_lecture": null,
+            "infobulle": "kobachi — « ko-ba-tchi » · petit plat d'accompagnement",
+            "romaji": "kobachi",
+            "definition": "Petit plat d'accompagnement, servi froid ou à température ambiante. C'est le rôle que tiennent le sunomono, l'ohitashi et le goma-ae."
+          },
+          {
+            "id": "dashi",
+            "jp": "だし",
+            "jp_lecture": null,
+            "infobulle": "dashi — « da-chi » · le bouillon de base",
+            "romaji": "dashi",
+            "definition": "Le bouillon de base. Kombu, katsuobushi, shiitakes séchés ou sardines séchées."
+          },
+          {
+            "id": "umami",
+            "jp": "旨味",
+            "jp_lecture": null,
+            "infobulle": "umami — « ou-ma-mi » · la cinquième saveur",
+            "romaji": "umami",
+            "definition": "La cinquième saveur, après le sucré, le salé, l'acide et l'amer."
+          },
+          {
+            "id": "gohan",
+            "jp": "ご飯",
+            "jp_lecture": null,
+            "infobulle": "gohan — « go-hane » · le riz cuit, et le repas",
+            "romaji": "gohan",
+            "definition": "Le riz cuit, et par extension « repas ». Le riz cru se dit <em>kome</em> (<span title=\"kome — « ko-mé » · le riz cru\" style=\"cursor:help;border-bottom:1px dotted currentColor\">米</span>)."
+          },
+          {
+            "id": "tamago",
+            "jp": "卵",
+            "jp_lecture": null,
+            "infobulle": "tamago — « ta-ma-go » · l'œuf",
+            "romaji": "tamago",
+            "definition": "Œuf."
+          }
+        ]
+      },
+      {
+        "id": "les-techniques",
+        "titre": "Les techniques",
+        "entrees": [
+          {
+            "id": "shioyaki",
+            "jp": "塩焼き",
+            "jp_lecture": null,
+            "infobulle": "shioyaki — « chi-o-ya-ki » · grillé au sel",
+            "romaji": "shioyaki",
+            "definition": "« Grillé au sel ». Poisson salé puis passé au gril, sans huile."
+          },
+          {
+            "id": "shiojime",
+            "jp": "塩締め",
+            "jp_lecture": null,
+            "infobulle": "shiojime — « chi-o-dji-mé » · le salage préalable",
+            "romaji": "shiojime",
+            "definition": "Le salage préalable qui précède la cuisson."
+          },
+          {
+            "id": "teriyaki",
+            "jp": "照り焼き",
+            "jp_lecture": null,
+            "infobulle": "teriyaki — « té-ri-ya-ki » · grillé puis glacé",
+            "romaji": "teriyaki",
+            "definition": "Grillé puis glacé à la sauce sucrée-salée."
+          },
+          {
+            "id": "nitsuke",
+            "jp": "煮付け",
+            "jp_lecture": null,
+            "infobulle": "nitsuke — « ni-tsou-ké » · mijoté au soya et gingembre",
+            "romaji": "nitsuke",
+            "definition": "Mijoté dans soya, mirin et gingembre."
+          },
+          {
+            "id": "saikyo-yaki",
+            "jp": "西京焼き",
+            "jp_lecture": null,
+            "infobulle": "saikyō-yaki — « saï-kyô ya-ki » · mariné au miso puis grillé",
+            "romaji": "saikyo-yaki",
+            "definition": "Mariné dans du miso blanc sucré, puis grillé."
+          },
+          {
+            "id": "nanbanzuke",
+            "jp": "南蛮漬け",
+            "jp_lecture": null,
+            "infobulle": "nanbanzuke — « nane-bane-zou-ké » · frit puis mariné au vinaigre",
+            "romaji": "nanbanzuke",
+            "definition": "Frit puis mariné dans un vinaigre aromatisé."
+          },
+          {
+            "id": "zuke",
+            "jp": "漬け",
+            "jp_lecture": null,
+            "infobulle": "zuke — « zou-ké » · poisson cru mariné au soya",
+            "romaji": "zuke",
+            "definition": "Poisson cru mariné dans la sauce soya."
+          },
+          {
+            "id": "ohitashi",
+            "jp": "お浸し",
+            "jp_lecture": null,
+            "infobulle": "ohitashi — « o-hi-ta-chi » · verdure blanchie au dashi",
+            "romaji": "ohitashi",
+            "definition": "Verdure blanchie puis trempée dans du dashi assaisonné."
+          },
+          {
+            "id": "goma-ae",
+            "jp": "胡麻和え",
+            "jp_lecture": null,
+            "infobulle": "goma-ae — « go-ma a-é » · légumes au sésame broyé",
+            "romaji": "goma-ae",
+            "definition": "Légumes enrobés d'une sauce au sésame broyé."
+          },
+          {
+            "id": "ae",
+            "jp": "和え",
+            "jp_lecture": null,
+            "infobulle": "ae — « a-é » · lier, enrober",
+            "romaji": "ae",
+            "definition": "Lier, enrober. La famille de plats où un ingrédient cuit est enrobé d'un assaisonnement épais — le geste se fait en faisant tourner le bol, pas à la cuillère."
+          },
+          {
+            "id": "sogigiri",
+            "jp": "そぎ切り",
+            "jp_lecture": null,
+            "infobulle": "sogigiri — « so-gi-gi-ri » · coupe en biseau",
+            "romaji": "sogigiri",
+            "definition": "Coupe en biseau, lame inclinée. Multiplie la surface exposée&nbsp;: c'est la coupe des tiges épaisses avant d'enrober."
+          },
+          {
+            "id": "sunomono",
+            "jp": "酢の物",
+            "jp_lecture": null,
+            "infobulle": "sunomono — « sou-no-mo-no » · salade vinaigrée",
+            "romaji": "sunomono",
+            "definition": "Salade vinaigrée."
+          },
+          {
+            "id": "kinpira",
+            "jp": "金平",
+            "jp_lecture": null,
+            "infobulle": "kinpira — « kine-pi-ra » · racines sautées puis glacées",
+            "romaji": "kinpira",
+            "definition": "Légumes-racines sautés puis glacés."
+          },
+          {
+            "id": "velveting",
+            "jp": "上漿",
+            "jp_lecture": null,
+            "infobulle": "velveting — « chàng jiāng » · attendrir au bicarbonate et à la fécule",
+            "romaji": "velveting",
+            "definition": "Enrober la viande d'une pellicule protectrice (fécule et blanc d'œuf) ou en alcaliniser la surface (bicarbonate) avant de la sauter, pour la garder tendre. Voir la technique <a href=\"#T5\" style=\"color:#ae1800;text-decoration:underline\">T5</a>.",
+            "langue": "chinois"
+          }
+        ]
+      },
+      {
+        "id": "les-ingredients",
+        "titre": "Les ingrédients",
+        "entrees": [
+          {
+            "id": "kombu",
+            "jp": "昆布",
+            "jp_lecture": null,
+            "infobulle": "kombu — « kone-bou » · algue laminaire séchée",
+            "romaji": "kombu",
+            "definition": "Algue laminaire séchée. Base du dashi. La poudre blanche en surface est l'umami — ne pas la laver.",
+            "sante": true
+          },
+          {
+            "id": "katsuobushi",
+            "jp": "鰹節",
+            "jp_lecture": null,
+            "infobulle": "katsuobushi — « ka-tsou-o-bou-chi » · copeaux de bonite séchée",
+            "romaji": "katsuobushi",
+            "definition": "Bonite séchée, fumée et fermentée, rasée en copeaux très fins."
+          },
+          {
+            "id": "niboshi",
+            "jp": "煮干し",
+            "jp_lecture": null,
+            "infobulle": "niboshi — « ni-bo-chi » · petites sardines séchées",
+            "romaji": "niboshi",
+            "definition": "Petites sardines séchées."
+          },
+          {
+            "id": "miso",
+            "jp": "味噌",
+            "jp_lecture": null,
+            "infobulle": "miso — « mi-so » · pâte de soya fermenté",
+            "romaji": "miso",
+            "definition": "Pâte de soya fermenté. <em>Shiro</em> = blanc et doux. <em>Aka</em> = rouge et corsé."
+          },
+          {
+            "id": "natto",
+            "jp": "納豆",
+            "jp_lecture": null,
+            "infobulle": "nattō — « na-tô » · fèves de soya fermentées",
+            "romaji": "natto",
+            "definition": "Fèves de soya fermentées. Collant, filant, odeur forte. Très protéiné."
+          },
+          {
+            "id": "nori",
+            "jp": "海苔",
+            "jp_lecture": null,
+            "infobulle": "nori — « no-ri » · feuille d'algue séchée",
+            "romaji": "nori",
+            "definition": "Feuilles d'algue séchée pressée. <em>Yaki nori</em> = nature, grillé.",
+            "sante": true
+          },
+          {
+            "id": "wakame",
+            "jp": "わかめ",
+            "jp_lecture": null,
+            "infobulle": "wakame — « wa-ka-mé » · algue tendre",
+            "romaji": "wakame",
+            "definition": "Algue tendre, réhydratée dans les soupes et salades.",
+            "sante": true
+          },
+          {
+            "id": "konnyaku",
+            "jp": "こんにゃく",
+            "jp_lecture": null,
+            "infobulle": "konnyaku — « kone-nya-kou » · gelée de konjac",
+            "romaji": "konnyaku",
+            "definition": "Gelée ferme de racine de konjac. ~5 calories aux 100 g. En blocs ou en nouilles (<em>shirataki</em>)."
+          },
+          {
+            "id": "tofu",
+            "jp": "豆腐",
+            "jp_lecture": null,
+            "infobulle": "tōfu — « tô-fou » · le tofu",
+            "romaji": "tofu",
+            "definition": "<em>Momen</em> = ferme. <em>Kinugoshi</em> = soyeux. <em>Atsuage</em> = frit en surface."
+          },
+          {
+            "id": "daikon",
+            "jp": "大根",
+            "jp_lecture": null,
+            "infobulle": "daikon — « daï-kone » · gros radis blanc",
+            "romaji": "daikon",
+            "definition": "Gros radis blanc japonais. Doux, croquant, très peu calorique."
+          },
+          {
+            "id": "shiso",
+            "jp": "紫蘇",
+            "jp_lecture": null,
+            "infobulle": "shiso — « chi-so » · herbe entre menthe et basilic",
+            "romaji": "shiso",
+            "definition": "Herbe aromatique, entre la menthe et le basilic."
+          },
+          {
+            "id": "yuzu",
+            "jp": "柚子",
+            "jp_lecture": null,
+            "infobulle": "yuzu — « you-zou » · agrume japonais",
+            "romaji": "yuzu",
+            "definition": "Agrume japonais, entre le pamplemousse et la mandarine."
+          },
+          {
+            "id": "edamame",
+            "jp": "枝豆",
+            "jp_lecture": null,
+            "infobulle": "edamame — « é-da-ma-mé » · fèves de soya en cosses",
+            "romaji": "edamame",
+            "definition": "Fèves de soya immatures, servies en cosses.",
+            "sante": true
+          },
+          {
+            "id": "panko",
+            "jp": "パン粉",
+            "jp_lecture": null,
+            "infobulle": "panko — « pane-ko » · chapelure japonaise",
+            "romaji": "panko",
+            "definition": "Chapelure japonaise, en flocons légers."
+          }
+        ]
+      },
+      {
+        "id": "les-condiments",
+        "titre": "Les condiments",
+        "entrees": [
+          {
+            "id": "ponzu",
+            "jp": "ポン酢",
+            "jp_lecture": null,
+            "infobulle": "ponzu — « pone-zou » · sauce soya-agrume",
+            "romaji": "ponzu",
+            "definition": "Sauce à base de soya et de jus d'agrume. Acidulée, légère."
+          },
+          {
+            "id": "mirin",
+            "jp": "みりん",
+            "jp_lecture": null,
+            "infobulle": "mirin — « mi-rine » · vin de riz sucré",
+            "romaji": "mirin",
+            "definition": "Vin de riz sucré pour la cuisine. Apporte brillant et rondeur."
+          },
+          {
+            "id": "tare",
+            "jp": "タレ",
+            "jp_lecture": null,
+            "infobulle": "tare — « ta-ré » · sauce-glaçage réduite",
+            "romaji": "tare",
+            "definition": "Sauce-glaçage réduite (soya, mirin, saké, sucre) pour badigeonner."
+          },
+          {
+            "id": "furikake",
+            "jp": "ふりかけ",
+            "jp_lecture": null,
+            "infobulle": "furikake — « fou-ri-ka-ké » · mélange sec pour le riz",
+            "romaji": "furikake",
+            "definition": "Mélange sec à saupoudrer sur le riz. Des dizaines de variétés."
+          },
+          {
+            "id": "shichimi-togarashi",
+            "jp": "七味唐辛子",
+            "jp_lecture": null,
+            "infobulle": "shichimi tōgarashi — « chi-tchi-mi tô-ga-ra-chi » · mélange de sept épices",
+            "romaji": "shichimi togarashi",
+            "definition": "Mélange de sept épices avec piment. Poudre rouge-orangé."
+          },
+          {
+            "id": "sansho",
+            "jp": "山椒",
+            "jp_lecture": null,
+            "infobulle": "sanshō — « sane-chô » · poivre japonais citronné",
+            "romaji": "sansho",
+            "definition": "Poivre japonais, citronné et légèrement engourdissant."
+          },
+          {
+            "id": "yuzu-kosho",
+            "jp": "柚子胡椒",
+            "jp_lecture": null,
+            "infobulle": "yuzu koshō — « you-zou ko-chô » · pâte de piment au yuzu",
+            "romaji": "yuzu kosho",
+            "definition": "Pâte de piment, sel et zeste de yuzu. Très puissante."
+          },
+          {
+            "id": "karashi",
+            "jp": "辛子",
+            "jp_lecture": null,
+            "infobulle": "karashi — « ka-ra-chi » · moutarde japonaise",
+            "romaji": "karashi",
+            "definition": "Moutarde japonaise, très forte, jaune vif."
+          },
+          {
+            "id": "goma",
+            "jp": "胡麻",
+            "jp_lecture": null,
+            "infobulle": "goma — « go-ma » · le sésame",
+            "romaji": "goma",
+            "definition": "Sésame. <em>Goma dare</em> = sauce au sésame."
+          },
+          {
+            "id": "iri-goma",
+            "jp": "煎り胡麻",
+            "jp_lecture": null,
+            "infobulle": "iri goma — « i-ri go-ma » · sésame grillé",
+            "romaji": "iri goma",
+            "definition": "Sésame grillé, par opposition au sésame cru. C'est ce qu'on achète&nbsp;— mais l'arôme s'évente, donc on le regrille brièvement avant de s'en servir."
+          },
+          {
+            "id": "tsukemono",
+            "jp": "漬物",
+            "jp_lecture": null,
+            "infobulle": "tsukemono — « tsou-ké-mo-no » · légumes marinés",
+            "romaji": "tsukemono",
+            "definition": "Légumes marinés."
+          },
+          {
+            "id": "umeboshi",
+            "jp": "梅干し",
+            "jp_lecture": null,
+            "infobulle": "umeboshi — « ou-mé-bo-chi » · prune salée",
+            "romaji": "umeboshi",
+            "definition": "Prune (abricot japonais) salée et fermentée. Très acide et salée."
+          },
+          {
+            "id": "yakumi",
+            "jp": "薬味",
+            "jp_lecture": null,
+            "infobulle": "yakumi — « ya-kou-mi » · les garnitures fraîches",
+            "romaji": "yakumi",
+            "definition": "L'ensemble des petites garnitures fraîches d'un repas."
+          },
+          {
+            "id": "gochujang",
+            "jp": "고추장",
+            "jp_lecture": null,
+            "infobulle": "gochujang — « ko-tchou-djane » · pâte de piment fermentée",
+            "romaji": "gochujang",
+            "definition": "Pâte de piment fermentée, épaisse et légèrement sucrée.",
+            "langue": "coréen"
+          },
+          {
+            "id": "gochugaru",
+            "jp": "고춧가루",
+            "jp_lecture": null,
+            "infobulle": "gochugaru — « ko-tchou-ga-rou » · flocons de piment coréen",
+            "romaji": "gochugaru",
+            "definition": "Flocons de piment coréen. Colorés, plus parfumés que piquants.",
+            "langue": "coréen"
+          },
+          {
+            "id": "doubanjiang",
+            "jp": "豆瓣醬",
+            "jp_lecture": null,
+            "infobulle": "doubanjiang — « dou-bane-djiane » · pâte de fèves fermentées",
+            "romaji": "doubanjiang",
+            "definition": "Pâte de fèves fermentées épicée. Base du mapo tofu.",
+            "langue": "chinois"
+          }
+        ]
+      }
+    ],
+    "fiches_liees": [
+      "T5"
+    ]
+  },
+  "yakumi": {
+    "id": "yakumi",
+    "numero": "03",
+    "titre": "Les yakumi",
+    "jp_infobulle": "yakumi — « ya-kou-mi » · les garnitures fraîches",
+    "jp": "薬味",
+    "intro": "Les garnitures fraîches. La plupart se préparent en moins d'une minute. Ce n'est pas de la cuisine, c'est du râpage — et c'est ce qui fait qu'un même plat n'a jamais le même goût deux fois.",
+    "intro_attrs": " style=\"margin:0;font-size:16px;line-height:1.7;max-width:38em;color:#444141\"",
+    "entetes": [
+      "Garniture",
+      "Préparation",
+      "Va avec"
+    ],
+    "garnitures": [
+      {
+        "id": "daikon-rape",
+        "jp": "大根おろし",
+        "infobulle": "daikon oroshi — « daï-kone o-ro-chi » · daikon râpé",
+        "fr": "daikon râpé",
+        "preparation": "Râper cru, presser légèrement",
+        "va_avec": "Poisson grillé, tempura"
+      },
+      {
+        "id": "gingembre-rape",
+        "jp": "生姜",
+        "infobulle": "shōga — « chô-ga » · le gingembre",
+        "fr": "gingembre râpé",
+        "preparation": "<strong>Peler</strong>, puis râper finement",
+        "va_avec": "Poisson mijoté, tofu froid"
+      },
+      {
+        "id": "oignon-vert",
+        "jp": "葱",
+        "infobulle": "negi — « né-gui » · l'oignon vert",
+        "fr": "oignon vert",
+        "preparation": "Émincer très fin en biseau, <strong>à la minute</strong>",
+        "va_avec": "Tout"
+      },
+      {
+        "id": "shiso",
+        "jp": "紫蘇",
+        "infobulle": "shiso — « chi-so » · herbe entre menthe et basilic",
+        "fr": "shiso",
+        "preparation": "Ciseler en lanières",
+        "va_avec": "Sashimi, riz"
+      },
+      {
+        "id": "sesame-grille",
+        "jp": "胡麻",
+        "infobulle": "goma — « go-ma » · le sésame",
+        "fr": "sésame grillé",
+        "preparation": "Griller à sec 2 min dans une poêle, écraser",
+        "va_avec": "Légumes, riz"
+      },
+      {
+        "id": "zeste-de-yuzu-ou-de-lime",
+        "jp": "柚子",
+        "infobulle": "yuzu — « you-zou » · agrume japonais",
+        "fr": "zeste de yuzu ou de lime",
+        "preparation": "Râper juste avant de servir",
+        "va_avec": "Soupes, poisson"
+      },
+      {
+        "id": "nori-emince",
+        "jp": "海苔",
+        "infobulle": "nori — « no-ri » · feuille d'algue séchée",
+        "fr": "nori émincé",
+        "preparation": "Ciseaux, directement au-dessus du bol",
+        "va_avec": "Riz, ochazuke"
+      },
+      {
+        "id": "katsuobushi",
+        "jp": "鰹節",
+        "infobulle": "katsuobushi — « ka-tsou-o-bou-chi » · copeaux de bonite séchée",
+        "fr": "katsuobushi",
+        "preparation": "Tel quel — il bouge sur les plats chauds",
+        "va_avec": "Tofu froid, légumes"
+      },
+      {
+        "id": "umeboshi",
+        "jp": "梅干し",
+        "infobulle": "umeboshi — « ou-mé-bo-chi » · prune salée",
+        "fr": "umeboshi",
+        "preparation": "S'achète tout fait, dénoyauter",
+        "va_avec": "Riz, ochazuke"
+      },
+      {
+        "id": "gingembre-marine",
+        "jp": "ガリ",
+        "infobulle": "gari — « ga-ri » · gingembre mariné",
+        "fr": "gingembre mariné",
+        "preparation": "Voir la fiche T7",
+        "va_avec": "Poisson gras"
+      }
+    ],
+    "notes": [
+      {
+        "id": "l-oignon-vert-ne-se-prepare-pas-d-avance",
+        "titre": "L'oignon vert ne se prépare pas d'avance",
+        "paragraphes": [
+          "Les composés soufrés qui donnent le mordant sont <strong>volatils</strong>&nbsp;: ils s'échappent dès que la cellule est coupée. Après 48 h au réfrigérateur, il reste la couleur et la texture, presque plus le goût.",
+          "C'est la seule garniture qu'une <strong>session de préparation du dimanche ne doit pas préparer d'avance</strong>. Conserver les bottes entières, debout dans un pot avec 2 cm d'eau au réfrigérateur, et trancher au moment de servir. Vingt secondes."
+        ]
+      },
+      {
+        "id": "peler-le-gingembre-a-la-cuillere",
+        "titre": "Peler le gingembre à la cuillère",
+        "paragraphes": [
+          "Le gingembre se pèle quand il se mange — la consigne «&nbsp;sans peler si frais&nbsp;» ne vaut que s'il infuse et qu'on le retire.",
+          "<strong>Peler au bord d'une cuillère à thé, jamais à l'économe.</strong> La peau est très mince et les composés aromatiques les plus concentrés se trouvent juste en dessous&nbsp;: la cuillère suit les bosses du rhizome et n'enlève que la peau, l'économe emporte la couche aromatique et fait perdre le tiers du morceau dans les creux.",
+          "Pour tailler proprement&nbsp;: <strong>casser la racine à ses nœuds avant de peler</strong>. On obtient des segments droits qui se tranchent bien. Un rhizome entier est impossible à couper régulièrement — c'est normal, ce n'est pas un défaut de technique."
+        ]
+      },
+      {
+        "id": "le-gingembre-qui-infuse-le-gingembre-qui-se-mange",
+        "titre": "Le gingembre qui infuse ≠ le gingembre qui se mange",
+        "paragraphes": [
+          "<strong>Pour parfumer un bouillon</strong>&nbsp;: des tranches larges, mises à froid, <strong>retirées avant de servir</strong>. Le liquide prend le parfum, personne ne croque dedans. C'est le standard japonais pour tout ce qui mijote.",
+          "Une julienne de 2 à 3 mm laissée dans le bol donne une <strong>décharge de gingérol</strong> à chaque bouchée qui en contient — le composé piquant reste concentré tant que le morceau est entier. C'est violent, et ce n'est pas ce que le plat cherche.",
+          "<strong>Pour du gingembre en présence</strong>&nbsp;: c'est le <span title=\"harishōga — « ha-ri-chô-ga » · gingembre taillé en aiguilles\" style=\"cursor:help;border-bottom:1px dotted currentColor\">針生姜</span> <em>harishoga</em>, «&nbsp;gingembre-aiguille&nbsp;», taillé à moins d'un millimètre, trempé 5 minutes à l'eau froide pour retirer l'âpreté, posé en très petite quantité sur le dessus. Une pincée, pas une poignée.",
+          "<strong>Troisième voie, la plus simple</strong>&nbsp;: râper et presser le jus dans le bouillon (<span title=\"shōga-jiru — « chô-ga-dji-rou » · jus de gingembre\" style=\"cursor:help;border-bottom:1px dotted currentColor\">生姜汁</span> <em>shōga-jiru</em>). Tout le goût, aucun morceau."
+        ]
+      }
+    ],
+    "fiches_liees": []
+  },
+  "depannage": {
+    "id": "depannage",
+    "numero": "04",
+    "titre": "Le dépannage",
+    "jp_infobulle": "hijōji — « hi-djô-dji » · l'urgence",
+    "jp": "非常時",
+    "intro": "Il y aura des soirs sans énergie, sans épicerie, sans plan. L'objectif n'est pas la perfection — c'est d'avoir une option qui bat la commande de pizza.",
+    "intro_attrs": " style=\"margin:0 0 20px;font-size:16px;line-height:1.7;max-width:38em;color:#444141\"",
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "",
+        "attrs": " style=\"margin:30px 0 10px;font-size:20px;font-weight:800\"",
+        "texte": "Les nouilles instantanées&nbsp;: la vérité",
+        "blanc": "\n\n          "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Un paquet typique, c'est <strong>380 à 500 calories, 15 à 20 g de gras, 1 500 à 2 000 mg de sodium, et seulement 8 à 10 g de protéines</strong>. Ce n'est pas un aliment de perte de poids. <strong>Mais</strong> bien utilisé, ça devient un vrai repas à 500 calories avec 35 g de protéines, pour cinq minutes de travail. C'est exactement ce que font les Asiatiques — le paquet est une base, rarement le repas complet."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "La majorité des nouilles instantanées sont <strong>frites</strong> avant séchage, d'où les 15 à 20 g de gras. Cherchez les mentions <em>non-fried</em>, <em>air-dried</em> ou <span title=\"namamen — « na-ma-mène » · nouilles non frites\" style=\"cursor:help;border-bottom:1px dotted currentColor\">生麺</span> sur l'emballage."
+      },
+      {
+        "type": "tableau",
+        "attrs": "",
+        "attrs_table": "",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "html": "Marque"
+              },
+              {
+                "balise": "th",
+                "html": "Origine"
+              },
+              {
+                "balise": "th",
+                "html": "Note"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Nissin Raoh</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Japon"
+              },
+              {
+                "balise": "td",
+                "html": "<strong>Le meilleur choix.</strong> Nouilles non frites, texture proche du vrai ramen."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>A-Sha</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Taïwan"
+              },
+              {
+                "balise": "td",
+                "html": "Séchées à l'air, souvent vendues sans sachet de gras"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Prima Taste</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Singapour"
+              },
+              {
+                "balise": "td",
+                "html": "Régulièrement classée meilleure au monde. Riche par contre."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Nongshim Shin Ramyun</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Corée"
+              },
+              {
+                "balise": "td",
+                "html": "Le standard. Nouilles correctes, bouillon très salé."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Samyang Buldak</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Corée"
+              },
+              {
+                "balise": "td",
+                "html": "Très épicé, sauce plutôt que bouillon"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Indomie Mi Goreng</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Indonésie"
+              },
+              {
+                "balise": "td",
+                "html": "Style sauté, pas en soupe"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>À éviter</strong>"
+              },
+              {
+                "balise": "td",
+                "html": ""
+              },
+              {
+                "balise": "td",
+                "html": "Les marques génériques bon marché&nbsp;: nouilles frites, sachet ultra-salé, zéro nutriment"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "",
+        "attrs": " style=\"margin:30px 0 10px;font-size:20px;font-weight:800\"",
+        "texte": "Les trois règles",
+        "blanc": "\n\n          "
+      },
+      {
+        "type": "liste",
+        "ordonnee": true,
+        "classe": "",
+        "attrs": " style=\"margin:0 0 20px;padding-left:1.15em;max-width:38em;font-size:16.5px;line-height:1.7\"",
+        "elements": [
+          {
+            "attrs": " style=\"margin-bottom:8px\"",
+            "texte": "<strong>Utiliser la moitié du sachet d'assaisonnement.</strong> C'est là qu'est presque tout le sodium. Compenser avec de l'ail, du gingembre, du vinaigre, du piment ou une pincée de MSG."
+          },
+          {
+            "attrs": " style=\"margin-bottom:8px\"",
+            "texte": "<strong>Ne pas boire tout le bouillon.</strong> Environ 40&nbsp;% du sodium reste dans le bol."
+          },
+          {
+            "texte": "<strong>Jeter la moitié des nouilles, doubler les légumes.</strong> Le paquet devient une portion raisonnable."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "attrs": " style=\"max-width:38em\"",
+        "titre": "Quatrième cas&nbsp;: quand on a un dashi",
+        "paragraphes": [
+          {
+            "texte": "Les trois règles ci-dessus supposent que <strong>le sachet est la seule source de goût du bol</strong>. Dès qu'on monte un bouillon maison — dashi, sauce soya, mirin, aromates —, le sachet ne sert plus à rien et devient du sodium pur. On le jette au complet, et on cuit les nouilles <strong>dans une eau claire à part, qu'on jette ensuite</strong>."
+          },
+          {
+            "attrs": " style=\"margin-top:12px\"",
+            "texte": "Ce n'est pas seulement une question de texture. Le sel, la sauce soya, le carbonate de sodium et le carbonate de potassium sont <strong>dans la pâte des nouilles elle-même</strong>, pas seulement dans le sachet&nbsp;: sur un paquet à 1 780 mg de sodium, on estime 700 à 800 mg dans le bloc. La cuisson à l'eau claire en emporte une partie, comme un blanchiment en sens inverse — compter environ 500 mg pour un bloc égoutté."
+          },
+          {
+            "attrs": " style=\"margin-top:12px\"",
+            "texte": "Le <strong>sachet d'huile</strong>, quand il y en a un, se jette aussi. Une demi-cuillère à thé d'huile de sésame grillé ajoutée dans le bol fait mieux, et c'est de la vraie huile de sésame. Attention&nbsp;: certaines marques n'ont qu'un seul sachet où l'huile est déjà dans la poudre, d'autres en ont deux. Vérifier avant de jeter."
+          },
+          {
+            "attrs": " style=\"margin-top:12px\"",
+            "texte": "C'est la logique de <a href=\"#R60\">R60</a> (kake-jiru) et de <a href=\"#R63\">R63</a> (niku-udon)&nbsp;: le bloc de nouilles instantanées n'est plus qu'un féculent, et tout le goût vient du bouillon."
+          }
+        ],
+        "blanc": "\n\n          "
+      },
+      {
+        "type": "tableau",
+        "attrs": "",
+        "attrs_table": "",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "html": "Ajout"
+              },
+              {
+                "balise": "th",
+                "html": "Comment"
+              },
+              {
+                "balise": "th",
+                "html": "Apport"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>1 ou 2 œufs</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Casser directement dans le bouillon frémissant, 2 à 3 minutes sans brasser"
+              },
+              {
+                "balise": "td",
+                "html": "+12 g de protéines"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Edamames † congelés</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Une poignée jetée dans le bouillon, ils décongèlent en 1 minute"
+              },
+              {
+                "balise": "td",
+                "html": "+9 g"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Épinards ou bok choy</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Jetés <strong>crus</strong> à la fin&nbsp;: feuilles 30 secondes, tiges 90. Jamais un légume déjà blanchi — il devient spongieux (voir <a href=\"#T6\" style=\"color:#ae1800;text-decoration:underline\">T6</a>)."
+              },
+              {
+                "balise": "td",
+                "html": "Volume"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Fèves germées</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Crues, au fond du bol, avant de verser"
+              },
+              {
+                "balise": "td",
+                "html": "Croquant et volume"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Tofu ferme en cubes</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "2 minutes dans le bouillon"
+              },
+              {
+                "balise": "td",
+                "html": "+8 g"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Reste de poulet ou de porc</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Effiloché, ajouté à la fin"
+              },
+              {
+                "balise": "td",
+                "html": "+25 g"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Crevettes congelées</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "3 minutes dans le bouillon"
+              },
+              {
+                "balise": "td",
+                "html": "+20 g"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Kimchi</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "2 c. à soupe, ajoute acidité et profondeur"
+              },
+              {
+                "balise": "td",
+                "html": "Saveur"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "html",
+        "source": "<div style=\"border-top:2px solid #ec3013;padding-top:12px;max-width:40em;margin-top:8px\">\n            <p style=\"margin:0 0 5px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ec3013\">Le format qui marche à tout coup</p>\n            <p style=\"margin:0;font-size:15.5px;line-height:1.65\">Sachet + 2 œufs + une poignée d'edamames + deux poignées d'épinards + oignon vert. Cinq minutes, environ 550 calories, 32 g de protéines, et beaucoup plus rassasiant que le paquet seul.</p>\n          </div>"
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:14px 0 0;font-size:16px\"",
+        "texte": "<a href=\"#R57\" style=\"color:#ae1800;text-decoration:underline\"><strong>→ Fiche&nbsp;: Nouilles instantanées, version repas</strong></a>"
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "",
+        "attrs": " style=\"margin:34px 0 10px;font-size:20px;font-weight:800\"",
+        "texte": "Les autres dépannages",
+        "blanc": "\n\n          "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Chacun est maintenant une fiche dans l'outil (filtre <strong>Ultra rapide</strong>)&nbsp;:"
+      },
+      {
+        "type": "liste",
+        "ordonnee": false,
+        "classe": "",
+        "attrs": " style=\"margin:0;padding-left:1.15em;max-width:38em;font-size:16.5px;line-height:1.7\"",
+        "elements": [
+          {
+            "attrs": " style=\"margin-bottom:8px\"",
+            "texte": "<a href=\"#R58\" style=\"color:#ae1800;text-decoration:underline\"><strong>Gyoza vapeur du congélateur</strong></a> — un souper complet en dix minutes."
+          },
+          {
+            "attrs": " style=\"margin-bottom:8px\"",
+            "texte": "<a href=\"#R59\" style=\"color:#ae1800;text-decoration:underline\"><strong>Onigiri du commerce, en repas</strong></a> — avec edamames et œuf dur."
+          },
+          {
+            "attrs": " style=\"margin-bottom:8px\"",
+            "texte": "<a href=\"#R61\" style=\"color:#ae1800;text-decoration:underline\"><strong>Thon germon assaisonné au ponzu</strong></a> — trois minutes, 29 g de protéines, une boîte de conserve."
+          },
+          {
+            "attrs": " style=\"margin-bottom:8px\"",
+            "texte": "<a href=\"#R10\" style=\"color:#ae1800;text-decoration:underline\"><strong>Tofu froid (hiyayakko)</strong></a> — cinq minutes, 24 g de protéines. Un petit plat, pas un repas&nbsp;: à accompagner de riz et d'une soupe."
+          },
+          {
+            "texte": "<a href=\"#R9\" style=\"color:#ae1800;text-decoration:underline\"><strong>Le bol de restes</strong></a> — toujours la meilleure option."
+          }
+        ]
+      }
+    ],
+    "fiches_liees": [
+      "R60",
+      "R63",
+      "T6",
+      "R57",
+      "R58",
+      "R59",
+      "R61",
+      "R10",
+      "R9"
+    ]
+  },
+  "the": {
+    "id": "the",
+    "numero": "05",
+    "titre": "Le thé",
+    "jp_infobulle": "ocha — « o-tcha » · le thé",
+    "jp": "お茶",
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "",
+        "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
+        "texte": "Les familles de saveur"
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Les thés recommandés ici ne se ressemblent pas. Ils appartiennent à des familles de saveur distinctes, et il est parfaitement possible d'en détester une et d'adorer une autre. Repérez la vôtre avant d'acheter."
+      },
+      {
+        "type": "tableau",
+        "attrs": "",
+        "attrs_table": "",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "html": "Famille"
+              },
+              {
+                "balise": "th",
+                "html": "Ce que ça goûte"
+              },
+              {
+                "balise": "th",
+                "html": "Exemples"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Végétal / umami</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Herbe fraîche, marin, bouillon léger"
+              },
+              {
+                "balise": "td",
+                "html": "Sencha infusé à froid, gyokuro"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Grain grillé</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Croûte de pain, noisette, céréale rôtie. Aucune note végétale."
+              },
+              {
+                "balise": "td",
+                "html": "Mugicha, sobacha, hojicha, maïs grillé (oksusu cha)"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Floral</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Fleur, parfumé, léger"
+              },
+              {
+                "balise": "td",
+                "html": "Jasmin, chrysanthème"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Boisé / terreux</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Terre humide, écorce, cave"
+              },
+              {
+                "balise": "td",
+                "html": "Pu-erh, oolong torréfié"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Vif / agrume</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Acidulé, rafraîchissant"
+              },
+              {
+                "balise": "td",
+                "html": "Eau pétillante au yuzu ou à la lime"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "<strong>La famille du grain grillé est celle qui plaît le plus largement.</strong> Il n'y a rien de vert là-dedans, rien de marin, aucun umami dominant : c'est du grain torréfié, point. Le mugicha n'est d'ailleurs même pas du thé — c'est de l'orge, donc aucune feuille de théier."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Le cas le plus intéressant est le <strong>hojicha</strong>. C'est techniquement du thé vert, mais torréfié à haute température, ce qui détruit les composés végétaux et crée des notes de caramel et de chocolat. Des gens qui détestent le thé vert adorent le hojicha sans faire le lien."
+      },
+      {
+        "type": "texte",
+        "balise": "h4",
+        "classe": "",
+        "attrs": " style=\"margin:22px 0 8px;font-size:16.5px;font-weight:800\"",
+        "texte": "Pourquoi le sencha infusé à froid surprend"
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Contre-intuitivement, <strong>le sencha froid goûte <em>plus</em> vert que le sencha chaud, pas moins.</strong>"
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "L'eau froide extrait les acides aminés — théanine, glutamate — mais presque pas les catéchines. Or les catéchines sont l'astringence, celle qui nettoie la bouche et équilibre le reste. Sans elles, le côté végétal et marin ressort sans contrepoids."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Ce n'est donc pas une version adoucie du sencha : c'est une version où l'umami n'est plus masqué. Réduire la quantité de feuilles ne change pas le profil, seulement l'intensité."
+      },
+      {
+        "type": "texte",
+        "balise": "h4",
+        "classe": "",
+        "attrs": " style=\"margin:22px 0 8px;font-size:16.5px;font-weight:800\"",
+        "texte": "La solution : infuser chaud, refroidir vite"
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Pour qui aime le sencha chaud mais pas le sencha infusé à froid, il existe une méthode qui donne le meilleur des deux."
+      },
+      {
+        "type": "liste",
+        "ordonnee": true,
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;padding-left:1.15em;max-width:38em;font-size:16.5px;line-height:1.7\"",
+        "elements": [
+          {
+            "attrs": " style=\"margin-bottom:6px\"",
+            "texte": "Infuser normalement à 70-75 °C, 1 min 30, mais <strong>plus concentré</strong> qu'à l'habitude (environ 3 g pour 200 ml)."
+          },
+          {
+            "texte": "<strong>Verser immédiatement sur un grand verre rempli de glace.</strong>"
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Le choc thermique fixe le profil de l'infusion chaude. On obtient exactement le goût du sencha chaud, servi froid, avec les catéchines qui équilibrent l'umami. C'est une méthode courante au Japon, pas un compromis."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "Se conserve une journée au réfrigérateur, pas plus : refroidi lentement, le thé s'oxyde et brunit."
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "",
+        "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
+        "texte": "Ce qui distingue un bon thé d'un mauvais"
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 20px;font-size:16px;line-height:1.7;max-width:38em;color:#444141\"",
+        "texte": "La différence principale entre un bon et un mauvais thé n'est pas la marque, c'est le <strong>format de la feuille</strong>. Les sachets de masse contiennent des <em>fannings</em> et de la poussière&nbsp;: ils infusent vite, libèrent beaucoup de tanins d'un coup, et donnent un thé plat et amer. Si l'emballage montre des feuilles reconnaissables, c'est bon signe."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 20px;font-size:14px;line-height:1.65;color:#605d5d;border-top:2px solid #ec3013;padding-top:12px;max-width:38em\"",
+        "texte": "<strong>Le thé et le fer&nbsp;:</strong> les tanins nuisent à l'absorption du fer. Le boire <strong>entre</strong> les repas plutôt que pendant — détails dans <a href=\"guide-1-manger.html#s16\" style=\"color:#ae1800;text-decoration:underline\">Le fer et le thé</a> (guide 1)."
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "",
+        "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
+        "texte": "Températures et durées",
+        "blanc": "\n\n          "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 8px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "C'est ici que la plupart des gens ratent leur thé. <strong>Le thé vert infusé à l'eau bouillante devient amer</strong> — les catéchines s'extraient trop vite à haute température."
+      },
+      {
+        "type": "tableau",
+        "attrs": "",
+        "attrs_table": "",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "html": "Thé"
+              },
+              {
+                "balise": "th",
+                "html": "Température"
+              },
+              {
+                "balise": "th",
+                "html": "Durée"
+              },
+              {
+                "balise": "th",
+                "html": "2<sup>e</sup> infusion"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"sencha — « sène-tcha » · thé vert infusé\" style=\"cursor:help;border-bottom:1px dotted currentColor\">煎茶</span> Sencha</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "<strong>70 à 75 °C</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "1 min 30 à 2 min"
+              },
+              {
+                "balise": "td",
+                "html": "Oui, plus courte"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"gyokuro — « gyo-kou-ro » · thé vert d'ombre\" style=\"cursor:help;border-bottom:1px dotted currentColor\">玉露</span> Gyokuro</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "50 à 60 °C"
+              },
+              {
+                "balise": "td",
+                "html": "2 min"
+              },
+              {
+                "balise": "td",
+                "html": "Oui"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"genmaicha — « guène-maï-tcha » · thé vert au riz soufflé\" style=\"cursor:help;border-bottom:1px dotted currentColor\">玄米茶</span> Genmaicha</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "80 à 85 °C"
+              },
+              {
+                "balise": "td",
+                "html": "1 min"
+              },
+              {
+                "balise": "td",
+                "html": "Oui"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"hōjicha — « hô-dji-tcha » · thé vert torréfié\" style=\"cursor:help;border-bottom:1px dotted currentColor\">ほうじ茶</span> Hojicha</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "90 à 95 °C"
+              },
+              {
+                "balise": "td",
+                "html": "30 sec à 1 min"
+              },
+              {
+                "balise": "td",
+                "html": "Oui"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"mugicha — « mou-gui-tcha » · thé d'orge grillé\" style=\"cursor:help;border-bottom:1px dotted currentColor\">麦茶</span> Mugicha</strong> (chaud)"
+              },
+              {
+                "balise": "td",
+                "html": "Eau bouillante"
+              },
+              {
+                "balise": "td",
+                "html": "3 à 5 min"
+              },
+              {
+                "balise": "td",
+                "html": "Non"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"mugicha — « mou-gui-tcha » · thé d'orge grillé\" style=\"cursor:help;border-bottom:1px dotted currentColor\">麦茶</span> Mugicha</strong> (froid)"
+              },
+              {
+                "balise": "td",
+                "html": "Eau froide"
+              },
+              {
+                "balise": "td",
+                "html": "Une nuit au frigo"
+              },
+              {
+                "balise": "td",
+                "html": "Non"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"ūroncha — « ou-rone-tcha » · thé oolong\" style=\"cursor:help;border-bottom:1px dotted currentColor\">烏龍茶</span> Oolong</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "85 à 95 °C"
+              },
+              {
+                "balise": "td",
+                "html": "1 à 3 min"
+              },
+              {
+                "balise": "td",
+                "html": "Oui, plusieurs fois"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Thé noir</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "95 à 100 °C"
+              },
+              {
+                "balise": "td",
+                "html": "3 à 5 min"
+              },
+              {
+                "balise": "td",
+                "html": "Non"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"molihuacha — « mo-li-houa-tcha » · thé au jasmin\" style=\"cursor:help;border-bottom:1px dotted currentColor\">茉莉花茶</span> Jasmin</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "80 à 85 °C"
+              },
+              {
+                "balise": "td",
+                "html": "2 à 3 min"
+              },
+              {
+                "balise": "td",
+                "html": "Oui"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong><span title=\"pǔ'ěr chá — « pou-eur tcha » · thé pu-erh\" style=\"cursor:help;border-bottom:1px dotted currentColor\">普洱茶</span> Pu-erh</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "95 à 100 °C"
+              },
+              {
+                "balise": "td",
+                "html": "2 à 5 min"
+              },
+              {
+                "balise": "td",
+                "html": "Oui, plusieurs fois"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "<strong>Dosage général</strong>&nbsp;: environ 2 g pour 200 ml, soit une cuillère à thé bien remplie. <strong>Retirer les feuilles à la fin de l'infusion</strong> — les laisser tremper est la deuxième cause d'amertume après la température."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "<strong>Sans thermomètre</strong>&nbsp;: eau bouillante = 100 °C ▪ versée dans une tasse froide et attendre 1 minute ≈ 85 °C ▪ transvidée une deuxième fois ≈ 75 °C ▪ petites bulles au fond de la casserole, sans remontée ≈ 70 à 80 °C."
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "",
+        "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
+        "texte": "L'infusion à froid (<span title=\"mizudashi — « mi-zou-da-chi » · l'infusion à froid\" style=\"cursor:help;border-bottom:1px dotted currentColor\">水出し</span> <em>mizudashi</em>)",
+        "blanc": "\n\n          "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "<strong>Rappel&nbsp;:</strong> l'infusion à froid ne rend pas le thé doux — elle fait <strong>ressortir</strong> l'umami et le végétal, sans l'astringence qui les équilibre (voir « Les familles de saveur » plus haut). Voici la méthode de base&nbsp;; pour le goût du thé chaud servi froid, voir plutôt « La solution&nbsp;: infuser chaud, refroidir vite »."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "<strong>Méthode</strong>&nbsp;: 10 g de feuilles dans 1 L d'eau froide, une nuit au réfrigérateur, filtrer. Se garde 2 jours. Fonctionne pour le sencha, le genmaicha, l'oolong et le jasmin."
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "",
+        "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
+        "texte": "Où acheter à Montréal",
+        "blanc": "\n\n          "
+      },
+      {
+        "type": "tableau",
+        "attrs": "",
+        "attrs_table": "",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "attrs": " style=\"width:34%\"",
+                "html": "Endroit"
+              },
+              {
+                "balise": "th",
+                "html": "Note"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Camellia Sinensis</strong> (Ontario Est)"
+              },
+              {
+                "balise": "td",
+                "html": "La meilleure sélection en ville. On peut goûter et demander conseil."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Kim Phat, Marché Hawaii</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Mugicha, hojicha, genmaicha à prix imbattable. Boîtes de 50 sachets."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>David's Tea</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Correct, mais beaucoup de mélanges aromatisés sucrés"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Épicerie standard</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Harney &amp; Sons, Stash, Bigelow et le Earl Grey de Twinings passent. Lipton, Red Rose et Tetley, non."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "",
+        "attrs": " style=\"margin:0;font-size:16.5px;line-height:1.7;max-width:38em\"",
+        "texte": "<strong>Conservation.</strong> Le thé craint quatre choses&nbsp;: l'air, la lumière, l'humidité et les odeurs. Un contenant opaque et hermétique, dans une armoire, loin des épices et du café. Le thé vert se dégrade plus vite que le noir — six mois à un an."
+      }
+    ],
+    "fiches_liees": []
+  }
+}

@@ -44,4 +44,37 @@ const SOURCES = [
   },
 ];
 
-module.exports = { SOURCES, RACINE, DATA };
+/* Les sources de prose : des sections de page entières, plutôt que des
+   tableaux de données dans un <script>. Le contrat est le même — /data fait
+   foi, la page en est le rendu — mais l'aller-retour passe par une liste de
+   blocs (voir `prose.js`) au lieu d'un littéral JavaScript.
+
+   Le document 8 demandait du texte brut ; le contenu à migrer était du HTML
+   riche — renvois vers les fiches, tableaux, infobulles de prononciation. Les
+   blocs préservent les deux : la structure reste lisible hors du navigateur,
+   et la page ne perd rien. */
+const PROSES = [
+  {
+    cle: 'guide-6-journal',
+    page: 'guide-6-journal.html',
+    description: 'Entrées du journal du guide 6',
+    mapper: require('./journal'),
+    compte: (d) => ({ nb_entrees: d.length, nb_actives: d.filter((e) => e.statut !== 'retiré').length }),
+  },
+  {
+    cle: 'guide-2-annexes',
+    page: 'guide-2-recettes.html',
+    description: 'Annexes du guide 2 : lexique, yakumi, dépannage, thé',
+    mapper: require('./annexes'),
+    compte: (d) => ({ nb_entrees: Object.keys(d).length, nb_actives: Object.keys(d).length }),
+  },
+  {
+    cle: 'guide-5-plan',
+    page: 'guide-5-plan.html',
+    description: 'Cibles chiffrées et sections du guide 5',
+    mapper: require('./plan'),
+    compte: (d) => ({ nb_entrees: d.sections.length, nb_actives: d.sections.length }),
+  },
+];
+
+module.exports = { SOURCES, PROSES, RACINE, DATA };
