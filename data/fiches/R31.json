@@ -1,0 +1,86 @@
+{
+  "id": "R31",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "chinoise",
+  "vitesse": "moyen",
+  "jp": "雲呑スープ",
+  "jp_lecture": null,
+  "romaji": "wonton sūpu",
+  "fr": "Soupe won-ton déconstruite",
+  "sous_titre": "Toute la saveur du won-ton, zéro pâte.",
+  "portions": "2",
+  "temps_affiche": "≈ 27 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 40,
+    "proteines_affiche": "40 g",
+    "calories": 340,
+    "calories_affiche": "≈ 340",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 L de bouillon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de porc ou de poulet haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de gingembre râpé, 2 gousses d'ail",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de soya, 1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 blanc d'œuf, 1 c. à soupe de fécule",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 tasses de bok choy en lanières, shiitakes, oignons verts",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger la viande avec tous les assaisonnements, le blanc d'œuf et la fécule. Brasser énergiquement dans un seul sens jusqu'à texture collante — c'est ce qui rend les boulettes moelleuses plutôt que friables."
+    },
+    {
+      "n": 2,
+      "texte": "Former des boulettes de la taille d'une noix à la cuillère, directement dans le bouillon frémissant. Pocher 8 à 10 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Shiitakes et bok choy, 3 minutes."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_wonton_soup.JPG?width=1200",
+  "video": {
+    "youtube_id": "0RPCzzm8l9I",
+    "auteur": "Made With Lau"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

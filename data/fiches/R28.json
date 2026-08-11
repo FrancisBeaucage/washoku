@@ -1,0 +1,81 @@
+{
+  "id": "R28",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "moyen",
+  "jp": "トムカーガイ",
+  "jp_lecture": "tome ka gaï",
+  "romaji": "tom kha gai",
+  "fr": "Tom kha gai allégé",
+  "sous_titre": "Au lait de coco léger, jamais bouilli — sinon il tranche.",
+  "portions": "2",
+  "temps_affiche": "≈ 32 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 22,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 36,
+    "proteines_affiche": "36 g",
+    "calories": 390,
+    "calories_affiche": "≈ 390",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "500 ml de bouillon + 250 ml de lait de coco léger",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de poulet en morceaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Citronnelle, galanga, feuilles de lime kaffir",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "227 g de champignons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de sauce de poisson, jus de 2 limes, coriandre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Infuser les aromates dans le bouillon 10 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter le lait de coco, le poulet et les champignons. Mijoter 10 minutes sans jamais faire bouillir."
+    },
+    {
+      "n": 3,
+      "texte": "Hors du feu : sauce de poisson, lime, coriandre."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_preppybyday_4711943668--Tom_kha_gai.jpg?width=1200",
+  "video": {
+    "youtube_id": "OooFZU2ZktY",
+    "auteur": "Hot Thai Kitchen"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

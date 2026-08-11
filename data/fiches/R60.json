@@ -1,0 +1,117 @@
+{
+  "id": "R60",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "かけ蕎麦・うどん",
+  "jp_lecture": null,
+  "romaji": "kakejiru",
+  "fr": "Nouilles en bouillon dashi (kakejiru)",
+  "sous_titre": "かけ汁 kake-jiru, « le bouillon versé ». La formule de base de tous les udon et soba en soupe : trois ingrédients pour le bouillon, tout le reste est modulable. C'est la fiche qui rentabilise ta T2 — et la vraie alternative à R57, en 8 minutes, avec des nouilles sèches ordinaires qu'on trouve partout.",
+  "portions": "1",
+  "temps_affiche": "≈ 8 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 5,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "~38 g",
+    "calories": 630,
+    "calories_affiche": "≈ 630",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "300 ml de dashi FORT (T2) — 15 à 20 g de katsuobushi pour 700 ml, pas 5",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de sauce soya",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "90 g de nouilles sèches (soba de préférence)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Garniture : 1 protéine + 1 verdure + 1 yakumi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2",
+    "T6",
+    "T7a"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Le bouillon, la seule chose à retenir : 8 parts de dashi, 1 part de sauce soya, 1 part de mirin. Pour un bol : 300 ml de dashi + 2 c. à soupe de soya + 2 c. à soupe de mirin. Porter à frémissement, c'est prêt ; ne pas faire bouillir longtemps. Sans mirin : 2 c. à soupe de soya + 1 c. à thé de sucre."
+    },
+    {
+      "n": 2,
+      "texte": "Cuire les nouilles dans une casserole à part, jamais dans le bouillon (leur amidon le troublerait et le rendrait collant). Soba 4-5 min, udon sec 8-10 min, somen 2-3 min, chuka men 3-4 min."
+    },
+    {
+      "n": 3,
+      "texte": "Égoutter, rincer brièvement à l'eau froide pour les soba (enlève l'amidon de surface), déposer dans le bol, verser le bouillon chaud dessus."
+    },
+    {
+      "n": 4,
+      "texte": "Monter : nouilles + bouillon + 1 protéine (œuf mariné T7a, tofu ferme poêlé, edamames, restes de poulet, sardines) + 1 verdure (bok choy blanchi T6, épinard, oignon vert) + 1 yakumi (oignon vert, sésame écrasé, gingembre râpé, shichimi)."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le mot important du rapport 8:1:1, c'est « fort »",
+      "texte": "Le rapport est 8 parts de dashi, 1 part de sauce soya, 1 part de mirin — pour 700 ml de dashi, environ 85 ml de chaque. Mais le rapport ne sauve pas un dashi trop léger. Ce bouillon demande 15 à 20 g de katsuobushi pour 700 ml, pas les 5 g d'un dashi de soupe miso : ici il n'y a pas de miso pour apporter le corps, le dashi EST le goût (voir T2). Avec de la sauce soya réduite en sodium, on peut descendre à 50-60 ml pour 700 ml sans que le bouillon s'effondre. LE REPÈRE À RETENIR : un rapport de 30 pour 1 donne de l'eau parfumée. C'est l'erreur du 10 août — 700 ml de dashi faible pour 22 ml de sauce soya, soit quatre fois trop dilué, avec un dashi lui-même quatre fois trop léger. Si le bouillon reste fade après avoir corrigé le rapport, le problème est ailleurs : voir « le sel amplifie, il ne crée pas » au guide 1."
+    },
+    {
+      "titre": "L'ordre des ajouts, et les aromates",
+      "texte": "Porter le dashi à frémissement, jamais à ébullition. Ajouter le mirin et laisser 1 minute pour que l'alcool s'évapore. Ajouter la sauce soya, couper le feu. Les aromates éventuels — tranches larges de gingembre, blanc de poireau — se mettent à froid et SE RETIRENT AVANT DE SERVIR : le liquide prend le parfum, personne ne croque dedans."
+    },
+    {
+      "titre": "Les nouilles sèches sont non frites par définition",
+      "texte": "C'est un produit séché, pas frit — aucune vérification d'étiquette nécessaire, contrairement aux instantanées (R57). Pour le soba, viser un fort pourcentage de sarrasin : juwari (十割) = 100 %, ni-hachi (二八) = 80 %. Plus de sarrasin, plus de protéines et de goût."
+    },
+    {
+      "titre": "Version de référence (dîner)",
+      "texte": "Soba 90 g sec + bouillon + 2 œufs marinés + bok choy blanchi + 100 g d'edamames écossés + oignon vert : ~630 cal, ~38 g de protéines (ordres de grandeur). Réduire à 70 g de nouilles ramène à ~560 cal."
+    },
+    {
+      "titre": "Version souper",
+      "texte": "Ajouter 150 g de tofu ferme poêlé : ~800 cal, ~56 g de protéines. Cible du souper atteinte."
+    },
+    {
+      "titre": "Version froide, l'été (zaru soba)",
+      "texte": "Le bouillon devient une trempette concentrée : 4 parts de dashi, 1 de soya, 1 de mirin. Nouilles rincées à l'eau glacée, servies à part ; on trempe le bout des nouilles, on ne noie pas — beaucoup moins de sel pour le même goût."
+    },
+    {
+      "titre": "Ce qui se prépare d'avance",
+      "texte": "Le bouillon se fait en batch et se garde 4-5 jours au frigo. Avec des œufs marinés et du bok choy blanchi déjà prêts, ce bol devient un repas de 8 minutes qui ne demande que de faire bouillir de l'eau."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kake%20soba%20with%20sansai%20by%20jetalone%20in%20Hachioji.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

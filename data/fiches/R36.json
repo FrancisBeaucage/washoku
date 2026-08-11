@@ -1,0 +1,104 @@
+{
+  "id": "R36",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "vietnamienne",
+  "vitesse": "long",
+  "jp": "鶏のフォー風",
+  "jp_lecture": "to-ri no feu fou",
+  "romaji": "tori no phở-fū",
+  "fr": "Faux-pho au poulet",
+  "sous_titre": "Ce n'est pas un phở — un vrai bouillon mijote six à douze heures et contient des nouilles. C'est un bouillon aromatique qui en emprunte le profil, sans nouilles.",
+  "portions": "2",
+  "temps_affiche": "≈ 40 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 28,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 42,
+    "proteines_affiche": "42 g",
+    "calories": 320,
+    "calories_affiche": "≈ 320",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 L de bouillon de poulet",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de poulet tranché très mince",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 morceau de gingembre de 5 cm, 1 oignon coupé en deux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 anis étoilés, 1 bâton de cannelle, 3 clous de girofle",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 tasses de fèves germées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Coriandre, oignons verts, basilic thaï, lime, jalapeño",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Griller l'oignon et le gingembre à sec dans la casserole, 5 minutes, jusqu'à ce qu'ils noircissent par endroits. C'est ce qui donne la profondeur."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter le bouillon et les épices, mijoter 20 minutes à couvert, puis filtrer."
+    },
+    {
+      "n": 3,
+      "texte": "Fèves germées crues au fond des bols, puis le poulet cru tranché mince par-dessus."
+    },
+    {
+      "n": 4,
+      "texte": "Verser le bouillon bouillant : il cuit le poulet en 1 à 2 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "Garnir généreusement, ajouter la lime au moment de manger."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le meilleur substitut de nouilles du recueil",
+      "texte": "Les fèves germées gardent leur croquant sous le bouillon chaud."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_Meatball_pho.jpg?width=1200",
+  "video": {
+    "youtube_id": "36E3XXqab40",
+    "auteur": "Helen's Recipes"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,121 @@
+{
+  "id": "T4",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "jp": "塩焼き",
+  "jp_lecture": null,
+  "romaji": "shioyaki",
+  "fr": "Le poisson salé grillé (shioyaki)",
+  "sous_titre": "La technique de poisson la plus courante au Japon, et la plus simple : deux ingrédients, du poisson et du sel. Trente minutes de repos, huit minutes de cuisson. Convient au saumon, au maquereau, à la sardine, à la truite, au sébaste — tout poisson à chair grasse ou mi-grasse.",
+  "portions": "Par filet",
+  "temps_affiche": "≈ 38 min",
+  "temps_minutes": {
+    "preparation": 4,
+    "cuisson": 8,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": 0,
+    "calories_affiche": "0 à 40 ajoutées",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "Un pavé ou un filet de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Du sel : 1 à 1,5 % du poids du poisson — ½ c. à thé (environ 3 g) pour un pavé de 228 g",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Papier absorbant",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À la poêle : un filet d'huile. Au gril : aucune huile, du papier d'aluminium",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Saler les deux faces à la main. Tenir la main à une trentaine de centimètres au-dessus et laisser tomber le sel — ça répartit beaucoup mieux que de le déposer."
+    },
+    {
+      "n": 2,
+      "texte": "Poser sur deux feuilles de papier absorbant pliées, sur une assiette. Une grille fait le même travail, mais le papier suffit : le rôle est d'empêcher le poisson de baigner dans ce qu'il rejette. Changer le papier s'il est détrempé."
+    },
+    {
+      "n": 3,
+      "texte": "Frigo, à découvert, 20 à 30 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "Observer à 25 minutes : des perles d'humidité en surface, papier légèrement humide. Pas une flaque. Si on ne voit presque rien, c'est normal — ne pas ajouter de sel."
+    },
+    {
+      "n": 5,
+      "texte": "Éponger les deux faces. Tapoter, ne jamais presser : l'eau est déjà sortie en surface, on la retire seulement. Presser écraserait la chair et ferait perdre le jus qui la garde moelleuse. Ne pas rincer — le sel a déjà pénétré."
+    },
+    {
+      "n": 6,
+      "texte": "À LA POÊLE — antiadhésive, feu moyen-doux, un filet d'huile. Côté peau (ou côté présentation) en premier, 4 à 5 minutes SANS Y TOUCHER : le déplacer le fait coller et déchire la peau. Retourner, 2 à 3 minutes."
+    },
+    {
+      "n": 7,
+      "texte": "AU GRIL DU FOUR — préchauffer le gril (fonction broil) 5 minutes, grille à environ 15 cm de l'élément. Poisson sur une plaque tapissée de papier d'aluminium, aucune huile. Peau vers le haut, 6 à 8 minutes pour un filet de 150 g, sans retourner."
+    },
+    {
+      "n": 8,
+      "texte": "Retirer du feu immédiatement, dans les deux cas : le poisson finit de cuire dans son assiette. Vérifier — la chair se sépare en flocons quand on la pousse. Si elle résiste, remettre 2 minutes."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi saler avant",
+      "texte": "Ce n'est pas un dégorgement — c'est autre chose que le sunomono (T7b). Le sel fait trois choses : il raffermit la chair en modifiant les protéines de surface ; il chasse la triméthylamine, le composé responsable de l'odeur de poisson ; et il assaisonne de l'intérieur, plutôt qu'en surface au moment de manger. C'est aussi ce qui permet de garder le poisson cuit deux jours sans qu'il devienne triste. Le salage seul, détaché de la cuisson, c'est T3 (shiojime)."
+    },
+    {
+      "titre": "Les quantités et le sodium",
+      "texte": "1 à 1,5 % du poids du poisson. Pour un pavé de 228 g : ½ c. à thé (environ 3 g), réparti à la main sur les deux faces. Pour serrer le sodium : ⅓ c. à thé — moins assaisonné, mais la texture y est. Compter 400 à 500 mg de sodium absorbés par portion : une bonne partie du sel reste en surface et part avec l'épongeage, mais pas tout. (Le saumon salé du commerce au Japon monte à 3-5 %. C'est un produit de conservation, pas ce qu'on fait ici.)"
+    },
+    {
+      "titre": "Poêle ou gril",
+      "texte": "Au gril, le poisson ne touche rien et n'a besoin d'aucune matière grasse : c'est la différence entre un souper à 320 calories et le même à 500, sans modifier un seul ingrédient. À la poêle antiadhésive à sec, en revanche, la peau accroche et se déchire au retournement — un filet d'huile (environ 40 cal) est le prix de la version poêle. En échange, la poêle donne une peau franchement croustillante et dorée que le gril atteint moins facilement."
+    },
+    {
+      "titre": "Le brunissement, c'est le goût",
+      "texte": "Les zones franchement noires contiennent des composés associés à un risque théorique (amines hétérocycliques, hydrocarbures aromatiques polycycliques), mais ce risque se mesure sur des expositions répétées à haute température sur des années — pas sur un coin de peau poussé un peu loin. La règle pratique : manger le doré, laisser le vraiment noir. En cas de doute répété, baisser le feu d'un cran ; le temps de cuisson ne change pas."
+    },
+    {
+      "titre": "Épaisseur",
+      "texte": "Un pavé de plus de 2 cm est difficile à manger aux baguettes. Le couper en deux dans l'épaisseur avant de servir, ou acheter des filets plus minces — le poisson du déjeuner japonais est mince précisément pour cette raison. Pour le geste lui-même, voir « effeuiller » dans les mots de cuisine."
+    },
+    {
+      "titre": "Poisson entier",
+      "texte": "Compter 12 à 15 minutes au gril et retourner à mi-cuisson."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Soi_yakizakana.JPG?width=1200",
+  "video": {
+    "youtube_id": "cr2cP89TtIk",
+    "auteur": "Japanese Cooking 101"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

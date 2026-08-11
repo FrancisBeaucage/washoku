@@ -1,0 +1,94 @@
+{
+  "id": "R29",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "moyen",
+  "jp": "순두부찌개",
+  "jp_lecture": "soune-dou-bou tchi-gué",
+  "romaji": "sundubu jjigae",
+  "fr": "Sundubu jjigae",
+  "sous_titre": "Un ragoût bouillant au tofu soyeux. L'œuf se casse dans le bol au service, pas dans la casserole.",
+  "portions": "2",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 17,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 400,
+    "calories_affiche": "≈ 400",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "700 ml de bouillon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "600 g de tofu soyeux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de porc haché ou de fruits de mer",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de gochugaru, 1 c. à soupe de gochujang",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 gousses d'ail, 1 tasse de kimchi haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs, 1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Revenir le porc avec l'ail, 3 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Kimchi, gochugaru et gochujang, 2 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Bouillon, mijoter 10 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter le tofu soyeux en grosses cuillerées, sans le briser davantage."
+    },
+    {
+      "n": 5,
+      "texte": "Casser un œuf dans chaque bol au moment de servir, filet d'huile de sésame."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=1200",
+  "video": {
+    "youtube_id": "Mg9zeD01kEw",
+    "auteur": "Maangchi"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

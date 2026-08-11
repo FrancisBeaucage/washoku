@@ -1,0 +1,75 @@
+{
+  "id": "R58",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "餃子",
+  "jp_lecture": null,
+  "romaji": "gyōza",
+  "fr": "Gyoza vapeur du congélateur",
+  "sous_titre": "Le sac de gyoza congelés = un souper complet en dix minutes. Avec une soupe-entrée et une salade de concombre, environ 400 calories.",
+  "portions": "1",
+  "temps_affiche": "≈ 10 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 8,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 14,
+    "proteines_affiche": "14 g",
+    "calories": 400,
+    "calories_affiche": "≈ 400",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "6 à 8 gyoza congelés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 soupe miso instantanée (accompagnement)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 concombre pour un sunomono express (accompagnement)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Sauce : soya + vinaigre de riz + une goutte d'huile pimentée",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Cuire les gyoza au panier vapeur 8 minutes (ou à la poêle : saisir, puis 5 min à couvert avec un filet d'eau)."
+    },
+    {
+      "n": 2,
+      "texte": "Pendant ce temps, préparer la soupe et trancher le concombre."
+    },
+    {
+      "n": 3,
+      "texte": "Servir avec la sauce soya-vinaigre."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyoza_no_Antei_-_3.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

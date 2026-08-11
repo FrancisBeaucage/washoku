@@ -1,0 +1,105 @@
+{
+  "id": "T7a",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "漬ける",
+  "jp_lecture": null,
+  "romaji": "tsukeru",
+  "fr": "Faire tremper (ajitsuke tamago)",
+  "sous_titre": "Faire tremper dans un liquide salé et umami (dashi, soya, mirin). Une technique de fond — la même pour les œufs, le tofu, le poulet, le poisson. Ici : l'ajitsuke tamago, l'œuf mariné.",
+  "portions": "6 œufs",
+  "temps_affiche": "≈ 10 min + attente",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 8,
+    "attente": 0
+  },
+  "preparation_avance": "4 h à 1 nuit",
+  "nutrition": {
+    "proteines_g": 6,
+    "proteines_affiche": "6 g / œuf",
+    "calories": 70,
+    "calories_affiche": "≈ 70 / œuf",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "6 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "120 ml de dashi (T2)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "60 ml de sauce soya moins salée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "60 ml de mirin",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Préparer la marinade en premier : porter dashi + soya + mirin à frémissement 30 secondes pour évaporer l'alcool du mirin, puis retirer du feu et laisser refroidir complètement."
+    },
+    {
+      "n": 2,
+      "texte": "Pendant ce temps, cuire les œufs 7 minutes (voir T8), les refroidir 5 minutes à l'eau glacée, les écaler."
+    },
+    {
+      "n": 3,
+      "texte": "Immerger les œufs dans la marinade froide, dans un sac refermable, en chassant l'air pour qu'ils restent couverts."
+    },
+    {
+      "n": 4,
+      "texte": "Minimum 4 heures, idéalement toute la nuit. Se garde 3 à 4 jours."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "⚠️ Ne pas confondre avec T7b",
+      "texte": "Le liquide de l'ajitsuke est brun foncé (soya). Les œufs plongés dans le vinaigre transparent du sunomono (T7b) deviennent acides et le blanc se raffermit mal. Repère visuel : brun foncé = œufs, transparent = légumes."
+    },
+    {
+      "titre": "La marinade doit être froide",
+      "texte": "Chaude, elle continue de cuire le jaune et rend le blanc caoutchouteux. En dessous de ~40 °C, aucun risque (l'œuf ne coagule qu'à partir de 60 °C) ; à 35 °C on peut y aller, mais mettre le sac au frigo tout de suite — un liquide tiède autour d'aliments cuits laissé sur le comptoir, c'est la zone de multiplication bactérienne."
+    },
+    {
+      "titre": "Choisir sa texture de jaune",
+      "texte": "Œuf sorti du frigo, plongé dans l'eau bouillante : 6 min 30 → jaune coulant (pour un ramen ; se tient mal au transport) ▪ 7 min → crémeux, figé mais mou, le standard japonais ▪ 9 min → presque pris, encore tendre et humide, le compromis ▪ 10-11 min → cuit et friable, l'œuf dur classique. Le jaune crémeux est une préférence, pas une étape. C'est une texture spécifiquement japonaise, entre deux repères occidentaux (coulant / cuit dur), et il est parfaitement normal de ne pas l'aimer : aucun gain nutritionnel ni technique à s'y contraindre. La marinade fonctionne identiquement à tous ces temps — un ajitsuke tamago à jaune ferme reste un ajitsuke tamago. Le seul usage qu'on perd en montant au-delà de 9 minutes, c'est la garniture de ramen, où le jaune coulant fait partie du plat."
+    },
+    {
+      "titre": "La marinade se réutilise une fois",
+      "texte": "Les œufs y ont laissé de l'eau et des protéines : elle est diluée et plus fragile qu'au départ. Conservation : frigo, contenant fermé, 4 à 5 jours. Avant réutilisation, deux gestes non négociables : la porter à ébullition 1 à 2 minutes (elle a touché des œufs cuits), puis la refroidir complètement avant d'y remettre des œufs — chaude, elle continue de les cuire. Le deuxième lot sera un peu moins assaisonné, le sel s'étant partagé : compenser avec 1 c. à soupe de sauce soya avant de replonger les œufs. Après ce deuxième tour, jeter. Si on ne refait pas d'œufs tout de suite, c'est un excellent assaisonnement : quelques cuillères dans un chahan, sur des champignons poêlés, ou comme base de sauce à nouilles ou de donburi (R9), pour laquelle elle est déjà exactement dosée. C'est du dashi-soya-mirin concentré."
+    },
+    {
+      "titre": "Sans mirin ni saké",
+      "texte": "60 ml de sauce soya + 60 ml de dashi (ou eau) + 1 c. à soupe de sucre. Voir aussi la note de substitution du mirin, fiche Mirin du guide 3."
+    },
+    {
+      "titre": "Sortir les œufs à 24 h",
+      "texte": "Ne pas les laisser dans le sac jusqu'à les manger : ils continuent d'absorber le sel. À 48 h, le blanc devient franchement salé et le jaune commence à figer et à devenir crayeux. À 24 h, sortir tous les œufs, les mettre dans un contenant fermé au frigo, nature : ils tiennent 3-4 jours à partir de là. Ça vaut quel que soit le temps de cuisson. La marinade se récupère : la garder à part dans un pot fermé — voir la note « La marinade se réutilise une fois »."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Boiled%20eggs%20in%20soy%20sauce%20-Jangjolim-%20%286275954552%29.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

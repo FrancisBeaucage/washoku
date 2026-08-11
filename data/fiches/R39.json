@@ -1,0 +1,81 @@
+{
+  "id": "R39",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "vietnamienne",
+  "vitesse": "rapide",
+  "jp": "canh",
+  "jp_lecture": "kang",
+  "romaji": "canh",
+  "fr": "Canh vietnamienne",
+  "sous_titre": "La soupe maison qu'on sert à table dans tous les restaurants vietnamiens.",
+  "portions": "2 bols",
+  "temps_affiche": "≈ 13 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 8,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 60,
+    "calories_affiche": "≈ 60",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "500 ml de bouillon léger",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 tomate en quartiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 tasses de verdure : cresson, épinards, chou nappa",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignon vert, coriandre, poivre blanc",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Frémir le bouillon avec la tomate 5 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter la verdure, 1 minute."
+    },
+    {
+      "n": 3,
+      "texte": "Assaisonner hors du feu."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canhchua2.jpg?width=1200",
+  "video": {
+    "youtube_id": "vO81lQvYodI",
+    "auteur": "Helen's Recipes"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,76 @@
+{
+  "id": "R47",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "叩ききゅうり",
+  "jp_lecture": null,
+  "romaji": "tataki kyūri",
+  "fr": "Concombre tataki",
+  "sous_titre": "Pratiquement zéro calorie, et addictif. Les surfaces déchirées absorbent beaucoup mieux la marinade que des tranches nettes.",
+  "portions": "2",
+  "temps_affiche": "≈ 21 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 0,
+    "attente": 15
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 40,
+    "calories_affiche": "≈ 40",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 concombre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 gousse d'ail écrasée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de vinaigre de riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame, piment",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Écraser le concombre au plat d'un large couteau jusqu'à ce qu'il craque et se fende."
+    },
+    {
+      "n": 2,
+      "texte": "Déchirer en morceaux irréguliers à la main."
+    },
+    {
+      "n": 3,
+      "texte": "Mariner 15 minutes."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
+  "video": {
+    "youtube_id": "09g-HSTI7_o",
+    "auteur": "No Recipes"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

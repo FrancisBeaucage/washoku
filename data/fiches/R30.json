@@ -1,0 +1,94 @@
+{
+  "id": "R30",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "long",
+  "jp": "육개장",
+  "jp_lecture": "youk-gué-djang",
+  "romaji": "yukgaejang",
+  "fr": "Yukgaejang simplifié",
+  "sous_titre": "Bœuf effiloché, gochugaru, deux tasses de fèves germées. La couleur rouge vient de l'huile infusée, pas du piquant.",
+  "portions": "2",
+  "temps_affiche": "≈ 40 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 30,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 40,
+    "proteines_affiche": "40 g",
+    "calories": 420,
+    "calories_affiche": "≈ 420",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1,2 L de bouillon de bœuf",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de bœuf à ragoût, effiloché après cuisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de gochugaru mélangés à 2 c. à soupe d'huile",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 gousses d'ail, 1 c. à soupe de soya",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 oignons verts en tronçons de 5 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 tasses de fèves germées, 2 œufs battus",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Chauffer doucement le gochugaru dans l'huile 1 minute — ça libère la couleur rouge et la saveur. Ne pas le laisser noircir."
+    },
+    {
+      "n": 2,
+      "texte": "Bœuf et ail, 3 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Bouillon et soya, 20 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "Oignons verts et fèves germées, 5 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "Œufs en filet à la fin."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_soup-Yukgaejang-01.jpg?width=1200",
+  "video": {
+    "youtube_id": "FxSmBbXSDl0",
+    "auteur": "Maangchi"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

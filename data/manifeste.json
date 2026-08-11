@@ -2,44 +2,70 @@
   "site": "washoku",
   "version_schema": "1.0",
   "derniere_maj": "2026-08-11",
-  "dernier_document_applique": 8,
+  "dernier_document_applique": 9,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
+  "protocole_de_lecture": [
+    "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
+    "index.json dit quelles fiches existent, avec de quoi choisir laquelle ouvrir.",
+    "fiches/<ID>.json donne une fiche entière. Ne récupérer que celles dont on a besoin.",
+    "guide-2-fiches.json est le recueil entier : ne le charger que pour un audit."
+  ],
   "fichiers": [
     {
       "nom": "guide-2-fiches.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-2-fiches.json",
       "description": "Techniques et recettes du guide 2",
       "nb_entrees": 72,
       "nb_actives": 72
     },
     {
       "nom": "guide-3-ingredients.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-3-ingredients.json",
       "description": "Fiches d’ingrédients du guide 3",
       "nb_entrees": 76,
       "nb_actives": 76
     },
     {
       "nom": "guide-4-exercices.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-4-exercices.json",
       "description": "Exercices du guide 4",
       "nb_entrees": 16,
       "nb_actives": 16
     },
     {
       "nom": "guide-6-journal.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-6-journal.json",
       "description": "Entrées du journal du guide 6",
       "nb_entrees": 5,
       "nb_actives": 5
     },
     {
       "nom": "guide-2-annexes.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-2-annexes.json",
       "description": "Annexes du guide 2 : lexique, yakumi, dépannage, thé",
       "nb_entrees": 4,
       "nb_actives": 4
     },
     {
       "nom": "guide-5-plan.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-5-plan.json",
       "description": "Cibles chiffrées et sections du guide 5",
       "nb_entrees": 5,
       "nb_actives": 5
+    },
+    {
+      "nom": "index.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/index.json",
+      "description": "Index compact des fiches : de quoi choisir laquelle ouvrir, sans charger le recueil",
+      "nb_entrees": 72,
+      "nb_actives": 72
+    },
+    {
+      "nom": "fiches/<ID>.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/fiches/",
+      "description": "Une fiche par fichier, identique à son entrée du recueil. Adresse exacte dans index.json",
+      "nb_entrees": 72,
+      "nb_actives": 72
     }
   ],
   "compteurs": {

@@ -1,0 +1,81 @@
+{
+  "id": "R11",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "お茶漬け",
+  "jp_lecture": null,
+  "romaji": "ochazuke",
+  "fr": "Ochazuke",
+  "sous_titre": "Le plat de restes par excellence, et une des meilleures idées de toute la cuisine japonaise. Mêmes ingrédients qu'hier soir, plat complètement différent.",
+  "portions": "1",
+  "temps_affiche": "≈ 7 min",
+  "temps_minutes": {
+    "preparation": 4,
+    "cuisson": 3,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "variable",
+    "calories": 280,
+    "calories_affiche": "≈ 280",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": true,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 bol de riz (froid, c'est parfait)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un reste de poisson grillé, effiloché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 ml de thé vert chaud ou de dashi chaud",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Nori émincé, wasabi, graines de sésame, un umeboshi",
+      "sante": true,
+      "sante_pos": 4
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Déposer le riz et le poisson dans un bol."
+    },
+    {
+      "n": 2,
+      "texte": "Verser le liquide chaud dessus."
+    },
+    {
+      "n": 3,
+      "texte": "Garnir de nori, de wasabi, de sésame et d'un umeboshi."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le repas de fin de soirée",
+      "texte": "C'est le classique japonais quand on rentre tard et qu'on n'a envie de rien cuisiner."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Una_chazuke_by_Kossy%40FINEDAYS_in_Akabane.jpg?width=1200",
+  "video": {
+    "youtube_id": "VEodY9THtmw",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

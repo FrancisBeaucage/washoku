@@ -1,0 +1,102 @@
+{
+  "id": "R57",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "即席麺",
+  "jp_lecture": null,
+  "romaji": "sokusekimen",
+  "fr": "Nouilles instantanées, version repas",
+  "sous_titre": "Le paquet est une base, pas le repas. Avec des œufs et des légumes, ça devient un vrai souper à 550 calories et 32 g de protéines en cinq minutes — et ça bat la pizza.",
+  "portions": "1",
+  "temps_affiche": "≈ 8 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 5,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 32,
+    "proteines_affiche": "32 g",
+    "calories": 550,
+    "calories_affiche": "≈ 550",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 paquet de nouilles instantanées (idéalement non frites — voir la note)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 à 2 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 poignée d'edamames congelés",
+      "sante": true,
+      "sante_pos": 20
+    },
+    {
+      "texte": "2 poignées d'épinards ou de bok choy",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignon vert",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "La moitié du sachet d'assaisonnement seulement",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Dans une casserole sur le feu (pas de l'eau versée d'une bouilloire — elle refroidit trop vite pour cuire un œuf cru), porter l'eau à ébullition et ajouter les nouilles."
+    },
+    {
+      "n": 2,
+      "texte": "Œuf poché façon ramen (blanc pris, jaune coulant) : baisser à léger frémissement, casser l'œuf dans le bouillon et cuire 3 minutes à couvert, sans brasser. Pour des filaments d'œuf soyeux : battre l'œuf et le verser en filet dans le bouillon qui bout, en brassant doucement."
+    },
+    {
+      "n": 3,
+      "texte": "Jeter les edamames (1 minute) puis les épinards (30 secondes)."
+    },
+    {
+      "n": 4,
+      "texte": "N'utiliser que la moitié du sachet d'assaisonnement ; compenser avec ail, gingembre, vinaigre ou piment."
+    },
+    {
+      "n": 5,
+      "texte": "Ne pas boire tout le bouillon — environ 40 % du sodium y reste."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Reconnaître une nouille non frite : le gras",
+      "texte": "Aucun paquet ne dit « non frites » — le test fiable est le gras au tableau nutritionnel. Nouille frite : 15 à 20 g de gras par portion (huile de palme absorbée à la friture). Non frite : 1 à 3 g. Pas de zone grise, et c'est plus rapide que de chercher une mention souvent absente. Mots utiles : 非油炸 (chinois), ノンフライ麺 (japonais), « air-dried » / « steamed and dried » (anglais). Au visuel : un bloc frit est ondulé, doré et aéré ; un bloc non frit est plus pâle, plus dense, plus lourd pour sa taille. À Montréal (créneau de niche) : Pulmuone en épicerie coréenne, Myojo Chukazanmai, ou A-Sha (plus souvent chez T&T). Mais il y a mieux : la nouille sèche ordinaire (voir R60), pas frite du tout, moins chère et partout."
+    },
+    {
+      "titre": "Sans casserole (méthode bol)",
+      "texte": "Si tu verses seulement l'eau bouillie de la bouilloire sur les nouilles dans un bol, elle refroidit trop vite pour cuire un œuf cru. Ajoute plutôt un œuf mollet déjà cuit (technique T8), tranché sur le dessus."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/HomeCookedRamenNoodles.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "R18",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "vietnamienne",
+  "vitesse": "long",
+  "jp": "ブンチャー",
+  "jp_lecture": "boune tcha",
+  "romaji": "bún chả",
+  "fr": "Bun cha vietnamien en bol",
+  "sous_titre": "Trois tasses de verdure fraîche par bol. Ce n'est pas une exagération, c'est la signature vietnamienne.",
+  "portions": "2",
+  "temps_affiche": "≈ 50 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 10,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "38 g",
+    "calories": 480,
+    "calories_affiche": "≈ 480",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de porc haché maigre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "MARINADE — 1 c. à soupe de sauce de poisson, 1 c. à soupe de sucre, 2 gousses d'ail, 1 échalote hachée, poivre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Laitue, concombre, carotte marinée, menthe, coriandre, basilic thaï — en quantité",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "NUOC CHAM — 3 c. à soupe d'eau tiède, 2 c. à soupe de jus de lime, 1,5 c. à soupe de sauce de poisson, 1 c. à soupe de sucre, ail, piment",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Vermicelles de riz, portion modeste",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mariner le porc 20 minutes, former de petites galettes plates."
+    },
+    {
+      "n": 2,
+      "texte": "Gril du four ou poêle, 4 minutes par côté."
+    },
+    {
+      "n": 3,
+      "texte": "Monter le bol : herbes et laitue en base, galettes dessus."
+    },
+    {
+      "n": 4,
+      "texte": "Nuoc cham à verser au moment de manger."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bun_cha_Hanoi.jpg?width=1200",
+  "video": {
+    "youtube_id": "iZJzTScgB-c",
+    "auteur": "Helen's Recipes"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,76 @@
+{
+  "id": "R46",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "金平",
+  "jp_lecture": null,
+  "romaji": "kinpira",
+  "fr": "Kinpira de carotte et daikon",
+  "sous_titre": "Se garde 4 jours. La mandoline fait les juliennes en trente secondes.",
+  "portions": "4",
+  "temps_affiche": "≈ 22 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 7,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 60,
+    "calories_affiche": "≈ 60",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "2 carottes et ¼ de daikon en juliennes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de soya, 1 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Sésame, shichimi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Sauter les juliennes 4 minutes à feu vif."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter les liquides, réduire jusqu'à ce qu'ils enrobent."
+    },
+    {
+      "n": 3,
+      "texte": "Sésame et shichimi."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinpira_002.jpg?width=1200",
+  "video": {
+    "youtube_id": "ZHbYTUq8M7U",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

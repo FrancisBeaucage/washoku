@@ -1,0 +1,107 @@
+{
+  "id": "R1",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "和朝食",
+  "jp_lecture": null,
+  "romaji": "wa-chōshoku",
+  "fr": "Set japonais complet",
+  "sous_titre": "Le déjeuner traditionnel complet. Tout se fait en parallèle : le poisson au gril pendant que l'œuf cuit et que la soupe chauffe.",
+  "portions": "1",
+  "temps_affiche": "≈ 23 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": "12 h (salage)",
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "38 g",
+    "calories": 620,
+    "calories_affiche": "≈ 620",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 petit bol de riz (140 g)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 bol de soupe miso (voir R43)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 filet de saumon de 120 g",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 œuf mollet",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Concombre mariné (T7)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 feuille de nori nature",
+      "sante": true,
+      "sante_pos": 17
+    }
+  ],
+  "techniques": [
+    "T3",
+    "T4",
+    "T7b"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Saler le saumon la veille selon T3."
+    },
+    {
+      "n": 2,
+      "texte": "Le matin, mettre le saumon au gril selon T4."
+    },
+    {
+      "n": 3,
+      "texte": "Pendant ce temps, cuire l'œuf 6 min 30 dans l'eau bouillante, puis eau glacée."
+    },
+    {
+      "n": 4,
+      "texte": "Chauffer la soupe miso."
+    },
+    {
+      "n": 5,
+      "texte": "Réchauffer le riz avec une cuillère à thé d'eau, couvert, 1 à 2 minutes."
+    },
+    {
+      "n": 6,
+      "texte": "Servir tout en même temps, dans des contenants séparés."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le principe",
+      "texte": "Ce n'est pas une assiette, c'est un assemblage. La variété sensorielle vient du nombre de contenants, pas de la quantité."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel_Kanra_Kyoto_%28Main%29_B2F_The_Kitchen_Kanra_Japanese-style_breakfast_20210628-001.jpg?width=1200",
+  "video": {
+    "youtube_id": "VP9odZtZw3g",
+    "auteur": "Kyodokan"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,98 @@
+{
+  "id": "R62",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "鮭フレーク",
+  "jp_lecture": null,
+  "romaji": "sake furēku",
+  "fr": "Flocons de saumon sur riz chaud",
+  "sous_titre": "Le déjeuner de restes par excellence : un reste de saumon grillé (T4, R14) effiloché froid sur une portion de riz réchauffée. Aucune cuisson, aucun liant, aucune huile — la chaleur du riz fait tout le travail. C'est le plat qui rend un déjeuner japonais faisable un mardi matin.",
+  "portions": "1",
+  "temps_affiche": "≈ 4 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 2,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 28,
+    "proteines_affiche": "~28 g",
+    "calories": 385,
+    "calories_affiche": "≈ 385",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 portion de riz congelée de 140 g (T1)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Environ 100 g de saumon grillé cuit la veille (T4), froid, sorti du frigo",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : graines de sésame grillées, oignon vert, nori émincé, une pointe de wasabi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T1",
+    "T4"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Réchauffer la rondelle de riz congelée : 1 min 30 au micro-ondes à 1000 W, une assiette par-dessus, puis 1 minute de repos couvert — et on sort le bol du four immédiatement (voir T1)."
+    },
+    {
+      "n": 2,
+      "texte": "Pendant ce temps, effilocher le poisson FROID, directement du contenant : à la fourchette, ou aux baguettes tenues à plat qu'on tire vers soi. Il se sépare en feuillets tout seul."
+    },
+    {
+      "n": 3,
+      "texte": "Déposer les flocons sur le riz chaud. Ne rien ajouter d'autre : ni huile, ni sésame pour lier, ni réchauffage."
+    },
+    {
+      "n": 4,
+      "texte": "Garnir si on veut : sésame, oignon vert, nori. Ce sont des yakumi, pas des ingrédients — le plat est complet sans eux."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Aucun réchauffage, aucun liant",
+      "texte": "Le poisson cuit s'effiloche froid et se dépose sur le riz chaud. La chaleur du riz suffit : confirmé le 10 août, la texture n'est pas sèche en bouche et le plat n'a besoin ni d'huile ni de sésame supplémentaire pour lier. Repasser le poisson à la poêle le dessèche et durcit les flocons. C'est un geste à ne pas faire."
+    },
+    {
+      "titre": "La peau se retire au rangement, pas au service",
+      "texte": "Chaude, la peau du saumon est bonne — c'est même la meilleure partie d'un shioyaki réussi. Froide, elle est caoutchouteuse : le collagène se regélifie au réfrigérateur, et elle ne se rattrape pas. Donc, au moment de RANGER le poisson cuit au frigo, on retire la peau et on la jette. Sinon, on se retrouve le lendemain à effilocher du poisson froid avec une peau collée dessus — geste inutile et désagréable. La consigne de ce dossier disait auparavant de retirer la peau au service : c'est trop tard."
+    },
+    {
+      "titre": "Ce que ça pèse",
+      "texte": "Environ 100 g de saumon cuit (ce qui reste d'un filet de 150 g cru) : environ 25 g de protéines et 205 calories. Une portion de riz de 140 g : environ 3 g et 180 calories. Total : environ 28 g de protéines et 385 calories, pour zéro sodium ajouté — le sel du shioyaki est déjà dans le poisson. C'est le meilleur ratio protéines/sodium d'un déjeuner du recueil. Ordres de grandeur : l'étiquette du produit prime."
+    },
+    {
+      "titre": "Comment on en a toujours sous la main",
+      "texte": "C'est un plat de restes, pas un plat qu'on planifie. La logique : au souper, griller un filet de plus (T4) ; au rangement, retirer la peau et mettre la chair entière au frigo, sans l'effilocher — effilochée d'avance, elle sèche. Elle tient 2 à 3 jours. Le riz, lui, est déjà en rondelles au congélateur. Le déjeuner du lendemain ne demande alors que quatre minutes, dont trois d'attente."
+    },
+    {
+      "titre": "Ce n'est pas du sake furikake du commerce",
+      "texte": "Les flocons de saumon vendus en pot (鮭フレーク) sont cuits, sucrés et salés, et tiennent des semaines. C'est bon, et c'est très salé. Ici on parle simplement d'un reste de poisson grillé effiloché — même geste, même nom, aucun sodium ajouté."
+    }
+  ],
+  "photo": "assets/recettes/flocons-saumon.jpg",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

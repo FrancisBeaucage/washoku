@@ -1,0 +1,112 @@
+{
+  "id": "T6",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "茹で方",
+  "jp_lecture": null,
+  "romaji": "yudekata",
+  "fr": "Le blanchiment des verdures",
+  "sous_titre": "Le geste dépend de la structure du légume. Deux familles, deux protocoles : les verdures molles (épinard, komatsuna, mizuna, cresson) et les verdures à tiges (bok choy, chou nappa, gai lan, choy sum). C'est la base de l'ohitashi.",
+  "portions": "1 botte",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": 0,
+    "calories_affiche": "0",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "Verdures — molles (épinard…) ou à tiges (bok choy…)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Beaucoup d'eau bouillante salée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un bol d'eau glacée",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "FAMILLE A — verdures molles (épinard, komatsuna, mizuna, cresson). Laver, garder entier."
+    },
+    {
+      "n": 2,
+      "texte": "Eau bouillante salée 30 s à 1 min (tiges épaisses en premier), puis eau glacée immédiatement."
+    },
+    {
+      "n": 3,
+      "texte": "Presser fort : former une botte serrée, tordre, extraire le maximum d'eau. Trancher en tronçons de 4-5 cm."
+    },
+    {
+      "n": 4,
+      "texte": "FAMILLE B — verdures à tiges (bok choy, chou nappa, gai lan, choy sum). Parer 5 mm à la base (le disque sec de la coupe du champ, pas plus : c'est ce qui tient les tiges ensemble pour le lavage), puis fendre en deux dans la longueur."
+    },
+    {
+      "n": 5,
+      "texte": "Laver en écartant les tiges sous l'eau courante — le sable se cache à la base, là où les tiges se rejoignent. Séparer les tiges blanches des feuilles vertes."
+    },
+    {
+      "n": 6,
+      "texte": "Eau bouillante salée : tiges 1 min 30 à 2 min, puis feuilles 30 s. Eau glacée immédiatement."
+    },
+    {
+      "n": 7,
+      "texte": "Presser séparément, et pas de la même façon : les feuilles doucement, une seule pression de la main — elles rendent leur eau tout de suite. Les tiges FERMEMENT : elles sont creuses et gardent l'eau dans leurs canaux internes. Serrer droit, sans tordre (voir la note)."
+    },
+    {
+      "n": 8,
+      "texte": "Découper ou non, ça dépend du service : en pièce entière (demi-bok choy dans l'assiette, sauce versée dessus), ne rien couper. En plat lié (goma-ae, shira-ae, tout ce qui doit enrober), couper AVANT d'assaisonner : segments de 3-4 cm, tiges épaisses en biseau (sogigiri そぎ切り)."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "⚠️ Presser les tiges : fermement, mais pas comme l'épinard",
+      "texte": "Cette fiche a d'abord dit « presser doucement » pour la famille B. C'est vrai des feuilles, faux des tiges — et c'est la nuance qui a été ratée au premier essai. Une tige de bok choy, de nappa ou de gai lan est creuse : elle retient l'eau dans ses canaux internes. La pression douce préserve la forme mais laisse l'eau dedans — elle ressort ensuite dans le bol de service, délaie l'assaisonnement, et se sent à la mastication. Il faut donc presser fermement. Ce qu'on ne fait pas, c'est le geste de l'épinard : former une botte et tordre. Sur une tige charnue, la torsion écrase les fibres et les rend filandreuses. Le geste juste : la tige à plat entre deux paumes, on serre droit, sans torsion. Le repère : une tige bien pressée reste ferme et rebondie sous le doigt, sans qu'on sente de liquide bouger à l'intérieur. Si elle s'affaisse ou craque, c'est trop."
+    },
+    {
+      "titre": "⚠️ Découper ou non : ça dépend du service",
+      "texte": "Cette fiche a d'abord dit « pas de découpe finale » pour la famille B. Ça ne vaut que pour un service en pièce entière : demi-bok choy posé dans l'assiette, sauce versée dessus — la forme du légume fait partie du plat. Pour un service lié (goma-ae, shira-ae, tout plat où l'assaisonnement doit enrober), c'est l'inverse : découper avant d'enrober, en segments de 3-4 cm, les tiges épaisses tranchées en biseau (sogigiri) pour multiplier la surface exposée. L'enrobage est un phénomène de surface : un demi-bok choy entier n'offre que son extérieur — on goûte le sésame à la première bouchée, puis plus rien."
+    },
+    {
+      "titre": "Bok choy nain (baby bok choy)",
+      "texte": "Garder les demi-têtes entières, base parée. Blanchir d'un coup, tiges et feuilles ensemble, 2 minutes. Belle présentation en bol."
+    },
+    {
+      "titre": "⚠️ Un légume feuille déjà blanchi ne se réchauffe pas dans une soupe",
+      "texte": "Le blanchiment a déjà cuit les fibres. Un passage supplémentaire dans un bouillon chaud ne fait que poursuivre la dégradation : les tiges deviennent spongieuses et rendent leur eau dans le bol. Dans une soupe, le bok choy s'ajoute CRU, à la fin — les tiges 90 secondes dans le bouillon frémissant, les feuilles 30 secondes. Le bok choy pré-blanchi de la session de préparation est destiné au goma-ae, où il est pressé et essoré : c'est là qu'il donne son meilleur. Constaté le 10 août, sur du bok choy blanchi trois jours plus tôt puis réchauffé dans un bouillon de nouilles."
+    },
+    {
+      "titre": "Conservation",
+      "texte": "3 jours au frigo dans un contenant fermé, avec un morceau d'essuie-tout au fond (les verdures continuent de rendre de l'eau). Ranger nature, sans assaisonnement : c'est une base neutre. On assaisonne au moment de servir — soya + katsuobushi (ohitashi), sésame écrasé (goma-ae), ou rien du tout dans un donburi. Assaisonné trois jours d'avance, ça rend de l'eau et devient fade. Et blanchir même si on ne mange pas tout de suite : le bok choy cru dans son sac se flétrit plus vite que blanchi dans un contenant."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
+  "video": {
+    "youtube_id": "DfFv9gTxrbs",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,127 @@
+{
+  "id": "T1",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "extra-long",
+  "jp": "米の研ぎ方",
+  "jp_lecture": null,
+  "romaji": "kome no togikata",
+  "fr": "Le riz : rinçage et cuisson",
+  "sous_titre": "Le rinçage n'est pas facultatif. Il enlève l'amidon de surface qui rend le riz gommant, une partie de l'arsenic inorganique, et les poussières de mouture.",
+  "portions": "6 portions",
+  "temps_affiche": "≈ 61 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 15,
+    "attente": 40
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g / portion",
+    "calories": 200,
+    "calories_affiche": "≈ 200 / bol",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "Riz à grain court japonais — environ 80 g cru par portion de 140 g cuit",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Eau froide",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un bol et une passoire fine",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mesurer le riz cru dans un bol. Compter environ 80 g de riz cru par portion."
+    },
+    {
+      "n": 2,
+      "texte": "Couvrir d'eau froide. L'eau devient blanche immédiatement — c'est l'amidon."
+    },
+    {
+      "n": 3,
+      "texte": "Brasser du bout des doigts en mouvement circulaire, une quinzaine de secondes. Pas besoin de frotter fort."
+    },
+    {
+      "n": 4,
+      "texte": "Vider l'eau en retenant le riz avec la main, ou verser dans une passoire."
+    },
+    {
+      "n": 5,
+      "texte": "Répéter trois ou quatre fois, jusqu'à ce que l'eau soit presque claire. Pas parfaitement transparente — légèrement laiteuse suffit."
+    },
+    {
+      "n": 6,
+      "texte": "Laisser tremper 30 minutes dans l'eau de cuisson avant de partir le cuiseur. Facultatif, mais donne un grain nettement meilleur."
+    },
+    {
+      "n": 7,
+      "texte": "Cuire au cuiseur selon les proportions du fabricant. Sans cuiseur : 1 volume de riz pour 1,2 volume d'eau, porter à ébullition, couvrir, feu très doux 12 minutes, puis 10 minutes hors du feu sans soulever le couvercle."
+    },
+    {
+      "n": 8,
+      "texte": "Aérer avec une spatule en coupant plutôt qu'en brassant, pour ne pas écraser les grains."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Congeler, pas réfrigérer",
+      "texte": "La règle simple : congèle, ne réfrigère pas. Entre 0 et 4 °C — la plage exacte du frigo — l'amidon rétrograde et le grain devient dur et sec. Le congélateur traverse cette zone assez vite pour préserver la texture : un riz congelé puis réchauffé est presque indiscernable d'un riz frais, ce qu'un riz réfrigéré n'est jamais. Le geste, pendant que le riz fume encore : portionne en portions de 140 g (le même chiffre que ta calibration au bol, pour ne pas avoir deux nombres en tête), emballe serré dans une pellicule (la vapeur emprisonnée fera le travail au réchauffage), aplatis en disque mince plutôt qu'en boule. C'est ce qui rend les déjeuners de semaine (R3, R4) faisables — cuis une grosse batch le dimanche et portionne."
+    },
+    {
+      "titre": "Réchauffer une portion congelée (1000 W)",
+      "texte": "Rondelle congelée dans un bol, une assiette par-dessus. 1 min 30, sans décongeler d'avance. Puis une minute de repos, couvert — et on sort le bol du four. Ne laisse pas le riz dans le micro-ondes après le repos : c'est l'erreur qui donne du riz dur. La minute de repos sert à égaliser la vapeur ; au-delà, le riz ne repose plus, il refroidit, et en repassant sous 60 °C il recommence à rétrograder — le même durcissement qu'au frigo, mais en quelques minutes. (Réfrigéré : 1 min à 1 min 15, avec une cuillère à soupe d'eau avant de couvrir.)"
+    },
+    {
+      "titre": "Le riz réchauffé a l'air compact — c'est normal",
+      "texte": "Il sort du four en ayant encore l'air pris en bloc. Ne cherche pas à le « fluffer » : le premier geste de baguettes suffit à l'ouvrir, et il se détend tout seul. Juge au contact, pas à l'œil. Pas besoin d'eau ajoutée si le riz a été emballé chaud ET humide (voir le portionnage). Si les rondelles sont sèches — cuiseur laissé ouvert pendant le portionnage — une cuillère à thé d'eau sur la rondelle avant de couvrir rattrape en partie. Ça ne fait pas un riz neuf."
+    },
+    {
+      "titre": "Si le riz a déjà durci au frigo",
+      "texte": "Ne cherche pas à le réchauffer nature, il ne redeviendra pas bon. Recycle-le, exactement comme le fait la cuisine japonaise : chahan (riz sauté — le riz sec est meilleur pour ça), ochazuke (riz avec du thé chaud versé dessus), ou zosui (riz mijoté dans du dashi, façon soupe-repas)."
+    },
+    {
+      "titre": "Sécurité",
+      "texte": "Refroidis et congèle dans l'heure ou deux suivant la cuisson, et ne réchauffe qu'une seule fois. Le riz cuit laissé à température ambiante est un des aliments les plus propices à la prolifération bactérienne : Bacillus cereus produit une toxine résistante à la chaleur."
+    },
+    {
+      "titre": "Ton cuiseur à riz",
+      "texte": "Si ton cuiseur prend 45-60 minutes, ne change rien : c'est un cuiseur à micro-ordinateur (fuzzy logic) dont le cycle inclut déjà le trempage (~15-20 min à basse température) et le repos (10-15 min à la vapeur) — exactement la séquence de T1, en automatique. N'utilise pas le mode « rapide » : il coupe justement ces deux étapes. Le trempage manuel devient redondant ; rince quand même (aucun cuiseur ne le fait), puis lance directement. Deux détails qui comptent plus que le réglage : utilise les lignes graduées du bol (calibrées pour la tasse fournie de 180 ml, pas 250 ml), et n'ouvre pas le couvercle avant le signal — le repos post-cuisson égalise l'humidité entre les grains du fond et ceux du dessus."
+    },
+    {
+      "titre": "La forme compte autant que l'emballage",
+      "texte": "Aplatis en disque de 2-3 cm, comme une rondelle de hockey : une boule réchauffe de l'extérieur vers l'intérieur (le pourtour sèche pendant que le cœur est encore glacé), un disque réchauffe uniformément. Le principe unique : pas d'air entre le riz et l'emballage — la vapeur emprisonnée au contact du grain est ce qui refait le riz ; s'il y a de l'air, elle se condense sur le plastique. Pellicule : riz chaud, replier, serrer partout, écraser en rondelle. Sac refermable : écraser à plat en poussant l'air vers l'ouverture (et sortir le disque du sac pour le micro-ondes, sauf sac prévu pour). Emballer chaud, mais laisser 5-10 min sur le comptoir avant le congélateur — un bloc brûlant décongèle partiellement ce qui l'entoure ; une plaque de métal sous les disques accélère la prise."
+    },
+    {
+      "titre": "Refermer le couvercle du cuiseur entre chaque portion",
+      "texte": "Ouvrir, prélever une portion, refermer, emballer, rouvrir. C'est fastidieux et c'est précisément pour ça que ça se perd — mais un cuiseur laissé ouvert perd sa vapeur en continu, et sur une fournée de six portions la dernière part nettement plus sèche que la première. Emballer chaud ne suffit pas : il faut emballer humide. Ce n'est pas la chaleur qui compte au moment d'emballer, c'est l'eau piégée dans la pellicule — c'est elle qui redevient la vapeur du réchauffage. Du riz encore chaud mais déjà asséché en surface s'emballe très bien et se réchauffe mal. (Rester dans le cuiseur en mode réchaud, couvercle fermé, pendant 30 minutes ne pose aucun problème : c'est prévu pour ça.)"
+    },
+    {
+      "titre": "Riz et natto : décongélation inverse",
+      "texte": "Deux aliments du même congélateur, deux logiques opposées. Le riz : congélateur → micro-ondes directement, sans passer par le frigo — repasser par 0-4 °C fait rétrograder l'amidon et le riz ressort plus sec. Le natto : congélateur → frigo la veille, jamais le micro-ondes ni l'eau chaude — la chaleur tue les bactéries de fermentation et casse la texture filante. Le réflexe « je sors tout la veille » ruine le riz ; le réflexe « je passe tout au micro-ondes » ruine le natto."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
+  "video": {
+    "youtube_id": "xjkottdHL_k",
+    "auteur": null
+  },
+  "voir_aussi": []
+}

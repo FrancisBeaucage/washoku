@@ -1,0 +1,92 @@
+{
+  "id": "R38",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "味噌汁",
+  "jp_lecture": null,
+  "romaji": "misoshiru",
+  "fr": "Soupe miso de base",
+  "sous_titre": "Le meilleur outil qui existe contre la fringale de 21 h. Trois minutes si le dashi est au réfrigérateur.",
+  "portions": "2 bols",
+  "temps_affiche": "≈ 11 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 6,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 4,
+    "proteines_affiche": "4 g",
+    "calories": 50,
+    "calories_affiche": "≈ 50",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "400 ml de dashi (T2)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de miso blanc (pas plus — le dashi porte le goût)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "60 g de tofu soyeux en petits cubes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de wakame séché",
+      "sante": true,
+      "sante_pos": 20
+    },
+    {
+      "texte": "Oignon vert",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Chauffer le dashi jusqu'au frémissement, ajouter le tofu."
+    },
+    {
+      "n": 2,
+      "texte": "Retirer du feu. Mettre le miso dans une petite passoire ou une louche, ajouter un peu de bouillon chaud, écraser avec le dos d'une cuillère pour le délayer, puis reverser."
+    },
+    {
+      "n": 3,
+      "texte": "Wakame et oignon vert."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Les variantes",
+      "texte": "Aux champignons (enoki ou shimeji, 1 min) ▪ au daikon (fines lamelles, 3 min) ▪ aux palourdes (6 palourdes jusqu'à ouverture — riche en fer) ▪ au miso rouge (plus corsé, réduire à 2 c. à thé) ▪ tonjiru (porc et légumes-racines : devient une soupe-repas)."
+    },
+    {
+      "titre": "Ne jamais faire bouillir après le miso",
+      "texte": "La chaleur détruit les arômes et les cultures."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso_Soup_001.jpg?width=1200",
+  "video": {
+    "youtube_id": "wshf6yZbhwk",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

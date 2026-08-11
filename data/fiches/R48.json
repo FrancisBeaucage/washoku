@@ -1,0 +1,88 @@
+{
+  "id": "R48",
+  "statut": "actif",
+  "categorie": "collation",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "枝豆",
+  "jp_lecture": null,
+  "romaji": "edamame",
+  "fr": "Edamames — en cosses et écossées",
+  "sous_titre": "Acheter nature congelés, pas salés — on dose soi-même. En cosses, décortiquer ralentit le rythme, ce qui fait partie de l'intérêt. Écossées, c'est un ingrédient : au bol, à la soupe, au donburi. Les deux formats ne s'assaisonnent pas de la même façon.",
+  "portions": "4",
+  "temps_affiche": "≈ 8 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 5,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 18,
+    "proteines_affiche": "18 g / tasse",
+    "calories": 190,
+    "calories_affiche": "≈ 190 / tasse",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 sac d'edamames congelés nature, en cosses ou écossés",
+      "sante": true,
+      "sante_pos": 16
+    },
+    {
+      "texte": "Une pincée de sel, ou du gomashio (sésame grillé et sel, 8 pour 1)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un filet d'huile de sésame (version en cosses, poêlée)",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "EN COSSES — Eau bouillante, 4 à 5 minutes depuis congelé : l'enveloppe protège la fève et ralentit le transfert de chaleur."
+    },
+    {
+      "n": 2,
+      "texte": "Égoutter, puis saler l'extérieur des cosses. Ou, version poêlée : décongeler, sauter à sec 2 minutes dans une poêle chaude jusqu'à ce qu'ils marquent, puis une pincée de sel et un filet d'huile de sésame."
+    },
+    {
+      "n": 3,
+      "texte": "ÉCOSSÉES — Eau bouillante, sans décongeler, 3 minutes à gros bouillons. Confirmé le 10 août : la fève est cuite et garde de la tenue. Au-delà, elle ramollit vite."
+    },
+    {
+      "n": 4,
+      "texte": "Égoutter. Ne pas servir nature : gomashio en surface, ou une pincée de sel à table, ou directement dans la soupe miso (voir la note)."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Edamames écossées : trois usages, jamais nature",
+      "texte": "Sur des edamames en cosses, le sel se dépose à l'extérieur de l'enveloppe. On porte la cosse à la bouche, on récupère le sel sur les lèvres, puis on presse la fève — qui, elle, est nature. On goûte beaucoup de sel et on en avale très peu : l'enveloppe sert de véhicule. Écossées, cette mécanique disparaît : le sel colle directement sur ce qu'on avale, et la totalité compte. Mais servir la fève nature ne fonctionne pas non plus — sans enveloppe et sans contraste, le bol est fade, et ce n'est pas un goût auquel on s'habitue. Trois solutions, par ordre de préférence. (1) GOMASHIO (胡麻塩, « sésame-sel ») : sésame grillé et sel dans un rapport d'environ 8 pour 1. Même quantité de sel, mais portée par le sésame — plus de goût pour le même sodium. (2) UNE PINCÉE DE SEL EN SURFACE, À TABLE : une pincée entre les doigts fait environ 1/16 de c. à thé, soit environ 145 mg de sodium. En surface, on la goûte ; mélangée dans la masse, elle disparaît. Saler à table, jamais dans la casserole. (3) DANS LA SOUPE MISO : les fèves entrent dans le dashi avant le tofu (elles font chuter la température du bouillon), et le miso les assaisonne. Rien à ajouter. À éviter : ⅛ de c. à thé de sel fin mélangé aux fèves égouttées — c'est 290 mg de sodium pour un goût qu'on perçoit mal."
+    },
+    {
+      "titre": "Correction du 10 août",
+      "texte": "Une consigne antérieure du dossier disait d'omettre le sel sur les edamames écossées, au motif que la cosse est le véhicule de la technique de salage classique et que, sans elle, tout le sel est ingéré. Le raisonnement physique est exact ; la conclusion pratique était fausse. Testée le 10 août, la fève écossée servie nature en bol séparé est fade et n'a aucun mécanisme de rattrapage. Ce n'est pas un plat auquel on s'habitue, c'est un plat incomplet."
+    },
+    {
+      "titre": "Le potassium, l'autre moitié de l'équation",
+      "texte": "Les edamames sont une des meilleures sources de potassium du dossier, et le potassium contrebalance l'effet du sodium sur la tension. Une pincée de sel sur une tasse d'edamames n'est pas la même chose que la même pincée sur un aliment vide."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
+  "video": {
+    "youtube_id": "zBnR0bdU_JM",
+    "auteur": "Japanese Cooking 101"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

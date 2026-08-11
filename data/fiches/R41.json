@@ -1,0 +1,85 @@
+{
+  "id": "R41",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "chinoise",
+  "vitesse": "rapide",
+  "jp": "卵とトマトのスープ",
+  "jp_lecture": null,
+  "romaji": "tamago to tomato no sūpu",
+  "fr": "Soupe aux œufs et tomate",
+  "sous_titre": "Six minutes, six ingrédients.",
+  "portions": "2 bols",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 7,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 6,
+    "proteines_affiche": "6 g",
+    "calories": 80,
+    "calories_affiche": "≈ 80",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "500 ml de bouillon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 tomate en dés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 œuf battu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de fécule délayée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignon vert, un filet d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Frémir bouillon et tomate 4 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Épaissir légèrement avec la fécule."
+    },
+    {
+      "n": 3,
+      "texte": "Verser l'œuf en filet en brassant lentement dans une seule direction."
+    },
+    {
+      "n": 4,
+      "texte": "Oignon vert et filet d'huile de sésame."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomato_je.jpg?width=1200",
+  "video": {
+    "youtube_id": "pvacqcbDb0Y",
+    "auteur": "Wei's Red House Kitchen"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

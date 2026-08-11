@@ -1,0 +1,78 @@
+{
+  "id": "R43",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "jp": "お浸し",
+  "jp_lecture": null,
+  "romaji": "ohitashi",
+  "fr": "Ohitashi — épinards au dashi",
+  "sous_titre": "Se garde 3 jours. Environ 25 calories la portion, et le blanchiment améliore l'absorption du fer.",
+  "portions": "4",
+  "temps_affiche": "≈ 48 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 10,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 25,
+    "calories_affiche": "≈ 25",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 grosse botte d'épinards, préparée selon T6",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "TREMPETTE — 100 ml de dashi, 1 c. à soupe de soya, 1 c. à thé de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Katsuobushi, sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2",
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T6 (blanchiment)."
+    },
+    {
+      "n": 2,
+      "texte": "Couper le boudin d'épinards en tronçons de 4 cm."
+    },
+    {
+      "n": 3,
+      "texte": "Immerger dans le mélange de dashi, au moins 30 minutes au réfrigérateur."
+    },
+    {
+      "n": 4,
+      "texte": "Servir en petits tas, garnir de katsuobushi."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
+  "video": {
+    "youtube_id": "DfFv9gTxrbs",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

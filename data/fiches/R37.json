@@ -1,0 +1,81 @@
+{
+  "id": "R37",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "しらたき炒め",
+  "jp_lecture": null,
+  "romaji": "shirataki itame",
+  "fr": "Nouilles konjac aux légumes",
+  "sous_titre": "Les shirataki font environ 5 calories aux 100 g. L'étape 2 n'est pas facultative.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 30,
+    "proteines_affiche": "30 g",
+    "calories": 230,
+    "calories_affiche": "≈ 230",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "2 paquets de nouilles shirataki",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 g de protéine au choix",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Daikon, carotte, champignons, chou",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "SAUCE — 2 c. à soupe de soya, 1 c. à soupe de mirin, 1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Shichimi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Rincer les shirataki abondamment, 1 minute sous l'eau froide."
+    },
+    {
+      "n": 2,
+      "texte": "Les faire sauter à sec dans une poêle chaude, 2 à 3 minutes, jusqu'à ce qu'ils grincent. Cette étape enlève l'odeur caractéristique et améliore énormément la texture. Ne la sautez pas."
+    },
+    {
+      "n": 3,
+      "texte": "Ajouter le reste et sauter 5 minutes."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wet_shirataki_noodles.jpg?width=1200",
+  "video": {
+    "youtube_id": "qkv_CxkdWB4",
+    "auteur": "Yeung Man Cooking"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,92 @@
+{
+  "id": "R5",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "jp": "韓国風丼",
+  "jp_lecture": null,
+  "romaji": "kankoku-fū don",
+  "fr": "Bol coréen express",
+  "sous_titre": "Un reste de riz, deux œufs, du kimchi et des épinards. Cinq minutes.",
+  "portions": "1",
+  "temps_affiche": "≈ 16 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 8,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 20,
+    "proteines_affiche": "20 g",
+    "calories": 430,
+    "calories_affiche": "≈ 430",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "2 œufs brouillés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Reste de riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ tasse de kimchi rincé rapidement",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 tasse d'épinards blanchis (T6) à l'ail",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame, graines de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Blanchir les épinards selon T6 et les assaisonner d'ail et de sésame."
+    },
+    {
+      "n": 2,
+      "texte": "Brouiller les œufs."
+    },
+    {
+      "n": 3,
+      "texte": "Monter le bol : riz, épinards, kimchi, œufs."
+    },
+    {
+      "n": 4,
+      "texte": "Filet d'huile de sésame et graines de sésame."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Rincer le kimchi",
+      "texte": "Un rinçage rapide enlève une partie du sel sans rien enlever au goût."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20mayo%20deop-bap%20-%20Kogi%2C%20Brighton.jpg?width=1200",
+  "video": {
+    "youtube_id": "5YMJqshTBMI",
+    "auteur": "Aaron and Claire"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

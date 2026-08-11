@@ -1,0 +1,81 @@
+{
+  "id": "R4",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "卵かけご飯",
+  "jp_lecture": null,
+  "romaji": "tamago kake gohan",
+  "fr": "Tamago kake gohan",
+  "sous_titre": "Deux minutes. La chaleur du riz cuit partiellement les œufs et crée une texture crémeuse.",
+  "portions": "1",
+  "temps_affiche": "≈ 5 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 2,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 18,
+    "proteines_affiche": "18 g",
+    "calories": 360,
+    "calories_affiche": "≈ 360",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 bol de riz brûlant (fraîchement cuit ou réchauffé)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs battus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Furikake, oignon vert",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Réchauffer le riz jusqu'à ce qu'il soit vraiment brûlant."
+    },
+    {
+      "n": 2,
+      "texte": "Verser les œufs battus dessus et mélanger vigoureusement."
+    },
+    {
+      "n": 3,
+      "texte": "Ajouter la sauce soya, le furikake et l'oignon vert."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Œufs crus — important",
+      "texte": "Ici l'œuf est structurel : le riz chaud ne le cuit pas, c'est bien un œuf cru. Pour en faire souvent sans risque, la vraie solution est l'œuf pasteurisé en coquille (disponible au Québec), sinon l'onsen tamago. Détails, méthodes et mises en garde : voir la technique T8."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tamagokake-gohan_001.jpg?width=1200",
+  "video": {
+    "youtube_id": "pCH0jEOczQQ",
+    "auteur": "No Recipes"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

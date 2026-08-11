@@ -1,0 +1,64 @@
+{
+  "id": "R56",
+  "statut": "actif",
+  "categorie": "collation",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "jp": "焼き芋",
+  "jp_lecture": null,
+  "romaji": "yaki-imo",
+  "fr": "Patate douce rôtie",
+  "sous_titre": "焼き芋 yaki-imo. Sucrée naturellement, très rassasiante. Au four, elle se fait toute seule pendant qu'on fait autre chose.",
+  "portions": "1",
+  "temps_affiche": "≈ 47 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 45,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 150,
+    "calories_affiche": "≈ 150",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 patate douce japonaise (satsumaimo)",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Préchauffer le four à 200 °C."
+    },
+    {
+      "n": 2,
+      "texte": "Piquer la patate à la fourchette, la déposer sur une plaque."
+    },
+    {
+      "n": 3,
+      "texte": "Rôtir environ 45 minutes, jusqu'à ce qu'elle soit fondante et qu'un sirop perle."
+    },
+    {
+      "n": 4,
+      "texte": "Bonne chaude ou froide ; se garde quelques jours au frigo."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gungoguma_(roasted_sweet_potatoes).jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

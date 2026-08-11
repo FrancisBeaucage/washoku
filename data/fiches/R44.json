@@ -1,0 +1,98 @@
+{
+  "id": "R44",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "胡麻和え",
+  "jp_lecture": null,
+  "romaji": "goma-ae",
+  "fr": "Goma-ae — légumes blanchis au sésame",
+  "sous_titre": "Le petit plat le plus courant du répertoire. Trois ingrédients, cinq minutes, à partir de légumes déjà blanchis. L'étape qui fait tout : écraser les graines de sésame au mortier — c'est ce qui libère l'huile et fait la sauce.",
+  "portions": "4",
+  "temps_affiche": "≈ 7 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 2,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 4,
+    "proteines_affiche": "4 g",
+    "calories": 70,
+    "calories_affiche": "≈ 70",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "320 à 400 g de légume blanchi selon T6 — épinard, haricots verts, bok choy, gai lan, chou nappa, brocoli",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "SAUCE — 4 c. à soupe de graines de sésame grillées (iri goma), 2 c. à thé de sauce soya, 1 c. à thé de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Le repère de dosage : 1 c. à soupe de sésame par 80-100 g de légume, et le liquide au tiers du volume de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Partir d'un légume déjà blanchi selon T6, bien pressé — les feuilles doucement, les tiges fermement."
+    },
+    {
+      "n": 2,
+      "texte": "Griller le sésame à sec, 30 à 60 secondes à feu moyen, en secouant sans arrêt. Le sac est déjà du iri goma (sésame grillé), mais l'arôme est volatil et s'évente. Le signal est l'ODEUR, pas la couleur : ça sent d'un coup, franchement. Sortir immédiatement — il passe de parfait à amer en quinze secondes."
+    },
+    {
+      "n": 3,
+      "texte": "Verser au mortier tout de suite (la poêle chaude continue de cuire) et écraser tiède, jusqu'à une texture de sable humide. Écrasé, pas entier : entier, il glisse sur les feuilles et ne donne rien."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter la sauce soya et le mirin au mortier. Mélanger."
+    },
+    {
+      "n": 5,
+      "texte": "Couper le légume en segments de 3-4 cm, tiges épaisses en biseau (sogigiri そぎ切り). C'est cette étape qu'on oublie, et c'est elle qui décide du résultat."
+    },
+    {
+      "n": 6,
+      "texte": "Ajouter au bol et enrober en faisant tourner le bol dans les mains. C'est le geste ae (和え, lier) : on enrobe, on ne mélange pas à la cuillère."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Les trois erreurs",
+      "texte": "1) Ne pas couper le légume. L'enrobage est un phénomène de surface : un demi-bok choy entier ne reçoit du sésame que sur son extérieur, et l'intérieur reste nature — on goûte le sésame à la première bouchée, puis plus rien. 2) Le servir froid. Le froid éteint l'arôme du sésame et rend les tiges désagréables : sortir du frigo 15 à 20 minutes avant. Le goma-ae se sert à température ambiante. 3) Assaisonner à l'avance. Le légume blanchi continue de rendre son eau au frigo ; la pâte de sésame l'absorbe, se délaie, et au deuxième jour on a une sauce grise et liquide au fond du contenant. Le légume se garde nature — l'assaisonnement se fait à l'assiette, portion par portion."
+    },
+    {
+      "titre": "Les tiges retiennent l'eau",
+      "texte": "Sur un légume à tiges (bok choy, nappa, gai lan), l'eau qui reste dans les canaux internes ressort dans le bol et délaie le sésame ; on la sent aussi à la mastication. Les tiges se pressent donc séparément et fermement au blanchiment — voir la note de T6. C'est la cause la plus fréquente d'un goma-ae qui a l'air correct et qui goûte l'eau."
+    },
+    {
+      "titre": "Variante classique",
+      "texte": "Version sucrée, plus proche de la recette de restaurant : ajouter 1 c. à thé de sucre et 1 c. à thé de dashi à la sauce. Sur de l'épinard, c'est le goma-ae canonique."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Goma-ae_salad.jpg?width=1200",
+  "video": {
+    "youtube_id": "CvOoXbwUySI",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

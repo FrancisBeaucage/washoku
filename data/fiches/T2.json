@@ -1,0 +1,133 @@
+{
+  "id": "T2",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "jp": "出汁",
+  "jp_lecture": null,
+  "romaji": "dashi",
+  "fr": "Le dashi — trois versions",
+  "sous_titre": "Le bouillon de base de toute la cuisine japonaise. Environ 50 mg de sodium par tasse, contre 600 à 900 pour un bouillon commercial. Si vous ne faites qu'une seule chose maison, c'est celle-là.",
+  "portions": "≈ 1 L",
+  "temps_affiche": "≈ 47 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 12,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": 10,
+    "calories_affiche": "≈ 10 / tasse",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "a) AWASE DASHI — 8 g de kombu + 30 g de katsuobushi pour 1,5 L (soit ~5 g de kombu + 20 g de katsuobushi par litre)",
+      "sante": true,
+      "sante_pos": 29
+    },
+    {
+      "texte": "1,5 L d'eau froide",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "b) KATSUO DASHI — 30 g de katsuobushi, 1,5 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "c) SHIITAKE DASHI — 6 à 8 shiitakes séchés, 1,5 L d'eau froide",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "AWASE — Mettre le kombu dans l'eau froide. Laisser tremper 30 minutes. C'est du temps passif."
+    },
+    {
+      "n": 2,
+      "texte": "Chauffer doucement à feu moyen-doux. Surveiller : de petites bulles vont apparaître sur les bords."
+    },
+    {
+      "n": 3,
+      "texte": "Retirer le kombu juste avant l'ébullition. C'est le seul moment critique. Si l'eau bout avec le kombu dedans, le bouillon devient amer et légèrement gluant."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter le katsuobushi et retirer immédiatement du feu. Les copeaux vont couler."
+    },
+    {
+      "n": 5,
+      "texte": "Laisser infuser 2 minutes. Pas plus."
+    },
+    {
+      "n": 6,
+      "texte": "Filtrer à travers une passoire fine. Ne pas presser les copeaux — ça libère de l'amertume."
+    },
+    {
+      "n": 7,
+      "texte": "KATSUO — Porter 1,5 L d'eau à ébullition, retirer du feu, ajouter 30 g de katsuobushi, infuser 3 minutes, filtrer. Presque pas d'iode."
+    },
+    {
+      "n": 8,
+      "texte": "SHIITAKE — Faire tremper les champignons dans 1,5 L d'eau froide, au réfrigérateur, 6 heures ou toute une nuit. Filtrer. Zéro iode, végétalien. Les champignons réhydratés se mangent."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le dosage dépend de l'usage : 5 g ou 20 g, pas le même dashi",
+      "texte": "Un dashi de soupe miso et un dashi de bouillon de nouilles ne se dosent pas pareil, et c'est l'erreur la plus coûteuse de cette fiche. DANS UNE SOUPE MISO, le miso apporte le corps, le sel et une grande partie de l'umami ; le dashi n'a qu'à faire le fond. Environ 5 g de katsuobushi pour 700 ml suffisent. DANS UN BOUILLON DE NOUILLES, un suimono, un nimono — tout ce qui n'a pas de miso — LE DASHI EST LE GOÛT. Il faut alors 15 à 20 g de katsuobushi pour 700 ml, soit trois à quatre fois plus. Utiliser un dashi de soupe miso pour un bouillon de nouilles donne de l'eau parfumée. C'est l'erreur commise le 10 août, et elle a d'abord été attribuée à tort au manque de sel. Les quantités de la méthode ci-dessus (20 g par litre) sont celles d'un dashi polyvalent ; monter à 25-30 g par litre quand le dashi est le plat."
+    },
+    {
+      "titre": "Les trois nucléotides de l'umami — et pourquoi les shiitake séchés",
+      "texte": "Le kombu apporte du GLUTAMATE, le katsuobushi de l'INOSINATE, et les shiitake séchés du GUANYLATE. Réunis, leur effet n'est pas additif mais multiplicatif : la perception d'umami est nettement plus forte que la somme des trois. C'est la façon japonaise d'obtenir de la profondeur sans sel, et ça ne coûte pas un milligramme de sodium. Les shiitake séchés se mettent à tremper À FROID, en même temps que le kombu, une nuit au réfrigérateur — à chaud ils libèrent des composés amers. Ils se réutilisent ensuite dans le plat. C'est le premier réflexe à avoir devant un bouillon fade, avant même de penser au sel."
+    },
+    {
+      "titre": "Faut-il du kombu dans le dashi de tous les jours ? Non",
+      "texte": "Le kombu apporte du glutamate, le katsuobushi de l'inosinate. Ensemble, la perception d'umami se multiplie au lieu de s'additionner — l'effet est réel et mesuré. Mais le miso est lui-même très riche en glutamate. Dès qu'on ajoute le miso, on remplace la contribution du kombu par une source plus forte : le kombu se fait masquer. Un dashi au katsuobushi seul donne une soupe miso indistinguable d'un dashi complet — vérifié le 10 août, à l'aveugle du souvenir de la veille. Le kombu compte vraiment quand le dashi EST le goût, sans miso pour le couvrir : soupe claire (suimono, R40), chawanmushi, nimono, oden, sauce de trempage. Là, son absence s'entend. Il y a une deuxième raison, et elle tranche la question. Un gramme de kombu séché peut porter 1 500 à 3 000 µg d'iode, contre un apport recommandé de 150 µg par jour et une limite supérieure d'environ 1 100 µg chez l'adulte. Le katsuobushi est négligeable de ce côté. Un kombu quotidien est un problème ; un kombu occasionnel n'en est pas un. LA RÈGLE DU DOSSIER : katsuo dashi (katsuobushi seul, version b) pour la soupe miso quotidienne ; kombu réservé aux préparations où le dashi est le plat. Compenser légèrement à la hausse la quantité de katsuobushi quand on retire le kombu."
+    },
+    {
+      "titre": "Rendement : compter 70 %",
+      "texte": "1 L d'eau ne donne pas 1 L de dashi — une bonne partie du liquide reste dans les ingrédients. Par litre d'eau : le katsuobushi (20 g) en retient 100 à 150 ml, le kombu gonflé 30 à 50 ml, et l'évaporation à la montée en température emporte 50 à 100 ml. Total : 200 à 300 ml de perte, soit un rendement réel de 700 à 750 ml. Pour obtenir 1 L de dashi utilisable, part de 1,2 à 1,3 L d'eau ; pour 1,5 L, de 1,8 à 2 L. Pourquoi ça compte : deux soupes miso à 300 ml vident un litre nominal — sans ce chiffre, on planifie une semaine et on tombe à court le deuxième jour. Et ne presse pas le katsuobushi : presser extrait l'amertume et trouble le bouillon. Laisse égoutter par gravité 5 minutes, sans y toucher — on récupère un peu plus de liquide, sans le défaut."
+    },
+    {
+      "titre": "Pourquoi l'eau froide pour le shiitake",
+      "texte": "À chaud, le shiitake libère des composés amers. Le trempage à froid extrait le guanylate sans l'amertume."
+    },
+    {
+      "titre": "Conservation",
+      "texte": "4 jours au réfrigérateur, un mois au congélateur. À la fin d'un lot : deux contenants de 750 ml au congélateur pour les soupes, le reste en bacs à glaçons. Un cube ≈ 30 ml ≈ 2 c. à soupe."
+    },
+    {
+      "titre": "† Pourquoi le dossier utilise moins de kombu",
+      "texte": "Ce n'est pas pour le sodium (dans un bol de miso, le sel vient à plus de 90 % du miso et de la sauce soya ; le kombu est du bruit à côté). C'est pour l'iode : le kombu est de loin l'aliment le plus dense en iode du dossier, et l'iode passe dans le bouillon. Comme le dashi est quotidien ici, la dose est réduite volontairement — environ 5 g de kombu par litre plutôt que 10. La compensation : garder les 20 g de katsuobushi. Le glutamate (kombu) et l'inosinate (katsuobushi) se multiplient au lieu de s'additionner, donc couper le kombu de moitié fait perdre beaucoup moins d'umami qu'on croit — et le katsuobushi n'apporte pas d'iode. Les estimations d'apport en iode varient beaucoup selon les sources : pour toute question thyroïdienne, en parler à un professionnel."
+    },
+    {
+      "titre": "Les quantités, en grammes",
+      "texte": "Le « 5 cm » est ambigu — l'épaisseur du kombu varie selon la variété, donc le format ne prédit pas le poids. Le repère fiable : ~5 g de kombu et 20 g de katsuobushi par litre. Quand la balance est rangée : un carré de kombu de 10 × 10 cm ≈ 10 g, un carré de 5 × 5 cm ≈ 2,5-3 g."
+    },
+    {
+      "titre": "Le trempage n'est pas obligatoire",
+      "texte": "Ce qui compte, c'est la température d'extraction, pas le trempage : le kombu libère son glutamate entre 20 et 60 °C ; au-delà, il relâche des alginates qui rendent le bouillon visqueux et amer. Trois méthodes, du plus rapide au meilleur : (1) sans trempage, chauffer très lentement l'eau froide jusqu'à 60-70 °C sur ~20 min — la montée en température EST l'extraction, résultat presque identique ; (2) trempage 30 min puis chauffage doux, la méthode de référence ; (3) mizudashi — kombu dans l'eau froide au frigo toute la nuit, puis chauffer, ajouter le katsuobushi 2 min, filtrer : le plus facile ET le meilleur, il s'intègre au rituel du dimanche. Ce qu'on ne peut pas faire : jeter le kombu dans l'eau déjà chaude et le sortir 5 minutes plus tard — ça donne un dashi plat."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
+  "video": {
+    "youtube_id": "5qBAcsM31Rg",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

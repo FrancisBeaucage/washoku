@@ -1,0 +1,56 @@
+{
+  "id": "R53",
+  "statut": "actif",
+  "categorie": "collation",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "梅干し",
+  "jp_lecture": null,
+  "romaji": "umeboshi",
+  "fr": "Umeboshi",
+  "sous_titre": "Prune salée fermentée. Le choc acide-salé casse une rage de sucre de façon étonnamment efficace.",
+  "portions": "1",
+  "temps_affiche": "≈ 1 min",
+  "temps_minutes": {
+    "preparation": 1,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 0,
+    "proteines_affiche": "0 g",
+    "calories": 10,
+    "calories_affiche": "≈ 10",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 à 2 umeboshi (prunes salées)",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Aucune préparation : se garde des mois au frigo."
+    },
+    {
+      "n": 2,
+      "texte": "À grignoter seule, ou avec un peu de riz."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Umeboshi2.JPG?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

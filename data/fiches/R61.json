@@ -1,0 +1,110 @@
+{
+  "id": "R61",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "ツナのポン酢和え",
+  "jp_lecture": null,
+  "romaji": "tsuna no ponzu-ae",
+  "fr": "Thon germon assaisonné au ponzu",
+  "sous_titre": "Un kobachi de conserve, monté en trois minutes. La leçon de la fiche est dans le geste : le ponzu est mélangé au thon, pas versé dessus. Kobachi, mais dense en protéines — celui-là peut porter un dîner, accompagné de riz et d'une soupe.",
+  "portions": "1",
+  "temps_affiche": "≈ 3 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 29,
+    "proteines_affiche": "29 g",
+    "calories": 175,
+    "calories_affiche": "≈ 175",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 boîte de thon germon (thon blanc) dans l'eau, égouttée — environ 120 g",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé de ponzu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ c. à thé d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 oignon vert émincé finement",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ c. à thé de graines de sésame grillées",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Ouvrir la boîte et égoutter à fond, en pressant le couvercle contre le thon."
+    },
+    {
+      "n": 2,
+      "texte": "Renverser le thon dans un BOL DE MÉLANGE — pas dans le bol de service — et le défaire à la fourchette en gros morceaux."
+    },
+    {
+      "n": 3,
+      "texte": "Verser les 2 c. à thé de ponzu et la ½ c. à thé d'huile de sésame sur le thon dans le bol de mélange, et mélanger jusqu'à ce que tout soit enrobé. C'est l'étape qui décide du goût du plat."
+    },
+    {
+      "n": 4,
+      "texte": "Transférer dans le bol de service."
+    },
+    {
+      "n": 5,
+      "texte": "Parsemer l'oignon vert et le sésame."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi ça fonctionne",
+      "texte": "Trois choses que l'ancienne version de R10 ratait. Le ponzu est MÉLANGÉ, donc chaque bouchée est assaisonnée au lieu d'une sur dix. La demi-cuillère d'huile de sésame donne au plat le gras qui transporte les arômes — un germon à l'eau égoutté n'en contient pratiquement pas. Et le thon est dans SON PROPRE BOL, où il est le sujet, au lieu d'écraser un autre plat."
+    },
+    {
+      "titre": "Secouer le ponzu avant chaque usage",
+      "texte": "Il se sépare au repos : les sédiments et le dashi se déposent au fond de la bouteille, et sans agitation on verse un liquide déséquilibré. C'est écrit sur l'étiquette et ça se saute facilement."
+    },
+    {
+      "titre": "Les estimations (ordres de grandeur — l'étiquette du produit prime)",
+      "texte": "Germon égoutté environ 120 g : environ 28 g de protéines, 130 calories. Ponzu 2 c. à thé : environ 10 calories. Huile de sésame ½ c. à thé : environ 20 calories. Oignon vert et sésame : environ 1 g, 15 calories. Total : environ 29 g de protéines et 175 calories. Sodium : environ 300 à 400 mg, presque entièrement le ponzu. Le ponzu est de la sauce soya diluée et acidulée : ça monte vite. 2 c. à thé, pas plus."
+    },
+    {
+      "titre": "Le germon n'est pas le thon pâle",
+      "texte": "Le germon (thon blanc, « albacore ») est plus gros et plus vieux que le listao du thon pâle, donc plus chargé en mercure : Santé Canada recommande de s'en tenir à 300 g par semaine chez l'adulte, soit environ deux boîtes et demie égouttées. Le thon pâle n'a aucune limite recommandée. La règle du dossier : thon pâle pour la rotation courante, germon quand la texture compte — il est plus ferme et se tient en morceaux, ce qui est exactement ce qu'on veut ici."
+    },
+    {
+      "titre": "Variantes",
+      "texte": "Remplacer l'huile de sésame par 1 c. à thé de mayonnaise japonaise : plus riche (environ 50 calories de plus), plus proche du goût de sandwich, moins japonais. Ajouter du concombre en dés pour le croquant, ou du gingembre râpé pour le mordant. Avec du germon dans l'huile plutôt que dans l'eau : retirer l'huile de sésame et garder l'huile de la conserve."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuna_can.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

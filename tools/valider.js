@@ -220,6 +220,40 @@ if (annexes) {
 }
 regle(14, 'Les renvois des annexes et des ingrédients aboutissent', morts);
 
+/* 15 — la même donnée écrite deux fois par le même script doit rester la même.
+   Une divergence ne signale pas une faute de saisie : elle signale un
+   générateur cassé, et c'est ce qu'on veut apprendre tout de suite. */
+const DOSSIER_FICHES = path.join(DATA, 'fiches');
+const vues = [];
+if (!fs.existsSync(DOSSIER_FICHES)) {
+  vues.push('data/fiches/ absent — lancer `npm run generer`');
+} else {
+  for (const f of fiches) {
+    const chemin = path.join(DOSSIER_FICHES, `${f.id}.json`);
+    if (!fs.existsSync(chemin)) { vues.push(`${f.id} : data/fiches/${f.id}.json absent`); continue; }
+    const seule = JSON.parse(fs.readFileSync(chemin, 'utf8'));
+    if (JSON.stringify(seule) !== JSON.stringify(f)) vues.push(`${f.id} : la fiche seule diffère du recueil`);
+  }
+  const connus = new Set(fiches.map((f) => `${f.id}.json`));
+  for (const nom of fs.readdirSync(DOSSIER_FICHES)) {
+    if (nom.endsWith('.json') && !connus.has(nom)) vues.push(`data/fiches/${nom} ne correspond à aucune fiche`);
+  }
+  const index = optionnel('index.json');
+  if (!index) vues.push('data/index.json absent — lancer `npm run generer`');
+  else if (index.length !== fiches.length) vues.push(`index.json : ${index.length} entrées pour ${fiches.length} fiches`);
+  else {
+    const parId = new Map(fiches.map((f) => [f.id, f]));
+    for (const e of index) {
+      const f = parId.get(e.id);
+      if (!f) vues.push(`index.json : ${e.id} ne correspond à aucune fiche`);
+      else if (e.fr !== f.fr || e.statut !== f.statut || e.proteines_g !== f.nutrition.proteines_g) {
+        vues.push(`index.json : ${e.id} a dérivé du recueil`);
+      }
+    }
+  }
+}
+regle(15, 'Index et fiches seules concordent avec le recueil', vues);
+
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }
 console.log(`Validation complète : ${fiches.length} fiches, ${ingredients.length} ingrédients, ${exercices.length} exercices, ${journal.length} entrées de journal.`);

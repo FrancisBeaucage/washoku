@@ -1,0 +1,90 @@
+{
+  "id": "T8",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "半熟卵",
+  "jp_lecture": null,
+  "romaji": "hanjuku-tamago",
+  "fr": "L'œuf mollet et l'œuf dur",
+  "sous_titre": "Le geste qui revient partout : sur le riz, dans les nouilles, en collation, mariné. La seule variable, c'est le temps de cuisson.",
+  "portions": "4 à 6",
+  "temps_affiche": "≈ 13 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 6,
+    "proteines_affiche": "6 g / œuf",
+    "calories": 70,
+    "calories_affiche": "≈ 70 / œuf",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "Des œufs, idéalement à température de la pièce",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un bol d'eau glacée",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Porter une casserole d'eau à ébullition, puis baisser à frémissement."
+    },
+    {
+      "n": 2,
+      "texte": "Y déposer délicatement les œufs (froids du frigo : ajouter 30 secondes) et minuter selon la texture voulue (voir la note)."
+    },
+    {
+      "n": 3,
+      "texte": "Transférer aussitôt dans l'eau glacée 2 minutes : ça arrête la cuisson et facilite l'écalage."
+    },
+    {
+      "n": 4,
+      "texte": "Écaler sous un filet d'eau froide."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Les temps (œuf calibre gros)",
+      "texte": "6 min : blanc pris, jaune très coulant ▪ 6 min 30 : mollet façon ramen, jaune crémeux (le classique) ▪ 8 min : jaune fondant ▪ 10 min : jaune juste pris ▪ 12 min : dur, pour trancher. Pour les œufs marinés, voir l'échelle complète de T7a : 7 min donne le jaune crémeux japonais, 9 min un jaune presque pris — la marinade fonctionne pareil aux deux."
+    },
+    {
+      "titre": "Le prolonger",
+      "texte": "Après l'eau glacée, immerger dans soya + mirin + eau (voir T7) : 12 h au frigo donnent des œufs marinés."
+    },
+    {
+      "titre": "† L'œuf cru sur le riz — ce qu'il faut savoir",
+      "texte": "Le riz chaud ne cuit pas l'œuf : il le tiédit et l'épaissit à peine. Le résultat crémeux du tamago kake gohan (R4) ou du natto gohan (R3), c'est bien un œuf cru — et la salmonelle peut se trouver à l'intérieur de l'œuf, pas seulement sur la coquille. Ne lave donc pas tes œufs : ça retire la cuticule protectrice et pousse les bactéries vers l'intérieur par les pores. Au Japon, la filière est conçue pour la consommation crue (dépistage, dates courtes, chaîne de froid dédiée) ; les normes canadiennes visent l'œuf cuit. Les solutions, en ordre de préférence : 1) œufs pasteurisés en coquille, disponibles au Québec — la vraie solution pour du TKG régulier, même goût, même texture, sans le risque ; 2) onsen tamago, cuit à 63-65 °C pendant 40-45 min, jaune crémeux et blanc à peine pris : texture recherchée et sécurité à la fois ; 3) ajitsuke tamago, œuf cuit et mariné. Si tu es enceinte, immunosupprimé, très jeune ou âgé, le risque n'est pas du même ordre : œuf cuit, point. Pour toute question de santé personnelle, parles-en à un professionnel."
+    },
+    {
+      "titre": "Le temps pour l'ajitsuke",
+      "texte": "7 minutes pour un œuf destiné à la marinade (T7a) : jaune crémeux qui tient à la coupe. À 6 min 30 le jaune coule quand on tranche — parfait sur un ramen où il se répand dans le bouillon, embêtant sur un bol de riz. Départ frigo : +30 secondes. Bain d'eau glacée 5 min avant d'écaler, le choc thermique facilite l'écalage."
+    },
+    {
+      "titre": "Sortir les œufs à l'avance — et la condensation",
+      "texte": "Sortir les œufs 20-30 minutes avant, pas une heure : assez pour tempérer, sans laisser la condensation s'installer. Ou plus simple : partir du frigo et ajouter 30 secondes. Si de la condensation s'est formée, l'eau qui perle sur une coquille froide peut faire migrer des bactéries de surface vers l'intérieur par les pores — le même mécanisme que le lavage des œufs. En pratique : un œuf qui s'en va à l'eau bouillante, aucun problème ; mais ne pas le remettre au frigo (l'aller-retour frigo → comptoir → frigo est ce qu'il faut éviter) — cuire tous les œufs sortis, ils tiennent une semaine une fois durs et écalés ; et pas de TKG avec ceux-là, ce sont désormais des œufs à cuire."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ajitama.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

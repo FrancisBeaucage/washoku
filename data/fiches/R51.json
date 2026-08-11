@@ -1,0 +1,52 @@
+{
+  "id": "R51",
+  "statut": "actif",
+  "categorie": "collation",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "煎餅",
+  "jp_lecture": null,
+  "romaji": "senbei",
+  "fr": "Senbei",
+  "sous_titre": "Craquelins de riz. Le croquant du grignotage, avec environ la moitié du gras des croustilles.",
+  "portions": "1",
+  "temps_affiche": "≈ 1 min",
+  "temps_minutes": {
+    "preparation": 1,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 90,
+    "calories_affiche": "≈ 90 (4 à 5)",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "4 à 5 senbei (craquelins de riz)",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Aucune préparation : s'achète prêt à manger."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Senbeis.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

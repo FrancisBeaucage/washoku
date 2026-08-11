@@ -1,0 +1,115 @@
+{
+  "id": "R3",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "納豆ご飯",
+  "jp_lecture": null,
+  "romaji": "nattō gohan",
+  "fr": "Natto gohan",
+  "sous_titre": "Trois minutes, 26 g de protéines. L'aliment le plus divisif du répertoire — et un des plus efficaces.",
+  "portions": "1",
+  "temps_affiche": "≈ 6 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 26,
+    "proteines_affiche": "26 g",
+    "calories": 400,
+    "calories_affiche": "≈ 400",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 barquette de natto (~45 g)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 petit bol de riz chaud (140 g)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 œuf cru ou mollet",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'oignon vert haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ sachet de sauce fournie",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "⅓ de sachet de karashi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Retirer les deux sachets, puis tirer la pellicule qui couvre les fèves."
+    },
+    {
+      "n": 2,
+      "texte": "Brasser à sec, dans la barquette : un mouvement circulaire complet = 1 tour (ce n'est pas un va-et-vient gauche-droite). Vise 50 tours — 20-30 est un minimum pour que ça file, 50 la recommandation courante au Japon. C'est la rotation qui étire les filaments, développe la texture crémeuse et adoucit le goût."
+    },
+    {
+      "n": 3,
+      "texte": "Toujours à sec, avant la sauce : mettre la sauce en premier empêche les filaments de se former et laisse le goût bien plus austère."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter ½ sachet de sauce (presque tout le sodium du plat est là) et ⅓ de sachet de karashi — moutarde japonaise, elle monte au nez comme le wasabi, on peut toujours en rajouter. Brasser encore un peu."
+    },
+    {
+      "n": 5,
+      "texte": "Renverser sur le riz chaud, ajouter la cuillère d'oignon vert (sa fraîcheur coupe le fermenté, ce n'est pas de la décoration) et l'œuf. Mélanger dans le bol."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "On ne mange pas le natto nature à la cuillère",
+      "texte": "Il se mélange au riz — c'est le riz qui le rend agréable. Si le natto ne passe pas après trois essais, remplacez-le par une tasse d'edamames † écossés : mêmes fèves de soya, 18 g de protéines. Vous perdez la vitamine K2 et les probiotiques, pas les protéines."
+    },
+    {
+      "titre": "À planifier la veille",
+      "texte": "Le natto se vend congelé : sors une barquette au frigo la veille — il ne se prépare pas sur un coup de tête, c'est à mettre dans la routine du dimanche. Et l'œuf : cru, il porte le même enjeu de sécurité que le tamago kake gohan — voir T8 pour les options (œuf pasteurisé en coquille, onsen tamago), ou mets-le simplement mollet."
+    },
+    {
+      "titre": "Ça ne monte pas seul à 40 g",
+      "texte": "Le natto gohan est rassasiant mais léger en protéines : natto 8 g + riz 3 g + œuf 6 g, autour de 17-26 g selon les ajouts. Pour un vrai déjeuner à 40 g, ajouter 80-100 g d'edamames écossés dans la soupe ou à côté (+10 g). Voir la répartition par repas au guide 5."
+    },
+    {
+      "titre": "Barquette ou bol ?",
+      "texte": "Dans la barquette, comme la majorité des gens au Japon : aucun bol à natto à laver. Brasser les 50 tours directement dans la styromousse, ajouter sauce et karashi, puis renverser sur le riz. Passer par un bol seulement pour incorporer un œuf ou beaucoup de garniture — la barquette devient alors trop petite."
+    },
+    {
+      "titre": "Laver après",
+      "texte": "Eau froide, jamais chaude : l'eau chaude coagule les protéines du natto et les soude à la vaisselle. Faire tremper à froid pendant qu'on mange, ça part tout seul ensuite."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",
+  "video": {
+    "youtube_id": "6eHsqXOsyek",
+    "auteur": "ochikeron"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,100 @@
+{
+  "id": "R49",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "jp": "鶏の塩焼き",
+  "jp_lecture": null,
+  "romaji": "tori no shioyaki",
+  "fr": "Poulet grillé au sel",
+  "sous_titre": "La troisième protéine du rituel du dimanche. Aucune huile, aucune marinade, et quatre portions qui deviennent des dîners toute la semaine.",
+  "portions": "4",
+  "temps_affiche": "≈ 44 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 18,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "38 g",
+    "calories": 260,
+    "calories_affiche": "≈ 260",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "800 g de hauts de cuisse de poulet désossés, sans la peau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Sel pour T3 — environ 1 c. à thé au total",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Poivre blanc",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Quartiers de citron ou de lime pour servir",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T3",
+    "T4"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Éponger le poulet et le saler des deux côtés, en tenant la main haut au-dessus pour bien répartir. Réfrigérer 20 minutes, à découvert."
+    },
+    {
+      "n": 2,
+      "texte": "Éponger les gouttelettes qui ont perlé. Ne pas rincer."
+    },
+    {
+      "n": 3,
+      "texte": "Préchauffer le gril du four 5 minutes, grille à environ 15 cm de l'élément."
+    },
+    {
+      "n": 4,
+      "texte": "Déposer les morceaux à plat sur une plaque tapissée de papier d'aluminium, sans les superposer. Aucune huile."
+    },
+    {
+      "n": 5,
+      "texte": "8 minutes, retourner, 5 à 7 minutes. Le jus qui perce doit être clair."
+    },
+    {
+      "n": 6,
+      "texte": "Laisser reposer 5 minutes avant de trancher — sinon le jus se répand sur la planche au lieu de rester dans la chair."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi les hauts de cuisse",
+      "texte": "Plus savoureux que la poitrine et beaucoup plus tolérants à la cuisson : cinq minutes de trop ne les assèchent pas. C'est ce qui les rend adaptés à une cuisson en lot le dimanche."
+    },
+    {
+      "titre": "Ce que ça débloque",
+      "texte": "Tranché froid, il devient la protéine par défaut de la formule donburi (R9) et de la salade de soba (R12). Se garde 4 jours au réfrigérateur."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20chicken%20thighs.jpg?width=1200",
+  "video": {
+    "youtube_id": "00Qcvz21Bak",
+    "auteur": "Japanese Cooking 101"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

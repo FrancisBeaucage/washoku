@@ -1,0 +1,81 @@
+{
+  "id": "R21",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "jp": "焼き鳥",
+  "jp_lecture": null,
+  "romaji": "yakitori",
+  "fr": "Yakitori",
+  "sous_titre": "Ce sont des brochettes. Avec les enfants, c'est réglé. La tare se conserve un mois au réfrigérateur et s'améliore.",
+  "portions": "3",
+  "temps_affiche": "≈ 50 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 18,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 35,
+    "proteines_affiche": "35 g",
+    "calories": 400,
+    "calories_affiche": "≈ 400",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de hauts de cuisse de poulet en cubes de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignons verts en tronçons de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "TARE — 4 c. à soupe de soya, 4 c. à soupe de mirin, 2 c. à soupe de saké, 1 c. à soupe de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Brochettes de bois trempées 20 minutes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Shichimi togarashi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire la tare d'abord : porter à ébullition et réduire de moitié à feu moyen, environ 8 minutes. Elle doit napper le dos d'une cuillère."
+    },
+    {
+      "n": 2,
+      "texte": "Alterner poulet et oignon vert sur les brochettes."
+    },
+    {
+      "n": 3,
+      "texte": "Gril du four : 5 minutes → badigeonner → 3 minutes → badigeonner → 2 minutes."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking_yakitori.jpg?width=1200",
+  "video": {
+    "youtube_id": "3woUacOV5KQ",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

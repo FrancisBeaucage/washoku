@@ -1,0 +1,97 @@
+{
+  "id": "R20",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "ちらし丼",
+  "jp_lecture": null,
+  "romaji": "chirashi don",
+  "fr": "Chirashi bowl",
+  "sous_titre": "Zéro cuisson. Dix minutes pour un plat qui a l'air d'un restaurant. Le riz refroidi apporte en plus le bonus d'amidon résistant.",
+  "portions": "2",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 36,
+    "proteines_affiche": "36 g",
+    "calories": 490,
+    "calories_affiche": "≈ 490",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "280 g de riz refroidi, assaisonné de 2 c. à soupe de vinaigre de riz, 1 c. à thé de sucre, ½ c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de saumon ou de thon qualité sashimi, en cubes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Concombre, avocat, edamames, radis",
+      "sante": true,
+      "sante_pos": 27
+    },
+    {
+      "texte": "Wakame réhydraté",
+      "sante": true,
+      "sante_pos": 6
+    },
+    {
+      "texte": "SAUCE — 2 c. à soupe de soya, 1 c. à thé d'huile de sésame, 1 c. à thé de vinaigre de riz, gingembre râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Nori, sésame, gingembre mariné (T7), wasabi",
+      "sante": true,
+      "sante_pos": 4
+    }
+  ],
+  "techniques": [
+    "T7b"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Assaisonner le riz refroidi avec le vinaigre, le sucre et le sel."
+    },
+    {
+      "n": 2,
+      "texte": "Couper le poisson en cubes réguliers."
+    },
+    {
+      "n": 3,
+      "texte": "Monter les bols : riz, puis poisson et légumes disposés par secteurs."
+    },
+    {
+      "n": 4,
+      "texte": "Arroser de sauce, garnir."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le thon frais",
+      "texte": "Il est visé par l'avis de Santé Canada sur le mercure : 150 g par semaine maximum pour un homme adulte. Le saumon n'a aucune restriction."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1200",
+  "video": {
+    "youtube_id": "Bqpc4TtXmPo",
+    "auteur": "Japanese Cooking 101"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

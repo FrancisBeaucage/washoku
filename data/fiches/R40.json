@@ -1,0 +1,73 @@
+{
+  "id": "R40",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "吸い物",
+  "jp_lecture": null,
+  "romaji": "suimono",
+  "fr": "Suimono — bouillon clair",
+  "sous_titre": "Le plus élégant et le plus léger. L'esthétique compte : deux éléments qui flottent, rien d'autre.",
+  "portions": "2 bols",
+  "temps_affiche": "≈ 8 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 5,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 25,
+    "calories_affiche": "≈ 25",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "400 ml de dashi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ c. à thé de soya clair, une pincée de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un ou deux éléments seulement : une crevette, un cube de tofu, une feuille de shiso, un champignon enoki, un zeste de yuzu",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Chauffer le dashi jusqu'au frémissement."
+    },
+    {
+      "n": 2,
+      "texte": "Assaisonner très légèrement."
+    },
+    {
+      "n": 3,
+      "texte": "Déposer un ou deux éléments dans chaque bol et verser le bouillon dessus."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Suimono_by_Joi.jpg?width=1200",
+  "video": {
+    "youtube_id": "m7d0FJjlT1U",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

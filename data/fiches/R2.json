@@ -1,0 +1,114 @@
+{
+  "id": "R2",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "味噌汁",
+  "jp_lecture": null,
+  "romaji": "misoshiru",
+  "fr": "Soupe miso déjeuner au tofu et à l'œuf",
+  "sous_titre": "Le déjeuner de cinq minutes qui remplace les céréales. Salé, protéiné, chaud.",
+  "portions": "1",
+  "temps_affiche": "≈ 14 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 8,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 16,
+    "proteines_affiche": "16 g",
+    "calories": 165,
+    "calories_affiche": "≈ 165",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "400 ml de dashi (T2)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé de miso blanc",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "30 à 40 g de tofu ferme en cubes de 1 cm — deux ou trois cubes, pas un bol de tofu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 œuf",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de wakame séché (il gonfle 6 à 8 fois — pas une cuillère à soupe)",
+      "sante": true,
+      "sante_pos": 20
+    },
+    {
+      "texte": "80-100 g d'edamames écossés (optionnel, +10 g de protéines)",
+      "sante": true,
+      "sante_pos": 19
+    },
+    {
+      "texte": "1 c. à soupe d'oignon vert haché",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Dashi sur feu moyen. Les edamames congelés, s'il y en a, peuvent y aller tout de suite : ils décongèlent dedans."
+    },
+    {
+      "n": 2,
+      "texte": "Casser l'œuf dans le bouillon frémissant, feu doux, 3 minutes sans brasser : le blanc prend, le jaune reste coulant."
+    },
+    {
+      "n": 3,
+      "texte": "Au frémissement (85-90 °C : la surface tremble, sans gros bouillons), couper le feu."
+    },
+    {
+      "n": 4,
+      "texte": "Hors du feu, ajouter le tofu en cubes et le wakame égoutté — la chaleur résiduelle suffit à les réchauffer."
+    },
+    {
+      "n": 5,
+      "texte": "Le miso en dernier, délayé : prendre une louche de bouillon, y écraser le miso jusqu'à disparition des grumeaux, puis reverser. Ne plus jamais faire bouillir."
+    },
+    {
+      "n": 6,
+      "texte": "Finir avec l'oignon vert. (Avec du tofu soyeux au lieu du ferme : l'ajouter avec le miso et ne pas brasser fort, il se défait.)"
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ne jamais faire bouillir après le miso",
+      "texte": "La chaleur détruit les arômes et les cultures. C'est l'erreur la plus fréquente."
+    },
+    {
+      "titre": "⚠️ Le tofu : 30 à 40 g par bol, pas 80",
+      "texte": "Cette fiche a d'abord dit 100 g. C'est deux à trois fois la norme japonaise, et ça déforme le plat. Deux ou trois cubes qui flottent, pas un bol de tofu au bouillon : une soupe miso est un accompagnement — c'est le dashi qui porte le plat, avec un ou deux accents (tofu, wakame, oignon vert). Charger la soupe de tofu pour atteindre une cible de protéines donne un bouillon dilué autour d'un ingrédient qui n'était pas censé être la vedette. Les protéines perdues (5 g environ) se récupèrent ailleurs dans le repas, où elles sont mieux placées : poisson, œuf, thon. Voir la note du guide 5 sur la cible qui se joue au niveau du repas."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso%20soup%20overhead.jpg?width=1200",
+  "video": {
+    "youtube_id": "wshf6yZbhwk",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

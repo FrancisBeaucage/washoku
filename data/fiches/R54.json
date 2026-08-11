@@ -1,0 +1,56 @@
+{
+  "id": "R54",
+  "statut": "actif",
+  "categorie": "collation",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "梨",
+  "jp_lecture": null,
+  "romaji": "nashi",
+  "fr": "Poire asiatique et fruits",
+  "sous_titre": "Le fruit est le dessert par défaut en Asie. Poire asiatique (nashi), mikan ou kaki selon la saison.",
+  "portions": "1",
+  "temps_affiche": "≈ 2 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 100,
+    "calories_affiche": "≈ 100",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 poire asiatique (nashi), ou 1 mikan, ou 1 kaki",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Rincer."
+    },
+    {
+      "n": 2,
+      "texte": "Manger tel quel, ou trancher."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashi_pear.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

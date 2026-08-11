@@ -1,0 +1,83 @@
+{
+  "id": "R32",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "つくね汁",
+  "jp_lecture": null,
+  "romaji": "tsukune-jiru",
+  "fr": "Soupe aux boulettes de poulet",
+  "sous_titre": "Même technique que R31, en version japonaise au dashi.",
+  "portions": "2",
+  "temps_affiche": "≈ 29 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 17,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 42,
+    "proteines_affiche": "42 g",
+    "calories": 360,
+    "calories_affiche": "≈ 360",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "450 g de poulet haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de gingembre, 2 oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de soya, 1 c. à thé de miso, 1 œuf, 2 c. à soupe de fécule",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 L de dashi (T2) + 1 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 tasses de chou nappa, 1 tasse de shiitakes",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger le poulet avec tous les assaisonnements. Brasser énergiquement dans un seul sens jusqu'à texture collante."
+    },
+    {
+      "n": 2,
+      "texte": "Former des boulettes directement dans le dashi frémissant avec le mirin. Pocher 8 à 10 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Ajouter le chou nappa et les shiitakes, 5 minutes."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukune_%28chicken_meatballs%29_%2816065642291%29.jpg?width=1200",
+  "video": {
+    "youtube_id": "IyXQemAcKLw",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

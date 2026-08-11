@@ -1,0 +1,99 @@
+{
+  "id": "R24",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "しゃぶしゃぶ",
+  "jp_lecture": null,
+  "romaji": "shabu-shabu",
+  "fr": "Shabu-shabu",
+  "sous_titre": "Le meilleur repas de famille du recueil. Chacun contrôle sa propre assiette, les enfants adorent participer, et il est impossible de manger vite.",
+  "portions": "4",
+  "temps_affiche": "≈ 35 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 40,
+    "proteines_affiche": "40 g",
+    "calories": 450,
+    "calories_affiche": "≈ 450",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1,5 L de bouillon léger : eau + 1 morceau de kombu de 5 cm + 1 c. à soupe de soya",
+      "sante": true,
+      "sante_pos": 50
+    },
+    {
+      "texte": "500 g de bœuf ou de porc tranché shabu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ chou nappa, 4 tasses d'épinards, 227 g de champignons enoki",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 g de tofu ferme, 3 tasses de fèves germées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "PONZU MAISON — 3 c. à soupe de soya, 3 c. à soupe de jus de lime, 1 c. à thé de vinaigre de riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "SAUCE SÉSAME — 2 c. à soupe de tahini, 1 c. à soupe de soya, 1 c. à thé de vinaigre, eau",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Casserole au centre de la table, sur une plaque portative."
+    },
+    {
+      "n": 2,
+      "texte": "Chacun trempe sa tranche de viande 15 à 30 secondes dans le bouillon frémissant — elle est cuite dès qu'elle perd sa couleur rosée."
+    },
+    {
+      "n": 3,
+      "texte": "Tremper dans la sauce de son choix."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter les légumes et le tofu au fur et à mesure."
+    },
+    {
+      "n": 5,
+      "texte": "À la fin, le bouillon est devenu riche : on le boit."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "L'argument familial",
+      "texte": "C'est un souper où personne ne cuisine vraiment. Si vous devez convaincre quelqu'un d'embarquer, commencez par celui-là."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
+  "video": {
+    "youtube_id": "tw8EXKWwudQ",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,90 @@
+{
+  "id": "R13",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "おにぎらず",
+  "jp_lecture": null,
+  "romaji": "onigirazu",
+  "fr": "Onigirazu",
+  "sous_titre": "La version « sandwich » de l'onigiri. Se façonne à la main, se transporte, et les enfants adorent en faire.",
+  "portions": "2",
+  "temps_affiche": "≈ 17 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 0,
+    "attente": 5
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 18,
+    "proteines_affiche": "18 g",
+    "calories": 380,
+    "calories_affiche": "≈ 380",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "2 grandes feuilles de nori",
+      "sante": true,
+      "sante_pos": 26
+    },
+    {
+      "texte": "300 g de riz cuit",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Garniture : saumon grillé effiloché, ou œuf, ou thon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Salade de chou, concombre mariné (T7)",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T7b"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Poser une feuille de nori en losange sur une pellicule plastique."
+    },
+    {
+      "n": 2,
+      "texte": "Étaler une fine couche de riz au centre, en carré."
+    },
+    {
+      "n": 3,
+      "texte": "Empiler la garniture, puis une deuxième couche de riz."
+    },
+    {
+      "n": 4,
+      "texte": "Replier les quatre coins du nori vers le centre, comme une enveloppe."
+    },
+    {
+      "n": 5,
+      "texte": "Envelopper serré dans la pellicule et laisser 5 minutes — c'est ce qui soude le tout."
+    },
+    {
+      "n": 6,
+      "texte": "Couper en deux avec un couteau bien aiguisé, à travers la pellicule."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
+  "video": {
+    "youtube_id": "fdzM_zovmyo",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

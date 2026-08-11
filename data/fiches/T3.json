@@ -1,0 +1,84 @@
+{
+  "id": "T3",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "塩締め",
+  "jp_lecture": null,
+  "romaji": "shiojime",
+  "fr": "Le salage préalable",
+  "sous_titre": "Le geste qui distingue un poisson correct d'un poisson excellent. Vingt minutes d'attente, aucune compétence.",
+  "portions": "Par filet",
+  "temps_affiche": "≈ 26 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 0,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": 0,
+    "calories_affiche": "0",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "Un filet de poisson de 150 g",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ à 1 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Papier absorbant",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Éponger le poisson avec du papier absorbant."
+    },
+    {
+      "n": 2,
+      "texte": "Saler les deux côtés. Tenir la main à une trentaine de centimètres au-dessus et laisser tomber le sel — ça répartit beaucoup mieux que de le déposer. Sur toute la surface, peau comprise."
+    },
+    {
+      "n": 3,
+      "texte": "Déposer sur une grille ou une assiette, au réfrigérateur, 20 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "Observer : des gouttelettes perlent à la surface. C'est l'eau que le sel a tirée de la chair."
+    },
+    {
+      "n": 5,
+      "texte": "Éponger ces gouttelettes. Ne pas rincer — le sel a déjà pénétré, le rincer annulerait l'effet. On enlève l'eau, pas le sel."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce que ça accomplit",
+      "texte": "Le sel assaisonne en profondeur au lieu de rester en surface, la chair se raffermit, et la peau peut croustiller parce que l'eau qui l'en empêchait est partie. On utilise moins de sel pour un résultat plus salé en bouche."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Maquereaux_etal.jpg?width=1200",
+  "video": {
+    "youtube_id": "cr2cP89TtIk",
+    "auteur": "Japanese Cooking 101"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,92 @@
+{
+  "id": "R6",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "鶏がゆ",
+  "jp_lecture": null,
+  "romaji": "tori-gayu",
+  "fr": "Okayu au poulet",
+  "sous_titre": "Énorme volume pour environ 300 calories la portion. La bouillie de riz japonaise, l'équivalent du congee.",
+  "portions": "2",
+  "temps_affiche": "≈ 28 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 22,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 25,
+    "proteines_affiche": "25 g",
+    "calories": 300,
+    "calories_affiche": "≈ 300",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 tasse de riz cuit",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "750 ml de dashi (T2)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de poulet haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de gingembre râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignon vert, un filet de vinaigre de riz",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mijoter riz et dashi 15 minutes en brassant de temps en temps. Le riz éclate et le bouillon épaissit."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter le poulet en petites boulettes et le gingembre, 5 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Pocher un œuf par bol."
+    },
+    {
+      "n": 4,
+      "texte": "Garnir d'oignon vert et d'un filet de vinaigre de riz."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_rice_congee.jpg?width=1200",
+  "video": {
+    "youtube_id": "UE7iz3ePi_E",
+    "auteur": "Japanese Cooking 101"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

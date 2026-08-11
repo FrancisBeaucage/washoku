@@ -1,0 +1,74 @@
+{
+  "id": "R15",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "西京焼き",
+  "jp_lecture": null,
+  "romaji": "saikyo-yaki",
+  "fr": "Poisson mariné au miso",
+  "sous_titre": "Le plat le plus impressionnant du recueil pour l'effort le plus faible. Cinq minutes de travail, deux jours d'attente.",
+  "portions": "2",
+  "temps_affiche": "≈ 18 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": "24 à 48 h (marinade)",
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 340,
+    "calories_affiche": "≈ 340",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "2 filets de morue noire, de flétan ou de saumon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "MARINADE — 4 c. à soupe de miso blanc, 2 c. à soupe de mirin, 1 c. à soupe de saké, 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger la marinade jusqu'à consistance lisse."
+    },
+    {
+      "n": 2,
+      "texte": "Éponger le poisson, l'enrober complètement, mettre dans un sac refermable."
+    },
+    {
+      "n": 3,
+      "texte": "Réfrigérer 24 à 48 heures."
+    },
+    {
+      "n": 4,
+      "texte": "Retirer la marinade en essuyant avec le doigt ou un papier absorbant. Ne pas rincer à l'eau. S'il reste du miso, il brûlera."
+    },
+    {
+      "n": 5,
+      "texte": "Gril du four, 6 à 8 minutes, en surveillant : le sucre du mirin caramélise vite."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salmon_Saikyo-Yaki.jpg?width=1200",
+  "video": {
+    "youtube_id": "a_YTAcSZOPw",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": "\n"
+}

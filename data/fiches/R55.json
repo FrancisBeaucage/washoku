@@ -1,0 +1,66 @@
+{
+  "id": "R55",
+  "statut": "actif",
+  "categorie": "collation",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "きな粉ヨーグルト",
+  "jp_lecture": null,
+  "romaji": "kinako-yōguruto",
+  "fr": "Yogourt grec au kinako",
+  "sous_titre": "175 g de yogourt grec 0 % et une cuillère de kinako (farine de soya grillé). 17 g de protéines : le meilleur ratio protéines-calories des collations.",
+  "portions": "1",
+  "temps_affiche": "≈ 2 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 17,
+    "proteines_affiche": "17 g",
+    "calories": 180,
+    "calories_affiche": "≈ 180",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "175 g de yogourt grec 0 %",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de kinako (farine de soya grillé)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "(option) un filet de miel",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Verser le yogourt dans un bol."
+    },
+    {
+      "n": 2,
+      "texte": "Saupoudrer de kinako, ajouter un filet de miel si désiré."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Greek_yoghurt_with_honey.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

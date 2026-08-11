@@ -9,8 +9,8 @@ génération l'écrasera.
 ## Le cycle
 
 ```bash
-npm run verifier   # les 14 règles + contrôle que HTML et JSON disent la même chose
-npm run generer    # /data → pages HTML + manifeste, puis validation
+npm run verifier   # les 15 règles + contrôle que HTML et JSON disent la même chose
+npm run generer    # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
 
 `verifier` n'écrit rien : il signale les écarts. `generer` réécrit les pages à
@@ -22,7 +22,9 @@ normal juste après une édition de `/data`.**
 
 | Fichier | Contenu | Où ça se rend |
 |---|---|---|
-| `manifeste.json` | Ce qui existe, et les compteurs. **Généré** — ne pas éditer. | — |
+| `manifeste.json` | Ce qui existe, les compteurs, et l'adresse de tout le reste. **Généré** — ne pas éditer. | — |
+| `index.json` | Un objet par fiche, réduit à ce qui sert à choisir. **Généré** — ne pas éditer. | — |
+| `fiches/<ID>.json` | Une fiche par fichier, copie exacte du recueil. **Généré** — ne pas éditer. | — |
 | `guide-2-fiches.json` | Techniques `T*` et recettes `R*` | bloc `R` de `guide-2-recettes.html` |
 | `guide-2-annexes.json` | Lexique, yakumi, dépannage, thé | sections `#lexique`, `#yakumi`, `#depannage`, `#the` |
 | `guide-3-ingredients.json` | Fiches d'ingrédients | bloc `I` de `guide-3-supermarche.html` |
@@ -34,6 +36,31 @@ Ce qui reste en HTML, et pourquoi : le guide 1, les proses des guides 3 et 4, et
 les sections d'explication du guide 6. C'est de la prose longue et stable, déjà
 lisible par simple récupération de page. L'extraire corrigerait un problème qui
 n'existe pas.
+
+## Le protocole de lecture, depuis l'extérieur
+
+Une seule adresse à mémoriser ; tout le reste s'ouvre en cascade. C'est ce qui
+règle le mode d'échec du 8 au 11 août 2026 — dix plats et deux techniques
+improvisés faute de pouvoir lire la source de vérité.
+
+1. `https://francisbeaucage.github.io/washoku/data/manifeste.json` — les
+   compteurs, le dernier document appliqué, et l'**adresse complète** de chaque
+   autre fichier. Un agent extérieur ne peut récupérer qu'une adresse qu'on lui
+   a donnée : c'est pourquoi le manifeste porte des `url`, pas des noms.
+2. `index.json` — quelles fiches existent, avec de quoi choisir : nom,
+   catégorie, protéines, calories, temps total, et l'adresse de la fiche.
+   Environ 25 Ko, contre 230 pour le recueil.
+3. `fiches/<ID>.json` — les deux ou trois fiches d'un repas, et rien d'autre.
+
+`guide-2-fiches.json` ne se récupère que si le recueil entier est réellement
+nécessaire — un audit, par exemple.
+
+Le domaine n'est écrit qu'à un seul endroit : la constante `BASE_URL` en tête de
+`tools/generer.js`. Un déménagement se corrige là et nulle part ailleurs.
+
+`index.json` et `fiches/` sont la **même donnée** que le recueil, écrite deux
+fois de plus par le même script. La règle 15 vérifie qu'elles n'ont pas divergé ;
+une divergence signale un générateur cassé, pas une faute de saisie.
 
 ## Le contrat de mise en forme
 

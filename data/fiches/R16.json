@@ -1,0 +1,82 @@
+{
+  "id": "R16",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "魚の煮付け",
+  "jp_lecture": null,
+  "romaji": "sakana no nitsuke",
+  "fr": "Poisson mijoté au gingembre",
+  "sous_titre": "Mijoté dans soya, mirin et gingembre. Le poisson ne se retourne jamais.",
+  "portions": "2",
+  "temps_affiche": "≈ 23 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 32,
+    "proteines_affiche": "32 g",
+    "calories": 290,
+    "calories_affiche": "≈ 290",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "2 filets de poisson blanc ou de maquereau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 ml de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 morceau de gingembre en fines juliennes",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Porter le liquide à frémissement dans une poêle large avec le gingembre."
+    },
+    {
+      "n": 2,
+      "texte": "Déposer le poisson en une seule couche, peau vers le haut."
+    },
+    {
+      "n": 3,
+      "texte": "Couvrir d'un otoshibuta — un couvercle qui repose directement sur les aliments. Un cercle de papier parchemin fait l'affaire."
+    },
+    {
+      "n": 4,
+      "texte": "Mijoter 10 à 12 minutes."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "L'otoshibuta",
+      "texte": "Ça fait circuler le liquide par-dessus le poisson sans qu'on ait à le retourner. C'est ce qui empêche les filets de se défaire."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellowtail%20Kingfish%20and%20tofu%20simmered%20in%20soy%20sauce%20-%20%E5%B1%B1%E5%AE%B6%20Yama-ya.jpg?width=1200",
+  "video": {
+    "youtube_id": "KG8pBlF2Lsg",
+    "auteur": "Sudachi"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,56 @@
+{
+  "id": "R52",
+  "statut": "actif",
+  "categorie": "collation",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "蒟蒻",
+  "jp_lecture": null,
+  "romaji": "konnyaku",
+  "fr": "Konjac zéro calorie",
+  "sous_titre": "Presque zéro calorie. En gelée aux fruits pour une envie de bonbon, ou en cubes et nouilles de konnyaku (le bloc gris sur la photo). Format portion, coupe la fringale sans culpabilité.",
+  "portions": "1",
+  "temps_affiche": "≈ 1 min",
+  "temps_minutes": {
+    "preparation": 1,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 0,
+    "proteines_affiche": "0 g",
+    "calories": 20,
+    "calories_affiche": "≈ 20",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 gelée de konjac en portion, ou 100 g de konnyaku (bloc ou nouilles)",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "La gelée : aucune préparation."
+    },
+    {
+      "n": 2,
+      "texte": "Le konnyaku : rincer, puis manger tel quel ou blanchir 1 minute à l'eau bouillante pour la texture."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Konnyaku.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

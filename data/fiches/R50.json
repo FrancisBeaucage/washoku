@@ -1,0 +1,56 @@
+{
+  "id": "R50",
+  "statut": "actif",
+  "categorie": "collation",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "味付け海苔",
+  "jp_lecture": null,
+  "romaji": "ajitsuke-nori",
+  "fr": "Nori grillé assaisonné",
+  "sous_titre": "Le remplacement des croustilles : salé, croustillant, la sensation d'huile — pour environ 30 calories le paquet.",
+  "portions": "1",
+  "temps_affiche": "≈ 1 min",
+  "temps_minutes": {
+    "preparation": 1,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 30,
+    "calories_affiche": "≈ 30 / paquet",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 paquet de nori grillé assaisonné (ajitsuke-nori)",
+      "sante": true,
+      "sante_pos": 16
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Aucune cuisson : ouvrir le paquet et manger."
+    },
+    {
+      "n": 2,
+      "texte": "La réserve anti-fringale par excellence — en garder dans l'armoire et le sac."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nori.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": []
+}

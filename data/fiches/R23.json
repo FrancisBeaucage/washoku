@@ -1,0 +1,111 @@
+{
+  "id": "R23",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "long",
+  "jp": "ビビンバ",
+  "jp_lecture": "bi-bime-bap",
+  "romaji": "bibimbap",
+  "fr": "Bibimbap à ratio inversé",
+  "sous_titre": "Un petit bol de riz pour quatre tasses de légumes. Chaque légume prend 3 minutes — préparez-les le dimanche, l'assemblage prend 5 minutes en semaine.",
+  "portions": "2",
+  "temps_affiche": "≈ 40 min",
+  "temps_minutes": {
+    "preparation": 22,
+    "cuisson": 18,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "38 g",
+    "calories": 520,
+    "calories_affiche": "≈ 520",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "Riz (140 g par personne)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Épinards blanchis (T6), assaisonnés de sésame et d'ail",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Carottes en julienne sautées 2 minutes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Fèves germées ébouillantées 1 minute, huile de sésame et sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Courgette en demi-lunes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Shiitakes tranchés, sautés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de bœuf haché maigre au bulgogi, ou tofu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs au miroir",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "SAUCE — 2 c. à soupe de gochujang, 1 c. à soupe de vinaigre de riz, 1 c. à thé d'huile de sésame, 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Préparer chaque légume séparément, chacun avec son propre assaisonnement."
+    },
+    {
+      "n": 2,
+      "texte": "Cuire la protéine."
+    },
+    {
+      "n": 3,
+      "texte": "Monter le bol : riz au fond, légumes disposés en secteurs, protéine au centre."
+    },
+    {
+      "n": 4,
+      "texte": "Œuf au miroir sur le dessus."
+    },
+    {
+      "n": 5,
+      "texte": "Sauce à côté, à mélanger au moment de manger."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolsot-bibimbap.jpg?width=1200",
+  "video": {
+    "youtube_id": "6QQ67F8y2b8",
+    "auteur": "Maangchi"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

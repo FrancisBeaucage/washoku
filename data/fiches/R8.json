@@ -1,0 +1,71 @@
+{
+  "id": "R8",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "非常朝食",
+  "jp_lecture": null,
+  "romaji": "hijō chōshoku",
+  "fr": "Le déjeuner d'urgence",
+  "sous_titre": "Ce n'est pas de la cuisine. C'est mieux que rien, et infiniment mieux qu'un muffin.",
+  "portions": "1",
+  "temps_affiche": "≈ 4 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 2,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 24,
+    "proteines_affiche": "24 g",
+    "calories": 260,
+    "calories_affiche": "≈ 260",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 sachet de soupe miso instantanée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs durs préparés d'avance",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 poignée d'edamames congelés",
+      "sante": true,
+      "sante_pos": 20
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Préparer la soupe miso instantanée."
+    },
+    {
+      "n": 2,
+      "texte": "Jeter les edamames congelés dedans — ils décongèlent en une minute."
+    },
+    {
+      "n": 3,
+      "texte": "Manger avec les deux œufs durs."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Asage(Instant%20miso%20soup).jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

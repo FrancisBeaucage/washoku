@@ -1,0 +1,92 @@
+{
+  "id": "R14",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "jp": "鮭の塩焼き",
+  "jp_lecture": null,
+  "romaji": "sake no shioyaki",
+  "fr": "Saumon shioyaki et daikon râpé",
+  "sous_titre": "Zéro huile ajoutée. La recette la plus facile du recueil, et celle par laquelle commencer.",
+  "portions": "2",
+  "temps_affiche": "≈ 41 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 13,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 35,
+    "proteines_affiche": "35 g",
+    "calories": 320,
+    "calories_affiche": "≈ 320",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "2 filets de saumon de 150 g",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Sel pour T3",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ daikon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Ponzu, oignon vert, shichimi togarashi, quartiers de citron",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T3",
+    "T4"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T3 (salage préalable, 20 minutes) puis T4 (gril, 6 à 8 minutes)."
+    },
+    {
+      "n": 2,
+      "texte": "Râper le daikon sur les gros trous d'une râpe ou à l'oroshigane. Presser légèrement entre les mains pour enlever l'excès d'eau — il doit rester humide, pas détrempé."
+    },
+    {
+      "n": 3,
+      "texte": "Servir le poisson sur un petit tas de daikon."
+    },
+    {
+      "n": 4,
+      "texte": "Arroser de ponzu, garnir d'oignon vert, de shichimi et d'un quartier de citron."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le citron n'est pas décoratif",
+      "texte": "La vitamine C améliore l'absorption du fer du repas. Voir le guide 1, section 16."
+    },
+    {
+      "titre": "Griller un filet de plus",
+      "texte": "Le reste de saumon grillé est la matière première du déjeuner du lendemain : effiloché froid sur du riz chaud, c'est R62. Deux gestes au rangement décident du résultat : retirer la peau (froide, elle est caoutchouteuse) et garder la chair ENTIÈRE, non effilochée, sinon elle sèche."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%84%BC%E3%81%8D%E9%AE%AD---2024-03-05.jpg?width=1200",
+  "video": {
+    "youtube_id": "cr2cP89TtIk",
+    "auteur": "Japanese Cooking 101"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,87 @@
+{
+  "id": "R7",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "茶碗蒸し",
+  "jp_lecture": null,
+  "romaji": "chawanmushi",
+  "fr": "Œufs vapeur au gingembre",
+  "sous_titre": "Un flan d'œuf salé cuit à la vapeur. La texture soyeuse vient d'une seule étape : le filtrage.",
+  "portions": "2",
+  "temps_affiche": "≈ 22 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 14,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 14,
+    "proteines_affiche": "14 g",
+    "calories": 130,
+    "calories_affiche": "≈ 130",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "3 œufs battus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "450 ml de dashi tiède (T2)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya, 1 c. à thé de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Garnitures : crevettes, champignons, oignon vert",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Battre les œufs sans faire de mousse. Ajouter le dashi tiède et les assaisonnements."
+    },
+    {
+      "n": 2,
+      "texte": "Filtrer à travers une passoire fine. C'est ce qui donne la texture soyeuse."
+    },
+    {
+      "n": 3,
+      "texte": "Répartir dans des tasses, déposer les garnitures."
+    },
+    {
+      "n": 4,
+      "texte": "Cuire à la vapeur à feu doux, à couvert, 12 minutes."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Feu doux, vraiment",
+      "texte": "Feu trop fort = texture caillée avec des trous. C'est la seule chose qui peut rater dans cette recette."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chawan-mushi.JPG?width=1200",
+  "video": {
+    "youtube_id": "OEqu5c2edSw",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

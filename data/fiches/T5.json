@@ -1,0 +1,104 @@
+{
+  "id": "T5",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "moyen",
+  "jp": "上漿",
+  "jp_lecture": "tchang djiang",
+  "romaji": "velveting",
+  "fr": "Le velouté (velveting)",
+  "sous_titre": "Shàng jiāng, « appliquer une pâte ». Rend les coupes maigres et bon marché aussi tendres que les coupes grasses. Technique chinoise, pas japonaise — mais elle s'applique à toute viande tranchée mince destinée à un sauté ou à une soupe. Deux versions, qui n'ont ni le même mécanisme ni les mêmes conséquences sur le sodium.",
+  "portions": "250 à 400 g de viande",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 0,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": 20,
+    "calories_affiche": "≈ 20 ajoutées",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "VERSION 1 (zéro sodium) — 250 g de viande tranchée mince, 1 c. à thé de fécule de maïs, 1 c. à soupe de blanc d'œuf",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "VERSION 2 (apporte du sodium) — 250 g de viande tranchée mince, ¼ à ½ c. à thé de bicarbonate de soude",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif, après l'une ou l'autre : 1 c. à thé d'huile",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "POURQUOI — Une viande tranchée mince qui touche une poêle brûlante voit ses protéines se contracter violemment et expulser leur eau. Elle durcit en quelques secondes. Le velveting interpose une barrière, ou modifie la chimie de surface, pour que ça n'arrive pas."
+    },
+    {
+      "n": 2,
+      "texte": "Trancher la viande très mince, contre le grain. Astuce : 20 à 30 minutes au congélateur avant, elle se coupe beaucoup mieux."
+    },
+    {
+      "n": 3,
+      "texte": "VERSION 1 — Mélanger la fécule et le blanc d'œuf, puis malaxer avec la viande jusqu'à ce que chaque tranche soit enrobée d'une pellicule lisse."
+    },
+    {
+      "n": 4,
+      "texte": "Laisser reposer 20 minutes au réfrigérateur, puis cuire directement, SANS RINCER. La pellicule coagule au contact de la chaleur et protège la chair."
+    },
+    {
+      "n": 5,
+      "texte": "VERSION 2 — Saupoudrer le bicarbonate et malaxer. Laisser reposer 20 minutes (30 au maximum : au-delà, la texture devient spongieuse)."
+    },
+    {
+      "n": 6,
+      "texte": "Rincer abondamment à l'eau froide, au moins trois changements d'eau. Cette étape n'est pas facultative. Éponger, puis cuire."
+    },
+    {
+      "n": 7,
+      "texte": "À LA CUISSON — Poêle très chaude, saisir en une seule couche, 60 à 90 secondes, sans brasser constamment."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Laquelle choisir : la version 1, ici",
+      "texte": "La fécule et le blanc d'œuf n'apportent pas un milligramme de sodium, et c'est ce qui les fait préférer dans ce dossier. Le bicarbonate de soude est du bicarbonate DE SODIUM : le rinçage en retire l'essentiel, mais la méthode n'est pas neutre pour qui surveille son sodium. Son avantage est ailleurs — l'effet est spectaculaire sur des coupes ordinaires, et c'est ce que font les restaurants chinois. Deuxième réserve, valable pour les deux : un rinçage insuffisant laisse un arrière-goût savonneux et une texture désagréablement glissante."
+    },
+    {
+      "titre": "Quand ne pas l'utiliser",
+      "texte": "Sur de la viande DÉJÀ tranchée très mince — viande à fondue, shabu-shabu, à 1-2 mm — la technique n'apporte presque rien : la cuisson est trop brève pour que les fibres se contractent. Le velveting sert à sauver une coupe ordinaire, pas à améliorer une bonne coupe. Avant de velouter, se demander si le problème n'est pas simplement l'épaisseur de la tranche (voir la fiche du bœuf tranché shabu au guide 3)."
+    },
+    {
+      "titre": "Ne pas surcharger la poêle : environ 150 g par poêlée",
+      "texte": "Au-delà, une poêle domestique ne saisit plus : la viande relâche son eau plus vite que la poêle ne peut l'évaporer, et elle bout dans son jus. Elle devient grise, se rétracte et durcit — exactement ce que le velveting cherchait à éviter. Deux poêlées de 150 g prennent trois minutes de plus qu'une seule poêlée de 300 g, et le résultat n'a rien à voir. Attendre que la poêle reprenne sa chaleur entre les deux. Constaté le 10 août : plus de 200 g d'un coup, ça bout au lieu de saisir."
+    },
+    {
+      "titre": "La marinade est facultative — et elle coûte du sodium",
+      "texte": "La version classique ajoute de la sauce soya à l'étape de la fécule. Ce n'est pas le velveting : c'est un assaisonnement, et il se décide selon le plat. Dans une soupe où le bouillon assaisonne déjà, la viande n'a besoin de rien."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
+  "video": {
+    "youtube_id": "odGG8AEf0LU",
+    "auteur": "The Woks of Life"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

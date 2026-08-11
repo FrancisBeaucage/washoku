@@ -1,0 +1,100 @@
+{
+  "id": "R9",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "丼の公式",
+  "jp_lecture": null,
+  "romaji": "donburi no kōshiki",
+  "fr": "La formule donburi",
+  "sous_titre": "Ce n'est pas une recette, c'est un gabarit. Choisir une colonne de chaque. Trois protéines préparées le dimanche — poisson grillé (R14), poulet grillé (R49) et œufs marinés (T7) — donnent cinq dîners différents.",
+  "portions": "1 par colonne",
+  "temps_affiche": "≈ 11 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 3,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 25,
+    "proteines_affiche": "25 à 45 g",
+    "calories": 400,
+    "calories_affiche": "≈ 400 à 550",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "BASE — riz (140 g) ▪ chou émincé ▪ soba froides ▪ salade",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "PROTÉINE — poulet grillé ▪ saumon ▪ tofu ▪ œufs durs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LÉGUME — concombre ▪ edamames ▪ épinards (T6) ▪ champignons",
+      "sante": true,
+      "sante_pos": 29
+    },
+    {
+      "texte": "SAUCE — ponzu ▪ soya-sésame ▪ gochujang délayé ▪ sauce sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "CROQUANT — nori émincé ▪ graines de sésame ▪ oignon vert ▪ furikake",
+      "sante": true,
+      "sante_pos": 15
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Choisir une base et la mettre au fond du bol."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter la protéine, réchauffée ou froide selon l'envie."
+    },
+    {
+      "n": 3,
+      "texte": "Ajouter le légume."
+    },
+    {
+      "n": 4,
+      "texte": "Arroser de sauce."
+    },
+    {
+      "n": 5,
+      "texte": "Finir par le croquant, toujours en dernier."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Sauce sésame de base",
+      "texte": "2 c. à soupe de tahini, 1 c. à soupe de soya, 1 c. à thé de vinaigre de riz, de l'eau pour détendre."
+    },
+    {
+      "titre": "La vraie stratégie",
+      "texte": "Cuisiner une portion et demie au souper, et assembler le lendemain en cinq minutes. Le meilleur dîner est presque toujours le souper de la veille."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyudon_by_jetalone_in_Higashi-Ginza%2C_Tokyo.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

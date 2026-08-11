@@ -1,0 +1,106 @@
+{
+  "id": "R34",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "extra-long",
+  "jp": "おでん",
+  "jp_lecture": null,
+  "romaji": "oden",
+  "fr": "Oden",
+  "sous_titre": "Le mijoté d'hiver. Meilleur réchauffé le lendemain. Le konnyaku fait environ 5 calories aux 100 g et remplit l'estomac.",
+  "portions": "4",
+  "temps_affiche": "≈ 60 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 15,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 25,
+    "proteines_affiche": "25 g",
+    "calories": 260,
+    "calories_affiche": "≈ 260",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "BOUILLON — 1,5 L de dashi (T2) + 2 c. à soupe de soya + 1 c. à soupe de mirin + 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Daikon en rondelles de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Œufs durs entiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Konnyaku en triangles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Tofu grillé (atsuage)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Pilons de poulet, poulpe, shiitakes entiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Moutarde karashi pour servir",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Peler le daikon largement et arrondir les arêtes au couteau — ça l'empêche de s'effriter."
+    },
+    {
+      "n": 2,
+      "texte": "Le faire bouillir 10 minutes dans de l'eau séparée avant de l'ajouter au dashi. Ça enlève l'amertume. Jeter cette eau."
+    },
+    {
+      "n": 3,
+      "texte": "Entailler le konnyaku en croisillons sur les deux faces : il absorbe beaucoup mieux."
+    },
+    {
+      "n": 4,
+      "texte": "Tout mettre dans le dashi assaisonné, mijoter à tout petit feu, 30 minutes minimum. Ça ne doit jamais bouillir franchement."
+    },
+    {
+      "n": 5,
+      "texte": "Servir avec de la moutarde karashi à côté."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "À limiter",
+      "texte": "Les gâteaux de poisson traditionnels — chikuwa, satsuma-age, hanpen — sont très salés. Idem pour les saucisses enrobées et le mochi kinchaku."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yataioden.jpg?width=1200",
+  "video": {
+    "youtube_id": "T_rV_Vwdpdw",
+    "auteur": "Chef JA Cooks"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

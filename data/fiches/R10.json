@@ -1,0 +1,110 @@
+{
+  "id": "R10",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "冷奴",
+  "jp_lecture": null,
+  "romaji": "hiyayakko",
+  "fr": "Hiyayakko — tofu froid",
+  "sous_titre": "« Tofu froid ». 冷 = froid ; 奴 = yakko, le motif carré porté sur la veste des valets à l'époque d'Edo, d'où le nom donné au bloc de tofu coupé en carré. Rien à voir avec une salade : c'est du tofu servi tel quel, assaisonné en surface. C'est un kobachi (小鉢), un petit plat d'accompagnement dans un ichiju sansai — ça ne porte pas un repas.",
+  "portions": "1",
+  "temps_affiche": "≈ 5 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 17,
+    "proteines_affiche": "~17 g",
+    "calories": 145,
+    "calories_affiche": "≈ 145",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "150 g de tofu FERME ou moyen — pas soyeux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 g de katsuobushi (une bonne pincée, généreuse et aérée)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de gingembre frais râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 oignon vert (negi) émincé finement",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Sortir le tofu du réfrigérateur 10 minutes avant de servir. Trop froid, le goût se ferme."
+    },
+    {
+      "n": 2,
+      "texte": "Égoutter, éponger la surface à l'essuie-tout sans presser."
+    },
+    {
+      "n": 3,
+      "texte": "Faire glisser le tofu sur une assiette pour le couper, jamais dans le contenant : le tofu se tranche d'un coup net avec un couteau large, il ne se scie pas. Déposer le bloc dans un petit bol."
+    },
+    {
+      "n": 4,
+      "texte": "Verser la sauce soya directement sur le tofu, AVANT de garnir. Un liquide versé par-dessus un monticule de garniture le traverse et se ramasse au fond du bol."
+    },
+    {
+      "n": 5,
+      "texte": "Ajouter le gingembre râpé, puis le katsuobushi, puis l'oignon vert. Le katsuobushi doit rester aérien, pas tassé."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi ça fonctionne",
+      "texte": "Le tofu est le sujet, la garniture est un condiment. Le katsuobushi porte une concentration d'umami énorme pour un volume minuscule : c'est ce qui permet à un aliment aussi discret que le tofu de tenir un plat. Le gingembre apporte le mordant, le negi la fraîcheur, la sauce soya le sel."
+    },
+    {
+      "titre": "Les estimations (ordres de grandeur — l'étiquette du produit prime)",
+      "texte": "Tofu ferme 150 g : environ 16 g de protéines, 125 calories. Katsuobushi 3 g : environ 2 g, 10 calories. Gingembre, negi et sauce soya : environ 10 calories. Total : environ 17 g de protéines et 145 calories. Sodium : environ 200 mg, essentiellement la sauce soya. La portion de référence est celle d'un kobachi, et c'est voulu : cette fiche est un petit plat, pas un plat qui porte un repas. Elle se sert de 100 g (environ 11 g de protéines) à 200 g (environ 22 g) selon la place qu'elle occupe dans le plateau — mais si un repas manque de protéines, la réponse n'est pas de gonfler le hiyayakko, c'est d'ajouter un plat. Voir le guide 5."
+    },
+    {
+      "titre": "Erreurs à éviter",
+      "texte": "Une garniture aussi volumineuse que le tofu : si on ne voit plus le bloc, ce n'est plus un hiyayakko. Une garniture humide et neutre (poisson en conserve à l'eau, légumes bouillis) : le condiment doit être dense et sec. Le tofu soyeux : il rend de l'eau et son goût se lit comme aqueux à froid. Et servir le tofu directement sorti du frigo."
+    },
+    {
+      "titre": "Le tofu soyeux donne son meilleur en chaud",
+      "texte": "À froid, sa teneur en eau (environ 88 %) domine : la texture est fondante mais le goût se lit comme aqueux, surtout sorti directement du réfrigérateur. Il faut un condiment très dense et très sec pour le porter. En chaud, le problème disparaît. L'usage retenu pour le dossier : en dés dans la soupe miso, ajoutés hors du feu, juste avant de délayer le miso. Il ne s'agit pas de le cuire mais de le réchauffer — un soyeux qui bouillonne se délite. Pour un plat froid de type hiyayakko, préférer le ferme ou le moyen : il tient sa forme, il a de la mâche, et il ne rend pas d'eau dans le bol."
+    },
+    {
+      "titre": "Pourquoi le « hiyayakko au thon » ne fonctionnait pas",
+      "texte": "La version précédente de cette fiche — tofu soyeux surmonté d'une boîte entière de germon, ponzu, oignon vert, sésame — a été retirée après l'essai du 10 août. Ratée par conception, pas par exécution, et pour trois défauts qui se cumulent. LA PROPORTION : dans un hiyayakko, le tofu EST le plat et la garniture est un condiment. Une boîte entière de germon, soit environ 120 g égouttés, sur 150 g de tofu : la garniture pèse presque autant que le sujet, et on ne voit plus le tofu dans le bol. Le résultat n'est ni un hiyayakko ni une salade de thon — deux plats à moitié. L'ABSENCE DE GRAS : du germon dans l'eau, égoutté à fond, contient moins d'un gramme de gras aux 100 g. Le gras est le véhicule des arômes et ce qui les fait durer en bouche ; un plat froid sans gras se lit comme fade, même bien assaisonné. DEUX ÉLÉMENTS AQUEUX SUPERPOSÉS : le tofu soyeux est à environ 88 % d'eau et son goût est délicat par construction. Le vrai hiyayakko fonctionne parce que le condiment est dense et sec — le katsuobushi a une concentration d'umami énorme pour un volume minuscule. Un thon à l'eau, humide et neutre, ne compense rien. La combinaison est remplacée par deux fiches distinctes : ce hiyayakko-ci, et le thon assaisonné servi dans son propre bol (R61)."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiyayakko_with_bonito_flakes_and_welsh_onion_2.jpg?width=1200",
+  "video": {
+    "youtube_id": "Fkyb1mixSCE",
+    "auteur": "Sudachi"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

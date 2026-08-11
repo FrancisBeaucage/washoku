@@ -1,0 +1,114 @@
+{
+  "id": "T7b",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "酢の物",
+  "jp_lecture": null,
+  "romaji": "sunomono",
+  "fr": "Saler, dégorger, vinaigrer (sunomono)",
+  "sous_titre": "La technique de fond : saler et dégorger, puis vinaigrer. La même pour le concombre, le chou, le navet, le radis — et la porte d'entrée vers les tsukemono.",
+  "portions": "Variable",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": 20,
+    "calories_affiche": "≈ 20 à 40",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 concombre (ou chou, navet, radis)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ c. à thé de sel, pour dégorger",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de vinaigre de riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Sésame écrasé",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Saler et dégorger : trancher fin, saler (environ ½ c. à thé pour un concombre), attendre 10 minutes, presser à la main pour évacuer l'eau. Ce qui reste est plus dense, plus croquant, et prêt à absorber l'assaisonnement au lieu de le diluer. Sans cette étape, le légume rend son eau dans la vinaigrette et tout devient fade en une heure."
+    },
+    {
+      "n": 2,
+      "texte": "Assaisonner : mélanger avec le vinaigre, le sucre et le sésame. Un fond de liquide suffit — pas besoin d'immerger, le légume a déjà rendu son eau."
+    },
+    {
+      "n": 3,
+      "texte": "Couvrir et retourner le contenant deux ou trois fois dans les 30 premières minutes : le niveau monte tout seul, tout finit enrobé. Un pot droit et étroit vaut mieux qu'un bol large."
+    },
+    {
+      "n": 4,
+      "texte": "Goûter à 30 minutes, c'est le vrai test. Fade, on ajuste ; trop vinaigré, on presse légèrement au service."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "⚠️ Ne pas confondre avec T7a",
+      "texte": "Le sunomono est transparent (vinaigre). Le concombre plongé dans la marinade à œufs brun foncé (T7a) devient salé et mou, sans le croquant que donne l'acidité. Repère visuel : transparent = légumes, brun foncé = œufs."
+    },
+    {
+      "titre": "Ce n'est pas une saumure",
+      "texte": "Le légume n'a pas besoin d'être immergé. Ajouter du vinaigre pour « couvrir » ne fait que diluer le goût dans un excès qu'on jettera. Ce n'est pas une conserve : ça se mange le jour même ou le lendemain."
+    },
+    {
+      "titre": "Le gingembre mariné",
+      "texte": "Même famille : trancher ultra-fin, ébouillanter 1 minute, mariner dans le vinaigre sucré-salé."
+    },
+    {
+      "titre": "La version classique",
+      "texte": "Remplacer 1 c. à soupe du vinaigre par 1 c. à soupe de dashi arrondit l'acidité."
+    },
+    {
+      "titre": "Presser, pas éponger",
+      "texte": "Éponger enlève l'eau de surface ; presser expulse l'eau que le sel a tirée hors des cellules — et c'est celle-là qui compte. Si elle reste, elle ressort dans les heures suivantes et dilue l'assaisonnement : le sunomono devient aqueux et fade sans qu'on comprenne pourquoi. Prendre les tranches à pleine main et serrer fermement au-dessus de l'évier ; ce n'est pas délicat, le concombre doit rendre un vrai filet d'eau. C'est l'opposé du pressage doux des verdures blanchies de T6 (famille B). Rattrapage si on a épongé : le lendemain, égoutter le liquide accumulé au fond, presser à la main, remettre 1 c. à thé de vinaigre et une pincée de sucre, goûter. Ça se répare complètement."
+    },
+    {
+      "titre": "Le ponzu se brasse avant chaque usage",
+      "texte": "Si tu remplaces la vinaigrette par du ponzu : les sédiments et le dashi se déposent au fond de la bouteille, et sans agitation on verse un liquide déséquilibré. C'est écrit sur l'étiquette et ça se saute facilement. Même logique qu'une vinaigrette. Dosage : 1 à 2 c. à thé par portion, pas plus — c'est de la sauce soya diluée, pas une huile."
+    },
+    {
+      "titre": "Le sunomono est un rôle, pas une obligation",
+      "texte": "C'est un plat de contraste : il existe pour donner de l'acidité et du croquant entre deux bouchées de riz, pas pour être le point fort du repas. S'il ne convainc pas, le rôle de troisième petit plat peut être tenu autrement : edamames, nori en lanières, radis, champignons marinés, goma-ae (R44). Ce n'est pas un échec technique, c'est une préférence. Et il ne se garde pas : deux jours maximum, et le croquant disparaît dès le premier. Faire de petites quantités."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
+  "video": {
+    "youtube_id": "bsDgZXoieFU",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,136 @@
+{
+  "id": "R63",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "肉うどん",
+  "jp_lecture": null,
+  "romaji": "niku-udon",
+  "fr": "Niku-udon — nouilles au bœuf",
+  "sous_titre": "« Nouilles au bœuf » — et l'ordre des mots compte. C'est un bol de nouilles garni de bœuf, pas un bol de bœuf posé sur des nouilles. Monté sur un kake-jiru (R60), donc sur un dashi fort : c'est ce bouillon-là qui fait le plat, pas la viande.",
+  "portions": "1",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 13,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 44,
+    "proteines_affiche": "~44 g",
+    "calories": 690,
+    "calories_affiche": "≈ 690",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "350 ml de kake-jiru (R60), monté sur un dashi FORT — 15 à 20 g de katsuobushi pour 700 ml",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "120 à 150 g de bœuf tranché très mince — viande à fondue de préférence, pas des lanières à sauter",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 portion d'udon ou de soba, ou un bloc de nouilles instantanées cuit à l'eau claire",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile végétale pour la poêle",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ c. à thé d'huile de sésame grillé, dans le bol",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un légume vert ajouté CRU en fin de cuisson : chou nappa, épinards ou fèves germées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignon vert émincé à la minute",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : un demi-œuf mariné (T7a), du harishoga",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2",
+    "T5"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Monter le kake-jiru (R60) et le maintenir à frémissement. Aromates éventuels mis à froid, retirés avant de servir."
+    },
+    {
+      "n": 2,
+      "texte": "Saisir le bœuf à feu vif, par poêlées de 150 g maximum, 60 à 90 secondes. Réserver couvert. Au-delà de 150 g, la viande bout dans son jus au lieu de saisir (voir T5)."
+    },
+    {
+      "n": 3,
+      "texte": "Déglacer la poêle avec une louche de bouillon et reverser dans la casserole : c'est le gras qui transporte les arômes, et il est là."
+    },
+    {
+      "n": 4,
+      "texte": "Cuire les nouilles dans une eau claire à part, égoutter à fond. Jamais dans le bouillon — l'amidon le trouble."
+    },
+    {
+      "n": 5,
+      "texte": "Ajouter le légume vert CRU au bouillon : 90 secondes pour des tiges, 30 secondes pour des feuilles."
+    },
+    {
+      "n": 6,
+      "texte": "Nouilles au fond du bol, bœuf en éventail par-dessus, bouillon versé le long de la paroi."
+    },
+    {
+      "n": 7,
+      "texte": "Finir par l'huile de sésame, l'oignon vert tranché à la minute, et les garnitures."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "⚠️ On doit voir les nouilles",
+      "texte": "C'est un bol de nouilles garni de bœuf, pas un bol de bœuf posé sur des nouilles. Au-delà de 150 g de viande, le plat change de nature et devient difficile à finir — testé le 10 août avec plus de 200 g : le bol était plein de bœuf, les nouilles avaient disparu dessous, et l'appétit est parti avant la fin. Si le repas manque de protéines, on ajoute un petit plat à côté ; on ne grossit pas le bol. Voir le guide 5."
+    },
+    {
+      "titre": "La viande à fondue, pas les lanières à sauter",
+      "texte": "Les « lanières à sauter » ou stir fry strips du supermarché sont taillées à 4-5 mm dans des coupes travaillantes. À cette épaisseur, la viande reste coriace même cuite 60 secondes. La viande à fondue est tranchée à 1-2 mm sur une trancheuse — l'épaisseur du shabu-shabu et du sukiyaki — et à cette finesse la coupe d'origine cesse d'être déterminante. À défaut : congeler un morceau de bœuf 30 minutes, puis trancher au couteau. Inutile de velouter (T5) une viande déjà à 1-2 mm : la cuisson est trop brève pour que les fibres se contractent."
+    },
+    {
+      "titre": "Le gingembre s'infuse, il ne se sert pas",
+      "texte": "Des juliennes de 2 à 3 mm laissées dans le bol donnent une décharge de gingérol à chaque bouchée qui en contient : le composé piquant reste concentré tant que le morceau est entier. Pour parfumer, des tranches larges mises à froid et retirées avant de servir. Pour du gingembre en présence, c'est le harishoga (針生姜, « gingembre-aiguille ») : taillé à moins d'un millimètre, trempé 5 minutes à l'eau froide pour retirer l'âpreté, posé en très petite quantité sur le dessus. Une pincée, pas une poignée."
+    },
+    {
+      "titre": "Les estimations (ordres de grandeur — l'étiquette du produit prime)",
+      "texte": "Bœuf 150 g crus : environ 31 g de protéines et 250 calories. Nouilles : environ 10 g et 380 calories. Bouillon, légume et garnitures : environ 3 g et 60 calories. Total : environ 44 g de protéines et 690 calories. Le bouillon laissé aux deux tiers dans le bol retire 150 à 200 mg de sodium du compte de la journée."
+    },
+    {
+      "titre": "Avec des nouilles instantanées",
+      "texte": "Le bloc se cuit dans une eau claire à part, qu'on jette, et le sachet d'assaisonnement se jette au complet : dès qu'il y a un vrai bouillon, il ne sert plus à rien et devient du sodium pur. Voir la section dépannage du guide, quatrième cas. Pour la version dépannage montée SUR le sachet plutôt que sur un dashi, c'est R57."
+    }
+  ],
+  "photo": "assets/recettes/niku-udon.jpg",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

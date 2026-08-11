@@ -1,0 +1,95 @@
+{
+  "id": "R26",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "chinoise",
+  "vitesse": "moyen",
+  "jp": "麻婆豆腐",
+  "jp_lecture": "ma-po dow-fou",
+  "romaji": "mápó dòufu",
+  "fr": "Mapo tofu allégé",
+  "sous_titre": "600 g de tofu, 200 g de porc au lieu des 400 habituels. Le tofu porte le plat, le porc n'est plus qu'un assaisonnement.",
+  "portions": "2",
+  "temps_affiche": "≈ 24 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 14,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 32,
+    "proteines_affiche": "32 g",
+    "calories": 380,
+    "calories_affiche": "≈ 380",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de tofu ferme ou mi-ferme en cubes de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de porc haché maigre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de doubanjiang",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de poivre de Sichuan moulu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 gousses d'ail, 1 c. à soupe de gingembre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 ml de bouillon, 1 c. à soupe de fécule délayée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignons verts",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Pocher les cubes de tofu 2 minutes dans de l'eau salée frémissante, puis égoutter. Ça les raffermit et les empêche de se défaire."
+    },
+    {
+      "n": 2,
+      "texte": "Saisir le porc, ajouter doubanjiang, ail et gingembre, 2 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Ajouter le bouillon et le tofu. Mijoter 5 minutes sans brasser — secouer la poêle par le manche."
+    },
+    {
+      "n": 4,
+      "texte": "Épaissir. Poivre de Sichuan à la toute fin, hors du feu : la chaleur détruit son parfum citronné."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chen_Mapo_Tofu.jpg?width=1200",
+  "video": {
+    "youtube_id": "AujuLHK3hvs",
+    "auteur": "Chinese Cooking Demystified"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,92 @@
+{
+  "id": "R19",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "親子丼",
+  "jp_lecture": null,
+  "romaji": "oyakodon",
+  "fr": "Oyakodon",
+  "sous_titre": "Littéralement « bol parent-enfant » — le poulet et l'œuf. Les œufs doivent rester baveux : c'est la signature du plat, pas une cuisson incomplète.",
+  "portions": "2",
+  "temps_affiche": "≈ 23 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 42,
+    "proteines_affiche": "42 g",
+    "calories": 550,
+    "calories_affiche": "≈ 550",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de hauts de cuisse de poulet en morceaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 oignon en fines lamelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 ml de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 œufs battus grossièrement (il doit rester des traînées de blanc et de jaune)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignon vert, shichimi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 petits bols de riz",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mijoter dashi, assaisonnements et oignon 5 minutes dans une petite poêle."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter le poulet, cuire 8 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Verser les œufs en spirale sur toute la surface. Couvrir, feu doux, 90 secondes."
+    },
+    {
+      "n": 4,
+      "texte": "Faire glisser sur le riz. Garnir d'oignon vert et de shichimi."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Oyakodon_003.jpg?width=1200",
+  "video": {
+    "youtube_id": "Vlp6ufKYDzk",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

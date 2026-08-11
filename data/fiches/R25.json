@@ -1,0 +1,90 @@
+{
+  "id": "R25",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "chinoise",
+  "vitesse": "long",
+  "jp": "酸辣湯",
+  "jp_lecture": "souane la tang",
+  "romaji": "suān là tāng",
+  "fr": "Soupe aigre-piquante",
+  "sous_titre": "Le piquant vient du poivre blanc, pas du piment. Goûter et ajuster : ça doit piquer et être franchement acide.",
+  "portions": "2",
+  "temps_affiche": "≈ 54 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 12,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 35,
+    "proteines_affiche": "35 g",
+    "calories": 330,
+    "calories_affiche": "≈ 330",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 L de bouillon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "350 g de poulet en lanières, 200 g de tofu ferme en bâtonnets",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 tasse de champignons : shiitakes, oreilles de bois réhydratées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de vinaigre noir de Chinkiang",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de soya, 1 c. à thé de poivre blanc moulu (généreux)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs battus, 1 c. à soupe de fécule délayée",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Frémir le bouillon, ajouter poulet, champignons et tofu. 6 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Vinaigre, soya, poivre blanc. Goûter et ajuster."
+    },
+    {
+      "n": 3,
+      "texte": "Épaissir légèrement avec la fécule."
+    },
+    {
+      "n": 4,
+      "texte": "Verser les œufs battus en filet mince, d'une main, en brassant lentement de l'autre dans une seule direction. C'est ce qui fait les rubans plutôt que des grumeaux."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ping_SJ_hot_%26_sour_soup.JPG?width=1200",
+  "video": {
+    "youtube_id": "8eMk9yTm_34",
+    "auteur": "Omnivore's Cookbook"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

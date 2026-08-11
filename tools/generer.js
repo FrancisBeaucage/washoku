@@ -13,6 +13,14 @@ const { lireBloc, remplacerBloc, lireFichier, ecrireFichier } = require('./lib/b
 const { objetMultiligne, tableau } = require('./lib/ecrire-js');
 
 const verifier = process.argv.includes('--verifier');
+
+/* L'adresse publique du site. Un agent extérieur ne peut récupérer qu'une
+   adresse qu'on lui a donnée : une adresse qu'il déduit lui-même, même juste,
+   est refusée. Le manifeste doit donc porter des adresses complètes, pas des
+   noms de fichiers. Le domaine ne vit qu'ici — un déménagement se corrige à un
+   seul endroit. */
+const BASE_URL = 'https://francisbeaucage.github.io/washoku';
+const adresse = (nom) => `${BASE_URL}/data/${nom}`;
 const lireJson = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 
 /* Le tableau R référence les images par IMG.cle quand elles y figurent ;
@@ -69,6 +77,7 @@ for (const src of SOURCES) {
 
   fichiers.push({
     nom: `${src.cle}.json`,
+    url: adresse(`${src.cle}.json`),
     description: src.description,
     nb_entrees: objets.length,
     nb_actives: actifs.length,
@@ -99,7 +108,7 @@ for (const src of PROSES) {
   }
 
   const { nb_entrees, nb_actives } = src.compte(donnees);
-  fichiers.push({ nom: `${src.cle}.json`, description: src.description, nb_entrees, nb_actives });
+  fichiers.push({ nom: `${src.cle}.json`, url: adresse(`${src.cle}.json`), description: src.description, nb_entrees, nb_actives });
 
   if (!verifier) ecrireFichier(chemin, src.mapper.reinjecter(html, src.mapper.partieRendue(donnees)));
   console.log(`${verifier ? 'vérifié' : 'écrit  '} ${src.page} — ${nb_actives} entrées (${src.cle})`);
@@ -122,12 +131,83 @@ for (const n of NOMBRES) {
   if (!verifier) ecrireFichier(chemin, html.replace(n.motif, attendu));
 }
 
+/* ── Les deux vues qui servent la lecture depuis l'extérieur ──────────── */
+
+/* Une fiche par fichier, et un index compact. C'est la même donnée écrite deux
+   fois de plus par le même script — aucun risque de divergence, et la règle 15
+   le vérifie. Ça évite de charger 230 Ko pour lire trois recettes. */
+const toutesLesFiches = lireJson(path.join(DATA, 'guide-2-fiches.json'));
+const DOSSIER_FICHES = path.join(DATA, 'fiches');
+
+/** T avant R, puis par numéro, puis par suffixe : T1 … T7a, T7b, T8, R1 … R63. */
+function rang(id) {
+  const m = id.match(/^([TR])(\d+)(.*)$/);
+  if (!m) throw new Error(`identifiant de fiche inattendu : ${id}`);
+  return [m[1] === 'T' ? 0 : 1, Number(m[2]), m[3]];
+}
+const triees = [...toutesLesFiches].sort((a, b) => {
+  const [x, y] = [rang(a.id), rang(b.id)];
+  return x[0] - y[0] || x[1] - y[1] || x[2].localeCompare(y[2]);
+});
+
+const index = triees.map((f) => ({
+  id: f.id,
+  fr: f.fr,
+  romaji: f.romaji,
+  jp: f.jp,
+  categorie: f.categorie,
+  cuisine: f.cuisine,
+  statut: f.statut,
+  proteines_g: f.nutrition.proteines_g,
+  calories: f.nutrition.calories,
+  temps_minutes: f.temps_minutes.preparation + f.temps_minutes.cuisson + f.temps_minutes.attente,
+  url: `${BASE_URL}/data/fiches/${f.id}.json`,
+}));
+
+if (!verifier) {
+  fs.mkdirSync(DOSSIER_FICHES, { recursive: true });
+  for (const f of toutesLesFiches) {
+    fs.writeFileSync(path.join(DOSSIER_FICHES, `${f.id}.json`), JSON.stringify(f, null, 2) + '\n', 'utf8');
+  }
+  // Le dossier est une sortie générée : ce qui ne correspond plus à une fiche s'en va.
+  const attendus = new Set(toutesLesFiches.map((f) => `${f.id}.json`));
+  for (const nom of fs.readdirSync(DOSSIER_FICHES)) {
+    if (nom.endsWith('.json') && !attendus.has(nom)) {
+      fs.unlinkSync(path.join(DOSSIER_FICHES, nom));
+      console.log(`retiré  data/fiches/${nom} — plus aucune fiche de ce nom`);
+    }
+  }
+  fs.writeFileSync(path.join(DATA, 'index.json'), JSON.stringify(index, null, 2) + '\n', 'utf8');
+}
+console.log(`${verifier ? 'vérifié' : 'écrit  '} data/index.json et data/fiches/ — ${index.length} fiches`);
+
+fichiers.push({
+  nom: 'index.json',
+  url: adresse('index.json'),
+  description: 'Index compact des fiches : de quoi choisir laquelle ouvrir, sans charger le recueil',
+  nb_entrees: index.length,
+  nb_actives: index.filter((f) => f.statut !== 'retiré').length,
+});
+fichiers.push({
+  nom: 'fiches/<ID>.json',
+  url: `${BASE_URL}/data/fiches/`,
+  description: 'Une fiche par fichier, identique à son entrée du recueil. Adresse exacte dans index.json',
+  nb_entrees: toutesLesFiches.length,
+  nb_actives: toutesLesFiches.filter((f) => f.statut !== 'retiré').length,
+});
+
 const manifeste = {
   site: 'washoku',
   version_schema: '1.0',
   derniere_maj: process.env.WASHOKU_DATE || new Date().toISOString().slice(0, 10),
-  dernier_document_applique: 8,
+  dernier_document_applique: 9,
   note: "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
+  protocole_de_lecture: [
+    'Ce manifeste donne l’adresse complète de tous les autres fichiers.',
+    'index.json dit quelles fiches existent, avec de quoi choisir laquelle ouvrir.',
+    'fiches/<ID>.json donne une fiche entière. Ne récupérer que celles dont on a besoin.',
+    'guide-2-fiches.json est le recueil entier : ne le charger que pour un audit.',
+  ],
   fichiers,
   compteurs,
 };

@@ -1,0 +1,95 @@
+{
+  "id": "R27",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "moyen",
+  "jp": "トムヤムクン",
+  "jp_lecture": "tome youme koung",
+  "romaji": "tom yum kung",
+  "fr": "Tom yum aux crevettes",
+  "sous_titre": "Bouillon clair, aromates, acidité. Le lait de coco est facultatif — et sans lui, c'est une soupe-repas à 260 calories.",
+  "portions": "2",
+  "temps_affiche": "≈ 27 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "38 g",
+    "calories": 260,
+    "calories_affiche": "≈ 260",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 L de bouillon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de crevettes crues décortiquées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de pâte tom yum",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 tranches de galanga, 2 tiges de citronnelle écrasées, 4 feuilles de lime kaffir déchirées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "227 g de champignons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de sauce de poisson, jus de 2 limes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Coriandre, piments oiseaux écrasés",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Frémir bouillon et aromates 10 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Pâte tom yum et champignons, 3 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Crevettes, 2 à 3 minutes — dès qu'elles sont roses et courbées en C."
+    },
+    {
+      "n": 4,
+      "texte": "Hors du feu : sauce de poisson et jus de lime. Le jus de lime devient amer s'il bout."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
+  "video": {
+    "youtube_id": "hXaaZiMgvgI",
+    "auteur": "Hot Thai Kitchen"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

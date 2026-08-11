@@ -1,0 +1,74 @@
+{
+  "id": "R42",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "大根の澄まし汁",
+  "jp_lecture": null,
+  "romaji": "daikon no sumashi-jiru",
+  "fr": "Bouillon au daikon et gingembre",
+  "sous_titre": "Réconfortant, digestif, presque zéro calorie.",
+  "portions": "2 bols",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 9,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 40,
+    "calories_affiche": "≈ 40",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "400 ml de dashi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "½ tasse de daikon en fines lamelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de gingembre râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de soya",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Frémir le dashi avec le daikon 8 minutes, jusqu'à ce qu'il devienne translucide."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter le gingembre et le soya hors du feu."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Daikon.Japan.jpg?width=1200",
+  "video": {
+    "youtube_id": "MAUc-bAVymc",
+    "auteur": "ochikeron"
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

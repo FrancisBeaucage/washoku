@@ -1,0 +1,80 @@
+{
+  "id": "R45",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "酢の物",
+  "jp_lecture": null,
+  "romaji": "sunomono",
+  "fr": "Sunomono — concombre vinaigré",
+  "sous_titre": "Réduit aussi la réponse glycémique du repas qui suit. À côté de son assiette au souper familial, personne ne remarque rien.",
+  "portions": "4",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 0,
+    "attente": 10
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 35,
+    "calories_affiche": "≈ 35",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "2 concombres asiatiques en tranches très fines",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "VINAIGRETTE — 3 c. à soupe de vinaigre de riz, 1 c. à soupe de sucre, 1 c. à thé de soya",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Wakame réhydraté, sésame",
+      "sante": true,
+      "sante_pos": 6
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Saler les tranches, laisser dégorger 10 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Presser fermement entre les mains pour extraire l'eau. C'est ce qui empêche la salade de se diluer."
+    },
+    {
+      "n": 3,
+      "texte": "Mélanger à la vinaigrette."
+    },
+    {
+      "n": 4,
+      "texte": "Garnir de wakame et de sésame."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
+  "video": {
+    "youtube_id": "KYRAk2qY_h4",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

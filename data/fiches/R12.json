@@ -1,0 +1,82 @@
+{
+  "id": "R12",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "蕎麦サラダ",
+  "jp_lecture": null,
+  "romaji": "soba sarada",
+  "fr": "Salade de soba",
+  "sous_titre": "Se transporte parfaitement. Les soba de sarrasin apportent plus de protéines et de fibres que le blé.",
+  "portions": "2",
+  "temps_affiche": "≈ 22 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 32,
+    "proteines_affiche": "32 g",
+    "calories": 460,
+    "calories_affiche": "≈ 460",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "200 g de nouilles soba sèches",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 g de poulet grillé (R49) tranché, ou de crevettes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 concombre en julienne, 1 tasse d'edamames, oignon vert",
+      "sante": true,
+      "sante_pos": 43
+    },
+    {
+      "texte": "SAUCE — 4 c. à soupe de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de vinaigre de riz, 1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Cuire les soba selon le paquet, généralement 4 à 5 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Rincer abondamment à l'eau froide en frottant les nouilles entre les mains. Étape essentielle : elle enlève l'amidon de surface, sans quoi les soba collent en bloc."
+    },
+    {
+      "n": 3,
+      "texte": "Bien égoutter."
+    },
+    {
+      "n": 4,
+      "texte": "Mélanger la sauce et assembler."
+    }
+  ],
+  "notes": [],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaru%20soba%20by%20spinachdip.jpg?width=1200",
+  "video": {
+    "youtube_id": "-ojltkREE1c",
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}
