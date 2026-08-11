@@ -42,6 +42,9 @@
   /* Loupe au survol (façon catalogue) : l'image s'agrandit et suit le curseur — piloté par JS */
   .zoomwrap{overflow:hidden;cursor:zoom-in}
   .zoomwrap>.zoomimg{width:100%;height:100%;display:block;transform-origin:center;will-change:transform}
+  /* Vignettes de liste : même cadre, sans la loupe au survol (trop de mouvement en grille). */
+  .thumb{overflow:hidden}
+  .thumb>.zoomimg{width:100%;height:100%;display:block}
 </style>
 </helmet>
 
@@ -159,12 +162,12 @@
       <section style="max-width:1180px;margin:0 auto;padding:clamp(30px,5vw,66px) clamp(16px,4vw,40px) clamp(20px,3vw,32px)">
         <p style="margin:0 0 14px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">Guide 2 sur 5 · Cuisiner</p>
         <h1 style="margin:0;font-weight:800;font-size:clamp(32px,6vw,64px);line-height:1.02;letter-spacing:-.025em;max-width:14em">Recueil de recettes et de techniques</h1>
-        <p style="margin:16px 0 0;font-family:'Noto Serif JP',serif;font-weight:600;font-size:clamp(16px,2.4vw,22px);color:#605d5d"><span title="ryōrichō — « ryô-ri-tchô » · le carnet de recettes" style="cursor:help;border-bottom:1px dotted currentColor">料理帖</span> — 7 techniques, 49 recettes</p>
+        <p style="margin:16px 0 0;font-family:'Noto Serif JP',serif;font-weight:600;font-size:clamp(16px,2.4vw,22px);color:#605d5d"><span title="ryōrichō — « ryô-ri-tchô » · le carnet de recettes" style="cursor:help;border-bottom:1px dotted currentColor">料理帖</span> — 9 techniques, 62 recettes</p>
         <figure style="margin:clamp(24px,4vw,40px) 0 0">
           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Oyakodon_003.jpg?width=1600" alt="Oyakodon — bol de riz au poulet et à l'œuf" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:21/9;object-fit:cover;border:2px solid #201e1d">
           <figcaption style="margin-top:9px;font-size:12.5px;color:#605d5d">Chaque plat devient une fiche&nbsp;: photo, portions, temps réel, protéines et calories estimées.</figcaption>
         </figure>
-        <p style="margin:20px 0 0;font-size:17px;line-height:1.7;max-width:38em;color:#444141">Ce document se consulte, il ne se lit pas. Chaque recette est une fiche&nbsp;: photo, portions, temps réel, protéines, calories estimées, ingrédients, étapes. Les techniques <strong>T1 à T7</strong> sont les gestes de base — elles reviennent partout, lisez-les une fois avant de commencer.</p>
+        <p style="margin:20px 0 0;font-size:17px;line-height:1.7;max-width:38em;color:#444141">Ce document se consulte, il ne se lit pas. Chaque recette est une fiche&nbsp;: photo, portions, temps réel, protéines, calories estimées, ingrédients, étapes. Les techniques <strong>T1 à T8</strong> sont les gestes de base — elles reviennent partout, lisez-les une fois avant de commencer.</p>
         <p style="margin:12px 0 0;font-size:14.5px;line-height:1.7;max-width:38em;color:#605d5d">Le symbole <strong style="color:#ec3013">†</strong> signale un aliment qui fait l'objet d'une note de santé dans la <a href="guide-1-manger.html#s13">partie D du guide 1</a>. Les calories sont des estimations calculées à partir des quantités indiquées, pas des valeurs mesurées.</p>
       </section>
 
@@ -192,7 +195,7 @@
           <span title="ryōri — « ryô-ri » · la cuisine, les plats" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">料理</span>
         </div>
         <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Les recettes et les techniques</h2>
-        <p style="margin:0;font-size:17px;line-height:1.7;max-width:38em;color:#444141">Chaque recette est une fiche&nbsp;: photo, portions, temps réel, protéines, calories. Filtre par catégorie — dont les techniques <strong>T1 à T7</strong>, les gestes de base à lire une fois — ou cherche un nom directement.</p>
+        <p style="margin:0;font-size:17px;line-height:1.7;max-width:38em;color:#444141">Chaque recette est une fiche&nbsp;: photo, portions, temps réel, protéines, calories. Filtre par catégorie — dont les techniques <strong>T1 à T8</strong>, les gestes de base à lire une fois — ou cherche un nom directement.</p>
       </section>
 
       <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:49px;z-index:20">
@@ -216,8 +219,8 @@
         <p style="margin:0 0 18px;font-size:12.5px;font-weight:700;letter-spacing:.06em;color:#7d7979">{{ count }}</p>
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d">
           <sc-for list="{{ list }}" as="r" hint-placeholder-count="12">
-            <button onClick="{{ r.go }}" style="display:block;width:100%;text-align:left;background:#f3f2f2;border:0;padding:0;cursor:pointer;font-family:inherit;color:#201e1d" style-hover="background:#fff2ef">
-              <div class="zoomwrap" style="width:100%;aspect-ratio:4/3;background-color:#eae9e9"><div role="img" aria-label="{{ r.fr }}" class="zoomimg" style="background-size:cover;background-position:center;background-image:{{ r.bg }}"></div></div>
+            <button onClick="{{ r.go }}" style="display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;width:100%;text-align:left;background:#f3f2f2;border:0;padding:0;cursor:pointer;font-family:inherit;color:#201e1d" style-hover="background:#fff2ef">
+              <div class="thumb" style="width:100%;aspect-ratio:4/3;background-color:#eae9e9;flex:0 0 auto"><div role="img" aria-label="{{ r.fr }}" class="zoomimg" style="background-size:cover;background-position:center;background-image:{{ r.bg }}"></div></div>
               <div style="padding:14px 16px 18px">
                 <div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px">
                   <span style="font-weight:800;font-size:13px;letter-spacing:.06em;color:#ec3013">{{ r.id }}</span>
@@ -1066,7 +1069,7 @@ const R = [
  sub:"焼き芋 yaki-imo. Sucrée naturellement, très rassasiante. Au four, elle se fait toute seule pendant qu'on fait autre chose.",
  ing:["1 patate douce japonaise (satsumaimo)"],
  steps:["Préchauffer le four à 200 °C.","Piquer la patate à la fourchette, la déposer sur une plaque.","Rôtir environ 45 minutes, jusqu'à ce qu'elle soit fondante et qu'un sirop perle.","Bonne chaude ou froide ; se garde quelques jours au frigo."]},
-{id:"R57",cui:"jp",cat:"din",jp:"即席麺",ro:"sokusekimen",fr:"Nouilles instantanées, version repas",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Instant_noodles.jpg?width=1200",por:"1",tps:"\u2248 8 min",prep:3,cook:5,rest:0,spd:"xs",wait:"",pro:"32 g",cal:"≈ 550",
+{id:"R57",cui:"jp",cat:"din",jp:"即席麺",ro:"sokusekimen",fr:"Nouilles instantanées, version repas",img:"https://commons.wikimedia.org/wiki/Special:FilePath/HomeCookedRamenNoodles.jpg?width=1200",por:"1",tps:"\u2248 8 min",prep:3,cook:5,rest:0,spd:"xs",wait:"",pro:"32 g",cal:"≈ 550",
  sub:"Le paquet est une base, pas le repas. Avec des œufs et des légumes, ça devient un vrai souper à 550 calories et 32 g de protéines en cinq minutes — et ça bat la pizza.",
  ing:["1 paquet de nouilles instantanées (idéalement non frites — voir la note)","1 à 2 œufs","1 poignée d'edamames † congelés","2 poignées d'épinards ou de bok choy","Oignon vert","La moitié du sachet d'assaisonnement seulement"],
  steps:["Dans une casserole sur le feu (pas de l'eau versée d'une bouilloire — elle refroidit trop vite pour cuire un œuf cru), porter l'eau à ébullition et ajouter les nouilles.","Œuf poché façon ramen (blanc pris, jaune coulant) : baisser à léger frémissement, casser l'œuf dans le bouillon et cuire 3 minutes à couvert, sans brasser. Pour des filaments d'œuf soyeux : battre l'œuf et le verser en filet dans le bouillon qui bout, en brassant doucement.","Jeter les edamames (1 minute) puis les épinards (30 secondes).","N'utiliser que la moitié du sachet d'assaisonnement ; compenser avec ail, gingembre, vinaigre ou piment.","Ne pas boire tout le bouillon — environ 40 % du sodium y reste."],
@@ -1145,10 +1148,16 @@ class Component extends DCLogic {
     const { cat, spd, cui, q, open } = this.state;
     const norm = s => (s || "").toLowerCase().replace(/\u0153/g, "oe").replace(/\u00e6/g, "ae").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const term = norm(q);
+    // Les fiches sont toujours listées dans l'ordre de leur code : techniques
+    // (T1…T8) d'abord, puis les recettes par numéro croissant — indépendamment
+    // de l'ordre où elles ont été ajoutées au tableau R.
+    const rank = id => { const m = /^([A-Z]+)(\d+)([a-z]*)$/.exec(id) || []; return [m[1] === "T" ? 0 : 1, parseInt(m[2] || "0", 10), m[3] || ""]; };
+    const bySeq = (a, b) => { const x = rank(a.id), y = rank(b.id); return x[0] - y[0] || x[1] - y[1] || (x[2] < y[2] ? -1 : x[2] > y[2] ? 1 : 0); };
     const list = R.filter(r => (cat === "tous" || r.cat === cat))
       .filter(r => (spd === "tous" || r.spd === spd))
       .filter(r => (cui === "tous" || r.cui === cui))
       .filter(r => !term || norm(r.fr + " " + r.ro + " " + r.id + " " + r.sub + " " + r.ing.join(" ")).includes(term))
+      .sort(bySeq)
       .map(r => ({
         id: r.id, jp: r.jp, ro: r.ro, fr: r.fr, img: r.img, bg: 'url("' + r.img + '")', jpt: JPT(r.jp, r.ro, r.fr, r.pr),
         catLabel: CATLABEL[r.cat], spdLabel: SPDLABEL[r.spd], cuiLabel: CUILABEL[r.cui],
