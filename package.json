@@ -1,0 +1,12 @@
+{
+  "name": "washoku",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dossier Washoku — site statique. Le contenu vit dans /data ; les pages HTML en sont le rendu.",
+  "scripts": {
+    "generer": "node tools/generer.js && node tools/valider.js",
+    "verifier": "node tools/generer.js --verifier && node tools/valider.js",
+    "valider": "node tools/valider.js",
+    "extraire": "node tools/extraire.js"
+  }
+}

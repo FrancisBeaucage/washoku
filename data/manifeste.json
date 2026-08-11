@@ -1,0 +1,33 @@
+{
+  "site": "washoku",
+  "version_schema": "1.0",
+  "derniere_maj": "2026-08-10",
+  "dernier_document_applique": 7,
+  "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
+  "fichiers": [
+    {
+      "nom": "guide-2-fiches.json",
+      "description": "Techniques et recettes du guide 2",
+      "nb_entrees": 72,
+      "nb_actives": 72
+    },
+    {
+      "nom": "guide-3-ingredients.json",
+      "description": "Fiches d’ingrédients du guide 3",
+      "nb_entrees": 74,
+      "nb_actives": 74
+    },
+    {
+      "nom": "guide-4-exercices.json",
+      "description": "Exercices du guide 4",
+      "nb_entrees": 16,
+      "nb_actives": 16
+    }
+  ],
+  "compteurs": {
+    "techniques": 9,
+    "recettes": 63,
+    "fiches_actives": 72,
+    "fiches_retirees": 0
+  }
+}

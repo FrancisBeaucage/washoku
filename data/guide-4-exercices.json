@@ -1,0 +1,597 @@
+[
+  {
+    "id": "E1",
+    "numero": 1,
+    "statut": "actif",
+    "zone": "cou",
+    "jp": "顎引き",
+    "fr": "Rétraction du menton",
+    "en": "chin tuck",
+    "repetitions": "10 répétitions",
+    "resume": "Contre la posture avancée du travail à l'écran.",
+    "pourquoi": "Contre la posture avancée du travail à l'écran, et les maux de tête de tension. C'est un exercice de mobilité, pas de force — il se fait tous les jours, sans récupération.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Assis ou debout, le regard à l'horizontale."
+      },
+      {
+        "n": 2,
+        "texte": "Reculer le menton vers l'arrière comme pour faire un double menton, sans baisser la tête."
+      },
+      {
+        "n": 3,
+        "texte": "Tenir 5 secondes, relâcher."
+      }
+    ],
+    "paliers": {
+      "regression": "Assis, dos appuyé contre un dossier haut pour sentir le mouvement.",
+      "standard": "Debout ou assis, 10 répétitions de 5 secondes.",
+      "progression": "Debout dos au mur, en gardant l'arrière de la tête en contact."
+    },
+    "forme": "45 minutes (mobilité)",
+    "note": null
+  },
+  {
+    "id": "E2",
+    "numero": 2,
+    "statut": "actif",
+    "zone": "cou",
+    "jp": "壁天使",
+    "fr": "Anges muraux",
+    "en": "wall angels",
+    "repetitions": "8 répétitions",
+    "resume": "Ouvre la poitrine et remet les épaules en place.",
+    "pourquoi": "Contrebalance des heures passées les épaules enroulées vers l'avant. C'est un exercice de mobilité thoracique autant que de force.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Dos au mur, talons à 15 cm du mur, bas du dos plaqué contre le mur."
+      },
+      {
+        "n": 2,
+        "texte": "Bras en W contre le mur, coudes et dos des mains en contact."
+      },
+      {
+        "n": 3,
+        "texte": "Monter lentement les bras vers un Y, sans décoller les avant-bras du mur."
+      },
+      {
+        "n": 4,
+        "texte": "Redescendre lentement en gardant le contact."
+      }
+    ],
+    "paliers": {
+      "regression": "Ne monter que jusqu'où le contact tient. Un centimètre de plus chaque semaine.",
+      "standard": "8 répétitions complètes, du W au Y, sans perdre le contact.",
+      "progression": "Ralentir : 4 secondes pour monter, 4 secondes pour descendre."
+    },
+    "forme": "45 minutes (mobilité)",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E3",
+    "numero": 3,
+    "statut": "actif",
+    "zone": "haut",
+    "jp": "腕立て",
+    "fr": "Poussée inclinée",
+    "en": "incline push-up",
+    "repetitions": "8 à 12 répétitions",
+    "resume": "La version la plus importante du haut du corps.",
+    "pourquoi": "C'est le mouvement de poussée fondamental. L'inclinaison change la difficulté sans changer la technique — c'est ce qui permet de progresser pendant des mois avec le même exercice.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mains à la largeur des épaules sur la surface choisie."
+      },
+      {
+        "n": 2,
+        "texte": "Corps droit de la tête aux talons, gainé."
+      },
+      {
+        "n": 3,
+        "texte": "Descendre en 3 secondes, en gardant les coudes à environ 45 degrés du corps."
+      },
+      {
+        "n": 4,
+        "texte": "Remonter en 1 seconde."
+      }
+    ],
+    "paliers": {
+      "regression": "Mains contre un mur, corps à 30 degrés.",
+      "standard": "Mains sur le comptoir de cuisine.",
+      "progression": "Mains sur une chaise solide, puis sur une marche, puis au sol sur les genoux."
+    },
+    "forme": "15, 30 et 45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E4",
+    "numero": 4,
+    "statut": "actif",
+    "zone": "haut",
+    "jp": "引き",
+    "fr": "Tirage à la bande élastique",
+    "en": "band row",
+    "repetitions": "10 à 12 répétitions",
+    "resume": "Équilibre la poussée et corrige la posture. Ne le saute pas.",
+    "pourquoi": "Sans tirage, la poussée déséquilibre les épaules vers l'avant et aggrave la posture au lieu de l'améliorer. C'est l'exercice le plus souvent omis, et celui dont l'absence se paie.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Passer la bande autour d'une poignée de porte ou d'un poteau, à hauteur de poitrine."
+      },
+      {
+        "n": 2,
+        "texte": "Reculer jusqu'à ce que la bande soit légèrement tendue, bras tendus."
+      },
+      {
+        "n": 3,
+        "texte": "Tirer les coudes vers l'arrière en serrant les omoplates l'une vers l'autre."
+      },
+      {
+        "n": 4,
+        "texte": "Revenir lentement, en contrôlant."
+      }
+    ],
+    "paliers": {
+      "regression": "Sans bande : serrer les omoplates l'une vers l'autre, tenir 5 secondes, 12 fois. Moins efficace, mais mieux que rien.",
+      "standard": "Bande de résistance moyenne, 10 à 12 répétitions.",
+      "progression": "Bande plus forte, ou reculer d'un pas pour augmenter la tension de départ."
+    },
+    "forme": "30 et 45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E5",
+    "numero": 5,
+    "statut": "actif",
+    "zone": "haut",
+    "jp": "頭上押し",
+    "fr": "Développé au-dessus de la tête",
+    "en": "overhead press",
+    "repetitions": "10 répétitions",
+    "resume": "Deux bouteilles d'eau de 1 L suffisent pour commencer.",
+    "pourquoi": "L'épaule perd son amplitude au-dessus de la tête plus vite que n'importe quelle autre articulation. Ce mouvement la garde.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Une bouteille d'eau de 1 L ou une boîte de conserve dans chaque main, au niveau des épaules."
+      },
+      {
+        "n": 2,
+        "texte": "Pousser au-dessus de la tête sans cambrer le bas du dos."
+      },
+      {
+        "n": 3,
+        "texte": "Descendre lentement, en 3 secondes."
+      }
+    ],
+    "paliers": {
+      "regression": "Une seule bouteille à la fois, assis sur une chaise avec dossier.",
+      "standard": "Deux bouteilles de 1 L, debout, 10 répétitions.",
+      "progression": "Des haltères, en augmentant de 1 kg à la fois."
+    },
+    "forme": "45 minutes",
+    "note": "Si le bas du dos se cambre pour compenser, la charge est trop lourde. Serrer les fessiers pendant la poussée règle souvent le problème.",
+    "commentaire_source": ""
+  },
+  {
+    "id": "E6",
+    "numero": 6,
+    "statut": "actif",
+    "zone": "tronc",
+    "jp": "バードドッグ",
+    "fr": "Bird dog",
+    "en": "bird dog",
+    "repetitions": "8 par côté",
+    "resume": "L'exercice de tronc le plus sécuritaire qui existe.",
+    "pourquoi": "Stabilité lombaire sans aucune compression de la colonne. C'est exactement ce qu'un dos fragile a besoin de faire, et l'inverse d'un redressement assis.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "À quatre pattes, mains sous les épaules, genoux sous les hanches."
+      },
+      {
+        "n": 2,
+        "texte": "Tendre le bras droit vers l'avant et la jambe gauche vers l'arrière, à l'horizontale."
+      },
+      {
+        "n": 3,
+        "texte": "Tenir 5 secondes en gardant le bassin parfaitement stable — imaginer un verre d'eau posé sur le bas du dos."
+      },
+      {
+        "n": 4,
+        "texte": "Revenir, alterner."
+      }
+    ],
+    "paliers": {
+      "regression": "Bras seulement, puis jambe seulement, avant de combiner.",
+      "standard": "Bras et jambe opposés, 8 par côté, 5 secondes de maintien.",
+      "progression": "Allonger le maintien à 10 secondes, ou ajouter un mouvement coude-genou entre chaque répétition."
+    },
+    "forme": "15, 30 et 45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E7",
+    "numero": 7,
+    "statut": "actif",
+    "zone": "tronc",
+    "jp": "デッドバグ",
+    "fr": "Dead bug",
+    "en": "dead bug",
+    "repetitions": "8 par côté",
+    "resume": "Le bas du dos ne quitte jamais le sol.",
+    "pourquoi": "Apprend au tronc à résister à l'extension pendant que les membres bougent. C'est exactement ce qui manque quand on se relève d'une chaise ou qu'on porte quelque chose.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Sur le dos, bras tendus vers le plafond, genoux à 90 degrés au-dessus des hanches."
+      },
+      {
+        "n": 2,
+        "texte": "Plaquer le bas du dos contre le sol et le garder plaqué tout le long."
+      },
+      {
+        "n": 3,
+        "texte": "Descendre lentement un bras derrière la tête et la jambe opposée vers le sol."
+      },
+      {
+        "n": 4,
+        "texte": "Revenir, alterner."
+      }
+    ],
+    "paliers": {
+      "regression": "Jambes seulement, sans les bras.",
+      "standard": "Bras et jambe opposés, 8 par côté.",
+      "progression": "Descendre plus bas et plus lentement, jusqu'à frôler le sol."
+    },
+    "forme": "30 et 45 minutes",
+    "note": "Dès que le bas du dos décolle du sol, l'exercice ne travaille plus ce qu'il doit travailler. Réduire l'amplitude plutôt que de forcer.",
+    "commentaire_source": ""
+  },
+  {
+    "id": "E8",
+    "numero": 8,
+    "statut": "actif",
+    "zone": "tronc",
+    "jp": "斜めプランク",
+    "fr": "Planche inclinée",
+    "en": "incline plank",
+    "repetitions": "15 à 30 secondes",
+    "resume": "Sur le comptoir, pas au sol.",
+    "pourquoi": "Une planche au sol à poids élevé sollicite énormément les poignets, les épaules et le bas du dos. L'inclinaison règle les trois d'un coup.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Avant-bras sur le comptoir de cuisine, coudes sous les épaules."
+      },
+      {
+        "n": 2,
+        "texte": "Corps droit de la tête aux talons, fessiers serrés."
+      },
+      {
+        "n": 3,
+        "texte": "Tenir 15 à 30 secondes en respirant normalement."
+      }
+    ],
+    "paliers": {
+      "regression": "Avant-bras plus haut : le dossier d'un fauteuil solide, ou le mur.",
+      "standard": "Comptoir de cuisine, 2 × 30 secondes.",
+      "progression": "Descendre progressivement : une chaise, puis une marche, puis le sol."
+    },
+    "forme": "45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E9",
+    "numero": 9,
+    "statut": "actif",
+    "zone": "jambes",
+    "jp": "立ち上がり",
+    "fr": "Lever de chaise",
+    "en": "sit-to-stand",
+    "repetitions": "8 à 12 répétitions",
+    "resume": "L'exercice le plus important de toute la liste.",
+    "pourquoi": "C'est un squat, mais avec une amplitude limitée par la chaise et un filet de sécurité. C'est aussi le mouvement le plus utile de la vie quotidienne — se lever d'une chaise, d'un lit, de la toilette, de la voiture. La force qu'il développe se transfère directement.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "S'asseoir au bord d'une chaise, pieds à plat, largeur des hanches."
+      },
+      {
+        "n": 2,
+        "texte": "Se relever sans utiliser les mains, en poussant dans les talons."
+      },
+      {
+        "n": 3,
+        "texte": "Se rasseoir en contrôlant la descente sur 3 secondes — c'est la partie qui compte."
+      },
+      {
+        "n": 4,
+        "texte": "Ne pas se laisser tomber sur la chaise."
+      }
+    ],
+    "paliers": {
+      "regression": "Chaise plus haute, ou s'aider légèrement des mains sur les cuisses.",
+      "standard": "Chaise de cuisine ordinaire, sans les mains, 8 à 12 répétitions.",
+      "progression": "Chaise plus basse, puis une jambe légèrement en avant, puis tenir un poids contre la poitrine."
+    },
+    "forme": "15, 30 et 45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E10",
+    "numero": 10,
+    "statut": "actif",
+    "zone": "jambes",
+    "jp": "ヒップリフト",
+    "fr": "Pont fessier",
+    "en": "glute bridge",
+    "repetitions": "12 à 15 répétitions",
+    "resume": "Réveille des fessiers désactivés par la position assise.",
+    "pourquoi": "La position assise prolongée désactive les fessiers. Faibles, ils reportent le travail sur les lombaires — c'est une cause fréquente de mal de dos chez les gens qui travaillent assis.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Sur le dos, genoux pliés, pieds à plat au sol à environ 30 cm des fesses."
+      },
+      {
+        "n": 2,
+        "texte": "Pousser dans les talons pour soulever les hanches jusqu'à une ligne droite épaules-genoux."
+      },
+      {
+        "n": 3,
+        "texte": "Serrer les fessiers 2 secondes en haut."
+      },
+      {
+        "n": 4,
+        "texte": "Redescendre lentement sans poser complètement."
+      }
+    ],
+    "paliers": {
+      "regression": "Amplitude réduite : ne monter qu'à mi-hauteur.",
+      "standard": "12 à 15 répétitions, 2 secondes de contraction en haut.",
+      "progression": "Un pied levé (pont unilatéral), ou un poids posé sur les hanches."
+    },
+    "forme": "15, 30 et 45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E11",
+    "numero": 11,
+    "statut": "actif",
+    "zone": "jambes",
+    "jp": "踏み台昇降",
+    "fr": "Montée de marche",
+    "en": "step-up",
+    "repetitions": "8 par jambe",
+    "resume": "Une marche d'escalier suffit.",
+    "pourquoi": "Travaille une jambe à la fois, ce qui corrige les déséquilibres et sollicite l'équilibre en même temps. Et ça se transfère littéralement à monter un escalier.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Face à une marche ou un banc bas, un pied dessus."
+      },
+      {
+        "n": 2,
+        "texte": "Monter en poussant dans la jambe avant, sans prendre d'élan avec l'autre pied."
+      },
+      {
+        "n": 3,
+        "texte": "Redescendre lentement, en contrôlant."
+      },
+      {
+        "n": 4,
+        "texte": "Terminer les répétitions d'un côté avant de changer."
+      }
+    ],
+    "paliers": {
+      "regression": "Marche très basse, 10 cm. Se tenir à une rampe.",
+      "standard": "Une marche d'escalier standard, 8 par jambe, main légère sur la rampe.",
+      "progression": "Marche plus haute, ou un poids dans chaque main."
+    },
+    "forme": "30 et 45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E12",
+    "numero": 12,
+    "statut": "actif",
+    "zone": "jambes",
+    "jp": "空気椅子",
+    "fr": "Chaise murale",
+    "en": "wall sit",
+    "repetitions": "15 à 45 secondes",
+    "resume": "Aucun mouvement, beaucoup de travail.",
+    "pourquoi": "Un exercice isométrique : les cuisses travaillent fort sans aucun mouvement articulaire. C'est aussi le test de progression le plus facile à mesurer — chronomètre-le chaque semaine.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Dos au mur, pieds à environ 50 cm du mur."
+      },
+      {
+        "n": 2,
+        "texte": "Glisser vers le bas jusqu'à ce que les cuisses soient à mi-chemin de l'horizontale."
+      },
+      {
+        "n": 3,
+        "texte": "Tenir 15 à 45 secondes, en respirant normalement."
+      },
+      {
+        "n": 4,
+        "texte": "Remonter en poussant dans les talons."
+      }
+    ],
+    "paliers": {
+      "regression": "Descendre moins bas. Même dix centimètres de flexion comptent.",
+      "standard": "Cuisses à mi-chemin, 2 × 30 secondes.",
+      "progression": "Descendre jusqu'aux cuisses parallèles au sol, ou tenir plus longtemps."
+    },
+    "forme": "30 et 45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E13",
+    "numero": 13,
+    "statut": "actif",
+    "zone": "jambes",
+    "jp": "横上げ",
+    "fr": "Élévation latérale de jambe",
+    "en": "side leg raise",
+    "repetitions": "12 par côté",
+    "resume": "Les fessiers moyens stabilisent le bassin à la marche.",
+    "pourquoi": "Faibles, les fessiers moyens laissent le bassin basculer à chaque pas — ce qui cause des douleurs de genou et de hanche chez les gens qui recommencent à marcher beaucoup.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Debout, une main sur le dossier d'une chaise."
+      },
+      {
+        "n": 2,
+        "texte": "Lever une jambe tendue sur le côté, sans pencher le buste."
+      },
+      {
+        "n": 3,
+        "texte": "Monter seulement jusqu'où le bassin reste droit — environ 30 à 45 degrés suffisent."
+      },
+      {
+        "n": 4,
+        "texte": "Redescendre lentement."
+      }
+    ],
+    "paliers": {
+      "regression": "Amplitude plus courte, deux mains sur la chaise.",
+      "standard": "12 par côté, buste droit.",
+      "progression": "Une bande élastique autour des chevilles, ou couché sur le côté au sol."
+    },
+    "forme": "45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E14",
+    "numero": 14,
+    "statut": "actif",
+    "zone": "mollets",
+    "jp": "かかと上げ",
+    "fr": "Élévation sur la pointe des pieds",
+    "en": "calf raise",
+    "repetitions": "15 répétitions",
+    "resume": "Le mollet est la pompe veineuse de la jambe.",
+    "pourquoi": "Renforce les mollets et améliore le retour veineux — utile quand on passe beaucoup de temps assis. Se fait n'importe où, en attendant que l'eau bouille.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Debout, mains légèrement posées sur un comptoir."
+      },
+      {
+        "n": 2,
+        "texte": "Monter sur la pointe des pieds, le plus haut possible."
+      },
+      {
+        "n": 3,
+        "texte": "Descendre lentement, en 3 secondes."
+      },
+      {
+        "n": 4,
+        "texte": "Ne pas rebondir en bas."
+      }
+    ],
+    "paliers": {
+      "regression": "Deux mains sur le comptoir pour se soulager d'une partie du poids.",
+      "standard": "15 répétitions, descente contrôlée.",
+      "progression": "Sur une marche, en laissant les talons descendre sous le niveau de la marche. Puis sur une jambe."
+    },
+    "forme": "45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E15",
+    "numero": 15,
+    "statut": "actif",
+    "zone": "mollets",
+    "jp": "足首回し",
+    "fr": "Cercles de cheville",
+    "en": "ankle circles",
+    "repetitions": "10 cercles par direction, par pied",
+    "resume": "La première articulation limitante quand on recommence à marcher.",
+    "pourquoi": "Souvent négligé, et pourtant la cheville est la première articulation qui bloque quand on augmente le volume de marche. Trente secondes par jour suffisent.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Assis, une jambe légèrement soulevée."
+      },
+      {
+        "n": 2,
+        "texte": "Dessiner de grands cercles avec la pointe du pied, 10 fois dans un sens."
+      },
+      {
+        "n": 3,
+        "texte": "10 fois dans l'autre sens."
+      },
+      {
+        "n": 4,
+        "texte": "Changer de pied."
+      }
+    ],
+    "paliers": {
+      "regression": "Pied posé au sol, en pivotant seulement l'avant du pied.",
+      "standard": "Jambe soulevée, 10 cercles par direction, par pied.",
+      "progression": "Dessiner l'alphabet avec la pointe du pied."
+    },
+    "forme": "45 minutes (mobilité)",
+    "note": null,
+    "commentaire_source": ""
+  },
+  {
+    "id": "E16",
+    "numero": 16,
+    "statut": "actif",
+    "zone": "fonc",
+    "jp": "荷物運び",
+    "fr": "Port de charge",
+    "en": "farmer carry",
+    "repetitions": "3 allers-retours de 20 à 30 pas",
+    "resume": "Deux sacs d'épicerie lourds. Aucun équipement requis.",
+    "pourquoi": "Renforce la préhension, les épaules, le tronc et les jambes en même temps, et se transfère directement à la vie réelle — porter les sacs d'épicerie d'un seul voyage est un des meilleurs indicateurs de progrès du guide.",
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Un sac d'épicerie lourd dans chaque main."
+      },
+      {
+        "n": 2,
+        "texte": "Marcher 20 à 30 pas en gardant le tronc droit et les épaules basses, jamais remontées vers les oreilles."
+      },
+      {
+        "n": 3,
+        "texte": "Poser, se reposer 45 secondes, recommencer."
+      },
+      {
+        "n": 4,
+        "texte": "Trois allers-retours."
+      }
+    ],
+    "paliers": {
+      "regression": "Sacs plus légers, distance plus courte.",
+      "standard": "Deux sacs qui deviennent inconfortables vers le vingtième pas.",
+      "progression": "Plus lourd, plus loin, ou un seul sac (port asymétrique — beaucoup plus exigeant pour le tronc)."
+    },
+    "forme": "45 minutes",
+    "note": null,
+    "commentaire_source": ""
+  }
+]

@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "gingembre-frais",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "生姜",
+    "jp_lecture": null,
+    "romaji": "shōga",
+    "fr": "Gingembre frais",
+    "description": "La racine de base de presque tout. Râpé cru pour les yakumi, en juliennes pour les mijotés, écrasé pour les bouillons.",
+    "ou_le_trouver": "À l'entrée, souvent en vrac dans un bac, juste à côté de l'ail. Beaucoup moins cher qu'à l'épicerie régulière.",
+    "a_quoi_ca_ressemble": "Rhizomes beiges noueux, en vrac. Choisis les morceaux fermes, lourds pour leur taille, à peau lisse et tendue — une peau ridée veut dire vieux et fibreux. L'origine (Pérou, Chine, Brésil) ne désigne pas une variété : les morceaux chinois ou brésiliens sont plus gros et juteux, meilleurs à râper ou à presser ; le péruvien, souvent bio, est plus petit et fibreux, très bon en tranches ou en julienne pour infuser un bouillon.",
+    "sert_dans": [
+      "R1",
+      "R6",
+      "R7",
+      "R10",
+      "R16",
+      "R17",
+      "R23",
+      "R26",
+      "R31",
+      "R34",
+      "R35",
+      "R36",
+      "R42",
+      "T7b"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginger_root.jpg?width=1200",
+    "photo_emballage": "assets/produits/gingembre.jpg",
+    "commentaire_source": "// ① FRUITS ET LÉGUMES"
+  },
+  {
+    "id": "ail",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "大蒜",
+    "jp_lecture": null,
+    "romaji": "ninniku",
+    "fr": "Ail",
+    "description": "Surtout présent dans les recettes chinoises, coréennes et vietnamiennes. La cuisine japonaise en utilise étonnamment peu.",
+    "ou_le_trouver": "Fruits et légumes, en vrac ou en gros filets de plusieurs têtes.",
+    "a_quoi_ca_ressemble": "Souvent vendu en filets de 5 à 10 têtes pour le prix d'une seule ailleurs.",
+    "sert_dans": [
+      "R17",
+      "R23",
+      "R26",
+      "R27",
+      "R29",
+      "R30",
+      "R31",
+      "R47"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/GarlicBasket.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "oignons-verts",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "葱",
+    "jp_lecture": null,
+    "romaji": "negi",
+    "fr": "Oignons verts",
+    "description": "Le yakumi universel. Émincé très fin en biseau, il va sur à peu près tout.",
+    "ou_le_trouver": "Fruits et légumes, en grosses bottes. Très bon marché — souvent trois fois plus gros qu'au IGA pour le même prix.",
+    "a_quoi_ca_ressemble": "Grosses bottes attachées. Les variétés asiatiques sont souvent plus épaisses et plus longues que celles d'ici.",
+    "sert_dans": [
+      "R2",
+      "R3",
+      "R4",
+      "R10",
+      "R19",
+      "R21",
+      "R25",
+      "R29",
+      "R30",
+      "R31",
+      "R61"
+    ],
+    "note": {
+      "titre": "Bon à savoir",
+      "texte": "Ceux de l'épicerie asiatique sont plus forts : plus gros, plus fermes, avec un bulbe blanc plus développé (produit frais et mature). La partie blanche concentre les composés soufrés — hacher deux bottes d'un coup peut piquer les yeux, ce qui n'arrive pas avec les tiges minces et plus vieilles de l'épicerie ordinaire. C'est bon signe, pas mauvais. Deux réflexes : hacher les tiges froides sorties du frigo (moins de vapeurs) et un couteau bien affûté (il écrase moins de cellules). Conservation : hacher la botte entière d'un coup, un contenant au frigo pour la semaine, le surplus au congélateur (s'utilise directement, sans décongeler)."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/GreenOnions.jpg?width=1200",
+    "photo_emballage": "assets/produits/oignons-verts.jpg"
+  },
+  {
+    "id": "bok-choy",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "青梗菜",
+    "jp_lecture": null,
+    "romaji": "chingensai",
+    "fr": "Bok choy",
+    "description": "Le légume vert le plus polyvalent du répertoire. Blanchi 90 secondes, sauté à l'ail, ou jeté cru dans un bouillon.",
+    "ou_le_trouver": "Fruits et légumes. Souvent en deux formats : gros bok choy et « baby bok choy ».",
+    "a_quoi_ca_ressemble": "Tiges blanches épaisses et feuilles vert foncé. Les petits sont plus tendres et cuisent plus vite.",
+    "sert_dans": [
+      "R31",
+      "R28"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bok_Choy_%2849553125456%29.jpg?width=1200",
+    "photo_emballage": "assets/produits/bok-choy.jpg"
+  },
+  {
+    "id": "gai-lan-brocoli-chinois",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "芥蘭",
+    "jp_lecture": "gaï lane",
+    "romaji": "gai lan",
+    "fr": "Gai lan (brocoli chinois)",
+    "description": "Plus amer et plus ferme que le bok choy. Excellent sauté à l'ail ou blanchi et arrosé de sauce d'huîtres.",
+    "ou_le_trouver": "Fruits et légumes, souvent à côté du bok choy.",
+    "a_quoi_ca_ressemble": "Longues tiges épaisses, feuilles larges, parfois de petites fleurs jaunes. Les fleurs ne sont pas un défaut.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gai%20lan.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "chou-nappa",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "白菜",
+    "jp_lecture": null,
+    "romaji": "hakusai",
+    "fr": "Chou nappa",
+    "description": "Le véhicule de volume par excellence. Base de l'okonomiyaki, du hot pot et des gyoza. Une assiette peut être énorme pour très peu de calories.",
+    "ou_le_trouver": "Fruits et légumes, souvent empilé en pyramide. Se vend parfois en demi-choux.",
+    "a_quoi_ca_ressemble": "Gros chou oblong, feuilles pâles et frisées aux extrémités, base blanche et épaisse.",
+    "sert_dans": [
+      "R22",
+      "R24",
+      "R32",
+      "R34"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Napa_cabbages.png?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "daikon",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "大根",
+    "jp_lecture": null,
+    "romaji": "daikon",
+    "fr": "Daikon",
+    "description": "Gros radis blanc. Doux, croquant, très peu calorique. Râpé cru avec le poisson grillé, ou mijoté dans l'oden où il devient fondant.",
+    "ou_le_trouver": "Fruits et légumes, souvent empilés en pyramide. Cherche les plus fermes et les plus lourds.",
+    "a_quoi_ca_ressemble": "Longs radis blancs de 30 à 45 cm. Une peau lisse et une chair ferme au toucher. S'il plie, il est vieux.",
+    "sert_dans": [
+      "R14",
+      "R34",
+      "R37",
+      "R42",
+      "R46"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Daikon.Japan.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "concombre-asiatique",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "胡瓜",
+    "jp_lecture": null,
+    "romaji": "kyūri",
+    "fr": "Concombre asiatique",
+    "description": "Plus long, plus mince et beaucoup moins aqueux que le nôtre. C'est ce qui fait que les marinades express fonctionnent.",
+    "ou_le_trouver": "Fruits et légumes. Souvent vendus en paquets de trois ou quatre.",
+    "a_quoi_ca_ressemble": "Classement pour l'usage japonais : <strong>Kirby</strong> (court, trapu, peau bosselée non cirée) — le plus croquant, le moins aqueux, premier choix pour les marinades ; <strong>libanais ou persan</strong> — le meilleur compromis au quotidien, peu de pépins ; <strong>anglais</strong> — correct mais mou, il rend beaucoup d'eau (sale-le et laisse dégorger 10 min) ; <strong>concombre de champ</strong> (gros, peau épaisse et cirée) — le moins bon, à peler et épépiner.",
+    "sert_dans": [
+      "R12",
+      "R13",
+      "R20",
+      "R45",
+      "R47",
+      "T7b"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
+    "photo_emballage": "assets/produits/concombre.jpg"
+  },
+  {
+    "id": "feves-germees",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "もやし",
+    "jp_lecture": null,
+    "romaji": "moyashi",
+    "fr": "Fèves germées",
+    "description": "Le meilleur substitut de nouilles du recueil. Elles gardent leur croquant même sous un bouillon bouillant.",
+    "ou_le_trouver": "Piège classique : elles ne sont presque jamais avec les légumes secs. Cherche-les <strong>réfrigérées</strong>, en gros sacs de plastique, souvent près des champignons ou dans le mur réfrigéré.",
+    "a_quoi_ca_ressemble": "Gros sacs transparents d'un kilo, tenus au froid. Elles doivent être blanches et fermes — si elles sont molles ou brunies, passe.",
+    "sert_dans": [
+      "R23",
+      "R24",
+      "R30",
+      "R36"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Moyashi-Mung-bean-sprouts.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "champignons-enoki",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "えのき",
+    "jp_lecture": null,
+    "romaji": "enoki",
+    "fr": "Champignons enoki",
+    "description": "Longs filaments blancs, très doux. Ils cuisent en trente secondes et ajoutent du volume pour presque rien.",
+    "ou_le_trouver": "Section champignons — presque toujours réfrigérée et distincte du reste des légumes.",
+    "a_quoi_ca_ressemble": "Paquets sous vide de 100 à 200 g, blocs blancs compacts de tiges filiformes. Couper la base terreuse avant usage.",
+    "sert_dans": [
+      "R24",
+      "R38",
+      "R40"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Enokitake%20Mushrooms%20(Golden%20Needle)%20(Flammulina%20velutipes)%20Packaged.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "champignons-shimeji",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "しめじ",
+    "jp_lecture": null,
+    "romaji": "shimeji",
+    "fr": "Champignons shimeji",
+    "description": "Petits champignons en grappe, texture ferme et goût noisetté. Excellents dans les soupes miso.",
+    "ou_le_trouver": "Section champignons réfrigérée.",
+    "a_quoi_ca_ressemble": "Vendus en grappes compactes sous pellicule, chapeaux bruns ou blancs de 1 à 2 cm.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hon-shimeji%20mushrooms%20-%20Cambridge,%20MA.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "shiitake-frais",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "椎茸",
+    "jp_lecture": null,
+    "romaji": "shiitake",
+    "fr": "Shiitake frais",
+    "description": "La troisième source d'umami, le guanylate. Combinés au kombu et au katsuobushi, l'effet est multiplicatif, pas additif.",
+    "ou_le_trouver": "Section champignons réfrigérée. Les séchés sont ailleurs — allée des séchés.",
+    "a_quoi_ca_ressemble": "Chapeaux bruns bombés, dessous crème et lamellé. Le pied est ligneux : le retirer et le garder pour un bouillon.",
+    "sert_dans": [
+      "R23",
+      "R31",
+      "R32",
+      "R34",
+      "R25"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresh_shiitake_mushrooms.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "poire-asiatique",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "梨",
+    "jp_lecture": null,
+    "romaji": "nashi",
+    "fr": "Poire asiatique",
+    "description": "Le dessert par défaut. Croquante comme une pomme, juteuse comme une poire, très rafraîchissante.",
+    "ou_le_trouver": "Fruits et légumes, souvent emballées individuellement dans un filet de mousse.",
+    "a_quoi_ca_ressemble": "Rondes, dorées, tavelées. Le filet de mousse n'est pas décoratif — elles se meurtrissent facilement.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashi_pear.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "coriandre-menthe-basilic-thai",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "パクチー",
+    "jp_lecture": null,
+    "romaji": "pakuchī",
+    "fr": "Coriandre, menthe, basilic thaï",
+    "description": "Les herbes vietnamiennes se mangent en quantité — trois tasses par bol, pas une branche de garniture. C'est la signature de cette cuisine.",
+    "ou_le_trouver": "Souvent dans un présentoir réfrigéré à part des légumes, parfois brumisé.",
+    "a_quoi_ca_ressemble": "Grosses bottes, souvent trois fois le format d'ici pour un prix dérisoire. Le basilic thaï a des tiges violettes.",
+    "sert_dans": [
+      "R18",
+      "R27",
+      "R28",
+      "R36",
+      "R39"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunches%20of%20coriander%20leaves.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "tofu-ferme",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "木綿豆腐",
+    "jp_lecture": null,
+    "romaji": "momen dōfu",
+    "fr": "Tofu ferme",
+    "description": "17 g de protéines aux 150 g. Se poche deux minutes dans l'eau salée avant de le mijoter — ça le raffermit et l'empêche de se défaire.",
+    "ou_le_trouver": "Mur réfrigéré, bloc tofu — parfois deux mètres de linéaire complet.",
+    "a_quoi_ca_ressemble": "Blocs blancs dans des barquettes remplies d'eau. Mentions : <em>momen</em> (木綿) en japonais, « firm » ou « extra firm » en anglais. <strong>Piège des caractères chinois : 老豆腐 (lao, « vieux ») veut dire ferme.</strong> Ne te fie pas à l'image sur l'emballage — fie-toi au mot français sur l'étiquette de tablette. ~11,8 g de protéines/100 g.",
+    "sert_dans": [
+      "R2",
+      "R10",
+      "R24",
+      "R26",
+      "R33",
+      "R37"
+    ],
+    "note": {
+      "titre": "Conserver le reste",
+      "texte": "L'emballage est thermoscellé : il ne se referme pas. Pour le reste d'un bloc entamé — égoutter, déposer dans un contenant hermétique, couvrir d'eau froide fraîche, fermer, au frigo, et changer l'eau chaque jour. Il tient 3-4 jours ; sans eau, il sèche en surface et surit en deux jours. Ne pas le couvrir de bouillon ni de dashi : ça le sale, ça fermente plus vite, et on gaspille du dashi qui a demandé du travail. Le jeter si l'odeur est aigre, la surface visqueuse ou l'eau de trempage trouble."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",
+    "photo_emballage": "assets/produits/tofu-ferme.jpg",
+    "commentaire_source": "\n// ② MUR RÉFRIGÉRÉ"
+  },
+  {
+    "id": "tofu-soyeux",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "絹ごし豆腐",
+    "jp_lecture": null,
+    "romaji": "kinugoshi dōfu",
+    "fr": "Tofu soyeux",
+    "description": "Texture de flan. <strong>Son meilleur usage est en chaud</strong>, en dés dans la soupe miso ajoutés hors du feu — à froid, ses 88 % d'eau dominent et le goût se lit comme aqueux.",
+    "ou_le_trouver": "Mur réfrigéré, à côté du tofu ferme.",
+    "a_quoi_ca_ressemble": "Boîtes rectangulaires souvent scellées sous vide, sans eau autour. Mention : <em>kinugoshi</em> (絹ごし) ou « silken ». <strong>Piège des caractères chinois : 嫩豆腐 (nen, « tendre ») veut dire soyeux</strong> — l'inverse de ce qu'on croit. ~4,7 g de protéines/100 g.",
+    "sert_dans": [
+      "R29",
+      "R38"
+    ],
+    "note": {
+      "titre": "Conserver le reste — le compte part de l'ouverture",
+      "texte": "<strong>Deux jours, à partir de l'ouverture — pas de la date sur l'emballage.</strong> La date imprimée sur un contenant scellé (souvent plusieurs semaines à l'avance) s'applique au produit fermé ; le compte des deux jours commence au moment où on perce le contenant. Un bloc scellé n'a aucune urgence. Une fois ouvert : contenant hermétique, eau froide qui recouvre complètement, <strong>changée chaque jour</strong> ; garder le bloc <strong>entier</strong> — chaque surface coupée est une porte d'entrée, et en cubes il se délite en un jour ; un contenant juste à la taille du bloc, pas un grand bol, pour qu'il bouge le moins possible dans l'eau. Compter <strong>2 à 3 jours</strong>, pas plus : le soyeux est plus fragile que le ferme, plus d'eau et moins de structure de caillé. Signes d'arrêt : eau trouble ou visqueuse, odeur aigre à l'ouverture. <strong>Ne pas congeler le tofu soyeux.</strong> La congélation fait cristalliser l'eau et perce la structure : le ferme devient une éponge, parfois utile ; le soyeux devient une bouillie granuleuse."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",
+    "photo_emballage": "assets/produits/tofu-soyeux.jpg"
+  },
+  {
+    "id": "atsuage-tofu-frit-en-surface",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "厚揚げ",
+    "jp_lecture": null,
+    "romaji": "atsuage",
+    "fr": "Atsuage — tofu frit en surface",
+    "description": "Tofu dont la surface a été frite. La croûte tient à la cuisson et absorbe le bouillon. Indispensable dans l'oden.",
+    "ou_le_trouver": "Mur réfrigéré, bloc tofu.",
+    "a_quoi_ca_ressemble": "Blocs brun doré, spongieux au toucher, souvent en paquets de deux ou trois sous pellicule.",
+    "sert_dans": [
+      "R34"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Atsuage.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "konnyaku",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "蒟蒻",
+    "jp_lecture": null,
+    "romaji": "konnyaku",
+    "fr": "Konnyaku",
+    "description": "Gelée ferme de racine de konjac. Environ 5 calories aux 100 g, et ça remplit l'estomac. Entaille-le en croisillons : il absorbe beaucoup mieux.",
+    "ou_le_trouver": "<strong>Le piège numéro un.</strong> Les gens le cherchent dans l'allée des nouilles et ne le trouvent jamais. Il est au <strong>mur réfrigéré, juste à côté du tofu</strong>.",
+    "a_quoi_ca_ressemble": "Blocs gris-brun mous dans un sachet rempli de liquide. L'aspect n'est pas engageant — c'est normal.",
+    "sert_dans": [
+      "R34"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Konnyaku.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "nouilles-shirataki",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "白滝",
+    "jp_lecture": null,
+    "romaji": "shirataki",
+    "fr": "Nouilles shirataki",
+    "description": "La version nouilles du konjac. Rincer abondamment puis sauter à sec jusqu'à ce qu'elles grincent — cette étape enlève l'odeur et change tout.",
+    "ou_le_trouver": "Mur réfrigéré, à côté du tofu. Jamais dans l'allée des nouilles.",
+    "a_quoi_ca_ressemble": "Nouilles blanchâtres translucides dans des sachets d'eau. Odeur légèrement marine à l'ouverture — elle disparaît au rinçage.",
+    "sert_dans": [
+      "R37"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wet_shirataki_noodles.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "miso-blanc-et-rouge",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "味噌",
+    "jp_lecture": null,
+    "romaji": "miso",
+    "fr": "Miso blanc et rouge",
+    "description": "Pâte de soya fermenté. <em>Shiro</em> (blanc) est doux et sucré, <em>aka</em> (rouge) est corsé. Une cuillère à soupe ≈ 630 mg de sodium : deux cuillères à thé suffisent dans un bon dashi.",
+    "ou_le_trouver": "Mur réfrigéré, bloc japonais, souvent près du tofu.",
+    "a_quoi_ca_ressemble": "Pots de plastique ou sachets souples. Le blanc est beige clair, le rouge est brun foncé. Il existe aussi des mélanges (<em>awase</em>). <strong>Prends du shiro (blanc), nature</strong> — évite les miso <em>dashi-iri</em> (dashi déjà incorporé), qui court-circuitent le geste qu'on apprend avec T2, et les soupes miso instantanées, au sodium très élevé.",
+    "sert_dans": [
+      "R2",
+      "R15",
+      "R33",
+      "R38",
+      "R43",
+      "R44",
+      "R45"
+    ],
+    "note": {
+      "titre": "Sodium",
+      "texte": "Ne jamais faire bouillir après avoir ajouté le miso : la chaleur détruit les arômes et les cultures. Délayer dans une louche de bouillon prélevée, puis reverser hors du feu."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso_001.jpg?width=1200",
+    "photo_emballage": "assets/produits/miso.jpg"
+  },
+  {
+    "id": "natto",
+    "statut": "actif",
+    "section": "congel",
+    "jp": "納豆",
+    "jp_lecture": null,
+    "romaji": "nattō",
+    "fr": "Natto",
+    "description": "Fèves de soya fermentées. Collant, filant, odeur forte, 7 à 9 g de protéines par barquette (≈ 45-50 g, 80 cal). Se brasse avant d'ajouter quoi que ce soit — c'est ce qui développe la texture crémeuse.",
+    "ou_le_trouver": "<strong>Au congélateur, pas au frigo.</strong> C'est l'erreur classique&nbsp;: au Japon le natto est vendu frais, mais au Canada il est importé congelé et il y reste. Cherche dans les congélateurs de dumplings et de poissons — petits blocs de styromousse blanche par paquets de trois empilés. Le paquet est petit, il se perd entre les gros sacs.",
+    "a_quoi_ca_ressemble": "Premier achat&nbsp;: <strong>Mizkan « Kin no Tsubu »</strong> (paquets jaune-orange), petites fèves, arôme doux, avec sauce et moutarde <em>karashi</em> incluses — sans ça, le natto nature est austère. La variante とろっ豆 (<em>Toromame</em>) est encore plus douce, la texture plus filante&nbsp;: parfaite pour un premier essai. Éviter le <em>Mito natto</em> (boîtes rouges) pour commencer — c'est le plus typé. Environ 4 $ le paquet de trois.",
+    "sert_dans": [
+      "R3"
+    ],
+    "note": {
+      "titre": "Le geste",
+      "texte": "Décongèle une barquette au frigo la veille — le natto ne se fait pas sur un coup de tête, c'est à mettre dans la routine du dimanche. Brasse les fèves 20 à 30 fois aux baguettes <em>avant</em> d'ajouter la sauce&nbsp;: c'est ce qui développe les fils et adoucit le goût. Puis la sauce (la moitié du sachet suffit — presque tout le sodium est là), le karashi, l'oignon vert, sur le riz chaud. Si ça ne passe pas après trois essais, remplace par une tasse d'edamames écossés. (À l'inverse du riz, qui va du congélateur au micro-ondes directement : le natto, lui, se décongèle lentement au frigo et ne voit jamais la chaleur avant le bol.)"
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",
+    "photo_emballage": "assets/produits/natto.jpg"
+  },
+  {
+    "id": "kimchi",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "김치",
+    "jp_lecture": "kime-tchi",
+    "romaji": "kimchi",
+    "fr": "Kimchi",
+    "description": "Chou nappa fermenté au piment. À acheter, jamais à faire : la fermentation prend plusieurs jours.",
+    "ou_le_trouver": "Mur réfrigéré, bloc coréen — parfois une porte de réfrigérateur au complet.",
+    "a_quoi_ca_ressemble": "Pots d'un litre ou plus, rouge vif. Les pots gonflent légèrement avec le temps : c'est la fermentation qui continue, pas un défaut.",
+    "sert_dans": [
+      "R5",
+      "R29"
+    ],
+    "note": {
+      "titre": "Sodium",
+      "texte": "Très salé. En grande quantité, c'est un problème. Un rinçage rapide enlève une partie du sel sans rien enlever au goût."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_packaged_kimchi_in_a_shop.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "nouilles-fraiches",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "うどん",
+    "jp_lecture": null,
+    "romaji": "udon",
+    "fr": "Nouilles fraîches",
+    "description": "Udon, ramen, chow mein, nouilles de riz fraîches. Cuisson en deux à trois minutes.",
+    "ou_le_trouver": "Mur réfrigéré, bloc nouilles fraîches. Les pâtes à dumplings et les feuilles de won-ton sont juste à côté.",
+    "a_quoi_ca_ressemble": "Sachets scellés de portions individuelles, souvent vendus par paquets de trois ou cinq.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%B6%8F%E5%A4%A9%E3%81%AE%E3%81%86%E3%81%A9%E3%82%93.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "saumon",
+    "statut": "actif",
+    "section": "poisson",
+    "jp": "鮭",
+    "jp_lecture": null,
+    "romaji": "sake",
+    "fr": "Saumon",
+    "description": "Le poisson de base du répertoire. 34 g de protéines par filet de 150 g, faible en mercure, sans restriction.",
+    "ou_le_trouver": "Comptoir poisson, en filets. Le congelé est aux congélateurs, pas ici.",
+    "a_quoi_ca_ressemble": "Filets à chair orangée, ferme et brillante. Demande qu'on te laisse la peau — c'est elle qui croustille sous le gril.",
+    "sert_dans": [
+      "R1",
+      "R13",
+      "R14",
+      "R15",
+      "R20",
+      "R33",
+      "R62"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20salmon%20fillets.jpg?width=1200",
+    "photo_emballage": null,
+    "commentaire_source": "\n// ③ POISSON"
+  },
+  {
+    "id": "maquereau",
+    "statut": "actif",
+    "section": "poisson",
+    "jp": "鯖",
+    "jp_lecture": null,
+    "romaji": "saba",
+    "fr": "Maquereau",
+    "description": "Gras, riche en oméga-3, très bon marché, faible en mercure. Le poisson du <em>nitsuke</em>.",
+    "ou_le_trouver": "Comptoir poisson, entier sur glace ou en filets.",
+    "a_quoi_ca_ressemble": "Dos bleu-vert zébré, ventre argenté. L'œil doit être clair et bombé.",
+    "sert_dans": [
+      "R16"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Maquereaux_etal.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "poisson-blanc-entier",
+    "statut": "actif",
+    "section": "poisson",
+    "jp": "白身魚",
+    "jp_lecture": null,
+    "romaji": "shiromi-zakana",
+    "fr": "Poisson blanc entier",
+    "description": "Bar, tilapia, morue. Le poisson vapeur cantonais se fait avec un poisson entier — c'est le plat le plus élégant du répertoire chinois.",
+    "ou_le_trouver": "Comptoir poisson, sur glace. Les aquariums vivants sont à côté — tu n'en as pas besoin.",
+    "a_quoi_ca_ressemble": "Entiers sur glace, l'œil clair et la chair ferme.",
+    "sert_dans": [
+      "R16",
+      "R35"
+    ],
+    "note": {
+      "titre": "Le service qui change tout",
+      "texte": "Ils vont l'écailler et le vider pour toi si tu le demandes. C'est la seule vraie difficulté de la recette, et elle se délègue au comptoir."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/HAL%20fish%20market.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "sashimi",
+    "statut": "actif",
+    "section": "poisson",
+    "jp": "刺身",
+    "jp_lecture": null,
+    "romaji": "sashimi",
+    "fr": "Sashimi",
+    "description": "Pour le chirashi. Zéro cuisson, dix minutes, un plat qui a l'air d'un restaurant.",
+    "ou_le_trouver": "Presque toujours dans un présentoir réfrigéré <strong>séparé</strong>, en barquettes pré-emballées, souvent près du comptoir principal.",
+    "a_quoi_ca_ressemble": "Barquettes scellées avec la mention « sashimi grade » ou « pour sashimi ». Ne pas improviser avec du poisson du comptoir ordinaire.",
+    "sert_dans": [
+      "R20"
+    ],
+    "note": {
+      "titre": "Mercure",
+      "texte": "Le thon frais est visé par l'avis de Santé Canada : 150 g par semaine maximum pour un homme adulte. Le saumon n'a aucune restriction."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sashimi_-_Maguro_Restaurant%2C_Bangna%2C_Bangkok_%2844856596864%29.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "b-uf-ou-porc-tranche-shabu",
+    "statut": "actif",
+    "section": "viande",
+    "jp": "しゃぶしゃぶ肉",
+    "jp_lecture": null,
+    "romaji": "shabu-shabu niku",
+    "fr": "Bœuf ou porc tranché shabu",
+    "description": "<strong>Le meilleur secret du magasin.</strong> Impossible à trouver ailleurs, et impossible à faire à la maison sans trancheur professionnel. Ça change complètement les sautés, le shabu-shabu — et surtout <strong>les soupes et les bols de riz</strong>.",
+    "ou_le_trouver": "Comptoir viande, dans les présentoirs réfrigérés.",
+    "a_quoi_ca_ressemble": "Barquettes de styromousse, tranches très fines enroulées en pétales, empilées. Les étiquettes disent « shabu shabu », « hot pot », « bulgogi », « BBQ » ou juste « sliced beef ».",
+    "sert_dans": [
+      "R5",
+      "R17",
+      "R24",
+      "R63"
+    ],
+    "note": {
+      "titre": "Pour les soupes et les donburi, c'est ça qu'il faut acheter",
+      "texte": "Les «&nbsp;lanières à sauter&nbsp;» ou <em>stir fry strips</em> du supermarché ordinaire sont taillées à <strong>4-5 mm</strong>, dans des coupes travaillantes — ronde, flanc. À cette épaisseur, la viande reste coriace même cuite 60 secondes, et aucune technique ne rattrape ça. La viande à fondue est tranchée à <strong>1-2 mm</strong> sur une trancheuse&nbsp;: c'est exactement l'épaisseur que la cuisine japonaise utilise pour le shabu-shabu, le sukiyaki et le gyudon, et <strong>à cette finesse les fibres n'ont pas le temps de se contracter — la coupe d'origine cesse d'être déterminante</strong>. Inutile de la velouter (<em>T5</em>)&nbsp;: la cuisson est trop brève pour que ça change quoi que ce soit. À défaut&nbsp;: congeler un morceau de bœuf 30 minutes, puis trancher au couteau — la chair ferme se coupe beaucoup plus mince. Constaté le 10 août&nbsp;: des lanières à sauter dans un niku-udon, c'est du bœuf coriace."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
+    "photo_emballage": null,
+    "commentaire_source": "\n// ④ VIANDE"
+  },
+  {
+    "id": "porc-et-poulet-haches",
+    "statut": "actif",
+    "section": "viande",
+    "jp": "挽肉",
+    "jp_lecture": null,
+    "romaji": "hikiniku",
+    "fr": "Porc et poulet hachés",
+    "description": "La base des boulettes. Brassé énergiquement dans un seul sens jusqu'à texture collante, il donne des boulettes moelleuses plutôt que friables.",
+    "ou_le_trouver": "Comptoir viande.",
+    "a_quoi_ca_ressemble": "Barquettes ordinaires. Le porc haché maigre est souvent plus maigre qu'à l'épicerie régulière.",
+    "sert_dans": [
+      "R6",
+      "R18",
+      "R26",
+      "R29",
+      "R31",
+      "R32"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Grill%20minced%20meat.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "hauts-de-cuisse-de-poulet",
+    "statut": "actif",
+    "section": "viande",
+    "jp": "鶏もも",
+    "jp_lecture": null,
+    "romaji": "tori momo",
+    "fr": "Hauts de cuisse de poulet",
+    "description": "Plus savoureux et plus tolérants à la cuisson que la poitrine. C'est ce que le yakitori et l'oyakodon demandent.",
+    "ou_le_trouver": "Comptoir viande.",
+    "a_quoi_ca_ressemble": "Souvent vendus désossés et sans peau, en grandes barquettes.",
+    "sert_dans": [
+      "R19",
+      "R21"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20chicken%20thighs.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "edamames",
+    "statut": "actif",
+    "section": "congel",
+    "jp": "枝豆",
+    "jp_lecture": null,
+    "romaji": "edamame",
+    "fr": "Edamames",
+    "description": "18 g de protéines la tasse. Déjà blanchis — il n'y a qu'à décongeler. La collation la plus utile du guide.",
+    "ou_le_trouver": "Congélateurs. Cherche les sacs verts.",
+    "a_quoi_ca_ressemble": "Sacs de 500 g à 1 kg, en cosses ou écossés. <strong>Prends les écossés comme achat principal</strong> — prêts à ajouter au bol, à la soupe, au donburi ; les gousses sont une collation, pas un ingrédient. Et <strong>« nature », pas salés</strong> : on dose soi-même.",
+    "sert_dans": [
+      "R2",
+      "R8",
+      "R9",
+      "R12",
+      "R20",
+      "R33",
+      "R48"
+    ],
+    "note": {
+      "titre": "Écossées : jamais nature",
+      "texte": "Achète-les <strong>nature congelés</strong> — on dose soi-même. Mais «&nbsp;nature&nbsp;» à l'achat ne veut pas dire nature dans le bol. <strong>En cosses</strong>, le sel se dépose à l'extérieur de l'enveloppe&nbsp;: on le récupère sur les lèvres, puis on presse la fève, qui est nature. On goûte beaucoup de sel et on en avale très peu. <strong>Écossées, cette mécanique disparaît</strong>&nbsp;: le sel colle sur ce qu'on avale, et la totalité compte — mais servir la fève nature ne fonctionne pas non plus, le bol est simplement fade. Trois solutions, dans l'ordre&nbsp;: <strong>gomashio</strong> (胡麻塩, sésame grillé et sel à 8 pour 1 — même sel, porté par le sésame)&nbsp;; <strong>une pincée en surface, à table</strong> (≈ 145 mg de sodium, et en surface on la goûte)&nbsp;; ou <strong>directement dans la soupe miso</strong>, où le miso les assaisonne. À éviter&nbsp;: ⅛ c. à thé de sel fin mélangé aux fèves égouttées — 290 mg de sodium pour un goût qu'on perçoit mal. Cuisson depuis congelé&nbsp;: <strong>3 minutes</strong> écossées, <strong>4 à 5 minutes</strong> en cosses. Voir <em>R48</em>."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
+    "photo_emballage": "assets/produits/edamame.jpg",
+    "commentaire_source": "\n// ⑤ CONGÉLATEURS"
+  },
+  {
+    "id": "gyoza-et-dumplings",
+    "statut": "actif",
+    "section": "congel",
+    "jp": "餃子",
+    "jp_lecture": null,
+    "romaji": "gyōza",
+    "fr": "Gyoza et dumplings",
+    "description": "Excellents, et à acheter sans culpabilité. À cuire <strong>à la vapeur</strong> plutôt que frits : 6 à 8 gyoza dans un panier vapeur, 8 minutes.",
+    "ou_le_trouver": "Congélateurs. La sélection est énorme — vaut la peine d'être explorée lentement une fois.",
+    "a_quoi_ca_ressemble": "Gros sacs de 500 g à 1 kg. Les marques japonaises (Ajinomoto, Bibigo) sont fiables.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyoza_no_Antei_-_3.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "crevettes-crues",
+    "statut": "actif",
+    "section": "congel",
+    "jp": "海老",
+    "jp_lecture": null,
+    "romaji": "ebi",
+    "fr": "Crevettes crues",
+    "description": "Trois minutes dans un bouillon, +20 g de protéines. Cuites dès qu'elles sont roses et courbées en C.",
+    "ou_le_trouver": "Congélateurs, décortiquées ou non.",
+    "a_quoi_ca_ressemble": "Sacs de 340 g à 1 kg. Le calibre est indiqué en nombre par livre — 21/25 est un bon format polyvalent.",
+    "sert_dans": [
+      "R22",
+      "R27",
+      "R40"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20Shrimp.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "kombu",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "昆布",
+    "jp_lecture": "kone-bou",
+    "romaji": "kombu",
+    "fr": "Kombu",
+    "description": "Algue laminaire séchée. La source de glutamate du dashi. Un morceau de 5 cm suffit pour 1,5 L.",
+    "ou_le_trouver": "<strong>Allée des séchés et des algues</strong> — celle qui ressemble à une herboristerie. Pas près du thé.",
+    "a_quoi_ca_ressemble": "Sachets plats transparents, grandes feuilles noir-verdâtre rigides. <strong>Elles sont couvertes d'une poudre blanchâtre — c'est normal, c'est l'umami. Ne la lave jamais.</strong> Cherche le <strong>dashi kombu</strong> (large feuille épaisse) — pas l'<em>ito-kiri kombu</em> en fines lanières, qui est un ingrédient de mijoté, pas de bouillon.",
+    "sert_dans": [
+      "T2",
+      "R24"
+    ],
+    "note": {
+      "titre": "Iode †",
+      "texte": "L'aliment le plus riche en iode de la planète : ~2 267 mcg/g, contre une limite quotidienne tolérable de 1 100 mcg. Trois mesures : doser à 5 cm pour 1,5 L, ne pas manger le kombu lui-même, et alterner avec le katsuo dashi et le shiitake dashi. Un dosage de TSH avant de commencer une consommation régulière donne un point de référence."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
+    "photo_emballage": "assets/produits/kombu.jpg",
+    "commentaire_source": "\n// ⑥ ALLÉE DES SÉCHÉS"
+  },
+  {
+    "id": "katsuobushi",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "鰹節",
+    "jp_lecture": null,
+    "romaji": "katsuobushi",
+    "fr": "Katsuobushi",
+    "description": "Bonite séchée, fumée, fermentée puis rasée en copeaux fins comme du papier. La source d'inosinate du dashi.",
+    "ou_le_trouver": "Allée des séchés, à côté du kombu.",
+    "a_quoi_ca_ressemble": "<strong>Gros sacs qui ont l'air presque vides</strong> parce que les copeaux sont ultralégers. Rose pâle à beige. Cherche かつお削りぶし, idéalement JAS et 国内製造 (fabriqué au Japon).",
+    "sert_dans": [
+      "T2",
+      "R10",
+      "R22",
+      "R43"
+    ],
+    "note": {
+      "titre": "Conservation",
+      "texte": "Le sac est gonflé à l'azote, pas à l'air — c'est pour protéger les copeaux gras de l'oxygène, et cette protection est perdue dès l'ouverture (elle ne se reconstitue pas). Le gras rancit à l'air : c'est ce goût de vieux poisson qu'on attribue à tort au dashi lui-même. En refermant, chasser l'air à la main sans écraser (des copeaux en poudre troublent le dashi). Mieux : transvider au congélateur — les copeaux ne gèlent pas vraiment, ils restent souples et s'utilisent directement à la cuillère. Le détail qui change tout pour un dashi quotidien : chaque ouverture réintroduit de l'air, alors fractionner en 2-3 petits sacs dès l'achat n'expose qu'une fraction du stock. Un sac de 70 g donne ~3,5 L de dashi (une quinzaine de bols) — bien géré il tient 3-4 mois, mal géré il perd son goût en 6 semaines. Mercure : aucun enjeu, on en consomme quelques grammes."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi_02.jpg?width=1200",
+    "photo_emballage": "assets/produits/katsuobushi.jpg"
+  },
+  {
+    "id": "nori",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "海苔",
+    "jp_lecture": null,
+    "romaji": "nori",
+    "fr": "Nori",
+    "description": "Feuilles d'algue séchée pressée. Une feuille entière apporte environ 144 mcg d'iode — dans la fourchette normale, tous les jours si on veut.",
+    "ou_le_trouver": "Allée des séchés. Le nori en collation, lui, est dans l'allée des collations.",
+    "a_quoi_ca_ressemble": "Feuilles noires empilées, en paquets plats rigides. Cherche <strong>yaki nori</strong> (焼き海苔) = grillé nature.",
+    "sert_dans": [
+      "R1",
+      "R11",
+      "R13",
+      "R20"
+    ],
+    "note": {
+      "titre": "Le piège",
+      "texte": "Le nori <em>assaisonné</em> en collation (petits paquets minces, souvent aromatisés) est salé et huilé. Le yaki nori nature est en grandes feuilles, sans assaisonnement — ce n'est pas le même produit."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nori.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "wakame",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "若布",
+    "jp_lecture": null,
+    "romaji": "wakame",
+    "fr": "Wakame",
+    "description": "Algue tendre qui se réhydrate en trente secondes. Une cuillère à thé sèche devient une bonne poignée.",
+    "ou_le_trouver": "Allée des séchés, en sachets.",
+    "a_quoi_ca_ressemble": "Petits morceaux vert très foncé, presque noirs, dans des sachets plats. <strong>Il gonfle de 6 à 8 fois</strong> : 1 c. à thé de flocons secs pour 300 ml de bouillon — pas une cuillère à soupe (l'erreur classique du premier essai). Tremper 5 min à l'eau froide, égoutter, ajouter hors du feu.",
+    "sert_dans": [
+      "R2",
+      "R33",
+      "R38",
+      "R45"
+    ],
+    "note": {
+      "titre": "Iode †",
+      "texte": "~172 mcg/g. Une portion généreuse peut à elle seule dépasser la limite quotidienne. Une cuillère à soupe dans une soupe, c'est correct."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/CSIRO_ScienceImage_952_Undaria_pinnatifida_Japanese_kelp.jpg?width=1200",
+    "photo_emballage": "assets/produits/wakame.jpg"
+  },
+  {
+    "id": "shiitake-seches",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "干し椎茸",
+    "jp_lecture": null,
+    "romaji": "hoshi-shiitake",
+    "fr": "Shiitake séchés",
+    "description": "Plus intenses que les frais. Le trempage à froid, une nuit au réfrigérateur, extrait le guanylate sans l'amertume — c'est le dashi végétalien, zéro iode.",
+    "ou_le_trouver": "Allée des séchés, en sacs.",
+    "a_quoi_ca_ressemble": "Sacs transparents de champignons bruns durs comme du bois. Les plus chers ont des chapeaux craquelés (<em>donko</em>) et sont meilleurs.",
+    "sert_dans": [
+      "T2",
+      "R25",
+      "R34"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried%20shiitake%20mushrooms.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "niboshi-petites-sardines-sechees",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "煮干し",
+    "jp_lecture": null,
+    "romaji": "niboshi",
+    "fr": "Niboshi — petites sardines séchées",
+    "description": "Le quatrième dashi. Robuste, rustique, très peu d'iode. Retirer la tête et les entrailles pour éviter l'amertume.",
+    "ou_le_trouver": "Allée des séchés, à côté des crevettes et pétoncles séchés.",
+    "a_quoi_ca_ressemble": "Sacs de petits poissons argentés séchés entiers, de 3 à 8 cm.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Driedniboshi.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "sauce-soya-japonaise",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "醤油",
+    "jp_lecture": null,
+    "romaji": "shōyu",
+    "fr": "Sauce soya japonaise",
+    "description": "Présente dans presque toutes les recettes. La version réduite en sodium fait ~500 mg par cuillère à soupe contre ~900 pour la régulière.",
+    "ou_le_trouver": "Allée japonaise. Attention : il y a aussi de la sauce soya dans l'allée chinoise, la coréenne et la philippine. Ce ne sont pas les mêmes produits.",
+    "a_quoi_ca_ressemble": "Bouteille de verre à goulot étroit. <strong>Bouchon rouge = régulière. Bouchon vert-bleu = réduite en sodium.</strong> Prends la verte.",
+    "sert_dans": [],
+    "note": {
+      "titre": "Le geste qui compte",
+      "texte": "La « sauce soya » chinoise foncée et la japonaise ne sont pas interchangeables — pour ce recueil, prends du Kikkoman réduit en sodium (brassé traditionnellement : on perd ~38 % du sodium, ~575 mg par c. à soupe contre ~900, sans perdre l'umami). Surtout : mets la sauce dans un petit contenant à côté de l'assiette et <strong>trempe, ne verse pas dessus</strong> — trois fois moins de sel pour le même goût perçu, parce que le sel touche directement la langue."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Soy_sauce_2.jpg?width=1200",
+    "photo_emballage": "assets/produits/sauce-soya.jpg",
+    "commentaire_source": "\n// ⑦ ALLÉE JAPONAISE"
+  },
+  {
+    "id": "mirin",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "味醂",
+    "jp_lecture": null,
+    "romaji": "mirin",
+    "fr": "Mirin",
+    "description": "Vin de riz sucré pour la cuisine. Apporte brillant et rondeur, et c'est lui qui caramélise sous le gril.",
+    "ou_le_trouver": "Allée japonaise, à côté du saké de cuisine et du vinaigre de riz.",
+    "a_quoi_ca_ressemble": "Bouteilles de ~250-500 ml, liquide ambré clair. Distingue le <em>hon-mirin</em> (vrai mirin, fermenté, ~14 % alcool) du <em>aji-mirin</em> / « mirin-style seasoning » (<em>mirin-fū</em> — sirop de glucose + sel ajouté). Le Kikkoman « Kotteri Mirin » (みりん風) est de ce second type : acceptable, mais il contient du sodium, à compter dans une recette déjà salée.",
+    "sert_dans": [
+      "T2",
+      "R14",
+      "R16",
+      "R19",
+      "R21",
+      "R24",
+      "R32",
+      "R37",
+      "R43",
+      "R46"
+    ],
+    "note": {
+      "titre": "Si tu n'en as pas",
+      "texte": "Le mirin n'est pas un vinaigre — c'est un alcool de riz sucré (sucre + alcool + umami), alors que le vinaigre de riz apporte de l'acidité ; on ne remplace pas l'un par l'autre. Avec du saké (le plus proche) : 1 c. à soupe de mirin = 1 c. à soupe de saké + 1 c. à thé de sucre, chauffé doucement. Sans saké : 1 c. à soupe d'eau + 1 c. à thé de sucre. Tu perds la brillance et la rondeur, mais c'est parfaitement fonctionnel pour une marinade d'œufs (T7a) ou une sauce de donburi (R9). Impact macro négligeable (~40 cal, surtout du sucre)."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirinbowl.jpg?width=1200",
+    "photo_emballage": "assets/produits/mirin.jpg"
+  },
+  {
+    "id": "ponzu",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "ポン酢",
+    "jp_lecture": null,
+    "romaji": "ponzu",
+    "fr": "Ponzu",
+    "description": "Sauce soya diluée de jus d'agrume (yuzu, sudachi ou citron) et de dashi. Acidulée, légère, elle remplace avantageusement une vinaigrette sur à peu près tout — mais elle reste salée&nbsp;: <strong>~200 mg de sodium par cuillère à soupe</strong>.",
+    "ou_le_trouver": "Allée japonaise.",
+    "a_quoi_ca_ressemble": "Bouteille ambrée, souvent avec un dessin de yuzu ou de citron sur l'étiquette.",
+    "sert_dans": [
+      "R10",
+      "R14",
+      "R19",
+      "R20",
+      "R24",
+      "R61",
+      "T7b"
+    ],
+    "note": {
+      "titre": "Brasser avant chaque usage",
+      "texte": "<strong>Les sédiments et le dashi se déposent au fond de la bouteille</strong>&nbsp;: sans agitation, on verse un liquide déséquilibré. C'est écrit sur l'étiquette et ça se saute facilement — même logique qu'une vinaigrette. <strong>Dosage&nbsp;: 1 à 2 c. à thé par portion.</strong> Il est tentant d'en verser comme d'une vinaigrette&nbsp;; c'est de la sauce soya. Cela dit, le ponzu est <strong>moins salé</strong> que la sauce soya régulière par cuillère, puisqu'il est dilué. Usages&nbsp;: hiyayakko, sunomono (T7b), légumes blanchis, poisson blanc, shabu-shabu. Arbitrage&nbsp;: sous 5&nbsp;$, prends-la (se garde un an au frigo)&nbsp;; à 8&nbsp;$ et plus, soya + jus de lime moitié-moitié fait la job."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada_Prime_Beef_Tataki_with_ponzu_pearls_and_horseradish_%285895881268%29.jpg?width=1200",
+    "photo_emballage": "assets/produits/ponzu.jpg"
+  },
+  {
+    "id": "vinaigre-de-riz",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "米酢",
+    "jp_lecture": null,
+    "romaji": "komezu",
+    "fr": "Vinaigre de riz",
+    "description": "Moins agressif que le vinaigre blanc. Base de toutes les marinades express — et l'acidité amplifie la perception du salé, donc elle permet de saler moins.",
+    "ou_le_trouver": "Allée japonaise ou chinoise.",
+    "a_quoi_ca_ressemble": "Bouteilles claires, liquide presque incolore. Attention à ne pas prendre le « seasoned rice vinegar », déjà sucré et salé.",
+    "sert_dans": [
+      "R6",
+      "R13",
+      "R20",
+      "R22",
+      "R35",
+      "R36",
+      "R40",
+      "R41",
+      "R44",
+      "T7b"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_vinegar.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "sachets-de-dashi",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "だしパック",
+    "jp_lecture": null,
+    "romaji": "dashi pakku",
+    "fr": "Sachets de dashi",
+    "description": "Le compromis intelligent. De vrais ingrédients dans un sachet type thé : on le fait bouillir trois minutes et on le retire. <strong>C'est le point de départ réaliste pour qui ne cuisine pas.</strong>",
+    "ou_le_trouver": "<strong>Allée japonaise</strong> — pas avec le thé, et pas avec le kombu.",
+    "a_quoi_ca_ressemble": "Boîtes cartonnées contenant des sachets. Cherche un dessin de flocons de bonite ou de poisson, et les mentions « reduced salt » ou « no salt added ».",
+    "sert_dans": [],
+    "note": {
+      "titre": "Le piège",
+      "texte": "Les sachets (vrais ingrédients) et la poudre Hondashi (granulés, très salée, boîte jaune-orange) sont côte à côte sur la tablette. Prends les sachets."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi_02.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "furikake",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "ふりかけ",
+    "jp_lecture": null,
+    "romaji": "furikake",
+    "fr": "Furikake",
+    "description": "Mélanges secs à saupoudrer sur le riz. Environ 3 $ le pot, et c'est ce qui règle le problème de la monotonie. Achètes-en trois, pas un.",
+    "ou_le_trouver": "Allée japonaise, souvent tout un présentoir. Des dizaines de variétés.",
+    "a_quoi_ca_ressemble": "Petits contenants colorés, souvent avec une fenêtre transparente qui montre les paillettes. <strong>Première paire : Nori Komi</strong> (nori + sésame, le plus neutre et polyvalent) <strong>et Noritama</strong> (nori + œuf, le classique légèrement sucré, le plus facile pour un premier essai). Katsuo, saumon, ebi fumi, yasai fumi : pour un troisième pot.",
+    "sert_dans": [
+      "R4",
+      "R9",
+      "R11"
+    ],
+    "note": {
+      "titre": "Deux mises au point",
+      "texte": "Malgré les noms (saumon, crevette, bonite), le furikake n'apporte pas de protéines — une portion ≈ 2 g, ~10 cal, moins d'un gramme de protéines. C'est du goût. Et c'est salé (~15-20 %), soit 150-250 mg de sodium sur un bol : <strong>ne combine pas furikake et sauce soya sur le même bol</strong>. Son vrai rôle : rendre le riz nature intéressant sans y ajouter de gras — c'est ce qui fait que 140 g suffisent au lieu d'en redemander."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Furikake_%281%29.jpg?width=1200",
+    "photo_emballage": "assets/produits/furikake.jpg"
+  },
+  {
+    "id": "shichimi-togarashi",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "七味唐辛子",
+    "jp_lecture": null,
+    "romaji": "shichimi tōgarashi",
+    "fr": "Shichimi togarashi",
+    "description": "Mélange de sept épices avec piment. Plus parfumé que piquant. Va sur les soupes, les grillades, les nouilles.",
+    "ou_le_trouver": "Allée japonaise.",
+    "a_quoi_ca_ressemble": "Petit pot rouge-orangé, souvent avec un bouchon qui pivote. La marque S&amp;B est la plus courante.",
+    "sert_dans": [
+      "R14",
+      "R19",
+      "R21",
+      "R37",
+      "R46"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shichimi_002.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "wasabi",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "山葵",
+    "jp_lecture": null,
+    "romaji": "wasabi",
+    "fr": "Wasabi",
+    "description": "Presque tout le wasabi vendu est du raifort coloré. Ce n'est pas un scandale — c'est le standard, même au Japon.",
+    "ou_le_trouver": "Allée japonaise, souvent près du gingembre mariné.",
+    "a_quoi_ca_ressemble": "Tubes verts. Le vrai wasabi (本わさび) est vendu frais en rhizome et coûte dix fois plus cher.",
+    "sert_dans": [
+      "R11",
+      "R20"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%99en%20wasabi%20na%20su%C5%A1i%20(japonsk%C3%BD%20k%C5%99en).jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "soba",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "蕎麦",
+    "jp_lecture": null,
+    "romaji": "soba",
+    "fr": "Soba",
+    "description": "Nouilles de sarrasin. Plus de protéines et de fibres que le blé. Se mangent froides, ce qui en fait un excellent dîner à transporter.",
+    "ou_le_trouver": "Allée japonaise, avec les udon et les somen.",
+    "a_quoi_ca_ressemble": "Paquets rigides de nouilles brun-gris, souvent en portions attachées. Le pourcentage de sarrasin est indiqué : plus il est haut, meilleur c'est.",
+    "sert_dans": [
+      "R9",
+      "R12"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_soba_noodles_by_FotoosVanRobin.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "panko",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "パン粉",
+    "jp_lecture": null,
+    "romaji": "panko",
+    "fr": "Panko",
+    "description": "Chapelure japonaise en flocons légers. Absorbe beaucoup moins d'huile que la chapelure fine — mais on ne fait pas beaucoup de friture dans ce recueil.",
+    "ou_le_trouver": "Allée japonaise.",
+    "a_quoi_ca_ressemble": "Gros sacs légers de flocons blancs irréguliers, beaucoup plus gros que de la chapelure ordinaire.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Breadcrumb.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "graines-de-sesame",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "胡麻",
+    "jp_lecture": null,
+    "romaji": "goma",
+    "fr": "Graines de sésame",
+    "description": "Le « pouce » des repères visuels — un gras, pas une protéine. Une cuillère à soupe ≈ 50 cal, 4,5 g de gras, 1,5 g de protéines. Son vrai rôle : parfumer le riz nature et les légumes sans y ajouter grand-chose.",
+    "ou_le_trouver": "Allée japonaise, près des furikake et des assaisonnements.",
+    "a_quoi_ca_ressemble": "Prends le non décortiqué — 煎り胡麻 (iri goma), sachet jaune. Le décortiqué (皮むき, kawamuki, sachet bleu) a perdu son enveloppe, là où logent l'essentiel du goût de noisette, le croquant et presque tout le calcium — et il rancit plus vite.",
+    "sert_dans": [],
+    "note": {
+      "titre": "Le geste",
+      "texte": "Ne jamais saupoudrer tel quel : une graine entière traverse le système intacte. Écrase entre les doigts ou au mortier juste avant de servir — écrasée, elle libère son huile et son parfum. Griller à sec 2 minutes ravive tout. Conserver au frigo après ouverture."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sesame-Seeds.jpg?width=1200",
+    "photo_emballage": "assets/produits/graines-sesame.jpg"
+  },
+  {
+    "id": "gochujang",
+    "statut": "actif",
+    "section": "kr",
+    "jp": "고추장",
+    "jp_lecture": "ko-tchou-djang",
+    "romaji": "gochujang",
+    "fr": "Gochujang",
+    "description": "Pâte de piment fermentée, épaisse et légèrement sucrée. Environ 400 mg de sodium par cuillère à soupe — modéré pour ce que c'est.",
+    "ou_le_trouver": "Allée coréenne, reconnaissable au rouge dominant et aux gros formats.",
+    "a_quoi_ca_ressemble": "<strong>Bacs rectangulaires de plastique rouge foncé</strong>, souvent 500 g à 1 kg. On n'en trouve pas de petit format.",
+    "sert_dans": [
+      "R9",
+      "R23",
+      "R29"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_chili_pepper_paste_GOCHUJANG.jpg?width=1200",
+    "photo_emballage": null,
+    "commentaire_source": "\n// ⑧ ALLÉE CORÉENNE"
+  },
+  {
+    "id": "gochugaru",
+    "statut": "actif",
+    "section": "kr",
+    "jp": "고춧가루",
+    "jp_lecture": null,
+    "romaji": "gochugaru",
+    "fr": "Gochugaru",
+    "description": "Flocons de piment coréen. Colorés, fruités, beaucoup plus parfumés que piquants. Chauffés dans l'huile une minute, ils libèrent la couleur rouge.",
+    "ou_le_trouver": "Allée coréenne.",
+    "a_quoi_ca_ressemble": "Gros sacs de flocons rouge vif, souvent 500 g. Il existe une mouture fine et une grossière — la grossière est plus polyvalente.",
+    "sert_dans": [
+      "R29",
+      "R30"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gochugaru.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "huile-de-sesame-grille",
+    "statut": "actif",
+    "section": "kr",
+    "jp": "참기름",
+    "jp_lecture": "tchame-gui-reume",
+    "romaji": "chamgireum",
+    "fr": "Huile de sésame grillé",
+    "description": "Un assaisonnement, pas une huile de cuisson. Une cuillère à thé en fin de cuisson suffit — chauffée fort, elle perd tout son parfum.",
+    "ou_le_trouver": "Allée coréenne ou chinoise, souvent en bouteilles plus grandes qu'ailleurs.",
+    "a_quoi_ca_ressemble": "Bouteilles de verre, liquide brun ambré foncé. L'huile de sésame claire (non grillée) est un produit différent.",
+    "sert_dans": [
+      "R5",
+      "R12",
+      "R23",
+      "R27",
+      "R30",
+      "R37",
+      "R41",
+      "R42",
+      "R46",
+      "R47",
+      "R48"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/SesameSeedOil.png?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "sauce-d-huitres",
+    "statut": "actif",
+    "section": "cn",
+    "jp": "蠔油",
+    "jp_lecture": "hao-you",
+    "romaji": "háoyóu",
+    "fr": "Sauce d'huîtres",
+    "description": "Épaisse, salée, légèrement sucrée. Une cuillère à soupe transforme un sauté.",
+    "ou_le_trouver": "Allée chinoise, souvent la plus grande du magasin.",
+    "a_quoi_ca_ressemble": "<strong>Lee Kum Kee, étiquette verte avec un dessin de garçon dans une barque.</strong> C'est le repère visuel le plus fiable du magasin.",
+    "sert_dans": [
+      "R17"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/OysterSauce2.jpg?width=1200",
+    "photo_emballage": null,
+    "commentaire_source": "\n// ⑨ ALLÉE CHINOISE"
+  },
+  {
+    "id": "doubanjiang",
+    "statut": "actif",
+    "section": "cn",
+    "jp": "豆瓣醬",
+    "jp_lecture": "dow-bane-djiang",
+    "romaji": "dòubànjiàng",
+    "fr": "Doubanjiang",
+    "description": "Pâte de fèves fermentées épicée. La base du mapo tofu, et il n'y a pas de substitut.",
+    "ou_le_trouver": "Allée chinoise.",
+    "a_quoi_ca_ressemble": "Pots ou sachets rouge-brun, texture épaisse et grumeleuse. Le pixian (郫县) est la référence.",
+    "sert_dans": [
+      "R26"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Doubanjiang.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "vinaigre-noir-de-chinkiang",
+    "statut": "actif",
+    "section": "cn",
+    "jp": "鎮江醋",
+    "jp_lecture": "djène-djiang tsou",
+    "romaji": "zhènjiāng cù",
+    "fr": "Vinaigre noir de Chinkiang",
+    "description": "Vinaigre de riz noir, malté, presque balsamique. C'est lui qui donne l'acidité de la soupe aigre-piquante.",
+    "ou_le_trouver": "Allée chinoise, avec les vinaigres.",
+    "a_quoi_ca_ressemble": "Bouteilles de verre foncé, étiquette souvent jaune ou orange, caractères chinois. Liquide noir opaque.",
+    "sert_dans": [
+      "R25"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%92%E9%85%A2.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "poivre-de-sichuan",
+    "statut": "actif",
+    "section": "cn",
+    "jp": "花椒",
+    "jp_lecture": null,
+    "romaji": "huājiāo",
+    "fr": "Poivre de Sichuan",
+    "description": "Ni un poivre ni un piment. Citronné, et légèrement engourdissant sur la langue. Toujours ajouté hors du feu : la chaleur détruit son parfum.",
+    "ou_le_trouver": "Allée chinoise, avec les épices.",
+    "a_quoi_ca_ressemble": "Sachets de petites baies rouge-brun ouvertes en écailles. Les meilleures sont vives et parfumées à travers le sac.",
+    "sert_dans": [
+      "R26"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sichuan_pepper.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "msg-ajinomoto",
+    "statut": "actif",
+    "section": "cn",
+    "jp": "味の素",
+    "jp_lecture": null,
+    "romaji": "ajinomoto",
+    "fr": "MSG (Ajinomoto)",
+    "description": "L'extrait isolé de ce qui rend le dashi bon. <strong>Environ le tiers du sodium du sel de table</strong> : c'est un outil légitime de réduction du sodium, pas un compromis.",
+    "ou_le_trouver": "Allée chinoise, souvent près du sel et du sucre.",
+    "a_quoi_ca_ressemble": "Sacs ou pots blancs avec le <strong>logo du bol rouge stylisé</strong>. Cristaux blancs qui ressemblent à du gros sel.",
+    "sert_dans": [],
+    "note": {
+      "titre": "Sur l'innocuité",
+      "texte": "Des décennies d'études contrôlées contre placebo n'ont pas reproduit le « syndrome du restaurant chinois ». La FDA le classe GRAS, l'UE l'autorise sous le numéro E621. Voir le guide 1, section 3."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Monosodium_glutamate_crystals.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "sauce-de-poisson",
+    "statut": "actif",
+    "section": "sea",
+    "jp": "nước mắm",
+    "jp_lecture": "nou-oc mame",
+    "romaji": "nuoc mam",
+    "fr": "Sauce de poisson",
+    "description": "L'umami vietnamien et thaï. Odeur forte à l'ouverture, goût rond une fois dans le plat. <strong>~1400 mg de sodium par cuillère à soupe</strong> — la plus salée de toutes.",
+    "ou_le_trouver": "Allée Asie du Sud-Est, aux emballages plus colorés et pleins de photos de plats.",
+    "a_quoi_ca_ressemble": "<strong>Three Crabs : bouteille haute, étiquette jaune vif avec trois crabes rouges dessinés.</strong> Ou Squid, avec un calmar. Le liquide doit être ambré clair, pas brun foncé.",
+    "sert_dans": [
+      "R18",
+      "R27",
+      "R28",
+      "R36",
+      "R39"
+    ],
+    "note": {
+      "titre": "Sodium",
+      "texte": "Une cuillère à soupe = ~1400 mg. Dans le nuoc cham, elle est diluée dans l'eau, la lime et le sucre, donc l'impact réel par portion est plus faible — mais c'est l'ingrédient à doser en premier."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sauce_de_poisson.jpg?width=1200",
+    "photo_emballage": null,
+    "commentaire_source": "\n// ⑩ ASIE DU SUD-EST"
+  },
+  {
+    "id": "pate-tom-yum",
+    "statut": "actif",
+    "section": "sea",
+    "jp": "ต้มยำ",
+    "jp_lecture": "tome youme",
+    "romaji": "tom yum",
+    "fr": "Pâte tom yum",
+    "description": "Deux cuillères à soupe et un bouillon devient une soupe thaïlandaise. Le raccourci le plus rentable de l'allée.",
+    "ou_le_trouver": "Allée Asie du Sud-Est, avec les pâtes de cari.",
+    "a_quoi_ca_ressemble": "Pots de verre ou sachets, pâte rouge-orangé huileuse. Maesri et Mae Ploy sont les marques standard.",
+    "sert_dans": [
+      "R27"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "lait-de-coco-leger",
+    "statut": "actif",
+    "section": "sea",
+    "jp": "กะทิ",
+    "jp_lecture": "ka-ti",
+    "romaji": "kathi",
+    "fr": "Lait de coco léger",
+    "description": "Le lait de coco régulier fait environ 445 calories la tasse. La version légère en fait 150 — et dans un tom kha, la différence de goût est mineure.",
+    "ou_le_trouver": "Allée Asie du Sud-Est, en conserve.",
+    "a_quoi_ca_ressemble": "Conserves de 400 ml. Cherche « light » ou « lite ». Aroy-D et Chaokoh sont fiables.",
+    "sert_dans": [
+      "R28"
+    ],
+    "note": {
+      "titre": "À la cuisson",
+      "texte": "Ne jamais faire bouillir : le lait de coco tranche. Mijoter doucement, sans plus."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cononut_milk.JPG?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "vermicelles-de-riz",
+    "statut": "actif",
+    "section": "sea",
+    "jp": "bún",
+    "jp_lecture": null,
+    "romaji": "bun",
+    "fr": "Vermicelles de riz",
+    "description": "Farine de riz reconstituée, pas du grain entier. Index glycémique souvent plus élevé que le riz, et beaucoup plus faciles à surconsommer.",
+    "ou_le_trouver": "Allée Asie du Sud-Est, avec les galettes de riz.",
+    "a_quoi_ca_ressemble": "Paquets de nouilles blanches très fines, en nids. Se réhydratent dans l'eau chaude en 5 minutes.",
+    "sert_dans": [
+      "R18"
+    ],
+    "note": {
+      "titre": "La portion",
+      "texte": "Un bol de vermicelles se mange vite. Le riz en grains, mangé à la baguette dans un petit bol, impose naturellement un rythme."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_vermicelli.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "citronnelle-galanga-lime-kaffir",
+    "statut": "actif",
+    "section": "sea",
+    "jp": "ตะไคร้",
+    "jp_lecture": "ta-kraï",
+    "romaji": "takhrai",
+    "fr": "Citronnelle, galanga, lime kaffir",
+    "description": "Le trio aromatique thaïlandais. Ils s'infusent dans le bouillon puis se retirent — on ne les mange pas.",
+    "ou_le_trouver": "En pot dans l'allée Asie du Sud-Est, ou frais aux fruits et légumes, ou congelés.",
+    "a_quoi_ca_ressemble": "La citronnelle est une tige ligneuse pâle qu'on écrase au plat du couteau. Le galanga ressemble au gingembre mais plus pâle et plus dur. Les feuilles de lime kaffir sont doubles et très parfumées.",
+    "sert_dans": [
+      "R27",
+      "R28"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cymbopogon%20citratus%20(%20Lemon%20grass).jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "mugicha-the-d-orge",
+    "statut": "actif",
+    "section": "the",
+    "jp": "麦茶",
+    "jp_lecture": null,
+    "romaji": "mugicha",
+    "fr": "Mugicha — thé d'orge",
+    "description": "<strong>L'achat le plus rentable de la liste.</strong> Zéro calorie, zéro caféine, zéro sucre. Goût de grain grillé. Un sachet dans un litre d'eau froide, une nuit au frigo.",
+    "ou_le_trouver": "Allée du thé — séparée de tout le reste, souvent près des breuvages ou en bout d'allée.",
+    "a_quoi_ca_ressemble": "Boîte cartonnée brun-doré, souvent avec un dessin d'épi d'orge. Ito En est la marque courante. Boîtes de 30 à 60 sachets.",
+    "sert_dans": [],
+    "note": {
+      "titre": "Si tu n'en trouves pas",
+      "texte": "Trois options, dans l'ordre : le <strong>boricha coréen (보리차)</strong> est exactement le même produit — thé d'orge grillé — cherche-le en épicerie coréenne ; sinon l'épicerie japonaise Miyamoto en a à coup sûr ; en dernier recours, le <strong>hojicha</strong> (thé vert torréfié) — pas la même chose, mais même registre grillé, presque sans caféine, à boire froid en pichet de la même façon."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese-Barley_tea-Mugicha.jpg?width=1200",
+    "photo_emballage": null,
+    "commentaire_source": "\n// ⑪ THÉ"
+  },
+  {
+    "id": "hojicha-the-vert-torrefie",
+    "statut": "actif",
+    "section": "the",
+    "jp": "ほうじ茶",
+    "jp_lecture": null,
+    "romaji": "hōjicha",
+    "fr": "Hojicha — thé vert torréfié",
+    "description": "Torréfié, donc presque décaféiné. Notes de caramel et de chocolat. C'est le thé du soir.",
+    "ou_le_trouver": "Allée du thé.",
+    "a_quoi_ca_ressemble": "Feuilles brun rougeâtre, très différentes du vert du sencha. En sachets ou en vrac.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Houjicha.jpg?width=1200",
+    "photo_emballage": "assets/produits/hojicha.jpg"
+  },
+  {
+    "id": "sencha-et-genmaicha",
+    "statut": "actif",
+    "section": "the",
+    "jp": "煎茶",
+    "jp_lecture": null,
+    "romaji": "sencha",
+    "fr": "Sencha et genmaicha",
+    "description": "Le thé vert du matin. <strong>Infusé à 70-75 °C, pas à l'eau bouillante</strong> — c'est là que la plupart des gens ratent leur thé. Infusé à froid une nuit, il devient doux et presque sucré.",
+    "ou_le_trouver": "Allée du thé.",
+    "a_quoi_ca_ressemble": "Le genmaicha contient des grains de riz soufflé visibles — c'est le plus facile à réussir des deux. Si l'emballage montre des feuilles reconnaissables plutôt qu'une poudre brunâtre, c'est bon signe.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/White_cup_with_green_tea_in_it.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "riz-a-grain-court",
+    "statut": "actif",
+    "section": "riz",
+    "jp": "米",
+    "jp_lecture": null,
+    "romaji": "kome",
+    "fr": "Riz à grain court",
+    "description": "Le grain court japonais colle juste assez pour se manger à la baguette. C'est ce qui rend le petit bol possible.",
+    "ou_le_trouver": "Presque toujours en gros sacs, sur des palettes au sol ou des tablettes basses, souvent en bout d'allée ou près de la sortie.",
+    "a_quoi_ca_ressemble": "Sacs de 2 à 15 kg. Choix par défaut : <strong>Nishiki</strong> (sac blanc), fiable et bon rapport qualité-prix. « Sushi rice », « premium medium grain » et « Calrose » désignent essentiellement la même chose. <strong>Le piège à éviter : les sacs marqués 糯米 ou « sweet / mochi rice »</strong> — c'est du riz gluant (mochigome), un ingrédient à part ; cuit comme du gohan, ça donne une masse immangeable. « Sweet » n'a rien à voir avec le sucre. Un sac de 2,27 kg donne ~5 kg de riz cuit, soit une trentaine de portions.",
+    "sert_dans": [
+      "T1"
+    ],
+    "note": {
+      "titre": "Arsenic",
+      "texte": "Le riz accumule plus d'arsenic inorganique que les autres céréales, et le riz brun plus que le blanc. Rincer jusqu'à ce que l'eau soit claire — ce que la méthode japonaise prescrit déjà — et varier les féculents."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
+    "photo_emballage": "assets/produits/riz.jpg",
+    "commentaire_source": "\n// ⑫ RIZ ET COLLATIONS"
+  },
+  {
+    "id": "senbei-et-collations",
+    "statut": "actif",
+    "section": "riz",
+    "jp": "煎餅",
+    "jp_lecture": null,
+    "romaji": "senbei",
+    "fr": "Senbei et collations",
+    "description": "Craquelins de riz. Environ la moitié du gras des croustilles, et ils se mâchent longtemps.",
+    "ou_le_trouver": "Allée des collations, avec les Pocky et les bonbons japonais.",
+    "a_quoi_ca_ressemble": "Paquets de galettes rondes brunes, souvent enveloppées individuellement — ce qui aide à s'arrêter.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Senbeis.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "gelee-de-konjac",
+    "statut": "actif",
+    "section": "riz",
+    "jp": "蒟蒻ゼリー",
+    "jp_lecture": null,
+    "romaji": "konnyaku zerī",
+    "fr": "Gelée de konjac",
+    "description": "Environ 20 calories la pochette. Le remplacement direct des bonbons.",
+    "ou_le_trouver": "Allée des collations.",
+    "a_quoi_ca_ressemble": "Sachets contenant des petites pochettes souples, saveurs de fruits. Orihiro est la marque la plus répandue.",
+    "sert_dans": [],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Konnyaku.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "umeboshi",
+    "statut": "actif",
+    "section": "riz",
+    "jp": "梅干し",
+    "jp_lecture": null,
+    "romaji": "umeboshi",
+    "fr": "Umeboshi",
+    "description": "Prune salée et fermentée. Extrêmement acide et salée. <strong>Le choc casse une rage de sucre très efficacement</strong> — et une seule suffit.",
+    "ou_le_trouver": "Souvent au mur réfrigéré avec les tsukemono, parfois dans l'allée japonaise.",
+    "a_quoi_ca_ressemble": "Pots de verre ou barquettes, prunes ridées rouge foncé ou beige. Certaines sont sucrées au miel — ce n'est pas la même chose.",
+    "sert_dans": [
+      "R11"
+    ],
+    "note": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Umeboshi2.JPG?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "nouilles-instantanees",
+    "statut": "actif",
+    "section": "riz",
+    "jp": "即席麺",
+    "jp_lecture": null,
+    "romaji": "sokusekimen",
+    "fr": "Nouilles instantanées",
+    "description": "Fiche de dépannage utile (R57). Mais une fois le dashi maîtrisé, la nouille sèche ordinaire en bouillon (R60) prend 8 minutes, coûte moins cher et donne un meilleur résultat.",
+    "ou_le_trouver": "Allée des nouilles instantanées — dominée par les marques frites à gros volume ; le non-frit y est un créneau de niche.",
+    "a_quoi_ca_ressemble": "Aucun paquet ne dit « non frites ». <strong>Le test fiable : le gras au tableau nutritionnel.</strong> Frite : 15-20 g par portion (huile de palme). Non frite : 1-3 g. Mots utiles : 非油炸 (chinois), ノンフライ麺 (japonais), « air-dried » (anglais). Au visuel, le bloc frit est ondulé, doré et aéré ; le non-frit est plus pâle, plus dense, plus lourd.",
+    "sert_dans": [
+      "R57",
+      "R60"
+    ],
+    "note": {
+      "titre": "Où en trouver à Montréal",
+      "texte": "Pulmuone (풀무원) en épicerie coréenne, Myojo Chukazanmai (中華三昧), ou A-Sha (阿舍食堂, plus souvent chez T&amp;T que chez Kim Phat). Le paquet sur la photo (出前一丁) est un classique — mais c'est une nouille <strong>frite</strong>, donc un bon repère du produit à NE pas prendre si on vise le non-frit."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Instant_noodles.jpg?width=1200",
+    "photo_emballage": "assets/produits/demae-itcho.jpg"
+  },
+  {
+    "id": "sardines-en-conserve",
+    "statut": "actif",
+    "section": "riz",
+    "jp": "鰯の缶詰",
+    "jp_lecture": null,
+    "romaji": "iwashi no kanzume",
+    "fr": "Sardines en conserve",
+    "description": "Substitut valable au thon dans R10 et les donburi, et plus japonais que lui. Plus bas dans la chaîne alimentaire, donc bien meilleure que le thon côté mercure.",
+    "ou_le_trouver": "Allée des conserves de poisson.",
+    "a_quoi_ca_ressemble": "Chercher « dans l'eau » ou « à l'huile d'olive » — pas « huile de tournesol » (ratio oméga-6/oméga-3 déséquilibré ; c'est le milieu qui gâche, pas la sardine). <strong>Éviter le « sans arêtes »</strong> : les arêtes molles se mangent sans qu'on les sente et portent l'essentiel du calcium (~350 mg/100 g avec, ~50 sans).",
+    "sert_dans": [
+      "R61"
+    ],
+    "note": {
+      "titre": "† Mercure et densité calorique",
+      "texte": "Sardines à l'huile : ~300 cal et 20 g de protéines/100 g ; thon pâle dans l'eau : ~110 cal et 25 g/100 g. Par gramme de protéine, la sardine à l'huile coûte environ 3× plus de calories — c'est du bon gras, mais ça change ce qu'on met autour. Égoutter sérieusement (on récupère 25-30 % des calories). Une fois ouverte, transvider dans un contenant hermétique, jamais laisser dans la boîte, manger en 2 jours. En kobachi (<em>R61</em>, à la place du germon) : compter 100 g égouttés, pas 50, pour que les protéines montent — et retirer l'huile de sésame de la recette, la sardine en apporte déjà. Mercure : un des poissons les plus bas de la chaîne — voir la note mercure du guide 1."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canned_sardines.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "thon-en-conserve",
+    "statut": "actif",
+    "section": "riz",
+    "jp": "ツナ缶",
+    "jp_lecture": null,
+    "romaji": "tsuna kan",
+    "fr": "Thon en conserve",
+    "description": "Le meilleur ratio protéines/sodium du garde-manger — rien d'autre n'approche. Une boîte de 170 g (≈ 120 g égouttés) donne <strong>~28 g de protéines pour ~130 cal et ~260 mg de sodium</strong>.",
+    "ou_le_trouver": "Allée des conserves, section poisson. Souvent mieux servi par l'<strong>épicerie ordinaire</strong>, qui offre le thon pâle nature dans l'eau plutôt que les thons importés à l'huile.",
+    "a_quoi_ca_ressemble": "<strong>Dans l'eau</strong>, pas dans l'huile — et savoir lequel des deux on prend. Le <strong>thon pâle</strong> («&nbsp;light&nbsp;») est émietté et fibreux, faible en mercure, sans limite de consommation pour un adulte, et moins cher. Le <strong>thon blanc</strong> ou germon («&nbsp;albacore&nbsp;») est ferme et se tient en morceaux, plus chargé en mercure, limité à <strong>300 g par semaine</strong> pour un adulte, et plus cher. La règle simple&nbsp;: thon pâle pour la rotation courante, germon quand la texture compte.",
+    "sert_dans": [
+      "R10",
+      "R59",
+      "R61"
+    ],
+    "note": {
+      "titre": "Lire l'étiquette correctement",
+      "texte": "Le tableau de valeur nutritive est souvent donné <strong>par demi-boîte égouttée (55 g)</strong> — il faut doubler pour la boîte entière. C'est l'erreur qui fait croire que le thon n'apporte que 14 g de protéines. Usages&nbsp;: <strong>dans son propre bol</strong>, défait à la fourchette et mélangé au ponzu avec un filet d'huile de sésame (<em>R61</em>) — et non pas empilé sur un tofu soyeux, ce qui donne deux plats à moitié&nbsp;; sinon dans un onigiri ou dans un donburi rapide. Mercure&nbsp;: voir la note du <a href=\"guide-1-manger.html#s15\">guide 1</a> — le thon pâle n'est pas visé par l'avis de Santé Canada, le germon l'est."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuna_can.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "onigiri-du-commerce",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "おにぎり",
+    "jp_lecture": null,
+    "romaji": "onigiri",
+    "fr": "Onigiri du commerce",
+    "description": "Dépannage acceptable, aliment de base non. <strong>Ce n'est pas l'onigiri fait maison</strong>&nbsp;: un onigiri commercial de 120 g donne ~260 cal pour <strong>5 à 7 g de protéines et ~480 mg de sodium</strong> — assez pour déclencher l'avertissement «&nbsp;Élevé en sodium&nbsp;» de Santé Canada.",
+    "ou_le_trouver": "Réfrigérateur des prêts-à-manger, à l'avant du magasin. Épiceries asiatiques, et certains Costco.",
+    "a_quoi_ca_ressemble": "Triangles emballés dans un film à languette, garniture indiquée par une pastille de couleur. La liste d'ingrédients contient généralement de l'aspartame, du tripolyphosphate de sodium, du chlorure de potassium et du benzoate. <strong>Le problème n'est pas la qualité, c'est le ratio</strong>&nbsp;: deux onigiri font 510 calories pour 11 g de protéines — pratiquement du riz pur, avec le sodium en prime. Comme repas principal dans un plan à 165 g de protéines, ça ne fonctionne pas.",
+    "sert_dans": [
+      "R59"
+    ],
+    "note": {
+      "titre": "Conservation et arbitrage",
+      "texte": "Ils se congèlent. Prioriser ceux au <strong>saumon</strong> ou à la prune&nbsp;: les garnitures en sauce (mayonnaise, crevettes) se séparent à la décongélation. Emballer individuellement, sortir au frigo la veille. L'arbitrage&nbsp;: une rondelle de riz maison congelée (T1) apporte les mêmes calories avec <strong>0 mg de sodium</strong>. Et pour en faire un vrai repas, voir R59 — avec des edamames et un œuf dur."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
+    "photo_emballage": null
+  }
+]

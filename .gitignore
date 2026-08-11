@@ -1,5 +1,7 @@
 # Ne jamais publier de PDF ni de données personnelles sur ce dépôt public
-*.pdf
 *-PRIVE*
 *-prive*
+*.pdf
 .DS_Store
+data/.compteurs-extraction.json
+node_modules/
