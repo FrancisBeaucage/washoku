@@ -48,13 +48,10 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Quatre chiffres, un seul non négociable."
         },
         {
           "type": "tableau",
-          "attrs": "",
-          "attrs_table": "",
           "lignes": [
             {
               "cellules": [
@@ -144,14 +141,12 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Perte prévue&nbsp;: <strong>environ 1,5 lb par semaine.</strong>"
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "La cible&nbsp;: 145 à 165 g par jour",
           "blanc": "\n\n    "
         },
@@ -159,35 +154,30 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Le chiffre de <strong>165 g</strong> correspond à environ <strong>1,8 g par kg de poids cible</strong> — le haut de la fourchette utile. Le seuil en dessous duquel un déficit calorique commence réellement à coûter du muscle se situe plutôt autour de <strong>1,6 g/kg, soit environ 145 g</strong>. C'est donc un plancher fonctionnel, pas un arrondi de confort."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Ce qui compte est la <strong>moyenne de la semaine</strong>, pas le compte de chaque jour. Une journée à 150 g où tous les plats étaient bons vaut mieux qu'une journée à 165 g où deux plats étaient difficiles à finir — parce que la seconde ne se répète pas longtemps."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "<strong>Plancher absolu&nbsp;: 130 g.</strong> En dessous, le bénéfice principal de la méthode — préserver le muscle pendant qu'on perd du gras — s'érode. Une journée à 125 g arrive&nbsp;; elle ne se planifie pas."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Pourquoi la fourchette reste haute&nbsp;:"
         },
         {
           "type": "liste",
           "ordonnee": false,
           "classe": "l",
-          "attrs": "",
           "elements": [
             {
               "texte": "<strong>Sans stimulus protéique suffisant, une part importante du poids perdu est du muscle</strong> — souvent le quart, parfois davantage. Le muscle perdu abaisse la dépense au repos, ce qui rend la reprise plus facile et chaque perte suivante plus difficile."
@@ -204,20 +194,17 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "<strong>Bonne nouvelle&nbsp;: le recueil est déjà construit pour ça.</strong> Chaque soupe-repas fournit 35 à 45 g par portion."
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "La répartition par repas",
           "blanc": "\n\n    "
         },
         {
           "type": "tableau",
-          "attrs": "",
           "attrs_table": " style=\"min-width:0\"",
           "lignes": [
             {
@@ -322,12 +309,10 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Le souper est plus généreux parce que c'est le repas partagé — celui où il faut le moins de friction."
         },
         {
           "type": "note",
-          "attrs": "",
           "titre": "Le piège du déjeuner japonais",
           "paragraphes": [
             {
@@ -337,7 +322,6 @@
         },
         {
           "type": "note",
-          "attrs": "",
           "titre": "La cible déforme les plats si on la poursuit plat par plat",
           "paragraphes": [
             {
@@ -352,7 +336,6 @@
         },
         {
           "type": "note",
-          "attrs": "",
           "titre": "Le plancher de 50&nbsp;g de lipides n'est pas qu'une contrainte nutritionnelle",
           "paragraphes": [
             {
@@ -386,7 +369,6 @@
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "Phase 1 — Deux semaines de mesure",
           "blanc": "\n\n    "
         },
@@ -394,14 +376,12 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "<strong>L'objectif n'est pas de perdre du poids. C'est d'apprendre.</strong> Deux semaines suffisent à découvrir où sont réellement les calories, ce qui est presque toujours une surprise. Ensuite, on peut arrêter de compter."
         },
         {
           "type": "liste",
           "ordonnee": true,
           "classe": "l",
-          "attrs": "",
           "elements": [
             {
               "texte": "<strong>Installer une application</strong> — MyFitnessPal (meilleure base de données canadienne) ou Cronometer (plus précis sur les micronutriments)."
@@ -424,14 +404,12 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "<strong>Les cinq choses qu'on découvre presque toujours&nbsp;:</strong>"
         },
         {
           "type": "liste",
           "ordonnee": false,
           "classe": "l",
-          "attrs": "",
           "elements": [
             {
               "texte": "L'huile de cuisson versée à l'œil représente 200 à 400 calories par jour"
@@ -454,7 +432,6 @@
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "Phase 2 — Les gabarits",
           "blanc": "\n\n    "
         },
@@ -462,13 +439,10 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Après deux semaines, on abandonne le comptage quotidien. On garde <strong>une seule cible chiffrée&nbsp;: les protéines.</strong> Le reste passe aux repères visuels."
         },
         {
           "type": "tableau",
-          "attrs": "",
-          "attrs_table": "",
           "lignes": [
             {
               "cellules": [
@@ -572,21 +546,18 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "<strong>La règle du souper&nbsp;:</strong> la moitié de l'assiette en légumes, le quart en protéine, le quart en féculent. Le petit bol règle le féculent tout seul."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "<strong>Le seul chiffre à garder en tête&nbsp;: 155 g de protéines en moyenne sur la semaine</strong>, dans une fourchette de 145 à 165. Tout le reste suit."
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "Pourquoi cette approche plutôt qu'une autre",
           "blanc": "\n\n    "
         },
@@ -594,14 +565,12 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Compter fonctionne très bien pendant six semaines et s'effondre au troisième mois. Ce n'est pas un défaut de caractère, c'est la nature de la tâche&nbsp;: elle demande un effort quotidien qui ne diminue jamais."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Les gabarits demandent un effort initial d'apprentissage, puis presque rien. Mais ils ne fonctionnent que si l'œil est calibré — d'où les deux semaines de mesure."
         }
       ]
@@ -617,20 +586,17 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "C'est la partie qu'il faut planifier, parce qu'elle ne se fait pas toute seule."
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "Ce que fournit chaque aliment",
           "blanc": "\n\n    "
         },
         {
           "type": "tableau",
-          "attrs": "",
           "attrs_table": " style=\"min-width:0\"",
           "lignes": [
             {
@@ -847,14 +813,11 @@
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "Une journée type dans le haut de la fourchette",
           "blanc": "\n\n    "
         },
         {
           "type": "tableau",
-          "attrs": "",
-          "attrs_table": "",
           "lignes": [
             {
               "cellules": [
@@ -958,7 +921,6 @@
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "Les trois leviers si le compte ne rentre pas",
           "blanc": "\n\n    "
         },
@@ -966,7 +928,6 @@
           "type": "liste",
           "ordonnee": true,
           "classe": "l",
-          "attrs": "",
           "elements": [
             {
               "texte": "<strong>Doubler la protéine des soupes-repas.</strong> Elles sont conçues pour 400 g de protéine par recette de 2 portions — monter à 500 g change peu le goût."
@@ -992,21 +953,18 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Il existe une façon de <strong>rater la cible en l'atteignant</strong>. Elle consiste à prendre une recette normale et à en gonfler le contenu jusqu'à ce que les chiffres tombent juste. On obtient alors un plat qui n'est plus lui-même&nbsp;: un hiyayakko dont on ne voit plus le tofu, un bol de nouilles dont on ne voit plus les nouilles, une portion qu'on n'arrive pas à finir."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Ce n'est pas une erreur de calcul, c'est <strong>une erreur de structure</strong>. Les deux se sont produites le 9 et le 10 août, à un jour d'intervalle. Voici les quatre règles qui les évitent."
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "1. Le plafond des 25&nbsp;%",
           "blanc": "\n\n    "
         },
@@ -1014,21 +972,18 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Une fiche peut être servie jusqu'à environ <strong>un quart au-dessus</strong> de sa portion de référence. Au-delà, on change de plat."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Une fiche à 15 g de protéines peut monter à 19. <strong>Elle ne peut pas monter à 39</strong>&nbsp;: à ce point-là, la garniture pèse autant que le sujet et le plat perd son identité."
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "2. Quand il manque des protéines, on ajoute un plat",
           "blanc": "\n\n    "
         },
@@ -1036,21 +991,18 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "C'est la réponse japonaise, et elle est inscrite dans la structure du repas. <em>Ichiju sansai</em> (<span title=\"ichijū sansai — « i-tchi-djou sane-saï » · une soupe et trois plats\" style=\"cursor:help;border-bottom:1px dotted currentColor\">一汁三菜</span>, une soupe et trois plats) a un grand frère&nbsp;: <em>ichiju gosai</em> (<span title=\"ichijū gosai — « i-tchi-djou go-saï » · une soupe et cinq plats\" style=\"cursor:help;border-bottom:1px dotted currentColor\">一汁五菜</span>, une soupe et cinq plats). Quand un repas doit porter davantage, <strong>on ajoute un kobachi. On ne double pas le contenu des bols existants.</strong>"
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Un petit plat de plus à 10 g de protéines règle un écart de 10 g sans toucher au reste du repas. Concrètement&nbsp;: des <a href=\"guide-2-recettes.html#R48\">edamames</a>, un œuf, un kobachi de poisson, une salade de daikon au chirimenjako."
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "3. Les collations sont un poste du plan, pas un extra",
           "blanc": "\n\n    "
         },
@@ -1058,21 +1010,18 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Le plan prévoit <strong>300 calories et 25 g de protéines en collations</strong>. Ce n'est pas une marge de sécurité&nbsp;: c'est <strong>un cinquième de l'apport protéique de la journée</strong>."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Les compter à zéro et essayer de rattraper l'écart dans les trois repas est exactement ce qui mène à la surcharge. Un œuf dur et un yogourt grec, c'est 25 g sans toucher à un seul plat."
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "4. Une journée en dessous de la cible n'est pas un échec",
           "blanc": "\n\n    "
         },
@@ -1080,21 +1029,18 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "La cible haute de 165 g correspond à environ 1,8 g par kilo de poids cible&nbsp;; le plancher fonctionnel de 145 g, à environ 1,6 g/kg. L'écart de bénéfice entre les deux est réel, mais <strong>modeste</strong> — c'est pourquoi la cible est une fourchette et non un nombre (voir la section 1)."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Ce qui compte est la <strong>moyenne sur la semaine</strong>, visée à 155 g — pas le compte de chaque jour."
         },
         {
           "type": "texte",
           "balise": "h3",
           "classe": "h3",
-          "attrs": "",
           "texte": "Et les protéines en poudre&nbsp;?",
           "blanc": "\n\n    "
         },
@@ -1102,19 +1048,16 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "C'est une option réelle, avec des conditions — mais <strong>la piste est écartée pour le moment</strong>. Ce qui suit est là pour documenter la décision, pas pour la recommander."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Un <strong>isolat de lactosérum non aromatisé</strong> apporte environ 25 à 30 g de protéines par mesure, pour à peu près 110 calories, sans goût marqué. C'est une protéine complète, riche en <strong>leucine</strong> — l'acide aminé qui déclenche la synthèse musculaire."
         },
         {
           "type": "note",
-          "attrs": "",
           "titre": "Il coagule dans un liquide chaud",
           "paragraphes": [
             {
@@ -1130,26 +1073,22 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "<strong>Le collagène est le mauvais choix ici.</strong> Il se dissout pourtant magnifiquement à chaud, ce qui le rend tentant. Mais il ne contient pas de tryptophane — c'est une protéine incomplète — et il est très pauvre en leucine. Pour préserver du muscle en déficit, c'est précisément le pire choix disponible."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "<strong>Où la poudre a sa place&nbsp;: dans la collation, pas dans le plat.</strong> Un bouillon dashi additionné d'isolat devient trouble et laiteux. Le repas reste intact, la collation comble l'écart — c'est plus honnête que de maquiller un bouillon."
         },
         {
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "Pour ajouter des protéines <em>dans</em> un plat sans le dénaturer, la solution est ailleurs&nbsp;: katsuobushi, chirimenjako, sakura ebi, niboshi. Voir <a href=\"guide-3-supermarche.html#poudres\">les protéines à saupoudrer</a> au guide 3."
         },
         {
           "type": "note",
-          "attrs": "",
           "titre": "Ce document n'est pas un avis médical",
           "paragraphes": [
             {
@@ -1170,14 +1109,12 @@
           "type": "texte",
           "balise": "p",
           "classe": "p",
-          "attrs": "",
           "texte": "La liste de la première semaine."
         },
         {
           "type": "liste",
           "ordonnee": false,
           "classe": "l",
-          "attrs": "",
           "elements": [
             {
               "texte": "Installer une application de suivi"
@@ -1204,7 +1141,6 @@
         },
         {
           "type": "note",
-          "attrs": "",
           "titre": "Le principe de départ",
           "paragraphes": [
             {

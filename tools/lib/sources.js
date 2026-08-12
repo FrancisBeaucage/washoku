@@ -22,6 +22,10 @@ const SOURCES = [
     bloc: 'R',
     description: 'Techniques et recettes du guide 2',
     mapper: require('./fiches'),
+    // Champs qui vivent dans /data seulement : la page ne les rend pas, donc
+    // une réextraction les écraserait. `extraire.js` les recopie depuis le JSON
+    // existant plutôt que de les perdre.
+    champs_hors_page: ['nutrition.source'],
     // La page écrivait tantôt `notes:[]`, tantôt rien : les deux formes se
     // rendent pareil. On normalise sur la forme explicite.
     defauts: { notes: [] },
@@ -35,8 +39,9 @@ const SOURCES = [
     bloc: 'I',
     description: 'Fiches d’ingrédients du guide 3',
     mapper: require('./ingredients'),
+    champs_hors_page: ['description_visuelle', 'zone_magasin'],
     entete: ['s', 'jp', 'ro', 'pr', 'fr', 'img', 'pack'],
-    groupes: [['d'], ['w'], ['l'], ['u'], ['nk', 'n']],
+    groupes: [['d'], ['w'], ['l'], ['alt'], ['u'], ['nk', 'n']],
     separateur: '\n',
   },
   {
@@ -84,4 +89,12 @@ const PROSES = [
   },
 ];
 
-module.exports = { SOURCES, PROSES, RACINE, DATA, BASE_URL };
+/* Les fichiers qui ne se rendent nulle part : ils vivent dans /data et rien
+   d'autre. Ils figurent quand même au manifeste — sinon un agent extérieur ne
+   peut pas les atteindre, et la règle 16 le refuse. */
+const DONNEES_SEULES = [
+  { cle: 'historique-repas', description: 'Ce qui a été mangé, un enregistrement par repas' },
+  { cle: 'inventaire', description: 'Ce qui est au congélateur, au frigo et au garde-manger' },
+];
+
+module.exports = { SOURCES, PROSES, DONNEES_SEULES, RACINE, DATA, BASE_URL };

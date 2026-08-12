@@ -69,7 +69,16 @@
       "texte": "Garnir de wakame et de sésame."
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "titre": "La cuillère de soya n'est pas décorative",
+      "texte": "Sans elle, la vinaigrette n'est que sucrée et acide : deux sensations qui frappent vite et s'éteignent aussi vite. La sauce soya apporte le glutamate qui donne au plat une longueur en bouche, et c'est ce qui distingue un sunomono d'un concombre au vinaigre. Une cuillère à thé pour quatre portions représente environ 200 mg de sodium au total, soit 50 mg par personne — négligeable au compte de la journée."
+    },
+    {
+      "titre": "Deux essais, deux verdicts opposés — une seule variable",
+      "texte": "Premier essai : tranches dégorgées puis simplement épongées. Verdict à table — délavé, l'eau du concombre avait dilué la vinaigrette. Deuxième essai, le 11 août : tranches pressées fermement à deux reprises, à pleines mains, au-dessus de l'évier. Verdict — nettement meilleur, franc, la fonction de nettoyage du palais remplie. Aucune autre variable n'a changé. Le dégorgement au sel ne fait sortir qu'environ la moitié de l'eau ; le reste tient dans les cellules affaissées et n'en sort qu'à la pression mécanique. Signes visuels de réussite : rondelles translucides plutôt qu'opaques, souples plutôt que rigides, et fond du bol sec. Presser par petites poignées entre les paumes, plutôt qu'en serrant le poing sur une grosse quantité : la force appliquée est la même, mais les tranches se déchirent moins."
+    }
+  ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
   "video": {
     "youtube_id": "KYRAk2qY_h4",

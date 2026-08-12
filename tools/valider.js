@@ -19,6 +19,8 @@ const manifeste = fs.existsSync(path.join(DATA, 'manifeste.json')) ? lire('manif
 const optionnel = (n) => (fs.existsSync(path.join(DATA, n)) ? lire(n) : null);
 const annexes = optionnel('guide-2-annexes.json');
 const plan = optionnel('guide-5-plan.json');
+const historique = optionnel('historique-repas.json') || [];
+const inventaire = optionnel('inventaire.json') || [];
 
 const echecs = [];
 const regle = (n, titre, problemes) => {
@@ -51,6 +53,7 @@ for (const e of journal) {
   for (const p of e.plats || []) if (!identifiants.has(p)) renvois.push(`${e.id} → plats : ${p} inexistante`);
   for (const c of e.fiches_corrigees || []) if (!identifiants.has(c)) renvois.push(`${e.id} → fiches_corrigees : ${c} inexistante`);
 }
+for (const r of historique) for (const f of r.fiches || []) if (!identifiants.has(f)) renvois.push(`${r.date} ${r.repas} → fiches : ${f} inexistante`);
 regle(2, 'Tout identifiant référencé existe', renvois);
 
 // 3 — les photos locales existent sur le disque
@@ -293,6 +296,38 @@ if (!manifeste) {
 }
 regle(16, 'Le manifeste se suffit à lui-même', entree);
 
+/* 17 — l'historique et l'inventaire. Le document 10 est explicite sur ce qui
+   doit être exact dans ces deux fichiers : ce ne sont pas les quantités, qui
+   restent en langage naturel, ce sont LES DATES. C'est ce qui permet de dire
+   « les crevettes ont trois jours, sers-les demain » sans avoir à le demander. */
+const REPAS_HISTORIQUE = new Set(['dejeuner', 'diner', 'souper', 'collation', 'journee']);
+const VERDICTS = new Set(['excellent', 'bon', 'correct', 'rate', 'rejete']);
+const EMPLACEMENTS = new Set(['congelateur', 'frigo', 'garde-manger']);
+const STATUTS = new Set(['ok', 'a-utiliser', 'urgent', 'epuise']);
+const ISO = /^\d{4}-\d{2}-\d{2}$/;
+const idsJournal = new Set(journal.map((e) => e.id));
+
+const suivi = [];
+for (const r of historique) {
+  const ou = `${r.date} ${r.repas}`;
+  if (!ISO.test(r.date || '')) suivi.push(`${ou} : date mal formée`);
+  if (!REPAS_HISTORIQUE.has(r.repas)) suivi.push(`${ou} : repas « ${r.repas} » hors de la liste`);
+  if (r.verdict != null && !VERDICTS.has(r.verdict)) suivi.push(`${ou} : verdict « ${r.verdict} » hors de la liste`);
+  if (!(r.fiches || []).length && !(r.hors_fiche || []).length) suivi.push(`${ou} : ni fiche ni hors-fiche, l’enregistrement ne dit rien`);
+  if (r.journal != null && !idsJournal.has(r.journal)) suivi.push(`${ou} : renvoie à l’entrée de journal ${r.journal}, qui n’existe pas`);
+  if (!Number.isInteger(r.convives) || r.convives < 1) suivi.push(`${ou} : convives doit être un entier positif`);
+}
+for (const d of inventaire) {
+  const ou = d.nom || '(sans nom)';
+  if (!d.nom) suivi.push('une denrée sans nom');
+  if (!EMPLACEMENTS.has(d.emplacement)) suivi.push(`${ou} : emplacement « ${d.emplacement} » hors de la liste`);
+  if (!STATUTS.has(d.statut)) suivi.push(`${ou} : statut « ${d.statut} » hors de la liste`);
+  for (const cle of ['date_achat', 'date_limite']) {
+    if (d[cle] != null && !ISO.test(d[cle])) suivi.push(`${ou} : ${cle} mal formée (« ${d[cle]} »)`);
+  }
+}
+regle(17, 'L’historique et l’inventaire sont bien formés', suivi);
+
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }
-console.log(`Validation complète : ${fiches.length} fiches, ${ingredients.length} ingrédients, ${exercices.length} exercices, ${journal.length} entrées de journal.`);
+console.log(`Validation complète : ${fiches.length} fiches, ${ingredients.length} ingrédients, ${exercices.length} exercices, ${journal.length} entrées de journal, ${historique.length} repas, ${inventaire.length} denrées.`);

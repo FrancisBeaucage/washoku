@@ -72,6 +72,14 @@ function attrsSansClasse(brut) {
   return brut.replace(/\sclass="[^"]*"/, '');
 }
 
+/* Les champs de présentation vides ne s'écrivent pas. Le journal est fait pour
+   être écrit à la main : lui imposer `attrs: ''` sur chaque paragraphe serait
+   une taxe pure. `rendreBloc` traite l'absence et la chaîne vide pareil. */
+function sansVides(o) {
+  for (const cle of ['attrs', 'attrs_table', 'classe']) if (o[cle] === '') delete o[cle];
+  return o;
+}
+
 /* ── Analyse ──────────────────────────────────────────────────────────── */
 
 function analyserListe(source) {
@@ -81,13 +89,13 @@ function analyserListe(source) {
   let m;
   while ((m = re.exec(interieur))) elements.push(m[1] ? { attrs: m[1], texte: m[2] } : { texte: m[2] });
   if (!elements.length) return null;
-  return {
+  return sansVides({
     type: 'liste',
     ordonnee: nom === 'ol',
     classe: table.class || '',
     attrs: attrsSansClasse(brut),
     elements,
-  };
+  });
 }
 
 function analyserTableau(source) {
@@ -109,7 +117,7 @@ function analyserTableau(source) {
     if (longueur !== l[2].length) return null;
     lignes.push(l[1] ? { attrs: l[1], cellules } : { cellules });
   }
-  return { type: 'tableau', attrs: attrsSansClasse(brut), attrs_table: t[1], lignes };
+  return sansVides({ type: 'tableau', attrs: attrsSansClasse(brut), attrs_table: t[1], lignes });
 }
 
 function analyserNote(source) {
@@ -125,7 +133,7 @@ function analyserNote(source) {
     longueur += p[0].length;
   }
   if (longueur !== m[2].length) return null;
-  return { type: 'note', attrs: attrsSansClasse(brut), titre: m[1], paragraphes };
+  return sansVides({ type: 'note', attrs: attrsSansClasse(brut), titre: m[1], paragraphes });
 }
 
 /* Les annexes disposent leur contenu en colonnes : une grille CSS dont chaque
@@ -140,7 +148,7 @@ function analyserGrille(source, indent) {
     if (blanc !== `\n${indent}  `) return null;
     const c = attributs(col);
     if (c.nom !== 'div') return null;
-    colonnes.push({ attrs: c.brut, blocs: analyser(c.interieur, `${indent}    `).blocs });
+    colonnes.push(sansVides({ attrs: c.brut, blocs: analyser(c.interieur, `${indent}    `).blocs }));
   }
   return { type: 'grille', attrs: brut, colonnes };
 }
@@ -151,7 +159,7 @@ function analyserFigure(source, indent) {
     new RegExp(`^\\n${indent}  <img src="([^"]*)" alt="([^"]*)">\\n${indent}  <figcaption>([\\s\\S]*)<\\/figcaption>\\n${indent}$`)
   );
   if (!m) return null;
-  return { type: 'figure', attrs: attrsSansClasse(brut), fichier: m[1], alt: m[2], legende: m[3] };
+  return sansVides({ type: 'figure', attrs: attrsSansClasse(brut), fichier: m[1], alt: m[2], legende: m[3] });
 }
 
 /** Un élément de premier niveau → un bloc. */
@@ -161,7 +169,7 @@ function analyserBloc(source, indent) {
   const classe = table.class || '';
 
   if ((nom === 'p' || nom === 'h2' || nom === 'h3' || nom === 'h4') && !/<(div|ul|ol|table|figure)\b/.test(interieur)) {
-    return { type: 'texte', balise: nom, classe, attrs: attrsSansClasse(brut), texte: interieur };
+    return sansVides({ type: 'texte', balise: nom, classe, attrs: attrsSansClasse(brut), texte: interieur });
   }
   if (nom === 'ul' || nom === 'ol') { const l = analyserListe(source); if (l) return l; }
   if (nom === 'div' && classe === 'tw') { const t = analyserTableau(source); if (t) return t; }
@@ -233,4 +241,4 @@ function rendre(blocs, indent, queue = `\n${indent.slice(0, -2)}`) {
   return blocs.map((b) => (b.blanc != null ? b.blanc : `\n${indent}`) + rendreBloc(b, indent)).join('') + queue;
 }
 
-module.exports = { analyser, rendre, decouper, attributs, attrsSansClasse };
+module.exports = { analyser, rendre, decouper, attributs, attrsSansClasse, sansVides };

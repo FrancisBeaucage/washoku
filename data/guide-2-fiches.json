@@ -2894,7 +2894,7 @@
         "sante_pos": null
       },
       {
-        "texte": "300 ml de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de sucre",
+        "texte": "200 ml de dashi, 2 c. à soupe de soya, 2 c. à soupe de mirin, 1 c. à thé de sucre (soit ~100 ml de dashi par portion)",
         "sante": false,
         "sante_pos": null
       },
@@ -2904,7 +2904,7 @@
         "sante_pos": null
       },
       {
-        "texte": "Oignon vert, shichimi",
+        "texte": "Mitsuba ou oignon vert, shichimi togarashi",
         "sante": false,
         "sante_pos": null
       },
@@ -2928,14 +2928,31 @@
       },
       {
         "n": 3,
-        "texte": "Verser les œufs en spirale sur toute la surface. Couvrir, feu doux, 90 secondes."
+        "texte": "Verser les œufs en spirale sur toute la surface. Couvrir, feu doux, 90 secondes en poêle d'une portion, 2 minutes en poêle de deux portions. REPÈRE VISUEL PLUTÔT QUE MINUTERIE : le blanc doit être pris en voile et ne plus être translucide ; le jaune reste souple et brillant."
       },
       {
         "n": 4,
-        "texte": "Faire glisser sur le riz. Garnir d'oignon vert et de shichimi."
+        "texte": "Faire glisser la poêle entière sur le bol de riz. POUR DEUX PORTIONS EN UNE SEULE POÊLÉE : répartir d'abord le liquide à la louche, à parts égales dans les deux bols, PUIS faire glisser les solides. Le liquide ne se divise pas correctement à la spatule. Garnir de mitsuba ou d'oignon vert, et de shichimi."
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "titre": "Pourquoi le plat se fait une portion à la fois",
+        "texte": "La poêle traditionnelle de l'oyakodon s'appelle oyako-nabe (親子鍋) : elle contient exactement une portion et se vide d'un geste sur un bol. Ce n'est pas une question de température — le plat supporte très bien d'attendre deux minutes. C'est que le bouillon est la partie du plat qui ne se partage pas. Les morceaux de poulet et l'œuf se répartissent à vue ; le liquide, non. Servi en deux fois à la spatule, le premier bol reçoit les solides et le second reçoit le bouillon. Testé le 11 août : le second bol était une soupe de riz, mangée à la fourchette faute de pouvoir saisir quoi que ce soit aux baguettes."
+      },
+      {
+        "titre": "Le bol fait partie de la recette",
+        "texte": "Donburi (丼) désigne d'abord le bol, pas le plat : profond, à parois droites, plus étroit qu'une assiette creuse. Le riz y forme une masse épaisse que le bouillon traverse lentement, et la garniture reste au-dessus au lieu de s'étaler. Dans une assiette creuse large, la même portion de riz paraît maigre, le bouillon l'atteint de tous les côtés à la fois, et les grains se délient. Servi le 11 août en assiette creuse : le riz a été jugé insuffisant à la vue alors que la portion était correcte."
+      },
+      {
+        "titre": "Le mitsuba",
+        "texte": "Le mitsuba (三つ葉, « trois feuilles ») est la garniture classique de l'oyakodon. C'est une ombellifère japonaise proche du persil, herbacée et légèrement anisée, ajoutée crue à la toute fin — la chaleur du bol suffit à la libérer. L'oignon vert fonctionne et c'est ce que la fiche prévoyait, mais il pousse le plat vers le salé alors que le mitsuba l'aère. Se trouve au rayon des fines herbes des épiceries asiatiques, de façon irrégulière. À défaut, le cerfeuil s'en approche ; la coriandre, pas du tout."
+      },
+      {
+        "titre": "Pour un adulte et un adolescent",
+        "texte": "Cette fiche est écrite pour deux adultes. Servie telle quelle le 11 août à Francis et à son fils, elle représentait environ le double de ce que l'adolescent a mangé — il en a laissé la moitié. Pour ce cas de figure : faire une fois et demie la recette et répartir deux tiers / un tiers, plutôt que deux portions égales."
+      }
+    ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Oyakodon_003.jpg?width=1200",
     "video": {
       "youtube_id": "Vlp6ufKYDzk",
@@ -5367,7 +5384,16 @@
         "texte": "Garnir de wakame et de sésame."
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "titre": "La cuillère de soya n'est pas décorative",
+        "texte": "Sans elle, la vinaigrette n'est que sucrée et acide : deux sensations qui frappent vite et s'éteignent aussi vite. La sauce soya apporte le glutamate qui donne au plat une longueur en bouche, et c'est ce qui distingue un sunomono d'un concombre au vinaigre. Une cuillère à thé pour quatre portions représente environ 200 mg de sodium au total, soit 50 mg par personne — négligeable au compte de la journée."
+      },
+      {
+        "titre": "Deux essais, deux verdicts opposés — une seule variable",
+        "texte": "Premier essai : tranches dégorgées puis simplement épongées. Verdict à table — délavé, l'eau du concombre avait dilué la vinaigrette. Deuxième essai, le 11 août : tranches pressées fermement à deux reprises, à pleines mains, au-dessus de l'évier. Verdict — nettement meilleur, franc, la fonction de nettoyage du palais remplie. Aucune autre variable n'a changé. Le dégorgement au sel ne fait sortir qu'environ la moitié de l'eau ; le reste tient dans les cellules affaissées et n'en sort qu'à la pression mécanique. Signes visuels de réussite : rondelles translucides plutôt qu'opaques, souples plutôt que rigides, et fond du bol sec. Presser par petites poignées entre les paumes, plutôt qu'en serrant le poing sur une grosse quantité : la force appliquée est la même, mais les tranches se déchirent moins."
+      }
+    ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
     "video": {
       "youtube_id": "KYRAk2qY_h4",
@@ -5606,6 +5632,10 @@
       {
         "titre": "Le potassium, l'autre moitié de l'équation",
         "texte": "Les edamames sont une des meilleures sources de potassium du dossier, et le potassium contrebalance l'effet du sodium sur la tension. Une pincée de sel sur une tasse d'edamames n'est pas la même chose que la même pincée sur un aliment vide."
+      },
+      {
+        "titre": "Confirmé le 11 août",
+        "texte": "Cosses bouillies 5 minutes, égouttées, puis assaisonnées d'une demi-cuillère à thé de sel fin et d'une cuillère à thé d'huile de sésame grillé, mélangées dans le bol de service. Le bol de quatre portions a été terminé à deux. Verdict : « je n'étais pas tanné », par opposition explicite aux écossées nature, jugées fades après quelques bouchées. La mécanique décrite dans la note de la fiche se vérifie à table. Noter que l'huile de sésame n'était prévue que pour la version poêlée. Sur des cosses bouillies et égouttées, elle fonctionne aussi bien et devient la version de référence."
       }
     ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",

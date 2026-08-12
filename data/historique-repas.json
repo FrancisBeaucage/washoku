@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2026-08-09",
+    "repas": "dejeuner",
+    "fiches": [
+      "R3",
+      "R2",
+      "T7a",
+      "T7b"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 41,
+    "calories": 590,
+    "verdict": "bon",
+    "journal": "K-2026-08-09-dejeuner",
+    "notes": "Premier ichiju sansai complet. Cinq sources de soya dans un seul repas ; concombres épongés au lieu d'être pressés."
+  },
+  {
+    "date": "2026-08-09",
+    "repas": "souper",
+    "fiches": [
+      "T4",
+      "T1",
+      "R2",
+      "R44",
+      "T7a",
+      "T7b"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 52,
+    "calories": 715,
+    "verdict": "bon",
+    "journal": "K-2026-08-09-souper",
+    "notes": "Premier poisson. Saumon shioyaki réussi ; goma-ae raté sur les tiges, servi trop froid."
+  },
+  {
+    "date": "2026-08-10",
+    "repas": "journee",
+    "fiches": [
+      "T1",
+      "T2",
+      "R2",
+      "R48",
+      "R62",
+      "R10"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 77,
+    "calories": 955,
+    "verdict": "correct",
+    "journal": "K-2026-08-10-journee",
+    "notes": "Déjeuner et dîner comptés ensemble, la seule granularité que le journal donne. À peine 15 g de lipides sur la journée : fringale de sucré-salé en après-midi."
+  },
+  {
+    "date": "2026-08-10",
+    "repas": "souper",
+    "fiches": [
+      "R63",
+      "R60",
+      "T2",
+      "T5",
+      "T6",
+      "T7a"
+    ],
+    "hors_fiche": [],
+    "convives": 2,
+    "proteines_g": null,
+    "calories": null,
+    "verdict": "correct",
+    "journal": "K-2026-08-10-souper",
+    "notes": "Premier repas à deux. Plus de 200 g de bœuf dans un bol qui en demande 150 ; bouillon sous-dosé."
+  },
+  {
+    "date": "2026-08-11",
+    "repas": "dejeuner",
+    "fiches": [],
+    "hors_fiche": [
+      "Yogourt grec (2)"
+    ],
+    "convives": 1,
+    "proteines_g": null,
+    "calories": null,
+    "verdict": null,
+    "journal": "K-2026-08-11-journee",
+    "notes": "Levé à dix heures sans faim."
+  },
+  {
+    "date": "2026-08-11",
+    "repas": "diner",
+    "fiches": [
+      "T7a",
+      "R59"
+    ],
+    "hors_fiche": [
+      "Yogourt grec (2)"
+    ],
+    "convives": 1,
+    "proteines_g": null,
+    "calories": null,
+    "verdict": null,
+    "journal": "K-2026-08-11-journee",
+    "notes": "Parti pressé, pas envie du poisson qui attendait."
+  },
+  {
+    "date": "2026-08-11",
+    "repas": "collation",
+    "fiches": [],
+    "hors_fiche": [
+      "Yogourt grec"
+    ],
+    "convives": 1,
+    "proteines_g": null,
+    "calories": null,
+    "verdict": null,
+    "journal": "K-2026-08-11-journee",
+    "notes": "Vers dix-sept heures, faim marquée — le prix de la matinée."
+  },
+  {
+    "date": "2026-08-11",
+    "repas": "souper",
+    "fiches": [
+      "R19",
+      "R48",
+      "R45"
+    ],
+    "hors_fiche": [],
+    "convives": 2,
+    "proteines_g": 55,
+    "calories": 715,
+    "verdict": "excellent",
+    "journal": "K-2026-08-11-journee",
+    "notes": "Premier repas à deux réussi. Riz noyé dans le bol de Francis, bouillon mal réparti. 109 g de protéines sur la journée, sous le plancher de 130."
+  }
+]

@@ -9,7 +9,7 @@ génération l'écrasera.
 ## Le cycle
 
 ```bash
-npm run verifier   # les 16 règles + contrôle que HTML et JSON disent la même chose
+npm run verifier   # les 17 règles + contrôle que HTML et JSON disent la même chose
 npm run generer    # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
 
@@ -31,6 +31,8 @@ normal juste après une édition de `/data`.**
 | `guide-4-exercices.json` | Exercices | bloc `E` de `guide-4-bouger.html` |
 | `guide-5-plan.json` | Cibles chiffrées et sections du plan | sections `#s1` à `#s5` de `guide-5-plan.html` |
 | `guide-6-journal.json` | Entrées du journal | section `#s4` de `guide-6-journal.html` |
+| `historique-repas.json` | Ce qui a été mangé, un enregistrement par repas | — |
+| `inventaire.json` | Ce qui est au congélateur, au frigo et au garde-manger | — |
 
 Ce qui reste en HTML, et pourquoi : le guide 1, les proses des guides 3 et 4, et
 les sections d'explication du guide 6. C'est de la prose longue et stable, déjà
@@ -52,8 +54,22 @@ improvisés faute de pouvoir lire la source de vérité.
    Environ 25 Ko, contre 230 pour le recueil.
 3. `fiches/<ID>.json` — les deux ou trois fiches d'un repas, et rien d'autre.
 
-`guide-2-fiches.json` ne se récupère que si le recueil entier est réellement
-nécessaire — un audit, par exemple.
+**Ne jamais charger `guide-2-fiches.json`** — le recueil complet — sauf pour un
+audit. C'est neuf fois le poids de l'index pour la même information.
+
+GitHub Pages sert `/data` avec `cache-control: max-age=600`, et certains outils
+de récupération ajoutent leur propre cache, plus long. **Toujours interroger avec
+un paramètre anti-cache :**
+
+```bash
+curl -s "https://francisbeaucage.github.io/washoku/data/manifeste.json?cb=$(date +%s)"
+```
+
+Un fichier qui paraît périmé vient presque toujours de là. Le 11 août 2026, un
+bogue de génération a été signalé sur cette base : le manifeste était correct en
+local, dans `HEAD` et en ligne, et c'est le cache de l'outil de récupération qui
+servait une copie du document 7. Vérifier avec le paramètre anti-cache avant de
+conclure à un défaut du générateur.
 
 Le domaine n'est écrit qu'à un seul endroit : la constante `BASE_URL` de
 `tools/lib/sources.js`. Un déménagement se corrige là et nulle part ailleurs.
@@ -78,6 +94,36 @@ curl -s "https://francisbeaucage.github.io/washoku/data/manifeste.json?cb=$(date
 fois de plus par le même script. La règle 15 vérifie qu'elles n'ont pas divergé ;
 une divergence signale un générateur cassé, pas une faute de saisie.
 
+## L'historique et l'inventaire
+
+Ces deux fichiers ne se rendent nulle part : ils vivent dans `/data` et servent à
+la planification. Ils figurent quand même au manifeste, sinon un agent extérieur
+ne peut pas les atteindre.
+
+`historique-repas.json` — un enregistrement par repas. Il existe parce que le
+11 août 2026 un sunomono a été proposé comme un plat neuf alors qu'il avait été
+cuisiné quelques jours plus tôt, et que personne n'avait de moyen de le savoir.
+
+- **`fiches`** — les identifiants cuisinés. **`hors_fiche`** recueille ce qui a
+  été mangé sans fiche correspondante : yogourt, onigiri du commerce, restaurant.
+  Sa présence répétée signale qu'une fiche manque au recueil.
+- **`repas`** — `dejeuner`, `diner`, `souper`, `collation`, ou `journee` quand la
+  source ne distingue pas mieux.
+- **`verdict`** — `excellent`, `bon`, `correct`, `rate`, `rejete`, ou `null`
+  quand rien ne le dit. Ne pas inventer un jugement pour remplir le champ.
+- **`journal`** — l'entrée du guide 6 d'où vient l'enregistrement, quand il y en
+  a une. La règle 17 vérifie qu'elle existe.
+
+`inventaire.json` — une denrée par objet. **Ce n'est pas un suivi au gramme
+près :** `quantite` est du langage naturel approximatif. Ce qui doit être exact,
+ce sont les **dates** — c'est ce qui permet de dire « les crevettes ont trois
+jours, sers-les demain » sans avoir à le demander. `emplacement` vaut
+`congelateur`, `frigo` ou `garde-manger` ; `statut` vaut `ok`, `a-utiliser`,
+`urgent` ou `epuise`.
+
+La règle 17 contrôle le format des dates et les valeurs des listes fermées ; la
+règle 2 vérifie que les fiches citées existent.
+
 ## Le contrat de mise en forme
 
 C'est le piège principal du dossier, parce qu'il n'est **pas uniforme**.
@@ -89,6 +135,14 @@ quels. Une balise `<strong>` s'y afficherait en toutes lettres. Pour insister,
 
 **Les champs du guide 3 acceptent du HTML simple** — `description`,
 `ou_le_trouver`, `a_quoi_ca_ressemble`, `note.texte`.
+
+Le guide 3 porte aussi trois champs de repérage en magasin :
+`noms_alternatifs` (les autres noms sous lesquels le produit se vend — le
+shichimi togarashi s'étiquette « Nanami Togarashi », et la recherche de la page
+balaie ce champ), `description_visuelle` (à quoi ressemble l'emballage en rayon)
+et `zone_magasin` (`entree-droite`, `mur-du-fond`, `allees-centrales`,
+`congelateurs`, `fin-de-magasin`). Les deux derniers ne se rendent pas dans la
+page : voir « Les champs hors page » ci-dessous.
 
 **Le journal, les annexes et le plan sont composés de blocs**, et leurs champs
 texte acceptent les balises **en ligne** : `<a>`, `<strong>`, `<em>`, `<span>`,
@@ -121,6 +175,24 @@ contenu. Ils existent pour que l'aller-retour soit exact ; on n'y touche pas.
 
 `tools/extraire.js` refuse d'écrire si `rendre(analyser(page)) !== page`. C'est
 ce qui garantit qu'aucune migration ne perd de contenu en chemin.
+
+Les champs de présentation vides ne s'écrivent pas : un paragraphe sans style
+n'a ni `attrs` ni `classe`. C'est ce qui rend le journal écrivable à la main.
+
+## Les champs hors page
+
+Certains champs vivent dans `/data` et nulle part ailleurs : la page ne les rend
+pas, donc on ne peut pas les en relire. Une réextraction les écraserait.
+
+| Fichier | Champs |
+|---|---|
+| `guide-2-fiches.json` | `nutrition.source` |
+| `guide-3-ingredients.json` | `description_visuelle`, `zone_magasin` |
+
+Ils sont déclarés dans `champs_hors_page` de `tools/lib/sources.js`, et
+`extraire.js` les recopie depuis le JSON existant au lieu de les perdre. Ajouter
+un champ de ce genre sans l'y déclarer, c'est le condamner à disparaître à la
+prochaine réextraction.
 
 ## Ce qu'il faut savoir avant d'éditer
 

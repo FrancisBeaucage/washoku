@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
-const { SOURCES, PROSES, RACINE, DATA, BASE_URL } = require('./lib/sources');
+const { SOURCES, PROSES, DONNEES_SEULES, RACINE, DATA, BASE_URL } = require('./lib/sources');
 const { lireBloc, remplacerBloc, lireFichier, ecrireFichier } = require('./lib/blocs');
 const { objetMultiligne, tableau } = require('./lib/ecrire-js');
 
@@ -123,6 +123,19 @@ for (const n of NOMBRES) {
   const mauvais = trouves.filter((t) => t !== attendu);
   if (mauvais.length && verifier) { console.error(`✗ ${n.page} : compteur périmé « ${mauvais[0]} », attendu « ${attendu} »`); ecarts += 1; }
   if (!verifier) ecrireFichier(chemin, html.replace(n.motif, attendu));
+}
+
+for (const src of DONNEES_SEULES) {
+  const chemin = path.join(DATA, `${src.cle}.json`);
+  const donnees = fs.existsSync(chemin) ? lireJson(chemin) : [];
+  fichiers.push({
+    nom: `${src.cle}.json`,
+    url: adresse(`${src.cle}.json`),
+    description: src.description,
+    nb_entrees: donnees.length,
+    nb_actives: donnees.length,
+  });
+  console.log(`${verifier ? 'vérifié' : 'lu     '} data/${src.cle}.json — ${donnees.length} entrées`);
 }
 
 /* ── Les deux vues qui servent la lecture depuis l'extérieur ──────────── */

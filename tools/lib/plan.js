@@ -46,7 +46,7 @@ function versSection(s) {
     source: `<div style="${G.banniere}">\n${INDENT}  <span style="${G.numero}">${s.numero}</span>` +
       `\n${INDENT}  <span title="${s.jp_infobulle}" style="${G.jp}">${s.jp}</span>\n${INDENT}</div>`,
   };
-  const titre = { type: 'texte', balise: 'h2', classe: '', attrs: ` style="${G.titre}"`, texte: s.titre };
+  const titre = { type: 'texte', balise: 'h2', attrs: ` style="${G.titre}"`, texte: s.titre };
   return P.rendre([banniere, titre, ...s.corps], INDENT, '\n  ');
 }
 

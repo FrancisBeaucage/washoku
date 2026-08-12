@@ -24,7 +24,7 @@ function decoderEntete(entete) {
   const date = `${m[3]}-${String(mois + 1).padStart(2, '0')}-${String(m[1]).padStart(2, '0')}`;
   const libelle = m[4].toLowerCase();
   let repas;
-  if (libelle.includes(' et ')) repas = 'journee';
+  if (libelle.includes(' et ') || /^(la )?journée/.test(libelle)) repas = 'journee';
   else if (libelle.startsWith('déjeuner')) repas = 'dejeuner';
   else if (libelle.startsWith('dîner')) repas = 'diner';
   else if (libelle.startsWith('souper')) repas = 'souper';
@@ -133,7 +133,7 @@ function versJson(source, commentaire) {
 function versEntree(e) {
   const tete = [
     { type: 'texte', balise: 'p', classe: 'entry-eyebrow', texte: e.entete },
-    { type: 'texte', balise: 'h3', classe: '', texte: e.titre },
+    { type: 'texte', balise: 'h3', texte: e.titre },
     { type: 'texte', balise: 'p', classe: 'fiches', texte: encoderFiches(e.plats, e.plats_libelles) },
     { type: 'texte', balise: 'p', classe: 'kicker', texte: e.resume },
   ];

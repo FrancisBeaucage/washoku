@@ -1,5 +1,101 @@
 [
   {
+    "id": "K-2026-08-11-journee",
+    "statut": "actif",
+    "date": "2026-08-11",
+    "repas": "journee",
+    "entete": "11 août 2026 · La journée",
+    "titre": "Le bol parent-enfant, et ce que le bouillon m'a appris",
+    "plats": [
+      "R19",
+      "R48",
+      "R45",
+      "R59",
+      "T7a"
+    ],
+    "plats_libelles": {
+      "R19": "oyakodon",
+      "R48": "edamames",
+      "R45": "sunomono",
+      "R59": "onigiri du commerce",
+      "T7a": "œuf mariné"
+    },
+    "fiches_corrigees": [
+      "R19",
+      "R45",
+      "R48"
+    ],
+    "resume": "Ce qui a été cuisiné&nbsp;: oyakodon, edamames en cosses au sel et à l'huile de sésame, sunomono de concombre. Le premier repas du dossier servi à deux — et une journée entière passée sous le plancher de protéines.",
+    "photos": [],
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Je me suis levé à dix heures sans faim. J'ai mangé deux yogourts grecs. À midi je suis parti pressé, je n'avais pas envie du poisson qui m'attendait, alors j'ai pris un œuf mariné, un onigiri du commerce et deux autres yogourts. Vers cinq heures j'avais tellement faim que j'en ai pris un cinquième. J'ai fini par souper à neuf heures."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Cent neuf grammes de protéines sur la journée. Mon plancher est à cent trente. Ce n'est pas le souper qui a manqué — le souper était bon. C'est que j'ai passé la journée à manger des choses qui ne comptent pas, et que la faim de cinq heures était le prix de la matinée. Le poste collation existe dans mon plan depuis le début et je ne l'ai jamais utilisé une seule fois."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Le souper, par contre. C'est le meilleur repas depuis que j'ai commencé. Oyakodon — le bol parent-enfant, le poulet et l'œuf dans le même plat. Mon fils mangeait avec moi, c'était la première fois. Des edamames en cosses au sel et à l'huile de sésame, qu'on a fini au complet à deux, alors que les mêmes fèves écossées et nues m'avaient écœuré en trois bouchées. Un sunomono de concombre, le deuxième que je fais, et cette fois j'ai pressé les tranches au lieu de les éponger. La différence est complète&nbsp;: le premier était délavé, celui-là nettoie la bouche. Je n'aime pas particulièrement le concombre et j'en remangerais."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Ce que j'ai appris est dans le bouillon. J'ai tout cuit dans une seule poêle et j'ai séparé en deux assiettes. Les morceaux de poulet, l'œuf, les oignons, ça se sépare à vue. Le liquide, non. J'ai servi mon fils en premier, il a eu les solides, et j'ai eu le bouillon. Son riz tenait aux baguettes&nbsp;; le mien s'est dissous et j'ai fini à la fourchette. La vidéo que j'avais regardée disait de faire une portion à la fois et je pensais que c'était une question de garder le plat chaud. Ce n'est pas ça du tout. C'est qu'il n'existe pas de façon de partager un bouillon à la spatule."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Le shichimi, aussi. On m'avait dit un quart de cuillère à thé&nbsp;; j'en ai mis trois fois plus et c'était le bon dosage. Mon fils en a mis aussi. C'est la première fois qu'un condiment nous fait tous les deux redemander."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "h5",
+        "texte": "Ce qui change"
+      },
+      {
+        "type": "liste",
+        "ordonnee": false,
+        "classe": "l",
+        "elements": [
+          {
+            "texte": "<strong>Le bouillon se répartit à la louche avant les solides.</strong> Il ne se divise pas à la spatule. → <a href=\"guide-2-recettes.html#R19\"><em>R19</em></a>"
+          },
+          {
+            "texte": "<strong>200 ml de dashi pour deux portions, pas 300.</strong> Le poulet doit baigner à mi-hauteur, pas disparaître. → <a href=\"guide-2-recettes.html#R19\"><em>R19</em></a>"
+          },
+          {
+            "texte": "<strong>L'œuf prend 2 minutes en poêle de deux portions</strong>, et c'est le voile pris qui décide, pas la minuterie. → <a href=\"guide-2-recettes.html#R19\"><em>R19</em></a>"
+          },
+          {
+            "texte": "<strong>Le donburi est un bol profond, pas une assiette creuse.</strong> Le contenant décide de la portion, ici comme partout. → <a href=\"guide-2-recettes.html#R19\"><em>R19</em></a>"
+          },
+          {
+            "texte": "<strong>Les tranches de sunomono se pressent, jamais ne s'épongent.</strong> Deux essais, une seule variable, verdicts opposés. → <a href=\"guide-2-recettes.html#R45\"><em>R45</em></a>"
+          },
+          {
+            "texte": "<strong>Les edamames en cosses passent au sel et à l'huile de sésame</strong>, même bouillies. C'est la version de référence. → <a href=\"guide-2-recettes.html#R48\"><em>R48</em></a>"
+          },
+          {
+            "texte": "<strong>Le poste collation cesse d'être théorique.</strong> Vingt-cinq grammes de protéines y sont prévus et n'ont jamais été pris. → <a href=\"guide-5-plan.html#s4\"><em>Guide 5, §4</em></a>"
+          }
+        ]
+      }
+    ],
+    "commentaire_source": "Entrée 11 août — journée"
+  },
+  {
     "id": "K-2026-08-10-souper",
     "statut": "actif",
     "date": "2026-08-10",
@@ -46,7 +142,6 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Trois cuissons en parallèle, réussies du premier coup. Il y a deux jours, je n'aurais pas tenté ça.",
         "blanc": "\n\n        "
       },
@@ -54,14 +149,12 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Le plat était correct. Je l'ai mangé presque au complet. Mais «&nbsp;correct&nbsp;» est le mot juste, et en le regardant de près il y a beaucoup à apprendre."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le verdict",
         "blanc": "\n\n        "
       },
@@ -69,63 +162,54 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>La photo dit l'essentiel&nbsp;: on ne voit pas les nouilles.</strong> Un niku-udon, c'est un bol de nouilles garni de bœuf. J'avais un bol de bœuf avec des nouilles cachées dessous. Plus de 200 g de viande dans un bol qui en demande 150. Il y en avait tellement que je n'avais plus faim avant la fin."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "C'est la deuxième fois en deux jours. La veille, c'était une boîte entière de thon sur un hiyayakko qui demandait une pincée de katsuobushi. Le motif est clair&nbsp;: quand il manque des protéines pour atteindre la cible, on charge un composant jusqu'à ce que le chiffre tombe juste, et le plat cesse d'être lui-même. La réponse japonaise est pourtant simple et elle est dans la structure du repas — <em>ichiju gosai</em>, une soupe et cinq plats. <strong>On ajoute un petit plat. On ne grossit pas les bols.</strong>"
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le bouillon manquait de goût, et ce n'était pas le sel.</strong> C'est ce que j'ai cru sur le coup. En réalité, j'avais monté un bouillon de nouilles avec un dashi dosé pour une soupe miso — cinq grammes de katsuobushi là où il en fallait quinze — et un rapport de sauce soya quatre fois trop dilué. Sans miso pour apporter le corps, il ne restait que de l'eau parfumée."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "La leçon vaut plus large&nbsp;: <strong>le sel amplifie, il ne crée pas</strong>. Devant un bouillon fade, les deux vrais leviers sont l'umami et le gras, et ni l'un ni l'autre ne coûte un milligramme de sodium. Plus de katsuobushi. Des shiitake séchés, pour le guanylate qui se combine au glutamate du kombu et à l'inosinate de la bonite. Le gras de la poêle où la viande a été saisie."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le gingembre était trop fort.</strong> Des juliennes de 2 à 3 mm laissées dans le bouillon jusqu'au bol&nbsp;: chaque bouchée qui en contenait deux ou trois était une décharge. Le gingembre qui parfume un bouillon se met en tranches larges et se retire avant de servir. Le gingembre qui se mange, c'est le <em>harishoga</em>, taillé à moins d'un millimètre et trempé à l'eau froide. Deux gestes différents que j'avais confondus."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le bok choy, je l'arrête.</strong> Deuxième fois que sa texture ne me plaît pas. La technique était en cause — un légume blanchi trois jours plus tôt puis réchauffé dans un bouillon ne peut que ramollir — mais même bien fait, ce n'est pas un légume que j'ai envie de retrouver dans une soupe. Il reste bon en goma-ae, où il est pressé. Pour les bouillons&nbsp;: chou nappa, champignons, fèves germées, épinards."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le bœuf était coriace</strong>, et c'est une question d'achat plus que de cuisson. Des lanières à sauter du supermarché font 4 à 5 mm et viennent de coupes travaillantes. La viande à fondue fait 1 à 2 mm — c'est l'épaisseur du shabu-shabu et du sukiyaki, et à cette finesse la coupe d'origine cesse de compter. J'ai aussi surchargé la poêle&nbsp;: plus de 200 g d'un coup, ça bout au lieu de saisir."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Les oignons verts avaient perdu leur mordant.</strong> Tranchés trois jours plus tôt pendant la session de préparation. Les composés soufrés sont volatils&nbsp;: après 48 heures, il reste la couleur. C'est la seule garniture qu'une session du dimanche ne doit pas préparer d'avance."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Ce qui change",
         "blanc": "\n\n        "
       },
@@ -133,7 +217,6 @@
         "type": "liste",
         "ordonnee": false,
         "classe": "l",
-        "attrs": "",
         "elements": [
           {
             "texte": "<strong>La viande à fondue remplace les lanières à sauter.</strong> → <a href=\"guide-3-supermarche.html\"><em>Guide 3</em></a> et <a href=\"guide-2-recettes.html#R63\"><em>R63</em></a>"
@@ -210,7 +293,6 @@
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le déjeuner",
         "blanc": "\n\n        "
       },
@@ -218,35 +300,30 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Le déjeuner était bon. Le riz réchauffé trois fois sur trois sans rater, les flocons de saumon qui n'ont besoin de rien — la chaleur du riz fait tout le travail — et une soupe miso montée au katsuobushi seul, sans kombu, que je n'ai pas distinguée de la version complète."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Cette non-différence est une bonne nouvelle. Le miso est déjà bourré de glutamate, exactement ce que le kombu apporte&nbsp;: il le masque. Le kombu compte quand le dashi <em>est</em> le plat, pas quand il est le fond d'une soupe miso. Et comme un gramme de kombu séché peut porter jusqu'à 3 000 µg d'iode contre une limite quotidienne d'environ 1 100, retirer le kombu du dashi de tous les jours règle deux problèmes d'un coup&nbsp;: une étape de moins, et la question de l'iode qui disparaît."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Deux choses ont accroché."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Les edamames écossées servies nature étaient fades. J'avais écrit dans le plan «&nbsp;aucun sel&nbsp;», en m'appuyant sur un raisonnement juste — la cosse est ce qui porte le sel, et sans elle on avale tout ce qu'on ajoute. Le raisonnement tient. La conclusion ne tenait pas. Une fève écossée nature dans un bol séparé n'a aucun mécanisme de rattrapage, et ce n'est pas un goût auquel on s'habitue. Une pincée en surface à table coûte 145 mg de sodium et rend le bol mangeable. Le gomashio ferait mieux encore&nbsp;: même sel, porté par du sésame."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Et je me suis réveillé à 8 h 15 sans pouvoir envisager de manger du poisson. J'ai mangé à 9 h 30. Ce n'est pas un problème à corriger&nbsp;: un déjeuner japonais demande d'être réveillé, et manger une heure plus tard est une solution parfaitement viable. Au réveil, c'est le thé — hojicha, chaud, rien d'autre. C'est d'ailleurs l'usage japonais."
       },
       {
@@ -258,7 +335,6 @@
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le dîner",
         "blanc": "\n\n        "
       },
@@ -266,49 +342,42 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Le dîner, lui, était raté — et pas par ma faute d'exécution."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Sur la photo, on ne voit pas le tofu. Pas un morceau. Une boîte entière de germon, environ 120 g égouttés, sur 150 g de tofu soyeux&nbsp;: la garniture pesait presque autant que le sujet. Or dans un hiyayakko, le tofu <em>est</em> le plat et la garniture est un condiment — une pincée de katsuobushi, du gingembre, du negi. Ce que j'avais dans le bol n'était ni un hiyayakko ni une salade de thon. Deux plats à moitié."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "C'était fade, et il y avait trois raisons."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Le ponzu n'a jamais touché la nourriture. Deux cuillères à thé versées sur un monticule traversent le tas et se ramassent au fond du bol&nbsp;: je l'ai goûté dans une bouchée sur dix. Ce n'était pas une question de quantité mais de placement. Un liquide d'assaisonnement se mélange à la garniture, ou se verse en dessous, jamais par-dessus."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Il n'y avait aucun gras. Du germon dans l'eau égoutté à fond, c'est moins d'un gramme de lipides aux 100 g. Le gras transporte les arômes et les fait durer en bouche&nbsp;; sans lui, un plat froid se lit comme fade même bien assaisonné. Une demi-cuillère à thé d'huile de sésame grillé — 20 calories — aurait changé le plat."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Et «&nbsp;ça goûtait l'eau&nbsp;» était littéralement vrai. Le tofu soyeux est à 88&nbsp;% d'eau, son goût est délicat par construction, et un thon en conserve humide et neutre ne compense rien. Deux éléments aqueux et pâles superposés. Le vrai hiyayakko fonctionne parce que le katsuobushi est l'inverse&nbsp;: sec, minuscule, d'une densité d'umami énorme."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le constat de la journée",
         "blanc": "\n\n        "
       },
@@ -316,28 +385,24 @@
         "type": "texte",
         "balise": "p",
         "classe": "count",
-        "attrs": "",
         "texte": "~955 cal · ~77 g de protéines · <strong>~15 g de lipides</strong> <span class=\"cible\">(plancher&nbsp;: 50 g de lipides)</span>"
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Deux repas, 77 g de protéines, environ 955 calories — et à peine 15 g de lipides. En milieu d'après-midi, envie de chips, de chocolat, de jujubes, sans avoir faim."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Ce n'est pas de l'indiscipline. C'est le corps qui réclame ce qui manquait au menu. <strong>Un repas fade et sans gras se paie deux heures plus tard, et il se paie plus cher qu'une cuillère à thé d'huile de sésame.</strong>"
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Ce qui change",
         "blanc": "\n\n        "
       },
@@ -345,7 +410,6 @@
         "type": "liste",
         "ordonnee": false,
         "classe": "l",
-        "attrs": "",
         "elements": [
           {
             "texte": "<strong>Katsuo dashi seul</strong> pour la soupe de tous les jours. → <a href=\"guide-2-recettes.html#T2\"><em>T2</em></a>"
@@ -414,13 +478,11 @@
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le plateau",
         "blanc": "\n\n        "
       },
       {
         "type": "tableau",
-        "attrs": "",
         "attrs_table": " style=\"min-width:0\"",
         "lignes": [
           {
@@ -586,14 +648,12 @@
         "type": "texte",
         "balise": "p",
         "classe": "count",
-        "attrs": "",
         "texte": "~715 cal · ~52 g de protéines <span class=\"cible\">(cible souper&nbsp;: 750 cal / 60 g)</span>"
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le verdict",
         "blanc": "\n\n        "
       },
@@ -601,49 +661,42 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le saumon&nbsp;: la réussite de la journée.</strong> Peau croustillante, dorée, franchement colorée. Les 4-5 minutes sans y toucher font exactement ce qu'elles promettent. Un coin a poussé un peu loin — pas brûlé, caramélisé, et bon quand même. Le sel à ½ c. à thé était juste."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le riz&nbsp;: problème réglé.</strong> À l'œil, il avait encore l'air pris en bloc — mais au premier geste de baguettes, il s'est ouvert et détendu. Excellent. Le problème de la veille n'était ni la cuisson, ni la congélation, ni le temps de micro-ondes&nbsp;: c'était les cinq minutes passées à refroidir dans le four après le signal."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>La soupe&nbsp;: le bouillon est ce qu'on aime.</strong> Le dashi et le wakame portent le plat. Le tofu, moins — et il y en avait trop. 80 g, c'est le double d'une soupe miso japonaise. Ça vient de la chasse aux protéines, et ça déforme le plat."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le goma-ae&nbsp;: réussi sur les feuilles, raté sur les tiges.</strong> Les feuilles étaient très bonnes. Les tiges, servies entières, n'ont reçu du sésame qu'en surface — et il restait de l'eau à l'intérieur, qu'on sentait à la mastication. Servi trop froid, aussi."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Les concombres&nbsp;: «&nbsp;corrects&nbsp;».</strong> Deuxième fois en deux jours. Nettement moins amers après pression à pleine main et rinçage, mais ce n'est pas un plat qui convainc."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>L'œuf mariné&nbsp;: le blanc est bon, le jaune interroge.</strong> Le jaune crémeux — ni coulant, ni cuit — est une texture qu'on ne connaît pas ici. Quatre essais, quatre fois la même hésitation."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Ce que j'ai appris",
         "blanc": "\n\n        "
       },
@@ -651,7 +704,6 @@
         "type": "liste",
         "ordonnee": true,
         "classe": "l",
-        "attrs": "",
         "elements": [
           {
             "texte": "<strong>Le riz réchauffé doit sortir du micro-ondes.</strong> Une minute de repos couvert, pas cinq. Passé ce délai il ne repose plus, il refroidit — et en repassant sous 60 °C il recommence à rétrograder. C'est le même durcissement qu'au frigo, en accéléré. → <a href=\"guide-2-recettes.html#T1\"><em>T1</em></a>"
@@ -689,7 +741,6 @@
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "La prochaine fois",
         "blanc": "\n\n        "
       },
@@ -697,7 +748,6 @@
         "type": "liste",
         "ordonnee": false,
         "classe": "l",
-        "attrs": "",
         "elements": [
           {
             "texte": "<strong>Œufs à 9 minutes</strong> au prochain lot (jaune pris mais encore tendre)"
@@ -757,13 +807,11 @@
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le plateau",
         "blanc": "\n\n        "
       },
       {
         "type": "tableau",
-        "attrs": "",
         "attrs_table": " style=\"min-width:0\"",
         "lignes": [
           {
@@ -905,14 +953,12 @@
         "type": "texte",
         "balise": "p",
         "classe": "count",
-        "attrs": "",
         "texte": "~590 cal · ~41 g de protéines <span class=\"cible\">(cible déjeuner&nbsp;: 450 cal / 40 g)</span>"
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le verdict",
         "blanc": "\n\n        "
       },
@@ -920,42 +966,36 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>La soupe miso&nbsp;: excellente.</strong> Rien à redire. Opaque, homogène, sans grumeaux. Le tofu tient ses cubes, le wakame est bien dosé. Le dashi maison fait toute la différence."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Les œufs marinés&nbsp;: réussis du premier coup.</strong> Jaune orangé fondant au centre, pris sur le pourtour, blanc teinté par la marinade. Les 7 minutes sont le bon chiffre."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le natto&nbsp;: verdict en suspens.</strong> Pas mauvais, mais les dernières bouchées sont difficiles. Il y en a beaucoup. Ce n'est pas un rejet du goût — c'est de la saturation. Le mélange avec l'oignon vert semble donner un mauvais goût, à vérifier."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Les concombres&nbsp;: un peu amers.</strong> Le bout de la tige n'a pas été jeté, et surtout ils ont été <strong>épongés</strong> au papier absorbant au lieu d'être <strong>pressés</strong> à la main. L'eau amère est restée dedans."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>La satiété&nbsp;: c'est le vrai résultat.</strong> Plein pour un bon bout, avec 590 calories. Un déjeuner québécois équivalent en ferait 900."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Ce que j'ai appris",
         "blanc": "\n\n        "
       },
@@ -963,7 +1003,6 @@
         "type": "liste",
         "ordonnee": true,
         "classe": "l",
-        "attrs": "",
         "elements": [
           {
             "texte": "<strong>Presser n'est pas éponger.</strong> La cucurbitacine du concombre est soluble dans l'eau&nbsp;: elle sort avec l'eau que le sel tire des cellules — mais seulement si on presse pour de vrai. Éponger enlève la surface et laisse l'amertume. → <a href=\"guide-2-recettes.html\"><em>T7b</em></a>"
@@ -986,7 +1025,6 @@
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "La prochaine fois",
         "blanc": "\n\n        "
       },
@@ -994,7 +1032,6 @@
         "type": "liste",
         "ordonnee": false,
         "classe": "l",
-        "attrs": "",
         "elements": [
           {
             "texte": "Demi-barquette de natto, pas une entière"
@@ -1049,7 +1086,6 @@
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "La séquence",
         "blanc": "\n\n        "
       },
@@ -1057,20 +1093,17 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "Une seule mise en place pour toute la semaine. Le riz au cuiseur en premier parce qu'il est le plus long&nbsp;; le dashi pendant qu'il cuit&nbsp;; les œufs et les légumes en parallèle&nbsp;; la marinade des œufs et le salage des concombres pour finir, parce qu'ils travaillent seuls au frigo ensuite."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Ce qui en est sorti",
         "blanc": "\n\n        "
       },
       {
         "type": "tableau",
-        "attrs": "",
         "attrs_table": " style=\"min-width:0\"",
         "lignes": [
           {
@@ -1193,14 +1226,12 @@
         "type": "texte",
         "balise": "p",
         "classe": "count",
-        "attrs": "",
         "texte": "Durée totale&nbsp;: environ 1 h 15."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Le verdict",
         "blanc": "\n\n        "
       },
@@ -1208,42 +1239,36 @@
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Ça tient en une session.</strong> C'était le vrai pari&nbsp;: est-ce que cinq techniques enchaînées dans une soirée, c'est faisable sans que ça devienne un projet&nbsp;? Oui. Une heure et quart, et la semaine est ouverte."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le dashi est la surprise.</strong> Fait pour la première fois, réussi du premier coup, et c'est lui qui porte tout le reste. Rien dans la méthode n'est difficile — kombu, katsuobushi, deux températures."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le cuiseur à riz prend 50 minutes.</strong> Ce n'était pas une panne. Un cuiseur à logique floue prend son temps&nbsp;: il fait tremper, il monte progressivement, il laisse reposer. C'est ce qui fait la qualité."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Les concombres ont été ratés à l'étape la plus simple.</strong> Épongés au papier absorbant au lieu d'être pressés à pleine main. Le résultat a été amer aux deux repas suivants. Une consigne mal comprise, pas une technique difficile."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "p",
-        "attrs": "",
         "texte": "<strong>Le bok choy a révélé que la fiche T6 ne parle pas de lui.</strong> Elle est écrite pour l'épinard. Un bok choy a des tiges épaisses et des feuilles minces qui ne cuisent pas au même rythme, et il ne se traite pas du tout de la même manière."
       },
       {
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "Ce que j'ai appris",
         "blanc": "\n\n        "
       },
@@ -1251,7 +1276,6 @@
         "type": "liste",
         "ordonnee": true,
         "classe": "l",
-        "attrs": "",
         "elements": [
           {
             "texte": "<strong>T6 (blanchiment) décrit une seule technique alors qu'il y en a deux.</strong> Les verdures molles (épinard) et les verdures à tiges (bok choy, nappa, gai lan) demandent des gestes différents&nbsp;: blanchiment en deux temps, pression modulée, découpe ou non. → <a href=\"guide-2-recettes.html#T6\"><em>T6, scindée en famille A et famille B</em></a>"
@@ -1271,7 +1295,6 @@
         "type": "texte",
         "balise": "p",
         "classe": "h5",
-        "attrs": "",
         "texte": "La prochaine fois",
         "blanc": "\n\n        "
       },
@@ -1279,7 +1302,6 @@
         "type": "liste",
         "ordonnee": false,
         "classe": "l",
-        "attrs": "",
         "elements": [
           {
             "texte": "<strong>Presser</strong> les concombres à pleine main, pas éponger"

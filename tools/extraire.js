@@ -43,6 +43,31 @@ for (const src of SOURCES) {
 
   if (src.cle === 'guide-3-ingredients') objets.forEach((o) => { o.id = limace(o.fr); });
 
+  /* Les champs qui ne se rendent pas dans la page ne peuvent pas en être
+     relus. Sans cette reprise, une réextraction ramènerait `nutrition.source`
+     à « estime » sur des fiches passées à « etiquette », et viderait les
+     champs de repérage en magasin du guide 3. */
+  const precedent = path.join(DATA, `${src.cle}.json`);
+  if (src.champs_hors_page && fs.existsSync(precedent)) {
+    const parId = new Map(JSON.parse(fs.readFileSync(precedent, 'utf8')).map((o) => [o.id, o]));
+    let repris = 0;
+    for (const o of objets) {
+      const avant = parId.get(o.id);
+      if (!avant) continue;
+      for (const chemin of src.champs_hors_page) {
+        const cles = chemin.split('.');
+        const derniere = cles.pop();
+        const source = cles.reduce((x, k) => (x == null ? x : x[k]), avant);
+        const cible = cles.reduce((x, k) => (x == null ? x : x[k]), o);
+        if (source && cible && source[derniere] !== undefined && source[derniere] !== cible[derniere]) {
+          cible[derniere] = source[derniere];
+          repris += 1;
+        }
+      }
+    }
+    if (repris) console.log(`  ${repris} champ(s) hors page repris de l'extraction précédente`);
+  }
+
   fs.writeFileSync(
     path.join(DATA, `${src.cle}.json`),
     JSON.stringify(objets, null, 2) + '\n',

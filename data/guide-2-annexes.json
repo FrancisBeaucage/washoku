@@ -591,7 +591,6 @@
       {
         "type": "texte",
         "balise": "h3",
-        "classe": "",
         "attrs": " style=\"margin:30px 0 10px;font-size:20px;font-weight:800\"",
         "texte": "Les nouilles instantanées&nbsp;: la vérité",
         "blanc": "\n\n          "
@@ -599,21 +598,17 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Un paquet typique, c'est <strong>380 à 500 calories, 15 à 20 g de gras, 1 500 à 2 000 mg de sodium, et seulement 8 à 10 g de protéines</strong>. Ce n'est pas un aliment de perte de poids. <strong>Mais</strong> bien utilisé, ça devient un vrai repas à 500 calories avec 35 g de protéines, pour cinq minutes de travail. C'est exactement ce que font les Asiatiques — le paquet est une base, rarement le repas complet."
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "La majorité des nouilles instantanées sont <strong>frites</strong> avant séchage, d'où les 15 à 20 g de gras. Cherchez les mentions <em>non-fried</em>, <em>air-dried</em> ou <span title=\"namamen — « na-ma-mène » · nouilles non frites\" style=\"cursor:help;border-bottom:1px dotted currentColor\">生麺</span> sur l'emballage."
       },
       {
         "type": "tableau",
-        "attrs": "",
-        "attrs_table": "",
         "lignes": [
           {
             "cellules": [
@@ -748,7 +743,6 @@
       {
         "type": "texte",
         "balise": "h3",
-        "classe": "",
         "attrs": " style=\"margin:30px 0 10px;font-size:20px;font-weight:800\"",
         "texte": "Les trois règles",
         "blanc": "\n\n          "
@@ -756,7 +750,6 @@
       {
         "type": "liste",
         "ordonnee": true,
-        "classe": "",
         "attrs": " style=\"margin:0 0 20px;padding-left:1.15em;max-width:38em;font-size:16.5px;line-height:1.7\"",
         "elements": [
           {
@@ -797,8 +790,6 @@
       },
       {
         "type": "tableau",
-        "attrs": "",
-        "attrs_table": "",
         "lignes": [
           {
             "cellules": [
@@ -953,14 +944,12 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:14px 0 0;font-size:16px\"",
         "texte": "<a href=\"#R57\" style=\"color:#ae1800;text-decoration:underline\"><strong>→ Fiche&nbsp;: Nouilles instantanées, version repas</strong></a>"
       },
       {
         "type": "texte",
         "balise": "h3",
-        "classe": "",
         "attrs": " style=\"margin:34px 0 10px;font-size:20px;font-weight:800\"",
         "texte": "Les autres dépannages",
         "blanc": "\n\n          "
@@ -968,14 +957,12 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Chacun est maintenant une fiche dans l'outil (filtre <strong>Ultra rapide</strong>)&nbsp;:"
       },
       {
         "type": "liste",
         "ordonnee": false,
-        "classe": "",
         "attrs": " style=\"margin:0;padding-left:1.15em;max-width:38em;font-size:16.5px;line-height:1.7\"",
         "elements": [
           {
@@ -1022,21 +1009,17 @@
       {
         "type": "texte",
         "balise": "h3",
-        "classe": "",
         "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
         "texte": "Les familles de saveur"
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Les thés recommandés ici ne se ressemblent pas. Ils appartiennent à des familles de saveur distinctes, et il est parfaitement possible d'en détester une et d'adorer une autre. Repérez la vôtre avant d'acheter."
       },
       {
         "type": "tableau",
-        "attrs": "",
-        "attrs_table": "",
         "lignes": [
           {
             "cellules": [
@@ -1139,63 +1122,54 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "<strong>La famille du grain grillé est celle qui plaît le plus largement.</strong> Il n'y a rien de vert là-dedans, rien de marin, aucun umami dominant : c'est du grain torréfié, point. Le mugicha n'est d'ailleurs même pas du thé — c'est de l'orge, donc aucune feuille de théier."
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Le cas le plus intéressant est le <strong>hojicha</strong>. C'est techniquement du thé vert, mais torréfié à haute température, ce qui détruit les composés végétaux et crée des notes de caramel et de chocolat. Des gens qui détestent le thé vert adorent le hojicha sans faire le lien."
       },
       {
         "type": "texte",
         "balise": "h4",
-        "classe": "",
         "attrs": " style=\"margin:22px 0 8px;font-size:16.5px;font-weight:800\"",
         "texte": "Pourquoi le sencha infusé à froid surprend"
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Contre-intuitivement, <strong>le sencha froid goûte <em>plus</em> vert que le sencha chaud, pas moins.</strong>"
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "L'eau froide extrait les acides aminés — théanine, glutamate — mais presque pas les catéchines. Or les catéchines sont l'astringence, celle qui nettoie la bouche et équilibre le reste. Sans elles, le côté végétal et marin ressort sans contrepoids."
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Ce n'est donc pas une version adoucie du sencha : c'est une version où l'umami n'est plus masqué. Réduire la quantité de feuilles ne change pas le profil, seulement l'intensité."
       },
       {
         "type": "texte",
         "balise": "h4",
-        "classe": "",
         "attrs": " style=\"margin:22px 0 8px;font-size:16.5px;font-weight:800\"",
         "texte": "La solution : infuser chaud, refroidir vite"
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Pour qui aime le sencha chaud mais pas le sencha infusé à froid, il existe une méthode qui donne le meilleur des deux."
       },
       {
         "type": "liste",
         "ordonnee": true,
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;padding-left:1.15em;max-width:38em;font-size:16.5px;line-height:1.7\"",
         "elements": [
           {
@@ -1210,42 +1184,36 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Le choc thermique fixe le profil de l'infusion chaude. On obtient exactement le goût du sencha chaud, servi froid, avec les catéchines qui équilibrent l'umami. C'est une méthode courante au Japon, pas un compromis."
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "Se conserve une journée au réfrigérateur, pas plus : refroidi lentement, le thé s'oxyde et brunit."
       },
       {
         "type": "texte",
         "balise": "h3",
-        "classe": "",
         "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
         "texte": "Ce qui distingue un bon thé d'un mauvais"
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 20px;font-size:16px;line-height:1.7;max-width:38em;color:#444141\"",
         "texte": "La différence principale entre un bon et un mauvais thé n'est pas la marque, c'est le <strong>format de la feuille</strong>. Les sachets de masse contiennent des <em>fannings</em> et de la poussière&nbsp;: ils infusent vite, libèrent beaucoup de tanins d'un coup, et donnent un thé plat et amer. Si l'emballage montre des feuilles reconnaissables, c'est bon signe."
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 20px;font-size:14px;line-height:1.65;color:#605d5d;border-top:2px solid #ec3013;padding-top:12px;max-width:38em\"",
         "texte": "<strong>Le thé et le fer&nbsp;:</strong> les tanins nuisent à l'absorption du fer. Le boire <strong>entre</strong> les repas plutôt que pendant — détails dans <a href=\"guide-1-manger.html#s16\" style=\"color:#ae1800;text-decoration:underline\">Le fer et le thé</a> (guide 1)."
       },
       {
         "type": "texte",
         "balise": "h3",
-        "classe": "",
         "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
         "texte": "Températures et durées",
         "blanc": "\n\n          "
@@ -1253,14 +1221,11 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 8px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "C'est ici que la plupart des gens ratent leur thé. <strong>Le thé vert infusé à l'eau bouillante devient amer</strong> — les catéchines s'extraient trop vite à haute température."
       },
       {
         "type": "tableau",
-        "attrs": "",
-        "attrs_table": "",
         "lignes": [
           {
             "cellules": [
@@ -1487,21 +1452,18 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "<strong>Dosage général</strong>&nbsp;: environ 2 g pour 200 ml, soit une cuillère à thé bien remplie. <strong>Retirer les feuilles à la fin de l'infusion</strong> — les laisser tremper est la deuxième cause d'amertume après la température."
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "<strong>Sans thermomètre</strong>&nbsp;: eau bouillante = 100 °C ▪ versée dans une tasse froide et attendre 1 minute ≈ 85 °C ▪ transvidée une deuxième fois ≈ 75 °C ▪ petites bulles au fond de la casserole, sans remontée ≈ 70 à 80 °C."
       },
       {
         "type": "texte",
         "balise": "h3",
-        "classe": "",
         "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
         "texte": "L'infusion à froid (<span title=\"mizudashi — « mi-zou-da-chi » · l'infusion à froid\" style=\"cursor:help;border-bottom:1px dotted currentColor\">水出し</span> <em>mizudashi</em>)",
         "blanc": "\n\n          "
@@ -1509,29 +1471,24 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "<strong>Rappel&nbsp;:</strong> l'infusion à froid ne rend pas le thé doux — elle fait <strong>ressortir</strong> l'umami et le végétal, sans l'astringence qui les équilibre (voir « Les familles de saveur » plus haut). Voici la méthode de base&nbsp;; pour le goût du thé chaud servi froid, voir plutôt « La solution&nbsp;: infuser chaud, refroidir vite »."
       },
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "<strong>Méthode</strong>&nbsp;: 10 g de feuilles dans 1 L d'eau froide, une nuit au réfrigérateur, filtrer. Se garde 2 jours. Fonctionne pour le sencha, le genmaicha, l'oolong et le jasmin."
       },
       {
         "type": "texte",
         "balise": "h3",
-        "classe": "",
         "attrs": " style=\"margin:26px 0 10px;font-size:20px;font-weight:800\"",
         "texte": "Où acheter à Montréal",
         "blanc": "\n\n          "
       },
       {
         "type": "tableau",
-        "attrs": "",
-        "attrs_table": "",
         "lignes": [
           {
             "cellules": [
@@ -1599,7 +1556,6 @@
       {
         "type": "texte",
         "balise": "p",
-        "classe": "",
         "attrs": " style=\"margin:0;font-size:16.5px;line-height:1.7;max-width:38em\"",
         "texte": "<strong>Conservation.</strong> Le thé craint quatre choses&nbsp;: l'air, la lumière, l'humidité et les odeurs. Un contenant opaque et hermétique, dans une armoire, loin des épices et du café. Le thé vert se dégrade plus vite que le noir — six mois à un an."
       }

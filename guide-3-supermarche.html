@@ -560,6 +560,12 @@ const I = [
  w:"Souvent dans un présentoir réfrigéré à part des légumes, parfois brumisé.",
  l:"Grosses bottes, souvent trois fois le format d'ici pour un prix dérisoire. Le basilic thaï a des tiges violettes.",
  u:["R18","R27","R28","R36","R39"]},
+{s:"leg",jp:"三つ葉",ro:"mitsuba",pr:"mi-tsou-ba",fr:"Mitsuba",img:null,
+ d:"Ombellifère japonaise, littéralement « trois feuilles » — chaque tige en porte trois. Proche du persil par la famille, mais le goût est plus herbacé et légèrement anisé. C'est la garniture classique de l'oyakodon et du chawanmushi. S'ajoute crue à la toute fin : la chaleur du plat suffit à la libérer, la cuisson la détruit.",
+ w:"Rayon des fines herbes, avec la coriandre et le shiso. Présence irrégulière.",
+ l:"Petites bottes de tiges fines et pâles, chacune terminée par trois feuilles dentelées d'un vert clair.",
+ u:["R19"],
+ nk:"À défaut de mitsuba",n:"Le cerfeuil s'en approche : même finesse, même note anisée discrète. La coriandre est un mauvais substitut, son profil aromatique n'a rien à voir."},
 
 // ② MUR RÉFRIGÉRÉ
 {s:"frigo",jp:"木綿豆腐",ro:"momen dōfu",fr:"Tofu ferme",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",pack:"assets/produits/tofu-ferme.jpg",
@@ -607,6 +613,21 @@ const I = [
  l:"Pots d'un litre ou plus, rouge vif. Les pots gonflent légèrement avec le temps : c'est la fermentation qui continue, pas un défaut.",
  u:["R5","R29"],
  nk:"Sodium",n:"Très salé. En grande quantité, c'est un problème. Un rinçage rapide enlève une partie du sel sans rien enlever au goût."},
+{s:"frigo",jp:"沢庵",ro:"takuan",pr:"ta-kou-ane",fr:"Takuan — daikon mariné",img:null,
+ d:"Daikon fermenté, jaune vif. Croquant franc, salé, légèrement sucré. C'est le <em>tsukemono</em> (漬物, légume mariné) le plus courant du repas japonais quotidien : deux ou trois tranches à côté du riz suffisent à nettoyer le palais entre les bouchées. Aucune préparation — se tranche et se sert.",
+ w:"Mur réfrigéré, avec les autres légumes marinés.",
+ l:"Un rouleau jaune vif sous vide, ou une barquette de tranches déjà coupées.",
+ nk:"Le jaune est presque toujours ajouté",n:"La version artisanale, teintée par les écorces de kaki de la fermentation, est plus terne et plus chère."},
+{s:"frigo",jp:"しば漬け",ro:"shibazuke",pr:"chi-ba-zou-ké",fr:"Shibazuke — marinade pourpre de Kyoto",img:null,
+ d:"Concombre et aubergine marinés au shiso rouge, d'où la couleur pourpre. Originaire de Kyoto. Acide et parfumé sans être sucré, avec une amertume légère du shiso. Sert de nettoie-bouche au même titre que le takuan, mais avec un profil aromatique beaucoup plus marqué.",
+ w:"Mur réfrigéré, à côté du takuan.",
+ l:"Sachet réfrigéré de petits morceaux pourpres, concombre et aubergine mêlés.",
+ nk:"Le tsukemono à essayer quand le sunomono ennuie",n:"C'est celui qu'on propose à quelqu'un qui trouve le sunomono fonctionnel mais fade : même rôle dans le repas, beaucoup plus de goût."},
+{s:"frigo",jp:"ガリ",ro:"gari",pr:"ga-ri",fr:"Gari — gingembre mariné",img:null,
+ d:"Gingembre jeune mariné, tranché très fin, servi avec les sushis. Le liquide de macération est l'<em>amazu</em> (甘酢, « vinaigre doux ») : vinaigre de riz, sucre et sel. Même principe que le sunomono, avec plus de sucre et une macération longue.",
+ w:"Mur réfrigéré, près des marinades et du wasabi.",
+ l:"Pot ou sachet de tranches très fines, translucides, roses ou beige pâle.",
+ nk:"Le sucre et la couleur",n:"La teneur en sucre est réelle et non négligeable — c'est ce qui adoucit le mordant du gingembre. La couleur rose des versions industrielles est ajoutée ; le gingembre très jeune rosit naturellement, mais faiblement."},
 {s:"frigo",jp:"うどん",ro:"udon",fr:"Nouilles fraîches",img:"https://commons.wikimedia.org/wiki/Special:FilePath/%E9%B6%8F%E5%A4%A9%E3%81%AE%E3%81%86%E3%81%A9%E3%82%93.jpg?width=1200",
  d:"Udon, ramen, chow mein, nouilles de riz fraîches. Cuisson en deux à trois minutes.",
  w:"Mur réfrigéré, bloc nouilles fraîches. Les pâtes à dumplings et les feuilles de won-ton sont juste à côté.",
@@ -755,7 +776,9 @@ const I = [
  d:"Mélange de sept épices avec piment. Plus parfumé que piquant. Va sur les soupes, les grillades, les nouilles.",
  w:"Allée japonaise.",
  l:"Petit pot rouge-orangé, souvent avec un bouchon qui pivote. La marque S&amp;B est la plus courante.",
- u:["R14","R19","R21","R37","R46"]},
+ alt:["nanami togarashi","七味唐辛子","assorted chili pepper","sept épices japonaises"],
+ u:["R14","R19","R21","R37","R46"],
+ nk:"Shichimi et nanami sont le même mot",n:"七味 se lit <em>shichimi</em> ou <em>nanami</em> selon la lecture retenue des caractères, et S&amp;B utilise « nanami » sur ses emballages d'exportation. Chercher les deux."},
 {s:"jp",jp:"山葵",ro:"wasabi",fr:"Wasabi",img:"https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%99en%20wasabi%20na%20su%C5%A1i%20(japonsk%C3%BD%20k%C5%99en).jpg?width=1200",
  d:"Presque tout le wasabi vendu est du raifort coloré. Ce n'est pas un scandale — c'est le standard, même au Japon.",
  w:"Allée japonaise, souvent près du gingembre mariné.",
@@ -969,7 +992,7 @@ class Component extends DCLogic {
     const norm = s => (s || "").toLowerCase().replace(/\u0153/g, "oe").replace(/\u00e6/g, "ae").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const term = norm(q);
     const flt = I.filter(x => sec === "tous" || x.s === sec)
-      .filter(x => !term || norm(x.fr + " " + x.ro + " " + x.jp + " " + x.d + " " + x.l).includes(term));
+      .filter(x => !term || norm(x.fr + " " + x.ro + " " + x.jp + " " + x.d + " " + x.l + " " + (x.alt || []).join(" ")).includes(term));
     const list = flt.map(x => ({
         jp: x.jp, ro: x.ro, fr: x.fr, img: x.img, bg: x.img ? 'url("' + x.img + '")' : 'none', jpt: JPT(x.jp, x.ro, x.fr, x.pr),
         secLabel: SECLABEL[x.s],

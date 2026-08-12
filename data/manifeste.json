@@ -22,8 +22,8 @@
       "nom": "guide-3-ingredients.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-3-ingredients.json",
       "description": "Fiches d’ingrédients du guide 3",
-      "nb_entrees": 76,
-      "nb_actives": 76
+      "nb_entrees": 80,
+      "nb_actives": 80
     },
     {
       "nom": "guide-4-exercices.json",
@@ -36,8 +36,8 @@
       "nom": "guide-6-journal.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-6-journal.json",
       "description": "Entrées du journal du guide 6",
-      "nb_entrees": 5,
-      "nb_actives": 5
+      "nb_entrees": 6,
+      "nb_actives": 6
     },
     {
       "nom": "guide-2-annexes.json",
@@ -52,6 +52,20 @@
       "description": "Cibles chiffrées et sections du guide 5",
       "nb_entrees": 5,
       "nb_actives": 5
+    },
+    {
+      "nom": "historique-repas.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/historique-repas.json",
+      "description": "Ce qui a été mangé, un enregistrement par repas",
+      "nb_entrees": 8,
+      "nb_actives": 8
+    },
+    {
+      "nom": "inventaire.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/inventaire.json",
+      "description": "Ce qui est au congélateur, au frigo et au garde-manger",
+      "nb_entrees": 0,
+      "nb_actives": 0
     },
     {
       "nom": "index.json",

@@ -67,7 +67,7 @@ function lireLexique(grille) {
   exige(grille && grille.type === 'grille', 'grille du lexique attendue');
   exige(grille.attrs === ` style="${G.grilleLexique}"`, 'grille du lexique hors gabarit');
   return grille.colonnes.map((col) => {
-    exige(col.attrs === '' && col.blocs.length === 2, 'colonne de lexique hors gabarit');
+    exige(!col.attrs && col.blocs.length === 2, 'colonne de lexique hors gabarit');
     const [titre, table] = col.blocs;
     exige(titre.type === 'texte' && titre.attrs === ` style="${G.colonneTitre}"`, 'titre de colonne hors gabarit');
     exige(table.type === 'tableau' && table.attrs === ' style="margin:0"', 'tableau de lexique hors gabarit');
@@ -91,9 +91,8 @@ function ecrireLexique(categories) {
     type: 'grille',
     attrs: ` style="${G.grilleLexique}"`,
     colonnes: categories.map((cat) => ({
-      attrs: '',
       blocs: [
-        { type: 'texte', balise: 'p', classe: '', attrs: ` style="${G.colonneTitre}"`, texte: cat.titre },
+        { type: 'texte', balise: 'p', attrs: ` style="${G.colonneTitre}"`, texte: cat.titre },
         {
           type: 'tableau',
           attrs: ' style="margin:0"',
@@ -135,7 +134,7 @@ function lireYakumi(table, grille) {
   // Une ligne vide sépare le tableau des trois colonnes de notes.
   exige(grille.blanc === `\n\n${INDENT}`, 'espacement de la grille des yakumi hors gabarit');
   const notes = grille.colonnes.map((col) => {
-    exige(col.attrs === '' && col.blocs.length >= 2, 'colonne de yakumi hors gabarit');
+    exige(!col.attrs && col.blocs.length >= 2, 'colonne de yakumi hors gabarit');
     const [titre, ...ps] = col.blocs;
     exige(titre.type === 'texte' && titre.attrs === ` style="${G.colonneTitre}"`, 'titre de colonne hors gabarit');
     ps.forEach((p, i) => {
@@ -151,8 +150,6 @@ function lireYakumi(table, grille) {
 function ecrireYakumi(a) {
   const table = {
     type: 'tableau',
-    attrs: '',
-    attrs_table: '',
     lignes: [
       { cellules: a.entetes.map((html) => ({ balise: 'th', html })) },
       ...a.garnitures.map((g) => ({
@@ -169,13 +166,11 @@ function ecrireYakumi(a) {
     blanc: `\n\n${INDENT}`,
     attrs: ` style="${G.grilleYakumi}"`,
     colonnes: a.notes.map((n) => ({
-      attrs: '',
       blocs: [
-        { type: 'texte', balise: 'p', classe: '', attrs: ` style="${G.colonneTitre}"`, texte: n.titre },
+        { type: 'texte', balise: 'p', attrs: ` style="${G.colonneTitre}"`, texte: n.titre },
         ...n.paragraphes.map((texte, i) => ({
           type: 'texte',
           balise: 'p',
-          classe: '',
           attrs: ` style="${i === n.paragraphes.length - 1 ? G.colonneTexteFin : G.colonneTexte}"`,
           texte,
         })),
@@ -236,7 +231,7 @@ function versJson(id, interieur) {
 function versSection(a) {
   const blocs = [ecrireBanniere(a, INDENT)];
   if (a.intro != null) {
-    blocs.push({ type: 'texte', balise: 'p', classe: '', attrs: a.intro_attrs, texte: a.intro });
+    blocs.push({ type: 'texte', balise: 'p', attrs: a.intro_attrs, texte: a.intro });
   }
   if (a.id === 'lexique') blocs.push(ecrireLexique(a.categories));
   else if (a.id === 'yakumi') blocs.push(...ecrireYakumi(a));
