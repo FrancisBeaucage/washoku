@@ -65,6 +65,9 @@ un paramètre anti-cache :**
 curl -s "https://francisbeaucage.github.io/washoku/data/manifeste.json?cb=$(date +%s)"
 ```
 
+Après un envoi, compter jusqu'à dix minutes avant qu'un client qui avait déjà lu
+le fichier ne voie la nouvelle version, en plus du délai de déploiement.
+
 Un fichier qui paraît périmé vient presque toujours de là. Le 11 août 2026, un
 bogue de génération a été signalé sur cette base : le manifeste était correct en
 local, dans `HEAD` et en ligne, et c'est le cache de l'outil de récupération qui
@@ -80,15 +83,6 @@ tout fichier de `/data` y figure, chaque entrée porte une adresse absolue sous
 `BASE_URL`, et `index.json` comme `fiches/` y sont annoncés. Un manifeste qui
 n'ouvre pas la cascade n'est pas un défaut cosmétique — c'est une porte fermée
 pour l'agent qui s'en sert comme point d'entrée.
-
-GitHub Pages sert `/data` avec `cache-control: max-age=600`. Après un envoi, il
-faut donc compter jusqu'à dix minutes avant qu'un client qui avait déjà lu le
-fichier ne voie la nouvelle version, en plus du délai de déploiement. Un
-manifeste qui semble périmé se vérifie d'abord ainsi :
-
-```bash
-curl -s "https://francisbeaucage.github.io/washoku/data/manifeste.json?cb=$(date +%s)" | head -20
-```
 
 `index.json` et `fiches/` sont la **même donnée** que le recueil, écrite deux
 fois de plus par le même script. La règle 15 vérifie qu'elles n'ont pas divergé ;

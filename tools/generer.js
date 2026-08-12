@@ -207,7 +207,7 @@ const manifeste = {
   site: 'washoku',
   version_schema: '1.0',
   derniere_maj: process.env.WASHOKU_DATE || new Date().toISOString().slice(0, 10),
-  dernier_document_applique: 9,
+  dernier_document_applique: 10,
   note: "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   protocole_de_lecture: [
     'Ce manifeste donne l’adresse complète de tous les autres fichiers.',
