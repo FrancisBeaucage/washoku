@@ -8,18 +8,12 @@
 const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
-const { SOURCES, PROSES, RACINE, DATA } = require('./lib/sources');
+const { SOURCES, PROSES, RACINE, DATA, BASE_URL } = require('./lib/sources');
 const { lireBloc, remplacerBloc, lireFichier, ecrireFichier } = require('./lib/blocs');
 const { objetMultiligne, tableau } = require('./lib/ecrire-js');
 
 const verifier = process.argv.includes('--verifier');
 
-/* L'adresse publique du site. Un agent extérieur ne peut récupérer qu'une
-   adresse qu'on lui a donnée : une adresse qu'il déduit lui-même, même juste,
-   est refusée. Le manifeste doit donc porter des adresses complètes, pas des
-   noms de fichiers. Le domaine ne vit qu'ici — un déménagement se corrige à un
-   seul endroit. */
-const BASE_URL = 'https://francisbeaucage.github.io/washoku';
 const adresse = (nom) => `${BASE_URL}/data/${nom}`;
 const lireJson = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 

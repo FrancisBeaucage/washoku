@@ -9,7 +9,7 @@ génération l'écrasera.
 ## Le cycle
 
 ```bash
-npm run verifier   # les 15 règles + contrôle que HTML et JSON disent la même chose
+npm run verifier   # les 16 règles + contrôle que HTML et JSON disent la même chose
 npm run generer    # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
 
@@ -55,8 +55,24 @@ improvisés faute de pouvoir lire la source de vérité.
 `guide-2-fiches.json` ne se récupère que si le recueil entier est réellement
 nécessaire — un audit, par exemple.
 
-Le domaine n'est écrit qu'à un seul endroit : la constante `BASE_URL` en tête de
-`tools/generer.js`. Un déménagement se corrige là et nulle part ailleurs.
+Le domaine n'est écrit qu'à un seul endroit : la constante `BASE_URL` de
+`tools/lib/sources.js`. Un déménagement se corrige là et nulle part ailleurs.
+
+**Le manifeste est régénéré à chaque `npm run generer`**, y compris quand la
+génération signale un écart. La règle 16 vérifie qu'il reste auto-suffisant :
+tout fichier de `/data` y figure, chaque entrée porte une adresse absolue sous
+`BASE_URL`, et `index.json` comme `fiches/` y sont annoncés. Un manifeste qui
+n'ouvre pas la cascade n'est pas un défaut cosmétique — c'est une porte fermée
+pour l'agent qui s'en sert comme point d'entrée.
+
+GitHub Pages sert `/data` avec `cache-control: max-age=600`. Après un envoi, il
+faut donc compter jusqu'à dix minutes avant qu'un client qui avait déjà lu le
+fichier ne voie la nouvelle version, en plus du délai de déploiement. Un
+manifeste qui semble périmé se vérifie d'abord ainsi :
+
+```bash
+curl -s "https://francisbeaucage.github.io/washoku/data/manifeste.json?cb=$(date +%s)" | head -20
+```
 
 `index.json` et `fiches/` sont la **même donnée** que le recueil, écrite deux
 fois de plus par le même script. La règle 15 vérifie qu'elles n'ont pas divergé ;

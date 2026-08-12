@@ -6,7 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { RACINE, DATA } = require('./lib/sources');
+const { RACINE, DATA, BASE_URL } = require('./lib/sources');
 const { nombre } = require('./lib/champs');
 const { nombresCites, valeursCibles } = require('./lib/plan');
 
@@ -253,6 +253,45 @@ if (!fs.existsSync(DOSSIER_FICHES)) {
   }
 }
 regle(15, 'Index et fiches seules concordent avec le recueil', vues);
+
+/* 16 — le manifeste se suffit à lui-même. La règle 6 ne regardait que les
+   compteurs : un `fichiers[]` périmé — entrée manquante, adresse absente —
+   serait passé inaperçu, et c'est précisément ce qui rend le manifeste
+   inutilisable comme point d'entrée. Un agent extérieur ne peut récupérer
+   qu'une adresse qu'on lui a donnée ; une adresse absente n'est pas un détail
+   cosmétique, c'est une porte fermée. */
+const entree = [];
+if (!manifeste) {
+  entree.push('manifeste.json absent — lancer `npm run generer`');
+} else {
+  const listes = new Set((manifeste.fichiers || []).map((f) => f.nom));
+  for (const nom of fs.readdirSync(DATA)) {
+    if (!nom.endsWith('.json') || nom === 'manifeste.json' || nom.startsWith('.')) continue;
+    if (!listes.has(nom)) entree.push(`${nom} existe dans /data mais n’est pas au manifeste`);
+  }
+  if (!listes.has('index.json')) entree.push('index.json n’est pas au manifeste');
+  if (!listes.has('fiches/<ID>.json')) entree.push('le dossier fiches/ n’est pas au manifeste');
+
+  for (const f of manifeste.fichiers || []) {
+    if (!f.url) { entree.push(`${f.nom} : aucune adresse absolue`); continue; }
+    if (!f.url.startsWith(`${BASE_URL}/data/`)) entree.push(`${f.nom} : adresse « ${f.url} » hors de ${BASE_URL}`);
+    // Le dossier de fiches est un renvoi de répertoire ; les autres pointent leur fichier.
+    else if (f.nom !== 'fiches/<ID>.json' && f.url !== `${BASE_URL}/data/${f.nom}`) {
+      entree.push(`${f.nom} : l’adresse ne correspond pas au nom (${f.url})`);
+    }
+  }
+
+  const index = optionnel('index.json');
+  if (index) {
+    for (const e of index) {
+      if (e.url !== `${BASE_URL}/data/fiches/${e.id}.json`) { entree.push(`index.json : ${e.id} porte une adresse inattendue`); break; }
+    }
+  }
+  if (!Array.isArray(manifeste.protocole_de_lecture) || !manifeste.protocole_de_lecture.length) {
+    entree.push('protocole_de_lecture absent du manifeste');
+  }
+}
+regle(16, 'Le manifeste se suffit à lui-même', entree);
 
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }

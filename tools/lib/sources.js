@@ -6,6 +6,13 @@
 const path = require('path');
 
 const RACINE = path.resolve(__dirname, '..', '..');
+
+/* L'adresse publique du site. Un agent extérieur ne peut récupérer qu'une
+   adresse qu'on lui a donnée : une adresse qu'il déduit lui-même, même juste,
+   est refusée. Le manifeste doit donc porter des adresses complètes, pas des
+   noms de fichiers. Le domaine ne vit qu'ici — un déménagement se corrige à un
+   seul endroit, et la règle 16 vérifie que le manifeste s'y conforme. */
+const BASE_URL = 'https://francisbeaucage.github.io/washoku';
 const DATA = path.join(RACINE, 'data');
 
 const SOURCES = [
@@ -77,4 +84,4 @@ const PROSES = [
   },
 ];
 
-module.exports = { SOURCES, PROSES, RACINE, DATA };
+module.exports = { SOURCES, PROSES, RACINE, DATA, BASE_URL };
