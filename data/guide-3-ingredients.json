@@ -341,7 +341,8 @@
       "R27",
       "R28",
       "R36",
-      "R39"
+      "R39",
+      "R64"
     ],
     "note": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunches%20of%20coriander%20leaves.jpg?width=1200",
@@ -894,9 +895,13 @@
     "sert_dans": [
       "R22",
       "R27",
-      "R40"
+      "R40",
+      "R64"
     ],
-    "note": null,
+    "note": {
+      "titre": "Le calibre n'est pas toujours interchangeable",
+      "texte": "Le 21/25 convient à tout ce qui se mange décortiqué. Pour les galettes frites (R64), il faut au contraire du <strong>petit calibre, 40/50 ou 50/60, et des crevettes entières non décortiquées</strong> : la carapace des petits formats devient croustillante à la friture et fait partie de la bouchée. Une carapace de 21/25 reste coriace même bien frite."
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20Shrimp.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1580,7 +1585,8 @@
       "R27",
       "R28",
       "R36",
-      "R39"
+      "R39",
+      "R64"
     ],
     "note": {
       "titre": "Sodium",
@@ -1657,6 +1663,33 @@
       "texte": "Un bol de vermicelles se mange vite. Le riz en grains, mangé à la baguette dans un petit bol, impose naturellement un rythme."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_vermicelli.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "farine-de-riz",
+    "statut": "actif",
+    "section": "sea",
+    "jp": "bột gạo",
+    "jp_lecture": "bôte gao",
+    "romaji": "bot gao",
+    "fr": "Farine de riz",
+    "noms_alternatifs": [
+      "Rice flour",
+      "bột gạo"
+    ],
+    "description": "Poudre blanche très fine, tirée du riz cru. <strong>Ce n'est pas de la fécule.</strong> Coupée moitié-moitié avec de la farine tout usage, elle donne une croûte qui reste croustillante en refroidissant, là où la farine de blé seule ramollit en quelques minutes. C'est la base des pâtes à frire vietnamiennes.",
+    "ou_le_trouver": "Allée Asie du Sud-Est, avec les farines et les galettes de riz. Sacs de papier de 400 g à 1 kg, à moins de 3 $.",
+    "a_quoi_ca_ressemble": "<strong>Erawan (Thaïlande) : sac de papier avec trois têtes d'éléphant rouges.</strong> La bande de couleur en bas du sac est ce qui distingue les produits : bande <strong>verte</strong> pour la farine de riz ordinaire, bande <strong>bleue</strong> pour la farine de riz gluant.",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [
+      "R64"
+    ],
+    "note": {
+      "titre": "Riz ordinaire ou riz gluant : le piège du sac identique",
+      "texte": "Deux produits presque impossibles à distinguer à l'œil, dans des sacs de la même marque et du même format. La farine de riz <strong>gluant</strong> (bột nếp, glutinous rice flour) sert aux mochi et aux desserts : elle donne une pâte élastique et collante, et ne croustille jamais. Vérifier le mot <strong>glutinous</strong> ou <strong>nếp</strong> sur le sac — s'il est là, c'est le mauvais produit."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Two%20kinds%20of%20rice%20flour.jpg?width=1200",
     "photo_emballage": null
   },
   {

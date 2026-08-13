@@ -934,5 +934,18 @@
     "calories": 690,
     "temps_minutes": 25,
     "url": "https://francisbeaucage.github.io/washoku/data/fiches/R63.json"
+  },
+  {
+    "id": "R64",
+    "fr": "Galettes de patate douce et crevettes en feuille de laitue",
+    "romaji": "bánh tôm",
+    "jp": "バインタム",
+    "categorie": "souper",
+    "cuisine": "vietnamienne",
+    "statut": "actif",
+    "proteines_g": 24,
+    "calories": 600,
+    "temps_minutes": 65,
+    "url": "https://francisbeaucage.github.io/washoku/data/fiches/R64.json"
   }
 ]
