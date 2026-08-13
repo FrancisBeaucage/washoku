@@ -1,8 +1,8 @@
 {
   "site": "washoku",
   "version_schema": "1.0",
-  "derniere_maj": "2026-08-12",
-  "dernier_document_applique": 13,
+  "derniere_maj": "2026-08-13",
+  "dernier_document_applique": 15,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
@@ -15,8 +15,8 @@
       "nom": "guide-2-fiches.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-2-fiches.json",
       "description": "Techniques et recettes du guide 2",
-      "nb_entrees": 74,
-      "nb_actives": 74
+      "nb_entrees": 75,
+      "nb_actives": 75
     },
     {
       "nom": "guide-3-ingredients.json",
@@ -57,42 +57,35 @@
       "nom": "historique-repas.json",
       "url": "https://francisbeaucage.github.io/washoku/data/historique-repas.json",
       "description": "Ce qui a été mangé, un enregistrement par repas",
-      "nb_entrees": 8,
-      "nb_actives": 8
-    },
-    {
-      "nom": "inventaire.json",
-      "url": "https://francisbeaucage.github.io/washoku/data/inventaire.json",
-      "description": "Ce qui est au congélateur, au frigo et au garde-manger",
-      "nb_entrees": 0,
-      "nb_actives": 0
+      "nb_entrees": 14,
+      "nb_actives": 14
     },
     {
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 13,
-      "nb_actives": 13
+      "nb_entrees": 15,
+      "nb_actives": 15
     },
     {
       "nom": "index.json",
       "url": "https://francisbeaucage.github.io/washoku/data/index.json",
       "description": "Index compact des fiches : de quoi choisir laquelle ouvrir, sans charger le recueil",
-      "nb_entrees": 74,
-      "nb_actives": 74
+      "nb_entrees": 75,
+      "nb_actives": 75
     },
     {
       "nom": "fiches/<ID>.json",
       "url": "https://francisbeaucage.github.io/washoku/data/fiches/",
       "description": "Une fiche par fichier, identique à son entrée du recueil. Adresse exacte dans index.json",
-      "nb_entrees": 74,
-      "nb_actives": 74
+      "nb_entrees": 75,
+      "nb_actives": 75
     }
   ],
   "compteurs": {
-    "techniques": 9,
+    "techniques": 10,
     "recettes": 65,
-    "fiches_actives": 74,
+    "fiches_actives": 75,
     "fiches_retirees": 0
   }
 }

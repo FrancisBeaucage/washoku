@@ -18,6 +18,21 @@
   },
   {
     "date": "2026-08-09",
+    "repas": "diner",
+    "fiches": [
+      "T7a",
+      "R59"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 22,
+    "calories": 330,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Repas de dépannage, non planifié. Onigiri du commerce acheté au Costco. Reconstitué le 12 août : ce repas manquait à l’historique."
+  },
+  {
+    "date": "2026-08-09",
     "repas": "souper",
     "fiches": [
       "T4",
@@ -37,22 +52,36 @@
   },
   {
     "date": "2026-08-10",
-    "repas": "journee",
+    "repas": "dejeuner",
     "fiches": [
       "T1",
       "T2",
       "R2",
-      "R48",
       "R62",
+      "R48"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 37,
+    "calories": 550,
+    "verdict": "bon",
+    "journal": "K-2026-08-10-journee",
+    "notes": "Flocons de saumon sur riz chaud, première fois. Le natto prévu a été retiré du plan en cours de route."
+  },
+  {
+    "date": "2026-08-10",
+    "repas": "diner",
+    "fiches": [
+      "T1",
       "R10"
     ],
     "hors_fiche": [],
     "convives": 1,
-    "proteines_g": 77,
-    "calories": 955,
-    "verdict": "correct",
+    "proteines_g": 40,
+    "calories": 405,
+    "verdict": "rate",
     "journal": "K-2026-08-10-journee",
-    "notes": "Déjeuner et dîner comptés ensemble, la seule granularité que le journal donne. À peine 15 g de lipides sur la journée : fringale de sucré-salé en après-midi."
+    "notes": "Hiyayakko monté avec une boîte entière de thon germon, soit plus du double de la portion de la fiche. Raté par conception : deux éléments aqueux superposés, le sujet du plat disparu sous sa garniture. Combinaison retirée du répertoire."
   },
   {
     "date": "2026-08-10",
@@ -133,5 +162,65 @@
     "verdict": "excellent",
     "journal": "K-2026-08-11-journee",
     "notes": "Premier repas à deux réussi. Riz noyé dans le bol de Francis, bouillon mal réparti. 109 g de protéines sur la journée, sous le plancher de 130."
+  },
+  {
+    "date": "2026-08-12",
+    "repas": "dejeuner",
+    "fiches": [],
+    "hors_fiche": [
+      "Wrap déjeuner du commerce",
+      "Pomme de terre rissolée",
+      "Café glacé au lait au chocolat, grand format"
+    ],
+    "convives": 1,
+    "proteines_g": null,
+    "calories": null,
+    "verdict": "rate",
+    "journal": null,
+    "notes": "Déjeuner pris sur la route. Valeurs non chiffrées : le type exact de wrap n’a pas été noté et rien ne permet de le reconstituer. Le café glacé grand format monté au lait au chocolat est le poste le plus coûteux de la journée."
+  },
+  {
+    "date": "2026-08-12",
+    "repas": "diner",
+    "fiches": [],
+    "hors_fiche": [
+      "Yogourt grec aromatisé 3 % (2)"
+    ],
+    "convives": 1,
+    "proteines_g": 17,
+    "calories": 260,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Deuxième journée sur trois où le dîner se réduit à des yogourts. Le poste dîner du guide 5 vise 40 g."
+  },
+  {
+    "date": "2026-08-12",
+    "repas": "collation",
+    "fiches": [],
+    "hors_fiche": [
+      "Mochi au melon",
+      "Bonbons durs japonais"
+    ],
+    "convives": 1,
+    "proteines_g": 0,
+    "calories": null,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Dégustation, pas une portion. Les deux articles ont été achetés pour les enfants. Le poste collation du guide 5 vise 300 cal et 25 g de protéines : il est resté vide ce jour-là comme les précédents."
+  },
+  {
+    "date": "2026-08-12",
+    "repas": "souper",
+    "fiches": [],
+    "hors_fiche": [
+      "Soupe-repas à la citronnelle, restaurant vietnamien",
+      "Rouleau printanier (1)"
+    ],
+    "convives": 2,
+    "proteines_g": 43,
+    "calories": 700,
+    "verdict": "bon",
+    "journal": null,
+    "notes": "Livraison. Le shioyaki de saumon prévu n’a pas été fait, rien n’en avait été entamé. Bouillon non bu en entier et sauce aux arachides à moitié : environ 800 mg de sodium épargnés par ces deux gestes. Valeurs estimées, aucune étiquette."
   }
 ]

@@ -65,7 +65,9 @@
       "sante_pos": null
     }
   ],
-  "techniques": [],
+  "techniques": [
+    "T9"
+  ],
   "etapes": [
     {
       "n": 1,

@@ -9,7 +9,7 @@ génération l'écrasera.
 ## Le cycle
 
 ```bash
-npm run verifier      # les 18 règles + contrôle que HTML et JSON disent la même chose
+npm run verifier      # les 19 règles + contrôle que HTML et JSON disent la même chose
 npm run appliquer 12  # marque le document 12 comme appliqué
 npm run generer       # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
@@ -38,7 +38,6 @@ manifeste tire son `dernier_document_applique`.
 | `guide-5-plan.json` | Cibles chiffrées et sections du plan | sections `#s1` à `#s5` de `guide-5-plan.html` |
 | `guide-6-journal.json` | Entrées du journal | section `#s4` de `guide-6-journal.html` |
 | `historique-repas.json` | Ce qui a été mangé, un enregistrement par repas | — |
-| `inventaire.json` | Ce qui est au congélateur, au frigo et au garde-manger | — |
 | `documents-appliques.json` | Les numéros des documents de mise à jour déjà appliqués | — |
 
 Ce qui reste en HTML, et pourquoi : le guide 1, les proses des guides 3 et 4, et
@@ -111,11 +110,11 @@ produire un manifeste qui ment. `appliquer` refuse un numéro inférieur ou éga
 au maximum déjà présent — un numéro qui recule ou stagne est un bogue, jamais
 une intention. La règle 16 vérifie que le manifeste et la liste s'accordent.
 
-## L'historique et l'inventaire
+## L'historique
 
-Ces deux fichiers ne se rendent nulle part : ils vivent dans `/data` et servent à
-la planification. Ils figurent quand même au manifeste, sinon un agent extérieur
-ne peut pas les atteindre.
+Ce fichier ne se rend nulle part : il vit dans `/data` et sert à la
+planification. Il figure quand même au manifeste, sinon un agent extérieur ne
+peut pas l'atteindre.
 
 `historique-repas.json` — un enregistrement par repas. Il existe parce que le
 11 août 2026 un sunomono a été proposé comme un plat neuf alors qu'il avait été
@@ -124,22 +123,38 @@ cuisiné quelques jours plus tôt, et que personne n'avait de moyen de le savoir
 - **`fiches`** — les identifiants cuisinés. **`hors_fiche`** recueille ce qui a
   été mangé sans fiche correspondante : yogourt, onigiri du commerce, restaurant.
   Sa présence répétée signale qu'une fiche manque au recueil.
-- **`repas`** — `dejeuner`, `diner`, `souper`, `collation`, ou `journee` quand la
-  source ne distingue pas mieux.
+- **`repas`** — `dejeuner`, `diner`, `souper` ou `collation`. La valeur
+  `journee`, qui servait quand la source ne distinguait pas mieux, a disparu au
+  document 14 : la seule entrée qui l'utilisait a été scindée en deux, et un
+  agrégat qui mêle un déjeuner et un dîner n'apprend rien.
 - **`verdict`** — `excellent`, `bon`, `correct`, `rate`, `rejete`, ou `null`
-  quand rien ne le dit. Ne pas inventer un jugement pour remplir le champ.
+  quand rien ne le dit. Ne pas inventer un jugement pour remplir le champ. Les
+  quatre premiers vont du meilleur au pire ; **`rate` doit rester utilisable** —
+  un historique où l'échec ne peut pas s'écrire est un palmarès, pas un
+  historique, et c'est précisément l'échec qui corrige les fiches.
 - **`journal`** — l'entrée du guide 6 d'où vient l'enregistrement, quand il y en
   a une. La règle 17 vérifie qu'elle existe.
 
-`inventaire.json` — une denrée par objet. **Ce n'est pas un suivi au gramme
-près :** `quantite` est du langage naturel approximatif. Ce qui doit être exact,
-ce sont les **dates** — c'est ce qui permet de dire « les crevettes ont trois
-jours, sers-les demain » sans avoir à le demander. `emplacement` vaut
-`congelateur`, `frigo` ou `garde-manger` ; `statut` vaut `ok`, `a-utiliser`,
-`urgent` ou `epuise`.
+La règle 17 contrôle le format des dates et la cohérence des renvois ; la règle
+19 contrôle `repas` et `verdict` ; la règle 2 vérifie que les fiches citées
+existent.
 
-La règle 17 contrôle le format des dates et les valeurs des listes fermées ; la
-règle 2 vérifie que les fiches citées existent.
+### L'inventaire n'est pas publié
+
+**Le stock de denrées ne vit pas sur le site.** `inventaire.json` a été retiré au
+document 14, le 12 août 2026, parce qu'un inventaire publié est périmé avant
+d'être visible et induit des propositions de repas fondées sur des aliments
+absents — un stock vieux de trois jours a fait bâtir deux propositions sur du
+lait de soya et une poudre de protéines jamais achetés. Un inventaire de denrées
+change plusieurs fois par jour ; le circuit document → application →
+déploiement → cache ne suit pas.
+
+Le registre transactionnel — les mouvements, le stock — vit **hors du dépôt**, au
+rythme quotidien. Le site conserve `historique-repas.json`, qui est un
+enregistrement de ce qui a été mangé et **ne périme pas**.
+
+Ne pas recréer le fichier en croyant réparer un oubli : son absence est la
+décision, pas le défaut.
 
 ## Le contrat de mise en forme
 
@@ -211,6 +226,59 @@ Ils sont déclarés dans `champs_hors_page` de `tools/lib/sources.js`, et
 un champ de ce genre sans l'y déclarer, c'est le condamner à disparaître à la
 prochaine réextraction.
 
+## Les champs à valeurs fermées
+
+Neuf champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
+vérifie tous**, à partir d'une seule table `champ → ensemble permis` dans
+`tools/valider.js` — pas neuf règles particulières, qui laisseraient repasser la
+dixième.
+
+| Fichier | Champ | Ensemble |
+|---|---|---|
+| guide 2 | `statut` | `actif`, `retiré` |
+| guide 2 | `categorie` | les libellés de `CATEGORIES` (`lib/champs.js`) |
+| guide 2 | `cuisine` | les libellés de `CUISINES` |
+| guide 2 | `vitesse` | les libellés de `VITESSES` |
+| guide 2 | `nutrition.source` | `estime`, `etiquette`, `pese` |
+| guide 3 | `statut` | `actif`, `retiré` |
+| guide 3 | `section` | les clés de `SECS`, lues dans `guide-3-supermarche.html` |
+| guide 4 | `statut` | `actif`, `retiré` |
+| historique | `repas` | `dejeuner`, `diner`, `souper`, `collation` |
+| historique | `verdict` | `excellent`, `bon`, `correct`, `rate`, `rejete`, ou `null` |
+
+**Les ensembles se lisent là où ils sont déjà définis, jamais recopiés.** Les
+libellés viennent de `lib/champs.js`, les rayons du tableau `SECS` de la page du
+guide 3. Recopier créerait une seconde source de vérité, et déplacerait le
+problème au lieu de le régler.
+
+`retiré` **porte son accent** : c'est la valeur que `generer.js` compare pour
+écarter une entrée de la page. Un `retire` sans accent y passerait pour une
+fiche active — il n'est donc pas permis.
+
+Cette règle existe parce que le document 13 donnait `section: "legumes"` là où la
+clé réelle est `leg`. Une clé inconnue ne fait rien planter : elle laisse la
+fiche hors de tout filtre de rayon, avec une étiquette vide, et aucun test
+n'échouait.
+
+## Les nombres affichés dans les pages
+
+**Aucun nombre de fiches, de sections ou d'entrées ne s'écrit à la main dans une
+page.** `generer.js` les calcule et les réécrit ; la règle 9 échoue s'ils
+divergent. Trois familles :
+
+- l'en-tête de `guide-2-recettes.html` et la phrase « N recettes et N techniques
+  de base » d'`index.html` — table `NOMBRES` de `generer.js` ;
+- les six pieds de carte d'`index.html` (« 75 fiches → ») — table de
+  `tools/lib/compteurs.js`, lue par la génération et par la règle 9.
+
+Le principe datait du document 7, mais ne couvrait que les deux premières : la
+carte du guide 2 a annoncé 56 fiches pour 74, et celle du guide 5 quatre sections
+pour cinq, sans qu'aucune règle bronche. Le document 15 a fermé l'écart.
+
+Le motif d'un pied de carte s'ancre sur **l'ouverture de la carte**, pas sur son
+seul `href` : la page porte aussi un menu de navigation vers les six guides et un
+renvoi en pied de page, et « N fiches → » vaut pour trois cartes à la fois.
+
 ## Ce qu'il faut savoir avant d'éditer
 
 **Les identifiants sont permanents.** `R10` restera `R10` pour toujours, même si
@@ -280,7 +348,8 @@ calcul. `proteines_affiche` et `calories_affiche` sont ce que le lecteur voit
 
 `nutrition.source` dit d'où viennent les chiffres :
 
-- `"estime"` — calculé à partir de tables génériques. C'est le cas des 72 fiches.
+- `"estime"` — calculé à partir de tables génériques. C'est encore le cas de
+  toutes les fiches du recueil.
 - `"etiquette"` — relevé sur l'emballage des produits réellement utilisés.
 - `"pese"` — pesé et calculé ingrédient par ingrédient.
 

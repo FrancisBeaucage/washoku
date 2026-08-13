@@ -239,6 +239,10 @@
         "texte": "4 jours au réfrigérateur, un mois au congélateur. À la fin d'un lot : deux contenants de 750 ml au congélateur pour les soupes, le reste en bacs à glaçons. Un cube ≈ 30 ml ≈ 2 c. à soupe."
       },
       {
+        "titre": "Ne pas congeler le dashi en un seul bloc",
+        "texte": "Un sac de congélation rempli et couché à plat donne une plaque unique, et une plaque ne se divise pas. Le stock devient tout-ou-rien : pour 200 ml de donburi, il faut décongeler le lot entier, qui repart alors sur son horloge de réfrigération. Congelé le 11 août de cette façon, le surplus est resté inutilisable jusqu'à ce qu'on comprenne le problème. LE DASHI SE CONGÈLE EN PORTIONS, PAS EN VOLUME : bacs à glaçons pour les cubes de 30 ml, ou plusieurs petits sacs de 200 à 300 ml. Si le mal est fait : passer le sac 20 secondes sous l'eau froide pour décoller la plaque, la poser sur une planche et la casser d'un coup sec avec le manche d'un couteau, puis répartir les morceaux dans deux ou trois sacs. Ça se fait sans décongeler."
+      },
+      {
         "titre": "† Pourquoi le dossier utilise moins de kombu",
         "texte": "Ce n'est pas pour le sodium (dans un bol de miso, le sel vient à plus de 90 % du miso et de la sauce soya ; le kombu est du bruit à côté). C'est pour l'iode : le kombu est de loin l'aliment le plus dense en iode du dossier, et l'iode passe dans le bouillon. Comme le dashi est quotidien ici, la dose est réduite volontairement — environ 5 g de kombu par litre plutôt que 10. La compensation : garder les 20 g de katsuobushi. Le glutamate (kombu) et l'inosinate (katsuobushi) se multiplient au lieu de s'additionner, donc couper le kombu de moitié fait perdre beaucoup moins d'umami qu'on croit — et le katsuobushi n'apporte pas d'iode. Les estimations d'apport en iode varient beaucoup selon les sources : pour toute question thyroïdienne, en parler à un professionnel."
       },
@@ -988,6 +992,135 @@
       "auteur": "Epicurious"
     },
     "voir_aussi": []
+  },
+  {
+    "id": "T9",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "jp": "揚げ物",
+    "jp_lecture": null,
+    "romaji": "agemono",
+    "fr": "La friture japonaise (agemono)",
+    "sous_titre": "Agemono (揚げ物) désigne toute la famille des aliments frits : karaage, tempura, tatsuta-age, korokke. Une seule variable décide de tout, et ce n'est pas la durée — c'est la température de l'huile. Une friture bien chaude est MOINS grasse qu'une friture tiède.",
+    "portions": "Par lot",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": null,
+      "proteines_affiche": "—",
+      "calories": 0,
+      "calories_affiche": "90 à 180 ajoutées par portion",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": true,
+      "source": "estime",
+      "note": "L'huile absorbée est le seul apport de la technique. Elle varie du simple au double selon la température de l'huile. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "Huile neutre à point de fumée élevé : canola, arachide, ou huile de son de riz (komeabura, l'huile de friture japonaise par défaut)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Une casserole à fond épais, plus haute que large. 3 à 4 cm d’huile suffisent — jamais plus du tiers de la hauteur de la casserole",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Une grille posée sur une plaque, pour l'égouttage",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Une araignée ou une pince à long manche",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Un thermomètre de cuisson, ou une baguette en bois",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Un couvercle à portée de main",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Verser 3 à 4 cm d'huile dans la casserole. Le volume ne dépend pas de la quantité à frire mais de la profondeur nécessaire pour que la pièce flotte sans toucher le fond."
+      },
+      {
+        "n": 2,
+        "texte": "Chauffer à feu moyen jusqu'à 170 °C. SANS THERMOMÈTRE, LA BAGUETTE EN BOIS : la mouiller, l'essuyer, la poser debout au fond. De fines bulles régulières qui montent le long du bois, c'est environ 170 °C. Des bulles vigoureuses et bruyantes, c'est trop chaud. Presque rien, c'est trop froid. AVEC UNE GOUTTE DE PÂTE : elle coule au fond et remonte lentement, 160 °C ; elle descend à mi-hauteur et remonte, 170 °C ; elle reste en surface, 180 °C et plus."
+      },
+      {
+        "n": 3,
+        "texte": "Éponger la surface de l'aliment au papier absorbant. L'EAU EST CE QUI FAIT PROJETER L'HUILE, et une surface mouillée fait chuter la température au contact."
+      },
+      {
+        "n": 4,
+        "texte": "Déposer les pièces une à une, en les faisant glisser depuis le bord de la casserole, jamais en les laissant tomber. NE JAMAIS COUVRIR PLUS DE LA MOITIÉ DE LA SURFACE D'HUILE : un lot trop chargé fait tomber la température de 20 à 30 °C, et c'est là que la friture devient grasse."
+      },
+      {
+        "n": 5,
+        "texte": "Ne rien toucher pendant les 30 premières secondes. La croûte doit prendre avant qu'on remue, sinon l'enrobage se détache et reste dans l'huile."
+      },
+      {
+        "n": 6,
+        "texte": "Retirer et poser sur la grille, jamais sur du papier absorbant. LE PAPIER PIÈGE LA VAPEUR et le dessous ramollit en une minute. Saler à la sortie, pendant que la surface est encore brûlante."
+      },
+      {
+        "n": 7,
+        "texte": "DOUBLE FRITURE (nido-age, 二度揚げ), pour le karaage et tout morceau épais : premier bain à 160 °C jusqu’à cuisson à cœur, repos de 4 à 5 minutes sur la grille, second bain à 190 °C pendant 30 à 60 secondes. Le repos laisse la vapeur interne migrer vers la surface ; le second bain la chasse d’un coup. C’est ce qui donne une croûte qui tient vingt minutes au lieu de trois."
+      },
+      {
+        "n": 8,
+        "texte": "Laisser tiédir l'huile, la filtrer à la passoire fine dans un bocal fermé, garder à l'abri de la lumière. Deux à trois réutilisations."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce que la friture coûte vraiment dans ce dossier",
+        "texte": "Un aliment frit absorbe 6 à 14 % de son poids en huile. Une portion de 150 g prend donc 10 à 20 g d'huile : 90 à 180 calories et 10 à 20 g de lipides. LE SODIUM, LUI, NE BOUGE PRESQUE PAS — le sel d'un plat frit est dans sa marinade ou sa trempette, pas dans l'huile. Rapporté aux cibles du guide 5, l'agemono est donc cher en calories et bon marché en sodium. Il se place un jour où le compte de sodium est déjà chargé, jamais un jour déjà lourd en calories. Et le plancher de lipides de 50 g par jour est plus souvent manqué par le bas que dépassé : une friture n'est pas l'accident qu'elle paraît."
+      },
+      {
+        "titre": "Pourquoi une huile plus chaude donne un plat moins gras",
+        "texte": "C'est contre-intuitif et c'est le cœur de la technique. Quand l'aliment entre dans l'huile, l'eau qu'il contient se vaporise et sort en poussant vers l'extérieur : ce flux de vapeur empêche l'huile d'entrer. À 175 °C, la vaporisation est assez violente pour tenir l'huile dehors pendant toute la cuisson. À 155 °C, elle est trop molle, l'huile prend la place de l'eau qui part, et la même pièce peut absorber le double. Une friture tiède est une friture qui boit. C'est aussi pourquoi on frit en petits lots : chaque pièce ajoutée refroidit le bain."
+      },
+      {
+        "titre": "Les trois familles, et ce qui les distingue",
+        "texte": "KARAAGE (唐揚げ) : mariné à la sauce soya, au saké et au gingembre, puis enrobé de fécule de pomme de terre ou d'un mélange fécule-farine. Pas de pâte. C'est le poulet frit japonais, et le haut de cuisse est le morceau. TEMPURA (天ぷら) : pâte de farine et d'eau glacée, à peine mélangée — les grumeaux sont voulus, ils empêchent le gluten de se développer et donnent la légèreté. TATSUTA-AGE (竜田揚げ) : même marinade que le karaage mais fécule seule, ce qui donne une croûte plus blanche et plus lisse. La différence entre les trois est l'enrobage, pas la cuisson : les températures et la double friture s'appliquent aux trois."
+      },
+      {
+        "titre": "Quand jeter l'huile",
+        "texte": "Quatre signes, un seul suffit : elle a foncé nettement, elle mousse en surface au contact de l'aliment, elle fume à une température plus basse qu'au premier usage, ou elle sent le poisson alors qu'on n'a pas frit de poisson. Une huile fatiguée ne rend pas seulement le goût douteux : son point de fumée baisse, donc elle se dégrade de plus en plus vite. Ne jamais la verser à l'évier — bocal fermé, aux ordures."
+      },
+      {
+        "titre": "La sécurité, en trois règles",
+        "texte": "Jamais plus du tiers de la hauteur de la casserole en huile — l'huile monte quand l'aliment entre. Jamais d'eau à proximité, ni un aliment congelé jeté directement dans le bain. Un couvercle à portée : un feu d'huile s'étouffe en couvrant, JAMAIS EN VERSANT DE L'EAU, qui projette l'huile enflammée. Couper la source de chaleur avant de couvrir."
+      }
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Karaage.jpg?width=1200",
+    "video": {
+      "youtube_id": "5Ea3EuwA758",
+      "auteur": "Japanese Top Chefs"
+    },
+    "voir_aussi": [
+      "R64"
+    ],
+    "commentaire_source": ""
   },
   {
     "id": "R1",
@@ -6624,7 +6757,9 @@
         "sante_pos": null
       }
     ],
-    "techniques": [],
+    "techniques": [
+      "T9"
+    ],
     "etapes": [
       {
         "n": 1,

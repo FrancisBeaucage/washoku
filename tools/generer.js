@@ -12,6 +12,7 @@ const { SOURCES, PROSES, DONNEES_SEULES, RACINE, DATA, BASE_URL } = require('./l
 const { lireBloc, remplacerBloc, lireFichier, ecrireFichier } = require('./lib/blocs');
 const { objetMultiligne, tableau } = require('./lib/ecrire-js');
 const documents = require('./lib/documents');
+const compteursCartes = require('./lib/compteurs');
 
 const verifier = process.argv.includes('--verifier');
 
@@ -138,6 +139,33 @@ for (const n of NOMBRES) {
   const mauvais = trouves.filter((t) => t !== attendu);
   if (mauvais.length && verifier) { console.error(`✗ ${n.page} : compteur périmé « ${mauvais[0]} », attendu « ${attendu} »`); ecarts += 1; }
   if (!verifier) ecrireFichier(chemin, html.replace(n.motif, attendu));
+}
+
+/* Les compteurs de pied des cartes de guide. Même contrat que NOMBRES, mais le
+   motif s'ancre sur le lien de chaque carte : « N fiches → » se répète d'une
+   carte à l'autre, et un motif global les écraserait toutes avec la même
+   valeur. La table vit dans lib/compteurs.js, que la règle 9 lit aussi. */
+{
+  const chemin = path.join(RACINE, compteursCartes.PAGE);
+  let html = lireFichier(chemin);
+  let touche = false;
+  for (const c of compteursCartes.cartes()) {
+    const actuel = compteursCartes.lireCarte(html, c);
+    if (actuel === null) {
+      console.error(`✗ ${compteursCartes.PAGE} : pied de carte introuvable pour ${c.href}`);
+      ecarts += 1;
+      continue;
+    }
+    if (actuel === c.libelle) continue;
+    if (verifier) {
+      console.error(`✗ ${compteursCartes.PAGE} : carte ${c.href} affiche « ${actuel} », attendu « ${c.libelle} »`);
+      ecarts += 1;
+      continue;
+    }
+    html = html.replace(c.motif, `$1${c.libelle}$3`);
+    touche = true;
+  }
+  if (!verifier && touche) ecrireFichier(chemin, html);
 }
 
 for (const src of DONNEES_SEULES) {

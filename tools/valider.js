@@ -7,7 +7,9 @@
 const fs = require('fs');
 const path = require('path');
 const { RACINE, DATA, BASE_URL } = require('./lib/sources');
-const { nombre } = require('./lib/champs');
+const { nombre, CATEGORIES, CUISINES, VITESSES } = require('./lib/champs');
+const { lireBloc } = require('./lib/blocs');
+const compteurs = require('./lib/compteurs');
 const { nombresCites, valeursCibles } = require('./lib/plan');
 const documents = require('./lib/documents');
 
@@ -21,7 +23,6 @@ const optionnel = (n) => (fs.existsSync(path.join(DATA, n)) ? lire(n) : null);
 const annexes = optionnel('guide-2-annexes.json');
 const plan = optionnel('guide-5-plan.json');
 const historique = optionnel('historique-repas.json') || [];
-const inventaire = optionnel('inventaire.json') || [];
 
 const echecs = [];
 const regle = (n, titre, problemes) => {
@@ -105,7 +106,12 @@ regle(7, 'Aucun identifiant retiré n’est réutilisé',
 regle(8, 'Toute entrée de journal renvoie à une fiche',
   journal.filter((e) => !(e.plats || []).length && !(e.fiches_corrigees || []).length).map((e) => `${e.id} ne renvoie à rien`));
 
-// 9 — les compteurs ne sont plus écrits en dur dans les pages
+/* 9 — les compteurs ne sont plus écrits en dur dans les pages. La règle ne
+   couvrait que deux phrases de prose, et passait au vert pendant que la carte
+   du guide 2 de la page d'accueil annonçait 56 fiches pour 74. Le document 15
+   lui ajoute les six pieds de carte, qui se calculent maintenant à la
+   génération — même table que `generer.js`, pour qu'aucune des deux ne puisse
+   en oublier un. */
 const durs = [];
 for (const [page, motifs] of Object.entries({
   'guide-2-recettes.html': [/(\d+) techniques, (\d+) recettes/],
@@ -121,6 +127,12 @@ for (const [page, motifs] of Object.entries({
       durs.push(`${page} : affiche ${tech} techniques / ${rec} recettes, contenu ${attendus.techniques} / ${attendus.recettes}`);
     }
   }
+}
+const accueil = fs.readFileSync(path.join(RACINE, compteurs.PAGE), 'utf8');
+for (const c of compteurs.cartes()) {
+  const actuel = compteurs.lireCarte(accueil, c);
+  if (actuel === null) durs.push(`${compteurs.PAGE} : pied de carte introuvable pour ${c.href}`);
+  else if (actuel !== c.libelle) durs.push(`${compteurs.PAGE} : carte ${c.href} affiche « ${actuel} », contenu « ${c.libelle} »`);
 }
 regle(9, 'Les nombres affichés dans les pages sont à jour', durs);
 
@@ -310,14 +322,14 @@ if (!manifeste) {
 }
 regle(16, 'Le manifeste se suffit à lui-même', entree);
 
-/* 17 — l'historique et l'inventaire. Le document 10 est explicite sur ce qui
-   doit être exact dans ces deux fichiers : ce ne sont pas les quantités, qui
-   restent en langage naturel, ce sont LES DATES. C'est ce qui permet de dire
-   « les crevettes ont trois jours, sers-les demain » sans avoir à le demander. */
-const REPAS_HISTORIQUE = new Set(['dejeuner', 'diner', 'souper', 'collation', 'journee']);
-const VERDICTS = new Set(['excellent', 'bon', 'correct', 'rate', 'rejete']);
-const EMPLACEMENTS = new Set(['congelateur', 'frigo', 'garde-manger']);
-const STATUTS = new Set(['ok', 'a-utiliser', 'urgent', 'epuise']);
+/* 17 — l'historique. Le document 10 est explicite sur ce qui doit y être
+   exact : ce ne sont pas les quantités, qui restent en langage naturel, ce sont
+   LES DATES. C'est ce qui permet de dire « les crevettes ont trois jours, sers-
+   les demain » sans avoir à le demander.
+
+   L'inventaire, que cette règle contrôlait aussi, est sorti du site au document
+   14. Les valeurs fermées de l'historique — `repas`, `verdict` — sont passées à
+   la règle 19, qui les vérifie comme tous les autres champs du même genre. */
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 const idsJournal = new Set(journal.map((e) => e.id));
 
@@ -325,22 +337,11 @@ const suivi = [];
 for (const r of historique) {
   const ou = `${r.date} ${r.repas}`;
   if (!ISO.test(r.date || '')) suivi.push(`${ou} : date mal formée`);
-  if (!REPAS_HISTORIQUE.has(r.repas)) suivi.push(`${ou} : repas « ${r.repas} » hors de la liste`);
-  if (r.verdict != null && !VERDICTS.has(r.verdict)) suivi.push(`${ou} : verdict « ${r.verdict} » hors de la liste`);
   if (!(r.fiches || []).length && !(r.hors_fiche || []).length) suivi.push(`${ou} : ni fiche ni hors-fiche, l’enregistrement ne dit rien`);
   if (r.journal != null && !idsJournal.has(r.journal)) suivi.push(`${ou} : renvoie à l’entrée de journal ${r.journal}, qui n’existe pas`);
   if (!Number.isInteger(r.convives) || r.convives < 1) suivi.push(`${ou} : convives doit être un entier positif`);
 }
-for (const d of inventaire) {
-  const ou = d.nom || '(sans nom)';
-  if (!d.nom) suivi.push('une denrée sans nom');
-  if (!EMPLACEMENTS.has(d.emplacement)) suivi.push(`${ou} : emplacement « ${d.emplacement} » hors de la liste`);
-  if (!STATUTS.has(d.statut)) suivi.push(`${ou} : statut « ${d.statut} » hors de la liste`);
-  for (const cle of ['date_achat', 'date_limite']) {
-    if (d[cle] != null && !ISO.test(d[cle])) suivi.push(`${ou} : ${cle} mal formée (« ${d[cle]} »)`);
-  }
-}
-regle(17, 'L’historique et l’inventaire sont bien formés', suivi);
+regle(17, 'L’historique est bien formé', suivi);
 
 /* 18 — une vidéo sans sa chaîne. Vingt et une fiches portaient un
    `youtube_id` valide avec `auteur: null` : la page affiche alors une vidéo
@@ -354,6 +355,71 @@ regle(18, 'Toute vidéo dit de quelle chaîne elle vient', fiches.flatMap((f) =>
   return [];
 }));
 
+/* 19 — les champs à valeurs fermées. Le document 13 donnait `section:
+   "legumes"` pour une fiche d'ingrédient là où la clé réelle est `leg` :
+   l'erreur a été rattrapée à la main, et AUCUNE RÈGLE NE L'AURAIT SIGNALÉE. Une
+   clé inconnue ne fait pas planter la page — elle laisse la fiche hors de tout
+   filtre de rayon, avec une étiquette vide, sans qu'aucun test échoue.
+
+   Le défaut n'était pas la clé de rayon : c'était qu'aucun champ à valeurs
+   fermées n'était vérifié contre son ensemble, et `section` n'en est qu'un sur
+   neuf. D'où une règle générique — une table `champ → ensemble permis` — plutôt
+   que neuf règles particulières qui laisseraient repasser la dixième.
+
+   Les ensembles se lisent là où ils sont DÉJÀ définis, jamais recopiés ici :
+   les libellés de `champs.js` pour la catégorie, la cuisine et la vitesse ; le
+   tableau `SECS` de la page du guide 3 pour les rayons. Recopier créerait une
+   seconde source de vérité, et déplacerait le problème au lieu de le régler. */
+
+const clesSecs = () => {
+  const html = fs.readFileSync(path.join(RACINE, 'guide-3-supermarche.html'), 'utf8');
+  return lireBloc(html, 'SECS').map((s) => s.k);
+};
+
+/* `retiré` porte son accent : c'est la valeur que `generer.js` et `sources.js`
+   comparent pour écarter une entrée de la page. Un `retire` sans accent y
+   passerait pour une fiche active — il n'est donc pas permis ici. */
+const STATUT = new Set(['actif', 'retiré']);
+/* Les trois provenances documentées par le commentaire de `lib/fiches.js` et la
+   section « Nutrition » du LISEZMOI. `etiquette` et `pese` ne sont attestées
+   dans aucune donnée : elles serviront le jour où `lipides_g` et `sodium_mg`
+   seront relevés sur de vraies étiquettes. */
+const SOURCES_NUTRITION = new Set(['estime', 'etiquette', 'pese']);
+/* `journee` a disparu au document 14 : la seule entrée qui l'utilisait agrégeait
+   un déjeuner et un dîner sans rapport, et a été scindée en deux. Le champ
+   `repas` du guide 6 est un autre champ, sur un autre fichier — voir règle 12. */
+const REPAS_HISTORIQUE = new Set(['dejeuner', 'diner', 'souper', 'collation']);
+const VERDICTS = new Set(['excellent', 'bon', 'correct', 'rate', 'rejete']);
+
+const A_VALEURS_FERMEES = [
+  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'statut', permis: STATUT },
+  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'categorie', permis: new Set(Object.values(CATEGORIES)) },
+  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'cuisine', permis: new Set(Object.values(CUISINES)) },
+  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'vitesse', permis: new Set(Object.values(VITESSES)) },
+  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'nutrition.source', permis: SOURCES_NUTRITION },
+  { fichier: 'guide-3-ingredients.json', entrees: ingredients, ou: (x) => x.id, champ: 'statut', permis: STATUT },
+  { fichier: 'guide-3-ingredients.json', entrees: ingredients, ou: (x) => x.id, champ: 'section', permis: new Set(clesSecs()) },
+  { fichier: 'guide-4-exercices.json', entrees: exercices, ou: (e) => e.id, champ: 'statut', permis: STATUT },
+  { fichier: 'historique-repas.json', entrees: historique, ou: (r) => `${r.date} ${r.repas}`, champ: 'repas', permis: REPAS_HISTORIQUE },
+  { fichier: 'historique-repas.json', entrees: historique, ou: (r) => `${r.date} ${r.repas}`, champ: 'verdict', permis: VERDICTS, nul: true },
+];
+
+/** Descend un chemin pointé (« nutrition.source ») ; `undefined` si la route casse. */
+const suivre = (objet, chemin) => chemin.split('.').reduce((v, c) => (v == null ? undefined : v[c]), objet);
+
+const fermes = [];
+for (const t of A_VALEURS_FERMEES) {
+  const attendu = [...t.permis].join(', ') + (t.nul ? ', null' : '');
+  for (const entree of t.entrees || []) {
+    const valeur = suivre(entree, t.champ);
+    if (valeur == null && t.nul) continue;
+    if (t.permis.has(valeur)) continue;
+    const vue = valeur === undefined ? '(absent)' : JSON.stringify(valeur);
+    fermes.push(`${t.fichier} → ${t.ou(entree)}.${t.champ} = ${vue} ; permis : ${attendu}`);
+  }
+}
+regle(19, 'Tout champ à valeurs fermées tient dans son ensemble', fermes);
+
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }
-console.log(`Validation complète : ${fiches.length} fiches, ${ingredients.length} ingrédients, ${exercices.length} exercices, ${journal.length} entrées de journal, ${historique.length} repas, ${inventaire.length} denrées.`);
+console.log(`Validation complète : ${fiches.length} fiches, ${ingredients.length} ingrédients, ${exercices.length} exercices, ${journal.length} entrées de journal, ${historique.length} repas.`);

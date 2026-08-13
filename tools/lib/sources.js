@@ -91,10 +91,14 @@ const PROSES = [
 
 /* Les fichiers qui ne se rendent nulle part : ils vivent dans /data et rien
    d'autre. Ils figurent quand même au manifeste — sinon un agent extérieur ne
-   peut pas les atteindre, et la règle 16 le refuse. */
+   peut pas les atteindre, et la règle 16 le refuse.
+
+   `inventaire.json` en a été retiré au document 14 : un stock de denrées change
+   plusieurs fois par jour, et le circuit document → génération → déploiement →
+   cache le rend périmé avant d'être visible. Ne pas le recréer ici — voir la
+   section « L'historique » de data/LISEZMOI.md. */
 const DONNEES_SEULES = [
   { cle: 'historique-repas', description: 'Ce qui a été mangé, un enregistrement par repas' },
-  { cle: 'inventaire', description: 'Ce qui est au congélateur, au frigo et au garde-manger' },
   { cle: 'documents-appliques', description: 'Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique' },
 ];
 
