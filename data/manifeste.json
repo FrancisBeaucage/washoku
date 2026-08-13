@@ -2,13 +2,14 @@
   "site": "washoku",
   "version_schema": "1.0",
   "derniere_maj": "2026-08-13",
-  "dernier_document_applique": 15,
+  "dernier_document_applique": 16,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
     "index.json dit quelles fiches existent, avec de quoi choisir laquelle ouvrir.",
     "fiches/<ID>.json donne une fiche entière. Ne récupérer que celles dont on a besoin.",
-    "guide-2-fiches.json est le recueil entier : ne le charger que pour un audit."
+    "guide-2-fiches.json est le recueil entier : ne le charger que pour un audit.",
+    "ensembles_fermes donne les valeurs exactes des champs à liste fermée. Les lire avant d’en écrire une."
   ],
   "fichiers": [
     {
@@ -64,8 +65,8 @@
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 15,
-      "nb_actives": 15
+      "nb_entrees": 16,
+      "nb_actives": 16
     },
     {
       "nom": "index.json",
@@ -87,5 +88,85 @@
     "recettes": 65,
     "fiches_actives": 75,
     "fiches_retirees": 0
-  }
+  },
+  "ensembles_fermes": {
+    "guide-2-fiches.json": {
+      "statut": [
+        "actif",
+        "retiré"
+      ],
+      "categorie": [
+        "technique",
+        "dejeuner",
+        "diner",
+        "souper",
+        "soupe-entree",
+        "garniture",
+        "collation"
+      ],
+      "cuisine": [
+        "japonaise",
+        "chinoise",
+        "coreenne",
+        "thaie",
+        "vietnamienne"
+      ],
+      "vitesse": [
+        "ultra-rapide",
+        "rapide",
+        "moyen",
+        "long",
+        "extra-long"
+      ],
+      "nutrition.source": [
+        "estime",
+        "etiquette",
+        "pese"
+      ]
+    },
+    "guide-3-ingredients.json": {
+      "statut": [
+        "actif",
+        "retiré"
+      ],
+      "section": [
+        "tous",
+        "leg",
+        "frigo",
+        "poisson",
+        "viande",
+        "congel",
+        "sec",
+        "jp",
+        "kr",
+        "cn",
+        "sea",
+        "the",
+        "riz"
+      ]
+    },
+    "guide-4-exercices.json": {
+      "statut": [
+        "actif",
+        "retiré"
+      ]
+    },
+    "historique-repas.json": {
+      "repas": [
+        "dejeuner",
+        "diner",
+        "souper",
+        "collation"
+      ],
+      "verdict": [
+        "excellent",
+        "bon",
+        "correct",
+        "rate",
+        "rejete",
+        null
+      ]
+    }
+  },
+  "note_ensembles_fermes": "Les valeurs exactes — accents compris — que ces champs acceptent. Généré depuis la source ; la règle 19 refuse toute autre valeur. Un « null » en fin de liste veut dire que le champ l’accepte aussi. À lire avant d’écrire un document de mise à jour, plutôt que de les citer de mémoire."
 }

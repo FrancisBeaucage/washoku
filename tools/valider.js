@@ -6,9 +6,9 @@
 
 const fs = require('fs');
 const path = require('path');
-const { RACINE, DATA, BASE_URL } = require('./lib/sources');
-const { nombre, CATEGORIES, CUISINES, VITESSES } = require('./lib/champs');
-const { lireBloc } = require('./lib/blocs');
+const { SOURCES, RACINE, DATA, BASE_URL } = require('./lib/sources');
+const { nombre } = require('./lib/champs');
+const ensembles = require('./lib/ensembles');
 const compteurs = require('./lib/compteurs');
 const { nombresCites, valeursCibles } = require('./lib/plan');
 const documents = require('./lib/documents');
@@ -363,62 +363,96 @@ regle(18, 'Toute vidéo dit de quelle chaîne elle vient', fiches.flatMap((f) =>
 
    Le défaut n'était pas la clé de rayon : c'était qu'aucun champ à valeurs
    fermées n'était vérifié contre son ensemble, et `section` n'en est qu'un sur
-   neuf. D'où une règle générique — une table `champ → ensemble permis` — plutôt
-   que neuf règles particulières qui laisseraient repasser la dixième.
+   dix. D'où une règle générique — une table `champ → ensemble permis` — plutôt
+   que dix règles particulières qui laisseraient repasser la onzième.
 
-   Les ensembles se lisent là où ils sont DÉJÀ définis, jamais recopiés ici :
-   les libellés de `champs.js` pour la catégorie, la cuisine et la vitesse ; le
-   tableau `SECS` de la page du guide 3 pour les rayons. Recopier créerait une
-   seconde source de vérité, et déplacerait le problème au lieu de le régler. */
-
-const clesSecs = () => {
-  const html = fs.readFileSync(path.join(RACINE, 'guide-3-supermarche.html'), 'utf8');
-  return lireBloc(html, 'SECS').map((s) => s.k);
-};
-
-/* `retiré` porte son accent : c'est la valeur que `generer.js` et `sources.js`
-   comparent pour écarter une entrée de la page. Un `retire` sans accent y
-   passerait pour une fiche active — il n'est donc pas permis ici. */
-const STATUT = new Set(['actif', 'retiré']);
-/* Les trois provenances documentées par le commentaire de `lib/fiches.js` et la
-   section « Nutrition » du LISEZMOI. `etiquette` et `pese` ne sont attestées
-   dans aucune donnée : elles serviront le jour où `lipides_g` et `sodium_mg`
-   seront relevés sur de vraies étiquettes. */
-const SOURCES_NUTRITION = new Set(['estime', 'etiquette', 'pese']);
-/* `journee` a disparu au document 14 : la seule entrée qui l'utilisait agrégeait
-   un déjeuner et un dîner sans rapport, et a été scindée en deux. Le champ
-   `repas` du guide 6 est un autre champ, sur un autre fichier — voir règle 12. */
-const REPAS_HISTORIQUE = new Set(['dejeuner', 'diner', 'souper', 'collation']);
-const VERDICTS = new Set(['excellent', 'bon', 'correct', 'rate', 'rejete']);
-
-const A_VALEURS_FERMEES = [
-  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'statut', permis: STATUT },
-  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'categorie', permis: new Set(Object.values(CATEGORIES)) },
-  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'cuisine', permis: new Set(Object.values(CUISINES)) },
-  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'vitesse', permis: new Set(Object.values(VITESSES)) },
-  { fichier: 'guide-2-fiches.json', entrees: fiches, ou: (f) => f.id, champ: 'nutrition.source', permis: SOURCES_NUTRITION },
-  { fichier: 'guide-3-ingredients.json', entrees: ingredients, ou: (x) => x.id, champ: 'statut', permis: STATUT },
-  { fichier: 'guide-3-ingredients.json', entrees: ingredients, ou: (x) => x.id, champ: 'section', permis: new Set(clesSecs()) },
-  { fichier: 'guide-4-exercices.json', entrees: exercices, ou: (e) => e.id, champ: 'statut', permis: STATUT },
-  { fichier: 'historique-repas.json', entrees: historique, ou: (r) => `${r.date} ${r.repas}`, champ: 'repas', permis: REPAS_HISTORIQUE },
-  { fichier: 'historique-repas.json', entrees: historique, ou: (r) => `${r.date} ${r.repas}`, champ: 'verdict', permis: VERDICTS, nul: true },
-];
+   La table vit dans `lib/ensembles.js`, parce que le manifeste la publie aussi :
+   un rédacteur de document peut lire les formes exactes par `curl` au lieu de
+   les écrire de mémoire. La règle vérifie en queue que le manifeste dit bien la
+   même chose que la table — deux copies d'un ensemble finiraient par diverger. */
 
 /** Descend un chemin pointé (« nutrition.source ») ; `undefined` si la route casse. */
 const suivre = (objet, chemin) => chemin.split('.').reduce((v, c) => (v == null ? undefined : v[c]), objet);
 
+const PAR_FICHIER = {
+  'guide-2-fiches.json': { entrees: fiches, ou: (f) => f.id },
+  'guide-3-ingredients.json': { entrees: ingredients, ou: (x) => x.id },
+  'guide-4-exercices.json': { entrees: exercices, ou: (e) => e.id },
+  'historique-repas.json': { entrees: historique, ou: (r) => `${r.date} ${r.repas}` },
+};
+
 const fermes = [];
-for (const t of A_VALEURS_FERMEES) {
-  const attendu = [...t.permis].join(', ') + (t.nul ? ', null' : '');
-  for (const entree of t.entrees || []) {
+for (const t of ensembles.table()) {
+  const source = PAR_FICHIER[t.fichier];
+  if (!source) { fermes.push(`${t.fichier} : aucune donnée chargée pour ce fichier`); continue; }
+  const permis = new Set(t.permis);
+  const attendu = t.permis.join(', ') + (t.nul ? ', null' : '');
+  for (const entree of source.entrees || []) {
     const valeur = suivre(entree, t.champ);
     if (valeur == null && t.nul) continue;
-    if (t.permis.has(valeur)) continue;
+    if (permis.has(valeur)) continue;
     const vue = valeur === undefined ? '(absent)' : JSON.stringify(valeur);
-    fermes.push(`${t.fichier} → ${t.ou(entree)}.${t.champ} = ${vue} ; permis : ${attendu}`);
+    fermes.push(`${t.fichier} → ${source.ou(entree)}.${t.champ} = ${vue} ; permis : ${attendu}`);
+  }
+}
+if (manifeste) {
+  const publie = JSON.stringify(manifeste.ensembles_fermes || null);
+  if (publie !== JSON.stringify(ensembles.parFichier())) {
+    fermes.push('manifeste : ensembles_fermes ne correspond plus à la table — lancer `npm run generer`');
   }
 }
 regle(19, 'Tout champ à valeurs fermées tient dans son ensemble', fermes);
+
+/* 20 — aucun champ de /data ne se perd à la réextraction. `extraire.js` relit
+   les pages pour reconstruire /data ; tout champ que la page ne rend pas doit
+   donc être déclaré dans `champs_hors_page`, faute de quoi il est REMPLACÉ EN
+   SILENCE par ce que le mapper recalcule. C'est arrivé trois fois sans être vu :
+   `nutrition.variable` remis à `false` sur R64 et T9, `voir_aussi` vidé, la
+   `note` de nutrition réécrite avec la phrase par défaut.
+
+   La règle ne devine rien : elle fait l'aller-retour `versEntree` → `versJson`
+   sur chaque entrée de /data et compare. Ce que l'aller-retour ne rend pas
+   identique est exactement ce qu'une réextraction changerait.
+
+   Deux limites connues, à ne pas confondre avec un défaut de la règle :
+   — une fiche `retiré` n'est pas dans la page du tout, donc une réextraction la
+     perdrait entière ; `champs_hors_page` n'y peut rien, il faudrait que
+     `extraire.js` reprenne les entrées absentes du HTML ;
+   — `extraire.js` est un script d'amorçage, lancé une fois. Le risque ne se
+     matérialise qu'à un `--force`, ce qui est précisément quand personne ne
+     relira 75 fiches à la main. */
+const feuilles = (o, prefixe = '') => {
+  if (o === null || typeof o !== 'object' || Array.isArray(o)) return [prefixe];
+  return Object.entries(o).flatMap(([k, v]) => feuilles(v, prefixe ? `${prefixe}.${k}` : k));
+};
+
+const orphelins = [];
+for (const src of SOURCES) {
+  const chemin = path.join(DATA, `${src.cle}.json`);
+  if (!fs.existsSync(chemin)) continue;
+  const declares = new Set([...(src.champs_hors_page || []), ...(src.champs_reconstitues || [])]);
+  const perdus = new Map();
+  for (const o of lire(`${src.cle}.json`)) {
+    let retour;
+    try {
+      retour = src.mapper.versJson(src.mapper.versEntree(o));
+    } catch (e) {
+      orphelins.push(`${src.cle}.json → ${o.id} : aller-retour impossible (${e.message})`);
+      continue;
+    }
+    for (const c of feuilles(o)) {
+      if (declares.has(c)) continue;
+      if (JSON.stringify(suivre(o, c)) === JSON.stringify(suivre(retour, c))) continue;
+      if (!perdus.has(c)) perdus.set(c, []);
+      perdus.get(c).push(o.id);
+    }
+  }
+  for (const [c, ids] of perdus) {
+    const liste = ids.slice(0, 4).join(', ') + (ids.length > 4 ? `, … +${ids.length - 4}` : '');
+    orphelins.push(`${src.cle}.json → ${c} : ${ids.length} entrée(s) perdraient leur valeur (${liste}) — déclarer dans champs_hors_page de lib/sources.js, ou corriger la donnée`);
+  }
+}
+regle(20, 'Aucun champ de /data ne se perd à la réextraction', orphelins);
 
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }

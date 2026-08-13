@@ -13,6 +13,7 @@ const { lireBloc, remplacerBloc, lireFichier, ecrireFichier } = require('./lib/b
 const { objetMultiligne, tableau } = require('./lib/ecrire-js');
 const documents = require('./lib/documents');
 const compteursCartes = require('./lib/compteurs');
+const ensembles = require('./lib/ensembles');
 
 const verifier = process.argv.includes('--verifier');
 
@@ -267,9 +268,17 @@ const manifeste = {
     'index.json dit quelles fiches existent, avec de quoi choisir laquelle ouvrir.',
     'fiches/<ID>.json donne une fiche entière. Ne récupérer que celles dont on a besoin.',
     'guide-2-fiches.json est le recueil entier : ne le charger que pour un audit.',
+    'ensembles_fermes donne les valeurs exactes des champs à liste fermée. Les lire avant d’en écrire une.',
   ],
   fichiers,
   compteurs,
+  /* Publié pour que les valeurs cessent d'être citées de mémoire. Trois fautes
+     du document 14 — `retire` sans accent, `rate` réputé absent, un total
+     d'historique faux — venaient de ce que le rédacteur ne pouvait consulter
+     nulle part les formes exactes. Même table que la règle 19 : voir
+     lib/ensembles.js. */
+  ensembles_fermes: ensembles.parFichier(),
+  note_ensembles_fermes: ensembles.NOTE,
 };
 if (!verifier) fs.writeFileSync(path.join(DATA, 'manifeste.json'), JSON.stringify(manifeste, null, 2) + '\n', 'utf8');
 

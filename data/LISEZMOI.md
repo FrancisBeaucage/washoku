@@ -9,7 +9,7 @@ génération l'écrasera.
 ## Le cycle
 
 ```bash
-npm run verifier      # les 19 règles + contrôle que HTML et JSON disent la même chose
+npm run verifier      # les 20 règles + contrôle que HTML et JSON disent la même chose
 npm run appliquer 12  # marque le document 12 comme appliqué
 npm run generer       # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
@@ -218,7 +218,7 @@ pas, donc on ne peut pas les en relire. Une réextraction les écraserait.
 
 | Fichier | Champs |
 |---|---|
-| `guide-2-fiches.json` | `nutrition.source` |
+| `guide-2-fiches.json` | `nutrition.source`, `nutrition.variable`, `nutrition.note`, `voir_aussi` |
 | `guide-3-ingredients.json` | `description_visuelle`, `zone_magasin` |
 
 Ils sont déclarés dans `champs_hors_page` de `tools/lib/sources.js`, et
@@ -226,12 +226,48 @@ Ils sont déclarés dans `champs_hors_page` de `tools/lib/sources.js`, et
 un champ de ce genre sans l'y déclarer, c'est le condamner à disparaître à la
 prochaine réextraction.
 
+**La règle 20 refuse désormais qu'un champ y échappe.** Elle fait l'aller-retour
+`versEntree` → `versJson` sur chaque entrée de `/data` et compare : ce que
+l'aller-retour ne rend pas identique est exactement ce qu'une réextraction
+changerait. Trois champs du guide 2 vivaient dans ce trou sans que rien ne le
+dise — `nutrition.variable` (recalculé depuis `/variable/i.test()`, donc remis à
+`false` sur R64 et T9), `voir_aussi` (toujours rendu vide) et `nutrition.note`
+(réécrite avec la phrase par défaut). Ils ont été déclarés au document 16.
+
+Un troisième tableau, `champs_reconstitues`, recense ce qu'`extraire.js` rebâtit
+autrement qu'à travers le mapper : `commentaire_source`, tiré des lignes qui
+précèdent l'entrée, et l'`id` du guide 3, calculé depuis `fr`. Ces champs ne se
+perdent pas ; ils ne passent simplement pas par le mapper, et la règle 20 doit
+le savoir pour ne pas crier au loup.
+
+Deux limites connues, que `champs_hors_page` ne peut pas couvrir :
+
+- **une fiche `retiré` n'est pas dans la page du tout**, donc une réextraction la
+  perdrait entière, `motif_retrait` compris. Il faudrait qu'`extraire.js`
+  reprenne les entrées absentes du HTML. Aucune fiche n'est retirée à ce jour ;
+- `extraire.js` est un script d'**amorçage**, lancé une fois. Le risque ne se
+  matérialise qu'à un `--force` — c'est-à-dire précisément quand personne ne
+  relira 75 fiches à la main.
+
 ## Les champs à valeurs fermées
 
-Neuf champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
+Dix champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
 vérifie tous**, à partir d'une seule table `champ → ensemble permis` dans
-`tools/valider.js` — pas neuf règles particulières, qui laisseraient repasser la
-dixième.
+`tools/lib/ensembles.js` — pas dix règles particulières, qui laisseraient
+repasser la onzième.
+
+**Le manifeste publie ces ensembles**, sous `ensembles_fermes`. C'est la réponse
+à une cause commune : trois fautes du document 14 — `retire` écrit sans accent,
+`rate` réputé absent alors qu'il était déjà là, un total d'historique faux —
+venaient de ce que le rédacteur d'un document ne voit pas `lib/champs.js` et
+cite les valeurs de mémoire. Elles se lisent maintenant avant d'écrire :
+
+```bash
+curl -s "https://francisbeaucage.github.io/washoku/data/manifeste.json?cb=$(date +%s)" | jq .ensembles_fermes
+```
+
+La règle 19 vérifie en queue que le bloc publié dit bien la même chose que la
+table — deux copies d'un ensemble finiraient par diverger.
 
 | Fichier | Champ | Ensemble |
 |---|---|---|
@@ -345,6 +381,18 @@ interdit.
 calcul. `proteines_affiche` et `calories_affiche` sont ce que le lecteur voit
 (« ≈ 190 / tasse », « ~44 g ») — **les deux doivent rester cohérents.** La règle
 13 le vérifie à ±20 %.
+
+Plus précisément : **la valeur numérique est la lecture machine de la chaîne
+affichée**, celle que rend `nombre()` de `lib/champs.js` — c'est le premier
+nombre du texte, et rien d'autre. La page ne stocke que la chaîne ; le nombre en
+est dérivé. La règle 20 le vérifie de fait, puisqu'une divergence est exactement
+ce qu'une réextraction corrigerait toute seule.
+
+T9 y a échappé en naissant : le document 14 lui donnait `calories: 0` avec
+`calories_affiche: "90 à 180 ajoutées par portion"`. Zéro calorie pour une fiche
+dont la leçon centrale est que la friture coûte cher en calories — et
+`index.json` publiait ce zéro. Corrigé à 90 au document 16, la borne basse de la
+fourchette annoncée ; `variable: true` dit le reste.
 
 `nutrition.source` dit d'où viennent les chiffres :
 

@@ -125,7 +125,7 @@
     "cuisine": "japonaise",
     "statut": "actif",
     "proteines_g": null,
-    "calories": 0,
+    "calories": 90,
     "temps_minutes": 25,
     "url": "https://francisbeaucage.github.io/washoku/data/fiches/T9.json"
   },

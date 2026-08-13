@@ -22,10 +22,22 @@ const SOURCES = [
     bloc: 'R',
     description: 'Techniques et recettes du guide 2',
     mapper: require('./fiches'),
-    // Champs qui vivent dans /data seulement : la page ne les rend pas, donc
-    // une réextraction les écraserait. `extraire.js` les recopie depuis le JSON
-    // existant plutôt que de les perdre.
-    champs_hors_page: ['nutrition.source'],
+    /* Champs qui vivent dans /data seulement : la page ne les rend pas, donc
+       une réextraction les écraserait. `extraire.js` les recopie depuis le JSON
+       existant plutôt que de les perdre, et la RÈGLE 20 refuse qu'un champ de
+       ce genre reste non déclaré.
+
+       Trois d'entre eux ont été ajoutés au document 16, après que `variable` a
+       été signalé : `versJson` le recalcule depuis `/variable/i.test(pro)`, ce
+       qui aurait remis R64 et T9 à `false` sans que rien ne le dise. Le même
+       trou avalait `voir_aussi` — que `versJson` rend toujours vide — et la
+       `note` de nutrition, qu'il réécrit avec sa phrase par défaut. */
+    champs_hors_page: ['nutrition.source', 'nutrition.variable', 'nutrition.note', 'voir_aussi'],
+    /* Champs qu'aucune des deux directions du mapper ne porte, mais que
+       `extraire.js` reconstitue autrement — ici depuis les lignes qui précèdent
+       l'entrée dans le fichier généré (`decouperEntrees`). Ils ne se perdent
+       pas ; ils ne passent simplement pas par le mapper. */
+    champs_reconstitues: ['commentaire_source'],
     // La page écrivait tantôt `notes:[]`, tantôt rien : les deux formes se
     // rendent pareil. On normalise sur la forme explicite.
     defauts: { notes: [] },
@@ -40,6 +52,9 @@ const SOURCES = [
     description: 'Fiches d’ingrédients du guide 3',
     mapper: require('./ingredients'),
     champs_hors_page: ['description_visuelle', 'zone_magasin'],
+    // `id` est la limace calculée depuis `fr` par l'extraction, pas une donnée
+    // relue de la page.
+    champs_reconstitues: ['commentaire_source', 'id'],
     entete: ['s', 'jp', 'ro', 'pr', 'fr', 'img', 'pack'],
     groupes: [['d'], ['w'], ['l'], ['alt'], ['u'], ['nk', 'n']],
     separateur: '\n',
@@ -50,6 +65,7 @@ const SOURCES = [
     bloc: 'E',
     description: 'Exercices du guide 4',
     mapper: require('./exercices'),
+    champs_reconstitues: ['commentaire_source'],
     entete: ['n', 'z', 'jp', 'fr', 'en', 'reps'],
     groupes: [['short'], ['why'], ['steps'], ['reg'], ['std'], ['pro'], ['fmt'], ['note']],
     separateur: '\n',
