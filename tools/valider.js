@@ -9,6 +9,7 @@ const path = require('path');
 const { RACINE, DATA, BASE_URL } = require('./lib/sources');
 const { nombre } = require('./lib/champs');
 const { nombresCites, valeursCibles } = require('./lib/plan');
+const documents = require('./lib/documents');
 
 const lire = (n) => JSON.parse(fs.readFileSync(path.join(DATA, n), 'utf8'));
 const fiches = lire('guide-2-fiches.json');
@@ -293,6 +294,19 @@ if (!manifeste) {
   if (!Array.isArray(manifeste.protocole_de_lecture) || !manifeste.protocole_de_lecture.length) {
     entree.push('protocole_de_lecture absent du manifeste');
   }
+
+  /* Le numéro de document est un compteur comme les autres : il doit se
+     déduire de l'état du dépôt. Il a été oublié une fois, et un manifeste
+     périmé a coûté une session entière — c'est ce que cette vérification
+     empêche de recommencer. */
+  try {
+    const attendu = documents.dernier();
+    if (manifeste.dernier_document_applique !== attendu) {
+      entree.push(`dernier_document_applique : manifeste ${manifeste.dernier_document_applique}, ${documents.NOM} ${attendu}`);
+    }
+  } catch (e) {
+    entree.push(e.message);
+  }
 }
 regle(16, 'Le manifeste se suffit à lui-même', entree);
 
@@ -327,6 +341,18 @@ for (const d of inventaire) {
   }
 }
 regle(17, 'L’historique et l’inventaire sont bien formés', suivi);
+
+/* 18 — une vidéo sans sa chaîne. Vingt et une fiches portaient un
+   `youtube_id` valide avec `auteur: null` : la page affiche alors une vidéo
+   sans dire d'où elle vient, ce qui n'est ni honnête ni réparable plus tard
+   sans redemander l'information à YouTube. L'inverse — un auteur sans vidéo —
+   est du bruit resté après un retrait. */
+regle(18, 'Toute vidéo dit de quelle chaîne elle vient', fiches.flatMap((f) => {
+  const v = f.video || {};
+  if (v.youtube_id && !v.auteur) return [`${f.id} : vidéo ${v.youtube_id} sans auteur`];
+  if (!v.youtube_id && v.auteur) return [`${f.id} : auteur « ${v.auteur} » sans vidéo`];
+  return [];
+}));
 
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }

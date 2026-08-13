@@ -2,7 +2,7 @@
   "site": "washoku",
   "version_schema": "1.0",
   "derniere_maj": "2026-08-12",
-  "dernier_document_applique": 10,
+  "dernier_document_applique": 11,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
@@ -66,6 +66,13 @@
       "description": "Ce qui est au congélateur, au frigo et au garde-manger",
       "nb_entrees": 0,
       "nb_actives": 0
+    },
+    {
+      "nom": "documents-appliques.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
+      "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
+      "nb_entrees": 11,
+      "nb_actives": 11
     },
     {
       "nom": "index.json",

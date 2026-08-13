@@ -9,14 +9,20 @@ génération l'écrasera.
 ## Le cycle
 
 ```bash
-npm run verifier   # les 17 règles + contrôle que HTML et JSON disent la même chose
-npm run generer    # /data → pages HTML + manifeste + index + fiches, puis validation
+npm run verifier      # les 18 règles + contrôle que HTML et JSON disent la même chose
+npm run appliquer 12  # marque le document 12 comme appliqué
+npm run generer       # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
 
 `verifier` n'écrit rien : il signale les écarts. `generer` réécrit les pages à
 partir de `/data`, et sort en erreur s'il a trouvé un écart — non parce que
 c'est une faute, mais pour forcer la relecture du diff. **Un écart est le cas
 normal juste après une édition de `/data`.**
+
+`appliquer` s'appelle une fois par document de mise à jour, après avoir posé son
+contenu dans `/data` et avant `generer`. Il allonge
+`documents-appliques.json` ; c'est de là, et de nulle part ailleurs, que le
+manifeste tire son `dernier_document_applique`.
 
 ## Les fichiers
 
@@ -33,6 +39,7 @@ normal juste après une édition de `/data`.**
 | `guide-6-journal.json` | Entrées du journal | section `#s4` de `guide-6-journal.html` |
 | `historique-repas.json` | Ce qui a été mangé, un enregistrement par repas | — |
 | `inventaire.json` | Ce qui est au congélateur, au frigo et au garde-manger | — |
+| `documents-appliques.json` | Les numéros des documents de mise à jour déjà appliqués | — |
 
 Ce qui reste en HTML, et pourquoi : le guide 1, les proses des guides 3 et 4, et
 les sections d'explication du guide 6. C'est de la prose longue et stable, déjà
@@ -87,6 +94,22 @@ pour l'agent qui s'en sert comme point d'entrée.
 `index.json` et `fiches/` sont la **même donnée** que le recueil, écrite deux
 fois de plus par le même script. La règle 15 vérifie qu'elles n'ont pas divergé ;
 une divergence signale un générateur cassé, pas une faute de saisie.
+
+## Le numéro du dernier document appliqué
+
+**Tout compteur du manifeste se calcule à partir de l'état réel du dépôt, jamais
+d'une valeur recopiée.** `dernier_document_applique` était le dernier à y
+échapper : il était saisi à la main dans `generer.js`, donc oubliable — et il a
+été oublié, ce qui a coûté une session entière le 11 août 2026, l'agent de
+planification croyant à tort que le travail n'était pas en ligne.
+
+La source unique est maintenant `documents-appliques.json`, et
+`dernier_document_applique` en est le maximum. `generer.js` ne fait que le lire
+et n'accepte aucune valeur en paramètre. La lecture a lieu **avant toute
+écriture** : liste absente, illisible ou vide arrête la génération au lieu de
+produire un manifeste qui ment. `appliquer` refuse un numéro inférieur ou égal
+au maximum déjà présent — un numéro qui recule ou stagne est un bogue, jamais
+une intention. La règle 16 vérifie que le manifeste et la liste s'accordent.
 
 ## L'historique et l'inventaire
 

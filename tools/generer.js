@@ -11,8 +11,23 @@ const assert = require('assert');
 const { SOURCES, PROSES, DONNEES_SEULES, RACINE, DATA, BASE_URL } = require('./lib/sources');
 const { lireBloc, remplacerBloc, lireFichier, ecrireFichier } = require('./lib/blocs');
 const { objetMultiligne, tableau } = require('./lib/ecrire-js');
+const documents = require('./lib/documents');
 
 const verifier = process.argv.includes('--verifier');
+
+/* Le numéro du dernier document appliqué se dérive du dépôt, jamais d'une
+   valeur recopiée ici : c'est le principe général du manifeste, et c'était le
+   dernier compteur à y échapper. Aucune valeur ne s'accepte en paramètre, et
+   la lecture se fait avant toute écriture — une liste absente ou vide arrête
+   la génération plutôt que de produire un manifeste qui ment. */
+let dernierDocumentApplique;
+try {
+  dernierDocumentApplique = documents.dernier();
+} catch (e) {
+  console.error(`✗ ${e.message}`);
+  console.error('Rien n’a été écrit. Voir tools/appliquer-document.js.');
+  process.exit(1);
+}
 
 const adresse = (nom) => `${BASE_URL}/data/${nom}`;
 const lireJson = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
@@ -203,11 +218,21 @@ fichiers.push({
   nb_actives: toutesLesFiches.filter((f) => f.statut !== 'retiré').length,
 });
 
+/* La date du jour, en heure locale. `toISOString()` donne l'heure UTC : passé
+   20 h à Montréal, le manifeste se datait du lendemain — une date qui n'a pas
+   encore eu lieu ici, sur un fichier dont tout l'intérêt est de dire quand le
+   travail a été fait. */
+function aujourdhui() {
+  const d = new Date();
+  const deux = (n) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${deux(d.getMonth() + 1)}-${deux(d.getDate())}`;
+}
+
 const manifeste = {
   site: 'washoku',
   version_schema: '1.0',
-  derniere_maj: process.env.WASHOKU_DATE || new Date().toISOString().slice(0, 10),
-  dernier_document_applique: 10,
+  derniere_maj: process.env.WASHOKU_DATE || aujourdhui(),
+  dernier_document_applique: dernierDocumentApplique,
   note: "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   protocole_de_lecture: [
     'Ce manifeste donne l’adresse complète de tous les autres fichiers.',

@@ -95,6 +95,7 @@ const PROSES = [
 const DONNEES_SEULES = [
   { cle: 'historique-repas', description: 'Ce qui a été mangé, un enregistrement par repas' },
   { cle: 'inventaire', description: 'Ce qui est au congélateur, au frigo et au garde-manger' },
+  { cle: 'documents-appliques', description: 'Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique' },
 ];
 
 module.exports = { SOURCES, PROSES, DONNEES_SEULES, RACINE, DATA, BASE_URL };
