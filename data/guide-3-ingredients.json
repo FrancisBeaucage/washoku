@@ -27,7 +27,8 @@
       "R35",
       "R36",
       "R42",
-      "T7b"
+      "T7b",
+      "R65"
     ],
     "note": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginger_root.jpg?width=1200",
@@ -159,6 +160,33 @@
     ],
     "note": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Napa_cabbages.png?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "chou-vert",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "キャベツ",
+    "jp_lecture": null,
+    "romaji": "kyabetsu",
+    "fr": "Chou vert",
+    "noms_alternatifs": [
+      "chou pommé",
+      "green cabbage"
+    ],
+    "description": "Le chou rond ordinaire de l'épicerie. En cuisine japonaise il se sert surtout <strong>cru, en julienne très fine</strong>, en lit sous les plats saisis et frits — shōgayaki, tonkatsu, korokke.",
+    "ou_le_trouver": "N'importe quelle épicerie. Inutile d'aller à l'épicerie asiatique pour celui-là.",
+    "a_quoi_ca_ressemble": "Tête ronde et dense, feuilles vert pâle serrées. À ne pas confondre avec le chou nappa (<em>hakusai</em>), allongé, pâle et à feuilles froissées, qui est un autre légume et ne le remplace pas cru.",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [
+      "R65"
+    ],
+    "note": {
+      "titre": "La julienne, et pourquoi elle passe par l'eau glacée",
+      "texte": "<strong>千切り</strong> (<em>sengiri</em>) veut dire coupe en fils. On retire le cœur dur, on empile 3 ou 4 feuilles à plat, on roule et on tranche le plus fin possible — l'objectif est le fil, pas la lanière. Le passage de <strong>5 minutes à l'eau glacée</strong> n'est pas un lavage&nbsp;: les cellules absorbent l'eau et se raidissent, ce qui donne le craquant. Bien essorer ensuite, sinon l'eau délave la sauce du plat. La julienne se garde 2 jours au frigo dans un contenant fermé avec un papier absorbant au fond."
+    },
+    "photo": null,
     "photo_emballage": null
   },
   {
@@ -770,7 +798,8 @@
       "R5",
       "R17",
       "R24",
-      "R63"
+      "R63",
+      "R65"
     ],
     "note": {
       "titre": "Pour les soupes et les donburi, c'est ça qu'il faut acheter",
@@ -1147,7 +1176,8 @@
       "R32",
       "R37",
       "R43",
-      "R46"
+      "R46",
+      "R65"
     ],
     "note": {
       "titre": "Si tu n'en as pas",
@@ -1155,6 +1185,33 @@
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirinbowl.jpg?width=1200",
     "photo_emballage": "assets/produits/mirin.jpg"
+  },
+  {
+    "id": "sake-de-cuisine",
+    "statut": "actif",
+    "section": "jp",
+    "jp": "料理酒",
+    "jp_lecture": null,
+    "romaji": "ryōrishu",
+    "fr": "Saké de cuisine",
+    "noms_alternatifs": [
+      "cooking sake",
+      "ryorishu"
+    ],
+    "description": "Alcool de riz utilisé en cuisine pour <strong>apporter de l'umami et retirer les odeurs fortes</strong> de la viande et du poisson. Il ne sucre pas — c'est le mirin qui fait ça. Les deux travaillent souvent ensemble dans une même sauce.",
+    "ou_le_trouver": "Allée japonaise, à côté du mirin et du vinaigre de riz. Ne pas chercher à la SAQ : le saké de cuisine se vend en épicerie parce qu'il est salé et donc non taxé comme boisson.",
+    "a_quoi_ca_ressemble": "Bouteilles de 300 à 750 ml, liquide transparent à très légèrement paillé. L'étiquette dit <em>cooking sake</em>, <em>ryorishu</em> ou 料理酒.",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [
+      "R65"
+    ],
+    "note": {
+      "titre": "Le saké de cuisine contient du sel",
+      "texte": "C'est la différence qui compte pour ce dossier. Le <em>ryōrishu</em> vendu en épicerie porte du sel ajouté — souvent <strong>1 500 à 2 000 mg de sodium par 100 ml</strong>, soit environ 250 mg par cuillère à soupe. Ce n'est pas négligeable dans une sauce déjà montée à la sauce soya : il faut le compter. Un saké à boire (<em>futsūshu</em>, en bouteille de la SAQ) n'a pas de sel ajouté et fonctionne parfaitement en cuisine, mais coûte plus cher. <strong>À défaut de saké&nbsp;: de l'eau.</strong> On perd l'umami et un peu de nappage, jamais la faisabilité du plat. Ne pas remplacer par du vin blanc — l'acidité et les arômes de fruit ne sont pas ceux d'un alcool de riz."
+    },
+    "photo": null,
+    "photo_emballage": null
   },
   {
     "id": "ponzu",

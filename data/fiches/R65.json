@@ -1,0 +1,133 @@
+{
+  "id": "R65",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "豚の生姜焼き",
+  "jp_lecture": null,
+  "romaji": "buta no shōgayaki",
+  "fr": "Porc sauté au gingembre",
+  "sous_titre": "Le plat de porc le plus courant des tables japonaises. Shōga (生姜) veut dire gingembre, yaki (焼き) veut dire saisi à la poêle. Tout se joue en huit minutes et la marinade ne doit surtout pas être longue.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 8,
+    "attente": 0
+  },
+  "preparation_avance": "Le porc se tranche à l'avance et se congèle en paquets plats de 300 g. Une côtelette désossée passée 45 à 60 minutes au congélateur se tranche au couteau à 2 mm : ferme en surface, souple au centre. Un paquet plat décongèle en 30 minutes sous l'eau froide.",
+  "nutrition": {
+    "proteines_g": 32,
+    "proteines_affiche": "32 g",
+    "calories": 340,
+    "calories_affiche": "≈ 340",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, sans le riz ni le chou. Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de porc en tranches de 1 à 2 mm (longe désossée tranchée maison, ou porc shabu du comptoir asiatique)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 oignon jaune moyen en lamelles de 5 mm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de gingembre frais râpé, avec son jus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1½ c. à soupe de sauce soya réduite en sodium, 1½ c. à soupe de mirin, 1 c. à soupe de saké (ou d'eau), 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 tasses de chou vert en julienne très fine, cru et froid",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 petits bols de riz",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T1"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Tailler le chou en julienne la plus fine possible, le plonger 5 minutes dans l'eau glacée, l'essorer et le réserver au frigo. Il se sert cru et froid : c'est le contrepoids du sucré-salé de la sauce, pas une garniture décorative."
+    },
+    {
+      "n": 2,
+      "texte": "Mélanger dans un bol la sauce soya, le mirin, le saké, le sucre et le gingembre râpé."
+    },
+    {
+      "n": 3,
+      "texte": "Verser la moitié de la sauce sur le porc, mélanger à la main, laisser 10 MINUTES, PAS PLUS. Le gingembre contient une enzyme qui attaque la protéine de la viande : au-delà d'une quinzaine de minutes, les tranches deviennent farineuses et se défont à la cuisson. Ce n'est pas une marinade qu'on oublie au frigo."
+    },
+    {
+      "n": 4,
+      "texte": "Chauffer la poêle à feu moyen-vif avec l'huile, faire tomber l'oignon 3 minutes jusqu'à ce qu'il devienne translucide, le réserver dans une assiette."
+    },
+    {
+      "n": 5,
+      "texte": "Saisir le porc EN DEUX POÊLÉES DE 150 G, une seule couche à chaque fois, 60 à 90 secondes par côté. Entassé, il bout dans son jus au lieu de saisir. Réserver avec l'oignon."
+    },
+    {
+      "n": 6,
+      "texte": "Verser le reste de la sauce dans la poêle vide, gratter les sucs, laisser réduire 30 à 45 secondes jusqu'à ce que ça nappe le dos de la cuillère."
+    },
+    {
+      "n": 7,
+      "texte": "Remettre le porc et l'oignon, enrober 20 secondes hors du feu et servir immédiatement, avec le chou froid à côté et le riz dans un bol séparé."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi la marinade est courte",
+      "texte": "Le gingembre frais contient de la zingibaïne, une enzyme qui coupe les chaînes de protéines — la même famille que la papaïne de la papaye. C'est ce qui attendrit une tranche épaisse, et c'est exactement ce qu'il ne faut pas sur une tranche de 2 mm qui n'a pas besoin d'être attendrie. Passé une quinzaine de minutes, la structure de la viande cède et la tranche perd sa mâche. Dix minutes suffisent à parfumer. La cuisson désactive l'enzyme, donc la moitié de sauce réservée pour la fin ne pose aucun problème."
+    },
+    {
+      "titre": "La sauce se réduit sans la viande dedans",
+      "texte": "Une tranche de 2 mm est cuite en 90 secondes. Si elle reste dans la poêle pendant que la sauce réduit, elle passe deux minutes de plus à la chaleur et devient sèche et coriace — le défaut classique du shōgayaki raté. On sort la viande, on réduit la sauce seule, on remet la viande hors du feu. La sauce doit napper, pas rester liquide : liquide, elle coule au fond de l'assiette et ne touche qu'une bouchée sur trois."
+    },
+    {
+      "titre": "Le chou n'est pas une garniture",
+      "texte": "Le shōgayaki se sert traditionnellement sur un lit de chou vert cru taillé en julienne (キャベツの千切り, kyabetsu no sengiri). Ce n'est pas décoratif : la sauce est sucrée-salée et grasse, et le chou cru froid remet la bouche à zéro entre les bouchées. Sans lui, le plat devient monotone à mi-assiette. Le chou nappa NE LE REMPLACE PAS — il est trop tendre et trop aqueux, il s'affaisse sous la sauce au lieu de craquer. À défaut de chou vert, du concombre en fines tranches fait mieux le travail que le nappa."
+    },
+    {
+      "titre": "Sans saké",
+      "texte": "Le saké apporte de l'umami et aide la sauce à napper. Remplacé par de l'eau, la sauce reste fonctionnelle mais un peu plate. Ne pas compenser avec plus de sauce soya : c'est du sodium sans profondeur. Voir la fiche d'ingrédient du saké de cuisine au guide 3."
+    },
+    {
+      "titre": "Le sodium",
+      "texte": "1½ c. à soupe de sauce soya réduite en sodium pour deux portions, c'est environ 450 mg par portion, auxquels s'ajoute le sodium du mirin de type mirin-fū. La recette japonaise courante en met le double. La réduction est possible ici parce que le gingembre et les sucs de la poêle portent le goût à la place du sel."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shogayaki.jpg?width=1200",
+  "video": {
+    "youtube_id": "-9CUm-2cui8",
+    "auteur": "Cooking with Dog"
+  },
+  "voir_aussi": [
+    "R63",
+    "R19"
+  ],
+  "commentaire_source": ""
+}

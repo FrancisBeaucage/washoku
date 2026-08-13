@@ -2,7 +2,7 @@
   "site": "washoku",
   "version_schema": "1.0",
   "derniere_maj": "2026-08-12",
-  "dernier_document_applique": 12,
+  "dernier_document_applique": 13,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
@@ -15,15 +15,15 @@
       "nom": "guide-2-fiches.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-2-fiches.json",
       "description": "Techniques et recettes du guide 2",
-      "nb_entrees": 73,
-      "nb_actives": 73
+      "nb_entrees": 74,
+      "nb_actives": 74
     },
     {
       "nom": "guide-3-ingredients.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-3-ingredients.json",
       "description": "Fiches d’ingrédients du guide 3",
-      "nb_entrees": 81,
-      "nb_actives": 81
+      "nb_entrees": 83,
+      "nb_actives": 83
     },
     {
       "nom": "guide-4-exercices.json",
@@ -71,28 +71,28 @@
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 12,
-      "nb_actives": 12
+      "nb_entrees": 13,
+      "nb_actives": 13
     },
     {
       "nom": "index.json",
       "url": "https://francisbeaucage.github.io/washoku/data/index.json",
       "description": "Index compact des fiches : de quoi choisir laquelle ouvrir, sans charger le recueil",
-      "nb_entrees": 73,
-      "nb_actives": 73
+      "nb_entrees": 74,
+      "nb_actives": 74
     },
     {
       "nom": "fiches/<ID>.json",
       "url": "https://francisbeaucage.github.io/washoku/data/fiches/",
       "description": "Une fiche par fichier, identique à son entrée du recueil. Adresse exacte dans index.json",
-      "nb_entrees": 73,
-      "nb_actives": 73
+      "nb_entrees": 74,
+      "nb_actives": 74
     }
   ],
   "compteurs": {
     "techniques": 9,
-    "recettes": 64,
-    "fiches_actives": 73,
+    "recettes": 65,
+    "fiches_actives": 74,
     "fiches_retirees": 0
   }
 }

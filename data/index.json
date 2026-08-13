@@ -947,5 +947,18 @@
     "calories": 600,
     "temps_minutes": 65,
     "url": "https://francisbeaucage.github.io/washoku/data/fiches/R64.json"
+  },
+  {
+    "id": "R65",
+    "fr": "Porc sauté au gingembre",
+    "romaji": "buta no shōgayaki",
+    "jp": "豚の生姜焼き",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "statut": "actif",
+    "proteines_g": 32,
+    "calories": 340,
+    "temps_minutes": 20,
+    "url": "https://francisbeaucage.github.io/washoku/data/fiches/R65.json"
   }
 ]
