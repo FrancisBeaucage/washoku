@@ -1,0 +1,131 @@
+{
+  "id": "R66",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "jp": "切り干し大根の煮物",
+  "jp_lecture": null,
+  "romaji": "kiriboshi daikon no nimono",
+  "fr": "Kiriboshi daikon mijoté",
+  "sous_titre": "Le kobachi de semaine par excellence : il se fait une fois, se garde quatre ou cinq jours, et il est meilleur le lendemain. C'est aussi le plat qui justifie de sécher du daikon.",
+  "portions": "4",
+  "temps_affiche": "≈ 50 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 20,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 5,
+    "proteines_affiche": "5 g",
+    "calories": 110,
+    "calories_affiche": "≈ 110",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime. Le sodium vient presque entièrement de la sauce soya."
+  },
+  "ingredients": [
+    {
+      "texte": "50 g de kiriboshi daikon (T10, ou du commerce)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 carotte moyenne, en julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 feuille d'abura-age (tofu frit en tranche mince), facultative",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 ml d'eau tiède pour le trempage — elle devient un ingrédient",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Dashi (T2), assez pour affleurer",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de sauce soya",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Rincer le kiriboshi à l'eau froide en le frottant entre les mains, puis le faire tremper 15 à 20 minutes dans les 300 ml d'eau tiède. Il quadruple de volume."
+    },
+    {
+      "n": 2,
+      "texte": "Égoutter EN RÉSERVANT L'EAU DE TREMPAGE. Presser légèrement, sans essorer. Couper les filaments les plus longs en deux."
+    },
+    {
+      "n": 3,
+      "texte": "Si on utilise l'abura-age : l'ébouillanter 30 secondes pour enlever l'excès d'huile, l'éponger, le tailler en lanières."
+    },
+    {
+      "n": 4,
+      "texte": "Dans une casserole, réunir le daikon, la carotte et l'abura-age. Verser l'eau de trempage filtrée, puis assez de dashi pour que le liquide affleure — pas pour couvrir."
+    },
+    {
+      "n": 5,
+      "texte": "Porter à frémissement. Ajouter le sucre et le mirin, laisser une minute, puis la sauce soya. L'ordre compte : le sucré pénètre avant le salé."
+    },
+    {
+      "n": 6,
+      "texte": "Mijoter à découvert 15 à 20 minutes, jusqu'à ce qu'il ne reste qu'un fond de liquide."
+    },
+    {
+      "n": 7,
+      "texte": "Couper le feu et LAISSER REFROIDIR DANS LA CASSEROLE. C'est en refroidissant que le légume boit le bouillon — sauter cette étape donne un plat correct au lieu d'un bon plat."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "L'eau de trempage est la moitié du goût",
+      "texte": "Le liquide dans lequel le kiriboshi a trempé est sucré et parfumé : c'est du daikon concentré redissous. La jeter et la remplacer par de l'eau ou du dashi donne un nimono plat, et c'est l'erreur la plus courante de ce plat. La filtrer pour retirer la poussière du séchage, et la verser dans la casserole."
+    },
+    {
+      "titre": "Le sodium est entièrement dans la sauce soya",
+      "texte": "Les 2 c. à soupe de sauce soya portent la quasi-totalité du sel du plat. À demi-dose avec une sauce réduite en sodium, le nimono tient debout : l'eau de trempage et le mirin portent la douceur, et c'est elle qui fait le plat. Le dashi n'apporte qu'environ 50 mg de sodium par tasse."
+    },
+    {
+      "titre": "Ça se mange tiède ou froid",
+      "texte": "Ce n'est pas un plat à servir brûlant. Il se garde 4 à 5 jours au réfrigérateur et il est meilleur au deuxième jour, une fois que le légume a fini de boire. C'est un kobachi de semaine : on le fait une fois, on pige dedans."
+    },
+    {
+      "titre": "Si on n'a pas d'abura-age",
+      "texte": "L'abura-age (tofu frit en tranche mince) apporte du gras et de l'onctuosité; ce n'est pas de l'atsuage, qui est un bloc épais frit en surface seulement. Sans abura-age, ajouter 1 c. à thé d'huile de sésame grillé en fin de cuisson : le plat perd la texture mais garde le gras, et un nimono sans gras est sec."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiriboshi_daikon_002.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

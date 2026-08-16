@@ -1,0 +1,94 @@
+{
+  "id": "R68",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "jp": "紅葉おろし",
+  "jp_lecture": null,
+  "romaji": "momiji oroshi",
+  "fr": "Momiji oroshi — daikon râpé au piment",
+  "sous_titre": "« Râpé feuille d'érable » — le daikon prend la couleur de l'automne. Le condiment qui règle le problème du daikon râpé nu : il apporte enfin quelque chose de lui-même.",
+  "portions": "4",
+  "temps_affiche": "≈ 5 min (+ 10 min de trempage)",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 0,
+    "attente": 10
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 15,
+    "calories_affiche": "≈ 15",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "Un tronçon de daikon d'environ 8 cm, pelé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 à 2 piments rouges séchés, ou 1 c. à thé de gochugaru à défaut",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Ponzu, à table",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire tremper les piments séchés 10 minutes dans l'eau tiède, puis les épépiner. Sauter cette étape avec du gochugaru."
+    },
+    {
+      "n": 2,
+      "texte": "Percer deux ou trois trous dans la face coupée du tronçon de daikon avec une baguette, et y enfoncer les piments."
+    },
+    {
+      "n": 3,
+      "texte": "Râper le tout ensemble sur les trous fins d'une râpe ou à l'oroshigane. Le piment se distribue dans le daikon en le râpant — c'est tout le principe du geste."
+    },
+    {
+      "n": 4,
+      "texte": "Presser légèrement entre les mains pour retirer l'excès d'eau. HUMIDE, PAS DÉTREMPÉ."
+    },
+    {
+      "n": 5,
+      "texte": "Servir en petit tas, arrosé de ponzu à table."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi percer plutôt que mélanger",
+      "texte": "Râpés ensemble, le piment et le daikon se lient : le piquant se répartit également et la couleur devient uniformément rosée. Mélangé après coup, le piment reste en points rouges qui donnent une bouchée brûlante et trois fades."
+    },
+    {
+      "titre": "Ce qu'il règle",
+      "texte": "Le daikon oroshi ordinaire n'a aucun goût propre et dépend entièrement du ponzu. Le momiji oroshi apporte du piquant et de la couleur, donc il tient debout même quand le ponzu est dosé légèrement. C'est la réponse à un daikon râpé jugé purement décoratif."
+    },
+    {
+      "titre": "Conservation",
+      "texte": "Deux jours au réfrigérateur en contenant fermé, l'eau rendue égouttée. Au-delà, il devient soufré."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Momiji_oroshi.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R14"
+  ],
+  "commentaire_source": ""
+}

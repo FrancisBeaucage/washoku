@@ -70,7 +70,7 @@
   "notes": [
     {
       "titre": "Aucun réchauffage, aucun liant",
-      "texte": "Le poisson cuit s'effiloche froid et se dépose sur le riz chaud. La chaleur du riz suffit : confirmé le 10 août, la texture n'est pas sèche en bouche et le plat n'a besoin ni d'huile ni de sésame supplémentaire pour lier. Repasser le poisson à la poêle le dessèche et durcit les flocons. C'est un geste à ne pas faire."
+      "texte": "Le poisson cuit s'effiloche froid et se dépose sur le riz chaud. La chaleur du riz suffit : confirmé le 10 août, la texture n'est pas sèche en bouche et le plat n'a besoin ni d'huile ni de sésame supplémentaire pour lier. LE POISSON NE SE RÉCHAUFFE PAS, PAR AUCUN MOYEN. Repasser le saumon à la poêle le dessèche et durcit les flocons; au micro-ondes c'est pire, la protéine surcuit en quelques secondes et la chair devient caoutchouteuse. Dans cette fiche, le seul aliment qui va au micro-ondes est le riz."
     },
     {
       "titre": "La peau se retire au rangement, pas au service",
@@ -87,6 +87,14 @@
     {
       "titre": "Ce n'est pas du sake furikake du commerce",
       "texte": "Les flocons de saumon vendus en pot (鮭フレーク) sont cuits, sucrés et salés, et tiennent des semaines. C'est bon, et c'est très salé. Ici on parle simplement d'un reste de poisson grillé effiloché — même geste, même nom, aucun sodium ajouté."
+    },
+    {
+      "titre": "Sans riz, ce n'est plus ce plat",
+      "texte": "Le riz chaud n'est pas l'accompagnement de cette fiche, il en est le mécanisme : c'est sa chaleur qui rend les flocons froids agréables, et c'est pour ça qu'il n'y a ni huile ni liant. Enlever le riz — pour une journée où les glucides sont déjà dépensés, par exemple — donne un plat différent, pas une version allégée du même. LA VARIANTE QUI FONCTIONNE : saumon froid effiloché sur un lit de daikon, avec du shichimi. UN SEUL DÉTAIL DÉCIDE DU RÉSULTAT, ET IL VA À L'ENVERS DE R14 : ici le daikon se taille EN JULIENNE, pas râpé. Le daikon râpé rend son eau en quelques minutes; sous du poisson chaud c'est sans conséquence, sous des flocons froids ça fait une flaque et détrempe le saumon. La julienne tient. Testé le 15 août 2026, verdict bon."
+    },
+    {
+      "titre": "La même chose avec une conserve, sans rien cuire",
+      "texte": "Le patron de ce plat — effilocher du poisson froid, le déposer sur du riz chaud, ne rien ajouter — marche tel quel avec une boîte de sardines égouttée. C'est même la seule bonne façon de les servir : une sardine en conserve est déjà cuite et confite, sa chair n'a plus aucune tenue, et vouloir la saisir en filet dans une poêle ne peut que la réduire en miettes. Essayé le 13 août 2026 : les filets se sont défaits et il a fallu les brasser à la cuillère. Assumer le flocon, c'est le même plat réussi au lieu du même plat raté. Version sans cuisson du tout, contrairement à celle-ci qui suppose un reste de poisson grillé."
     }
   ],
   "photo": "assets/recettes/flocons-saumon.jpg",

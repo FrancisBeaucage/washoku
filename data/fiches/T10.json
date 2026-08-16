@@ -1,0 +1,108 @@
+{
+  "id": "T10",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "extra-long",
+  "jp": "切り干し",
+  "jp_lecture": null,
+  "romaji": "kiriboshi",
+  "fr": "Le séchage du daikon",
+  "sous_titre": "Un daikon est trop gros pour deux personnes. Le séchage est la façon dont la cuisine japonaise a réglé ce problème avant les réfrigérateurs — et il transforme le goût en même temps qu'il conserve.",
+  "portions": "variable",
+  "temps_affiche": "≈ 8 h (déshydrateur) ou 5 à 14 jours (à l'air)",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 0,
+    "attente": 480
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": 0,
+    "calories_affiche": "0 ajoutée",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Le séchage ne change rien à la composition, il enlève l'eau. Les valeurs sont celles du daikon frais, concentrées d'environ dix fois."
+  },
+  "ingredients": [
+    {
+      "texte": "Un daikon, entier ou entamé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un couteau, ou une mandoline avec la lame à julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Une claie, une grille, ou un déshydrateur",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Peler le daikon. La pelure sèche bien mais durcit davantage : la garder si on prévoit un mijoté long, l'enlever autrement."
+    },
+    {
+      "n": 2,
+      "texte": "Tailler en julienne d'environ 4 à 5 mm de côté et 5 à 7 cm de long. La régularité compte plus que la finesse : trop fin, les filaments deviennent cassants et perdent toute texture; trop épais, le cœur reste humide et moisit dans le sac."
+    },
+    {
+      "n": 3,
+      "texte": "Étaler en couche unique, sans chevauchement. C'est la contrainte qui décide de la taille des fournées."
+    },
+    {
+      "n": 4,
+      "texte": "MÉTHODE TRADITIONNELLE — dehors, sur claie, à l'air FROID et SEC, 5 à 14 jours, rentré la nuit et par temps humide. C'est un produit d'hiver : au Japon il se fait entre décembre et février."
+    },
+    {
+      "n": 5,
+      "texte": "MÉTHODE DÉSHYDRATEUR — 55 à 60 °C, 6 à 10 heures. Un filament est prêt quand il casse net et ne cède plus sous la pression de l'ongle."
+    },
+    {
+      "n": 6,
+      "texte": "Laisser refroidir complètement avant d'ensacher. Un filament encore tiède relâche de la vapeur dans le sac et fait moisir toute la fournée."
+    },
+    {
+      "n": 7,
+      "texte": "Conserver au sec, à l'abri de la lumière, en sac hermétique. Plusieurs mois."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce que le séchage lent fait, et qu'un appareil ne reproduit pas",
+      "texte": "Le kiriboshi traditionnel sèche à l'air froid pendant une à deux semaines, et cette lenteur n'est pas de la nostalgie : elle laisse le temps aux enzymes du daikon de transformer l'amidon en sucres, ce qui donne la douceur et la profondeur caractéristiques du produit. UN DÉSHYDRATEUR À 55 °C DONNE DU DAIKON SÉCHÉ, PAS TOUT À FAIT DU KIRIBOSHI. C'est parfaitement utilisable en nimono, mais plus court en bouche. Le dire plutôt que de prétendre l'équivalence."
+    },
+    {
+      "titre": "Le rendement, et pourquoi il surprend",
+      "texte": "Le daikon est à environ 94 % d'eau. CINQ CENTS GRAMMES DE DAIKON FRAIS DONNENT ENVIRON 35 À 50 GRAMMES DE KIRIBOSHI. Ce n'est pas une perte, c'est le principe — mais il faut le savoir avant de commencer, parce qu'un demi-daikon devient une petite poignée. Contrainte de capacité : un panier de friteuse à air en couche unique tient environ 200 à 300 g de julienne, soit deux ou trois fournées de plusieurs heures pour un seul daikon. LE DÉSHYDRATEUR EST LE BON OUTIL POUR UN SURPLUS PLANIFIÉ, PAS POUR UN RESTE DE FRIGO."
+    },
+    {
+      "titre": "Le demi-séchage (han-boshi)",
+      "texte": "Il existe une version courte, et c'est souvent celle qu'il faut : le han-boshi (半干し), le demi-séchage. Deux à trois heures seulement, jusqu'à ce que la julienne soit souple et légèrement ridée sans être cassante. Le goût se concentre, la texture tient mieux au mijoté, et le légume perd beaucoup moins de volume. Ça ne se garde pas des mois — une à deux semaines au réfrigérateur — mais ça règle un reste de daikon en un après-midi au lieu d'une journée complète."
+    },
+    {
+      "titre": "Friteuse à air : vérifier la température minimale",
+      "texte": "Beaucoup de friteuses à air ont un mode Dehydrate qui descend à 40-60 °C, et c'est exactement ce qu'il faut. Sans ce mode, le minimum d'un mode air fry classique est souvent de 90 °C ou plus : à cette température on CUIT le daikon au lieu de le sécher, et il ressort brun, mou et amer. Vérifier la plage de l'appareil avant de tailler quoi que ce soit."
+    },
+    {
+      "titre": "Le climat décide",
+      "texte": "Sous un climat chaud et humide — un été montréalais, par exemple — le séchage à l'air libre ne fonctionne pas : le daikon moisit avant d'avoir séché. Dehors, c'est de novembre à mars. Le reste de l'année, c'est le déshydrateur ou rien."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_strips_of_radish.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

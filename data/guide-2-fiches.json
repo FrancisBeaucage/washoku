@@ -31,7 +31,7 @@
     },
     "ingredients": [
       {
-        "texte": "Riz à grain court japonais — environ 80 g cru par portion de 140 g cuit",
+        "texte": "Riz à grain court japonais — environ 64 g cru par portion de 140 g cuit (rapport cru/cuit d'environ 2,2)",
         "sante": false,
         "sante_pos": null
       },
@@ -50,7 +50,7 @@
     "etapes": [
       {
         "n": 1,
-        "texte": "Mesurer le riz cru dans un bol. Compter environ 80 g de riz cru par portion."
+        "texte": "Mesurer le riz cru dans un bol. Compter environ 64 g de riz cru par portion de 140 g cuit."
       },
       {
         "n": 2,
@@ -117,6 +117,10 @@
       {
         "titre": "Riz et natto : décongélation inverse",
         "texte": "Deux aliments du même congélateur, deux logiques opposées. Le riz : congélateur → micro-ondes directement, sans passer par le frigo — repasser par 0-4 °C fait rétrograder l'amidon et le riz ressort plus sec. Le natto : congélateur → frigo la veille, jamais le micro-ondes ni l'eau chaude — la chaleur tue les bactéries de fermentation et casse la texture filante. Le réflexe « je sors tout la veille » ruine le riz ; le réflexe « je passe tout au micro-ondes » ruine le natto."
+      },
+      {
+        "titre": "Le rendement réel, mesuré",
+        "texte": "Le riz gonfle plus qu'on ne le croit. Le repère de 80 g cru par portion supposait un facteur d'expansion de 1,75; la mesure faite à la balance le 13 août 2026 donne 2,18. Trois gō, soit environ 450 g crus, ont donné sept portions de 140 g. LE REPÈRE PRATIQUE POUR UN CUISEUR JAPONAIS : 1 gō (180 ml, environ 150 g crus) donne 2,3 portions de 140 g. Une fournée de six gō donne donc environ quatorze portions, pas onze. Si tu cuisines pour la semaine, c'est ce chiffre-là qui décide, pas la tasse."
       }
     ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
@@ -253,6 +257,10 @@
       {
         "titre": "Le trempage n'est pas obligatoire",
         "texte": "Ce qui compte, c'est la température d'extraction, pas le trempage : le kombu libère son glutamate entre 20 et 60 °C ; au-delà, il relâche des alginates qui rendent le bouillon visqueux et amer. Trois méthodes, du plus rapide au meilleur : (1) sans trempage, chauffer très lentement l'eau froide jusqu'à 60-70 °C sur ~20 min — la montée en température EST l'extraction, résultat presque identique ; (2) trempage 30 min puis chauffage doux, la méthode de référence ; (3) mizudashi — kombu dans l'eau froide au frigo toute la nuit, puis chauffer, ajouter le katsuobushi 2 min, filtrer : le plus facile ET le meilleur, il s'intègre au rituel du dimanche. Ce qu'on ne peut pas faire : jeter le kombu dans l'eau déjà chaude et le sortir 5 minutes plus tard — ça donne un dashi plat."
+      },
+      {
+        "titre": "Trois molécules d'umami, et laquelle payer",
+        "texte": "TROIS MOLÉCULES D'UMAMI, PAS UNE. Le kombu donne le glutamate, le katsuobushi l'inosinate, le shiitake séché le guanylate. Deux ensemble ne s'additionnent pas, elles se multiplient — c'est le mécanisme de l'awase dashi. CONSÉQUENCE PRATIQUE : une base kombu et shiitake donne un dashi complet sans katsuobushi, à une fraction du coût, et les champignons réhydratés restent un ingrédient qu'on remet dans un plat — soupe, kinpira, mapo tofu — alors que le katsuobushi est dépensé après une seule infusion. Le katsuobushi coûte environ 0,18 $/g en format de 70 g : une semaine à environ 75 g revient à quelque 13 $ de bouillon. Réserver le katsuobushi aux plats où sa note fumée est le sujet : suimono, kakejiru, ohitashi. Le dashi de shiitake se monte à l'eau froide, trente minutes de trempage au minimum, une nuit au réfrigérateur de préférence, et ne bout jamais fort — l'ébullition le rend amer."
       }
     ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
@@ -427,7 +435,7 @@
       },
       {
         "n": 7,
-        "texte": "AU GRIL DU FOUR — préchauffer le gril (fonction broil) 5 minutes, grille à environ 15 cm de l'élément. Poisson sur une plaque tapissée de papier d'aluminium, aucune huile. Peau vers le haut, 6 à 8 minutes pour un filet de 150 g, sans retourner."
+        "texte": "AU GRIL DU FOUR — préchauffer le gril (fonction broil) 5 minutes. Grille à environ 20 cm de l'élément plutôt que 15, et compter 8 à 10 minutes. Poisson sur une plaque tapissée de papier d'aluminium, aucune huile, peau vers le haut, sans retourner. TOURNER LA PLAQUE À MI-CUISSON : l'élément du gril ne chauffe pas également sur toute sa longueur, et c'est ce qui carbonise deux filets pendant que deux autres sont à peine dorés. SORTIR LES PIÈCES MINCES AVANT LES ÉPAISSES. Sur une plaque de filets d'épaisseurs inégales, une durée unique brûle les minces ou laisse les épaisses crues."
       },
       {
         "n": 8,
@@ -779,6 +787,10 @@
       {
         "titre": "Sortir les œufs à 24 h",
         "texte": "Ne pas les laisser dans le sac jusqu'à les manger : ils continuent d'absorber le sel. À 48 h, le blanc devient franchement salé et le jaune commence à figer et à devenir crayeux. À 24 h, sortir tous les œufs, les mettre dans un contenant fermé au frigo, nature : ils tiennent 3-4 jours à partir de là. Ça vaut quel que soit le temps de cuisson. La marinade se récupère : la garder à part dans un pot fermé — voir la note « La marinade se réutilise une fois »."
+      },
+      {
+        "titre": "Réutiliser la marinade — le geste complet",
+        "texte": "RÉUTILISER LA MARINADE, UNE SEULE FOIS. Un, filtrer à la passoire fine. Deux, porter à gros bouillons deux minutes : les œufs y ont laissé de l'eau et des protéines. Trois, rajouter environ 1 c. à soupe de sauce soya, 1 c. à soupe de mirin, et assez de dashi pour recouvrir les nouveaux œufs — elle a perdu du volume et de la force. Quatre, REFROIDIR COMPLÈTEMENT avant d'y déposer les œufs; jamais d'œufs dans une marinade tiède. Cinq, sortir les œufs à vingt-quatre heures. Au deuxième lot, la marinade se jette."
       }
     ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Boiled%20eggs%20in%20soy%20sauce%20-Jangjolim-%20%286275954552%29.jpg?width=1200",
@@ -1120,6 +1132,114 @@
     "voir_aussi": [
       "R64"
     ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T10",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "japonaise",
+    "vitesse": "extra-long",
+    "jp": "切り干し",
+    "jp_lecture": null,
+    "romaji": "kiriboshi",
+    "fr": "Le séchage du daikon",
+    "sous_titre": "Un daikon est trop gros pour deux personnes. Le séchage est la façon dont la cuisine japonaise a réglé ce problème avant les réfrigérateurs — et il transforme le goût en même temps qu'il conserve.",
+    "portions": "variable",
+    "temps_affiche": "≈ 8 h (déshydrateur) ou 5 à 14 jours (à l'air)",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 0,
+      "attente": 480
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": null,
+      "proteines_affiche": "—",
+      "calories": 0,
+      "calories_affiche": "0 ajoutée",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Le séchage ne change rien à la composition, il enlève l'eau. Les valeurs sont celles du daikon frais, concentrées d'environ dix fois."
+    },
+    "ingredients": [
+      {
+        "texte": "Un daikon, entier ou entamé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Un couteau, ou une mandoline avec la lame à julienne",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Une claie, une grille, ou un déshydrateur",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Peler le daikon. La pelure sèche bien mais durcit davantage : la garder si on prévoit un mijoté long, l'enlever autrement."
+      },
+      {
+        "n": 2,
+        "texte": "Tailler en julienne d'environ 4 à 5 mm de côté et 5 à 7 cm de long. La régularité compte plus que la finesse : trop fin, les filaments deviennent cassants et perdent toute texture; trop épais, le cœur reste humide et moisit dans le sac."
+      },
+      {
+        "n": 3,
+        "texte": "Étaler en couche unique, sans chevauchement. C'est la contrainte qui décide de la taille des fournées."
+      },
+      {
+        "n": 4,
+        "texte": "MÉTHODE TRADITIONNELLE — dehors, sur claie, à l'air FROID et SEC, 5 à 14 jours, rentré la nuit et par temps humide. C'est un produit d'hiver : au Japon il se fait entre décembre et février."
+      },
+      {
+        "n": 5,
+        "texte": "MÉTHODE DÉSHYDRATEUR — 55 à 60 °C, 6 à 10 heures. Un filament est prêt quand il casse net et ne cède plus sous la pression de l'ongle."
+      },
+      {
+        "n": 6,
+        "texte": "Laisser refroidir complètement avant d'ensacher. Un filament encore tiède relâche de la vapeur dans le sac et fait moisir toute la fournée."
+      },
+      {
+        "n": 7,
+        "texte": "Conserver au sec, à l'abri de la lumière, en sac hermétique. Plusieurs mois."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce que le séchage lent fait, et qu'un appareil ne reproduit pas",
+        "texte": "Le kiriboshi traditionnel sèche à l'air froid pendant une à deux semaines, et cette lenteur n'est pas de la nostalgie : elle laisse le temps aux enzymes du daikon de transformer l'amidon en sucres, ce qui donne la douceur et la profondeur caractéristiques du produit. UN DÉSHYDRATEUR À 55 °C DONNE DU DAIKON SÉCHÉ, PAS TOUT À FAIT DU KIRIBOSHI. C'est parfaitement utilisable en nimono, mais plus court en bouche. Le dire plutôt que de prétendre l'équivalence."
+      },
+      {
+        "titre": "Le rendement, et pourquoi il surprend",
+        "texte": "Le daikon est à environ 94 % d'eau. CINQ CENTS GRAMMES DE DAIKON FRAIS DONNENT ENVIRON 35 À 50 GRAMMES DE KIRIBOSHI. Ce n'est pas une perte, c'est le principe — mais il faut le savoir avant de commencer, parce qu'un demi-daikon devient une petite poignée. Contrainte de capacité : un panier de friteuse à air en couche unique tient environ 200 à 300 g de julienne, soit deux ou trois fournées de plusieurs heures pour un seul daikon. LE DÉSHYDRATEUR EST LE BON OUTIL POUR UN SURPLUS PLANIFIÉ, PAS POUR UN RESTE DE FRIGO."
+      },
+      {
+        "titre": "Le demi-séchage (han-boshi)",
+        "texte": "Il existe une version courte, et c'est souvent celle qu'il faut : le han-boshi (半干し), le demi-séchage. Deux à trois heures seulement, jusqu'à ce que la julienne soit souple et légèrement ridée sans être cassante. Le goût se concentre, la texture tient mieux au mijoté, et le légume perd beaucoup moins de volume. Ça ne se garde pas des mois — une à deux semaines au réfrigérateur — mais ça règle un reste de daikon en un après-midi au lieu d'une journée complète."
+      },
+      {
+        "titre": "Friteuse à air : vérifier la température minimale",
+        "texte": "Beaucoup de friteuses à air ont un mode Dehydrate qui descend à 40-60 °C, et c'est exactement ce qu'il faut. Sans ce mode, le minimum d'un mode air fry classique est souvent de 90 °C ou plus : à cette température on CUIT le daikon au lieu de le sécher, et il ressort brun, mou et amer. Vérifier la plage de l'appareil avant de tailler quoi que ce soit."
+      },
+      {
+        "titre": "Le climat décide",
+        "texte": "Sous un climat chaud et humide — un été montréalais, par exemple — le séchage à l'air libre ne fonctionne pas : le daikon moisit avant d'avoir séché. Dehors, c'est de novembre à mars. Le reste de l'année, c'est le déshydrateur ou rien."
+      }
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_strips_of_radish.jpg?width=1200",
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
     "commentaire_source": ""
   },
   {
@@ -2292,7 +2412,7 @@
     "jp_lecture": null,
     "romaji": "soba sarada",
     "fr": "Salade de soba",
-    "sous_titre": "Se transporte parfaitement. Les soba de sarrasin apportent plus de protéines et de fibres que le blé.",
+    "sous_titre": "Se transporte parfaitement. La protéine vient de la garniture, pas des nouilles — voir la note sur la lecture du paquet.",
     "portions": "2",
     "temps_affiche": "≈ 22 min",
     "temps_minutes": {
@@ -2355,7 +2475,16 @@
         "texte": "Mélanger la sauce et assembler."
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "titre": "Lire le paquet : deux chiffres, pas un",
+        "texte": "AU QUÉBEC, LE SOBA D'ÉPICERIE EST MAJORITAIREMENT DE BLÉ. Vérifier le premier ingrédient — ils sont listés par poids décroissant. Un soba à dominante blé donne environ 10 g de protéines aux 100 g secs et perd le goût de noisette du sarrasin, sans changer la validité du plat : LA PROTÉINE DE CETTE RECETTE VIENT DES CREVETTES OU DU POULET, JAMAIS DES NOUILLES. Viser juwari ou ni-hachi si l'occasion se présente, sans en faire une chasse. DEUXIÈME CHIFFRE À LIRE, ET IL SURPREND : le panneau de sodium. Une nouille sèche salée peut porter 700 mg et plus aux 100 g secs, soit plus de 1 500 mg pour les 200 g de cette recette. On estime que 50 à 70 % de ce sel part à l'eau de cuisson et au rinçage à l'eau froide — le rinçage n'est donc pas seulement une question de texture. Le chiffre exact n'a pas été mesuré; l'ordre de grandeur suffit à choisir le paquet."
+      },
+      {
+        "titre": "Une sauce mélangée se mange en entier",
+        "texte": "La sauce de cette fiche est une vinaigrette : elle est mélangée aux nouilles, donc elle se mange en entier. C'est la différence avec un bouillon, dont on peut laisser la moitié au fond du bol. À sodium égal sur le papier, une salade coûte plus cher qu'une soupe. CONSÉQUENCE : c'est ici qu'il faut doser, pas à table. Sur une journée déjà chargée en sel, descendre la sauce soya à 1 c. à soupe pour les deux portions et compenser au dashi, au vinaigre de riz et à l'huile de sésame. Goûter la sauce AVANT d'assembler — une fois mélangée, on ne peut plus retrancher."
+      }
+    ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaru%20soba%20by%20spinachdip.jpg?width=1200",
     "video": {
       "youtube_id": "-ojltkREE1c",
@@ -2536,6 +2665,10 @@
       {
         "titre": "Griller un filet de plus",
         "texte": "Le reste de saumon grillé est la matière première du déjeuner du lendemain : effiloché froid sur du riz chaud, c'est R62. Deux gestes au rangement décident du résultat : retirer la peau (froide, elle est caoutchouteuse) et garder la chair ENTIÈRE, non effilochée, sinon elle sèche."
+      },
+      {
+        "titre": "Sans ponzu, le daikon râpé n'a pas sa place",
+        "texte": "SANS PONZU, LE DAIKON RÂPÉ N'A PAS DE RAISON D'ÊTRE DANS L'ASSIETTE. Le daikon oroshi est aqueux et à peine piquant par construction : son rôle est de porter le ponzu et de couper le gras et le sel du poisson grillé. Nu, il ne goûte rien, et ce n'est pas un défaut du daikon. À défaut de ponzu du commerce, un mélange de sauce soya, de vinaigre de riz et de jus d'agrume fait le travail. Sans aucun des deux, servir le poisson sans le daikon plutôt que de servir le daikon nu."
       }
     ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%84%BC%E3%81%8D%E9%AE%AD---2024-03-05.jpg?width=1200",
@@ -2618,7 +2751,7 @@
     "notes": [
       {
         "titre": "Aucun réchauffage, aucun liant",
-        "texte": "Le poisson cuit s'effiloche froid et se dépose sur le riz chaud. La chaleur du riz suffit : confirmé le 10 août, la texture n'est pas sèche en bouche et le plat n'a besoin ni d'huile ni de sésame supplémentaire pour lier. Repasser le poisson à la poêle le dessèche et durcit les flocons. C'est un geste à ne pas faire."
+        "texte": "Le poisson cuit s'effiloche froid et se dépose sur le riz chaud. La chaleur du riz suffit : confirmé le 10 août, la texture n'est pas sèche en bouche et le plat n'a besoin ni d'huile ni de sésame supplémentaire pour lier. LE POISSON NE SE RÉCHAUFFE PAS, PAR AUCUN MOYEN. Repasser le saumon à la poêle le dessèche et durcit les flocons; au micro-ondes c'est pire, la protéine surcuit en quelques secondes et la chair devient caoutchouteuse. Dans cette fiche, le seul aliment qui va au micro-ondes est le riz."
       },
       {
         "titre": "La peau se retire au rangement, pas au service",
@@ -2635,6 +2768,14 @@
       {
         "titre": "Ce n'est pas du sake furikake du commerce",
         "texte": "Les flocons de saumon vendus en pot (鮭フレーク) sont cuits, sucrés et salés, et tiennent des semaines. C'est bon, et c'est très salé. Ici on parle simplement d'un reste de poisson grillé effiloché — même geste, même nom, aucun sodium ajouté."
+      },
+      {
+        "titre": "Sans riz, ce n'est plus ce plat",
+        "texte": "Le riz chaud n'est pas l'accompagnement de cette fiche, il en est le mécanisme : c'est sa chaleur qui rend les flocons froids agréables, et c'est pour ça qu'il n'y a ni huile ni liant. Enlever le riz — pour une journée où les glucides sont déjà dépensés, par exemple — donne un plat différent, pas une version allégée du même. LA VARIANTE QUI FONCTIONNE : saumon froid effiloché sur un lit de daikon, avec du shichimi. UN SEUL DÉTAIL DÉCIDE DU RÉSULTAT, ET IL VA À L'ENVERS DE R14 : ici le daikon se taille EN JULIENNE, pas râpé. Le daikon râpé rend son eau en quelques minutes; sous du poisson chaud c'est sans conséquence, sous des flocons froids ça fait une flaque et détrempe le saumon. La julienne tient. Testé le 15 août 2026, verdict bon."
+      },
+      {
+        "titre": "La même chose avec une conserve, sans rien cuire",
+        "texte": "Le patron de ce plat — effilocher du poisson froid, le déposer sur du riz chaud, ne rien ajouter — marche tel quel avec une boîte de sardines égouttée. C'est même la seule bonne façon de les servir : une sardine en conserve est déjà cuite et confite, sa chair n'a plus aucune tenue, et vouloir la saisir en filet dans une poêle ne peut que la réduire en miettes. Essayé le 13 août 2026 : les filets se sont défaits et il a fallu les brasser à la cuillère. Assumer le flocon, c'est le même plat réussi au lieu du même plat raté. Version sans cuisson du tout, contrairement à celle-ci qui suppose un reste de poisson grillé."
       }
     ],
     "photo": "assets/recettes/flocons-saumon.jpg",
@@ -3099,16 +3240,16 @@
     "statut": "actif",
     "categorie": "souper",
     "cuisine": "japonaise",
-    "vitesse": "rapide",
+    "vitesse": "moyen",
     "jp": "ちらし丼",
     "jp_lecture": null,
     "romaji": "chirashi don",
     "fr": "Chirashi bowl",
     "sous_titre": "Zéro cuisson. Dix minutes pour un plat qui a l'air d'un restaurant. Le riz refroidi apporte en plus le bonus d'amidon résistant.",
     "portions": "2",
-    "temps_affiche": "≈ 15 min",
+    "temps_affiche": "≈ 15 min (semaine) · ≈ 40 min (visite)",
     "temps_minutes": {
-      "preparation": 15,
+      "preparation": 40,
       "cuisson": 0,
       "attente": 0
     },
@@ -3126,7 +3267,7 @@
     },
     "ingredients": [
       {
-        "texte": "280 g de riz refroidi, assaisonné de 2 c. à soupe de vinaigre de riz, 1 c. à thé de sucre, ½ c. à thé de sel",
+        "texte": "280 g de riz CHAUD, assaisonné de 2 c. à soupe de vinaigre de riz, 1 c. à thé de sucre, ½ c. à thé de sel dissous d'avance",
         "sante": false,
         "sante_pos": null
       },
@@ -3162,7 +3303,7 @@
     "etapes": [
       {
         "n": 1,
-        "texte": "Assaisonner le riz refroidi avec le vinaigre, le sucre et le sel."
+        "texte": "Verser la vinaigrette dissoute sur le riz CHAUD, puis ÉVENTER pendant qu'on le coupe à la spatule : avec un éventail, un carton rigide ou le couvercle du cuiseur, deux à trois minutes, jusqu'à ce que la vapeur cesse et que les grains brillent. Éventer ne veut pas dire disposer en éventail : c'est ventiler. C'est ce geste, et non le dosage, qui chasse la pointe acétique et laisse le goût rond."
       },
       {
         "n": 2,
@@ -3181,6 +3322,26 @@
       {
         "titre": "Le thon frais",
         "texte": "Il est visé par l'avis de Santé Canada sur le mercure : 150 g par semaine maximum pour un homme adulte. Le saumon n'a aucune restriction."
+      },
+      {
+        "titre": "Deux montages : la semaine et la visite",
+        "texte": "MONTAGE SEMAINE, seul — le poisson tranché dans une assiette, un bol de riz à côté, la sauce en soucoupe. Pas de tsuma de daikon, pas de shiraga negi. L'assiette séparée fait gratuitement le travail que le lit de daikon faisait dans le bol : le poisson ne touche pas le riz. Environ quinze minutes, et c'est le même repas dans l'assiette. MONTAGE VISITE — le bol composé, le lit de tsuma, le shiraga negi, les secteurs. Environ quarante minutes. C'est beau, et c'est pour quand quelqu'un le regarde. CHOISIR LE MONTAGE AVANT DE COMMENCER, pas en cours de route quand la fatigue tranche à ta place."
+      },
+      {
+        "titre": "Le tsuma de daikon n'est pas une portion",
+        "texte": "La julienne de daikon sous le sashimi s'appelle tsuma (妻). Ce n'est pas un légume à manger : c'est un lit. Il tient le poisson hors de l'assiette, absorbe l'humidité, et se prend PAR PINCÉES entre deux morceaux pour nettoyer la bouche. Les restaurants en jettent la majeure partie. Il se dimensionne à l'assiette, pas à la personne : un tronçon de cinq centimètres suffit pour deux assiettes. La julienne se coupe à 2 ou 3 mm, pas en filaments — le filament fond, le bâtonnet croque. Ce qui reste se garde deux à trois jours dans l'eau au frigo, et se recycle en kinpira (R46) ou en sunomono (R45)."
+      },
+      {
+        "titre": "L'avocat s'achète d'avance, pas juste à temps",
+        "texte": "Un avocat ferme dans un chirashi est un raté de texture sans contrepartie : ici il est tranché et mangé dans la minute, sa maturité n'est jamais un problème de conservation. La méthode qui règle ça : l'acheter deux ou trois jours d'avance, le laisser mûrir sur le comptoir, le mettre au frigo le jour où il est prêt — le froid arrête la maturation trois ou quatre jours. On ne choisit plus entre mûr et à temps. Trancher à 5 ou 6 mm, en éventail. Au couteau, c'est trente secondes."
+      },
+      {
+        "titre": "La sauce, et pourquoi elle remplace le soya-wasabi",
+        "texte": "Soya, dashi, huile de sésame, vinaigre de riz, gingembre râpé, dans une seule soucoupe qui sert au bol et à l'assiette. Adoptée le 13 août 2026. Le motif n'est pas le goût — soya et wasabi sont très bien — c'est le sodium : le dashi dilue le soya, on trempe autant et on en prend moins par bouchée. Le wasabi reste en pointe sur la tranche, jamais délayé dans la soucoupe. On trempe le côté poisson seulement; le riz ne va jamais dans la sauce. Réduire les quantités du tiers : il en reste toujours."
+      },
+      {
+        "titre": "Les garnitures, par niveau",
+        "texte": "Les trois niveaux du vocabulaire des garnitures (voir l'annexe des yakumi) se lisent ainsi sur cette fiche. GOÛT — les graines de sésame et le nori kizami : dix secondes chacun, et ils changent ce qu'on goûte. Ils ne se sautent jamais. STRUCTURE — le tsuma de daikon : il sépare le poisson du riz, donc il devient inutile dès qu'on sert le poisson dans une assiette à part. PRÉSENTATION — le shiraga negi : deux minutes pour l'œil, rien pour la bouche. Le 13 août, c'est exactement l'inverse qui a été fait — le negi monté, le sésame sauté."
       }
     ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1200",
@@ -3955,7 +4116,12 @@
         "texte": "Hors du feu : sauce de poisson et jus de lime. Le jus de lime devient amer s'il bout."
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "titre": "Le vrai point de vigilance",
+        "texte": "LE POINT DE VIGILANCE DE CETTE FICHE EST LE SODIUM, PAS LE PIMENT. La sauce de poisson apporte environ 1 400 mg de sodium par cuillère à soupe, et la pâte tom yum en ajoute. À pleine dose, ce seul plat approche le plafond quotidien du guide 5. À DEMI-DOSE DE SAUCE DE POISSON ET DE PÂTE, le plat reste lui-même si on compense au jus de lime et au piment : l'acide et le piquant portent une partie de ce que le sel portait. Deuxième levier, aussi efficace : ne pas boire tout le bouillon."
+      }
+    ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
     "video": {
       "youtube_id": "hXaaZiMgvgI",
@@ -4907,7 +5073,7 @@
         "sante_pos": null
       },
       {
-        "texte": "60 g de tofu soyeux en petits cubes",
+        "texte": "60 g de tofu soyeux OU ferme en petits cubes — le soyeux fond en bouche, le ferme garde ses cubes",
         "sante": false,
         "sante_pos": null
       },
@@ -4942,7 +5108,7 @@
     "notes": [
       {
         "titre": "Les variantes",
-        "texte": "Aux champignons (enoki ou shimeji, 1 min) ▪ au daikon (fines lamelles, 3 min) ▪ aux palourdes (6 palourdes jusqu'à ouverture — riche en fer) ▪ au miso rouge (plus corsé, réduire à 2 c. à thé) ▪ tonjiru (porc et légumes-racines : devient une soupe-repas)."
+        "texte": "Aux champignons — ENOKI SEULEMENT, environ 25 à 30 g par bol, soit une petite poignée, 1 minute dans le dashi frémissant. LE SHIMEJI NE CONVIENT PAS À CETTE VARIANTE. Il est ferme et très doux, et son goût de noisette ne se développe qu'à la chaleur sèche, quand il rend son eau, qu'elle s'évapore et qu'il colore. Une minute de frémissement n'en extrait rien : on obtient de la texture dans un bouillon, sans goût ajouté. Pour le shimeji, voir la fiche des shimeji sautés au soya (R67) ▪ au daikon (fines lamelles, 3 min) ▪ aux palourdes (6 palourdes jusqu'à ouverture — riche en fer) ▪ au miso rouge (plus corsé, réduire à 2 c. à thé) ▪ tonjiru (porc et légumes-racines : devient une soupe-repas)."
       },
       {
         "titre": "Ne jamais faire bouillir après le miso",
@@ -5075,7 +5241,7 @@
         "sante_pos": null
       },
       {
-        "texte": "½ c. à thé de soya clair, une pincée de sel",
+        "texte": "2 c. à thé de soya clair (usukuchi) et ½ c. à thé de sel, goûté et ajusté",
         "sante": false,
         "sante_pos": null
       },
@@ -5095,14 +5261,27 @@
       },
       {
         "n": 2,
-        "texte": "Assaisonner très légèrement."
+        "texte": "Assaisonner et GOÛTER. Le bouillon doit être franchement salé quand on le goûte seul, sinon il disparaîtra sous les éléments."
       },
       {
         "n": 3,
-        "texte": "Déposer un ou deux éléments dans chaque bol et verser le bouillon dessus."
+        "texte": "Pocher les éléments 30 à 60 secondes dans le dashi frémissant, puis les répartir dans les bols et verser le bouillon dessus. Un champignon déposé cru dans le bol ABSORBE le bouillon sans rien lui rendre."
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "titre": "Le sel ne s'ajoute pas au dashi, il le rend lisible",
+        "texte": "C'est le plat le moins indulgent du recueil : pas de miso, pas de gras, pas d'acidité, rien derrière quoi se cacher. Deux choses seulement le font réussir. Un awase dashi, kombu ET katsuobushi — un kombu seul n'a ni aromatique ni relief. Et assez de sel : en dessous d'environ 0,7 % de salinité, l'umami n'est tout simplement pas perceptible et le meilleur dashi du monde goûte l'eau tiède. Le 13 août 2026, le dashi était bon et la fiche demandait quatre fois trop peu de sel. C'est la fiche qui avait tort."
+      },
+      {
+        "titre": "Ce que ça coûte, et quand le faire",
+        "texte": "Correctement salé, un bol de suimono porte environ 500 mg de sodium pour 25 calories et 2 g de protéines. Sur un plafond de 2 300 mg cumulé sur la journée, c'est cher payé pour ce que ça rapporte. Ce n'est pas un plat de semaine : c'est un plat qu'on fait quand on a un dashi frais et qu'on veut la beauté du geste. Au quotidien, R38 et R42 donnent le même réconfort avec un bien meilleur rapport goût/sodium."
+      },
+      {
+        "titre": "Un ou deux éléments, et on voit le fond du bol",
+        "texte": "« Un ou deux éléments seulement » veut dire environ 15 g par bol de 200 ml, d'un ou deux types au plus. Le repère visuel : le bouillon doit rester majoritairement visible et on doit voir le fond du bol. Une pleine poignée de champignons et une pleine poignée d'oignons verts, c'est un plat différent — et c'est de la matière froide qui refroidit et dilue un bouillon déjà léger."
+      }
+    ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Suimono_by_Joi.jpg?width=1200",
     "video": {
       "youtube_id": "m7d0FJjlT1U",
@@ -5339,7 +5518,12 @@
         "texte": "Servir en petits tas, garnir de katsuobushi."
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "titre": "Une minute et trois minutes, ce n'est pas le même aliment",
+        "texte": "ENTRE UNE MINUTE ET TROIS MINUTES, CE N'EST PAS UN ÉCART, C'EST UN AUTRE ALIMENT. À 30 à 60 secondes, la feuille s'affaisse mais ses parois cellulaires tiennent : elle se presse en botte ferme, garde de la mâche et sa couleur. À trois minutes, les parois cèdent, la feuille devient une masse qui retient l'eau au lieu de la rendre, et elle vire au vert olive. L'erreur se double alors d'elle-même : une feuille trop cuite se presse mal, l'eau reste dedans, et elle dilue la trempette au contact. On ne goûte plus un ohitashi au dashi, on goûte de l'épinard détrempé dans du dashi coupé à l'eau. Un ohitashi raté vient presque toujours de là, pas du dashi."
+      }
+    ],
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
     "video": {
       "youtube_id": "DfFv9gTxrbs",
@@ -5688,6 +5872,335 @@
     "commentaire_source": ""
   },
   {
+    "id": "R66",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "jp": "切り干し大根の煮物",
+    "jp_lecture": null,
+    "romaji": "kiriboshi daikon no nimono",
+    "fr": "Kiriboshi daikon mijoté",
+    "sous_titre": "Le kobachi de semaine par excellence : il se fait une fois, se garde quatre ou cinq jours, et il est meilleur le lendemain. C'est aussi le plat qui justifie de sécher du daikon.",
+    "portions": "4",
+    "temps_affiche": "≈ 50 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 20,
+      "attente": 20
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 5,
+      "proteines_affiche": "5 g",
+      "calories": 110,
+      "calories_affiche": "≈ 110",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur. L'étiquette du produit prime. Le sodium vient presque entièrement de la sauce soya."
+    },
+    "ingredients": [
+      {
+        "texte": "50 g de kiriboshi daikon (T10, ou du commerce)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 carotte moyenne, en julienne",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 feuille d'abura-age (tofu frit en tranche mince), facultative",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "300 ml d'eau tiède pour le trempage — elle devient un ingrédient",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Dashi (T2), assez pour affleurer",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de sauce soya",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Rincer le kiriboshi à l'eau froide en le frottant entre les mains, puis le faire tremper 15 à 20 minutes dans les 300 ml d'eau tiède. Il quadruple de volume."
+      },
+      {
+        "n": 2,
+        "texte": "Égoutter EN RÉSERVANT L'EAU DE TREMPAGE. Presser légèrement, sans essorer. Couper les filaments les plus longs en deux."
+      },
+      {
+        "n": 3,
+        "texte": "Si on utilise l'abura-age : l'ébouillanter 30 secondes pour enlever l'excès d'huile, l'éponger, le tailler en lanières."
+      },
+      {
+        "n": 4,
+        "texte": "Dans une casserole, réunir le daikon, la carotte et l'abura-age. Verser l'eau de trempage filtrée, puis assez de dashi pour que le liquide affleure — pas pour couvrir."
+      },
+      {
+        "n": 5,
+        "texte": "Porter à frémissement. Ajouter le sucre et le mirin, laisser une minute, puis la sauce soya. L'ordre compte : le sucré pénètre avant le salé."
+      },
+      {
+        "n": 6,
+        "texte": "Mijoter à découvert 15 à 20 minutes, jusqu'à ce qu'il ne reste qu'un fond de liquide."
+      },
+      {
+        "n": 7,
+        "texte": "Couper le feu et LAISSER REFROIDIR DANS LA CASSEROLE. C'est en refroidissant que le légume boit le bouillon — sauter cette étape donne un plat correct au lieu d'un bon plat."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "L'eau de trempage est la moitié du goût",
+        "texte": "Le liquide dans lequel le kiriboshi a trempé est sucré et parfumé : c'est du daikon concentré redissous. La jeter et la remplacer par de l'eau ou du dashi donne un nimono plat, et c'est l'erreur la plus courante de ce plat. La filtrer pour retirer la poussière du séchage, et la verser dans la casserole."
+      },
+      {
+        "titre": "Le sodium est entièrement dans la sauce soya",
+        "texte": "Les 2 c. à soupe de sauce soya portent la quasi-totalité du sel du plat. À demi-dose avec une sauce réduite en sodium, le nimono tient debout : l'eau de trempage et le mirin portent la douceur, et c'est elle qui fait le plat. Le dashi n'apporte qu'environ 50 mg de sodium par tasse."
+      },
+      {
+        "titre": "Ça se mange tiède ou froid",
+        "texte": "Ce n'est pas un plat à servir brûlant. Il se garde 4 à 5 jours au réfrigérateur et il est meilleur au deuxième jour, une fois que le légume a fini de boire. C'est un kobachi de semaine : on le fait une fois, on pige dedans."
+      },
+      {
+        "titre": "Si on n'a pas d'abura-age",
+        "texte": "L'abura-age (tofu frit en tranche mince) apporte du gras et de l'onctuosité; ce n'est pas de l'atsuage, qui est un bloc épais frit en surface seulement. Sans abura-age, ajouter 1 c. à thé d'huile de sésame grillé en fin de cuisson : le plat perd la texture mais garde le gras, et un nimono sans gras est sec."
+      }
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiriboshi_daikon_002.jpg?width=1200",
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R67",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "jp": "しめじのソテー",
+    "jp_lecture": null,
+    "romaji": "shimeji no sotē",
+    "fr": "Shimeji sautés au soya",
+    "sous_titre": "Le shimeji ne donne rien dans un bouillon. Il donne tout dans une poêle. Sept minutes, et le champignon le plus fade du frigo devient le plat qui goûte le plus.",
+    "portions": "2",
+    "temps_affiche": "≈ 10 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 7,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 3,
+      "proteines_affiche": "3 g",
+      "calories": 90,
+      "calories_affiche": "≈ 90",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "1 paquet de shimeji (environ 150 g), base parée et bouquets détachés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de beurre (facultatif, voir la note)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Oignon vert, poivre",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Parer la base terreuse du paquet et détacher les bouquets à la main. Ne pas laver : le shimeji est cultivé propre et l'eau qu'il absorbe est celle qu'il faudra évaporer."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle à feu moyen-vif avec l'huile. Étaler les champignons EN UNE SEULE COUCHE. Entassés, ils bouillent dans leur eau au lieu de saisir."
+      },
+      {
+        "n": 3,
+        "texte": "NE PAS TOUCHER pendant 3 minutes. Ils vont rendre leur eau et le fond de la poêle va se remplir de liquide. C'est normal et c'est l'étape qu'on interrompt à tort."
+      },
+      {
+        "n": 4,
+        "texte": "Continuer 3 à 4 minutes en remuant peu, jusqu'à ce que le liquide soit entièrement parti et que les champignons commencent à colorer et à grincer sous la spatule. LE SIGNAL EST LA COULEUR, PAS LE TEMPS."
+      },
+      {
+        "n": 5,
+        "texte": "Hors du feu, ajouter la sauce soya et le beurre. Enrober 20 secondes. Oignon vert et poivre."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi sept minutes et pas une",
+        "texte": "Le shimeji contient beaucoup d'eau et très peu de composés volatils libres. Tant que l'eau est là, la température de surface reste à 100 °C et rien ne brunit. Le goût de noisette apparaît seulement après l'évaporation, quand la surface dépasse 100 °C et que les réactions de brunissement démarrent. Un shimeji poché reste donc à jamais dans la phase où il ne goûte rien — ce n'est pas une question de dose, c'est une question de physique."
+      },
+      {
+        "titre": "Le beurre n'est pas un caprice",
+        "texte": "Le bata-shōyu (beurre et sauce soya) est un classique japonais moderne sur les champignons, et il fait un travail précis : les molécules d'arôme du champignon sont liposolubles, pas hydrosolubles. Sans corps gras, une partie du goût libéré par le brunissement ne se rend pas en bouche. Une cuillère à thé pour deux portions, c'est environ 4 g de lipides. Omettre le beurre reste possible; l'huile de cuisson en fait une partie."
+      },
+      {
+        "titre": "La charge",
+        "texte": "Un paquet de 150 g dans une poêle de 24 cm, c'est déjà limite. Au-delà, deux poêlées : une couche entassée met le double du temps et ne colore jamais correctement."
+      }
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Buna_shimeji_%288009663976%29.jpg?width=1200",
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R38"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R68",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "ultra-rapide",
+    "jp": "紅葉おろし",
+    "jp_lecture": null,
+    "romaji": "momiji oroshi",
+    "fr": "Momiji oroshi — daikon râpé au piment",
+    "sous_titre": "« Râpé feuille d'érable » — le daikon prend la couleur de l'automne. Le condiment qui règle le problème du daikon râpé nu : il apporte enfin quelque chose de lui-même.",
+    "portions": "4",
+    "temps_affiche": "≈ 5 min (+ 10 min de trempage)",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 0,
+      "attente": 10
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 15,
+      "calories_affiche": "≈ 15",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "Un tronçon de daikon d'environ 8 cm, pelé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 à 2 piments rouges séchés, ou 1 c. à thé de gochugaru à défaut",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Ponzu, à table",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire tremper les piments séchés 10 minutes dans l'eau tiède, puis les épépiner. Sauter cette étape avec du gochugaru."
+      },
+      {
+        "n": 2,
+        "texte": "Percer deux ou trois trous dans la face coupée du tronçon de daikon avec une baguette, et y enfoncer les piments."
+      },
+      {
+        "n": 3,
+        "texte": "Râper le tout ensemble sur les trous fins d'une râpe ou à l'oroshigane. Le piment se distribue dans le daikon en le râpant — c'est tout le principe du geste."
+      },
+      {
+        "n": 4,
+        "texte": "Presser légèrement entre les mains pour retirer l'excès d'eau. HUMIDE, PAS DÉTREMPÉ."
+      },
+      {
+        "n": 5,
+        "texte": "Servir en petit tas, arrosé de ponzu à table."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi percer plutôt que mélanger",
+        "texte": "Râpés ensemble, le piment et le daikon se lient : le piquant se répartit également et la couleur devient uniformément rosée. Mélangé après coup, le piment reste en points rouges qui donnent une bouchée brûlante et trois fades."
+      },
+      {
+        "titre": "Ce qu'il règle",
+        "texte": "Le daikon oroshi ordinaire n'a aucun goût propre et dépend entièrement du ponzu. Le momiji oroshi apporte du piquant et de la couleur, donc il tient debout même quand le ponzu est dosé légèrement. C'est la réponse à un daikon râpé jugé purement décoratif."
+      },
+      {
+        "titre": "Conservation",
+        "texte": "Deux jours au réfrigérateur en contenant fermé, l'eau rendue égouttée. Au-delà, il devient soufré."
+      }
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Momiji_oroshi.jpg?width=1200",
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R14"
+    ],
+    "commentaire_source": ""
+  },
+  {
     "id": "R48",
     "statut": "actif",
     "categorie": "collation",
@@ -5750,13 +6263,17 @@
       },
       {
         "n": 4,
+        "texte": "ÉCOSSÉES, SANS CUISSON — Elles sont blanchies avant d'être congelées, donc déjà cuites. Un bol au frigo la veille, ou dix minutes dans l'eau froide, et elles sont prêtes. La texture est un peu plus molle qu'après les trois minutes d'eau bouillante; c'est le prix, et il est petit. Gomashio en surface comme pour les autres versions. C'est la version qui rend le poste collation faisable un jour de semaine, parce qu'elle ne demande aucun chaudron."
+      },
+      {
+        "n": 5,
         "texte": "Égoutter. Ne pas servir nature : gomashio en surface, ou une pincée de sel à table, ou directement dans la soupe miso (voir la note)."
       }
     ],
     "notes": [
       {
         "titre": "Edamames écossées : trois usages, jamais nature",
-        "texte": "Sur des edamames en cosses, le sel se dépose à l'extérieur de l'enveloppe. On porte la cosse à la bouche, on récupère le sel sur les lèvres, puis on presse la fève — qui, elle, est nature. On goûte beaucoup de sel et on en avale très peu : l'enveloppe sert de véhicule. Écossées, cette mécanique disparaît : le sel colle directement sur ce qu'on avale, et la totalité compte. Mais servir la fève nature ne fonctionne pas non plus — sans enveloppe et sans contraste, le bol est fade, et ce n'est pas un goût auquel on s'habitue. Trois solutions, par ordre de préférence. (1) GOMASHIO (胡麻塩, « sésame-sel ») : sésame grillé et sel dans un rapport d'environ 8 pour 1. Même quantité de sel, mais portée par le sésame — plus de goût pour le même sodium. (2) UNE PINCÉE DE SEL EN SURFACE, À TABLE : une pincée entre les doigts fait environ 1/16 de c. à thé, soit environ 145 mg de sodium. En surface, on la goûte ; mélangée dans la masse, elle disparaît. Saler à table, jamais dans la casserole. (3) DANS LA SOUPE MISO : les fèves entrent dans le dashi avant le tofu (elles font chuter la température du bouillon), et le miso les assaisonne. Rien à ajouter. À éviter : ⅛ de c. à thé de sel fin mélangé aux fèves égouttées — c'est 290 mg de sodium pour un goût qu'on perçoit mal."
+        "texte": "Sur des edamames en cosses, le sel se dépose à l'extérieur de l'enveloppe. On porte la cosse à la bouche, on récupère le sel sur les lèvres, puis on presse la fève — qui, elle, est nature. On goûte beaucoup de sel et on en avale très peu : l'enveloppe sert de véhicule. Écossées, cette mécanique disparaît : le sel colle directement sur ce qu'on avale, et la totalité compte. Mais servir la fève nature ne fonctionne pas non plus — sans enveloppe et sans contraste, le bol est fade, et ce n'est pas un goût auquel on s'habitue. Trois solutions, par ordre de préférence. (1) GOMASHIO (胡麻塩, « sésame-sel ») : sésame grillé et sel dans un rapport d'environ 8 pour 1. Même quantité de sel, mais portée par le sésame — plus de goût pour le même sodium. (2) UNE PINCÉE DE SEL EN SURFACE, À TABLE : une pincée entre les doigts fait environ 1/16 de c. à thé, soit environ 145 mg de sodium. En surface, on la goûte ; mélangée dans la masse, elle disparaît. Saler à table, jamais dans la casserole. (3) DANS LA SOUPE MISO : les fèves entrent dans le dashi avant le tofu (elles font chuter la température du bouillon), et le miso les assaisonne. Rien à ajouter. À éviter : ⅛ de c. à thé de sel fin mélangé aux fèves égouttées — c'est 290 mg de sodium pour un goût qu'on perçoit mal. (4) EN GOMA-AE. Le sésame grillé écrasé au mortier et lié au soya et au mirin, comme dans la fiche du goma-ae. C'est la solution la plus complète des quatre, et pour la raison même que cette note décrit : un condiment sec glisse sur une fève lisse, une pâte de sésame y colle. Essayé le 14 août 2026 sur 90 g d'edamames écossées, verdict positif."
       },
       {
         "titre": "Correction du 10 août",

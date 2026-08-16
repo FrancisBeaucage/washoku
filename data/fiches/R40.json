@@ -35,7 +35,7 @@
       "sante_pos": null
     },
     {
-      "texte": "½ c. à thé de soya clair, une pincée de sel",
+      "texte": "2 c. à thé de soya clair (usukuchi) et ½ c. à thé de sel, goûté et ajusté",
       "sante": false,
       "sante_pos": null
     },
@@ -55,14 +55,27 @@
     },
     {
       "n": 2,
-      "texte": "Assaisonner très légèrement."
+      "texte": "Assaisonner et GOÛTER. Le bouillon doit être franchement salé quand on le goûte seul, sinon il disparaîtra sous les éléments."
     },
     {
       "n": 3,
-      "texte": "Déposer un ou deux éléments dans chaque bol et verser le bouillon dessus."
+      "texte": "Pocher les éléments 30 à 60 secondes dans le dashi frémissant, puis les répartir dans les bols et verser le bouillon dessus. Un champignon déposé cru dans le bol ABSORBE le bouillon sans rien lui rendre."
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "titre": "Le sel ne s'ajoute pas au dashi, il le rend lisible",
+      "texte": "C'est le plat le moins indulgent du recueil : pas de miso, pas de gras, pas d'acidité, rien derrière quoi se cacher. Deux choses seulement le font réussir. Un awase dashi, kombu ET katsuobushi — un kombu seul n'a ni aromatique ni relief. Et assez de sel : en dessous d'environ 0,7 % de salinité, l'umami n'est tout simplement pas perceptible et le meilleur dashi du monde goûte l'eau tiède. Le 13 août 2026, le dashi était bon et la fiche demandait quatre fois trop peu de sel. C'est la fiche qui avait tort."
+    },
+    {
+      "titre": "Ce que ça coûte, et quand le faire",
+      "texte": "Correctement salé, un bol de suimono porte environ 500 mg de sodium pour 25 calories et 2 g de protéines. Sur un plafond de 2 300 mg cumulé sur la journée, c'est cher payé pour ce que ça rapporte. Ce n'est pas un plat de semaine : c'est un plat qu'on fait quand on a un dashi frais et qu'on veut la beauté du geste. Au quotidien, R38 et R42 donnent le même réconfort avec un bien meilleur rapport goût/sodium."
+    },
+    {
+      "titre": "Un ou deux éléments, et on voit le fond du bol",
+      "texte": "« Un ou deux éléments seulement » veut dire environ 15 g par bol de 200 ml, d'un ou deux types au plus. Le repère visuel : le bouillon doit rester majoritairement visible et on doit voir le fond du bol. Une pleine poignée de champignons et une pleine poignée d'oignons verts, c'est un plat différent — et c'est de la matière froide qui refroidit et dilue un bouillon déjà léger."
+    }
+  ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Suimono_by_Joi.jpg?width=1200",
   "video": {
     "youtube_id": "m7d0FJjlT1U",

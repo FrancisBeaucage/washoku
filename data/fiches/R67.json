@@ -1,0 +1,104 @@
+{
+  "id": "R67",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "jp": "しめじのソテー",
+  "jp_lecture": null,
+  "romaji": "shimeji no sotē",
+  "fr": "Shimeji sautés au soya",
+  "sous_titre": "Le shimeji ne donne rien dans un bouillon. Il donne tout dans une poêle. Sept minutes, et le champignon le plus fade du frigo devient le plat qui goûte le plus.",
+  "portions": "2",
+  "temps_affiche": "≈ 10 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 7,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 90,
+    "calories_affiche": "≈ 90",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "1 paquet de shimeji (environ 150 g), base parée et bouquets détachés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de beurre (facultatif, voir la note)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Oignon vert, poivre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Parer la base terreuse du paquet et détacher les bouquets à la main. Ne pas laver : le shimeji est cultivé propre et l'eau qu'il absorbe est celle qu'il faudra évaporer."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle à feu moyen-vif avec l'huile. Étaler les champignons EN UNE SEULE COUCHE. Entassés, ils bouillent dans leur eau au lieu de saisir."
+    },
+    {
+      "n": 3,
+      "texte": "NE PAS TOUCHER pendant 3 minutes. Ils vont rendre leur eau et le fond de la poêle va se remplir de liquide. C'est normal et c'est l'étape qu'on interrompt à tort."
+    },
+    {
+      "n": 4,
+      "texte": "Continuer 3 à 4 minutes en remuant peu, jusqu'à ce que le liquide soit entièrement parti et que les champignons commencent à colorer et à grincer sous la spatule. LE SIGNAL EST LA COULEUR, PAS LE TEMPS."
+    },
+    {
+      "n": 5,
+      "texte": "Hors du feu, ajouter la sauce soya et le beurre. Enrober 20 secondes. Oignon vert et poivre."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi sept minutes et pas une",
+      "texte": "Le shimeji contient beaucoup d'eau et très peu de composés volatils libres. Tant que l'eau est là, la température de surface reste à 100 °C et rien ne brunit. Le goût de noisette apparaît seulement après l'évaporation, quand la surface dépasse 100 °C et que les réactions de brunissement démarrent. Un shimeji poché reste donc à jamais dans la phase où il ne goûte rien — ce n'est pas une question de dose, c'est une question de physique."
+    },
+    {
+      "titre": "Le beurre n'est pas un caprice",
+      "texte": "Le bata-shōyu (beurre et sauce soya) est un classique japonais moderne sur les champignons, et il fait un travail précis : les molécules d'arôme du champignon sont liposolubles, pas hydrosolubles. Sans corps gras, une partie du goût libéré par le brunissement ne se rend pas en bouche. Une cuillère à thé pour deux portions, c'est environ 4 g de lipides. Omettre le beurre reste possible; l'huile de cuisson en fait une partie."
+    },
+    {
+      "titre": "La charge",
+      "texte": "Un paquet de 150 g dans une poêle de 24 cm, c'est déjà limite. Au-delà, deux poêlées : une couche entassée met le double du temps et ne colore jamais correctement."
+    }
+  ],
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Buna_shimeji_%288009663976%29.jpg?width=1200",
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R38"
+  ],
+  "commentaire_source": ""
+}

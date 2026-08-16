@@ -3,16 +3,16 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "vitesse": "moyen",
   "jp": "ちらし丼",
   "jp_lecture": null,
   "romaji": "chirashi don",
   "fr": "Chirashi bowl",
   "sous_titre": "Zéro cuisson. Dix minutes pour un plat qui a l'air d'un restaurant. Le riz refroidi apporte en plus le bonus d'amidon résistant.",
   "portions": "2",
-  "temps_affiche": "≈ 15 min",
+  "temps_affiche": "≈ 15 min (semaine) · ≈ 40 min (visite)",
   "temps_minutes": {
-    "preparation": 15,
+    "preparation": 40,
     "cuisson": 0,
     "attente": 0
   },
@@ -30,7 +30,7 @@
   },
   "ingredients": [
     {
-      "texte": "280 g de riz refroidi, assaisonné de 2 c. à soupe de vinaigre de riz, 1 c. à thé de sucre, ½ c. à thé de sel",
+      "texte": "280 g de riz CHAUD, assaisonné de 2 c. à soupe de vinaigre de riz, 1 c. à thé de sucre, ½ c. à thé de sel dissous d'avance",
       "sante": false,
       "sante_pos": null
     },
@@ -66,7 +66,7 @@
   "etapes": [
     {
       "n": 1,
-      "texte": "Assaisonner le riz refroidi avec le vinaigre, le sucre et le sel."
+      "texte": "Verser la vinaigrette dissoute sur le riz CHAUD, puis ÉVENTER pendant qu'on le coupe à la spatule : avec un éventail, un carton rigide ou le couvercle du cuiseur, deux à trois minutes, jusqu'à ce que la vapeur cesse et que les grains brillent. Éventer ne veut pas dire disposer en éventail : c'est ventiler. C'est ce geste, et non le dosage, qui chasse la pointe acétique et laisse le goût rond."
     },
     {
       "n": 2,
@@ -85,6 +85,26 @@
     {
       "titre": "Le thon frais",
       "texte": "Il est visé par l'avis de Santé Canada sur le mercure : 150 g par semaine maximum pour un homme adulte. Le saumon n'a aucune restriction."
+    },
+    {
+      "titre": "Deux montages : la semaine et la visite",
+      "texte": "MONTAGE SEMAINE, seul — le poisson tranché dans une assiette, un bol de riz à côté, la sauce en soucoupe. Pas de tsuma de daikon, pas de shiraga negi. L'assiette séparée fait gratuitement le travail que le lit de daikon faisait dans le bol : le poisson ne touche pas le riz. Environ quinze minutes, et c'est le même repas dans l'assiette. MONTAGE VISITE — le bol composé, le lit de tsuma, le shiraga negi, les secteurs. Environ quarante minutes. C'est beau, et c'est pour quand quelqu'un le regarde. CHOISIR LE MONTAGE AVANT DE COMMENCER, pas en cours de route quand la fatigue tranche à ta place."
+    },
+    {
+      "titre": "Le tsuma de daikon n'est pas une portion",
+      "texte": "La julienne de daikon sous le sashimi s'appelle tsuma (妻). Ce n'est pas un légume à manger : c'est un lit. Il tient le poisson hors de l'assiette, absorbe l'humidité, et se prend PAR PINCÉES entre deux morceaux pour nettoyer la bouche. Les restaurants en jettent la majeure partie. Il se dimensionne à l'assiette, pas à la personne : un tronçon de cinq centimètres suffit pour deux assiettes. La julienne se coupe à 2 ou 3 mm, pas en filaments — le filament fond, le bâtonnet croque. Ce qui reste se garde deux à trois jours dans l'eau au frigo, et se recycle en kinpira (R46) ou en sunomono (R45)."
+    },
+    {
+      "titre": "L'avocat s'achète d'avance, pas juste à temps",
+      "texte": "Un avocat ferme dans un chirashi est un raté de texture sans contrepartie : ici il est tranché et mangé dans la minute, sa maturité n'est jamais un problème de conservation. La méthode qui règle ça : l'acheter deux ou trois jours d'avance, le laisser mûrir sur le comptoir, le mettre au frigo le jour où il est prêt — le froid arrête la maturation trois ou quatre jours. On ne choisit plus entre mûr et à temps. Trancher à 5 ou 6 mm, en éventail. Au couteau, c'est trente secondes."
+    },
+    {
+      "titre": "La sauce, et pourquoi elle remplace le soya-wasabi",
+      "texte": "Soya, dashi, huile de sésame, vinaigre de riz, gingembre râpé, dans une seule soucoupe qui sert au bol et à l'assiette. Adoptée le 13 août 2026. Le motif n'est pas le goût — soya et wasabi sont très bien — c'est le sodium : le dashi dilue le soya, on trempe autant et on en prend moins par bouchée. Le wasabi reste en pointe sur la tranche, jamais délayé dans la soucoupe. On trempe le côté poisson seulement; le riz ne va jamais dans la sauce. Réduire les quantités du tiers : il en reste toujours."
+    },
+    {
+      "titre": "Les garnitures, par niveau",
+      "texte": "Les trois niveaux du vocabulaire des garnitures (voir l'annexe des yakumi) se lisent ainsi sur cette fiche. GOÛT — les graines de sésame et le nori kizami : dix secondes chacun, et ils changent ce qu'on goûte. Ils ne se sautent jamais. STRUCTURE — le tsuma de daikon : il sépare le poisson du riz, donc il devient inutile dès qu'on sert le poisson dans une assiette à part. PRÉSENTATION — le shiraga negi : deux minutes pour l'œil, rien pour la bouche. Le 13 août, c'est exactement l'inverse qui a été fait — le negi monté, le sésame sauté."
     }
   ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1200",

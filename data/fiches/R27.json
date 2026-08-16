@@ -84,7 +84,12 @@
       "texte": "Hors du feu : sauce de poisson et jus de lime. Le jus de lime devient amer s'il bout."
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "titre": "Le vrai point de vigilance",
+      "texte": "LE POINT DE VIGILANCE DE CETTE FICHE EST LE SODIUM, PAS LE PIMENT. La sauce de poisson apporte environ 1 400 mg de sodium par cuillère à soupe, et la pâte tom yum en ajoute. À pleine dose, ce seul plat approche le plafond quotidien du guide 5. À DEMI-DOSE DE SAUCE DE POISSON ET DE PÂTE, le plat reste lui-même si on compense au jus de lime et au piment : l'acide et le piquant portent une partie de ce que le sel portait. Deuxième levier, aussi efficace : ne pas boire tout le bouillon."
+    }
+  ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
   "video": {
     "youtube_id": "hXaaZiMgvgI",

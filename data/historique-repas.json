@@ -184,14 +184,14 @@
     "repas": "diner",
     "fiches": [],
     "hors_fiche": [
-      "Yogourt grec aromatisé 3 % (2)"
+      "Yogourt grec Kirkland 3 %, contenant individuel de 100 g (2)"
     ],
     "convives": 1,
-    "proteines_g": 17,
-    "calories": 260,
+    "proteines_g": 16,
+    "calories": 200,
     "verdict": "correct",
     "journal": null,
-    "notes": "Deuxième journée sur trois où le dîner se réduit à des yogourts. Le poste dîner du guide 5 vise 40 g."
+    "notes": "Deuxième journée sur trois où le dîner se réduit à des yogourts. Le poste dîner du guide 5 vise 40 g. Valeurs corrigées le 14 août à partir de l'étiquette lue : 100 g par contenant, 8 g de protéines, 100 calories, 30 mg de sodium."
   },
   {
     "date": "2026-08-12",
@@ -222,5 +222,199 @@
     "verdict": "bon",
     "journal": null,
     "notes": "Livraison. Le shioyaki de saumon prévu n’a pas été fait, rien n’en avait été entamé. Bouillon non bu en entier et sauce aux arachides à moitié : environ 800 mg de sodium épargnés par ces deux gestes. Valeurs estimées, aucune étiquette."
+  },
+  {
+    "date": "2026-08-13",
+    "repas": "dejeuner",
+    "fiches": [],
+    "hors_fiche": [
+      "Yogourt grec Kirkland 3 %, contenant individuel de 100 g (2)"
+    ],
+    "convives": 1,
+    "proteines_g": 16,
+    "calories": 200,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Troisième repas en trois jours réduit à deux yogourts. Étiquette lue : 100 g par contenant, 8 g de protéines, 100 calories, 2,5 g de lipides, 30 mg de sodium, 10 g de glucides dont 9 g de sucre. Le poste déjeuner du guide 5 vise 450 cal et 40 g. La contrainte réelle est le format, pas la volonté : les jours travaillés, le travail commence quelques minutes après le lever et aucune cuisson n'est possible. Corrigé par la rubrique Assemblages du document 17."
+  },
+  {
+    "date": "2026-08-13",
+    "repas": "diner",
+    "fiches": [
+      "R40"
+    ],
+    "hors_fiche": [
+      "Sardines en conserve Kersen à l'huile de tournesol, boîte de 200 g, égouttée",
+      "Riz au furikake",
+      "Gingembre râpé"
+    ],
+    "convives": 1,
+    "proteines_g": 45,
+    "calories": 675,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Les sardines meilleures que prévu, mais les filets se sont défaits à la poêle : une conserve est déjà cuite et ne se saisit pas — voir la note ajoutée à R62. Le riz au furikake bon, le furikake mal réparti. Le suimono fade malgré un awase dashi frais et correct : l'assaisonnement de la fiche était sous-dosé d'un facteur quatre, les champignons ont été déposés crus, et la quantité d'éléments a dilué le bouillon. Trois causes, dont deux imputables à la fiche. Valeurs du poisson calculées à partir de l'étiquette pour les protéines et le sodium; les calories et les lipides sont une estimation d'égouttage à 25-30 %, la boîte n'ayant pas été pesée."
+  },
+  {
+    "date": "2026-08-13",
+    "repas": "collation",
+    "fiches": [],
+    "hors_fiche": [
+      "Penne sauce rosée Mike's, parmesan, poivre"
+    ],
+    "convives": 1,
+    "proteines_g": 15,
+    "calories": 400,
+    "verdict": "bon",
+    "journal": null,
+    "notes": "HORS PLAN. Petit bol pris à 17 h 30 en servant le souper des enfants. Le geste n'est pas le problème : le poste collation du guide 5 (300 cal, 25 g) était vide pour le troisième jour de suite, et onze heures séparaient le dîner du souper. Coût réel : environ 800 mg de sodium, estimation sans étiquette — c'est le poste le moins fiable de la journée."
+  },
+  {
+    "date": "2026-08-13",
+    "repas": "souper",
+    "fiches": [
+      "R20"
+    ],
+    "hors_fiche": [
+      "Assiette de sashimi saumon et thon"
+    ],
+    "convives": 1,
+    "proteines_g": 79,
+    "calories": 1055,
+    "verdict": "bon",
+    "journal": "K-2026-08-13-souper",
+    "notes": "Premier chirashi. Servi à 21 h 30 : deux fiches neuves le même soir et toutes les garnitures faites parce qu'elles étaient écrites. Riz très bon mais trop vinaigré — non éventé, la consigne était ambiguë. Tsuma de daikon fait en quadruple, la moitié jetée faute de savoir qu'il se conserve. Avocat trop ferme et coupé trop gros. Sauce adoptée. Thon frais 175 g : plafond hebdomadaire de Santé Canada atteint, pas de thon frais avant le 20 août. Journée entière : environ 2 330 cal, 155 g de protéines (dans la bande), 94 g de lipides (cible ≈ 65) et 2 960 mg de sodium (plafond 2 300). Les protéines ont atterri; les lipides et le sodium ont débordé, et une seule boîte de sardines à l'huile explique une bonne part des deux."
+  },
+  {
+    "date": "2026-08-14",
+    "repas": "dejeuner",
+    "fiches": [],
+    "hors_fiche": [
+      "Yogourt grec Kirkland aromatisé 3 % (2 × 100 g)"
+    ],
+    "convives": 1,
+    "proteines_g": 16,
+    "calories": 200,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Deux yogourts grecs, comme la veille. Le poste déjeuner du guide 5 vise 450 cal et 40 g; le format du contenant est la contrainte, pas la volonté. C'est ce poste que la rubrique Assemblages du document 17 vient régler."
+  },
+  {
+    "date": "2026-08-14",
+    "repas": "diner",
+    "fiches": [
+      "T1",
+      "T8",
+      "R48",
+      "R44"
+    ],
+    "hors_fiche": [
+      "3 œufs cuits durs (~8 min, jaune légèrement coulant)",
+      "Riz au furikake et oignon vert",
+      "90 g d'edamames écossées en goma-ae"
+    ],
+    "convives": 1,
+    "proteines_g": 34,
+    "calories": 585,
+    "verdict": "bon",
+    "journal": null,
+    "notes": "Premier essai des edamames écossées en goma-ae, verdict positif : le quatrième assaisonnement entre à la note de R48. Un condiment sec glisse sur une fève lisse, une pâte de sésame y colle."
+  },
+  {
+    "date": "2026-08-14",
+    "repas": "souper",
+    "fiches": [
+      "R14",
+      "T3",
+      "T4",
+      "R38",
+      "R43",
+      "T1"
+    ],
+    "hors_fiche": [
+      "Misoshiru aux shimeji (surdosé)",
+      "Ohitashi rejeté"
+    ],
+    "convives": 2,
+    "proteines_g": 44,
+    "calories": 590,
+    "verdict": "correct",
+    "journal": "K-2026-08-14-souper",
+    "notes": "SOUPER À DEUX COUVERTS ALORS QUE LE PLAN ÉTAIT ÉCRIT POUR UN — soupe et riz doublés en silence. Trois portions d'ohitashi sur quatre jetées : épinards blanchis 3 minutes au lieu d'une, minuterie mal partie. RATÉ D'EXÉCUTION AVANT D'ÊTRE UN VERDICT DE GOÛT — R43 n'est pas rejetée. Le saumon a été grillé en 5 morceaux valant 3 portions, dont 3 morceaux réservés au frigo pour R62 le lendemain. Daikon râpé servi sans ponzu et jugé sans intérêt."
+  },
+  {
+    "date": "2026-08-14",
+    "repas": "collation",
+    "fiches": [],
+    "hors_fiche": [
+      "Yogourt grec Kirkland aromatisé 3 % (2 × 100 g)",
+      "100 g de lanières de poulet Sunrise Farms poêlées, oignon vert, shichimi (surdosé)"
+    ],
+    "convives": 1,
+    "proteines_g": 36,
+    "calories": 320,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Shichimi surdosé par le distributeur : les trous fins retiennent le sésame, le nori et le zeste et ne laissent passer que le piment; ouvrir le côté verseur produit l'erreur inverse. Les deux dans le même repas."
+  },
+  {
+    "date": "2026-08-15",
+    "repas": "dejeuner",
+    "fiches": [],
+    "hors_fiche": [
+      "Tim Hortons — wrap déjeuner bacon classique",
+      "Pomme de terre rissolée",
+      "Iced Capp moyen au lait au chocolat",
+      "Iced Capp petit au lait protéiné"
+    ],
+    "convives": 1,
+    "proteines_g": 28,
+    "calories": 950,
+    "verdict": "correct",
+    "journal": "K-2026-08-15-journee",
+    "notes": "Déjeuner pris au comptoir, conforme au choix décidé la veille. Valeurs estimées à partir du guide nutritionnel Tim Hortons, édition août 2025; les deux versions d'Iced Capp commandées ne figurent pas au guide et sont dérivées de l'écart entre l'Iced Capp original et l'Iced Capp léger. Environ 143 g de glucides dont 90 g de sucre, et environ 1 070 mg de sodium — la totalité du budget de glucides de la journée et près de la moitié du sodium, avant 10 h. Verdict correct et non raté : le choix était le bon dans son menu; c'est le format qui coûte."
+  },
+  {
+    "date": "2026-08-15",
+    "repas": "diner",
+    "fiches": [
+      "T8",
+      "R62"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 43,
+    "calories": 415,
+    "verdict": "bon",
+    "journal": "K-2026-08-15-journee",
+    "notes": "Variante de R62 SANS RIZ : la portion de riz a été sautée volontairement, le budget de glucides étant déjà dépensé au déjeuner. Trois œufs cuits durs (jaunes entièrement pris, donc plutôt 11-12 minutes que les 8 visées), reste de saumon shioyaki du 14 effiloché FROID, sur un lit de daikon EN JULIENNE, shichimi sur les deux plats. Aucun ponzu : le sodium de la journée était déjà engagé. La julienne plutôt que le daikon râpé de R14 est une correction apportée à l'exécution, et elle est juste."
+  },
+  {
+    "date": "2026-08-15",
+    "repas": "souper",
+    "fiches": [],
+    "hors_fiche": [
+      "Bol de vermicelles au poulet grillé à la citronnelle avec rouleau impérial — restaurant vietnamien, livraison, 25,45 $"
+    ],
+    "convives": 1,
+    "proteines_g": 51,
+    "calories": 870,
+    "verdict": "bon",
+    "journal": "K-2026-08-15-journee",
+    "notes": "Aucune étiquette, valeurs estimées. Deux pots de nuoc cham fournis; un seul entamé, à moitié, allongé d'eau tiède, de vinaigre de riz et d'une pincée de sucre. Le deuxième pot n'a jamais été ouvert. Économie estimée à environ 1 100 mg de sodium sur ce seul geste. Le bol a été brassé à fond avant d'être goûté, et relevé au shichimi plutôt qu'à la sauce. Le rouleau impérial a été mangé — environ 180 cal et 300 mg de sodium, soit le tiers de ce qu'aurait coûté le deuxième pot de sauce."
+  },
+  {
+    "date": "2026-08-15",
+    "repas": "collation",
+    "fiches": [],
+    "hors_fiche": [
+      "Yogourt grec Kirkland aromatisé 3 % (2 × 100 g)"
+    ],
+    "convives": 1,
+    "proteines_g": 16,
+    "calories": 200,
+    "verdict": "correct",
+    "journal": "K-2026-08-15-journee",
+    "notes": "Le kobachi d'edamames prévu au plan n'a pas été fait; il aurait apporté 18 g de protéines de plus et aurait placé la journée dans la fourchette du guide 5 au lieu de sous celle-ci. Premier lot d'œufs marinés du dossier mis en marinade ce soir-là (5 œufs, T7a)."
   }
 ]

@@ -30,7 +30,7 @@
   },
   "ingredients": [
     {
-      "texte": "Riz à grain court japonais — environ 80 g cru par portion de 140 g cuit",
+      "texte": "Riz à grain court japonais — environ 64 g cru par portion de 140 g cuit (rapport cru/cuit d'environ 2,2)",
       "sante": false,
       "sante_pos": null
     },
@@ -49,7 +49,7 @@
   "etapes": [
     {
       "n": 1,
-      "texte": "Mesurer le riz cru dans un bol. Compter environ 80 g de riz cru par portion."
+      "texte": "Mesurer le riz cru dans un bol. Compter environ 64 g de riz cru par portion de 140 g cuit."
     },
     {
       "n": 2,
@@ -116,6 +116,10 @@
     {
       "titre": "Riz et natto : décongélation inverse",
       "texte": "Deux aliments du même congélateur, deux logiques opposées. Le riz : congélateur → micro-ondes directement, sans passer par le frigo — repasser par 0-4 °C fait rétrograder l'amidon et le riz ressort plus sec. Le natto : congélateur → frigo la veille, jamais le micro-ondes ni l'eau chaude — la chaleur tue les bactéries de fermentation et casse la texture filante. Le réflexe « je sors tout la veille » ruine le riz ; le réflexe « je passe tout au micro-ondes » ruine le natto."
+    },
+    {
+      "titre": "Le rendement réel, mesuré",
+      "texte": "Le riz gonfle plus qu'on ne le croit. Le repère de 80 g cru par portion supposait un facteur d'expansion de 1,75; la mesure faite à la balance le 13 août 2026 donne 2,18. Trois gō, soit environ 450 g crus, ont donné sept portions de 140 g. LE REPÈRE PRATIQUE POUR UN CUISEUR JAPONAIS : 1 gō (180 ml, environ 150 g crus) donne 2,3 portions de 140 g. Une fournée de six gō donne donc environ quatorze portions, pas onze. Si tu cuisines pour la semaine, c'est ce chiffre-là qui décide, pas la tasse."
     }
   ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",

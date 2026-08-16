@@ -30,7 +30,10 @@
       "T7b",
       "R65"
     ],
-    "note": null,
+    "note": {
+      "titre": "Le râpé qui s'agglomère",
+      "texte": "Râpé, le gingembre forme des paquets fibreux qui refusent de se répartir — sur un poisson, on se retrouve avec deux ou trois amas au lieu d'un voile. Trois sorties : une microplane fine plutôt qu'une râpe ordinaire; ou presser le râpé dans la main et n'utiliser que le jus, la fibre à la poubelle; ou en faire un shōga-jōyu, le râpé délayé dans un peu de sauce soya, qui se verse et se répartit tout seul. Le gingembre râpé sur des sardines est un excellent accord — il coupe le gras et le goût de poisson — mais il faut qu'il touche partout."
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginger_root.jpg?width=1200",
     "photo_emballage": "assets/produits/gingembre.jpg",
     "commentaire_source": "// ① FRUITS ET LÉGUMES"
@@ -205,12 +208,18 @@
     "zone_magasin": null,
     "sert_dans": [
       "R14",
+      "R20",
       "R34",
       "R37",
       "R42",
-      "R46"
+      "R46",
+      "R66",
+      "R68"
     ],
-    "note": null,
+    "note": {
+      "titre": "Combien de temps ça se garde",
+      "texte": "Entier et non entamé, le daikon tient <strong>2 à 4 semaines</strong> au réfrigérateur. Entamé, la face coupée bien emballée au contact (pellicule, pas un sac lâche), <strong>1 à 2 semaines</strong>. Le garder au bac à légumes, loin des pommes et des bananes qui dégagent de l'éthylène. Si les feuilles sont attachées, les retirer dès l'achat : elles pompent l'eau de la racine. Signes de fin : chair translucide ou spongieuse, amertume soufrée qui monte, racine qui plie au lieu de casser. <strong>R46 (kinpira) est la fiche qui en écoule le plus par portion.</strong>"
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Daikon.Japan.jpg?width=1200",
     "photo_emballage": null
   },
@@ -260,7 +269,10 @@
       "R30",
       "R36"
     ],
-    "note": null,
+    "note": {
+      "titre": "Durée de vie réelle",
+      "texte": "Repère mesuré : un paquet de germes de haricot frais emballé le 9 août 2026 était encore bon au <strong>jour six</strong> — vérification sensorielle le 15 août : aucun jus au fond du sac, odeur neutre, cassure audible, goût normal. Les trois signaux qui condamnent un paquet, dans l'ordre où ils apparaissent : du liquide au fond, puis une odeur aigre, puis des germes qui plient sans casser. Réfrigérer dès l'achat; à température ambiante, elles tournent en un jour."
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Moyashi-Mung-bean-sprouts.jpg?width=1200",
     "photo_emballage": null
   },
@@ -301,8 +313,13 @@
     "a_quoi_ca_ressemble": "Vendus en grappes compactes sous pellicule, chapeaux bruns ou blancs de 1 à 2 cm.",
     "description_visuelle": null,
     "zone_magasin": null,
-    "sert_dans": [],
-    "note": null,
+    "sert_dans": [
+      "R67"
+    ],
+    "note": {
+      "titre": "La méthode de cuisson décide de tout",
+      "texte": "Le shimeji blanc (<em>buna-shimeji</em>) est ferme et très doux. Son goût ne se révèle qu'à la chaleur sèche : il faut qu'il rende son eau, que celle-ci s'évapore, et qu'il commence à colorer. Poché une minute dans un bouillon, il n'apporte que de la texture — testé le 14 août 2026, verdict sans appel : « ça ne goûte pas mauvais, ça ne goûte juste à rien ». Ne pas le substituer à l'enoki dans une soupe miso : l'enoki supporte le passage rapide, le shimeji non. Le poêler cinq à sept minutes est la seule préparation retenue au dossier — c'est R67."
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hon-shimeji%20mushrooms%20-%20Cambridge,%20MA.jpg?width=1200",
     "photo_emballage": null
   },
@@ -348,6 +365,30 @@
     "sert_dans": [],
     "note": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashi_pear.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "avocat",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "アボカド",
+    "jp_lecture": null,
+    "romaji": "abokado",
+    "fr": "Avocat",
+    "noms_alternatifs": [],
+    "description": "Le meilleur rendement gras/sodium du dossier. Un demi-avocat (environ 70 g) donne ~110 calories, 10 g de lipides et 5 mg de sodium, pour ~2 g de protéines.",
+    "ou_le_trouver": "Fruits et légumes, en pile ou en filet de quatre ou cinq. Les épiceries asiatiques en vendent presque toujours.",
+    "a_quoi_ca_ressemble": "Fruit vert foncé à peau grenue (Hass) ou vert lisse et brillant. Mûr quand il cède légèrement sous la pression de la paume, pas du pouce — le pouce meurtrit la chair.",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [
+      "R20"
+    ],
+    "note": {
+      "titre": "Ce que c'est, et ce que ce n'est pas",
+      "texte": "Ce n'est pas un poste de protéines, c'est un poste de <strong>gras et de satiété</strong> — exactement ce que demande un déjeuner qui s'assemble sans cuisson. <strong>PRÉPARATION RETENUE :</strong> tranché, quelques gouttes de sauce soya, une pincée de katsuobushi, du sésame grillé, du shichimi à table. Le katsuobushi apporte de l'inosinate, donc de la longueur en bouche, là où le sel n'apportait que du salé. <strong>NE PAS AJOUTER D'HUILE :</strong> c'est du gras sur du gras. <strong>CONSERVATION :</strong> une moitié coupée ne tient qu'une journée même bien emballée — placer la seconde moitié au repas suivant du même jour. Acheter deux ou trois jours d'avance et laisser mûrir sur le comptoir; le froid arrête la maturation trois ou quatre jours une fois le fruit prêt."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Avocado_Hass_-_single_and_halved.jpg?width=1200",
     "photo_emballage": null
   },
   {
@@ -424,7 +465,7 @@
     ],
     "note": {
       "titre": "Conserver le reste",
-      "texte": "L'emballage est thermoscellé : il ne se referme pas. Pour le reste d'un bloc entamé — égoutter, déposer dans un contenant hermétique, couvrir d'eau froide fraîche, fermer, au frigo, et changer l'eau chaque jour. Il tient 3-4 jours ; sans eau, il sèche en surface et surit en deux jours. Ne pas le couvrir de bouillon ni de dashi : ça le sale, ça fermente plus vite, et on gaspille du dashi qui a demandé du travail. Le jeter si l'odeur est aigre, la surface visqueuse ou l'eau de trempage trouble."
+      "texte": "L'emballage est thermoscellé : il ne se referme pas. Pour le reste d'un bloc entamé — égoutter, déposer dans un contenant hermétique, couvrir d'eau froide fraîche, fermer, au frigo, et changer l'eau chaque jour. Il tient 3 à 5 jours ; sans eau, il sèche en surface et surit en deux jours. Ne pas le couvrir de bouillon ni de dashi : ça le sale, ça fermente plus vite, et on gaspille du dashi qui a demandé du travail. Le jeter si l'odeur est aigre, la surface visqueuse ou l'eau de trempage trouble. Non entamé, il tient jusqu'à sa date. <strong>Le tofu ferme se congèle</strong> et en ressort spongieux et élastique, capable de boire un bouillon — c'est une technique, pas un défaut. RÈGLE D'ACHAT : le tofu est un produit frais, pas une conserve. On l'achète pour les plats du plan, en blocs scellés jusqu'à l'usage, plutôt que de stocker des blocs entamés."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",
     "photo_emballage": "assets/produits/tofu-ferme.jpg",
@@ -450,7 +491,7 @@
     ],
     "note": {
       "titre": "Conserver le reste — le compte part de l'ouverture",
-      "texte": "<strong>Deux jours, à partir de l'ouverture — pas de la date sur l'emballage.</strong> La date imprimée sur un contenant scellé (souvent plusieurs semaines à l'avance) s'applique au produit fermé ; le compte des deux jours commence au moment où on perce le contenant. Un bloc scellé n'a aucune urgence. Une fois ouvert : contenant hermétique, eau froide qui recouvre complètement, <strong>changée chaque jour</strong> ; garder le bloc <strong>entier</strong> — chaque surface coupée est une porte d'entrée, et en cubes il se délite en un jour ; un contenant juste à la taille du bloc, pas un grand bol, pour qu'il bouge le moins possible dans l'eau. Compter <strong>2 à 3 jours</strong>, pas plus : le soyeux est plus fragile que le ferme, plus d'eau et moins de structure de caillé. Signes d'arrêt : eau trouble ou visqueuse, odeur aigre à l'ouverture. <strong>Ne pas congeler le tofu soyeux.</strong> La congélation fait cristalliser l'eau et perce la structure : le ferme devient une éponge, parfois utile ; le soyeux devient une bouillie granuleuse."
+      "texte": "<strong>Deux jours, à partir de l'ouverture — pas de la date sur l'emballage.</strong> La date imprimée sur un contenant scellé (souvent plusieurs semaines à l'avance) s'applique au produit fermé ; le compte des deux jours commence au moment où on perce le contenant. Un bloc scellé n'a aucune urgence. Une fois ouvert : contenant hermétique, eau froide qui recouvre complètement, <strong>changée chaque jour</strong> ; garder le bloc <strong>entier</strong> — chaque surface coupée est une porte d'entrée, et en cubes il se délite en un jour ; un contenant juste à la taille du bloc, pas un grand bol, pour qu'il bouge le moins possible dans l'eau. Compter <strong>2 à 3 jours</strong>, pas plus : le soyeux est plus fragile que le ferme, plus d'eau et moins de structure de caillé. Signes d'arrêt : eau trouble ou visqueuse, odeur aigre à l'ouverture. <strong>Ne pas congeler le tofu soyeux.</strong> La congélation fait cristalliser l'eau et perce la structure : le ferme devient une éponge, parfois utile ; le soyeux devient une bouillie granuleuse. Non entamé, il tient jusqu'à sa date. <strong>Le tofu soyeux ne se congèle jamais : il rend son eau et se défait.</strong> RÈGLE D'ACHAT : le tofu est un produit frais, pas une conserve. On l'achète pour les plats du plan, en blocs scellés jusqu'à l'usage, plutôt que de stocker des blocs entamés."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",
     "photo_emballage": "assets/produits/tofu-soyeux.jpg"
@@ -1065,6 +1106,30 @@
     "photo_emballage": null
   },
   {
+    "id": "kiriboshi-daikon",
+    "statut": "actif",
+    "section": "sec",
+    "jp": "切り干し大根",
+    "jp_lecture": null,
+    "romaji": "kiriboshi daikon",
+    "fr": "Kiriboshi daikon — daikon séché",
+    "noms_alternatifs": [],
+    "description": "Daikon taillé en julienne puis séché. Le séchage concentre les sucres : le goût est nettement plus doux et plus profond que celui du daikon frais, avec une texture qui reste ferme après réhydratation. Se garde plusieurs mois au garde-manger. C'est la réponse traditionnelle au problème du gros daikon qu'on n'arrive pas à finir.",
+    "ou_le_trouver": "Allée des produits séchés, avec les algues et les champignons séchés. En sachets translucides de 50 à 100 g.",
+    "a_quoi_ca_ressemble": "Un enchevêtrement de filaments beiges à ambrés, secs et souples. Plus la couleur est claire, plus le séchage est récent; un kiriboshi très foncé est vieux ou a été séché à trop haute température.",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [
+      "R66"
+    ],
+    "note": {
+      "titre": "L'eau de trempage est un ingrédient",
+      "texte": "Réhydratation : <strong>15 à 20 minutes dans l'eau tiède</strong>, jusqu'à environ quatre fois son volume. <strong>NE PAS JETER L'EAU DE TREMPAGE</strong> — elle est sucrée et parfumée, et elle remplace une partie du dashi du plat. La jeter donne un nimono plat. Ordre de grandeur : 50 g secs gonflent à environ 200 g réhydratés, ce qui remplace en usage à peu près 500 g de daikon frais. Rincer brièvement et frotter les filaments avant de les faire tremper, pour enlever la poussière du séchage. Pour le faire soi-même, voir T10."
+    },
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiriboshi_daikon_001.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
     "id": "niboshi-petites-sardines-sechees",
     "statut": "actif",
     "section": "sec",
@@ -1315,8 +1380,8 @@
       "R11"
     ],
     "note": {
-      "titre": "Deux mises au point",
-      "texte": "Malgré les noms (saumon, crevette, bonite), le furikake n'apporte pas de protéines — une portion ≈ 2 g, ~10 cal, moins d'un gramme de protéines. C'est du goût. Et c'est salé (~15-20 %), soit 150-250 mg de sodium sur un bol : <strong>ne combine pas furikake et sauce soya sur le même bol</strong>. Son vrai rôle : rendre le riz nature intéressant sans y ajouter de gras — c'est ce qui fait que 140 g suffisent au lieu d'en redemander."
+      "titre": "Trois mises au point",
+      "texte": "Malgré les noms (saumon, crevette, bonite), le furikake n'apporte pas de protéines — une portion ≈ 2 g, ~10 cal, moins d'un gramme de protéines. C'est du goût. Et c'est salé (~15-20 %), soit 150-250 mg de sodium sur un bol : <strong>ne combine pas furikake et sauce soya sur le même bol</strong>. Son vrai rôle : rendre le riz nature intéressant sans y ajouter de gras — c'est ce qui fait que 140 g suffisent au lieu d'en redemander. <strong>Le geste</strong> : saupoudrer de haut, en deux passes, en tournant le bol d'un quart de tour entre les deux, et APRÈS avoir aéré le riz. Déposé en une seule fois au même endroit, il ne se répartit plus — le riz cuit n'est pas assez mobile pour le disperser après coup."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Furikake_%281%29.jpg?width=1200",
     "photo_emballage": "assets/produits/furikake.jpg"
@@ -1348,8 +1413,8 @@
       "R46"
     ],
     "note": {
-      "titre": "Shichimi et nanami sont le même mot",
-      "texte": "七味 se lit <em>shichimi</em> ou <em>nanami</em> selon la lecture retenue des caractères, et S&amp;B utilise « nanami » sur ses emballages d'exportation. Chercher les deux."
+      "titre": "Le nom, et le distributeur",
+      "texte": "七味 se lit <em>shichimi</em> ou <em>nanami</em> selon la lecture retenue des caractères, et S&amp;B utilise « nanami » sur ses emballages d'exportation. Chercher les deux. <strong>Le distributeur filtre ce qui goûte.</strong> Le shichimi est un mélange à granulométrie très inégale : le piment moulu est fin, mais le sésame, le nori et le zeste d'agrume sont en morceaux. <strong>Les trous fins d'un couvercle saupoudreur laissent passer le piment et retiennent tout le reste</strong> — on obtient du piquant sans les six autres saveurs, et on croit à tort que le mélange est faible. Ouvrir le côté verseur pour compenser produit l'erreur inverse : une dose massive d'un coup. Constaté le 14 août 2026, dans les deux sens au même repas. Doser dans le creux de la main ou dans une cuillère, puis saupoudrer à la main. Jamais directement au-dessus de l'assiette."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shichimi_002.jpg?width=1200",
     "photo_emballage": null
@@ -1385,16 +1450,20 @@
     "romaji": "soba",
     "fr": "Soba",
     "noms_alternatifs": [],
-    "description": "Nouilles de sarrasin. Plus de protéines et de fibres que le blé. Se mangent froides, ce qui en fait un excellent dîner à transporter.",
+    "description": "Nouilles de sarrasin — en principe. Se mangent froides, ce qui en fait un excellent dîner à transporter. Attention : la plupart des paquets vendus au Québec sont majoritairement de blé, avec le sarrasin en deuxième ingrédient.",
     "ou_le_trouver": "Allée japonaise, avec les udon et les somen.",
-    "a_quoi_ca_ressemble": "Paquets rigides de nouilles brun-gris, souvent en portions attachées. Le pourcentage de sarrasin est indiqué : plus il est haut, meilleur c'est.",
+    "a_quoi_ca_ressemble": "Paquets rigides de nouilles brun-gris, souvent en liasses attachées. Le pourcentage de sarrasin est rarement affiché ici : <strong>lire la liste d'ingrédients</strong> — elle est classée par poids décroissant, et si la farine de blé arrive en premier, c'est une nouille de blé teintée de sarrasin.",
     "description_visuelle": null,
     "zone_magasin": null,
     "sert_dans": [
       "R9",
-      "R12"
+      "R12",
+      "R60"
     ],
-    "note": null,
+    "note": {
+      "titre": "Les deux chiffres du panneau",
+      "texte": "<strong>Protéines.</strong> Un juwari (十割, 100 % sarrasin) donne 13 à 14 g aux 100 g secs; un soba à dominante blé, environ 10 g. L'écart est réel mais ne décide pas d'un repas — la protéine d'un plat de soba vient de la garniture. <strong>Sodium.</strong> C'est le chiffre qui surprend : plusieurs soba secs du commerce dépassent 700 mg aux 100 g secs, assez pour porter le symbole d'avertissement en façade de Santé Canada. Exemple relevé le 15 août 2026 : Sukina, 300 g, fabriqué en Corée du Sud, <strong>760 mg de sodium aux 100 g</strong>, farine de blé en premier ingrédient. On estime que 50 à 70 % de ce sel part à l'eau de cuisson et au rinçage à l'eau froide. Verdict d'usage : utilisable, mais à ne pas racheter tel quel."
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_soba_noodles_by_FotoosVanRobin.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1956,11 +2025,12 @@
     "description_visuelle": null,
     "zone_magasin": null,
     "sert_dans": [
-      "R61"
+      "R61",
+      "R62"
     ],
     "note": {
       "titre": "† Mercure et densité calorique",
-      "texte": "Sardines à l'huile : ~300 cal et 20 g de protéines/100 g ; thon pâle dans l'eau : ~110 cal et 25 g/100 g. Par gramme de protéine, la sardine à l'huile coûte environ 3× plus de calories — c'est du bon gras, mais ça change ce qu'on met autour. Égoutter sérieusement (on récupère 25-30 % des calories). Une fois ouverte, transvider dans un contenant hermétique, jamais laisser dans la boîte, manger en 2 jours. En kobachi (<em>R61</em>, à la place du germon) : compter 100 g égouttés, pas 50, pour que les protéines montent — et retirer l'huile de sésame de la recette, la sardine en apporte déjà. Mercure : un des poissons les plus bas de la chaîne — voir la note mercure du guide 1."
+      "texte": "Sardines à l'huile : ~300 cal et 20 g de protéines/100 g ; thon pâle dans l'eau : ~110 cal et 25 g/100 g. Par gramme de protéine, la sardine à l'huile coûte environ 3× plus de calories — c'est du bon gras, mais ça change ce qu'on met autour. Égoutter sérieusement (on récupère 25-30 % des calories). Une fois ouverte, transvider dans un contenant hermétique, jamais laisser dans la boîte, manger en 2 jours. En kobachi (<em>R61</em>, à la place du germon) : compter 100 g égouttés, pas 50, pour que les protéines montent — et retirer l'huile de sésame de la recette, la sardine en apporte déjà. Mercure : un des poissons les plus bas de la chaîne — voir la note mercure du guide 1. <strong>Étiquette lue le 13 août 2026 — Kersen, filets dans l'huile de tournesol, sans arêtes, 200 g.</strong> Boîte entière : 600 cal, 52 g de lipides, 40 g de protéines, 840 mg de sodium. Égouttée selon la règle des 25-30 %, environ 435 cal et 34 g de lipides — les protéines et le sodium, eux, ne bougent pas. <strong>Ce produit cumule les deux choses que cette fiche dit d'éviter</strong> : l'huile de tournesol, qui déséquilibre le rapport oméga-6/oméga-3, et la mention « sans arêtes », qui retire l'essentiel du calcium (environ 350 mg/100 g avec les arêtes molles, environ 50 sans). Il avait été acheté avant que cette fiche existe — ce n'est pas un achat contre la règle, c'est un stock antérieur à la règle. À 34 g de lipides égouttés, une boîte porte à elle seule la moitié du plafond lipidique d'une journée. <strong>RÈGLE ADOPTÉE : toute conserve de poisson à l'huile se pèse égouttée avant d'être notée à l'inventaire.</strong> Un seul pesage rend la classe entière calculable au lieu qu'estimée. DÉCISION D'ACHAT : sardines à l'eau ou à l'huile d'olive, avec arêtes."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canned_sardines.jpg?width=1200",
     "photo_emballage": null

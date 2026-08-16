@@ -130,6 +130,19 @@
     "url": "https://francisbeaucage.github.io/washoku/data/fiches/T9.json"
   },
   {
+    "id": "T10",
+    "fr": "Le séchage du daikon",
+    "romaji": "kiriboshi",
+    "jp": "切り干し",
+    "categorie": "technique",
+    "cuisine": "japonaise",
+    "statut": "actif",
+    "proteines_g": null,
+    "calories": 0,
+    "temps_minutes": 500,
+    "url": "https://francisbeaucage.github.io/washoku/data/fiches/T10.json"
+  },
+  {
     "id": "R1",
     "fr": "Set japonais complet",
     "romaji": "wa-chōshoku",
@@ -386,7 +399,7 @@
     "statut": "actif",
     "proteines_g": 36,
     "calories": 490,
-    "temps_minutes": 15,
+    "temps_minutes": 40,
     "url": "https://francisbeaucage.github.io/washoku/data/fiches/R20.json"
   },
   {
@@ -973,5 +986,44 @@
     "calories": 340,
     "temps_minutes": 20,
     "url": "https://francisbeaucage.github.io/washoku/data/fiches/R65.json"
+  },
+  {
+    "id": "R66",
+    "fr": "Kiriboshi daikon mijoté",
+    "romaji": "kiriboshi daikon no nimono",
+    "jp": "切り干し大根の煮物",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "statut": "actif",
+    "proteines_g": 5,
+    "calories": 110,
+    "temps_minutes": 50,
+    "url": "https://francisbeaucage.github.io/washoku/data/fiches/R66.json"
+  },
+  {
+    "id": "R67",
+    "fr": "Shimeji sautés au soya",
+    "romaji": "shimeji no sotē",
+    "jp": "しめじのソテー",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "statut": "actif",
+    "proteines_g": 3,
+    "calories": 90,
+    "temps_minutes": 10,
+    "url": "https://francisbeaucage.github.io/washoku/data/fiches/R67.json"
+  },
+  {
+    "id": "R68",
+    "fr": "Momiji oroshi — daikon râpé au piment",
+    "romaji": "momiji oroshi",
+    "jp": "紅葉おろし",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "statut": "actif",
+    "proteines_g": 1,
+    "calories": 15,
+    "temps_minutes": 15,
+    "url": "https://francisbeaucage.github.io/washoku/data/fiches/R68.json"
   }
 ]
