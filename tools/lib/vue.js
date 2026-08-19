@@ -213,8 +213,24 @@ const LIBS = (groupe, liste) => (liste || []).map(v => LIB(groupe, v)).join(" ·
    étoiles pour l'un et cinq pour l'autre. Une page doit pourtant afficher UNE
    valeur. Elle affiche celle de ce lecteur-ci, et rien quand il ne s'est pas
    prononcé — jamais celle d'un autre à sa place. */
-const LECTEUR = "francis";
-const DE_LECTEUR = (o) => (o && typeof o === "object" && !Array.isArray(o)) ? (o[LECTEUR] == null ? null : o[LECTEUR]) : null;
+const LECTEUR = ${JSON.stringify(C.LECTEUR)};
+/* Tolère les deux formes : l'objet complet d'une fiche seule, et la valeur déjà
+   réduite que l'index porte — l'index ne garde que l'avis du lecteur courant. */
+const DE_LECTEUR = (v) => {
+  if (v == null) return null;
+  if (typeof v !== "object" || Array.isArray(v)) return v;
+  return v[LECTEUR] == null ? null : v[LECTEUR];
+};
+/* 🔴 UN AVIS ABSENT N'EST PAS UN AVIS NÉGATIF : une fiche dont ce lecteur n'a
+   rien dit se lit comme « à l'essai », jamais comme écartée. Sans cette règle,
+   toutes les fiches dont personne ne s'est prononcé disparaîtraient du tri par
+   défaut. */
+const AVIS = (v) => DE_LECTEUR(v) || "a-l-essai";
+/* Le nom dans l'écriture d'origine, quelle que soit la langue : « jp » pour une
+   fiche japonaise, « nom_origine » pour les autres. Les deux ne sont jamais
+   remplis en même temps. */
+const NOM_ORIGINE = (o) => o.jp || o.nom_origine || null;
+const LECTURE_ORIGINE = (o) => o.romaji || o.lecture_origine || null;
 /* \`null\` N'EST PAS ZÉRO. Une fiche jamais essayée n'a pas d'étoiles — pas zéro
    étoile, pas une étoile grise. Confondre les deux est ce qui a fait rejeter la
    première version de la carte des goûts. */

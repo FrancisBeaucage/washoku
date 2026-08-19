@@ -208,6 +208,10 @@ function gabaritListe({ techniques }) {
           <input type="checkbox" checked="{{ f.ecartes }}" onChange="{{ setEcartes }}" style="width:16px;height:16px;accent-color:#ec3013"> Montrer les plats écartés
         </label>
       </div>
+      <!-- Une étoile est l'avis de QUELQU'UN, pas une propriété du plat. Le
+           dire sur la page évite qu'un second lecteur prenne la note d'un autre
+           pour un fait. -->
+      <p style="margin:0;font-size:11.5px;line-height:1.45;color:#9b9797">Les étoiles et le statut sont l'avis de <strong>{{ lecteur }}</strong>, pas une propriété du plat. Une fiche sans étoiles n'a pas encore été essayée.</p>
     </div>
   </div>
 
@@ -315,11 +319,11 @@ class Component extends DCLogic {
       /* Un plat écarté SORT DU TRI PAR DÉFAUT, il ne disparaît pas : une
          bascule le ramène. Le site a plus d'un lecteur, et un plat écarté par
          l'un reste à voir pour les autres. */
-      .filter(r => f.ecartes || DE_LECTEUR(r.statut_perso) !== "ecarte")
+      .filter(r => f.ecartes || AVIS(r.statut_perso) !== "ecarte")
       .filter(r => !term || NORM([r.fr, r.romaji, r.jp, r.id, r.slug].filter(Boolean).join(" ")).indexOf(term) >= 0)
       .sort(PAR_CODE)
       .map(r => {
-        const perso = DE_LECTEUR(r.statut_perso);
+        const perso = DE_LECTEUR(r.statut_perso);   // brut : « rien dit » reste distinct de « à l'essai »
         const pastilles = [];
         /* La carte ne montre que la DOMINANTE des axes. Trois valeurs de
            texture sur une vignette de 232 px, c'est illisible, et la dominante
@@ -339,8 +343,8 @@ class Component extends DCLogic {
         if (r.proteines_g != null) bouts.push(r.proteines_g + " g prot.");
         if (r.calories != null) bouts.push(r.calories + " cal");
         return {
-          id: r.id, fr: r.fr, jp: r.jp || null, ro: r.romaji || null,
-          jpt: JPT(r.jp, r.romaji, r.fr),
+          id: r.id, fr: r.fr, jp: NOM_ORIGINE(r), ro: LECTURE_ORIGINE(r),
+          jpt: JPT(NOM_ORIGINE(r), LECTURE_ORIGINE(r), r.fr),
           hasPhoto: !!r.photo, bg: r.photo ? 'url("' + r.photo + '")' : "none",
           etoiles: ETOILES(DE_LECTEUR(r.etoiles)),
           classe: perso === "ecarte" ? "carte ecarte" : "carte",
@@ -393,7 +397,10 @@ class Component extends DCLogic {
       /* Le compte est CALCULÉ, jamais écrit : un compteur à la main périme, et
          deux l'ont fait dans ce dossier sans que rien ne le signale. */
       compte: toutes ? (liste.length + (liste.length > 1 ? " fiches" : " fiche") + " sur " + perimetre.length) : "",
-      nbTechniques: actives.filter(r => r.categorie === "technique").length
+      nbTechniques: actives.filter(r => r.categorie === "technique").length,
+      /* La clé du lecteur est une clé de données, en minuscules ; on la
+         capitalise pour l'afficher, sans en faire une seconde valeur. */
+      lecteur: LECTEUR.charAt(0).toUpperCase() + LECTEUR.slice(1)
     };
   }
 }`;
@@ -582,8 +589,8 @@ class Component extends DCLogic {
       retour: o.categorie === "technique" ? "techniques.html" : "recettes.html",
       retourLabel: o.categorie === "technique" ? "Toutes les techniques" : "Toutes les recettes",
       f: {
-        id: o.id, fr: o.fr, jp: o.jp || null, romaji: o.romaji || null,
-        jpt: JPT(o.jp, o.romaji, o.fr, o.jp_lecture),
+        id: o.id, fr: o.fr, jp: NOM_ORIGINE(o), romaji: LECTURE_ORIGINE(o),
+        jpt: JPT(NOM_ORIGINE(o), LECTURE_ORIGINE(o), o.fr, o.jp_lecture),
         catLabel: LIB("categorie", o.categorie), cuiLabel: LIB("cuisine", o.cuisine),
         hasPhoto: !!o.photo, bg: o.photo ? 'url("' + o.photo + '")' : "none",
         etoiles: ETOILES(DE_LECTEUR(o.etoiles)),
@@ -776,7 +783,7 @@ class Component extends DCLogic {
     const ligne = (k, v) => { if (v != null && v !== "") lignes.push({ k: k, v: RT(v) }); };
     ligne("Où le trouver", x.ou_le_trouver);
     ligne("À quoi ça ressemble", x.a_quoi_ca_ressemble);
-    ligne("Zone du magasin", x.zone_magasin);
+    ligne("Où on l'achète", LIB("zone_magasin", x.zone_magasin));
     if (n.source) {
       const bouts = [];
       if (n.calories != null) bouts.push(n.calories + " cal");

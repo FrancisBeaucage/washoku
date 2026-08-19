@@ -37,9 +37,22 @@ const TYPES_DE_PLAT = [
    guide 5, et il n'existait nulle part dans les données : il se recalculait de
    mémoire à chaque plan hebdomadaire. Plusieurs valeurs permises, la dominante
    en premier. */
+/* `torrefie` entre au document 23, et il ferme un point laissé ouvert au 21.
+   `grille` désigne une cuisson par RAYONNEMENT, sur un gril ou sous un
+   élément ; `saute` une cuisson EN CORPS GRAS avec mouvement. Une poêle sèche
+   où l'on déshydrate et où l'on brunit par contact, sans gras et sans liquide,
+   est une troisième chose — et c'est une famille réelle, pas un cas isolé : le
+   riz gluant, le sésame, le nori, les épices entières, la farine, les piments
+   secs. T19 et T17 portaient `grille` et `saute` par défaut, ce qui était
+   défendable et faux.
+
+   ⚠️ La méthode décrit la cuisson DU PLAT, pas chacun de ses gestes : le
+   grillage du sésame de R44 et de T20 est une étape à l'intérieur d'un plat
+   blanchi, et leur `methode` ne change pas. Même distinction que pour la
+   texture, qui se déclare telle qu'elle est dans l'assiette. */
 const METHODES = [
   'cru', 'blanchi', 'bouilli', 'poche', 'mijote', 'vapeur',
-  'saute', 'grille', 'frit', 'roti', 'marine', 'fermente', 'sans-cuisson',
+  'saute', 'grille', 'torrefie', 'frit', 'roti', 'marine', 'fermente', 'sans-cuisson',
 ];
 
 /* Le vecteur de saveur dominant. Descriptif : vrai pour tout lecteur. */
@@ -92,6 +105,26 @@ const LANGUE_PAR_CUISINE = {
    inutilisable. L'inverse — la cuillère sur un légume — est absurde. */
 const BASES_NUTRITION = ['100g', 'portion', 'c-a-soupe', 'c-a-the', 'unite'];
 
+/* OÙ SE TROUVE UN INGRÉDIENT. Le champ était documenté en prose au LISEZMOI et
+   vérifié par personne — le frère jumeau du `section: "legumes"` du document
+   13. C'est pour ça que le « Costco » de `premier-protein` avait atterri dans
+   `ou_le_trouver` : il n'y avait pas de valeur légitime à mettre.
+
+   L'ensemble porte DEUX familles, et c'est assumé : cinq zones du supermarché
+   du parcours, et les magasins où l'on va autrement. Le champ répond à « où
+   est-ce », et pour un produit du parcours la réponse est une zone, pour un
+   produit d'ailleurs c'est une enseigne. `ou_le_trouver` reste la prose libre
+   qui dit l'allée et l'aspect sur la tablette.
+
+   `null` est admis : beaucoup d'ingrédients n'ont pas de provenance établie, et
+   forcer une valeur en inventerait une. Une seule des 89 fiches portait une
+   valeur au moment de fermer l'ensemble, et elle y entrait déjà — la fermeture
+   n'a donc rien forcé. */
+const ZONES_MAGASIN = [
+  'entree-droite', 'mur-du-fond', 'allees-centrales', 'congelateurs', 'fin-de-magasin',
+  'kim-phat', 'iga', 'super-c', 'costco', 'mayrand', 'saq', 'miyamoto', 'metro', 'autre',
+];
+
 /* Les libellés d'affichage des ensembles fermés. Ils vivent ici, à côté des
    valeurs, et non dans les gabarits de page : le document 20 fait apparaître
    ces champs dans TROIS vues — la carte de liste, la page de fiche, le filtre —
@@ -123,7 +156,8 @@ const LIBELLES = {
   },
   methode: {
     cru: 'Cru', blanchi: 'Blanchi', bouilli: 'Bouilli', poche: 'Poché', mijote: 'Mijoté',
-    vapeur: 'Vapeur', saute: 'Sauté', grille: 'Grillé', frit: 'Frit', roti: 'Rôti',
+    vapeur: 'Vapeur', saute: 'Sauté', grille: 'Grillé', torrefie: 'Torréfié',
+    frit: 'Frit', roti: 'Rôti',
     marine: 'Mariné', fermente: 'Fermenté', 'sans-cuisson': 'Sans cuisson',
   },
   axe_gout: {
@@ -138,12 +172,35 @@ const LIBELLES = {
     elastique: 'Élastique', 'en-bouillon': 'En bouillon',
   },
   moment: { dejeuner: 'Déjeuner', diner: 'Dîner', souper: 'Souper', collation: 'Collation' },
+  zone_magasin: {
+    'entree-droite': 'À l’entrée, à droite', 'mur-du-fond': 'Le mur du fond',
+    'allees-centrales': 'Les allées centrales', congelateurs: 'Les congélateurs',
+    'fin-de-magasin': 'La fin du magasin',
+    'kim-phat': 'Kim Phat', iga: 'IGA', 'super-c': 'Super C', costco: 'Costco',
+    mayrand: 'Mayrand', saq: 'SAQ', miyamoto: 'Miyamoto', metro: 'Metro',
+    autre: 'Ailleurs',
+  },
   cout_travail: { leger: 'Léger', moyen: 'Moyen', lourd: 'Lourd' },
   statut_perso: {
     'a-l-essai': 'À l’essai', 'au-repertoire': 'Au répertoire', 'de-service': 'De service',
     suspendu: 'Suspendu', ecarte: 'Écarté',
   },
 };
+
+/* LE LECTEUR COURANT. `etoiles`, `statut_perso` et `motif_statut` sont des
+   objets dont les CLÉS SONT DES LECTEURS — le site en a plus d'un, et un plat
+   peut valoir deux étoiles pour l'un et cinq pour l'autre. Mais une carte de
+   liste ne peut pas afficher un objet : il lui faut UN avis.
+
+   C'est une ligne de configuration, pas une interface. Le jour où un deuxième
+   lecteur veut le site à sa mesure, ça devient un sélecteur, et la donnée est
+   déjà prête pour ça.
+
+   🔴 UN AVIS ABSENT N'EST PAS UN AVIS NÉGATIF. Une fiche dont ce lecteur n'a
+   rien dit se lit comme `a-l-essai`, jamais comme écartée : sans cette règle,
+   les 79 fiches dont personne ne s'est encore prononcé disparaîtraient toutes
+   de la liste par défaut. */
+const LECTEUR = 'francis';
 
 /** « japonaise » → « jp ». La clé courte, qui sert de valeur de filtre en URL. */
 const codeCuisine = (v) => inverse(CUISINES)[v] || v;
@@ -181,10 +238,21 @@ function remettreSante(ing) {
    « l'œuf » donnait `l-uf`. Une lettre perdue dans un identifiant, en silence.
    Le document 20 l'avait prévu et demandait de regarder le cas ; la page du
    guide 2 déplie déjà `œ → oe` dans son normalisateur de recherche, donc la
-   convention existait, elle n'était simplement pas dans `limace`. */
+   convention existait, elle n'était simplement pas dans `limace`.
+
+   `ß` est ajouté au document 23 par prudence : aucun `fr` n'en porte, mais il
+   se décompose comme les deux autres — c'est une ligature, pas une lettre
+   accentuée, et il serait avalé de la même façon le jour où un nom allemand
+   entre au recueil.
+
+   ⚠️ CE BOGUE ÉTAIT INVISIBLE À SON PROPRE VALIDATEUR. La règle 20 vérifie que
+   `slug === limace(fr)` : elle déclarait donc corrects les slugs que la faute
+   produisait. Un système qui se vérifie contre lui-même ne trouve pas ses
+   propres bogues — il a fallu comparer la sortie à une valeur attendue écrite
+   ailleurs. */
 function limace(s) {
   return s.toLowerCase()
-    .replace(/\u0153/g, 'oe').replace(/\u00e6/g, 'ae')
+    .replace(/\u0153/g, 'oe').replace(/\u00e6/g, 'ae').replace(/\u00df/g, 'ss')
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
@@ -232,9 +300,9 @@ function paragraphes(texte) {
 }
 
 module.exports = {
-  CUISINES, VITESSES, CATEGORIES, LIBELLES, codeCuisine,
+  CUISINES, VITESSES, CATEGORIES, LIBELLES, codeCuisine, LECTEUR,
   TYPES_DE_PLAT, METHODES, AXES_GOUT, AXES_TEXTURE, MOMENTS,
-  COUTS_TRAVAIL, STATUTS_PERSO, LANGUES, LANGUE_PAR_CUISINE, BASES_NUTRITION,
+  COUTS_TRAVAIL, STATUTS_PERSO, LANGUES, LANGUE_PAR_CUISINE, BASES_NUTRITION, ZONES_MAGASIN,
   minutes, minutesMin, minutesTexte, SEPARATEUR_PARAGRAPHE, paragraphes,
   limace,
   CUISINES_INV: inverse(CUISINES), VITESSES_INV: inverse(VITESSES), CATEGORIES_INV: inverse(CATEGORIES),

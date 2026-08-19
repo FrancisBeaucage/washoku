@@ -153,6 +153,10 @@
           <input type="checkbox" checked="{{ f.ecartes }}" onChange="{{ setEcartes }}" style="width:16px;height:16px;accent-color:#ec3013"> Montrer les plats écartés
         </label>
       </div>
+      <!-- Une étoile est l'avis de QUELQU'UN, pas une propriété du plat. Le
+           dire sur la page évite qu'un second lecteur prenne la note d'un autre
+           pour un fait. -->
+      <p style="margin:0;font-size:11.5px;line-height:1.45;color:#9b9797">Les étoiles et le statut sont l'avis de <strong>{{ lecteur }}</strong>, pas une propriété du plat. Une fiche sans étoiles n'a pas encore été essayée.</p>
     </div>
   </div>
 
@@ -268,7 +272,7 @@ const TOTAL = (t) => { const n = (v) => (v && typeof v === "object") ? (v.max ||
 /* Les libellés d'affichage des ensembles fermés, générés depuis
    tools/lib/champs.js. Une valeur sans libellé s'affiche telle quelle : mieux
    vaut une clé visible qu'une case vide. */
-const L = {"cuisine":{"japonaise":"Japonais","chinoise":"Chinois","coreenne":"Coréen","thaie":"Thaï","vietnamienne":"Vietnamien","laotienne":"Laotien","indonesienne":"Indonésien"},"vitesse":{"ultra-rapide":"Ultra rapide","rapide":"Rapide","moyen":"Moyen","long":"Long","extra-long":"Extra long"},"categorie":{"technique":"Technique","dejeuner":"Déjeuner","diner":"Dîner","souper":"Souper","soupe-entree":"Soupe-entrée","garniture":"Garniture","collation":"Collation"},"type_de_plat":{"soupe":"Soupe","plat-principal":"Plat principal","accompagnement":"Accompagnement","feculent":"Féculent","condiment":"Condiment","marinade":"Marinade","collation":"Collation","technique":"Technique"},"methode":{"cru":"Cru","blanchi":"Blanchi","bouilli":"Bouilli","poche":"Poché","mijote":"Mijoté","vapeur":"Vapeur","saute":"Sauté","grille":"Grillé","frit":"Frit","roti":"Rôti","marine":"Mariné","fermente":"Fermenté","sans-cuisson":"Sans cuisson"},"axe_gout":{"umami-ferment":"Umami · fermenté","sale-sucre":"Salé-sucré","acide":"Acide","piquant":"Piquant","aromatique":"Aromatique","doux":"Doux","grille-torrefie":"Grillé · torréfié","sesame-noisette":"Sésame · noisette","riche-gras":"Riche · gras"},"axe_texture":{"croquant":"Croquant","ferme":"Ferme","fondant":"Fondant","moelleux":"Moelleux","mou":"Mou","croustillant":"Croustillant","glissant":"Glissant","soyeux":"Soyeux","elastique":"Élastique","en-bouillon":"En bouillon"},"moment":{"dejeuner":"Déjeuner","diner":"Dîner","souper":"Souper","collation":"Collation"},"cout_travail":{"leger":"Léger","moyen":"Moyen","lourd":"Lourd"},"statut_perso":{"a-l-essai":"À l’essai","au-repertoire":"Au répertoire","de-service":"De service","suspendu":"Suspendu","ecarte":"Écarté"}};
+const L = {"cuisine":{"japonaise":"Japonais","chinoise":"Chinois","coreenne":"Coréen","thaie":"Thaï","vietnamienne":"Vietnamien","laotienne":"Laotien","indonesienne":"Indonésien"},"vitesse":{"ultra-rapide":"Ultra rapide","rapide":"Rapide","moyen":"Moyen","long":"Long","extra-long":"Extra long"},"categorie":{"technique":"Technique","dejeuner":"Déjeuner","diner":"Dîner","souper":"Souper","soupe-entree":"Soupe-entrée","garniture":"Garniture","collation":"Collation"},"type_de_plat":{"soupe":"Soupe","plat-principal":"Plat principal","accompagnement":"Accompagnement","feculent":"Féculent","condiment":"Condiment","marinade":"Marinade","collation":"Collation","technique":"Technique"},"methode":{"cru":"Cru","blanchi":"Blanchi","bouilli":"Bouilli","poche":"Poché","mijote":"Mijoté","vapeur":"Vapeur","saute":"Sauté","grille":"Grillé","torrefie":"Torréfié","frit":"Frit","roti":"Rôti","marine":"Mariné","fermente":"Fermenté","sans-cuisson":"Sans cuisson"},"axe_gout":{"umami-ferment":"Umami · fermenté","sale-sucre":"Salé-sucré","acide":"Acide","piquant":"Piquant","aromatique":"Aromatique","doux":"Doux","grille-torrefie":"Grillé · torréfié","sesame-noisette":"Sésame · noisette","riche-gras":"Riche · gras"},"axe_texture":{"croquant":"Croquant","ferme":"Ferme","fondant":"Fondant","moelleux":"Moelleux","mou":"Mou","croustillant":"Croustillant","glissant":"Glissant","soyeux":"Soyeux","elastique":"Élastique","en-bouillon":"En bouillon"},"moment":{"dejeuner":"Déjeuner","diner":"Dîner","souper":"Souper","collation":"Collation"},"zone_magasin":{"entree-droite":"À l’entrée, à droite","mur-du-fond":"Le mur du fond","allees-centrales":"Les allées centrales","congelateurs":"Les congélateurs","fin-de-magasin":"La fin du magasin","kim-phat":"Kim Phat","iga":"IGA","super-c":"Super C","costco":"Costco","mayrand":"Mayrand","saq":"SAQ","miyamoto":"Miyamoto","metro":"Metro","autre":"Ailleurs"},"cout_travail":{"leger":"Léger","moyen":"Moyen","lourd":"Lourd"},"statut_perso":{"a-l-essai":"À l’essai","au-repertoire":"Au répertoire","de-service":"De service","suspendu":"Suspendu","ecarte":"Écarté"}};
 const LIB = (groupe, v) => (v == null ? "" : ((L[groupe] && L[groupe][v]) || v));
 const LIBS = (groupe, liste) => (liste || []).map(v => LIB(groupe, v)).join(" · ");
 
@@ -278,7 +282,23 @@ const LIBS = (groupe, liste) => (liste || []).map(v => LIB(groupe, v)).join(" ·
    valeur. Elle affiche celle de ce lecteur-ci, et rien quand il ne s'est pas
    prononcé — jamais celle d'un autre à sa place. */
 const LECTEUR = "francis";
-const DE_LECTEUR = (o) => (o && typeof o === "object" && !Array.isArray(o)) ? (o[LECTEUR] == null ? null : o[LECTEUR]) : null;
+/* Tolère les deux formes : l'objet complet d'une fiche seule, et la valeur déjà
+   réduite que l'index porte — l'index ne garde que l'avis du lecteur courant. */
+const DE_LECTEUR = (v) => {
+  if (v == null) return null;
+  if (typeof v !== "object" || Array.isArray(v)) return v;
+  return v[LECTEUR] == null ? null : v[LECTEUR];
+};
+/* 🔴 UN AVIS ABSENT N'EST PAS UN AVIS NÉGATIF : une fiche dont ce lecteur n'a
+   rien dit se lit comme « à l'essai », jamais comme écartée. Sans cette règle,
+   toutes les fiches dont personne ne s'est prononcé disparaîtraient du tri par
+   défaut. */
+const AVIS = (v) => DE_LECTEUR(v) || "a-l-essai";
+/* Le nom dans l'écriture d'origine, quelle que soit la langue : « jp » pour une
+   fiche japonaise, « nom_origine » pour les autres. Les deux ne sont jamais
+   remplis en même temps. */
+const NOM_ORIGINE = (o) => o.jp || o.nom_origine || null;
+const LECTURE_ORIGINE = (o) => o.romaji || o.lecture_origine || null;
 /* `null` N'EST PAS ZÉRO. Une fiche jamais essayée n'a pas d'étoiles — pas zéro
    étoile, pas une étoile grise. Confondre les deux est ce qui a fait rejeter la
    première version de la carte des goûts. */
@@ -364,11 +384,11 @@ class Component extends DCLogic {
       /* Un plat écarté SORT DU TRI PAR DÉFAUT, il ne disparaît pas : une
          bascule le ramène. Le site a plus d'un lecteur, et un plat écarté par
          l'un reste à voir pour les autres. */
-      .filter(r => f.ecartes || DE_LECTEUR(r.statut_perso) !== "ecarte")
+      .filter(r => f.ecartes || AVIS(r.statut_perso) !== "ecarte")
       .filter(r => !term || NORM([r.fr, r.romaji, r.jp, r.id, r.slug].filter(Boolean).join(" ")).indexOf(term) >= 0)
       .sort(PAR_CODE)
       .map(r => {
-        const perso = DE_LECTEUR(r.statut_perso);
+        const perso = DE_LECTEUR(r.statut_perso);   // brut : « rien dit » reste distinct de « à l'essai »
         const pastilles = [];
         /* La carte ne montre que la DOMINANTE des axes. Trois valeurs de
            texture sur une vignette de 232 px, c'est illisible, et la dominante
@@ -388,8 +408,8 @@ class Component extends DCLogic {
         if (r.proteines_g != null) bouts.push(r.proteines_g + " g prot.");
         if (r.calories != null) bouts.push(r.calories + " cal");
         return {
-          id: r.id, fr: r.fr, jp: r.jp || null, ro: r.romaji || null,
-          jpt: JPT(r.jp, r.romaji, r.fr),
+          id: r.id, fr: r.fr, jp: NOM_ORIGINE(r), ro: LECTURE_ORIGINE(r),
+          jpt: JPT(NOM_ORIGINE(r), LECTURE_ORIGINE(r), r.fr),
           hasPhoto: !!r.photo, bg: r.photo ? 'url("' + r.photo + '")' : "none",
           etoiles: ETOILES(DE_LECTEUR(r.etoiles)),
           classe: perso === "ecarte" ? "carte ecarte" : "carte",
@@ -442,7 +462,10 @@ class Component extends DCLogic {
       /* Le compte est CALCULÉ, jamais écrit : un compteur à la main périme, et
          deux l'ont fait dans ce dossier sans que rien ne le signale. */
       compte: toutes ? (liste.length + (liste.length > 1 ? " fiches" : " fiche") + " sur " + perimetre.length) : "",
-      nbTechniques: actives.filter(r => r.categorie === "technique").length
+      nbTechniques: actives.filter(r => r.categorie === "technique").length,
+      /* La clé du lecteur est une clé de données, en minuscules ; on la
+         capitalise pour l'afficher, sans en faire une seconde valeur. */
+      lecteur: LECTEUR.charAt(0).toUpperCase() + LECTEUR.slice(1)
     };
   }
 }

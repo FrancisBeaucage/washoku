@@ -746,6 +746,34 @@ const budget = [];
 }
 regle(24, 'L’index reste sous son plafond de taille', budget);
 
+/* 25 — le nom d'origine ne se dit qu'une fois. Le document 23 ajoute
+   `nom_origine` et `lecture_origine` parce que `jp` est un champ JAPONAIS et
+   que vingt-quatre des vingt-huit fiches des documents 21 et 22 se nomment en
+   chinois, en lao, en coréen, en thaï, en vietnamien ou en indonésien.
+
+   Deux paires coexistent donc pour un même fait, et c'est l'état transitoire
+   que la règle surveille : une fiche remplit l'UNE ou l'AUTRE, jamais les deux.
+   Deux sources pour un même nom, c'est deux sources qui finissent par diverger,
+   et un document futur qui cherche « le nom d'origine » ne saurait pas laquelle
+   lire.
+
+   ⚠️ CE QUE LA RÈGLE NE VÉRIFIE PAS, ET POURQUOI. Dix-sept des 79 fiches
+   d'origine portent encore du non-japonais dans `jp` — 酸辣湯, 순두부찌개,
+   上漿. Le document 23 défère leur migration, et il a raison pour une raison
+   plus forte que celle qu'il donne : elle N'EST PAS MÉCANIQUE. Sept de ces
+   dix-sept portent une écriture native (T5, R25, R26, R29, R30, R35, R39) ;
+   les dix autres portent un vrai nom JAPONAIS d'un plat étranger — 韓国風丼,
+   ブンチャー, 牛肉とブロッコリー — qui appartient légitimement à `jp`. Trier les
+   deux demande un jugement par fiche, donc une table dans un document, pas une
+   règle. */
+const origines = [];
+for (const f of fiches) {
+  if (f.jp && f.nom_origine) origines.push(`${f.id} : porte à la fois jp « ${f.jp} » et nom_origine « ${f.nom_origine} » — un nom, un champ`);
+  if (f.lecture_origine && !f.nom_origine) origines.push(`${f.id} : lecture_origine « ${f.lecture_origine} » sans nom_origine`);
+  if ((f.romaji || f.jp_lecture) && !f.jp) origines.push(`${f.id} : romaji ou jp_lecture sans jp`);
+}
+regle(25, 'Le nom d’origine ne se dit qu’une fois', origines);
+
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }
 console.log(`Validation complète : ${fiches.length} fiches, ${ingredients.length} ingrédients, ${exercices.length} exercices, ${journal.length} entrées de journal, ${historique.length} repas.`);

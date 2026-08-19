@@ -37,6 +37,21 @@ function versJson(r) {
     jp: r.jp || null,
     jp_lecture: r.pr || null,
     romaji: r.ro || null,
+    /* `nom_origine` et `lecture_origine` portent le nom dans l'écriture de SA
+       langue, et sa romanisation. Ils existent depuis le document 23, et le
+       manque était devenu criant : vingt-quatre des vingt-huit fiches des
+       documents 21 et 22 se nomment en chinois, en lao, en coréen, en thaï, en
+       vietnamien ou en indonésien. `jp`, `jp_lecture` et `romaji` sont des
+       champs JAPONAIS — y mettre 白灼 serait faux, et le document 19 les a
+       rendus facultatifs précisément pour ne pas forcer ce mensonge.
+
+       Une fiche japonaise remplit les trois premiers et laisse ces deux-ci à
+       `null` ; une fiche non japonaise fait l'inverse. L'asymétrie est connue
+       et assumée : la fusion des deux paires est proposée pour un document à
+       elle seule, parce qu'elle touche le mapper, l'affichage, l'index et la
+       règle 11. */
+    nom_origine: r.no || null,
+    lecture_origine: r.nol || null,
     langue_origine: C.LANGUE_PAR_CUISINE[cuisine] || null,
     fr: r.fr,
     sous_titre: r.sub,
@@ -104,6 +119,8 @@ function versFiche(f) {
   if (f.jp) r.jp = f.jp;
   if (f.romaji) r.ro = f.romaji;
   if (f.jp_lecture) r.pr = f.jp_lecture;
+  if (f.nom_origine) r.no = f.nom_origine;
+  if (f.lecture_origine) r.nol = f.lecture_origine;
   r.fr = f.fr;
   r.img = f.photo;
   r.por = f.portions;

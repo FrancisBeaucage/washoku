@@ -1881,10 +1881,10 @@
       "boisson protéinée Costco"
     ],
     "description": "Le déjeuner de semaine repose dessus cinq jours sur sept. <strong>Par gobelet de 325&nbsp;ml&nbsp;: 30&nbsp;g de protéines, 220&nbsp;mg de sodium, 160&nbsp;calories, 3&nbsp;g de lipides et 650&nbsp;mg de calcium</strong> — étiquette lue le 18 août 2026.",
-    "ou_le_trouver": "<strong>Costco</strong>, en caisse de gobelets prêts à boire. Ne se trouve pas au supermarché du parcours&nbsp;: c'est un achat à part, à faire entrer par la liste de provisions et non par le circuit en magasin.",
+    "ou_le_trouver": "En caisse de gobelets prêts à boire. Ne se trouve pas au supermarché du parcours&nbsp;: c’est un achat à part, à faire entrer par la liste de provisions et non par le circuit en magasin.",
     "a_quoi_ca_ressemble": "Gobelets de 325&nbsp;ml en plastique opaque, vendus par caisse de 12 ou plus. La ligne des protéines est en très gros chiffres sur la face avant&nbsp;; c'est la ligne du calcium, en petit au panneau, qui mérite d'être lue.",
     "description_visuelle": null,
-    "zone_magasin": null,
+    "zone_magasin": "costco",
     "sert_dans": [],
     "note": {
       "titre": "Ce n'est pas un aliment, c'est un outil",

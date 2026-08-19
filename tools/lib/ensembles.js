@@ -110,6 +110,7 @@ function table() {
     { fichier: 'guide-3-ingredients.json', champ: 'statut', permis: STATUT },
     { fichier: 'guide-3-ingredients.json', champ: 'section', permis: clesSecs() },
     { fichier: 'guide-3-ingredients.json', champ: 'langue_origine', permis: C.LANGUES, nul: true },
+    { fichier: 'guide-3-ingredients.json', champ: 'zone_magasin', permis: C.ZONES_MAGASIN, nul: true },
     { fichier: 'guide-3-ingredients.json', champ: 'nutrition.base', permis: C.BASES_NUTRITION, nul: true },
     { fichier: 'guide-3-ingredients.json', champ: 'nutrition.source', permis: SOURCES_NUTRITION, nul: true },
     { fichier: 'guide-4-exercices.json', champ: 'statut', permis: STATUT },

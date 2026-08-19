@@ -14,7 +14,7 @@ sens.
 ## Le cycle
 
 ```bash
-npm run verifier      # les 24 règles + contrôle que les pages sont bien celles que /data produit
+npm run verifier      # les 25 règles + contrôle que les pages sont bien celles que /data produit
 npm run appliquer 12  # marque le document 12 comme appliqué
 npm run generer       # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
@@ -242,8 +242,16 @@ Le guide 3 porte aussi trois champs de repérage en magasin :
 `noms_alternatifs` (les autres noms sous lesquels le produit se vend — le
 shichimi togarashi s'étiquette « Nanami Togarashi », et la recherche de la page
 balaie ce champ), `description_visuelle` (à quoi ressemble l'emballage en rayon)
-et `zone_magasin` (`entree-droite`, `mur-du-fond`, `allees-centrales`,
-`congelateurs`, `fin-de-magasin`). Les deux derniers ne se rendent pas dans la
+et `zone_magasin`, **qui est un ensemble fermé depuis le document 23** : cinq
+zones du supermarché du parcours — `entree-droite`, `mur-du-fond`,
+`allees-centrales`, `congelateurs`, `fin-de-magasin` — plus les enseignes où
+l'on va autrement : `kim-phat`, `iga`, `super-c`, `costco`, `mayrand`, `saq`,
+`miyamoto`, `metro`, `autre`, ou `null`. Le champ répond à « où est-ce », et la
+réponse est une zone pour un produit du parcours, une enseigne pour un produit
+d'ailleurs. Il était documenté ici et vérifié par personne — le frère jumeau du
+`section: "legumes"` du document 13 — et c'est pour ça que le « Costco » de
+`premier-protein` avait atterri dans `ou_le_trouver` : il n'y avait pas de
+valeur légitime à mettre. Les deux derniers ne se rendent pas dans la
 page : voir « Les champs hors page » ci-dessous.
 
 **Le journal, les annexes et le plan sont composés de blocs**, et leurs champs
@@ -333,7 +341,7 @@ La règle 20 doit le savoir pour ne pas crier au loup.
 
 ## Les champs à valeurs fermées
 
-Vingt-trois champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
+Vingt-quatre champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
 vérifie tous**, à partir d'une seule table `champ → ensemble permis` dans
 `tools/lib/ensembles.js` — pas vingt-deux règles particulières, qui laisseraient
 repasser la vingt-troisième.
@@ -376,6 +384,7 @@ que la table — deux copies d'un ensemble finiraient par diverger.
 | guide 2 | `statut_perso` | par-lecteur | `STATUTS_PERSO` |
 | guide 3 | `statut` | valeur | `actif`, `retiré` |
 | guide 3 | `section` | valeur | les clés de `rayons.json` |
+| guide 3 | `zone_magasin` | valeur | `ZONES_MAGASIN`, ou `null` |
 | guide 3 | `langue_origine` | valeur | `LANGUES`, ou `null` |
 | guide 3 | `nutrition.base` | valeur | `BASES_NUTRITION`, ou `null` |
 | guide 3 | `nutrition.source` | valeur | `estime`, `etiquette`, `pese`, ou `null` |
@@ -448,13 +457,37 @@ fichier généré : commentaires de section, ligne vide de séparation. C'est de
 mise en forme du code source, pas du contenu.
 
 **`jp`, `jp_lecture` et `romaji` acceptent `null`, aux deux guides.** Le dossier
-est à 62 fiches japonaises sur 79, avec 7 chinoises, 4 coréennes, 4 vietnamiennes
-et 2 thaïes, et l'ouverture décidée porte sur le laotien et l'indonésien. **Un nom
+comptait 62 fiches japonaises sur 79 quand la décision a été prise ; les
+documents 21 et 22 ont ouvert la porte au laotien et à l'indonésien, et la part
+japonaise est tombée sous les deux tiers. **Un nom
 japonais obligatoire sur une fiche de nuoc cham ou de yogourt grec n'est pas une
 donnée, c'est une traduction inventée pour satisfaire un validateur** — c'est
 exactement ce qui est arrivé au yogourt grec, qui a reçu ギリシャヨーグルト parce que
 le champ ne pouvait pas être vide. **Le vrai risque est là : un champ obligatoire
 qu'on ne peut pas remplir honnêtement se remplit malhonnêtement.**
+
+### `nom_origine` et `lecture_origine`
+
+**`jp`, `jp_lecture` et `romaji` sont des champs JAPONAIS.** Y mettre 白灼 serait
+faux, et le manque est devenu criant aux documents 21 et 22 : vingt-quatre de
+leurs vingt-huit fiches se nomment en chinois, en lao, en coréen, en thaï, en
+vietnamien ou en indonésien. Le document 23 ajoute donc deux champs au guide 2 :
+
+| Champ | Contenu | Exemple |
+|---|---|---|
+| `nom_origine` | Le nom dans l'écriture de sa langue, ou `null` | `白灼` · `ເຂົ້າຄ້ວ` · `나물` · `rau luộc` |
+| `lecture_origine` | La romanisation, ou `null` quand l'écriture est déjà latine | `bái zhuó` · `khao khua` · `namul` |
+
+**Une fiche remplit l'une OU l'autre paire, jamais les deux** — dupliquer
+l'information créerait deux sources pour un même fait, et la **règle 25** le
+refuse.
+
+⚠️ **L'état est transitoire et il est connu.** Dix-sept des 79 fiches d'origine
+portent encore du non-japonais dans `jp`. Leur migration n'est **pas mécanique** :
+sept portent une écriture native (`T5`, `R25`, `R26`, `R29`, `R30`, `R35`, `R39`)
+et dix portent un vrai nom JAPONAIS d'un plat étranger — 韓国風丼, ブンチャー,
+牛肉とブロッコリー — qui appartient légitimement à `jp`. Trier les deux demande un
+jugement par fiche, donc une table dans un document, pas une règle.
 
 `langue_origine` (`ja` · `zh` · `ko` · `vi` · `th` · `lo` · `id` · `aucune`) dit à
 l'affichage quelle graphie montrer. Au guide 2, son défaut se déduit de `cuisine`,
@@ -502,6 +535,22 @@ nécessaire est au dossier — le 18 août 2026, la même soupe miso a reçu un 
 enthousiasme d'un côté de la table et trois étoiles de l'autre, le même soir.
 `cout_travail` reste scalaire : sa définition est en minutes actives, donc une
 propriété du plat.
+
+**LE LECTEUR COURANT est `francis`**, une ligne de configuration dans
+`lib/champs.js` — pas une interface. Une carte de liste ne peut pas afficher un
+objet : il lui faut un avis, et c'est celui-là. Le jour où un deuxième lecteur
+veut le site à sa mesure, ça devient un sélecteur, et la donnée est déjà prête.
+
+Trois conséquences :
+
+- **`index.json` ne porte que la valeur de ce lecteur** pour `etoiles` et
+  `statut_perso`, pas l'objet complet. La fiche seule, elle, garde tout.
+- 🔴 **Un avis ABSENT n'est pas un avis négatif** : une fiche dont ce lecteur n'a
+  rien dit se lit comme `a-l-essai`, **jamais comme écartée**. Sans cette règle,
+  toutes les fiches dont personne ne s'est prononcé disparaîtraient du tri par
+  défaut.
+- **La page le dit à l'écran** : « les étoiles et le statut sont l'avis de
+  Francis, pas une propriété du plat ». Une étoile est l'avis de quelqu'un.
 
 ⚠️ **`statut_perso` n'est PAS `statut`, et c'est la distinction la plus importante
 du schéma.** `statut` juge l'exactitude de la fiche : `retiré` veut dire que ce

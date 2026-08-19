@@ -20,7 +20,7 @@ const { SOURCES, PROSES, DONNEES_SEULES, RACINE, DATA, BASE_URL } = require('./l
 const documents = require('./lib/documents');
 const ensembles = require('./lib/ensembles');
 const pages = require('./lib/pages');
-const { minutes } = require('./lib/champs');
+const { minutes, LECTEUR } = require('./lib/champs');
 
 const verifier = process.argv.includes('--verifier');
 
@@ -102,6 +102,8 @@ const index = triees.map((f) => sansVides({
   fr: f.fr,
   romaji: f.romaji,
   jp: f.jp,
+  nom_origine: f.nom_origine,
+  lecture_origine: f.lecture_origine,
   statut: f.statut,
   categorie: f.categorie,
   type_de_plat: f.type_de_plat,
@@ -118,9 +120,13 @@ const index = triees.map((f) => sansVides({
   temps_affiche: f.temps_affiche,
   proteines_g: f.nutrition.proteines_g,
   calories: f.nutrition.calories,
-  etoiles: f.etoiles,
+  /* L'index ne porte que l'avis DU LECTEUR COURANT, pas l'objet complet : un
+     objet par lecteur n'a rien à faire dans un fichier dont le budget est
+     compté, et la page n'en afficherait qu'une valeur de toute façon. La fiche
+     seule, elle, garde l'objet entier — c'est là qu'est la donnée. */
+  etoiles: f.etoiles && f.etoiles[LECTEUR] != null ? f.etoiles[LECTEUR] : null,
   cout_travail: f.cout_travail,
-  statut_perso: f.statut_perso,
+  statut_perso: f.statut_perso ? f.statut_perso[LECTEUR] || null : null,
   a_ajustement: !!f.ajustement,
   photo: f.photo,
   /* L'ADRESSE DE LA FICHE N'EST PLUS RECOPIÉE ICI. Elle l'était pour qu'un
