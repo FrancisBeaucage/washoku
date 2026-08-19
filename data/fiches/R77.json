@@ -1,0 +1,133 @@
+{
+  "id": "R77",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "long",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "ferme",
+    "elastique"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "boeuf-braise-au-soya-effilochable-jangjorim",
+  "jp": "장조림",
+  "jp_lecture": null,
+  "romaji": "jangjorim",
+  "langue_origine": "ko",
+  "fr": "Boeuf braise au soya, effilochable (jangjorim)",
+  "sous_titre": "Écriture d'origine 장조림, jangjorim. Sept jours au frigo, dix minutes de travail, et le seul accompagnement de longue conservation du recueil qui soit vraiment protéiné. C'est l'outil contre le plancher de cent trente grammes les jours où la planification déraille.",
+  "portions": "8",
+  "temps_affiche": "≈ 10 min actives, 1 h 10 de feu",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 70,
+    "attente": 0
+  },
+  "preparation_avance": "Se garde sept jours au frigo, la viande dans son liquide. À faire pendant la session du dimanche, en même temps que la fournée de riz.",
+  "nutrition": {
+    "proteines_g": 18,
+    "proteines_affiche": "18 g",
+    "calories": 130,
+    "calories_affiche": "≈ 130",
+    "lipides_g": 4,
+    "sodium_mg": 330,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, VIANDE ÉGOUTTÉE. LE CHIFFRE DE SODIUM EST LE MOINS SOLIDE DU DOSSIER : il dépend de combien de liquide la fibre retient après égouttage, ce qui n'a pas été mesuré. À REVOIR AU PREMIER DÉBRIEFING."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de bœuf maigre en un morceau : macreuse, palette parée, ou intérieur de ronde",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE BRAISAGE, DILUÉ MOITIÉ-EAU : 4 c. à soupe de sauce soya réduite en sodium · 500 ml d'eau · 1 c. à soupe de mirin · 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 gousses d'ail entières · 1 morceau de gingembre de 3 cm · 1 oignon vert",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 4 œufs durs écalés · 100 g de piments shishito ou de poivrons verts entiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Graines de sésame, à la fin",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 sur le bœuf : eau froide à couvrir, ébullition, 5 minutes, jeter l'eau, rincer la viande et la casserole."
+    },
+    {
+      "n": 2,
+      "texte": "Remettre la viande avec l'eau, le soya, le mirin, le sucre et les aromates. LE LIQUIDE DOIT COUVRIR AUX TROIS QUARTS, pas plus."
+    },
+    {
+      "n": 3,
+      "texte": "Couvrir, feu doux, 50 à 60 minutes. La viande est prête quand une fourchette y entre sans résistance."
+    },
+    {
+      "n": 4,
+      "texte": "SORTIR LA VIANDE ET LA LAISSER TIÉDIR 10 MINUTES. Effilochée chaude, elle se défait en purée."
+    },
+    {
+      "n": 5,
+      "texte": "Effilocher à la main ou à deux fourchettes, en gros filaments."
+    },
+    {
+      "n": 6,
+      "texte": "Remettre les filaments dans le liquide avec les œufs durs et les piments, 10 minutes de plus, sans couvrir."
+    },
+    {
+      "n": 7,
+      "texte": "Conserver LA VIANDE ET LE LIQUIDE ENSEMBLE au frigo. SERVIR ÉGOUTTÉ. Sésame à l'assiette."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le sodium est dans le liquide, pas dans la fibre — et c'est toute la fiche",
+      "texte": "QUATRE CUILLÈRES À SOUPE DE SOYA RÉDUIT PORTENT ENVIRON 2 000 MG DE SODIUM. Réparties sur huit portions, ça ferait 250 mg par portion si tout était mangé. MAIS TOUT N'EST PAS MANGÉ : la viande effilochée retient une fraction du liquide, et les trois quarts du sel restent dans le braisage.\n\nD'OÙ LA RÈGLE ABSOLUE DE CETTE FICHE, ET ELLE EST PLUS IMPORTANTE QUE TOUT LE RESTE : SERVIR LA VIANDE ÉGOUTTÉE, ET NE JAMAIS VERSER LE JUS SUR LE RIZ. Le geste réflexe — une cuillère de jus sur le bol de riz, parce que c'est bon — double le sodium de la portion d'un seul coup. Le liquide sert à CONSERVER la viande, pas à l'assaisonner dans l'assiette.\n\nET LE BRAISAGE EST DÉJÀ DILUÉ DE MOITIÉ PAR RAPPORT AUX RECETTES COURANTES. Un jangjorim traditionnel se fait au soya presque pur, ce qui donne un plat de conservation très salé — c'était sa fonction historique. Coupé moitié-eau, il se garde aussi bien, parce que ce qui conserve ici est autant le sucre et l'acidité que le sel.\n\nLE CHIFFRE DE 330 MG PAR PORTION EST UNE ESTIMATION SUR VIANDE ÉGOUTTÉE, et il n'a pas été mesuré. C'est le chiffre le moins solide de ce document : il dépend de combien de liquide la fibre retient, ce qui varie avec la coupe et la durée. À REVOIR AU PREMIER DÉBRIEFING."
+    },
+    {
+      "titre": "Ce qu'il fait dans la semaine, et pourquoi il vaut plus que son goût",
+      "texte": "SEPT JOURS AU FRIGO, DIX-HUIT GRAMMES DE PROTÉINES PAR PORTION, ET AUCUNE PRÉPARATION AU MOMENT DE MANGER. C'est le seul article du recueil qui réunit les trois. Les autres préparations d'avance sont soit des légumes — donc peu protéinées — soit des œufs marinés, qui plafonnent à 6 g.\n\nLA FONCTION EXACTE EST CELLE-CI : LE FILET DE SÉCURITÉ DU PLANCHER DE 130 G DE PROTÉINES. Un jour où le déjeuner a sauté, où le dîner était maigre et où le souper doit se faire en dix minutes, deux portions de jangjorim sur du riz ajoutent 36 g sans cuisson. C'est l'équivalent protéiné de ce que les rondelles de riz congelées font pour le féculent.\n\nLES DIX MINUTES ACTIVES SONT RÉELLES ET C'EST CE QUI LE REND FAISABLE. Cinq minutes de blanchiment, deux minutes d'assemblage, une heure de feu doux sans surveillance, trois minutes d'effilochage. À FAIRE PENDANT LA SESSION DU DIMANCHE, en même temps que la fournée de riz — les deux occupent le même créneau passif.\n\nET LA COUPE COMPTE PLUS QU'ON CROIT. Il faut une coupe maigre mais riche en collagène — macreuse, palette parée — qui devient effilochable. UN FILET OU UNE SURLONGE DEVIENT SEC ET GRANULEUX : pas assez de collagène pour se transformer en gélatine, et une heure de braisage ne fait que l'assécher."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

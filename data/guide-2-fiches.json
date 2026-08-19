@@ -11074,5 +11074,2145 @@
       "R19"
     ],
     "commentaire_source": ""
+  },
+  {
+    "id": "R69",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "thaie",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "grille",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "salade-de-boeuf-grille-cascade-nam-tok",
+    "jp": "น้ำตกเนื้อ",
+    "jp_lecture": null,
+    "romaji": "nam tok nuea",
+    "langue_origine": "th",
+    "fr": "Salade de boeuf grille « cascade » (nam tok)",
+    "sous_titre": "Écriture d'origine น้ำตกเนื้อ, nam tok nuea. Le meilleur rapport protéines-sodium de tout le recueil, et il n'y a rien à ajuster. Quarante-cinq grammes de protéines, cinq cent vingt milligrammes de sodium, vingt minutes.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 8,
+      "attente": 5
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 45,
+      "proteines_affiche": "45 g",
+      "calories": 420,
+      "calories_affiche": "≈ 420",
+      "lipides_g": 16,
+      "sodium_mg": 520,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de bavette, de surlonge ou de flanc, en un morceau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel et du poivre, pour la viande seulement",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA VINAIGRETTE (T22) : 4 c. à soupe de jus de lime frais · 2 c. à thé de sauce de poisson · 1 c. à thé de piment séché grillé moulu, ou 2 piments oiseaux écrasés · 1/2 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 c. à soupe de khao khua (T19)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES AROMATES, EN VOLUME : 2 échalotes en fines tranches · 1 grosse poignée de menthe · 1 poignée de coriandre · 3 oignons verts en tronçons de 2 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À servir : feuilles de laitue, tranches de concombre ou de chou vert cru",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T22",
+      "T19"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Sortir la viande du frigo 20 minutes avant. Éponger, saler légèrement, poivrer."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle en fonte ou gril très chaud. Saisir 3 à 4 minutes par face pour une pièce de 3 cm, jusqu'à 52-55 °C au cœur. LA VIANDE DOIT RESTER SAIGNANTE : c'est ce qui la garde tendre une fois tranchée mince et froide."
+      },
+      {
+        "n": 3,
+        "texte": "REPOS DE 5 MINUTES SUR UNE PLANCHE, ET C'EST OBLIGATOIRE. Tranchée chaude, la viande perd son jus dans la vinaigrette et devient sèche."
+      },
+      {
+        "n": 4,
+        "texte": "Mélanger la vinaigrette dans un grand bol. Goûter à la cuillère : elle doit être franchement trop forte seule."
+      },
+      {
+        "n": 5,
+        "texte": "Trancher la viande TRÈS MINCE, en travers du grain, et verser tout le jus de la planche dans le bol."
+      },
+      {
+        "n": 6,
+        "texte": "La viande dans la vinaigrette, mélanger. Les échalotes et les oignons verts. Les herbes à la main, d'un geste léger."
+      },
+      {
+        "n": 7,
+        "texte": "Le khao khua en dernier, saupoudré et mélangé une seule fois. Servir tout de suite, sur ou avec la verdure."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi celle-là est la fiche la plus efficace du recueil",
+        "texte": "LE CALCUL EST SIMPLE ET IL EST DIFFICILE À BATTRE. Quatre cents grammes de bavette donnent de l'ordre de 90 g de protéines pour deux portions. La vinaigrette entière porte 2 c. à thé de sauce de poisson, soit environ 1 000 mg de sodium pour les deux — donc 500 mg par personne, la moitié de ce qu'un souper du plan porte en moyenne. ET IL N'Y A AUCUN GRAS AJOUTÉ : les 16 g de lipides par portion sont ceux de la viande, et rien d'autre.\n\nCE QUI REND ÇA POSSIBLE EST LA STRUCTURE, PAS UN TOUR DE PASSE-PASSE. Une vinaigrette yam n'a pas de corps gras à équilibrer (voir T22), donc la lime peut être généreuse; et le khao khua fait le travail de liaison qu'une huile ferait ailleurs. C'EST LA SEULE FAMILLE DU RECUEIL OÙ LA VERSION AUTHENTIQUE EST DÉJÀ LA VERSION COMPATIBLE. Il n'y a rien à alléger, rien à retirer, rien à assumer.\n\nLE NOM VIENT DE LÀ : น้ำตก, NAM TOK, VEUT DIRE CASCADE. Deux lectures circulent — le jus de la viande qui coule sur le gril, ou le jus qui tombe dans le bol au tranchage. La seconde est celle qui compte en cuisine : CE JUS FAIT PARTIE DE LA VINAIGRETTE, il ne se jette pas."
+      },
+      {
+        "titre": "La différence avec le laap, et pourquoi les deux existent",
+        "texte": "LA VINAIGRETTE EST LA MÊME, LA PROTÉINE NE L'EST PAS, ET C'EST TOUTE LA DIFFÉRENCE. Le nam tok est fait de viande EN MORCEAU, grillée saignante puis tranchée mince — donc de la texture, de la mâche, une surface caramélisée. Le laap (R70) est fait de viande HACHÉE pochée à l'eau — donc pas de croûte, pas de mâche, une texture homogène qui boit la vinaigrette.\n\nLES DEUX SONT AU RECUEIL PARCE QU'ILS NE RÉPONDENT PAS AU MÊME BESOIN. Le nam tok demande une coupe entière et un gril : c'est un plat de souper. Le laap se fait avec du haché d'épicerie et une casserole d'eau : c'est le plat des soirs où il n'y a rien de décongelé.\n\nET IL FONCTIONNE SUR TOUT CE QUI SE GRILLE SAIGNANT. Bavette, surlonge, onglet, mais aussi filet de porc et poitrine de canard. SUR DU POULET, LE PLAT CHANGE DE NATURE : le poulet ne se mange pas saignant, donc il n'y a plus de contraste tendre-froid, et le résultat est correct sans être le même plat. Avec du poulet, mieux vaut faire un laap."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R70"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R70",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "laotienne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "poche",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "croquant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "laap-de-porc-aux-herbes",
+    "jp": "ລາບ",
+    "jp_lecture": null,
+    "romaji": "laap",
+    "langue_origine": "lo",
+    "fr": "Laap de porc aux herbes",
+    "sous_titre": "Écriture d'origine ລາບ, variante thaïe ลาบ larb. Aucun corps gras n'entre jamais dans ce plat. La viande est pochée à l'eau, refroidie, et montée hors du feu — c'est la structure la plus favorable qu'on puisse écrire pour une cible de protéines.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 6,
+      "attente": 2
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 40,
+      "proteines_affiche": "40 g",
+      "calories": 390,
+      "calories_affiche": "≈ 390",
+      "lipides_g": 12,
+      "sodium_mg": 560,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de porc haché maigre, ou de poulet haché",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 c. à soupe d'eau, pour pocher",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA VINAIGRETTE (T22) : 4 c. à soupe de jus de lime frais · 1 c. à soupe de sauce de poisson · 1 à 2 c. à thé de piment séché grillé moulu · 1/2 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 c. à soupe de khao khua (T19) — LA DOSE HAUTE EST VOULUE, voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES AROMATES, EN VOLUME : 2 échalotes en fines tranches · 1 grosse poignée de menthe · 1 poignée de coriandre · 3 oignons verts · quelques feuilles de coriandre longue si disponible",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À servir : feuilles de laitue, chou vert en morceaux, haricots longs crus, et du riz gluant vapeur",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T22",
+      "T19"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Casserole ou poêle à feu moyen avec les 4 c. à soupe d'EAU. Pas d'huile — le porc rend le sien."
+      },
+      {
+        "n": 2,
+        "texte": "Le haché dans l'eau, écrasé à la cuillère de bois pour le défaire en grains fins. 5 à 6 minutes, jusqu'à ce qu'il n'y ait plus de rose. IL DOIT RESTER UN PEU DE LIQUIDE : c'est du jus de viande et il va dans la vinaigrette."
+      },
+      {
+        "n": 3,
+        "texte": "Retirer du feu et LAISSER TIÉDIR 2 À 3 MINUTES. La viande brûlante cuit les herbes."
+      },
+      {
+        "n": 4,
+        "texte": "Mélanger la vinaigrette dans un grand bol, goûter à la cuillère."
+      },
+      {
+        "n": 5,
+        "texte": "La viande tiède et son jus dans la vinaigrette. Mélanger."
+      },
+      {
+        "n": 6,
+        "texte": "Les échalotes et les oignons verts, puis les herbes à la main."
+      },
+      {
+        "n": 7,
+        "texte": "Le khao khua en dernier. Mélanger une fois. Servir tiède ou à température de la pièce."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Zéro gras de cuisson, et ce que ça permet",
+        "texte": "C'EST LA SEULE FICHE DU RECUEIL OÙ UNE VIANDE EST CUITE SANS AUCUNE MATIÈRE GRASSE ET SANS PERDRE DE GOÛT. Pochée dans quatre cuillères à soupe d'eau, elle rend son propre gras dans le liquide, et ce liquide retourne dans le plat avec la vinaigrette — donc rien n'est perdu et rien n'est ajouté. Les 12 g de lipides par portion sont ceux du porc haché maigre, et pas un de plus.\n\nLA CONSÉQUENCE POUR LA PLANIFICATION EST GRANDE. Les jours où le déjeuner a été pris en vitesse et que les lipides sont tombés à 4 g (le mécanisme décrit au guide 5), ce plat NE RATTRAPE PAS le manque — mais il ne le creuse pas non plus, et il laisse tout le budget de lipides de la journée disponible pour un avocat ou du sésame. Un sauté au même haché en aurait mangé 10 g de plus.\n\nET C'EST LE PLAT DES SOIRS SANS PLAN. Du haché du congélateur, une casserole d'eau, des herbes, une lime. AUCUNE DÉCONGÉLATION LENTE, AUCUNE MARINADE, AUCUNE CUISSON À SURVEILLER. C'est le seul plat protéiné du recueil qui se monte entièrement en vingt minutes à partir d'un congélateur."
+      },
+      {
+        "titre": "Trois écarts assumés par rapport à la version authentique",
+        "texte": "UN — LA COUENNE ET LE GRAS DE POITRINE SONT RETIRÉS. Un laap lao de village porte souvent de la couenne croustillante en lamelles et du gras de poitrine, qui sont une part du plaisir du plat. Ils sont ici omis, et c'est un vrai retrait, pas une équivalence. LE KHAO KHUA À 3 C. À SOUPE EST CE QUI OCCUPE LEUR PLACE : il apporte du grain et du grillé, qui est ce que la couenne apportait.\n\nDEUX — LE PADAEK EST REMPLACÉ PAR DE LA SAUCE DE POISSON. Le padaek, poisson fermenté non filtré, est plus assertif et plus profond que le nuoc mam. Il se trouve chez Kim Phat, allée 3 ou 4. Si on en utilise, LE COMPTER COMME DU SODIUM À PART ENTIÈRE et ne pas ajouter de sauce de poisson en plus. Et le padaek se cuit toujours, jamais cru.\n\nTROIS — LA DOSE DE SAUCE DE POISSON EST À 1 C. À SOUPE ET NON 2. C'est un ajustement, et il est compensé par la structure de T22 : la lime monte à 4 c. à soupe et le piment double. Ce n'est pas une équivalence chimique — c'est une compensation perceptive, et le khao khua en fait la moitié.\n\nUNE RÉSERVE D'HONNÊTETÉ SUR LA FRÉQUENCE. Les sources divergent : dans les villages lao, le laap est lié à l'abattage d'un animal, donc aux occasions; d'autres en font un des trois piliers du quotidien. LA LECTURE JUSTE POUR CE DOSSIER : avec du haché d'épicerie, la question ne se pose pas — c'est un plat de semaine."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R69"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R71",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "en-bouillon"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "koyadofu-mijote-au-dashi",
+    "jp": "高野豆腐の含め煮",
+    "jp_lecture": "こうやどうふのふくめに",
+    "romaji": "kōyadōfu no fukumeni",
+    "langue_origine": "ja",
+    "fr": "Koyadofu mijote au dashi",
+    "sous_titre": "Cinquante grammes de protéines aux cent grammes de produit sec. La meilleure densité protéique de tout le garde-manger asiatique, dans un sachet qui se garde des mois.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 12,
+      "attente": 3
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 32,
+      "proteines_affiche": "32 g",
+      "calories": 300,
+      "calories_affiche": "≈ 300",
+      "lipides_g": 14,
+      "sodium_mg": 620,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "6 blocs de kōyadōfu séché, environ 100 g au total",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "500 ml de dashi (T2)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1,5 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif, et recommandé pour faire un plat complet : 1 carotte en rondelles biseautées, 6 shiitake réhydratés, 100 g de haricots verts, ou 4 têtes de bok choy",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : gingembre râpé ou zeste de yuzu, à table",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire tremper les blocs secs dans de l'EAU TIÈDE, jamais chaude, 10 à 15 minutes. Ils triplent de volume et deviennent des éponges."
+      },
+      {
+        "n": 2,
+        "texte": "Presser chaque bloc entre les paumes, DÉLICATEMENT, pour chasser l'eau de trempage. Deux ou trois passes, en changeant l'eau. C'EST L'ÉTAPE QUI DÉCIDE DU GOÛT : l'eau de trempage porte une note de soya sec un peu poussiéreuse qui reste si on ne la retire pas."
+      },
+      {
+        "n": 3,
+        "texte": "Dans une casserole large, réunir dashi, soya, mirin et sucre. Porter à frémissement."
+      },
+      {
+        "n": 4,
+        "texte": "Déposer les blocs pressés en une seule couche, avec les légumes s'il y en a. LE LIQUIDE DOIT AFFLEURER, pas couvrir."
+      },
+      {
+        "n": 5,
+        "texte": "Couvrir d'un otoshibuta ou d'un disque de papier d'aluminium percé. Frémir 10 à 12 minutes."
+      },
+      {
+        "n": 6,
+        "texte": "Éteindre et LAISSER REPOSER AU MOINS 3 MINUTES DANS LE LIQUIDE — c'est le sens du mot fukumeni, imprégner. Le bloc boit le bouillon en refroidissant."
+      },
+      {
+        "n": 7,
+        "texte": "Servir deux ou trois blocs par personne, avec un peu de leur liquide."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le meilleur rapport protéines-prix du garde-manger, et personne n'en parle",
+        "texte": "LE KOYADOFU EST DU TOFU CONGELÉ PUIS LYOPHILISÉ. Le procédé retire l'eau et laisse la protéine, le gras et une structure alvéolaire : de l'ordre de 50 G DE PROTÉINES AUX 100 G DE PRODUIT SEC. À titre de comparaison, le tofu ferme frais en porte 8 à 12 g aux 100 g, parce qu'il est surtout composé d'eau.\n\nCE QUE ÇA CHANGE CONCRÈTEMENT. Cent grammes de blocs secs — un demi-sachet, quelques dollars — donnent 50 g de protéines, soit un tiers de la cible quotidienne du dossier, POUR UN INGRÉDIENT QUI SE GARDE SIX MOIS DANS UNE ARMOIRE. Aucune autre protéine du recueil n'a ce profil : la viande demande un congélateur et une décongélation, le tofu frais périme en une semaine, les œufs se comptent.\n\nC'EST DONC L'ASSURANCE DU PLANCHER DE 130 G. Les jours où la planification déraille, où le poisson n'a pas été sorti et où il ne reste rien de décongelé, ce sachet dans l'armoire est ce qui permet de monter un souper à 32 g de protéines en vingt minutes, dont douze sans surveillance.\n\nET LES LIPIDES SONT RÉELS, IL FAUT LE SAVOIR. Le procédé concentre aussi le gras du soya : de l'ordre de 30 g aux 100 g de produit sec. Sur cette fiche, ça fait environ 14 g par portion, ce qui est BEAUCOUP pour un plat sans huile ajoutée — mais c'est un gras utile dans un dossier dont le plancher de lipides est à 50 g et qui les manque plus souvent qu'il ne les dépasse."
+      },
+      {
+        "titre": "La texture, et pourquoi elle divise",
+        "texte": "UN KOYADOFU BIEN FAIT EST UNE ÉPONGE GORGÉE DE BOUILLON : on mord, et le liquide sort. C'est exactement le but, et c'est aussi ce qui le rend déroutant à la première bouchée pour quelqu'un qui ne s'y attend pas. LA TEXTURE DOMINANTE DE CETTE FICHE EST MOELLEUSE, ET IL N'Y A RIEN DE FERME NI DE CROQUANT DEDANS.\n\nCONSÉQUENCE DE MONTAGE, ET ELLE COMPTE : CE PLAT A BESOIN D'UN CONTRASTE À CÔTÉ. Un accompagnement croquant — namul de germes de soya (R72), daikon en allumettes (R83), chou cru — ou une garniture sèche à table. Servi seul avec du riz, c'est un repas où rien ne résiste, et le recueil a déjà appris ce que ça donne : un plat bon jugé incomplet.\n\nDEUX RATÉS À CONNAÎTRE. UN — TREMPER À L'EAU BOUILLANTE : le bloc se désagrège en surface et devient pâteux. Tiède, jamais chaude. DEUX — MAL PRESSER : il reste de l'eau de trempage à l'intérieur, elle dilue le bouillon en cuisant et le plat goûte plat malgré un assaisonnement correct.\n\nOÙ L'ACHETER : Kim Phat, allée 8, avec le japonais sec, ou allée 32 avec les produits secs chinois sous le nom de tofu séché. Sachets de 6 à 16 blocs."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R72",
+      "R83"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R72",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "blanchi"
+    ],
+    "axe_gout": [
+      "sesame-noisette",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "croquant",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "namul-de-germes-de-soya-kongnamul-muchim",
+    "jp": "콩나물무침",
+    "jp_lecture": null,
+    "romaji": "kongnamul muchim",
+    "langue_origine": "ko",
+    "fr": "Namul de germes de soya (kongnamul muchim)",
+    "sous_titre": "Le banchan national de la Corée, et le patron des six autres. Se garde quatre jours, coûte quatre-vingt-dix milligrammes de sodium pour quatre portions, et débloque à lui seul la session du dimanche.",
+    "portions": "4",
+    "temps_affiche": "≈ 15 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 5,
+      "attente": 5
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 5,
+      "proteines_affiche": "5 g",
+      "calories": 70,
+      "calories_affiche": "≈ 70",
+      "lipides_g": 4,
+      "sodium_mg": 90,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 90 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 23 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de 콩나물 kongnamul — GERMES DE SOYA, à grosse tête jaune, PAS des germes de haricot mungo",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 ml d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel, pour la cuisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "L'ASSAISONNEMENT : 1 gousse d'ail râpée fin · 1 c. à thé d'huile de sésame grillé · 1 c. à soupe de graines de sésame grillées · 1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 oignon vert émincé · 1/2 c. à thé de gochugaru pour la version piquante",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T20"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Rincer les germes et retirer les enveloppes qui flottent. Les racines fines se gardent : elles sont comestibles."
+      },
+      {
+        "n": 2,
+        "texte": "Dans une casserole, les germes, l'eau et le quart de cuillère de sel. Couvrir."
+      },
+      {
+        "n": 3,
+        "texte": "Feu moyen-vif, 4 à 5 minutes à partir du moment où ça bout. NE PAS OUVRIR LE COUVERCLE, PAS UNE FOIS. Voir la note — c'est la seule règle absolue de cette fiche."
+      },
+      {
+        "n": 4,
+        "texte": "Égoutter et refroidir sous l'eau froide, 30 secondes."
+      },
+      {
+        "n": 5,
+        "texte": "PRESSER FERMEMENT À LA MAIN, droit, sans tordre. Deux ou trois passes."
+      },
+      {
+        "n": 6,
+        "texte": "Dans un bol, assaisonner À LA MAIN en massant. Goûter, ajuster."
+      },
+      {
+        "n": 7,
+        "texte": "Laisser reposer 5 minutes avant de servir. Se garde 3 à 4 jours au frigo, contenant fermé."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ne pas ouvrir le couvercle — la seule règle absolue",
+        "texte": "UN GERME DE SOYA CUIT À DÉCOUVERT DÉVELOPPE UNE ODEUR ET UN GOÛT DE HARICOT CRU, FRANCHEMENT DÉSAGRÉABLES, ET C'EST IRRÉVERSIBLE. Le mécanisme est une enzyme, la lipoxygénase, qui s'active au contact de l'oxygène pendant la montée en température et qui produit des composés verts et amers. À couvert, la vapeur chasse l'oxygène et l'enzyme est détruite avant d'avoir travaillé.\n\nLA RÈGLE PRATIQUE EST DONC BINAIRE : COUVERCLE FERMÉ DU DÉBUT À LA FIN, OU COUVERCLE JAMAIS MIS. Les deux fonctionnent — c'est l'entre-deux qui rate. Une cuisson à découvert du début à la fin, dans beaucoup d'eau bouillante, donne un résultat correct; soulever le couvercle à mi-cuisson pour regarder est la seule façon de tout gâcher.\n\nET LES 콩나물 NE SONT PAS LES GERMES DE HARICOT MUNGO DU SUPERMARCHÉ. Ce sont deux légumes différents. Le kongnamul a une GROSSE TÊTE JAUNE et une tige longue et croquante, il demande 4 à 5 minutes. Le germe de mungo est blanc, court, gonflé d'eau, et 60 secondes suffisent. LES CONFONDRE DONNE SOIT DES GERMES CRUS ET AMERS SOIT DE LA BOUILLIE. Chez Kim Phat, l'îlot des germes porte les deux : demander les jaunes."
+      },
+      {
+        "titre": "Le patron du dimanche",
+        "texte": "CETTE FICHE EST LA PORTE D'ENTRÉE D'UNE FAMILLE ENTIÈRE, ET C'EST SA VRAIE VALEUR. Le mécanisme de T20 — cuire nu, essorer, assaisonner à la main — s'applique tel quel aux épinards (30 à 60 secondes de blanchiment), au daikon en julienne (étuvé à couvert 6 à 8 minutes), à la courgette, à l'aubergine (3 minutes de vapeur), à la carotte. L'ASSAISONNEMENT NE CHANGE PAS. Le légume change.\n\nQUARANTE-CINQ MINUTES LE DIMANCHE DONNENT QUATRE OU CINQ ACCOMPAGNEMENTS POUR LA SEMAINE, tous à moins de 100 mg de sodium pour quatre portions, tous en contenants fermés au frigo. C'EST EXACTEMENT CE QUE LE DOSSIER CHERCHE DEPUIS LE DÉBUT et qui n'existait nulle part : un poste accompagnement réglé d'avance, sans travail en semaine.\n\nET LE SODIUM EST À METTRE EN PERSPECTIVE. Quatre-vingt-dix milligrammes pour QUATRE portions, soit environ 23 mg par portion. Le sunomono du recueil, à cause de son sel de dégorgement, en porte de l'ordre de 250 par portion. C'EST DIX FOIS MOINS POUR UN PLAT QUI JOUE LE MÊME RÔLE — un petit légume froid et croquant à côté du riz."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R73",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "vietnamienne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "vapeur"
+    ],
+    "axe_gout": [
+      "aromatique",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "souper"
+    ],
+    "slug": "poisson-vapeur-au-gingembre-et-a-la-ciboule",
+    "jp": "Cá hấp hành gừng",
+    "jp_lecture": null,
+    "romaji": "ca hap hanh gung",
+    "langue_origine": "vi",
+    "fr": "Poisson vapeur au gingembre et a la ciboule",
+    "sous_titre": "Quarante grammes de protéines, zéro gras de cuisson, dix-huit minutes. Le plat le plus propre du corpus vietnamien, et il ne demande rien d'autre qu'un panier vapeur.",
+    "portions": "2",
+    "temps_affiche": "≈ 18 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 10,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 40,
+      "proteines_affiche": "40 g",
+      "calories": 280,
+      "calories_affiche": "≈ 280",
+      "lipides_g": 9,
+      "sodium_mg": 480,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "350 g de filets de poisson blanc ferme, ou un petit poisson entier vidé : bar, tilapia, morue, sébaste",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 morceau de gingembre de 5 cm, en juliennes très fines",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 oignons verts : les blancs en tronçons sous le poisson, les verts en filaments par-dessus",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de champignons séchés réhydratés en lamelles, facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE : 1 c. à soupe de sauce soya réduite en sodium · 1 c. à soupe d'eau ou d'eau de trempage des champignons · 1/2 c. à thé de sucre · un tour de poivre blanc",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre, à chauffer à part",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Coriandre, et un quartier de lime",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN hạt nêm, aucun bouillon en poudre — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger la sauce dans un bol. Éponger le poisson."
+      },
+      {
+        "n": 2,
+        "texte": "Dans une assiette creuse qui entre dans le panier vapeur : les blancs d'oignon vert et la moitié du gingembre au fond, comme un lit. Le poisson dessus, les champignons autour."
+      },
+      {
+        "n": 3,
+        "texte": "Eau bouillante dans la marmite, panier posé dessus, couvrir. 8 à 10 minutes pour des filets de 2 cm, 12 à 15 pour un poisson entier. LE POISSON EST CUIT QUAND LA CHAIR SE SÉPARE À LA POINTE D'UN COUTEAU, pas avant."
+      },
+      {
+        "n": 4,
+        "texte": "JETER LE LIQUIDE ACCUMULÉ DANS L'ASSIETTE. Il est trouble et amer — c'est de l'eau de poisson, pas un jus de cuisson."
+      },
+      {
+        "n": 5,
+        "texte": "Couvrir le poisson du gingembre restant et des filaments verts, CRUS."
+      },
+      {
+        "n": 6,
+        "texte": "Chauffer l'huile jusqu'à ce qu'elle fume à peine et la verser sur les aromates. Ça grésille."
+      },
+      {
+        "n": 7,
+        "texte": "Verser la sauce AUTOUR du poisson, jamais dessus. Coriandre et lime."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Zéro gras de cuisson, et le sel qui reste sous les 500 mg",
+        "texte": "LA VAPEUR EST LA SEULE MÉTHODE DE CUISSON DU RECUEIL QUI N'EXIGE AUCUNE MATIÈRE GRASSE ET QUI NE DESSÈCHE RIEN. Les 9 g de lipides par portion sont ceux du poisson plus la demi-cuillère à thé d'huile qui sert au grésillement final. Un poisson poêlé au même poids en porterait 5 à 8 de plus, un poisson frit trois fois plus.\n\nET LE SODIUM TIENT SOUS 500 MG PARCE QUE LA SAUCE EST MESURÉE ET VERSÉE À LA FIN. Une cuillère à soupe de soya réduit pour deux portions, soit 250 mg par personne, plus ce que le poisson en contient naturellement. C'EST LA MOITIÉ DE CE QUE PORTE UN SOUPER MOYEN DU PLAN.\n\nLE GESTE DE L'HUILE FUMANTE MÉRITE D'ÊTRE COMPRIS PLUTÔT QUE SUIVI. Le gingembre et l'oignon vert crus sont piquants et végétaux; touchés une seconde par une huile à 180 °C, leurs composés soufrés se transforment et deviennent aromatiques. C'EST LE MÊME PRINCIPE QUE R35 ET QUE T11. Une cuillère à thé suffit, et la poêle doit être petite sinon l'huile brûle avant d'être versée.\n\nET LA SAUCE SE VERSE AUTOUR, PAS DESSUS. Versée sur le poisson, elle rince les aromates au fond de l'assiette et le poisson devient uniformément salé. Autour, on trempe chaque bouchée autant qu'on veut — c'est encore la logique du sel servi à côté."
+      },
+      {
+        "titre": "Le hat nem, le sodium caché de cette cuisine",
+        "texte": "PRESQUE TOUTES LES RECETTES FAMILIALES VIETNAMIENNES DOCUMENTÉES CONTIENNENT DU HẠT NÊM — du bouillon de poulet ou de porc en poudre. Il est AUSSI SALÉ QUE LE SEL, il en faut une cuillère à soupe ou plus par plat, et IL N'ENTRE DANS AUCUN CALCUL parce que personne ne le compte comme un assaisonnement : on le voit comme un exhausteur.\n\nL'ORDRE DE GRANDEUR EST CELUI-CI : DANS UNE SOUPE AIGRE VIETNAMIENNE, LA CUILLÈRE À SOUPE DE HẠT NÊM PÈSE PLUS LOURD EN SODIUM QUE LES DEUX CUILLÈRES À THÉ DE SAUCE DE POISSON DU MÊME PLAT. C'est la découverte la plus utile de l'analyse du corpus vietnamien, et elle est contre-intuitive : le coupable n'est pas la sauce de poisson, qui est visible et qu'on dose, c'est la poudre qu'on ne compte pas.\n\nDANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Et ce qu'il apportait se remplace : les CHAMPIGNONS SÉCHÉS et leur eau de trempage donnent le glutamate; l'OIGNON GRILLÉ à sec donne la profondeur; le POIVRE BLANC donne la longueur en bouche. Les trois sont dans cette fiche pour cette raison.\n\nLA MÊME VIGILANCE VAUT POUR TOUTE RECETTE VIETNAMIENNE TROUVÉE AILLEURS : chercher hạt nêm, bột canh ou bouillon en poudre dans la liste, et le retirer avant de calculer quoi que ce soit."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R35"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R74",
+    "statut": "actif",
+    "categorie": "soupe-entree",
+    "cuisine": "thaie",
+    "vitesse": "moyen",
+    "type_de_plat": "soupe",
+    "methode": [
+      "poche",
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "glissant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-claire-au-porc-et-aux-vermicelles-gaeng-jued",
+    "jp": "แกงจืด",
+    "jp_lecture": null,
+    "romaji": "gaeng jued",
+    "langue_origine": "th",
+    "fr": "Soupe claire au porc et aux vermicelles (gaeng jued)",
+    "sous_titre": "Écriture d'origine แกงจืด, gaeng jued. L'équivalent thaï exact du ichiju. Sans elle, aucun repas thaï n'est construisible; avec elle, tous les autres plats thaïs deviennent des sansai.",
+    "portions": "2",
+    "temps_affiche": "≈ 30 min",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 18,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 28,
+      "proteines_affiche": "28 g",
+      "calories": 260,
+      "calories_affiche": "≈ 260",
+      "lipides_g": 8,
+      "sodium_mg": 550,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "1 L d'eau, ou de bouillon de porc léger",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 g de porc haché maigre, OU 250 g de porc en lanières",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "POUR LES BOULETTES : 1 gousse d'ail râpée · 1 c. à thé de sauce soya réduite en sodium · un tour de poivre blanc · 1 c. à thé de fécule",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "60 g de vermicelles de haricot mungo (woon sen), trempés 10 minutes à l'eau tiède",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de tofu ferme en cubes de 2 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 tasses de légumes : chou nappa, courge cireuse en cubes, daikon, carotte",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "6 shiitake séchés réhydratés, ou 100 g de champignons frais",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "ASSAISONNEMENT : 2 c. à thé de sauce soya réduite en sodium · 1/4 c. à thé de sel · beaucoup de POIVRE BLANC",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Coriandre et oignon vert, en volume, à la fin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Aucun bouillon en poudre",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T12"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger le haché avec l'ail, la cuillère de soya, le poivre et la fécule. Brasser énergiquement dans un seul sens 1 minute — c'est ce qui donne une boulette qui tient."
+      },
+      {
+        "n": 2,
+        "texte": "Eau et eau de trempage des champignons à frémissement."
+      },
+      {
+        "n": 3,
+        "texte": "Former les boulettes à la cuillère DIRECTEMENT DANS LE LIQUIDE FRÉMISSANT. Elles remontent quand elles sont cuites, 4 à 5 minutes. Écumer ce qui monte."
+      },
+      {
+        "n": 4,
+        "texte": "Les légumes durs — daikon, carotte, courge — 8 minutes. Puis les champignons et le chou nappa, 3 minutes."
+      },
+      {
+        "n": 5,
+        "texte": "Le tofu et les vermicelles égouttés, 2 minutes. LES VERMICELLES EN DERNIER : ils continuent de boire le bouillon et deviennent pâteux si on les laisse."
+      },
+      {
+        "n": 6,
+        "texte": "Assaisonner : soya, sel, ET BEAUCOUP DE POIVRE BLANC. Goûter."
+      },
+      {
+        "n": 7,
+        "texte": "Hors du feu, coriandre et oignon vert."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le mot jued veut dire fade, et c'est un compliment",
+        "texte": "จืด, JUED, SIGNIFIE LITTÉRALEMENT SANS GOÛT, DOUX, NON ASSAISONNÉ. Ce n'est pas un défaut : c'est la fonction. Dans un repas thaï, les plats principaux sont acides, piquants et salés — un larb, un curry, une salade yam. LE GAENG JUED EST LE CONTREPOINT NEUTRE QUI PERMET DE LES MANGER, exactement comme la soupe miso permet de manger un poisson grillé salé.\n\nPOURQUOI ÇA MANQUAIT AU RECUEIL, ET C'EST STRUCTUREL. Le dossier a deux fiches thaïes, et les deux sont des soupes fortes — tom yum acide et piquant, tom kha au coco. IL N'AVAIT AUCUN PLAT THAÏ NEUTRE, donc aucun repas thaï complet n'était construisible : le ichiju sansai demande une soupe qui accompagne, pas une soupe qui domine. AVEC CETTE FICHE, LE TOM YUM, LE LARB ET LE KUA KLING DEVIENNENT DES PLATS D'UN REPAS AU LIEU D'ÊTRE LE REPAS.\n\nLE POIVRE BLANC EST L'ASSAISONNEMENT PRINCIPAL, ET IL FAUT ÊTRE GÉNÉREUX. C'est lui, et pas le sel, qui donne à cette soupe sa longueur en bouche. À 550 mg de sodium pour deux portions — un quart de ce que porte un bol de tom yum à pleine dose — LE POIVRE FAIT LE TRAVAIL QUE LE SEL NE FAIT PAS."
+      },
+      {
+        "titre": "Trois postes du repas dans une casserole",
+        "texte": "CETTE SOUPE PORTE À ELLE SEULE LA PROTÉINE, LE LÉGUME ET LE FÉCULENT — boulettes et tofu, quatre tasses de légumes, vermicelles. AVEC UN BOL DE RIZ, C'EST UN REPAS COMPLET; avec un accompagnement croquant à côté, c'est un ichiju sansai. C'est le format le plus économe en vaisselle du recueil.\n\nLE BLANCHIMENT PRÉALABLE (T12) N'EST PAS NÉCESSAIRE ICI ET C'EST VOULU. Les boulettes sont formées dans le liquide et on écume ce qui monte — l'équivalent en une étape. T12 est cité parce que la variante au porc EN LANIÈRES ou sur l'os le demande, et que la soupe devient grise sans lui.\n\nET LES VERMICELLES DE MUNGO NE SE REMPLACENT PAS PAR DES VERMICELLES DE RIZ. Les premiers deviennent translucides et glissants et gardent leur tenue; les seconds se délitent dans un bouillon chaud et l'épaississent. Chez Kim Phat, allée 31, sous woon sen. SE MESURENT SECS : 60 g gonflent à plus de 200."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R75",
+    "statut": "actif",
+    "categorie": "dejeuner",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "soyeux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "omelette-roulee-au-dashi-dashimaki-tamago",
+    "jp": "だし巻き卵",
+    "jp_lecture": "だしまきたまご",
+    "romaji": "dashimaki tamago",
+    "langue_origine": "ja",
+    "fr": "Omelette roulee au dashi (dashimaki tamago)",
+    "sous_titre": "Le plat d'œuf le plus mangé au Japon, et le recueil n'en avait aucune trace. Se mange chaud, tiède ou froid, et il va dans une boîte à lunch.",
+    "portions": "2",
+    "temps_affiche": "≈ 12 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 9,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 19,
+      "proteines_affiche": "19 g",
+      "calories": 220,
+      "calories_affiche": "≈ 220",
+      "lipides_g": 15,
+      "sodium_mg": 260,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "4 œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "60 ml de dashi (T2) — LE RATIO EST DE 15 ML DE DASHI PAR ŒUF",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre, pour la poêle",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À servir : daikon râpé et un filet de soya, ou du ponzu",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Battre les œufs SANS FAIRE DE MOUSSE — couper les blancs avec les baguettes plutôt que fouetter. Les bulles font des trous."
+      },
+      {
+        "n": 2,
+        "texte": "Ajouter dashi, soya, mirin et sel. Passer À TRAVERS UNE PASSOIRE FINE : c'est ce qui donne une texture lisse. Même geste que R7."
+      },
+      {
+        "n": 3,
+        "texte": "Poêle rectangulaire (tamagoyaki-ki) ou petite poêle antiadhésive, feu MOYEN-DOUX. Huiler avec un papier absorbant, en retirant l'excès."
+      },
+      {
+        "n": 4,
+        "texte": "Verser un tiers du mélange, l'étaler. Quand la surface est prise mais encore humide, ROULER depuis le bord opposé vers soi."
+      },
+      {
+        "n": 5,
+        "texte": "Repousser le rouleau au fond, huiler la surface libre, verser un autre tiers EN SOULEVANT LE ROULEAU pour que l'œuf cru passe dessous."
+      },
+      {
+        "n": 6,
+        "texte": "Rouler encore. Répéter avec le dernier tiers."
+      },
+      {
+        "n": 7,
+        "texte": "Sortir, poser sur un tapis de bambou ou dans du papier absorbant, presser légèrement pour former le rectangle. Laisser 2 minutes, puis trancher en 6 morceaux."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le dashi est ce qui rend l'exercice difficile, et ce qui le rend bon",
+        "texte": "IL Y A DEUX OMELETTES ROULÉES JAPONAISES ET IL FAUT SAVOIR LAQUELLE ON FAIT. LE TAMAGOYAKI est sucré, ferme, souvent avec plus de sucre que de dashi : c'est celui des boîtes à lunch et des sushis. LE DASHIMAKI TAMAGO porte 15 ml de dashi par œuf, il est salé et non sucré, et sa texture est plus proche d'une crème prise que d'une omelette. LE SECOND EST CELUI DE CETTE FICHE, et c'est celui qu'on mange au déjeuner et dans un set japonais.\n\nLE LIQUIDE EST CE QUI REND LE ROULAGE DÉLICAT : un œuf allongé de dashi se déchire plus facilement qu'un œuf nature. C'EST NORMAL DE RATER LES DEUX OU TROIS PREMIÈRES, ET ÇA SE MANGE QUAND MÊME. Ce qui aide vraiment, dans l'ordre : un feu plus doux qu'on croit, une poêle bien huilée mais sans flaque, et rouler quand le dessus est ENCORE HUMIDE — attendre qu'il soit sec donne une couche qui ne colle pas à la suivante et le rouleau se défait.\n\nLE SEL EST À 260 MG POUR DEUX PORTIONS, ET LA MARGE EST AILLEURS. Ce qui sale ce plat, c'est ce qu'on met dessus : un filet de soya au service en ajoute 250 par personne. LE DAIKON RÂPÉ SEUL, AVEC QUELQUES GOUTTES, SUFFIT — et le daikon apporte de l'eau et du croquant, ce que l'omelette n'a pas."
+      },
+      {
+        "titre": "Ce qu'elle vient combler, et pourquoi c'est plus qu'un plat",
+        "texte": "LE RECUEIL A QUATRE PRÉPARATIONS D'ŒUF — l'œuf mollet, l'œuf mariné, le flan vapeur, le tamago kake gohan — ET AUCUNE NE COUVRAIT LE PLAT D'ŒUF NUMÉRO UN DU PAYS. Ce n'est pas une lacune de goût, c'est une lacune de format : le dashimaki est le seul qui se transporte, se mange froid, et occupe la case okazu, le petit plat protéiné qu'on pose à côté du riz.\n\nET C'EST LE MEILLEUR VÉHICULE À RESTES DU RECUEIL. Trois cuillères à soupe de n'importe quoi de finement coupé entrent dans le mélange sans rien changer à la technique : oignon vert, nori émincé, épinards blanchis pressés, champignons cuits, crevettes hachées, fromage. UNE FICHE, DIX PLATS.\n\nLA POÊLE RECTANGULAIRE N'EST PAS OBLIGATOIRE. Une petite poêle ronde antiadhésive de 20 cm donne un rouleau en fuseau au lieu d'un rectangle. Le goût est identique; on perd les tranches carrées. LA POÊLE CARRÉE SE TROUVE CHEZ KIM PHAT, ALLÉE 36, avec la batterie de cuisine."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R7"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R76",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "chinoise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "doux",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "soyeux",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "crevettes-aux-oeufs-soyeux-huadan-xiaren",
+    "jp": "滑蛋虾仁",
+    "jp_lecture": null,
+    "romaji": "huádàn xiārén",
+    "langue_origine": "zh",
+    "fr": "Crevettes aux oeufs soyeux (huadan xiaren)",
+    "sous_titre": "Écriture d'origine 滑蛋虾仁, huadan xiaren. Aucune sauce salée, aucune fécule liée, aucun soya : du sel, du vin de riz et des œufs. Tout le sodium de ce plat vient des crevettes elles-mêmes — et c'est un cas d'école.",
+    "portions": "2",
+    "temps_affiche": "≈ 15 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 5,
+      "attente": 2
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 42,
+      "proteines_affiche": "42 g",
+      "calories": 340,
+      "calories_affiche": "≈ 340",
+      "lipides_g": 17,
+      "sodium_mg": 780,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. LES 780 MG DE SODIUM VIENNENT DES CREVETTES, PAS DE L'ASSAISONNEMENT : l'étiquette du sac lue le 18 août 2026 donne 584 mg aux 100 g. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "250 g de crevettes crues décortiquées, DÉCONGELÉES À L'EAU FROIDE PUIS RINCÉES ET BIEN ÉGOUTTÉES",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "5 œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe d'eau ou de dashi, dans les œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel, pour les œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de vin de riz ou de saké, pour les crevettes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de fécule et un tour de poivre blanc, pour les crevettes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 oignons verts, les verts émincés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE SAUCE SOYA. C'est une caractéristique du plat, pas un oubli.",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Éponger les crevettes rincées, les mélanger avec le vin de riz, la fécule et le poivre. Laisser 10 minutes."
+      },
+      {
+        "n": 2,
+        "texte": "Battre les œufs avec l'eau et le sel, SANS MOUSSE. Ajouter les oignons verts."
+      },
+      {
+        "n": 3,
+        "texte": "Poêle antiadhésive à feu vif avec la moitié de l'huile. Les crevettes en une couche, 60 à 90 secondes, retournées une fois. DÈS QU'ELLES SONT ROSES ET COURBÉES EN C, LES SORTIR — elles finiront dans les œufs."
+      },
+      {
+        "n": 4,
+        "texte": "Les crevettes tiédies mélangées aux œufs battus, dans le bol."
+      },
+      {
+        "n": 5,
+        "texte": "Baisser à FEU MOYEN-DOUX, le reste de l'huile. Verser le mélange d'un coup."
+      },
+      {
+        "n": 6,
+        "texte": "Attendre 20 secondes sans toucher, puis pousser doucement du centre vers le bord avec une spatule, en larges mouvements. 60 à 90 secondes AU TOTAL."
+      },
+      {
+        "n": 7,
+        "texte": "SORTIR QUAND ÇA A ENCORE L'AIR À MOITIÉ CRU. La chaleur résiduelle finit dans l'assiette. Servir immédiatement."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Tout le sodium de ce plat vient des crevettes, et c'est mesuré",
+        "texte": "CE PLAT EST LE MEILLEUR CAS D'ÉCOLE DU RECUEIL SUR LE SODIUM CACHÉ, PARCE QUE SON ASSAISONNEMENT EST PRESQUE VIDE. Un quart de cuillère à thé de sel pour deux portions, une cuillère à thé de vin de riz, aucun soya, aucune sauce d'huîtres : DE L'ORDRE DE 290 MG POUR LES DEUX PORTIONS, sel compris.\n\nET POURTANT LA FICHE ANNONCE 780 MG PAR PORTION. La différence entière vient du produit : L'ÉTIQUETTE DU SAC DE CREVETTES LUE LE 18 AOÛT 2026 DONNE 730 MG PAR 125 G, SOIT 584 MG AUX 100 G. Deux cent cinquante grammes de crevettes portent donc à eux seuls environ 1 460 mg — cinq fois l'assaisonnement du plat.\n\nLA RECHERCHE DÉCRIVAIT CE PLAT COMME AYANT UN SODIUM QUASI NUL, ET C'EST VRAI DE LA RECETTE. Ce n'est pas vrai de la recette faite avec CES crevettes-là. UN INGRÉDIENT TRAITÉ AU SEL ET AU PHOSPHATE PEUT PORTER TOUT LE SODIUM D'UN PLAT DONT L'ASSAISONNEMENT EST IRRÉPROCHABLE.\n\nD'OÙ LES DEUX GESTES DE LA FICHE. UN — DÉCONGELER À L'EAU FROIDE ET RINCER FRANCHEMENT : le sel et le phosphate sont dans le glaçage de surface, pas dans la chair. L'ordre de grandeur retiré est de 15 à 25 %, non chiffrable au panneau nutritionnel. DEUX — CHERCHER, À LA PROCHAINE ÉPICERIE, UN SAC DONT LA LIGNE D'INGRÉDIENTS DIT SEULEMENT CREVETTES, ou des crevettes entières non décortiquées, généralement non traitées. C'est le seul vrai correctif."
+      },
+      {
+        "titre": "Le soyeux se joue dans les vingt dernières secondes",
+        "texte": "滑蛋, HUÁDÀN, VEUT DIRE ŒUF GLISSANT. La texture visée n'est ni une omelette ferme ni des œufs brouillés en grains : c'est une masse molle et fondante, à peine prise, qui glisse de la spatule. C'EST LE SEUL OBJECTIF DE LA TECHNIQUE et tout le reste y est subordonné.\n\nTROIS CHOSES LA PRODUISENT. UN — LE FEU MOYEN-DOUX : sur feu vif, les protéines de l'œuf se contractent, expulsent leur eau et le plat devient sec et granuleux en quinze secondes. DEUX — LES DEUX CUILLÈRES À SOUPE D'EAU DANS LES ŒUFS : elles retardent la coagulation et donnent de la marge. TROIS — SORTIR TÔT, ce qui est contre-intuitif : à l'assiette, la chaleur résiduelle continue de cuire pendant une bonne minute.\n\nLES CREVETTES SONT CUITES DEUX FOIS, ET C'EST VOULU. Saisies à part pour développer leur goût et leur couleur, puis mêlées aux œufs crus pour finir doucement. LES CUIRE DIRECTEMENT DANS LES ŒUFS donne des crevettes pâles et mollasses; LES LAISSER DANS LA POÊLE PENDANT TOUTE LA CUISSON DES ŒUFS les rend caoutchouteuses. Le passage par le bol est ce qui règle les deux.\n\nET LE PLAT EST À DOMINANTE SOYEUSE, DONC IL A BESOIN D'UN CROQUANT À CÔTÉ. Un namul de germes de soya (R72), du daikon en allumettes (R83), ou simplement du chou cru."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R72",
+      "R83"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R77",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "long",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "ferme",
+      "elastique"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "boeuf-braise-au-soya-effilochable-jangjorim",
+    "jp": "장조림",
+    "jp_lecture": null,
+    "romaji": "jangjorim",
+    "langue_origine": "ko",
+    "fr": "Boeuf braise au soya, effilochable (jangjorim)",
+    "sous_titre": "Écriture d'origine 장조림, jangjorim. Sept jours au frigo, dix minutes de travail, et le seul accompagnement de longue conservation du recueil qui soit vraiment protéiné. C'est l'outil contre le plancher de cent trente grammes les jours où la planification déraille.",
+    "portions": "8",
+    "temps_affiche": "≈ 10 min actives, 1 h 10 de feu",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 70,
+      "attente": 0
+    },
+    "preparation_avance": "Se garde sept jours au frigo, la viande dans son liquide. À faire pendant la session du dimanche, en même temps que la fournée de riz.",
+    "nutrition": {
+      "proteines_g": 18,
+      "proteines_affiche": "18 g",
+      "calories": 130,
+      "calories_affiche": "≈ 130",
+      "lipides_g": 4,
+      "sodium_mg": 330,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, VIANDE ÉGOUTTÉE. LE CHIFFRE DE SODIUM EST LE MOINS SOLIDE DU DOSSIER : il dépend de combien de liquide la fibre retient après égouttage, ce qui n'a pas été mesuré. À REVOIR AU PREMIER DÉBRIEFING."
+    },
+    "ingredients": [
+      {
+        "texte": "600 g de bœuf maigre en un morceau : macreuse, palette parée, ou intérieur de ronde",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LE BRAISAGE, DILUÉ MOITIÉ-EAU : 4 c. à soupe de sauce soya réduite en sodium · 500 ml d'eau · 1 c. à soupe de mirin · 1 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 gousses d'ail entières · 1 morceau de gingembre de 3 cm · 1 oignon vert",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 4 œufs durs écalés · 100 g de piments shishito ou de poivrons verts entiers",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Graines de sésame, à la fin",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T12"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T12 sur le bœuf : eau froide à couvrir, ébullition, 5 minutes, jeter l'eau, rincer la viande et la casserole."
+      },
+      {
+        "n": 2,
+        "texte": "Remettre la viande avec l'eau, le soya, le mirin, le sucre et les aromates. LE LIQUIDE DOIT COUVRIR AUX TROIS QUARTS, pas plus."
+      },
+      {
+        "n": 3,
+        "texte": "Couvrir, feu doux, 50 à 60 minutes. La viande est prête quand une fourchette y entre sans résistance."
+      },
+      {
+        "n": 4,
+        "texte": "SORTIR LA VIANDE ET LA LAISSER TIÉDIR 10 MINUTES. Effilochée chaude, elle se défait en purée."
+      },
+      {
+        "n": 5,
+        "texte": "Effilocher à la main ou à deux fourchettes, en gros filaments."
+      },
+      {
+        "n": 6,
+        "texte": "Remettre les filaments dans le liquide avec les œufs durs et les piments, 10 minutes de plus, sans couvrir."
+      },
+      {
+        "n": 7,
+        "texte": "Conserver LA VIANDE ET LE LIQUIDE ENSEMBLE au frigo. SERVIR ÉGOUTTÉ. Sésame à l'assiette."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le sodium est dans le liquide, pas dans la fibre — et c'est toute la fiche",
+        "texte": "QUATRE CUILLÈRES À SOUPE DE SOYA RÉDUIT PORTENT ENVIRON 2 000 MG DE SODIUM. Réparties sur huit portions, ça ferait 250 mg par portion si tout était mangé. MAIS TOUT N'EST PAS MANGÉ : la viande effilochée retient une fraction du liquide, et les trois quarts du sel restent dans le braisage.\n\nD'OÙ LA RÈGLE ABSOLUE DE CETTE FICHE, ET ELLE EST PLUS IMPORTANTE QUE TOUT LE RESTE : SERVIR LA VIANDE ÉGOUTTÉE, ET NE JAMAIS VERSER LE JUS SUR LE RIZ. Le geste réflexe — une cuillère de jus sur le bol de riz, parce que c'est bon — double le sodium de la portion d'un seul coup. Le liquide sert à CONSERVER la viande, pas à l'assaisonner dans l'assiette.\n\nET LE BRAISAGE EST DÉJÀ DILUÉ DE MOITIÉ PAR RAPPORT AUX RECETTES COURANTES. Un jangjorim traditionnel se fait au soya presque pur, ce qui donne un plat de conservation très salé — c'était sa fonction historique. Coupé moitié-eau, il se garde aussi bien, parce que ce qui conserve ici est autant le sucre et l'acidité que le sel.\n\nLE CHIFFRE DE 330 MG PAR PORTION EST UNE ESTIMATION SUR VIANDE ÉGOUTTÉE, et il n'a pas été mesuré. C'est le chiffre le moins solide de ce document : il dépend de combien de liquide la fibre retient, ce qui varie avec la coupe et la durée. À REVOIR AU PREMIER DÉBRIEFING."
+      },
+      {
+        "titre": "Ce qu'il fait dans la semaine, et pourquoi il vaut plus que son goût",
+        "texte": "SEPT JOURS AU FRIGO, DIX-HUIT GRAMMES DE PROTÉINES PAR PORTION, ET AUCUNE PRÉPARATION AU MOMENT DE MANGER. C'est le seul article du recueil qui réunit les trois. Les autres préparations d'avance sont soit des légumes — donc peu protéinées — soit des œufs marinés, qui plafonnent à 6 g.\n\nLA FONCTION EXACTE EST CELLE-CI : LE FILET DE SÉCURITÉ DU PLANCHER DE 130 G DE PROTÉINES. Un jour où le déjeuner a sauté, où le dîner était maigre et où le souper doit se faire en dix minutes, deux portions de jangjorim sur du riz ajoutent 36 g sans cuisson. C'est l'équivalent protéiné de ce que les rondelles de riz congelées font pour le féculent.\n\nLES DIX MINUTES ACTIVES SONT RÉELLES ET C'EST CE QUI LE REND FAISABLE. Cinq minutes de blanchiment, deux minutes d'assemblage, une heure de feu doux sans surveillance, trois minutes d'effilochage. À FAIRE PENDANT LA SESSION DU DIMANCHE, en même temps que la fournée de riz — les deux occupent le même créneau passif.\n\nET LA COUPE COMPTE PLUS QU'ON CROIT. Il faut une coupe maigre mais riche en collagène — macreuse, palette parée — qui devient effilochable. UN FILET OU UNE SURLONGE DEVIENT SEC ET GRANULEUX : pas assez de collagène pour se transformer en gélatine, et une heure de braisage ne fait que l'assécher."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R78",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "thaie",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "piquant",
+      "aromatique",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "ferme",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "curry-sec-du-sud-kua-kling",
+    "jp": "คั่วกลิ้ง",
+    "jp_lecture": null,
+    "romaji": "kua kling",
+    "langue_origine": "th",
+    "fr": "Curry sec du Sud (kua kling)",
+    "sous_titre": "Écriture d'origine คั่วกลิ้ง, kua kling. Un curry sans une goutte de lait de coco. Une à deux cuillères à thé de sauce de poisson pour quatre cent cinquante grammes de viande : le meilleur rapport protéines-sodium-lipides de tout le corpus thaï.",
+    "portions": "3",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 13,
+      "attente": 0
+    },
+    "preparation_avance": "La pâte se garde une semaine au frigo et se congèle en portions d'une cuillère à soupe. Faite d'avance, le plat passe de 25 minutes à 13.",
+    "nutrition": {
+      "proteines_g": 32,
+      "proteines_affiche": "32 g",
+      "calories": 290,
+      "calories_affiche": "≈ 290",
+      "lipides_g": 12,
+      "sodium_mg": 210,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "450 g de porc haché maigre, ou de poulet haché, ou de bœuf haché",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA PÂTE, au mortier ou au robot : 6 à 10 piments rouges séchés trempés 15 min · 1 tige de citronnelle en fines rondelles · 4 tranches de galanga · 1 c. à thé de curcuma frais râpé, ou 1/2 c. à thé de curcuma moulu · 4 gousses d'ail · 2 échalotes · 1/2 c. à thé de poivre blanc",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 à 2 c. à thé de sauce de poisson, PAS PLUS",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "6 feuilles de lime kaffir en fines lanières, plus une poignée entière",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 2 c. à soupe d'eau, si la pâte accroche",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À servir : riz, et des crudités en volume — chou vert, concombre, haricots longs crus",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Piler ou mixer tous les ingrédients de la pâte jusqu'à une pâte grossière. C'EST TOUT LE TRAVAIL DE LA RECETTE, ET IL EST À FAIRE D'AVANCE : la pâte se garde une semaine au frigo et se congèle en portions."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle large à feu moyen avec l'huile. La pâte, 3 à 4 minutes, en remuant. ELLE DOIT SENTIR CUIT ET NON CRU : le curcuma et l'ail passent d'agressifs à ronds. C'est le moment le plus important du plat."
+      },
+      {
+        "n": 3,
+        "texte": "Le haché, écrasé à la spatule pour le défaire en grains. Monter le feu."
+      },
+      {
+        "n": 4,
+        "texte": "Cuire 8 à 10 minutes EN LAISSANT L'EAU S'ÉVAPORER COMPLÈTEMENT. Le plat doit devenir sec et légèrement grillé — c'est le sens de kua, faire revenir à sec."
+      },
+      {
+        "n": 5,
+        "texte": "La sauce de poisson, une cuillère à thé d'abord. Goûter."
+      },
+      {
+        "n": 6,
+        "texte": "Hors du feu, les lanières de feuille de lime. Beaucoup."
+      },
+      {
+        "n": 7,
+        "texte": "Servir avec du riz et un plateau de crudités crues à côté."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le curry qui n'a jamais eu de lait de coco",
+        "texte": "แกง, GAENG, DÉSIGNE TOUTE UNE FAMILLE, ET LA MOITIÉ DE CETTE FAMILLE EST MONTÉE À L'EAU OU À SEC. C'est la découverte la plus utile de l'analyse du corpus thaï, et elle change ce qu'on peut faire de cette cuisine : le gaeng som est aigre, le gaeng pa est de la jungle et sans coco, le gaeng liang est poivré, et le kua kling est carrément sec. AUCUN N'EST UNE VERSION ALLÉGÉE D'UN CURRY AU COCO : ce sont des plats à part entière, plus anciens dans plusieurs cas.\n\nLA CONSÉQUENCE POUR LE DOSSIER EST NETTE : IL NE FAUT PAS ESSAYER DE SAUVER LE CURRY VERT. Le lait de coco y est structurel — il porte les composés liposolubles de la pâte, il équilibre le piquant, il fait le volume. Une version au lait de coco léger dilué donne un plat maigre et agressif. MIEUX VAUT INVESTIR DANS LA MOITIÉ DE LA FAMILLE QUI N'EN A JAMAIS EU.\n\nLES DOUZE GRAMMES DE LIPIDES PAR PORTION SONT CEUX DE LA VIANDE PLUS UNE CUILLÈRE À SOUPE D'HUILE POUR TROIS PORTIONS. Un curry vert au lait de coco régulier en porte 25 à 35. ET LES 210 MG DE SODIUM SONT LE CHIFFRE LE PLUS BAS DE TOUS LES PLATS PRINCIPAUX DE CE DOCUMENT.\n\nET C'EST UN PLAT DE MAISON, PAS DE RESTAURANT. Il est quasi absent des menus nord-américains, ce qui veut dire qu'il n'y a aucun repère extérieur pour juger le résultat — et aussi qu'on ne le compare pas à une version plus riche."
+      },
+      {
+        "titre": "Le piquant est réel, et il se dose à la pâte",
+        "texte": "UN KUA KLING AUTHENTIQUE DU SUD DE LA THAÏLANDE EST TRÈS FORT — c'est une des cuisines les plus piquantes du pays. À dix piments séchés pour 450 g de viande, le plat est franchement brûlant. COMMENCER À SIX, ET GOÛTER LA PÂTE CRUE DU BOUT DU DOIGT AVANT DE LA CUIRE : c'est le seul moment où on peut encore ajuster.\n\nET LE PIQUANT N'EST PAS QU'UN GOÛT, C'EST UN LEVIER DE SODIUM. Ce plat tient à 210 mg parce que la capsaïcine, les aromates et le curcuma occupent la bouche à la place du sel. C'EST LE MÊME MÉCANISME QUE T22, PAR UNE AUTRE PORTE : au lieu de compenser par l'acide, on compense par le piquant et l'aromatique.\n\nLES CRUDITÉS À CÔTÉ NE SONT PAS UNE GARNITURE, ELLES SONT LA MOITIÉ DU PLAT. En Thaïlande du Sud, un kua kling se mange avec un plateau de légumes crus qui rafraîchissent entre les bouchées. POUR CE DOSSIER, C'EST AUSSI CE QUI DONNE LE QUART LÉGUME DU SOUPER, à zéro effort et zéro sodium — et un croquant que le plat, à dominante ferme et moelleuse, n'a pas.\n\nLA PÂTE SE FAIT EN DOUBLE ET SE CONGÈLE EN PORTIONS D'UNE CUILLÈRE À SOUPE. C'est ce qui fait passer ce plat de 25 minutes à 13. Les ingrédients de la pâte sont tous chez Kim Phat, et les piments séchés se gardent un an."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R79",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "croquant",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "saute-de-porc-et-legumes-niku-yasai-itame",
+    "jp": "肉野菜炒め",
+    "jp_lecture": "にくやさいいため",
+    "romaji": "niku-yasai itame",
+    "langue_origine": "ja",
+    "fr": "Saute de porc et legumes (niku-yasai itame)",
+    "sous_titre": "Le deuxième plat le plus cuisiné dans les foyers japonais, et le recueil n'avait aucun sauté-repas. Deux cent cinquante grammes de porc, quatre tasses de légumes, dix-huit minutes.",
+    "portions": "2",
+    "temps_affiche": "≈ 18 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 8,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 34,
+      "proteines_affiche": "34 g",
+      "calories": 380,
+      "calories_affiche": "≈ 380",
+      "lipides_g": 18,
+      "sodium_mg": 400,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "250 g de porc tranché mince (les sacs de ~200 g du congélateur, ou du porc shabu)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "400 g de légumes, coupés par ordre de dureté : 200 g de chou vert en morceaux · 1 carotte en fines rondelles biseautées · 150 g de fèves germées · 1/2 oignon en lamelles · 3 oignons verts en tronçons",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe d'eau, pour la vapeur (T13)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE PRÉMÉLANGÉE AU BOL (T18) : 1 c. à soupe de sauce soya réduite en sodium · 1 c. à thé de saké · 1/2 c. à thé de sucre · 1/2 c. à thé de poivre · 1/2 c. à thé d'huile de sésame, à ajouter hors du feu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 gousse d'ail, 1 c. à thé de gingembre",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18",
+      "T13"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "TOUT COUPER ET MESURER AVANT D'ALLUMER. Ce plat dure huit minutes; il n'y a pas de pause dedans."
+      },
+      {
+        "n": 2,
+        "texte": "La sauce mélangée au bol, mise de côté."
+      },
+      {
+        "n": 3,
+        "texte": "Poêle large très chaude, la moitié de l'huile. Le porc en une couche, sans le toucher 60 secondes, puis retourné et sorti dès qu'il n'est plus rose. LE SORTIR : il finira à la fin."
+      },
+      {
+        "n": 4,
+        "texte": "Le reste de l'huile. Les légumes par ordre de dureté : carotte et oignon 90 secondes, chou 90 secondes, germes et oignons verts en dernier 30 secondes."
+      },
+      {
+        "n": 5,
+        "texte": "LES 2 C. À SOUPE D'EAU ET LE COUVERCLE, 30 à 45 secondes. C'est T13 : la vapeur cuit le cœur du chou sans qu'il faille plus d'huile."
+      },
+      {
+        "n": 6,
+        "texte": "Couvercle retiré, le porc remis, la sauce versée SUR LE BORD de la poêle. Enrober 30 secondes."
+      },
+      {
+        "n": 7,
+        "texte": "Hors du feu, l'huile de sésame. Servir immédiatement."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Un sauté-repas, et le recueil n'en avait pas un seul",
+        "texte": "LE RECUEIL A DES SAUTÉS — le shogayaki, le bœuf et brocoli, le mapo — MAIS AUCUN SAUTÉ-REPAS AU SENS JAPONAIS : une poêlée unique qui porte la protéine et les quatre tasses de légumes en même temps. C'est le format le plus utilisé dans les foyers japonais après le curry, précisément parce qu'il vide le frigo et ne demande qu'une poêle.\n\nLA STRUCTURE EST PARFAITEMENT ALIGNÉE SUR LE GABARIT DU SOUPER : moitié légumes, quart protéine, quart féculent. Quatre cents grammes de légumes pour 250 g de porc et un bol de riz, c'est le ratio écrit au guide 5, obtenu sans y penser.\n\nET C'EST LE MEILLEUR DÉBOUCHÉ POUR LES SACS DE PORC TRANCHÉ MINCE DU CONGÉLATEUR. Ils se décongèlent en dix minutes à l'eau froide et ils sont déjà à la bonne épaisseur — aucune découpe. LE PORC TRANCHÉ MINCE EST L'ARTICLE DU CONGÉLATEUR QUI ATTEND LE PLUS LONGTEMPS SON DEUXIÈME PLAT.\n\nLE SODIUM À 400 MG POUR DEUX PORTIONS TIENT À DEUX CHOSES : la sauce est prémélangée au bol (T18) donc mesurée, et il n'y a qu'une cuillère à soupe de soya pour deux personnes. UN SAUTÉ ASSAISONNÉ À L'ŒIL AU-DESSUS DE LA POÊLE EN PORTE COURAMMENT LE DOUBLE, et c'est invisible."
+      },
+      {
+        "titre": "L'ordre des légumes est la recette",
+        "texte": "UN SAUTÉ DE LÉGUMES RATÉ EST PRESQUE TOUJOURS UN SAUTÉ OÙ TOUT EST ENTRÉ EN MÊME TEMPS. La carotte a besoin de trois minutes, le germe de soya de trente secondes : ensemble, on obtient soit de la carotte crue soit des germes morts. L'ORDRE PAR DURETÉ N'EST PAS UNE FINESSE, C'EST LA CONDITION POUR QUE LE PLAT AIT PLUSIEURS TEXTURES.\n\nET LES FÈVES GERMÉES ENTRENT EN DERNIER, TOUJOURS. Elles rendent beaucoup d'eau et elles s'affaissent en une minute. Mises tôt, elles noient la poêle et le plat passe du sauté au bouilli. TRENTE SECONDES, ET ELLES DOIVENT ENCORE CRAQUER.\n\nLA VIANDE SORT ET REVIENT, ET C'EST LA MÊME LEÇON QUE R17. Une protéine laissée dans la poêle pendant toute la cuisson des légumes cuit huit minutes au lieu de deux. Elle sort après sa saisie, elle revient avec la sauce.\n\nET LES 2 C. À SOUPE D'EAU SOUS COUVERCLE SONT CE QUI REMPLACE UN BRÛLEUR DE RESTAURANT. Voir T13 : la vapeur fait le travail que la puissance ferait, pour 3 g de lipides au lieu de 15. NE PAS SOULEVER LE COUVERCLE POUR REGARDER — on écoute, et quand le sifflement faiblit l'eau est partie."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R17"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R80",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "indonesienne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "tempe-saisi-aux-haricots-longs",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": "tumis tempe kacang panjang",
+    "langue_origine": "id",
+    "fr": "Tempe saisi aux haricots longs",
+    "sous_titre": "Nom du plat : tumis tempe kacang panjang. Vingt grammes de protéines aux cent grammes, il se tranche et se saisit comme une viande, et il est produit à Montréal. Aucun soya du recueil ne fait ça.",
+    "portions": "2",
+    "temps_affiche": "≈ 22 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 12,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 26,
+      "proteines_affiche": "26 g",
+      "calories": 350,
+      "calories_affiche": "≈ 350",
+      "lipides_g": 16,
+      "sodium_mg": 320,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+    },
+    "ingredients": [
+      {
+        "texte": "250 g de tempé, en tranches de 1 cm puis en bâtonnets",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 g de haricots longs ou de haricots verts, en tronçons de 4 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA PÂTE D'AROMATES (bumbu), au mortier ou au couteau : 3 échalotes · 3 gousses d'ail · 2 piments rouges · 1 c. à thé de gingembre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE PRÉMÉLANGÉE (T18) : 1 c. à soupe de sauce soya réduite en sodium · 1 c. à thé de sucre de palme ou de cassonade · 1 c. à soupe d'eau · 1 c. à thé de jus de lime, hors du feu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 feuille de laurier indonésien (salam), 2 feuilles de lime kaffir",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/4 c. à thé de terasi (pâte de crevette grillée) — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Trancher le tempé en bâtonnets et l'éponger. Piler ou hacher très fin les aromates."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle antiadhésive à feu moyen-vif avec la moitié de l'huile. Le tempé en une couche, SANS Y TOUCHER 3 minutes, puis retourner et 2 minutes. Il doit être doré et croustillant sur deux faces. Le sortir."
+      },
+      {
+        "n": 3,
+        "texte": "Le reste de l'huile, la pâte d'aromates, 2 minutes à feu moyen jusqu'à ce qu'elle sente cuit."
+      },
+      {
+        "n": 4,
+        "texte": "Les haricots, 3 à 4 minutes. Ils doivent rester fermes."
+      },
+      {
+        "n": 5,
+        "texte": "Le tempé remis, la sauce versée sur le bord, 1 minute d'enrobage."
+      },
+      {
+        "n": 6,
+        "texte": "Hors du feu, le jus de lime."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le seul soya du recueil qui se comporte comme une viande",
+        "texte": "LE TEMPÉ EST DU SOYA FERMENTÉ EN BLOC PAR UN CHAMPIGNON, RHIZOPUS, qui lie les fèves entières en une masse ferme. C'est ce qui le distingue radicalement du tofu : les fèves sont ENTIÈRES, donc il garde les fibres, il se tranche net, il dore, il croustille et il tient dans une poêle. VINGT GRAMMES DE PROTÉINES AUX CENT GRAMMES, contre 8 à 12 pour le tofu ferme.\n\nET IL EST PRODUIT À MONTRÉAL. Noble Bean, certifié Aliments du Québec, vendu chez IGA et Metro au rayon réfrigéré des produits végétariens. C'EST L'INGRÉDIENT LE PLUS FACILE À APPROVISIONNER DE TOUTE L'ANALYSE DU RÉPERTOIRE — plus facile que la moitié des produits japonais du recueil, et sans détour par une épicerie asiatique.\n\nLE GOÛT EST FRANC ET IL FAUT LE SAVOIR AVANT D'ACHETER : noisette, champignon, légèrement amer, nettement plus présent que le tofu. CE N'EST PAS UN SUBSTITUT NEUTRE, C'EST UN ALIMENT AVEC UN CARACTÈRE. Les gens qui n'aiment pas le tofu parce qu'il ne goûte rien aiment souvent le tempé; l'inverse est vrai aussi.\n\nET LES 16 G DE LIPIDES PAR PORTION SONT RÉELS. Le tempé en porte de l'ordre de 10 g aux 100 g — c'est du soya entier, donc son gras est là. Avec la cuillère à soupe d'huile, ce plat n'est pas un plat maigre. IL EST BIEN PLACÉ UN JOUR OÙ LE DÉJEUNER A PERDU SON GRAS, ce qui arrive plus souvent que l'inverse dans ce dossier."
+      },
+      {
+        "titre": "Deux gestes qui changent le tempé, et un mot sur le terasi",
+        "texte": "LE TEMPÉ NE SE REMUE PAS PENDANT SA SAISIE. Comme un morceau de viande, il a besoin d'un contact immobile et prolongé avec le métal pour développer une croûte. Remué, il rend son humidité, il cuit à la vapeur et il reste pâle et mou — c'est l'erreur la plus courante et elle gâche tout l'intérêt de l'ingrédient. TROIS MINUTES SANS Y TOUCHER.\n\nET IL SORT DE LA POÊLE AVANT LES LÉGUMES. Laissé dedans, il perd son croustillant dans l'humidité des haricots. Il revient à la fin, avec la sauce, une minute — assez pour prendre le goût, pas assez pour ramollir.\n\nLE TERASI EST FACULTATIF MAIS IL EST LE VRAI GOÛT INDONÉSIEN. C'est une pâte de crevettes fermentées et grillées, très concentrée : un quart de cuillère à thé suffit pour deux portions, et elle apporte un umami profond qu'aucun autre ingrédient de ce plat ne donne. ELLE SE GRILLE À SEC DANS LA POÊLE QUELQUES SECONDES AVANT D'ENTRER — crue, elle est agressive. COMPTER SON SODIUM : de l'ordre de 400 mg par cuillère à thé, donc 100 mg pour la dose ci-dessus, et retirer alors la moitié du soya.\n\nLA MOITIÉ DE LA CUISINE INDONÉSIENNE EST AU LAIT DE COCO, ET CE DOSSIER L'AMPUTE EXPLICITEMENT. Ce n'est pas un oubli : le rendang, le gulai, l'opor sont structurellement gras, comme le curry vert thaï. CE QU'ON GARDE DE CETTE CUISINE, C'EST LE TEMPÉ, LE BUMBU ET LA PAPILLOTE VAPEUR — trois apports réels, sans la moitié coco."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R81",
+    "statut": "actif",
+    "categorie": "soupe-entree",
+    "cuisine": "coreenne",
+    "vitesse": "moyen",
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote",
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-de-boeuf-et-daikon-sogogi-muguk",
+    "jp": "소고기무국",
+    "jp_lecture": null,
+    "romaji": "sogogi muguk",
+    "langue_origine": "ko",
+    "fr": "Soupe de boeuf et daikon (sogogi muguk)",
+    "sous_titre": "Écriture d'origine 소고기무국, sogogi muguk. Le radis fond et sucre le bouillon — la saveur ne vient pas du sel. Le plus bas en sodium de toutes les soupes coréennes, pour de la vraie protéine.",
+    "portions": "3",
+    "temps_affiche": "≈ 35 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 25,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 24,
+      "proteines_affiche": "24 g",
+      "calories": 210,
+      "calories_affiche": "≈ 210",
+      "lipides_g": 8,
+      "sodium_mg": 380,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 380 mg — VAUT POUR LES TROIS PORTIONS, soit environ 127 mg par bol. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de bœuf maigre en cubes de 2 cm : macreuse, palette parée, ou bœuf à ragoût",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "500 g de daikon, pelé, en tranches de 3 mm ou en cubes de 2 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1,2 L d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 morceau de kombu de 5 cm, retiré avant l'ébullition",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 gousses d'ail émincées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 c. à thé de sel, GOÛTÉ ET AJUSTÉ EN DERNIER",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 oignons verts en tronçons de 4 cm, poivre noir",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Casserole à feu moyen avec l'huile de sésame. Le bœuf et l'ail, 3 à 4 minutes, jusqu'à ce que la surface des cubes soit grise et que ça sente le grillé."
+      },
+      {
+        "n": 2,
+        "texte": "Le daikon, 2 minutes de plus, remué."
+      },
+      {
+        "n": 3,
+        "texte": "L'eau et le kombu. Monter doucement et RETIRER LE KOMBU DÈS QUE DE PETITES BULLES APPARAISSENT SUR LES BORDS — au-delà, il devient amer et visqueux, et c'est irréversible."
+      },
+      {
+        "n": 4,
+        "texte": "Frémissement doux, à couvert, 20 à 25 minutes. Écumer les premières minutes."
+      },
+      {
+        "n": 5,
+        "texte": "LE DAIKON EST PRÊT QUAND IL EST TRANSLUCIDE ET QU'IL CÈDE SOUS UNE CUILLÈRE. Pas avant : le goût du plat vient de là."
+      },
+      {
+        "n": 6,
+        "texte": "La cuillère de soya, puis le sel PAR PETITES QUANTITÉS, en goûtant. La soupe a besoin de moins qu'on croit."
+      },
+      {
+        "n": 7,
+        "texte": "Hors du feu, oignons verts et poivre."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La saveur vient du radis, et c'est vérifiable",
+        "texte": "UN DAIKON MIJOTÉ VINGT MINUTES SE TRANSFORME : ses enzymes et sa chaleur convertissent une partie de ses glucides, il devient translucide, il perd son piquant soufré et IL SUCRE LE BOUILLON. Ce n'est pas une image — un bouillon de bœuf et daikon goûté sans sel est déjà rond et légèrement sucré, ce qu'un bouillon de bœuf seul n'est pas.\n\nC'EST POUR ÇA QUE CETTE SOUPE EST LA PLUS BASSE EN SODIUM DE TOUTES LES SOUPES CORÉENNES DU RÉPERTOIRE, ET DE LOIN. Un doenjang jjigae porte 1 100 à 1 300 mg par bol, un kimchi jjigae guère moins. Celle-ci tient à 380 mg pour trois portions, soit environ 127 mg par bol, ET ELLE NE GOÛTE PAS FADE — parce que ce qui la porte n'est pas le sel.\n\nLA DISTINCTION 국 GUK ET 찌개 JJIGAE MÉRITE D'ÊTRE ÉCRITE UNE FOIS POUR TOUTES. Le guk est une soupe claire et abondante, légèrement assaisonnée : c'est le ichiju du bapsang coréen, l'équivalent de la soupe miso. Le jjigae est un ragoût dense et salé qui tend à devenir le plat principal. POUR LE SODIUM, LES GUK SONT SYSTÉMATIQUEMENT MEILLEURS — ET LE RECUEIL N'AVAIT QUE DES JJIGAE. Cette fiche est le premier guk du dossier.\n\nET LE SEL VA À LA FIN, EN GOÛTANT. Le liquide réduit d'un cinquième en vingt-cinq minutes; une soupe salée au début devient trop salée à l'arrivée. C'est la même règle que T16."
+      },
+      {
+        "titre": "Le daikon, et le problème qu'il règle",
+        "texte": "CINQ CENTS GRAMMES DE DAIKON PAR RECETTE, C'EST À PEU PRÈS UN DEMI-DAIKON. Le registre du dossier a un problème récurrent avec cet ingrédient : un daikon entier est trop gros pour deux personnes, il traîne au frigo, et la fiche qui en consomme le plus n'avait jamais été faite. CETTE SOUPE EST LE MEILLEUR DÉBOUCHÉ DU RECUEIL POUR UN DAIKON ENTAMÉ.\n\nLA COUPE CHANGE LE PLAT PLUS QU'ON CROIT. En tranches minces de 3 mm, le daikon devient presque translucide et se mange comme un légume-feuille — c'est la version la plus courante en Corée. En cubes de 2 cm, il garde un cœur ferme et devient un légume à part entière dans le bol. LES DEUX SONT JUSTES; LA PREMIÈRE DONNE UNE SOUPE, LA SECONDE UN REPAS.\n\nET LE KOMBU EST UNE FOIS PAR SEMAINE, PAS PLUS. Il apporte de 1 500 à 3 000 microgrammes d'iode par gramme, et le dossier a déjà une règle là-dessus. SI LE KOMBU A DÉJÀ SERVI CETTE SEMAINE, LE REMPLACER PAR 3 SHIITAKE SÉCHÉS et leur eau de trempage : le glutamate change de source, le plat ne change pas de nature.\n\nLA COUPE DE BŒUF SUIT LA MÊME LOGIQUE QUE R77 : une coupe maigre riche en collagène. Une surlonge donne des cubes secs en vingt-cinq minutes; une macreuse donne des cubes qui cèdent."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R77"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R82",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "poche"
+    ],
+    "axe_gout": [
+      "doux",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "fondant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "poulet-poche-a-froid-mushidori",
+    "jp": "蒸し鶏",
+    "jp_lecture": "むしどり",
+    "romaji": "mushidori",
+    "langue_origine": "ja",
+    "fr": "Poulet poche a froid (mushidori)",
+    "sous_titre": "Cinq minutes de feu, quarante minutes où l'on ne fait rien, et la brique protéique la moins chère du recueil. Trente-trois grammes de protéines pour trois grammes de lipides.",
+    "portions": "4",
+    "temps_affiche": "≈ 10 min actives, 40 min passives",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 5,
+      "attente": 40
+    },
+    "preparation_avance": "Se garde quatre jours au frigo, dans son jus. À faire pendant la session du dimanche, avec le jangjorim (R77) et les namul (R72).",
+    "nutrition": {
+      "proteines_g": 33,
+      "proteines_affiche": "33 g",
+      "calories": 170,
+      "calories_affiche": "≈ 170",
+      "lipides_g": 3,
+      "sodium_mg": 150,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES QUATRE PORTIONS. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "600 g de poitrines de poulet, entières, sans la peau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Assez d'eau pour couvrir de 3 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 tronçon d'oignon vert, 3 tranches de gingembre, 1 c. à soupe de saké",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À SERVIR, au choix : ponzu · sauce sésame · vinaigrette yam (T22) · gingembre râpé et un filet de soya",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T22"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Sortir le poulet du frigo 20 minutes avant. Une poitrine froide au cœur cuit inégalement."
+      },
+      {
+        "n": 2,
+        "texte": "Dans une casserole juste assez grande, le poulet, l'eau à 3 cm au-dessus, l'oignon vert, le gingembre, le saké et le sel."
+      },
+      {
+        "n": 3,
+        "texte": "Porter à FRÉMISSEMENT — de petites bulles aux bords, jamais un bouillonnement. Compter 2 minutes à ce stade."
+      },
+      {
+        "n": 4,
+        "texte": "ÉTEINDRE LE FEU. COUVRIR. NE PLUS RIEN FAIRE PENDANT 30 À 40 MINUTES. C'est toute la technique."
+      },
+      {
+        "n": 5,
+        "texte": "Sortir le poulet et vérifier : la chair doit être opaque jusqu'au centre. Un reste de rose, remettre 10 minutes dans l'eau chaude, feu éteint."
+      },
+      {
+        "n": 6,
+        "texte": "LAISSER REFROIDIR DANS SON JUS si on ne le mange pas tout de suite. C'est ce qui le garde humide."
+      },
+      {
+        "n": 7,
+        "texte": "Trancher en travers, ou effilocher."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi l'eau éteinte fait mieux que l'eau qui bout",
+        "texte": "UNE POITRINE DE POULET EST LA COUPE LA PLUS FACILE À RATER DE TOUTE LA VIANDE : peu de gras, peu de collagène, et un écart de cinq degrés entre juteuse et sèche. À GROS BOUILLONS, L'EXTÉRIEUR PASSE 100 °C PENDANT QUE LE CŒUR MONTE, les fibres se contractent et expulsent leur eau, et on obtient une chair filandreuse.\n\nL'EAU ÉTEINTE RÈGLE ÇA PAR LA PHYSIQUE. Une casserole couverte d'eau à 90 °C descend lentement, et pendant trente minutes elle traverse exactement la fenêtre où les protéines du poulet coagulent sans se contracter — de 65 à 75 °C. LE POULET ARRIVE À BONNE TEMPÉRATURE PAR LE BAS, ET IL N'Y A AUCUN MOMENT OÙ IL EST SURCUIT.\n\nET LA MÉTHODE PARDONNE PRESQUE TOUT. Quarante minutes au lieu de trente ne change rien : l'eau est déjà tombée sous le seuil. C'est l'inverse d'un poulet grillé, où trois minutes de trop sont fatales. POUR UN DOSSIER OÙ LA CUISINE SE FAIT AVEC DES INTERRUPTIONS, C'EST LE PROFIL DE CUISSON LE PLUS SÛR QUI EXISTE.\n\nCENT CINQUANTE MILLIGRAMMES DE SODIUM POUR QUATRE PORTIONS, ET TROIS GRAMMES DE LIPIDES. Aucune huile n'entre, la peau est retirée, le sel est dans une eau qu'on jette en partie. C'EST LA PROTÉINE LA PLUS PROPRE DU RECUEIL, ET ELLE EST AUSSI LA MOINS CHÈRE AU GRAMME."
+      },
+      {
+        "titre": "Ce que ça remplace dans une semaine",
+        "texte": "LE RECUEIL A DEUX PRÉPARATIONS DE POULET D'AVANCE — LE POULET GRILLÉ AU SEL ET LE YAKITORI — ET LES DEUX DEMANDENT UN GRIL ET DE LA SURVEILLANCE. Celle-ci demande cinq minutes et une casserole, et elle donne quatre portions.\n\nLA FONCTION EXACTE EST LA BRIQUE NEUTRE. Le mushidori n'a presque pas de goût propre, et c'est sa force : il entre dans un donburi, dans une salade de soba, dans une salade yam (T22), dans un bol de nouilles, dans un ochazuke. IL PREND LE GOÛT DE CE QUI L'ENTOURE. Le poulet grillé au sel, lui, impose le sien.\n\nET IL EST LE MEILLEUR CANDIDAT DU RECUEIL POUR LA SESSION DU DIMANCHE, avec le jangjorim (R77) et les namul (R72). Les trois se font dans le même créneau, aucun ne demande d'attention continue, et les trois couvrent quatre jours.\n\nLE JUS DE POCHAGE NE SE JETTE PAS. Filtré, c'est un bouillon de poulet léger et propre — de quoi monter un gaeng jued (R74) ou une soupe claire. IL EST PEU SALÉ, DONC IL SE RÉASSAISONNE LIBREMENT, ce qui est rare pour un bouillon.\n\nSI LA CUISSON À L'EAU ÉTEINTE INQUIÈTE : la chair doit être opaque jusqu'au centre, sans aucune zone rose ni translucide, et le jus qui sort d'une entaille doit être clair. En cas de doute, dix minutes de plus dans l'eau chaude. LA MÉTHODE EST STANDARD AU JAPON, mais le repère visuel est ce qui tranche, pas le minuteur."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R72",
+      "R74",
+      "R77"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R83",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "marine",
+      "cru"
+    ],
+    "axe_gout": [
+      "piquant",
+      "acide"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "daikon-en-allumettes-au-gochugaru-musaengchae",
+    "jp": "무생채",
+    "jp_lecture": null,
+    "romaji": "musaengchae",
+    "langue_origine": "ko",
+    "fr": "Daikon en allumettes au gochugaru (musaengchae)",
+    "sous_titre": "Écriture d'origine 무생채, musaengchae. Un substitut rapide au kimchi, à sodium contrôlé, et un accompagnement franchement croquant qui n'est pas du concombre. Le recueil en avait un seul.",
+    "portions": "4",
+    "temps_affiche": "≈ 30 min dont 20 d'attente",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 0,
+      "attente": 20
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 35,
+      "calories_affiche": "≈ 35",
+      "lipides_g": 1,
+      "sodium_mg": 110,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 110 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 28 mg par portion, parce que le sel de dégorgement est RINCÉ. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de daikon, pelé, en allumettes de 4 à 5 mm et 5 cm de long",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sel, POUR LE DÉGORGEMENT SEULEMENT — il sera rincé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "L'ASSAISONNEMENT : 1 à 2 c. à thé de gochugaru · 1 c. à soupe de vinaigre de riz · 1 c. à thé de sucre · 1 gousse d'ail râpée fin · 1/8 c. à thé de sel · 1 c. à thé de graines de sésame",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 oignons verts émincés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/2 c. à thé d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T7b"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Tailler les allumettes. À la mandoline avec la grille à julienne, ou au couteau : trancher en ovales de 4 mm en tenant la lame inclinée, empiler quatre ou cinq ovales, retailler en bâtonnets."
+      },
+      {
+        "n": 2,
+        "texte": "Saler avec la cuillère à thé, mélanger, laisser dégorger 20 minutes. Le daikon rend beaucoup d'eau."
+      },
+      {
+        "n": 3,
+        "texte": "RINCER À L'EAU FROIDE, PUIS PRESSER FERMEMENT. C'est cette étape qui distingue cette fiche du sunomono du recueil : le sel de dégorgement PART, il ne reste pas dans le plat."
+      },
+      {
+        "n": 4,
+        "texte": "Dans un bol, le gochugaru d'abord, mélangé à la main pour colorer uniformément les allumettes. Puis vinaigre, sucre, ail, la pincée de sel."
+      },
+      {
+        "n": 5,
+        "texte": "Goûter, ajuster. Les oignons verts et le sésame."
+      },
+      {
+        "n": 6,
+        "texte": "Servir tout de suite ou dans l'heure. Se garde 2 jours, mais il rend de l'eau et perd son croquant."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le sel de dégorgement est rincé, et c'est tout l'écart avec le sunomono",
+        "texte": "LE RECUEIL A DÉJÀ UN PLAT DE LÉGUME DÉGORGÉ ET VINAIGRÉ — LE SUNOMONO — ET SON SEL DE DÉGORGEMENT N'EST PAS RINCÉ. Une cuillère à thé de sel représente environ 2 300 mg; le pressage en emporte une part, mais il en reste de l'ordre de 250 mg par portion. C'EST LE POSTE SODIQUE CACHÉ DE CE PLAT, ET IL EST CINQ FOIS PLUS GROS QUE SA VINAIGRETTE.\n\nICI, LE SEL EST RINCÉ ET LA DIFFÉRENCE EST MESURABLE : environ 110 mg pour QUATRE portions, soit 28 mg par portion, contre 250. LE MÊME GESTE CULINAIRE — dégorger un légume pour le rendre croquant et concentré — À UN DIXIÈME DU SODIUM.\n\nPOURQUOI LE RINÇAGE MARCHE ICI ET PAS LÀ. Le daikon en allumettes de 4 mm a une surface énorme et une chair poreuse : le sel a fait son travail osmotique en vingt minutes et il est surtout en surface. Un concombre en tranches fines dégorgé puis rincé perd aussi sa vinaigrette et devient fade — sa chair retient moins bien l'assaisonnement.\n\nET LE GOCHUGARU ENTRE AVANT LES LIQUIDES, À LA MAIN. Mélangé après le vinaigre, il fait des grumeaux rouges et ne colore rien. Sur un légume juste humide, il s'accroche à chaque allumette. C'EST LE MÊME PRINCIPE QUE L'ASSAISONNEMENT À LA MAIN DES NAMUL (T20)."
+      },
+      {
+        "titre": "Pourquoi cette fiche est ici, et le trou qu'elle comble",
+        "texte": "LE DOCUMENT 20 A CHIFFRÉ QUELQUE CHOSE D'INCONFORTABLE. Sur les 79 fiches du recueil, HUIT SEULEMENT AVAIENT LE CROQUANT COMME TEXTURE DOMINANTE. Quatre de ces huit étaient du concombre ou du daikon cru, et TROIS DE CES QUATRE ÉTAIENT DÉJÀ ÉCARTÉES DU RÉPERTOIRE PERSONNEL — à cause du concombre, pas du croquant. Des quatre qui restaient, un était un fruit, deux étaient des plats lourds à monter, et le dernier était le kinpira, dont la coupe prend vingt minutes.\n\nAUTREMENT DIT : LE RECUEIL AVAIT UN SEUL ACCOMPAGNEMENT FRANCHEMENT CROQUANT QUI NE SOIT PAS UN MARINAGE DE CONCOMBRE, ET C'ÉTAIT CELUI DONT LA JULIENNE ÉTAIT TROP LONGUE. Cette fiche est la réponse directe : croquante, dix minutes, pas de concombre, quatre portions.\n\nET ELLE PARTAGE LA MÊME COUPE QUE LE KINPIRA, DONC LE MÊME OUTIL LA DÉBLOQUE. Un économe à julienne ou une mandoline à grille julienne ramène les dix minutes à trois, et sert aux deux fiches. C'EST L'ARGUMENT LE PLUS FORT POUR CET ACHAT : il ne débloque plus une fiche, il en débloque deux.\n\nLE GOCHUGARU N'EST PAS INTERCHANGEABLE AVEC UN AUTRE PIMENT MOULU. Il est grossièrement moulu, fruité, modérément piquant, et il colore beaucoup pour ce qu'il chauffe. Du piment de Cayenne à la même dose rend le plat brûlant et brun. Chez Kim Phat, allée 32, marque maison en sacs de 454 g."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [
+      "R45",
+      "R46"
+    ],
+    "commentaire_source": ""
   }
 ]

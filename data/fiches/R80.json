@@ -1,0 +1,139 @@
+{
+  "id": "R80",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "indonesienne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "tempe-saisi-aux-haricots-longs",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": "tumis tempe kacang panjang",
+  "langue_origine": "id",
+  "fr": "Tempe saisi aux haricots longs",
+  "sous_titre": "Nom du plat : tumis tempe kacang panjang. Vingt grammes de protéines aux cent grammes, il se tranche et se saisit comme une viande, et il est produit à Montréal. Aucun soya du recueil ne fait ça.",
+  "portions": "2",
+  "temps_affiche": "≈ 22 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 12,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 26,
+    "proteines_affiche": "26 g",
+    "calories": 350,
+    "calories_affiche": "≈ 350",
+    "lipides_g": 16,
+    "sodium_mg": 320,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+  },
+  "ingredients": [
+    {
+      "texte": "250 g de tempé, en tranches de 1 cm puis en bâtonnets",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de haricots longs ou de haricots verts, en tronçons de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA PÂTE D'AROMATES (bumbu), au mortier ou au couteau : 3 échalotes · 3 gousses d'ail · 2 piments rouges · 1 c. à thé de gingembre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE PRÉMÉLANGÉE (T18) : 1 c. à soupe de sauce soya réduite en sodium · 1 c. à thé de sucre de palme ou de cassonade · 1 c. à soupe d'eau · 1 c. à thé de jus de lime, hors du feu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 feuille de laurier indonésien (salam), 2 feuilles de lime kaffir",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/4 c. à thé de terasi (pâte de crevette grillée) — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Trancher le tempé en bâtonnets et l'éponger. Piler ou hacher très fin les aromates."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle antiadhésive à feu moyen-vif avec la moitié de l'huile. Le tempé en une couche, SANS Y TOUCHER 3 minutes, puis retourner et 2 minutes. Il doit être doré et croustillant sur deux faces. Le sortir."
+    },
+    {
+      "n": 3,
+      "texte": "Le reste de l'huile, la pâte d'aromates, 2 minutes à feu moyen jusqu'à ce qu'elle sente cuit."
+    },
+    {
+      "n": 4,
+      "texte": "Les haricots, 3 à 4 minutes. Ils doivent rester fermes."
+    },
+    {
+      "n": 5,
+      "texte": "Le tempé remis, la sauce versée sur le bord, 1 minute d'enrobage."
+    },
+    {
+      "n": 6,
+      "texte": "Hors du feu, le jus de lime."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le seul soya du recueil qui se comporte comme une viande",
+      "texte": "LE TEMPÉ EST DU SOYA FERMENTÉ EN BLOC PAR UN CHAMPIGNON, RHIZOPUS, qui lie les fèves entières en une masse ferme. C'est ce qui le distingue radicalement du tofu : les fèves sont ENTIÈRES, donc il garde les fibres, il se tranche net, il dore, il croustille et il tient dans une poêle. VINGT GRAMMES DE PROTÉINES AUX CENT GRAMMES, contre 8 à 12 pour le tofu ferme.\n\nET IL EST PRODUIT À MONTRÉAL. Noble Bean, certifié Aliments du Québec, vendu chez IGA et Metro au rayon réfrigéré des produits végétariens. C'EST L'INGRÉDIENT LE PLUS FACILE À APPROVISIONNER DE TOUTE L'ANALYSE DU RÉPERTOIRE — plus facile que la moitié des produits japonais du recueil, et sans détour par une épicerie asiatique.\n\nLE GOÛT EST FRANC ET IL FAUT LE SAVOIR AVANT D'ACHETER : noisette, champignon, légèrement amer, nettement plus présent que le tofu. CE N'EST PAS UN SUBSTITUT NEUTRE, C'EST UN ALIMENT AVEC UN CARACTÈRE. Les gens qui n'aiment pas le tofu parce qu'il ne goûte rien aiment souvent le tempé; l'inverse est vrai aussi.\n\nET LES 16 G DE LIPIDES PAR PORTION SONT RÉELS. Le tempé en porte de l'ordre de 10 g aux 100 g — c'est du soya entier, donc son gras est là. Avec la cuillère à soupe d'huile, ce plat n'est pas un plat maigre. IL EST BIEN PLACÉ UN JOUR OÙ LE DÉJEUNER A PERDU SON GRAS, ce qui arrive plus souvent que l'inverse dans ce dossier."
+    },
+    {
+      "titre": "Deux gestes qui changent le tempé, et un mot sur le terasi",
+      "texte": "LE TEMPÉ NE SE REMUE PAS PENDANT SA SAISIE. Comme un morceau de viande, il a besoin d'un contact immobile et prolongé avec le métal pour développer une croûte. Remué, il rend son humidité, il cuit à la vapeur et il reste pâle et mou — c'est l'erreur la plus courante et elle gâche tout l'intérêt de l'ingrédient. TROIS MINUTES SANS Y TOUCHER.\n\nET IL SORT DE LA POÊLE AVANT LES LÉGUMES. Laissé dedans, il perd son croustillant dans l'humidité des haricots. Il revient à la fin, avec la sauce, une minute — assez pour prendre le goût, pas assez pour ramollir.\n\nLE TERASI EST FACULTATIF MAIS IL EST LE VRAI GOÛT INDONÉSIEN. C'est une pâte de crevettes fermentées et grillées, très concentrée : un quart de cuillère à thé suffit pour deux portions, et elle apporte un umami profond qu'aucun autre ingrédient de ce plat ne donne. ELLE SE GRILLE À SEC DANS LA POÊLE QUELQUES SECONDES AVANT D'ENTRER — crue, elle est agressive. COMPTER SON SODIUM : de l'ordre de 400 mg par cuillère à thé, donc 100 mg pour la dose ci-dessus, et retirer alors la moitié du soya.\n\nLA MOITIÉ DE LA CUISINE INDONÉSIENNE EST AU LAIT DE COCO, ET CE DOSSIER L'AMPUTE EXPLICITEMENT. Ce n'est pas un oubli : le rendang, le gulai, l'opor sont structurellement gras, comme le curry vert thaï. CE QU'ON GARDE DE CETTE CUISINE, C'EST LE TEMPÉ, LE BUMBU ET LA PAPILLOTE VAPEUR — trois apports réels, sans la moitié coco."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

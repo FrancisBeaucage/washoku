@@ -1,0 +1,155 @@
+{
+  "id": "R76",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "chinoise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "soyeux",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "crevettes-aux-oeufs-soyeux-huadan-xiaren",
+  "jp": "滑蛋虾仁",
+  "jp_lecture": null,
+  "romaji": "huádàn xiārén",
+  "langue_origine": "zh",
+  "fr": "Crevettes aux oeufs soyeux (huadan xiaren)",
+  "sous_titre": "Écriture d'origine 滑蛋虾仁, huadan xiaren. Aucune sauce salée, aucune fécule liée, aucun soya : du sel, du vin de riz et des œufs. Tout le sodium de ce plat vient des crevettes elles-mêmes — et c'est un cas d'école.",
+  "portions": "2",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 5,
+    "attente": 2
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 42,
+    "proteines_affiche": "42 g",
+    "calories": 340,
+    "calories_affiche": "≈ 340",
+    "lipides_g": 17,
+    "sodium_mg": 780,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. LES 780 MG DE SODIUM VIENNENT DES CREVETTES, PAS DE L'ASSAISONNEMENT : l'étiquette du sac lue le 18 août 2026 donne 584 mg aux 100 g. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "250 g de crevettes crues décortiquées, DÉCONGELÉES À L'EAU FROIDE PUIS RINCÉES ET BIEN ÉGOUTTÉES",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "5 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe d'eau ou de dashi, dans les œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel, pour les œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de vin de riz ou de saké, pour les crevettes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de fécule et un tour de poivre blanc, pour les crevettes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 oignons verts, les verts émincés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE SAUCE SOYA. C'est une caractéristique du plat, pas un oubli.",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Éponger les crevettes rincées, les mélanger avec le vin de riz, la fécule et le poivre. Laisser 10 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Battre les œufs avec l'eau et le sel, SANS MOUSSE. Ajouter les oignons verts."
+    },
+    {
+      "n": 3,
+      "texte": "Poêle antiadhésive à feu vif avec la moitié de l'huile. Les crevettes en une couche, 60 à 90 secondes, retournées une fois. DÈS QU'ELLES SONT ROSES ET COURBÉES EN C, LES SORTIR — elles finiront dans les œufs."
+    },
+    {
+      "n": 4,
+      "texte": "Les crevettes tiédies mélangées aux œufs battus, dans le bol."
+    },
+    {
+      "n": 5,
+      "texte": "Baisser à FEU MOYEN-DOUX, le reste de l'huile. Verser le mélange d'un coup."
+    },
+    {
+      "n": 6,
+      "texte": "Attendre 20 secondes sans toucher, puis pousser doucement du centre vers le bord avec une spatule, en larges mouvements. 60 à 90 secondes AU TOTAL."
+    },
+    {
+      "n": 7,
+      "texte": "SORTIR QUAND ÇA A ENCORE L'AIR À MOITIÉ CRU. La chaleur résiduelle finit dans l'assiette. Servir immédiatement."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Tout le sodium de ce plat vient des crevettes, et c'est mesuré",
+      "texte": "CE PLAT EST LE MEILLEUR CAS D'ÉCOLE DU RECUEIL SUR LE SODIUM CACHÉ, PARCE QUE SON ASSAISONNEMENT EST PRESQUE VIDE. Un quart de cuillère à thé de sel pour deux portions, une cuillère à thé de vin de riz, aucun soya, aucune sauce d'huîtres : DE L'ORDRE DE 290 MG POUR LES DEUX PORTIONS, sel compris.\n\nET POURTANT LA FICHE ANNONCE 780 MG PAR PORTION. La différence entière vient du produit : L'ÉTIQUETTE DU SAC DE CREVETTES LUE LE 18 AOÛT 2026 DONNE 730 MG PAR 125 G, SOIT 584 MG AUX 100 G. Deux cent cinquante grammes de crevettes portent donc à eux seuls environ 1 460 mg — cinq fois l'assaisonnement du plat.\n\nLA RECHERCHE DÉCRIVAIT CE PLAT COMME AYANT UN SODIUM QUASI NUL, ET C'EST VRAI DE LA RECETTE. Ce n'est pas vrai de la recette faite avec CES crevettes-là. UN INGRÉDIENT TRAITÉ AU SEL ET AU PHOSPHATE PEUT PORTER TOUT LE SODIUM D'UN PLAT DONT L'ASSAISONNEMENT EST IRRÉPROCHABLE.\n\nD'OÙ LES DEUX GESTES DE LA FICHE. UN — DÉCONGELER À L'EAU FROIDE ET RINCER FRANCHEMENT : le sel et le phosphate sont dans le glaçage de surface, pas dans la chair. L'ordre de grandeur retiré est de 15 à 25 %, non chiffrable au panneau nutritionnel. DEUX — CHERCHER, À LA PROCHAINE ÉPICERIE, UN SAC DONT LA LIGNE D'INGRÉDIENTS DIT SEULEMENT CREVETTES, ou des crevettes entières non décortiquées, généralement non traitées. C'est le seul vrai correctif."
+    },
+    {
+      "titre": "Le soyeux se joue dans les vingt dernières secondes",
+      "texte": "滑蛋, HUÁDÀN, VEUT DIRE ŒUF GLISSANT. La texture visée n'est ni une omelette ferme ni des œufs brouillés en grains : c'est une masse molle et fondante, à peine prise, qui glisse de la spatule. C'EST LE SEUL OBJECTIF DE LA TECHNIQUE et tout le reste y est subordonné.\n\nTROIS CHOSES LA PRODUISENT. UN — LE FEU MOYEN-DOUX : sur feu vif, les protéines de l'œuf se contractent, expulsent leur eau et le plat devient sec et granuleux en quinze secondes. DEUX — LES DEUX CUILLÈRES À SOUPE D'EAU DANS LES ŒUFS : elles retardent la coagulation et donnent de la marge. TROIS — SORTIR TÔT, ce qui est contre-intuitif : à l'assiette, la chaleur résiduelle continue de cuire pendant une bonne minute.\n\nLES CREVETTES SONT CUITES DEUX FOIS, ET C'EST VOULU. Saisies à part pour développer leur goût et leur couleur, puis mêlées aux œufs crus pour finir doucement. LES CUIRE DIRECTEMENT DANS LES ŒUFS donne des crevettes pâles et mollasses; LES LAISSER DANS LA POÊLE PENDANT TOUTE LA CUISSON DES ŒUFS les rend caoutchouteuses. Le passage par le bol est ce qui règle les deux.\n\nET LE PLAT EST À DOMINANTE SOYEUSE, DONC IL A BESOIN D'UN CROQUANT À CÔTÉ. Un namul de germes de soya (R72), du daikon en allumettes (R83), ou simplement du chou cru."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R72",
+    "R83"
+  ],
+  "commentaire_source": ""
+}

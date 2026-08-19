@@ -1,0 +1,159 @@
+{
+  "id": "R74",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "thaie",
+  "vitesse": "moyen",
+  "type_de_plat": "soupe",
+  "methode": [
+    "poche",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "glissant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-claire-au-porc-et-aux-vermicelles-gaeng-jued",
+  "jp": "แกงจืด",
+  "jp_lecture": null,
+  "romaji": "gaeng jued",
+  "langue_origine": "th",
+  "fr": "Soupe claire au porc et aux vermicelles (gaeng jued)",
+  "sous_titre": "Écriture d'origine แกงจืด, gaeng jued. L'équivalent thaï exact du ichiju. Sans elle, aucun repas thaï n'est construisible; avec elle, tous les autres plats thaïs deviennent des sansai.",
+  "portions": "2",
+  "temps_affiche": "≈ 30 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 18,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 28,
+    "proteines_affiche": "28 g",
+    "calories": 260,
+    "calories_affiche": "≈ 260",
+    "lipides_g": 8,
+    "sodium_mg": 550,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+  },
+  "ingredients": [
+    {
+      "texte": "1 L d'eau, ou de bouillon de porc léger",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de porc haché maigre, OU 250 g de porc en lanières",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "POUR LES BOULETTES : 1 gousse d'ail râpée · 1 c. à thé de sauce soya réduite en sodium · un tour de poivre blanc · 1 c. à thé de fécule",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "60 g de vermicelles de haricot mungo (woon sen), trempés 10 minutes à l'eau tiède",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de tofu ferme en cubes de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 tasses de légumes : chou nappa, courge cireuse en cubes, daikon, carotte",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 shiitake séchés réhydratés, ou 100 g de champignons frais",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "ASSAISONNEMENT : 2 c. à thé de sauce soya réduite en sodium · 1/4 c. à thé de sel · beaucoup de POIVRE BLANC",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Coriandre et oignon vert, en volume, à la fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Aucun bouillon en poudre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger le haché avec l'ail, la cuillère de soya, le poivre et la fécule. Brasser énergiquement dans un seul sens 1 minute — c'est ce qui donne une boulette qui tient."
+    },
+    {
+      "n": 2,
+      "texte": "Eau et eau de trempage des champignons à frémissement."
+    },
+    {
+      "n": 3,
+      "texte": "Former les boulettes à la cuillère DIRECTEMENT DANS LE LIQUIDE FRÉMISSANT. Elles remontent quand elles sont cuites, 4 à 5 minutes. Écumer ce qui monte."
+    },
+    {
+      "n": 4,
+      "texte": "Les légumes durs — daikon, carotte, courge — 8 minutes. Puis les champignons et le chou nappa, 3 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "Le tofu et les vermicelles égouttés, 2 minutes. LES VERMICELLES EN DERNIER : ils continuent de boire le bouillon et deviennent pâteux si on les laisse."
+    },
+    {
+      "n": 6,
+      "texte": "Assaisonner : soya, sel, ET BEAUCOUP DE POIVRE BLANC. Goûter."
+    },
+    {
+      "n": 7,
+      "texte": "Hors du feu, coriandre et oignon vert."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le mot jued veut dire fade, et c'est un compliment",
+      "texte": "จืด, JUED, SIGNIFIE LITTÉRALEMENT SANS GOÛT, DOUX, NON ASSAISONNÉ. Ce n'est pas un défaut : c'est la fonction. Dans un repas thaï, les plats principaux sont acides, piquants et salés — un larb, un curry, une salade yam. LE GAENG JUED EST LE CONTREPOINT NEUTRE QUI PERMET DE LES MANGER, exactement comme la soupe miso permet de manger un poisson grillé salé.\n\nPOURQUOI ÇA MANQUAIT AU RECUEIL, ET C'EST STRUCTUREL. Le dossier a deux fiches thaïes, et les deux sont des soupes fortes — tom yum acide et piquant, tom kha au coco. IL N'AVAIT AUCUN PLAT THAÏ NEUTRE, donc aucun repas thaï complet n'était construisible : le ichiju sansai demande une soupe qui accompagne, pas une soupe qui domine. AVEC CETTE FICHE, LE TOM YUM, LE LARB ET LE KUA KLING DEVIENNENT DES PLATS D'UN REPAS AU LIEU D'ÊTRE LE REPAS.\n\nLE POIVRE BLANC EST L'ASSAISONNEMENT PRINCIPAL, ET IL FAUT ÊTRE GÉNÉREUX. C'est lui, et pas le sel, qui donne à cette soupe sa longueur en bouche. À 550 mg de sodium pour deux portions — un quart de ce que porte un bol de tom yum à pleine dose — LE POIVRE FAIT LE TRAVAIL QUE LE SEL NE FAIT PAS."
+    },
+    {
+      "titre": "Trois postes du repas dans une casserole",
+      "texte": "CETTE SOUPE PORTE À ELLE SEULE LA PROTÉINE, LE LÉGUME ET LE FÉCULENT — boulettes et tofu, quatre tasses de légumes, vermicelles. AVEC UN BOL DE RIZ, C'EST UN REPAS COMPLET; avec un accompagnement croquant à côté, c'est un ichiju sansai. C'est le format le plus économe en vaisselle du recueil.\n\nLE BLANCHIMENT PRÉALABLE (T12) N'EST PAS NÉCESSAIRE ICI ET C'EST VOULU. Les boulettes sont formées dans le liquide et on écume ce qui monte — l'équivalent en une étape. T12 est cité parce que la variante au porc EN LANIÈRES ou sur l'os le demande, et que la soupe devient grise sans lui.\n\nET LES VERMICELLES DE MUNGO NE SE REMPLACENT PAS PAR DES VERMICELLES DE RIZ. Les premiers deviennent translucides et glissants et gardent leur tenue; les seconds se délitent dans un bouillon chaud et l'épaississent. Chez Kim Phat, allée 31, sous woon sen. SE MESURENT SECS : 60 g gonflent à plus de 200."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

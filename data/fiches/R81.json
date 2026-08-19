@@ -1,0 +1,153 @@
+{
+  "id": "R81",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "coreenne",
+  "vitesse": "moyen",
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote",
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-de-boeuf-et-daikon-sogogi-muguk",
+  "jp": "소고기무국",
+  "jp_lecture": null,
+  "romaji": "sogogi muguk",
+  "langue_origine": "ko",
+  "fr": "Soupe de boeuf et daikon (sogogi muguk)",
+  "sous_titre": "Écriture d'origine 소고기무국, sogogi muguk. Le radis fond et sucre le bouillon — la saveur ne vient pas du sel. Le plus bas en sodium de toutes les soupes coréennes, pour de la vraie protéine.",
+  "portions": "3",
+  "temps_affiche": "≈ 35 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 25,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 24,
+    "proteines_affiche": "24 g",
+    "calories": 210,
+    "calories_affiche": "≈ 210",
+    "lipides_g": 8,
+    "sodium_mg": 380,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 380 mg — VAUT POUR LES TROIS PORTIONS, soit environ 127 mg par bol. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de bœuf maigre en cubes de 2 cm : macreuse, palette parée, ou bœuf à ragoût",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "500 g de daikon, pelé, en tranches de 3 mm ou en cubes de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1,2 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 morceau de kombu de 5 cm, retiré avant l'ébullition",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 gousses d'ail émincées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 c. à thé de sel, GOÛTÉ ET AJUSTÉ EN DERNIER",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 oignons verts en tronçons de 4 cm, poivre noir",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Casserole à feu moyen avec l'huile de sésame. Le bœuf et l'ail, 3 à 4 minutes, jusqu'à ce que la surface des cubes soit grise et que ça sente le grillé."
+    },
+    {
+      "n": 2,
+      "texte": "Le daikon, 2 minutes de plus, remué."
+    },
+    {
+      "n": 3,
+      "texte": "L'eau et le kombu. Monter doucement et RETIRER LE KOMBU DÈS QUE DE PETITES BULLES APPARAISSENT SUR LES BORDS — au-delà, il devient amer et visqueux, et c'est irréversible."
+    },
+    {
+      "n": 4,
+      "texte": "Frémissement doux, à couvert, 20 à 25 minutes. Écumer les premières minutes."
+    },
+    {
+      "n": 5,
+      "texte": "LE DAIKON EST PRÊT QUAND IL EST TRANSLUCIDE ET QU'IL CÈDE SOUS UNE CUILLÈRE. Pas avant : le goût du plat vient de là."
+    },
+    {
+      "n": 6,
+      "texte": "La cuillère de soya, puis le sel PAR PETITES QUANTITÉS, en goûtant. La soupe a besoin de moins qu'on croit."
+    },
+    {
+      "n": 7,
+      "texte": "Hors du feu, oignons verts et poivre."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La saveur vient du radis, et c'est vérifiable",
+      "texte": "UN DAIKON MIJOTÉ VINGT MINUTES SE TRANSFORME : ses enzymes et sa chaleur convertissent une partie de ses glucides, il devient translucide, il perd son piquant soufré et IL SUCRE LE BOUILLON. Ce n'est pas une image — un bouillon de bœuf et daikon goûté sans sel est déjà rond et légèrement sucré, ce qu'un bouillon de bœuf seul n'est pas.\n\nC'EST POUR ÇA QUE CETTE SOUPE EST LA PLUS BASSE EN SODIUM DE TOUTES LES SOUPES CORÉENNES DU RÉPERTOIRE, ET DE LOIN. Un doenjang jjigae porte 1 100 à 1 300 mg par bol, un kimchi jjigae guère moins. Celle-ci tient à 380 mg pour trois portions, soit environ 127 mg par bol, ET ELLE NE GOÛTE PAS FADE — parce que ce qui la porte n'est pas le sel.\n\nLA DISTINCTION 국 GUK ET 찌개 JJIGAE MÉRITE D'ÊTRE ÉCRITE UNE FOIS POUR TOUTES. Le guk est une soupe claire et abondante, légèrement assaisonnée : c'est le ichiju du bapsang coréen, l'équivalent de la soupe miso. Le jjigae est un ragoût dense et salé qui tend à devenir le plat principal. POUR LE SODIUM, LES GUK SONT SYSTÉMATIQUEMENT MEILLEURS — ET LE RECUEIL N'AVAIT QUE DES JJIGAE. Cette fiche est le premier guk du dossier.\n\nET LE SEL VA À LA FIN, EN GOÛTANT. Le liquide réduit d'un cinquième en vingt-cinq minutes; une soupe salée au début devient trop salée à l'arrivée. C'est la même règle que T16."
+    },
+    {
+      "titre": "Le daikon, et le problème qu'il règle",
+      "texte": "CINQ CENTS GRAMMES DE DAIKON PAR RECETTE, C'EST À PEU PRÈS UN DEMI-DAIKON. Le registre du dossier a un problème récurrent avec cet ingrédient : un daikon entier est trop gros pour deux personnes, il traîne au frigo, et la fiche qui en consomme le plus n'avait jamais été faite. CETTE SOUPE EST LE MEILLEUR DÉBOUCHÉ DU RECUEIL POUR UN DAIKON ENTAMÉ.\n\nLA COUPE CHANGE LE PLAT PLUS QU'ON CROIT. En tranches minces de 3 mm, le daikon devient presque translucide et se mange comme un légume-feuille — c'est la version la plus courante en Corée. En cubes de 2 cm, il garde un cœur ferme et devient un légume à part entière dans le bol. LES DEUX SONT JUSTES; LA PREMIÈRE DONNE UNE SOUPE, LA SECONDE UN REPAS.\n\nET LE KOMBU EST UNE FOIS PAR SEMAINE, PAS PLUS. Il apporte de 1 500 à 3 000 microgrammes d'iode par gramme, et le dossier a déjà une règle là-dessus. SI LE KOMBU A DÉJÀ SERVI CETTE SEMAINE, LE REMPLACER PAR 3 SHIITAKE SÉCHÉS et leur eau de trempage : le glutamate change de source, le plat ne change pas de nature.\n\nLA COUPE DE BŒUF SUIT LA MÊME LOGIQUE QUE R77 : une coupe maigre riche en collagène. Une surlonge donne des cubes secs en vingt-cinq minutes; une macreuse donne des cubes qui cèdent."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R77"
+  ],
+  "commentaire_source": ""
+}

@@ -1,0 +1,145 @@
+{
+  "id": "R75",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "soyeux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "omelette-roulee-au-dashi-dashimaki-tamago",
+  "jp": "だし巻き卵",
+  "jp_lecture": "だしまきたまご",
+  "romaji": "dashimaki tamago",
+  "langue_origine": "ja",
+  "fr": "Omelette roulee au dashi (dashimaki tamago)",
+  "sous_titre": "Le plat d'œuf le plus mangé au Japon, et le recueil n'en avait aucune trace. Se mange chaud, tiède ou froid, et il va dans une boîte à lunch.",
+  "portions": "2",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 9,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 19,
+    "proteines_affiche": "19 g",
+    "calories": 220,
+    "calories_affiche": "≈ 220",
+    "lipides_g": 15,
+    "sodium_mg": 260,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+  },
+  "ingredients": [
+    {
+      "texte": "4 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "60 ml de dashi (T2) — LE RATIO EST DE 15 ML DE DASHI PAR ŒUF",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre, pour la poêle",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À servir : daikon râpé et un filet de soya, ou du ponzu",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Battre les œufs SANS FAIRE DE MOUSSE — couper les blancs avec les baguettes plutôt que fouetter. Les bulles font des trous."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter dashi, soya, mirin et sel. Passer À TRAVERS UNE PASSOIRE FINE : c'est ce qui donne une texture lisse. Même geste que R7."
+    },
+    {
+      "n": 3,
+      "texte": "Poêle rectangulaire (tamagoyaki-ki) ou petite poêle antiadhésive, feu MOYEN-DOUX. Huiler avec un papier absorbant, en retirant l'excès."
+    },
+    {
+      "n": 4,
+      "texte": "Verser un tiers du mélange, l'étaler. Quand la surface est prise mais encore humide, ROULER depuis le bord opposé vers soi."
+    },
+    {
+      "n": 5,
+      "texte": "Repousser le rouleau au fond, huiler la surface libre, verser un autre tiers EN SOULEVANT LE ROULEAU pour que l'œuf cru passe dessous."
+    },
+    {
+      "n": 6,
+      "texte": "Rouler encore. Répéter avec le dernier tiers."
+    },
+    {
+      "n": 7,
+      "texte": "Sortir, poser sur un tapis de bambou ou dans du papier absorbant, presser légèrement pour former le rectangle. Laisser 2 minutes, puis trancher en 6 morceaux."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le dashi est ce qui rend l'exercice difficile, et ce qui le rend bon",
+      "texte": "IL Y A DEUX OMELETTES ROULÉES JAPONAISES ET IL FAUT SAVOIR LAQUELLE ON FAIT. LE TAMAGOYAKI est sucré, ferme, souvent avec plus de sucre que de dashi : c'est celui des boîtes à lunch et des sushis. LE DASHIMAKI TAMAGO porte 15 ml de dashi par œuf, il est salé et non sucré, et sa texture est plus proche d'une crème prise que d'une omelette. LE SECOND EST CELUI DE CETTE FICHE, et c'est celui qu'on mange au déjeuner et dans un set japonais.\n\nLE LIQUIDE EST CE QUI REND LE ROULAGE DÉLICAT : un œuf allongé de dashi se déchire plus facilement qu'un œuf nature. C'EST NORMAL DE RATER LES DEUX OU TROIS PREMIÈRES, ET ÇA SE MANGE QUAND MÊME. Ce qui aide vraiment, dans l'ordre : un feu plus doux qu'on croit, une poêle bien huilée mais sans flaque, et rouler quand le dessus est ENCORE HUMIDE — attendre qu'il soit sec donne une couche qui ne colle pas à la suivante et le rouleau se défait.\n\nLE SEL EST À 260 MG POUR DEUX PORTIONS, ET LA MARGE EST AILLEURS. Ce qui sale ce plat, c'est ce qu'on met dessus : un filet de soya au service en ajoute 250 par personne. LE DAIKON RÂPÉ SEUL, AVEC QUELQUES GOUTTES, SUFFIT — et le daikon apporte de l'eau et du croquant, ce que l'omelette n'a pas."
+    },
+    {
+      "titre": "Ce qu'elle vient combler, et pourquoi c'est plus qu'un plat",
+      "texte": "LE RECUEIL A QUATRE PRÉPARATIONS D'ŒUF — l'œuf mollet, l'œuf mariné, le flan vapeur, le tamago kake gohan — ET AUCUNE NE COUVRAIT LE PLAT D'ŒUF NUMÉRO UN DU PAYS. Ce n'est pas une lacune de goût, c'est une lacune de format : le dashimaki est le seul qui se transporte, se mange froid, et occupe la case okazu, le petit plat protéiné qu'on pose à côté du riz.\n\nET C'EST LE MEILLEUR VÉHICULE À RESTES DU RECUEIL. Trois cuillères à soupe de n'importe quoi de finement coupé entrent dans le mélange sans rien changer à la technique : oignon vert, nori émincé, épinards blanchis pressés, champignons cuits, crevettes hachées, fromage. UNE FICHE, DIX PLATS.\n\nLA POÊLE RECTANGULAIRE N'EST PAS OBLIGATOIRE. Une petite poêle ronde antiadhésive de 20 cm donne un rouleau en fuseau au lieu d'un rectangle. Le goût est identique; on perd les tranches carrées. LA POÊLE CARRÉE SE TROUVE CHEZ KIM PHAT, ALLÉE 36, avec la batterie de cuisine."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R7"
+  ],
+  "commentaire_source": ""
+}

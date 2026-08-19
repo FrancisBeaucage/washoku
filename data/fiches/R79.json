@@ -1,0 +1,140 @@
+{
+  "id": "R79",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "saute-de-porc-et-legumes-niku-yasai-itame",
+  "jp": "肉野菜炒め",
+  "jp_lecture": "にくやさいいため",
+  "romaji": "niku-yasai itame",
+  "langue_origine": "ja",
+  "fr": "Saute de porc et legumes (niku-yasai itame)",
+  "sous_titre": "Le deuxième plat le plus cuisiné dans les foyers japonais, et le recueil n'avait aucun sauté-repas. Deux cent cinquante grammes de porc, quatre tasses de légumes, dix-huit minutes.",
+  "portions": "2",
+  "temps_affiche": "≈ 18 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 8,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 380,
+    "calories_affiche": "≈ 380",
+    "lipides_g": 18,
+    "sodium_mg": 400,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+  },
+  "ingredients": [
+    {
+      "texte": "250 g de porc tranché mince (les sacs de ~200 g du congélateur, ou du porc shabu)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de légumes, coupés par ordre de dureté : 200 g de chou vert en morceaux · 1 carotte en fines rondelles biseautées · 150 g de fèves germées · 1/2 oignon en lamelles · 3 oignons verts en tronçons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe d'eau, pour la vapeur (T13)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE PRÉMÉLANGÉE AU BOL (T18) : 1 c. à soupe de sauce soya réduite en sodium · 1 c. à thé de saké · 1/2 c. à thé de sucre · 1/2 c. à thé de poivre · 1/2 c. à thé d'huile de sésame, à ajouter hors du feu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 gousse d'ail, 1 c. à thé de gingembre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18",
+    "T13"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "TOUT COUPER ET MESURER AVANT D'ALLUMER. Ce plat dure huit minutes; il n'y a pas de pause dedans."
+    },
+    {
+      "n": 2,
+      "texte": "La sauce mélangée au bol, mise de côté."
+    },
+    {
+      "n": 3,
+      "texte": "Poêle large très chaude, la moitié de l'huile. Le porc en une couche, sans le toucher 60 secondes, puis retourné et sorti dès qu'il n'est plus rose. LE SORTIR : il finira à la fin."
+    },
+    {
+      "n": 4,
+      "texte": "Le reste de l'huile. Les légumes par ordre de dureté : carotte et oignon 90 secondes, chou 90 secondes, germes et oignons verts en dernier 30 secondes."
+    },
+    {
+      "n": 5,
+      "texte": "LES 2 C. À SOUPE D'EAU ET LE COUVERCLE, 30 à 45 secondes. C'est T13 : la vapeur cuit le cœur du chou sans qu'il faille plus d'huile."
+    },
+    {
+      "n": 6,
+      "texte": "Couvercle retiré, le porc remis, la sauce versée SUR LE BORD de la poêle. Enrober 30 secondes."
+    },
+    {
+      "n": 7,
+      "texte": "Hors du feu, l'huile de sésame. Servir immédiatement."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Un sauté-repas, et le recueil n'en avait pas un seul",
+      "texte": "LE RECUEIL A DES SAUTÉS — le shogayaki, le bœuf et brocoli, le mapo — MAIS AUCUN SAUTÉ-REPAS AU SENS JAPONAIS : une poêlée unique qui porte la protéine et les quatre tasses de légumes en même temps. C'est le format le plus utilisé dans les foyers japonais après le curry, précisément parce qu'il vide le frigo et ne demande qu'une poêle.\n\nLA STRUCTURE EST PARFAITEMENT ALIGNÉE SUR LE GABARIT DU SOUPER : moitié légumes, quart protéine, quart féculent. Quatre cents grammes de légumes pour 250 g de porc et un bol de riz, c'est le ratio écrit au guide 5, obtenu sans y penser.\n\nET C'EST LE MEILLEUR DÉBOUCHÉ POUR LES SACS DE PORC TRANCHÉ MINCE DU CONGÉLATEUR. Ils se décongèlent en dix minutes à l'eau froide et ils sont déjà à la bonne épaisseur — aucune découpe. LE PORC TRANCHÉ MINCE EST L'ARTICLE DU CONGÉLATEUR QUI ATTEND LE PLUS LONGTEMPS SON DEUXIÈME PLAT.\n\nLE SODIUM À 400 MG POUR DEUX PORTIONS TIENT À DEUX CHOSES : la sauce est prémélangée au bol (T18) donc mesurée, et il n'y a qu'une cuillère à soupe de soya pour deux personnes. UN SAUTÉ ASSAISONNÉ À L'ŒIL AU-DESSUS DE LA POÊLE EN PORTE COURAMMENT LE DOUBLE, et c'est invisible."
+    },
+    {
+      "titre": "L'ordre des légumes est la recette",
+      "texte": "UN SAUTÉ DE LÉGUMES RATÉ EST PRESQUE TOUJOURS UN SAUTÉ OÙ TOUT EST ENTRÉ EN MÊME TEMPS. La carotte a besoin de trois minutes, le germe de soya de trente secondes : ensemble, on obtient soit de la carotte crue soit des germes morts. L'ORDRE PAR DURETÉ N'EST PAS UNE FINESSE, C'EST LA CONDITION POUR QUE LE PLAT AIT PLUSIEURS TEXTURES.\n\nET LES FÈVES GERMÉES ENTRENT EN DERNIER, TOUJOURS. Elles rendent beaucoup d'eau et elles s'affaissent en une minute. Mises tôt, elles noient la poêle et le plat passe du sauté au bouilli. TRENTE SECONDES, ET ELLES DOIVENT ENCORE CRAQUER.\n\nLA VIANDE SORT ET REVIENT, ET C'EST LA MÊME LEÇON QUE R17. Une protéine laissée dans la poêle pendant toute la cuisson des légumes cuit huit minutes au lieu de deux. Elle sort après sa saisie, elle revient avec la sauce.\n\nET LES 2 C. À SOUPE D'EAU SOUS COUVERCLE SONT CE QUI REMPLACE UN BRÛLEUR DE RESTAURANT. Voir T13 : la vapeur fait le travail que la puissance ferait, pour 3 g de lipides au lieu de 15. NE PAS SOULEVER LE COUVERCLE POUR REGARDER — on écoute, et quand le sifflement faiblit l'eau est partie."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R17"
+  ],
+  "commentaire_source": ""
+}

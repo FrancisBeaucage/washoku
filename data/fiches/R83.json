@@ -1,0 +1,132 @@
+{
+  "id": "R83",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "marine",
+    "cru"
+  ],
+  "axe_gout": [
+    "piquant",
+    "acide"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "daikon-en-allumettes-au-gochugaru-musaengchae",
+  "jp": "무생채",
+  "jp_lecture": null,
+  "romaji": "musaengchae",
+  "langue_origine": "ko",
+  "fr": "Daikon en allumettes au gochugaru (musaengchae)",
+  "sous_titre": "Écriture d'origine 무생채, musaengchae. Un substitut rapide au kimchi, à sodium contrôlé, et un accompagnement franchement croquant qui n'est pas du concombre. Le recueil en avait un seul.",
+  "portions": "4",
+  "temps_affiche": "≈ 30 min dont 20 d'attente",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 0,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 35,
+    "calories_affiche": "≈ 35",
+    "lipides_g": 1,
+    "sodium_mg": 110,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 110 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 28 mg par portion, parce que le sel de dégorgement est RINCÉ. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de daikon, pelé, en allumettes de 4 à 5 mm et 5 cm de long",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sel, POUR LE DÉGORGEMENT SEULEMENT — il sera rincé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "L'ASSAISONNEMENT : 1 à 2 c. à thé de gochugaru · 1 c. à soupe de vinaigre de riz · 1 c. à thé de sucre · 1 gousse d'ail râpée fin · 1/8 c. à thé de sel · 1 c. à thé de graines de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons verts émincés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T7b"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Tailler les allumettes. À la mandoline avec la grille à julienne, ou au couteau : trancher en ovales de 4 mm en tenant la lame inclinée, empiler quatre ou cinq ovales, retailler en bâtonnets."
+    },
+    {
+      "n": 2,
+      "texte": "Saler avec la cuillère à thé, mélanger, laisser dégorger 20 minutes. Le daikon rend beaucoup d'eau."
+    },
+    {
+      "n": 3,
+      "texte": "RINCER À L'EAU FROIDE, PUIS PRESSER FERMEMENT. C'est cette étape qui distingue cette fiche du sunomono du recueil : le sel de dégorgement PART, il ne reste pas dans le plat."
+    },
+    {
+      "n": 4,
+      "texte": "Dans un bol, le gochugaru d'abord, mélangé à la main pour colorer uniformément les allumettes. Puis vinaigre, sucre, ail, la pincée de sel."
+    },
+    {
+      "n": 5,
+      "texte": "Goûter, ajuster. Les oignons verts et le sésame."
+    },
+    {
+      "n": 6,
+      "texte": "Servir tout de suite ou dans l'heure. Se garde 2 jours, mais il rend de l'eau et perd son croquant."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le sel de dégorgement est rincé, et c'est tout l'écart avec le sunomono",
+      "texte": "LE RECUEIL A DÉJÀ UN PLAT DE LÉGUME DÉGORGÉ ET VINAIGRÉ — LE SUNOMONO — ET SON SEL DE DÉGORGEMENT N'EST PAS RINCÉ. Une cuillère à thé de sel représente environ 2 300 mg; le pressage en emporte une part, mais il en reste de l'ordre de 250 mg par portion. C'EST LE POSTE SODIQUE CACHÉ DE CE PLAT, ET IL EST CINQ FOIS PLUS GROS QUE SA VINAIGRETTE.\n\nICI, LE SEL EST RINCÉ ET LA DIFFÉRENCE EST MESURABLE : environ 110 mg pour QUATRE portions, soit 28 mg par portion, contre 250. LE MÊME GESTE CULINAIRE — dégorger un légume pour le rendre croquant et concentré — À UN DIXIÈME DU SODIUM.\n\nPOURQUOI LE RINÇAGE MARCHE ICI ET PAS LÀ. Le daikon en allumettes de 4 mm a une surface énorme et une chair poreuse : le sel a fait son travail osmotique en vingt minutes et il est surtout en surface. Un concombre en tranches fines dégorgé puis rincé perd aussi sa vinaigrette et devient fade — sa chair retient moins bien l'assaisonnement.\n\nET LE GOCHUGARU ENTRE AVANT LES LIQUIDES, À LA MAIN. Mélangé après le vinaigre, il fait des grumeaux rouges et ne colore rien. Sur un légume juste humide, il s'accroche à chaque allumette. C'EST LE MÊME PRINCIPE QUE L'ASSAISONNEMENT À LA MAIN DES NAMUL (T20)."
+    },
+    {
+      "titre": "Pourquoi cette fiche est ici, et le trou qu'elle comble",
+      "texte": "LE DOCUMENT 20 A CHIFFRÉ QUELQUE CHOSE D'INCONFORTABLE. Sur les 79 fiches du recueil, HUIT SEULEMENT AVAIENT LE CROQUANT COMME TEXTURE DOMINANTE. Quatre de ces huit étaient du concombre ou du daikon cru, et TROIS DE CES QUATRE ÉTAIENT DÉJÀ ÉCARTÉES DU RÉPERTOIRE PERSONNEL — à cause du concombre, pas du croquant. Des quatre qui restaient, un était un fruit, deux étaient des plats lourds à monter, et le dernier était le kinpira, dont la coupe prend vingt minutes.\n\nAUTREMENT DIT : LE RECUEIL AVAIT UN SEUL ACCOMPAGNEMENT FRANCHEMENT CROQUANT QUI NE SOIT PAS UN MARINAGE DE CONCOMBRE, ET C'ÉTAIT CELUI DONT LA JULIENNE ÉTAIT TROP LONGUE. Cette fiche est la réponse directe : croquante, dix minutes, pas de concombre, quatre portions.\n\nET ELLE PARTAGE LA MÊME COUPE QUE LE KINPIRA, DONC LE MÊME OUTIL LA DÉBLOQUE. Un économe à julienne ou une mandoline à grille julienne ramène les dix minutes à trois, et sert aux deux fiches. C'EST L'ARGUMENT LE PLUS FORT POUR CET ACHAT : il ne débloque plus une fiche, il en débloque deux.\n\nLE GOCHUGARU N'EST PAS INTERCHANGEABLE AVEC UN AUTRE PIMENT MOULU. Il est grossièrement moulu, fruité, modérément piquant, et il colore beaucoup pour ce qu'il chauffe. Du piment de Cayenne à la même dose rend le plat brûlant et brun. Chez Kim Phat, allée 32, marque maison en sacs de 454 g."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R45",
+    "R46"
+  ],
+  "commentaire_source": ""
+}

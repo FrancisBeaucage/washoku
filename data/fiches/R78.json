@@ -1,0 +1,141 @@
+{
+  "id": "R78",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "aromatique",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "ferme",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "curry-sec-du-sud-kua-kling",
+  "jp": "คั่วกลิ้ง",
+  "jp_lecture": null,
+  "romaji": "kua kling",
+  "langue_origine": "th",
+  "fr": "Curry sec du Sud (kua kling)",
+  "sous_titre": "Écriture d'origine คั่วกลิ้ง, kua kling. Un curry sans une goutte de lait de coco. Une à deux cuillères à thé de sauce de poisson pour quatre cent cinquante grammes de viande : le meilleur rapport protéines-sodium-lipides de tout le corpus thaï.",
+  "portions": "3",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 13,
+    "attente": 0
+  },
+  "preparation_avance": "La pâte se garde une semaine au frigo et se congèle en portions d'une cuillère à soupe. Faite d'avance, le plat passe de 25 minutes à 13.",
+  "nutrition": {
+    "proteines_g": 32,
+    "proteines_affiche": "32 g",
+    "calories": 290,
+    "calories_affiche": "≈ 290",
+    "lipides_g": 12,
+    "sodium_mg": 210,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+  },
+  "ingredients": [
+    {
+      "texte": "450 g de porc haché maigre, ou de poulet haché, ou de bœuf haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA PÂTE, au mortier ou au robot : 6 à 10 piments rouges séchés trempés 15 min · 1 tige de citronnelle en fines rondelles · 4 tranches de galanga · 1 c. à thé de curcuma frais râpé, ou 1/2 c. à thé de curcuma moulu · 4 gousses d'ail · 2 échalotes · 1/2 c. à thé de poivre blanc",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 à 2 c. à thé de sauce de poisson, PAS PLUS",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 feuilles de lime kaffir en fines lanières, plus une poignée entière",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 2 c. à soupe d'eau, si la pâte accroche",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À servir : riz, et des crudités en volume — chou vert, concombre, haricots longs crus",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Piler ou mixer tous les ingrédients de la pâte jusqu'à une pâte grossière. C'EST TOUT LE TRAVAIL DE LA RECETTE, ET IL EST À FAIRE D'AVANCE : la pâte se garde une semaine au frigo et se congèle en portions."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle large à feu moyen avec l'huile. La pâte, 3 à 4 minutes, en remuant. ELLE DOIT SENTIR CUIT ET NON CRU : le curcuma et l'ail passent d'agressifs à ronds. C'est le moment le plus important du plat."
+    },
+    {
+      "n": 3,
+      "texte": "Le haché, écrasé à la spatule pour le défaire en grains. Monter le feu."
+    },
+    {
+      "n": 4,
+      "texte": "Cuire 8 à 10 minutes EN LAISSANT L'EAU S'ÉVAPORER COMPLÈTEMENT. Le plat doit devenir sec et légèrement grillé — c'est le sens de kua, faire revenir à sec."
+    },
+    {
+      "n": 5,
+      "texte": "La sauce de poisson, une cuillère à thé d'abord. Goûter."
+    },
+    {
+      "n": 6,
+      "texte": "Hors du feu, les lanières de feuille de lime. Beaucoup."
+    },
+    {
+      "n": 7,
+      "texte": "Servir avec du riz et un plateau de crudités crues à côté."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le curry qui n'a jamais eu de lait de coco",
+      "texte": "แกง, GAENG, DÉSIGNE TOUTE UNE FAMILLE, ET LA MOITIÉ DE CETTE FAMILLE EST MONTÉE À L'EAU OU À SEC. C'est la découverte la plus utile de l'analyse du corpus thaï, et elle change ce qu'on peut faire de cette cuisine : le gaeng som est aigre, le gaeng pa est de la jungle et sans coco, le gaeng liang est poivré, et le kua kling est carrément sec. AUCUN N'EST UNE VERSION ALLÉGÉE D'UN CURRY AU COCO : ce sont des plats à part entière, plus anciens dans plusieurs cas.\n\nLA CONSÉQUENCE POUR LE DOSSIER EST NETTE : IL NE FAUT PAS ESSAYER DE SAUVER LE CURRY VERT. Le lait de coco y est structurel — il porte les composés liposolubles de la pâte, il équilibre le piquant, il fait le volume. Une version au lait de coco léger dilué donne un plat maigre et agressif. MIEUX VAUT INVESTIR DANS LA MOITIÉ DE LA FAMILLE QUI N'EN A JAMAIS EU.\n\nLES DOUZE GRAMMES DE LIPIDES PAR PORTION SONT CEUX DE LA VIANDE PLUS UNE CUILLÈRE À SOUPE D'HUILE POUR TROIS PORTIONS. Un curry vert au lait de coco régulier en porte 25 à 35. ET LES 210 MG DE SODIUM SONT LE CHIFFRE LE PLUS BAS DE TOUS LES PLATS PRINCIPAUX DE CE DOCUMENT.\n\nET C'EST UN PLAT DE MAISON, PAS DE RESTAURANT. Il est quasi absent des menus nord-américains, ce qui veut dire qu'il n'y a aucun repère extérieur pour juger le résultat — et aussi qu'on ne le compare pas à une version plus riche."
+    },
+    {
+      "titre": "Le piquant est réel, et il se dose à la pâte",
+      "texte": "UN KUA KLING AUTHENTIQUE DU SUD DE LA THAÏLANDE EST TRÈS FORT — c'est une des cuisines les plus piquantes du pays. À dix piments séchés pour 450 g de viande, le plat est franchement brûlant. COMMENCER À SIX, ET GOÛTER LA PÂTE CRUE DU BOUT DU DOIGT AVANT DE LA CUIRE : c'est le seul moment où on peut encore ajuster.\n\nET LE PIQUANT N'EST PAS QU'UN GOÛT, C'EST UN LEVIER DE SODIUM. Ce plat tient à 210 mg parce que la capsaïcine, les aromates et le curcuma occupent la bouche à la place du sel. C'EST LE MÊME MÉCANISME QUE T22, PAR UNE AUTRE PORTE : au lieu de compenser par l'acide, on compense par le piquant et l'aromatique.\n\nLES CRUDITÉS À CÔTÉ NE SONT PAS UNE GARNITURE, ELLES SONT LA MOITIÉ DU PLAT. En Thaïlande du Sud, un kua kling se mange avec un plateau de légumes crus qui rafraîchissent entre les bouchées. POUR CE DOSSIER, C'EST AUSSI CE QUI DONNE LE QUART LÉGUME DU SOUPER, à zéro effort et zéro sodium — et un croquant que le plat, à dominante ferme et moelleuse, n'a pas.\n\nLA PÂTE SE FAIT EN DOUBLE ET SE CONGÈLE EN PORTIONS D'UNE CUILLÈRE À SOUPE. C'est ce qui fait passer ce plat de 25 minutes à 13. Les ingrédients de la pâte sont tous chez Kim Phat, et les piments séchés se gardent un an."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

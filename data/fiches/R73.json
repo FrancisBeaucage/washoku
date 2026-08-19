@@ -1,0 +1,145 @@
+{
+  "id": "R73",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "vietnamienne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "souper"
+  ],
+  "slug": "poisson-vapeur-au-gingembre-et-a-la-ciboule",
+  "jp": "Cá hấp hành gừng",
+  "jp_lecture": null,
+  "romaji": "ca hap hanh gung",
+  "langue_origine": "vi",
+  "fr": "Poisson vapeur au gingembre et a la ciboule",
+  "sous_titre": "Quarante grammes de protéines, zéro gras de cuisson, dix-huit minutes. Le plat le plus propre du corpus vietnamien, et il ne demande rien d'autre qu'un panier vapeur.",
+  "portions": "2",
+  "temps_affiche": "≈ 18 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 40,
+    "proteines_affiche": "40 g",
+    "calories": 280,
+    "calories_affiche": "≈ 280",
+    "lipides_g": 9,
+    "sodium_mg": 480,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+  },
+  "ingredients": [
+    {
+      "texte": "350 g de filets de poisson blanc ferme, ou un petit poisson entier vidé : bar, tilapia, morue, sébaste",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 morceau de gingembre de 5 cm, en juliennes très fines",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 oignons verts : les blancs en tronçons sous le poisson, les verts en filaments par-dessus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de champignons séchés réhydratés en lamelles, facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE : 1 c. à soupe de sauce soya réduite en sodium · 1 c. à soupe d'eau ou d'eau de trempage des champignons · 1/2 c. à thé de sucre · un tour de poivre blanc",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre, à chauffer à part",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Coriandre, et un quartier de lime",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN hạt nêm, aucun bouillon en poudre — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger la sauce dans un bol. Éponger le poisson."
+    },
+    {
+      "n": 2,
+      "texte": "Dans une assiette creuse qui entre dans le panier vapeur : les blancs d'oignon vert et la moitié du gingembre au fond, comme un lit. Le poisson dessus, les champignons autour."
+    },
+    {
+      "n": 3,
+      "texte": "Eau bouillante dans la marmite, panier posé dessus, couvrir. 8 à 10 minutes pour des filets de 2 cm, 12 à 15 pour un poisson entier. LE POISSON EST CUIT QUAND LA CHAIR SE SÉPARE À LA POINTE D'UN COUTEAU, pas avant."
+    },
+    {
+      "n": 4,
+      "texte": "JETER LE LIQUIDE ACCUMULÉ DANS L'ASSIETTE. Il est trouble et amer — c'est de l'eau de poisson, pas un jus de cuisson."
+    },
+    {
+      "n": 5,
+      "texte": "Couvrir le poisson du gingembre restant et des filaments verts, CRUS."
+    },
+    {
+      "n": 6,
+      "texte": "Chauffer l'huile jusqu'à ce qu'elle fume à peine et la verser sur les aromates. Ça grésille."
+    },
+    {
+      "n": 7,
+      "texte": "Verser la sauce AUTOUR du poisson, jamais dessus. Coriandre et lime."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Zéro gras de cuisson, et le sel qui reste sous les 500 mg",
+      "texte": "LA VAPEUR EST LA SEULE MÉTHODE DE CUISSON DU RECUEIL QUI N'EXIGE AUCUNE MATIÈRE GRASSE ET QUI NE DESSÈCHE RIEN. Les 9 g de lipides par portion sont ceux du poisson plus la demi-cuillère à thé d'huile qui sert au grésillement final. Un poisson poêlé au même poids en porterait 5 à 8 de plus, un poisson frit trois fois plus.\n\nET LE SODIUM TIENT SOUS 500 MG PARCE QUE LA SAUCE EST MESURÉE ET VERSÉE À LA FIN. Une cuillère à soupe de soya réduit pour deux portions, soit 250 mg par personne, plus ce que le poisson en contient naturellement. C'EST LA MOITIÉ DE CE QUE PORTE UN SOUPER MOYEN DU PLAN.\n\nLE GESTE DE L'HUILE FUMANTE MÉRITE D'ÊTRE COMPRIS PLUTÔT QUE SUIVI. Le gingembre et l'oignon vert crus sont piquants et végétaux; touchés une seconde par une huile à 180 °C, leurs composés soufrés se transforment et deviennent aromatiques. C'EST LE MÊME PRINCIPE QUE R35 ET QUE T11. Une cuillère à thé suffit, et la poêle doit être petite sinon l'huile brûle avant d'être versée.\n\nET LA SAUCE SE VERSE AUTOUR, PAS DESSUS. Versée sur le poisson, elle rince les aromates au fond de l'assiette et le poisson devient uniformément salé. Autour, on trempe chaque bouchée autant qu'on veut — c'est encore la logique du sel servi à côté."
+    },
+    {
+      "titre": "Le hat nem, le sodium caché de cette cuisine",
+      "texte": "PRESQUE TOUTES LES RECETTES FAMILIALES VIETNAMIENNES DOCUMENTÉES CONTIENNENT DU HẠT NÊM — du bouillon de poulet ou de porc en poudre. Il est AUSSI SALÉ QUE LE SEL, il en faut une cuillère à soupe ou plus par plat, et IL N'ENTRE DANS AUCUN CALCUL parce que personne ne le compte comme un assaisonnement : on le voit comme un exhausteur.\n\nL'ORDRE DE GRANDEUR EST CELUI-CI : DANS UNE SOUPE AIGRE VIETNAMIENNE, LA CUILLÈRE À SOUPE DE HẠT NÊM PÈSE PLUS LOURD EN SODIUM QUE LES DEUX CUILLÈRES À THÉ DE SAUCE DE POISSON DU MÊME PLAT. C'est la découverte la plus utile de l'analyse du corpus vietnamien, et elle est contre-intuitive : le coupable n'est pas la sauce de poisson, qui est visible et qu'on dose, c'est la poudre qu'on ne compte pas.\n\nDANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Et ce qu'il apportait se remplace : les CHAMPIGNONS SÉCHÉS et leur eau de trempage donnent le glutamate; l'OIGNON GRILLÉ à sec donne la profondeur; le POIVRE BLANC donne la longueur en bouche. Les trois sont dans cette fiche pour cette raison.\n\nLA MÊME VIGILANCE VAUT POUR TOUTE RECETTE VIETNAMIENNE TROUVÉE AILLEURS : chercher hạt nêm, bột canh ou bouillon en poudre dans la liste, et le retirer avant de calculer quoi que ce soit."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R35"
+  ],
+  "commentaire_source": ""
+}

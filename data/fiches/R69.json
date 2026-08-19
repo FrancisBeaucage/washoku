@@ -1,0 +1,142 @@
+{
+  "id": "R69",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "grille",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "salade-de-boeuf-grille-cascade-nam-tok",
+  "jp": "น้ำตกเนื้อ",
+  "jp_lecture": null,
+  "romaji": "nam tok nuea",
+  "langue_origine": "th",
+  "fr": "Salade de boeuf grille « cascade » (nam tok)",
+  "sous_titre": "Écriture d'origine น้ำตกเนื้อ, nam tok nuea. Le meilleur rapport protéines-sodium de tout le recueil, et il n'y a rien à ajuster. Quarante-cinq grammes de protéines, cinq cent vingt milligrammes de sodium, vingt minutes.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 8,
+    "attente": 5
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 45,
+    "proteines_affiche": "45 g",
+    "calories": 420,
+    "calories_affiche": "≈ 420",
+    "lipides_g": 16,
+    "sodium_mg": 520,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de bavette, de surlonge ou de flanc, en un morceau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel et du poivre, pour la viande seulement",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA VINAIGRETTE (T22) : 4 c. à soupe de jus de lime frais · 2 c. à thé de sauce de poisson · 1 c. à thé de piment séché grillé moulu, ou 2 piments oiseaux écrasés · 1/2 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de khao khua (T19)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES AROMATES, EN VOLUME : 2 échalotes en fines tranches · 1 grosse poignée de menthe · 1 poignée de coriandre · 3 oignons verts en tronçons de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À servir : feuilles de laitue, tranches de concombre ou de chou vert cru",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T22",
+    "T19"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Sortir la viande du frigo 20 minutes avant. Éponger, saler légèrement, poivrer."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle en fonte ou gril très chaud. Saisir 3 à 4 minutes par face pour une pièce de 3 cm, jusqu'à 52-55 °C au cœur. LA VIANDE DOIT RESTER SAIGNANTE : c'est ce qui la garde tendre une fois tranchée mince et froide."
+    },
+    {
+      "n": 3,
+      "texte": "REPOS DE 5 MINUTES SUR UNE PLANCHE, ET C'EST OBLIGATOIRE. Tranchée chaude, la viande perd son jus dans la vinaigrette et devient sèche."
+    },
+    {
+      "n": 4,
+      "texte": "Mélanger la vinaigrette dans un grand bol. Goûter à la cuillère : elle doit être franchement trop forte seule."
+    },
+    {
+      "n": 5,
+      "texte": "Trancher la viande TRÈS MINCE, en travers du grain, et verser tout le jus de la planche dans le bol."
+    },
+    {
+      "n": 6,
+      "texte": "La viande dans la vinaigrette, mélanger. Les échalotes et les oignons verts. Les herbes à la main, d'un geste léger."
+    },
+    {
+      "n": 7,
+      "texte": "Le khao khua en dernier, saupoudré et mélangé une seule fois. Servir tout de suite, sur ou avec la verdure."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi celle-là est la fiche la plus efficace du recueil",
+      "texte": "LE CALCUL EST SIMPLE ET IL EST DIFFICILE À BATTRE. Quatre cents grammes de bavette donnent de l'ordre de 90 g de protéines pour deux portions. La vinaigrette entière porte 2 c. à thé de sauce de poisson, soit environ 1 000 mg de sodium pour les deux — donc 500 mg par personne, la moitié de ce qu'un souper du plan porte en moyenne. ET IL N'Y A AUCUN GRAS AJOUTÉ : les 16 g de lipides par portion sont ceux de la viande, et rien d'autre.\n\nCE QUI REND ÇA POSSIBLE EST LA STRUCTURE, PAS UN TOUR DE PASSE-PASSE. Une vinaigrette yam n'a pas de corps gras à équilibrer (voir T22), donc la lime peut être généreuse; et le khao khua fait le travail de liaison qu'une huile ferait ailleurs. C'EST LA SEULE FAMILLE DU RECUEIL OÙ LA VERSION AUTHENTIQUE EST DÉJÀ LA VERSION COMPATIBLE. Il n'y a rien à alléger, rien à retirer, rien à assumer.\n\nLE NOM VIENT DE LÀ : น้ำตก, NAM TOK, VEUT DIRE CASCADE. Deux lectures circulent — le jus de la viande qui coule sur le gril, ou le jus qui tombe dans le bol au tranchage. La seconde est celle qui compte en cuisine : CE JUS FAIT PARTIE DE LA VINAIGRETTE, il ne se jette pas."
+    },
+    {
+      "titre": "La différence avec le laap, et pourquoi les deux existent",
+      "texte": "LA VINAIGRETTE EST LA MÊME, LA PROTÉINE NE L'EST PAS, ET C'EST TOUTE LA DIFFÉRENCE. Le nam tok est fait de viande EN MORCEAU, grillée saignante puis tranchée mince — donc de la texture, de la mâche, une surface caramélisée. Le laap (R70) est fait de viande HACHÉE pochée à l'eau — donc pas de croûte, pas de mâche, une texture homogène qui boit la vinaigrette.\n\nLES DEUX SONT AU RECUEIL PARCE QU'ILS NE RÉPONDENT PAS AU MÊME BESOIN. Le nam tok demande une coupe entière et un gril : c'est un plat de souper. Le laap se fait avec du haché d'épicerie et une casserole d'eau : c'est le plat des soirs où il n'y a rien de décongelé.\n\nET IL FONCTIONNE SUR TOUT CE QUI SE GRILLE SAIGNANT. Bavette, surlonge, onglet, mais aussi filet de porc et poitrine de canard. SUR DU POULET, LE PLAT CHANGE DE NATURE : le poulet ne se mange pas saignant, donc il n'y a plus de contraste tendre-froid, et le résultat est correct sans être le même plat. Avec du poulet, mieux vaut faire un laap."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R70"
+  ],
+  "commentaire_source": ""
+}

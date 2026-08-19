@@ -1,0 +1,132 @@
+{
+  "id": "R72",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "blanchi"
+  ],
+  "axe_gout": [
+    "sesame-noisette",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "namul-de-germes-de-soya-kongnamul-muchim",
+  "jp": "콩나물무침",
+  "jp_lecture": null,
+  "romaji": "kongnamul muchim",
+  "langue_origine": "ko",
+  "fr": "Namul de germes de soya (kongnamul muchim)",
+  "sous_titre": "Le banchan national de la Corée, et le patron des six autres. Se garde quatre jours, coûte quatre-vingt-dix milligrammes de sodium pour quatre portions, et débloque à lui seul la session du dimanche.",
+  "portions": "4",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 5,
+    "attente": 5
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 5,
+    "proteines_affiche": "5 g",
+    "calories": 70,
+    "calories_affiche": "≈ 70",
+    "lipides_g": 4,
+    "sodium_mg": 90,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 90 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 23 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de 콩나물 kongnamul — GERMES DE SOYA, à grosse tête jaune, PAS des germes de haricot mungo",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 ml d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel, pour la cuisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "L'ASSAISONNEMENT : 1 gousse d'ail râpée fin · 1 c. à thé d'huile de sésame grillé · 1 c. à soupe de graines de sésame grillées · 1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 oignon vert émincé · 1/2 c. à thé de gochugaru pour la version piquante",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T20"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Rincer les germes et retirer les enveloppes qui flottent. Les racines fines se gardent : elles sont comestibles."
+    },
+    {
+      "n": 2,
+      "texte": "Dans une casserole, les germes, l'eau et le quart de cuillère de sel. Couvrir."
+    },
+    {
+      "n": 3,
+      "texte": "Feu moyen-vif, 4 à 5 minutes à partir du moment où ça bout. NE PAS OUVRIR LE COUVERCLE, PAS UNE FOIS. Voir la note — c'est la seule règle absolue de cette fiche."
+    },
+    {
+      "n": 4,
+      "texte": "Égoutter et refroidir sous l'eau froide, 30 secondes."
+    },
+    {
+      "n": 5,
+      "texte": "PRESSER FERMEMENT À LA MAIN, droit, sans tordre. Deux ou trois passes."
+    },
+    {
+      "n": 6,
+      "texte": "Dans un bol, assaisonner À LA MAIN en massant. Goûter, ajuster."
+    },
+    {
+      "n": 7,
+      "texte": "Laisser reposer 5 minutes avant de servir. Se garde 3 à 4 jours au frigo, contenant fermé."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ne pas ouvrir le couvercle — la seule règle absolue",
+      "texte": "UN GERME DE SOYA CUIT À DÉCOUVERT DÉVELOPPE UNE ODEUR ET UN GOÛT DE HARICOT CRU, FRANCHEMENT DÉSAGRÉABLES, ET C'EST IRRÉVERSIBLE. Le mécanisme est une enzyme, la lipoxygénase, qui s'active au contact de l'oxygène pendant la montée en température et qui produit des composés verts et amers. À couvert, la vapeur chasse l'oxygène et l'enzyme est détruite avant d'avoir travaillé.\n\nLA RÈGLE PRATIQUE EST DONC BINAIRE : COUVERCLE FERMÉ DU DÉBUT À LA FIN, OU COUVERCLE JAMAIS MIS. Les deux fonctionnent — c'est l'entre-deux qui rate. Une cuisson à découvert du début à la fin, dans beaucoup d'eau bouillante, donne un résultat correct; soulever le couvercle à mi-cuisson pour regarder est la seule façon de tout gâcher.\n\nET LES 콩나물 NE SONT PAS LES GERMES DE HARICOT MUNGO DU SUPERMARCHÉ. Ce sont deux légumes différents. Le kongnamul a une GROSSE TÊTE JAUNE et une tige longue et croquante, il demande 4 à 5 minutes. Le germe de mungo est blanc, court, gonflé d'eau, et 60 secondes suffisent. LES CONFONDRE DONNE SOIT DES GERMES CRUS ET AMERS SOIT DE LA BOUILLIE. Chez Kim Phat, l'îlot des germes porte les deux : demander les jaunes."
+    },
+    {
+      "titre": "Le patron du dimanche",
+      "texte": "CETTE FICHE EST LA PORTE D'ENTRÉE D'UNE FAMILLE ENTIÈRE, ET C'EST SA VRAIE VALEUR. Le mécanisme de T20 — cuire nu, essorer, assaisonner à la main — s'applique tel quel aux épinards (30 à 60 secondes de blanchiment), au daikon en julienne (étuvé à couvert 6 à 8 minutes), à la courgette, à l'aubergine (3 minutes de vapeur), à la carotte. L'ASSAISONNEMENT NE CHANGE PAS. Le légume change.\n\nQUARANTE-CINQ MINUTES LE DIMANCHE DONNENT QUATRE OU CINQ ACCOMPAGNEMENTS POUR LA SEMAINE, tous à moins de 100 mg de sodium pour quatre portions, tous en contenants fermés au frigo. C'EST EXACTEMENT CE QUE LE DOSSIER CHERCHE DEPUIS LE DÉBUT et qui n'existait nulle part : un poste accompagnement réglé d'avance, sans travail en semaine.\n\nET LE SODIUM EST À METTRE EN PERSPECTIVE. Quatre-vingt-dix milligrammes pour QUATRE portions, soit environ 23 mg par portion. Le sunomono du recueil, à cause de son sel de dégorgement, en porte de l'ordre de 250 par portion. C'EST DIX FOIS MOINS POUR UN PLAT QUI JOUE LE MÊME RÔLE — un petit légume froid et croquant à côté du riz."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

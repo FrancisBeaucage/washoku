@@ -1,0 +1,142 @@
+{
+  "id": "R70",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "laotienne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "poche",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "croquant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "laap-de-porc-aux-herbes",
+  "jp": "ລາບ",
+  "jp_lecture": null,
+  "romaji": "laap",
+  "langue_origine": "lo",
+  "fr": "Laap de porc aux herbes",
+  "sous_titre": "Écriture d'origine ລາບ, variante thaïe ลาบ larb. Aucun corps gras n'entre jamais dans ce plat. La viande est pochée à l'eau, refroidie, et montée hors du feu — c'est la structure la plus favorable qu'on puisse écrire pour une cible de protéines.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 6,
+    "attente": 2
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 40,
+    "proteines_affiche": "40 g",
+    "calories": 390,
+    "calories_affiche": "≈ 390",
+    "lipides_g": 12,
+    "sodium_mg": 560,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion. Ordres de grandeur calculés sur les quantités écrites : cette recette n'a pas encore été exécutée. Le sodium est recalculé à partir des étiquettes lues le 18 août 2026. Le premier débriefing remplacera ces chiffres."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de porc haché maigre, ou de poulet haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 c. à soupe d'eau, pour pocher",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA VINAIGRETTE (T22) : 4 c. à soupe de jus de lime frais · 1 c. à soupe de sauce de poisson · 1 à 2 c. à thé de piment séché grillé moulu · 1/2 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de khao khua (T19) — LA DOSE HAUTE EST VOULUE, voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES AROMATES, EN VOLUME : 2 échalotes en fines tranches · 1 grosse poignée de menthe · 1 poignée de coriandre · 3 oignons verts · quelques feuilles de coriandre longue si disponible",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À servir : feuilles de laitue, chou vert en morceaux, haricots longs crus, et du riz gluant vapeur",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T22",
+    "T19"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Casserole ou poêle à feu moyen avec les 4 c. à soupe d'EAU. Pas d'huile — le porc rend le sien."
+    },
+    {
+      "n": 2,
+      "texte": "Le haché dans l'eau, écrasé à la cuillère de bois pour le défaire en grains fins. 5 à 6 minutes, jusqu'à ce qu'il n'y ait plus de rose. IL DOIT RESTER UN PEU DE LIQUIDE : c'est du jus de viande et il va dans la vinaigrette."
+    },
+    {
+      "n": 3,
+      "texte": "Retirer du feu et LAISSER TIÉDIR 2 À 3 MINUTES. La viande brûlante cuit les herbes."
+    },
+    {
+      "n": 4,
+      "texte": "Mélanger la vinaigrette dans un grand bol, goûter à la cuillère."
+    },
+    {
+      "n": 5,
+      "texte": "La viande tiède et son jus dans la vinaigrette. Mélanger."
+    },
+    {
+      "n": 6,
+      "texte": "Les échalotes et les oignons verts, puis les herbes à la main."
+    },
+    {
+      "n": 7,
+      "texte": "Le khao khua en dernier. Mélanger une fois. Servir tiède ou à température de la pièce."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Zéro gras de cuisson, et ce que ça permet",
+      "texte": "C'EST LA SEULE FICHE DU RECUEIL OÙ UNE VIANDE EST CUITE SANS AUCUNE MATIÈRE GRASSE ET SANS PERDRE DE GOÛT. Pochée dans quatre cuillères à soupe d'eau, elle rend son propre gras dans le liquide, et ce liquide retourne dans le plat avec la vinaigrette — donc rien n'est perdu et rien n'est ajouté. Les 12 g de lipides par portion sont ceux du porc haché maigre, et pas un de plus.\n\nLA CONSÉQUENCE POUR LA PLANIFICATION EST GRANDE. Les jours où le déjeuner a été pris en vitesse et que les lipides sont tombés à 4 g (le mécanisme décrit au guide 5), ce plat NE RATTRAPE PAS le manque — mais il ne le creuse pas non plus, et il laisse tout le budget de lipides de la journée disponible pour un avocat ou du sésame. Un sauté au même haché en aurait mangé 10 g de plus.\n\nET C'EST LE PLAT DES SOIRS SANS PLAN. Du haché du congélateur, une casserole d'eau, des herbes, une lime. AUCUNE DÉCONGÉLATION LENTE, AUCUNE MARINADE, AUCUNE CUISSON À SURVEILLER. C'est le seul plat protéiné du recueil qui se monte entièrement en vingt minutes à partir d'un congélateur."
+    },
+    {
+      "titre": "Trois écarts assumés par rapport à la version authentique",
+      "texte": "UN — LA COUENNE ET LE GRAS DE POITRINE SONT RETIRÉS. Un laap lao de village porte souvent de la couenne croustillante en lamelles et du gras de poitrine, qui sont une part du plaisir du plat. Ils sont ici omis, et c'est un vrai retrait, pas une équivalence. LE KHAO KHUA À 3 C. À SOUPE EST CE QUI OCCUPE LEUR PLACE : il apporte du grain et du grillé, qui est ce que la couenne apportait.\n\nDEUX — LE PADAEK EST REMPLACÉ PAR DE LA SAUCE DE POISSON. Le padaek, poisson fermenté non filtré, est plus assertif et plus profond que le nuoc mam. Il se trouve chez Kim Phat, allée 3 ou 4. Si on en utilise, LE COMPTER COMME DU SODIUM À PART ENTIÈRE et ne pas ajouter de sauce de poisson en plus. Et le padaek se cuit toujours, jamais cru.\n\nTROIS — LA DOSE DE SAUCE DE POISSON EST À 1 C. À SOUPE ET NON 2. C'est un ajustement, et il est compensé par la structure de T22 : la lime monte à 4 c. à soupe et le piment double. Ce n'est pas une équivalence chimique — c'est une compensation perceptive, et le khao khua en fait la moitié.\n\nUNE RÉSERVE D'HONNÊTETÉ SUR LA FRÉQUENCE. Les sources divergent : dans les villages lao, le laap est lié à l'abattage d'un animal, donc aux occasions; d'autres en font un des trois piliers du quotidien. LA LECTURE JUSTE POUR CE DOSSIER : avec du haché d'épicerie, la question ne se pose pas — c'est un plat de semaine."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R69"
+  ],
+  "commentaire_source": ""
+}

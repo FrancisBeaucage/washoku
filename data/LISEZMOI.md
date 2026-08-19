@@ -50,6 +50,22 @@ manifeste tire son `dernier_document_applique`.
 | `rayons.json` | Les rayons du guide 3 : la clé de `section` et son libellé | `ingredients.html` |
 | `zones-exercices.json` | Les zones du corps du guide 4 : la clé de `zone` et son libellé | `exercices.html` |
 
+### Le budget de l'index
+
+`index.json` est le budget de la page de liste : elle le charge en entier à
+chaque ouverture, sur un téléphone, souvent sur données cellulaires. Le
+document 20 fixe la cible à **60 Ko pour 180 fiches**, et la règle 24 la
+vérifie **sur ce qui part sur le fil** — donc après compression, puisque c'est
+ce que le lecteur paie et que GitHub Pages compresse.
+
+À 107 fiches, le fichier pèse 54 Ko bruts et **9,6 Ko compressés**, soit une
+projection de 16 Ko à 180 fiches. **En octets bruts, la cible n'est pas
+atteignable** : elle supposait un index sans photos, et une carte sans photo
+n'est pas la carte que le dossier a. Deux économies réelles ont quand même été
+faites, et elles valaient la peine — l'adresse de chaque fiche ne s'y recopie
+plus (le manifeste publie le patron), et **une clé absente veut dire « rien ne
+le dit »**, donc les valeurs vides ne s'écrivent pas.
+
 **Il ne reste plus une ligne de prose dans le HTML.** C'était le cas jusqu'au
 document 20, et ça a coûté cher à découvrir : le document diagnostiquait le
 guide 1 comme « le seul guide sans fichier de données derrière lui », alors que

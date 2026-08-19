@@ -1,0 +1,137 @@
+{
+  "id": "R82",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "poche"
+  ],
+  "axe_gout": [
+    "doux",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "fondant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "poulet-poche-a-froid-mushidori",
+  "jp": "蒸し鶏",
+  "jp_lecture": "むしどり",
+  "romaji": "mushidori",
+  "langue_origine": "ja",
+  "fr": "Poulet poche a froid (mushidori)",
+  "sous_titre": "Cinq minutes de feu, quarante minutes où l'on ne fait rien, et la brique protéique la moins chère du recueil. Trente-trois grammes de protéines pour trois grammes de lipides.",
+  "portions": "4",
+  "temps_affiche": "≈ 10 min actives, 40 min passives",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 5,
+    "attente": 40
+  },
+  "preparation_avance": "Se garde quatre jours au frigo, dans son jus. À faire pendant la session du dimanche, avec le jangjorim (R77) et les namul (R72).",
+  "nutrition": {
+    "proteines_g": 33,
+    "proteines_affiche": "33 g",
+    "calories": 170,
+    "calories_affiche": "≈ 170",
+    "lipides_g": 3,
+    "sodium_mg": 150,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES QUATRE PORTIONS. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de poitrines de poulet, entières, sans la peau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Assez d'eau pour couvrir de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 tronçon d'oignon vert, 3 tranches de gingembre, 1 c. à soupe de saké",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À SERVIR, au choix : ponzu · sauce sésame · vinaigrette yam (T22) · gingembre râpé et un filet de soya",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T22"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Sortir le poulet du frigo 20 minutes avant. Une poitrine froide au cœur cuit inégalement."
+    },
+    {
+      "n": 2,
+      "texte": "Dans une casserole juste assez grande, le poulet, l'eau à 3 cm au-dessus, l'oignon vert, le gingembre, le saké et le sel."
+    },
+    {
+      "n": 3,
+      "texte": "Porter à FRÉMISSEMENT — de petites bulles aux bords, jamais un bouillonnement. Compter 2 minutes à ce stade."
+    },
+    {
+      "n": 4,
+      "texte": "ÉTEINDRE LE FEU. COUVRIR. NE PLUS RIEN FAIRE PENDANT 30 À 40 MINUTES. C'est toute la technique."
+    },
+    {
+      "n": 5,
+      "texte": "Sortir le poulet et vérifier : la chair doit être opaque jusqu'au centre. Un reste de rose, remettre 10 minutes dans l'eau chaude, feu éteint."
+    },
+    {
+      "n": 6,
+      "texte": "LAISSER REFROIDIR DANS SON JUS si on ne le mange pas tout de suite. C'est ce qui le garde humide."
+    },
+    {
+      "n": 7,
+      "texte": "Trancher en travers, ou effilocher."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi l'eau éteinte fait mieux que l'eau qui bout",
+      "texte": "UNE POITRINE DE POULET EST LA COUPE LA PLUS FACILE À RATER DE TOUTE LA VIANDE : peu de gras, peu de collagène, et un écart de cinq degrés entre juteuse et sèche. À GROS BOUILLONS, L'EXTÉRIEUR PASSE 100 °C PENDANT QUE LE CŒUR MONTE, les fibres se contractent et expulsent leur eau, et on obtient une chair filandreuse.\n\nL'EAU ÉTEINTE RÈGLE ÇA PAR LA PHYSIQUE. Une casserole couverte d'eau à 90 °C descend lentement, et pendant trente minutes elle traverse exactement la fenêtre où les protéines du poulet coagulent sans se contracter — de 65 à 75 °C. LE POULET ARRIVE À BONNE TEMPÉRATURE PAR LE BAS, ET IL N'Y A AUCUN MOMENT OÙ IL EST SURCUIT.\n\nET LA MÉTHODE PARDONNE PRESQUE TOUT. Quarante minutes au lieu de trente ne change rien : l'eau est déjà tombée sous le seuil. C'est l'inverse d'un poulet grillé, où trois minutes de trop sont fatales. POUR UN DOSSIER OÙ LA CUISINE SE FAIT AVEC DES INTERRUPTIONS, C'EST LE PROFIL DE CUISSON LE PLUS SÛR QUI EXISTE.\n\nCENT CINQUANTE MILLIGRAMMES DE SODIUM POUR QUATRE PORTIONS, ET TROIS GRAMMES DE LIPIDES. Aucune huile n'entre, la peau est retirée, le sel est dans une eau qu'on jette en partie. C'EST LA PROTÉINE LA PLUS PROPRE DU RECUEIL, ET ELLE EST AUSSI LA MOINS CHÈRE AU GRAMME."
+    },
+    {
+      "titre": "Ce que ça remplace dans une semaine",
+      "texte": "LE RECUEIL A DEUX PRÉPARATIONS DE POULET D'AVANCE — LE POULET GRILLÉ AU SEL ET LE YAKITORI — ET LES DEUX DEMANDENT UN GRIL ET DE LA SURVEILLANCE. Celle-ci demande cinq minutes et une casserole, et elle donne quatre portions.\n\nLA FONCTION EXACTE EST LA BRIQUE NEUTRE. Le mushidori n'a presque pas de goût propre, et c'est sa force : il entre dans un donburi, dans une salade de soba, dans une salade yam (T22), dans un bol de nouilles, dans un ochazuke. IL PREND LE GOÛT DE CE QUI L'ENTOURE. Le poulet grillé au sel, lui, impose le sien.\n\nET IL EST LE MEILLEUR CANDIDAT DU RECUEIL POUR LA SESSION DU DIMANCHE, avec le jangjorim (R77) et les namul (R72). Les trois se font dans le même créneau, aucun ne demande d'attention continue, et les trois couvrent quatre jours.\n\nLE JUS DE POCHAGE NE SE JETTE PAS. Filtré, c'est un bouillon de poulet léger et propre — de quoi monter un gaeng jued (R74) ou une soupe claire. IL EST PEU SALÉ, DONC IL SE RÉASSAISONNE LIBREMENT, ce qui est rare pour un bouillon.\n\nSI LA CUISSON À L'EAU ÉTEINTE INQUIÈTE : la chair doit être opaque jusqu'au centre, sans aucune zone rose ni translucide, et le jus qui sort d'une entaille doit être clair. En cas de doute, dix minutes de plus dans l'eau chaude. LA MÉTHODE EST STANDARD AU JAPON, mais le repère visuel est ce qui tranche, pas le minuteur."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [
+    "R72",
+    "R74",
+    "R77"
+  ],
+  "commentaire_source": ""
+}
