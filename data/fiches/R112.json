@@ -1,0 +1,166 @@
+{
+  "id": "R112",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "doux",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "tofu-emiette-aux-legumes-iridofu",
+  "jp": "炒り豆腐",
+  "jp_lecture": "いりどうふ",
+  "romaji": "iridōfu",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Tofu émietté aux légumes (iridōfu)",
+  "sous_titre": "Le plat qui vide le tiroir à légumes : trente-huit grammes de protéines, une poêle, et tout ce qui reste de la semaine coupé fin.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "38 g",
+    "calories": 340,
+    "calories_affiche": "≈ 340",
+    "lipides_g": 19,
+    "sodium_mg": 270,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de tofu ferme, ÉGOUTTÉ",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de poulet haché OU 4 shiitake séchés réhydratés, pour la version sans viande",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 carotte en julienne fine",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de haricots verts OU de pois congelés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 shiitake, frais ou réhydratés, tranchés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs battus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame grillé, HORS DU FEU",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre pour la cuisson",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "ÉGOUTTER LE TOFU 10 MINUTES DANS UNE PASSOIRE, SANS LE PRESSER. Ici on veut qu'il reste des grains, pas une pâte : pressé à sec, il devient poudreux."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle large à feu moyen-vif avec l'huile neutre. Le haché d'abord, écrasé à la spatule, 3 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Les légumes durs — carotte, shiitake, haricots — 3 minutes. Ils doivent rester fermes."
+    },
+    {
+      "n": 4,
+      "texte": "LE TOFU ÉMIETTÉ À LA MAIN DIRECTEMENT DANS LA POÊLE, en gros grains irréguliers. Remuer 2 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "Le dashi, le soya, le mirin. LAISSER RÉDUIRE À DÉCOUVERT JUSQU'À CE QUE LE FOND RESTE SEC AU SILLON — 3 à 4 minutes. C'est l'étape que tout le monde escamote et c'est celle qui fait la différence entre un iridōfu et une bouillie."
+    },
+    {
+      "n": 6,
+      "texte": "LES ŒUFS BATTUS VERSÉS EN FILET, remués 30 secondes seulement. Ils lient l'ensemble."
+    },
+    {
+      "n": 7,
+      "texte": "Éteindre, huile de sésame, mélanger une fois."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La réduction à sec est le plat; tout le reste est de la garniture",
+      "texte": "UN IRIDŌFU RATÉ EST UNE BOUILLIE ET LA CAUSE EST TOUJOURS LA MÊME : ON N'A PAS RÉDUIT. Quatre cents grammes de tofu portent de l'ordre de 300 ml d'eau, et le dashi en ajoute 100. Si on sert avant que le fond de la poêle reste sec au passage de la spatule, on sert quatre cents grammes de tofu dans son eau. L'ÉTAPE 5 N'EST PAS UNE FINITION : C'EST LA CUISSON.\n\nET C'EST POURQUOI ON N'ÉGOUTTE PAS À SEC À L'ÉTAPE 1. Le tofu doit garder assez d'eau pour que les grains restent moelleux au terme de la réduction. PRESSÉ COMME CELUI DE R110, IL FINIT EN SABLE. Deux plats, deux traitements du même bloc — c'est la distinction qui vaut d'être retenue.\n\nCE PLAT EST LE DÉBOUCHÉ DU FOND DE FRIGO ET IL FAUT L'UTILISER COMME TEL. N'importe quel légume ferme coupé fin y va : le kiriboshi daikon de R66, les shimeji de R67, un demi-poivron, des pousses de bambou. LA SEULE CONTRAINTE EST LA COUPE — tout doit être plus petit que les grains de tofu, sinon on mange des morceaux dans du tofu au lieu d'un plat.\n\nLA VERSION SANS VIANDE TIENT DEBOUT ET C'EST RARE. En remplaçant les 100 g de haché par quatre shiitake séchés réhydratés, le plat descend à 34 g de protéines et 11 g de lipides par portion, et le sodium ne bouge pas. TRENTE-QUATRE GRAMMES DE PROTÉINES VÉGÉTALES DANS UNE POÊLE, C'EST LE MEILLEUR CHIFFRE DU DOSSIER HORS KŌYADŌFU.\n\nL'EAU DE TREMPAGE DES SHIITAKE SÉCHÉS REMPLACE LE DASHI, et elle est meilleure ici que le dashi au katsuobushi — plus sombre, plus ronde, et elle porte le plat sans poisson."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "ISGnoc_cXA4",
+    "auteur": "Cooking with Dog",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R110",
+    "R66"
+  ],
+  "commentaire_source": ""
+}

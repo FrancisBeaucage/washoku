@@ -1,0 +1,137 @@
+{
+  "id": "R118",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "blanchi",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "sesame-noisette",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "porc-blanchi-froid-sur-crudites-hiya-shabu",
+  "jp": "冷しゃぶ",
+  "jp_lecture": "ひやしゃぶ",
+  "romaji": "hiya-shabu",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Porc blanchi froid sur crudités (hiya-shabu)",
+  "sous_titre": "La seule cuisson du recueil qui retire du gras au lieu d'en ajouter : quarante secondes d'eau bouillante, et le gras du porc part dans la casserole.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 4,
+    "attente": 4
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 31,
+    "proteines_affiche": "31 g",
+    "calories": 300,
+    "calories_affiche": "≈ 300",
+    "lipides_g": 16,
+    "sodium_mg": 190,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de porc tranché mince (shabu-shabu)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de saké dans l'eau de blanchiment — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE LIT DE CRUDITÉS, environ 300 g : 1/4 de chou en lanières très fines · 1 concombre en julienne · 100 g de germes de haricot mungo · 1/2 oignon rouge en lamelles · shiso ou feuilles de périlla si tu en as",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA TREMPETTE, par portion : 1 c. à thé de ponzu · 1/2 c. à thé d'huile de sésame grillé · 1 c. à thé de graines de sésame écrasées au suribachi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : gingembre râpé · 1/4 de c. à thé de mirin dans la trempette",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Monter les crudités dans deux grandes assiettes creuses. LE CHOU EN DESSOUS, LE RESTE PAR-DESSUS. Mettre au frigo."
+    },
+    {
+      "n": 2,
+      "texte": "Écraser les graines de sésame au suribachi et mélanger la trempette dans deux petits plats à sauce. LE SÉSAME ÉCRASÉ LIBÈRE SON HUILE; ENTIER, IL ROULE SANS RIEN DONNER."
+    },
+    {
+      "n": 3,
+      "texte": "Grande casserole d'eau, le saké, amener à FRÉMISSEMENT — SURTOUT PAS À GROS BOUILLONS. Une eau qui bout fort recroqueville les tranches et les durcit."
+    },
+    {
+      "n": 4,
+      "texte": "DÉFAIRE LES TRANCHES UNE PAR UNE ET LES PLONGER EN PETITES FOURNÉES DE 3 OU 4. 40 à 50 secondes chacune, jusqu'à ce que le rose disparaisse en surface."
+    },
+    {
+      "n": 5,
+      "texte": "SORTIR À L'ÉCUMOIRE ET ÉTALER À PLAT SUR UNE ASSIETTE FROIDE, sans les empiler. Laisser refroidir 4 minutes à l'air."
+    },
+    {
+      "n": 6,
+      "texte": "Déposer les tranches refroidies sur le lit de crudités."
+    },
+    {
+      "n": 7,
+      "texte": "Verser la trempette au moment de manger, pas avant."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le gras qui part à l’eau, et la question du refroidissement",
+      "texte": "C'EST LA SEULE FICHE DU RECUEIL OÙ LA CUISSON RETIRE DES LIPIDES. Trois cents grammes de porc tranché mince portent de l'ordre de 45 g de lipides crus; quarante secondes de frémissement en laissent une partie dans l'eau — l'estimation de la fiche compte ≈ 32 g conservés, soit 16 par portion. C'EST LE CONTRAIRE D'UN SAUTÉ, où l'huile de la poêle s'ajoute au gras de la viande.\n\nLE CHIFFRE EXACT N'EST PAS CONNU ET LA FICHE NE PRÉTEND PAS LE CONNAÎTRE. CE QUI EST CERTAIN EST LE SENS : l'eau de blanchiment est trouble et grasse à la fin, et ce gras-là ne se mange pas.\n\n⚠️ LA QUESTION DU REFROIDISSEMENT EST OUVERTE ET IL FAUT LA TESTER. L'usage courant est de choquer les tranches à l'eau glacée. La fiche dit de les refroidir À PLAT À L'AIR, ET C'EST UNE HYPOTHÈSE, PAS UN FAIT ÉTABLI : l'eau glacée devrait figer le gras résiduel en surface et détremper la viande, alors que le refroidissement à l'air le laisse fondant. À VÉRIFIER À LA PREMIÈRE EXÉCUTION, en séparant la moitié des tranches pour chaque méthode. C'est un test qui coûte trente secondes.\n\nCETTE FICHE EST LA TROISIÈME PRÉPARATION FROIDE DE VIANDE POCHÉE DU RECUEIL ET LES TROIS SONT DISTINCTES. R24, le shabu-shabu, est un repas chaud à table où chacun cuit sa tranche. R82, le mushidori, est une poitrine ENTIÈRE pochée dans l'eau éteinte puis refroidie DANS SON JUS — vingt minutes passives, aucune surveillance. CELLE-CI EST DES TRANCHES MINCES BLANCHIES PUIS REFROIDIES À SEC, et son intérêt est le lit de crudités : trois cents grammes de légumes crus qu'aucun autre plat du dossier ne fait manger.\n\n⚠️ LA VIDÉO D'OCHIKERON UTILISE UNE VINAIGRETTE À L'UMEBOSHI ET À L'HUILE D'OLIVE. LA FICHE UTILISE UNE TREMPETTE PONZU-SÉSAME, ce qui est un choix : l'umeboshi apporte du sel qu'on ne mesure pas facilement, et le titre de la vidéo dit « Shabu Shabu Salad » plutôt que hiya-shabu — c'est bien le plat, monté en salade.\n\nCENT QUATRE-VINGT-DIX MILLIGRAMMES, ET LE SEL EST DANS UN PLAT À CÔTÉ. C'est le troisième cas de ce document, et la trempette est ici dans son usage le plus pur : ON TREMPE CE QU'ON VEUT, AUTANT QU'ON VEUT, ET CE QUI RESTE DANS LE PETIT PLAT À LA FIN EST DU SODIUM QU'ON N'A PAS MANGÉ. Aucune sauce mélangée ne permet ça."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "Y8v76bt4zsk",
+    "auteur": "ochikeron",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R24",
+    "R82"
+  ],
+  "commentaire_source": ""
+}

@@ -16663,5 +16663,2021 @@
       "R97"
     ],
     "commentaire_source": ""
+  },
+  {
+    "id": "T24",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "japonaise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "saute",
+      "grille"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "le-glacage-teriyaki",
+    "jp": "照り焼き",
+    "jp_lecture": "てりやき",
+    "romaji": "teriyaki",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Le glaçage teriyaki",
+    "sous_titre": "Le tare classique est quatre parts égales : soya, mirin, saké, sucre. La version de la maison en retire une et divise une autre par deux — et le glaçage brille pareil.",
+    "portions": "2",
+    "temps_affiche": "≈ 5 min",
+    "temps_minutes": {
+      "preparation": 1,
+      "cuisson": 4,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 0,
+      "proteines_affiche": "0 g",
+      "calories": 35,
+      "calories_affiche": "≈ 35",
+      "lipides_g": 0,
+      "sodium_mg": 255,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "POUR DEUX PORTIONS :",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 1/2 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de saké OU d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN SUCRE AJOUTÉ",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 tranche de gingembre écrasée, retirée avant le glaçage",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger les trois liquides dans un bol AVANT de commencer à cuire la protéine. Une fois la poêle en marche, il n'y a plus le temps."
+      },
+      {
+        "n": 2,
+        "texte": "Cuire la protéine à part, jusqu'à ce qu'elle soit cuite à cœur. LE GLAÇAGE NE CUIT RIEN : IL ENROBE."
+      },
+      {
+        "n": 3,
+        "texte": "ÉTEINDRE LE FEU. Éponger la poêle de son gras avec un papier absorbant si elle en a rendu."
+      },
+      {
+        "n": 4,
+        "texte": "Verser le mélange dans la poêle chaude mais éteinte. Il va bouillonner de lui-même sur la chaleur résiduelle."
+      },
+      {
+        "n": 5,
+        "texte": "Retourner la protéine deux ou trois fois dans le liquide qui épaissit. EN 40 À 60 SECONDES, IL PASSE DE LIQUIDE À SIRUPEUX ET NAPPE."
+      },
+      {
+        "n": 6,
+        "texte": "Si le feu était nécessaire pour finir la réduction, le remettre AU PLUS BAS et compter en secondes. LE MOMENT OÙ LE SIROP FUME EST LE MOMENT OÙ IL DEVIENT AMER."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi le sucre du tare classique est en trop",
+        "texte": "LE TARE STANDARD EST 1:1:1:1 — soya, mirin, saké, sucre. Le dossier en retire le sucre entièrement, et ce n'est pas une privation : LE MIRIN PORTE DÉJÀ 6 G DE SUCRES PAR CUILLÈRE À SOUPE. Une cuillère et demie de mirin, c'est 9 g de sucre dans le glaçage. Le sucre du tare classique en ajoute 12 de plus par-dessus — il double une chose qui est déjà là.\n\nCE QUE ÇA COÛTE ET CE QUE ÇA ÉCONOMISE : le glaçage nappe un peu moins épais, et il faut réduire 15 secondes de plus. En échange, ≈ 50 calories de moins par portion, et un goût qui laisse passer le soya au lieu de le couvrir.\n\nLA SAUCE SOYA, ELLE, EST DIVISÉE PAR DEUX ET C'EST LÀ QUE LE VRAI GAIN EST. Une cuillère à soupe pour deux portions au lieu de deux — 255 mg de sodium par portion au lieu de 505. CE QUI REND ÇA POSSIBLE, C'EST LA RÉDUCTION : ELLE CONCENTRE LE SEL SANS EN AJOUTER. Une cuillère de soya réduite de moitié goûte comme deux cuillères non réduites, parce que c'est la concentration en bouche qui se lit, pas la quantité versée.\n\n⚠️ ET C'EST EXACTEMENT POURQUOI IL FAUT ÉTEINDRE LE FEU. Sur feu vif, le sucre du mirin caramélise puis brûle en quelques secondes, et le soya devient âcre. Hors du feu, la chaleur résiduelle de la poêle suffit à réduire et rien ne peut brûler. LE GLAÇAGE HORS DU FEU N'EST PAS UNE PRÉCAUTION DE DÉBUTANT : c'est la seule façon de tenir une réduction à une cuillère de soya.\n\nLE SAKÉ PEUT ÊTRE REMPLACÉ PAR DE L'EAU sans changer le résultat de façon détectable. Il apporte du volume à réduire, ce qui donne de la marge avant que ça brûle; son alcool part dans les 20 premières secondes. DE L'EAU FAIT LE MÊME TRAVAIL DE VOLUME.\n\nTROIS FICHES DU RECUEIL APPELLENT CETTE TECHNIQUE : R109, R110 et R116. Le nikujaga de R113 et le gyūdon de R115 utilisent la MÊME paire soya-mirin, mais en mijotage et non en glaçage — le liquide y reste liquide et sert de bouillon."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "n88PT1dSVn8",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R116",
+      "R109"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R107",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "saute",
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "soboro-de-poulet",
+    "jp": "鶏そぼろ",
+    "jp_lecture": "とりそぼろ",
+    "romaji": "tori soboro",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Soboro de poulet",
+    "sous_titre": "Quatre portions de protéine assaisonnée, faites en douze minutes, qui se gardent quatre jours au frigo. C'est la brique du dossier contre le plancher de 130 grammes.",
+    "portions": "4",
+    "temps_affiche": "≈ 17 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 12,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 17,
+      "proteines_affiche": "17 g",
+      "calories": 150,
+      "calories_affiche": "≈ 150",
+      "lipides_g": 8,
+      "sodium_mg": 255,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de poulet haché",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de gingembre râpé — à l'oroshigane si tu l'as trouvé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE HUILE — le haché rend assez de gras pour lui-même",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à soupe de saké, ajouté avec les liquides",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Poêle À SEC, feu moyen. Le haché directement dedans, sans huile."
+      },
+      {
+        "n": 2,
+        "texte": "L'ÉCRASER À LA SPATULE PENDANT QU'IL EST ENCORE CRU, en pressant, pour le défaire en grains fins. C'est le geste qui fait tout le plat : un soboro réussi est granuleux, pas en morceaux."
+      },
+      {
+        "n": 3,
+        "texte": "Quand il n'y a plus de rose, 4 à 5 minutes, INCLINER LA POÊLE ET RETIRER LE GRAS RENDU AU PAPIER ABSORBANT. Il y en aura une bonne cuillère."
+      },
+      {
+        "n": 4,
+        "texte": "Ajouter tous les liquides et le gingembre d'un coup. Ça va bouillir fort."
+      },
+      {
+        "n": 5,
+        "texte": "Feu moyen-vif, remuer et laisser réduire 5 à 7 minutes, JUSQU’À CE QUE LE FOND DE LA POÊLE RESTE SEC DEUX SECONDES QUAND ON TRACE UN SILLON À LA SPATULE."
+      },
+      {
+        "n": 6,
+        "texte": "Goûter. NE RIEN RAJOUTER AVANT D'AVOIR GOÛTÉ REFROIDI : le soboro sale en refroidissant."
+      },
+      {
+        "n": 7,
+        "texte": "Refroidir à découvert, puis contenant fermé au frigo."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce que c'est vraiment : une assurance, pas un plat",
+        "texte": "LE SOBORO NE SE MANGE PAS SEUL ET CE N'EST PAS SON RÔLE. C'est une préparation d'avance — dix-sept grammes de protéines par portion, déjà assaisonnés, prêts à la cuillère. SON USAGE EST LE MÊME QUE CELUI DES LANIÈRES DE POULET DU GARDE-MANGER : ASSURER LE PLANCHER DE PROTÉINES LES JOURS OÙ LA PLANIFICATION DÉRAILLE. À la différence près que celui-ci goûte quelque chose et rend son jus.\n\nQUATRE FAÇONS DE LE SORTIR : sur un bol de riz avec un œuf, ce qui donne R108 · dans un kobachi comme sansai protéiné · sur des épinards blanchis, où il remplace le sésame de R44 · froid, en boîte à lunch.\n\nIL SE GARDE QUATRE JOURS ET C'EST VÉRIFIABLE À L'ŒIL : tant qu'il reste sec et qu'aucun liquide ne s'accumule au fond du contenant, il est bon. Le liquide qui reparaît est le signal.\n\nLA VARIANTE 肉味噌 NIKU-MISO EXISTE ET ELLE EST PLUS SALÉE : on remplace la sauce soya par une cuillère à soupe de miso, ce qui monte le sodium à ≈ 300 mg par portion et change complètement le registre — plus rond, plus fermenté, et ça devient une garniture de nouilles plutôt qu'une garniture de riz. PAS UNE FICHE SÉPARÉE : UNE LIGNE DE CETTE NOTE.\n\n⚠️ RETIRER LE GRAS RENDU N'EST PAS OPTIONNEL À L'ÉTAPE 3. Quatre cents grammes de poulet haché de cuisse rendent de l'ordre d'une cuillère à soupe de gras — 14 grammes de lipides, dans un dossier plafonné à 65 par jour. Si on ne le retire pas, il se retrouve dans la réduction et colle aux grains. LE RETIRER COÛTE CINQ SECONDES ET ENLÈVE 3 À 4 G DE LIPIDES PAR PORTION."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "8TQux5oQz1A",
+      "auteur": "ハゲのへたくそ料理runnyrunny999",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R108"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R108",
+    "statut": "actif",
+    "categorie": "diner",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "blanchi"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "doux",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "ferme",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner"
+    ],
+    "slug": "bol-trois-couleurs-soborodon",
+    "jp": "三色丼",
+    "jp_lecture": "さんしょくどん",
+    "romaji": "sanshoku don",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Bol trois couleurs (soborodon)",
+    "sous_titre": "Trente-six grammes de protéines pour quatre cents milligrammes de sodium, et quinze minutes si le soboro est déjà au frigo. C'est le meilleur rapport du dossier pour un dîner.",
+    "portions": "2",
+    "temps_affiche": "≈ 15 min si le soboro est fait",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 10,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 36,
+      "proteines_affiche": "36 g",
+      "calories": 535,
+      "calories_affiche": "≈ 535",
+      "lipides_g": 18,
+      "sodium_mg": 400,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 portions de soboro R107, environ 200 g",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g d'épinards OU de haricots verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 rondelles de riz congelé de 140 g, OU 280 g de riz cuit",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre pour les œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 pincée de sel pour les œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de graines de sésame · nori en lanières · gingembre mariné",
+        "sante": true,
+        "sante_pos": 51
+      }
+    ],
+    "techniques": [
+      "T1",
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Réchauffer le soboro à la poêle ou au micro-ondes. Le mettre de côté."
+      },
+      {
+        "n": 2,
+        "texte": "Faire T6 sur les épinards : 40 secondes à l'eau bouillante, égoutter, PRESSER À LA MAIN, couper en tronçons de 3 cm."
+      },
+      {
+        "n": 3,
+        "texte": "Battre les œufs avec la pincée de sel. Poêle à feu MOYEN-DOUX avec l'huile."
+      },
+      {
+        "n": 4,
+        "texte": "LES ŒUFS BROUILLÉS DOIVENT RESTER EN GROS CAILLOTS HUMIDES, pas en poudre. Sortir dès qu'il n'y a plus de liquide libre — ils finissent de prendre dans l'assiette."
+      },
+      {
+        "n": 5,
+        "texte": "Réchauffer le riz. L'étaler dans deux bols larges."
+      },
+      {
+        "n": 6,
+        "texte": "TROIS BANDES CÔTE À CÔTE, PAS UN MÉLANGE : le soboro brun, les œufs jaunes, la verdure verte. Le plat s’appelle « trois couleurs »; les mélanger dans la poêle en fait un seul plat beige."
+      },
+      {
+        "n": 7,
+        "texte": "Sésame et nori par-dessus."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi deux œufs par bol et non un",
+        "texte": "LA RECETTE JAPONAISE ORDINAIRE MET UN ŒUF PAR BOL, et le bol arrive à ≈ 30 g de protéines pour 455 calories. LE DOSSIER EN MET DEUX, CE QUI DONNE 36 G POUR 535 CALORIES — ET C'EST LE POSTE OÙ L'AJOUT COÛTE LE MOINS CHER. Un œuf, c'est 6 g de protéines, 80 calories, 5 g de lipides et 0 mg de sodium ajouté. Aucun autre ingrédient du bol n'a ce rapport.\n\nLA CIBLE DU DÎNER EST ≈ 500 CALORIES ET 40 G DE PROTÉINES. Ce bol arrive à 535 et 36 : légèrement au-dessus en calories, légèrement en dessous en protéines. C'EST LE RIZ QUI TIRE DANS LE MAUVAIS SENS — 200 calories pour 4 g de protéines. Ramener la rondelle à 100 g au lieu de 140 met le bol à 465 et 35, ce qui est exactement dans la cible.\n\nCE BOL EST LE DÉBOUCHÉ PRINCIPAL DE R107, et c'est pourquoi les deux fiches existent séparément. Le soboro se fait le dimanche pour quatre; le bol se monte en quinze minutes un mardi. SI LES DEUX ÉTAIENT UNE SEULE FICHE, LE DIMANCHE ET LE MARDI SERAIENT MÉLANGÉS DANS LA MÊME LISTE D'ÉTAPES.\n\nLES ÉPINARDS PEUVENT ÊTRE REMPLACÉS PAR N'IMPORTE QUELLE VERDURE BLANCHIE, et les haricots verts sont le meilleur choix pour le croquant — le répertoire n'a presque rien de croquant qui ne soit pas un concombre vinaigré.\n\nSE MANGE FROID, DONC C'EST UNE BOÎTE À LUNCH. Les trois composantes se transportent séparément et se montent sur place, ou se montent le matin et se mangent à température de la pièce. LE RIZ NE SE RÉCHAUFFE PAS AU BUREAU ET IL N'EN A PAS BESOIN."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "cI3LPrBrlOQ",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R107"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R109",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "grille"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "boulettes-de-poulet-glacees-tsukune",
+    "jp": "つくね",
+    "jp_lecture": "つくね",
+    "romaji": "tsukune",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Boulettes de poulet glacées (tsukune)",
+    "sous_titre": "Trente-quatre grammes de protéines pour deux cent soixante milligrammes de sodium — parce que la farce n'est pas salée du tout et que tout le sel est dans le glaçage.",
+    "portions": "2",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 13,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 34,
+      "proteines_affiche": "34 g",
+      "calories": 340,
+      "calories_affiche": "≈ 340",
+      "lipides_g": 16,
+      "sodium_mg": 260,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de poulet haché",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 oignons verts, hachés fin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de gingembre râpé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de panko OU 1 c. à soupe de fécule de pomme de terre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 blanc d'œuf",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN SEL, AUCUN SOYA DANS LA FARCE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LE GLAÇAGE T24 : 1 c. à soupe de soya réduit · 1 1/2 c. à soupe de mirin · 1 c. à soupe d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif au service : 1 jaune d'œuf cru à tremper · shichimi",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T24"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger le haché, les oignons verts, le gingembre, le panko et le blanc d'œuf. TRAVAILLER À LA MAIN 30 SECONDES, JUSQU'À CE QUE LA MASSE DEVIENNE COLLANTE. C'est ce collant qui tient les boulettes."
+      },
+      {
+        "n": 2,
+        "texte": "METTRE LA FARCE AU FRIGO 10 MINUTES. Une farce froide se façonne; une farce tiède colle aux doigts et s’affaisse à la poêle."
+      },
+      {
+        "n": 3,
+        "texte": "Former 8 boulettes aplaties de 2 cm d'épaisseur — pas des sphères. UNE SPHÈRE CUIT À L'EXTÉRIEUR AVANT L'INTÉRIEUR."
+      },
+      {
+        "n": 4,
+        "texte": "Poêle à feu moyen avec l'huile. 4 minutes d'un côté sans y toucher, jusqu'à ce qu'une croûte dorée se forme."
+      },
+      {
+        "n": 5,
+        "texte": "Retourner, couvrir, 5 minutes à feu moyen-doux. C'est le couvercle qui les cuit à cœur."
+      },
+      {
+        "n": 6,
+        "texte": "RETIRER LE GRAS RENDU AU PAPIER ABSORBANT, PUIS ÉTEINDRE LE FEU."
+      },
+      {
+        "n": 7,
+        "texte": "Faire T24 : verser le glaçage dans la poêle éteinte, retourner les boulettes 3 fois pendant 40 à 60 secondes."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce n'est pas la soupe de R32, et la différence est le sel",
+        "texte": "LE RECUEIL PORTE DÉJÀ DES TSUKUNE — R32, la soupe aux boulettes de poulet. CE SONT DEUX PLATS DIFFÉRENTS ET ILS NE SE REMPLACENT PAS. Dans R32, les boulettes sont pochées : elles rendent leur goût au bouillon, et le bouillon est assaisonné. Ici, elles sont poêlées puis glacées : elles gardent tout, et le sel arrive à la dernière minute par-dessus.\n\nCONSÉQUENCE SUR LE SODIUM, ET ELLE EST GRANDE. Une soupe assaisonnée met le sel dans un liquide qu'on boit — R32 est à ≈ 500 mg par bol. Un glaçage met le sel sur la surface d'une boulette — celle-ci est à 260 mg. LE MÊME PLAT, LA MOITIÉ DU SEL, PARCE QUE LE SEL N'A PAS À REMPLIR UN BOL DE LIQUIDE.\n\nLA FARCE NE CONTIENT AUCUN SEL ET C'EST VOULU. Presque toutes les recettes de tsukune en mettent — une cuillère à thé de soya ou de miso dans le haché, soit 200 à 300 mg de plus qui ne se goûtent presque pas parce qu'ils sont dilués dans 400 grammes de viande. LE GLAÇAGE, LUI, EST EN SURFACE : IL TOUCHE LA LANGUE DIRECTEMENT. À sel égal en bouche, le sel de surface coûte la moitié du sel de masse. C'est la même logique que la trempette de R118.\n\nLE JAUNE D'ŒUF CRU À TREMPER EST L'USAGE DE L'IZAKAYA et il ajoute 6 g de protéines pour 0 mg de sodium. SI LE JAUNE CRU DÉRANGE, UN ŒUF MOLLET DE T8 COUPÉ EN DEUX FAIT LE MÊME TRAVAIL.\n\n⚠️ LE PANKO PEUT ÊTRE REMPLACÉ PAR DE LA FÉCULE, MAIS PAS SUPPRIMÉ. Sans liant, les boulettes se défont dans le glaçage et il reste des grains dans un sirop. UNE CUILLÈRE À SOUPE DE FÉCULE DE POMME DE TERRE EST LA VERSION SANS BLÉ ET ELLE TIENT MIEUX QUE LE PANKO."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "IyXQemAcKLw",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R32",
+      "T24"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R110",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "acide",
+      "doux",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "galette-de-poulet-et-tofu-tofu-hanbagu",
+    "jp": "豆腐ハンバーグ",
+    "jp_lecture": "とうふハンバーグ",
+    "romaji": "tōfu hanbāgu",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Galette de poulet et tofu (tōfu hanbāgu)",
+    "sous_titre": "Cent quatre-vingt-dix milligrammes de sodium pour trente-six grammes de protéines. C'est le plat principal le moins salé du recueil japonais, et c'est le tofu qui le permet.",
+    "portions": "2",
+    "temps_affiche": "≈ 30 min",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 14,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 36,
+      "proteines_affiche": "36 g",
+      "calories": 330,
+      "calories_affiche": "≈ 330",
+      "lipides_g": 17,
+      "sodium_mg": 190,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "250 g de poulet haché",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g de tofu ferme, ÉGOUTTÉ ET PRESSÉ",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 oignon, haché très fin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de panko",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 œuf",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN SEL DANS LA FARCE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : 150 g de daikon râpé, bien égoutté · 1 c. à thé de ponzu PAR PORTION · oignons verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : shiso ou shichimi",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "PRESSER LE TOFU 10 MINUTES entre deux assiettes avec un poids, ou l'écraser dans un linge et essorer. Il doit perdre l'équivalent d'un quart de tasse d'eau. UN TOFU NON PRESSÉ FAIT UNE GALETTE QUI SE DÉCHIRE."
+      },
+      {
+        "n": 2,
+        "texte": "Faire suer l'oignon 3 minutes à la poêle sans coloration, puis le laisser tiédir. CRU, IL RESTE CROQUANT ET PERCE LA GALETTE."
+      },
+      {
+        "n": 3,
+        "texte": "Écraser le tofu à la fourchette, mélanger avec le haché, l'oignon, le panko et l'œuf. Travailler 30 secondes jusqu'au collant."
+      },
+      {
+        "n": 4,
+        "texte": "Former 4 galettes de 2,5 cm d'épaisseur. CREUSER UN LÉGER PUITS AU CENTRE AVEC LE POUCE — la galette gonfle en cuisant et le puits l'empêche de bomber."
+      },
+      {
+        "n": 5,
+        "texte": "Poêle à feu moyen avec l'huile. 5 minutes, sans y toucher."
+      },
+      {
+        "n": 6,
+        "texte": "Retourner, ajouter 2 c. à soupe d'eau, COUVRIR, 8 à 9 minutes à feu moyen-doux. LA VAPEUR CUIT LE CENTRE SANS SÉCHER L'EXTÉRIEUR."
+      },
+      {
+        "n": 7,
+        "texte": "VÉRIFIER : un jus clair, pas rose, doit sortir quand on pique au centre."
+      },
+      {
+        "n": 8,
+        "texte": "Servir avec le daikon râpé sur le dessus et la cuillère à thé de ponzu versée dessus À TABLE."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le tofu ne coupe pas la viande : il porte un tiers de la protéine",
+        "texte": "⚠️ LA VIDÉO DE JUST ONE COOKBOOK FINIT CE PLAT À LA SAUCE TERIYAKI. LA FICHE LE FINIT AU DAIKON ET AU PONZU, ET C'EST UN CHANGEMENT VOLONTAIRE. Un glaçage T24 mettrait 255 mg de sodium par portion; une cuillère à thé de ponzu en met 175, et le daikon râpé apporte l'eau et le piquant qui font le même travail de contraste. C'est aussi pourquoi T24 n'est PAS dans le champ des techniques de cette fiche : elle le remplace, elle ne l'applique pas. LE TITRE ANGLAIS DE LA VIDÉO DIT « CHICKEN MEATBALLS » — c'est bien le tōfu hanbāgu, le titre japonais le confirme.\n\nL'IDÉE REÇUE SUR CE PLAT EST QU'ON METTRAIT DU TOFU POUR METTRE MOINS DE VIANDE. C'EST FAUX ICI. Deux cents grammes de tofu ferme, c'est 23,6 g de protéines — un tiers de la protéine totale de la recette. LE TOFU N'EST PAS UN REMPLISSEUR : C'EST UNE DEUXIÈME SOURCE DE PROTÉINE QUI COÛTE 5 G DE LIPIDES AU LIEU DE 20.\n\nCE QU'IL FAIT EN PLUS, ET QUI EST LA VRAIE RAISON DE LE METTRE : il retient l'eau. Une galette de haché pur à 36 g de protéines est sèche; la même avec un tiers de tofu reste moelleuse parce que le caillé de soya garde son eau à la cuisson. C'EST UNE QUESTION DE TEXTURE AVANT D'ÊTRE UNE QUESTION DE MACRO.\n\nCE PLAT EST LE PLAT DE SECOURS DES JOURNÉES DÉJÀ MANGÉES EN SODIUM. Cent quatre-vingt-dix milligrammes, c'est moins qu'un œuf mariné. PARMI LES FICHES DONT LE SODIUM EST CHIFFRÉ, C'EST CELLE QUI PORTE LE PLUS DE PROTÉINES SOUS 200 MG PAR PORTION — trente-six grammes. Ses voisines sont R117 et R118 de ce même document, le mushidori de R82 et l'omelette coréenne de R99. ⚠️ ET LA COMPARAISON A UNE LIMITE À CONNAÎTRE : le sodium n'est chiffré que sur une fiche sur trois du recueil; les autres portent un tiret, pas un zéro.\n\nLE DAIKON RÂPÉ DOIT ÊTRE ÉGOUTTÉ MAIS PAS PRESSÉ À SEC. Pressé, il devient de la ouate; non égoutté, il noie l'assiette. LE DÉPOSER 2 MINUTES DANS UNE PASSOIRE SUFFIT. C'est le même daikon que celui de R14 et de R68."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "SeN1_u-du0w",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R117",
+      "R99"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R111",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant",
+      "soyeux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "boeuf-et-tofu-mijotes-nikudofu",
+    "jp": "肉豆腐",
+    "jp_lecture": "にくどうふ",
+    "romaji": "nikudōfu",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Bœuf et tofu mijotés (nikudōfu)",
+    "sous_titre": "Quarante-quatre grammes de protéines par portion, la plus haute valeur de tout le recueil japonais — parce que deux sources de protéines mijotent dans la même casserole.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 6,
+      "cuisson": 14,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 44,
+      "proteines_affiche": "44 g",
+      "calories": 350,
+      "calories_affiche": "≈ 350",
+      "lipides_g": 18,
+      "sodium_mg": 400,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, ET LE SODIUM VAUT BOUILLON NON BU : on mange les solides et on laisse les 300 ml de liquide dans la casserole. Bu, le même plat monte à ≈ 530 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "200 g de bœuf tranché mince (shabu ou sukiyaki)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "400 g de tofu ferme, en 8 gros cubes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 gros oignon, en demi-lunes de 1 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "300 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 1/2 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 1/2 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de saké — facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 oignons verts en biais, au service",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : shichimi à table",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T2 : 300 ml de dashi. LE MIZUDASHI AU SHIITAKE CONVIENT SI LE KOMBU EST DÉJÀ PASSÉ CETTE SEMAINE."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole large ou poêle profonde : le dashi, le soya, le mirin, le saké. Amener à frémissement."
+      },
+      {
+        "n": 3,
+        "texte": "Les demi-lunes d'oignon, 5 minutes à couvert. ELLES DOIVENT DEVENIR TRANSLUCIDES ET SUCRER LE BOUILLON AVANT QUE LE RESTE ENTRE."
+      },
+      {
+        "n": 4,
+        "texte": "LES CUBES DE TOFU DÉPOSÉS À PLAT, PAS REMUÉS. 5 minutes. On les retourne une fois avec une cuillère, jamais avec une spatule."
+      },
+      {
+        "n": 5,
+        "texte": "LE BŒUF EN DERNIER, ÉTALÉ EN UNE COUCHE, 2 À 3 MINUTES MAXIMUM. Il est tranché mince : il est cuit dès qu'il n'est plus rouge. Plus longtemps, il devient de la corde."
+      },
+      {
+        "n": 6,
+        "texte": "Éteindre. Laisser reposer 3 minutes à couvert — c'est là que le tofu prend le goût."
+      },
+      {
+        "n": 7,
+        "texte": "Servir à la cuillère trouée, LE BOUILLON RESTE DANS LA CASSEROLE. Oignons verts par-dessus."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Quarante-quatre grammes, et le bouillon qui ne se boit pas",
+        "texte": "C'EST LA FICHE LA PLUS PROTÉINÉE DU RECUEIL JAPONAIS ET LE MÉCANISME EST SIMPLE : DEUX SOURCES DANS UNE CASSEROLE. Deux cents grammes de bœuf tranché donnent 42 g de protéines; quatre cents grammes de tofu ferme en donnent 47. Aucun des deux seul n'atteindrait la cible d'un souper; ensemble ils la dépassent.\n\nET LES DEUX SE COMPLÈTENT SUR LES LIPIDES, PAS SEULEMENT SUR LES PROTÉINES. Le bœuf tranché apporte 16 g de lipides pour ses 42 g de protéines; le tofu en apporte 20 pour ses 47 — mais ce sont des lipides végétaux, et surtout le tofu est le poste qu'on peut doubler sans que le gras suive. SI LA JOURNÉE EST DÉJÀ CHARGÉE EN LIPIDES, ON MONTE LE TOFU ET ON BAISSE LE BŒUF, PAS L'INVERSE.\n\n⚠️ LE BOUILLON NE SE BOIT PAS ET LE CHIFFRE DE SODIUM EN DÉPEND. Une cuillère et demie de soya réduite, c'est 750 mg dans la casserole, plus le dashi — soit ≈ 400 mg par portion si on mange les solides et qu'on laisse les 300 ml de liquide. Bu, le même plat monte à ≈ 530 mg. CE N'EST PAS UNE SOUPE : C'EST UN MIJOTÉ DONT LE LIQUIDE EST UN CUISEUR.\n\nCE PLAT EST UN SUKIYAKI SANS LE SUKIYAKI, et ça vaut la peine de le savoir : mêmes ingrédients, même assaisonnement, mais on ne cuit pas à table et on ne trempe pas dans l'œuf cru. C'est la version de semaine — une casserole, vingt minutes, aucun réchaud.\n\nLE TOFU EN GROS CUBES N'EST PAS UNE ÉLÉGANCE. Un cube de 4 cm garde son cœur intact et absorbe le bouillon seulement en surface, ce qui donne le contraste. COUPÉ PETIT, IL S'IMBIBE ENTIÈREMENT, DEVIENT SALÉ DE PARTOUT ET SE DÉFAIT AU REMUAGE."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "SU3ahRyWihk",
+      "auteur": "JapaneseCooking101",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R115",
+      "R112"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R112",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "tofu-emiette-aux-legumes-iridofu",
+    "jp": "炒り豆腐",
+    "jp_lecture": "いりどうふ",
+    "romaji": "iridōfu",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Tofu émietté aux légumes (iridōfu)",
+    "sous_titre": "Le plat qui vide le tiroir à légumes : trente-huit grammes de protéines, une poêle, et tout ce qui reste de la semaine coupé fin.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 10,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 38,
+      "proteines_affiche": "38 g",
+      "calories": 340,
+      "calories_affiche": "≈ 340",
+      "lipides_g": 19,
+      "sodium_mg": 270,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de tofu ferme, ÉGOUTTÉ",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de poulet haché OU 4 shiitake séchés réhydratés, pour la version sans viande",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 carotte en julienne fine",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de haricots verts OU de pois congelés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 shiitake, frais ou réhydratés, tranchés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 œufs battus",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile de sésame grillé, HORS DU FEU",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre pour la cuisson",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "ÉGOUTTER LE TOFU 10 MINUTES DANS UNE PASSOIRE, SANS LE PRESSER. Ici on veut qu'il reste des grains, pas une pâte : pressé à sec, il devient poudreux."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle large à feu moyen-vif avec l'huile neutre. Le haché d'abord, écrasé à la spatule, 3 minutes."
+      },
+      {
+        "n": 3,
+        "texte": "Les légumes durs — carotte, shiitake, haricots — 3 minutes. Ils doivent rester fermes."
+      },
+      {
+        "n": 4,
+        "texte": "LE TOFU ÉMIETTÉ À LA MAIN DIRECTEMENT DANS LA POÊLE, en gros grains irréguliers. Remuer 2 minutes."
+      },
+      {
+        "n": 5,
+        "texte": "Le dashi, le soya, le mirin. LAISSER RÉDUIRE À DÉCOUVERT JUSQU'À CE QUE LE FOND RESTE SEC AU SILLON — 3 à 4 minutes. C'est l'étape que tout le monde escamote et c'est celle qui fait la différence entre un iridōfu et une bouillie."
+      },
+      {
+        "n": 6,
+        "texte": "LES ŒUFS BATTUS VERSÉS EN FILET, remués 30 secondes seulement. Ils lient l'ensemble."
+      },
+      {
+        "n": 7,
+        "texte": "Éteindre, huile de sésame, mélanger une fois."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La réduction à sec est le plat; tout le reste est de la garniture",
+        "texte": "UN IRIDŌFU RATÉ EST UNE BOUILLIE ET LA CAUSE EST TOUJOURS LA MÊME : ON N'A PAS RÉDUIT. Quatre cents grammes de tofu portent de l'ordre de 300 ml d'eau, et le dashi en ajoute 100. Si on sert avant que le fond de la poêle reste sec au passage de la spatule, on sert quatre cents grammes de tofu dans son eau. L'ÉTAPE 5 N'EST PAS UNE FINITION : C'EST LA CUISSON.\n\nET C'EST POURQUOI ON N'ÉGOUTTE PAS À SEC À L'ÉTAPE 1. Le tofu doit garder assez d'eau pour que les grains restent moelleux au terme de la réduction. PRESSÉ COMME CELUI DE R110, IL FINIT EN SABLE. Deux plats, deux traitements du même bloc — c'est la distinction qui vaut d'être retenue.\n\nCE PLAT EST LE DÉBOUCHÉ DU FOND DE FRIGO ET IL FAUT L'UTILISER COMME TEL. N'importe quel légume ferme coupé fin y va : le kiriboshi daikon de R66, les shimeji de R67, un demi-poivron, des pousses de bambou. LA SEULE CONTRAINTE EST LA COUPE — tout doit être plus petit que les grains de tofu, sinon on mange des morceaux dans du tofu au lieu d'un plat.\n\nLA VERSION SANS VIANDE TIENT DEBOUT ET C'EST RARE. En remplaçant les 100 g de haché par quatre shiitake séchés réhydratés, le plat descend à 34 g de protéines et 11 g de lipides par portion, et le sodium ne bouge pas. TRENTE-QUATRE GRAMMES DE PROTÉINES VÉGÉTALES DANS UNE POÊLE, C'EST LE MEILLEUR CHIFFRE DU DOSSIER HORS KŌYADŌFU.\n\nL'EAU DE TREMPAGE DES SHIITAKE SÉCHÉS REMPLACE LE DASHI, et elle est meilleure ici que le dashi au katsuobushi — plus sombre, plus ronde, et elle porte le plat sans poisson."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "ISGnoc_cXA4",
+      "auteur": "Cooking with Dog",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R110",
+      "R66"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R113",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "doux",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "boeuf-et-pommes-de-terre-mijotes-nikujaga",
+    "jp": "肉じゃが",
+    "jp_lecture": "にくじゃが",
+    "romaji": "nikujaga",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Bœuf et pommes de terre mijotés (nikujaga)",
+    "sous_titre": "Le nikujaga ordinaire est un plat de pommes de terre avec de la viande dedans. Celui-ci double le bœuf et supprime le bol de riz — c'est le même plat avec le rapport à l'endroit.",
+    "portions": "4",
+    "temps_affiche": "≈ 40 min",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 25,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 31,
+      "proteines_affiche": "31 g",
+      "calories": 395,
+      "calories_affiche": "≈ 395",
+      "lipides_g": 12,
+      "sodium_mg": 380,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "600 g de bœuf tranché mince — LE DOUBLE D'UNE RECETTE ORDINAIRE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "600 g de pommes de terre à chair jaune, en morceaux de 4 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 oignons en quartiers épais",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 carottes en biseaux de 2 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "400 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de saké — facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN SUCRE AJOUTÉ",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 200 g de shirataki, rincés et ébouillantés 1 minute",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN BOL DE RIZ AVEC CE PLAT",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T2 : 400 ml de dashi."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole à fond épais, huile, feu moyen-vif. SAISIR LE BŒUF EN DEUX FOURNÉES, 1 minute chacune, juste pour qu'il perde son rouge. Le sortir dans un bol."
+      },
+      {
+        "n": 3,
+        "texte": "RETIRER LE GRAS RENDU. Six cents grammes de bœuf en laissent une bonne cuillère à soupe."
+      },
+      {
+        "n": 4,
+        "texte": "Les oignons dans la même casserole, 3 minutes. Les pommes de terre et les carottes, 2 minutes en les retournant."
+      },
+      {
+        "n": 5,
+        "texte": "Le dashi, le soya, le mirin, le saké. LE LIQUIDE DOIT ARRIVER AUX TROIS QUARTS DES LÉGUMES, PAS LES COUVRIR — un nimono n'est pas une soupe."
+      },
+      {
+        "n": 6,
+        "texte": "Otoshibuta si tu l'as, sinon un couvercle posé de biais. FRÉMISSEMENT, PAS ÉBULLITION, 18 À 20 MINUTES, jusqu'à ce qu'une pointe de couteau traverse la pomme de terre sans résistance."
+      },
+      {
+        "n": 7,
+        "texte": "REMETTRE LE BŒUF DANS LES 3 DERNIÈRES MINUTES SEULEMENT. C'est tout le truc : il a déjà donné son goût au bouillon à l'étape 2, il n'a pas besoin de mijoter vingt minutes pour ça."
+      },
+      {
+        "n": 8,
+        "texte": "Éteindre, laisser reposer 10 minutes à couvert. MEILLEUR AU DEUXIÈME JOUR."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce plat remplace le riz, il ne l'accompagne pas",
+        "texte": "⚠️ CENT CINQUANTE GRAMMES DE POMMES DE TERRE PAR PORTION, C'EST LE QUART FÉCULENT DU SOUPER. LE BOL DE RIZ SAUTE. C'est la règle que le document 26 a posée avec le poulet braisé coréen de R104, et elle vaut ici mot pour mot. Servir ce plat avec une rondelle de riz de 140 g ajoute 200 calories de glucides à un repas qui en a déjà son compte, et le souper passe de 395 à 595 calories pour la même protéine.\n\nMAIS TOUTES LES RACINES NE SONT PAS DES FÉCULENTS, ET LE TEST N'EST PAS LA FORME. Le chikuzenni de R114 est un mijoté de racines lui aussi — lotus, gobo, carotte — et il GARDE son bol de riz, parce que ces racines-là sont de la fibre et de l'eau, pas de l'amidon. LE TEST EST L'AMIDON, PAS LA FORME : pomme de terre, patate douce, taro, kabocha occupent le quart féculent; daikon, lotus, gobo, carotte occupent le quart légume.\n\nLE RATIO INVERSÉ, CHIFFRÉ. Une recette japonaise ordinaire met 250 à 300 g de bœuf pour 600 g de pommes de terre et sert quatre — soit ≈ 15 g de protéines par portion pour 350 calories. CELLE-CI DOUBLE LE BŒUF : 31 G DE PROTÉINES POUR 395 CALORIES. Deux fois la protéine pour 45 calories de plus, parce que le bœuf tranché mince est un aliment dense en protéines et modéré en gras — et parce qu'on retire le gras rendu à l'étape 3.\n\nPOURQUOI LE BŒUF NE RENTRE QU'À LA FIN. L'usage veut qu'on le fasse mijoter avec les légumes du début à la fin. Sur du bœuf tranché mince, vingt minutes de frémissement donnent de la corde : les fibres se contractent et expulsent leur eau. LE SAISIR AU DÉBUT LUI FAIT DONNER SON GOÛT AU FOND DE CASSEROLE; LE REMETTRE À LA FIN LUI FAIT GARDER SA TEXTURE. On obtient les deux.\n\nLES SHIRATAKI SONT LE MEILLEUR AJOUT POSSIBLE À CE PLAT — zéro calorie, ils absorbent le bouillon et allongent le volume de l'assiette sans rien ajouter aux macros. TOUJOURS LES ÉBOUILLANTER UNE MINUTE AVANT : c'est ce qui enlève l'odeur du liquide de conservation."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "0DNXABd26jk",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R114",
+      "R104"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R114",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "long",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre",
+      "doux"
+    ],
+    "axe_texture": [
+      "croquant",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "poulet-et-racines-mijotes-chikuzenni",
+    "jp": "筑前煮",
+    "jp_lecture": "ちくぜんに",
+    "romaji": "chikuzenni",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Poulet et racines mijotés (chikuzenni)",
+    "sous_titre": "La seule fiche du recueil où une racine reste croquante après trente minutes de mijotage. C'est le lotus, et c'est pour ça que ce plat existe.",
+    "portions": "4",
+    "temps_affiche": "≈ 55 min",
+    "temps_minutes": {
+      "preparation": 25,
+      "cuisson": 30,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 31,
+      "proteines_affiche": "31 g",
+      "calories": 400,
+      "calories_affiche": "≈ 400",
+      "lipides_g": 16,
+      "sodium_mg": 380,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "700 g de haut de cuisse de poulet désossé, SANS PEAU, en morceaux de 4 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de racine de lotus (renkon), en rondelles de 8 mm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de gobo (racine de bardane), en biseaux — facultatif mais c'est lui qui donne le fond de terre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de carotte en biseaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g de konnyaku, déchiré à la main en morceaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "6 shiitake séchés, réhydratés — GARDER L'EAU DE TREMPAGE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de pousses de bambou en conserve, rincées — facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "300 ml de dashi T2 + 200 ml de l'eau de trempage des shiitake",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de pois mange-tout blanchis 1 minute, au service",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire tremper les shiitake 30 minutes à l'eau tiède, ou 20 minutes à l'eau chaude. FILTRER ET GARDER L'EAU : ELLE VAUT LA MOITIÉ DU GOÛT DU PLAT."
+      },
+      {
+        "n": 2,
+        "texte": "LE LOTUS DANS L'EAU VINAIGRÉE DÈS QU'IL EST COUPÉ, 5 minutes, puis rincé. Sans ça il brunit et devient gris dans le mijoté."
+      },
+      {
+        "n": 3,
+        "texte": "DÉCHIRER LE KONNYAKU À LA MAIN, PAS AU COUTEAU. Les faces déchirées sont irrégulières et accrochent le bouillon; une face coupée est lisse et le refuse. Ébouillanter 2 minutes, égoutter."
+      },
+      {
+        "n": 4,
+        "texte": "Casserole large, huile de sésame, feu moyen-vif. LE POULET PEAU VERS LE BAS — enfin, la face qui portait la peau — 3 minutes, sans le bouger. Il doit dorer."
+      },
+      {
+        "n": 5,
+        "texte": "Toutes les racines et le konnyaku, 4 minutes en remuant. CETTE ÉTAPE N'EST PAS OPTIONNELLE : c'est le sauté préalable qui distingue un chikuzenni d'un nimono ordinaire. L'huile scelle les racines et elles garderont leur mordant."
+      },
+      {
+        "n": 6,
+        "texte": "Le dashi, l'eau de shiitake, le soya, le mirin. Le liquide arrive aux trois quarts."
+      },
+      {
+        "n": 7,
+        "texte": "Otoshibuta ou couvercle de biais, FRÉMISSEMENT 25 À 30 MINUTES, jusqu'à ce qu'il ne reste qu'un fond de liquide sirupeux."
+      },
+      {
+        "n": 8,
+        "texte": "REMUER LA CASSEROLE PAR SECOUSSES DANS LES 5 DERNIÈRES MINUTES, sans spatule, pour enrober. Les pois mange-tout posés au service."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le lotus est la seule racine croquante du recueil, et le trou qu'il comble",
+        "texte": "LE COMPTAGE DU RÉPERTOIRE A ÉTABLI QUE LE DOSSIER N'AVAIT QU'UN SEUL ACCOMPAGNEMENT VRAIMENT CROQUANT QUI NE SOIT PAS UN CONCOMBRE VINAIGRÉ — et c'était celui dont la julienne prend vingt minutes. LE LOTUS RÈGLE ÇA, ET IL LE RÈGLE DANS UN MIJOTÉ, CE QUI EST CONTRE-INTUITIF.\n\nPOURQUOI IL RESTE CROQUANT : sa chair est traversée de faisceaux de fibres et de canaux d'air, et ses parois cellulaires tiennent la pectine autrement que celles d'une pomme de terre. TRENTE MINUTES DE FRÉMISSEMENT LE RENDENT TENDRE EN DENTS SANS LE RENDRE MOU. Aucune autre racine du parcours Kim Phat ne fait ça.\n\nLE PLAT EST CLASSÉ LOURD ET C'EST HONNÊTE : VINGT-CINQ MINUTES DE DÉCOUPE. Sept ingrédients à tailler, dont trois racines dures. CE N'EST PAS UN PLAT DE SEMAINE : c'est un plat du dimanche qui donne quatre portions et se garde quatre jours, et qui est MEILLEUR au deuxième jour. C'est le même usage que le jangjorim coréen de R77 — cuisiner une fois, manger quatre fois.\n\nET IL GARDE SON BOL DE RIZ, contrairement au nikujaga de R113. Lotus, gobo et carotte sont de la fibre et de l'eau; le konnyaku est zéro calorie. QUATRE CENTS CALORIES PAR PORTION SANS FÉCULENT, ce qui laisse toute la place à une rondelle de riz de 140 g — et un souper à 600 calories, 35 g de protéines, avec un ichiju à côté.\n\nLE GOBO EST FACULTATIF MAIS C'EST LUI QU'ON REGRETTE. Il apporte une amertume de terre que rien d'autre du plat n'apporte. LE PELER AU DOS DU COUTEAU, PAS À L'ÉCONOME — la saveur est juste sous la peau. Le mettre dans l'eau vinaigrée avec le lotus."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "lourd",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "_xPNJr1aqvU",
+      "auteur": "JapaneseCooking101",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R113",
+      "R77"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R115",
+    "statut": "actif",
+    "categorie": "diner",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "fondant",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "bol-de-boeuf-et-oignons-gyudon",
+    "jp": "牛丼",
+    "jp_lecture": "ぎゅうどん",
+    "romaji": "gyūdon",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Bol de bœuf et oignons (gyūdon)",
+    "sous_titre": "Huit minutes de mijotage, deux ingrédients, et le geste qui décide de tout : le bouillon reste dans la casserole.",
+    "portions": "2",
+    "temps_affiche": "≈ 15 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 10,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 35,
+      "proteines_affiche": "35 g",
+      "calories": 480,
+      "calories_affiche": "≈ 480",
+      "lipides_g": 12,
+      "sodium_mg": 350,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, ET LE SODIUM VAUT BOUILLON ÉGOUTTÉ : le bol se monte à la cuillère trouée et le liquide reste dans la casserole. Versé sur le riz, le même bol monte à ≈ 505 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de bœuf tranché mince (shabu ou sukiyaki)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 gros oignon, en demi-lunes de 5 mm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de saké — facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 tranche de gingembre, entière, retirée à la fin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 rondelles de riz congelé de 140 g",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · gingembre mariné (beni shōga) · shichimi",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 œuf mollet T8 par bol — +6 g de protéines, 0 mg de sodium",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T1",
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T1 ou réchauffer les rondelles. Faire T2 : 200 ml de dashi."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole large : dashi, soya, mirin, saké, la tranche de gingembre. Amener à frémissement."
+      },
+      {
+        "n": 3,
+        "texte": "LES DEMI-LUNES D'OIGNON, 5 MINUTES À COUVERT, AVANT TOUTE VIANDE. Elles doivent devenir translucides et molles. C'est là que le sucre du plat apparaît — un oignon cuit sucre, et c'est ce qui remplace le sucre ajouté du gyūdon de restaurant."
+      },
+      {
+        "n": 4,
+        "texte": "DÉFAIRE LE BŒUF TRANCHE PAR TRANCHE DANS LE LIQUIDE, pas en bloc. Un paquet jeté d'un coup cuit collé et donne un amas."
+      },
+      {
+        "n": 5,
+        "texte": "3 MINUTES MAXIMUM. Écumer la mousse grise qui monte, c'est de l'albumine et elle goûte le métal."
+      },
+      {
+        "n": 6,
+        "texte": "Retirer le gingembre. Éteindre."
+      },
+      {
+        "n": 7,
+        "texte": "MONTER LE BOL À LA CUILLÈRE TROUÉE : le riz, puis le bœuf et l'oignon égouttés. Une cuillère à soupe de bouillon par bol au maximum, versée sur la viande et non sur le riz."
+      },
+      {
+        "n": 8,
+        "texte": "Oignons verts, beni shōga, shichimi."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ne pas verser le bouillon sur le riz : le seul geste qui compte",
+        "texte": "⚠️ C'EST LE PLAT DU RECUEIL OÙ UN SEUL GESTE DÉPLACE LE PLUS DE SODIUM. La casserole contient 1 010 mg — deux cuillères à soupe de soya réduite. Si on verse tout le liquide sur le riz, chaque bol reçoit ≈ 505 mg. Si on monte à la cuillère trouée, le riz reste sec et le bol tombe à ≈ 350 mg. CENT CINQUANTE-CINQ MILLIGRAMMES DE DIFFÉRENCE POUR UN CHANGEMENT D'USTENSILE.\n\nET LE RIZ EST LE COUPABLE, PAS LE BOUILLON. Une rondelle de riz de 140 g boit tout ce qu'on lui donne : c'est une éponge à bouillon salé qui ne goûte rien par elle-même. Le bœuf et l'oignon, eux, ont déjà pris leur sel pendant les huit minutes de mijotage. LE LIQUIDE QUI RESTE DANS LA CASSEROLE A DÉJÀ FAIT SON TRAVAIL.\n\nLE GYŪDON DE RESTAURANT MET DU SUCRE ET LA FICHE N'EN MET PAS. Ce qui le remplace est à l'étape 3 : cinq minutes d'oignon seul dans le bouillon frémissant. Un oignon libère ses sucres en cuisant, et il en libère assez pour porter le plat. SI ON MET LA VIANDE EN MÊME TEMPS QUE L'OIGNON, ON PERD ÇA — la viande est cuite en trois minutes et il faut sortir la casserole du feu avant que l'oignon ait donné quoi que ce soit.\n\nLE BŒUF TRANCHÉ MINCE EST À L'ALLÉE DES CONGÉLATEURS, en paquet plat étiqueté shabu-shabu ou sukiyaki. NE JAMAIS LE REMPLACER PAR DU BŒUF À RAGOÛT COUPÉ MINCE : ce n'est pas la même coupe et trois minutes de mijotage n'en font rien. La fiche du répertoire d'ingrédients porte le nom exact.\n\nUN ŒUF MOLLET DE T8 EST LE MEILLEUR AJOUT DE CE BOL — six grammes de protéines, zéro sodium ajouté, et le jaune coulant remplace le bouillon qu'on n'a pas versé. L'ŒUF MARINÉ DE T7A, LUI, AJOUTE 250 MG DE SODIUM : c'est le mauvais œuf pour ce plat-là."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "2hvvVgAEPzc",
+      "auteur": "JapaneseCooking101",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R111",
+      "T8"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R116",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "grille"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "fondant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "poulet-teriyaki",
+    "jp": "鶏の照り焼き",
+    "jp_lecture": "とりのてりやき",
+    "romaji": "tori no teriyaki",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Poulet teriyaki",
+    "sous_titre": "Deux cent cinquante-cinq milligrammes de sodium pour le plat le plus sucré-salé du recueil — parce que la sauce est réduite au lieu d'être versée.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 36,
+      "proteines_affiche": "36 g",
+      "calories": 375,
+      "calories_affiche": "≈ 375",
+      "lipides_g": 18,
+      "sodium_mg": 255,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de haut de cuisse de poulet désossé, SANS PEAU",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LE GLAÇAGE T24 : 1 c. à soupe de soya réduit · 1 1/2 c. à soupe de mirin · 1 c. à soupe de saké ou d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts en biais · 150 g de daikon râpé égoutté OU 200 g de chou en lanières",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : graines de sésame · shichimi",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T24"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "APLATIR LES MORCEAUX À ÉPAISSEUR ÉGALE avec le plat de la main ou le fond d'une casserole. Un haut de cuisse déplié a une partie épaisse et une partie mince, et la mince est de la semelle avant que l'épaisse soit cuite."
+      },
+      {
+        "n": 2,
+        "texte": "Éponger le poulet au papier absorbant. UN POULET HUMIDE NE DORE PAS : IL BOUT."
+      },
+      {
+        "n": 3,
+        "texte": "Mélanger le glaçage T24 dans un bol. AVANT DE COMMENCER À CUIRE."
+      },
+      {
+        "n": 4,
+        "texte": "Poêle à feu MOYEN avec l'huile. LA FACE QUI PORTAIT LA PEAU EN DESSOUS, 6 À 7 MINUTES, SANS Y TOUCHER. Elle doit être dorée franc."
+      },
+      {
+        "n": 5,
+        "texte": "Retourner, 4 à 5 minutes. VÉRIFIER AU COUTEAU : le jus doit être clair au plus épais."
+      },
+      {
+        "n": 6,
+        "texte": "RETIRER LE GRAS RENDU AU PAPIER ABSORBANT — il y en aura une cuillère à soupe — PUIS ÉTEINDRE LE FEU."
+      },
+      {
+        "n": 7,
+        "texte": "Faire T24 : verser le glaçage, retourner les morceaux 3 fois pendant 40 à 60 secondes, jusqu'à ce que ça nappe."
+      },
+      {
+        "n": 8,
+        "texte": "Trancher en biais de 2 cm, verser le fond de glaçage de la poêle par-dessus, oignons verts."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Sans peau, une cuillère pour deux, et hors du feu — trois écarts sur trois",
+        "texte": "CE PLAT EST LE SEUL DU RECUEIL DONT LES TROIS AJUSTEMENTS SONT ANNONCÉS DANS LE RÉPERTOIRE DES MANQUES AVANT MÊME D'AVOIR ÉTÉ ÉCRIT : sans peau, une cuillère à soupe de shoyu pour deux portions au lieu de deux, glaçage hors du feu. Ils tiennent tous les trois et il vaut la peine de dire ce que chacun coûte.\n\nSANS PEAU : ≈ 8 G DE LIPIDES ET 70 CALORIES DE MOINS PAR PORTION. Ce que ça coûte : le croustillant. CE QUI LE REMPLACE EST À L'ÉTAPE 4 — six à sept minutes sans y toucher sur la face qui portait la peau donnent une croûte dorée sur la chair elle-même. Ce n'est pas la même chose qu'une peau croustillante, mais ce n'est pas rien.\n\nUNE CUILLÈRE POUR DEUX : 250 MG DE SODIUM DE MOINS PAR PORTION. Ce que ça coûte : rien de détectable, à condition de réduire. La démonstration est dans la note de T24 — c'est la concentration qui se lit en bouche, pas le volume versé.\n\nHORS DU FEU : ÇA NE COÛTE RIEN DU TOUT ET C'EST CE QUI REND LES DEUX AUTRES POSSIBLES. À feu vif, une cuillère de soya réduite brûle avant d'avoir nappé, et on rajoute pour compenser.\n\n⚠️ LE HAUT DE CUISSE ET NON LA POITRINE, ET CE N'EST PAS NÉGOCIABLE ICI. Une poitrine à 23 g de protéines aux 100 g serait meilleure sur le papier — 2 g de lipides au lieu de 9. MAIS ELLE SÈCHE ENTRE LE MOMENT OÙ ELLE EST CUITE ET LE MOMENT OÙ LE GLAÇAGE A RÉDUIT, et il n'y a pas de marge : le glaçage prend 60 secondes de plus que la cuisson. Le haut de cuisse pardonne ces soixante secondes. C'EST LE MORCEAU PAR DÉFAUT DE LA CUISINE JAPONAISE POUR CETTE RAISON EXACTE.\n\nLE DAIKON RÂPÉ OU LE CHOU CRU À CÔTÉ NE SONT PAS UNE GARNITURE : ils sont le contrepoids d'un plat sucré-salé. SANS EUX, TROIS CENT SOIXANTE-QUINZE CALORIES DE TERIYAKI SE MANGENT EN QUATRE MINUTES ET ON N'A PAS L'IMPRESSION D'AVOIR SOUPÉ."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "LZ6rXyFRJjk",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "T24",
+      "R117"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R117",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "vapeur"
+    ],
+    "axe_gout": [
+      "acide",
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "croquant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "poivrons-farcis-au-hache-piman-no-nikuzume",
+    "jp": "ピーマンの肉詰め",
+    "jp_lecture": "ピーマンのにくづめ",
+    "romaji": "pīman no nikuzume",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Poivrons farcis au haché (pīman no nikuzume)",
+    "sous_titre": "Un plat où le légume est le contenant : quatre poivrons portent trois cents grammes de protéine, et la farine à l'intérieur est la seule chose qui empêche tout de se séparer.",
+    "portions": "2",
+    "temps_affiche": "≈ 30 min",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 31,
+      "proteines_affiche": "31 g",
+      "calories": 370,
+      "calories_affiche": "≈ 370",
+      "lipides_g": 18,
+      "sodium_mg": 190,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "4 poivrons verts moyens, coupés en deux dans la longueur, graines retirées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "300 g de porc haché maigre OU de poulet haché",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 oignon, haché très fin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de panko",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 œuf",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de fécule OU de farine, POUR L'INTÉRIEUR DES POIVRONS",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN SEL DANS LA FARCE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe d'eau pour la vapeur",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : 1 c. à thé de ponzu PAR PORTION · daikon râpé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : shichimi · un filet de glaçage T24 à la place du ponzu",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire suer l'oignon 3 minutes sans coloration, laisser tiédir."
+      },
+      {
+        "n": 2,
+        "texte": "Mélanger le haché, l'oignon, le panko et l'œuf. Travailler 30 secondes jusqu'au collant."
+      },
+      {
+        "n": 3,
+        "texte": "SAUPOUDRER L'INTÉRIEUR DE CHAQUE DEMI-POIVRON DE FÉCULE, PUIS TAPOTER POUR RETIRER L'EXCÈS. C'est le geste qui fait le plat : sans lui, la farce se contracte en cuisant et se décolle du poivron d'un bloc."
+      },
+      {
+        "n": 4,
+        "texte": "Presser la farce dans chaque demi-poivron EN LA BOMBANT LÉGÈREMENT, sans laisser de poche d’air le long des bords."
+      },
+      {
+        "n": 5,
+        "texte": "Poêle à feu moyen avec l'huile. CÔTÉ VIANDE EN DESSOUS D'ABORD, 4 à 5 minutes, sans y toucher. Il doit se former une croûte brune."
+      },
+      {
+        "n": 6,
+        "texte": "Retourner côté poivron. AJOUTER LES 2 C. À SOUPE D'EAU, COUVRIR, 8 À 10 MINUTES À FEU MOYEN-DOUX."
+      },
+      {
+        "n": 7,
+        "texte": "VÉRIFIER : un jus clair, pas rose, quand on pique la farce au centre. Le poivron doit être tendre mais garder sa forme."
+      },
+      {
+        "n": 8,
+        "texte": "Servir côté viande vers le haut, la cuillère à thé de ponzu versée à table."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La fécule à l'intérieur, et pourquoi le poivron n'est pas un contenant neutre",
+        "texte": "CE PLAT RATE TOUJOURS DE LA MÊME FAÇON : LA FARCE SE DÉCOLLE ET ON SERT UN POIVRON VIDE AVEC UNE GALETTE DE VIANDE À CÔTÉ. La cause est mécanique. La viande hachée perd de l'eau et se contracte de l'ordre de 15 % en cuisant; le poivron, lui, se ramollit et s'ouvre. Les deux vont dans des directions opposées. LA FÉCULE SAUPOUDRÉE À L'INTÉRIEUR SE GÉLIFIE AVEC LE JUS DE LA VIANDE ET FAIT UNE COLLE. C'est tout. Une cuillère à soupe pour quatre poivrons.\n\nET LE POIVRON N'EST PAS UN CONTENANT NEUTRE : C'EST LA MOITIÉ DU PLAT. Quatre poivrons verts, c'est 120 g de légume par portion et de l'ordre de 30 calories — mais surtout c'est du croquant qui tient la cuisson, et le recueil en manque. AVEC LE LOTUS DE R114, C'EST LE SEUL CROQUANT DE CE LOT QUI TIENNE LA CUISSON — celui de R118 est du légume cru, qu'aucun feu n'a touché.\n\nCENT QUATRE-VINGT-DIX MILLIGRAMMES DE SODIUM, ET LE MÉCANISME EST LE MÊME QUE R110 ET R118 : LE SEL EST DÉPORTÉ DANS UNE TREMPETTE. La farce n'en contient pas du tout. Une cuillère à thé de ponzu versée à table touche la langue directement et fait le travail de deux cuillères à thé mélangées dans la masse. TROIS FICHES DE CE DOCUMENT APPLIQUENT ÇA, ET C'EST LE LEVIER LE PLUS TRANSPORTABLE DU LOT.\n\nLE PORC HACHÉ MAIGRE ET LE POULET HACHÉ DONNENT DEUX PLATS DIFFÉRENTS. Le porc est plus juteux et plus riche — 18 g de lipides par portion; le poulet descend à 13 g mais demande le glaçage T24 plutôt que le ponzu, parce qu'il a besoin d'un peu de sucre pour ne pas être plat. LE PORC AU PONZU, LE POULET AU TERIYAKI : ce ne sont pas deux versions du même plat, ce sont deux plats.\n\n⚠️ NE PAS BLANCHIR LES POIVRONS AVANT DE LES FARCIR. C'est un raccourci qu'on lit souvent, et il détruit le plat : un poivron blanchi est déjà mou, il n'a plus de structure pour tenir la farce, et il rendra son eau dans la poêle. LE POIVRON CRU CUIT TRÈS BIEN PENDANT LES DIX MINUTES À COUVERT."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "doCrM1ulNaE",
+      "auteur": "JapaneseCooking101",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R110",
+      "R118"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R118",
+    "statut": "actif",
+    "categorie": "diner",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "blanchi",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "sesame-noisette",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "porc-blanchi-froid-sur-crudites-hiya-shabu",
+    "jp": "冷しゃぶ",
+    "jp_lecture": "ひやしゃぶ",
+    "romaji": "hiya-shabu",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "langue_origine": "ja",
+    "fr": "Porc blanchi froid sur crudités (hiya-shabu)",
+    "sous_titre": "La seule cuisson du recueil qui retire du gras au lieu d'en ajouter : quarante secondes d'eau bouillante, et le gras du porc part dans la casserole.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 4,
+      "attente": 4
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 31,
+      "proteines_affiche": "31 g",
+      "calories": 300,
+      "calories_affiche": "≈ 300",
+      "lipides_g": 16,
+      "sodium_mg": 190,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de porc tranché mince (shabu-shabu)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de saké dans l'eau de blanchiment — facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LE LIT DE CRUDITÉS, environ 300 g : 1/4 de chou en lanières très fines · 1 concombre en julienne · 100 g de germes de haricot mungo · 1/2 oignon rouge en lamelles · shiso ou feuilles de périlla si tu en as",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA TREMPETTE, par portion : 1 c. à thé de ponzu · 1/2 c. à thé d'huile de sésame grillé · 1 c. à thé de graines de sésame écrasées au suribachi",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : gingembre râpé · 1/4 de c. à thé de mirin dans la trempette",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Monter les crudités dans deux grandes assiettes creuses. LE CHOU EN DESSOUS, LE RESTE PAR-DESSUS. Mettre au frigo."
+      },
+      {
+        "n": 2,
+        "texte": "Écraser les graines de sésame au suribachi et mélanger la trempette dans deux petits plats à sauce. LE SÉSAME ÉCRASÉ LIBÈRE SON HUILE; ENTIER, IL ROULE SANS RIEN DONNER."
+      },
+      {
+        "n": 3,
+        "texte": "Grande casserole d'eau, le saké, amener à FRÉMISSEMENT — SURTOUT PAS À GROS BOUILLONS. Une eau qui bout fort recroqueville les tranches et les durcit."
+      },
+      {
+        "n": 4,
+        "texte": "DÉFAIRE LES TRANCHES UNE PAR UNE ET LES PLONGER EN PETITES FOURNÉES DE 3 OU 4. 40 à 50 secondes chacune, jusqu'à ce que le rose disparaisse en surface."
+      },
+      {
+        "n": 5,
+        "texte": "SORTIR À L'ÉCUMOIRE ET ÉTALER À PLAT SUR UNE ASSIETTE FROIDE, sans les empiler. Laisser refroidir 4 minutes à l'air."
+      },
+      {
+        "n": 6,
+        "texte": "Déposer les tranches refroidies sur le lit de crudités."
+      },
+      {
+        "n": 7,
+        "texte": "Verser la trempette au moment de manger, pas avant."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le gras qui part à l’eau, et la question du refroidissement",
+        "texte": "C'EST LA SEULE FICHE DU RECUEIL OÙ LA CUISSON RETIRE DES LIPIDES. Trois cents grammes de porc tranché mince portent de l'ordre de 45 g de lipides crus; quarante secondes de frémissement en laissent une partie dans l'eau — l'estimation de la fiche compte ≈ 32 g conservés, soit 16 par portion. C'EST LE CONTRAIRE D'UN SAUTÉ, où l'huile de la poêle s'ajoute au gras de la viande.\n\nLE CHIFFRE EXACT N'EST PAS CONNU ET LA FICHE NE PRÉTEND PAS LE CONNAÎTRE. CE QUI EST CERTAIN EST LE SENS : l'eau de blanchiment est trouble et grasse à la fin, et ce gras-là ne se mange pas.\n\n⚠️ LA QUESTION DU REFROIDISSEMENT EST OUVERTE ET IL FAUT LA TESTER. L'usage courant est de choquer les tranches à l'eau glacée. La fiche dit de les refroidir À PLAT À L'AIR, ET C'EST UNE HYPOTHÈSE, PAS UN FAIT ÉTABLI : l'eau glacée devrait figer le gras résiduel en surface et détremper la viande, alors que le refroidissement à l'air le laisse fondant. À VÉRIFIER À LA PREMIÈRE EXÉCUTION, en séparant la moitié des tranches pour chaque méthode. C'est un test qui coûte trente secondes.\n\nCETTE FICHE EST LA TROISIÈME PRÉPARATION FROIDE DE VIANDE POCHÉE DU RECUEIL ET LES TROIS SONT DISTINCTES. R24, le shabu-shabu, est un repas chaud à table où chacun cuit sa tranche. R82, le mushidori, est une poitrine ENTIÈRE pochée dans l'eau éteinte puis refroidie DANS SON JUS — vingt minutes passives, aucune surveillance. CELLE-CI EST DES TRANCHES MINCES BLANCHIES PUIS REFROIDIES À SEC, et son intérêt est le lit de crudités : trois cents grammes de légumes crus qu'aucun autre plat du dossier ne fait manger.\n\n⚠️ LA VIDÉO D'OCHIKERON UTILISE UNE VINAIGRETTE À L'UMEBOSHI ET À L'HUILE D'OLIVE. LA FICHE UTILISE UNE TREMPETTE PONZU-SÉSAME, ce qui est un choix : l'umeboshi apporte du sel qu'on ne mesure pas facilement, et le titre de la vidéo dit « Shabu Shabu Salad » plutôt que hiya-shabu — c'est bien le plat, monté en salade.\n\nCENT QUATRE-VINGT-DIX MILLIGRAMMES, ET LE SEL EST DANS UN PLAT À CÔTÉ. C'est le troisième cas de ce document, et la trempette est ici dans son usage le plus pur : ON TREMPE CE QU'ON VEUT, AUTANT QU'ON VEUT, ET CE QUI RESTE DANS LE PETIT PLAT À LA FIN EST DU SODIUM QU'ON N'A PAS MANGÉ. Aucune sauce mélangée ne permet ça."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "Y8v76bt4zsk",
+      "auteur": "ochikeron",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R24",
+      "R82"
+    ],
+    "commentaire_source": ""
   }
 ]

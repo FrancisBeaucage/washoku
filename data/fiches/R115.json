@@ -1,0 +1,166 @@
+{
+  "id": "R115",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "bol-de-boeuf-et-oignons-gyudon",
+  "jp": "牛丼",
+  "jp_lecture": "ぎゅうどん",
+  "romaji": "gyūdon",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Bol de bœuf et oignons (gyūdon)",
+  "sous_titre": "Huit minutes de mijotage, deux ingrédients, et le geste qui décide de tout : le bouillon reste dans la casserole.",
+  "portions": "2",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 35,
+    "proteines_affiche": "35 g",
+    "calories": 480,
+    "calories_affiche": "≈ 480",
+    "lipides_g": 12,
+    "sodium_mg": 350,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, ET LE SODIUM VAUT BOUILLON ÉGOUTTÉ : le bol se monte à la cuillère trouée et le liquide reste dans la casserole. Versé sur le riz, le même bol monte à ≈ 505 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de bœuf tranché mince (shabu ou sukiyaki)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 gros oignon, en demi-lunes de 5 mm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de saké — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 tranche de gingembre, entière, retirée à la fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 rondelles de riz congelé de 140 g",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · gingembre mariné (beni shōga) · shichimi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 œuf mollet T8 par bol — +6 g de protéines, 0 mg de sodium",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T1",
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T1 ou réchauffer les rondelles. Faire T2 : 200 ml de dashi."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole large : dashi, soya, mirin, saké, la tranche de gingembre. Amener à frémissement."
+    },
+    {
+      "n": 3,
+      "texte": "LES DEMI-LUNES D'OIGNON, 5 MINUTES À COUVERT, AVANT TOUTE VIANDE. Elles doivent devenir translucides et molles. C'est là que le sucre du plat apparaît — un oignon cuit sucre, et c'est ce qui remplace le sucre ajouté du gyūdon de restaurant."
+    },
+    {
+      "n": 4,
+      "texte": "DÉFAIRE LE BŒUF TRANCHE PAR TRANCHE DANS LE LIQUIDE, pas en bloc. Un paquet jeté d'un coup cuit collé et donne un amas."
+    },
+    {
+      "n": 5,
+      "texte": "3 MINUTES MAXIMUM. Écumer la mousse grise qui monte, c'est de l'albumine et elle goûte le métal."
+    },
+    {
+      "n": 6,
+      "texte": "Retirer le gingembre. Éteindre."
+    },
+    {
+      "n": 7,
+      "texte": "MONTER LE BOL À LA CUILLÈRE TROUÉE : le riz, puis le bœuf et l'oignon égouttés. Une cuillère à soupe de bouillon par bol au maximum, versée sur la viande et non sur le riz."
+    },
+    {
+      "n": 8,
+      "texte": "Oignons verts, beni shōga, shichimi."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ne pas verser le bouillon sur le riz : le seul geste qui compte",
+      "texte": "⚠️ C'EST LE PLAT DU RECUEIL OÙ UN SEUL GESTE DÉPLACE LE PLUS DE SODIUM. La casserole contient 1 010 mg — deux cuillères à soupe de soya réduite. Si on verse tout le liquide sur le riz, chaque bol reçoit ≈ 505 mg. Si on monte à la cuillère trouée, le riz reste sec et le bol tombe à ≈ 350 mg. CENT CINQUANTE-CINQ MILLIGRAMMES DE DIFFÉRENCE POUR UN CHANGEMENT D'USTENSILE.\n\nET LE RIZ EST LE COUPABLE, PAS LE BOUILLON. Une rondelle de riz de 140 g boit tout ce qu'on lui donne : c'est une éponge à bouillon salé qui ne goûte rien par elle-même. Le bœuf et l'oignon, eux, ont déjà pris leur sel pendant les huit minutes de mijotage. LE LIQUIDE QUI RESTE DANS LA CASSEROLE A DÉJÀ FAIT SON TRAVAIL.\n\nLE GYŪDON DE RESTAURANT MET DU SUCRE ET LA FICHE N'EN MET PAS. Ce qui le remplace est à l'étape 3 : cinq minutes d'oignon seul dans le bouillon frémissant. Un oignon libère ses sucres en cuisant, et il en libère assez pour porter le plat. SI ON MET LA VIANDE EN MÊME TEMPS QUE L'OIGNON, ON PERD ÇA — la viande est cuite en trois minutes et il faut sortir la casserole du feu avant que l'oignon ait donné quoi que ce soit.\n\nLE BŒUF TRANCHÉ MINCE EST À L'ALLÉE DES CONGÉLATEURS, en paquet plat étiqueté shabu-shabu ou sukiyaki. NE JAMAIS LE REMPLACER PAR DU BŒUF À RAGOÛT COUPÉ MINCE : ce n'est pas la même coupe et trois minutes de mijotage n'en font rien. La fiche du répertoire d'ingrédients porte le nom exact.\n\nUN ŒUF MOLLET DE T8 EST LE MEILLEUR AJOUT DE CE BOL — six grammes de protéines, zéro sodium ajouté, et le jaune coulant remplace le bouillon qu'on n'a pas versé. L'ŒUF MARINÉ DE T7A, LUI, AJOUTE 250 MG DE SODIUM : c'est le mauvais œuf pour ce plat-là."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "2hvvVgAEPzc",
+    "auteur": "JapaneseCooking101",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R111",
+    "T8"
+  ],
+  "commentaire_source": ""
+}

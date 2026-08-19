@@ -1,0 +1,134 @@
+{
+  "id": "T24",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "saute",
+    "grille"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "le-glacage-teriyaki",
+  "jp": "照り焼き",
+  "jp_lecture": "てりやき",
+  "romaji": "teriyaki",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Le glaçage teriyaki",
+  "sous_titre": "Le tare classique est quatre parts égales : soya, mirin, saké, sucre. La version de la maison en retire une et divise une autre par deux — et le glaçage brille pareil.",
+  "portions": "2",
+  "temps_affiche": "≈ 5 min",
+  "temps_minutes": {
+    "preparation": 1,
+    "cuisson": 4,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 0,
+    "proteines_affiche": "0 g",
+    "calories": 35,
+    "calories_affiche": "≈ 35",
+    "lipides_g": 0,
+    "sodium_mg": 255,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "POUR DEUX PORTIONS :",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 1/2 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de saké OU d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN SUCRE AJOUTÉ",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 tranche de gingembre écrasée, retirée avant le glaçage",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger les trois liquides dans un bol AVANT de commencer à cuire la protéine. Une fois la poêle en marche, il n'y a plus le temps."
+    },
+    {
+      "n": 2,
+      "texte": "Cuire la protéine à part, jusqu'à ce qu'elle soit cuite à cœur. LE GLAÇAGE NE CUIT RIEN : IL ENROBE."
+    },
+    {
+      "n": 3,
+      "texte": "ÉTEINDRE LE FEU. Éponger la poêle de son gras avec un papier absorbant si elle en a rendu."
+    },
+    {
+      "n": 4,
+      "texte": "Verser le mélange dans la poêle chaude mais éteinte. Il va bouillonner de lui-même sur la chaleur résiduelle."
+    },
+    {
+      "n": 5,
+      "texte": "Retourner la protéine deux ou trois fois dans le liquide qui épaissit. EN 40 À 60 SECONDES, IL PASSE DE LIQUIDE À SIRUPEUX ET NAPPE."
+    },
+    {
+      "n": 6,
+      "texte": "Si le feu était nécessaire pour finir la réduction, le remettre AU PLUS BAS et compter en secondes. LE MOMENT OÙ LE SIROP FUME EST LE MOMENT OÙ IL DEVIENT AMER."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi le sucre du tare classique est en trop",
+      "texte": "LE TARE STANDARD EST 1:1:1:1 — soya, mirin, saké, sucre. Le dossier en retire le sucre entièrement, et ce n'est pas une privation : LE MIRIN PORTE DÉJÀ 6 G DE SUCRES PAR CUILLÈRE À SOUPE. Une cuillère et demie de mirin, c'est 9 g de sucre dans le glaçage. Le sucre du tare classique en ajoute 12 de plus par-dessus — il double une chose qui est déjà là.\n\nCE QUE ÇA COÛTE ET CE QUE ÇA ÉCONOMISE : le glaçage nappe un peu moins épais, et il faut réduire 15 secondes de plus. En échange, ≈ 50 calories de moins par portion, et un goût qui laisse passer le soya au lieu de le couvrir.\n\nLA SAUCE SOYA, ELLE, EST DIVISÉE PAR DEUX ET C'EST LÀ QUE LE VRAI GAIN EST. Une cuillère à soupe pour deux portions au lieu de deux — 255 mg de sodium par portion au lieu de 505. CE QUI REND ÇA POSSIBLE, C'EST LA RÉDUCTION : ELLE CONCENTRE LE SEL SANS EN AJOUTER. Une cuillère de soya réduite de moitié goûte comme deux cuillères non réduites, parce que c'est la concentration en bouche qui se lit, pas la quantité versée.\n\n⚠️ ET C'EST EXACTEMENT POURQUOI IL FAUT ÉTEINDRE LE FEU. Sur feu vif, le sucre du mirin caramélise puis brûle en quelques secondes, et le soya devient âcre. Hors du feu, la chaleur résiduelle de la poêle suffit à réduire et rien ne peut brûler. LE GLAÇAGE HORS DU FEU N'EST PAS UNE PRÉCAUTION DE DÉBUTANT : c'est la seule façon de tenir une réduction à une cuillère de soya.\n\nLE SAKÉ PEUT ÊTRE REMPLACÉ PAR DE L'EAU sans changer le résultat de façon détectable. Il apporte du volume à réduire, ce qui donne de la marge avant que ça brûle; son alcool part dans les 20 premières secondes. DE L'EAU FAIT LE MÊME TRAVAIL DE VOLUME.\n\nTROIS FICHES DU RECUEIL APPELLENT CETTE TECHNIQUE : R109, R110 et R116. Le nikujaga de R113 et le gyūdon de R115 utilisent la MÊME paire soya-mirin, mais en mijotage et non en glaçage — le liquide y reste liquide et sert de bouillon."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "n88PT1dSVn8",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R116",
+    "R109"
+  ],
+  "commentaire_source": ""
+}

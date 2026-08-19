@@ -1,0 +1,175 @@
+{
+  "id": "R114",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre",
+    "doux"
+  ],
+  "axe_texture": [
+    "croquant",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "poulet-et-racines-mijotes-chikuzenni",
+  "jp": "筑前煮",
+  "jp_lecture": "ちくぜんに",
+  "romaji": "chikuzenni",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Poulet et racines mijotés (chikuzenni)",
+  "sous_titre": "La seule fiche du recueil où une racine reste croquante après trente minutes de mijotage. C'est le lotus, et c'est pour ça que ce plat existe.",
+  "portions": "4",
+  "temps_affiche": "≈ 55 min",
+  "temps_minutes": {
+    "preparation": 25,
+    "cuisson": 30,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 31,
+    "proteines_affiche": "31 g",
+    "calories": 400,
+    "calories_affiche": "≈ 400",
+    "lipides_g": 16,
+    "sodium_mg": 380,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "700 g de haut de cuisse de poulet désossé, SANS PEAU, en morceaux de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de racine de lotus (renkon), en rondelles de 8 mm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de gobo (racine de bardane), en biseaux — facultatif mais c'est lui qui donne le fond de terre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de carotte en biseaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de konnyaku, déchiré à la main en morceaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 shiitake séchés, réhydratés — GARDER L'EAU DE TREMPAGE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de pousses de bambou en conserve, rincées — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 ml de dashi T2 + 200 ml de l'eau de trempage des shiitake",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de pois mange-tout blanchis 1 minute, au service",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire tremper les shiitake 30 minutes à l'eau tiède, ou 20 minutes à l'eau chaude. FILTRER ET GARDER L'EAU : ELLE VAUT LA MOITIÉ DU GOÛT DU PLAT."
+    },
+    {
+      "n": 2,
+      "texte": "LE LOTUS DANS L'EAU VINAIGRÉE DÈS QU'IL EST COUPÉ, 5 minutes, puis rincé. Sans ça il brunit et devient gris dans le mijoté."
+    },
+    {
+      "n": 3,
+      "texte": "DÉCHIRER LE KONNYAKU À LA MAIN, PAS AU COUTEAU. Les faces déchirées sont irrégulières et accrochent le bouillon; une face coupée est lisse et le refuse. Ébouillanter 2 minutes, égoutter."
+    },
+    {
+      "n": 4,
+      "texte": "Casserole large, huile de sésame, feu moyen-vif. LE POULET PEAU VERS LE BAS — enfin, la face qui portait la peau — 3 minutes, sans le bouger. Il doit dorer."
+    },
+    {
+      "n": 5,
+      "texte": "Toutes les racines et le konnyaku, 4 minutes en remuant. CETTE ÉTAPE N'EST PAS OPTIONNELLE : c'est le sauté préalable qui distingue un chikuzenni d'un nimono ordinaire. L'huile scelle les racines et elles garderont leur mordant."
+    },
+    {
+      "n": 6,
+      "texte": "Le dashi, l'eau de shiitake, le soya, le mirin. Le liquide arrive aux trois quarts."
+    },
+    {
+      "n": 7,
+      "texte": "Otoshibuta ou couvercle de biais, FRÉMISSEMENT 25 À 30 MINUTES, jusqu'à ce qu'il ne reste qu'un fond de liquide sirupeux."
+    },
+    {
+      "n": 8,
+      "texte": "REMUER LA CASSEROLE PAR SECOUSSES DANS LES 5 DERNIÈRES MINUTES, sans spatule, pour enrober. Les pois mange-tout posés au service."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le lotus est la seule racine croquante du recueil, et le trou qu'il comble",
+      "texte": "LE COMPTAGE DU RÉPERTOIRE A ÉTABLI QUE LE DOSSIER N'AVAIT QU'UN SEUL ACCOMPAGNEMENT VRAIMENT CROQUANT QUI NE SOIT PAS UN CONCOMBRE VINAIGRÉ — et c'était celui dont la julienne prend vingt minutes. LE LOTUS RÈGLE ÇA, ET IL LE RÈGLE DANS UN MIJOTÉ, CE QUI EST CONTRE-INTUITIF.\n\nPOURQUOI IL RESTE CROQUANT : sa chair est traversée de faisceaux de fibres et de canaux d'air, et ses parois cellulaires tiennent la pectine autrement que celles d'une pomme de terre. TRENTE MINUTES DE FRÉMISSEMENT LE RENDENT TENDRE EN DENTS SANS LE RENDRE MOU. Aucune autre racine du parcours Kim Phat ne fait ça.\n\nLE PLAT EST CLASSÉ LOURD ET C'EST HONNÊTE : VINGT-CINQ MINUTES DE DÉCOUPE. Sept ingrédients à tailler, dont trois racines dures. CE N'EST PAS UN PLAT DE SEMAINE : c'est un plat du dimanche qui donne quatre portions et se garde quatre jours, et qui est MEILLEUR au deuxième jour. C'est le même usage que le jangjorim coréen de R77 — cuisiner une fois, manger quatre fois.\n\nET IL GARDE SON BOL DE RIZ, contrairement au nikujaga de R113. Lotus, gobo et carotte sont de la fibre et de l'eau; le konnyaku est zéro calorie. QUATRE CENTS CALORIES PAR PORTION SANS FÉCULENT, ce qui laisse toute la place à une rondelle de riz de 140 g — et un souper à 600 calories, 35 g de protéines, avec un ichiju à côté.\n\nLE GOBO EST FACULTATIF MAIS C'EST LUI QU'ON REGRETTE. Il apporte une amertume de terre que rien d'autre du plat n'apporte. LE PELER AU DOS DU COUTEAU, PAS À L'ÉCONOME — la saveur est juste sous la peau. Le mettre dans l'eau vinaigrée avec le lotus."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "lourd",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "_xPNJr1aqvU",
+    "auteur": "JapaneseCooking101",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R113",
+    "R77"
+  ],
+  "commentaire_source": ""
+}

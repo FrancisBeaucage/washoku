@@ -1,0 +1,174 @@
+{
+  "id": "R113",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "boeuf-et-pommes-de-terre-mijotes-nikujaga",
+  "jp": "肉じゃが",
+  "jp_lecture": "にくじゃが",
+  "romaji": "nikujaga",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Bœuf et pommes de terre mijotés (nikujaga)",
+  "sous_titre": "Le nikujaga ordinaire est un plat de pommes de terre avec de la viande dedans. Celui-ci double le bœuf et supprime le bol de riz — c'est le même plat avec le rapport à l'endroit.",
+  "portions": "4",
+  "temps_affiche": "≈ 40 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 25,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 31,
+    "proteines_affiche": "31 g",
+    "calories": 395,
+    "calories_affiche": "≈ 395",
+    "lipides_g": 12,
+    "sodium_mg": 380,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de bœuf tranché mince — LE DOUBLE D'UNE RECETTE ORDINAIRE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "600 g de pommes de terre à chair jaune, en morceaux de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons en quartiers épais",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 carottes en biseaux de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de saké — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN SUCRE AJOUTÉ",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 200 g de shirataki, rincés et ébouillantés 1 minute",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN BOL DE RIZ AVEC CE PLAT",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T2 : 400 ml de dashi."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole à fond épais, huile, feu moyen-vif. SAISIR LE BŒUF EN DEUX FOURNÉES, 1 minute chacune, juste pour qu'il perde son rouge. Le sortir dans un bol."
+    },
+    {
+      "n": 3,
+      "texte": "RETIRER LE GRAS RENDU. Six cents grammes de bœuf en laissent une bonne cuillère à soupe."
+    },
+    {
+      "n": 4,
+      "texte": "Les oignons dans la même casserole, 3 minutes. Les pommes de terre et les carottes, 2 minutes en les retournant."
+    },
+    {
+      "n": 5,
+      "texte": "Le dashi, le soya, le mirin, le saké. LE LIQUIDE DOIT ARRIVER AUX TROIS QUARTS DES LÉGUMES, PAS LES COUVRIR — un nimono n'est pas une soupe."
+    },
+    {
+      "n": 6,
+      "texte": "Otoshibuta si tu l'as, sinon un couvercle posé de biais. FRÉMISSEMENT, PAS ÉBULLITION, 18 À 20 MINUTES, jusqu'à ce qu'une pointe de couteau traverse la pomme de terre sans résistance."
+    },
+    {
+      "n": 7,
+      "texte": "REMETTRE LE BŒUF DANS LES 3 DERNIÈRES MINUTES SEULEMENT. C'est tout le truc : il a déjà donné son goût au bouillon à l'étape 2, il n'a pas besoin de mijoter vingt minutes pour ça."
+    },
+    {
+      "n": 8,
+      "texte": "Éteindre, laisser reposer 10 minutes à couvert. MEILLEUR AU DEUXIÈME JOUR."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce plat remplace le riz, il ne l'accompagne pas",
+      "texte": "⚠️ CENT CINQUANTE GRAMMES DE POMMES DE TERRE PAR PORTION, C'EST LE QUART FÉCULENT DU SOUPER. LE BOL DE RIZ SAUTE. C'est la règle que le document 26 a posée avec le poulet braisé coréen de R104, et elle vaut ici mot pour mot. Servir ce plat avec une rondelle de riz de 140 g ajoute 200 calories de glucides à un repas qui en a déjà son compte, et le souper passe de 395 à 595 calories pour la même protéine.\n\nMAIS TOUTES LES RACINES NE SONT PAS DES FÉCULENTS, ET LE TEST N'EST PAS LA FORME. Le chikuzenni de R114 est un mijoté de racines lui aussi — lotus, gobo, carotte — et il GARDE son bol de riz, parce que ces racines-là sont de la fibre et de l'eau, pas de l'amidon. LE TEST EST L'AMIDON, PAS LA FORME : pomme de terre, patate douce, taro, kabocha occupent le quart féculent; daikon, lotus, gobo, carotte occupent le quart légume.\n\nLE RATIO INVERSÉ, CHIFFRÉ. Une recette japonaise ordinaire met 250 à 300 g de bœuf pour 600 g de pommes de terre et sert quatre — soit ≈ 15 g de protéines par portion pour 350 calories. CELLE-CI DOUBLE LE BŒUF : 31 G DE PROTÉINES POUR 395 CALORIES. Deux fois la protéine pour 45 calories de plus, parce que le bœuf tranché mince est un aliment dense en protéines et modéré en gras — et parce qu'on retire le gras rendu à l'étape 3.\n\nPOURQUOI LE BŒUF NE RENTRE QU'À LA FIN. L'usage veut qu'on le fasse mijoter avec les légumes du début à la fin. Sur du bœuf tranché mince, vingt minutes de frémissement donnent de la corde : les fibres se contractent et expulsent leur eau. LE SAISIR AU DÉBUT LUI FAIT DONNER SON GOÛT AU FOND DE CASSEROLE; LE REMETTRE À LA FIN LUI FAIT GARDER SA TEXTURE. On obtient les deux.\n\nLES SHIRATAKI SONT LE MEILLEUR AJOUT POSSIBLE À CE PLAT — zéro calorie, ils absorbent le bouillon et allongent le volume de l'assiette sans rien ajouter aux macros. TOUJOURS LES ÉBOUILLANTER UNE MINUTE AVANT : c'est ce qui enlève l'odeur du liquide de conservation."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "0DNXABd26jk",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R114",
+    "R104"
+  ],
+  "commentaire_source": ""
+}

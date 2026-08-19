@@ -1,0 +1,143 @@
+{
+  "id": "R107",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "soboro-de-poulet",
+  "jp": "鶏そぼろ",
+  "jp_lecture": "とりそぼろ",
+  "romaji": "tori soboro",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Soboro de poulet",
+  "sous_titre": "Quatre portions de protéine assaisonnée, faites en douze minutes, qui se gardent quatre jours au frigo. C'est la brique du dossier contre le plancher de 130 grammes.",
+  "portions": "4",
+  "temps_affiche": "≈ 17 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 12,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 17,
+    "proteines_affiche": "17 g",
+    "calories": 150,
+    "calories_affiche": "≈ 150",
+    "lipides_g": 8,
+    "sodium_mg": 255,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de poulet haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de gingembre râpé — à l'oroshigane si tu l'as trouvé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE HUILE — le haché rend assez de gras pour lui-même",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à soupe de saké, ajouté avec les liquides",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Poêle À SEC, feu moyen. Le haché directement dedans, sans huile."
+    },
+    {
+      "n": 2,
+      "texte": "L'ÉCRASER À LA SPATULE PENDANT QU'IL EST ENCORE CRU, en pressant, pour le défaire en grains fins. C'est le geste qui fait tout le plat : un soboro réussi est granuleux, pas en morceaux."
+    },
+    {
+      "n": 3,
+      "texte": "Quand il n'y a plus de rose, 4 à 5 minutes, INCLINER LA POÊLE ET RETIRER LE GRAS RENDU AU PAPIER ABSORBANT. Il y en aura une bonne cuillère."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter tous les liquides et le gingembre d'un coup. Ça va bouillir fort."
+    },
+    {
+      "n": 5,
+      "texte": "Feu moyen-vif, remuer et laisser réduire 5 à 7 minutes, JUSQU’À CE QUE LE FOND DE LA POÊLE RESTE SEC DEUX SECONDES QUAND ON TRACE UN SILLON À LA SPATULE."
+    },
+    {
+      "n": 6,
+      "texte": "Goûter. NE RIEN RAJOUTER AVANT D'AVOIR GOÛTÉ REFROIDI : le soboro sale en refroidissant."
+    },
+    {
+      "n": 7,
+      "texte": "Refroidir à découvert, puis contenant fermé au frigo."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce que c'est vraiment : une assurance, pas un plat",
+      "texte": "LE SOBORO NE SE MANGE PAS SEUL ET CE N'EST PAS SON RÔLE. C'est une préparation d'avance — dix-sept grammes de protéines par portion, déjà assaisonnés, prêts à la cuillère. SON USAGE EST LE MÊME QUE CELUI DES LANIÈRES DE POULET DU GARDE-MANGER : ASSURER LE PLANCHER DE PROTÉINES LES JOURS OÙ LA PLANIFICATION DÉRAILLE. À la différence près que celui-ci goûte quelque chose et rend son jus.\n\nQUATRE FAÇONS DE LE SORTIR : sur un bol de riz avec un œuf, ce qui donne R108 · dans un kobachi comme sansai protéiné · sur des épinards blanchis, où il remplace le sésame de R44 · froid, en boîte à lunch.\n\nIL SE GARDE QUATRE JOURS ET C'EST VÉRIFIABLE À L'ŒIL : tant qu'il reste sec et qu'aucun liquide ne s'accumule au fond du contenant, il est bon. Le liquide qui reparaît est le signal.\n\nLA VARIANTE 肉味噌 NIKU-MISO EXISTE ET ELLE EST PLUS SALÉE : on remplace la sauce soya par une cuillère à soupe de miso, ce qui monte le sodium à ≈ 300 mg par portion et change complètement le registre — plus rond, plus fermenté, et ça devient une garniture de nouilles plutôt qu'une garniture de riz. PAS UNE FICHE SÉPARÉE : UNE LIGNE DE CETTE NOTE.\n\n⚠️ RETIRER LE GRAS RENDU N'EST PAS OPTIONNEL À L'ÉTAPE 3. Quatre cents grammes de poulet haché de cuisse rendent de l'ordre d'une cuillère à soupe de gras — 14 grammes de lipides, dans un dossier plafonné à 65 par jour. Si on ne le retire pas, il se retrouve dans la réduction et colle aux grains. LE RETIRER COÛTE CINQ SECONDES ET ENLÈVE 3 À 4 G DE LIPIDES PAR PORTION."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "8TQux5oQz1A",
+    "auteur": "ハゲのへたくそ料理runnyrunny999",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R108"
+  ],
+  "commentaire_source": ""
+}

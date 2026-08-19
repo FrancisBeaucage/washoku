@@ -1,0 +1,156 @@
+{
+  "id": "R109",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "grille"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "boulettes-de-poulet-glacees-tsukune",
+  "jp": "つくね",
+  "jp_lecture": "つくね",
+  "romaji": "tsukune",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Boulettes de poulet glacées (tsukune)",
+  "sous_titre": "Trente-quatre grammes de protéines pour deux cent soixante milligrammes de sodium — parce que la farce n'est pas salée du tout et que tout le sel est dans le glaçage.",
+  "portions": "2",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 13,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 340,
+    "calories_affiche": "≈ 340",
+    "lipides_g": 16,
+    "sodium_mg": 260,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de poulet haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons verts, hachés fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de gingembre râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de panko OU 1 c. à soupe de fécule de pomme de terre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 blanc d'œuf",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN SEL, AUCUN SOYA DANS LA FARCE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE GLAÇAGE T24 : 1 c. à soupe de soya réduit · 1 1/2 c. à soupe de mirin · 1 c. à soupe d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif au service : 1 jaune d'œuf cru à tremper · shichimi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T24"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger le haché, les oignons verts, le gingembre, le panko et le blanc d'œuf. TRAVAILLER À LA MAIN 30 SECONDES, JUSQU'À CE QUE LA MASSE DEVIENNE COLLANTE. C'est ce collant qui tient les boulettes."
+    },
+    {
+      "n": 2,
+      "texte": "METTRE LA FARCE AU FRIGO 10 MINUTES. Une farce froide se façonne; une farce tiède colle aux doigts et s’affaisse à la poêle."
+    },
+    {
+      "n": 3,
+      "texte": "Former 8 boulettes aplaties de 2 cm d'épaisseur — pas des sphères. UNE SPHÈRE CUIT À L'EXTÉRIEUR AVANT L'INTÉRIEUR."
+    },
+    {
+      "n": 4,
+      "texte": "Poêle à feu moyen avec l'huile. 4 minutes d'un côté sans y toucher, jusqu'à ce qu'une croûte dorée se forme."
+    },
+    {
+      "n": 5,
+      "texte": "Retourner, couvrir, 5 minutes à feu moyen-doux. C'est le couvercle qui les cuit à cœur."
+    },
+    {
+      "n": 6,
+      "texte": "RETIRER LE GRAS RENDU AU PAPIER ABSORBANT, PUIS ÉTEINDRE LE FEU."
+    },
+    {
+      "n": 7,
+      "texte": "Faire T24 : verser le glaçage dans la poêle éteinte, retourner les boulettes 3 fois pendant 40 à 60 secondes."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce n'est pas la soupe de R32, et la différence est le sel",
+      "texte": "LE RECUEIL PORTE DÉJÀ DES TSUKUNE — R32, la soupe aux boulettes de poulet. CE SONT DEUX PLATS DIFFÉRENTS ET ILS NE SE REMPLACENT PAS. Dans R32, les boulettes sont pochées : elles rendent leur goût au bouillon, et le bouillon est assaisonné. Ici, elles sont poêlées puis glacées : elles gardent tout, et le sel arrive à la dernière minute par-dessus.\n\nCONSÉQUENCE SUR LE SODIUM, ET ELLE EST GRANDE. Une soupe assaisonnée met le sel dans un liquide qu'on boit — R32 est à ≈ 500 mg par bol. Un glaçage met le sel sur la surface d'une boulette — celle-ci est à 260 mg. LE MÊME PLAT, LA MOITIÉ DU SEL, PARCE QUE LE SEL N'A PAS À REMPLIR UN BOL DE LIQUIDE.\n\nLA FARCE NE CONTIENT AUCUN SEL ET C'EST VOULU. Presque toutes les recettes de tsukune en mettent — une cuillère à thé de soya ou de miso dans le haché, soit 200 à 300 mg de plus qui ne se goûtent presque pas parce qu'ils sont dilués dans 400 grammes de viande. LE GLAÇAGE, LUI, EST EN SURFACE : IL TOUCHE LA LANGUE DIRECTEMENT. À sel égal en bouche, le sel de surface coûte la moitié du sel de masse. C'est la même logique que la trempette de R118.\n\nLE JAUNE D'ŒUF CRU À TREMPER EST L'USAGE DE L'IZAKAYA et il ajoute 6 g de protéines pour 0 mg de sodium. SI LE JAUNE CRU DÉRANGE, UN ŒUF MOLLET DE T8 COUPÉ EN DEUX FAIT LE MÊME TRAVAIL.\n\n⚠️ LE PANKO PEUT ÊTRE REMPLACÉ PAR DE LA FÉCULE, MAIS PAS SUPPRIMÉ. Sans liant, les boulettes se défont dans le glaçage et il reste des grains dans un sirop. UNE CUILLÈRE À SOUPE DE FÉCULE DE POMME DE TERRE EST LA VERSION SANS BLÉ ET ELLE TIENT MIEUX QUE LE PANKO."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "IyXQemAcKLw",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R32",
+    "T24"
+  ],
+  "commentaire_source": ""
+}

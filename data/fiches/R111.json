@@ -1,0 +1,154 @@
+{
+  "id": "R111",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant",
+    "soyeux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "boeuf-et-tofu-mijotes-nikudofu",
+  "jp": "肉豆腐",
+  "jp_lecture": "にくどうふ",
+  "romaji": "nikudōfu",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Bœuf et tofu mijotés (nikudōfu)",
+  "sous_titre": "Quarante-quatre grammes de protéines par portion, la plus haute valeur de tout le recueil japonais — parce que deux sources de protéines mijotent dans la même casserole.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 14,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 44,
+    "proteines_affiche": "44 g",
+    "calories": 350,
+    "calories_affiche": "≈ 350",
+    "lipides_g": 18,
+    "sodium_mg": 400,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, ET LE SODIUM VAUT BOUILLON NON BU : on mange les solides et on laisse les 300 ml de liquide dans la casserole. Bu, le même plat monte à ≈ 530 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "200 g de bœuf tranché mince (shabu ou sukiyaki)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de tofu ferme, en 8 gros cubes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 gros oignon, en demi-lunes de 1 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 1/2 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 1/2 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de saké — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons verts en biais, au service",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : shichimi à table",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T2 : 300 ml de dashi. LE MIZUDASHI AU SHIITAKE CONVIENT SI LE KOMBU EST DÉJÀ PASSÉ CETTE SEMAINE."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole large ou poêle profonde : le dashi, le soya, le mirin, le saké. Amener à frémissement."
+    },
+    {
+      "n": 3,
+      "texte": "Les demi-lunes d'oignon, 5 minutes à couvert. ELLES DOIVENT DEVENIR TRANSLUCIDES ET SUCRER LE BOUILLON AVANT QUE LE RESTE ENTRE."
+    },
+    {
+      "n": 4,
+      "texte": "LES CUBES DE TOFU DÉPOSÉS À PLAT, PAS REMUÉS. 5 minutes. On les retourne une fois avec une cuillère, jamais avec une spatule."
+    },
+    {
+      "n": 5,
+      "texte": "LE BŒUF EN DERNIER, ÉTALÉ EN UNE COUCHE, 2 À 3 MINUTES MAXIMUM. Il est tranché mince : il est cuit dès qu'il n'est plus rouge. Plus longtemps, il devient de la corde."
+    },
+    {
+      "n": 6,
+      "texte": "Éteindre. Laisser reposer 3 minutes à couvert — c'est là que le tofu prend le goût."
+    },
+    {
+      "n": 7,
+      "texte": "Servir à la cuillère trouée, LE BOUILLON RESTE DANS LA CASSEROLE. Oignons verts par-dessus."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Quarante-quatre grammes, et le bouillon qui ne se boit pas",
+      "texte": "C'EST LA FICHE LA PLUS PROTÉINÉE DU RECUEIL JAPONAIS ET LE MÉCANISME EST SIMPLE : DEUX SOURCES DANS UNE CASSEROLE. Deux cents grammes de bœuf tranché donnent 42 g de protéines; quatre cents grammes de tofu ferme en donnent 47. Aucun des deux seul n'atteindrait la cible d'un souper; ensemble ils la dépassent.\n\nET LES DEUX SE COMPLÈTENT SUR LES LIPIDES, PAS SEULEMENT SUR LES PROTÉINES. Le bœuf tranché apporte 16 g de lipides pour ses 42 g de protéines; le tofu en apporte 20 pour ses 47 — mais ce sont des lipides végétaux, et surtout le tofu est le poste qu'on peut doubler sans que le gras suive. SI LA JOURNÉE EST DÉJÀ CHARGÉE EN LIPIDES, ON MONTE LE TOFU ET ON BAISSE LE BŒUF, PAS L'INVERSE.\n\n⚠️ LE BOUILLON NE SE BOIT PAS ET LE CHIFFRE DE SODIUM EN DÉPEND. Une cuillère et demie de soya réduite, c'est 750 mg dans la casserole, plus le dashi — soit ≈ 400 mg par portion si on mange les solides et qu'on laisse les 300 ml de liquide. Bu, le même plat monte à ≈ 530 mg. CE N'EST PAS UNE SOUPE : C'EST UN MIJOTÉ DONT LE LIQUIDE EST UN CUISEUR.\n\nCE PLAT EST UN SUKIYAKI SANS LE SUKIYAKI, et ça vaut la peine de le savoir : mêmes ingrédients, même assaisonnement, mais on ne cuit pas à table et on ne trempe pas dans l'œuf cru. C'est la version de semaine — une casserole, vingt minutes, aucun réchaud.\n\nLE TOFU EN GROS CUBES N'EST PAS UNE ÉLÉGANCE. Un cube de 4 cm garde son cœur intact et absorbe le bouillon seulement en surface, ce qui donne le contraste. COUPÉ PETIT, IL S'IMBIBE ENTIÈREMENT, DEVIENT SALÉ DE PARTOUT ET SE DÉFAIT AU REMUAGE."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "SU3ahRyWihk",
+    "auteur": "JapaneseCooking101",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R115",
+    "R112"
+  ],
+  "commentaire_source": ""
+}

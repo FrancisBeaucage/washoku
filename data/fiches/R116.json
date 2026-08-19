@@ -1,0 +1,140 @@
+{
+  "id": "R116",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "grille"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "poulet-teriyaki",
+  "jp": "鶏の照り焼き",
+  "jp_lecture": "とりのてりやき",
+  "romaji": "tori no teriyaki",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Poulet teriyaki",
+  "sous_titre": "Deux cent cinquante-cinq milligrammes de sodium pour le plat le plus sucré-salé du recueil — parce que la sauce est réduite au lieu d'être versée.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 36,
+    "proteines_affiche": "36 g",
+    "calories": 375,
+    "calories_affiche": "≈ 375",
+    "lipides_g": 18,
+    "sodium_mg": 255,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de haut de cuisse de poulet désossé, SANS PEAU",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE GLAÇAGE T24 : 1 c. à soupe de soya réduit · 1 1/2 c. à soupe de mirin · 1 c. à soupe de saké ou d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts en biais · 150 g de daikon râpé égoutté OU 200 g de chou en lanières",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : graines de sésame · shichimi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T24"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "APLATIR LES MORCEAUX À ÉPAISSEUR ÉGALE avec le plat de la main ou le fond d'une casserole. Un haut de cuisse déplié a une partie épaisse et une partie mince, et la mince est de la semelle avant que l'épaisse soit cuite."
+    },
+    {
+      "n": 2,
+      "texte": "Éponger le poulet au papier absorbant. UN POULET HUMIDE NE DORE PAS : IL BOUT."
+    },
+    {
+      "n": 3,
+      "texte": "Mélanger le glaçage T24 dans un bol. AVANT DE COMMENCER À CUIRE."
+    },
+    {
+      "n": 4,
+      "texte": "Poêle à feu MOYEN avec l'huile. LA FACE QUI PORTAIT LA PEAU EN DESSOUS, 6 À 7 MINUTES, SANS Y TOUCHER. Elle doit être dorée franc."
+    },
+    {
+      "n": 5,
+      "texte": "Retourner, 4 à 5 minutes. VÉRIFIER AU COUTEAU : le jus doit être clair au plus épais."
+    },
+    {
+      "n": 6,
+      "texte": "RETIRER LE GRAS RENDU AU PAPIER ABSORBANT — il y en aura une cuillère à soupe — PUIS ÉTEINDRE LE FEU."
+    },
+    {
+      "n": 7,
+      "texte": "Faire T24 : verser le glaçage, retourner les morceaux 3 fois pendant 40 à 60 secondes, jusqu'à ce que ça nappe."
+    },
+    {
+      "n": 8,
+      "texte": "Trancher en biais de 2 cm, verser le fond de glaçage de la poêle par-dessus, oignons verts."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Sans peau, une cuillère pour deux, et hors du feu — trois écarts sur trois",
+      "texte": "CE PLAT EST LE SEUL DU RECUEIL DONT LES TROIS AJUSTEMENTS SONT ANNONCÉS DANS LE RÉPERTOIRE DES MANQUES AVANT MÊME D'AVOIR ÉTÉ ÉCRIT : sans peau, une cuillère à soupe de shoyu pour deux portions au lieu de deux, glaçage hors du feu. Ils tiennent tous les trois et il vaut la peine de dire ce que chacun coûte.\n\nSANS PEAU : ≈ 8 G DE LIPIDES ET 70 CALORIES DE MOINS PAR PORTION. Ce que ça coûte : le croustillant. CE QUI LE REMPLACE EST À L'ÉTAPE 4 — six à sept minutes sans y toucher sur la face qui portait la peau donnent une croûte dorée sur la chair elle-même. Ce n'est pas la même chose qu'une peau croustillante, mais ce n'est pas rien.\n\nUNE CUILLÈRE POUR DEUX : 250 MG DE SODIUM DE MOINS PAR PORTION. Ce que ça coûte : rien de détectable, à condition de réduire. La démonstration est dans la note de T24 — c'est la concentration qui se lit en bouche, pas le volume versé.\n\nHORS DU FEU : ÇA NE COÛTE RIEN DU TOUT ET C'EST CE QUI REND LES DEUX AUTRES POSSIBLES. À feu vif, une cuillère de soya réduite brûle avant d'avoir nappé, et on rajoute pour compenser.\n\n⚠️ LE HAUT DE CUISSE ET NON LA POITRINE, ET CE N'EST PAS NÉGOCIABLE ICI. Une poitrine à 23 g de protéines aux 100 g serait meilleure sur le papier — 2 g de lipides au lieu de 9. MAIS ELLE SÈCHE ENTRE LE MOMENT OÙ ELLE EST CUITE ET LE MOMENT OÙ LE GLAÇAGE A RÉDUIT, et il n'y a pas de marge : le glaçage prend 60 secondes de plus que la cuisson. Le haut de cuisse pardonne ces soixante secondes. C'EST LE MORCEAU PAR DÉFAUT DE LA CUISINE JAPONAISE POUR CETTE RAISON EXACTE.\n\nLE DAIKON RÂPÉ OU LE CHOU CRU À CÔTÉ NE SONT PAS UNE GARNITURE : ils sont le contrepoids d'un plat sucré-salé. SANS EUX, TROIS CENT SOIXANTE-QUINZE CALORIES DE TERIYAKI SE MANGENT EN QUATRE MINUTES ET ON N'A PAS L'IMPRESSION D'AVOIR SOUPÉ."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "LZ6rXyFRJjk",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "T24",
+    "R117"
+  ],
+  "commentaire_source": ""
+}

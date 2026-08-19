@@ -1,0 +1,168 @@
+{
+  "id": "R117",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "vapeur"
+  ],
+  "axe_gout": [
+    "acide",
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "croquant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "poivrons-farcis-au-hache-piman-no-nikuzume",
+  "jp": "ピーマンの肉詰め",
+  "jp_lecture": "ピーマンのにくづめ",
+  "romaji": "pīman no nikuzume",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Poivrons farcis au haché (pīman no nikuzume)",
+  "sous_titre": "Un plat où le légume est le contenant : quatre poivrons portent trois cents grammes de protéine, et la farine à l'intérieur est la seule chose qui empêche tout de se séparer.",
+  "portions": "2",
+  "temps_affiche": "≈ 30 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 31,
+    "proteines_affiche": "31 g",
+    "calories": 370,
+    "calories_affiche": "≈ 370",
+    "lipides_g": 18,
+    "sodium_mg": 190,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "4 poivrons verts moyens, coupés en deux dans la longueur, graines retirées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 g de porc haché maigre OU de poulet haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 oignon, haché très fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de panko",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 œuf",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de fécule OU de farine, POUR L'INTÉRIEUR DES POIVRONS",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN SEL DANS LA FARCE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe d'eau pour la vapeur",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : 1 c. à thé de ponzu PAR PORTION · daikon râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : shichimi · un filet de glaçage T24 à la place du ponzu",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire suer l'oignon 3 minutes sans coloration, laisser tiédir."
+    },
+    {
+      "n": 2,
+      "texte": "Mélanger le haché, l'oignon, le panko et l'œuf. Travailler 30 secondes jusqu'au collant."
+    },
+    {
+      "n": 3,
+      "texte": "SAUPOUDRER L'INTÉRIEUR DE CHAQUE DEMI-POIVRON DE FÉCULE, PUIS TAPOTER POUR RETIRER L'EXCÈS. C'est le geste qui fait le plat : sans lui, la farce se contracte en cuisant et se décolle du poivron d'un bloc."
+    },
+    {
+      "n": 4,
+      "texte": "Presser la farce dans chaque demi-poivron EN LA BOMBANT LÉGÈREMENT, sans laisser de poche d’air le long des bords."
+    },
+    {
+      "n": 5,
+      "texte": "Poêle à feu moyen avec l'huile. CÔTÉ VIANDE EN DESSOUS D'ABORD, 4 à 5 minutes, sans y toucher. Il doit se former une croûte brune."
+    },
+    {
+      "n": 6,
+      "texte": "Retourner côté poivron. AJOUTER LES 2 C. À SOUPE D'EAU, COUVRIR, 8 À 10 MINUTES À FEU MOYEN-DOUX."
+    },
+    {
+      "n": 7,
+      "texte": "VÉRIFIER : un jus clair, pas rose, quand on pique la farce au centre. Le poivron doit être tendre mais garder sa forme."
+    },
+    {
+      "n": 8,
+      "texte": "Servir côté viande vers le haut, la cuillère à thé de ponzu versée à table."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La fécule à l'intérieur, et pourquoi le poivron n'est pas un contenant neutre",
+      "texte": "CE PLAT RATE TOUJOURS DE LA MÊME FAÇON : LA FARCE SE DÉCOLLE ET ON SERT UN POIVRON VIDE AVEC UNE GALETTE DE VIANDE À CÔTÉ. La cause est mécanique. La viande hachée perd de l'eau et se contracte de l'ordre de 15 % en cuisant; le poivron, lui, se ramollit et s'ouvre. Les deux vont dans des directions opposées. LA FÉCULE SAUPOUDRÉE À L'INTÉRIEUR SE GÉLIFIE AVEC LE JUS DE LA VIANDE ET FAIT UNE COLLE. C'est tout. Une cuillère à soupe pour quatre poivrons.\n\nET LE POIVRON N'EST PAS UN CONTENANT NEUTRE : C'EST LA MOITIÉ DU PLAT. Quatre poivrons verts, c'est 120 g de légume par portion et de l'ordre de 30 calories — mais surtout c'est du croquant qui tient la cuisson, et le recueil en manque. AVEC LE LOTUS DE R114, C'EST LE SEUL CROQUANT DE CE LOT QUI TIENNE LA CUISSON — celui de R118 est du légume cru, qu'aucun feu n'a touché.\n\nCENT QUATRE-VINGT-DIX MILLIGRAMMES DE SODIUM, ET LE MÉCANISME EST LE MÊME QUE R110 ET R118 : LE SEL EST DÉPORTÉ DANS UNE TREMPETTE. La farce n'en contient pas du tout. Une cuillère à thé de ponzu versée à table touche la langue directement et fait le travail de deux cuillères à thé mélangées dans la masse. TROIS FICHES DE CE DOCUMENT APPLIQUENT ÇA, ET C'EST LE LEVIER LE PLUS TRANSPORTABLE DU LOT.\n\nLE PORC HACHÉ MAIGRE ET LE POULET HACHÉ DONNENT DEUX PLATS DIFFÉRENTS. Le porc est plus juteux et plus riche — 18 g de lipides par portion; le poulet descend à 13 g mais demande le glaçage T24 plutôt que le ponzu, parce qu'il a besoin d'un peu de sucre pour ne pas être plat. LE PORC AU PONZU, LE POULET AU TERIYAKI : ce ne sont pas deux versions du même plat, ce sont deux plats.\n\n⚠️ NE PAS BLANCHIR LES POIVRONS AVANT DE LES FARCIR. C'est un raccourci qu'on lit souvent, et il détruit le plat : un poivron blanchi est déjà mou, il n'a plus de structure pour tenir la farce, et il rendra son eau dans la poêle. LE POIVRON CRU CUIT TRÈS BIEN PENDANT LES DIX MINUTES À COUVERT."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "doCrM1ulNaE",
+    "auteur": "JapaneseCooking101",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R110",
+    "R118"
+  ],
+  "commentaire_source": ""
+}

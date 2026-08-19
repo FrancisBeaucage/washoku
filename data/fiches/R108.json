@@ -1,0 +1,146 @@
+{
+  "id": "R108",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "blanchi"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "ferme",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner"
+  ],
+  "slug": "bol-trois-couleurs-soborodon",
+  "jp": "三色丼",
+  "jp_lecture": "さんしょくどん",
+  "romaji": "sanshoku don",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Bol trois couleurs (soborodon)",
+  "sous_titre": "Trente-six grammes de protéines pour quatre cents milligrammes de sodium, et quinze minutes si le soboro est déjà au frigo. C'est le meilleur rapport du dossier pour un dîner.",
+  "portions": "2",
+  "temps_affiche": "≈ 15 min si le soboro est fait",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 36,
+    "proteines_affiche": "36 g",
+    "calories": 535,
+    "calories_affiche": "≈ 535",
+    "lipides_g": 18,
+    "sodium_mg": 400,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 portions de soboro R107, environ 200 g",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g d'épinards OU de haricots verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 rondelles de riz congelé de 140 g, OU 280 g de riz cuit",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre pour les œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 pincée de sel pour les œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de graines de sésame · nori en lanières · gingembre mariné",
+      "sante": true,
+      "sante_pos": 51
+    }
+  ],
+  "techniques": [
+    "T1",
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Réchauffer le soboro à la poêle ou au micro-ondes. Le mettre de côté."
+    },
+    {
+      "n": 2,
+      "texte": "Faire T6 sur les épinards : 40 secondes à l'eau bouillante, égoutter, PRESSER À LA MAIN, couper en tronçons de 3 cm."
+    },
+    {
+      "n": 3,
+      "texte": "Battre les œufs avec la pincée de sel. Poêle à feu MOYEN-DOUX avec l'huile."
+    },
+    {
+      "n": 4,
+      "texte": "LES ŒUFS BROUILLÉS DOIVENT RESTER EN GROS CAILLOTS HUMIDES, pas en poudre. Sortir dès qu'il n'y a plus de liquide libre — ils finissent de prendre dans l'assiette."
+    },
+    {
+      "n": 5,
+      "texte": "Réchauffer le riz. L'étaler dans deux bols larges."
+    },
+    {
+      "n": 6,
+      "texte": "TROIS BANDES CÔTE À CÔTE, PAS UN MÉLANGE : le soboro brun, les œufs jaunes, la verdure verte. Le plat s’appelle « trois couleurs »; les mélanger dans la poêle en fait un seul plat beige."
+    },
+    {
+      "n": 7,
+      "texte": "Sésame et nori par-dessus."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi deux œufs par bol et non un",
+      "texte": "LA RECETTE JAPONAISE ORDINAIRE MET UN ŒUF PAR BOL, et le bol arrive à ≈ 30 g de protéines pour 455 calories. LE DOSSIER EN MET DEUX, CE QUI DONNE 36 G POUR 535 CALORIES — ET C'EST LE POSTE OÙ L'AJOUT COÛTE LE MOINS CHER. Un œuf, c'est 6 g de protéines, 80 calories, 5 g de lipides et 0 mg de sodium ajouté. Aucun autre ingrédient du bol n'a ce rapport.\n\nLA CIBLE DU DÎNER EST ≈ 500 CALORIES ET 40 G DE PROTÉINES. Ce bol arrive à 535 et 36 : légèrement au-dessus en calories, légèrement en dessous en protéines. C'EST LE RIZ QUI TIRE DANS LE MAUVAIS SENS — 200 calories pour 4 g de protéines. Ramener la rondelle à 100 g au lieu de 140 met le bol à 465 et 35, ce qui est exactement dans la cible.\n\nCE BOL EST LE DÉBOUCHÉ PRINCIPAL DE R107, et c'est pourquoi les deux fiches existent séparément. Le soboro se fait le dimanche pour quatre; le bol se monte en quinze minutes un mardi. SI LES DEUX ÉTAIENT UNE SEULE FICHE, LE DIMANCHE ET LE MARDI SERAIENT MÉLANGÉS DANS LA MÊME LISTE D'ÉTAPES.\n\nLES ÉPINARDS PEUVENT ÊTRE REMPLACÉS PAR N'IMPORTE QUELLE VERDURE BLANCHIE, et les haricots verts sont le meilleur choix pour le croquant — le répertoire n'a presque rien de croquant qui ne soit pas un concombre vinaigré.\n\nSE MANGE FROID, DONC C'EST UNE BOÎTE À LUNCH. Les trois composantes se transportent séparément et se montent sur place, ou se montent le matin et se mangent à température de la pièce. LE RIZ NE SE RÉCHAUFFE PAS AU BUREAU ET IL N'EN A PAS BESOIN."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "cI3LPrBrlOQ",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R107"
+  ],
+  "commentaire_source": ""
+}

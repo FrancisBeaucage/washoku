@@ -1,0 +1,157 @@
+{
+  "id": "R110",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "acide",
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "galette-de-poulet-et-tofu-tofu-hanbagu",
+  "jp": "豆腐ハンバーグ",
+  "jp_lecture": "とうふハンバーグ",
+  "romaji": "tōfu hanbāgu",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "langue_origine": "ja",
+  "fr": "Galette de poulet et tofu (tōfu hanbāgu)",
+  "sous_titre": "Cent quatre-vingt-dix milligrammes de sodium pour trente-six grammes de protéines. C'est le plat principal le moins salé du recueil japonais, et c'est le tofu qui le permet.",
+  "portions": "2",
+  "temps_affiche": "≈ 30 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 14,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 36,
+    "proteines_affiche": "36 g",
+    "calories": 330,
+    "calories_affiche": "≈ 330",
+    "lipides_g": 17,
+    "sodium_mg": 190,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "250 g de poulet haché",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de tofu ferme, ÉGOUTTÉ ET PRESSÉ",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 oignon, haché très fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de panko",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 œuf",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN SEL DANS LA FARCE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : 150 g de daikon râpé, bien égoutté · 1 c. à thé de ponzu PAR PORTION · oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : shiso ou shichimi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "PRESSER LE TOFU 10 MINUTES entre deux assiettes avec un poids, ou l'écraser dans un linge et essorer. Il doit perdre l'équivalent d'un quart de tasse d'eau. UN TOFU NON PRESSÉ FAIT UNE GALETTE QUI SE DÉCHIRE."
+    },
+    {
+      "n": 2,
+      "texte": "Faire suer l'oignon 3 minutes à la poêle sans coloration, puis le laisser tiédir. CRU, IL RESTE CROQUANT ET PERCE LA GALETTE."
+    },
+    {
+      "n": 3,
+      "texte": "Écraser le tofu à la fourchette, mélanger avec le haché, l'oignon, le panko et l'œuf. Travailler 30 secondes jusqu'au collant."
+    },
+    {
+      "n": 4,
+      "texte": "Former 4 galettes de 2,5 cm d'épaisseur. CREUSER UN LÉGER PUITS AU CENTRE AVEC LE POUCE — la galette gonfle en cuisant et le puits l'empêche de bomber."
+    },
+    {
+      "n": 5,
+      "texte": "Poêle à feu moyen avec l'huile. 5 minutes, sans y toucher."
+    },
+    {
+      "n": 6,
+      "texte": "Retourner, ajouter 2 c. à soupe d'eau, COUVRIR, 8 à 9 minutes à feu moyen-doux. LA VAPEUR CUIT LE CENTRE SANS SÉCHER L'EXTÉRIEUR."
+    },
+    {
+      "n": 7,
+      "texte": "VÉRIFIER : un jus clair, pas rose, doit sortir quand on pique au centre."
+    },
+    {
+      "n": 8,
+      "texte": "Servir avec le daikon râpé sur le dessus et la cuillère à thé de ponzu versée dessus À TABLE."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le tofu ne coupe pas la viande : il porte un tiers de la protéine",
+      "texte": "⚠️ LA VIDÉO DE JUST ONE COOKBOOK FINIT CE PLAT À LA SAUCE TERIYAKI. LA FICHE LE FINIT AU DAIKON ET AU PONZU, ET C'EST UN CHANGEMENT VOLONTAIRE. Un glaçage T24 mettrait 255 mg de sodium par portion; une cuillère à thé de ponzu en met 175, et le daikon râpé apporte l'eau et le piquant qui font le même travail de contraste. C'est aussi pourquoi T24 n'est PAS dans le champ des techniques de cette fiche : elle le remplace, elle ne l'applique pas. LE TITRE ANGLAIS DE LA VIDÉO DIT « CHICKEN MEATBALLS » — c'est bien le tōfu hanbāgu, le titre japonais le confirme.\n\nL'IDÉE REÇUE SUR CE PLAT EST QU'ON METTRAIT DU TOFU POUR METTRE MOINS DE VIANDE. C'EST FAUX ICI. Deux cents grammes de tofu ferme, c'est 23,6 g de protéines — un tiers de la protéine totale de la recette. LE TOFU N'EST PAS UN REMPLISSEUR : C'EST UNE DEUXIÈME SOURCE DE PROTÉINE QUI COÛTE 5 G DE LIPIDES AU LIEU DE 20.\n\nCE QU'IL FAIT EN PLUS, ET QUI EST LA VRAIE RAISON DE LE METTRE : il retient l'eau. Une galette de haché pur à 36 g de protéines est sèche; la même avec un tiers de tofu reste moelleuse parce que le caillé de soya garde son eau à la cuisson. C'EST UNE QUESTION DE TEXTURE AVANT D'ÊTRE UNE QUESTION DE MACRO.\n\nCE PLAT EST LE PLAT DE SECOURS DES JOURNÉES DÉJÀ MANGÉES EN SODIUM. Cent quatre-vingt-dix milligrammes, c'est moins qu'un œuf mariné. PARMI LES FICHES DONT LE SODIUM EST CHIFFRÉ, C'EST CELLE QUI PORTE LE PLUS DE PROTÉINES SOUS 200 MG PAR PORTION — trente-six grammes. Ses voisines sont R117 et R118 de ce même document, le mushidori de R82 et l'omelette coréenne de R99. ⚠️ ET LA COMPARAISON A UNE LIMITE À CONNAÎTRE : le sodium n'est chiffré que sur une fiche sur trois du recueil; les autres portent un tiret, pas un zéro.\n\nLE DAIKON RÂPÉ DOIT ÊTRE ÉGOUTTÉ MAIS PAS PRESSÉ À SEC. Pressé, il devient de la ouate; non égoutté, il noie l'assiette. LE DÉPOSER 2 MINUTES DANS UNE PASSOIRE SUFFIT. C'est le même daikon que celui de R14 et de R68."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "SeN1_u-du0w",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R117",
+    "R99"
+  ],
+  "commentaire_source": ""
+}
