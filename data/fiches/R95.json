@@ -1,0 +1,141 @@
+{
+  "id": "R95",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "mou"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-de-chou-nappa-au-doenjang-baechu-doenjang-guk",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "배추된장국",
+  "lecture_origine": "baechu doenjang guk",
+  "langue_origine": "ko",
+  "fr": "Soupe de chou nappa au doenjang (baechu doenjang guk)",
+  "sous_titre": "La même pâte que le ragoût, diluée dans trois à quatre fois plus de liquide. C'est l'arbitrage le plus rentable de toute la ligne coréenne : le goût du doenjang jjigae pour le tiers de son sodium.",
+  "portions": "3",
+  "temps_affiche": "≈ 22 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 16,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 9,
+    "proteines_affiche": "9 g",
+    "calories": 110,
+    "calories_affiche": "≈ 110",
+    "lipides_g": 4,
+    "sodium_mg": 450,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "1 L d'eau, ou de bouillon d'anchois-kombu",
+      "sante": true,
+      "sante_pos": 41
+    },
+    {
+      "texte": "1,5 c. à soupe de doenjang — PAS PLUS, pour trois portions",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de chou nappa en morceaux de 4 cm, ou 300 g d'épinards",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de tofu ferme en cubes de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 gousses d'ail émincées, 3 oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 4 shiitake séchés réhydratés et leur eau de trempage",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de gochugaru",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "⚠️ AUCUNE sauce soya, AUCUN sel ajouté",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Porter l'eau à frémissement avec l'eau de trempage des champignons s'il y en a."
+    },
+    {
+      "n": 2,
+      "texte": "DÉLAYER LE DOENJANG DANS UNE LOUCHE DE LIQUIDE CHAUD, HORS DE LA CASSEROLE, puis l'incorporer. Jeté en bloc, il fait des grumeaux qui ne se défont pas."
+    },
+    {
+      "n": 3,
+      "texte": "L'ail et les champignons, 5 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "Le chou nappa — les côtes d'abord 5 minutes, les feuilles ensuite 3 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "Le tofu, 3 minutes, sans brasser."
+    },
+    {
+      "n": 6,
+      "texte": "GOÛTER AVANT DE PENSER À AJOUTER QUOI QUE CE SOIT. Les oignons verts hors du feu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "L’arbitrage le plus rentable de la ligne coréenne, chiffré",
+      "texte": "UN 된장찌개 DOENJANG JJIGAE PORTE DE L'ORDRE D'UNE CUILLÈRE À SOUPE DE DOENJANG PAR PERSONNE, DANS PEU DE LIQUIDE. À de l'ordre de 1 200 mg par cuillère à soupe, ÇA FAIT 1 100 À 1 300 MG PAR BOL — la moitié du plafond quotidien du dossier dans une soupe d'accompagnement.\n\nCETTE FICHE-CI EST LE MÊME PLAT, RENVERSÉ : une cuillère et demie pour TROIS portions, dans un litre de liquide. DE L'ORDRE DE 450 MG PAR BOL AU LIEU DE 1 200, POUR UN GOÛT QUI RESTE FRANCHEMENT DU DOENJANG — parce que ce qui fait le goût de cette pâte n'est pas seulement son sel, c'est sa fermentation.\n\nLA RÈGLE QUI EN SORT, ET ELLE VAUT AU-DELÀ DU CORÉEN : LE GUK EST LA VERSION DE SEMAINE, LE JJIGAE EST CELLE DE FIN DE SEMAINE. Écrire les deux et dire lequel est lequel vaut mieux que d'écarter le jjigae — voir R98, qui existe aussi et qui porte son ajustement.\n\nET CE QUI REMPLACE LE SEL RETIRÉ N'EST PAS RIEN : les shiitake séchés et leur eau de trempage apportent du guanylate, le chou nappa longuement mijoté devient sucré, l'ail se fond. AUCUNE SAUCE SOYA NE DOIT ENTRER ICI — c'est le réflexe qui annule tout le bénéfice, et beaucoup de recettes en mettent par habitude."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "5ka7NkZXB3o",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R98"
+  ],
+  "commentaire_source": ""
+}

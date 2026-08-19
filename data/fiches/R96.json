@@ -1,0 +1,138 @@
+{
+  "id": "R96",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "coreenne",
+  "vitesse": "moyen",
+  "type_de_plat": "soupe",
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "glissant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-d-algues-wakame-miyeokguk",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "미역국",
+  "lecture_origine": "miyeokguk",
+  "langue_origine": "ko",
+  "fr": "Soupe d'algues wakame (miyeokguk)",
+  "sous_titre": "L'algue est sautée à l'ail avant d'être mijotée, et c'est ce qui distingue cette soupe d'un bouillon d'algues. Elle apporte déjà sa salinité marine : le soya se coupe de moitié.",
+  "portions": "4",
+  "temps_affiche": "≈ 45 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 35,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 18,
+    "proteines_affiche": "18 g",
+    "calories": 160,
+    "calories_affiche": "≈ 160",
+    "lipides_g": 7,
+    "sodium_mg": 420,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "30 g de wakame séché, réhydraté 20 minutes dans l'eau froide, égoutté et coupé",
+      "sante": true,
+      "sante_pos": 14
+    },
+    {
+      "texte": "200 g de bœuf maigre en petits morceaux, OU 300 g de moules décoquillées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 gousses d'ail émincées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce soya réduite en sodium — UNE, pas deux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1,5 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Poivre noir",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Réhydrater le wakame 20 minutes à l'eau froide. IL GONFLE DE SIX À HUIT FOIS — 30 g secs donnent beaucoup. Rincer, presser, couper en morceaux de 4 cm."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole à feu moyen avec l'huile de sésame. Le bœuf et l'ail, 3 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "LE WAKAME ÉGOUTTÉ, SAUTÉ 3 À 4 MINUTES AVEC LA VIANDE. C’est l’étape qui fait le plat : l’algue passe du vert vif au vert sombre et son parfum change complètement."
+    },
+    {
+      "n": 4,
+      "texte": "La cuillère de soya, 30 secondes."
+    },
+    {
+      "n": 5,
+      "texte": "L'eau, porter à frémissement, à couvert, 25 à 30 minutes."
+    },
+    {
+      "n": 6,
+      "texte": "Goûter. Poivre. NE PAS RESALER AVANT D'AVOIR GOÛTÉ DEUX FOIS — l'algue continue de libérer du sel en mijotant."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Sauter l'algue, et le sel qu'elle apporte déjà",
+      "texte": "LA PLUPART DES RECETTES DE SOUPE D'ALGUES SE CONTENTENT DE METTRE LE WAKAME DANS L'EAU. LE SAUTER D'ABORD À L'AIL ET À L'HUILE DE SÉSAME EST CE QUI FAIT LA DIFFÉRENCE ENTRE UNE EAU PARFUMÉE ET UNE SOUPE. La chaleur sèche transforme les composés de l'algue : le goût passe du marin-végétal au marin-rond, et le bouillon prend du corps.\n\n⚠️ ET LE WAKAME EST DÉJÀ SALÉ, CE QUE PRESQUE TOUTES LES RECETTES OUBLIENT. Une algue séchée en mer porte son sel; réhydratée et mijotée trente minutes, elle le rend dans le bouillon. C'EST POURQUOI LE SOYA DESCEND DE DEUX CUILLÈRES À SOUPE À UNE — ce n'est pas un ajustement de régime, c'est une correction d'une recette qui double une source de sel sans le voir.\n\nGOÛTER DEUX FOIS, À DIX MINUTES D'INTERVALLE, avant de penser à saler. Une soupe correctement salée à quinze minutes est trop salée à trente.\n\n⚠️ L'IODE EST À COMPTER, ET LE DOSSIER A DÉJÀ UNE RÈGLE LÀ-DESSUS. Le wakame en porte beaucoup moins que le kombu, mais trente grammes secs pour quatre portions n'est pas négligeable. CETTE SOUPE ET UN DASHI AU KOMBU NE SE FONT PAS LE MÊME JOUR, et pas plus d'une fois par semaine chacun. C'est la même règle que celle du kombu de T2, appliquée à l'autre algue.\n\nEN CORÉE, C'EST LA SOUPE D'ANNIVERSAIRE ET CELLE DES JEUNES MÈRES. Ça n'a aucune conséquence en cuisine, mais ça explique pourquoi toutes les recettes en ligne la présentent comme un plat de célébration alors que c'est un guk de semaine parfaitement ordinaire."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "3iqxRPQvMn8",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "T2"
+  ],
+  "commentaire_source": ""
+}

@@ -1,0 +1,125 @@
+{
+  "id": "R84",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "blanchi"
+  ],
+  "axe_gout": [
+    "sesame-noisette",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "mou"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "namul-d-epinards-sigeumchi-namul",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "시금치나물",
+  "lecture_origine": "sigeumchi namul",
+  "langue_origine": "ko",
+  "fr": "Namul d'épinards (sigeumchi namul)",
+  "sous_titre": "Le namul le plus rapide de tous : soixante secondes d’eau bouillante et quatre-vingts milligrammes de sodium pour quatre portions.",
+  "portions": "4",
+  "temps_affiche": "≈ 10 min",
+  "temps_minutes": {
+    "preparation": 4,
+    "cuisson": 1,
+    "attente": 5
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 45,
+    "calories_affiche": "≈ 45",
+    "lipides_g": 3,
+    "sodium_mg": 80,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 80 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 20 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "1 grosse botte d'épinards, environ 400 g",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Beaucoup d'eau bouillante, 1/2 c. à thé de sel pour l'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "L'ASSAISONNEMENT : 1 gousse d'ail râpée fin · 1 c. à thé d'huile de sésame grillé · 1 c. à soupe de graines de sésame grillées · 1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 oignon vert émincé",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T20",
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Laver les épinards à grande eau, deux ou trois fois. Le sable se cache dans le collet."
+    },
+    {
+      "n": 2,
+      "texte": "Eau bouillante salée. Les épinards entiers, tiges en premier, 45 à 60 secondes. PAS PLUS : au-delà, ils deviennent gris et filandreux."
+    },
+    {
+      "n": 3,
+      "texte": "Eau glacée immédiatement, 30 secondes. C'est ce qui fixe le vert."
+    },
+    {
+      "n": 4,
+      "texte": "PRESSER FERMEMENT À LA MAIN, en botte serrée, droit, sans tordre. Deux ou trois passes."
+    },
+    {
+      "n": 5,
+      "texte": "Couper le boudin en tronçons de 4 cm."
+    },
+    {
+      "n": 6,
+      "texte": "Assaisonner À LA MAIN, en massant. Goûter, ajuster."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La texture est molle, et c'est assumé",
+      "texte": "CETTE FICHE EST À DOMINANTE MOLLE, ET C'EST LE PROPRE DU PLAT. Un épinard blanchi s'affaisse — c'est ce qui permet à quatre cents grammes de légume de tenir dans un petit bol, et c'est aussi ce que certains n'aiment pas. LE RECUEIL A UN CONSTAT LÀ-DESSUS, ET IL EST ÉTROIT : SIX FICHES SEULEMENT ONT LE MOU COMME TEXTURE DOMINANTE, celle-ci comprise — le blanchiment des verdures de T6, l'okayu de R6, l'ohitashi de R43, le goma-ae de R44 et l'umeboshi de R53. Ce n'est pas une famille à éviter, c'est une famille à ne pas servir seule.\n\nLE MONTAGE RÈGLE ÇA, ET C'EST TOUT LE PRINCIPE DU BAPSANG : trois à cinq banchan sur la table, et ils ne se ressemblent pas. Ce namul mou à côté du daikon croquant de R83 et du tofu ferme de R89, c'est un ensemble; les trois mous ensemble, c'est un repas sans relief. QUAND ON PRÉPARE QUATRE BANCHAN LE DIMANCHE, VÉRIFIER QU'AU MOINS DEUX RÉSISTENT SOUS LA DENT.\n\nET LE SODIUM EST À METTRE EN PERSPECTIVE : QUATRE-VINGTS MILLIGRAMMES POUR QUATRE PORTIONS, soit 20 mg par bol. C'est le poste le moins coûteux de toute la table coréenne, et il permet de dépenser ailleurs."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "7JQPv0xzujg",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R83",
+    "R89"
+  ],
+  "commentaire_source": ""
+}

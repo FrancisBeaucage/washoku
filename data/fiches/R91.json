@@ -1,0 +1,122 @@
+{
+  "id": "R91",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "condiment",
+  "methode": [
+    "torrefie"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "croustillant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "nori-grille-a-la-maison-gim-gui",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "김",
+  "lecture_origine": "gim gui",
+  "langue_origine": "ko",
+  "fr": "Nori grillé à la maison (gim gui)",
+  "sous_titre": "Vingt feuilles, une cuillère à soupe d'huile de sésame, une pincée de sel. Le faire soi-même plutôt que d'acheter les paquets préassaisonnés change tout, et c'est mesurable.",
+  "portions": "10",
+  "temps_affiche": "≈ 8 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 6,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 15,
+    "calories_affiche": "≈ 15",
+    "lipides_g": 1,
+    "sodium_mg": 25,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion de DEUX FEUILLES : vingt feuilles donnent dix portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "20 feuilles de nori NON assaisonné, format sushi",
+      "sante": true,
+      "sante_pos": 19
+    },
+    {
+      "texte": "1,5 c. à soupe d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à soupe de graines de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger l'huile de sésame et le sel dans un petit bol."
+    },
+    {
+      "n": 2,
+      "texte": "Étaler une feuille sur une planche. Badigeonner TRÈS LÉGÈREMENT d'huile salée au pinceau, sur UNE seule face."
+    },
+    {
+      "n": 3,
+      "texte": "Empiler les feuilles badigeonnées deux par deux, face huilée contre face huilée."
+    },
+    {
+      "n": 4,
+      "texte": "Poêle sèche à feu MOYEN-DOUX, sans huile. Une paire de feuilles, 20 à 30 secondes par face."
+    },
+    {
+      "n": 5,
+      "texte": "LA FEUILLE PASSE DU NOIR AU VERT ET DEVIENT CASSANTE. Elle se ratatine un peu et sent le grillé. C'est fait."
+    },
+    {
+      "n": 6,
+      "texte": "Empiler sur une assiette et laisser refroidir avant de découper en rectangles aux ciseaux."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce que ça change par rapport au paquet du commerce",
+      "texte": "LE NORI PRÉASSAISONNÉ DU COMMERCE — l'ajitsuke-nori japonais de R50, le gim assaisonné coréen — EST SALÉ À LA SOURCE, ET ON NE CONTRÔLE RIEN. Les paquets portent couramment 130 à 200 mg de sodium pour un petit sachet de huit feuilles, parfois avec du glutamate et du sucre. Fait à la maison avec un quart de cuillère à thé de sel pour vingt feuilles, LA MÊME QUANTITÉ EN PORTE DE L'ORDRE DE 25 MG.\n\nET LE GESTE QUI COMPTE EST LE DOSAGE DE L'HUILE, PAS LE GRILLAGE. Un nori trop huilé devient mou et gras au lieu de croustillant, et il double ses lipides pour rien. UNE FEUILLE CORRECTEMENT HUILÉE PARAÎT PRESQUE SÈCHE : l'huile ne fait que porter le sel et parfumer. Le pinceau est meilleur que les doigts, et une seule face suffit puisqu'on empile face contre face.\n\nLA FEUILLE DOIT VIRER AU VERT, C'EST LE SEUL REPÈRE. Le nori cru est noir-violet; grillé, il devient vert franc et cassant. Retiré trop tôt il reste souple et goûte l'algue humide; laissé trop longtemps il brunit et devient amer, et il n'y a pas de rattrapage. VINGT À TRENTE SECONDES PAR FACE, À FEU MOYEN-DOUX.\n\nSE GARDE DES SEMAINES DANS UN CONTENANT HERMÉTIQUE AVEC UN SACHET DÉSHYDRATANT SI ON EN A. L'ennemi est l'humidité, pas le temps : un nori qui ramollit se repasse dix secondes à la poêle sèche et redevient croustillant."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "EWK0AIPrVSc",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R50"
+  ],
+  "commentaire_source": ""
+}

@@ -1,0 +1,131 @@
+{
+  "id": "R87",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "doux",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "courgette-sautee-a-l-ail-hobak-bokkeum",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "호박볶음",
+  "lecture_origine": "hobak bokkeum",
+  "langue_origine": "ko",
+  "fr": "Courgette sautée à l'ail (hobak bokkeum)",
+  "sous_titre": "Dix minutes, quatre portions, et le banchan qui se garde le mieux des quatre. La règle est de ne pas trop cuire : une courgette molle rend son eau au fond du contenant.",
+  "portions": "4",
+  "temps_affiche": "≈ 10 min",
+  "temps_minutes": {
+    "preparation": 4,
+    "cuisson": 6,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 60,
+    "calories_affiche": "≈ 60",
+    "lipides_g": 4,
+    "sodium_mg": 150,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 38 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 courgettes moyennes, environ 500 g, en demi-lunes de 5 mm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 gousses d'ail émincées, 1/4 d'oignon en lamelles fines",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de graines de sésame grillées, 1 oignon vert",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de crevettes séchées, ou 1/2 c. à thé de gochugaru",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T20",
+    "T13"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Couper les courgettes en demi-lunes de 5 mm. Plus mince, elles s'affaissent."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle large à feu moyen-vif avec l'huile, l'oignon et l'ail, 1 minute."
+    },
+    {
+      "n": 3,
+      "texte": "Les courgettes, remuées peu, 4 à 5 minutes. ELLES DOIVENT ÊTRE TRANSLUCIDES SUR LES BORDS ET ENCORE FERMES AU CENTRE."
+    },
+    {
+      "n": 4,
+      "texte": "Le sel à la fin, hors du feu — salées tôt, elles rendent leur eau dans la poêle et bouillent."
+    },
+    {
+      "n": 5,
+      "texte": "Sésame et oignon vert."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le seul banchan de ce lot qui ne se blanchit pas, et pourquoi",
+      "texte": "LES TROIS AUTRES NAMUL DE CE DOCUMENT PASSENT PAR L'EAU OU LA VAPEUR. Celui-ci se fait à la poêle, et ce n'est pas une inconséquence : le mot 볶음 BOKKEUM veut dire sauté, alors que 나물 NAMUL désigne le patron blanchir-essorer-assaisonner. C'est une autre famille de banchan, et le recueil doit porter les deux.\n\nPOURQUOI LA COURGETTE NE SE BLANCHIT PAS. Elle contient déjà beaucoup d'eau et peu de fibre : blanchie, elle passe directement de crue à molle, sans étape utile entre les deux. Sautée, elle perd un peu d'eau par évaporation et ses surfaces se marquent — c'est ce qui lui donne du goût.\n\nLA TECHNIQUE T13, LE SAUTÉ À L'EAU, S'APPLIQUE ICI SI LA POÊLE DÉCROCHE : deux cuillères à soupe d'eau et un couvercle, trente secondes. À utiliser seulement si les courgettes sont épaisses; sur du 5 mm, ce n'est pas nécessaire et ça les noierait.\n\n⚠️ SE GARDE 4 JOURS, LE MEILLEUR DES QUATRE — mais SEULEMENT si elles sont sorties de la poêle encore fermes. Une courgette cuite juste à point continue de s'attendrir au frigo; une courgette molle au départ rend un centimètre d'eau au fond du contenant en une nuit."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "n76W4c49UdA",
+    "auteur": "Korean Bapsang",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R85"
+  ],
+  "commentaire_source": ""
+}

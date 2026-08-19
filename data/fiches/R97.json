@@ -1,0 +1,155 @@
+{
+  "id": "R97",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote",
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "piquant",
+    "acide"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "soyeux",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "ragout-de-kimchi-kimchi-jjigae",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "김치찌개",
+  "lecture_origine": "kimchi jjigae",
+  "langue_origine": "ko",
+  "fr": "Ragoût de kimchi (kimchi jjigae)",
+  "sous_titre": "Le plat coréen le plus mangé à la maison, et il entre au recueil avec son ajustement écrit dans la fiche. La règle tient en une phrase : le kimchi suffit, aucun sel ni soya ne s'ajoute.",
+  "portions": "3",
+  "temps_affiche": "≈ 30 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 22,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 28,
+    "proteines_affiche": "28 g",
+    "calories": 320,
+    "calories_affiche": "≈ 320",
+    "lipides_g": 14,
+    "sodium_mg": 850,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "350 g de kimchi de chou BIEN VIEILLI, avec 3 c. à soupe de son jus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de porc maigre en lanières — longe ou épaule parée, PAS de poitrine",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de tofu ferme en tranches épaisses",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "700 ml d'eau — voir la note sur le volume",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de gochugaru, 3 gousses d'ail, 1/2 oignon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "⚠️ AUCUNE sauce soya, AUCUN sel, AUCUN doenjang, AUCUN gochujang",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé de sucre si le kimchi est très acide",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Casserole à feu moyen-vif avec l'huile. Le porc et l'ail, 3 minutes, jusqu'à ce qu'il ne soit plus rose."
+    },
+    {
+      "n": 2,
+      "texte": "LE KIMCHI ÉGOUTTÉ ET COUPÉ EN MORCEAUX DE 4 CM, SAUTÉ 5 MINUTES AVEC LA VIANDE. C'est l'étape que les recettes rapides sautent, et c'est celle qui fait le plat : le kimchi perd son mordant cru et devient rond."
+    },
+    {
+      "n": 3,
+      "texte": "Le gochugaru, 30 secondes."
+    },
+    {
+      "n": 4,
+      "texte": "L'eau et les 3 c. à soupe de jus de kimchi. Frémissement, à couvert, 12 à 15 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "Le tofu et l'oignon, 5 minutes de plus, sans brasser — secouer la casserole plutôt que remuer."
+    },
+    {
+      "n": 6,
+      "texte": "GOÛTER. Ne rien ajouter avant. Oignons verts hors du feu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "🔴 Le kimchi suffit, et c’est tout l’ajustement",
+      "texte": "BEAUCOUP DE RECETTES DE KIMCHI JJIGAE AJOUTENT DE LA SAUCE SOYA, DU DOENJANG OU DU SEL — PAR RÉFLEXE, PAS PAR NÉCESSITÉ. LE KIMCHI EST UN LÉGUME LACTO-FERMENTÉ EN SAUMURE : IL PORTE DÉJÀ TOUT LE SEL DU PLAT, ET SON JUS EN PORTE ENCORE PLUS. Trois cent cinquante grammes de kimchi de chou apportent de l'ordre de 1 500 à 2 000 mg de sodium à eux seuls.\n\nL'AJUSTEMENT EST DONC UN RETRAIT, PAS UNE RÉDUCTION : RIEN NE S'AJOUTE. Et le deuxième levier est le volume — sept cents millilitres d'eau pour trois portions au lieu des quatre cents habituels, ce qui dilue sans rien enlever au goût, parce que ce qui porte ce plat est l'acidité et la fermentation, pas la concentration.\n\nLE TROISIÈME LEVIER EST DE PRENDRE LE VOLUME EN TOFU. Quatre cents grammes de tofu ferme apportent du corps, de la protéine et zéro sodium. UN JJIGAE OÙ LE TOFU FAIT LA MOITIÉ DU BOL EST UN AUTRE PLAT SUR LE PLAN DU SODIUM, ET LE MÊME SUR LE PLAN DU GOÛT.\n\n⚠️ À 850 MG PAR PORTION, CE PLAT RESTE LE POSTE SODIQUE DE SA JOURNÉE, ET IL FAUT LE PLANIFIER COMME TEL : déjeuner et dîner sous 400 mg chacun, collation au yogourt. C'EST UN PLAT DE FIN DE SEMAINE. La version de semaine du même goût est R95."
+    },
+    {
+      "titre": "Le kimchi vieilli n'est pas un kimchi abîmé",
+      "texte": "CE PLAT DEMANDE DU KIMCHI VIEILLI — 묵은지, celui qui a fermenté des semaines et qui est devenu franchement acide, mou et gazeux. Le kimchi frais et croquant, celui qu'on mange en banchan, donne un ragoût plat : il n'a pas encore développé les acides qui font le bouillon.\n\nC'EST DONC LE MEILLEUR DÉBOUCHÉ POUR UN POT DE KIMCHI QU'ON TROUVE TROP ACIDE POUR ÊTRE MANGÉ TEL QUEL — ce qui arrive à tous les pots après un mois au frigo. Un kimchi qui n'est plus agréable en banchan est exactement au bon stade pour ici.\n\nET LA COUPE DE PORC EST L'AUTRE CHANGEMENT PAR RAPPORT À LA TRADITION. La version classique se fait à la poitrine, dont le gras fond dans le bouillon — c'est structurel et ça vaut 15 à 20 g de lipides de plus par portion. LA LONGE OU L'ÉPAULE PARÉE DONNE UN BOUILLON MOINS RICHE ET UN PLAT QUI TIENT DANS LE PLAFOND DE LIPIDES. C'est un vrai retrait, pas une équivalence : le bouillon est moins onctueux. La cuillère à thé d'huile de sésame au service le rattrape en partie."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "rJgb92JWMCE",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R95",
+    "R98"
+  ],
+  "commentaire_source": ""
+}

@@ -1,0 +1,133 @@
+{
+  "id": "R88",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "soyeux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "flan-d-oeufs-vapeur-gyeranjjim",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "계란찜",
+  "lecture_origine": "gyeranjjim",
+  "langue_origine": "ko",
+  "fr": "Flan d'œufs vapeur (gyeranjjim)",
+  "sous_titre": "Le banchan protéiné le plus rapide du recueil. Trois œufs, un peu d’eau, et un couvercle : treize grammes de protéines dans un petit bol.",
+  "portions": "2",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 9,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 13,
+    "proteines_affiche": "13 g",
+    "calories": 130,
+    "calories_affiche": "≈ 130",
+    "lipides_g": 9,
+    "sodium_mg": 320,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 320 mg — VAUT POUR LES DEUX PORTIONS, soit environ 160 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "3 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "180 ml d'eau, ou de bouillon d'anchois si on en a",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 oignon vert émincé finement, 1 c. à thé de graines de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de crevettes séchées finement hachées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "⚠️ PAS de saeujeot (crevettes fermentées) — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Battre les œufs SANS FAIRE DE MOUSSE. Ajouter l'eau et le sel."
+    },
+    {
+      "n": 2,
+      "texte": "FILTRER À TRAVERS UNE PASSOIRE FINE. C’est ce qui donne la texture soyeuse, et c’est la même étape que R7."
+    },
+    {
+      "n": 3,
+      "texte": "Verser dans un bol de céramique ou deux petits bols. Couvrir de papier d'aluminium ou d'une assiette."
+    },
+    {
+      "n": 4,
+      "texte": "Panier vapeur ou casserole avec 2 cm d'eau, à FEU DOUX. 8 à 10 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "LE FLAN EST PRÊT QUAND LE CENTRE TREMBLE ENCORE LÉGÈREMENT. Une pointe de couteau au centre sort propre."
+    },
+    {
+      "n": 6,
+      "texte": "Oignon vert et sésame par-dessus, hors du feu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le saeujeot est remplacé par du sel, et la source le recommande elle-même",
+      "texte": "LA VERSION TRADITIONNELLE ASSAISONNE CE FLAN AU 새우젓 SAEUJEOT — des crevettes fermentées en saumure, décrites par les sources coréennes comme « très salées ». C'est un condiment de fermentation, donc son sel n'est pas ajusté : il EST le produit. UNE CUILLÈRE À THÉ PORTE DE L'ORDRE DE 400 À 500 MG DE SODIUM À ELLE SEULE.\n\nLE REMPLACEMENT PAR UN QUART DE CUILLÈRE À THÉ DE SEL EST CELUI QUE LES SOURCES CORÉENNES PROPOSENT ELLES-MÊMES comme variante domestique. Ce n'est donc pas une trahison du plat : c'est sa version de semaine. LE FLAN PERD UNE NOTE MARINE ET FERMENTÉE, ET C'EST TOUT. Une cuillère à thé de crevettes séchées hachées la rend en partie, pour environ 80 mg.\n\n⚠️ ET LE FEU DOIT ÊTRE DOUX, C'EST LA SEULE VRAIE RÈGLE. À gros bouillons, les protéines de l'œuf se contractent violemment, expulsent leur eau, et le flan devient granuleux avec une flaque au fond — irrécupérable. LA TEXTURE DE CE PLAT EST TOUT LE PLAT : c'est une crème salée, pas des œufs brouillés.\n\nLA TEXTURE DOMINANTE EST SOYEUSE, DONC IL LUI FAUT UN CROQUANT À CÔTÉ. Le daikon de R83, un chou cru, ou simplement plus d’oignon vert."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "-IicuyDgRyw",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R7",
+    "R83"
+  ],
+  "commentaire_source": ""
+}

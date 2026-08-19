@@ -1,0 +1,119 @@
+{
+  "id": "R86",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "sesame-noisette",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "namul-d-aubergine-vapeur-gaji-namul",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "가지나물",
+  "lecture_origine": "gaji namul",
+  "langue_origine": "ko",
+  "fr": "Namul d'aubergine vapeur (gaji namul)",
+  "sous_titre": "Une aubergine fondante sans une goutte d'huile. C'est le seul plat d'aubergine du recueil, et c'est la seule façon d'en faire un qui n'en boive pas.",
+  "portions": "4",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 4,
+    "cuisson": 5,
+    "attente": 3
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 55,
+    "calories_affiche": "≈ 55",
+    "lipides_g": 3,
+    "sodium_mg": 220,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 220 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 55 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 aubergines chinoises longues, environ 400 g, ou 1 aubergine ordinaire",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "L'ASSAISONNEMENT : 1 c. à soupe de sauce soya réduite en sodium · 1 gousse d'ail râpée · 1 c. à thé d'huile de sésame grillé · 1 c. à soupe de graines de sésame grillées · 1 oignon vert émincé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé de gochugaru",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T20"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Couper les aubergines en tronçons de 6 cm, puis en quartiers dans la longueur."
+    },
+    {
+      "n": 2,
+      "texte": "Panier vapeur, eau bouillante, 5 à 7 minutes. LA CHAIR DOIT ÊTRE TRANSLUCIDE ET CÉDER SOUS UNE BAGUETTE."
+    },
+    {
+      "n": 3,
+      "texte": "Sortir et laisser tiédir 3 minutes sur une assiette, PAS DANS LE PANIER — la vapeur résiduelle continue de cuire et détrempe."
+    },
+    {
+      "n": 4,
+      "texte": "DÉCHIRER LES QUARTIERS EN LANIÈRES À LA MAIN, dans le sens des fibres. Ne pas couper au couteau."
+    },
+    {
+      "n": 5,
+      "texte": "Presser légèrement pour retirer l'eau, sans écraser."
+    },
+    {
+      "n": 6,
+      "texte": "Assaisonner à la main. Servir tiède ou froid."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi l'aubergine se fait à la vapeur et pas à la poêle",
+      "texte": "UNE AUBERGINE EST UNE ÉPONGE, ET C'EST UN FAIT DE STRUCTURE, PAS UNE MANIÈRE DE CUISINER. Sa chair est faite de cellules pleines d'air; mise dans une poêle huilée, elle absorbe l'huile jusqu'à ce que ses parois s'effondrent — de quinze à trente grammes pour deux portions, et c'est ce qui rend le 地三鲜 et le 鱼香茄子 incompatibles avec ce dossier.\n\nÀ LA VAPEUR, LES MÊMES CELLULES S'EFFONDRENT SOUS L'EAU AU LIEU DE L'HUILE. On obtient exactement la texture fondante qu'on cherchait, avec trois grammes de lipides au total — ceux du sésame. C'EST LE MÊME RAISONNEMENT QUE LE REFUS DU 过油 À LA FICHE T14, appliqué au légume qui en souffre le plus.\n\nLE GESTE QUI FAIT LA DIFFÉRENCE EST LE DÉCHIREMENT À LA MAIN. Une aubergine coupée au couteau garde des faces lisses et l'assaisonnement glisse dessus. Déchirée, elle offre des surfaces irrégulières et fibreuses qui accrochent la sauce — c'est le même principe que le concombre tataki de R47, et pour la même raison."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "Jt4BRAUzcYc",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R47"
+  ],
+  "commentaire_source": ""
+}

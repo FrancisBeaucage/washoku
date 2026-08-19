@@ -1,0 +1,137 @@
+{
+  "id": "R92",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "condiment",
+  "methode": [
+    "torrefie",
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "anchois-seches-caramelises-myeolchi-bokkeum",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "멸치볶음",
+  "lecture_origine": "myeolchi bokkeum",
+  "langue_origine": "ko",
+  "fr": "Anchois séchés caramélisés (myeolchi bokkeum)",
+  "sous_titre": "Le pire rapport sodium-poids de tout le recueil, et il est ici quand même. La raison est simple : c'est un condiment de dix grammes, pas un plat — et écrit comme tel, il tient.",
+  "portions": "12 (portions de 10 à 15 g — voir la note)",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 9,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 4,
+    "proteines_affiche": "4 g",
+    "calories": 45,
+    "calories_affiche": "≈ 45",
+    "lipides_g": 2,
+    "sodium_mg": 200,
+    "variable": false,
+    "source": "estime",
+    "note": "Par PORTION DE 12 G, soit une cuillère à soupe : cent cinquante grammes en donnent douze, pas quatre. Servi en bol de banchan comme les autres plats de ce document, ce plat devient un poste sodique de 600 mg — c'est le sens de la note. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "150 g de petits anchois séchés — DEMANDER LES PETITS, marqués 볶음용, pour le sauté",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "60 g d'arachides non salées, ou d'amandes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE : 1 c. à soupe de mirin ou de saké · 1 c. à thé de sucre · 1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "⚠️ AUCUNE sauce soya — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de graines de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "GRILLER LES ANCHOIS À SEC, poêle sans huile, feu moyen, 2 minutes en secouant. Ça retire l'humidité et l'odeur de poisson séché. LES VERSER SUR UNE ASSIETTE ET LES SECOUER DANS UNE PASSOIRE : la poudre au fond est amère."
+    },
+    {
+      "n": 2,
+      "texte": "Même poêle, les 2 c. à thé d'huile, les arachides, 1 minute."
+    },
+    {
+      "n": 3,
+      "texte": "Les anchois de retour, 1 minute."
+    },
+    {
+      "n": 4,
+      "texte": "Le mirin et le sucre, remués 1 minute — le liquide s'évapore presque tout de suite et laque les anchois."
+    },
+    {
+      "n": 5,
+      "texte": "Hors du feu, l'huile de sésame et le sésame."
+    },
+    {
+      "n": 6,
+      "texte": "LAISSER REFROIDIR COMPLÈTEMENT AVANT DE RANGER. Tiède, la vapeur les ramollit."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "🔴 Le sodium est dans le poisson, et c’est pourquoi le soya sort de la recette",
+      "texte": "UN ANCHOIS SÉCHÉ EST SALÉ DEUX FOIS : il est séché en saumure, donc son sel est DANS le produit, et la recette classique ajoute par-dessus de la sauce soya. LES DEUX COUCHES ENSEMBLE DONNENT LE PIRE RAPPORT SODIUM-GRAMME DE TOUTE L'ANALYSE DU RÉPERTOIRE.\n\nDEUX AJUSTEMENTS, ET LE PREMIER EST STRICT. UN — LE SOYA EST SUPPRIMÉ, pas réduit. Le poisson apporte déjà tout le salé; le soya n'ajoutait que du sodium et une couleur. Ce qu'il faisait pour le goût, le mirin et le sucre le font en laquant. DEUX — LE GRILLAGE À SEC DE DEUX MINUTES au début, qui n'est pas dans toutes les recettes : il retire l'humidité et l'amertume, et il permet de se passer d'assaisonnement.\n\n🔴 ET LA PORTION EST LA VRAIE DÉFENSE : DIX À QUINZE GRAMMES, UNE CUILLÈRE À SOUPE. À ce format, la portion porte de l'ordre de 200 mg de sodium et 4 g de protéines — c'est un condiment cher mais tenable, dans la même famille que le furikake. CENT CINQUANTE GRAMMES DONNENT DOUZE PORTIONS, PAS QUATRE. Servi en petit bol de banchan comme les autres, ce plat devient un poste sodique de 600 mg, et il ne le vaut pas.\n\n⚠️ SI LE BUDGET DE SODIUM DE LA JOURNÉE EST DÉJÀ MANGÉ, CE N'EST PAS LE PLAT À SORTIR. Il y a onze autres banchan coréens au recueil, et la plupart coûtent cinq à dix fois moins — le nori de R91 en porte 25 mg par portion, les épinards de R84 en portent 20."
+    },
+    {
+      "titre": "Le calcium, et pourquoi ce plat reste au recueil",
+      "texte": "UN ANCHOIS SÉCHÉ SE MANGE ENTIER, ARÊTES COMPRISES, ET C'EST UNE DES SOURCES DE CALCIUM LES PLUS DENSES QUI EXISTENT — de l'ordre de 1 000 à 1 500 mg aux 100 g de produit sec, donc 120 à 180 mg dans une portion de douze grammes. C'est la raison pour laquelle il vaut la peine d'être écrit malgré son sodium.\n\nDANS UN DOSSIER OÙ LE CALCIUM VIENT SURTOUT D'UNE BOISSON PROTÉINÉE ET D'UN YOGOURT, UNE SOURCE ALIMENTAIRE ENTIÈRE A UNE VALEUR PROPRE. Ce n'est pas un argument pour en manger plus : c'est un argument pour ne pas écarter le plat.\n\n⚠️ ACHETER LES PETITS, ET C'EST UNE VRAIE DIFFÉRENCE DE PRODUIT. Les gros anchois séchés, 국물용, servent à faire du bouillon et restent coriaces à la poêle. Les petits, 볶음용, sont tendres et se mangent tels quels. Chez Kim Phat, allée 32, avec les produits secs; le format le plus courant est le sac de 150 à 200 g, à garder AU CONGÉLATEUR, où ils tiennent un an sans rancir."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "y1mj-q21AP8",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R91"
+  ],
+  "commentaire_source": ""
+}

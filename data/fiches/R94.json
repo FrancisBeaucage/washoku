@@ -1,0 +1,140 @@
+{
+  "id": "R94",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "long",
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote",
+    "poche"
+  ],
+  "axe_gout": [
+    "doux",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "bouillon-de-poulet-clair-dakgomtang",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "닭곰탕",
+  "lecture_origine": "dakgomtang",
+  "langue_origine": "ko",
+  "fr": "Bouillon de poulet clair (dakgomtang)",
+  "sous_titre": "Le meilleur cas de figure de tout le recueil pour le sodium : le plat arrive à table non salé, et chacun assaisonne son bol. Trente-quatre grammes de protéines pour cent quatre-vingts milligrammes.",
+  "portions": "4",
+  "temps_affiche": "≈ 15 min actives, 1 h de feu",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 60,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 260,
+    "calories_affiche": "≈ 260",
+    "lipides_g": 9,
+    "sodium_mg": 180,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, et le sodium vaut AVANT LE SEL DU BOL : ce plat arrive à table non assaisonné, et c'est tout son intérêt. Ce que chacun ajoute au bol s'ajoute à ce chiffre. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "1 kg de cuisses ou de hauts de cuisse de poulet, avec l'os, sans la peau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2,5 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 oignon coupé en deux, 6 gousses d'ail, 1 morceau de gingembre de 4 cm, 3 oignons verts entiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 daikon de 300 g en gros morceaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À TABLE, et seulement là : sel, poivre noir, oignon vert émincé, gochugaru",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 portion de riz par personne",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 : le poulet dans l'eau FROIDE à couvrir, monter à ébullition, 5 minutes, jeter l'eau, rincer les morceaux ET la casserole."
+    },
+    {
+      "n": 2,
+      "texte": "Remettre le poulet avec les 2,5 L d’eau froide et tous les aromates entiers."
+    },
+    {
+      "n": 3,
+      "texte": "Frémissement doux, à couvert, 45 à 60 minutes. JAMAIS À GROS BOUILLONS — un bouillon qui bout devient trouble et gras."
+    },
+    {
+      "n": 4,
+      "texte": "Écumer les premières minutes. Retirer le gras en surface à la cuillère si nécessaire."
+    },
+    {
+      "n": 5,
+      "texte": "Sortir le poulet, laisser tiédir 10 minutes, EFFILOCHER À LA MAIN en gros filaments. Jeter les os."
+    },
+    {
+      "n": 6,
+      "texte": "Filtrer le bouillon, jeter les aromates. Remettre le poulet effiloché dedans."
+    },
+    {
+      "n": 7,
+      "texte": "NE SALER NI LE BOUILLON NI LA VIANDE. Servir avec du riz, et le sel, le poivre et l’oignon vert sur la table."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Assaisonner dans le bol — pourquoi c'est structurellement meilleur que d'assaisonner la casserole",
+      "texte": "C'EST LA SEULE FICHE DU RECUEIL OÙ LE SEL N'ENTRE JAMAIS DANS LA CUISSON, ET C'EST LA TRADITION DU PLAT, PAS UN AJUSTEMENT DE MA PART. Le dakgomtang se sert non assaisonné avec le sel et le poivre sur la table.\n\nCE QUE ÇA CHANGE, ET C'EST MESURABLE. Un bouillon salé dans la casserole est mangé en entier au sel qu'on y a mis — et on sale toujours pour le goût du liquide chaud, ce qui est plus que ce qu'il faut. Un bouillon salé au bol reçoit ce que la bouche demande, cuillère par cuillère, et LA QUANTITÉ S'ARRÊTE D'ELLE-MÊME QUAND C'EST BON. Le même bol passe couramment de 800 mg à 300.\n\nC'EST LE MÊME PRINCIPE QUE LE NUOC CHAM DE T21 ET QUE LE SHICHIMI À TABLE : le sel servi à côté, dans un contenant dont on contrôle la consommation. LE DOSSIER APPELLE ÇA LA LOGIQUE DU CONTENANT, ET ELLE VAUT POUR LE SEL AUTANT QUE POUR LA NOURRITURE.\n\nUNE HEURE DE FEU POUR QUINZE MINUTES DE TRAVAIL, ET LE TEMPS N'EST PAS DU TRAVAIL. Le blanchiment prend cinq minutes, l'assemblage deux, l'effilochage cinq. Entre les deux, la casserole travaille seule — c'est le même profil que T16 et que R77, et c'est ce qui rend ce plat faisable un soir de semaine si le feu part en après-midi.\n\n⚠️ ET LE BOUILLON FILTRÉ EST UN PRODUIT EN SOI. Il en reste plus qu'il n'en faut pour quatre bols : le surplus se congèle et devient le fond de R74, de R93 ou de n'importe quelle soupe claire. PEU SALÉ, DONC IL SE RÉASSAISONNE LIBREMENT — ce qui est rare pour un bouillon."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "0Atj-Npj2cs",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R93",
+    "R74"
+  ],
+  "commentaire_source": ""
+}

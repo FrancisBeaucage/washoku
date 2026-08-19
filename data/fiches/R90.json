@@ -1,0 +1,109 @@
+{
+  "id": "R90",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "moyen",
+  "type_de_plat": "condiment",
+  "methode": [
+    "vapeur",
+    "marine"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "glissant",
+    "mou"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "feuilles-de-perilla-marinees-kkaennip-jjim",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "깻잎찜",
+  "lecture_origine": "kkaennip jjim",
+  "langue_origine": "ko",
+  "fr": "Feuilles de périlla marinées (kkaennip jjim)",
+  "sous_titre": "Deux à trois semaines au frigo, quarante milligrammes de sodium par portion réelle. Ce n'est pas un légume, c'est un condiment à riz — et c'est la distinction qui décide de la portion.",
+  "portions": "10",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 4,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 20,
+    "calories_affiche": "≈ 20",
+    "lipides_g": 1,
+    "sodium_mg": 40,
+    "variable": false,
+    "source": "estime",
+    "note": "Par PORTION RÉELLE — deux ou trois feuilles, prises avec une bouchée de riz — et non par bol de banchan : c'est la distinction que la note explique, et elle décide de tout. Trente feuilles donnent de l'ordre de dix portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "30 feuilles de périlla (kkaennip), fraîches",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE : 2 c. à soupe de sauce soya réduite en sodium · 2 c. à soupe d'eau · 1 c. à thé de sucre · 3 gousses d'ail émincées · 1 oignon vert émincé · 1/2 oignon râpé · 1 c. à thé de gochugaru · 1 c. à thé d'huile de sésame · 1 c. à soupe de graines de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Laver les feuilles une par une et les éponger. Retirer les tiges à ras."
+    },
+    {
+      "n": 2,
+      "texte": "Mélanger tous les ingrédients de la sauce."
+    },
+    {
+      "n": 3,
+      "texte": "Empiler les feuilles dans un contenant peu profond, EN BADIGEONNANT UNE CUILLÈRE À THÉ DE SAUCE SUR UNE FEUILLE SUR DEUX. C'est là que le temps passe."
+    },
+    {
+      "n": 4,
+      "texte": "Couvrir, et étuver au panier vapeur 3 à 4 minutes — ou passer 40 secondes au micro-ondes à couvert."
+    },
+    {
+      "n": 5,
+      "texte": "Laisser refroidir. Se garde 2 à 3 semaines au frigo."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "C'est un condiment, pas un légume, et ça change la portion",
+      "texte": "TRENTE FEUILLES DONNENT DE L'ORDRE DE DIX PORTIONS, ET UNE PORTION FAIT DEUX OU TROIS FEUILLES. On en prend une avec une bouchée de riz, comme on prendrait un cornichon ou l'umeboshi de R53. LE CLASSER COMME LÉGUME EST L'ERREUR QUI FAIT MANGER LE TIERS DU CONTENANT : à ce rythme, tout le sodium de la sauce arrive dans une seule assiette.\n\nC'EST POURQUOI CETTE FICHE PORTE LE TYPE DE PLAT « CONDIMENT » ET NON « ACCOMPAGNEMENT ». Le champ n'est pas décoratif : il dit au plan de la semaine que ce plat ne compte pas dans le quart légume du souper. Le quart légume, c'est un namul ou une salade; ceci se pose à côté du riz.\n\nLE GOÛT DE LA PÉRILLA DIVISE, ET IL FAUT LE DIRE AVANT QU'ON EN ACHÈTE TRENTE FEUILLES. C'est une feuille de la famille de la menthe, avec une amertume anisée et une note de réglisse qui n'a aucun équivalent dans le recueil. Le shiso japonais est de la même espèce mais d'une variété différente, plus douce et plus citronnée. QUI N'AIME PAS LE SHISO N'AIMERA PAS LA PÉRILLA, et l'inverse n'est pas vrai.\n\n⚠️ APPROVISIONNEMENT : ce n'est PAS un produit fiable chez Kim Phat, et c'est saisonnier. Le Marché Korea de Notre-Dame-de-Grâce est l'adresse. À NE PAS METTRE SUR UNE LISTE D'ÉPICERIE SANS AVOIR CONFIRMÉ LA DISPONIBILITÉ — c'est le seul plat de ce document qui ne s'approvisionne pas sur le parcours habituel."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "-ycTDIUhsfM",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R53"
+  ],
+  "commentaire_source": ""
+}

@@ -13536,5 +13536,2030 @@
       "R46"
     ],
     "commentaire_source": ""
+  },
+  {
+    "id": "R84",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "blanchi"
+    ],
+    "axe_gout": [
+      "sesame-noisette",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "mou"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "namul-d-epinards-sigeumchi-namul",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "시금치나물",
+    "lecture_origine": "sigeumchi namul",
+    "langue_origine": "ko",
+    "fr": "Namul d'épinards (sigeumchi namul)",
+    "sous_titre": "Le namul le plus rapide de tous : soixante secondes d’eau bouillante et quatre-vingts milligrammes de sodium pour quatre portions.",
+    "portions": "4",
+    "temps_affiche": "≈ 10 min",
+    "temps_minutes": {
+      "preparation": 4,
+      "cuisson": 1,
+      "attente": 5
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 3,
+      "proteines_affiche": "3 g",
+      "calories": 45,
+      "calories_affiche": "≈ 45",
+      "lipides_g": 3,
+      "sodium_mg": 80,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 80 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 20 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "1 grosse botte d'épinards, environ 400 g",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Beaucoup d'eau bouillante, 1/2 c. à thé de sel pour l'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "L'ASSAISONNEMENT : 1 gousse d'ail râpée fin · 1 c. à thé d'huile de sésame grillé · 1 c. à soupe de graines de sésame grillées · 1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 oignon vert émincé",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T20",
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Laver les épinards à grande eau, deux ou trois fois. Le sable se cache dans le collet."
+      },
+      {
+        "n": 2,
+        "texte": "Eau bouillante salée. Les épinards entiers, tiges en premier, 45 à 60 secondes. PAS PLUS : au-delà, ils deviennent gris et filandreux."
+      },
+      {
+        "n": 3,
+        "texte": "Eau glacée immédiatement, 30 secondes. C'est ce qui fixe le vert."
+      },
+      {
+        "n": 4,
+        "texte": "PRESSER FERMEMENT À LA MAIN, en botte serrée, droit, sans tordre. Deux ou trois passes."
+      },
+      {
+        "n": 5,
+        "texte": "Couper le boudin en tronçons de 4 cm."
+      },
+      {
+        "n": 6,
+        "texte": "Assaisonner À LA MAIN, en massant. Goûter, ajuster."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La texture est molle, et c'est assumé",
+        "texte": "CETTE FICHE EST À DOMINANTE MOLLE, ET C'EST LE PROPRE DU PLAT. Un épinard blanchi s'affaisse — c'est ce qui permet à quatre cents grammes de légume de tenir dans un petit bol, et c'est aussi ce que certains n'aiment pas. LE RECUEIL A UN CONSTAT LÀ-DESSUS, ET IL EST ÉTROIT : SIX FICHES SEULEMENT ONT LE MOU COMME TEXTURE DOMINANTE, celle-ci comprise — le blanchiment des verdures de T6, l'okayu de R6, l'ohitashi de R43, le goma-ae de R44 et l'umeboshi de R53. Ce n'est pas une famille à éviter, c'est une famille à ne pas servir seule.\n\nLE MONTAGE RÈGLE ÇA, ET C'EST TOUT LE PRINCIPE DU BAPSANG : trois à cinq banchan sur la table, et ils ne se ressemblent pas. Ce namul mou à côté du daikon croquant de R83 et du tofu ferme de R89, c'est un ensemble; les trois mous ensemble, c'est un repas sans relief. QUAND ON PRÉPARE QUATRE BANCHAN LE DIMANCHE, VÉRIFIER QU'AU MOINS DEUX RÉSISTENT SOUS LA DENT.\n\nET LE SODIUM EST À METTRE EN PERSPECTIVE : QUATRE-VINGTS MILLIGRAMMES POUR QUATRE PORTIONS, soit 20 mg par bol. C'est le poste le moins coûteux de toute la table coréenne, et il permet de dépenser ailleurs."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "7JQPv0xzujg",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R83",
+      "R89"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R85",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "vapeur",
+      "saute"
+    ],
+    "axe_gout": [
+      "doux",
+      "sesame-noisette"
+    ],
+    "axe_texture": [
+      "fondant",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "namul-de-daikon-etuve-mu-namul",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "무나물",
+    "lecture_origine": "mu namul",
+    "langue_origine": "ko",
+    "fr": "Namul de daikon étuvé (mu namul)",
+    "sous_titre": "Le contrepoint doux de la table coréenne, et le deuxième débouché du recueil pour un daikon entamé. Aucun piment, aucune couleur : c’est ce qui permet de manger le reste.",
+    "portions": "4",
+    "temps_affiche": "≈ 18 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 8,
+      "attente": 2
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 50,
+      "calories_affiche": "≈ 50",
+      "lipides_g": 3,
+      "sodium_mg": 90,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 90 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 23 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "500 g de daikon, pelé, en allumettes de 5 mm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile de sésame grillé, ou d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 c. à soupe d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 gousse d'ail râpée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel, GOÛTÉ À LA FIN",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de graines de sésame grillées, 1 oignon vert émincé",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T20"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Tailler les allumettes. À la mandoline avec grille à julienne, ou au couteau selon la coupe en biais puis en pile."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle ou casserole à feu moyen avec l'huile et l'ail, 20 secondes."
+      },
+      {
+        "n": 3,
+        "texte": "Le daikon, remué 1 minute pour l’enrober."
+      },
+      {
+        "n": 4,
+        "texte": "LES 3 C. À SOUPE D’EAU ET LE COUVERCLE. Feu moyen-doux, 6 à 8 minutes."
+      },
+      {
+        "n": 5,
+        "texte": "LE DAIKON EST PRÊT QUAND IL EST TRANSLUCIDE ET QU'IL CÈDE, mais qu'il tient encore. Trop cuit, il tombe en purée."
+      },
+      {
+        "n": 6,
+        "texte": "Découvrir, évaporer le reste du liquide 30 secondes. Le sel, goûté. Sésame et oignon vert hors du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le même légume que R83, l'autre plat",
+        "texte": "LE RECUEIL A MAINTENANT DEUX BANCHAN DE DAIKON, ET ILS SONT OPPOSÉS EXPRÈS. Le 무생채 musaengchae (R83) est CRU, salé puis rincé, au gochugaru et au vinaigre : croquant, rouge, acide, piquant. Celui-ci est ÉTUVÉ, sans piment ni vinaigre : fondant, blanc, doux. MÊME RACINE, DEUX PLATS QUI NE SE REMPLACENT PAS.\n\nLE RÔLE DU DOUX DANS UNE TABLE CORÉENNE EST STRUCTUREL, PAS UN MANQUE D'AUDACE. Quand le plat principal est un jjigae au gochujang ou un porc au piment, c'est ce banchan-là qui permet de continuer à manger. Une table de cinq banchan tous épicés sature la bouche en trois bouchées.\n\nET C'EST LE MEILLEUR DÉBOUCHÉ DU RECUEIL POUR UN DAIKON QUI TRAÎNE, avec R81 et R83. Un daikon entier est trop gros pour deux personnes — le registre du dossier a un problème récurrent avec cet ingrédient. CINQ CENTS GRAMMES ICI, CINQ CENTS DANS LA SOUPE DE BŒUF : un daikon entier part en deux plats."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "b4Loq4mz9p4",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R83",
+      "R81"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R86",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "vapeur"
+    ],
+    "axe_gout": [
+      "sesame-noisette",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "namul-d-aubergine-vapeur-gaji-namul",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "가지나물",
+    "lecture_origine": "gaji namul",
+    "langue_origine": "ko",
+    "fr": "Namul d'aubergine vapeur (gaji namul)",
+    "sous_titre": "Une aubergine fondante sans une goutte d'huile. C'est le seul plat d'aubergine du recueil, et c'est la seule façon d'en faire un qui n'en boive pas.",
+    "portions": "4",
+    "temps_affiche": "≈ 12 min",
+    "temps_minutes": {
+      "preparation": 4,
+      "cuisson": 5,
+      "attente": 3
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 2,
+      "proteines_affiche": "2 g",
+      "calories": 55,
+      "calories_affiche": "≈ 55",
+      "lipides_g": 3,
+      "sodium_mg": 220,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 220 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 55 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 aubergines chinoises longues, environ 400 g, ou 1 aubergine ordinaire",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "L'ASSAISONNEMENT : 1 c. à soupe de sauce soya réduite en sodium · 1 gousse d'ail râpée · 1 c. à thé d'huile de sésame grillé · 1 c. à soupe de graines de sésame grillées · 1 oignon vert émincé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/2 c. à thé de gochugaru",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T20"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Couper les aubergines en tronçons de 6 cm, puis en quartiers dans la longueur."
+      },
+      {
+        "n": 2,
+        "texte": "Panier vapeur, eau bouillante, 5 à 7 minutes. LA CHAIR DOIT ÊTRE TRANSLUCIDE ET CÉDER SOUS UNE BAGUETTE."
+      },
+      {
+        "n": 3,
+        "texte": "Sortir et laisser tiédir 3 minutes sur une assiette, PAS DANS LE PANIER — la vapeur résiduelle continue de cuire et détrempe."
+      },
+      {
+        "n": 4,
+        "texte": "DÉCHIRER LES QUARTIERS EN LANIÈRES À LA MAIN, dans le sens des fibres. Ne pas couper au couteau."
+      },
+      {
+        "n": 5,
+        "texte": "Presser légèrement pour retirer l'eau, sans écraser."
+      },
+      {
+        "n": 6,
+        "texte": "Assaisonner à la main. Servir tiède ou froid."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi l'aubergine se fait à la vapeur et pas à la poêle",
+        "texte": "UNE AUBERGINE EST UNE ÉPONGE, ET C'EST UN FAIT DE STRUCTURE, PAS UNE MANIÈRE DE CUISINER. Sa chair est faite de cellules pleines d'air; mise dans une poêle huilée, elle absorbe l'huile jusqu'à ce que ses parois s'effondrent — de quinze à trente grammes pour deux portions, et c'est ce qui rend le 地三鲜 et le 鱼香茄子 incompatibles avec ce dossier.\n\nÀ LA VAPEUR, LES MÊMES CELLULES S'EFFONDRENT SOUS L'EAU AU LIEU DE L'HUILE. On obtient exactement la texture fondante qu'on cherchait, avec trois grammes de lipides au total — ceux du sésame. C'EST LE MÊME RAISONNEMENT QUE LE REFUS DU 过油 À LA FICHE T14, appliqué au légume qui en souffre le plus.\n\nLE GESTE QUI FAIT LA DIFFÉRENCE EST LE DÉCHIREMENT À LA MAIN. Une aubergine coupée au couteau garde des faces lisses et l'assaisonnement glisse dessus. Déchirée, elle offre des surfaces irrégulières et fibreuses qui accrochent la sauce — c'est le même principe que le concombre tataki de R47, et pour la même raison."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "Jt4BRAUzcYc",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R47"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R87",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "doux",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "courgette-sautee-a-l-ail-hobak-bokkeum",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "호박볶음",
+    "lecture_origine": "hobak bokkeum",
+    "langue_origine": "ko",
+    "fr": "Courgette sautée à l'ail (hobak bokkeum)",
+    "sous_titre": "Dix minutes, quatre portions, et le banchan qui se garde le mieux des quatre. La règle est de ne pas trop cuire : une courgette molle rend son eau au fond du contenant.",
+    "portions": "4",
+    "temps_affiche": "≈ 10 min",
+    "temps_minutes": {
+      "preparation": 4,
+      "cuisson": 6,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 2,
+      "proteines_affiche": "2 g",
+      "calories": 60,
+      "calories_affiche": "≈ 60",
+      "lipides_g": 4,
+      "sodium_mg": 150,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 38 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 courgettes moyennes, environ 500 g, en demi-lunes de 5 mm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 gousses d'ail émincées, 1/4 d'oignon en lamelles fines",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de graines de sésame grillées, 1 oignon vert",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de crevettes séchées, ou 1/2 c. à thé de gochugaru",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T20",
+      "T13"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Couper les courgettes en demi-lunes de 5 mm. Plus mince, elles s'affaissent."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle large à feu moyen-vif avec l'huile, l'oignon et l'ail, 1 minute."
+      },
+      {
+        "n": 3,
+        "texte": "Les courgettes, remuées peu, 4 à 5 minutes. ELLES DOIVENT ÊTRE TRANSLUCIDES SUR LES BORDS ET ENCORE FERMES AU CENTRE."
+      },
+      {
+        "n": 4,
+        "texte": "Le sel à la fin, hors du feu — salées tôt, elles rendent leur eau dans la poêle et bouillent."
+      },
+      {
+        "n": 5,
+        "texte": "Sésame et oignon vert."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le seul banchan de ce lot qui ne se blanchit pas, et pourquoi",
+        "texte": "LES TROIS AUTRES NAMUL DE CE DOCUMENT PASSENT PAR L'EAU OU LA VAPEUR. Celui-ci se fait à la poêle, et ce n'est pas une inconséquence : le mot 볶음 BOKKEUM veut dire sauté, alors que 나물 NAMUL désigne le patron blanchir-essorer-assaisonner. C'est une autre famille de banchan, et le recueil doit porter les deux.\n\nPOURQUOI LA COURGETTE NE SE BLANCHIT PAS. Elle contient déjà beaucoup d'eau et peu de fibre : blanchie, elle passe directement de crue à molle, sans étape utile entre les deux. Sautée, elle perd un peu d'eau par évaporation et ses surfaces se marquent — c'est ce qui lui donne du goût.\n\nLA TECHNIQUE T13, LE SAUTÉ À L'EAU, S'APPLIQUE ICI SI LA POÊLE DÉCROCHE : deux cuillères à soupe d'eau et un couvercle, trente secondes. À utiliser seulement si les courgettes sont épaisses; sur du 5 mm, ce n'est pas nécessaire et ça les noierait.\n\n⚠️ SE GARDE 4 JOURS, LE MEILLEUR DES QUATRE — mais SEULEMENT si elles sont sorties de la poêle encore fermes. Une courgette cuite juste à point continue de s'attendrir au frigo; une courgette molle au départ rend un centimètre d'eau au fond du contenant en une nuit."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "n76W4c49UdA",
+      "auteur": "Korean Bapsang",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R85"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R88",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "vapeur"
+    ],
+    "axe_gout": [
+      "doux",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "soyeux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "flan-d-oeufs-vapeur-gyeranjjim",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "계란찜",
+    "lecture_origine": "gyeranjjim",
+    "langue_origine": "ko",
+    "fr": "Flan d'œufs vapeur (gyeranjjim)",
+    "sous_titre": "Le banchan protéiné le plus rapide du recueil. Trois œufs, un peu d’eau, et un couvercle : treize grammes de protéines dans un petit bol.",
+    "portions": "2",
+    "temps_affiche": "≈ 12 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 9,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 13,
+      "proteines_affiche": "13 g",
+      "calories": 130,
+      "calories_affiche": "≈ 130",
+      "lipides_g": 9,
+      "sodium_mg": 320,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 320 mg — VAUT POUR LES DEUX PORTIONS, soit environ 160 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "3 œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "180 ml d'eau, ou de bouillon d'anchois si on en a",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 oignon vert émincé finement, 1 c. à thé de graines de sésame",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de crevettes séchées finement hachées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "⚠️ PAS de saeujeot (crevettes fermentées) — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Battre les œufs SANS FAIRE DE MOUSSE. Ajouter l'eau et le sel."
+      },
+      {
+        "n": 2,
+        "texte": "FILTRER À TRAVERS UNE PASSOIRE FINE. C’est ce qui donne la texture soyeuse, et c’est la même étape que R7."
+      },
+      {
+        "n": 3,
+        "texte": "Verser dans un bol de céramique ou deux petits bols. Couvrir de papier d'aluminium ou d'une assiette."
+      },
+      {
+        "n": 4,
+        "texte": "Panier vapeur ou casserole avec 2 cm d'eau, à FEU DOUX. 8 à 10 minutes."
+      },
+      {
+        "n": 5,
+        "texte": "LE FLAN EST PRÊT QUAND LE CENTRE TREMBLE ENCORE LÉGÈREMENT. Une pointe de couteau au centre sort propre."
+      },
+      {
+        "n": 6,
+        "texte": "Oignon vert et sésame par-dessus, hors du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le saeujeot est remplacé par du sel, et la source le recommande elle-même",
+        "texte": "LA VERSION TRADITIONNELLE ASSAISONNE CE FLAN AU 새우젓 SAEUJEOT — des crevettes fermentées en saumure, décrites par les sources coréennes comme « très salées ». C'est un condiment de fermentation, donc son sel n'est pas ajusté : il EST le produit. UNE CUILLÈRE À THÉ PORTE DE L'ORDRE DE 400 À 500 MG DE SODIUM À ELLE SEULE.\n\nLE REMPLACEMENT PAR UN QUART DE CUILLÈRE À THÉ DE SEL EST CELUI QUE LES SOURCES CORÉENNES PROPOSENT ELLES-MÊMES comme variante domestique. Ce n'est donc pas une trahison du plat : c'est sa version de semaine. LE FLAN PERD UNE NOTE MARINE ET FERMENTÉE, ET C'EST TOUT. Une cuillère à thé de crevettes séchées hachées la rend en partie, pour environ 80 mg.\n\n⚠️ ET LE FEU DOIT ÊTRE DOUX, C'EST LA SEULE VRAIE RÈGLE. À gros bouillons, les protéines de l'œuf se contractent violemment, expulsent leur eau, et le flan devient granuleux avec une flaque au fond — irrécupérable. LA TEXTURE DE CE PLAT EST TOUT LE PLAT : c'est une crème salée, pas des œufs brouillés.\n\nLA TEXTURE DOMINANTE EST SOYEUSE, DONC IL LUI FAUT UN CROQUANT À CÔTÉ. Le daikon de R83, un chou cru, ou simplement plus d’oignon vert."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "-IicuyDgRyw",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R7",
+      "R83"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R89",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "saute",
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "ferme",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "tofu-braise-au-soya-dubu-jorim",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "두부조림",
+    "lecture_origine": "dubu jorim",
+    "langue_origine": "ko",
+    "fr": "Tofu braisé au soya (dubu jorim)",
+    "sous_titre": "Le seul banchan du recueil qui porte dix grammes de protéines SANS VIANDE et se garde cinq jours. Le tofu se dore avant d'être braisé, jamais l'inverse.",
+    "portions": "4",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 18,
+      "attente": 2
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 10,
+      "proteines_affiche": "10 g",
+      "calories": 130,
+      "calories_affiche": "≈ 130",
+      "lipides_g": 7,
+      "sodium_mg": 260,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "450 g de tofu ferme ou extra-ferme, en tranches de 1,5 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE, prémélangée au bol (T18) : 1,5 c. à soupe de sauce soya réduite en sodium · 4 c. à soupe d'eau · 1 c. à thé de sucre · 2 gousses d'ail râpées · 1/2 c. à thé d'huile de sésame",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 oignon en lamelles, 2 oignons verts en tronçons",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de gochugaru pour la version pimentée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Graines de sésame",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Éponger les tranches de tofu au papier absorbant, des deux côtés. UNE SURFACE HUMIDE NE DORE PAS."
+      },
+      {
+        "n": 2,
+        "texte": "Mélanger la sauce au bol avant d’allumer."
+      },
+      {
+        "n": 3,
+        "texte": "Poêle antiadhésive à feu moyen-vif avec l'huile. Les tranches en une couche, SANS Y TOUCHER 4 minutes. Retourner, 3 minutes."
+      },
+      {
+        "n": 4,
+        "texte": "Baisser le feu. Répartir l'oignon autour, verser la sauce."
+      },
+      {
+        "n": 5,
+        "texte": "Braiser À DÉCOUVERT 8 à 10 minutes, en arrosant les tranches à la cuillère deux ou trois fois. Le liquide réduit jusqu’à napper."
+      },
+      {
+        "n": 6,
+        "texte": "Oignons verts et sésame hors du feu. Se mange chaud, tiède ou froid."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Dorer d'abord, et pourquoi l'ordre n'est pas négociable",
+        "texte": "UN TOFU MIS DIRECTEMENT DANS UNE SAUCE RESTE PÂLE ET SPONGIEUX, ET IL SE DÉFAIT. Le passage à la poêle fait deux choses qu'aucune autre étape ne fait : il colore la surface par réaction de Maillard, ce qui apporte le goût grillé, et il forme une pellicule qui TIENT la tranche pendant le braisage. C'est la même logique que le tempé de R80.\n\nLE BRAISAGE SE FAIT À DÉCOUVERT, ET C'EST CE QUI DISTINGUE UN JORIM D'UN RAGOÛT. 조림 JORIM veut dire réduit : le liquide doit descendre jusqu'à napper. Couvert, il ne réduit pas, et on obtient du tofu qui baigne dans une sauce diluée.\n\nLE SODIUM EST DÉJÀ AJUSTÉ ET IL FAUT LE SAVOIR : une cuillère et demie de soya réduit pour quatre portions, allongée de quatre cuillères d'eau. LES RECETTES COURANTES EN METTENT LE DOUBLE, sans eau. À 260 mg par portion, ce plat reste un banchan; à 500, il devient le poste sodique du repas pour un plat d'accompagnement.\n\nET C'EST LE BANCHAN À CHOISIR QUAND LA JOURNÉE EST COURTE EN PROTÉINES. Dix grammes dans un petit bol, sans cuisson de viande, et il se garde 4 à 5 jours — c'est le complément de R77 et de R82 dans la session du dimanche."
+      },
+      {
+        "titre": "La vidéo montre la version pimentée, la fiche est la version douce",
+        "texte": "LA DÉMONSTRATION DE MAANGCHI EST UN 두부조림 AU GOCHUGARU, FRANCHEMENT ROUGE. CETTE FICHE EST LA VERSION AU SOYA, SANS PIMENT. Le geste est identique — poêler les tranches, puis braiser à découvert en arrosant — et c'est exactement ce qu'on veut voir.\n\n⚠️ NE PAS PRENDRE LES DOSES DE LA VIDÉO. Elles sont celles de la version courante, sans l'allongement à l'eau qui fait descendre ce plat à 260 mg par portion. Le gochugaru facultatif de la liste rapproche du plat filmé sans rien ajouter au sodium."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "ob2CYmTx9PM",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R80",
+      "R77"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R90",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "moyen",
+    "type_de_plat": "condiment",
+    "methode": [
+      "vapeur",
+      "marine"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "glissant",
+      "mou"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "feuilles-de-perilla-marinees-kkaennip-jjim",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "깻잎찜",
+    "lecture_origine": "kkaennip jjim",
+    "langue_origine": "ko",
+    "fr": "Feuilles de périlla marinées (kkaennip jjim)",
+    "sous_titre": "Deux à trois semaines au frigo, quarante milligrammes de sodium par portion réelle. Ce n'est pas un légume, c'est un condiment à riz — et c'est la distinction qui décide de la portion.",
+    "portions": "10",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 4,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 20,
+      "calories_affiche": "≈ 20",
+      "lipides_g": 1,
+      "sodium_mg": 40,
+      "variable": false,
+      "source": "estime",
+      "note": "Par PORTION RÉELLE — deux ou trois feuilles, prises avec une bouchée de riz — et non par bol de banchan : c'est la distinction que la note explique, et elle décide de tout. Trente feuilles donnent de l'ordre de dix portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "30 feuilles de périlla (kkaennip), fraîches",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE : 2 c. à soupe de sauce soya réduite en sodium · 2 c. à soupe d'eau · 1 c. à thé de sucre · 3 gousses d'ail émincées · 1 oignon vert émincé · 1/2 oignon râpé · 1 c. à thé de gochugaru · 1 c. à thé d'huile de sésame · 1 c. à soupe de graines de sésame",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Laver les feuilles une par une et les éponger. Retirer les tiges à ras."
+      },
+      {
+        "n": 2,
+        "texte": "Mélanger tous les ingrédients de la sauce."
+      },
+      {
+        "n": 3,
+        "texte": "Empiler les feuilles dans un contenant peu profond, EN BADIGEONNANT UNE CUILLÈRE À THÉ DE SAUCE SUR UNE FEUILLE SUR DEUX. C'est là que le temps passe."
+      },
+      {
+        "n": 4,
+        "texte": "Couvrir, et étuver au panier vapeur 3 à 4 minutes — ou passer 40 secondes au micro-ondes à couvert."
+      },
+      {
+        "n": 5,
+        "texte": "Laisser refroidir. Se garde 2 à 3 semaines au frigo."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "C'est un condiment, pas un légume, et ça change la portion",
+        "texte": "TRENTE FEUILLES DONNENT DE L'ORDRE DE DIX PORTIONS, ET UNE PORTION FAIT DEUX OU TROIS FEUILLES. On en prend une avec une bouchée de riz, comme on prendrait un cornichon ou l'umeboshi de R53. LE CLASSER COMME LÉGUME EST L'ERREUR QUI FAIT MANGER LE TIERS DU CONTENANT : à ce rythme, tout le sodium de la sauce arrive dans une seule assiette.\n\nC'EST POURQUOI CETTE FICHE PORTE LE TYPE DE PLAT « CONDIMENT » ET NON « ACCOMPAGNEMENT ». Le champ n'est pas décoratif : il dit au plan de la semaine que ce plat ne compte pas dans le quart légume du souper. Le quart légume, c'est un namul ou une salade; ceci se pose à côté du riz.\n\nLE GOÛT DE LA PÉRILLA DIVISE, ET IL FAUT LE DIRE AVANT QU'ON EN ACHÈTE TRENTE FEUILLES. C'est une feuille de la famille de la menthe, avec une amertume anisée et une note de réglisse qui n'a aucun équivalent dans le recueil. Le shiso japonais est de la même espèce mais d'une variété différente, plus douce et plus citronnée. QUI N'AIME PAS LE SHISO N'AIMERA PAS LA PÉRILLA, et l'inverse n'est pas vrai.\n\n⚠️ APPROVISIONNEMENT : ce n'est PAS un produit fiable chez Kim Phat, et c'est saisonnier. Le Marché Korea de Notre-Dame-de-Grâce est l'adresse. À NE PAS METTRE SUR UNE LISTE D'ÉPICERIE SANS AVOIR CONFIRMÉ LA DISPONIBILITÉ — c'est le seul plat de ce document qui ne s'approvisionne pas sur le parcours habituel."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "-ycTDIUhsfM",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R53"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R91",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "condiment",
+    "methode": [
+      "torrefie"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "croustillant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "nori-grille-a-la-maison-gim-gui",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "김",
+    "lecture_origine": "gim gui",
+    "langue_origine": "ko",
+    "fr": "Nori grillé à la maison (gim gui)",
+    "sous_titre": "Vingt feuilles, une cuillère à soupe d'huile de sésame, une pincée de sel. Le faire soi-même plutôt que d'acheter les paquets préassaisonnés change tout, et c'est mesurable.",
+    "portions": "10",
+    "temps_affiche": "≈ 8 min",
+    "temps_minutes": {
+      "preparation": 2,
+      "cuisson": 6,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 15,
+      "calories_affiche": "≈ 15",
+      "lipides_g": 1,
+      "sodium_mg": 25,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion de DEUX FEUILLES : vingt feuilles donnent dix portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "20 feuilles de nori NON assaisonné, format sushi",
+        "sante": true,
+        "sante_pos": 19
+      },
+      {
+        "texte": "1,5 c. à soupe d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel fin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à soupe de graines de sésame",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger l'huile de sésame et le sel dans un petit bol."
+      },
+      {
+        "n": 2,
+        "texte": "Étaler une feuille sur une planche. Badigeonner TRÈS LÉGÈREMENT d'huile salée au pinceau, sur UNE seule face."
+      },
+      {
+        "n": 3,
+        "texte": "Empiler les feuilles badigeonnées deux par deux, face huilée contre face huilée."
+      },
+      {
+        "n": 4,
+        "texte": "Poêle sèche à feu MOYEN-DOUX, sans huile. Une paire de feuilles, 20 à 30 secondes par face."
+      },
+      {
+        "n": 5,
+        "texte": "LA FEUILLE PASSE DU NOIR AU VERT ET DEVIENT CASSANTE. Elle se ratatine un peu et sent le grillé. C'est fait."
+      },
+      {
+        "n": 6,
+        "texte": "Empiler sur une assiette et laisser refroidir avant de découper en rectangles aux ciseaux."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce que ça change par rapport au paquet du commerce",
+        "texte": "LE NORI PRÉASSAISONNÉ DU COMMERCE — l'ajitsuke-nori japonais de R50, le gim assaisonné coréen — EST SALÉ À LA SOURCE, ET ON NE CONTRÔLE RIEN. Les paquets portent couramment 130 à 200 mg de sodium pour un petit sachet de huit feuilles, parfois avec du glutamate et du sucre. Fait à la maison avec un quart de cuillère à thé de sel pour vingt feuilles, LA MÊME QUANTITÉ EN PORTE DE L'ORDRE DE 25 MG.\n\nET LE GESTE QUI COMPTE EST LE DOSAGE DE L'HUILE, PAS LE GRILLAGE. Un nori trop huilé devient mou et gras au lieu de croustillant, et il double ses lipides pour rien. UNE FEUILLE CORRECTEMENT HUILÉE PARAÎT PRESQUE SÈCHE : l'huile ne fait que porter le sel et parfumer. Le pinceau est meilleur que les doigts, et une seule face suffit puisqu'on empile face contre face.\n\nLA FEUILLE DOIT VIRER AU VERT, C'EST LE SEUL REPÈRE. Le nori cru est noir-violet; grillé, il devient vert franc et cassant. Retiré trop tôt il reste souple et goûte l'algue humide; laissé trop longtemps il brunit et devient amer, et il n'y a pas de rattrapage. VINGT À TRENTE SECONDES PAR FACE, À FEU MOYEN-DOUX.\n\nSE GARDE DES SEMAINES DANS UN CONTENANT HERMÉTIQUE AVEC UN SACHET DÉSHYDRATANT SI ON EN A. L'ennemi est l'humidité, pas le temps : un nori qui ramollit se repasse dix secondes à la poêle sèche et redevient croustillant."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "EWK0AIPrVSc",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R50"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R92",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "condiment",
+    "methode": [
+      "torrefie",
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "anchois-seches-caramelises-myeolchi-bokkeum",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "멸치볶음",
+    "lecture_origine": "myeolchi bokkeum",
+    "langue_origine": "ko",
+    "fr": "Anchois séchés caramélisés (myeolchi bokkeum)",
+    "sous_titre": "Le pire rapport sodium-poids de tout le recueil, et il est ici quand même. La raison est simple : c'est un condiment de dix grammes, pas un plat — et écrit comme tel, il tient.",
+    "portions": "12 (portions de 10 à 15 g — voir la note)",
+    "temps_affiche": "≈ 12 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 9,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 4,
+      "proteines_affiche": "4 g",
+      "calories": 45,
+      "calories_affiche": "≈ 45",
+      "lipides_g": 2,
+      "sodium_mg": 200,
+      "variable": false,
+      "source": "estime",
+      "note": "Par PORTION DE 12 G, soit une cuillère à soupe : cent cinquante grammes en donnent douze, pas quatre. Servi en bol de banchan comme les autres plats de ce document, ce plat devient un poste sodique de 600 mg — c'est le sens de la note. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "150 g de petits anchois séchés — DEMANDER LES PETITS, marqués 볶음용, pour le sauté",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "60 g d'arachides non salées, ou d'amandes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE : 1 c. à soupe de mirin ou de saké · 1 c. à thé de sucre · 1 c. à thé d'huile de sésame",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "⚠️ AUCUNE sauce soya — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de graines de sésame",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "GRILLER LES ANCHOIS À SEC, poêle sans huile, feu moyen, 2 minutes en secouant. Ça retire l'humidité et l'odeur de poisson séché. LES VERSER SUR UNE ASSIETTE ET LES SECOUER DANS UNE PASSOIRE : la poudre au fond est amère."
+      },
+      {
+        "n": 2,
+        "texte": "Même poêle, les 2 c. à thé d'huile, les arachides, 1 minute."
+      },
+      {
+        "n": 3,
+        "texte": "Les anchois de retour, 1 minute."
+      },
+      {
+        "n": 4,
+        "texte": "Le mirin et le sucre, remués 1 minute — le liquide s'évapore presque tout de suite et laque les anchois."
+      },
+      {
+        "n": 5,
+        "texte": "Hors du feu, l'huile de sésame et le sésame."
+      },
+      {
+        "n": 6,
+        "texte": "LAISSER REFROIDIR COMPLÈTEMENT AVANT DE RANGER. Tiède, la vapeur les ramollit."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "🔴 Le sodium est dans le poisson, et c’est pourquoi le soya sort de la recette",
+        "texte": "UN ANCHOIS SÉCHÉ EST SALÉ DEUX FOIS : il est séché en saumure, donc son sel est DANS le produit, et la recette classique ajoute par-dessus de la sauce soya. LES DEUX COUCHES ENSEMBLE DONNENT LE PIRE RAPPORT SODIUM-GRAMME DE TOUTE L'ANALYSE DU RÉPERTOIRE.\n\nDEUX AJUSTEMENTS, ET LE PREMIER EST STRICT. UN — LE SOYA EST SUPPRIMÉ, pas réduit. Le poisson apporte déjà tout le salé; le soya n'ajoutait que du sodium et une couleur. Ce qu'il faisait pour le goût, le mirin et le sucre le font en laquant. DEUX — LE GRILLAGE À SEC DE DEUX MINUTES au début, qui n'est pas dans toutes les recettes : il retire l'humidité et l'amertume, et il permet de se passer d'assaisonnement.\n\n🔴 ET LA PORTION EST LA VRAIE DÉFENSE : DIX À QUINZE GRAMMES, UNE CUILLÈRE À SOUPE. À ce format, la portion porte de l'ordre de 200 mg de sodium et 4 g de protéines — c'est un condiment cher mais tenable, dans la même famille que le furikake. CENT CINQUANTE GRAMMES DONNENT DOUZE PORTIONS, PAS QUATRE. Servi en petit bol de banchan comme les autres, ce plat devient un poste sodique de 600 mg, et il ne le vaut pas.\n\n⚠️ SI LE BUDGET DE SODIUM DE LA JOURNÉE EST DÉJÀ MANGÉ, CE N'EST PAS LE PLAT À SORTIR. Il y a onze autres banchan coréens au recueil, et la plupart coûtent cinq à dix fois moins — le nori de R91 en porte 25 mg par portion, les épinards de R84 en portent 20."
+      },
+      {
+        "titre": "Le calcium, et pourquoi ce plat reste au recueil",
+        "texte": "UN ANCHOIS SÉCHÉ SE MANGE ENTIER, ARÊTES COMPRISES, ET C'EST UNE DES SOURCES DE CALCIUM LES PLUS DENSES QUI EXISTENT — de l'ordre de 1 000 à 1 500 mg aux 100 g de produit sec, donc 120 à 180 mg dans une portion de douze grammes. C'est la raison pour laquelle il vaut la peine d'être écrit malgré son sodium.\n\nDANS UN DOSSIER OÙ LE CALCIUM VIENT SURTOUT D'UNE BOISSON PROTÉINÉE ET D'UN YOGOURT, UNE SOURCE ALIMENTAIRE ENTIÈRE A UNE VALEUR PROPRE. Ce n'est pas un argument pour en manger plus : c'est un argument pour ne pas écarter le plat.\n\n⚠️ ACHETER LES PETITS, ET C'EST UNE VRAIE DIFFÉRENCE DE PRODUIT. Les gros anchois séchés, 국물용, servent à faire du bouillon et restent coriaces à la poêle. Les petits, 볶음용, sont tendres et se mangent tels quels. Chez Kim Phat, allée 32, avec les produits secs; le format le plus courant est le sac de 150 à 200 g, à garder AU CONGÉLATEUR, où ils tiennent un an sans rancir."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "y1mj-q21AP8",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R91"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R93",
+    "statut": "actif",
+    "categorie": "soupe-entree",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-claire-aux-germes-de-soya-kongnamul-guk",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "콩나물국",
+    "lecture_origine": "kongnamul guk",
+    "langue_origine": "ko",
+    "fr": "Soupe claire aux germes de soya (kongnamul guk)",
+    "sous_titre": "Le premier guk du recueil au sens propre : un bouillon clair qui accompagne au lieu de dominer. Une cuillère à thé de sel pour trois bols, et le couvercle ne se soulève pas.",
+    "portions": "3",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 6,
+      "proteines_affiche": "6 g",
+      "calories": 60,
+      "calories_affiche": "≈ 60",
+      "lipides_g": 2,
+      "sodium_mg": 400,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 400 mg — VAUT POUR LES TROIS PORTIONS, soit environ 133 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "1 L d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LE BOUILLON, au choix : 10 gros anchois séchés (국물용) + 1 morceau de kombu de 5 cm, retirés après 10 min · OU 4 shiitake séchés · OU de l’eau nue",
+        "sante": true,
+        "sante_pos": 73
+      },
+      {
+        "texte": "300 g de germes de SOYA (kongnamul), à grosse tête jaune",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sel, GOÛTÉ ET AJUSTÉ",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 gousses d'ail émincées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 oignons verts en tronçons de 3 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de gochugaru pour la version rouge",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "LE BOUILLON D'ABORD : les anchois et le kombu dans l'eau froide, monter doucement. RETIRER LE KOMBU DÈS QUE DE PETITES BULLES APPARAISSENT SUR LES BORDS — au-delà il devient amer, et c'est irréversible. Les anchois, 10 minutes de frémissement, puis retirés à la passoire."
+      },
+      {
+        "n": 2,
+        "texte": "Rincer les germes et retirer les enveloppes qui flottent."
+      },
+      {
+        "n": 3,
+        "texte": "Les germes et l'ail dans le bouillon. COUVRIR, ET NE PAS OUVRIR LE COUVERCLE PENDANT 5 MINUTES."
+      },
+      {
+        "n": 4,
+        "texte": "Découvrir, saler PAR PETITES QUANTITÉS en goûtant."
+      },
+      {
+        "n": 5,
+        "texte": "Les oignons verts, 30 secondes, hors du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ne pas ouvrir le couvercle — la même règle que R72, et pour la même raison",
+        "texte": "UN GERME DE SOYA CUIT À DÉCOUVERT DÉVELOPPE UNE ODEUR DE HARICOT CRU, FRANCHEMENT DÉSAGRÉABLE, ET C'EST IRRÉVERSIBLE. Le mécanisme est une enzyme — la lipoxygénase — qui s'active au contact de l'oxygène pendant la montée en température. À couvert, la vapeur chasse l'oxygène et l'enzyme est détruite avant d'avoir travaillé.\n\nLA RÈGLE EST BINAIRE : COUVERCLE FERMÉ DU DÉBUT À LA FIN, OU COUVERCLE JAMAIS MIS. C'est l'entre-deux qui rate, et soulever le couvercle à mi-cuisson pour regarder est la seule façon de tout gâcher.\n\n⚠️ ET LES 콩나물 NE SONT PAS LES GERMES DE HARICOT MUNGO. Grosse tête jaune et tige longue, 4 à 5 minutes; le germe de mungo est blanc, court, et 60 secondes suffisent. Chez Kim Phat, l'îlot des germes porte les deux : demander les jaunes.\n\nLE MÊME SAC DE GERMES DONNE DEUX PLATS DE CE RECUEIL, et ça vaut la peine de le savoir en achetant : 300 g ici et 400 g pour le namul de R72, soit un sac complet pour une soupe et quatre banchan."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "0q8LU70IRn8",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R72"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R94",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "long",
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote",
+      "poche"
+    ],
+    "axe_gout": [
+      "doux",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "bouillon-de-poulet-clair-dakgomtang",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "닭곰탕",
+    "lecture_origine": "dakgomtang",
+    "langue_origine": "ko",
+    "fr": "Bouillon de poulet clair (dakgomtang)",
+    "sous_titre": "Le meilleur cas de figure de tout le recueil pour le sodium : le plat arrive à table non salé, et chacun assaisonne son bol. Trente-quatre grammes de protéines pour cent quatre-vingts milligrammes.",
+    "portions": "4",
+    "temps_affiche": "≈ 15 min actives, 1 h de feu",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 60,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 34,
+      "proteines_affiche": "34 g",
+      "calories": 260,
+      "calories_affiche": "≈ 260",
+      "lipides_g": 9,
+      "sodium_mg": 180,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, et le sodium vaut AVANT LE SEL DU BOL : ce plat arrive à table non assaisonné, et c'est tout son intérêt. Ce que chacun ajoute au bol s'ajoute à ce chiffre. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "1 kg de cuisses ou de hauts de cuisse de poulet, avec l'os, sans la peau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2,5 L d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 oignon coupé en deux, 6 gousses d'ail, 1 morceau de gingembre de 4 cm, 3 oignons verts entiers",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 daikon de 300 g en gros morceaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À TABLE, et seulement là : sel, poivre noir, oignon vert émincé, gochugaru",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 portion de riz par personne",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T12"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T12 : le poulet dans l'eau FROIDE à couvrir, monter à ébullition, 5 minutes, jeter l'eau, rincer les morceaux ET la casserole."
+      },
+      {
+        "n": 2,
+        "texte": "Remettre le poulet avec les 2,5 L d’eau froide et tous les aromates entiers."
+      },
+      {
+        "n": 3,
+        "texte": "Frémissement doux, à couvert, 45 à 60 minutes. JAMAIS À GROS BOUILLONS — un bouillon qui bout devient trouble et gras."
+      },
+      {
+        "n": 4,
+        "texte": "Écumer les premières minutes. Retirer le gras en surface à la cuillère si nécessaire."
+      },
+      {
+        "n": 5,
+        "texte": "Sortir le poulet, laisser tiédir 10 minutes, EFFILOCHER À LA MAIN en gros filaments. Jeter les os."
+      },
+      {
+        "n": 6,
+        "texte": "Filtrer le bouillon, jeter les aromates. Remettre le poulet effiloché dedans."
+      },
+      {
+        "n": 7,
+        "texte": "NE SALER NI LE BOUILLON NI LA VIANDE. Servir avec du riz, et le sel, le poivre et l’oignon vert sur la table."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Assaisonner dans le bol — pourquoi c'est structurellement meilleur que d'assaisonner la casserole",
+        "texte": "C'EST LA SEULE FICHE DU RECUEIL OÙ LE SEL N'ENTRE JAMAIS DANS LA CUISSON, ET C'EST LA TRADITION DU PLAT, PAS UN AJUSTEMENT DE MA PART. Le dakgomtang se sert non assaisonné avec le sel et le poivre sur la table.\n\nCE QUE ÇA CHANGE, ET C'EST MESURABLE. Un bouillon salé dans la casserole est mangé en entier au sel qu'on y a mis — et on sale toujours pour le goût du liquide chaud, ce qui est plus que ce qu'il faut. Un bouillon salé au bol reçoit ce que la bouche demande, cuillère par cuillère, et LA QUANTITÉ S'ARRÊTE D'ELLE-MÊME QUAND C'EST BON. Le même bol passe couramment de 800 mg à 300.\n\nC'EST LE MÊME PRINCIPE QUE LE NUOC CHAM DE T21 ET QUE LE SHICHIMI À TABLE : le sel servi à côté, dans un contenant dont on contrôle la consommation. LE DOSSIER APPELLE ÇA LA LOGIQUE DU CONTENANT, ET ELLE VAUT POUR LE SEL AUTANT QUE POUR LA NOURRITURE.\n\nUNE HEURE DE FEU POUR QUINZE MINUTES DE TRAVAIL, ET LE TEMPS N'EST PAS DU TRAVAIL. Le blanchiment prend cinq minutes, l'assemblage deux, l'effilochage cinq. Entre les deux, la casserole travaille seule — c'est le même profil que T16 et que R77, et c'est ce qui rend ce plat faisable un soir de semaine si le feu part en après-midi.\n\n⚠️ ET LE BOUILLON FILTRÉ EST UN PRODUIT EN SOI. Il en reste plus qu'il n'en faut pour quatre bols : le surplus se congèle et devient le fond de R74, de R93 ou de n'importe quelle soupe claire. PEU SALÉ, DONC IL SE RÉASSAISONNE LIBREMENT — ce qui est rare pour un bouillon."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "0Atj-Npj2cs",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R93",
+      "R74"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R95",
+    "statut": "actif",
+    "categorie": "soupe-entree",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "mou"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-de-chou-nappa-au-doenjang-baechu-doenjang-guk",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "배추된장국",
+    "lecture_origine": "baechu doenjang guk",
+    "langue_origine": "ko",
+    "fr": "Soupe de chou nappa au doenjang (baechu doenjang guk)",
+    "sous_titre": "La même pâte que le ragoût, diluée dans trois à quatre fois plus de liquide. C'est l'arbitrage le plus rentable de toute la ligne coréenne : le goût du doenjang jjigae pour le tiers de son sodium.",
+    "portions": "3",
+    "temps_affiche": "≈ 22 min",
+    "temps_minutes": {
+      "preparation": 6,
+      "cuisson": 16,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 9,
+      "proteines_affiche": "9 g",
+      "calories": 110,
+      "calories_affiche": "≈ 110",
+      "lipides_g": 4,
+      "sodium_mg": 450,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "1 L d'eau, ou de bouillon d'anchois-kombu",
+        "sante": true,
+        "sante_pos": 41
+      },
+      {
+        "texte": "1,5 c. à soupe de doenjang — PAS PLUS, pour trois portions",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "400 g de chou nappa en morceaux de 4 cm, ou 300 g d'épinards",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g de tofu ferme en cubes de 2 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 gousses d'ail émincées, 3 oignons verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 4 shiitake séchés réhydratés et leur eau de trempage",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de gochugaru",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "⚠️ AUCUNE sauce soya, AUCUN sel ajouté",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Porter l'eau à frémissement avec l'eau de trempage des champignons s'il y en a."
+      },
+      {
+        "n": 2,
+        "texte": "DÉLAYER LE DOENJANG DANS UNE LOUCHE DE LIQUIDE CHAUD, HORS DE LA CASSEROLE, puis l'incorporer. Jeté en bloc, il fait des grumeaux qui ne se défont pas."
+      },
+      {
+        "n": 3,
+        "texte": "L'ail et les champignons, 5 minutes."
+      },
+      {
+        "n": 4,
+        "texte": "Le chou nappa — les côtes d'abord 5 minutes, les feuilles ensuite 3 minutes."
+      },
+      {
+        "n": 5,
+        "texte": "Le tofu, 3 minutes, sans brasser."
+      },
+      {
+        "n": 6,
+        "texte": "GOÛTER AVANT DE PENSER À AJOUTER QUOI QUE CE SOIT. Les oignons verts hors du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "L’arbitrage le plus rentable de la ligne coréenne, chiffré",
+        "texte": "UN 된장찌개 DOENJANG JJIGAE PORTE DE L'ORDRE D'UNE CUILLÈRE À SOUPE DE DOENJANG PAR PERSONNE, DANS PEU DE LIQUIDE. À de l'ordre de 1 200 mg par cuillère à soupe, ÇA FAIT 1 100 À 1 300 MG PAR BOL — la moitié du plafond quotidien du dossier dans une soupe d'accompagnement.\n\nCETTE FICHE-CI EST LE MÊME PLAT, RENVERSÉ : une cuillère et demie pour TROIS portions, dans un litre de liquide. DE L'ORDRE DE 450 MG PAR BOL AU LIEU DE 1 200, POUR UN GOÛT QUI RESTE FRANCHEMENT DU DOENJANG — parce que ce qui fait le goût de cette pâte n'est pas seulement son sel, c'est sa fermentation.\n\nLA RÈGLE QUI EN SORT, ET ELLE VAUT AU-DELÀ DU CORÉEN : LE GUK EST LA VERSION DE SEMAINE, LE JJIGAE EST CELLE DE FIN DE SEMAINE. Écrire les deux et dire lequel est lequel vaut mieux que d'écarter le jjigae — voir R98, qui existe aussi et qui porte son ajustement.\n\nET CE QUI REMPLACE LE SEL RETIRÉ N'EST PAS RIEN : les shiitake séchés et leur eau de trempage apportent du guanylate, le chou nappa longuement mijoté devient sucré, l'ail se fond. AUCUNE SAUCE SOYA NE DOIT ENTRER ICI — c'est le réflexe qui annule tout le bénéfice, et beaucoup de recettes en mettent par habitude."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "5ka7NkZXB3o",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R98"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R96",
+    "statut": "actif",
+    "categorie": "soupe-entree",
+    "cuisine": "coreenne",
+    "vitesse": "moyen",
+    "type_de_plat": "soupe",
+    "methode": [
+      "saute",
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "glissant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-d-algues-wakame-miyeokguk",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "미역국",
+    "lecture_origine": "miyeokguk",
+    "langue_origine": "ko",
+    "fr": "Soupe d'algues wakame (miyeokguk)",
+    "sous_titre": "L'algue est sautée à l'ail avant d'être mijotée, et c'est ce qui distingue cette soupe d'un bouillon d'algues. Elle apporte déjà sa salinité marine : le soya se coupe de moitié.",
+    "portions": "4",
+    "temps_affiche": "≈ 45 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 35,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 18,
+      "proteines_affiche": "18 g",
+      "calories": 160,
+      "calories_affiche": "≈ 160",
+      "lipides_g": 7,
+      "sodium_mg": 420,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "30 g de wakame séché, réhydraté 20 minutes dans l'eau froide, égoutté et coupé",
+        "sante": true,
+        "sante_pos": 14
+      },
+      {
+        "texte": "200 g de bœuf maigre en petits morceaux, OU 300 g de moules décoquillées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 gousses d'ail émincées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce soya réduite en sodium — UNE, pas deux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1,5 L d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Poivre noir",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Réhydrater le wakame 20 minutes à l'eau froide. IL GONFLE DE SIX À HUIT FOIS — 30 g secs donnent beaucoup. Rincer, presser, couper en morceaux de 4 cm."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole à feu moyen avec l'huile de sésame. Le bœuf et l'ail, 3 minutes."
+      },
+      {
+        "n": 3,
+        "texte": "LE WAKAME ÉGOUTTÉ, SAUTÉ 3 À 4 MINUTES AVEC LA VIANDE. C’est l’étape qui fait le plat : l’algue passe du vert vif au vert sombre et son parfum change complètement."
+      },
+      {
+        "n": 4,
+        "texte": "La cuillère de soya, 30 secondes."
+      },
+      {
+        "n": 5,
+        "texte": "L'eau, porter à frémissement, à couvert, 25 à 30 minutes."
+      },
+      {
+        "n": 6,
+        "texte": "Goûter. Poivre. NE PAS RESALER AVANT D'AVOIR GOÛTÉ DEUX FOIS — l'algue continue de libérer du sel en mijotant."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Sauter l'algue, et le sel qu'elle apporte déjà",
+        "texte": "LA PLUPART DES RECETTES DE SOUPE D'ALGUES SE CONTENTENT DE METTRE LE WAKAME DANS L'EAU. LE SAUTER D'ABORD À L'AIL ET À L'HUILE DE SÉSAME EST CE QUI FAIT LA DIFFÉRENCE ENTRE UNE EAU PARFUMÉE ET UNE SOUPE. La chaleur sèche transforme les composés de l'algue : le goût passe du marin-végétal au marin-rond, et le bouillon prend du corps.\n\n⚠️ ET LE WAKAME EST DÉJÀ SALÉ, CE QUE PRESQUE TOUTES LES RECETTES OUBLIENT. Une algue séchée en mer porte son sel; réhydratée et mijotée trente minutes, elle le rend dans le bouillon. C'EST POURQUOI LE SOYA DESCEND DE DEUX CUILLÈRES À SOUPE À UNE — ce n'est pas un ajustement de régime, c'est une correction d'une recette qui double une source de sel sans le voir.\n\nGOÛTER DEUX FOIS, À DIX MINUTES D'INTERVALLE, avant de penser à saler. Une soupe correctement salée à quinze minutes est trop salée à trente.\n\n⚠️ L'IODE EST À COMPTER, ET LE DOSSIER A DÉJÀ UNE RÈGLE LÀ-DESSUS. Le wakame en porte beaucoup moins que le kombu, mais trente grammes secs pour quatre portions n'est pas négligeable. CETTE SOUPE ET UN DASHI AU KOMBU NE SE FONT PAS LE MÊME JOUR, et pas plus d'une fois par semaine chacun. C'est la même règle que celle du kombu de T2, appliquée à l'autre algue.\n\nEN CORÉE, C'EST LA SOUPE D'ANNIVERSAIRE ET CELLE DES JEUNES MÈRES. Ça n'a aucune conséquence en cuisine, mais ça explique pourquoi toutes les recettes en ligne la présentent comme un plat de célébration alors que c'est un guk de semaine parfaitement ordinaire."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "3iqxRPQvMn8",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "T2"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R97",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote",
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "piquant",
+      "acide"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "soyeux",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "ragout-de-kimchi-kimchi-jjigae",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "김치찌개",
+    "lecture_origine": "kimchi jjigae",
+    "langue_origine": "ko",
+    "fr": "Ragoût de kimchi (kimchi jjigae)",
+    "sous_titre": "Le plat coréen le plus mangé à la maison, et il entre au recueil avec son ajustement écrit dans la fiche. La règle tient en une phrase : le kimchi suffit, aucun sel ni soya ne s'ajoute.",
+    "portions": "3",
+    "temps_affiche": "≈ 30 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 22,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 28,
+      "proteines_affiche": "28 g",
+      "calories": 320,
+      "calories_affiche": "≈ 320",
+      "lipides_g": 14,
+      "sodium_mg": 850,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "350 g de kimchi de chou BIEN VIEILLI, avec 3 c. à soupe de son jus",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 g de porc maigre en lanières — longe ou épaule parée, PAS de poitrine",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "400 g de tofu ferme en tranches épaisses",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "700 ml d'eau — voir la note sur le volume",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de gochugaru, 3 gousses d'ail, 1/2 oignon",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 oignons verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "⚠️ AUCUNE sauce soya, AUCUN sel, AUCUN doenjang, AUCUN gochujang",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/2 c. à thé de sucre si le kimchi est très acide",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Casserole à feu moyen-vif avec l'huile. Le porc et l'ail, 3 minutes, jusqu'à ce qu'il ne soit plus rose."
+      },
+      {
+        "n": 2,
+        "texte": "LE KIMCHI ÉGOUTTÉ ET COUPÉ EN MORCEAUX DE 4 CM, SAUTÉ 5 MINUTES AVEC LA VIANDE. C'est l'étape que les recettes rapides sautent, et c'est celle qui fait le plat : le kimchi perd son mordant cru et devient rond."
+      },
+      {
+        "n": 3,
+        "texte": "Le gochugaru, 30 secondes."
+      },
+      {
+        "n": 4,
+        "texte": "L'eau et les 3 c. à soupe de jus de kimchi. Frémissement, à couvert, 12 à 15 minutes."
+      },
+      {
+        "n": 5,
+        "texte": "Le tofu et l'oignon, 5 minutes de plus, sans brasser — secouer la casserole plutôt que remuer."
+      },
+      {
+        "n": 6,
+        "texte": "GOÛTER. Ne rien ajouter avant. Oignons verts hors du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "🔴 Le kimchi suffit, et c’est tout l’ajustement",
+        "texte": "BEAUCOUP DE RECETTES DE KIMCHI JJIGAE AJOUTENT DE LA SAUCE SOYA, DU DOENJANG OU DU SEL — PAR RÉFLEXE, PAS PAR NÉCESSITÉ. LE KIMCHI EST UN LÉGUME LACTO-FERMENTÉ EN SAUMURE : IL PORTE DÉJÀ TOUT LE SEL DU PLAT, ET SON JUS EN PORTE ENCORE PLUS. Trois cent cinquante grammes de kimchi de chou apportent de l'ordre de 1 500 à 2 000 mg de sodium à eux seuls.\n\nL'AJUSTEMENT EST DONC UN RETRAIT, PAS UNE RÉDUCTION : RIEN NE S'AJOUTE. Et le deuxième levier est le volume — sept cents millilitres d'eau pour trois portions au lieu des quatre cents habituels, ce qui dilue sans rien enlever au goût, parce que ce qui porte ce plat est l'acidité et la fermentation, pas la concentration.\n\nLE TROISIÈME LEVIER EST DE PRENDRE LE VOLUME EN TOFU. Quatre cents grammes de tofu ferme apportent du corps, de la protéine et zéro sodium. UN JJIGAE OÙ LE TOFU FAIT LA MOITIÉ DU BOL EST UN AUTRE PLAT SUR LE PLAN DU SODIUM, ET LE MÊME SUR LE PLAN DU GOÛT.\n\n⚠️ À 850 MG PAR PORTION, CE PLAT RESTE LE POSTE SODIQUE DE SA JOURNÉE, ET IL FAUT LE PLANIFIER COMME TEL : déjeuner et dîner sous 400 mg chacun, collation au yogourt. C'EST UN PLAT DE FIN DE SEMAINE. La version de semaine du même goût est R95."
+      },
+      {
+        "titre": "Le kimchi vieilli n'est pas un kimchi abîmé",
+        "texte": "CE PLAT DEMANDE DU KIMCHI VIEILLI — 묵은지, celui qui a fermenté des semaines et qui est devenu franchement acide, mou et gazeux. Le kimchi frais et croquant, celui qu'on mange en banchan, donne un ragoût plat : il n'a pas encore développé les acides qui font le bouillon.\n\nC'EST DONC LE MEILLEUR DÉBOUCHÉ POUR UN POT DE KIMCHI QU'ON TROUVE TROP ACIDE POUR ÊTRE MANGÉ TEL QUEL — ce qui arrive à tous les pots après un mois au frigo. Un kimchi qui n'est plus agréable en banchan est exactement au bon stade pour ici.\n\nET LA COUPE DE PORC EST L'AUTRE CHANGEMENT PAR RAPPORT À LA TRADITION. La version classique se fait à la poitrine, dont le gras fond dans le bouillon — c'est structurel et ça vaut 15 à 20 g de lipides de plus par portion. LA LONGE OU L'ÉPAULE PARÉE DONNE UN BOUILLON MOINS RICHE ET UN PLAT QUI TIENT DANS LE PLAFOND DE LIPIDES. C'est un vrai retrait, pas une équivalence : le bouillon est moins onctueux. La cuillère à thé d'huile de sésame au service le rattrape en partie."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "rJgb92JWMCE",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R95",
+      "R98"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R98",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant",
+      "soyeux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "ragout-au-doenjang-doenjang-jjigae",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "된장찌개",
+    "lecture_origine": "doenjang jjigae",
+    "langue_origine": "ko",
+    "fr": "Ragoût au doenjang (doenjang jjigae)",
+    "sous_titre": "À pleine dose, un bol de ce ragoût porte la moitié du plafond de sodium de la journée. À une cuillère à soupe pour deux portions et un umami rebâti au champignon, c'est le même plat.",
+    "portions": "3",
+    "temps_affiche": "≈ 28 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 18,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 24,
+      "proteines_affiche": "24 g",
+      "calories": 290,
+      "calories_affiche": "≈ 290",
+      "lipides_g": 12,
+      "sodium_mg": 700,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "700 ml d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de doenjang pour DEUX portions, soit 1,5 c. à soupe pour trois. PAS UNE PAR PERSONNE.",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "5 shiitake séchés réhydratés, coupés, ET LEUR EAU DE TREMPAGE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif mais recommandé : 8 gros anchois séchés + 1 morceau de kombu de 5 cm, retirés après 10 min",
+        "sante": true,
+        "sante_pos": 71
+      },
+      {
+        "texte": "200 g de porc maigre en dés, OU 200 g de bœuf maigre, OU rien",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "300 g de tofu ferme ou mi-ferme en cubes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 courgette en demi-lunes, 1 pomme de terre moyenne en cubes de 2 cm, 1/2 oignon",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 gousses d'ail, 1 c. à thé de gochugaru",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 oignons verts, 1 piment vert si on veut",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "⚠️ AUCUNE sauce soya, AUCUN sel",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Le bouillon d'abord si on le fait : anchois et kombu dans l'eau froide, KOMBU RETIRÉ AUX PREMIÈRES BULLES, anchois 10 minutes puis retirés."
+      },
+      {
+        "n": 2,
+        "texte": "Ajouter l'eau de trempage des champignons."
+      },
+      {
+        "n": 3,
+        "texte": "DÉLAYER LE DOENJANG DANS UNE LOUCHE DE LIQUIDE CHAUD, HORS DE LA CASSEROLE, puis l'incorporer."
+      },
+      {
+        "n": 4,
+        "texte": "La pomme de terre et l'oignon, 8 minutes — c'est le légume le plus long."
+      },
+      {
+        "n": 5,
+        "texte": "Le porc, l'ail, les champignons, le gochugaru, 5 minutes."
+      },
+      {
+        "n": 6,
+        "texte": "La courgette et le tofu, 4 minutes, sans brasser."
+      },
+      {
+        "n": 7,
+        "texte": "GOÛTER, ET RÉSISTER. Oignons verts et piment hors du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "🔴 Une cuillère à soupe par personne, c’est la moitié du plafond de la journée",
+        "texte": "LE CALCUL, ET IL EST LA RAISON D'ÊTRE DE CETTE FICHE. Le doenjang porte de l'ordre de 1 200 mg de sodium par cuillère à soupe. LA DOSE TRADITIONNELLE EST D'ENVIRON UNE CUILLÈRE PAR PERSONNE : DE 1 100 À 1 300 MG PAR BOL, SOIT LA MOITIÉ DU PLAFOND QUOTIDIEN DE 2 300 MG, DANS UN PLAT QUI N'EST MÊME PAS CENSÉ ÊTRE LE SEUL DU REPAS.\n\nL'AJUSTEMENT EST OBLIGATOIRE ET IL EST DE MOITIÉ : UNE CUILLÈRE À SOUPE POUR DEUX PORTIONS. Ce n'est pas une préférence, c'est ce qui décide si ce plat peut exister au répertoire ou non.\n\nET L'UMAMI PERDU SE REBÂTIT, POSTE PAR POSTE. LES SHIITAKE SÉCHÉS ET LEUR EAU DE TREMPAGE apportent du guanylate, qui est un exhausteur d'umami distinct du glutamate du doenjang et qui agit en synergie avec lui. LE BOUILLON D'ANCHOIS-KOMBU apporte de l'inosinate et du glutamate. LA POMME DE TERRE libère de l'amidon qui donne au bouillon un corps que la concentration de pâte donnait avant. LE GOCHUGARU occupe la bouche à zéro sodium.\n\n⚠️ ET AUCUNE SAUCE SOYA. C'est le réflexe qui annule tout : ajouter une cuillère à soupe de soya pour « relever » remet 500 mg et ramène le plat à son point de départ. SI ÇA GOÛTE PLAT, C'EST QUE LES CHAMPIGNONS MANQUENT, PAS LE SEL."
+      },
+      {
+        "titre": "Le guk et le jjigae, et lequel se fait quand",
+        "texte": "LE RECUEIL PORTE MAINTENANT LES DEUX FORMES DU MÊME GOÛT, ET C'EST VOULU. R95, LE 배추된장국, EST LA VERSION SOUPE : une cuillère et demie de doenjang dans un litre, environ 450 mg par bol. CELLE-CI EST LA VERSION RAGOÛT : la même pâte dans deux fois moins de liquide, avec de la viande, de la pomme de terre et du tofu, environ 700 mg.\n\nLA RÈGLE EST DONC CELLE-CI : LE GUK EST LA VERSION DE SEMAINE, LE JJIGAE CELLE DE FIN DE SEMAINE. Un guk accompagne un repas et se boit; un jjigae EST le repas et se mange avec du riz. Écarter le jjigae aurait été plus simple et faux — c'est le troisième plat le plus mangé en Corée, et un recueil qui l'ignore mentirait sur ce qu'est cette cuisine.\n\nET C'EST L'UN DES DEUX SEULS PLATS DU RECUEIL DONT LA FICHE PORTE UN AJUSTEMENT OBLIGATOIRE, avec R97. LES DEUX SONT LES PLATS CORÉENS LES PLUS MANGÉS À LA MAISON, ET LES DEUX SONT LES PIRES POUR LE SODIUM. Ce n'est pas une coïncidence : ce sont des plats de pâte fermentée, et la pâte fermentée est du sel qui a produit du goût."
+      },
+      {
+        "titre": "La vidéo montre les doses traditionnelles, que cette fiche corrige de moitié",
+        "texte": "LA DÉMONSTRATION DE MAANGCHI EST LA VERSION TRADITIONNELLE, ET SES DOSES DE DOENJANG SONT EXACTEMENT CELLES QUE CETTE FICHE CORRIGE. Le geste est le bon — délayer la pâte hors de la casserole, monter les légumes du plus long au plus court — et c'est pour ça qu'elle est ici.\n\n⚠️ NE PAS MESURER D'APRÈS LA VIDÉO. L'ajustement de cette fiche n'est pas facultatif : UNE CUILLÈRE À SOUPE DE DOENJANG POUR DEUX PORTIONS, jamais une par personne. C'est la seule ligne de la recette qu'il ne faut pas prendre ailleurs."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "Slj_fM1jQVo",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R95",
+      "R97"
+    ],
+    "commentaire_source": ""
   }
 ]

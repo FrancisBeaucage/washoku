@@ -1,0 +1,136 @@
+{
+  "id": "R85",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "vapeur",
+    "saute"
+  ],
+  "axe_gout": [
+    "doux",
+    "sesame-noisette"
+  ],
+  "axe_texture": [
+    "fondant",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "namul-de-daikon-etuve-mu-namul",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "무나물",
+  "lecture_origine": "mu namul",
+  "langue_origine": "ko",
+  "fr": "Namul de daikon étuvé (mu namul)",
+  "sous_titre": "Le contrepoint doux de la table coréenne, et le deuxième débouché du recueil pour un daikon entamé. Aucun piment, aucune couleur : c’est ce qui permet de manger le reste.",
+  "portions": "4",
+  "temps_affiche": "≈ 18 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 8,
+    "attente": 2
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 50,
+    "calories_affiche": "≈ 50",
+    "lipides_g": 3,
+    "sodium_mg": 90,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 90 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 23 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "500 g de daikon, pelé, en allumettes de 5 mm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame grillé, ou d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 gousse d'ail râpée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel, GOÛTÉ À LA FIN",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de graines de sésame grillées, 1 oignon vert émincé",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T20"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Tailler les allumettes. À la mandoline avec grille à julienne, ou au couteau selon la coupe en biais puis en pile."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle ou casserole à feu moyen avec l'huile et l'ail, 20 secondes."
+    },
+    {
+      "n": 3,
+      "texte": "Le daikon, remué 1 minute pour l’enrober."
+    },
+    {
+      "n": 4,
+      "texte": "LES 3 C. À SOUPE D’EAU ET LE COUVERCLE. Feu moyen-doux, 6 à 8 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "LE DAIKON EST PRÊT QUAND IL EST TRANSLUCIDE ET QU'IL CÈDE, mais qu'il tient encore. Trop cuit, il tombe en purée."
+    },
+    {
+      "n": 6,
+      "texte": "Découvrir, évaporer le reste du liquide 30 secondes. Le sel, goûté. Sésame et oignon vert hors du feu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le même légume que R83, l'autre plat",
+      "texte": "LE RECUEIL A MAINTENANT DEUX BANCHAN DE DAIKON, ET ILS SONT OPPOSÉS EXPRÈS. Le 무생채 musaengchae (R83) est CRU, salé puis rincé, au gochugaru et au vinaigre : croquant, rouge, acide, piquant. Celui-ci est ÉTUVÉ, sans piment ni vinaigre : fondant, blanc, doux. MÊME RACINE, DEUX PLATS QUI NE SE REMPLACENT PAS.\n\nLE RÔLE DU DOUX DANS UNE TABLE CORÉENNE EST STRUCTUREL, PAS UN MANQUE D'AUDACE. Quand le plat principal est un jjigae au gochujang ou un porc au piment, c'est ce banchan-là qui permet de continuer à manger. Une table de cinq banchan tous épicés sature la bouche en trois bouchées.\n\nET C'EST LE MEILLEUR DÉBOUCHÉ DU RECUEIL POUR UN DAIKON QUI TRAÎNE, avec R81 et R83. Un daikon entier est trop gros pour deux personnes — le registre du dossier a un problème récurrent avec cet ingrédient. CINQ CENTS GRAMMES ICI, CINQ CENTS DANS LA SOUPE DE BŒUF : un daikon entier part en deux plats."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "b4Loq4mz9p4",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R83",
+    "R81"
+  ],
+  "commentaire_source": ""
+}

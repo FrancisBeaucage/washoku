@@ -1,0 +1,165 @@
+{
+  "id": "R98",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant",
+    "soyeux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "ragout-au-doenjang-doenjang-jjigae",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "된장찌개",
+  "lecture_origine": "doenjang jjigae",
+  "langue_origine": "ko",
+  "fr": "Ragoût au doenjang (doenjang jjigae)",
+  "sous_titre": "À pleine dose, un bol de ce ragoût porte la moitié du plafond de sodium de la journée. À une cuillère à soupe pour deux portions et un umami rebâti au champignon, c'est le même plat.",
+  "portions": "3",
+  "temps_affiche": "≈ 28 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 18,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 24,
+    "proteines_affiche": "24 g",
+    "calories": 290,
+    "calories_affiche": "≈ 290",
+    "lipides_g": 12,
+    "sodium_mg": 700,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "700 ml d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de doenjang pour DEUX portions, soit 1,5 c. à soupe pour trois. PAS UNE PAR PERSONNE.",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "5 shiitake séchés réhydratés, coupés, ET LEUR EAU DE TREMPAGE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif mais recommandé : 8 gros anchois séchés + 1 morceau de kombu de 5 cm, retirés après 10 min",
+      "sante": true,
+      "sante_pos": 71
+    },
+    {
+      "texte": "200 g de porc maigre en dés, OU 200 g de bœuf maigre, OU rien",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 g de tofu ferme ou mi-ferme en cubes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 courgette en demi-lunes, 1 pomme de terre moyenne en cubes de 2 cm, 1/2 oignon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 gousses d'ail, 1 c. à thé de gochugaru",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 oignons verts, 1 piment vert si on veut",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "⚠️ AUCUNE sauce soya, AUCUN sel",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Le bouillon d'abord si on le fait : anchois et kombu dans l'eau froide, KOMBU RETIRÉ AUX PREMIÈRES BULLES, anchois 10 minutes puis retirés."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter l'eau de trempage des champignons."
+    },
+    {
+      "n": 3,
+      "texte": "DÉLAYER LE DOENJANG DANS UNE LOUCHE DE LIQUIDE CHAUD, HORS DE LA CASSEROLE, puis l'incorporer."
+    },
+    {
+      "n": 4,
+      "texte": "La pomme de terre et l'oignon, 8 minutes — c'est le légume le plus long."
+    },
+    {
+      "n": 5,
+      "texte": "Le porc, l'ail, les champignons, le gochugaru, 5 minutes."
+    },
+    {
+      "n": 6,
+      "texte": "La courgette et le tofu, 4 minutes, sans brasser."
+    },
+    {
+      "n": 7,
+      "texte": "GOÛTER, ET RÉSISTER. Oignons verts et piment hors du feu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "🔴 Une cuillère à soupe par personne, c’est la moitié du plafond de la journée",
+      "texte": "LE CALCUL, ET IL EST LA RAISON D'ÊTRE DE CETTE FICHE. Le doenjang porte de l'ordre de 1 200 mg de sodium par cuillère à soupe. LA DOSE TRADITIONNELLE EST D'ENVIRON UNE CUILLÈRE PAR PERSONNE : DE 1 100 À 1 300 MG PAR BOL, SOIT LA MOITIÉ DU PLAFOND QUOTIDIEN DE 2 300 MG, DANS UN PLAT QUI N'EST MÊME PAS CENSÉ ÊTRE LE SEUL DU REPAS.\n\nL'AJUSTEMENT EST OBLIGATOIRE ET IL EST DE MOITIÉ : UNE CUILLÈRE À SOUPE POUR DEUX PORTIONS. Ce n'est pas une préférence, c'est ce qui décide si ce plat peut exister au répertoire ou non.\n\nET L'UMAMI PERDU SE REBÂTIT, POSTE PAR POSTE. LES SHIITAKE SÉCHÉS ET LEUR EAU DE TREMPAGE apportent du guanylate, qui est un exhausteur d'umami distinct du glutamate du doenjang et qui agit en synergie avec lui. LE BOUILLON D'ANCHOIS-KOMBU apporte de l'inosinate et du glutamate. LA POMME DE TERRE libère de l'amidon qui donne au bouillon un corps que la concentration de pâte donnait avant. LE GOCHUGARU occupe la bouche à zéro sodium.\n\n⚠️ ET AUCUNE SAUCE SOYA. C'est le réflexe qui annule tout : ajouter une cuillère à soupe de soya pour « relever » remet 500 mg et ramène le plat à son point de départ. SI ÇA GOÛTE PLAT, C'EST QUE LES CHAMPIGNONS MANQUENT, PAS LE SEL."
+    },
+    {
+      "titre": "Le guk et le jjigae, et lequel se fait quand",
+      "texte": "LE RECUEIL PORTE MAINTENANT LES DEUX FORMES DU MÊME GOÛT, ET C'EST VOULU. R95, LE 배추된장국, EST LA VERSION SOUPE : une cuillère et demie de doenjang dans un litre, environ 450 mg par bol. CELLE-CI EST LA VERSION RAGOÛT : la même pâte dans deux fois moins de liquide, avec de la viande, de la pomme de terre et du tofu, environ 700 mg.\n\nLA RÈGLE EST DONC CELLE-CI : LE GUK EST LA VERSION DE SEMAINE, LE JJIGAE CELLE DE FIN DE SEMAINE. Un guk accompagne un repas et se boit; un jjigae EST le repas et se mange avec du riz. Écarter le jjigae aurait été plus simple et faux — c'est le troisième plat le plus mangé en Corée, et un recueil qui l'ignore mentirait sur ce qu'est cette cuisine.\n\nET C'EST L'UN DES DEUX SEULS PLATS DU RECUEIL DONT LA FICHE PORTE UN AJUSTEMENT OBLIGATOIRE, avec R97. LES DEUX SONT LES PLATS CORÉENS LES PLUS MANGÉS À LA MAISON, ET LES DEUX SONT LES PIRES POUR LE SODIUM. Ce n'est pas une coïncidence : ce sont des plats de pâte fermentée, et la pâte fermentée est du sel qui a produit du goût."
+    },
+    {
+      "titre": "La vidéo montre les doses traditionnelles, que cette fiche corrige de moitié",
+      "texte": "LA DÉMONSTRATION DE MAANGCHI EST LA VERSION TRADITIONNELLE, ET SES DOSES DE DOENJANG SONT EXACTEMENT CELLES QUE CETTE FICHE CORRIGE. Le geste est le bon — délayer la pâte hors de la casserole, monter les légumes du plus long au plus court — et c'est pour ça qu'elle est ici.\n\n⚠️ NE PAS MESURER D'APRÈS LA VIDÉO. L'ajustement de cette fiche n'est pas facultatif : UNE CUILLÈRE À SOUPE DE DOENJANG POUR DEUX PORTIONS, jamais une par personne. C'est la seule ligne de la recette qu'il ne faut pas prendre ailleurs."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "Slj_fM1jQVo",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R95",
+    "R97"
+  ],
+  "commentaire_source": ""
+}

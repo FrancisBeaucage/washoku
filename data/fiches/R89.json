@@ -1,0 +1,140 @@
+{
+  "id": "R89",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "ferme",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "tofu-braise-au-soya-dubu-jorim",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "두부조림",
+  "lecture_origine": "dubu jorim",
+  "langue_origine": "ko",
+  "fr": "Tofu braisé au soya (dubu jorim)",
+  "sous_titre": "Le seul banchan du recueil qui porte dix grammes de protéines SANS VIANDE et se garde cinq jours. Le tofu se dore avant d'être braisé, jamais l'inverse.",
+  "portions": "4",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 18,
+    "attente": 2
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 10,
+    "proteines_affiche": "10 g",
+    "calories": 130,
+    "calories_affiche": "≈ 130",
+    "lipides_g": 7,
+    "sodium_mg": 260,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "450 g de tofu ferme ou extra-ferme, en tranches de 1,5 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE, prémélangée au bol (T18) : 1,5 c. à soupe de sauce soya réduite en sodium · 4 c. à soupe d'eau · 1 c. à thé de sucre · 2 gousses d'ail râpées · 1/2 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 oignon en lamelles, 2 oignons verts en tronçons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de gochugaru pour la version pimentée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Graines de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Éponger les tranches de tofu au papier absorbant, des deux côtés. UNE SURFACE HUMIDE NE DORE PAS."
+    },
+    {
+      "n": 2,
+      "texte": "Mélanger la sauce au bol avant d’allumer."
+    },
+    {
+      "n": 3,
+      "texte": "Poêle antiadhésive à feu moyen-vif avec l'huile. Les tranches en une couche, SANS Y TOUCHER 4 minutes. Retourner, 3 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "Baisser le feu. Répartir l'oignon autour, verser la sauce."
+    },
+    {
+      "n": 5,
+      "texte": "Braiser À DÉCOUVERT 8 à 10 minutes, en arrosant les tranches à la cuillère deux ou trois fois. Le liquide réduit jusqu’à napper."
+    },
+    {
+      "n": 6,
+      "texte": "Oignons verts et sésame hors du feu. Se mange chaud, tiède ou froid."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Dorer d'abord, et pourquoi l'ordre n'est pas négociable",
+      "texte": "UN TOFU MIS DIRECTEMENT DANS UNE SAUCE RESTE PÂLE ET SPONGIEUX, ET IL SE DÉFAIT. Le passage à la poêle fait deux choses qu'aucune autre étape ne fait : il colore la surface par réaction de Maillard, ce qui apporte le goût grillé, et il forme une pellicule qui TIENT la tranche pendant le braisage. C'est la même logique que le tempé de R80.\n\nLE BRAISAGE SE FAIT À DÉCOUVERT, ET C'EST CE QUI DISTINGUE UN JORIM D'UN RAGOÛT. 조림 JORIM veut dire réduit : le liquide doit descendre jusqu'à napper. Couvert, il ne réduit pas, et on obtient du tofu qui baigne dans une sauce diluée.\n\nLE SODIUM EST DÉJÀ AJUSTÉ ET IL FAUT LE SAVOIR : une cuillère et demie de soya réduit pour quatre portions, allongée de quatre cuillères d'eau. LES RECETTES COURANTES EN METTENT LE DOUBLE, sans eau. À 260 mg par portion, ce plat reste un banchan; à 500, il devient le poste sodique du repas pour un plat d'accompagnement.\n\nET C'EST LE BANCHAN À CHOISIR QUAND LA JOURNÉE EST COURTE EN PROTÉINES. Dix grammes dans un petit bol, sans cuisson de viande, et il se garde 4 à 5 jours — c'est le complément de R77 et de R82 dans la session du dimanche."
+    },
+    {
+      "titre": "La vidéo montre la version pimentée, la fiche est la version douce",
+      "texte": "LA DÉMONSTRATION DE MAANGCHI EST UN 두부조림 AU GOCHUGARU, FRANCHEMENT ROUGE. CETTE FICHE EST LA VERSION AU SOYA, SANS PIMENT. Le geste est identique — poêler les tranches, puis braiser à découvert en arrosant — et c'est exactement ce qu'on veut voir.\n\n⚠️ NE PAS PRENDRE LES DOSES DE LA VIDÉO. Elles sont celles de la version courante, sans l'allongement à l'eau qui fait descendre ce plat à 260 mg par portion. Le gochugaru facultatif de la liste rapproche du plat filmé sans rien ajouter au sodium."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "ob2CYmTx9PM",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R80",
+    "R77"
+  ],
+  "commentaire_source": ""
+}

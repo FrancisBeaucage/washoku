@@ -2,7 +2,7 @@
   "site": "washoku",
   "version_schema": "1.0",
   "derniere_maj": "2026-08-19",
-  "dernier_document_applique": 24,
+  "dernier_document_applique": 25,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
@@ -19,8 +19,8 @@
       "nom": "guide-2-fiches.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-2-fiches.json",
       "description": "Techniques et recettes du guide 2",
-      "nb_entrees": 107,
-      "nb_actives": 107
+      "nb_entrees": 122,
+      "nb_actives": 122
     },
     {
       "nom": "guide-3-ingredients.json",
@@ -89,8 +89,8 @@
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 24,
-      "nb_actives": 24
+      "nb_entrees": 25,
+      "nb_actives": 25
     },
     {
       "nom": "rayons.json",
@@ -110,21 +110,21 @@
       "nom": "index.json",
       "url": "https://francisbeaucage.github.io/washoku/data/index.json",
       "description": "Index compact des fiches : de quoi choisir, filtrer et rendre une carte, sans charger le recueil",
-      "nb_entrees": 107,
-      "nb_actives": 107
+      "nb_entrees": 122,
+      "nb_actives": 122
     },
     {
       "nom": "fiches/<ID>.json",
       "url": "https://francisbeaucage.github.io/washoku/data/fiches/",
       "description": "Une fiche par fichier, identique à son entrée du recueil. Adresse exacte dans index.json",
-      "nb_entrees": 107,
-      "nb_actives": 107
+      "nb_entrees": 122,
+      "nb_actives": 122
     }
   ],
   "compteurs": {
     "techniques": 24,
-    "recettes": 83,
-    "fiches_actives": 107,
+    "recettes": 98,
+    "fiches_actives": 122,
     "fiches_retirees": 0
   },
   "ensembles_fermes": {
