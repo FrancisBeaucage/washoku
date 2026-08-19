@@ -483,12 +483,30 @@ vietnamien ou en indonésien. Le document 23 ajoute donc deux champs au guide 2 
 l'information créerait deux sources pour un même fait, et la **règle 25** le
 refuse.
 
-⚠️ **L'état est transitoire et il est connu.** Dix-sept des 79 fiches d'origine
-portent encore du non-japonais dans `jp`. Leur migration n'est **pas mécanique** :
-sept portent une écriture native (`T5`, `R25`, `R26`, `R29`, `R30`, `R35`, `R39`)
-et dix portent un vrai nom JAPONAIS d'un plat étranger — 韓国風丼, ブンチャー,
-牛肉とブロッコリー — qui appartient légitimement à `jp`. Trier les deux demande un
-jugement par fiche, donc une table dans un document, pas une règle.
+**L'état transitoire est réglé depuis le document 28.** Dix-sept des 79 fiches
+d'origine portaient du non-japonais dans `jp`, et le tri n'était pas mécanique :
+il a demandé une table dans un document, pas une règle. Il y avait **trois cas**,
+là où le compte rendu du document 23 n'en voyait que deux.
+
+| Cas | Fiches | Ce qui a été fait |
+|---|---|---|
+| Écriture native dans `jp` | `T5`, `R25`, `R26`, `R29`, `R30`, `R35`, `R39` | migrées vers la paire d'origine |
+| Transcription katakana d'un nom étranger | `R18`, `R23`, `R27`, `R28`, `R64` | **remplacées** par l'écriture native — `ビビンバ` → `비빔밥` |
+| Vrai nom japonais d'un plat d'ailleurs | `R5`, `R17`, `R31`, `R36`, `R41` | laissées dans `jp`, où elles sont chez elles |
+
+⚠️ **Le test qui sépare les deux derniers cas, et qui vaut pour toute fiche
+future** : *est-ce que quelqu'un, en japonais, appellerait ce plat autrement s'il
+avait à le décrire?* Un nom descriptif — 牛肉とブロッコリー, « bœuf et brocoli » —
+est une construction japonaise et appartient à `jp`. **Un mot étranger passé par
+les katakana n'est pas un nom japonais : c'est un emprunt phonétique, et le nom
+d'origine est ailleurs.** Le laisser dans `jp` affirme que le plat porte un nom
+japonais; le déplacer tel quel dans `nom_origine` affirme qu'il s'écrit en
+katakana. Les deux sont faux — il faut aller chercher l'écriture native.
+
+Les lectures approximées en français que `jp_lecture` portait sur ces douze
+fiches (« souane la tang », « tome youme koung ») ont disparu avec la migration :
+`lecture_origine` porte la romanisation de la langue — pinyin, romanisation
+révisée du coréen, RTGS thaï — et non une prononciation figurée.
 
 `langue_origine` (`ja` · `zh` · `ko` · `vi` · `th` · `lo` · `id` · `aucune`) dit à
 l'affichage quelle graphie montrer. Au guide 2, son défaut se déduit de `cuisine`,
@@ -569,6 +587,16 @@ Trois conséquences :
   défaut.
 - **La page le dit à l'écran** : « les étoiles et le statut sont l'avis de
   Francis, pas une propriété du plat ». Une étoile est l'avis de quelqu'un.
+
+⚠️ **`{}` et `a-l-essai` ne disent pas la même chose, et l'arbitrage a changé de
+camp deux fois.** `{}` dit « personne ne s'est prononcé »; `a-l-essai` dit « c'est
+un candidat que le dossier propose ». Le document 24 tenait la distinction pour
+non soutenue et remettait les fiches neuves à `{}`; **le document 28 l'a tranchée
+dans l'autre sens** et les trente-six fiches des documents 25 à 27 — `R84` à
+`R118` et `T24` — portent `a-l-essai` pour le lecteur courant. **Rien ne change à
+l'écran** dans un cas comme dans l'autre, puisqu'un avis absent se lit déjà
+`a-l-essai` : ce qui change est ce que la donnée prétend. Les 107 fiches
+antérieures restent à `{}`, ce que le document 28 ne demande pas de corriger.
 
 ⚠️ **`statut_perso` n'est PAS `statut`, et c'est la distinction la plus importante
 du schéma.** `statut` juge l'exactitude de la fiche : `retiré` veut dire que ce

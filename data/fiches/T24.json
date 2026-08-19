@@ -117,7 +117,9 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {},
+  "statut_perso": {
+    "francis": "a-l-essai"
+  },
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

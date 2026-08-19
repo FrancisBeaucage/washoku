@@ -601,11 +601,11 @@
       "souper"
     ],
     "slug": "le-veloute-velveting",
-    "jp": "上漿",
-    "jp_lecture": "tchang djiang",
-    "romaji": "velveting",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "上漿",
+    "lecture_origine": "shàng jiāng",
     "langue_origine": "zh",
     "fr": "Le velouté (velveting)",
     "sous_titre": "Shàng jiāng, « appliquer une pâte ». Rend les coupes maigres et bon marché aussi tendres que les coupes grasses. Technique chinoise, pas japonaise — mais elle s'applique à toute viande tranchée mince destinée à un sauté ou à une soupe. Deux versions, qui n'ont ni le même mécanisme ni les mêmes conséquences sur le sodium.",
@@ -5517,10 +5517,10 @@
       "souper"
     ],
     "slug": "bun-cha-vietnamien-en-bol",
-    "jp": "ブンチャー",
-    "jp_lecture": "boune tcha",
-    "romaji": "bún chả",
-    "nom_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "bún chả",
     "lecture_origine": null,
     "langue_origine": "vi",
     "fr": "Bun cha vietnamien en bol",
@@ -6268,11 +6268,11 @@
       "souper"
     ],
     "slug": "bibimbap-a-ratio-inverse",
-    "jp": "ビビンバ",
-    "jp_lecture": "bi-bime-bap",
-    "romaji": "bibimbap",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "비빔밥",
+    "lecture_origine": "bibimbap",
     "langue_origine": "ko",
     "fr": "Bibimbap à ratio inversé",
     "sous_titre": "Un petit bol de riz pour quatre tasses de légumes. Chaque légume prend 3 minutes — préparez-les le dimanche, l'assemblage prend 5 minutes en semaine.",
@@ -6531,11 +6531,11 @@
       "souper"
     ],
     "slug": "soupe-aigre-piquante",
-    "jp": "酸辣湯",
-    "jp_lecture": "souane la tang",
-    "romaji": "suān là tāng",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "酸辣湯",
+    "lecture_origine": "suān là tāng",
     "langue_origine": "zh",
     "fr": "Soupe aigre-piquante",
     "sous_titre": "Le piquant vient du poivre blanc, pas du piment. Goûter et ajuster : ça doit piquer et être franchement acide.",
@@ -6648,11 +6648,11 @@
       "souper"
     ],
     "slug": "mapo-tofu-allege",
-    "jp": "麻婆豆腐",
-    "jp_lecture": "ma-po dow-fou",
-    "romaji": "mápó dòufu",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "麻婆豆腐",
+    "lecture_origine": "mápó dòufu",
     "langue_origine": "zh",
     "fr": "Mapo tofu allégé",
     "sous_titre": "600 g de tofu, 200 g de porc au lieu des 400 habituels. Le tofu porte le plat, le porc n'est plus qu'un assaisonnement.",
@@ -6770,11 +6770,11 @@
       "souper"
     ],
     "slug": "tom-yum-aux-crevettes",
-    "jp": "トムヤムクン",
-    "jp_lecture": "tome youme koung",
-    "romaji": "tom yum kung",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ต้มยำกุ้ง",
+    "lecture_origine": "tom yam kung",
     "langue_origine": "th",
     "fr": "Tom yum aux crevettes",
     "sous_titre": "Bouillon clair, aromates, acidité. Le lait de coco est facultatif — et sans lui, c'est une soupe-repas à 260 calories.",
@@ -6901,11 +6901,11 @@
       "souper"
     ],
     "slug": "tom-kha-gai-allege",
-    "jp": "トムカーガイ",
-    "jp_lecture": "tome ka gaï",
-    "romaji": "tom kha gai",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ต้มข่าไก่",
+    "lecture_origine": "tom kha kai",
     "langue_origine": "th",
     "fr": "Tom kha gai allégé",
     "sous_titre": "Au lait de coco léger, jamais bouilli — sinon il tranche.",
@@ -7008,11 +7008,11 @@
       "souper"
     ],
     "slug": "sundubu-jjigae",
-    "jp": "순두부찌개",
-    "jp_lecture": "soune-dou-bou tchi-gué",
-    "romaji": "sundubu jjigae",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "순두부찌개",
+    "lecture_origine": "sundubu jjigae",
     "langue_origine": "ko",
     "fr": "Sundubu jjigae",
     "sous_titre": "Un ragoût bouillant au tofu soyeux. L'œuf se casse dans le bol au service, pas dans la casserole.",
@@ -7129,11 +7129,11 @@
       "souper"
     ],
     "slug": "yukgaejang-simplifie",
-    "jp": "육개장",
-    "jp_lecture": "youk-gué-djang",
-    "romaji": "yukgaejang",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "육개장",
+    "lecture_origine": "yukgaejang",
     "langue_origine": "ko",
     "fr": "Yukgaejang simplifié",
     "sous_titre": "Bœuf effiloché, gochugaru, deux tasses de fèves germées. La couleur rouge vient de l'huile infusée, pas du piquant.",
@@ -7725,11 +7725,11 @@
       "souper"
     ],
     "slug": "poisson-vapeur-cantonais",
-    "jp": "清蒸魚",
-    "jp_lecture": "tching-djeng you",
-    "romaji": "qīngzhēng yú",
-    "nom_origine": null,
-    "lecture_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "清蒸魚",
+    "lecture_origine": "qīngzhēng yú",
     "langue_origine": "zh",
     "fr": "Poisson vapeur cantonais",
     "sous_titre": "Le plat le plus élégant du répertoire chinois. Le geste central est l'huile fumante versée sur les aromates.",
@@ -8199,10 +8199,10 @@
       "souper"
     ],
     "slug": "canh-vietnamienne",
-    "jp": "canh",
-    "jp_lecture": "kang",
-    "romaji": "canh",
-    "nom_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "canh",
     "lecture_origine": null,
     "langue_origine": "vi",
     "fr": "Canh vietnamienne",
@@ -11030,10 +11030,10 @@
       "souper"
     ],
     "slug": "galettes-de-patate-douce-et-crevettes-en-feuille-de-laitue",
-    "jp": "バインタム",
-    "jp_lecture": "bain tomme",
-    "romaji": "bánh tôm",
-    "nom_origine": null,
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "bánh tôm",
     "lecture_origine": null,
     "langue_origine": "vi",
     "fr": "Galettes de patate douce et crevettes en feuille de laitue",
@@ -13647,7 +13647,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -13783,7 +13785,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -13903,7 +13907,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14034,7 +14040,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14166,7 +14174,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14306,7 +14316,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14416,7 +14428,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14456,7 +14470,7 @@
     "jp": null,
     "jp_lecture": null,
     "romaji": null,
-    "nom_origine": "김",
+    "nom_origine": "김구이",
     "lecture_origine": "gim gui",
     "langue_origine": "ko",
     "fr": "Nori grillé à la maison (gim gui)",
@@ -14538,7 +14552,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14675,7 +14691,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14809,7 +14827,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14948,7 +14968,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15090,7 +15112,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15228,7 +15252,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15382,7 +15408,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15547,7 +15575,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15680,7 +15710,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15810,7 +15842,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15944,7 +15978,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16079,7 +16115,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16219,7 +16257,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16353,7 +16393,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16493,7 +16535,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16649,7 +16693,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16783,7 +16829,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16927,7 +16975,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17073,7 +17123,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17228,7 +17280,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17385,7 +17439,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17539,7 +17595,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17705,7 +17763,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17879,7 +17939,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18054,7 +18116,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "lourd",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18220,7 +18284,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18360,7 +18426,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18528,7 +18596,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18665,7 +18735,9 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {},
+    "statut_perso": {
+      "francis": "a-l-essai"
+    },
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,

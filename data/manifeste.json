@@ -2,7 +2,7 @@
   "site": "washoku",
   "version_schema": "1.0",
   "derniere_maj": "2026-08-19",
-  "dernier_document_applique": 27,
+  "dernier_document_applique": 28,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
@@ -89,8 +89,8 @@
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 27,
-      "nb_actives": 27
+      "nb_entrees": 28,
+      "nb_actives": 28
     },
     {
       "nom": "rayons.json",
