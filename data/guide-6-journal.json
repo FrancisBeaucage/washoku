@@ -1,5 +1,143 @@
 [
   {
+    "id": "K-2026-08-18-journee",
+    "statut": "actif",
+    "date": "2026-08-18",
+    "repas": "journee",
+    "entete": "18 août 2026 · Journée",
+    "titre": "Le mou et le croquant",
+    "plats": [
+      "R33",
+      "R44",
+      "R9",
+      "R65",
+      "R46",
+      "R55",
+      "T2",
+      "T6",
+      "T1"
+    ],
+    "plats_libelles": {
+      "R33": "soupe miso au saumon",
+      "R44": "goma-ae",
+      "R9": "donburi de restes",
+      "R65": "shōgayaki",
+      "R46": "kinpira",
+      "R55": "yogourt grec",
+      "T2": "dashi",
+      "T6": "blanchiment",
+      "T1": "riz"
+    },
+    "fiches_corrigees": [
+      "R44",
+      "R33",
+      "R27"
+    ],
+    "resume": "Trois plats, une seule leçon&nbsp;: ce que j'aime tient à la texture avant le goût.",
+    "photos": [],
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "h5",
+        "texte": "Ce que la texture décide",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "J'ai compris quelque chose ce soir que je n'avais pas su dire en une semaine et demie de cuisine. Ce que j'aime ou pas, ça ne se joue presque jamais sur le goût. Ça se joue sur ce que ça fait sous la dent."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Le goma-ae, j'en ai mangé le quart. Ce n'est pas la sauce — la sauce au sésame est bonne, je le sais, j'en avais goûté à la cuillère. C'est le chou blanchi. Mou, ramolli, sans résistance. Et en y repensant, tout ce que j'ai vraiment aimé depuis le début est croquant&nbsp;: le chou vert cru d'hier soir mélangé à la sauce du porc, le shichimi qui craque un peu, les crevettes, même la julienne du kinpira dont je trouve la coupe trop longue. Et tout ce que j'ai écarté est mou ou aqueux&nbsp;: les shimeji, le concombre, le chou blanchi de ce soir. Ce n'est pas une liste de goûts, c'est une liste de textures, et je ne l'avais pas vue."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Ce qui me dérange, c'est que j'ai peut-être condamné le goma-ae pour rien. On m'a fait remarquer que mon bol était presque juste des côtes pâles de nappa — la partie la plus épaisse, la plus mouillée, celle qui ramollit le plus. C'est le pire morceau du légume dans le pire traitement. Ce n'est pas un verdict sur le plat, c'est un verdict sur ce bol-là. Je vais le refaire avec des haricots verts avant de dire quoi que ce soit."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "h5",
+        "texte": "Deux lectures du même bol",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "La soupe, c'était un autre genre de leçon. Ma belle-sœur a vraiment aimé ça, assez pour rapporter un reste pour son dîner. Moi je la mettrais à trois sur cinq. Le dashi était correct, le miso était bien dosé, le poisson n'était pas raté — et j'avais quand même l'impression qu'il manquait quelque chose. Maintenant je pense savoir quoi&nbsp;: rien ne résistait. Poisson poché, tofu, edamames, wakame, tout tendre. Un bol comme ça se laisse manger sans jamais me réveiller."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Elle a dit autre chose qui me reste, et ce n'était pas sur le goût&nbsp;: elle trouvait qu'il y avait énormément d'étapes, et elle n'était pas sûre d'avoir le temps de faire ça avec deux jeunes enfants. Elle a raison, et le total en minutes ne le montre pas. Ce n'est pas la durée qui décide quand on cuisine avec des interruptions, c'est le nombre de fois qu'il faut revenir. Ça vaut pour elle et ça va finir par valoir pour moi les soirs chargés."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "h5",
+        "texte": "Trois étiquettes",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Le reste de la journée m'a donné deux chiffres que je préfère avoir appris maintenant. Mes crevettes ne sont pas ce que je croyais&nbsp;: sel et phosphate de sodium dans les ingrédients, 730 milligrammes par 125 grammes. C'était écrit sur le sac depuis le début, personne ne l'avait lu, et trois repas de ma semaine sont bâtis dessus. Le tom yum de vendredi, aux doses de la fiche, ferait un bol et demi de mon plafond de sodium de la journée entière. On l'a refait. Et le yogourt que j'avais mis au dossier à 5 grammes de sucre en fait 3 — la première valeur venait d'une photo de tablette, pas du pot que j'ai acheté. Trois fois cette semaine, une estimation s'est fait passer pour une lecture. Je commence à comprendre pourquoi la règle du dossier est aussi raide là-dessus."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Le bloc de saumon, par contre, ça s'est bien passé. Un kilo cent, encore dur, coupé à la scie avec le couteau à pain sur un linge, la main derrière le trait. Trois cent dix-huit grammes dans la soupe et quatre portions propres au congélateur. Il y a un mois, je ne l'aurais pas tenté."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "h5",
+        "texte": "Ce qui change",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "liste",
+        "ordonnee": false,
+        "classe": "l",
+        "elements": [
+          {
+            "texte": "<strong>La texture du légume décide du goma-ae</strong>, et un bol de côtes de chou nappa est son pire cas. Séparer les côtes des feuilles, viser au moins la moitié de vert par bol. → <a href=\"guide-2-recettes.html#R44\"><em>R44</em></a>"
+          },
+          {
+            "texte": "<strong>Un bol où tout est tendre se lit comme incomplet même quand il est bon.</strong> Trois garnitures à contraste, à zéro sodium — et le plat se compte en nombre de gestes, pas en minutes. → <a href=\"guide-2-recettes.html#R33\"><em>R33</em></a>"
+          },
+          {
+            "texte": "<strong>Les doses de la fiche portent environ 3 500 mg de sodium par bol</strong>, une fois et demie le plafond d'une journée. Version allégée en quatre gestes, compensée à l'acide et à l'aromatique. → <a href=\"guide-2-recettes.html#R27\"><em>R27</em></a>"
+          },
+          {
+            "texte": "<strong>Les crevettes crues décortiquées portent 730 mg de sodium par 125 g</strong>, lu sur l'étiquette. Le dossier affirmait «&nbsp;quasi zéro sodium ajouté&nbsp;». → <a href=\"guide-3-supermarche.html#crevettes-crues\"><em>Crevettes crues</em></a>"
+          },
+          {
+            "texte": "<strong>Le yogourt grec porte 3 g de sucres par 115 g et non 5.</strong> Une photo de tablette n'est pas une étiquette lue. → <a href=\"guide-3-supermarche.html#yogourt-grec\"><em>Yogourt grec</em></a>"
+          },
+          {
+            "texte": "<strong>Les sept ingrédients du shichimi ont été relus sur le pot, et il n'y a aucun sel&nbsp;:</strong> la question ouverte est fermée par l'affirmative. → <a href=\"guide-2-recettes.html#yakumi\"><em>Annexe des yakumi</em></a>"
+          },
+          {
+            "texte": "<strong>Le mirin de la maison ne porte que 5 mg de sodium par cuillère à soupe.</strong> L'avertissement du dossier sur son sel était faux; le vrai sujet est ses 6 g de sucres. → <a href=\"guide-3-supermarche.html#mirin\"><em>Mirin</em></a>"
+          }
+        ]
+      }
+    ],
+    "commentaire_source": "Entrée 18 août — journée"
+  },
+  {
     "id": "K-2026-08-17-journee",
     "statut": "actif",
     "date": "2026-08-17",

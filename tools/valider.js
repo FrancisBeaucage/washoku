@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 'use strict';
-/* Les neuf règles du document 7 §9, plus les règles 10 à 15 des documents 8 et
-   9. Chacune correspond à une erreur réellement survenue ; le but est qu'elle ne
-   puisse plus passer inaperçue. Sortie non nulle dès qu'une règle échoue. */
+/* Les neuf règles du document 7 §9, plus les règles 10 à 21 des documents
+   suivants. Chacune correspond à une erreur réellement survenue ; le but est
+   qu'elle ne puisse plus passer inaperçue. Sortie non nulle dès qu'une règle
+   échoue. */
 
 const fs = require('fs');
 const path = require('path');
@@ -187,6 +188,13 @@ for (const f of fiches) {
     if (typeof texte !== 'string') continue;
     if (texte.includes('<')) forme.push(`${f.id} → ${ou} : « < » interdit dans une fiche`);
     if (texte.includes('**')) forme.push(`${f.id} → ${ou} : « ** » ne se rend pas`);
+    /* Le contrat de paragraphes du document 19 (S6) : les champs texte du
+       guide 2 acceptent plusieurs paragraphes, séparés par DEUX sauts de ligne
+       et rien d'autre. Un saut simple ne se rend pas — il se replie en espace
+       dans le HTML — et c'est exactement le genre de mise en forme muette que
+       cette règle existe pour refuser. */
+    if (/(^|[^\n])\n(?!\n)/.test(texte)) forme.push(`${f.id} → ${ou} : saut de ligne simple ; un paragraphe se sépare par DEUX sauts`);
+    if (texte !== texte.trim()) forme.push(`${f.id} → ${ou} : blanc en tête ou en queue`);
   }
 }
 for (const [nom, contenu] of [['guide 6', journal], ['annexes', annexes], ['guide 5', plan && plan.sections]]) {
@@ -387,18 +395,50 @@ for (const t of ensembles.table()) {
   if (!source) { fermes.push(`${t.fichier} : aucune donnée chargée pour ce fichier`); continue; }
   const permis = new Set(t.permis);
   const attendu = t.permis.join(', ') + (t.nul ? ', null' : '');
+  const forme = t.forme || 'valeur';
   for (const entree of source.entrees || []) {
     const valeur = suivre(entree, t.champ);
+    const ou = `${t.fichier} → ${source.ou(entree)}.${t.champ}`;
+
+    /* `liste` : un tableau de valeurs de l'ensemble, la dominante en premier.
+       Un tableau vide est le cas normal d'un champ pas encore rempli. */
+    if (forme === 'liste') {
+      if (valeur === undefined) { fermes.push(`${ou} : champ absent ; un tableau est attendu`); continue; }
+      if (!Array.isArray(valeur)) { fermes.push(`${ou} = ${JSON.stringify(valeur)} ; un tableau est attendu`); continue; }
+      for (const v of valeur) if (!permis.has(v)) fermes.push(`${ou} contient ${JSON.stringify(v)} ; permis : ${attendu}`);
+      continue;
+    }
+
+    /* `par-lecteur` : un objet dont les CLÉS sont des lecteurs. C'est ce qui
+       permet à un plat de valoir 2 étoiles pour l'un et 5 pour l'autre sans que
+       le schéma impose le goût d'un lecteur à tous. Objet vide = personne ne
+       s'est encore prononcé. */
+    if (forme === 'par-lecteur') {
+      if (valeur === undefined) { fermes.push(`${ou} : champ absent ; un objet par lecteur est attendu`); continue; }
+      if (valeur === null || typeof valeur !== 'object' || Array.isArray(valeur)) {
+        fermes.push(`${ou} = ${JSON.stringify(valeur)} ; un objet par lecteur est attendu`);
+        continue;
+      }
+      for (const [lecteur, v] of Object.entries(valeur)) {
+        if (v == null && t.nul) continue;
+        if (!permis.has(v)) fermes.push(`${ou}.${lecteur} = ${JSON.stringify(v)} ; permis : ${attendu}`);
+      }
+      continue;
+    }
+
     if (valeur == null && t.nul) continue;
     if (permis.has(valeur)) continue;
     const vue = valeur === undefined ? '(absent)' : JSON.stringify(valeur);
-    fermes.push(`${t.fichier} → ${source.ou(entree)}.${t.champ} = ${vue} ; permis : ${attendu}`);
+    fermes.push(`${ou} = ${vue} ; permis : ${attendu}`);
   }
 }
 if (manifeste) {
   const publie = JSON.stringify(manifeste.ensembles_fermes || null);
   if (publie !== JSON.stringify(ensembles.parFichier())) {
     fermes.push('manifeste : ensembles_fermes ne correspond plus à la table — lancer `npm run generer`');
+  }
+  if (JSON.stringify(manifeste.formes_fermees || null) !== JSON.stringify(ensembles.formesParFichier())) {
+    fermes.push('manifeste : formes_fermees ne correspond plus à la table — lancer `npm run generer`');
   }
 }
 regle(19, 'Tout champ à valeurs fermées tient dans son ensemble', fermes);
@@ -430,7 +470,12 @@ const orphelins = [];
 for (const src of SOURCES) {
   const chemin = path.join(DATA, `${src.cle}.json`);
   if (!fs.existsSync(chemin)) continue;
-  const declares = new Set([...(src.champs_hors_page || []), ...(src.champs_reconstitues || [])]);
+  const declares = [...(src.champs_hors_page || []), ...(src.champs_reconstitues || [])];
+  /* Un chemin déclaré couvre aussi ses descendants. Sans ça, `etoiles` ne
+     pourrait pas être déclaré : ses clés sont des NOMS DE LECTEURS, inconnus au
+     moment d'écrire la table. Et `nutrition` du guide 3 aurait demandé onze
+     déclarations pour un seul bloc. */
+  const couvert = (c) => declares.some((d) => c === d || c.startsWith(`${d}.`));
   const perdus = new Map();
   for (const o of lire(`${src.cle}.json`)) {
     let retour;
@@ -441,7 +486,7 @@ for (const src of SOURCES) {
       continue;
     }
     for (const c of feuilles(o)) {
-      if (declares.has(c)) continue;
+      if (couvert(c)) continue;
       if (JSON.stringify(suivre(o, c)) === JSON.stringify(suivre(retour, c))) continue;
       if (!perdus.has(c)) perdus.set(c, []);
       perdus.get(c).push(o.id);
@@ -453,6 +498,67 @@ for (const src of SOURCES) {
   }
 }
 regle(20, 'Aucun champ de /data ne se perd à la réextraction', orphelins);
+
+/* 21 — les trois obligations que le document 19 énonce en toutes lettres. Le
+   dossier a une histoire constante sur ce point : une obligation que rien ne
+   vérifie finit par être violée, et c'est toujours en silence. Les trois se
+   ressemblent — chacune interdit qu'un chiffre ou un jugement soit porté sans ce
+   qui le rend interprétable.
+
+   — S3 : `motif_statut` est OBLIGATOIRE quand `statut_perso` vaut `suspendu` ou
+     `ecarte`. Sans lui, on ne distingue pas « je n'aime pas ce plat » de « je
+     n'aime pas la façon dont je l'ai fait » — et c'est précisément la
+     distinction qui a manqué au shimeji, écarté après un second essai fait sans
+     la sauce soya ni le corps gras qui portent ses arômes.
+   — S5 : `nutrition.base` est OBLIGATOIRE dès qu'un chiffre est porté ; forcer
+     les 100 g sur une sauce de poisson donne un chiffre juste et inutilisable.
+     Et `nutrition.produit_lu` est OBLIGATOIRE quand la source est `etiquette` :
+     deux marques de sauce d'huîtres n'ont pas le même sodium, et un chiffre sans
+     son produit ne se vérifie ni ne se remplace.
+   — S8 : un temps de `temps_minutes` est un nombre, ou une fourchette
+     {min, max} avec min ≤ max. R56 portait deux méthodes de 40 à 75 minutes
+     sous un seul chiffre de 47, faux pour les deux. */
+const CHIFFRES_NUTRITION = ['calories', 'proteines_g', 'lipides_g', 'sodium_mg', 'sucres_g', 'calcium_mg', 'base_g'];
+const obligations = [];
+
+for (const f of fiches) {
+  const perso = f.statut_perso || {};
+  const motifs = f.motif_statut || {};
+  for (const [lecteur, valeur] of Object.entries(perso)) {
+    if (valeur !== 'suspendu' && valeur !== 'ecarte') continue;
+    if (!String(motifs[lecteur] || '').trim()) {
+      obligations.push(`${f.id} : statut_perso.${lecteur} = ${valeur} sans motif_statut.${lecteur}`);
+    }
+  }
+  for (const [cle, valeur] of Object.entries(f.temps_minutes || {})) {
+    if (typeof valeur === 'number') continue;
+    if (valeur && typeof valeur === 'object'
+      && typeof valeur.min === 'number' && typeof valeur.max === 'number'
+      && Object.keys(valeur).length === 2) {
+      if (valeur.min > valeur.max) obligations.push(`${f.id} : temps_minutes.${cle} — min ${valeur.min} au-dessus de max ${valeur.max}`);
+      continue;
+    }
+    obligations.push(`${f.id} : temps_minutes.${cle} = ${JSON.stringify(valeur)} ; un nombre ou {min, max} est attendu`);
+  }
+}
+
+for (const x of ingredients) {
+  const n = x.nutrition;
+  if (!n) { obligations.push(`${x.id} : bloc nutrition absent`); continue; }
+  const chiffres = CHIFFRES_NUTRITION.filter((c) => n[c] != null);
+  if (chiffres.length && !n.base) obligations.push(`${x.id} : nutrition porte ${chiffres.join(', ')} sans base de dosage`);
+  if (chiffres.length && !n.source) obligations.push(`${x.id} : nutrition porte ${chiffres.join(', ')} sans source`);
+  if (n.source === 'etiquette' && !String(n.produit_lu || '').trim()) {
+    obligations.push(`${x.id} : nutrition.source = etiquette sans produit_lu`);
+  }
+  if (n.source && !ISO.test(n.date_lecture || '')) {
+    obligations.push(`${x.id} : nutrition.source = ${n.source} sans date_lecture au format AAAA-MM-JJ`);
+  }
+  if (!n.source && chiffres.length === 0 && (n.produit_lu || n.date_lecture)) {
+    obligations.push(`${x.id} : nutrition porte un produit ou une date sans aucun chiffre`);
+  }
+}
+regle(21, 'Aucun chiffre ni jugement sans ce qui le rend interprétable', obligations);
 
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }

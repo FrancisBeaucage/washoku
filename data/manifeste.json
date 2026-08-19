@@ -1,15 +1,16 @@
 {
   "site": "washoku",
   "version_schema": "1.0",
-  "derniere_maj": "2026-08-18",
-  "dernier_document_applique": 18,
+  "derniere_maj": "2026-08-19",
+  "dernier_document_applique": 19,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
     "index.json dit quelles fiches existent, avec de quoi choisir laquelle ouvrir.",
     "fiches/<ID>.json donne une fiche entière. Ne récupérer que celles dont on a besoin.",
     "guide-2-fiches.json est le recueil entier : ne le charger que pour un audit.",
-    "ensembles_fermes donne les valeurs exactes des champs à liste fermée. Les lire avant d’en écrire une."
+    "ensembles_fermes donne les valeurs exactes des champs à liste fermée. Les lire avant d’en écrire une.",
+    "formes_fermees dit si un champ fermé prend une valeur, un tableau de valeurs, ou un objet par lecteur."
   ],
   "fichiers": [
     {
@@ -23,8 +24,8 @@
       "nom": "guide-3-ingredients.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-3-ingredients.json",
       "description": "Fiches d’ingrédients du guide 3",
-      "nb_entrees": 88,
-      "nb_actives": 88
+      "nb_entrees": 89,
+      "nb_actives": 89
     },
     {
       "nom": "guide-4-exercices.json",
@@ -37,8 +38,8 @@
       "nom": "guide-6-journal.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-6-journal.json",
       "description": "Entrées du journal du guide 6",
-      "nb_entrees": 10,
-      "nb_actives": 10
+      "nb_entrees": 11,
+      "nb_actives": 11
     },
     {
       "nom": "guide-2-annexes.json",
@@ -58,15 +59,15 @@
       "nom": "historique-repas.json",
       "url": "https://francisbeaucage.github.io/washoku/data/historique-repas.json",
       "description": "Ce qui a été mangé, un enregistrement par repas",
-      "nb_entrees": 33,
-      "nb_actives": 33
+      "nb_entrees": 35,
+      "nb_actives": 35
     },
     {
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 18,
-      "nb_actives": 18
+      "nb_entrees": 19,
+      "nb_actives": 19
     },
     {
       "nom": "index.json",
@@ -122,6 +123,93 @@
         "estime",
         "etiquette",
         "pese"
+      ],
+      "type_de_plat": [
+        "soupe",
+        "plat-principal",
+        "accompagnement",
+        "feculent",
+        "condiment",
+        "marinade",
+        "collation",
+        "technique",
+        null
+      ],
+      "methode": [
+        "cru",
+        "blanchi",
+        "bouilli",
+        "poche",
+        "mijote",
+        "vapeur",
+        "saute",
+        "grille",
+        "frit",
+        "roti",
+        "marine",
+        "fermente",
+        "sans-cuisson"
+      ],
+      "axe_gout": [
+        "umami-ferment",
+        "sale-sucre",
+        "acide",
+        "piquant",
+        "aromatique",
+        "doux",
+        "grille-torrefie",
+        "sesame-noisette",
+        "riche-gras"
+      ],
+      "axe_texture": [
+        "croquant",
+        "ferme",
+        "fondant",
+        "moelleux",
+        "mou",
+        "croustillant",
+        "glissant",
+        "soyeux",
+        "elastique",
+        "en-bouillon"
+      ],
+      "moment": [
+        "dejeuner",
+        "diner",
+        "souper",
+        "collation"
+      ],
+      "langue_origine": [
+        "ja",
+        "zh",
+        "ko",
+        "vi",
+        "th",
+        "lo",
+        "id",
+        "aucune",
+        null
+      ],
+      "etoiles": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        null
+      ],
+      "cout_travail": [
+        "leger",
+        "moyen",
+        "lourd",
+        null
+      ],
+      "statut_perso": [
+        "a-l-essai",
+        "au-repertoire",
+        "de-service",
+        "suspendu",
+        "ecarte"
       ]
     },
     "guide-3-ingredients.json": {
@@ -143,6 +231,31 @@
         "sea",
         "the",
         "riz"
+      ],
+      "langue_origine": [
+        "ja",
+        "zh",
+        "ko",
+        "vi",
+        "th",
+        "lo",
+        "id",
+        "aucune",
+        null
+      ],
+      "nutrition.base": [
+        "100g",
+        "portion",
+        "c-a-soupe",
+        "c-a-the",
+        "unite",
+        null
+      ],
+      "nutrition.source": [
+        "estime",
+        "etiquette",
+        "pese",
+        null
       ]
     },
     "guide-4-exercices.json": {
@@ -168,5 +281,38 @@
       ]
     }
   },
-  "note_ensembles_fermes": "Les valeurs exactes — accents compris — que ces champs acceptent. Généré depuis la source ; la règle 19 refuse toute autre valeur. Un « null » en fin de liste veut dire que le champ l’accepte aussi. À lire avant d’écrire un document de mise à jour, plutôt que de les citer de mémoire."
+  "note_ensembles_fermes": "Les valeurs exactes — accents compris — que ces champs acceptent. Généré depuis la source ; la règle 19 refuse toute autre valeur. Un « null » en fin de liste veut dire que le champ l’accepte aussi. À lire avant d’écrire un document de mise à jour, plutôt que de les citer de mémoire.",
+  "formes_fermees": {
+    "guide-2-fiches.json": {
+      "statut": "valeur",
+      "categorie": "valeur",
+      "cuisine": "valeur",
+      "vitesse": "valeur",
+      "nutrition.source": "valeur",
+      "type_de_plat": "valeur",
+      "methode": "liste",
+      "axe_gout": "liste",
+      "axe_texture": "liste",
+      "moment": "liste",
+      "langue_origine": "valeur",
+      "etoiles": "par-lecteur",
+      "cout_travail": "valeur",
+      "statut_perso": "par-lecteur"
+    },
+    "guide-3-ingredients.json": {
+      "statut": "valeur",
+      "section": "valeur",
+      "langue_origine": "valeur",
+      "nutrition.base": "valeur",
+      "nutrition.source": "valeur"
+    },
+    "guide-4-exercices.json": {
+      "statut": "valeur"
+    },
+    "historique-repas.json": {
+      "repas": "valeur",
+      "verdict": "valeur"
+    }
+  },
+  "note_formes_fermees": "Comment chaque champ porte son ensemble. « valeur » : une seule valeur. « liste » : un tableau de valeurs de l’ensemble, la dominante en premier. « par-lecteur » : un objet dont les clés sont des lecteurs — le site en a plus d’un, et un plat peut valoir 2 étoiles pour l’un et 5 pour l’autre."
 }

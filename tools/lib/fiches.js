@@ -6,15 +6,38 @@ const C = require('./champs');
 /** Fiche compacte (tableau R) → objet du schéma du document 7. */
 function versJson(r) {
   const ing = r.ing.map((brut) => C.extraireSante(brut));
+  const cuisine = C.CUISINES[r.cui];
   return {
     id: r.id,
     statut: 'actif',
     categorie: C.CATEGORIES[r.cat],
-    cuisine: C.CUISINES[r.cui],
+    cuisine,
     vitesse: C.VITESSES[r.spd],
-    jp: r.jp,
+    /* ── Bloc descriptif (document 19, S2) ────────────────────────────────
+       Ce que le plat EST : objectif, vérifiable, et vrai pour tout lecteur.
+       Il ne se mélange jamais au bloc évaluatif plus bas — un schéma qui
+       range la préférence dans la description impose le goût d'un lecteur à
+       tous les autres. */
+    type_de_plat: null,
+    methode: [],
+    axe_gout: [],
+    axe_texture: [],
+    moment: [],
+    /* Clé d'URL, CALCULÉE depuis `fr` par la même mécanique que les
+       identifiants du guide 3. Elle n'est pas déclarée hors page : la règle 20
+       vérifie donc, à chaque validation, qu'elle vaut bien `limace(fr)`. Un
+       slug écrit à la main qui ne s'en déduit plus est signalé au lieu d'être
+       silencieusement conservé. */
+    slug: C.limace(r.fr),
+    /* `jp`, `jp_lecture` et `romaji` acceptent `null` depuis le document 19
+       (S7) : un nom japonais obligatoire sur une fiche de nuoc cham n'est pas
+       une donnée, c'est une traduction inventée pour satisfaire un validateur.
+       `langue_origine` dit à l'affichage quelle graphie montrer ; son défaut
+       se déduit de la cuisine, et il reste réinscriptible. */
+    jp: r.jp || null,
     jp_lecture: r.pr || null,
-    romaji: r.ro,
+    romaji: r.ro || null,
+    langue_origine: C.LANGUE_PAR_CUISINE[cuisine] || null,
     fr: r.fr,
     sous_titre: r.sub,
     portions: r.por,
@@ -42,6 +65,29 @@ function versJson(r) {
     techniques: r.tech || [],
     etapes: r.steps.map((texte, i) => ({ n: i + 1, texte })),
     notes: (r.notes || []).map((n) => ({ titre: n.k, texte: n.t })),
+    /* Comment Francis fait réellement le plat, quand ça diffère de la fiche.
+       La fiche reste la référence ; l'ajustement est la version de la maison.
+       Ces écarts vivaient jusqu'ici dans les notes, mêlés aux explications :
+       séparés, ils se lisent d'un coup et une machine peut les utiliser. */
+    ajustement: null,
+    /* ── Bloc évaluatif (document 19, S3) ─────────────────────────────────
+       Ce qu'un lecteur EN PENSE. Le site a plus d'un lecteur, et un plat peut
+       valoir 2 étoiles pour l'un et 5 pour l'autre : ces champs sont donc des
+       objets dont les CLÉS SONT DES LECTEURS, pas des valeurs uniques. La
+       généralisation était le point à ne pas rater — un champ au singulier
+       aurait dû être renommé.
+
+       `cout_travail` reste scalaire : sa définition est en minutes actives,
+       donc une propriété du plat et non un jugement. */
+    etoiles: {},
+    cout_travail: null,
+    statut_perso: {},
+    motif_statut: {},
+    /* Ce que les autres en pensent. Le champ existe à cause des pilons de
+       poulet — bas pour Francis, hauts pour sa femme — et du 18 août 2026, où
+       la même soupe miso a reçu un enthousiasme franc d'un côté de la table et
+       trois étoiles de l'autre. */
+    pour_la_maison: null,
     photo: r.img,
     video: { youtube_id: r.yt || null, auteur: r.ytBy || null },
     voir_aussi: [],
@@ -54,8 +100,9 @@ function versFiche(f) {
   if (f.video.youtube_id) r.yt = f.video.youtube_id;
   if (f.video.auteur) r.ytBy = f.video.auteur;
   r.cat = C.CATEGORIES_INV[f.categorie];
-  r.jp = f.jp;
-  r.ro = f.romaji;
+  // Nuls permis depuis S7 : on n'écrit pas `jp:null` dans la page.
+  if (f.jp) r.jp = f.jp;
+  if (f.romaji) r.ro = f.romaji;
   if (f.jp_lecture) r.pr = f.jp_lecture;
   r.fr = f.fr;
   r.img = f.photo;

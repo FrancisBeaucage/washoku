@@ -526,5 +526,37 @@
     "verdict": "bon",
     "journal": null,
     "notes": "Donburi de restes : une rondelle de riz de 140 g, environ la moitié du shogayaki qui restait du 17, un bol de kinpira à côté, shichimi sur les deux. LE SHOGAYAKI RÉCHAUFFÉ TIENT, MAIS SA SAUCE NE SURVIT PAS. « C'était très bien », mais « pas comparable » à la veille, et le seul écart nommé est la sauce : elle avait été entièrement réabsorbée par la viande, donc plus rien pour enrober le chou. La consigne devient « une fois et demie la viande, deux fois la sauce ». Le kinpira, deuxième contact, redescend d'un cran : « c'est correct », mais « beaucoup de travail pour ce que j'ai eu comme goût ». Le shichimi est confirmé, y compris à froid. Aucun avocat — la moitié du matin n'avait pas été coupée."
+  },
+  {
+    "date": "2026-08-18",
+    "repas": "souper",
+    "fiches": [
+      "R33",
+      "R44",
+      "T1",
+      "T2",
+      "T6"
+    ],
+    "hors_fiche": [],
+    "convives": 2,
+    "proteines_g": 48,
+    "calories": 780,
+    "verdict": "bon",
+    "journal": "K-2026-08-18-journee",
+    "notes": "Première exécution de R33 et de R44, à deux couverts, service à 17 h 30. DEUX LECTURES OPPOSÉES DU MÊME REPAS À LA MÊME TABLE : le second couvert a beaucoup aimé la soupe et a rapporté un reste pour son dîner du lendemain; Francis l'a située à 3 sur 5. « La soupe était très bonne, très nourrissante. » Réserves : « le poisson bouilli, c'est pas ce que je préfère », et « j'ai l'impression qu'il me manque quelque chose » — le dashi mizudashi kombu et shiitake ayant été jugé correct, l'hypothèse retenue est l'absence de contraste de texture, tout le bol étant tendre. LE BOUILLON N'A PAS ÉTÉ BU, LE RESTE DU BOL ET TOUT LE RIZ ONT ÉTÉ MANGÉS. LE GOMA-AE DE CHOU NAPPA N'A ÉTÉ MANGÉ QU'AU QUART, et le motif est la texture du légume blanchi et non la sauce : « je ne pense pas que le goma-ae ait le problème en soi ». Le bol servi était presque uniquement composé de côtes pâles, soit le pire cas du plat. Essai de reprise convenu, aux haricots verts ou à la partie verte du chou, avant tout classement. Second constat du second couvert, sur la faisabilité : « énormément d'étapes », doute sur le temps disponible avec deux jeunes enfants. Bloc de coho de 1 104 g décongelé au bain d'eau froide et débité au couteau à pain sur bloc encore dur, sans incident; 318 g au plat, quatre portions au congélateur — 315, 124, 134 et 173 g. Mirin remplacé par saké et sucre au lot d'œufs marinés, pour réserver le mirin restant au tare de jeudi."
+  },
+  {
+    "date": "2026-08-18",
+    "repas": "collation",
+    "fiches": [
+      "R55"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 20,
+    "calories": 200,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Yogourt grec Oïkos Pro et sésame grillé moulu, au gabarit de R55. ÉTIQUETTE DU CONTENANT LUE, ET ELLE CORRIGE LE CHIFFRE PORTÉ AU SITE LA VEILLE : 3 g de sucres par 115 g et non 5, édulcorant stévia, et sel marin dans la préparation aromatisante. Le 5 g venait d'une photo prise en rayon, pas du contenant acheté."
   }
 ]

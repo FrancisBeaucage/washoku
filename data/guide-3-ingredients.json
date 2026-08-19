@@ -6,6 +6,7 @@
     "jp": "生姜",
     "jp_lecture": null,
     "romaji": "shōga",
+    "langue_origine": null,
     "fr": "Gingembre frais",
     "noms_alternatifs": [],
     "description": "La racine de base de presque tout. Râpé cru pour les yakumi, en juliennes pour les mijotés, écrasé pour les bouillons.",
@@ -34,6 +35,19 @@
       "titre": "Le râpé qui s'agglomère",
       "texte": "Râpé, le gingembre forme des paquets fibreux qui refusent de se répartir — sur un poisson, on se retrouve avec deux ou trois amas au lieu d'un voile. Trois sorties : une microplane fine plutôt qu'une râpe ordinaire; ou presser le râpé dans la main et n'utiliser que le jus, la fibre à la poubelle; ou en faire un shōga-jōyu, le râpé délayé dans un peu de sauce soya, qui se verse et se répartit tout seul. Le gingembre râpé sur des sardines est un excellent accord — il coupe le gras et le goût de poisson — mais il faut qu'il touche partout."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginger_root.jpg?width=1200",
     "photo_emballage": "assets/produits/gingembre.jpg",
     "commentaire_source": "// ① FRUITS ET LÉGUMES"
@@ -45,6 +59,7 @@
     "jp": "大蒜",
     "jp_lecture": null,
     "romaji": "ninniku",
+    "langue_origine": null,
     "fr": "Ail",
     "noms_alternatifs": [],
     "description": "Surtout présent dans les recettes chinoises, coréennes et vietnamiennes. La cuisine japonaise en utilise étonnamment peu.",
@@ -63,6 +78,19 @@
       "R47"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/GarlicBasket.jpg?width=1200",
     "photo_emballage": null
   },
@@ -73,6 +101,7 @@
     "jp": "葱",
     "jp_lecture": null,
     "romaji": "negi",
+    "langue_origine": null,
     "fr": "Oignons verts",
     "noms_alternatifs": [],
     "description": "Le yakumi universel. Émincé très fin en biseau, il va sur à peu près tout.",
@@ -97,6 +126,19 @@
       "titre": "Bon à savoir",
       "texte": "Ceux de l'épicerie asiatique sont plus forts : plus gros, plus fermes, avec un bulbe blanc plus développé (produit frais et mature). La partie blanche concentre les composés soufrés — hacher deux bottes d'un coup peut piquer les yeux, ce qui n'arrive pas avec les tiges minces et plus vieilles de l'épicerie ordinaire. C'est bon signe, pas mauvais. Deux réflexes : hacher les tiges froides sorties du frigo (moins de vapeurs) et un couteau bien affûté (il écrase moins de cellules). Conservation : hacher la botte entière d'un coup, un contenant au frigo pour la semaine, le surplus au congélateur (s'utilise directement, sans décongeler)."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/GreenOnions.jpg?width=1200",
     "photo_emballage": "assets/produits/oignons-verts.jpg"
   },
@@ -107,6 +149,7 @@
     "jp": "青梗菜",
     "jp_lecture": null,
     "romaji": "chingensai",
+    "langue_origine": null,
     "fr": "Bok choy",
     "noms_alternatifs": [],
     "description": "Le légume vert le plus polyvalent du répertoire. Blanchi 90 secondes, sauté à l'ail, ou jeté cru dans un bouillon.",
@@ -119,6 +162,19 @@
       "R28"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bok_Choy_%2849553125456%29.jpg?width=1200",
     "photo_emballage": "assets/produits/bok-choy.jpg"
   },
@@ -129,6 +185,7 @@
     "jp": "芥蘭",
     "jp_lecture": "gaï lane",
     "romaji": "gai lan",
+    "langue_origine": null,
     "fr": "Gai lan (brocoli chinois)",
     "noms_alternatifs": [],
     "description": "Plus amer et plus ferme que le bok choy. Excellent sauté à l'ail ou blanchi et arrosé de sauce d'huîtres.",
@@ -138,6 +195,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gai%20lan.jpg?width=1200",
     "photo_emballage": null
   },
@@ -148,6 +218,7 @@
     "jp": "白菜",
     "jp_lecture": null,
     "romaji": "hakusai",
+    "langue_origine": null,
     "fr": "Chou nappa",
     "noms_alternatifs": [],
     "description": "Le véhicule de volume par excellence. Base de l'okonomiyaki, du hot pot et des gyoza. Une assiette peut être énorme pour très peu de calories.",
@@ -162,6 +233,19 @@
       "R34"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Napa_cabbages.png?width=1200",
     "photo_emballage": null
   },
@@ -172,6 +256,7 @@
     "jp": "キャベツ",
     "jp_lecture": null,
     "romaji": "kyabetsu",
+    "langue_origine": null,
     "fr": "Chou vert",
     "noms_alternatifs": [
       "chou pommé",
@@ -189,6 +274,19 @@
       "titre": "La julienne, et pourquoi elle passe par l'eau glacée",
       "texte": "<strong>千切り</strong> (<em>sengiri</em>) veut dire coupe en fils. On retire le cœur dur, on empile 3 ou 4 feuilles à plat, on roule et on tranche le plus fin possible — l'objectif est le fil, pas la lanière. Le passage de <strong>5 minutes à l'eau glacée</strong> n'est pas un lavage&nbsp;: les cellules absorbent l'eau et se raidissent, ce qui donne le craquant. Bien essorer ensuite, sinon l'eau délave la sauce du plat. La julienne se garde 2 jours au frigo dans un contenant fermé avec un papier absorbant au fond."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -199,6 +297,7 @@
     "jp": "大根",
     "jp_lecture": null,
     "romaji": "daikon",
+    "langue_origine": null,
     "fr": "Daikon",
     "noms_alternatifs": [],
     "description": "Gros radis blanc. Doux, croquant, très peu calorique. Râpé cru avec le poisson grillé, ou mijoté dans l'oden où il devient fondant.",
@@ -220,6 +319,19 @@
       "titre": "Combien de temps ça se garde",
       "texte": "Entier et non entamé, le daikon tient <strong>2 à 4 semaines</strong> au réfrigérateur. Entamé, la face coupée bien emballée au contact (pellicule, pas un sac lâche), <strong>1 à 2 semaines</strong>. Le garder au bac à légumes, loin des pommes et des bananes qui dégagent de l'éthylène. Si les feuilles sont attachées, les retirer dès l'achat : elles pompent l'eau de la racine. Signes de fin : chair translucide ou spongieuse, amertume soufrée qui monte, racine qui plie au lieu de casser. <strong>R46 (kinpira) est la fiche qui en écoule le plus par portion.</strong>"
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Daikon.Japan.jpg?width=1200",
     "photo_emballage": null
   },
@@ -230,6 +342,7 @@
     "jp": "胡瓜",
     "jp_lecture": null,
     "romaji": "kyūri",
+    "langue_origine": null,
     "fr": "Concombre asiatique",
     "noms_alternatifs": [],
     "description": "Plus long, plus mince et beaucoup moins aqueux que le nôtre. C'est ce qui fait que les marinades express fonctionnent.",
@@ -246,6 +359,19 @@
       "T7b"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
     "photo_emballage": "assets/produits/concombre.jpg"
   },
@@ -256,6 +382,7 @@
     "jp": "もやし",
     "jp_lecture": null,
     "romaji": "moyashi",
+    "langue_origine": null,
     "fr": "Fèves germées",
     "noms_alternatifs": [],
     "description": "Le meilleur substitut de nouilles du recueil. Elles gardent leur croquant même sous un bouillon bouillant.",
@@ -273,6 +400,19 @@
       "titre": "Durée de vie réelle",
       "texte": "Repère mesuré : un paquet de germes de haricot frais emballé le 9 août 2026 était encore bon au <strong>jour six</strong> — vérification sensorielle le 15 août : aucun jus au fond du sac, odeur neutre, cassure audible, goût normal. Les trois signaux qui condamnent un paquet, dans l'ordre où ils apparaissent : du liquide au fond, puis une odeur aigre, puis des germes qui plient sans casser. Réfrigérer dès l'achat; à température ambiante, elles tournent en un jour."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Moyashi-Mung-bean-sprouts.jpg?width=1200",
     "photo_emballage": null
   },
@@ -283,6 +423,7 @@
     "jp": "えのき",
     "jp_lecture": null,
     "romaji": "enoki",
+    "langue_origine": null,
     "fr": "Champignons enoki",
     "noms_alternatifs": [],
     "description": "Longs filaments blancs, très doux. Ils cuisent en trente secondes et ajoutent du volume pour presque rien.",
@@ -296,6 +437,19 @@
       "R40"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Enokitake%20Mushrooms%20(Golden%20Needle)%20(Flammulina%20velutipes)%20Packaged.jpg?width=1200",
     "photo_emballage": null
   },
@@ -306,6 +460,7 @@
     "jp": "しめじ",
     "jp_lecture": null,
     "romaji": "shimeji",
+    "langue_origine": null,
     "fr": "Champignons shimeji",
     "noms_alternatifs": [],
     "description": "Petits champignons en grappe, texture ferme et goût noisetté. Excellents dans les soupes miso.",
@@ -320,6 +475,19 @@
       "titre": "La méthode de cuisson décide de tout",
       "texte": "Le shimeji blanc (<em>buna-shimeji</em>) est ferme et très doux. Son goût ne se révèle qu'à la chaleur sèche : il faut qu'il rende son eau, que celle-ci s'évapore, et qu'il commence à colorer. Poché une minute dans un bouillon, il n'apporte que de la texture — testé le 14 août 2026, verdict sans appel : « ça ne goûte pas mauvais, ça ne goûte juste à rien ». <strong>POÊLÉ JUSQU'À COLORATION FRANCHE, LE 16 AOÛT 2026, LE VERDICT A ÉTÉ LE MÊME</strong> : « ça a goûté encore l'eau ». Deux refus en trois jours, par deux méthodes opposées. <strong>ALIMENT ÉCARTÉ DU RÉPERTOIRE PERSONNEL.</strong> À noter pour la rigueur du dossier : le second essai a été fait sans la sauce soya ni le corps gras de fin de cuisson, qui portent les arômes liposolubles du champignon. Le test n'était donc pas complet, mais la préférence est établie."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hon-shimeji%20mushrooms%20-%20Cambridge,%20MA.jpg?width=1200",
     "photo_emballage": null
   },
@@ -330,6 +498,7 @@
     "jp": "椎茸",
     "jp_lecture": null,
     "romaji": "shiitake",
+    "langue_origine": null,
     "fr": "Shiitake frais",
     "noms_alternatifs": [],
     "description": "La troisième source d'umami, le guanylate. Combinés au kombu et au katsuobushi, l'effet est multiplicatif, pas additif.",
@@ -345,6 +514,19 @@
       "R25"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresh_shiitake_mushrooms.jpg?width=1200",
     "photo_emballage": null
   },
@@ -355,6 +537,7 @@
     "jp": "梨",
     "jp_lecture": null,
     "romaji": "nashi",
+    "langue_origine": null,
     "fr": "Poire asiatique",
     "noms_alternatifs": [],
     "description": "Le dessert par défaut. Croquante comme une pomme, juteuse comme une poire, très rafraîchissante.",
@@ -364,6 +547,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashi_pear.jpg?width=1200",
     "photo_emballage": null
   },
@@ -374,6 +570,7 @@
     "jp": "アボカド",
     "jp_lecture": null,
     "romaji": "abokado",
+    "langue_origine": null,
     "fr": "Avocat",
     "noms_alternatifs": [],
     "description": "Le meilleur rendement gras/sodium du dossier. Un demi-avocat (environ 70 g) donne ~110 calories, 10 g de lipides et 5 mg de sodium, pour ~2 g de protéines.",
@@ -388,6 +585,19 @@
       "titre": "Ce que c'est, et ce que ce n'est pas",
       "texte": "Ce n'est pas un poste de protéines, c'est un poste de <strong>gras et de satiété</strong> — exactement ce que demande un déjeuner qui s'assemble sans cuisson. <strong>PRÉPARATION RETENUE :</strong> tranché, quelques gouttes de sauce soya, une pincée de katsuobushi, du sésame grillé, du shichimi à table. Le katsuobushi apporte de l'inosinate, donc de la longueur en bouche, là où le sel n'apportait que du salé. <strong>NE PAS AJOUTER D'HUILE :</strong> c'est du gras sur du gras. <strong>CONSERVATION :</strong> une moitié coupée ne tient qu'une journée même bien emballée — placer la seconde moitié au repas suivant du même jour. Acheter deux ou trois jours d'avance et laisser mûrir sur le comptoir; le froid arrête la maturation trois ou quatre jours une fois le fruit prêt. <strong>ACCÉLÉRER LA MATURATION.</strong> L'avocat mûrit à l'éthylène qu'il dégage lui-même. Enfermé dans un <strong>sac de papier replié</strong>, ce gaz se concentre et le fruit passe de dur à prêt en <strong>deux ou trois jours au lieu de cinq à sept</strong>. Y ajouter <strong>une banane ou une pomme mûre</strong> coupe encore un jour. Ce qui compte, c'est le <strong>papier, pas la couleur du sac</strong> : le papier retient l'éthylène mais laisse sortir l'humidité. Le plastique retient les deux, ça condense, et le fruit moisit avant de mûrir. À défaut, un bol couvert d'une assiette, non hermétique. La chaleur travaille dans le même sens : 20 à 25 °C. <strong>NE JAMAIS METTRE AU FROID UN AVOCAT ENCORE DUR</strong> : sous 7 °C la maturation ne ralentit pas, elle se bloque, et le fruit reste caoutchouteux en permanence. Le froid ne sert qu'APRÈS. Aucun raccourci n'existe : le micro-ondes et le four ramollissent la chair sans la faire mûrir. <strong>ÉCHELONNER LE LOT</strong> — la moitié au sac, la moitié à l'air libre. <strong>UN AVOCAT COUPÉ NE MÛRIT PLUS</strong> : la moitié restante d'un fruit dur reste dure, et il faut la manger au repas suivant du même jour quand même. Constaté le 17 août 2026, sur un lot de quatre arrivé entièrement immature."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Avocado_Hass_-_single_and_halved.jpg?width=1200",
     "photo_emballage": null
   },
@@ -398,6 +608,7 @@
     "jp": "パクチー",
     "jp_lecture": null,
     "romaji": "pakuchī",
+    "langue_origine": null,
     "fr": "Coriandre, menthe, basilic thaï",
     "noms_alternatifs": [],
     "description": "Les herbes vietnamiennes se mangent en quantité — trois tasses par bol, pas une branche de garniture. C'est la signature de cette cuisine.",
@@ -414,6 +625,19 @@
       "R64"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunches%20of%20coriander%20leaves.jpg?width=1200",
     "photo_emballage": null
   },
@@ -424,6 +648,7 @@
     "jp": "三つ葉",
     "jp_lecture": "mi-tsou-ba",
     "romaji": "mitsuba",
+    "langue_origine": null,
     "fr": "Mitsuba",
     "noms_alternatifs": [],
     "description": "Ombellifère japonaise, littéralement « trois feuilles » — chaque tige en porte trois. Proche du persil par la famille, mais le goût est plus herbacé et légèrement anisé. C'est la garniture classique de l'oyakodon et du chawanmushi. S'ajoute crue à la toute fin : la chaleur du plat suffit à la libérer, la cuisson la détruit.",
@@ -438,6 +663,19 @@
       "titre": "À défaut de mitsuba",
       "texte": "Le cerfeuil s'en approche : même finesse, même note anisée discrète. La coriandre est un mauvais substitut, son profil aromatique n'a rien à voir."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -448,6 +686,7 @@
     "jp": "木綿豆腐",
     "jp_lecture": null,
     "romaji": "momen dōfu",
+    "langue_origine": null,
     "fr": "Tofu ferme",
     "noms_alternatifs": [],
     "description": "17 g de protéines aux 150 g. Se poche deux minutes dans l'eau salée avant de le mijoter — ça le raffermit et l'empêche de se défaire.",
@@ -467,6 +706,19 @@
       "titre": "Conserver le reste",
       "texte": "L'emballage est thermoscellé : il ne se referme pas. Pour le reste d'un bloc entamé — égoutter, déposer dans un contenant hermétique, couvrir d'eau froide fraîche, fermer, au frigo, et changer l'eau chaque jour. Il tient 3 à 5 jours ; sans eau, il sèche en surface et surit en deux jours. Ne pas le couvrir de bouillon ni de dashi : ça le sale, ça fermente plus vite, et on gaspille du dashi qui a demandé du travail. Le jeter si l'odeur est aigre, la surface visqueuse ou l'eau de trempage trouble. Non entamé, il tient jusqu'à sa date. <strong>Le tofu ferme se congèle</strong> et en ressort spongieux et élastique, capable de boire un bouillon — c'est une technique, pas un défaut. RÈGLE D'ACHAT : le tofu est un produit frais, pas une conserve. On l'achète pour les plats du plan, en blocs scellés jusqu'à l'usage, plutôt que de stocker des blocs entamés."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",
     "photo_emballage": "assets/produits/tofu-ferme.jpg",
     "commentaire_source": "\n// ② MUR RÉFRIGÉRÉ"
@@ -478,6 +730,7 @@
     "jp": "絹ごし豆腐",
     "jp_lecture": null,
     "romaji": "kinugoshi dōfu",
+    "langue_origine": null,
     "fr": "Tofu soyeux",
     "noms_alternatifs": [],
     "description": "Texture de flan. <strong>Son meilleur usage est en chaud</strong>, en dés dans la soupe miso ajoutés hors du feu — à froid, ses 88 % d'eau dominent et le goût se lit comme aqueux.",
@@ -493,6 +746,19 @@
       "titre": "Conserver le reste — le compte part de l'ouverture",
       "texte": "<strong>Deux jours, à partir de l'ouverture — pas de la date sur l'emballage.</strong> La date imprimée sur un contenant scellé (souvent plusieurs semaines à l'avance) s'applique au produit fermé ; le compte des deux jours commence au moment où on perce le contenant. Un bloc scellé n'a aucune urgence. Une fois ouvert : contenant hermétique, eau froide qui recouvre complètement, <strong>changée chaque jour</strong> ; garder le bloc <strong>entier</strong> — chaque surface coupée est une porte d'entrée, et en cubes il se délite en un jour ; un contenant juste à la taille du bloc, pas un grand bol, pour qu'il bouge le moins possible dans l'eau. Compter <strong>2 à 3 jours</strong>, pas plus : le soyeux est plus fragile que le ferme, plus d'eau et moins de structure de caillé. Signes d'arrêt : eau trouble ou visqueuse, odeur aigre à l'ouverture. <strong>Ne pas congeler le tofu soyeux.</strong> La congélation fait cristalliser l'eau et perce la structure : le ferme devient une éponge, parfois utile ; le soyeux devient une bouillie granuleuse. Non entamé, il tient jusqu'à sa date. <strong>Le tofu soyeux ne se congèle jamais : il rend son eau et se défait.</strong> RÈGLE D'ACHAT : le tofu est un produit frais, pas une conserve. On l'achète pour les plats du plan, en blocs scellés jusqu'à l'usage, plutôt que de stocker des blocs entamés."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?width=1200",
     "photo_emballage": "assets/produits/tofu-soyeux.jpg"
   },
@@ -503,6 +769,7 @@
     "jp": "厚揚げ",
     "jp_lecture": null,
     "romaji": "atsuage",
+    "langue_origine": null,
     "fr": "Atsuage — tofu frit en surface",
     "noms_alternatifs": [],
     "description": "Tofu dont la surface a été frite. La croûte tient à la cuisson et absorbe le bouillon. Indispensable dans l'oden.",
@@ -514,6 +781,19 @@
       "R34"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Atsuage.jpg?width=1200",
     "photo_emballage": null
   },
@@ -524,6 +804,7 @@
     "jp": "蒟蒻",
     "jp_lecture": null,
     "romaji": "konnyaku",
+    "langue_origine": null,
     "fr": "Konnyaku",
     "noms_alternatifs": [],
     "description": "Gelée ferme de racine de konjac. Environ 5 calories aux 100 g, et ça remplit l'estomac. Entaille-le en croisillons : il absorbe beaucoup mieux.",
@@ -535,6 +816,19 @@
       "R34"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Konnyaku.jpg?width=1200",
     "photo_emballage": null
   },
@@ -545,6 +839,7 @@
     "jp": "白滝",
     "jp_lecture": null,
     "romaji": "shirataki",
+    "langue_origine": null,
     "fr": "Nouilles shirataki",
     "noms_alternatifs": [],
     "description": "La version nouilles du konjac. Rincer abondamment puis sauter à sec jusqu'à ce qu'elles grincent — cette étape enlève l'odeur et change tout.",
@@ -556,6 +851,19 @@
       "R37"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wet_shirataki_noodles.jpg?width=1200",
     "photo_emballage": null
   },
@@ -566,6 +874,7 @@
     "jp": "味噌",
     "jp_lecture": null,
     "romaji": "miso",
+    "langue_origine": null,
     "fr": "Miso blanc et rouge",
     "noms_alternatifs": [],
     "description": "Pâte de soya fermenté. <em>Shiro</em> (blanc) est doux et sucré, <em>aka</em> (rouge) est corsé. Une cuillère à soupe ≈ 630 mg de sodium : deux cuillères à thé suffisent dans un bon dashi.",
@@ -586,6 +895,19 @@
       "titre": "Sodium",
       "texte": "Ne jamais faire bouillir après avoir ajouté le miso : la chaleur détruit les arômes et les cultures. Délayer dans une louche de bouillon prélevée, puis reverser hors du feu."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso_001.jpg?width=1200",
     "photo_emballage": "assets/produits/miso.jpg"
   },
@@ -596,6 +918,7 @@
     "jp": "納豆",
     "jp_lecture": null,
     "romaji": "nattō",
+    "langue_origine": null,
     "fr": "Natto",
     "noms_alternatifs": [],
     "description": "Fèves de soya fermentées. Collant, filant, odeur forte, 7 à 9 g de protéines par barquette (≈ 45-50 g, 80 cal). Se brasse avant d'ajouter quoi que ce soit — c'est ce qui développe la texture crémeuse.",
@@ -610,6 +933,19 @@
       "titre": "Le geste",
       "texte": "Décongèle une barquette au frigo la veille — le natto ne se fait pas sur un coup de tête, c'est à mettre dans la routine du dimanche. Brasse les fèves 20 à 30 fois aux baguettes <em>avant</em> d'ajouter la sauce&nbsp;: c'est ce qui développe les fils et adoucit le goût. Puis la sauce (la moitié du sachet suffit — presque tout le sodium est là), le karashi, l'oignon vert, sur le riz chaud. Si ça ne passe pas après trois essais, remplace par une tasse d'edamames écossés. (À l'inverse du riz, qui va du congélateur au micro-ondes directement : le natto, lui, se décongèle lentement au frigo et ne voit jamais la chaleur avant le bol.)"
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",
     "photo_emballage": "assets/produits/natto.jpg"
   },
@@ -620,6 +956,7 @@
     "jp": "김치",
     "jp_lecture": "kime-tchi",
     "romaji": "kimchi",
+    "langue_origine": null,
     "fr": "Kimchi",
     "noms_alternatifs": [],
     "description": "Chou nappa fermenté au piment. À acheter, jamais à faire : la fermentation prend plusieurs jours.",
@@ -635,6 +972,19 @@
       "titre": "Sodium",
       "texte": "Très salé. En grande quantité, c'est un problème. Un rinçage rapide enlève une partie du sel sans rien enlever au goût."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_packaged_kimchi_in_a_shop.jpg?width=1200",
     "photo_emballage": null
   },
@@ -645,6 +995,7 @@
     "jp": "沢庵",
     "jp_lecture": "ta-kou-ane",
     "romaji": "takuan",
+    "langue_origine": null,
     "fr": "Takuan — daikon mariné",
     "noms_alternatifs": [],
     "description": "Daikon fermenté, jaune vif. Croquant franc, salé, légèrement sucré. C'est le <em>tsukemono</em> (漬物, légume mariné) le plus courant du repas japonais quotidien : deux ou trois tranches à côté du riz suffisent à nettoyer le palais entre les bouchées. Aucune préparation — se tranche et se sert.",
@@ -657,6 +1008,19 @@
       "titre": "Le jaune est presque toujours ajouté",
       "texte": "La version artisanale, teintée par les écorces de kaki de la fermentation, est plus terne et plus chère."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -667,6 +1031,7 @@
     "jp": "しば漬け",
     "jp_lecture": "chi-ba-zou-ké",
     "romaji": "shibazuke",
+    "langue_origine": null,
     "fr": "Shibazuke — marinade pourpre de Kyoto",
     "noms_alternatifs": [],
     "description": "Concombre et aubergine marinés au shiso rouge, d'où la couleur pourpre. Originaire de Kyoto. Acide et parfumé sans être sucré, avec une amertume légère du shiso. Sert de nettoie-bouche au même titre que le takuan, mais avec un profil aromatique beaucoup plus marqué.",
@@ -679,6 +1044,19 @@
       "titre": "Le tsukemono à essayer quand le sunomono ennuie",
       "texte": "C'est celui qu'on propose à quelqu'un qui trouve le sunomono fonctionnel mais fade : même rôle dans le repas, beaucoup plus de goût."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -689,6 +1067,7 @@
     "jp": "ガリ",
     "jp_lecture": "ga-ri",
     "romaji": "gari",
+    "langue_origine": null,
     "fr": "Gari — gingembre mariné",
     "noms_alternatifs": [],
     "description": "Gingembre jeune mariné, tranché très fin, servi avec les sushis. Le liquide de macération est l'<em>amazu</em> (甘酢, « vinaigre doux ») : vinaigre de riz, sucre et sel. Même principe que le sunomono, avec plus de sucre et une macération longue.",
@@ -701,6 +1080,19 @@
       "titre": "Le sucre et la couleur",
       "texte": "La teneur en sucre est réelle et non négligeable — c'est ce qui adoucit le mordant du gingembre. La couleur rose des versions industrielles est ajoutée ; le gingembre très jeune rosit naturellement, mais faiblement."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -711,6 +1103,7 @@
     "jp": "うどん",
     "jp_lecture": null,
     "romaji": "udon",
+    "langue_origine": null,
     "fr": "Nouilles fraîches",
     "noms_alternatifs": [],
     "description": "Udon, ramen, chow mein, nouilles de riz fraîches. Cuisson en deux à trois minutes.",
@@ -720,6 +1113,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%B6%8F%E5%A4%A9%E3%81%AE%E3%81%86%E3%81%A9%E3%82%93.jpg?width=1200",
     "photo_emballage": null
   },
@@ -730,6 +1136,7 @@
     "jp": "鮭",
     "jp_lecture": null,
     "romaji": "sake",
+    "langue_origine": null,
     "fr": "Saumon",
     "noms_alternatifs": [],
     "description": "Le poisson de base du répertoire. 34 g de protéines par filet de 150 g, faible en mercure, sans restriction.",
@@ -747,6 +1154,19 @@
       "R62"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20salmon%20fillets.jpg?width=1200",
     "photo_emballage": null,
     "commentaire_source": "\n// ③ POISSON"
@@ -758,6 +1178,7 @@
     "jp": "鯖",
     "jp_lecture": null,
     "romaji": "saba",
+    "langue_origine": null,
     "fr": "Maquereau",
     "noms_alternatifs": [],
     "description": "Gras, riche en oméga-3, très bon marché, faible en mercure. Le poisson du <em>nitsuke</em>.",
@@ -769,6 +1190,19 @@
       "R16"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Maquereaux_etal.jpg?width=1200",
     "photo_emballage": null
   },
@@ -779,6 +1213,7 @@
     "jp": "白身魚",
     "jp_lecture": null,
     "romaji": "shiromi-zakana",
+    "langue_origine": null,
     "fr": "Poisson blanc entier",
     "noms_alternatifs": [],
     "description": "Bar, tilapia, morue. Le poisson vapeur cantonais se fait avec un poisson entier — c'est le plat le plus élégant du répertoire chinois.",
@@ -794,6 +1229,19 @@
       "titre": "Le service qui change tout",
       "texte": "Ils vont l'écailler et le vider pour toi si tu le demandes. C'est la seule vraie difficulté de la recette, et elle se délègue au comptoir."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/HAL%20fish%20market.jpg?width=1200",
     "photo_emballage": null
   },
@@ -804,6 +1252,7 @@
     "jp": "刺身",
     "jp_lecture": null,
     "romaji": "sashimi",
+    "langue_origine": null,
     "fr": "Sashimi",
     "noms_alternatifs": [],
     "description": "Pour le chirashi. Zéro cuisson, dix minutes, un plat qui a l'air d'un restaurant.",
@@ -818,6 +1267,19 @@
       "titre": "Mercure",
       "texte": "Le thon frais est visé par l'avis de Santé Canada : 150 g par semaine maximum pour un homme adulte. Le saumon n'a aucune restriction."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sashimi_-_Maguro_Restaurant%2C_Bangna%2C_Bangkok_%2844856596864%29.jpg?width=1200",
     "photo_emballage": null
   },
@@ -828,6 +1290,7 @@
     "jp": "しゃぶしゃぶ肉",
     "jp_lecture": null,
     "romaji": "shabu-shabu niku",
+    "langue_origine": null,
     "fr": "Bœuf ou porc tranché shabu",
     "noms_alternatifs": [],
     "description": "<strong>Le meilleur secret du magasin.</strong> Impossible à trouver ailleurs, et impossible à faire à la maison sans trancheur professionnel. Ça change complètement les sautés, le shabu-shabu — et surtout <strong>les soupes et les bols de riz</strong>.",
@@ -846,6 +1309,19 @@
       "titre": "Pour les soupes et les donburi, c'est ça qu'il faut acheter",
       "texte": "Les «&nbsp;lanières à sauter&nbsp;» ou <em>stir fry strips</em> du supermarché ordinaire sont taillées à <strong>4-5 mm</strong>, dans des coupes travaillantes — ronde, flanc. À cette épaisseur, la viande reste coriace même cuite 60 secondes, et aucune technique ne rattrape ça. La viande à fondue est tranchée à <strong>1-2 mm</strong> sur une trancheuse&nbsp;: c'est exactement l'épaisseur que la cuisine japonaise utilise pour le shabu-shabu, le sukiyaki et le gyudon, et <strong>à cette finesse les fibres n'ont pas le temps de se contracter — la coupe d'origine cesse d'être déterminante</strong>. Inutile de la velouter (<em>T5</em>)&nbsp;: la cuisson est trop brève pour que ça change quoi que ce soit. À défaut&nbsp;: congeler un morceau de bœuf 30 minutes, puis trancher au couteau — la chair ferme se coupe beaucoup plus mince. Constaté le 10 août&nbsp;: des lanières à sauter dans un niku-udon, c'est du bœuf coriace."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
     "photo_emballage": null,
     "commentaire_source": "\n// ④ VIANDE"
@@ -857,6 +1333,7 @@
     "jp": "挽肉",
     "jp_lecture": null,
     "romaji": "hikiniku",
+    "langue_origine": null,
     "fr": "Porc et poulet hachés",
     "noms_alternatifs": [],
     "description": "La base des boulettes. Brassé énergiquement dans un seul sens jusqu'à texture collante, il donne des boulettes moelleuses plutôt que friables.",
@@ -873,6 +1350,19 @@
       "R32"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Grill%20minced%20meat.jpg?width=1200",
     "photo_emballage": null
   },
@@ -883,6 +1373,7 @@
     "jp": "鶏もも",
     "jp_lecture": null,
     "romaji": "tori momo",
+    "langue_origine": null,
     "fr": "Hauts de cuisse de poulet",
     "noms_alternatifs": [],
     "description": "Plus savoureux et plus tolérants à la cuisson que la poitrine. C'est ce que le yakitori et l'oyakodon demandent.",
@@ -895,6 +1386,19 @@
       "R21"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20chicken%20thighs.jpg?width=1200",
     "photo_emballage": null
   },
@@ -905,6 +1409,7 @@
     "jp": "枝豆",
     "jp_lecture": null,
     "romaji": "edamame",
+    "langue_origine": null,
     "fr": "Edamames",
     "noms_alternatifs": [],
     "description": "18 g de protéines la tasse. Déjà blanchis — il n'y a qu'à décongeler. La collation la plus utile du guide.",
@@ -925,6 +1430,19 @@
       "titre": "Écossées : jamais nature",
       "texte": "Achète-les <strong>nature congelés</strong> — on dose soi-même. Mais «&nbsp;nature&nbsp;» à l'achat ne veut pas dire nature dans le bol. <strong>En cosses</strong>, le sel se dépose à l'extérieur de l'enveloppe&nbsp;: on le récupère sur les lèvres, puis on presse la fève, qui est nature. On goûte beaucoup de sel et on en avale très peu. <strong>Écossées, cette mécanique disparaît</strong>&nbsp;: le sel colle sur ce qu'on avale, et la totalité compte — mais servir la fève nature ne fonctionne pas non plus, le bol est simplement fade. Trois solutions, dans l'ordre&nbsp;: <strong>gomashio</strong> (胡麻塩, sésame grillé et sel à 8 pour 1 — même sel, porté par le sésame)&nbsp;; <strong>une pincée en surface, à table</strong> (≈ 145 mg de sodium, et en surface on la goûte)&nbsp;; ou <strong>directement dans la soupe miso</strong>, où le miso les assaisonne. À éviter&nbsp;: ⅛ c. à thé de sel fin mélangé aux fèves égouttées — 290 mg de sodium pour un goût qu'on perçoit mal. Cuisson depuis congelé&nbsp;: <strong>3 minutes</strong> écossées, <strong>4 à 5 minutes</strong> en cosses. Voir <em>R48</em>."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
     "photo_emballage": "assets/produits/edamame.jpg",
     "commentaire_source": "\n// ⑤ CONGÉLATEURS"
@@ -936,6 +1454,7 @@
     "jp": "餃子",
     "jp_lecture": null,
     "romaji": "gyōza",
+    "langue_origine": null,
     "fr": "Gyoza et dumplings",
     "noms_alternatifs": [],
     "description": "Excellents, et à acheter sans culpabilité. À cuire <strong>à la vapeur</strong> plutôt que frits : 6 à 8 gyoza dans un panier vapeur, 8 minutes.",
@@ -945,6 +1464,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyoza_no_Antei_-_3.jpg?width=1200",
     "photo_emballage": null
   },
@@ -955,6 +1487,7 @@
     "jp": "海老",
     "jp_lecture": null,
     "romaji": "ebi",
+    "langue_origine": null,
     "fr": "Crevettes crues",
     "noms_alternatifs": [],
     "description": "Trois minutes dans un bouillon, +20 g de protéines. Cuites dès qu'elles sont roses et courbées en C.",
@@ -970,7 +1503,20 @@
     ],
     "note": {
       "titre": "Le calibre n'est pas toujours interchangeable",
-      "texte": "Le 21/25 convient à tout ce qui se mange décortiqué. Pour les galettes frites (R64), il faut au contraire du <strong>petit calibre, 40/50 ou 50/60, et des crevettes entières non décortiquées</strong> : la carapace des petits formats devient croustillante à la friture et fait partie de la bouchée. Une carapace de 21/25 reste coriace même bien frite."
+      "texte": "Le 21/25 convient à tout ce qui se mange décortiqué. Pour les galettes frites (R64), il faut au contraire du <strong>petit calibre, 40/50 ou 50/60, et des crevettes entières non décortiquées</strong> : la carapace des petits formats devient croustillante à la friture et fait partie de la bouchée. Une carapace de 21/25 reste coriace même bien frite.\n\n<strong>LA CREVETTE CONGELÉE DÉCORTIQUÉE EST UN PRODUIT SALÉ, ET IL FAUT LE LIRE SUR CHAQUE SAC.</strong> Étiquette du sac Sobeys lue le 18 août 2026&nbsp;: <strong>730&nbsp;mg de sodium par 125&nbsp;g, soit 584&nbsp;mg aux 100&nbsp;g</strong>, pour des ingrédients qui tiennent en trois mots — crevettes, sel, phosphate de sodium. Presque toutes les crevettes décortiquées vendues congelées sont glacées dans une saumure de sel et de polyphosphate&nbsp;: ça les garde fermes et gonflées, ça les empêche de coller, et ça fait payer l'eau au poids. <strong>RENDEMENT RÉEL&nbsp;: ENVIRON 24&nbsp;MG DE SODIUM PAR GRAMME DE PROTÉINE</strong> — comparable aux lanières de poulet cuites, sept fois pire que le yogourt grec. Le dossier a porté pendant plusieurs jours l'affirmation inverse, «&nbsp;quasi zéro sodium ajouté&nbsp;», qui était une estimation et non une lecture.\n\n<strong>CE QUE ÇA CHANGE EN CUISINE&nbsp;: RINCER APRÈS DÉCONGÉLATION.</strong> Le sel et le phosphate sont dans le glaçage de surface, pas dans la chair. Décongeler à l'eau froide, puis rincer franchement et bien égoutter en enlève une part réelle. <strong>Cette part n'est pas chiffrable à partir du panneau nutritionnel et ne doit pas être inventée</strong>&nbsp;: l'ordre de grandeur raisonnable est de 15 à 25&nbsp;%, et il faut le présenter comme tel. Deuxième conséquence, pour les plats en bouillon&nbsp;: une bonne partie de ce qui reste migre vers le liquide pendant la cuisson, ce qui rend le geste de ne pas boire tout le bouillon plus efficace ici qu'ailleurs.\n\n<strong>ET COMMENT CHOISIR UN MEILLEUR SAC.</strong> La ligne d'ingrédients tranche&nbsp;: <em>crevettes</em> seul, ou <em>crevettes et eau</em>, valent beaucoup mieux que <em>crevettes, sel, phosphate de sodium</em> ou <em>tripolyphosphate de sodium</em>. Les crevettes entières non décortiquées et les crevettes crues à la poissonnerie sont généralement non traitées. Un sac dont la mention «&nbsp;sans phosphate&nbsp;» ou «&nbsp;non traitées&nbsp;» figure en façade se paie plus cher au kilo et livre plus de crevette par kilo."
+    },
+    "nutrition": {
+      "base": "portion",
+      "base_g": 125,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": 730,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": "etiquette",
+      "produit_lu": "Crevettes crues décortiquées, sac Sobeys",
+      "date_lecture": "2026-08-18"
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20Shrimp.jpg?width=1200",
     "photo_emballage": null
@@ -982,6 +1528,7 @@
     "jp": "昆布",
     "jp_lecture": "kone-bou",
     "romaji": "kombu",
+    "langue_origine": null,
     "fr": "Kombu",
     "noms_alternatifs": [],
     "description": "Algue laminaire séchée. La source de glutamate du dashi. Un morceau de 5 cm suffit pour 1,5 L.",
@@ -997,6 +1544,19 @@
       "titre": "Iode †",
       "texte": "L'aliment le plus riche en iode de la planète : ~2 267 mcg/g, contre une limite quotidienne tolérable de 1 100 mcg. Trois mesures : doser à 5 cm pour 1,5 L, ne pas manger le kombu lui-même, et alterner avec le katsuo dashi et le shiitake dashi. Un dosage de TSH avant de commencer une consommation régulière donne un point de référence."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
     "photo_emballage": "assets/produits/kombu.jpg",
     "commentaire_source": "\n// ⑥ ALLÉE DES SÉCHÉS"
@@ -1008,6 +1568,7 @@
     "jp": "鰹節",
     "jp_lecture": null,
     "romaji": "katsuobushi",
+    "langue_origine": null,
     "fr": "Katsuobushi",
     "noms_alternatifs": [],
     "description": "Bonite séchée, fumée, fermentée puis rasée en copeaux fins comme du papier. La source d'inosinate du dashi.",
@@ -1025,6 +1586,19 @@
       "titre": "Conservation",
       "texte": "Le sac est gonflé à l'azote, pas à l'air — c'est pour protéger les copeaux gras de l'oxygène, et cette protection est perdue dès l'ouverture (elle ne se reconstitue pas). Le gras rancit à l'air : c'est ce goût de vieux poisson qu'on attribue à tort au dashi lui-même. En refermant, chasser l'air à la main sans écraser (des copeaux en poudre troublent le dashi). Mieux : transvider au congélateur — les copeaux ne gèlent pas vraiment, ils restent souples et s'utilisent directement à la cuillère. Le détail qui change tout pour un dashi quotidien : chaque ouverture réintroduit de l'air, alors fractionner en 2-3 petits sacs dès l'achat n'expose qu'une fraction du stock. Un sac de 70 g donne ~3,5 L de dashi (une quinzaine de bols) — bien géré il tient 3-4 mois, mal géré il perd son goût en 6 semaines. Mercure : aucun enjeu, on en consomme quelques grammes."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi_02.jpg?width=1200",
     "photo_emballage": "assets/produits/katsuobushi.jpg"
   },
@@ -1035,6 +1609,7 @@
     "jp": "海苔",
     "jp_lecture": null,
     "romaji": "nori",
+    "langue_origine": null,
     "fr": "Nori",
     "noms_alternatifs": [],
     "description": "Feuilles d'algue séchée pressée. Une feuille entière apporte environ 144 mcg d'iode — dans la fourchette normale, tous les jours si on veut.",
@@ -1052,6 +1627,19 @@
       "titre": "Le piège",
       "texte": "Le nori <em>assaisonné</em> en collation (petits paquets minces, souvent aromatisés) est salé et huilé. Le yaki nori nature est en grandes feuilles, sans assaisonnement — ce n'est pas le même produit."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nori.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1062,6 +1650,7 @@
     "jp": "若布",
     "jp_lecture": null,
     "romaji": "wakame",
+    "langue_origine": null,
     "fr": "Wakame",
     "noms_alternatifs": [],
     "description": "Algue tendre qui se réhydrate en trente secondes. Une cuillère à thé sèche devient une bonne poignée.",
@@ -1079,6 +1668,19 @@
       "titre": "Iode †",
       "texte": "~172 mcg/g. Une portion généreuse peut à elle seule dépasser la limite quotidienne. Une cuillère à soupe dans une soupe, c'est correct."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/CSIRO_ScienceImage_952_Undaria_pinnatifida_Japanese_kelp.jpg?width=1200",
     "photo_emballage": "assets/produits/wakame.jpg"
   },
@@ -1089,6 +1691,7 @@
     "jp": "干し椎茸",
     "jp_lecture": null,
     "romaji": "hoshi-shiitake",
+    "langue_origine": null,
     "fr": "Shiitake séchés",
     "noms_alternatifs": [],
     "description": "Plus intenses que les frais. Le trempage à froid, une nuit au réfrigérateur, extrait le guanylate sans l'amertume — c'est le dashi végétalien, zéro iode.",
@@ -1102,6 +1705,19 @@
       "R34"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried%20shiitake%20mushrooms.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1112,6 +1728,7 @@
     "jp": "切り干し大根",
     "jp_lecture": null,
     "romaji": "kiriboshi daikon",
+    "langue_origine": null,
     "fr": "Kiriboshi daikon — daikon séché",
     "noms_alternatifs": [],
     "description": "Daikon taillé en julienne puis séché. Le séchage concentre les sucres : le goût est nettement plus doux et plus profond que celui du daikon frais, avec une texture qui reste ferme après réhydratation. Se garde plusieurs mois au garde-manger. C'est la réponse traditionnelle au problème du gros daikon qu'on n'arrive pas à finir.",
@@ -1126,6 +1743,19 @@
       "titre": "L'eau de trempage est un ingrédient",
       "texte": "Réhydratation : <strong>15 à 20 minutes dans l'eau tiède</strong>, jusqu'à environ quatre fois son volume. <strong>NE PAS JETER L'EAU DE TREMPAGE</strong> — elle est sucrée et parfumée, et elle remplace une partie du dashi du plat. La jeter donne un nimono plat. Ordre de grandeur : 50 g secs gonflent à environ 200 g réhydratés, ce qui remplace en usage à peu près 500 g de daikon frais. Rincer brièvement et frotter les filaments avant de les faire tremper, pour enlever la poussière du séchage. Pour le faire soi-même, voir T10."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiriboshi_daikon_001.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1136,6 +1766,7 @@
     "jp": "煮干し",
     "jp_lecture": null,
     "romaji": "niboshi",
+    "langue_origine": null,
     "fr": "Niboshi — petites sardines séchées",
     "noms_alternatifs": [],
     "description": "Le quatrième dashi. Robuste, rustique, très peu d'iode. Retirer la tête et les entrailles pour éviter l'amertume.",
@@ -1145,6 +1776,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Driedniboshi.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1155,6 +1799,7 @@
     "jp": "ちりめんじゃこ",
     "jp_lecture": "tchi-ri-mène-dja-ko",
     "romaji": "chirimenjako",
+    "langue_origine": null,
     "fr": "Chirimenjako — petites sardines séchées",
     "noms_alternatifs": [],
     "description": "De minuscules alevins de sardine, bouillis dans l'eau salée puis séchés. Blancs, souples, longs de un à trois centimètres. Environ 40 g de protéines aux 100 g — c'est la façon japonaise d'ajouter des protéines à un bol sans en changer les proportions.",
@@ -1169,6 +1814,19 @@
       "titre": "Comment s'en servir",
       "texte": "Se saupoudre tel quel sur le riz chaud, ou se fait revenir 30 secondes à sec pour le croustillant. Contient du sel : compter environ 100 mg de sodium par cuillerée à table. Se conserve au congélateur."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -1179,6 +1837,7 @@
     "jp": "桜えび",
     "jp_lecture": "sa-kou-ra é-bi",
     "romaji": "sakura ebi",
+    "langue_origine": null,
     "fr": "Sakura ebi — petites crevettes séchées",
     "noms_alternatifs": [],
     "description": "De minuscules crevettes séchées, roses, entières. Environ 65 g de protéines aux 100 g, et une intensité de goût sans commune mesure avec leur volume.",
@@ -1191,6 +1850,59 @@
       "titre": "Comment s'en servir",
       "texte": "Se saupoudrent telles quelles sur le riz, dans une omelette ou sur des légumes. Une cuillerée à table suffit. Se conservent au congélateur pour éviter le rancissement."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
+    "photo": null,
+    "photo_emballage": null
+  },
+  {
+    "id": "premier-protein",
+    "statut": "actif",
+    "section": "sec",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "langue_origine": "aucune",
+    "fr": "Boisson protéinée Premier Protein",
+    "noms_alternatifs": [
+      "Premier Protein",
+      "premier protein shake",
+      "boisson protéinée Costco"
+    ],
+    "description": "Le déjeuner de semaine repose dessus cinq jours sur sept. <strong>Par gobelet de 325&nbsp;ml&nbsp;: 30&nbsp;g de protéines, 220&nbsp;mg de sodium, 160&nbsp;calories, 3&nbsp;g de lipides et 650&nbsp;mg de calcium</strong> — étiquette lue le 18 août 2026.",
+    "ou_le_trouver": "<strong>Costco</strong>, en caisse de gobelets prêts à boire. Ne se trouve pas au supermarché du parcours&nbsp;: c'est un achat à part, à faire entrer par la liste de provisions et non par le circuit en magasin.",
+    "a_quoi_ca_ressemble": "Gobelets de 325&nbsp;ml en plastique opaque, vendus par caisse de 12 ou plus. La ligne des protéines est en très gros chiffres sur la face avant&nbsp;; c'est la ligne du calcium, en petit au panneau, qui mérite d'être lue.",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [],
+    "note": {
+      "titre": "Ce n'est pas un aliment, c'est un outil",
+      "texte": "<strong>30&nbsp;G DE PROTÉINES POUR 220&nbsp;MG DE SODIUM ET 160&nbsp;CALORIES, DANS UN CONTENANT QU'ON OUVRE.</strong> Rendement de <strong>7,3&nbsp;mg de sodium par gramme de protéine</strong> — deuxième meilleur du dossier, derrière le yogourt grec à 3,4 et devant les lanières de poulet cuites à 19. <strong>C'EST SURTOUT LE MEILLEUR RENDEMENT PAR GESTE.</strong> Le guide 5 note que sous la pression du matin, ce qui saute d'un déjeuner n'est jamais la protéine mais le gras, parce que la protéine vient de contenants qu'on ouvre et le gras de solides qu'on prépare. Ce produit est l'extrême de cette logique&nbsp;: trente grammes de protéines pour zéro préparation.\n\n<strong>CE QU'IL FAUT SAVOIR ET QUE LE PANNEAU DIT EN PETIT.</strong> <strong>650&nbsp;mg de calcium par gobelet, soit 50&nbsp;% de la valeur quotidienne</strong> — un seul gobelet couvre les deux tiers de l'apport recommandé pour un adulte, et c'est un chiffre à connaître avant d'ajouter un supplément de calcium par-dessus. <strong>0,3&nbsp;g de gras trans</strong>, ce qui vient des huiles partiellement hydrogénées de la matière grasse laitière ou de l'émulsifiant&nbsp;: c'est peu, mais ce n'est pas zéro, et Santé Canada recommande de garder les trans industriels le plus bas possible. <strong>Édulcorants&nbsp;: sucralose et acésulfame-potassium</strong>, deux édulcorants intenses. Ça ne change aucun chiffre du panneau et c'est sans danger aux doses en jeu&nbsp;; c'est une information, pas un reproche.\n\n<strong>CE N'EST PAS UN ALIMENT, C'EST UN OUTIL, ET LA DIFFÉRENCE COMPTE POUR CE DOSSIER.</strong> Un gobelet n'apporte ni fibres, ni fer héminique, ni satiété de mastication, ni le plaisir d'un repas — et le dossier est bâti sur l'idée que la structure d'un repas fait plus que ses macros. <strong>SA PLACE JUSTE EST LE MATIN PRESSÉ ET LA COLLATION, PAS LE REMPLACEMENT D'UN REPAS ASSIS.</strong> Le déjeuner de semaine du guide 5 l'utilise correctement&nbsp;: un gobelet PLUS trois solides — avocat, edamames, œuf mariné — qui apportent le gras, les fibres et la mastication qu'il n'a pas."
+    },
+    "nutrition": {
+      "base": "unite",
+      "base_g": null,
+      "calories": 160,
+      "proteines_g": 30,
+      "lipides_g": 3,
+      "sodium_mg": 220,
+      "sucres_g": null,
+      "calcium_mg": 650,
+      "source": "etiquette",
+      "produit_lu": "Premier Protein, gobelet de 325 ml, caisse Costco",
+      "date_lecture": "2026-08-18"
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -1201,6 +1913,7 @@
     "jp": "醤油",
     "jp_lecture": null,
     "romaji": "shōyu",
+    "langue_origine": null,
     "fr": "Sauce soya japonaise",
     "noms_alternatifs": [],
     "description": "Présente dans presque toutes les recettes. La version réduite en sodium fait ~500 mg par cuillère à soupe contre ~900 pour la régulière.",
@@ -1213,6 +1926,19 @@
       "titre": "Le geste qui compte",
       "texte": "La « sauce soya » chinoise foncée et la japonaise ne sont pas interchangeables — pour ce recueil, prends du Kikkoman réduit en sodium (brassé traditionnellement : on perd ~38 % du sodium, ~575 mg par c. à soupe contre ~900, sans perdre l'umami). Surtout : mets la sauce dans un petit contenant à côté de l'assiette et <strong>trempe, ne verse pas dessus</strong> — trois fois moins de sel pour le même goût perçu, parce que le sel touche directement la langue."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Soy_sauce_2.jpg?width=1200",
     "photo_emballage": "assets/produits/sauce-soya.jpg",
     "commentaire_source": "\n// ⑦ ALLÉE JAPONAISE"
@@ -1224,11 +1950,12 @@
     "jp": "味醂",
     "jp_lecture": null,
     "romaji": "mirin",
+    "langue_origine": null,
     "fr": "Mirin",
     "noms_alternatifs": [],
     "description": "Vin de riz sucré pour la cuisine. Apporte brillant et rondeur, et c'est lui qui caramélise sous le gril.",
     "ou_le_trouver": "Allée japonaise, à côté du saké de cuisine et du vinaigre de riz.",
-    "a_quoi_ca_ressemble": "Bouteilles de ~250-500 ml, liquide ambré clair. Distingue le <em>hon-mirin</em> (vrai mirin, fermenté, ~14 % alcool) du <em>aji-mirin</em> / « mirin-style seasoning » (<em>mirin-fū</em> — sirop de glucose + sel ajouté). Le Kikkoman « Kotteri Mirin » (みりん風) est de ce second type : acceptable, mais il contient du sodium, à compter dans une recette déjà salée.",
+    "a_quoi_ca_ressemble": "Bouteilles de ~250-500 ml, liquide ambré clair. Distingue le <em>hon-mirin</em> (vrai mirin, fermenté, ~14 % alcool) du <em>aji-mirin</em> / « mirin-style seasoning » (<em>mirin-fū</em> — sirop de glucose ou de maïs, non fermenté). Le Kikkoman « Kotteri Mirin » (みりん風) est de ce second type : acceptable, et <strong>son étiquette ne donne que 5&nbsp;mg de sodium par cuillère à soupe</strong> — c'est son sucre qu'il faut compter, pas son sel.",
     "description_visuelle": null,
     "zone_magasin": null,
     "sert_dans": [
@@ -1246,7 +1973,20 @@
     ],
     "note": {
       "titre": "Si tu n'en as pas",
-      "texte": "Le mirin n'est pas un vinaigre — c'est un alcool de riz sucré (sucre + alcool + umami), alors que le vinaigre de riz apporte de l'acidité ; on ne remplace pas l'un par l'autre. Avec du saké (le plus proche) : 1 c. à soupe de mirin = 1 c. à soupe de saké + 1 c. à thé de sucre, chauffé doucement. Sans saké : 1 c. à soupe d'eau + 1 c. à thé de sucre. Tu perds la brillance et la rondeur, mais c'est parfaitement fonctionnel pour une marinade d'œufs (T7a) ou une sauce de donburi (R9). Impact macro négligeable (~40 cal, surtout du sucre)."
+      "texte": "Le mirin n'est pas un vinaigre — c'est un alcool de riz sucré (sucre + alcool + umami), alors que le vinaigre de riz apporte de l'acidité ; on ne remplace pas l'un par l'autre. Avec du saké (le plus proche) : 1 c. à soupe de mirin = 1 c. à soupe de saké + 1 c. à thé de sucre, chauffé doucement. Sans saké : 1 c. à soupe d'eau + 1 c. à thé de sucre. Tu perds la brillance et la rondeur, mais c'est parfaitement fonctionnel pour une marinade d'œufs (T7a) ou une sauce de donburi (R9). Impact macro négligeable (~40 cal, surtout du sucre).\n\n<strong>HON-MIRIN OU MIRIN-FŪ&nbsp;: LA DIFFÉRENCE EST DANS LA LIGNE D'INGRÉDIENTS, PAS SUR L'ÉTIQUETTE DE DEVANT.</strong> Le <em>hon-mirin</em> (本みりん) est fermenté&nbsp;: riz gluant, riz, <em>kōji</em>, alcool — environ 14&nbsp;% d'alcool, un sucre qui vient entièrement de la conversion de l'amidon. Le <em>mirin-fū</em> (みりん風), vendu comme «&nbsp;mirin-style seasoning&nbsp;» ou «&nbsp;aji-mirin&nbsp;», est une imitation non fermentée&nbsp;: sirop de glucose ou de maïs, acidifiant, arômes, moins de 1&nbsp;% d'alcool. <strong>Les deux disent «&nbsp;mirin&nbsp;» en façade.</strong>\n\n<strong>CE QUE LE MIRIN-FŪ FAIT MOINS BIEN</strong>&nbsp;: il sucre et il fait briller, mais il n'apporte ni les acides aminés de la fermentation ni l'alcool, qui est ce qui attendrit et ce qui emporte les odeurs fortes de poisson. Dans une marinade d'œufs, la différence est faible. Dans un <em>tare</em> de yakitori, où le mirin est la moitié du goût, elle se voit.\n\n<strong>LE POT DU DOSSIER EST UN KIKKOMAN KOTTERI, DONC UN MIRIN-FŪ. ÉTIQUETTE LUE LE 18 AOÛT 2026&nbsp;: 6&nbsp;G DE SUCRES ET 5&nbsp;MG DE SODIUM PAR CUILLÈRE À SOUPE, INGRÉDIENT DOMINANT SIROP DE MAÏS.</strong> Deux conséquences, dans cet ordre d'importance. <strong>UN — le sucre se compte.</strong> Quatre cuillères à soupe dans un tare, c'est 24&nbsp;g de sucres, et <strong>la cuillère à thé de sucre que la recette ajoute par-dessus devient à retirer</strong>. <strong>DEUX — le sodium ne se compte pas.</strong> À 5&nbsp;mg la cuillère, ce produit n'apporte rien au bilan sodique, et le dossier a porté un temps l'affirmation contraire, qui était une supposition tirée d'autres marques et non une lecture. Les mirin-fū salés existent — il faut lire le pot qu'on a, pas la catégorie."
+    },
+    "nutrition": {
+      "base": "c-a-soupe",
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": 5,
+      "sucres_g": 6,
+      "calcium_mg": null,
+      "source": "etiquette",
+      "produit_lu": "Kikkoman Kotteri Mirin (みりん風)",
+      "date_lecture": "2026-08-18"
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirinbowl.jpg?width=1200",
     "photo_emballage": "assets/produits/mirin.jpg"
@@ -1258,6 +1998,7 @@
     "jp": "料理酒",
     "jp_lecture": null,
     "romaji": "ryōrishu",
+    "langue_origine": null,
     "fr": "Saké de cuisine",
     "noms_alternatifs": [
       "cooking sake",
@@ -1275,6 +2016,19 @@
       "titre": "Le saké de cuisine contient du sel",
       "texte": "C'est la différence qui compte pour ce dossier. Le <em>ryōrishu</em> vendu en épicerie porte du sel ajouté — souvent <strong>1 500 à 2 000 mg de sodium par 100 ml</strong>, soit environ 250 mg par cuillère à soupe. Ce n'est pas négligeable dans une sauce déjà montée à la sauce soya : il faut le compter. Un saké à boire (<em>futsūshu</em>, en bouteille de la SAQ) n'a pas de sel ajouté et fonctionne parfaitement en cuisine, mais coûte plus cher. <strong>À défaut de saké&nbsp;: de l'eau.</strong> On perd l'umami et un peu de nappage, jamais la faisabilité du plat. Ne pas remplacer par du vin blanc — l'acidité et les arômes de fruit ne sont pas ceux d'un alcool de riz."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -1285,6 +2039,7 @@
     "jp": "ポン酢",
     "jp_lecture": null,
     "romaji": "ponzu",
+    "langue_origine": null,
     "fr": "Ponzu",
     "noms_alternatifs": [],
     "description": "Sauce soya diluée de jus d'agrume (yuzu, sudachi ou citron) et de dashi. Acidulée, légère, elle remplace avantageusement une vinaigrette sur à peu près tout — mais elle reste salée&nbsp;: <strong>~200 mg de sodium par cuillère à soupe</strong>.",
@@ -1305,6 +2060,19 @@
       "titre": "Brasser avant chaque usage",
       "texte": "<strong>Les sédiments et le dashi se déposent au fond de la bouteille</strong>&nbsp;: sans agitation, on verse un liquide déséquilibré. C'est écrit sur l'étiquette et ça se saute facilement — même logique qu'une vinaigrette. <strong>Dosage&nbsp;: 1 à 2 c. à thé par portion.</strong> Il est tentant d'en verser comme d'une vinaigrette&nbsp;; c'est de la sauce soya. Cela dit, le ponzu est <strong>moins salé</strong> que la sauce soya régulière par cuillère, puisqu'il est dilué. Usages&nbsp;: hiyayakko, sunomono (T7b), légumes blanchis, poisson blanc, shabu-shabu. Arbitrage&nbsp;: sous 5&nbsp;$, prends-la (se garde un an au frigo)&nbsp;; à 8&nbsp;$ et plus, soya + jus de lime moitié-moitié fait la job."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada_Prime_Beef_Tataki_with_ponzu_pearls_and_horseradish_%285895881268%29.jpg?width=1200",
     "photo_emballage": "assets/produits/ponzu.jpg"
   },
@@ -1315,6 +2083,7 @@
     "jp": "米酢",
     "jp_lecture": null,
     "romaji": "komezu",
+    "langue_origine": null,
     "fr": "Vinaigre de riz",
     "noms_alternatifs": [],
     "description": "Moins agressif que le vinaigre blanc. Base de toutes les marinades express — et l'acidité amplifie la perception du salé, donc elle permet de saler moins.",
@@ -1335,6 +2104,19 @@
       "T7b"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_vinegar.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1345,6 +2127,7 @@
     "jp": "だしパック",
     "jp_lecture": null,
     "romaji": "dashi pakku",
+    "langue_origine": null,
     "fr": "Sachets de dashi",
     "noms_alternatifs": [],
     "description": "Le compromis intelligent. De vrais ingrédients dans un sachet type thé : on le fait bouillir trois minutes et on le retire. <strong>C'est le point de départ réaliste pour qui ne cuisine pas.</strong>",
@@ -1357,6 +2140,19 @@
       "titre": "Le piège",
       "texte": "Les sachets (vrais ingrédients) et la poudre Hondashi (granulés, très salée, boîte jaune-orange) sont côte à côte sur la tablette. Prends les sachets."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi_02.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1367,6 +2163,7 @@
     "jp": "ふりかけ",
     "jp_lecture": null,
     "romaji": "furikake",
+    "langue_origine": null,
     "fr": "Furikake",
     "noms_alternatifs": [],
     "description": "Mélanges secs à saupoudrer sur le riz. Environ 3 $ le pot, et c'est ce qui règle le problème de la monotonie. Achètes-en trois, pas un.",
@@ -1383,6 +2180,19 @@
       "titre": "Trois mises au point",
       "texte": "Malgré les noms (saumon, crevette, bonite), le furikake n'apporte pas de protéines — une portion ≈ 2 g, ~10 cal, moins d'un gramme de protéines. C'est du goût. Et c'est salé (~15-20 %), soit 150-250 mg de sodium sur un bol : <strong>ne combine pas furikake et sauce soya sur le même bol</strong>. Son vrai rôle : rendre le riz nature intéressant sans y ajouter de gras — c'est ce qui fait que 140 g suffisent au lieu d'en redemander. <strong>Le geste</strong> : saupoudrer de haut, en deux passes, en tournant le bol d'un quart de tour entre les deux, et APRÈS avoir aéré le riz. Déposé en une seule fois au même endroit, il ne se répartit plus — le riz cuit n'est pas assez mobile pour le disperser après coup."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Furikake_%281%29.jpg?width=1200",
     "photo_emballage": "assets/produits/furikake.jpg"
   },
@@ -1393,6 +2203,7 @@
     "jp": "七味唐辛子",
     "jp_lecture": null,
     "romaji": "shichimi tōgarashi",
+    "langue_origine": null,
     "fr": "Shichimi togarashi",
     "noms_alternatifs": [
       "nanami togarashi",
@@ -1417,6 +2228,19 @@
       "titre": "Le nom, et le distributeur",
       "texte": "七味 se lit <em>shichimi</em> ou <em>nanami</em> selon la lecture retenue des caractères, et S&amp;B utilise « nanami » sur ses emballages d'exportation. Chercher les deux. <strong>Le distributeur filtre ce qui goûte.</strong> Le shichimi est un mélange à granulométrie très inégale : le piment moulu est fin, mais le sésame, le nori et le zeste d'agrume sont en morceaux. <strong>Les trous fins d'un couvercle saupoudreur laissent passer le piment et retiennent tout le reste</strong> — on obtient du piquant sans les six autres saveurs, et on croit à tort que le mélange est faible. Ouvrir le côté verseur pour compenser produit l'erreur inverse : une dose massive d'un coup. Constaté le 14 août 2026, dans les deux sens au même repas. Doser dans le creux de la main ou dans une cuillère, puis saupoudrer à la main. Jamais directement au-dessus de l'assiette."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shichimi_002.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1427,6 +2251,7 @@
     "jp": "山葵",
     "jp_lecture": null,
     "romaji": "wasabi",
+    "langue_origine": null,
     "fr": "Wasabi",
     "noms_alternatifs": [],
     "description": "Presque tout le wasabi vendu est du raifort coloré. Ce n'est pas un scandale — c'est le standard, même au Japon.",
@@ -1439,6 +2264,19 @@
       "R20"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%99en%20wasabi%20na%20su%C5%A1i%20(japonsk%C3%BD%20k%C5%99en).jpg?width=1200",
     "photo_emballage": null
   },
@@ -1449,6 +2287,7 @@
     "jp": "蕎麦",
     "jp_lecture": null,
     "romaji": "soba",
+    "langue_origine": null,
     "fr": "Soba",
     "noms_alternatifs": [],
     "description": "Nouilles de sarrasin — en principe. Se mangent froides, ce qui en fait un excellent dîner à transporter. Attention : la plupart des paquets vendus au Québec sont majoritairement de blé, avec le sarrasin en deuxième ingrédient.",
@@ -1465,6 +2304,19 @@
       "titre": "Les deux chiffres du panneau",
       "texte": "<strong>Protéines.</strong> Un juwari (十割, 100 % sarrasin) donne 13 à 14 g aux 100 g secs; un soba à dominante blé, environ 10 g. L'écart est réel mais ne décide pas d'un repas — la protéine d'un plat de soba vient de la garniture. <strong>Sodium.</strong> C'est le chiffre qui surprend : plusieurs soba secs du commerce dépassent 700 mg aux 100 g secs, assez pour porter le symbole d'avertissement en façade de Santé Canada. Exemple relevé le 15 août 2026 : Sukina, 300 g, fabriqué en Corée du Sud, <strong>760 mg de sodium aux 100 g</strong>, farine de blé en premier ingrédient. On estime que 50 à 70 % de ce sel part à l'eau de cuisson et au rinçage à l'eau froide. Verdict d'usage : utilisable, mais à ne pas racheter tel quel."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_soba_noodles_by_FotoosVanRobin.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1475,6 +2327,7 @@
     "jp": "パン粉",
     "jp_lecture": null,
     "romaji": "panko",
+    "langue_origine": null,
     "fr": "Panko",
     "noms_alternatifs": [],
     "description": "Chapelure japonaise en flocons légers. Absorbe beaucoup moins d'huile que la chapelure fine — mais on ne fait pas beaucoup de friture dans ce recueil.",
@@ -1484,6 +2337,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Breadcrumb.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1494,6 +2360,7 @@
     "jp": "胡麻",
     "jp_lecture": null,
     "romaji": "goma",
+    "langue_origine": null,
     "fr": "Graines de sésame",
     "noms_alternatifs": [],
     "description": "Le « pouce » des repères visuels — un gras, pas une protéine. Une cuillère à soupe ≈ 50 cal, 4,5 g de gras, 1,5 g de protéines. Son vrai rôle : parfumer le riz nature et les légumes sans y ajouter grand-chose.",
@@ -1506,6 +2373,19 @@
       "titre": "Le geste",
       "texte": "Ne jamais saupoudrer tel quel : une graine entière traverse le système intacte. Écrase entre les doigts ou au mortier juste avant de servir — écrasée, elle libère son huile et son parfum. Griller à sec 2 minutes ravive tout. Conserver au frigo après ouverture."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sesame-Seeds.jpg?width=1200",
     "photo_emballage": "assets/produits/graines-sesame.jpg"
   },
@@ -1516,6 +2396,7 @@
     "jp": "고추장",
     "jp_lecture": "ko-tchou-djang",
     "romaji": "gochujang",
+    "langue_origine": null,
     "fr": "Gochujang",
     "noms_alternatifs": [],
     "description": "Pâte de piment fermentée, épaisse et légèrement sucrée. Environ 400 mg de sodium par cuillère à soupe — modéré pour ce que c'est.",
@@ -1529,6 +2410,19 @@
       "R29"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_chili_pepper_paste_GOCHUJANG.jpg?width=1200",
     "photo_emballage": null,
     "commentaire_source": "\n// ⑧ ALLÉE CORÉENNE"
@@ -1540,6 +2434,7 @@
     "jp": "고춧가루",
     "jp_lecture": null,
     "romaji": "gochugaru",
+    "langue_origine": null,
     "fr": "Gochugaru",
     "noms_alternatifs": [],
     "description": "Flocons de piment coréen. Colorés, fruités, beaucoup plus parfumés que piquants. Chauffés dans l'huile une minute, ils libèrent la couleur rouge.",
@@ -1552,6 +2447,19 @@
       "R30"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gochugaru.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1562,6 +2470,7 @@
     "jp": "참기름",
     "jp_lecture": "tchame-gui-reume",
     "romaji": "chamgireum",
+    "langue_origine": null,
     "fr": "Huile de sésame grillé",
     "noms_alternatifs": [],
     "description": "Un assaisonnement, pas une huile de cuisson. Une cuillère à thé en fin de cuisson suffit — chauffée fort, elle perd tout son parfum.",
@@ -1583,6 +2492,19 @@
       "R48"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/SesameSeedOil.png?width=1200",
     "photo_emballage": null
   },
@@ -1593,6 +2515,7 @@
     "jp": "蠔油",
     "jp_lecture": "hao-you",
     "romaji": "háoyóu",
+    "langue_origine": null,
     "fr": "Sauce d'huîtres",
     "noms_alternatifs": [],
     "description": "Épaisse, salée, légèrement sucrée. Une cuillère à soupe transforme un sauté.",
@@ -1603,7 +2526,23 @@
     "sert_dans": [
       "R17"
     ],
-    "note": null,
+    "note": {
+      "titre": "Ce qu'elle fait qu'aucune autre sauce ne fait",
+      "texte": "<strong>ÉTIQUETTE LUE LE 18 AOÛT 2026&nbsp;: LEE KUM KEE, ENVIRON 690&nbsp;MG DE SODIUM PAR CUILLÈRE À SOUPE.</strong> Une cuillère à soupe suffit dans <em>R17</em>, où elle est diluée dans un bouillon lié — mais c'est déjà 30&nbsp;% du plafond d'une journée.\n\n<strong>CE QU'ELLE FAIT QU'AUCUNE AUTRE SAUCE NE FAIT</strong>&nbsp;: elle apporte simultanément de l'umami, du sucre et du corps. C'est le corps qui est difficile à remplacer — c'est un extrait épaissi, et c'est lui qui donne aux sautés chinois leur nappage brillant. <strong>LE PREMIER INGRÉDIENT EST À VÉRIFIER</strong>&nbsp;: les versions de qualité commencent par de l'extrait d'huître&nbsp;; les autres par de l'eau, du sucre ou du caramel, et il faut alors en mettre plus pour le même goût — donc plus de sodium.\n\n<strong>ELLE NE SE RÉDUIT PAS ET ELLE NE BOUILLE PAS LONGTEMPS</strong>&nbsp;: son sucre brûle et son umami s'affadit. Elle entre dans la sauce assemblée, versée en fin de cuisson. <strong>AU FRIGO APRÈS OUVERTURE</strong>, sans exception — c'est un produit de la mer."
+    },
+    "nutrition": {
+      "base": "c-a-soupe",
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": 690,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": "etiquette",
+      "produit_lu": "Lee Kum Kee",
+      "date_lecture": "2026-08-18"
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/OysterSauce2.jpg?width=1200",
     "photo_emballage": null,
     "commentaire_source": "\n// ⑨ ALLÉE CHINOISE"
@@ -1615,6 +2554,7 @@
     "jp": "豆瓣醬",
     "jp_lecture": "dow-bane-djiang",
     "romaji": "dòubànjiàng",
+    "langue_origine": null,
     "fr": "Doubanjiang",
     "noms_alternatifs": [],
     "description": "Pâte de fèves fermentées épicée. La base du mapo tofu, et il n'y a pas de substitut.",
@@ -1625,7 +2565,23 @@
     "sert_dans": [
       "R26"
     ],
-    "note": null,
+    "note": {
+      "titre": "Le sel n'est pas un assaisonnement ici, c'est l'agent de la fermentation",
+      "texte": "<strong>ÉTIQUETTE LUE LE 18 AOÛT 2026&nbsp;: POT DE 380&nbsp;G, ENVIRON 390&nbsp;MG DE SODIUM PAR 10&nbsp;G, SOIT DE L'ORDRE DE 700&nbsp;MG PAR CUILLÈRE À SOUPE.</strong> <em>R26</em> en demande une cuillère à soupe pour deux portions, donc environ 350&nbsp;mg par bol — le poste sodique principal du mapo tofu, et le plus difficile à réduire.\n\n<strong>PARCE QUE CE N'EST PAS UN CONDIMENT DE PIQUANT, C'EST LE PLAT.</strong> Le 豆瓣醬 est une pâte de fèves de soya larges et de piments, fermentée en saumure pendant des mois — parfois des années pour les <em>pixian</em> vieillis. Le sel n'est pas un assaisonnement ajouté à la fin&nbsp;: <strong>c'est l'agent de la fermentation</strong>, celui qui a produit le goût qu'on achète. C'est pourquoi il n'existe pas de doubanjiang à faible teneur en sodium qui goûte le doubanjiang, et pourquoi le réduire de moitié dans un mapo ne donne pas un mapo plus léger mais un autre plat, plus plat.\n\n<strong>LE LEVIER EST AILLEURS&nbsp;: DANS CE QUI L'ENTOURE.</strong> Un mapo tofu porte souvent aussi de la sauce soya, du haricot noir fermenté et un bouillon salé — <strong>ce sont ceux-là qu'on coupe, en gardant le doubanjiang entier.</strong> Le poivre de Sichuan et l'huile de piment, à zéro sodium, portent une bonne part de ce qu'on croit venir du sel. <strong>FAIRE FRIRE LA PÂTE DANS L'HUILE 30 À 60 SECONDES AVANT D'AJOUTER LE LIQUIDE</strong>&nbsp;: ça libère les arômes liposolubles et le rouge, et une pâte réveillée par l'huile rend plus de goût à dose égale."
+    },
+    "nutrition": {
+      "base": "portion",
+      "base_g": 10,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": 390,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": "etiquette",
+      "produit_lu": "Doubanjiang, pot de 380 g",
+      "date_lecture": "2026-08-18"
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Doubanjiang.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1636,6 +2592,7 @@
     "jp": "鎮江醋",
     "jp_lecture": "djène-djiang tsou",
     "romaji": "zhènjiāng cù",
+    "langue_origine": null,
     "fr": "Vinaigre noir de Chinkiang",
     "noms_alternatifs": [],
     "description": "Vinaigre de riz noir, malté, presque balsamique. C'est lui qui donne l'acidité de la soupe aigre-piquante.",
@@ -1647,6 +2604,19 @@
       "R25"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%92%E9%85%A2.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1657,6 +2627,7 @@
     "jp": "花椒",
     "jp_lecture": null,
     "romaji": "huājiāo",
+    "langue_origine": null,
     "fr": "Poivre de Sichuan",
     "noms_alternatifs": [],
     "description": "Ni un poivre ni un piment. Citronné, et légèrement engourdissant sur la langue. Toujours ajouté hors du feu : la chaleur détruit son parfum.",
@@ -1668,6 +2639,19 @@
       "R26"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sichuan_pepper.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1678,6 +2662,7 @@
     "jp": "味の素",
     "jp_lecture": null,
     "romaji": "ajinomoto",
+    "langue_origine": null,
     "fr": "MSG (Ajinomoto)",
     "noms_alternatifs": [],
     "description": "L'extrait isolé de ce qui rend le dashi bon. <strong>Environ le tiers du sodium du sel de table</strong> : c'est un outil légitime de réduction du sodium, pas un compromis.",
@@ -1690,6 +2675,19 @@
       "titre": "Sur l'innocuité",
       "texte": "Des décennies d'études contrôlées contre placebo n'ont pas reproduit le « syndrome du restaurant chinois ». La FDA le classe GRAS, l'UE l'autorise sous le numéro E621. Voir le guide 1, section 3."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Monosodium_glutamate_crystals.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1700,9 +2698,10 @@
     "jp": "nước mắm",
     "jp_lecture": "nou-oc mame",
     "romaji": "nuoc mam",
+    "langue_origine": null,
     "fr": "Sauce de poisson",
     "noms_alternatifs": [],
-    "description": "L'umami vietnamien et thaï. Odeur forte à l'ouverture, goût rond une fois dans le plat. <strong>~1400 mg de sodium par cuillère à soupe</strong> — la plus salée de toutes.",
+    "description": "L'umami vietnamien et thaï. Odeur forte à l'ouverture, goût rond une fois dans le plat. <strong>1&nbsp;500&nbsp;mg de sodium par cuillère à soupe</strong>, étiquette lue — la plus salée de toutes.",
     "ou_le_trouver": "Allée Asie du Sud-Est, aux emballages plus colorés et pleins de photos de plats.",
     "a_quoi_ca_ressemble": "<strong>Three Crabs : bouteille haute, étiquette jaune vif avec trois crabes rouges dessinés.</strong> Ou Squid, avec un calmar. Le liquide doit être ambré clair, pas brun foncé.",
     "description_visuelle": null,
@@ -1716,8 +2715,21 @@
       "R64"
     ],
     "note": {
-      "titre": "Sodium",
-      "texte": "Une cuillère à soupe = ~1400 mg. Dans le nuoc cham, elle est diluée dans l'eau, la lime et le sucre, donc l'impact réel par portion est plus faible — mais c'est l'ingrédient à doser en premier."
+      "titre": "Sodium, chiffre lu",
+      "texte": "<strong>CHIFFRE LU, LE 18 AOÛT 2026&nbsp;: 1&nbsp;500&nbsp;mg de sodium par cuillère à soupe</strong>, sauce Megachef 30°N. Le «&nbsp;~1400&nbsp;» que cette note portait était une estimation&nbsp;; l'écart est faible mais la source change, et c'est ce qui compte. Dans le nuoc cham, elle est diluée dans l'eau, la lime et le sucre, donc l'impact réel par portion est plus faible — mais c'est l'ingrédient à doser en premier. <strong>LE «&nbsp;30°N&nbsp;» EST UN INDICE DE QUALITÉ, PAS UNE MARQUE</strong>&nbsp;: il désigne le degré azoté, une mesure de la teneur en acides aminés issus de la fermentation de l'anchois. Plus il est élevé, plus la sauce porte d'umami <em>pour un même sodium</em> — donc plus on peut en mettre peu. <strong>C'est le seul levier qui améliore le rapport goût-sodium de cet ingrédient</strong>, et il s'achète&nbsp;: une sauce à 30°N ou plus permet de descendre les doses là où une sauce bas de gamme force à en remettre.\n\n<strong>ET LA DOSE SE JUGE À LA FIN, HORS DU FEU.</strong> La sauce de poisson perd une partie de ses arômes volatils en bouillant et ne garde que son sel&nbsp;: ajoutée en début de cuisson, elle sale sans parfumer. Dans un bouillon, en réserver la moitié pour la fin."
+    },
+    "nutrition": {
+      "base": "c-a-soupe",
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": 1500,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": "etiquette",
+      "produit_lu": "Megachef 30°N",
+      "date_lecture": "2026-08-18"
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sauce_de_poisson.jpg?width=1200",
     "photo_emballage": null,
@@ -1730,6 +2742,7 @@
     "jp": "ต้มยำ",
     "jp_lecture": "tome youme",
     "romaji": "tom yum",
+    "langue_origine": null,
     "fr": "Pâte tom yum",
     "noms_alternatifs": [],
     "description": "Deux cuillères à soupe et un bouillon devient une soupe thaïlandaise. Le raccourci le plus rentable de l'allée.",
@@ -1740,7 +2753,23 @@
     "sert_dans": [
       "R27"
     ],
-    "note": null,
+    "note": {
+      "titre": "Le deuxième poste sodique du tom yum",
+      "texte": "<strong>ÉTIQUETTE LUE LE 18 AOÛT 2026&nbsp;: POR KWAN, POT DE 454&nbsp;G, ENVIRON 920&nbsp;MG DE SODIUM PAR CUILLÈRE À SOUPE.</strong> C'est le deuxième poste sodique du tom yum après les crevettes, et il porte à lui seul plus du tiers du plafond quotidien aux doses de <em>R27</em>.\n\n<strong>CE QU'IL Y A DEDANS, ET POURQUOI ON NE PEUT PAS SIMPLEMENT LA DILUER.</strong> Une pâte tom yum du commerce est un concentré d'huile, de piment, de citronnelle, de galanga, de feuille de lime, de pâte de crevette et de sel. <strong>Elle porte donc à la fois l'aromatique et le sel, et les deux sont indissociables dans le pot</strong>&nbsp;: couper la pâte de moitié coupe aussi l'aromatique de moitié. C'est exactement pourquoi la version allégée de <em>R27</em> monte la citronnelle, le galanga et les feuilles de lime <em>fraîches</em>&nbsp;: elles remplacent l'aromatique perdu, sans le sel.\n\n<strong>SE GARDE DES MOIS AU FRIGO APRÈS OUVERTURE</strong>, l'huile faisant barrière. Prendre à la cuillère sèche. <strong>ET LA MARQUE COMPTE</strong>&nbsp;: d'un fabricant à l'autre, le sodium par cuillère varie du simple au double. Relire à chaque nouveau pot."
+    },
+    "nutrition": {
+      "base": "c-a-soupe",
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": 920,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": "etiquette",
+      "produit_lu": "Por Kwan, pot de 454 g",
+      "date_lecture": "2026-08-18"
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1751,6 +2780,7 @@
     "jp": "กะทิ",
     "jp_lecture": "ka-ti",
     "romaji": "kathi",
+    "langue_origine": null,
     "fr": "Lait de coco léger",
     "noms_alternatifs": [],
     "description": "Le lait de coco régulier fait environ 445 calories la tasse. La version légère en fait 150 — et dans un tom kha, la différence de goût est mineure.",
@@ -1765,6 +2795,19 @@
       "titre": "À la cuisson",
       "texte": "Ne jamais faire bouillir : le lait de coco tranche. Mijoter doucement, sans plus."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cononut_milk.JPG?width=1200",
     "photo_emballage": null
   },
@@ -1775,6 +2818,7 @@
     "jp": "bún",
     "jp_lecture": null,
     "romaji": "bun",
+    "langue_origine": null,
     "fr": "Vermicelles de riz",
     "noms_alternatifs": [],
     "description": "Farine de riz reconstituée, pas du grain entier. Index glycémique souvent plus élevé que le riz, et beaucoup plus faciles à surconsommer.",
@@ -1789,6 +2833,19 @@
       "titre": "La portion",
       "texte": "Un bol de vermicelles se mange vite. Le riz en grains, mangé à la baguette dans un petit bol, impose naturellement un rythme."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_vermicelli.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1799,6 +2856,7 @@
     "jp": "bột gạo",
     "jp_lecture": "bôte gao",
     "romaji": "bot gao",
+    "langue_origine": null,
     "fr": "Farine de riz",
     "noms_alternatifs": [
       "Rice flour",
@@ -1816,6 +2874,19 @@
       "titre": "Riz ordinaire ou riz gluant : le piège du sac identique",
       "texte": "Deux produits presque impossibles à distinguer à l'œil, dans des sacs de la même marque et du même format. La farine de riz <strong>gluant</strong> (bột nếp, glutinous rice flour) sert aux mochi et aux desserts : elle donne une pâte élastique et collante, et ne croustille jamais. Vérifier le mot <strong>glutinous</strong> ou <strong>nếp</strong> sur le sac — s'il est là, c'est le mauvais produit."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Two%20kinds%20of%20rice%20flour.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1826,6 +2897,7 @@
     "jp": "ตะไคร้",
     "jp_lecture": "ta-kraï",
     "romaji": "takhrai",
+    "langue_origine": null,
     "fr": "Citronnelle, galanga, lime kaffir",
     "noms_alternatifs": [],
     "description": "Le trio aromatique thaïlandais. Ils s'infusent dans le bouillon puis se retirent — on ne les mange pas.",
@@ -1837,7 +2909,23 @@
       "R27",
       "R28"
     ],
-    "note": null,
+    "note": {
+      "titre": "Le galanga n'est pas du gingembre",
+      "texte": "<strong>CES TROIS AROMATES INFUSENT ET NE SE MANGENT PAS.</strong> Ils restent dans le bouillon et se poussent au bord du bol — c'est normal, c'est ainsi qu'on sert le tom yum en Thaïlande, et une fiche qui ne le dit pas laisse croire à un défaut de découpe.\n\n<strong>LA CITRONNELLE</strong> se prend en tronçons de 5&nbsp;cm, <strong>écrasés au dos du couteau jusqu'à ce que les fibres éclatent</strong> — non écrasée, elle ne donne presque rien. Deux tiges pour un litre est un minimum&nbsp;; quatre est une dose défendable quand on allège le sel, parce que l'aromatique reprend ce que le sel abandonne. Se congèle en tronçons, sans perte notable.\n\n<strong>LE GALANGA N'EST PAS UN GINGEMBRE FAIBLE, C'EST UN AUTRE GOÛT — ET C'EST L'ERREUR DE SUBSTITUTION LA PLUS COURANTE.</strong> Rhizome pâle, presque beige rosé, nettement plus dur et plus ligneux que le gingembre, cerclé d'anneaux marqués. Là où le gingembre est chaud et piquant, <strong>le galanga est résineux, poivré, presque camphré, avec une note de pin</strong>. Remplacer l'un par l'autre dans un tom yum ne l'affaiblit pas&nbsp;: ça le pousse vers un plat japonais. <strong>S'IL N'Y EN A PAS, MIEUX VAUT MONTER LA CITRONNELLE ET LES FEUILLES DE LIME</strong> et assumer un profil citronné, plutôt que de mettre du gingembre. En tranches, jamais râpé — il est trop fibreux. Se congèle entier et se tranche encore gelé. <strong>La version séchée existe au rayon des épices&nbsp;: la réhydrater 20 minutes dans le liquide froid avant de chauffer, et la compter pour la moitié d'un frais — elle donne le boisé, pas le parfum.</strong>\n\n<strong>LES FEUILLES DE LIME KAFFIR</strong> se <strong>déchirent</strong>, jamais ne se coupent&nbsp;: c'est la déchirure qui rompt les cellules et libère l'huile. Elles portent le parfum de lime <em>sans acidité</em>, ce qui en fait <strong>le meilleur rattrapage quand on manque de limes</strong> — six feuilles au lieu de quatre compensent la note verte d'un jus de citron. Se congèlent des mois et s'utilisent directement congelées."
+    },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cymbopogon%20citratus%20(%20Lemon%20grass).jpg?width=1200",
     "photo_emballage": null
   },
@@ -1848,6 +2936,7 @@
     "jp": "麦茶",
     "jp_lecture": null,
     "romaji": "mugicha",
+    "langue_origine": null,
     "fr": "Mugicha — thé d'orge",
     "noms_alternatifs": [],
     "description": "<strong>L'achat le plus rentable de la liste.</strong> Zéro calorie, zéro caféine, zéro sucre. Goût de grain grillé. Un sachet dans un litre d'eau froide, une nuit au frigo.",
@@ -1860,6 +2949,19 @@
       "titre": "Si tu n'en trouves pas",
       "texte": "Trois options, dans l'ordre : le <strong>boricha coréen (보리차)</strong> est exactement le même produit — thé d'orge grillé — cherche-le en épicerie coréenne ; sinon l'épicerie japonaise Miyamoto en a à coup sûr ; en dernier recours, le <strong>hojicha</strong> (thé vert torréfié) — pas la même chose, mais même registre grillé, presque sans caféine, à boire froid en pichet de la même façon."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese-Barley_tea-Mugicha.jpg?width=1200",
     "photo_emballage": null,
     "commentaire_source": "\n// ⑪ THÉ"
@@ -1871,6 +2973,7 @@
     "jp": "ほうじ茶",
     "jp_lecture": null,
     "romaji": "hōjicha",
+    "langue_origine": null,
     "fr": "Hojicha — thé vert torréfié",
     "noms_alternatifs": [],
     "description": "Torréfié, donc presque décaféiné. Notes de caramel et de chocolat. C'est le thé du soir.",
@@ -1880,6 +2983,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Houjicha.jpg?width=1200",
     "photo_emballage": "assets/produits/hojicha.jpg"
   },
@@ -1890,6 +3006,7 @@
     "jp": "煎茶",
     "jp_lecture": null,
     "romaji": "sencha",
+    "langue_origine": null,
     "fr": "Sencha et genmaicha",
     "noms_alternatifs": [],
     "description": "Le thé vert du matin. <strong>Infusé à 70-75 °C, pas à l'eau bouillante</strong> — c'est là que la plupart des gens ratent leur thé. Infusé à froid une nuit, il devient doux et presque sucré.",
@@ -1899,6 +3016,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/White_cup_with_green_tea_in_it.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1909,6 +3039,7 @@
     "jp": "米",
     "jp_lecture": null,
     "romaji": "kome",
+    "langue_origine": null,
     "fr": "Riz à grain court",
     "noms_alternatifs": [],
     "description": "Le grain court japonais colle juste assez pour se manger à la baguette. C'est ce qui rend le petit bol possible.",
@@ -1923,6 +3054,19 @@
       "titre": "Arsenic",
       "texte": "Le riz accumule plus d'arsenic inorganique que les autres céréales, et le riz brun plus que le blanc. Rincer jusqu'à ce que l'eau soit claire — ce que la méthode japonaise prescrit déjà — et varier les féculents."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
     "photo_emballage": "assets/produits/riz.jpg",
     "commentaire_source": "\n// ⑫ RIZ ET COLLATIONS"
@@ -1934,6 +3078,7 @@
     "jp": "煎餅",
     "jp_lecture": null,
     "romaji": "senbei",
+    "langue_origine": null,
     "fr": "Senbei et collations",
     "noms_alternatifs": [],
     "description": "Craquelins de riz. Environ la moitié du gras des croustilles, et ils se mâchent longtemps.",
@@ -1943,6 +3088,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Senbeis.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1953,6 +3111,7 @@
     "jp": "蒟蒻ゼリー",
     "jp_lecture": null,
     "romaji": "konnyaku zerī",
+    "langue_origine": null,
     "fr": "Gelée de konjac",
     "noms_alternatifs": [],
     "description": "Environ 20 calories la pochette. Le remplacement direct des bonbons.",
@@ -1962,6 +3121,19 @@
     "zone_magasin": null,
     "sert_dans": [],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Konnyaku.jpg?width=1200",
     "photo_emballage": null
   },
@@ -1972,6 +3144,7 @@
     "jp": "梅干し",
     "jp_lecture": null,
     "romaji": "umeboshi",
+    "langue_origine": null,
     "fr": "Umeboshi",
     "noms_alternatifs": [],
     "description": "Prune salée et fermentée. Extrêmement acide et salée. <strong>Le choc casse une rage de sucre très efficacement</strong> — et une seule suffit.",
@@ -1983,6 +3156,19 @@
       "R11"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Umeboshi2.JPG?width=1200",
     "photo_emballage": null
   },
@@ -1993,6 +3179,7 @@
     "jp": "即席麺",
     "jp_lecture": null,
     "romaji": "sokusekimen",
+    "langue_origine": null,
     "fr": "Nouilles instantanées",
     "noms_alternatifs": [],
     "description": "Fiche de dépannage utile (R57). Mais une fois le dashi maîtrisé, la nouille sèche ordinaire en bouillon (R60) prend 8 minutes, coûte moins cher et donne un meilleur résultat.",
@@ -2008,6 +3195,19 @@
       "titre": "Où en trouver à Montréal",
       "texte": "Pulmuone (풀무원) en épicerie coréenne, Myojo Chukazanmai (中華三昧), ou A-Sha (阿舍食堂, plus souvent chez T&amp;T que chez Kim Phat). Le paquet sur la photo (出前一丁) est un classique — mais c'est une nouille <strong>frite</strong>, donc un bon repère du produit à NE pas prendre si on vise le non-frit."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Instant_noodles.jpg?width=1200",
     "photo_emballage": "assets/produits/demae-itcho.jpg"
   },
@@ -2018,6 +3218,7 @@
     "jp": "鰯の缶詰",
     "jp_lecture": null,
     "romaji": "iwashi no kanzume",
+    "langue_origine": null,
     "fr": "Sardines en conserve",
     "noms_alternatifs": [],
     "description": "Substitut valable au thon dans R10 et les donburi, et plus japonais que lui. Plus bas dans la chaîne alimentaire, donc bien meilleure que le thon côté mercure.",
@@ -2033,6 +3234,19 @@
       "titre": "† Mercure et densité calorique",
       "texte": "Sardines à l'huile : ~300 cal et 20 g de protéines/100 g ; thon pâle dans l'eau : ~110 cal et 25 g/100 g. Par gramme de protéine, la sardine à l'huile coûte environ 3× plus de calories — c'est du bon gras, mais ça change ce qu'on met autour. Égoutter sérieusement (on récupère 25-30 % des calories). Une fois ouverte, transvider dans un contenant hermétique, jamais laisser dans la boîte, manger en 2 jours. En kobachi (<em>R61</em>, à la place du germon) : compter 100 g égouttés, pas 50, pour que les protéines montent — et retirer l'huile de sésame de la recette, la sardine en apporte déjà. Mercure : un des poissons les plus bas de la chaîne — voir la note mercure du guide 1. <strong>Étiquette lue le 13 août 2026 — Kersen, filets dans l'huile de tournesol, sans arêtes, 200 g.</strong> Boîte entière : 600 cal, 52 g de lipides, 40 g de protéines, 840 mg de sodium. Égouttée selon la règle des 25-30 %, environ 435 cal et 34 g de lipides — les protéines et le sodium, eux, ne bougent pas. <strong>Ce produit cumule les deux choses que cette fiche dit d'éviter</strong> : l'huile de tournesol, qui déséquilibre le rapport oméga-6/oméga-3, et la mention « sans arêtes », qui retire l'essentiel du calcium (environ 350 mg/100 g avec les arêtes molles, environ 50 sans). Il avait été acheté avant que cette fiche existe — ce n'est pas un achat contre la règle, c'est un stock antérieur à la règle. À 34 g de lipides égouttés, une boîte porte à elle seule la moitié du plafond lipidique d'une journée. <strong>RÈGLE ADOPTÉE : toute conserve de poisson à l'huile se pèse égouttée avant d'être notée à l'inventaire.</strong> Un seul pesage rend la classe entière calculable au lieu qu'estimée. DÉCISION D'ACHAT : sardines à l'eau ou à l'huile d'olive, avec arêtes."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canned_sardines.jpg?width=1200",
     "photo_emballage": null
   },
@@ -2043,6 +3257,7 @@
     "jp": "ツナ缶",
     "jp_lecture": null,
     "romaji": "tsuna kan",
+    "langue_origine": null,
     "fr": "Thon en conserve",
     "noms_alternatifs": [],
     "description": "Le meilleur ratio protéines/sodium du garde-manger — rien d'autre n'approche. Une boîte de 170 g (≈ 120 g égouttés) donne <strong>~28 g de protéines pour ~130 cal et ~260 mg de sodium</strong>.",
@@ -2059,6 +3274,19 @@
       "titre": "Lire l'étiquette correctement",
       "texte": "Le tableau de valeur nutritive est souvent donné <strong>par demi-boîte égouttée (55 g)</strong> — il faut doubler pour la boîte entière. C'est l'erreur qui fait croire que le thon n'apporte que 14 g de protéines. Usages&nbsp;: <strong>dans son propre bol</strong>, défait à la fourchette et mélangé au ponzu avec un filet d'huile de sésame (<em>R61</em>) — et non pas empilé sur un tofu soyeux, ce qui donne deux plats à moitié&nbsp;; sinon dans un onigiri ou dans un donburi rapide. Mercure&nbsp;: voir la note du <a href=\"guide-1-manger.html#s15\">guide 1</a> — le thon pâle n'est pas visé par l'avis de Santé Canada, le germon l'est."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuna_can.jpg?width=1200",
     "photo_emballage": null
   },
@@ -2069,6 +3297,7 @@
     "jp": "おにぎり",
     "jp_lecture": null,
     "romaji": "onigiri",
+    "langue_origine": null,
     "fr": "Onigiri du commerce",
     "noms_alternatifs": [],
     "description": "Dépannage acceptable, aliment de base non. <strong>Ce n'est pas l'onigiri fait maison</strong>&nbsp;: un onigiri commercial de 120 g donne ~260 cal pour <strong>5 à 7 g de protéines et ~480 mg de sodium</strong> — assez pour déclencher l'avertissement «&nbsp;Élevé en sodium&nbsp;» de Santé Canada.",
@@ -2083,6 +3312,19 @@
       "titre": "Conservation et arbitrage",
       "texte": "Ils se congèlent. Prioriser ceux au <strong>saumon</strong> ou à la prune&nbsp;: les garnitures en sauce (mayonnaise, crevettes) se séparent à la décongélation. Emballer individuellement, sortir au frigo la veille. L'arbitrage&nbsp;: une rondelle de riz maison congelée (T1) apporte les mêmes calories avec <strong>0 mg de sodium</strong>. Et pour en faire un vrai repas, voir R59 — avec des edamames et un œuf dur. <strong>RENDEMENT : 88 mg de sodium par gramme de protéine pour la version aux crevettes, 96 mg/g pour celle au saumon. C'est le pire rapport de tout le dossier</strong>, loin devant l'œuf mariné, à 42. Deux morceaux au déjeuner coûtent plus de 1 000 mg de sodium pour 11 g de protéines. <strong>STATUT INCHANGÉ MAIS DURCI</strong> : dépannage seulement, jamais deux le même jour, et jamais en complément d'un repas déjà salé."
     },
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
     "photo_emballage": null
   },
@@ -2093,6 +3335,7 @@
     "jp": "牛蒡",
     "jp_lecture": null,
     "romaji": "gobō",
+    "langue_origine": null,
     "fr": "Gobo, racine de bardane",
     "noms_alternatifs": [
       "burdock root"
@@ -2106,6 +3349,19 @@
       "R46"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -2116,6 +3372,7 @@
     "jp": "さつまいも",
     "jp_lecture": null,
     "romaji": "satsumaimo",
+    "langue_origine": null,
     "fr": "Patate douce (satsumaimo)",
     "noms_alternatifs": [],
     "description": "<strong>SATSUMAIMO OU PATATE DOUCE ORDINAIRE.</strong> La japonaise a la peau pourpre-rougeâtre et la chair <strong>blanc crème à jaune pâle</strong>&nbsp;: sèche, farineuse, goût de châtaigne. La variété nord-américaine courante — peau cuivrée, <strong>chair orange</strong> — est de la même famille mais plus humide et moins amidonnée&nbsp;: elle cuit un peu plus vite, reste crémeuse à froid, goûte moins sucré et plus végétal, et porte beaucoup plus de bêta-carotène. <strong>Calories et glucides sont pratiquement identiques&nbsp;: les chiffres de R56 tiennent pour les deux.</strong> Avec une orange, la cuisson lente à 165&nbsp;°C est particulièrement indiquée.",
@@ -2128,6 +3385,19 @@
       "R64"
     ],
     "note": null,
+    "nutrition": {
+      "base": null,
+      "base_g": null,
+      "calories": null,
+      "proteines_g": null,
+      "lipides_g": null,
+      "sodium_mg": null,
+      "sucres_g": null,
+      "calcium_mg": null,
+      "source": null,
+      "produit_lu": null,
+      "date_lecture": null
+    },
     "photo": null,
     "photo_emballage": null
   },
@@ -2138,13 +3408,14 @@
     "jp": "ギリシャヨーグルト",
     "jp_lecture": null,
     "romaji": "girisha yōguruto",
+    "langue_origine": null,
     "fr": "Yogourt grec",
     "noms_alternatifs": [
       "yogourt grec protéiné",
       "Oïkos Pro",
       "greek yogurt"
     ],
-    "description": "Le meilleur rendement protéines-sodium du dossier. <strong>Oïkos Pro 0&nbsp;%, par ½&nbsp;tasse (115&nbsp;g)&nbsp;: 13&nbsp;g de protéines, 45&nbsp;mg de sodium</strong>, 80 calories, 1&nbsp;g de lipides, 5&nbsp;g de glucides dont 5&nbsp;g de sucres, 10&nbsp;mg de cholestérol, 175&nbsp;mg de potassium, 250&nbsp;mg de calcium.",
+    "description": "Le meilleur rendement protéines-sodium du dossier. <strong>Oïkos Pro 0&nbsp;%, par ½&nbsp;tasse (115&nbsp;g)&nbsp;: 13&nbsp;g de protéines, 45&nbsp;mg de sodium</strong>, 80 calories, 1&nbsp;g de lipides, 5&nbsp;g de glucides dont 3&nbsp;g de sucres, 10&nbsp;mg de cholestérol, 175&nbsp;mg de potassium, 250&nbsp;mg de calcium.",
     "ou_le_trouver": "Mur réfrigéré, section des yogourts. <strong>Contenant de 650&nbsp;g à 6,99&nbsp;$ au Super C</strong> (1,08&nbsp;$/100&nbsp;g), étiquette lue le 18 août 2026.",
     "a_quoi_ca_ressemble": "Grand contenant brassé, mention «&nbsp;sans sucre ajouté&nbsp;» sur la face avant. La gamme «&nbsp;Pro&nbsp;» s'annonce par son chiffre de protéines&nbsp;; le grec 0&nbsp;% ordinaire, non.",
     "description_visuelle": null,
@@ -2154,7 +3425,20 @@
     ],
     "note": {
       "titre": "Lire la ligne des sucres, pas l'arôme",
-      "texte": "<strong>AUX 100 G : 11,3 g de protéines, 70 calories, 39 mg de sodium. À LA PORTION DE 175 G DU DOSSIER : 20 g de protéines, 122 calories, 1,5 g de lipides, 68 mg de sodium.</strong> Rendement de <strong>3,4 mg de sodium par gramme de protéine — le meilleur de tout le dossier</strong>, devant l'œuf mariné, à 42, et les lanières de poulet cuites, à 19. <strong>LE BANNISSEMENT DES YOGOURTS AROMATISÉS ÉTAIT UN BANNISSEMENT DU SUCRE, PAS DE L'ARÔME.</strong> Il visait un produit précis — le Kirkland 3 % aromatisé, environ 14 g de sucre par contenant de 100 g. Un yogourt aromatisé <em>sans sucre ajouté</em> à 5 g de sucres aux 115 g est dans l'ordre de grandeur du <strong>lactose d'un yogourt grec nature</strong> : le motif ne s'applique pas. <strong>LA RÈGLE CORRIGÉE : ce n'est pas « nature ou rien », c'est LIRE LA LIGNE DES SUCRES.</strong> Repère : au-delà de 8 g par 100 g, c'est un dessert; en dessous de 6, c'est du yogourt. <strong>CE QU'IL FAUT VÉRIFIER À LA PLACE, SUR UN « SANS SUCRE AJOUTÉ » AROMATISÉ</strong> : la liste d'ingrédients. Un goût de banane sans sucre suppose un édulcorant — sucralose, acésulfame-potassium ou stévia. Ça ne change aucun chiffre du panneau, mais ça se sait. <strong>LE PROTÉINÉ N'EST PAS UN YOGOURT GREC ORDINAIRE.</strong> La gamme « Pro » est faite de lait ultrafiltré et de protéines de lait ajoutées : 11 g aux 100 g contre 9 à 10 pour un grec 0 % classique et 5 pour un yogourt régulier. Elle porte aussi de l'amidon de maïs et de la pectine pour la texture, l'égouttage ne suffisant plus à l'épaissir."
+      "texte": "<strong>AUX 100 G : 11,3 g de protéines, 70 calories, 39 mg de sodium. À LA PORTION DE 175 G DU DOSSIER : 20 g de protéines, 122 calories, 1,5 g de lipides, 68 mg de sodium.</strong> Rendement de <strong>3,4 mg de sodium par gramme de protéine — le meilleur de tout le dossier</strong>, devant l'œuf mariné, à 42, et les lanières de poulet cuites, à 19. <strong>LE BANNISSEMENT DES YOGOURTS AROMATISÉS ÉTAIT UN BANNISSEMENT DU SUCRE, PAS DE L'ARÔME.</strong> Il visait un produit précis — le Kirkland 3 % aromatisé, environ 14 g de sucre par contenant de 100 g. Un yogourt aromatisé <em>sans sucre ajouté</em> à 3 g de sucres aux 115 g est dans l'ordre de grandeur du <strong>lactose d'un yogourt grec nature</strong> : le motif ne s'applique pas. <strong>LA RÈGLE CORRIGÉE : ce n'est pas « nature ou rien », c'est LIRE LA LIGNE DES SUCRES.</strong> Repère : au-delà de 8 g par 100 g, c'est un dessert; en dessous de 6, c'est du yogourt. <strong>CE QU'IL FAUT VÉRIFIER À LA PLACE, SUR UN « SANS SUCRE AJOUTÉ » AROMATISÉ</strong> : la liste d'ingrédients. Un goût de banane sans sucre suppose un édulcorant, et <strong>celui du contenant du dossier est la stévia</strong>, lue sur l'emballage le 18 août 2026. Ça ne change aucun chiffre du panneau, mais ça se sait. <strong>LE PROTÉINÉ N'EST PAS UN YOGOURT GREC ORDINAIRE.</strong> La gamme « Pro » est faite de lait ultrafiltré et de protéines de lait ajoutées : 11 g aux 100 g contre 9 à 10 pour un grec 0 % classique et 5 pour un yogourt régulier. Elle porte aussi de l'amidon de maïs et de la pectine pour la texture, l'égouttage ne suffisant plus à l'épaissir.\n\n<strong>LA PRÉPARATION AROMATISANTE CONTIENT DU SEL MARIN.</strong> Ce n'est pas une faute et ça ne déplace pas le chiffre du panneau — 45&nbsp;mg de sodium par 115&nbsp;g reste le meilleur rendement du dossier, et de loin. Mais ça fait du <strong>nature un choix strictement meilleur quand une journée est serrée en sodium</strong>, alors que le dossier les traitait jusqu'ici comme équivalents. <strong>LA CORRECTION DE MÉTHODE, ELLE, COMPTE PLUS QUE LE CHIFFRE.</strong> La valeur de 5&nbsp;g de sucres qui figurait ici venait d'une photo prise en rayon, pas du contenant acheté&nbsp;; le contenant en donne 3. <strong>UNE PHOTO DE TABLETTE N'EST PAS UNE ÉTIQUETTE LUE</strong>&nbsp;: le format exposé n'est pas toujours celui qu'on rapporte, et la règle du dossier — seule une étiquette lue ou une balance alimente un chiffre — vise exactement ce genre de glissement."
+    },
+    "nutrition": {
+      "base": "portion",
+      "base_g": 115,
+      "calories": 80,
+      "proteines_g": 13,
+      "lipides_g": 1,
+      "sodium_mg": 45,
+      "sucres_g": 3,
+      "calcium_mg": 250,
+      "source": "etiquette",
+      "produit_lu": "Oïkos Pro 0 %, contenant de 650 g",
+      "date_lecture": "2026-08-18"
     },
     "photo": null,
     "photo_emballage": null

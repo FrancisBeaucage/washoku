@@ -31,8 +31,28 @@ const SOURCES = [
        été signalé : `versJson` le recalcule depuis `/variable/i.test(pro)`, ce
        qui aurait remis R64 et T9 à `false` sans que rien ne le dise. Le même
        trou avalait `voir_aussi` — que `versJson` rend toujours vide — et la
-       `note` de nutrition, qu'il réécrit avec sa phrase par défaut. */
-    champs_hors_page: ['nutrition.source', 'nutrition.variable', 'nutrition.note', 'voir_aussi'],
+       `note` de nutrition, qu'il réécrit avec sa phrase par défaut.
+
+       Le document 19 en ajoute onze : les cinq champs du bloc évaluatif, les
+       cinq du bloc descriptif que la page ne filtre pas encore, et
+       `langue_origine`. Ils sont déclarés d'avance parce que le document 20 les
+       remplira, et qu'un champ rempli sans être déclaré ici est un champ
+       condamné à disparaître à la prochaine réextraction.
+
+       `slug` N'Y EST PAS, volontairement : il se calcule depuis `fr`, donc la
+       règle 20 vérifie qu'il vaut toujours `limace(fr)` au lieu de le laisser
+       dériver en silence.
+
+       Un chemin déclaré couvre aussi ses descendants : `etoiles` couvre
+       `etoiles.francis`, dont le nom dépend du lecteur et ne peut pas se
+       déclarer d'avance. */
+    champs_hors_page: [
+      'nutrition.source', 'nutrition.variable', 'nutrition.note', 'voir_aussi',
+      'type_de_plat', 'methode', 'axe_gout', 'axe_texture', 'moment',
+      'langue_origine',
+      'etoiles', 'cout_travail', 'statut_perso', 'motif_statut', 'pour_la_maison',
+      'ajustement',
+    ],
     /* Champs qu'aucune des deux directions du mapper ne porte, mais que
        `extraire.js` reconstitue autrement — ici depuis les lignes qui précèdent
        l'entrée dans le fichier généré (`decouperEntrees`). Ils ne se perdent
@@ -51,7 +71,11 @@ const SOURCES = [
     bloc: 'I',
     description: 'Fiches d’ingrédients du guide 3',
     mapper: require('./ingredients'),
-    champs_hors_page: ['description_visuelle', 'zone_magasin'],
+    /* `nutrition` entre au document 19 (S5). Le bloc entier vit dans /data : la
+       page du guide 3 ne le rend pas — elle sert à trouver un produit en rayon,
+       pas à calculer un repas — et c'est un agent de planification qui le lit,
+       par le manifeste. Déclarer `nutrition` couvre ses onze sous-champs. */
+    champs_hors_page: ['description_visuelle', 'zone_magasin', 'nutrition', 'langue_origine'],
     // `id` est la limace calculée depuis `fr` par l'extraction, pas une donnée
     // relue de la page.
     champs_reconstitues: ['commentaire_source', 'id'],

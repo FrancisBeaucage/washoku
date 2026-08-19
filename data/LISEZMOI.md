@@ -9,7 +9,7 @@ génération l'écrasera.
 ## Le cycle
 
 ```bash
-npm run verifier      # les 20 règles + contrôle que HTML et JSON disent la même chose
+npm run verifier      # les 21 règles + contrôle que HTML et JSON disent la même chose
 npm run appliquer 12  # marque le document 12 comme appliqué
 npm run generer       # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
@@ -168,6 +168,26 @@ quels. Une balise `<strong>` s'y afficherait en toutes lettres. Pour insister,
 **Les champs du guide 3 acceptent du HTML simple** — `description`,
 `ou_le_trouver`, `a_quoi_ca_ressemble`, `note.texte`.
 
+### Les paragraphes
+
+**Un champ texte peut porter plusieurs paragraphes, séparés par DEUX sauts de
+ligne — `\n\n` — et rien d'autre.** Ça vaut pour `etapes[].texte` et
+`notes[].texte` du guide 2, et pour `note.texte` du guide 3. La page découpe sur
+ce séparateur et rend un `<p>` par morceau ; **un saut de ligne simple ne se rend
+pas** (le HTML le replie en espace), et la règle 11 le refuse pour cette raison,
+comme elle refuse un blanc en tête ou en queue.
+
+Le document 19 a ouvert cette porte parce que la limitation avait mordu deux
+fois : trois notes qui portaient chacune quatre ou cinq idées distinctes ont dû
+être fusionnées en un seul pavé. Ce n'est pas cosmétique — la note de réchauffage
+du riz (T1) explique la disposition, la pellicule, le temps, la double passe et
+le repos, et **c'est une note qu'on lit debout devant le micro-ondes.**
+
+Des deux voies possibles — un tableau de chaînes, ou un séparateur documenté —
+c'est le séparateur qui a été retenu : le tableau aurait changé le TYPE du champ,
+donc le mapper, le contrat d'aller-retour d'`extraire.js`, la règle 11 et le
+littéral de la page, pour 79 fiches, sans rien gagner au rendu.
+
 Le guide 3 porte aussi trois champs de repérage en magasin :
 `noms_alternatifs` (les autres noms sous lesquels le produit se vend — le
 shichimi togarashi s'étiquette « Nanami Togarashi », et la recherche de la page
@@ -218,8 +238,18 @@ pas, donc on ne peut pas les en relire. Une réextraction les écraserait.
 
 | Fichier | Champs |
 |---|---|
-| `guide-2-fiches.json` | `nutrition.source`, `nutrition.variable`, `nutrition.note`, `voir_aussi` |
-| `guide-3-ingredients.json` | `description_visuelle`, `zone_magasin` |
+| `guide-2-fiches.json` | `nutrition.source`, `nutrition.variable`, `nutrition.note`, `voir_aussi`, les cinq champs descriptifs sauf `slug`, `langue_origine`, les cinq champs évaluatifs, `ajustement` |
+| `guide-3-ingredients.json` | `description_visuelle`, `zone_magasin`, `nutrition`, `langue_origine` |
+
+**Un chemin déclaré couvre aussi ses descendants** : `etoiles` couvre
+`etoiles.francis`, dont le nom dépend du lecteur et ne peut donc pas se déclarer
+d'avance, et `nutrition` du guide 3 couvre ses onze sous-champs d'un coup.
+
+**`slug` n'y est pas, volontairement.** Il se calcule depuis `fr` par la même
+`limace()` que les identifiants du guide 3, donc la règle 20 vérifie à chaque
+validation qu'il vaut toujours `limace(fr)` au lieu de le laisser dériver en
+silence. Le jour où un slug curaté serait nécessaire, il faudra le déclarer ici —
+et accepter qu'aucune règle ne le surveille plus.
 
 Ils sont déclarés dans `champs_hors_page` de `tools/lib/sources.js`, et
 `extraire.js` les recopie depuis le JSON existant au lieu de les perdre. Ajouter
@@ -251,10 +281,10 @@ Deux limites connues, que `champs_hors_page` ne peut pas couvrir :
 
 ## Les champs à valeurs fermées
 
-Dix champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
+Vingt-deux champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
 vérifie tous**, à partir d'une seule table `champ → ensemble permis` dans
-`tools/lib/ensembles.js` — pas dix règles particulières, qui laisseraient
-repasser la onzième.
+`tools/lib/ensembles.js` — pas vingt-deux règles particulières, qui laisseraient
+repasser la vingt-troisième.
 
 **Le manifeste publie ces ensembles**, sous `ensembles_fermes`. C'est la réponse
 à une cause commune : trois fautes du document 14 — `retire` écrit sans accent,
@@ -266,21 +296,40 @@ cite les valeurs de mémoire. Elles se lisent maintenant avant d'écrire :
 curl -s "https://francisbeaucage.github.io/washoku/data/manifeste.json?cb=$(date +%s)" | jq .ensembles_fermes
 ```
 
-La règle 19 vérifie en queue que le bloc publié dit bien la même chose que la
-table — deux copies d'un ensemble finiraient par diverger.
+**Un second bloc, `formes_fermees`, dit COMMENT chaque champ porte son ensemble** :
+`valeur` (une seule), `liste` (un tableau de valeurs de l'ensemble, la dominante
+en premier) ou `par-lecteur` (un objet dont les clés sont des lecteurs). Sans lui,
+un rédacteur qui lit `"methode": ["cru", "blanchi", …]` n'a aucun moyen de savoir
+que le champ prend un tableau et non une seule valeur — c'est exactement la classe
+de faute que le bloc publié existe pour empêcher.
 
-| Fichier | Champ | Ensemble |
-|---|---|---|
-| guide 2 | `statut` | `actif`, `retiré` |
-| guide 2 | `categorie` | les libellés de `CATEGORIES` (`lib/champs.js`) |
-| guide 2 | `cuisine` | les libellés de `CUISINES` |
-| guide 2 | `vitesse` | les libellés de `VITESSES` |
-| guide 2 | `nutrition.source` | `estime`, `etiquette`, `pese` |
-| guide 3 | `statut` | `actif`, `retiré` |
-| guide 3 | `section` | les clés de `SECS`, lues dans `guide-3-supermarche.html` |
-| guide 4 | `statut` | `actif`, `retiré` |
-| historique | `repas` | `dejeuner`, `diner`, `souper`, `collation` |
-| historique | `verdict` | `excellent`, `bon`, `correct`, `rate`, `rejete`, ou `null` |
+La règle 19 vérifie en queue que les deux blocs publiés disent bien la même chose
+que la table — deux copies d'un ensemble finiraient par diverger.
+
+| Fichier | Champ | Forme | Ensemble |
+|---|---|---|---|
+| guide 2 | `statut` | valeur | `actif`, `retiré` |
+| guide 2 | `categorie` | valeur | les libellés de `CATEGORIES` (`lib/champs.js`) |
+| guide 2 | `cuisine` | valeur | les libellés de `CUISINES` |
+| guide 2 | `vitesse` | valeur | les libellés de `VITESSES` |
+| guide 2 | `nutrition.source` | valeur | `estime`, `etiquette`, `pese` |
+| guide 2 | `type_de_plat` | valeur | `TYPES_DE_PLAT`, ou `null` |
+| guide 2 | `methode` | liste | `METHODES` |
+| guide 2 | `axe_gout` | liste | `AXES_GOUT` |
+| guide 2 | `axe_texture` | liste | `AXES_TEXTURE` |
+| guide 2 | `moment` | liste | `MOMENTS` |
+| guide 2 | `langue_origine` | valeur | `LANGUES`, ou `null` |
+| guide 2 | `etoiles` | par-lecteur | 1 à 5, ou `null` |
+| guide 2 | `cout_travail` | valeur | `leger`, `moyen`, `lourd`, ou `null` |
+| guide 2 | `statut_perso` | par-lecteur | `STATUTS_PERSO` |
+| guide 3 | `statut` | valeur | `actif`, `retiré` |
+| guide 3 | `section` | valeur | les clés de `SECS`, lues dans `guide-3-supermarche.html` |
+| guide 3 | `langue_origine` | valeur | `LANGUES`, ou `null` |
+| guide 3 | `nutrition.base` | valeur | `BASES_NUTRITION`, ou `null` |
+| guide 3 | `nutrition.source` | valeur | `estime`, `etiquette`, `pese`, ou `null` |
+| guide 4 | `statut` | valeur | `actif`, `retiré` |
+| historique | `repas` | valeur | `dejeuner`, `diner`, `souper`, `collation` |
+| historique | `verdict` | valeur | `excellent`, `bon`, `correct`, `rate`, `rejete`, ou `null` |
 
 **Les ensembles se lisent là où ils sont déjà définis, jamais recopiés.** Les
 libellés viennent de `lib/champs.js`, les rayons du tableau `SECS` de la page du
@@ -339,6 +388,109 @@ renvoyer à la fin.
 fichier généré : commentaires de section, ligne vide de séparation. C'est de la
 mise en forme du code source, pas du contenu.
 
+**`jp`, `jp_lecture` et `romaji` acceptent `null`, aux deux guides.** Le dossier
+est à 62 fiches japonaises sur 79, avec 7 chinoises, 4 coréennes, 4 vietnamiennes
+et 2 thaïes, et l'ouverture décidée porte sur le laotien et l'indonésien. **Un nom
+japonais obligatoire sur une fiche de nuoc cham ou de yogourt grec n'est pas une
+donnée, c'est une traduction inventée pour satisfaire un validateur** — c'est
+exactement ce qui est arrivé au yogourt grec, qui a reçu ギリシャヨーグルト parce que
+le champ ne pouvait pas être vide. **Le vrai risque est là : un champ obligatoire
+qu'on ne peut pas remplir honnêtement se remplit malhonnêtement.**
+
+`langue_origine` (`ja` · `zh` · `ko` · `vi` · `th` · `lo` · `id` · `aucune`) dit à
+l'affichage quelle graphie montrer. Au guide 2, son défaut se déduit de `cuisine`,
+et il reste réinscriptible — une recette peut porter un nom d'une autre langue que
+sa cuisine. Au guide 3, il vaut `null` tant que personne ne l'a établi : `aucune`
+serait une affirmation, `null` dit qu'on ne sait pas. **Les fiches existantes ne
+perdent aucun nom : c'est une ouverture, pas une migration.**
+
+## Les deux blocs des fiches du guide 2
+
+**Le bloc descriptif dit ce que le plat EST. Le bloc évaluatif dit ce qu'un
+lecteur EN PENSE. Ils ne se mélangent jamais**, et c'est l'idée centrale du
+document 19 — elle vaut plus que la liste des champs.
+
+Le premier est objectif et vrai pour tout le monde : un tom yum est acide et
+piquant, un goma-ae de chou blanchi est mou. Le second est une opinion, et **le
+site a plus d'un lecteur.** Un schéma qui range la préférence dans la description
+impose le goût d'une personne à tous les autres, et rend le site inutilisable
+pour la deuxième.
+
+**Descriptif** — `type_de_plat` (la place dans l'assiette, au sens du *ichiju
+sansai* ; à ne pas confondre avec `categorie`, qui dit à quel repas le plat
+appartient) · `methode` · `axe_gout` · `axe_texture` · `moment` (multiple, pour le
+filtre, là où `categorie` est unique et sert au classement) · `slug` (la clé
+d'URL, calculée depuis `fr`).
+
+`methode` manquait le plus : la règle de rotation du guide 5 interdit qu'un axe
+stagne plus de deux jours, la méthode de cuisson est l'un de ses quatre axes, et
+cet axe n'existait nulle part dans les données — il se recalculait de mémoire à
+chaque plan hebdomadaire.
+
+⚠️ **`axe_texture` se déclare telle que la texture est DANS L'ASSIETTE**, pas telle
+que l'ingrédient est au départ. Le chou nappa cru est croquant ; le même chou
+blanchi est mou. C'est le plat qui porte l'axe, pas l'ingrédient — et quand une
+fiche accepte plusieurs légumes de textures différentes, la valeur suit le légume
+par défaut de la fiche, la variante se disant dans la note.
+
+**Évaluatif** — `etoiles` (1 à 5, ou `null` = jamais essayé) · `cout_travail`
+(`leger` = moins de 10 minutes actives) · `statut_perso` · `motif_statut` ·
+`pour_la_maison`.
+
+**`etoiles`, `statut_perso` et `motif_statut` sont des objets dont les clés sont
+des lecteurs** : `{"francis": 3, "belle-soeur": 5}`. La preuve que c'était
+nécessaire est au dossier — le 18 août 2026, la même soupe miso a reçu un franc
+enthousiasme d'un côté de la table et trois étoiles de l'autre, le même soir.
+`cout_travail` reste scalaire : sa définition est en minutes actives, donc une
+propriété du plat.
+
+⚠️ **`statut_perso` n'est PAS `statut`, et c'est la distinction la plus importante
+du schéma.** `statut` juge l'exactitude de la fiche : `retiré` veut dire que ce
+qu'elle affirme est faux ou dépassé. `statut_perso` juge le plat, pour un lecteur.
+**Une fiche parfaitement exacte qu'un lecteur n'aime pas reste `actif` et devient
+`ecarte` pour lui** — retirer une fiche exacte parce qu'une personne n'aime pas le
+plat détruit de l'information pour tous les autres lecteurs. Trois fiches sont
+exactement dans ce cas : `R45`, `R47` et `R67`, actives et écartées.
+
+Les cinq valeurs, et ce que chacune commande à la planification : `a-l-essai`
+(moins de deux exécutions — une par semaine au plus) · `au-repertoire` (rotation
+régulière) · `de-service` (correct, pas réclamé, **mais disponible** : ne se
+planifie que pour écouler un ingrédient ou combler un trou) · `suspendu` (écarté
+**sous réserve d'un essai précis**) · `ecarte` (ne revient plus).
+
+`suspendu` existe pour le cas où le verdict est négatif mais l'essai mauvais. Le
+goma-ae `R44` a été jugé sur un bol composé presque uniquement de côtes pâles de
+chou nappa — le pire cas du plat. Ce n'est pas un verdict sur le goma-ae, c'est un
+verdict sur des côtes de nappa blanchies, et `ecarte` mentirait.
+
+**`motif_statut` est obligatoire quand `statut_perso` vaut `suspendu` ou `ecarte`,
+et la règle 21 le vérifie.** Sans lui, on ne distingue pas « je n'aime pas ce
+plat » de « je n'aime pas la façon dont je l'ai fait ».
+
+**`ajustement`** est un sixième champ, hors des deux blocs : comment le plat se
+fait réellement à la maison, quand ça diffère de la fiche. **La fiche reste la
+référence ; l'ajustement est la version de la maison.** Ces écarts vivaient dans
+les notes, mêlés aux explications ; séparés, ils se lisent d'un coup et une
+machine peut les utiliser.
+
+**Le remplissage n'est pas un travail d'agent seul.** Les champs descriptifs se
+déduisent de la lecture des fiches — c'est mécanique et vérifiable. `etoiles`,
+`cout_travail` et `statut_perso` viennent de Francis et de personne d'autre, et
+**ne se remplissent pas de mémoire en bloc.**
+
+## Les temps composés
+
+`temps_minutes.preparation`, `.cuisson` et `.attente` sont des nombres — ou une
+**fourchette** `{"min": 40, "max": 75}`. La fourchette existe parce que `R56`
+portait deux méthodes de cuisson allant de 40 à 75 minutes sous un seul
+`temps_affiche` de « ≈ 47 min », **un chiffre faux pour les deux.** Une fiche à
+méthode unique ne change pas.
+
+`temps_affiche` porte alors la fourchette en clair (« ≈ 40 à 75 min »).
+`index.json` additionne la **borne haute** : l'index sert à choisir un plat pour un
+soir donné, et c'est la borne haute qui décide si on a le temps. La règle 21
+vérifie la forme et que `min` ne dépasse pas `max`.
+
 ## Le journal
 
 Une entrée porte des champs machine en tête, puis son `corps` en blocs.
@@ -351,10 +503,13 @@ Une entrée porte des champs machine en tête, puis son `corps` en blocs.
 - **`plats`** — les fiches cuisinées. `plats_libelles` porte le nom affiché à
   côté de chaque renvoi ; le paragraphe « Fiches : … » est rendu à partir des
   deux.
-- **`fiches_corrigees`** — les fiches que l'entrée a fait corriger. Amorcé à
-  l'extraction depuis les renvois des listes de conclusions, **maintenu à la
-  main** ensuite. C'est ce qui rend vérifiable la règle du dossier selon
-  laquelle une observation qui ne corrige rien ne sert à rien.
+- **`fiches_corrigees`** — les fiches que l'entrée a fait corriger. C'est ce qui
+  rend vérifiable la règle du dossier selon laquelle une observation qui ne
+  corrige rien ne sert à rien. ⚠️ **Il n'est pas libre : `journal.js` le
+  RECALCULE** à la lecture de la page, depuis les renvois `guide-2-recettes.html#ID`
+  des blocs `liste` du corps. Une valeur écrite à la main qui ne s'accorde pas
+  avec ces renvois produit un **écart de génération permanent** — et seules les
+  fiches du guide 2 y entrent : un renvoi vers le guide 3 n'y figure pas.
 - **`photos`** — `{ fichier, alt, legende }`. Vide par défaut. Un bloc `figure`
   du corps y renvoie par son rang. Ne jamais y mettre de marqueur.
 
@@ -418,3 +573,52 @@ de sodium.
 
 `variable: true` marque les plats de restes, dont l'apport dépend de ce qu'on y
 met (R11, l'ochazuke). La règle 5 les laisse passer sans chiffre.
+
+### La nutrition du guide 3
+
+**Les étiquettes sont sur des ingrédients ; les fiches du guide 2 sont des plats.**
+C'était le manque le plus coûteux du schéma : il n'existait aucun endroit pour
+écrire « la pâte tom yum Por Kwan fait 920 mg par cuillère à soupe ». Ça vivait
+dans de la prose, ou nulle part. Le prix : le souper du 21 août 2026 avait été
+planifié à 1 000 mg de sodium, le calcul à partir des six étiquettes lues en donne
+**≈ 3 588 mg par bol** — un facteur 3,6, dû entièrement à des estimations de
+condiments faites de mémoire.
+
+Chaque fiche du guide 3 porte donc un bloc `nutrition` :
+
+```
+"nutrition": {
+  "base": "100g" | "portion" | "c-a-soupe" | "c-a-the" | "unite",
+  "base_g": <nombre ou null>,
+  "calories": …, "proteines_g": …, "lipides_g": …,
+  "sodium_mg": …, "sucres_g": …, "calcium_mg": …,
+  "source": "etiquette" | "pese" | "estime",
+  "produit_lu": "<marque et format exacts>",
+  "date_lecture": "AAAA-MM-JJ"
+}
+```
+
+Il ne se rend pas dans la page — le guide 3 sert à trouver un produit en rayon, pas
+à calculer un repas. C'est un agent de planification qui le lit, par le manifeste.
+
+**Trois exigences, vérifiées par la règle 21, et chacune répond à une erreur
+réelle :**
+
+1. **`base` est obligatoire dès qu'un chiffre est porté.** Un condiment se dose à
+   la cuillère, pas aux 100 g ; forcer les 100 g sur une sauce de poisson donne un
+   chiffre juste et inutilisable. L'inverse — la cuillère sur un légume — est
+   absurde. `source` et `date_lecture` sont obligatoires au même titre.
+2. **`produit_lu` est obligatoire quand `source` vaut `etiquette`.** Deux marques
+   de sauce d'huîtres n'ont pas le même sodium. Un chiffre sans son produit est un
+   chiffre qu'on ne peut ni vérifier ni remplacer.
+3. **`null`, jamais zéro.** La même règle que pour le guide 2. `sodium_mg: 0` est
+   une affirmation forte ; `null` dit qu'on ne sait pas.
+
+**Un bloc ne mélange pas ses sources.** `source` vaut pour le bloc entier : on n'y
+écrit que ce que l'étiquette dit. Les crevettes crues ne portent donc que leur
+sodium lu — leur teneur en protéines, connue seulement par estimation, reste
+`null`, et le rendement en mg par gramme de protéine se dit dans la note.
+
+`calcium_mg` est dans la liste pour une raison précise : le Premier Protein porte
+650 mg de calcium par gobelet, soit 50 % de la valeur quotidienne, le déjeuner de
+semaine est bâti dessus cinq jours sur sept, et **rien sur le site ne le savait.**

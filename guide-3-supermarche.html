@@ -136,7 +136,9 @@
       <sc-if value="{{ open.hasNote }}" hint-placeholder-val="{{ false }}">
         <div style="border-top:2px solid #ec3013;padding:14px 0 0;margin-top:32px;max-width:46em">
           <p style="margin:0 0 5px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ec3013">{{ open.noteK }}</p>
-          <p style="margin:0;font-size:15.5px;line-height:1.65">{{ open.note }}</p>
+          <sc-for list="{{ open.noteParas }}" as="p" hint-placeholder-count="1">
+            <p style="margin:0 0 11px;font-size:15.5px;line-height:1.65">{{ p.t }}</p>
+          </sc-for>
         </div>
       </sc-if>
 
@@ -467,7 +469,11 @@ const PRON = (ro) => {
   }
   return out.join(" ");
 };
-const JPT = (jp, ro, fr, pr) => { const p = pr || PRON(ro); let t = ro || jp; if (p && p !== ro) t += " — « " + p + " »"; if (fr) t += " · " + fr; return t; };
+// `jp` et `romaji` peuvent être nuls depuis le document 19 (S7) : un nom japonais
+// obligatoire sur une fiche de yogourt grec est un signe que le schéma croit
+// encore que le dossier est uniquement japonais. Sans les gardes, l'infobulle
+// affichait « null · Boisson protéinée ».
+const JPT = (jp, ro, fr, pr) => { const p = pr || PRON(ro); const parts = []; if (ro || jp) parts.push(ro || jp); if (p && p !== ro) parts.push("« " + p + " »"); const t = parts.join(" — "); return fr ? (t ? t + " · " + fr : fr) : t; };
 // RT (« rich text ») : rend une chaîne contenant du HTML (<strong>, <em>, &nbsp;…) comme
 // vrai HTML. Le moteur de gabarit affiche tel quel un élément React (walkText), mais échappe
 // les chaînes ; on convertit donc les champs riches en élément React ici, dans le contenu de
@@ -479,6 +485,12 @@ const RT = (s) => {
   if (!/[<&]/.test(str)) return str;
   return window.React.createElement("span", { dangerouslySetInnerHTML: { __html: str } });
 };
+// Les paragraphes d'une note du guide 3. Même contrat que le guide 2 (document
+// 19, S6) : DEUX SAUTS DE LIGNE séparent deux paragraphes. Les notes de
+// condiment de ce document portent chacune trois ou quatre idées distinctes —
+// le chiffre lu, ce que ça change en cuisine, comment choisir un meilleur pot —
+// et les fusionner en un pavé est précisément le défaut que S6 corrige.
+const RTP = (s) => String(s == null ? "" : s).split(/\n\n+/).map(x => ({ t: RT(x) }));
 const SECS = [
   {k:"tous",label:"Toutes les sections"},
   {k:"leg",label:"① Fruits et légumes"},
@@ -715,7 +727,7 @@ const I = [
  w:"Congélateurs, décortiquées ou non.",
  l:"Sacs de 340 g à 1 kg. Le calibre est indiqué en nombre par livre — 21/25 est un bon format polyvalent.",
  u:["R22","R27","R40","R64"],
- nk:"Le calibre n'est pas toujours interchangeable",n:"Le 21/25 convient à tout ce qui se mange décortiqué. Pour les galettes frites (R64), il faut au contraire du <strong>petit calibre, 40/50 ou 50/60, et des crevettes entières non décortiquées</strong> : la carapace des petits formats devient croustillante à la friture et fait partie de la bouchée. Une carapace de 21/25 reste coriace même bien frite."},
+ nk:"Le calibre n'est pas toujours interchangeable",n:"Le 21/25 convient à tout ce qui se mange décortiqué. Pour les galettes frites (R64), il faut au contraire du <strong>petit calibre, 40/50 ou 50/60, et des crevettes entières non décortiquées</strong> : la carapace des petits formats devient croustillante à la friture et fait partie de la bouchée. Une carapace de 21/25 reste coriace même bien frite.\n\n<strong>LA CREVETTE CONGELÉE DÉCORTIQUÉE EST UN PRODUIT SALÉ, ET IL FAUT LE LIRE SUR CHAQUE SAC.</strong> Étiquette du sac Sobeys lue le 18 août 2026&nbsp;: <strong>730&nbsp;mg de sodium par 125&nbsp;g, soit 584&nbsp;mg aux 100&nbsp;g</strong>, pour des ingrédients qui tiennent en trois mots — crevettes, sel, phosphate de sodium. Presque toutes les crevettes décortiquées vendues congelées sont glacées dans une saumure de sel et de polyphosphate&nbsp;: ça les garde fermes et gonflées, ça les empêche de coller, et ça fait payer l'eau au poids. <strong>RENDEMENT RÉEL&nbsp;: ENVIRON 24&nbsp;MG DE SODIUM PAR GRAMME DE PROTÉINE</strong> — comparable aux lanières de poulet cuites, sept fois pire que le yogourt grec. Le dossier a porté pendant plusieurs jours l'affirmation inverse, «&nbsp;quasi zéro sodium ajouté&nbsp;», qui était une estimation et non une lecture.\n\n<strong>CE QUE ÇA CHANGE EN CUISINE&nbsp;: RINCER APRÈS DÉCONGÉLATION.</strong> Le sel et le phosphate sont dans le glaçage de surface, pas dans la chair. Décongeler à l'eau froide, puis rincer franchement et bien égoutter en enlève une part réelle. <strong>Cette part n'est pas chiffrable à partir du panneau nutritionnel et ne doit pas être inventée</strong>&nbsp;: l'ordre de grandeur raisonnable est de 15 à 25&nbsp;%, et il faut le présenter comme tel. Deuxième conséquence, pour les plats en bouillon&nbsp;: une bonne partie de ce qui reste migre vers le liquide pendant la cuisson, ce qui rend le geste de ne pas boire tout le bouillon plus efficace ici qu'ailleurs.\n\n<strong>ET COMMENT CHOISIR UN MEILLEUR SAC.</strong> La ligne d'ingrédients tranche&nbsp;: <em>crevettes</em> seul, ou <em>crevettes et eau</em>, valent beaucoup mieux que <em>crevettes, sel, phosphate de sodium</em> ou <em>tripolyphosphate de sodium</em>. Les crevettes entières non décortiquées et les crevettes crues à la poissonnerie sont généralement non traitées. Un sac dont la mention «&nbsp;sans phosphate&nbsp;» ou «&nbsp;non traitées&nbsp;» figure en façade se paie plus cher au kilo et livre plus de crevette par kilo."},
 
 // ⑥ ALLÉE DES SÉCHÉS
 {s:"sec",jp:"昆布",ro:"kombu",pr:"kone-bou",fr:"Kombu",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",pack:"assets/produits/kombu.jpg",
@@ -768,6 +780,12 @@ const I = [
  w:"Allée des produits séchés, avec les autres produits de la mer séchés.",
  l:"Un sac de petites crevettes roses translucides, longues de un à deux centimètres, très légères.",
  nk:"Comment s'en servir",n:"Se saupoudrent telles quelles sur le riz, dans une omelette ou sur des légumes. Une cuillerée à table suffit. Se conservent au congélateur pour éviter le rancissement."},
+{s:"sec",fr:"Boisson protéinée Premier Protein",img:null,
+ d:"Le déjeuner de semaine repose dessus cinq jours sur sept. <strong>Par gobelet de 325&nbsp;ml&nbsp;: 30&nbsp;g de protéines, 220&nbsp;mg de sodium, 160&nbsp;calories, 3&nbsp;g de lipides et 650&nbsp;mg de calcium</strong> — étiquette lue le 18 août 2026.",
+ w:"<strong>Costco</strong>, en caisse de gobelets prêts à boire. Ne se trouve pas au supermarché du parcours&nbsp;: c'est un achat à part, à faire entrer par la liste de provisions et non par le circuit en magasin.",
+ l:"Gobelets de 325&nbsp;ml en plastique opaque, vendus par caisse de 12 ou plus. La ligne des protéines est en très gros chiffres sur la face avant&nbsp;; c'est la ligne du calcium, en petit au panneau, qui mérite d'être lue.",
+ alt:["Premier Protein","premier protein shake","boisson protéinée Costco"],
+ nk:"Ce n'est pas un aliment, c'est un outil",n:"<strong>30&nbsp;G DE PROTÉINES POUR 220&nbsp;MG DE SODIUM ET 160&nbsp;CALORIES, DANS UN CONTENANT QU'ON OUVRE.</strong> Rendement de <strong>7,3&nbsp;mg de sodium par gramme de protéine</strong> — deuxième meilleur du dossier, derrière le yogourt grec à 3,4 et devant les lanières de poulet cuites à 19. <strong>C'EST SURTOUT LE MEILLEUR RENDEMENT PAR GESTE.</strong> Le guide 5 note que sous la pression du matin, ce qui saute d'un déjeuner n'est jamais la protéine mais le gras, parce que la protéine vient de contenants qu'on ouvre et le gras de solides qu'on prépare. Ce produit est l'extrême de cette logique&nbsp;: trente grammes de protéines pour zéro préparation.\n\n<strong>CE QU'IL FAUT SAVOIR ET QUE LE PANNEAU DIT EN PETIT.</strong> <strong>650&nbsp;mg de calcium par gobelet, soit 50&nbsp;% de la valeur quotidienne</strong> — un seul gobelet couvre les deux tiers de l'apport recommandé pour un adulte, et c'est un chiffre à connaître avant d'ajouter un supplément de calcium par-dessus. <strong>0,3&nbsp;g de gras trans</strong>, ce qui vient des huiles partiellement hydrogénées de la matière grasse laitière ou de l'émulsifiant&nbsp;: c'est peu, mais ce n'est pas zéro, et Santé Canada recommande de garder les trans industriels le plus bas possible. <strong>Édulcorants&nbsp;: sucralose et acésulfame-potassium</strong>, deux édulcorants intenses. Ça ne change aucun chiffre du panneau et c'est sans danger aux doses en jeu&nbsp;; c'est une information, pas un reproche.\n\n<strong>CE N'EST PAS UN ALIMENT, C'EST UN OUTIL, ET LA DIFFÉRENCE COMPTE POUR CE DOSSIER.</strong> Un gobelet n'apporte ni fibres, ni fer héminique, ni satiété de mastication, ni le plaisir d'un repas — et le dossier est bâti sur l'idée que la structure d'un repas fait plus que ses macros. <strong>SA PLACE JUSTE EST LE MATIN PRESSÉ ET LA COLLATION, PAS LE REMPLACEMENT D'UN REPAS ASSIS.</strong> Le déjeuner de semaine du guide 5 l'utilise correctement&nbsp;: un gobelet PLUS trois solides — avocat, edamames, œuf mariné — qui apportent le gras, les fibres et la mastication qu'il n'a pas."},
 
 // ⑦ ALLÉE JAPONAISE
 {s:"jp",jp:"醤油",ro:"shōyu",fr:"Sauce soya japonaise",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Soy_sauce_2.jpg?width=1200",pack:"assets/produits/sauce-soya.jpg",
@@ -778,9 +796,9 @@ const I = [
 {s:"jp",jp:"味醂",ro:"mirin",fr:"Mirin",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Mirinbowl.jpg?width=1200",pack:"assets/produits/mirin.jpg",
  d:"Vin de riz sucré pour la cuisine. Apporte brillant et rondeur, et c'est lui qui caramélise sous le gril.",
  w:"Allée japonaise, à côté du saké de cuisine et du vinaigre de riz.",
- l:"Bouteilles de ~250-500 ml, liquide ambré clair. Distingue le <em>hon-mirin</em> (vrai mirin, fermenté, ~14 % alcool) du <em>aji-mirin</em> / « mirin-style seasoning » (<em>mirin-fū</em> — sirop de glucose + sel ajouté). Le Kikkoman « Kotteri Mirin » (みりん風) est de ce second type : acceptable, mais il contient du sodium, à compter dans une recette déjà salée.",
+ l:"Bouteilles de ~250-500 ml, liquide ambré clair. Distingue le <em>hon-mirin</em> (vrai mirin, fermenté, ~14 % alcool) du <em>aji-mirin</em> / « mirin-style seasoning » (<em>mirin-fū</em> — sirop de glucose ou de maïs, non fermenté). Le Kikkoman « Kotteri Mirin » (みりん風) est de ce second type : acceptable, et <strong>son étiquette ne donne que 5&nbsp;mg de sodium par cuillère à soupe</strong> — c'est son sucre qu'il faut compter, pas son sel.",
  u:["T2","R14","R16","R19","R21","R24","R32","R37","R43","R46","R65"],
- nk:"Si tu n'en as pas",n:"Le mirin n'est pas un vinaigre — c'est un alcool de riz sucré (sucre + alcool + umami), alors que le vinaigre de riz apporte de l'acidité ; on ne remplace pas l'un par l'autre. Avec du saké (le plus proche) : 1 c. à soupe de mirin = 1 c. à soupe de saké + 1 c. à thé de sucre, chauffé doucement. Sans saké : 1 c. à soupe d'eau + 1 c. à thé de sucre. Tu perds la brillance et la rondeur, mais c'est parfaitement fonctionnel pour une marinade d'œufs (T7a) ou une sauce de donburi (R9). Impact macro négligeable (~40 cal, surtout du sucre)."},
+ nk:"Si tu n'en as pas",n:"Le mirin n'est pas un vinaigre — c'est un alcool de riz sucré (sucre + alcool + umami), alors que le vinaigre de riz apporte de l'acidité ; on ne remplace pas l'un par l'autre. Avec du saké (le plus proche) : 1 c. à soupe de mirin = 1 c. à soupe de saké + 1 c. à thé de sucre, chauffé doucement. Sans saké : 1 c. à soupe d'eau + 1 c. à thé de sucre. Tu perds la brillance et la rondeur, mais c'est parfaitement fonctionnel pour une marinade d'œufs (T7a) ou une sauce de donburi (R9). Impact macro négligeable (~40 cal, surtout du sucre).\n\n<strong>HON-MIRIN OU MIRIN-FŪ&nbsp;: LA DIFFÉRENCE EST DANS LA LIGNE D'INGRÉDIENTS, PAS SUR L'ÉTIQUETTE DE DEVANT.</strong> Le <em>hon-mirin</em> (本みりん) est fermenté&nbsp;: riz gluant, riz, <em>kōji</em>, alcool — environ 14&nbsp;% d'alcool, un sucre qui vient entièrement de la conversion de l'amidon. Le <em>mirin-fū</em> (みりん風), vendu comme «&nbsp;mirin-style seasoning&nbsp;» ou «&nbsp;aji-mirin&nbsp;», est une imitation non fermentée&nbsp;: sirop de glucose ou de maïs, acidifiant, arômes, moins de 1&nbsp;% d'alcool. <strong>Les deux disent «&nbsp;mirin&nbsp;» en façade.</strong>\n\n<strong>CE QUE LE MIRIN-FŪ FAIT MOINS BIEN</strong>&nbsp;: il sucre et il fait briller, mais il n'apporte ni les acides aminés de la fermentation ni l'alcool, qui est ce qui attendrit et ce qui emporte les odeurs fortes de poisson. Dans une marinade d'œufs, la différence est faible. Dans un <em>tare</em> de yakitori, où le mirin est la moitié du goût, elle se voit.\n\n<strong>LE POT DU DOSSIER EST UN KIKKOMAN KOTTERI, DONC UN MIRIN-FŪ. ÉTIQUETTE LUE LE 18 AOÛT 2026&nbsp;: 6&nbsp;G DE SUCRES ET 5&nbsp;MG DE SODIUM PAR CUILLÈRE À SOUPE, INGRÉDIENT DOMINANT SIROP DE MAÏS.</strong> Deux conséquences, dans cet ordre d'importance. <strong>UN — le sucre se compte.</strong> Quatre cuillères à soupe dans un tare, c'est 24&nbsp;g de sucres, et <strong>la cuillère à thé de sucre que la recette ajoute par-dessus devient à retirer</strong>. <strong>DEUX — le sodium ne se compte pas.</strong> À 5&nbsp;mg la cuillère, ce produit n'apporte rien au bilan sodique, et le dossier a porté un temps l'affirmation contraire, qui était une supposition tirée d'autres marques et non une lecture. Les mirin-fū salés existent — il faut lire le pot qu'on a, pas la catégorie."},
 {s:"jp",jp:"料理酒",ro:"ryōrishu",fr:"Saké de cuisine",img:null,
  d:"Alcool de riz utilisé en cuisine pour <strong>apporter de l'umami et retirer les odeurs fortes</strong> de la viande et du poisson. Il ne sucre pas — c'est le mirin qui fait ça. Les deux travaillent souvent ensemble dans une même sauce.",
  w:"Allée japonaise, à côté du mirin et du vinaigre de riz. Ne pas chercher à la SAQ : le saké de cuisine se vend en épicerie parce qu'il est salé et donc non taxé comme boisson.",
@@ -860,12 +878,14 @@ const I = [
  d:"Épaisse, salée, légèrement sucrée. Une cuillère à soupe transforme un sauté.",
  w:"Allée chinoise, souvent la plus grande du magasin.",
  l:"<strong>Lee Kum Kee, étiquette verte avec un dessin de garçon dans une barque.</strong> C'est le repère visuel le plus fiable du magasin.",
- u:["R17"]},
+ u:["R17"],
+ nk:"Ce qu'elle fait qu'aucune autre sauce ne fait",n:"<strong>ÉTIQUETTE LUE LE 18 AOÛT 2026&nbsp;: LEE KUM KEE, ENVIRON 690&nbsp;MG DE SODIUM PAR CUILLÈRE À SOUPE.</strong> Une cuillère à soupe suffit dans <em>R17</em>, où elle est diluée dans un bouillon lié — mais c'est déjà 30&nbsp;% du plafond d'une journée.\n\n<strong>CE QU'ELLE FAIT QU'AUCUNE AUTRE SAUCE NE FAIT</strong>&nbsp;: elle apporte simultanément de l'umami, du sucre et du corps. C'est le corps qui est difficile à remplacer — c'est un extrait épaissi, et c'est lui qui donne aux sautés chinois leur nappage brillant. <strong>LE PREMIER INGRÉDIENT EST À VÉRIFIER</strong>&nbsp;: les versions de qualité commencent par de l'extrait d'huître&nbsp;; les autres par de l'eau, du sucre ou du caramel, et il faut alors en mettre plus pour le même goût — donc plus de sodium.\n\n<strong>ELLE NE SE RÉDUIT PAS ET ELLE NE BOUILLE PAS LONGTEMPS</strong>&nbsp;: son sucre brûle et son umami s'affadit. Elle entre dans la sauce assemblée, versée en fin de cuisson. <strong>AU FRIGO APRÈS OUVERTURE</strong>, sans exception — c'est un produit de la mer."},
 {s:"cn",jp:"豆瓣醬",ro:"dòubànjiàng",pr:"dow-bane-djiang",fr:"Doubanjiang",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Doubanjiang.jpg?width=1200",
  d:"Pâte de fèves fermentées épicée. La base du mapo tofu, et il n'y a pas de substitut.",
  w:"Allée chinoise.",
  l:"Pots ou sachets rouge-brun, texture épaisse et grumeleuse. Le pixian (郫县) est la référence.",
- u:["R26"]},
+ u:["R26"],
+ nk:"Le sel n'est pas un assaisonnement ici, c'est l'agent de la fermentation",n:"<strong>ÉTIQUETTE LUE LE 18 AOÛT 2026&nbsp;: POT DE 380&nbsp;G, ENVIRON 390&nbsp;MG DE SODIUM PAR 10&nbsp;G, SOIT DE L'ORDRE DE 700&nbsp;MG PAR CUILLÈRE À SOUPE.</strong> <em>R26</em> en demande une cuillère à soupe pour deux portions, donc environ 350&nbsp;mg par bol — le poste sodique principal du mapo tofu, et le plus difficile à réduire.\n\n<strong>PARCE QUE CE N'EST PAS UN CONDIMENT DE PIQUANT, C'EST LE PLAT.</strong> Le 豆瓣醬 est une pâte de fèves de soya larges et de piments, fermentée en saumure pendant des mois — parfois des années pour les <em>pixian</em> vieillis. Le sel n'est pas un assaisonnement ajouté à la fin&nbsp;: <strong>c'est l'agent de la fermentation</strong>, celui qui a produit le goût qu'on achète. C'est pourquoi il n'existe pas de doubanjiang à faible teneur en sodium qui goûte le doubanjiang, et pourquoi le réduire de moitié dans un mapo ne donne pas un mapo plus léger mais un autre plat, plus plat.\n\n<strong>LE LEVIER EST AILLEURS&nbsp;: DANS CE QUI L'ENTOURE.</strong> Un mapo tofu porte souvent aussi de la sauce soya, du haricot noir fermenté et un bouillon salé — <strong>ce sont ceux-là qu'on coupe, en gardant le doubanjiang entier.</strong> Le poivre de Sichuan et l'huile de piment, à zéro sodium, portent une bonne part de ce qu'on croit venir du sel. <strong>FAIRE FRIRE LA PÂTE DANS L'HUILE 30 À 60 SECONDES AVANT D'AJOUTER LE LIQUIDE</strong>&nbsp;: ça libère les arômes liposolubles et le rouge, et une pâte réveillée par l'huile rend plus de goût à dose égale."},
 {s:"cn",jp:"鎮江醋",ro:"zhènjiāng cù",pr:"djène-djiang tsou",fr:"Vinaigre noir de Chinkiang",img:"https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%92%E9%85%A2.jpg?width=1200",
  d:"Vinaigre de riz noir, malté, presque balsamique. C'est lui qui donne l'acidité de la soupe aigre-piquante.",
  w:"Allée chinoise, avec les vinaigres.",
@@ -884,16 +904,17 @@ const I = [
 
 // ⑩ ASIE DU SUD-EST
 {s:"sea",jp:"nước mắm",ro:"nuoc mam",pr:"nou-oc mame",fr:"Sauce de poisson",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Sauce_de_poisson.jpg?width=1200",
- d:"L'umami vietnamien et thaï. Odeur forte à l'ouverture, goût rond une fois dans le plat. <strong>~1400 mg de sodium par cuillère à soupe</strong> — la plus salée de toutes.",
+ d:"L'umami vietnamien et thaï. Odeur forte à l'ouverture, goût rond une fois dans le plat. <strong>1&nbsp;500&nbsp;mg de sodium par cuillère à soupe</strong>, étiquette lue — la plus salée de toutes.",
  w:"Allée Asie du Sud-Est, aux emballages plus colorés et pleins de photos de plats.",
  l:"<strong>Three Crabs : bouteille haute, étiquette jaune vif avec trois crabes rouges dessinés.</strong> Ou Squid, avec un calmar. Le liquide doit être ambré clair, pas brun foncé.",
  u:["R18","R27","R28","R36","R39","R64"],
- nk:"Sodium",n:"Une cuillère à soupe = ~1400 mg. Dans le nuoc cham, elle est diluée dans l'eau, la lime et le sucre, donc l'impact réel par portion est plus faible — mais c'est l'ingrédient à doser en premier."},
+ nk:"Sodium, chiffre lu",n:"<strong>CHIFFRE LU, LE 18 AOÛT 2026&nbsp;: 1&nbsp;500&nbsp;mg de sodium par cuillère à soupe</strong>, sauce Megachef 30°N. Le «&nbsp;~1400&nbsp;» que cette note portait était une estimation&nbsp;; l'écart est faible mais la source change, et c'est ce qui compte. Dans le nuoc cham, elle est diluée dans l'eau, la lime et le sucre, donc l'impact réel par portion est plus faible — mais c'est l'ingrédient à doser en premier. <strong>LE «&nbsp;30°N&nbsp;» EST UN INDICE DE QUALITÉ, PAS UNE MARQUE</strong>&nbsp;: il désigne le degré azoté, une mesure de la teneur en acides aminés issus de la fermentation de l'anchois. Plus il est élevé, plus la sauce porte d'umami <em>pour un même sodium</em> — donc plus on peut en mettre peu. <strong>C'est le seul levier qui améliore le rapport goût-sodium de cet ingrédient</strong>, et il s'achète&nbsp;: une sauce à 30°N ou plus permet de descendre les doses là où une sauce bas de gamme force à en remettre.\n\n<strong>ET LA DOSE SE JUGE À LA FIN, HORS DU FEU.</strong> La sauce de poisson perd une partie de ses arômes volatils en bouillant et ne garde que son sel&nbsp;: ajoutée en début de cuisson, elle sale sans parfumer. Dans un bouillon, en réserver la moitié pour la fin."},
 {s:"sea",jp:"ต้มยำ",ro:"tom yum",pr:"tome youme",fr:"Pâte tom yum",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
  d:"Deux cuillères à soupe et un bouillon devient une soupe thaïlandaise. Le raccourci le plus rentable de l'allée.",
  w:"Allée Asie du Sud-Est, avec les pâtes de cari.",
  l:"Pots de verre ou sachets, pâte rouge-orangé huileuse. Maesri et Mae Ploy sont les marques standard.",
- u:["R27"]},
+ u:["R27"],
+ nk:"Le deuxième poste sodique du tom yum",n:"<strong>ÉTIQUETTE LUE LE 18 AOÛT 2026&nbsp;: POR KWAN, POT DE 454&nbsp;G, ENVIRON 920&nbsp;MG DE SODIUM PAR CUILLÈRE À SOUPE.</strong> C'est le deuxième poste sodique du tom yum après les crevettes, et il porte à lui seul plus du tiers du plafond quotidien aux doses de <em>R27</em>.\n\n<strong>CE QU'IL Y A DEDANS, ET POURQUOI ON NE PEUT PAS SIMPLEMENT LA DILUER.</strong> Une pâte tom yum du commerce est un concentré d'huile, de piment, de citronnelle, de galanga, de feuille de lime, de pâte de crevette et de sel. <strong>Elle porte donc à la fois l'aromatique et le sel, et les deux sont indissociables dans le pot</strong>&nbsp;: couper la pâte de moitié coupe aussi l'aromatique de moitié. C'est exactement pourquoi la version allégée de <em>R27</em> monte la citronnelle, le galanga et les feuilles de lime <em>fraîches</em>&nbsp;: elles remplacent l'aromatique perdu, sans le sel.\n\n<strong>SE GARDE DES MOIS AU FRIGO APRÈS OUVERTURE</strong>, l'huile faisant barrière. Prendre à la cuillère sèche. <strong>ET LA MARQUE COMPTE</strong>&nbsp;: d'un fabricant à l'autre, le sodium par cuillère varie du simple au double. Relire à chaque nouveau pot."},
 {s:"sea",jp:"กะทิ",ro:"kathi",pr:"ka-ti",fr:"Lait de coco léger",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Cononut_milk.JPG?width=1200",
  d:"Le lait de coco régulier fait environ 445 calories la tasse. La version légère en fait 150 — et dans un tom kha, la différence de goût est mineure.",
  w:"Allée Asie du Sud-Est, en conserve.",
@@ -917,7 +938,8 @@ const I = [
  d:"Le trio aromatique thaïlandais. Ils s'infusent dans le bouillon puis se retirent — on ne les mange pas.",
  w:"En pot dans l'allée Asie du Sud-Est, ou frais aux fruits et légumes, ou congelés.",
  l:"La citronnelle est une tige ligneuse pâle qu'on écrase au plat du couteau. Le galanga ressemble au gingembre mais plus pâle et plus dur. Les feuilles de lime kaffir sont doubles et très parfumées.",
- u:["R27","R28"]},
+ u:["R27","R28"],
+ nk:"Le galanga n'est pas du gingembre",n:"<strong>CES TROIS AROMATES INFUSENT ET NE SE MANGENT PAS.</strong> Ils restent dans le bouillon et se poussent au bord du bol — c'est normal, c'est ainsi qu'on sert le tom yum en Thaïlande, et une fiche qui ne le dit pas laisse croire à un défaut de découpe.\n\n<strong>LA CITRONNELLE</strong> se prend en tronçons de 5&nbsp;cm, <strong>écrasés au dos du couteau jusqu'à ce que les fibres éclatent</strong> — non écrasée, elle ne donne presque rien. Deux tiges pour un litre est un minimum&nbsp;; quatre est une dose défendable quand on allège le sel, parce que l'aromatique reprend ce que le sel abandonne. Se congèle en tronçons, sans perte notable.\n\n<strong>LE GALANGA N'EST PAS UN GINGEMBRE FAIBLE, C'EST UN AUTRE GOÛT — ET C'EST L'ERREUR DE SUBSTITUTION LA PLUS COURANTE.</strong> Rhizome pâle, presque beige rosé, nettement plus dur et plus ligneux que le gingembre, cerclé d'anneaux marqués. Là où le gingembre est chaud et piquant, <strong>le galanga est résineux, poivré, presque camphré, avec une note de pin</strong>. Remplacer l'un par l'autre dans un tom yum ne l'affaiblit pas&nbsp;: ça le pousse vers un plat japonais. <strong>S'IL N'Y EN A PAS, MIEUX VAUT MONTER LA CITRONNELLE ET LES FEUILLES DE LIME</strong> et assumer un profil citronné, plutôt que de mettre du gingembre. En tranches, jamais râpé — il est trop fibreux. Se congèle entier et se tranche encore gelé. <strong>La version séchée existe au rayon des épices&nbsp;: la réhydrater 20 minutes dans le liquide froid avant de chauffer, et la compter pour la moitié d'un frais — elle donne le boisé, pas le parfum.</strong>\n\n<strong>LES FEUILLES DE LIME KAFFIR</strong> se <strong>déchirent</strong>, jamais ne se coupent&nbsp;: c'est la déchirure qui rompt les cellules et libère l'huile. Elles portent le parfum de lime <em>sans acidité</em>, ce qui en fait <strong>le meilleur rattrapage quand on manque de limes</strong> — six feuilles au lieu de quatre compensent la note verte d'un jus de citron. Se congèlent des mois et s'utilisent directement congelées."},
 
 // ⑪ THÉ
 {s:"the",jp:"麦茶",ro:"mugicha",fr:"Mugicha — thé d'orge",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese-Barley_tea-Mugicha.jpg?width=1200",
@@ -990,12 +1012,12 @@ const I = [
  l:"Tubercule allongé à peau pourpre-rougeâtre pour la satsumaimo, cuivrée pour la nord-américaine. <strong>Repère mesuré le 17 août 2026&nbsp;: 1,025 kg donne 4 patates de taille moyenne.</strong>",
  u:["R56","R64"]},
 {s:"frigo",jp:"ギリシャヨーグルト",ro:"girisha yōguruto",fr:"Yogourt grec",img:null,
- d:"Le meilleur rendement protéines-sodium du dossier. <strong>Oïkos Pro 0&nbsp;%, par ½&nbsp;tasse (115&nbsp;g)&nbsp;: 13&nbsp;g de protéines, 45&nbsp;mg de sodium</strong>, 80 calories, 1&nbsp;g de lipides, 5&nbsp;g de glucides dont 5&nbsp;g de sucres, 10&nbsp;mg de cholestérol, 175&nbsp;mg de potassium, 250&nbsp;mg de calcium.",
+ d:"Le meilleur rendement protéines-sodium du dossier. <strong>Oïkos Pro 0&nbsp;%, par ½&nbsp;tasse (115&nbsp;g)&nbsp;: 13&nbsp;g de protéines, 45&nbsp;mg de sodium</strong>, 80 calories, 1&nbsp;g de lipides, 5&nbsp;g de glucides dont 3&nbsp;g de sucres, 10&nbsp;mg de cholestérol, 175&nbsp;mg de potassium, 250&nbsp;mg de calcium.",
  w:"Mur réfrigéré, section des yogourts. <strong>Contenant de 650&nbsp;g à 6,99&nbsp;$ au Super C</strong> (1,08&nbsp;$/100&nbsp;g), étiquette lue le 18 août 2026.",
  l:"Grand contenant brassé, mention «&nbsp;sans sucre ajouté&nbsp;» sur la face avant. La gamme «&nbsp;Pro&nbsp;» s'annonce par son chiffre de protéines&nbsp;; le grec 0&nbsp;% ordinaire, non.",
  alt:["yogourt grec protéiné","Oïkos Pro","greek yogurt"],
  u:["R55"],
- nk:"Lire la ligne des sucres, pas l'arôme",n:"<strong>AUX 100 G : 11,3 g de protéines, 70 calories, 39 mg de sodium. À LA PORTION DE 175 G DU DOSSIER : 20 g de protéines, 122 calories, 1,5 g de lipides, 68 mg de sodium.</strong> Rendement de <strong>3,4 mg de sodium par gramme de protéine — le meilleur de tout le dossier</strong>, devant l'œuf mariné, à 42, et les lanières de poulet cuites, à 19. <strong>LE BANNISSEMENT DES YOGOURTS AROMATISÉS ÉTAIT UN BANNISSEMENT DU SUCRE, PAS DE L'ARÔME.</strong> Il visait un produit précis — le Kirkland 3 % aromatisé, environ 14 g de sucre par contenant de 100 g. Un yogourt aromatisé <em>sans sucre ajouté</em> à 5 g de sucres aux 115 g est dans l'ordre de grandeur du <strong>lactose d'un yogourt grec nature</strong> : le motif ne s'applique pas. <strong>LA RÈGLE CORRIGÉE : ce n'est pas « nature ou rien », c'est LIRE LA LIGNE DES SUCRES.</strong> Repère : au-delà de 8 g par 100 g, c'est un dessert; en dessous de 6, c'est du yogourt. <strong>CE QU'IL FAUT VÉRIFIER À LA PLACE, SUR UN « SANS SUCRE AJOUTÉ » AROMATISÉ</strong> : la liste d'ingrédients. Un goût de banane sans sucre suppose un édulcorant — sucralose, acésulfame-potassium ou stévia. Ça ne change aucun chiffre du panneau, mais ça se sait. <strong>LE PROTÉINÉ N'EST PAS UN YOGOURT GREC ORDINAIRE.</strong> La gamme « Pro » est faite de lait ultrafiltré et de protéines de lait ajoutées : 11 g aux 100 g contre 9 à 10 pour un grec 0 % classique et 5 pour un yogourt régulier. Elle porte aussi de l'amidon de maïs et de la pectine pour la texture, l'égouttage ne suffisant plus à l'épaissir."}
+ nk:"Lire la ligne des sucres, pas l'arôme",n:"<strong>AUX 100 G : 11,3 g de protéines, 70 calories, 39 mg de sodium. À LA PORTION DE 175 G DU DOSSIER : 20 g de protéines, 122 calories, 1,5 g de lipides, 68 mg de sodium.</strong> Rendement de <strong>3,4 mg de sodium par gramme de protéine — le meilleur de tout le dossier</strong>, devant l'œuf mariné, à 42, et les lanières de poulet cuites, à 19. <strong>LE BANNISSEMENT DES YOGOURTS AROMATISÉS ÉTAIT UN BANNISSEMENT DU SUCRE, PAS DE L'ARÔME.</strong> Il visait un produit précis — le Kirkland 3 % aromatisé, environ 14 g de sucre par contenant de 100 g. Un yogourt aromatisé <em>sans sucre ajouté</em> à 3 g de sucres aux 115 g est dans l'ordre de grandeur du <strong>lactose d'un yogourt grec nature</strong> : le motif ne s'applique pas. <strong>LA RÈGLE CORRIGÉE : ce n'est pas « nature ou rien », c'est LIRE LA LIGNE DES SUCRES.</strong> Repère : au-delà de 8 g par 100 g, c'est un dessert; en dessous de 6, c'est du yogourt. <strong>CE QU'IL FAUT VÉRIFIER À LA PLACE, SUR UN « SANS SUCRE AJOUTÉ » AROMATISÉ</strong> : la liste d'ingrédients. Un goût de banane sans sucre suppose un édulcorant, et <strong>celui du contenant du dossier est la stévia</strong>, lue sur l'emballage le 18 août 2026. Ça ne change aucun chiffre du panneau, mais ça se sait. <strong>LE PROTÉINÉ N'EST PAS UN YOGOURT GREC ORDINAIRE.</strong> La gamme « Pro » est faite de lait ultrafiltré et de protéines de lait ajoutées : 11 g aux 100 g contre 9 à 10 pour un grec 0 % classique et 5 pour un yogourt régulier. Elle porte aussi de l'amidon de maïs et de la pectine pour la texture, l'égouttage ne suffisant plus à l'épaissir.\n\n<strong>LA PRÉPARATION AROMATISANTE CONTIENT DU SEL MARIN.</strong> Ce n'est pas une faute et ça ne déplace pas le chiffre du panneau — 45&nbsp;mg de sodium par 115&nbsp;g reste le meilleur rendement du dossier, et de loin. Mais ça fait du <strong>nature un choix strictement meilleur quand une journée est serrée en sodium</strong>, alors que le dossier les traitait jusqu'ici comme équivalents. <strong>LA CORRECTION DE MÉTHODE, ELLE, COMPTE PLUS QUE LE CHIFFRE.</strong> La valeur de 5&nbsp;g de sucres qui figurait ici venait d'une photo prise en rayon, pas du contenant acheté&nbsp;; le contenant en donne 3. <strong>UNE PHOTO DE TABLETTE N'EST PAS UNE ÉTIQUETTE LUE</strong>&nbsp;: le format exposé n'est pas toujours celui qu'on rapporte, et la règle du dossier — seule une étiquette lue ou une balance alimente un chiffre — vise exactement ce genre de glissement."}
 ];
 
 class Component extends DCLogic {
@@ -1056,9 +1078,11 @@ class Component extends DCLogic {
     const norm = s => (s || "").toLowerCase().replace(/\u0153/g, "oe").replace(/\u00e6/g, "ae").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const term = norm(q);
     const flt = I.filter(x => sec === "tous" || x.s === sec)
-      .filter(x => !term || norm(x.fr + " " + x.ro + " " + x.jp + " " + x.d + " " + x.l + " " + (x.alt || []).join(" ")).includes(term));
+      .filter(x => !term || norm([x.fr, x.ro, x.jp, x.d, x.l, (x.alt || []).join(" ")].filter(Boolean).join(" ")).includes(term));
     const list = flt.map(x => ({
-        jp: x.jp, ro: x.ro, fr: x.fr, img: x.img, bg: x.img ? 'url("' + x.img + '")' : 'none', jpt: JPT(x.jp, x.ro, x.fr, x.pr),
+        // `|| null` et non `undefined` : le gabarit avertit sur un trou non résolu,
+        // alors qu'un nom japonais absent est une valeur connue depuis S7.
+        jp: x.jp || null, ro: x.ro || null, fr: x.fr, img: x.img, bg: x.img ? 'url("' + x.img + '")' : 'none', jpt: JPT(x.jp, x.ro, x.fr, x.pr),
         secLabel: SECLABEL[x.s],
         go: () => this.go(this.slug(x))
       }));
@@ -1070,7 +1094,7 @@ class Component extends DCLogic {
 
     const o = I.find(x => this.slug(x) === open);
     const openVal = o ? {
-      jp: o.jp, ro: o.ro, fr: o.fr, desc: RT(o.d), img: o.img, bg: o.img ? 'url("' + o.img + '")' : 'none', jpt: JPT(o.jp, o.ro, o.fr, o.pr),
+      jp: o.jp || null, ro: o.ro || null, fr: o.fr, desc: RT(o.d), img: o.img, bg: o.img ? 'url("' + o.img + '")' : 'none', jpt: JPT(o.jp, o.ro, o.fr, o.pr),
       secLabel: SECLABEL[o.s], where: RT(o.w), look: RT(o.l),
       hasPrev: !!prevId, hasNext: !!nextId,
       goPrev: () => prevId && this.go(prevId),
@@ -1078,7 +1102,7 @@ class Component extends DCLogic {
       pos: nav >= 0 ? (nav + 1) + " / " + listSlugs.length : "",
       slot: "pack-" + this.slug(o),
       packSrc: o.pack || "", hasPack: !!o.pack, noPack: !o.pack,
-      hasNote: !!o.n, noteK: o.nk || "Note", note: RT(o.n || ""),
+      hasNote: !!o.n, noteK: o.nk || "Note", noteParas: RTP(o.n),
       hasUses: !!(o.u && o.u.length),
       uses: (o.u || []).map(id => ({ label: id, href: "guide-2-recettes.html#" + id }))
     } : null;

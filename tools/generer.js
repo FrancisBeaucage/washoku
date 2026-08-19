@@ -14,6 +14,7 @@ const { objetMultiligne, tableau } = require('./lib/ecrire-js');
 const documents = require('./lib/documents');
 const compteursCartes = require('./lib/compteurs');
 const ensembles = require('./lib/ensembles');
+const { minutes } = require('./lib/champs');
 
 const verifier = process.argv.includes('--verifier');
 
@@ -211,7 +212,11 @@ const index = triees.map((f) => ({
   statut: f.statut,
   proteines_g: f.nutrition.proteines_g,
   calories: f.nutrition.calories,
-  temps_minutes: f.temps_minutes.preparation + f.temps_minutes.cuisson + f.temps_minutes.attente,
+  /* Le total en minutes, borne HAUTE : depuis le document 19, un temps peut
+     être une fourchette ({min, max}) quand une fiche porte deux méthodes de
+     cuisson. L'index sert à choisir un plat pour un soir donné — c'est la borne
+     haute qui décide si on a le temps, pas la basse. */
+  temps_minutes: minutes(f.temps_minutes.preparation) + minutes(f.temps_minutes.cuisson) + minutes(f.temps_minutes.attente),
   url: `${BASE_URL}/data/fiches/${f.id}.json`,
 }));
 
@@ -269,6 +274,7 @@ const manifeste = {
     'fiches/<ID>.json donne une fiche entière. Ne récupérer que celles dont on a besoin.',
     'guide-2-fiches.json est le recueil entier : ne le charger que pour un audit.',
     'ensembles_fermes donne les valeurs exactes des champs à liste fermée. Les lire avant d’en écrire une.',
+    'formes_fermees dit si un champ fermé prend une valeur, un tableau de valeurs, ou un objet par lecteur.',
   ],
   fichiers,
   compteurs,
@@ -279,6 +285,12 @@ const manifeste = {
      lib/ensembles.js. */
   ensembles_fermes: ensembles.parFichier(),
   note_ensembles_fermes: ensembles.NOTE,
+  /* Le document 19 ouvre des champs qui prennent un TABLEAU de valeurs de leur
+     ensemble (`methode`, les deux axes, `moment`) et d'autres qui prennent un
+     OBJET par lecteur (`etoiles`, `statut_perso`). La liste des valeurs ne le
+     dit pas ; cette table-ci le dit. */
+  formes_fermees: ensembles.formesParFichier(),
+  note_formes_fermees: ensembles.NOTE_FORMES,
 };
 if (!verifier) fs.writeFileSync(path.join(DATA, 'manifeste.json'), JSON.stringify(manifeste, null, 2) + '\n', 'utf8');
 

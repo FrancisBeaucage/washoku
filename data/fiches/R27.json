@@ -4,9 +4,16 @@
   "categorie": "souper",
   "cuisine": "thaie",
   "vitesse": "moyen",
+  "type_de_plat": null,
+  "methode": [],
+  "axe_gout": [],
+  "axe_texture": [],
+  "moment": [],
+  "slug": "tom-yum-aux-crevettes",
   "jp": "トムヤムクン",
   "jp_lecture": "tome youme koung",
   "romaji": "tom yum kung",
+  "langue_origine": "th",
   "fr": "Tom yum aux crevettes",
   "sous_titre": "Bouillon clair, aromates, acidité. Le lait de coco est facultatif — et sans lui, c'est une soupe-repas à 260 calories.",
   "portions": "2",
@@ -86,10 +93,20 @@
   ],
   "notes": [
     {
-      "titre": "Le vrai point de vigilance",
-      "texte": "LE POINT DE VIGILANCE DE CETTE FICHE EST LE SODIUM, PAS LE PIMENT. La sauce de poisson apporte environ 1 400 mg de sodium par cuillère à soupe, et la pâte tom yum en ajoute. À pleine dose, ce seul plat approche le plafond quotidien du guide 5. À DEMI-DOSE DE SAUCE DE POISSON ET DE PÂTE, le plat reste lui-même si on compense au jus de lime et au piment : l'acide et le piquant portent une partie de ce que le sel portait. Deuxième levier, aussi efficace : ne pas boire tout le bouillon."
+      "titre": "Le sodium de ce plat est le plus élevé du recueil",
+      "texte": "CE PLAT, À SES DOSES D'ORIGINE, EST LE POSTE SODIQUE LE PLUS ÉLEVÉ DE TOUT LE RECUEIL. Trois ingrédients portent tout : la pâte tom yum, à environ 920 mg par cuillère à soupe; la sauce de poisson, à environ 1 500 mg par cuillère à soupe; et les crevettes elles-mêmes, glacées dans une saumure de sel et de phosphate, à environ 584 mg aux 100 g. AUX DOSES ÉCRITES CI-DESSUS, UN BOL PORTE DE L'ORDRE DE 3 500 MG DE SODIUM — une fois et demie le plafond d'une journée entière. Les chiffres viennent d'étiquettes lues le 18 août 2026 et varient d'une marque à l'autre : LIRE LES TROIS POTS, PAS CETTE NOTE.\n\nLA VERSION ALLÉGÉE, ET ELLE TIENT EN QUATRE GESTES. UN — la pâte à 1 cuillère à soupe au lieu de 2. DEUX — la sauce de poisson à 1 cuillère à thé au lieu de 2 cuillères à soupe, soit un sixième. TROIS — les crevettes décongelées à l'eau froide PUIS RINCÉES ET BIEN ÉGOUTTÉES : le sel et le phosphate sont dans le glaçage de surface, pas dans la chair. QUATRE — MANGER LES SOLIDES ET LAISSER LES DEUX TIERS DU LIQUIDE : la pâte et la sauce de poisson sont dans le bouillon, c'est là que le levier est le plus efficace. Résultat mesuré au calcul : de l'ordre de 1 100 mg par bol au lieu de 3 500.\n\nET CE QUI REMPLACE LE SEL, PARCE QU'UN PLAT ALLÉGÉ QUI N'EST PAS COMPENSÉ EST UN PLAT FADE. Le jus de 2 limes, entier — L'ACIDE EST LE PREMIER SUBSTITUT DU SEL DANS CE PLAT PRÉCIS, parce que le tom yum est bâti sur lui. Quatre tiges de citronnelle au lieu de 2, six feuilles de lime kaffir au lieu de 4, le galanga à pleine dose, la coriandre généreuse, les piments à goûter et à monter. Et UNE CUILLÈRE À THÉ DE SUCRE si l'acide sort dur : un tom yum authentique porte une pointe de sucre de palme, et sans elle l'acidité se lit mince. LA CORRECTION D'UN BOUILLON FADE N'EST JAMAIS DE REMETTRE DE LA SAUCE DE POISSON.\n\nUNE QUESTION RESTE OUVERTE ET ELLE SE TRANCHE À LA DÉGUSTATION : à demi-pâte et un sixième de sauce de poisson, est-ce encore un tom yum? Si la réponse est non, ce plat n'est pas à alléger mais à traiter comme UN PLAT OCCASIONNEL QU'ON FAIT À PLEINE DOSE EN CONSTRUISANT LA JOURNÉE AUTOUR — déjeuner et dîner sous 400 mg chacun, collation au yogourt."
+    },
+    {
+      "titre": "L'acide entre hors du feu",
+      "texte": "LE JUS DE LIME ENTRE CASSEROLE ÉTEINTE, À LA TOUTE FIN, JAMAIS PENDANT LA CUISSON. Bouilli, le jus d'agrume perd ses composés aromatiques volatils en une trentaine de secondes et son acidité tourne amère. C'est la seule erreur de cette recette qui ne se rattrape pas : on peut rajouter du piment, de l'aromatique, du sucre, mais on ne peut pas rendre son parfum à une lime cuite.\n\nSI LES LIMES MANQUENT, DANS CET ORDRE. LE CITRON EST LE VRAI SUBSTITUT — le jus d'un citron et demi pour deux limes, acidité presque identique, et la note verte manquante se rattrape en montant à six feuilles de lime kaffir, qui donnent le parfum de lime sans l'acide. LE JUS DE LIME EN BOUTEILLE fonctionne, à condition de vérifier qu'il ne contient pas de sel. LE VINAIGRE DE RIZ EST UN DÉPANNAGE, PAS UN ÉQUIVALENT : il titre environ 4,3 % contre 6 % pour la lime, donc 3 cuillères à soupe pour deux limes, et c'est un acide rond là où le plat est bâti sur un acide pointu. LE TAMARIN est un acide thaï légitime mais c'est celui d'autres soupes : il donne un plat voisin, pas le même. ET LE PONZU EST À ÉCARTER ABSOLUMENT : c'est de la sauce soya acidulée, donc du sodium ajouté au plat le plus salé du recueil."
     }
   ],
+  "ajustement": "Version allégée, celle de la maison : pâte tom yum à 1 c. à soupe au lieu de 2, sauce de poisson à 1 c. à thé au lieu de 2 c. à soupe, crevettes rincées et bien égouttées après décongélation, et on mange les solides en laissant les deux tiers du bouillon. Compensé au jus de 2 limes entier, 4 tiges de citronnelle, 6 feuilles de lime kaffir, galanga à pleine dose, et 1 c. à thé de sucre si l'acide sort dur. De l'ordre de 1 100 mg de sodium par bol au lieu de 3 500.",
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
   "video": {
     "youtube_id": "hXaaZiMgvgI",

@@ -4,9 +4,16 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "rapide",
+  "type_de_plat": null,
+  "methode": [],
+  "axe_gout": [],
+  "axe_texture": [],
+  "moment": [],
+  "slug": "soupe-miso-au-saumon-tofu-et-edamame",
   "jp": "鮭の味噌汁",
   "jp_lecture": null,
   "romaji": "sake no misoshiru",
+  "langue_origine": "ja",
   "fr": "Soupe miso au saumon, tofu et edamame",
   "sous_titre": "Une soupe-repas complète, pas une soupe-entrée. 38 g de protéines par portion.",
   "portions": "2",
@@ -80,8 +87,18 @@
     {
       "titre": "La peau s'enlève avant de couper les cubes",
       "texte": "DANS CETTE FICHE, LA PEAU S'ENLÈVE AVANT DE COUPER LES CUBES. Une peau de saumon n'est bonne que rendue croustillante par la CHALEUR SÈCHE — grillée, poêlée, rôtie. Pochée, son collagène gélatinise : elle devient molle et glissante, elle se détache de la chair dans le bol et flotte. Et surtout, LA COUCHE DE GRAS SOUS-CUTANÉE, là où se concentrent l'huile et les notes les plus fortes du poisson, SE RELÂCHE DANS LE BOUILLON : dans un dashi clair sous du miso, ça donne un film gras en surface et une pointe franchement poisson que le plat ne cherche pas. L'EXCEPTION EST INSTRUCTIVE. Le sake no misoshiru traditionnel se fait très souvent avec de l'ara — tête, collier, arêtes — PEAU COMPRISE, ET EXPRÈS : là, la peau et les os SONT la source de goût, et la soupe est censée être riche, un peu grasse et légèrement gélatineuse. Ce n'est donc pas « la peau n'entre jamais dans une soupe de poisson », c'est « LA PEAU N'ENTRE PAS DANS UN BOUILLON LÉGER MONTÉ SUR DES CUBES DE FILET PROPRES ». Deux plats différents portant le même nom. LE GESTE. Chair semi-congelée posée peau en dessous, lame mince glissée à plat entre peau et chair d'un bout à l'autre — la fermeté du semi-congelé aide plutôt qu'elle nuit. SI ÇA RÉSISTE, POCHER AVEC LA PEAU ET LA RETIRER DU BOL : à six minutes elle se détache d'elle-même, on la cueille à la pince. Passer le doigt sur la chair au passage pour les arêtes intramusculaires — dans une soupe, une arête surprend. LA PEAU NE SE JETTE PAS. Épongée à sec, poêle chaude sans huile, peau en dessous, 3 à 4 minutes sous une petite casserole qui l'aplatit, une pincée de sel : c'est du gras et de la protéine, et c'est la seule préparation où elle donne son meilleur."
+    },
+    {
+      "titre": "Un bol où rien ne résiste se lit comme incomplet",
+      "texte": "UN BOUILLON DE MISO AU POISSON POCHÉ EST UN PLAT QUI DIVISE, ET LE DOSSIER EN A LA PREUVE À LA MÊME TABLE. Servi à deux couverts le 18 août 2026, il a reçu un franc enthousiasme d'un côté — assez pour qu'un reste soit rapporté pour le lendemain — et un verdict de milieu d'échelle de l'autre, formulé ainsi : « la soupe était très bonne, très nourrissante », mais « le poisson bouilli, c'est pas ce que je préfère », et « j'ai l'impression qu'il me manque quelque chose ».\n\nLE POINT TECHNIQUE DERRIÈRE CE « IL ME MANQUE QUELQUE CHOSE » EST PROBABLEMENT LA TEXTURE, PAS L'ASSAISONNEMENT. Le dashi avait été jugé correct et le miso bien dosé. Ce qui n'est pas dans ce bol, c'est le contraste : tout y est tendre — poisson poché, tofu, edamames, wakame. UN BOL OÙ RIEN NE RÉSISTE SE LIT COMME INCOMPLET MÊME QUAND IL EST BON. TROIS AJOUTS QUI NE TOUCHENT NI AU SODIUM NI AUX CALORIES : le shichimi à table, les oignons verts crus tranchés au dernier moment plutôt que cuits, et une garniture sèche et grillée — sésame écrasé ou nori émincé. Un quatrième, si le poisson est le problème : LE MÊME POISSON GRILLÉ À PART ET DÉPOSÉ DANS LE BOL AU SERVICE plutôt que poché dedans. On perd un peu de fond au bouillon, on gagne une peau et une surface.\n\nET LE PLAT DEMANDE À ÊTRE COMPTÉ POUR CE QU'IL EST EN TEMPS D'ÉTAPES, PAS EN MINUTES. Observation du second couvert le 18 août : « elle trouvait qu'il y avait énormément d'étapes, elle n'était pas sûre si ça allait avoir le temps de faire ça » — avec deux jeunes enfants. Le total en minutes est honnête, mais le nombre de gestes distincts est élevé, et POUR QUI CUISINE AVEC DES INTERRUPTIONS, C'EST LE NOMBRE DE GESTES QUI DÉCIDE, PAS LE TOTAL. Les deux tiers du plat se font d'avance et se gardent : le dashi la veille au froid, le poisson coupé et le tofu égoutté le matin. Ce qui reste au moment de servir, c'est chauffer, pocher six minutes, et délayer le miso hors du feu."
     }
   ],
+  "ajustement": "Miso à 2½ c. à soupe pour 1 L de dashi au lieu de 3, mesuré rase. C'est la dose de la maison; la fiche reste à 3.",
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso%20soup%20and%20Rice%2020141027.jpg?width=1200",
   "video": {
     "youtube_id": "8wVjpLI2mp0",

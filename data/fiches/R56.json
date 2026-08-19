@@ -4,16 +4,26 @@
   "categorie": "collation",
   "cuisine": "japonaise",
   "vitesse": "long",
+  "type_de_plat": null,
+  "methode": [],
+  "axe_gout": [],
+  "axe_texture": [],
+  "moment": [],
+  "slug": "patate-douce-rotie",
   "jp": "焼き芋",
   "jp_lecture": null,
   "romaji": "yaki-imo",
+  "langue_origine": "ja",
   "fr": "Patate douce rôtie",
   "sous_titre": "焼き芋 yaki-imo. Sucrée naturellement, très rassasiante. Au four, elle se fait toute seule pendant qu'on fait autre chose.",
   "portions": "1",
-  "temps_affiche": "≈ 47 min",
+  "temps_affiche": "≈ 40 à 75 min",
   "temps_minutes": {
     "preparation": 2,
-    "cuisson": 45,
+    "cuisson": {
+      "min": 40,
+      "max": 75
+    },
     "attente": 0
   },
   "preparation_avance": null,
@@ -80,6 +90,12 @@
       "texte": "COMMENT LA SERVIR. FENDUE EN DEUX SUR LA LONGUEUR, MANGÉE À LA CUILLÈRE, la peau servant de bol — le geste de la vidéo, le meilleur à froid. Ou EN RONDELLES ÉPAISSES DE 1,5 À 2 CM, peau comprise, pour une collation qu'on prend à la main. NI EN CHIPS NI EN JULIENNE : ce sont des coupes de patate douce CRUE. POUR LE POSTE COLLATION, PRÉFÉRER LES RONDELLES DANS UN PETIT BOL : le contenant donne la portion. UNE PINCÉE DE SEL fait ressortir le sucre, au coût d'environ 145 mg de sodium."
     }
   ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gungoguma_(roasted_sweet_potatoes).jpg?width=1200",
   "video": {
     "youtube_id": "31zAQudWyUo",

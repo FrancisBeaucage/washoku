@@ -4,9 +4,16 @@
   "categorie": "garniture",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
+  "type_de_plat": null,
+  "methode": [],
+  "axe_gout": [],
+  "axe_texture": [],
+  "moment": [],
+  "slug": "goma-ae-legumes-blanchis-au-sesame",
   "jp": "胡麻和え",
   "jp_lecture": null,
   "romaji": "goma-ae",
+  "langue_origine": "ja",
   "fr": "Goma-ae — légumes blanchis au sésame",
   "sous_titre": "Le petit plat le plus courant du répertoire. Trois ingrédients, cinq minutes, à partir de légumes déjà blanchis. L'étape qui fait tout : écraser les graines de sésame au mortier — c'est ce qui libère l'huile et fait la sauce.",
   "portions": "4",
@@ -86,8 +93,18 @@
     {
       "titre": "Variante classique",
       "texte": "Version sucrée, plus proche de la recette de restaurant : ajouter 1 c. à thé de sucre et 1 c. à thé de dashi à la sauce. Sur de l'épinard, c'est le goma-ae canonique."
+    },
+    {
+      "titre": "Le légume décide de ce plat, pas la sauce",
+      "texte": "LE GOMA-AE SE JUGE SUR LA TEXTURE DU LÉGUME, PAS SUR LA SAUCE. La sauce au sésame est la même pour tous les légumes; ce qui change tout, c'est ce qui reste sous la dent après le blanchiment. TROIS FAMILLES, ET ELLES NE DONNENT PAS LE MÊME PLAT. LES LÉGUMES QUI RESTENT FERMES — haricots verts, tiges de brocoli en biseau, gai lan, asperges, haricots longs — donnent un plat où la sauce enrobe quelque chose qui résiste. LES FEUILLES FINES — épinards, feuilles de nappa, couronne de chrysanthème — s'affaissent en donnant une bouchée douce et fondante, ce qui est le goma-ae classique mais suppose qu'on aime cette texture. ET LES CÔTES ÉPAISSES DE CHOU NAPPA SONT LE CAS LE PLUS DIFFICILE DU PLAT : gorgées d'eau, elles ressortent molles et pâles, elles rendent leur eau dans la sauce et la délayent.\n\nCONSÉQUENCE POUR LE MONTAGE, ET C'EST LA CORRECTION LA PLUS UTILE DE CETTE NOTE : QUAND ON UTILISE DU CHOU NAPPA, SÉPARER LES CÔTES DES FEUILLES ET NE PAS SERVIR UN BOL DE CÔTES SEULES. Les côtes vont d'abord dans l'eau, 1 min 30 à 2 minutes; les feuilles suivent 30 secondes. AU MONTAGE, VISER AU MOINS LA MOITIÉ DE VERT PAR BOL. Constaté le 18 août 2026 : un bol composé presque uniquement de côtes a été jugé sur sa texture et laissé aux trois quarts, alors que la sauce n'était pas en cause.\n\nET LE PRESSAGE N'EST PAS UNE ÉTAPE FACULTATIVE SUR CE LÉGUME. Une côte de nappa mal pressée porte assez d'eau pour transformer une pâte de sésame en liquide gris dans le fond du bol. Presser fermement, droit, sans tordre — tordre casse les fibres et donne une texture filandreuse en plus de l'eau."
     }
   ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Goma-ae_salad.jpg?width=1200",
   "video": {
     "youtube_id": "CvOoXbwUySI",
