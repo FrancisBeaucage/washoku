@@ -65,7 +65,28 @@
       "texte": "Sésame et shichimi."
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "titre": "Le kinpira n'est pas un plat sucré",
+      "texte": "LE KINPIRA N'EST PAS UN PLAT SUCRÉ. L'odeur de la cuisson le laisse croire — le mirin qui réduit sur de l'huile de sésame grillé sent le caramel — mais le sucre y est un contrepoids au soya, pas un goût dominant. Le plat fini est salé, boisé et légèrement sucré à la finale. SI ON VEUT LE SUCRÉ ANNONCÉ PAR L'ODEUR, C'EST LA RÉDUCTION QU'IL FAUT POUSSER : laisser les liquides napper vraiment les juliennes, jusqu'à ce que le fond de la poêle soit sec et luisant. Une réduction arrêtée trop tôt laisse un plat correct mais plat."
+    },
+    {
+      "titre": "Le daikon se décolore, et c'est normal",
+      "texte": "LE DAIKON SE DÉCOLORE, ET C'EST NORMAL. Il passe du blanc opaque au translucide, puis prend la teinte du soya beaucoup plus vite que la carotte, parce qu'il est poreux et gorgé d'eau — il boit la sauce là où la carotte la porte en surface. LA CAROTTE, ELLE, NE BRUNIT PRATIQUEMENT PAS : elle s'assouplit, ses bords deviennent luisants, et c'est tout. Une carotte qui tache pendant les quatre minutes de sauté signale un feu trop fort. DEUX TEXTURES DIFFÉRENTES DANS LE MÊME PLAT SONT UN RÉSULTAT ATTENDU, PAS UN RATÉ — c'est aussi pourquoi l'original se fait au gobo, qui reste ferme du début à la fin. SI ON VEUT LA CAROTTE PLUS CUITE, la mettre 90 secondes avant le daikon : elle est plus dense et démarre plus lentement."
+    },
+    {
+      "titre": "Le shichimi n'est pas facultatif ici",
+      "texte": "LE SHICHIMI N'EST PAS FACULTATIF ICI. C'est lui qui donne au kinpira son relief; sans lui, le plat reste sur une seule note de soya sucré. Il va à table, jamais dans la poêle. Oublié le 17 août 2026, et le plat s'en est ressenti. CONFIRMÉ LE 18 AOÛT : la même portion, reprise froide au dîner avec le shichimi cette fois, a été jugée meilleure. Le shichimi fait la différence sur ce plat, et il la fait aussi à froid."
+    },
+    {
+      "titre": "La julienne est tout le travail",
+      "texte": "CE PLAT SE JUGE AU RAPPORT TRAVAIL-RÉSULTAT, ET LA JULIENNE EST TOUT LE TRAVAIL. La cuisson dure quatre minutes; tailler une carotte et un morceau de daikon en juliennes régulières au couteau en prend quinze à vingt. C'est le plat du répertoire où l'écart entre le temps de préparation et le temps de cuisson est le plus grand, et c'est ce qui décide s'il se refait. TROIS FAÇONS DE RAMENER LA COUPE À TROIS MINUTES — un économe à julienne, le moins cher et le plus rangeable; une mandoline avec sa grille à julienne, le plus régulier, et la régularité est ce qui fait cuire les fils ensemble; ou le kiriboshi daikon, le daikon déjà séché en filaments, qui supprime la coupe du daikon entièrement, voir R66. À LA MAIN, LE RACCOURCI EST LA COUPE EN BIAIS PUIS EN PILE : trancher en ovales de 2 mm en tenant la lame très inclinée, empiler quatre ou cinq ovales, retailler en bâtonnets. On gagne la moitié du temps sur une coupe droite. CE QU'IL NE FAUT PAS FAIRE, C'EST ÉPAISSIR LES FILS POUR ALLER PLUS VITE : au-delà de 3 mm, le daikon ne prend plus la sauce en surface, il la boit, et le plat devient mou et fade — exactement le défaut qu'on cherchait à éviter."
+    },
+    {
+      "titre": "Cette fiche est une variante, pas l'original",
+      "texte": "CETTE FICHE EST UNE VARIANTE, PAS L'ORIGINAL. Le kinpira gobo se fait à la racine de bardane. La version au daikon est un plat honnête mais différent, et la différence est mécanique : LE GOBO EST SEC ET FIBREUX, LE DAIKON EST GORGÉ D'EAU. Avec du daikon, le fond de la poêle peut devenir liquide et le plat bouillir au lieu de sauter — monter le feu et laisser évaporer AVANT d'ajouter le soya. C'est aussi pour ça que les recettes au gobo portent une giclée de saké : sur une racine dure et sèche, elle fait un fond de liquide qui aide le soya et le mirin à enrober sans brûler. Avec du daikon, on en a moins besoin. UNE CUILLÈRE À THÉ EST UN AJOUT DÉFENDABLE SI LE DAIKON EST PARTICULIÈREMENT SEC — jamais plus."
+    }
+  ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinpira_002.jpg?width=1200",
   "video": {
     "youtube_id": "ZHbYTUq8M7U",

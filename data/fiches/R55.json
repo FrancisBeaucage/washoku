@@ -56,7 +56,12 @@
       "texte": "Saupoudrer de kinako, ajouter un filet de miel si désiré."
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "titre": "Sans kinako",
+      "texte": "LE KINAKO EST INTROUVABLE ET ABANDONNÉ AU DOSSIER — cherché à répétition, jamais goûté. LA VERSION DE TRAVAIL EST DONC 175 G DE YOGOURT GREC PROTÉINÉ PLUS UNE CUILLÈRE À SOUPE DE SÉSAME GRILLÉ ÉCRASÉ, ce qui donne environ 20 g de protéines, 5 g de lipides et moins de 100 mg de sodium. Le sésame joue le même rôle que le kinako — une poudre de graine grillée qui apporte du gras et une note torréfiée — et il est en stock en permanence."
+    }
+  ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Greek_yoghurt_with_honey.jpg?width=1200",
   "video": {
     "youtube_id": null,

@@ -16,6 +16,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap">
 <style>
+  /* L'échelle d'empilement, écrite une fois plutôt que devinée à chaque calque :
+     contenu 10, en-têtes collants 40, calque de fiche 50, barre de menu 60.
+     `--barre` porte la hauteur réelle de la barre de menu ; les calques
+     commencent SOUS elle, ce qui rend l'intention lisible dans le CSS et laisse
+     la navigation atteignable pendant qu'une fiche est ouverte. */
+  :root { --barre:49px; --z-contenu:10; --z-collant:40; --z-calque:50; --z-menu:60; }
   html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:64px; }
   body { margin:0; background:#f3f2f2; color:#201e1d; font-family:"Archivo",system-ui,sans-serif; }
   * { box-sizing:border-box; }
@@ -54,7 +60,7 @@
 
 <div style="background:#f3f2f2;min-height:100vh">
 
-  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:30">
+  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:var(--z-menu)">
     <div style="max-width:1180px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:center;gap:16px;flex-wrap:wrap">
       <a href="index.html" style="display:flex;align-items:center;gap:10px;color:#201e1d">
         <span title="wa — « wa » · l'harmonie, et le Japon" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:900;font-size:22px;color:#ec3013;line-height:1">和</span>
@@ -72,7 +78,7 @@
   </header>
 
   <sc-if value="{{ showFiche }}" hint-placeholder-val="{{ false }}">
-    <div id="ficheScroll" style="position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
+    <div id="ficheScroll" style="position:fixed;top:var(--barre);left:0;right:0;bottom:0;z-index:var(--z-calque);overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
     <article style="max-width:1180px;margin:0 auto;padding:clamp(20px,3vw,36px) clamp(16px,4vw,40px) clamp(48px,7vw,90px)">
       <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:26px;flex-wrap:wrap">
         <button onClick="{{ close }}" style="display:inline-flex;align-items:center;gap:8px;background:none;border:0;border-bottom:2px solid #201e1d;padding:0 0 3px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#201e1d" style-hover="color:#ec3013;border-color:#ec3013">← Tous les ingrédients</button>
@@ -242,7 +248,7 @@
         <p class="p">Une fiche par ingrédient&nbsp;: à quoi il ressemble, dans quelle section il se trouve, à quoi il sert. Filtre par section pour reconstituer ton parcours, ou cherche un nom directement.</p>
       </section>
 
-      <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:49px;z-index:20">
+      <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:var(--barre);z-index:var(--z-collant)">
         <div class="filterbar">
           <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
             <select aria-label="Section du magasin" value="{{ sec }}" onChange="{{ setSec }}" class="fsel">
@@ -557,7 +563,7 @@ const I = [
  w:"Section champignons réfrigérée.",
  l:"Vendus en grappes compactes sous pellicule, chapeaux bruns ou blancs de 1 à 2 cm.",
  u:["R67"],
- nk:"La méthode de cuisson décide de tout",n:"Le shimeji blanc (<em>buna-shimeji</em>) est ferme et très doux. Son goût ne se révèle qu'à la chaleur sèche : il faut qu'il rende son eau, que celle-ci s'évapore, et qu'il commence à colorer. Poché une minute dans un bouillon, il n'apporte que de la texture — testé le 14 août 2026, verdict sans appel : « ça ne goûte pas mauvais, ça ne goûte juste à rien ». Ne pas le substituer à l'enoki dans une soupe miso : l'enoki supporte le passage rapide, le shimeji non. Le poêler cinq à sept minutes est la seule préparation retenue au dossier — c'est R67."},
+ nk:"La méthode de cuisson décide de tout",n:"Le shimeji blanc (<em>buna-shimeji</em>) est ferme et très doux. Son goût ne se révèle qu'à la chaleur sèche : il faut qu'il rende son eau, que celle-ci s'évapore, et qu'il commence à colorer. Poché une minute dans un bouillon, il n'apporte que de la texture — testé le 14 août 2026, verdict sans appel : « ça ne goûte pas mauvais, ça ne goûte juste à rien ». <strong>POÊLÉ JUSQU'À COLORATION FRANCHE, LE 16 AOÛT 2026, LE VERDICT A ÉTÉ LE MÊME</strong> : « ça a goûté encore l'eau ». Deux refus en trois jours, par deux méthodes opposées. <strong>ALIMENT ÉCARTÉ DU RÉPERTOIRE PERSONNEL.</strong> À noter pour la rigueur du dossier : le second essai a été fait sans la sauce soya ni le corps gras de fin de cuisson, qui portent les arômes liposolubles du champignon. Le test n'était donc pas complet, mais la préférence est établie."},
 {s:"leg",jp:"椎茸",ro:"shiitake",fr:"Shiitake frais",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Fresh_shiitake_mushrooms.jpg?width=1200",
  d:"La troisième source d'umami, le guanylate. Combinés au kombu et au katsuobushi, l'effet est multiplicatif, pas additif.",
  w:"Section champignons réfrigérée. Les séchés sont ailleurs — allée des séchés.",
@@ -572,7 +578,7 @@ const I = [
  w:"Fruits et légumes, en pile ou en filet de quatre ou cinq. Les épiceries asiatiques en vendent presque toujours.",
  l:"Fruit vert foncé à peau grenue (Hass) ou vert lisse et brillant. Mûr quand il cède légèrement sous la pression de la paume, pas du pouce — le pouce meurtrit la chair.",
  u:["R20"],
- nk:"Ce que c'est, et ce que ce n'est pas",n:"Ce n'est pas un poste de protéines, c'est un poste de <strong>gras et de satiété</strong> — exactement ce que demande un déjeuner qui s'assemble sans cuisson. <strong>PRÉPARATION RETENUE :</strong> tranché, quelques gouttes de sauce soya, une pincée de katsuobushi, du sésame grillé, du shichimi à table. Le katsuobushi apporte de l'inosinate, donc de la longueur en bouche, là où le sel n'apportait que du salé. <strong>NE PAS AJOUTER D'HUILE :</strong> c'est du gras sur du gras. <strong>CONSERVATION :</strong> une moitié coupée ne tient qu'une journée même bien emballée — placer la seconde moitié au repas suivant du même jour. Acheter deux ou trois jours d'avance et laisser mûrir sur le comptoir; le froid arrête la maturation trois ou quatre jours une fois le fruit prêt."},
+ nk:"Ce que c'est, et ce que ce n'est pas",n:"Ce n'est pas un poste de protéines, c'est un poste de <strong>gras et de satiété</strong> — exactement ce que demande un déjeuner qui s'assemble sans cuisson. <strong>PRÉPARATION RETENUE :</strong> tranché, quelques gouttes de sauce soya, une pincée de katsuobushi, du sésame grillé, du shichimi à table. Le katsuobushi apporte de l'inosinate, donc de la longueur en bouche, là où le sel n'apportait que du salé. <strong>NE PAS AJOUTER D'HUILE :</strong> c'est du gras sur du gras. <strong>CONSERVATION :</strong> une moitié coupée ne tient qu'une journée même bien emballée — placer la seconde moitié au repas suivant du même jour. Acheter deux ou trois jours d'avance et laisser mûrir sur le comptoir; le froid arrête la maturation trois ou quatre jours une fois le fruit prêt. <strong>ACCÉLÉRER LA MATURATION.</strong> L'avocat mûrit à l'éthylène qu'il dégage lui-même. Enfermé dans un <strong>sac de papier replié</strong>, ce gaz se concentre et le fruit passe de dur à prêt en <strong>deux ou trois jours au lieu de cinq à sept</strong>. Y ajouter <strong>une banane ou une pomme mûre</strong> coupe encore un jour. Ce qui compte, c'est le <strong>papier, pas la couleur du sac</strong> : le papier retient l'éthylène mais laisse sortir l'humidité. Le plastique retient les deux, ça condense, et le fruit moisit avant de mûrir. À défaut, un bol couvert d'une assiette, non hermétique. La chaleur travaille dans le même sens : 20 à 25 °C. <strong>NE JAMAIS METTRE AU FROID UN AVOCAT ENCORE DUR</strong> : sous 7 °C la maturation ne ralentit pas, elle se bloque, et le fruit reste caoutchouteux en permanence. Le froid ne sert qu'APRÈS. Aucun raccourci n'existe : le micro-ondes et le four ramollissent la chair sans la faire mûrir. <strong>ÉCHELONNER LE LOT</strong> — la moitié au sac, la moitié à l'air libre. <strong>UN AVOCAT COUPÉ NE MÛRIT PLUS</strong> : la moitié restante d'un fruit dur reste dure, et il faut la manger au repas suivant du même jour quand même. Constaté le 17 août 2026, sur un lot de quatre arrivé entièrement immature."},
 {s:"leg",jp:"パクチー",ro:"pakuchī",fr:"Coriandre, menthe, basilic thaï",img:"https://commons.wikimedia.org/wiki/Special:FilePath/Bunches%20of%20coriander%20leaves.jpg?width=1200",
  d:"Les herbes vietnamiennes se mangent en quantité — trois tasses par bol, pas une branche de garniture. C'est la signature de cette cuisine.",
  w:"Souvent dans un présentoir réfrigéré à part des légumes, parfois brumisé.",
@@ -809,7 +815,7 @@ const I = [
  w:"Allée japonaise.",
  l:"Petit pot rouge-orangé, souvent avec un bouchon qui pivote. La marque S&amp;B est la plus courante.",
  alt:["nanami togarashi","七味唐辛子","assorted chili pepper","sept épices japonaises"],
- u:["R14","R19","R21","R37","R46"],
+ u:["R14","R19","R21","R33","R37","R46"],
  nk:"Le nom, et le distributeur",n:"七味 se lit <em>shichimi</em> ou <em>nanami</em> selon la lecture retenue des caractères, et S&amp;B utilise « nanami » sur ses emballages d'exportation. Chercher les deux. <strong>Le distributeur filtre ce qui goûte.</strong> Le shichimi est un mélange à granulométrie très inégale : le piment moulu est fin, mais le sésame, le nori et le zeste d'agrume sont en morceaux. <strong>Les trous fins d'un couvercle saupoudreur laissent passer le piment et retiennent tout le reste</strong> — on obtient du piquant sans les six autres saveurs, et on croit à tort que le mélange est faible. Ouvrir le côté verseur pour compenser produit l'erreur inverse : une dose massive d'un coup. Constaté le 14 août 2026, dans les deux sens au même repas. Doser dans le creux de la main ou dans une cuillère, puis saupoudrer à la main. Jamais directement au-dessus de l'assiette."},
 {s:"jp",jp:"山葵",ro:"wasabi",fr:"Wasabi",img:"https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%99en%20wasabi%20na%20su%C5%A1i%20(japonsk%C3%BD%20k%C5%99en).jpg?width=1200",
  d:"Presque tout le wasabi vendu est du raifort coloré. Ce n'est pas un scandale — c'est le standard, même au Japon.",
@@ -971,7 +977,25 @@ const I = [
  w:"Réfrigérateur des prêts-à-manger, à l'avant du magasin. Épiceries asiatiques, et certains Costco.",
  l:"Triangles emballés dans un film à languette, garniture indiquée par une pastille de couleur. La liste d'ingrédients contient généralement de l'aspartame, du tripolyphosphate de sodium, du chlorure de potassium et du benzoate. <strong>Le problème n'est pas la qualité, c'est le ratio</strong>&nbsp;: deux onigiri font 510 calories pour 11 g de protéines — pratiquement du riz pur, avec le sodium en prime. Comme repas principal dans un plan à 165 g de protéines, ça ne fonctionne pas.",
  u:["R59"],
- nk:"Conservation et arbitrage",n:"Ils se congèlent. Prioriser ceux au <strong>saumon</strong> ou à la prune&nbsp;: les garnitures en sauce (mayonnaise, crevettes) se séparent à la décongélation. Emballer individuellement, sortir au frigo la veille. L'arbitrage&nbsp;: une rondelle de riz maison congelée (T1) apporte les mêmes calories avec <strong>0 mg de sodium</strong>. Et pour en faire un vrai repas, voir R59 — avec des edamames et un œuf dur."}
+ nk:"Conservation et arbitrage",n:"Ils se congèlent. Prioriser ceux au <strong>saumon</strong> ou à la prune&nbsp;: les garnitures en sauce (mayonnaise, crevettes) se séparent à la décongélation. Emballer individuellement, sortir au frigo la veille. L'arbitrage&nbsp;: une rondelle de riz maison congelée (T1) apporte les mêmes calories avec <strong>0 mg de sodium</strong>. Et pour en faire un vrai repas, voir R59 — avec des edamames et un œuf dur. <strong>RENDEMENT : 88 mg de sodium par gramme de protéine pour la version aux crevettes, 96 mg/g pour celle au saumon. C'est le pire rapport de tout le dossier</strong>, loin devant l'œuf mariné, à 42. Deux morceaux au déjeuner coûtent plus de 1 000 mg de sodium pour 11 g de protéines. <strong>STATUT INCHANGÉ MAIS DURCI</strong> : dépannage seulement, jamais deux le même jour, et jamais en complément d'un repas déjà salé."},
+{s:"leg",jp:"牛蒡",ro:"gobō",fr:"Gobo, racine de bardane",img:null,
+ d:"Goût terreux et boisé, entre l'artichaut et la noisette. <strong>Sa signature est la texture&nbsp;: il reste croquant même cuit</strong>, parce que sa fibre est de l'inuline. <strong>Il noircit en quelques minutes une fois coupé</strong> — le jeter dans l'eau froide au fur et à mesure.",
+ w:"Fruits et légumes réfrigérés, en botte, ou sous vide dans les épiceries coréennes. <strong>Cherché chez Kim Phat le 16 août 2026 sans être trouvé — zone à documenter.</strong> <strong>La version sous vide déjà taillée en juliennes règle du même coup le problème de temps de coupe de R46.</strong>",
+ l:"Long bâton brun de 60 à 100 cm, mince comme un manche de pinceau, vendu en botte souvent avec la terre encore dessus, parfois sous vide et déjà taillé en juliennes.",
+ alt:["burdock root"],
+ u:["R46"]},
+{s:"leg",jp:"さつまいも",ro:"satsumaimo",fr:"Patate douce (satsumaimo)",img:null,
+ d:"<strong>SATSUMAIMO OU PATATE DOUCE ORDINAIRE.</strong> La japonaise a la peau pourpre-rougeâtre et la chair <strong>blanc crème à jaune pâle</strong>&nbsp;: sèche, farineuse, goût de châtaigne. La variété nord-américaine courante — peau cuivrée, <strong>chair orange</strong> — est de la même famille mais plus humide et moins amidonnée&nbsp;: elle cuit un peu plus vite, reste crémeuse à froid, goûte moins sucré et plus végétal, et porte beaucoup plus de bêta-carotène. <strong>Calories et glucides sont pratiquement identiques&nbsp;: les chiffres de R56 tiennent pour les deux.</strong> Avec une orange, la cuisson lente à 165&nbsp;°C est particulièrement indiquée.",
+ w:"Achetée au Super C ou à l'IGA, c'est l'orange&nbsp;; la satsumaimo se trouve chez Kim Phat.",
+ l:"Tubercule allongé à peau pourpre-rougeâtre pour la satsumaimo, cuivrée pour la nord-américaine. <strong>Repère mesuré le 17 août 2026&nbsp;: 1,025 kg donne 4 patates de taille moyenne.</strong>",
+ u:["R56","R64"]},
+{s:"frigo",jp:"ギリシャヨーグルト",ro:"girisha yōguruto",fr:"Yogourt grec",img:null,
+ d:"Le meilleur rendement protéines-sodium du dossier. <strong>Oïkos Pro 0&nbsp;%, par ½&nbsp;tasse (115&nbsp;g)&nbsp;: 13&nbsp;g de protéines, 45&nbsp;mg de sodium</strong>, 80 calories, 1&nbsp;g de lipides, 5&nbsp;g de glucides dont 5&nbsp;g de sucres, 10&nbsp;mg de cholestérol, 175&nbsp;mg de potassium, 250&nbsp;mg de calcium.",
+ w:"Mur réfrigéré, section des yogourts. <strong>Contenant de 650&nbsp;g à 6,99&nbsp;$ au Super C</strong> (1,08&nbsp;$/100&nbsp;g), étiquette lue le 18 août 2026.",
+ l:"Grand contenant brassé, mention «&nbsp;sans sucre ajouté&nbsp;» sur la face avant. La gamme «&nbsp;Pro&nbsp;» s'annonce par son chiffre de protéines&nbsp;; le grec 0&nbsp;% ordinaire, non.",
+ alt:["yogourt grec protéiné","Oïkos Pro","greek yogurt"],
+ u:["R55"],
+ nk:"Lire la ligne des sucres, pas l'arôme",n:"<strong>AUX 100 G : 11,3 g de protéines, 70 calories, 39 mg de sodium. À LA PORTION DE 175 G DU DOSSIER : 20 g de protéines, 122 calories, 1,5 g de lipides, 68 mg de sodium.</strong> Rendement de <strong>3,4 mg de sodium par gramme de protéine — le meilleur de tout le dossier</strong>, devant l'œuf mariné, à 42, et les lanières de poulet cuites, à 19. <strong>LE BANNISSEMENT DES YOGOURTS AROMATISÉS ÉTAIT UN BANNISSEMENT DU SUCRE, PAS DE L'ARÔME.</strong> Il visait un produit précis — le Kirkland 3 % aromatisé, environ 14 g de sucre par contenant de 100 g. Un yogourt aromatisé <em>sans sucre ajouté</em> à 5 g de sucres aux 115 g est dans l'ordre de grandeur du <strong>lactose d'un yogourt grec nature</strong> : le motif ne s'applique pas. <strong>LA RÈGLE CORRIGÉE : ce n'est pas « nature ou rien », c'est LIRE LA LIGNE DES SUCRES.</strong> Repère : au-delà de 8 g par 100 g, c'est un dessert; en dessous de 6, c'est du yogourt. <strong>CE QU'IL FAUT VÉRIFIER À LA PLACE, SUR UN « SANS SUCRE AJOUTÉ » AROMATISÉ</strong> : la liste d'ingrédients. Un goût de banane sans sucre suppose un édulcorant — sucralose, acésulfame-potassium ou stévia. Ça ne change aucun chiffre du panneau, mais ça se sait. <strong>LE PROTÉINÉ N'EST PAS UN YOGOURT GREC ORDINAIRE.</strong> La gamme « Pro » est faite de lait ultrafiltré et de protéines de lait ajoutées : 11 g aux 100 g contre 9 à 10 pour un grec 0 % classique et 5 pour un yogourt régulier. Elle porte aussi de l'amidon de maïs et de la pectine pour la texture, l'égouttage ne suffisant plus à l'épaissir."}
 ];
 
 class Component extends DCLogic {
@@ -1096,6 +1120,29 @@ class Component extends DCLogic {
     else if(cur){leave(cur);cur=null;}
   },{passive:true});
   document.addEventListener('mouseleave',function(){if(cur){leave(cur);cur=null;}});
+})();
+</script>
+<script>
+/* La hauteur de la barre de menu n'est pas une constante : elle change quand la
+   navigation passe sur deux lignes. On la mesure et on la publie dans --barre,
+   d'où la lisent le calque de fiche et le bloc de filtres épinglé. */
+(function(){
+  var r = document.documentElement;
+  function maj(){
+    var h = document.querySelector('header');
+    if (h && h.offsetHeight) r.style.setProperty('--barre', h.offsetHeight + 'px');
+  }
+  maj();
+  window.addEventListener('resize', maj, { passive:true });
+  var essais = 0;
+  var t = setInterval(function(){
+    var h = document.querySelector('header');
+    if (h && h.offsetHeight) {
+      maj();
+      if (window.ResizeObserver) new ResizeObserver(maj).observe(h);
+      clearInterval(t);
+    } else if (++essais > 50) clearInterval(t);
+  }, 100);
 })();
 </script>
 </body>

@@ -65,7 +65,12 @@
       "texte": "Mariner 15 minutes."
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "titre": "Une préférence du dossier, pas un défaut de la recette",
+      "texte": "LE CONCOMBRE EST ÉCARTÉ DU RÉPERTOIRE PERSONNEL DE FRANCIS depuis le 18 août 2026, après trois refus en deux jours sur deux préparations distinctes — mariné au vinaigre en sunomono, et cru en rondelles au montage d'un donburi. CE N'EST PAS UN RATÉ D'EXÉCUTION : les deux plats ont été correctement faits, et cette recette reste juste pour qui aime le concombre. Le rôle que le concombre remplissait — apport d'eau et croquant froid contre un féculent chaud — se transfère au chou vert en julienne fine, au daikon en fines tranches, aux fèves germées blanchies et refroidies, ou aux edamames écossées."
+    }
+  ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
   "video": {
     "youtube_id": "09g-HSTI7_o",

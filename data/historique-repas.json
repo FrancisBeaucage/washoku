@@ -416,5 +416,115 @@
     "verdict": "correct",
     "journal": "K-2026-08-15-journee",
     "notes": "Le kobachi d'edamames prévu au plan n'a pas été fait; il aurait apporté 18 g de protéines de plus et aurait placé la journée dans la fourchette du guide 5 au lieu de sous celle-ci. Premier lot d'œufs marinés du dossier mis en marinade ce soir-là (5 œufs, T7a)."
+  },
+  {
+    "date": "2026-08-16",
+    "repas": "diner",
+    "fiches": [],
+    "hors_fiche": [
+      "Yogourt grec Kirkland aromatisé 3 % (2 × 100 g)",
+      "Onigiri Kimko (2 × 120 g)"
+    ],
+    "convives": 1,
+    "proteines_g": 27,
+    "calories": 710,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Déjeuner et dîner fusionnés en un seul repas vers 16 h — enregistré comme dîner, faute de valeur pour un repas fusionné. Réveil tardif, aucun déjeuner. Premier repas avant les commissions. Les deux derniers yogourts aromatisés du stock; décision prise de ne plus en racheter."
+  },
+  {
+    "date": "2026-08-16",
+    "repas": "souper",
+    "fiches": [
+      "R60",
+      "T2",
+      "T8"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 65,
+    "calories": 710,
+    "verdict": "rate",
+    "journal": null,
+    "notes": "RATÉ IMPUTABLE AU PLAN, PAS AU CUISINIER. Le dashi du frigo étant aigre, le plan B a été suivi à la lettre; le bouillon a été servi SANS SAUCE SOYA NI MIRIN. S'y sont ajoutés un bouillon versé à 80 degrés sur une garniture froide, des crevettes trop cuites, des œufs à 6 min 30 désintégrés à la coupe, et du sésame non écrasé. Aucune gorgée de bouillon bue, la moitié du repas jetée. Cinq défauts, dont trois étaient des erreurs d'attention et non de technique."
+  },
+  {
+    "date": "2026-08-17",
+    "repas": "dejeuner",
+    "fiches": [
+      "T7a"
+    ],
+    "hors_fiche": [
+      "Premier Protein",
+      "½ avocat",
+      "80 g d'edamames écossées"
+    ],
+    "convives": 1,
+    "proteines_g": 47,
+    "calories": 440,
+    "verdict": "correct",
+    "journal": "K-2026-08-17-journee",
+    "notes": "Première exécution de la formule de déjeuner de la semaine. L'AVOCAT ÉTAIT DUR — le lot de quatre est arrivé entièrement immature. L'ŒUF MARINÉ AVAIT ÉTÉ CUIT À ENVIRON 12 MINUTES ET A ÉTÉ JUGÉ SEC. Prochain essai à 9 minutes. La formule tient : deux minutes, zéro cuisson."
+  },
+  {
+    "date": "2026-08-17",
+    "repas": "diner",
+    "fiches": [
+      "R9"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 43,
+    "calories": 505,
+    "verdict": "correct",
+    "journal": "K-2026-08-17-journee",
+    "notes": "Donburi aux crevettes. Riz bon, crevettes généreuses, une quinzaine. LE CONCOMBRE EST SIGNALÉ COMME NON DÉSIRÉ et l'avocat était encore dur. Francis aurait voulu un peu plus de sauce : la version allégée en soya, conçue pour protéger le bilan de sodium de la journée, s'est fait sentir. « Pas le repas du siècle, mais c'était correct, c'était bon, je l'ai mangé. »"
+  },
+  {
+    "date": "2026-08-17",
+    "repas": "souper",
+    "fiches": [
+      "R65",
+      "R46",
+      "R48"
+    ],
+    "hors_fiche": [],
+    "convives": 2,
+    "proteines_g": 40,
+    "calories": 640,
+    "verdict": "excellent",
+    "journal": "K-2026-08-17-journee",
+    "notes": "LE MEILLEUR PLAT DU DOSSIER À CE JOUR. Verdict sur le shogayaki : « c'est probablement l'affaire que j'ai aimé le plus dans tout ce qu'on a fait à date, c'était extrêmement bon. » Le chou vert cru a fait plus que ce que la fiche lui prête : C'EST MÉLANGÉ À LA SAUCE QU'IL A ÉTÉ JUGÉ PARTICULIÈREMENT BON, et Francis en aurait mis davantage, alors que ce n'est pas un légume qu'il mange d'habitude. Seul reproche : le gingembre dominait. Le kinpira, première exécution, a été jugé « pas mauvais, j'en remangerais », odeur de cuisson superbe, moins sucré qu'attendu, shichimi oublié. Assiette terminée. PORTIONS DE PORC SERVIES À L'ŒIL — le porc et l'oignon avaient été réservés ensemble, rendant impossible de peser au montage. Les edamames n'ont pas été terminées et le bol a été échappé au rangement : perte totale. Pas de collation, plus faim."
+  },
+  {
+    "date": "2026-08-18",
+    "repas": "dejeuner",
+    "fiches": [],
+    "hors_fiche": [
+      "Premier Protein",
+      "Yogourt grec Oïkos Pro 0 % banane (175 g)"
+    ],
+    "convives": 1,
+    "proteines_g": 50,
+    "calories": 280,
+    "verdict": "correct",
+    "journal": null,
+    "notes": "Formule de la semaine amputée de ses trois solides — ni avocat, ni edamames, ni œuf mariné — faute de temps. LES PROTÉINES ONT TENU À 50 G, LES LIPIDES SONT TOMBÉS À 4 G AU LIEU DE 22. Première consommation du yogourt Oïkos Pro à la banane, étiquette lue : 13 g de protéines et 45 mg de sodium par 115 g, sans sucre ajouté. Le produit entre au répertoire et remplace le Kirkland 3 % aromatisé. Verdict correct et non raté : deux postes sur deux ont été pris, c'est le troisième qui n'existait pas."
+  },
+  {
+    "date": "2026-08-18",
+    "repas": "diner",
+    "fiches": [
+      "R9",
+      "R65",
+      "R46"
+    ],
+    "hors_fiche": [],
+    "convives": 1,
+    "proteines_g": 25,
+    "calories": 445,
+    "verdict": "bon",
+    "journal": null,
+    "notes": "Donburi de restes : une rondelle de riz de 140 g, environ la moitié du shogayaki qui restait du 17, un bol de kinpira à côté, shichimi sur les deux. LE SHOGAYAKI RÉCHAUFFÉ TIENT, MAIS SA SAUCE NE SURVIT PAS. « C'était très bien », mais « pas comparable » à la veille, et le seul écart nommé est la sauce : elle avait été entièrement réabsorbée par la viande, donc plus rien pour enrober le chou. La consigne devient « une fois et demie la viande, deux fois la sauce ». Le kinpira, deuxième contact, redescend d'un cran : « c'est correct », mais « beaucoup de travail pour ce que j'ai eu comme goût ». Le shichimi est confirmé, y compris à froid. Aucun avocat — la moitié du matin n'avait pas été coupée."
   }
 ]

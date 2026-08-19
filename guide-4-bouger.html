@@ -16,6 +16,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap">
 <style>
+  /* L'échelle d'empilement, écrite une fois plutôt que devinée à chaque calque :
+     contenu 10, en-têtes collants 40, calque de fiche 50, barre de menu 60.
+     `--barre` porte la hauteur réelle de la barre de menu ; les calques
+     commencent SOUS elle, ce qui rend l'intention lisible dans le CSS et laisse
+     la navigation atteignable pendant qu'une fiche est ouverte. */
+  :root { --barre:49px; --z-contenu:10; --z-collant:40; --z-calque:50; --z-menu:60; }
   html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:64px; }
   body { margin:0; background:#f3f2f2; color:#201e1d; font-family:"Archivo",system-ui,sans-serif; }
   * { box-sizing:border-box; }
@@ -50,7 +56,7 @@
 
 <div style="background:#f3f2f2;min-height:100vh">
 
-  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:30">
+  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:var(--z-menu)">
     <div style="max-width:1180px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:center;gap:16px;flex-wrap:wrap">
       <a href="index.html" style="display:flex;align-items:center;gap:10px;color:#201e1d">
         <span title="wa — « wa » · l'harmonie, et le Japon" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:900;font-size:22px;color:#ec3013;line-height:1">和</span>
@@ -68,7 +74,7 @@
   </header>
 
   <sc-if value="{{ showFiche }}" hint-placeholder-val="{{ false }}">
-    <div id="ficheScroll" style="position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
+    <div id="ficheScroll" style="position:fixed;top:var(--barre);left:0;right:0;bottom:0;z-index:var(--z-calque);overflow-y:auto;-webkit-overflow-scrolling:touch;background:#f3f2f2">
     <article style="max-width:1180px;margin:0 auto;padding:clamp(20px,3vw,36px) clamp(16px,4vw,40px) clamp(48px,7vw,90px)">
       <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:26px;flex-wrap:wrap">
         <button onClick="{{ close }}" style="display:inline-flex;align-items:center;gap:8px;background:none;border:0;border-bottom:2px solid #201e1d;padding:0 0 3px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#201e1d" style-hover="color:#ec3013;border-color:#ec3013">← Tous les exercices</button>
@@ -313,7 +319,7 @@
         <p class="p" style="margin-top:24px"><strong>La forme avant les répétitions.</strong> Cinq répétitions bien faites valent mieux que quinze bâclées. <strong>La surcharge progressive&nbsp;:</strong> chaque semaine, ajouter une répétition, une seconde, ou un centimètre d'amplitude. <strong>48 heures</strong> entre deux séances travaillant les mêmes muscles. Chaque fiche donne une régression et une progression&nbsp;: commence par la version où tu réussis <strong>8 répétitions propres</strong>.</p>
       </section>
 
-      <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:49px;z-index:20">
+      <div style="border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:var(--barre);z-index:var(--z-collant)">
         <div class="filterbar">
           <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
             <select aria-label="Zone du corps" value="{{ zone }}" onChange="{{ setZone }}" class="fsel" style="flex:0 1 300px">
@@ -772,6 +778,29 @@ class Component extends DCLogic {
     };
   }
 }
+</script>
+<script>
+/* La hauteur de la barre de menu n'est pas une constante : elle change quand la
+   navigation passe sur deux lignes. On la mesure et on la publie dans --barre,
+   d'où la lisent le calque de fiche et le bloc de filtres épinglé. */
+(function(){
+  var r = document.documentElement;
+  function maj(){
+    var h = document.querySelector('header');
+    if (h && h.offsetHeight) r.style.setProperty('--barre', h.offsetHeight + 'px');
+  }
+  maj();
+  window.addEventListener('resize', maj, { passive:true });
+  var essais = 0;
+  var t = setInterval(function(){
+    var h = document.querySelector('header');
+    if (h && h.offsetHeight) {
+      maj();
+      if (window.ResizeObserver) new ResizeObserver(maj).observe(h);
+      clearInterval(t);
+    } else if (++essais > 50) clearInterval(t);
+  }, 100);
+})();
 </script>
 </body>
 </html>

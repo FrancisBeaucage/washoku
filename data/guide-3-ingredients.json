@@ -318,7 +318,7 @@
     ],
     "note": {
       "titre": "La méthode de cuisson décide de tout",
-      "texte": "Le shimeji blanc (<em>buna-shimeji</em>) est ferme et très doux. Son goût ne se révèle qu'à la chaleur sèche : il faut qu'il rende son eau, que celle-ci s'évapore, et qu'il commence à colorer. Poché une minute dans un bouillon, il n'apporte que de la texture — testé le 14 août 2026, verdict sans appel : « ça ne goûte pas mauvais, ça ne goûte juste à rien ». Ne pas le substituer à l'enoki dans une soupe miso : l'enoki supporte le passage rapide, le shimeji non. Le poêler cinq à sept minutes est la seule préparation retenue au dossier — c'est R67."
+      "texte": "Le shimeji blanc (<em>buna-shimeji</em>) est ferme et très doux. Son goût ne se révèle qu'à la chaleur sèche : il faut qu'il rende son eau, que celle-ci s'évapore, et qu'il commence à colorer. Poché une minute dans un bouillon, il n'apporte que de la texture — testé le 14 août 2026, verdict sans appel : « ça ne goûte pas mauvais, ça ne goûte juste à rien ». <strong>POÊLÉ JUSQU'À COLORATION FRANCHE, LE 16 AOÛT 2026, LE VERDICT A ÉTÉ LE MÊME</strong> : « ça a goûté encore l'eau ». Deux refus en trois jours, par deux méthodes opposées. <strong>ALIMENT ÉCARTÉ DU RÉPERTOIRE PERSONNEL.</strong> À noter pour la rigueur du dossier : le second essai a été fait sans la sauce soya ni le corps gras de fin de cuisson, qui portent les arômes liposolubles du champignon. Le test n'était donc pas complet, mais la préférence est établie."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hon-shimeji%20mushrooms%20-%20Cambridge,%20MA.jpg?width=1200",
     "photo_emballage": null
@@ -386,7 +386,7 @@
     ],
     "note": {
       "titre": "Ce que c'est, et ce que ce n'est pas",
-      "texte": "Ce n'est pas un poste de protéines, c'est un poste de <strong>gras et de satiété</strong> — exactement ce que demande un déjeuner qui s'assemble sans cuisson. <strong>PRÉPARATION RETENUE :</strong> tranché, quelques gouttes de sauce soya, une pincée de katsuobushi, du sésame grillé, du shichimi à table. Le katsuobushi apporte de l'inosinate, donc de la longueur en bouche, là où le sel n'apportait que du salé. <strong>NE PAS AJOUTER D'HUILE :</strong> c'est du gras sur du gras. <strong>CONSERVATION :</strong> une moitié coupée ne tient qu'une journée même bien emballée — placer la seconde moitié au repas suivant du même jour. Acheter deux ou trois jours d'avance et laisser mûrir sur le comptoir; le froid arrête la maturation trois ou quatre jours une fois le fruit prêt."
+      "texte": "Ce n'est pas un poste de protéines, c'est un poste de <strong>gras et de satiété</strong> — exactement ce que demande un déjeuner qui s'assemble sans cuisson. <strong>PRÉPARATION RETENUE :</strong> tranché, quelques gouttes de sauce soya, une pincée de katsuobushi, du sésame grillé, du shichimi à table. Le katsuobushi apporte de l'inosinate, donc de la longueur en bouche, là où le sel n'apportait que du salé. <strong>NE PAS AJOUTER D'HUILE :</strong> c'est du gras sur du gras. <strong>CONSERVATION :</strong> une moitié coupée ne tient qu'une journée même bien emballée — placer la seconde moitié au repas suivant du même jour. Acheter deux ou trois jours d'avance et laisser mûrir sur le comptoir; le froid arrête la maturation trois ou quatre jours une fois le fruit prêt. <strong>ACCÉLÉRER LA MATURATION.</strong> L'avocat mûrit à l'éthylène qu'il dégage lui-même. Enfermé dans un <strong>sac de papier replié</strong>, ce gaz se concentre et le fruit passe de dur à prêt en <strong>deux ou trois jours au lieu de cinq à sept</strong>. Y ajouter <strong>une banane ou une pomme mûre</strong> coupe encore un jour. Ce qui compte, c'est le <strong>papier, pas la couleur du sac</strong> : le papier retient l'éthylène mais laisse sortir l'humidité. Le plastique retient les deux, ça condense, et le fruit moisit avant de mûrir. À défaut, un bol couvert d'une assiette, non hermétique. La chaleur travaille dans le même sens : 20 à 25 °C. <strong>NE JAMAIS METTRE AU FROID UN AVOCAT ENCORE DUR</strong> : sous 7 °C la maturation ne ralentit pas, elle se bloque, et le fruit reste caoutchouteux en permanence. Le froid ne sert qu'APRÈS. Aucun raccourci n'existe : le micro-ondes et le four ramollissent la chair sans la faire mûrir. <strong>ÉCHELONNER LE LOT</strong> — la moitié au sac, la moitié à l'air libre. <strong>UN AVOCAT COUPÉ NE MÛRIT PLUS</strong> : la moitié restante d'un fruit dur reste dure, et il faut la manger au repas suivant du même jour quand même. Constaté le 17 août 2026, sur un lot de quatre arrivé entièrement immature."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Avocado_Hass_-_single_and_halved.jpg?width=1200",
     "photo_emballage": null
@@ -1409,6 +1409,7 @@
       "R14",
       "R19",
       "R21",
+      "R33",
       "R37",
       "R46"
     ],
@@ -2080,9 +2081,82 @@
     ],
     "note": {
       "titre": "Conservation et arbitrage",
-      "texte": "Ils se congèlent. Prioriser ceux au <strong>saumon</strong> ou à la prune&nbsp;: les garnitures en sauce (mayonnaise, crevettes) se séparent à la décongélation. Emballer individuellement, sortir au frigo la veille. L'arbitrage&nbsp;: une rondelle de riz maison congelée (T1) apporte les mêmes calories avec <strong>0 mg de sodium</strong>. Et pour en faire un vrai repas, voir R59 — avec des edamames et un œuf dur."
+      "texte": "Ils se congèlent. Prioriser ceux au <strong>saumon</strong> ou à la prune&nbsp;: les garnitures en sauce (mayonnaise, crevettes) se séparent à la décongélation. Emballer individuellement, sortir au frigo la veille. L'arbitrage&nbsp;: une rondelle de riz maison congelée (T1) apporte les mêmes calories avec <strong>0 mg de sodium</strong>. Et pour en faire un vrai repas, voir R59 — avec des edamames et un œuf dur. <strong>RENDEMENT : 88 mg de sodium par gramme de protéine pour la version aux crevettes, 96 mg/g pour celle au saumon. C'est le pire rapport de tout le dossier</strong>, loin devant l'œuf mariné, à 42. Deux morceaux au déjeuner coûtent plus de 1 000 mg de sodium pour 11 g de protéines. <strong>STATUT INCHANGÉ MAIS DURCI</strong> : dépannage seulement, jamais deux le même jour, et jamais en complément d'un repas déjà salé."
     },
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
+    "photo_emballage": null
+  },
+  {
+    "id": "gobo-racine-de-bardane",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "牛蒡",
+    "jp_lecture": null,
+    "romaji": "gobō",
+    "fr": "Gobo, racine de bardane",
+    "noms_alternatifs": [
+      "burdock root"
+    ],
+    "description": "Goût terreux et boisé, entre l'artichaut et la noisette. <strong>Sa signature est la texture&nbsp;: il reste croquant même cuit</strong>, parce que sa fibre est de l'inuline. <strong>Il noircit en quelques minutes une fois coupé</strong> — le jeter dans l'eau froide au fur et à mesure.",
+    "ou_le_trouver": "Fruits et légumes réfrigérés, en botte, ou sous vide dans les épiceries coréennes. <strong>Cherché chez Kim Phat le 16 août 2026 sans être trouvé — zone à documenter.</strong> <strong>La version sous vide déjà taillée en juliennes règle du même coup le problème de temps de coupe de R46.</strong>",
+    "a_quoi_ca_ressemble": "Long bâton brun de 60 à 100 cm, mince comme un manche de pinceau, vendu en botte souvent avec la terre encore dessus, parfois sous vide et déjà taillé en juliennes.",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [
+      "R46"
+    ],
+    "note": null,
+    "photo": null,
+    "photo_emballage": null
+  },
+  {
+    "id": "patate-douce-satsumaimo",
+    "statut": "actif",
+    "section": "leg",
+    "jp": "さつまいも",
+    "jp_lecture": null,
+    "romaji": "satsumaimo",
+    "fr": "Patate douce (satsumaimo)",
+    "noms_alternatifs": [],
+    "description": "<strong>SATSUMAIMO OU PATATE DOUCE ORDINAIRE.</strong> La japonaise a la peau pourpre-rougeâtre et la chair <strong>blanc crème à jaune pâle</strong>&nbsp;: sèche, farineuse, goût de châtaigne. La variété nord-américaine courante — peau cuivrée, <strong>chair orange</strong> — est de la même famille mais plus humide et moins amidonnée&nbsp;: elle cuit un peu plus vite, reste crémeuse à froid, goûte moins sucré et plus végétal, et porte beaucoup plus de bêta-carotène. <strong>Calories et glucides sont pratiquement identiques&nbsp;: les chiffres de R56 tiennent pour les deux.</strong> Avec une orange, la cuisson lente à 165&nbsp;°C est particulièrement indiquée.",
+    "ou_le_trouver": "Achetée au Super C ou à l'IGA, c'est l'orange&nbsp;; la satsumaimo se trouve chez Kim Phat.",
+    "a_quoi_ca_ressemble": "Tubercule allongé à peau pourpre-rougeâtre pour la satsumaimo, cuivrée pour la nord-américaine. <strong>Repère mesuré le 17 août 2026&nbsp;: 1,025 kg donne 4 patates de taille moyenne.</strong>",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [
+      "R56",
+      "R64"
+    ],
+    "note": null,
+    "photo": null,
+    "photo_emballage": null
+  },
+  {
+    "id": "yogourt-grec",
+    "statut": "actif",
+    "section": "frigo",
+    "jp": "ギリシャヨーグルト",
+    "jp_lecture": null,
+    "romaji": "girisha yōguruto",
+    "fr": "Yogourt grec",
+    "noms_alternatifs": [
+      "yogourt grec protéiné",
+      "Oïkos Pro",
+      "greek yogurt"
+    ],
+    "description": "Le meilleur rendement protéines-sodium du dossier. <strong>Oïkos Pro 0&nbsp;%, par ½&nbsp;tasse (115&nbsp;g)&nbsp;: 13&nbsp;g de protéines, 45&nbsp;mg de sodium</strong>, 80 calories, 1&nbsp;g de lipides, 5&nbsp;g de glucides dont 5&nbsp;g de sucres, 10&nbsp;mg de cholestérol, 175&nbsp;mg de potassium, 250&nbsp;mg de calcium.",
+    "ou_le_trouver": "Mur réfrigéré, section des yogourts. <strong>Contenant de 650&nbsp;g à 6,99&nbsp;$ au Super C</strong> (1,08&nbsp;$/100&nbsp;g), étiquette lue le 18 août 2026.",
+    "a_quoi_ca_ressemble": "Grand contenant brassé, mention «&nbsp;sans sucre ajouté&nbsp;» sur la face avant. La gamme «&nbsp;Pro&nbsp;» s'annonce par son chiffre de protéines&nbsp;; le grec 0&nbsp;% ordinaire, non.",
+    "description_visuelle": null,
+    "zone_magasin": null,
+    "sert_dans": [
+      "R55"
+    ],
+    "note": {
+      "titre": "Lire la ligne des sucres, pas l'arôme",
+      "texte": "<strong>AUX 100 G : 11,3 g de protéines, 70 calories, 39 mg de sodium. À LA PORTION DE 175 G DU DOSSIER : 20 g de protéines, 122 calories, 1,5 g de lipides, 68 mg de sodium.</strong> Rendement de <strong>3,4 mg de sodium par gramme de protéine — le meilleur de tout le dossier</strong>, devant l'œuf mariné, à 42, et les lanières de poulet cuites, à 19. <strong>LE BANNISSEMENT DES YOGOURTS AROMATISÉS ÉTAIT UN BANNISSEMENT DU SUCRE, PAS DE L'ARÔME.</strong> Il visait un produit précis — le Kirkland 3 % aromatisé, environ 14 g de sucre par contenant de 100 g. Un yogourt aromatisé <em>sans sucre ajouté</em> à 5 g de sucres aux 115 g est dans l'ordre de grandeur du <strong>lactose d'un yogourt grec nature</strong> : le motif ne s'applique pas. <strong>LA RÈGLE CORRIGÉE : ce n'est pas « nature ou rien », c'est LIRE LA LIGNE DES SUCRES.</strong> Repère : au-delà de 8 g par 100 g, c'est un dessert; en dessous de 6, c'est du yogourt. <strong>CE QU'IL FAUT VÉRIFIER À LA PLACE, SUR UN « SANS SUCRE AJOUTÉ » AROMATISÉ</strong> : la liste d'ingrédients. Un goût de banane sans sucre suppose un édulcorant — sucralose, acésulfame-potassium ou stévia. Ça ne change aucun chiffre du panneau, mais ça se sait. <strong>LE PROTÉINÉ N'EST PAS UN YOGOURT GREC ORDINAIRE.</strong> La gamme « Pro » est faite de lait ultrafiltré et de protéines de lait ajoutées : 11 g aux 100 g contre 9 à 10 pour un grec 0 % classique et 5 pour un yogourt régulier. Elle porte aussi de l'amidon de maïs et de la pectine pour la texture, l'égouttage ne suffisant plus à l'épaissir."
+    },
+    "photo": null,
     "photo_emballage": null
   }
 ]

@@ -32,7 +32,7 @@ manifeste tire son `dernier_document_applique`.
 | `index.json` | Un objet par fiche, réduit à ce qui sert à choisir. **Généré** — ne pas éditer. | — |
 | `fiches/<ID>.json` | Une fiche par fichier, copie exacte du recueil. **Généré** — ne pas éditer. | — |
 | `guide-2-fiches.json` | Techniques `T*` et recettes `R*` | bloc `R` de `guide-2-recettes.html` |
-| `guide-2-annexes.json` | Lexique, yakumi, dépannage, thé | sections `#lexique`, `#yakumi`, `#depannage`, `#the` |
+| `guide-2-annexes.json` | Lexique, yakumi, dépannage, thé, équipement | sections `#lexique`, `#yakumi`, `#depannage`, `#the`, `#equipement` |
 | `guide-3-ingredients.json` | Fiches d'ingrédients | bloc `I` de `guide-3-supermarche.html` |
 | `guide-4-exercices.json` | Exercices | bloc `E` de `guide-4-bouger.html` |
 | `guide-5-plan.json` | Cibles chiffrées et sections du plan | sections `#s1` à `#s5` de `guide-5-plan.html` |

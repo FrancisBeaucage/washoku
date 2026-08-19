@@ -1,6 +1,6 @@
 'use strict';
-/* Aller-retour entre les quatre annexes du guide 2 — lexique, yakumi,
-   dépannage, thé — et guide-2-annexes.json.
+/* Aller-retour entre les cinq annexes du guide 2 — lexique, yakumi,
+   dépannage, thé, équipement — et guide-2-annexes.json.
 
    Ce sont les règles que l'assistant de planification re-dérive sans arrêt, et
    qu'il a déjà contredites au moins une fois (le demi-sachet de nouilles
@@ -16,7 +16,7 @@ const P = require('./prose');
 const { limace } = require('./champs');
 const { trouverSection, remplacerSection } = require('./sections');
 
-const ANNEXES = ['lexique', 'yakumi', 'depannage', 'the'];
+const ANNEXES = ['lexique', 'yakumi', 'depannage', 'the', 'equipement'];
 const INDENT = '          ';
 
 /* Gabarits de présentation. Ils ne sont pas du contenu : ils vivent ici, une
@@ -239,14 +239,14 @@ function versSection(a) {
   return `\n        <div class="in">${P.rendre(blocs, INDENT, '\n        ')}</div>\n      `;
 }
 
-/** La page → les quatre annexes. */
+/** La page → les cinq annexes. */
 function lire(html) {
   const sortie = {};
   for (const id of ANNEXES) sortie[id] = versJson(id, trouverSection(html, id).interieur);
   return sortie;
 }
 
-/** Les quatre annexes → la page. */
+/** Les cinq annexes → la page. */
 function reinjecter(html, annexes) {
   for (const id of ANNEXES) html = remplacerSection(html, id, versSection(annexes[id]));
   return html;

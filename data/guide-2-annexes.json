@@ -546,6 +546,14 @@
         "fr": "gingembre mariné",
         "preparation": "Voir la fiche T7",
         "va_avec": "Poisson gras"
+      },
+      {
+        "id": "shichimi-togarashi",
+        "jp": "七味",
+        "infobulle": "shichimi tōgarashi — « chi-tchi-mi tô-ga-ra-chi » · les sept épices",
+        "fr": "shichimi togarashi",
+        "preparation": "Doser dans le creux de la main, saupoudrer",
+        "va_avec": "Soupes, nouilles, grillades, légumes sautés"
       }
     ],
     "notes": [
@@ -584,6 +592,18 @@
           "<strong>GOÛT</strong> — change ce qu'on goûte. Ne se saute jamais, quel que soit l'état de fatigue. Exemples&nbsp;: graines de sésame écrasées, nori kizami, gingembre râpé.",
           "<strong>STRUCTURE</strong> — fait un travail technique dans l'assiette, pas dans la bouche. Se supprime si le montage rend le travail inutile. Exemple&nbsp;: le tsuma de daikon, qui sépare le poisson du riz — inutile dès qu'on sert le poisson dans une assiette à part.",
           "<strong>PRÉSENTATION</strong> — pour l'œil, pas pour la bouche. Se fait quand quelqu'un regarde. Exemple&nbsp;: le shiraga negi."
+        ]
+      },
+      {
+        "id": "le-shichimi-est-un-condiment-d-arome-pas-de-piquant",
+        "titre": "Le shichimi est un condiment d'arôme, pas de piquant",
+        "paragraphes": [
+          "LE SHICHIMI N'EST PAS UN CONDIMENT DE PIQUANT, C'EST UN CONDIMENT D'ARÔME — sept ingrédients dont un seul chauffe. Piment rouge, ZESTE D'AGRUME SÉCHÉ (陳皮 chinpi), sésame blanc, graines de chanvre ou de sésame noir, graines de pavot, NORI, et SANSHO (山椒), qui n'est pas un poivre mais un agrume et qui fait fourmiller la langue.",
+          "DANS CE DOSSIER, C'EST LE PRINCIPAL LEVIER POUR FAIRE GOÛTER FINI UN PLAT ALLÉGÉ EN SODIUM, À ZÉRO MILLIGRAMME. Devant un plat plat, le réflexe est le sel ou le soya; le shichimi donne du relief par une autre porte — acide volatil, gras grillé, umami sec, stimulation. Il coche à lui seul trois des quatre voies de compensation du guide 5.",
+          "AU CLASSEMENT DES TROIS NIVEAUX DE CETTE ANNEXE, LE SHICHIMI EST DU GOÛT, PAS DE LA PRÉSENTATION. Il ne se saute jamais. Constaté deux fois&nbsp;: oublié sur le kinpira le 17 août, le plat est resté sur une seule note de soya sucré; remis le 18 sur la même portion reprise froide, il a été jugé meilleur.",
+          "À TABLE, JAMAIS DANS LA POÊLE — les arômes sont volatils et le piment brûle.",
+          "LE DISTRIBUTEUR FILTRE CE QUI GOÛTE. La granulométrie est très inégale&nbsp;: le piment est fin, le sésame, le nori et le zeste sont en morceaux. LES TROUS FINS D'UN SAUPOUDREUR LAISSENT PASSER LE PIMENT ET RETIENNENT LES SIX AUTRES SAVEURS. Doser dans le creux de la main ou dans une cuillère, puis saupoudrer — jamais directement au-dessus de l'assiette.",
+          "NE PAS CONFONDRE AVEC L'ICHIMI (一味唐辛子, «&nbsp;une saveur&nbsp;»)&nbsp;: du piment seul, moulu, sans aucun des six autres apports. C'est lui qu'il faut pour ajouter du feu SANS changer le parfum d'un plat."
         ]
       }
     ],
@@ -1571,5 +1591,73 @@
       }
     ],
     "fiches_liees": []
+  },
+  "equipement": {
+    "id": "equipement",
+    "numero": "06",
+    "titre": "L'équipement",
+    "jp_infobulle": "dōgu — « dô-gou » · les outils",
+    "jp": "道具",
+    "intro": "Ce que le dossier demande vraiment comme outils, et pourquoi les substituts déçoivent. Quatre corrections de la semaine du 17 août butaient toutes sur un outil, pas sur une technique.",
+    "intro_attrs": " style=\"margin:0 0 20px;font-size:16px;line-height:1.7;max-width:38em;color:#444141\"",
+    "corps": [
+      {
+        "type": "note",
+        "blanc": "\n\n          ",
+        "attrs": " style=\"max-width:38em\"",
+        "titre": "Le suribachi, le mortier japonais",
+        "paragraphes": [
+          {
+            "texte": "LE SURIBACHI (擂鉢), LE MORTIER JAPONAIS. Un bol de céramique dont l'intérieur est strié de dizaines de rainures fines rayonnantes — le kushime (櫛目) — et un pilon de bois, le surikogi (擂粉木). CE SONT LES RAINURES QUI FONT LE TRAVAIL, PAS LA FORCE DU BRAS&nbsp;: elles retiennent les graines et les ouvrent par abrasion au lieu de les écraser par pression. C'est l'outil conçu pour ce que ce dossier demande le plus souvent — ouvrir du sésame grillé, monter un goma-ae, écraser du gomashio."
+          },
+          {
+            "texte": "POURQUOI UN MORTIER DE BOIS DÉÇOIT&nbsp;: le bois est lisse et tendre, il n'a aucun mordant, et les graines glissent au lieu de s'ouvrir. Il absorbe aussi les huiles et se garde mal des liquides. LE MARBRE ET L'INOX LISSES ONT LE MÊME DÉFAUT pour les graines, même s'ils conviennent aux pâtes d'ail. LE MOLCAJETE DE PIERRE VOLCANIQUE fonctionne — sa surface est abrasive — mais il est lourd, poreux, et pensé pour de plus gros volumes. FORMAT UTILE POUR UN OU DEUX COUVERTS&nbsp;: 15 À 18 CM. Brosse, jamais le lave-vaisselle, séché à l'envers."
+          },
+          {
+            "texte": "À DÉFAUT, ET DANS L'ORDRE&nbsp;: le sésame tiède dans un SAC REFERMABLE, ÉCRASÉ AU ROULEAU À PÂTE OU AU FOND D'UNE CASSEROLE LOURDE — c'est le meilleur substitut, il ouvre vraiment les graines et ne salit rien; puis le plat d'un couteau large; puis deux cuillères dos à dos. AUCUN DE CES TROIS NE DONNE LA PÂTE D'UN GOMA-AE, seulement un sable grossier. Le plat fonctionne quand même, il est simplement moins lié."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "blanc": "\n\n          ",
+        "attrs": " style=\"max-width:38em\"",
+        "titre": "L'économe à julienne et la mandoline",
+        "paragraphes": [
+          {
+            "texte": "L'ÉCONOME À JULIENNE ET LA MANDOLINE. Le kinpira, <a href=\"#R46\">R46</a>, est le plat du répertoire où le temps de coupe dépasse le plus le temps de cuisson&nbsp;: quinze à vingt minutes de julienne pour quatre minutes de sauté. L'ÉCONOME À JULIENNE coûte quelques dollars, se range dans un tiroir, et ramène la coupe d'une carotte à une minute. LA MANDOLINE AVEC GRILLE À JULIENNE est plus rapide encore et surtout PLUS RÉGULIÈRE — ET LA RÉGULARITÉ EST CE QUI FAIT QUE TOUS LES FILS CUISENT ENSEMBLE. Elle demande le poussoir, sans exception. Pour un dossier à un ou deux couverts, l'économe suffit."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "blanc": "\n\n          ",
+        "attrs": " style=\"max-width:38em\"",
+        "titre": "Le tebo et l'ami-shakushi",
+        "paragraphes": [
+          {
+            "texte": "LE TEBO (テボ) ET L'AMI-SHAKUSHI (網杓子). Le tebo est un panier cylindrique à mailles fines avec un long manche&nbsp;: il descend dans la casserole et se retire d'un bloc. L'ami-shakushi est l'écumoire plate à mailles fines, plus polyvalente mais qui ne récupère jamais tout. POUR LES PETITES VERDURES — fèves germées, feuilles émincées, tout ce qui coule au fond — LE TEBO EST L'OUTIL QUI RÈGLE LE PROBLÈME À LA SOURCE. Voir <a href=\"#T6\">T6</a>&nbsp;: le 16 août 2026, des fèves germées blanchies dans la grande casserole sont restées au fond, ont infusé pendant la cuisson des soba, et sont ressorties détrempées dans la passoire des nouilles, impossibles à séparer. Le tebo sert aussi aux portions individuelles de nouilles. Les deux se trouvent en épicerie asiatique, section ustensiles."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "blanc": "\n\n          ",
+        "attrs": " style=\"max-width:38em\"",
+        "titre": "La balance, et le contenant qui décide",
+        "paragraphes": [
+          {
+            "texte": "LA BALANCE N'EST PAS UN OUTIL DE PRÉCISION, C'EST UN OUTIL DE VÉRITÉ. Trois constats de la seule semaine du 17 août l'ont établi&nbsp;: les sacs de porc tranché portés au registre à 300 g en faisaient 200; le rendement du riz supposé à 1,75 fois son poids cru est en réalité de 2,18; un lot de patates douces annoncé «&nbsp;deux ou trois&nbsp;» en contenait quatre. AUCUN DE CES TROIS ÉCARTS NE SE VOIT À L'ŒIL, ET LES TROIS FAUSSENT UN PLAN. Peser ce qui se pèse, une fois, et l'écrire."
+          },
+          {
+            "texte": "ET LE COROLLAIRE, QUI EST LE PRINCIPE CENTRAL DU DOSSIER&nbsp;: LE CONTENANT DÉCIDE DE LA PORTION. Un petit bol pour un kobachi, un bol de riz pour le riz, une assiette à part pour le poisson. Une portion servie «&nbsp;à l'œil&nbsp;» dans un grand plat n'est pas une portion, c'est une estimation — et le 17 août, le porc et l'oignon réservés ensemble ont rendu impossible de peser au montage."
+          }
+        ]
+      }
+    ],
+    "fiches_liees": [
+      "R46",
+      "T6"
+    ]
   }
 }

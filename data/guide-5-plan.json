@@ -355,6 +355,24 @@
             }
           ],
           "blanc": "\n\n    "
+        },
+        {
+          "type": "note",
+          "titre": "Le déjeuner pressé perd son gras, jamais ses protéines",
+          "paragraphes": [
+            {
+              "texte": "QUAND UN DÉJEUNER SE FAIT EN VITESSE, CE QUI SAUTE N'EST JAMAIS LA PROTÉINE — C'EST LE GRAS. La raison est mécanique et se répète&nbsp;: la protéine du déjeuner assemblé vient de deux contenants qu'on ouvre, le gras vient de trois solides qu'on prépare — un avocat à ouvrir et trancher, des edamames à sortir, un œuf à écaler. SOUS PRESSION, ON GARDE CE QUI S'OUVRE ET ON LAISSE CE QUI SE PRÉPARE."
+            },
+            {
+              "attrs": " style=\"margin-top:12px\"",
+              "texte": "CONSÉQUENCE POUR LA CONCEPTION D'UNE FORMULE DE DÉJEUNER&nbsp;: LE GRAS DOIT ÊTRE PORTÉ PAR UN GESTE DE MOINS DE QUINZE SECONDES, sinon il n'existe pas les matins chargés. Une cuillère à soupe de graines de sésame sur le yogourt, 5 g de lipides et aucune préparation; une petite poignée de noix dans un pot déjà sur le comptoir; une cuillère de beurre de noix. L'avocat reste le meilleur rendement du dossier — 10 g de lipides pour 5 mg de sodium — mais IL DEMANDE SOIXANTE SECONDES ET UN COUTEAU, ET C'EST EXACTEMENT CE QUI MANQUE. Le garder comme la version complète, pas comme le plancher."
+            },
+            {
+              "attrs": " style=\"margin-top:12px\"",
+              "texte": "ET NE PAS RATTRAPER LES LIPIDES MANQUANTS EN GONFLANT LE SOUPER. Le plancher de 50 g se joue sur la journée&nbsp;: un souper qui porte un poisson gras et un plat au sésame le tient déjà. Le levier le moins coûteux est la collation, où une demi-portion d'avocat ou une cuillère de sésame écrasé ajoute 5 à 10 g sans toucher à un plat calibré."
+            }
+          ],
+          "blanc": "\n\n    "
         }
       ]
     },
@@ -1141,6 +1159,15 @@
           "balise": "p",
           "classe": "p",
           "texte": "Pour ajouter des protéines <em>dans</em> un plat sans le dénaturer, la solution est ailleurs&nbsp;: katsuobushi, chirimenjako, sakura ebi, niboshi. Voir <a href=\"guide-3-supermarche.html#poudres\">les protéines à saupoudrer</a> au guide 3."
+        },
+        {
+          "type": "note",
+          "titre": "Où alléger quand la journée dépasse",
+          "paragraphes": [
+            {
+              "texte": "QUAND UNE JOURNÉE DÉPASSE LE PLAFOND DE SODIUM, ON N'ALLÈGE PAS LE REPAS LE PLUS SALÉ — ON ALLÈGE CELUI DONT L'ASSAISONNEMENT EST LE PLUS LIBRE. Un plat de fiche a un assaisonnement calibré&nbsp;: y toucher le casse. Un donburi monté au gabarit, R9, n'a pas cette contrainte&nbsp;: sa sauce est un choix. C'est là que la marge se prend. Corollaire&nbsp;: la compensation d'un plat allégé se fait à l'acide, à l'umami sec et au gras — vinaigre de riz, sésame écrasé, nori, avocat, shichimi à table — jamais en remettant du soya."
+            }
+          ]
         },
         {
           "type": "note",

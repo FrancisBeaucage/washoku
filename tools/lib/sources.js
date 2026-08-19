@@ -92,7 +92,7 @@ const PROSES = [
   {
     cle: 'guide-2-annexes',
     page: 'guide-2-recettes.html',
-    description: 'Annexes du guide 2 : lexique, yakumi, dépannage, thé',
+    description: 'Annexes du guide 2 : lexique, yakumi, dépannage, thé, équipement',
     mapper: require('./annexes'),
     compte: (d) => ({ nb_entrees: Object.keys(d).length, nb_actives: Object.keys(d).length }),
   },

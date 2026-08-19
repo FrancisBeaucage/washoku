@@ -39,22 +39,47 @@
   "etapes": [
     {
       "n": 1,
-      "texte": "Préchauffer le four à 200 °C."
+      "texte": "Préchauffer le four : 200 °C dans tous les cas, sauf pour la version lente à nu, qui se fait à 165 °C. Choisir la méthode AVANT d'enfourner : à nu sur la plaque pour un sirop et un goût concentré, enveloppée de papier d'aluminium pour une chair crémeuse et égale. Les deux ne se mélangent pas. Laver la patate, l'éponger, ne pas la peler."
     },
     {
       "n": 2,
-      "texte": "Piquer la patate à la fourchette, la déposer sur une plaque."
+      "texte": "MÉTHODE À NU, SUR LA PLAQUE — piquer la patate à la fourchette et la déposer directement sur une plaque. Rôtir 40 à 50 minutes à 200 °C, ou 60 à 75 minutes à 165 °C pour nettement plus de sucre. C'est prêt quand un sirop brun perle et qu'une lame entre sans résistance."
     },
     {
       "n": 3,
-      "texte": "Rôtir environ 45 minutes, jusqu'à ce qu'elle soit fondante et qu'un sirop perle."
+      "texte": "MÉTHODE AU PAPIER D'ALUMINIUM — ne pas piquer, envelopper la patate entière, la déposer sur une plaque. Rôtir 50 à 60 minutes à 200 °C. Aucun sirop ne se forme, et c'est voulu : la patate rôtit dans sa propre vapeur. C'est prêt quand elle cède sous une légère pression à travers le papier."
     },
     {
       "n": 4,
-      "texte": "Bonne chaude ou froide ; se garde quelques jours au frigo."
+      "texte": "Dans les deux cas : tourner la plaque d'un demi-tour à mi-cuisson et juger patate par patate, jamais au minuteur."
+    },
+    {
+      "n": 5,
+      "texte": "Laisser refroidir sur une grille 30 à 45 minutes. Bonne chaude ou froide ; au frigo seulement une fois tiède, entière, 3 à 4 jours."
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "titre": "Deux méthodes, deux résultats",
+      "texte": "DEUX MÉTHODES, DEUX RÉSULTATS. À NU, SUR LA PLAQUE — la chaleur sèche attaque directement, l'eau s'évapore, les sucres se concentrent, la peau caramélise et un sirop brun suinte. C'est le yaki-imo du marchand de rue : dense, très sucré, peau un peu coriace. 200 DEGRÉS CELSIUS PENDANT 40 À 50 MINUTES, ou 165 DEGRÉS PENDANT 60 À 75 MINUTES — la version lente laisse le temps à l'amidon de se convertir en maltose et donne nettement plus de sucre. ENVELOPPÉE DE PAPIER D'ALUMINIUM — la patate rôtit dans sa propre vapeur. Chair égale, crémeuse, peau qui se détache : on la fend en deux et on mange l'intérieur à la cuillère. AUCUN SIROP, ET C'EST VOULU. Méthode de four domestique standard au Japon, la plus indulgente. 200 DEGRÉS PENDANT 50 À 60 MINUTES. NE PAS CONFONDRE TAPISSER LA PLAQUE ET ENVELOPPER LA PATATE : tapisser sert au nettoyage, envelopper change la méthode."
+    },
+    {
+      "titre": "Le piquage est facultatif",
+      "texte": "LE PIQUAGE EST FACULTATIF. C'est une précaution héritée de la pomme de terre blanche, dont la chair dense emprisonne la vapeur. La patate douce la laisse sortir par la peau. Dans la méthode au papier, piquer travaille contre le résultat."
+    },
+    {
+      "titre": "Le sirop est le vrai signal, et il arrive inégalement",
+      "texte": "LE SIROP EST LE VRAI SIGNAL DE CUISSON, ET IL ARRIVE INÉGALEMENT. Aucun four domestique ne chauffe uniformément : sur une même plaque, une patate peut perler pendant qu'une autre, plus grosse ou mal placée, reste sèche. TOURNER LA PLAQUE D'UN DEMI-TOUR À MI-CUISSON, et juger patate par patate, pas au minuteur. Constaté le 17 août 2026."
+    },
+    {
+      "titre": "Le refroidissement fait partie de la recette",
+      "texte": "LE REFROIDISSEMENT FAIT PARTIE DE LA RECETTE. Laisser SUR UNE GRILLE à température ambiante 30 à 45 minutes — pas sur la plaque, où le dessous cuit à la vapeur. Au frigo SEULEMENT UNE FOIS TIÈDE : une patate chaude mise au froid couvert condense et se détrempe. Se garde 3 à 4 jours, ENTIÈRE — on la tranche au moment de manger. La patate rôtie refroidie est un produit en soi au Japon, le hiyashi yaki-imo : la chair devient dense, presque comme une crème pâtissière."
+    },
+    {
+      "titre": "Comment la servir",
+      "texte": "COMMENT LA SERVIR. FENDUE EN DEUX SUR LA LONGUEUR, MANGÉE À LA CUILLÈRE, la peau servant de bol — le geste de la vidéo, le meilleur à froid. Ou EN RONDELLES ÉPAISSES DE 1,5 À 2 CM, peau comprise, pour une collation qu'on prend à la main. NI EN CHIPS NI EN JULIENNE : ce sont des coupes de patate douce CRUE. POUR LE POSTE COLLATION, PRÉFÉRER LES RONDELLES DANS UN PETIT BOL : le contenant donne la portion. UNE PINCÉE DE SEL fait ressortir le sucre, au coût d'environ 145 mg de sodium."
+    }
+  ],
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gungoguma_(roasted_sweet_potatoes).jpg?width=1200",
   "video": {
     "youtube_id": "31zAQudWyUo",

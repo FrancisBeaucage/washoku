@@ -1,8 +1,8 @@
 {
   "site": "washoku",
   "version_schema": "1.0",
-  "derniere_maj": "2026-08-16",
-  "dernier_document_applique": 17,
+  "derniere_maj": "2026-08-18",
+  "dernier_document_applique": 18,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
@@ -23,8 +23,8 @@
       "nom": "guide-3-ingredients.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-3-ingredients.json",
       "description": "Fiches d’ingrédients du guide 3",
-      "nb_entrees": 85,
-      "nb_actives": 85
+      "nb_entrees": 88,
+      "nb_actives": 88
     },
     {
       "nom": "guide-4-exercices.json",
@@ -37,15 +37,15 @@
       "nom": "guide-6-journal.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-6-journal.json",
       "description": "Entrées du journal du guide 6",
-      "nb_entrees": 9,
-      "nb_actives": 9
+      "nb_entrees": 10,
+      "nb_actives": 10
     },
     {
       "nom": "guide-2-annexes.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-2-annexes.json",
-      "description": "Annexes du guide 2 : lexique, yakumi, dépannage, thé",
-      "nb_entrees": 4,
-      "nb_actives": 4
+      "description": "Annexes du guide 2 : lexique, yakumi, dépannage, thé, équipement",
+      "nb_entrees": 5,
+      "nb_actives": 5
     },
     {
       "nom": "guide-5-plan.json",
@@ -58,15 +58,15 @@
       "nom": "historique-repas.json",
       "url": "https://francisbeaucage.github.io/washoku/data/historique-repas.json",
       "description": "Ce qui a été mangé, un enregistrement par repas",
-      "nb_entrees": 26,
-      "nb_actives": 26
+      "nb_entrees": 33,
+      "nb_actives": 33
     },
     {
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 17,
-      "nb_actives": 17
+      "nb_entrees": 18,
+      "nb_actives": 18
     },
     {
       "nom": "index.json",
