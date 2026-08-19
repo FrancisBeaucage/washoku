@@ -99,6 +99,10 @@ function table() {
     { fichier: 'guide-2-fiches.json', champ: 'axe_texture', permis: C.AXES_TEXTURE, forme: 'liste' },
     { fichier: 'guide-2-fiches.json', champ: 'moment', permis: C.MOMENTS, forme: 'liste' },
     { fichier: 'guide-2-fiches.json', champ: 'langue_origine', permis: C.LANGUES, nul: true },
+    /* La langue parlée dans la vidéo. `null` est le cas normal et ne veut pas
+       dire « français » : il veut dire que personne ne l'a établi. Voir le
+       commentaire de `LANGUES_VIDEO` dans `champs.js`. */
+    { fichier: 'guide-2-fiches.json', champ: 'video.langue', permis: C.LANGUES_VIDEO, nul: true },
     /* Le bloc évaluatif : ce qu'un lecteur EN PENSE. `statut_perso` n'est PAS
        `statut` — la distinction est la plus importante du document 19. `statut`
        juge l'exactitude de la fiche ; `statut_perso` juge le plat, pour un

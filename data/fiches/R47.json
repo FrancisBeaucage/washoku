@@ -100,7 +100,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
   "video": {
     "youtube_id": "09g-HSTI7_o",
-    "auteur": "No Recipes"
+    "auteur": "No Recipes",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

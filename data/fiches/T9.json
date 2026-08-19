@@ -145,7 +145,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Karaage.jpg?width=1200",
   "video": {
     "youtube_id": "5Ea3EuwA758",
-    "auteur": "Japanese Top Chefs"
+    "auteur": "Japanese Top Chefs",
+    "langue": null
   },
   "voir_aussi": [
     "R64"

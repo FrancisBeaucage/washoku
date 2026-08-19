@@ -132,7 +132,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolsot-bibimbap.jpg?width=1200",
   "video": {
     "youtube_id": "6QQ67F8y2b8",
-    "auteur": "Maangchi"
+    "auteur": "Maangchi",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

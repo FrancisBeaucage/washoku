@@ -140,7 +140,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Soi_yakizakana.JPG?width=1200",
   "video": {
     "youtube_id": "cr2cP89TtIk",
-    "auteur": "Japanese Cooking 101"
+    "auteur": "Japanese Cooking 101",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

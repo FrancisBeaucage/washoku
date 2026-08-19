@@ -135,7 +135,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1200",
   "video": {
     "youtube_id": "Bqpc4TtXmPo",
-    "auteur": "Japanese Cooking 101"
+    "auteur": "Japanese Cooking 101",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

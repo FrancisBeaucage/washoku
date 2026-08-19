@@ -105,7 +105,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bun_cha_Hanoi.jpg?width=1200",
   "video": {
     "youtube_id": "iZJzTScgB-c",
-    "auteur": "Helen's Recipes"
+    "auteur": "Helen's Recipes",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

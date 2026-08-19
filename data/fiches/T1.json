@@ -150,7 +150,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
   "video": {
     "youtube_id": "xjkottdHL_k",
-    "auteur": "Just One Cookbook"
+    "auteur": "Just One Cookbook",
+    "langue": null
   },
   "voir_aussi": []
 }

@@ -112,7 +112,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=1200",
   "video": {
     "youtube_id": "Mg9zeD01kEw",
-    "auteur": "Maangchi"
+    "auteur": "Maangchi",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

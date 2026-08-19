@@ -108,7 +108,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ping_SJ_hot_%26_sour_soup.JPG?width=1200",
   "video": {
     "youtube_id": "8eMk9yTm_34",
-    "auteur": "Omnivore's Cookbook"
+    "auteur": "Omnivore's Cookbook",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

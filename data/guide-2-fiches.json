@@ -151,7 +151,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
     "video": {
       "youtube_id": "xjkottdHL_k",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -320,7 +321,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
     "video": {
       "youtube_id": "5qBAcsM31Rg",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -426,7 +428,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Maquereaux_etal.jpg?width=1200",
     "video": {
       "youtube_id": "cr2cP89TtIk",
-      "auteur": "Japanese Cooking 101"
+      "auteur": "Japanese Cooking 101",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -573,7 +576,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Soi_yakizakana.JPG?width=1200",
     "video": {
       "youtube_id": "cr2cP89TtIk",
-      "auteur": "Japanese Cooking 101"
+      "auteur": "Japanese Cooking 101",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -699,7 +703,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
     "video": {
       "youtube_id": "odGG8AEf0LU",
-      "auteur": "The Woks of Life"
+      "auteur": "The Woks of Life",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -840,7 +845,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
     "video": {
       "youtube_id": "DfFv9gTxrbs",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -977,7 +983,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Boiled%20eggs%20in%20soy%20sauce%20-Jangjolim-%20%286275954552%29.jpg?width=1200",
     "video": {
       "youtube_id": "bsDgZXoieFU",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -1116,7 +1123,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
     "video": {
       "youtube_id": "KYRAk2qY_h4",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -1238,7 +1246,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ajitama.jpg?width=1200",
     "video": {
       "youtube_id": "mcXzPF4-LFw",
-      "auteur": "Epicurious"
+      "auteur": "Epicurious",
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -1389,7 +1398,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Karaage.jpg?width=1200",
     "video": {
       "youtube_id": "5Ea3EuwA758",
-      "auteur": "Japanese Top Chefs"
+      "auteur": "Japanese Top Chefs",
+      "langue": null
     },
     "voir_aussi": [
       "R64"
@@ -1523,7 +1533,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_strips_of_radish.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -1653,8 +1664,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "zi3FB2NtLCc",
+      "auteur": "Made With Lau",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -1770,8 +1782,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "JWTbMPRwpvI",
+      "auteur": "TheChineseSoupLady",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -1892,8 +1905,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "a-Yu8qOAEYQ",
+      "auteur": "Chinese Cooking Demystified",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -2006,7 +2020,7 @@
     "notes": [
       {
         "titre": "Une sauce liée n'est pas obligatoire",
-        "texte": "LA FÉCULE EST UNE CONVENTION DE RESTAURANT, PAS UNE NÉCESSITÉ DE LA CUISINE CHINOISE DOMESTIQUE. Un restaurant lie ses sauces parce que ça les fait briller sous la lampe, ça les fait tenir sur la viande pendant le trajet jusqu'à la table, et ça permet d'étirer un peu de sauce sur beaucoup d'assiettes. Aucune de ces trois raisons ne s'applique à une cuisine de maison.\n\nCE QUE LE BAO DONNE À LA PLACE : un plat sec, brillant de son propre jus caramélisé, où l'on goûte la viande et l'aromate au lieu de goûter la sauce. LES DEUX GAINS SONT MESURABLES. La fécule apporte des glucides sans intérêt nutritionnel, et surtout une sauce liée ENROBE le sel au lieu de le laisser s'égoutter — à sodium égal versé dans la poêle, un plat lié est plus salé en bouche parce que tout reste collé à la protéine.\n\nLA CONTREPARTIE, ET ELLE EST RÉELLE : il n'y a pas de sauce pour le riz. C'est un plat qui s'accompagne, pas un plat qui nappe. Si le riz a besoin de quelque chose, c'est un condiment à côté — pas une sauce liée dans la poêle."
+        "texte": "LA FÉCULE EST UNE CONVENTION DE RESTAURANT, PAS UNE NÉCESSITÉ DE LA CUISINE CHINOISE DOMESTIQUE. Un restaurant lie ses sauces parce que ça les fait briller sous la lampe, ça les fait tenir sur la viande pendant le trajet jusqu'à la table, et ça permet d'étirer un peu de sauce sur beaucoup d'assiettes. Aucune de ces trois raisons ne s'applique à une cuisine de maison.\n\nCE QUE LE BÀO DONNE À LA PLACE : un plat sec, brillant de son propre jus caramélisé, où l'on goûte la viande et l'aromate au lieu de goûter la sauce. LES DEUX GAINS SONT MESURABLES. La fécule apporte des glucides sans intérêt nutritionnel, et surtout une sauce liée ENROBE le sel au lieu de le laisser s'égoutter — à sodium égal versé dans la poêle, un plat lié est plus salé en bouche parce que tout reste collé à la protéine.\n\nLA CONTREPARTIE, ET ELLE EST RÉELLE : il n'y a pas de sauce pour le riz. C'est un plat qui s'accompagne, pas un plat qui nappe. Si le riz a besoin de quelque chose, c'est un condiment à côté — pas une sauce liée dans la poêle."
       },
       {
         "titre": "Le guo you — la technique que ce dossier refuse, et pourquoi le dire vaut mieux que l'éviter",
@@ -2023,8 +2037,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "X6JE7W8Z6Hs",
+      "auteur": "Chinese Cooking Demystified",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -2169,8 +2184,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "EA2Mx1m7NAI",
+      "auteur": "Chinese Cooking Demystified",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -2302,8 +2318,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "IN0b81cVHsI",
+      "auteur": "Made With Lau",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -2421,7 +2438,7 @@
     "notes": [
       {
         "titre": "L'inverse de tout ce qu'on apprend sur les légumes",
-        "texte": "LA CUISINE OCCIDENTALE ENSEIGNE À CUIRE UN LÉGUME VITE ET À GARDER SON CROQUANT ET SA COULEUR. LE 干煸 FAIT L'OPPOSÉ DÉLIBÉRÉMENT : on chauffe longtemps à sec jusqu'à ce que le légume perde une bonne part de son eau. Ce qui reste est concentré, sa peau est marquée, sa texture devient dense et un peu coriace — et son goût est plusieurs fois plus intense qu'un légume blanchi.\n\nPOURQUOI CETTE FICHE EST DANS UN DOSSIER DE PERTE DE POIDS. Parce que c'est la seule méthode qui donne un goût puissant à un légume SANS HUILE ET SANS SEL. Un plat de haricots ganbian avec deux cuillères à thé d'huile et une cuillère à thé de soya pour deux portions porte environ 4 g de lipides et 150 mg de sodium, et il goûte plus fort que la même quantité de haricots sautés dans trois fois plus d'huile.\n\nLA VERSION DE RESTAURANT PASSE LES HARICOTS À L'HUILE (voir le refus du 过油 à la fiche T14) ET C'EST CE QU'ON REMPLACE ICI. La poêle sèche fait le même travail de déshydratation, en cinq minutes de plus et avec vingt grammes de gras en moins.\n\nLES DEUX RATÉS POSSIBLES. UN — remuer sans arrêt : le légume ne touche jamais assez longtemps le métal pour se marquer, et on obtient un légume tiède. DEUX — ajouter l'huile au début : elle grille toute seule pendant les cinq minutes de chaleur sèche, elle fume et elle donne un goût âcre. L'HUILE ARRIVE À MI-CUISSON, ET C'EST TOUT L'ORDRE DE LA TECHNIQUE."
+        "texte": "LA CUISINE OCCIDENTALE ENSEIGNE À CUIRE UN LÉGUME VITE ET À GARDER SON CROQUANT ET SA COULEUR. LE 干煸 FAIT L'OPPOSÉ DÉLIBÉRÉMENT : on chauffe longtemps à sec jusqu'à ce que le légume perde une bonne part de son eau. Ce qui reste est concentré, sa peau est marquée, sa texture devient dense et un peu coriace — et son goût est plusieurs fois plus intense qu'un légume blanchi.\n\nPOURQUOI CETTE FICHE EST DANS UN DOSSIER DE PERTE DE POIDS. Parce que c'est la seule méthode qui donne un goût puissant à un légume SANS HUILE ET SANS SEL. Un plat de haricots gānbiān avec deux cuillères à thé d'huile et une cuillère à thé de soya pour deux portions porte environ 4 g de lipides et 150 mg de sodium, et il goûte plus fort que la même quantité de haricots sautés dans trois fois plus d'huile.\n\nLA VERSION DE RESTAURANT PASSE LES HARICOTS À L'HUILE (voir le refus du 过油 à la fiche T14) ET C'EST CE QU'ON REMPLACE ICI. La poêle sèche fait le même travail de déshydratation, en cinq minutes de plus et avec vingt grammes de gras en moins.\n\nLES DEUX RATÉS POSSIBLES. UN — remuer sans arrêt : le légume ne touche jamais assez longtemps le métal pour se marquer, et on obtient un légume tiède. DEUX — ajouter l'huile au début : elle grille toute seule pendant les cinq minutes de chaleur sèche, elle fume et elle donne un goût âcre. L'HUILE ARRIVE À MI-CUISSON, ET C'EST TOUT L'ORDRE DE LA TECHNIQUE."
       }
     ],
     "ajustement": null,
@@ -2434,8 +2451,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "tJemaPzmouQ",
+      "auteur": "Made With Lau",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -2544,8 +2562,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "J2-1ZErtS7A",
+      "auteur": "Chinese Cooking Demystified",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -2663,8 +2682,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "GGdg-Bb9shA",
+      "auteur": "Cooking With Khon Khao",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -2787,8 +2807,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "P4JgJec4QQI",
+      "auteur": "Maangchi",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -2898,7 +2919,7 @@
     "notes": [
       {
         "titre": "Deux plats d'une casserole, et le sel qui reste dehors",
-        "texte": "LE MÉCANISME EST DOUBLEMENT ÉCONOME ET C'EST POUR ÇA QUE CETTE FICHE EXISTE. Une casserole et huit minutes donnent le poste légume et le poste soupe du ichiju sansai — deux des quatre cases du repas. Et les vitamines hydrosolubles que le blanchiment fait sortir du légume ne sont pas jetées : elles sont dans le bol.\n\nLE VRAI GAIN EST AILLEURS, ET IL EST STRUCTUREL : TOUT LE SODIUM DU PLAT EST DANS UN BOL À CÔTÉ, PAS DANS LE PLAT. La trempette entière porte de l'ordre de 1 400 mg pour deux personnes, mais on n'en consomme que ce qu'on trempe — de l'ordre de deux à trois cuillères à thé par personne, soit 200 à 350 mg. Le même sel versé sur le légume dans la poêle aurait été mangé en entier.\n\nC'EST EXACTEMENT LA LOGIQUE DU CONTENANT QUI DÉCIDE DE LA PORTION, APPLIQUÉE AU SEL AU LIEU DE LA NOURRITURE. Et c'est la manœuvre centrale de la cuisine vietnamienne, pas une astuce : le nuoc cham est déjà lui-même une dilution — deux cuillères à soupe de sauce de poisson pour six d'eau, servies à trois personnes.\n\nLE PIÈGE DE CETTE CUISINE N'EST PAS LA SAUCE DE POISSON, C'EST LE HAT NEM. Le bouillon de poulet en poudre figure dans presque toutes les recettes familiales vietnamiennes documentées, il est aussi salé que le sel, et il n'entre dans aucun calcul parce que personne ne le compte comme un assaisonnement. DANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Le goût qu'il apportait se retrouve dans les champignons séchés, l'oignon grillé et le poivre blanc.\n\nET L'EAU DE CUISSON NE SE SALE PRESQUE PAS. Blanchir dans une eau salée met du sel dans le légume ET dans la soupe — deux fois. Une pincée dans l'eau suffit, et la lime fait le reste."
+        "texte": "LE MÉCANISME EST DOUBLEMENT ÉCONOME ET C'EST POUR ÇA QUE CETTE FICHE EXISTE. Une casserole et huit minutes donnent le poste légume et le poste soupe du ichiju sansai — deux des quatre cases du repas. Et les vitamines hydrosolubles que le blanchiment fait sortir du légume ne sont pas jetées : elles sont dans le bol.\n\nLE VRAI GAIN EST AILLEURS, ET IL EST STRUCTUREL : TOUT LE SODIUM DU PLAT EST DANS UN BOL À CÔTÉ, PAS DANS LE PLAT. La trempette entière porte de l'ordre de 1 400 mg pour deux personnes, mais on n'en consomme que ce qu'on trempe — de l'ordre de deux à trois cuillères à thé par personne, soit 200 à 350 mg. Le même sel versé sur le légume dans la poêle aurait été mangé en entier.\n\nC'EST EXACTEMENT LA LOGIQUE DU CONTENANT QUI DÉCIDE DE LA PORTION, APPLIQUÉE AU SEL AU LIEU DE LA NOURRITURE. Et c'est la manœuvre centrale de la cuisine vietnamienne, pas une astuce : le nuoc cham est déjà lui-même une dilution — deux cuillères à soupe de sauce de poisson pour six d'eau, servies à trois personnes.\n\nLE PIÈGE DE CETTE CUISINE N'EST PAS LA SAUCE DE POISSON, C'EST LE HẠT NÊM. Le bouillon de poulet en poudre figure dans presque toutes les recettes familiales vietnamiennes documentées, il est aussi salé que le sel, et il n'entre dans aucun calcul parce que personne ne le compte comme un assaisonnement. DANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Le goût qu'il apportait se retrouve dans les champignons séchés, l'oignon grillé et le poivre blanc.\n\nET L'EAU DE CUISSON NE SE SALE PRESQUE PAS. Blanchir dans une eau salée met du sel dans le légume ET dans la soupe — deux fois. Une pincée dans l'eau suffit, et la lime fait le reste."
       }
     ],
     "ajustement": null,
@@ -2911,8 +2932,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "9LjjC6raTKE",
+      "auteur": "Kỹ Năng Vào Bếp",
+      "langue": "vi"
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -3046,8 +3068,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "9756aQ99pe8",
+      "auteur": "Pailin's Kitchen",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -3178,8 +3201,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "w5tI3SdeoVo",
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -3314,7 +3338,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel_Kanra_Kyoto_%28Main%29_B2F_The_Kitchen_Kanra_Japanese-style_breakfast_20210628-001.jpg?width=1200",
     "video": {
       "youtube_id": "VP9odZtZw3g",
-      "auteur": "Kyodokan"
+      "auteur": "Kyodokan",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -3453,7 +3478,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso%20soup%20overhead.jpg?width=1200",
     "video": {
       "youtube_id": "wshf6yZbhwk",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -3593,7 +3619,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",
     "video": {
       "youtube_id": "6eHsqXOsyek",
-      "auteur": "ochikeron"
+      "auteur": "ochikeron",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -3699,7 +3726,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tamagokake-gohan_001.jpg?width=1200",
     "video": {
       "youtube_id": "pCH0jEOczQQ",
-      "auteur": "No Recipes"
+      "auteur": "No Recipes",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -3820,7 +3848,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20mayo%20deop-bap%20-%20Kogi%2C%20Brighton.jpg?width=1200",
     "video": {
       "youtube_id": "5YMJqshTBMI",
-      "auteur": "Aaron and Claire"
+      "auteur": "Aaron and Claire",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -3937,7 +3966,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_rice_congee.jpg?width=1200",
     "video": {
       "youtube_id": "UE7iz3ePi_E",
-      "auteur": "Japanese Cooking 101"
+      "auteur": "Japanese Cooking 101",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -4048,7 +4078,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chawan-mushi.JPG?width=1200",
     "video": {
       "youtube_id": "OEqu5c2edSw",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -4144,7 +4175,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Asage(Instant%20miso%20soup).jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -4279,7 +4311,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyudon_by_jetalone_in_Higashi-Ginza%2C_Tokyo.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -4414,7 +4447,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiyayakko_with_bonito_flakes_and_welsh_onion_2.jpg?width=1200",
     "video": {
       "youtube_id": "Fkyb1mixSCE",
-      "auteur": "Sudachi"
+      "auteur": "Sudachi",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -4548,7 +4582,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuna_can.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -4654,7 +4689,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Una_chazuke_by_Kossy%40FINEDAYS_in_Akabane.jpg?width=1200",
     "video": {
       "youtube_id": "VEodY9THtmw",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -4771,7 +4807,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaru%20soba%20by%20spinachdip.jpg?width=1200",
     "video": {
       "youtube_id": "-ojltkREE1c",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -4885,7 +4922,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
     "video": {
       "youtube_id": "fdzM_zovmyo",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -5008,7 +5046,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%84%BC%E3%81%8D%E9%AE%AD---2024-03-05.jpg?width=1200",
     "video": {
       "youtube_id": "cr2cP89TtIk",
-      "auteur": "Japanese Cooking 101"
+      "auteur": "Japanese Cooking 101",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -5141,7 +5180,8 @@
     "photo": "assets/recettes/flocons-saumon.jpg",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -5239,7 +5279,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salmon_Saikyo-Yaki.jpg?width=1200",
     "video": {
       "youtube_id": "a_YTAcSZOPw",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": "\n"
@@ -5345,7 +5386,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellowtail%20Kingfish%20and%20tofu%20simmered%20in%20soy%20sauce%20-%20%E5%B1%B1%E5%AE%B6%20Yama-ya.jpg?width=1200",
     "video": {
       "youtube_id": "KG8pBlF2Lsg",
-      "auteur": "Sudachi"
+      "auteur": "Sudachi",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -5471,7 +5513,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef_and_broccoli_stir_fry.jpg?width=1200",
     "video": {
       "youtube_id": "n_0JYAQzYAg",
-      "auteur": "Made With Lau"
+      "auteur": "Made With Lau",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -5583,7 +5626,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bun_cha_Hanoi.jpg?width=1200",
     "video": {
       "youtube_id": "iZJzTScgB-c",
-      "auteur": "Helen's Recipes"
+      "auteur": "Helen's Recipes",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -5717,7 +5761,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Oyakodon_003.jpg?width=1200",
     "video": {
       "youtube_id": "Vlp6ufKYDzk",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -5859,7 +5904,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1200",
     "video": {
       "youtube_id": "Bqpc4TtXmPo",
-      "auteur": "Japanese Cooking 101"
+      "auteur": "Japanese Cooking 101",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -5964,7 +6010,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking_yakitori.jpg?width=1200",
     "video": {
       "youtube_id": "3woUacOV5KQ",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -6088,7 +6135,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20chicken%20thighs.jpg?width=1200",
     "video": {
       "youtube_id": "00Qcvz21Bak",
-      "auteur": "Japanese Cooking 101"
+      "auteur": "Japanese Cooking 101",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -6215,7 +6263,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Okonomiyaki_001.jpg?width=1200",
     "video": {
       "youtube_id": "RtqpS9FHEbc",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -6354,7 +6403,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolsot-bibimbap.jpg?width=1200",
     "video": {
       "youtube_id": "6QQ67F8y2b8",
-      "auteur": "Maangchi"
+      "auteur": "Maangchi",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -6479,7 +6529,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
     "video": {
       "youtube_id": "tw8EXKWwudQ",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -6594,7 +6645,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ping_SJ_hot_%26_sour_soup.JPG?width=1200",
     "video": {
       "youtube_id": "8eMk9yTm_34",
-      "auteur": "Omnivore's Cookbook"
+      "auteur": "Omnivore's Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -6715,7 +6767,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chen_Mapo_Tofu.jpg?width=1200",
     "video": {
       "youtube_id": "AujuLHK3hvs",
-      "auteur": "Chinese Cooking Demystified"
+      "auteur": "Chinese Cooking Demystified",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -6845,7 +6898,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
     "video": {
       "youtube_id": "hXaaZiMgvgI",
-      "auteur": "Hot Thai Kitchen"
+      "auteur": "Hot Thai Kitchen",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -6952,7 +7006,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_preppybyday_4711943668--Tom_kha_gai.jpg?width=1200",
     "video": {
       "youtube_id": "OooFZU2ZktY",
-      "auteur": "Hot Thai Kitchen"
+      "auteur": "Hot Thai Kitchen",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -7071,7 +7126,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=1200",
     "video": {
       "youtube_id": "Mg9zeD01kEw",
-      "auteur": "Maangchi"
+      "auteur": "Maangchi",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -7191,7 +7247,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_soup-Yukgaejang-01.jpg?width=1200",
     "video": {
       "youtube_id": "FxSmBbXSDl0",
-      "auteur": "Maangchi"
+      "auteur": "Maangchi",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -7303,7 +7360,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_wonton_soup.JPG?width=1200",
     "video": {
       "youtube_id": "0RPCzzm8l9I",
-      "auteur": "Made With Lau"
+      "auteur": "Made With Lau",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -7410,7 +7468,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukune_%28chicken_meatballs%29_%2816065642291%29.jpg?width=1200",
     "video": {
       "youtube_id": "IyXQemAcKLw",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -7532,7 +7591,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso%20soup%20and%20Rice%2020141027.jpg?width=1200",
     "video": {
       "youtube_id": "8wVjpLI2mp0",
-      "auteur": "Japanese Cooking 101"
+      "auteur": "Japanese Cooking 101",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -7664,7 +7724,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yataioden.jpg?width=1200",
     "video": {
       "youtube_id": "T_rV_Vwdpdw",
-      "auteur": "Chef JA Cooks"
+      "auteur": "Chef JA Cooks",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -7777,7 +7838,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_DimSum_%289023590541%29.jpg?width=1200",
     "video": {
       "youtube_id": "NaiL0SeTz_s",
-      "auteur": "Made With Lau"
+      "auteur": "Made With Lau",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -7908,7 +7970,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_Meatball_pho.jpg?width=1200",
     "video": {
       "youtube_id": "36E3XXqab40",
-      "auteur": "Helen's Recipes"
+      "auteur": "Helen's Recipes",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8014,7 +8077,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wet_shirataki_noodles.jpg?width=1200",
     "video": {
       "youtube_id": "qkv_CxkdWB4",
-      "auteur": "Yeung Man Cooking"
+      "auteur": "Yeung Man Cooking",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8132,7 +8196,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso_Soup_001.jpg?width=1200",
     "video": {
       "youtube_id": "wshf6yZbhwk",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8239,7 +8304,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canhchua2.jpg?width=1200",
     "video": {
       "youtube_id": "vO81lQvYodI",
-      "auteur": "Helen's Recipes"
+      "auteur": "Helen's Recipes",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8348,7 +8414,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Suimono_by_Joi.jpg?width=1200",
     "video": {
       "youtube_id": "m7d0FJjlT1U",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8459,7 +8526,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomato_je.jpg?width=1200",
     "video": {
       "youtube_id": "pvacqcbDb0Y",
-      "auteur": "Wei's Red House Kitchen"
+      "auteur": "Wei's Red House Kitchen",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8558,7 +8626,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Daikon.Japan.jpg?width=1200",
     "video": {
       "youtube_id": "MAUc-bAVymc",
-      "auteur": "ochikeron"
+      "auteur": "ochikeron",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8666,7 +8735,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
     "video": {
       "youtube_id": "DfFv9gTxrbs",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8793,7 +8863,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Goma-ae_salad.jpg?width=1200",
     "video": {
       "youtube_id": "CvOoXbwUySI",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -8919,7 +8990,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
     "video": {
       "youtube_id": "KYRAk2qY_h4",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -9042,7 +9114,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinpira_002.jpg?width=1200",
     "video": {
       "youtube_id": "ZHbYTUq8M7U",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -9149,7 +9222,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
     "video": {
       "youtube_id": "09g-HSTI7_o",
-      "auteur": "No Recipes"
+      "auteur": "No Recipes",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -9306,7 +9380,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiriboshi_daikon_002.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -9438,7 +9513,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Buna_shimeji_%288009663976%29.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": [
       "R38"
@@ -9556,7 +9632,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Momiji_oroshi.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": [
       "R14"
@@ -9679,7 +9756,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
     "video": {
       "youtube_id": "zBnR0bdU_JM",
-      "auteur": "Japanese Cooking 101"
+      "auteur": "Japanese Cooking 101",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -9760,7 +9838,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nori.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -9836,7 +9915,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Senbeis.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -9915,7 +9995,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Konnyaku.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -9997,7 +10078,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Umeboshi2.JPG?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -10076,7 +10158,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashi_pear.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -10171,7 +10254,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Greek_yoghurt_with_honey.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -10288,7 +10372,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gungoguma_(roasted_sweet_potatoes).jpg?width=1200",
     "video": {
       "youtube_id": "31zAQudWyUo",
-      "auteur": "Chef JA Cooks"
+      "auteur": "Chef JA Cooks",
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -10416,7 +10501,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/HomeCookedRamenNoodles.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -10516,7 +10602,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyoza_no_Antei_-_3.jpg?width=1200",
     "video": {
       "youtube_id": "hVFp_H87Nzc",
-      "auteur": "Japanese Cooking Ichie"
+      "auteur": "Japanese Cooking Ichie",
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -10614,7 +10701,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
     "video": {
       "youtube_id": null,
-      "auteur": null
+      "auteur": null,
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -10774,7 +10862,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kake%20soba%20with%20sansai%20by%20jetalone%20in%20Hachioji.jpg?width=1200",
     "video": {
       "youtube_id": "c_waS4o02NA",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": []
   },
@@ -10937,7 +11026,8 @@
     "photo": "assets/recettes/niku-udon.jpg",
     "video": {
       "youtube_id": "CBRnRvJNJ10",
-      "auteur": "Just One Cookbook"
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -11106,7 +11196,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A1nh%20t%C3%B4m%20%28th%C3%A1ng%207%20n%C4%83m%202018%29%20%282%29.jpg?width=1200",
     "video": {
       "youtube_id": "7ENdsSQ9L9w",
-      "auteur": "Helen's Recipes (Vietnamese Food)"
+      "auteur": "Helen's Recipes (Vietnamese Food)",
+      "langue": null
     },
     "voir_aussi": [
       "R18",
@@ -11278,7 +11369,8 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shogayaki.jpg?width=1200",
     "video": {
       "youtube_id": "-9CUm-2cui8",
-      "auteur": "Cooking with Dog"
+      "auteur": "Cooking with Dog",
+      "langue": null
     },
     "voir_aussi": [
       "R63",
@@ -11424,8 +11516,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "v_4bz49MGow",
+      "auteur": "Cooking With Khon Khao",
+      "langue": null
     },
     "voir_aussi": [
       "R70"
@@ -11570,8 +11663,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "XfgdIEM2UAc",
+      "auteur": "Holy Rice",
+      "langue": null
     },
     "voir_aussi": [
       "R69"
@@ -11701,11 +11795,11 @@
     "notes": [
       {
         "titre": "Le meilleur rapport protéines-prix du garde-manger, et personne n'en parle",
-        "texte": "LE KOYADOFU EST DU TOFU CONGELÉ PUIS LYOPHILISÉ. Le procédé retire l'eau et laisse la protéine, le gras et une structure alvéolaire : de l'ordre de 50 G DE PROTÉINES AUX 100 G DE PRODUIT SEC. À titre de comparaison, le tofu ferme frais en porte 8 à 12 g aux 100 g, parce qu'il est surtout composé d'eau.\n\nCE QUE ÇA CHANGE CONCRÈTEMENT. Cent grammes de blocs secs — un demi-sachet, quelques dollars — donnent 50 g de protéines, soit un tiers de la cible quotidienne du dossier, POUR UN INGRÉDIENT QUI SE GARDE SIX MOIS DANS UNE ARMOIRE. Aucune autre protéine du recueil n'a ce profil : la viande demande un congélateur et une décongélation, le tofu frais périme en une semaine, les œufs se comptent.\n\nC'EST DONC L'ASSURANCE DU PLANCHER DE 130 G. Les jours où la planification déraille, où le poisson n'a pas été sorti et où il ne reste rien de décongelé, ce sachet dans l'armoire est ce qui permet de monter un souper à 32 g de protéines en vingt minutes, dont douze sans surveillance.\n\nET LES LIPIDES SONT RÉELS, IL FAUT LE SAVOIR. Le procédé concentre aussi le gras du soya : de l'ordre de 30 g aux 100 g de produit sec. Sur cette fiche, ça fait environ 14 g par portion, ce qui est BEAUCOUP pour un plat sans huile ajoutée — mais c'est un gras utile dans un dossier dont le plancher de lipides est à 50 g et qui les manque plus souvent qu'il ne les dépasse."
+        "texte": "LE KŌYADŌFU EST DU TOFU CONGELÉ PUIS LYOPHILISÉ. Le procédé retire l'eau et laisse la protéine, le gras et une structure alvéolaire : de l'ordre de 50 G DE PROTÉINES AUX 100 G DE PRODUIT SEC. À titre de comparaison, le tofu ferme frais en porte 8 à 12 g aux 100 g, parce qu'il est surtout composé d'eau.\n\nCE QUE ÇA CHANGE CONCRÈTEMENT. Cent grammes de blocs secs — un demi-sachet, quelques dollars — donnent 50 g de protéines, soit un tiers de la cible quotidienne du dossier, POUR UN INGRÉDIENT QUI SE GARDE SIX MOIS DANS UNE ARMOIRE. Aucune autre protéine du recueil n'a ce profil : la viande demande un congélateur et une décongélation, le tofu frais périme en une semaine, les œufs se comptent.\n\nC'EST DONC L'ASSURANCE DU PLANCHER DE 130 G. Les jours où la planification déraille, où le poisson n'a pas été sorti et où il ne reste rien de décongelé, ce sachet dans l'armoire est ce qui permet de monter un souper à 32 g de protéines en vingt minutes, dont douze sans surveillance.\n\nET LES LIPIDES SONT RÉELS, IL FAUT LE SAVOIR. Le procédé concentre aussi le gras du soya : de l'ordre de 30 g aux 100 g de produit sec. Sur cette fiche, ça fait environ 14 g par portion, ce qui est BEAUCOUP pour un plat sans huile ajoutée — mais c'est un gras utile dans un dossier dont le plancher de lipides est à 50 g et qui les manque plus souvent qu'il ne les dépasse."
       },
       {
         "titre": "La texture, et pourquoi elle divise",
-        "texte": "UN KOYADOFU BIEN FAIT EST UNE ÉPONGE GORGÉE DE BOUILLON : on mord, et le liquide sort. C'est exactement le but, et c'est aussi ce qui le rend déroutant à la première bouchée pour quelqu'un qui ne s'y attend pas. LA TEXTURE DOMINANTE DE CETTE FICHE EST MOELLEUSE, ET IL N'Y A RIEN DE FERME NI DE CROQUANT DEDANS.\n\nCONSÉQUENCE DE MONTAGE, ET ELLE COMPTE : CE PLAT A BESOIN D'UN CONTRASTE À CÔTÉ. Un accompagnement croquant — namul de germes de soya (R72), daikon en allumettes (R83), chou cru — ou une garniture sèche à table. Servi seul avec du riz, c'est un repas où rien ne résiste, et le recueil a déjà appris ce que ça donne : un plat bon jugé incomplet.\n\nDEUX RATÉS À CONNAÎTRE. UN — TREMPER À L'EAU BOUILLANTE : le bloc se désagrège en surface et devient pâteux. Tiède, jamais chaude. DEUX — MAL PRESSER : il reste de l'eau de trempage à l'intérieur, elle dilue le bouillon en cuisant et le plat goûte plat malgré un assaisonnement correct.\n\nOÙ L'ACHETER : Kim Phat, allée 8, avec le japonais sec, ou allée 32 avec les produits secs chinois sous le nom de tofu séché. Sachets de 6 à 16 blocs."
+        "texte": "UN KŌYADŌFU BIEN FAIT EST UNE ÉPONGE GORGÉE DE BOUILLON : on mord, et le liquide sort. C'est exactement le but, et c'est aussi ce qui le rend déroutant à la première bouchée pour quelqu'un qui ne s'y attend pas. LA TEXTURE DOMINANTE DE CETTE FICHE EST MOELLEUSE, ET IL N'Y A RIEN DE FERME NI DE CROQUANT DEDANS.\n\nCONSÉQUENCE DE MONTAGE, ET ELLE COMPTE : CE PLAT A BESOIN D'UN CONTRASTE À CÔTÉ. Un accompagnement croquant — namul de germes de soya (R72), daikon en allumettes (R83), chou cru — ou une garniture sèche à table. Servi seul avec du riz, c'est un repas où rien ne résiste, et le recueil a déjà appris ce que ça donne : un plat bon jugé incomplet.\n\nDEUX RATÉS À CONNAÎTRE. UN — TREMPER À L'EAU BOUILLANTE : le bloc se désagrège en surface et devient pâteux. Tiède, jamais chaude. DEUX — MAL PRESSER : il reste de l'eau de trempage à l'intérieur, elle dilue le bouillon en cuisant et le plat goûte plat malgré un assaisonnement correct.\n\nOÙ L'ACHETER : Kim Phat, allée 8, avec le japonais sec, ou allée 32 avec les produits secs chinois sous le nom de tofu séché. Sachets de 6 à 16 blocs."
       }
     ],
     "ajustement": null,
@@ -11718,8 +11812,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "miEfiWtezkw",
+      "auteur": "Just One Cookbook",
+      "langue": null
     },
     "voir_aussi": [
       "R72",
@@ -11857,8 +11952,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "NWfhIq_MiiU",
+      "auteur": "Maangchi",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -11990,7 +12086,7 @@
         "texte": "LA VAPEUR EST LA SEULE MÉTHODE DE CUISSON DU RECUEIL QUI N'EXIGE AUCUNE MATIÈRE GRASSE ET QUI NE DESSÈCHE RIEN. Les 9 g de lipides par portion sont ceux du poisson plus la demi-cuillère à thé d'huile qui sert au grésillement final. Un poisson poêlé au même poids en porterait 5 à 8 de plus, un poisson frit trois fois plus.\n\nET LE SODIUM TIENT SOUS 500 MG PARCE QUE LA SAUCE EST MESURÉE ET VERSÉE À LA FIN. Une cuillère à soupe de soya réduit pour deux portions, soit 250 mg par personne, plus ce que le poisson en contient naturellement. C'EST LA MOITIÉ DE CE QUE PORTE UN SOUPER MOYEN DU PLAN.\n\nLE GESTE DE L'HUILE FUMANTE MÉRITE D'ÊTRE COMPRIS PLUTÔT QUE SUIVI. Le gingembre et l'oignon vert crus sont piquants et végétaux; touchés une seconde par une huile à 180 °C, leurs composés soufrés se transforment et deviennent aromatiques. C'EST LE MÊME PRINCIPE QUE R35 ET QUE T11. Une cuillère à thé suffit, et la poêle doit être petite sinon l'huile brûle avant d'être versée.\n\nET LA SAUCE SE VERSE AUTOUR, PAS DESSUS. Versée sur le poisson, elle rince les aromates au fond de l'assiette et le poisson devient uniformément salé. Autour, on trempe chaque bouchée autant qu'on veut — c'est encore la logique du sel servi à côté."
       },
       {
-        "titre": "Le hat nem, le sodium caché de cette cuisine",
+        "titre": "Le hạt nêm, le sodium caché de cette cuisine",
         "texte": "PRESQUE TOUTES LES RECETTES FAMILIALES VIETNAMIENNES DOCUMENTÉES CONTIENNENT DU HẠT NÊM — du bouillon de poulet ou de porc en poudre. Il est AUSSI SALÉ QUE LE SEL, il en faut une cuillère à soupe ou plus par plat, et IL N'ENTRE DANS AUCUN CALCUL parce que personne ne le compte comme un assaisonnement : on le voit comme un exhausteur.\n\nL'ORDRE DE GRANDEUR EST CELUI-CI : DANS UNE SOUPE AIGRE VIETNAMIENNE, LA CUILLÈRE À SOUPE DE HẠT NÊM PÈSE PLUS LOURD EN SODIUM QUE LES DEUX CUILLÈRES À THÉ DE SAUCE DE POISSON DU MÊME PLAT. C'est la découverte la plus utile de l'analyse du corpus vietnamien, et elle est contre-intuitive : le coupable n'est pas la sauce de poisson, qui est visible et qu'on dose, c'est la poudre qu'on ne compte pas.\n\nDANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Et ce qu'il apportait se remplace : les CHAMPIGNONS SÉCHÉS et leur eau de trempage donnent le glutamate; l'OIGNON GRILLÉ à sec donne la profondeur; le POIVRE BLANC donne la longueur en bouche. Les trois sont dans cette fiche pour cette raison.\n\nLA MÊME VIGILANCE VAUT POUR TOUTE RECETTE VIETNAMIENNE TROUVÉE AILLEURS : chercher hạt nêm, bột canh ou bouillon en poudre dans la liste, et le retirer avant de calculer quoi que ce soit."
       }
     ],
@@ -12004,8 +12100,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "3p0kTLZNWsA",
+      "auteur": "Helen's Recipes (Vietnamese Food)",
+      "langue": null
     },
     "voir_aussi": [
       "R35"
@@ -12169,8 +12266,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "PV__ThYw6VI",
+      "auteur": "Pailin's Kitchen",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -12316,8 +12414,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "4Zfh5qTwgOY",
+      "auteur": "ochikeron",
+      "langue": null
     },
     "voir_aussi": [
       "R7"
@@ -12474,8 +12573,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "VeNUmfjeOIw",
+      "auteur": "Made With Lau",
+      "langue": null
     },
     "voir_aussi": [
       "R72",
@@ -12614,8 +12714,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "mz98rHLxtiM",
+      "auteur": "Maangchi",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -12759,8 +12860,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "h6PXM-dlytI",
+      "auteur": "Pailin's Kitchen",
+      "langue": null
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -12884,7 +12986,7 @@
     "notes": [
       {
         "titre": "Un sauté-repas, et le recueil n'en avait pas un seul",
-        "texte": "LE RECUEIL A DES SAUTÉS — le shogayaki, le bœuf et brocoli, le mapo — MAIS AUCUN SAUTÉ-REPAS AU SENS JAPONAIS : une poêlée unique qui porte la protéine et les quatre tasses de légumes en même temps. C'est le format le plus utilisé dans les foyers japonais après le curry, précisément parce qu'il vide le frigo et ne demande qu'une poêle.\n\nLA STRUCTURE EST PARFAITEMENT ALIGNÉE SUR LE GABARIT DU SOUPER : moitié légumes, quart protéine, quart féculent. Quatre cents grammes de légumes pour 250 g de porc et un bol de riz, c'est le ratio écrit au guide 5, obtenu sans y penser.\n\nET C'EST LE MEILLEUR DÉBOUCHÉ POUR LES SACS DE PORC TRANCHÉ MINCE DU CONGÉLATEUR. Ils se décongèlent en dix minutes à l'eau froide et ils sont déjà à la bonne épaisseur — aucune découpe. LE PORC TRANCHÉ MINCE EST L'ARTICLE DU CONGÉLATEUR QUI ATTEND LE PLUS LONGTEMPS SON DEUXIÈME PLAT.\n\nLE SODIUM À 400 MG POUR DEUX PORTIONS TIENT À DEUX CHOSES : la sauce est prémélangée au bol (T18) donc mesurée, et il n'y a qu'une cuillère à soupe de soya pour deux personnes. UN SAUTÉ ASSAISONNÉ À L'ŒIL AU-DESSUS DE LA POÊLE EN PORTE COURAMMENT LE DOUBLE, et c'est invisible."
+        "texte": "LE RECUEIL A DES SAUTÉS — le shōgayaki, le bœuf et brocoli, le mapo — MAIS AUCUN SAUTÉ-REPAS AU SENS JAPONAIS : une poêlée unique qui porte la protéine et les quatre tasses de légumes en même temps. C'est le format le plus utilisé dans les foyers japonais après le curry, précisément parce qu'il vide le frigo et ne demande qu'une poêle.\n\nLA STRUCTURE EST PARFAITEMENT ALIGNÉE SUR LE GABARIT DU SOUPER : moitié légumes, quart protéine, quart féculent. Quatre cents grammes de légumes pour 250 g de porc et un bol de riz, c'est le ratio écrit au guide 5, obtenu sans y penser.\n\nET C'EST LE MEILLEUR DÉBOUCHÉ POUR LES SACS DE PORC TRANCHÉ MINCE DU CONGÉLATEUR. Ils se décongèlent en dix minutes à l'eau froide et ils sont déjà à la bonne épaisseur — aucune découpe. LE PORC TRANCHÉ MINCE EST L'ARTICLE DU CONGÉLATEUR QUI ATTEND LE PLUS LONGTEMPS SON DEUXIÈME PLAT.\n\nLE SODIUM À 400 MG POUR DEUX PORTIONS TIENT À DEUX CHOSES : la sauce est prémélangée au bol (T18) donc mesurée, et il n'y a qu'une cuillère à soupe de soya pour deux personnes. UN SAUTÉ ASSAISONNÉ À L'ŒIL AU-DESSUS DE LA POÊLE EN PORTE COURAMMENT LE DOUBLE, et c'est invisible."
       },
       {
         "titre": "L'ordre des légumes est la recette",
@@ -12901,8 +13003,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "deoawaSi5Xs",
+      "auteur": "JapaneseCooking101",
+      "langue": null
     },
     "voir_aussi": [
       "R17"
@@ -13046,8 +13149,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "acVbGzWXLrg",
+      "auteur": "DAPUR BERKAH LEGOWO",
+      "langue": "id"
     },
     "voir_aussi": [],
     "commentaire_source": ""
@@ -13201,8 +13305,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "NefPocSaeDU",
+      "auteur": "Maangchi",
+      "langue": null
     },
     "voir_aussi": [
       "R77"
@@ -13340,8 +13445,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "zR17Tc-V3sw",
+      "auteur": "JapaneseCooking101",
+      "langue": null
     },
     "voir_aussi": [
       "R72",
@@ -13477,8 +13583,9 @@
     "pour_la_maison": null,
     "photo": null,
     "video": {
-      "youtube_id": null,
-      "auteur": null
+      "youtube_id": "Tp1Bbva-o8s",
+      "auteur": "Maangchi",
+      "langue": null
     },
     "voir_aussi": [
       "R45",

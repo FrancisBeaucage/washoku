@@ -125,7 +125,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_strips_of_radish.jpg?width=1200",
   "video": {
     "youtube_id": null,
-    "auteur": null
+    "auteur": null,
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

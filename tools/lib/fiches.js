@@ -104,7 +104,11 @@ function versJson(r) {
        trois étoiles de l'autre. */
     pour_la_maison: null,
     photo: r.img,
-    video: { youtube_id: r.yt || null, auteur: r.ytBy || null },
+    /* `langue` n'est remplie que quand elle est utile — c'est-à-dire quand la
+       démonstration n'est ni en français ni en anglais. Une vidéo muette pour
+       son lecteur reste utile pour les gestes, mais il faut le savoir avant de
+       cliquer. Voir `LANGUES_VIDEO` dans `champs.js`. */
+    video: { youtube_id: r.yt || null, auteur: r.ytBy || null, langue: r.ytLang || null },
     voir_aussi: [],
   };
 }
@@ -114,6 +118,7 @@ function versFiche(f) {
   const r = { id: f.id, cui: C.CUISINES_INV[f.cuisine] };
   if (f.video.youtube_id) r.yt = f.video.youtube_id;
   if (f.video.auteur) r.ytBy = f.video.auteur;
+  if (f.video.langue) r.ytLang = f.video.langue;
   r.cat = C.CATEGORIES_INV[f.categorie];
   // Nuls permis depuis S7 : on n'écrit pas `jp:null` dans la page.
   if (f.jp) r.jp = f.jp;

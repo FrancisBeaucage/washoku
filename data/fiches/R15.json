@@ -92,7 +92,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salmon_Saikyo-Yaki.jpg?width=1200",
   "video": {
     "youtube_id": "a_YTAcSZOPw",
-    "auteur": "Just One Cookbook"
+    "auteur": "Just One Cookbook",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": "\n"

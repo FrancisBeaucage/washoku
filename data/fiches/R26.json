@@ -114,7 +114,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chen_Mapo_Tofu.jpg?width=1200",
   "video": {
     "youtube_id": "AujuLHK3hvs",
-    "auteur": "Chinese Cooking Demystified"
+    "auteur": "Chinese Cooking Demystified",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

@@ -128,7 +128,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiyayakko_with_bonito_flakes_and_welsh_onion_2.jpg?width=1200",
   "video": {
     "youtube_id": "Fkyb1mixSCE",
-    "auteur": "Sudachi"
+    "auteur": "Sudachi",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

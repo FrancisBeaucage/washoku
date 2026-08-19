@@ -117,7 +117,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20chicken%20thighs.jpg?width=1200",
   "video": {
     "youtube_id": "00Qcvz21Bak",
-    "auteur": "Japanese Cooking 101"
+    "auteur": "Japanese Cooking 101",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

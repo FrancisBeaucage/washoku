@@ -114,7 +114,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
   "video": {
     "youtube_id": "zBnR0bdU_JM",
-    "auteur": "Japanese Cooking 101"
+    "auteur": "Japanese Cooking 101",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

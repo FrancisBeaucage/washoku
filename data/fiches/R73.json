@@ -125,7 +125,7 @@
       "texte": "LA VAPEUR EST LA SEULE MÉTHODE DE CUISSON DU RECUEIL QUI N'EXIGE AUCUNE MATIÈRE GRASSE ET QUI NE DESSÈCHE RIEN. Les 9 g de lipides par portion sont ceux du poisson plus la demi-cuillère à thé d'huile qui sert au grésillement final. Un poisson poêlé au même poids en porterait 5 à 8 de plus, un poisson frit trois fois plus.\n\nET LE SODIUM TIENT SOUS 500 MG PARCE QUE LA SAUCE EST MESURÉE ET VERSÉE À LA FIN. Une cuillère à soupe de soya réduit pour deux portions, soit 250 mg par personne, plus ce que le poisson en contient naturellement. C'EST LA MOITIÉ DE CE QUE PORTE UN SOUPER MOYEN DU PLAN.\n\nLE GESTE DE L'HUILE FUMANTE MÉRITE D'ÊTRE COMPRIS PLUTÔT QUE SUIVI. Le gingembre et l'oignon vert crus sont piquants et végétaux; touchés une seconde par une huile à 180 °C, leurs composés soufrés se transforment et deviennent aromatiques. C'EST LE MÊME PRINCIPE QUE R35 ET QUE T11. Une cuillère à thé suffit, et la poêle doit être petite sinon l'huile brûle avant d'être versée.\n\nET LA SAUCE SE VERSE AUTOUR, PAS DESSUS. Versée sur le poisson, elle rince les aromates au fond de l'assiette et le poisson devient uniformément salé. Autour, on trempe chaque bouchée autant qu'on veut — c'est encore la logique du sel servi à côté."
     },
     {
-      "titre": "Le hat nem, le sodium caché de cette cuisine",
+      "titre": "Le hạt nêm, le sodium caché de cette cuisine",
       "texte": "PRESQUE TOUTES LES RECETTES FAMILIALES VIETNAMIENNES DOCUMENTÉES CONTIENNENT DU HẠT NÊM — du bouillon de poulet ou de porc en poudre. Il est AUSSI SALÉ QUE LE SEL, il en faut une cuillère à soupe ou plus par plat, et IL N'ENTRE DANS AUCUN CALCUL parce que personne ne le compte comme un assaisonnement : on le voit comme un exhausteur.\n\nL'ORDRE DE GRANDEUR EST CELUI-CI : DANS UNE SOUPE AIGRE VIETNAMIENNE, LA CUILLÈRE À SOUPE DE HẠT NÊM PÈSE PLUS LOURD EN SODIUM QUE LES DEUX CUILLÈRES À THÉ DE SAUCE DE POISSON DU MÊME PLAT. C'est la découverte la plus utile de l'analyse du corpus vietnamien, et elle est contre-intuitive : le coupable n'est pas la sauce de poisson, qui est visible et qu'on dose, c'est la poudre qu'on ne compte pas.\n\nDANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Et ce qu'il apportait se remplace : les CHAMPIGNONS SÉCHÉS et leur eau de trempage donnent le glutamate; l'OIGNON GRILLÉ à sec donne la profondeur; le POIVRE BLANC donne la longueur en bouche. Les trois sont dans cette fiche pour cette raison.\n\nLA MÊME VIGILANCE VAUT POUR TOUTE RECETTE VIETNAMIENNE TROUVÉE AILLEURS : chercher hạt nêm, bột canh ou bouillon en poudre dans la liste, et le retirer avant de calculer quoi que ce soit."
     }
   ],
@@ -139,8 +139,9 @@
   "pour_la_maison": null,
   "photo": null,
   "video": {
-    "youtube_id": null,
-    "auteur": null
+    "youtube_id": "3p0kTLZNWsA",
+    "auteur": "Helen's Recipes (Vietnamese Food)",
+    "langue": null
   },
   "voir_aussi": [
     "R35"

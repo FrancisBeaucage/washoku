@@ -100,7 +100,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_preppybyday_4711943668--Tom_kha_gai.jpg?width=1200",
   "video": {
     "youtube_id": "OooFZU2ZktY",
-    "auteur": "Hot Thai Kitchen"
+    "auteur": "Hot Thai Kitchen",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

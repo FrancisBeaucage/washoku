@@ -134,7 +134,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
   "video": {
     "youtube_id": "DfFv9gTxrbs",
-    "auteur": "Just One Cookbook"
+    "auteur": "Just One Cookbook",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

@@ -103,7 +103,7 @@
   "notes": [
     {
       "titre": "Deux plats d'une casserole, et le sel qui reste dehors",
-      "texte": "LE MÉCANISME EST DOUBLEMENT ÉCONOME ET C'EST POUR ÇA QUE CETTE FICHE EXISTE. Une casserole et huit minutes donnent le poste légume et le poste soupe du ichiju sansai — deux des quatre cases du repas. Et les vitamines hydrosolubles que le blanchiment fait sortir du légume ne sont pas jetées : elles sont dans le bol.\n\nLE VRAI GAIN EST AILLEURS, ET IL EST STRUCTUREL : TOUT LE SODIUM DU PLAT EST DANS UN BOL À CÔTÉ, PAS DANS LE PLAT. La trempette entière porte de l'ordre de 1 400 mg pour deux personnes, mais on n'en consomme que ce qu'on trempe — de l'ordre de deux à trois cuillères à thé par personne, soit 200 à 350 mg. Le même sel versé sur le légume dans la poêle aurait été mangé en entier.\n\nC'EST EXACTEMENT LA LOGIQUE DU CONTENANT QUI DÉCIDE DE LA PORTION, APPLIQUÉE AU SEL AU LIEU DE LA NOURRITURE. Et c'est la manœuvre centrale de la cuisine vietnamienne, pas une astuce : le nuoc cham est déjà lui-même une dilution — deux cuillères à soupe de sauce de poisson pour six d'eau, servies à trois personnes.\n\nLE PIÈGE DE CETTE CUISINE N'EST PAS LA SAUCE DE POISSON, C'EST LE HAT NEM. Le bouillon de poulet en poudre figure dans presque toutes les recettes familiales vietnamiennes documentées, il est aussi salé que le sel, et il n'entre dans aucun calcul parce que personne ne le compte comme un assaisonnement. DANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Le goût qu'il apportait se retrouve dans les champignons séchés, l'oignon grillé et le poivre blanc.\n\nET L'EAU DE CUISSON NE SE SALE PRESQUE PAS. Blanchir dans une eau salée met du sel dans le légume ET dans la soupe — deux fois. Une pincée dans l'eau suffit, et la lime fait le reste."
+      "texte": "LE MÉCANISME EST DOUBLEMENT ÉCONOME ET C'EST POUR ÇA QUE CETTE FICHE EXISTE. Une casserole et huit minutes donnent le poste légume et le poste soupe du ichiju sansai — deux des quatre cases du repas. Et les vitamines hydrosolubles que le blanchiment fait sortir du légume ne sont pas jetées : elles sont dans le bol.\n\nLE VRAI GAIN EST AILLEURS, ET IL EST STRUCTUREL : TOUT LE SODIUM DU PLAT EST DANS UN BOL À CÔTÉ, PAS DANS LE PLAT. La trempette entière porte de l'ordre de 1 400 mg pour deux personnes, mais on n'en consomme que ce qu'on trempe — de l'ordre de deux à trois cuillères à thé par personne, soit 200 à 350 mg. Le même sel versé sur le légume dans la poêle aurait été mangé en entier.\n\nC'EST EXACTEMENT LA LOGIQUE DU CONTENANT QUI DÉCIDE DE LA PORTION, APPLIQUÉE AU SEL AU LIEU DE LA NOURRITURE. Et c'est la manœuvre centrale de la cuisine vietnamienne, pas une astuce : le nuoc cham est déjà lui-même une dilution — deux cuillères à soupe de sauce de poisson pour six d'eau, servies à trois personnes.\n\nLE PIÈGE DE CETTE CUISINE N'EST PAS LA SAUCE DE POISSON, C'EST LE HẠT NÊM. Le bouillon de poulet en poudre figure dans presque toutes les recettes familiales vietnamiennes documentées, il est aussi salé que le sel, et il n'entre dans aucun calcul parce que personne ne le compte comme un assaisonnement. DANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Le goût qu'il apportait se retrouve dans les champignons séchés, l'oignon grillé et le poivre blanc.\n\nET L'EAU DE CUISSON NE SE SALE PRESQUE PAS. Blanchir dans une eau salée met du sel dans le légume ET dans la soupe — deux fois. Une pincée dans l'eau suffit, et la lime fait le reste."
     }
   ],
   "ajustement": null,
@@ -116,8 +116,9 @@
   "pour_la_maison": null,
   "photo": null,
   "video": {
-    "youtube_id": null,
-    "auteur": null
+    "youtube_id": "9LjjC6raTKE",
+    "auteur": "Kỹ Năng Vào Bếp",
+    "langue": "vi"
   },
   "voir_aussi": [],
   "commentaire_source": ""

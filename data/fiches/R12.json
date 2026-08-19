@@ -110,7 +110,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaru%20soba%20by%20spinachdip.jpg?width=1200",
   "video": {
     "youtube_id": "-ojltkREE1c",
-    "auteur": "Just One Cookbook"
+    "auteur": "Just One Cookbook",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

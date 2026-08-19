@@ -518,6 +518,9 @@ const GABARIT_FICHE = `${ETATS}
               <iframe src="https://www.youtube-nocookie.com/embed/{{ f.youtube }}" title="{{ f.fr }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe>
             </div>
             <p style="margin:8px 0 0;font-size:13px;line-height:1.5;color:#605d5d">Démonstration par <strong>{{ f.videoAuteur }}</strong> — la recette peut varier un peu.</p>
+            <sc-if value="{{ f.hasVideoLangue }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:4px 0 0;font-size:13px;line-height:1.5;color:#605d5d">Elle est <strong>{{ f.videoLangue }}</strong> : les gestes se suivent sans le son, les quantités se lisent ici.</p>
+            </sc-if>
           </div>
         </sc-if>
 
@@ -613,6 +616,11 @@ class Component extends DCLogic {
         hasAvance: !!o.preparation_avance, avance: o.preparation_avance || "",
         hasVideo: !!(o.video && o.video.youtube_id),
         youtube: (o.video && o.video.youtube_id) || "", videoAuteur: (o.video && o.video.auteur) || "",
+        /* La langue de la démonstration, et seulement quand elle est déclarée :
+           R80 est en indonésien et T21 en vietnamien. Le geste se voit quand
+           même, mais on veut le savoir avant de cliquer. */
+        hasVideoLangue: !!(o.video && o.video.langue),
+        videoLangue: LIB("video_langue", (o.video && o.video.langue) || null),
         hasTechniques: !!(o.techniques && o.techniques.length),
         techniques: (o.techniques || []).map(id => ({ id: id, label: nom(id) })),
         hasVoirAussi: !!(o.voir_aussi && o.voir_aussi.length),

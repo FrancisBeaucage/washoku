@@ -99,7 +99,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Una_chazuke_by_Kossy%40FINEDAYS_in_Akabane.jpg?width=1200",
   "video": {
     "youtube_id": "VEodY9THtmw",
-    "auteur": "Just One Cookbook"
+    "auteur": "Just One Cookbook",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

@@ -123,7 +123,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
   "video": {
     "youtube_id": "hXaaZiMgvgI",
-    "auteur": "Hot Thai Kitchen"
+    "auteur": "Hot Thai Kitchen",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

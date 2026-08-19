@@ -126,7 +126,8 @@
   "photo": "assets/recettes/flocons-saumon.jpg",
   "video": {
     "youtube_id": null,
-    "auteur": null
+    "auteur": null,
+    "langue": null
   },
   "voir_aussi": []
 }

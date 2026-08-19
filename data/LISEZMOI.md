@@ -341,7 +341,7 @@ La règle 20 doit le savoir pour ne pas crier au loup.
 
 ## Les champs à valeurs fermées
 
-Vingt-quatre champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
+Vingt-cinq champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
 vérifie tous**, à partir d'une seule table `champ → ensemble permis` dans
 `tools/lib/ensembles.js` — pas vingt-deux règles particulières, qui laisseraient
 repasser la vingt-troisième.
@@ -379,6 +379,7 @@ que la table — deux copies d'un ensemble finiraient par diverger.
 | guide 2 | `axe_texture` | liste | `AXES_TEXTURE` |
 | guide 2 | `moment` | liste | `MOMENTS` |
 | guide 2 | `langue_origine` | valeur | `LANGUES`, ou `null` |
+| guide 2 | `video.langue` | valeur | `LANGUES_VIDEO`, ou `null` |
 | guide 2 | `etoiles` | par-lecteur | 1 à 5, ou `null` |
 | guide 2 | `cout_travail` | valeur | `leger`, `moyen`, `lourd`, ou `null` |
 | guide 2 | `statut_perso` | par-lecteur | `STATUTS_PERSO` |
@@ -495,6 +496,23 @@ et il reste réinscriptible — une recette peut porter un nom d'une autre langu
 sa cuisine. Au guide 3, il vaut `null` tant que personne ne l'a établi : `aucune`
 serait une affirmation, `null` dit qu'on ne sait pas. **Les fiches existantes ne
 perdent aucun nom : c'est une ouverture, pas une migration.**
+
+### `video.langue`
+
+**Ce que `video` porte : `youtube_id`, `auteur`, et depuis le document 24
+`langue`.** La **règle 18** exige depuis longtemps qu'une vidéo dise de quelle
+chaîne elle vient — une démonstration sans auteur est une source anonyme. Le
+document 24 ajoute la langue parlée, et pour une raison précise : deux de ses
+vingt-huit vidéos sont dans une langue que le lecteur ne parle pas, `R80` en
+indonésien et `T21` en vietnamien. **Une vidéo muette pour son lecteur reste
+utile pour les gestes, mais il faut le savoir avant de cliquer**, et la page le
+dit maintenant sous le cadre.
+
+⚠️ **`null` ne veut pas dire « français ».** Il veut dire que personne ne l'a
+établi. Le champ ne se remplit que quand la réponse est utile, c'est-à-dire quand
+la langue n'est ni le français ni l'anglais : écrire `en` sur les quatre-vingt-dix
+autres serait exact et sans emploi. C'est la même convention que `langue_origine`
+au guide 3, où `null` dit qu'on ne sait pas et `aucune` serait une affirmation.
 
 ## Les deux blocs des fiches du guide 2
 

@@ -115,7 +115,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso%20soup%20and%20Rice%2020141027.jpg?width=1200",
   "video": {
     "youtube_id": "8wVjpLI2mp0",
-    "auteur": "Japanese Cooking 101"
+    "auteur": "Japanese Cooking 101",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

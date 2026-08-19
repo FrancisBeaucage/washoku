@@ -99,6 +99,18 @@ const LANGUE_PAR_CUISINE = {
   laotienne: 'lo', indonesienne: 'id',
 };
 
+/* LA LANGUE PARLÉE DANS LA VIDÉO D'UNE FICHE. Elle n'existe pas pour classer :
+   elle existe parce que le document 24 fournit deux démonstrations dans une
+   langue que le lecteur ne parle pas — `R80` en indonésien, `T21` en
+   vietnamien — et qu'une vidéo muette pour son lecteur reste utile pour les
+   gestes, à condition de le savoir AVANT de cliquer.
+
+   `null` est le cas normal et il ne veut pas dire « français » : il veut dire
+   que personne ne l'a établi. Le champ ne se remplit donc que quand la réponse
+   est utile, c'est-à-dire quand la langue n'est ni le français ni l'anglais.
+   Écrire `fr` ou `en` sur les 91 autres serait un chiffre exact et inutile. */
+const LANGUES_VIDEO = ['fr', 'en', 'ja', 'zh', 'ko', 'vi', 'th', 'lo', 'id'];
+
 /* La base de dosage d'une étiquette du guide 3. Elle est OBLIGATOIRE dès qu'un
    chiffre est porté : un condiment se dose à la cuillère, pas aux 100 g, et
    forcer les 100 g sur une sauce de poisson donne un chiffre juste et
@@ -181,6 +193,13 @@ const LIBELLES = {
     autre: 'Ailleurs',
   },
   cout_travail: { leger: 'Léger', moyen: 'Moyen', lourd: 'Lourd' },
+  /* Une préposition et non un nom de langue : le libellé se lit à la suite de
+     « Démonstration par X », où « Indonésien » ne se serait pas rendu. */
+  video_langue: {
+    fr: 'en français', en: 'en anglais', ja: 'en japonais', zh: 'en chinois',
+    ko: 'en coréen', vi: 'en vietnamien', th: 'en thaï', lo: 'en lao',
+    id: 'en indonésien',
+  },
   statut_perso: {
     'a-l-essai': 'À l’essai', 'au-repertoire': 'Au répertoire', 'de-service': 'De service',
     suspendu: 'Suspendu', ecarte: 'Écarté',
@@ -302,7 +321,8 @@ function paragraphes(texte) {
 module.exports = {
   CUISINES, VITESSES, CATEGORIES, LIBELLES, codeCuisine, LECTEUR,
   TYPES_DE_PLAT, METHODES, AXES_GOUT, AXES_TEXTURE, MOMENTS,
-  COUTS_TRAVAIL, STATUTS_PERSO, LANGUES, LANGUE_PAR_CUISINE, BASES_NUTRITION, ZONES_MAGASIN,
+  COUTS_TRAVAIL, STATUTS_PERSO, LANGUES, LANGUE_PAR_CUISINE, LANGUES_VIDEO,
+  BASES_NUTRITION, ZONES_MAGASIN,
   minutes, minutesMin, minutesTexte, SEPARATEUR_PARAGRAPHE, paragraphes,
   limace,
   CUISINES_INV: inverse(CUISINES), VITESSES_INV: inverse(VITESSES), CATEGORIES_INV: inverse(CATEGORIES),

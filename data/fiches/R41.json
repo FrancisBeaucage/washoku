@@ -104,7 +104,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomato_je.jpg?width=1200",
   "video": {
     "youtube_id": "pvacqcbDb0Y",
-    "auteur": "Wei's Red House Kitchen"
+    "auteur": "Wei's Red House Kitchen",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

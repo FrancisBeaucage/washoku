@@ -99,7 +99,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wet_shirataki_noodles.jpg?width=1200",
   "video": {
     "youtube_id": "qkv_CxkdWB4",
-    "auteur": "Yeung Man Cooking"
+    "auteur": "Yeung Man Cooking",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

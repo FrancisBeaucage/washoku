@@ -99,7 +99,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellowtail%20Kingfish%20and%20tofu%20simmered%20in%20soy%20sauce%20-%20%E5%B1%B1%E5%AE%B6%20Yama-ya.jpg?width=1200",
   "video": {
     "youtube_id": "KG8pBlF2Lsg",
-    "auteur": "Sudachi"
+    "auteur": "Sudachi",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

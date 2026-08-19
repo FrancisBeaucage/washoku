@@ -161,7 +161,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shogayaki.jpg?width=1200",
   "video": {
     "youtube_id": "-9CUm-2cui8",
-    "auteur": "Cooking with Dog"
+    "auteur": "Cooking with Dog",
+    "langue": null
   },
   "voir_aussi": [
     "R63",

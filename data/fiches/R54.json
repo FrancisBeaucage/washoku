@@ -73,7 +73,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashi_pear.jpg?width=1200",
   "video": {
     "youtube_id": null,
-    "auteur": null
+    "auteur": null,
+    "langue": null
   },
   "voir_aussi": []
 }

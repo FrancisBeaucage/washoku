@@ -157,7 +157,8 @@
   "photo": "assets/recettes/niku-udon.jpg",
   "video": {
     "youtube_id": "CBRnRvJNJ10",
-    "auteur": "Just One Cookbook"
+    "auteur": "Just One Cookbook",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

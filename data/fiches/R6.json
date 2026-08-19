@@ -110,7 +110,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_rice_congee.jpg?width=1200",
   "video": {
     "youtube_id": "UE7iz3ePi_E",
-    "auteur": "Japanese Cooking 101"
+    "auteur": "Japanese Cooking 101",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

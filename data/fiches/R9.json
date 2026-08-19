@@ -128,7 +128,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyudon_by_jetalone_in_Higashi-Ginza%2C_Tokyo.jpg?width=1200",
   "video": {
     "youtube_id": null,
-    "auteur": null
+    "auteur": null,
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""

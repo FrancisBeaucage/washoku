@@ -105,7 +105,8 @@
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_wonton_soup.JPG?width=1200",
   "video": {
     "youtube_id": "0RPCzzm8l9I",
-    "auteur": "Made With Lau"
+    "auteur": "Made With Lau",
+    "langue": null
   },
   "voir_aussi": [],
   "commentaire_source": ""
