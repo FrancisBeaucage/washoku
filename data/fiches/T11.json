@@ -1,0 +1,127 @@
+{
+  "id": "T11",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "blanchi"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "blanchir-et-napper-bai-zhuo",
+  "jp": "白灼",
+  "jp_lecture": null,
+  "romaji": "bái zhuó",
+  "langue_origine": "zh",
+  "fr": "Blanchir et napper (bai zhuo)",
+  "sous_titre": "La technique cantonaise qui transforme n'importe quelle verdure en plat en six minutes. On ne cuit pas le légume dans l'assaisonnement — on le blanchit nu, puis on verse la sauce dessus.",
+  "portions": "2",
+  "temps_affiche": "≈ 6 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 4,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 70,
+    "calories_affiche": "≈ 70",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "300 à 400 g d'une verdure à tiges : gai lan, choy sum, bok choy, chou nappa, brocoli, haricots verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Une grande casserole d'eau bouillante, 1 c. à thé de sel, 1 c. à thé d'huile neutre dans l'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "SAUCE, pour 2 portions : 1 c. à soupe de sauce soya réduite en sodium, 1 c. à soupe d'eau ou de dashi, 1/2 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre ou d'huile de sésame, à chauffer à part",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Gingembre en fines juliennes, oignon vert émincé",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger la sauce dans un petit bol AVANT d'allumer le feu. Soya, eau, sucre, remué jusqu'à dissolution."
+    },
+    {
+      "n": 2,
+      "texte": "Eau bouillante salée, avec la cuillère d'huile. L'huile dans l'eau enrobe les feuilles et garde le vert brillant — c'est la seule raison de sa présence."
+    },
+    {
+      "n": 3,
+      "texte": "Tiges d'abord, 30 à 45 secondes. Feuilles ensuite, 20 à 30 secondes. Sortir dès que la couleur vire au vert franc."
+    },
+    {
+      "n": 4,
+      "texte": "Égoutter à fond et dresser en un tas ordonné, tiges dans le même sens."
+    },
+    {
+      "n": 5,
+      "texte": "Verser la sauce sur le légume. Déposer le gingembre et l'oignon vert par-dessus."
+    },
+    {
+      "n": 6,
+      "texte": "Chauffer l'huile à part jusqu'à ce qu'elle fume à peine, la verser sur les aromates. Ça grésille, et c'est ce grésillement qui libère leur parfum."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Une fiche, toutes les verdures",
+      "texte": "CETTE TECHNIQUE EST UN PATRON, PAS UNE RECETTE. C'est ce qui la rend rentable : elle ne s'apprend qu'une fois et elle s'applique à tout ce qui a des tiges et des feuilles. Le rayon des légumes asiatiques devient utilisable en entier — gai lan, choy sum, yu choy, bok choy, épinard chinois, liseron d'eau, haricots longs.\n\nTROIS DÉCLINAISONS DE LA SAUCE, ET ELLES CHANGENT LE PLAT PLUS QUE LE LÉGUME. UN, LA VERSION SOYA, celle ci-dessus, la plus courante. DEUX, LA VERSION AUX HUÎTRES : remplacer le soya par 2 c. à thé de sauce d'huîtres allongées de 1 c. à soupe d'eau. Plus ronde et plus sucrée, et elle porte environ 460 mg de sodium au lieu de 290. TROIS, LA VERSION AIL ET VINAIGRE : 1 gousse d'ail écrasée dans l'huile chaude et 1 c. à thé de vinaigre de riz, sans soya du tout — CELLE-LÀ EST À MOINS DE 50 MG DE SODIUM, et c'est la seule à utiliser un jour où le budget de la journée est déjà mangé.\n\nLA DIFFÉRENCE AVEC T6 EST RÉELLE ET IL FAUT LA VOIR. T6 est un geste de préparation : on blanchit pour ranger un légume au frigo ou pour l'utiliser ailleurs. T11 est un plat fini, monté et servi. LE LÉGUME BLANCHI DE T6 PEUT ENTRER DANS T11 LE LENDEMAIN, à condition de le repasser dix secondes dans l'eau chaude — froid, il refroidit la sauce et le plat tombe à plat."
+    },
+    {
+      "titre": "L'huile fumante n'est pas un détail décoratif",
+      "texte": "LE GESTE FINAL — l'huile chauffée à part et versée sur les aromates crus — EST CE QUI SÉPARE CE PLAT D'UNE SALADE TIÈDE. Le gingembre et l'oignon vert crus sont piquants et végétaux; touchés par une huile à 180 °C, leurs composés soufrés se transforment en une seconde et deviennent aromatiques et doux. C'est le même principe que le poisson vapeur cantonais de R35.\n\nUNE CUILLÈRE À THÉ SUFFIT, ET C'EST TOUT LE GRAS DU PLAT. Ce n'est pas un endroit où être généreux : l'huile en excès s'accumule au fond de l'assiette et ne sert à rien. LA POÊLE DOIT ÊTRE PETITE — une cuillère à thé dans une grande poêle s'évapore et brûle avant d'être versée.\n\nET LE LÉGUME NE SE SALE JAMAIS DANS L'ASSIETTE. Tout le sodium de ce plat est dans la sauce, mesurée d'avance dans un bol. C'est le même principe que la sauce prémélangée de T18, et pour la même raison : on ne dose pas au-dessus d'un plat chaud."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

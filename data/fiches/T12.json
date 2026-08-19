@@ -1,0 +1,113 @@
+{
+  "id": "T12",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "blanchi"
+  ],
+  "axe_gout": [],
+  "axe_texture": [
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "le-blanchiment-prealable-des-viandes-zhuo-shui",
+  "jp": "焯水",
+  "jp_lecture": null,
+  "romaji": "zhuō shuǐ",
+  "langue_origine": "zh",
+  "fr": "Le blanchiment prealable des viandes (zhuo shui)",
+  "sous_titre": "Le geste qui décide si une soupe sera claire ou grise. Cinq minutes d'eau bouillante jetée, et c'est tout.",
+  "portions": "2",
+  "temps_affiche": "≈ 8 min",
+  "temps_minutes": {
+    "preparation": 1,
+    "cuisson": 5,
+    "attente": 2
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": null,
+    "calories_affiche": "—",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "La viande, la volaille ou les os destinés à un bouillon ou à un braisage",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "De l'eau froide en quantité, à couvrir largement",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 ou 3 tranches de gingembre et 1 tronçon d'oignon vert, facultatifs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de saké ou de vin de riz, facultatif",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mettre la viande dans une casserole et couvrir d'EAU FROIDE, jamais d'eau chaude. C'est le point critique de la technique : l'eau froide qui monte lentement fait sortir l'albumine du muscle. L'eau chaude la coagule en surface et l'emprisonne dedans."
+    },
+    {
+      "n": 2,
+      "texte": "Porter à ébullition à feu moyen, sans couvrir. Une écume grise et brune monte : ce sont les protéines sanguines coagulées."
+    },
+    {
+      "n": 3,
+      "texte": "Laisser bouillir 2 à 5 minutes selon la taille des morceaux. Une cuisse entière prend 5 minutes, du haché en boulettes prend 1 minute."
+    },
+    {
+      "n": 4,
+      "texte": "JETER TOUTE L'EAU. Elle ne sert à rien et elle est ce qu'on cherchait à retirer."
+    },
+    {
+      "n": 5,
+      "texte": "Rincer les morceaux sous l'eau froide en frottant du pouce pour décoller l'écume accrochée. Rincer aussi la casserole : il en reste sur les parois."
+    },
+    {
+      "n": 6,
+      "texte": "Repartir avec de l'eau propre pour le bouillon ou le braisage."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi ça compte, et quand ça ne compte pas",
+      "texte": "CE N'EST PAS UN GESTE D'HYGIÈNE, C'EST UN GESTE DE GOÛT ET DE CLARTÉ. L'écume est faite d'albumine, d'hémoglobine résiduelle et de fragments de moelle. Laissée dans le liquide, elle se disperse en particules qui troublent le bouillon et apportent un arrière-goût métallique et légèrement amer que rien ne corrige ensuite — pas plus de sel, pas plus d'aromates.\n\nC'EST LE PRÉREQUIS DES SOUPES CLAIRES, ET LE DOSSIER EN A DÉJÀ PLUSIEURS QUI S'EN PASSENT SANS LE SAVOIR. Un bouillon de poulet monté sans blanchiment préalable est buvable, il n'est simplement pas transparent. Sur un suimono ou un guk, dont toute l'esthétique est la clarté, la différence est visible dans le bol.\n\nQUAND NE PAS LE FAIRE. Sur une viande destinée à un sauté ou à un grill : on jetterait du jus et du goût pour rien, et la surface humide empêcherait ensuite la coloration. Sur du poisson : sa chair est trop fragile et il n'a pas d'albumine sanguine en quantité. LA RÈGLE EST SIMPLE : on blanchit ce qui va mijoter longtemps dans un liquide qu'on va manger.\n\nET IL Y A UNE VOIE PLUS LENTE MAIS MEILLEURE POUR UN BOUILLON QU'ON SOIGNE : ne pas blanchir, monter à frémissement et ÉCUMER À LA LOUCHE pendant les dix premières minutes. On garde plus de goût. Ça demande d'être devant la casserole, ce que le blanchiment évite. LES DEUX SONT CORRECTS; LE BLANCHIMENT EST CELUI QUI PARDONNE L'INATTENTION."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,127 @@
+{
+  "id": "T14",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "la-saisie-eclair-bao",
+  "jp": "爆",
+  "jp_lecture": null,
+  "romaji": "bào",
+  "langue_origine": "zh",
+  "fr": "La saisie eclair (bao)",
+  "sous_titre": "Quatre-vingt-dix secondes, aucune fécule, aucune sauce liée. La croyance la plus tenace sur la cuisine chinoise est qu'un sauté doit être nappé — c'est faux, et ce plat le prouve.",
+  "portions": "2",
+  "temps_affiche": "≈ 4 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 2,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": null,
+    "calories_affiche": "—",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "250 à 300 g de protéine coupée en morceaux de taille égale : crevettes, poulet en cubes, bœuf tranché mince, rognon, calmar",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Aromates : 2 gousses d'ail, 2 tranches de gingembre, 3 oignons verts en tronçons de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE, prémélangée au bol selon T18 : 1 c. à soupe de sauce soya réduite en sodium, 1 c. à thé de vinaigre de riz, 1 c. à thé de saké, 1/2 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif, hors du feu : 1/2 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "TOUT EST COUPÉ, MESURÉ ET À PORTÉE DE MAIN AVANT D'ALLUMER. La technique dure moins longtemps qu'il n'en faut pour aller chercher quelque chose."
+    },
+    {
+      "n": 2,
+      "texte": "Éponger la protéine à sec au papier absorbant. Une surface humide produit de la vapeur, et la vapeur empêche la coloration."
+    },
+    {
+      "n": 3,
+      "texte": "Poêle vide à feu vif jusqu'à ce qu'une goutte d'eau danse et s'évapore en une seconde. Puis l'huile."
+    },
+    {
+      "n": 4,
+      "texte": "La protéine en une seule couche, sans la toucher pendant 40 secondes. Retourner, 30 secondes."
+    },
+    {
+      "n": 5,
+      "texte": "Les aromates, 20 secondes. La sauce prémélangée versée sur le bord de la poêle, jamais au centre — elle grésille et réduit en dix secondes."
+    },
+    {
+      "n": 6,
+      "texte": "Hors du feu. L'huile de sésame maintenant, si on en met. Servir immédiatement : ce plat n'attend pas."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Une sauce liée n'est pas obligatoire",
+      "texte": "LA FÉCULE EST UNE CONVENTION DE RESTAURANT, PAS UNE NÉCESSITÉ DE LA CUISINE CHINOISE DOMESTIQUE. Un restaurant lie ses sauces parce que ça les fait briller sous la lampe, ça les fait tenir sur la viande pendant le trajet jusqu'à la table, et ça permet d'étirer un peu de sauce sur beaucoup d'assiettes. Aucune de ces trois raisons ne s'applique à une cuisine de maison.\n\nCE QUE LE BAO DONNE À LA PLACE : un plat sec, brillant de son propre jus caramélisé, où l'on goûte la viande et l'aromate au lieu de goûter la sauce. LES DEUX GAINS SONT MESURABLES. La fécule apporte des glucides sans intérêt nutritionnel, et surtout une sauce liée ENROBE le sel au lieu de le laisser s'égoutter — à sodium égal versé dans la poêle, un plat lié est plus salé en bouche parce que tout reste collé à la protéine.\n\nLA CONTREPARTIE, ET ELLE EST RÉELLE : il n'y a pas de sauce pour le riz. C'est un plat qui s'accompagne, pas un plat qui nappe. Si le riz a besoin de quelque chose, c'est un condiment à côté — pas une sauce liée dans la poêle."
+    },
+    {
+      "titre": "Le guo you — la technique que ce dossier refuse, et pourquoi le dire vaut mieux que l'éviter",
+      "texte": "IL EXISTE UNE TECHNIQUE CHINOISE QUI PRÉCÈDE SOUVENT LE SAUTÉ ET QUE CE DOSSIER ÉCARTE EXPLICITEMENT : LE 过油, guò yóu, LE PRÉ-PASSAGE À L'HUILE. On plonge la protéine ou le légume trente à soixante secondes dans un bain d'huile à 160-180 °C avant de le sauter. C'est ce qui donne aux plats de restaurant leur texture caractéristique — l'aubergine fondante, le porc croustillant sous sa sauce.\n\nCE N'EST PAS UNE QUESTION DE DOSE. Un légume passé à l'huile en absorbe 15 à 30 g pour deux portions, et l'aubergine en absorbe davantage que tout le reste. Il n'y a pas de version allégée : la technique EST l'absorption.\n\nPOURQUOI NOMMER LE REFUS PLUTÔT QUE D'ÉCARTER LES PLATS UN PAR UN. Parce que c'est le 过油, et pas les plats, qui rend incompatibles le 地三鲜, le 锅包肉 et le 鱼香茄子. Nommé une fois, le refus se transporte : devant une nouvelle recette, il suffit de chercher si elle commence par un bain d'huile. Écarté plat par plat, on se repose la question chaque fois.\n\nET LE SUBSTITUT EXISTE POUR LA PLUPART DES CAS. Une aubergine que l'on veut fondante se fait à la vapeur ou au four, pas dans l'huile. Un porc que l'on veut croustillant se fait selon T23, panure sèche au four. Ce ne sont pas les mêmes plats, et il faut l'assumer plutôt que de prétendre les avoir allégés."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

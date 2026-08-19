@@ -1,0 +1,106 @@
+{
+  "id": "T18",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "la-sauce-premelangee-au-bol-dui-wan-zhi",
+  "jp": "兑碗汁",
+  "jp_lecture": null,
+  "romaji": "duì wǎn zhī",
+  "langue_origine": "zh",
+  "fr": "La sauce premelangee au bol (dui wan zhi)",
+  "sous_titre": "La seule façon de contrôler le sodium d'un plat qui cuit en quatre-vingt-dix secondes. On ne verse rien à l'œil dans une poêle brûlante.",
+  "portions": "2",
+  "temps_affiche": "≈ 2 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": null,
+    "calories_affiche": "—",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "UN PETIT BOL ET UNE CUILLÈRE. C'est tout l'équipement.",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE GABARIT, pour 2 portions : 1 à 1,5 c. à soupe de sauce soya réduite en sodium · 1 c. à soupe de liquide neutre, eau, dashi ou bouillon · 1 c. à thé d'acide, vinaigre de riz ou de Chinkiang · 1 c. à thé de saké ou de vin de riz · 1/2 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de fécule de maïs, SEULEMENT si on veut une sauce liée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé d'huile de sésame, à ajouter hors du feu et jamais au bol",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Tout mesurer dans le bol AVANT d'allumer quoi que ce soit. C'est la seule étape et c'est toute la technique."
+    },
+    {
+      "n": 2,
+      "texte": "Remuer jusqu'à dissolution du sucre. Si on met de la fécule, remuer juste avant de verser : elle se dépose en deux minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Verser d'un seul coup, en fin de cuisson, SUR LE BORD DE LA POÊLE et non au centre. Le contact avec le métal chaud fait sauter l'alcool du saké et concentre la sauce en quelques secondes."
+    },
+    {
+      "n": 4,
+      "texte": "Enrober 15 à 30 secondes et sortir du feu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi cette fiche existe alors qu'elle ne cuit rien",
+      "texte": "UN SAUTÉ DURE DE QUATRE-VINGT-DIX SECONDES À TROIS MINUTES. Pendant ce temps, il faut remuer, surveiller la coloration, et rien ne peut attendre. C'EST LE PIRE MOMENT POSSIBLE POUR MESURER TROIS LIQUIDES. La conséquence est mécanique et se répète : on verse le soya directement de la bouteille, à l'œil, dans une poêle bruyante, et on en met une fois et demie à deux fois trop.\n\nÀ 500 MG DE SODIUM PAR CUILLÈRE À SOUPE DE SOYA RÉDUIT, UN DOUBLEMENT INVOLONTAIRE COÛTE 500 MG — soit un cinquième du plafond de la journée, dépensé sans décision. C'est aussi la raison pour laquelle un même plat refait deux fois ne goûte jamais pareil.\n\nLE BOL RÈGLE LES DEUX PROBLÈMES EN DEUX MINUTES DE MISE EN PLACE. Le dosage est décidé à froid, il est reproductible, et il est vérifiable : on peut goûter la sauce à la cuillère AVANT qu'elle touche la nourriture, ce qui est impossible une fois qu'elle est dans la poêle.\n\nET LE GABARIT EST FAIT POUR ÊTRE MODIFIÉ, PAS RÉCITÉ. Cinq axes : salé, liquide, acide, alcool, sucre. Descendre le soya d'un tiers et monter l'acide d'autant donne un plat qui goûte encore fini. C'EST LE MÊME RAISONNEMENT QUE LA VINAIGRETTE YAM DE T22 — un système à axes compensables plutôt qu'une recette fixe. La différence est que celui-ci passe par la chaleur.\n\nCETTE FICHE EST À LIRE AVANT T14, T13 ET T17. Les trois la supposent."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

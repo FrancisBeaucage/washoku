@@ -1,0 +1,120 @@
+{
+  "id": "T20",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "blanchi",
+    "cru"
+  ],
+  "axe_gout": [
+    "sesame-noisette",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "le-patron-namul-legumes-assaisonnes-a-la-main",
+  "jp": "나물",
+  "jp_lecture": null,
+  "romaji": "namul",
+  "langue_origine": "ko",
+  "fr": "Le patron namul — legumes assaisonnes a la main",
+  "sous_titre": "Un seul mécanisme, six légumes, quatre jours de conservation. Une session de quarante-cinq minutes le dimanche produit quatre ou cinq accompagnements pour la semaine.",
+  "portions": "4",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 5,
+    "attente": 5
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 60,
+    "calories_affiche": "≈ 60",
+    "lipides_g": 3,
+    "sodium_mg": 80,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, sauf le sodium qui vaut environ 80 mg POUR TOUT LE PLAT de quatre portions. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 à 400 g d'un légume, un seul à la fois : germes de soya (kongnamul), épinards, daikon en julienne, courgette, aubergine, fougère, carotte",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "L'ASSAISONNEMENT DE BASE, pour 300 à 400 g : 1 gousse d'ail râpée fin, 1 c. à thé d'huile de sésame grillé, 1 c. à soupe de graines de sésame grillées, 1/4 à 1/2 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 oignon vert émincé, 1/2 c. à thé de gochugaru",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Le sel peut se remplacer par 1 c. à thé de sauce soya réduite en sodium — même sodium, plus de couleur",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "CUIRE LE LÉGUME NU, SANS AUCUN ASSAISONNEMENT. Deux voies selon la structure. VOIE A, blanchiment (feuilles, germes, fougère) : eau bouillante salée, 30 secondes à 1 minute pour des feuilles, 4 à 5 minutes à couvert pour des germes de soya. VOIE B, étuvage à couvert (daikon, courgette, carotte) : une cuillère à thé d'huile, deux cuillères à soupe d'eau, couvert, 5 à 8 minutes — c'est T13 appliqué à un namul."
+    },
+    {
+      "n": 2,
+      "texte": "Refroidir immédiatement à l'eau glacée pour la voie A. Pas pour la voie B."
+    },
+    {
+      "n": 3,
+      "texte": "ESSORER À FOND. À la main, en pressant fermement une botte serrée, droit, sans tordre. C'est ici que se joue le plat."
+    },
+    {
+      "n": 4,
+      "texte": "Assaisonner À LA MAIN, dans un bol, en massant. Pas à la cuillère."
+    },
+    {
+      "n": 5,
+      "texte": "Goûter, ajuster, laisser reposer 5 minutes avant de servir."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le mécanisme est le plat, et il s'applique à tout",
+      "texte": "UN NAMUL N'EST PAS UNE RECETTE, C'EST UN PATRON EN TROIS TEMPS : CUIRE NU, ESSORER, ASSAISONNER À LA MAIN. Apprendre ce patron une fois donne accès à toute la famille des banchan de légumes — kongnamul muchim aux germes de soya, sigeumchi namul aux épinards, mu namul au daikon, gaji namul à l'aubergine. LE LÉGUME CHANGE, LE GESTE NE CHANGE PAS.\n\nPOURQUOI CUIRE NU. Un légume assaisonné pendant la cuisson rend son eau dans l'assaisonnement et le dilue; le sel entre dans les fibres et on ne peut plus reculer. Cuit nu, essoré, puis assaisonné, on contrôle exactement ce qui entre, et ON PEUT GOÛTER ET AJUSTER, ce qui est impossible autrement.\n\nPOURQUOI À LA MAIN, ET CE N'EST PAS DU FOLKLORE. Une cuillère brasse en surface et casse les fibres. La main répartit l'huile et le sésame sur chaque brin en pressant légèrement, ce qui fait entrer l'assaisonnement dans le légume au lieu de le laisser au fond du bol. LE MOT CORÉEN POUR CE GESTE, 무침 MUCHIM, VEUT DIRE EXACTEMENT ÇA — MÉLANGÉ À LA MAIN.\n\nSE GARDE 3 À 4 JOURS AU FRIGO, DANS UN CONTENANT FERMÉ. C'est ce qui en fait le meilleur candidat du recueil pour la session du dimanche : quatre légumes différents, quarante-cinq minutes, et le poste accompagnement de la semaine est réglé. AVEC UNE EXCEPTION : les namul de concombre ne tiennent qu'un ou deux jours, le concombre continuant de rendre son eau."
+    },
+    {
+      "titre": "L'essorage décide de tout, et c'est là que les namul ratent",
+      "texte": "UN NAMUL MOU ET DÉLAYÉ EST TOUJOURS UN NAMUL MAL ESSORÉ. L'eau retenue dans le légume ressort dans les heures qui suivent, dilue l'assaisonnement, et laisse une flaque grise au fond du contenant. LE SEL, LUI, RESTE — donc le plat devient à la fois plus fade et pas moins salé.\n\nLE GESTE, PRÉCISÉMENT : rassembler le légume en une botte serrée dans le creux de la main, presser DROIT et fermement, ouvrir, repositionner, presser encore. Deux ou trois passes. NE PAS TORDRE : la torsion casse les fibres et donne une texture filandreuse, en plus de laisser de l'eau.\n\nSUR LES GERMES DE SOYA, IL Y A UNE RÈGLE DE PLUS ET ELLE EST ABSOLUE : NE PAS OUVRIR LE COUVERCLE PENDANT LA CUISSON. Un germe de soya cuit à découvert développe une odeur de haricot cru, franchement désagréable, et c'est irréversible. Quatre à cinq minutes à couvert, puis on ouvre.\n\nET LES 콩나물 NE SONT PAS LES GERMES DE HARICOT MUNGO. Ce sont deux légumes différents : le kongnamul a une grosse tête jaune et une tige longue, il demande 4 à 5 minutes; le germe de mungo est blanc, court, et 60 secondes suffisent. LES CONFONDRE DONNE SOIT DES GERMES CRUS SOIT DE LA BOUILLIE."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

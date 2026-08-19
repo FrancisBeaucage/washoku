@@ -1,0 +1,142 @@
+{
+  "id": "T15",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "long",
+  "type_de_plat": "technique",
+  "methode": [
+    "mijote",
+    "saute"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "souper"
+  ],
+  "slug": "le-braisage-rouge-hongshao",
+  "jp": "红烧",
+  "jp_lecture": null,
+  "romaji": "hóngshāo",
+  "langue_origine": "zh",
+  "fr": "Le braisage rouge (hongshao)",
+  "sous_titre": "Le premier braisage du recueil. Son plat emblème est incompatible avec ce dossier; la technique, elle, est parfaitement récupérable — et c'est une distinction qui mérite d'être comprise.",
+  "portions": "2",
+  "temps_affiche": "≈ 45 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 35,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": null,
+    "calories_affiche": "—",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "500 g d'un aliment qui supporte 30 minutes de liquide : ailes de poulet, cuisses, tofu ferme en gros cubes, poisson entier, bœuf maigre en cubes, champignons entiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sucre, pour le caramel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de sauce soya réduite en sodium, 1 c. à thé de soya foncé si disponible, pour la couleur",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de saké ou de vin de riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 tranches de gingembre, 2 gousses d'ail, 1 tronçon d'oignon vert",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 anis étoilé, 1 petit bâton de cannelle",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "De l'eau chaude, à mi-hauteur des morceaux, JAMAIS À COUVRIR",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Si l'aliment est une viande sur l'os, faire T12 d'abord. Sur du tofu ou des champignons, sauter cette étape."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole à fond épais, l'huile, le sucre. Feu moyen. Le sucre fond et prend une couleur d'ambre foncé — trente à quarante secondes. C'EST LE SEUL MOMENT OÙ IL FAUT REGARDER SANS RIEN FAIRE D'AUTRE : d'ambre à brûlé, il y a dix secondes."
+    },
+    {
+      "n": 3,
+      "texte": "L'aliment dans le caramel, remué pour l'enrober. Il colore immédiatement."
+    },
+    {
+      "n": 4,
+      "texte": "Le saké sur les parois chaudes, puis les soyas, les aromates, les épices."
+    },
+    {
+      "n": 5,
+      "texte": "L'eau chaude à MI-HAUTEUR seulement. Un braisage n'est pas un bouillon : le liquide doit réduire jusqu'à napper, et s'il couvre, il ne réduira jamais assez."
+    },
+    {
+      "n": 6,
+      "texte": "Couvrir, feu doux, 25 à 35 minutes. Le tofu et le poisson prennent 15."
+    },
+    {
+      "n": 7,
+      "texte": "Découvrir, monter le feu, réduire jusqu'à ce que le liquide nappe le dos d'une cuillère. Retourner les morceaux une ou deux fois dans le sirop."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La technique est récupérable même quand son plat emblème ne l'est pas",
+      "texte": "LE 红烧肉 — poitrine de porc braisée, le plat qui a rendu cette technique célèbre — EST INCOMPATIBLE AVEC CE DOSSIER, ET AUCUN AJUSTEMENT NE LE SAUVE. Le gras de la poitrine n'est pas un excès, c'est la structure : c'est lui qui fond, qui donne au liquide son corps et à la viande sa texture. Une poitrine maigre braisée deux heures ne donne pas un plat plus léger, elle donne un plat sec.\n\nMAIS LA MÉTHODE EST INDÉPENDANTE DE CETTE COUPE, ET C'EST UNE DISTINCTION QUI VAUT AU-DELÀ DE CE CAS. Le caramel, le soya, l'aromate et la réduction fonctionnent aussi bien sur des ailes de poulet, du tofu ferme, un poisson entier, du bœuf maigre ou des champignons entiers. LE DOSSIER GAGNE UNE FAMILLE DE CUISSON COMPLÈTE — le braisage — QU'IL N'AVAIT PAS DU TOUT, en refusant un seul plat.\n\nLE SODIUM EST À SURVEILLER ET IL A UNE PARTICULARITÉ. Deux cuillères à soupe de soya pour deux portions donnent de l'ordre de 900 mg par portion si l'on mange tout le liquide. MAIS UN BRAISAGE RÉDUIT LAISSE PEU DE LIQUIDE LIBRE, et une bonne partie du sel reste dans les deux ou trois cuillères de sirop qu'on peut laisser dans le plat. SERVIR LES MORCEAUX ÉGOUTTÉS ET GARDER LE SIROP À CÔTÉ EST LE MÊME LEVIER QUE NE PAS BOIRE LE BOUILLON D'UNE SOUPE.\n\nET LE CARAMEL N'EST PAS DU SUCRE AJOUTÉ AU SENS OÙ ON L'ENTEND. Une cuillère à thé pour deux portions, soit 2 g de sucre par personne, dont une partie est caramélisée donc transformée. Ce n'est pas là qu'un braisage devient sucré : c'est quand on met du sucre EN PLUS du caramel, ce que beaucoup de recettes font par réflexe. NE PAS DOUBLER."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

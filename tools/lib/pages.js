@@ -217,7 +217,9 @@ ${ETATS}
     <div class="cartes">
       <sc-for list="{{ liste }}" as="r" hint-placeholder-count="12">
         <a class="{{ r.classe }}" href="fiche.html?id={{ r.id }}">
-          <div class="vign" role="img" aria-label="{{ r.fr }}" style="background-image:{{ r.bg }}"></div>
+          <sc-if value="{{ r.hasPhoto }}" hint-placeholder-val="{{ true }}">
+            <div class="vign" role="img" aria-label="{{ r.fr }}" style="background-image:{{ r.bg }}"></div>
+          </sc-if>
           <div style="padding:14px 16px 18px">
             <div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px">
               <span style="font-weight:800;font-size:13px;letter-spacing:.06em;color:#ec3013">{{ r.id }}</span>
@@ -339,7 +341,7 @@ class Component extends DCLogic {
         return {
           id: r.id, fr: r.fr, jp: r.jp || null, ro: r.romaji || null,
           jpt: JPT(r.jp, r.romaji, r.fr),
-          bg: r.photo ? 'url("' + r.photo + '")' : "none",
+          hasPhoto: !!r.photo, bg: r.photo ? 'url("' + r.photo + '")' : "none",
           etoiles: ETOILES(DE_LECTEUR(r.etoiles)),
           classe: perso === "ecarte" ? "carte ecarte" : "carte",
           pastilles: pastilles,
@@ -424,9 +426,11 @@ const GABARIT_FICHE = `${ETATS}
           <sc-for list="{{ f.pastilles }}" as="p" hint-placeholder-count="5"><span class="{{ p.classe }}" title="{{ p.titre }}">{{ p.texte }}</span></sc-for>
         </p>
       </div>
-      <figure style="margin:0">
-        <div style="width:100%;aspect-ratio:4/3;border:2px solid #201e1d;background-color:#eae9e9;background-size:cover;background-position:center;background-image:{{ f.bg }}" role="img" aria-label="{{ f.fr }}"></div>
-      </figure>
+      <sc-if value="{{ f.hasPhoto }}" hint-placeholder-val="{{ true }}">
+        <figure style="margin:0">
+          <div style="width:100%;aspect-ratio:4/3;border:2px solid #201e1d;background-color:#eae9e9;background-size:cover;background-position:center;background-image:{{ f.bg }}" role="img" aria-label="{{ f.fr }}"></div>
+        </figure>
+      </sc-if>
     </div>
 
     <div class="metrics">
@@ -581,7 +585,7 @@ class Component extends DCLogic {
         id: o.id, fr: o.fr, jp: o.jp || null, romaji: o.romaji || null,
         jpt: JPT(o.jp, o.romaji, o.fr, o.jp_lecture),
         catLabel: LIB("categorie", o.categorie), cuiLabel: LIB("cuisine", o.cuisine),
-        bg: o.photo ? 'url("' + o.photo + '")' : "none",
+        hasPhoto: !!o.photo, bg: o.photo ? 'url("' + o.photo + '")' : "none",
         etoiles: ETOILES(DE_LECTEUR(o.etoiles)),
         pastilles: pastilles,
         portions: o.portions, temps: o.temps_affiche,
@@ -639,7 +643,9 @@ ${ETATS}
     <div class="cartes">
       <sc-for list="{{ liste }}" as="r" hint-placeholder-count="12">
         <a class="carte" href="ingredient.html?id={{ r.id }}">
-          <div class="vign" role="img" aria-label="{{ r.fr }}" style="background-image:{{ r.bg }}"></div>
+          <sc-if value="{{ r.hasPhoto }}" hint-placeholder-val="{{ true }}">
+            <div class="vign" role="img" aria-label="{{ r.fr }}" style="background-image:{{ r.bg }}"></div>
+          </sc-if>
           <div style="padding:14px 16px 18px">
             <span style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#9b9797">{{ r.secLabel }}</span>
             <p title="{{ r.jpt }}" style="margin:8px 0 2px;font-family:'Noto Serif JP',serif;font-weight:600;font-size:20px;line-height:1.2;cursor:help">{{ r.jp }}</p>
@@ -685,7 +691,7 @@ class Component extends DCLogic {
         id: x.id, fr: x.fr, jp: x.jp || null, ro: x.romaji || null,
         jpt: JPT(x.jp, x.romaji, x.fr, x.jp_lecture),
         secLabel: label[x.section] || x.section,
-        bg: x.photo ? 'url("' + x.photo + '")' : "none",
+        hasPhoto: !!x.photo, bg: x.photo ? 'url("' + x.photo + '")' : "none",
         desc: RT(x.description)
       }));
     return {

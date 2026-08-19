@@ -1507,6 +1507,1609 @@
     "commentaire_source": ""
   },
   {
+    "id": "T11",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "chinoise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "blanchi"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "blanchir-et-napper-bai-zhuo",
+    "jp": "白灼",
+    "jp_lecture": null,
+    "romaji": "bái zhuó",
+    "langue_origine": "zh",
+    "fr": "Blanchir et napper (bai zhuo)",
+    "sous_titre": "La technique cantonaise qui transforme n'importe quelle verdure en plat en six minutes. On ne cuit pas le légume dans l'assaisonnement — on le blanchit nu, puis on verse la sauce dessus.",
+    "portions": "2",
+    "temps_affiche": "≈ 6 min",
+    "temps_minutes": {
+      "preparation": 2,
+      "cuisson": 4,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 3,
+      "proteines_affiche": "3 g",
+      "calories": 70,
+      "calories_affiche": "≈ 70",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "300 à 400 g d'une verdure à tiges : gai lan, choy sum, bok choy, chou nappa, brocoli, haricots verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Une grande casserole d'eau bouillante, 1 c. à thé de sel, 1 c. à thé d'huile neutre dans l'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "SAUCE, pour 2 portions : 1 c. à soupe de sauce soya réduite en sodium, 1 c. à soupe d'eau ou de dashi, 1/2 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre ou d'huile de sésame, à chauffer à part",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Gingembre en fines juliennes, oignon vert émincé",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger la sauce dans un petit bol AVANT d'allumer le feu. Soya, eau, sucre, remué jusqu'à dissolution."
+      },
+      {
+        "n": 2,
+        "texte": "Eau bouillante salée, avec la cuillère d'huile. L'huile dans l'eau enrobe les feuilles et garde le vert brillant — c'est la seule raison de sa présence."
+      },
+      {
+        "n": 3,
+        "texte": "Tiges d'abord, 30 à 45 secondes. Feuilles ensuite, 20 à 30 secondes. Sortir dès que la couleur vire au vert franc."
+      },
+      {
+        "n": 4,
+        "texte": "Égoutter à fond et dresser en un tas ordonné, tiges dans le même sens."
+      },
+      {
+        "n": 5,
+        "texte": "Verser la sauce sur le légume. Déposer le gingembre et l'oignon vert par-dessus."
+      },
+      {
+        "n": 6,
+        "texte": "Chauffer l'huile à part jusqu'à ce qu'elle fume à peine, la verser sur les aromates. Ça grésille, et c'est ce grésillement qui libère leur parfum."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Une fiche, toutes les verdures",
+        "texte": "CETTE TECHNIQUE EST UN PATRON, PAS UNE RECETTE. C'est ce qui la rend rentable : elle ne s'apprend qu'une fois et elle s'applique à tout ce qui a des tiges et des feuilles. Le rayon des légumes asiatiques devient utilisable en entier — gai lan, choy sum, yu choy, bok choy, épinard chinois, liseron d'eau, haricots longs.\n\nTROIS DÉCLINAISONS DE LA SAUCE, ET ELLES CHANGENT LE PLAT PLUS QUE LE LÉGUME. UN, LA VERSION SOYA, celle ci-dessus, la plus courante. DEUX, LA VERSION AUX HUÎTRES : remplacer le soya par 2 c. à thé de sauce d'huîtres allongées de 1 c. à soupe d'eau. Plus ronde et plus sucrée, et elle porte environ 460 mg de sodium au lieu de 290. TROIS, LA VERSION AIL ET VINAIGRE : 1 gousse d'ail écrasée dans l'huile chaude et 1 c. à thé de vinaigre de riz, sans soya du tout — CELLE-LÀ EST À MOINS DE 50 MG DE SODIUM, et c'est la seule à utiliser un jour où le budget de la journée est déjà mangé.\n\nLA DIFFÉRENCE AVEC T6 EST RÉELLE ET IL FAUT LA VOIR. T6 est un geste de préparation : on blanchit pour ranger un légume au frigo ou pour l'utiliser ailleurs. T11 est un plat fini, monté et servi. LE LÉGUME BLANCHI DE T6 PEUT ENTRER DANS T11 LE LENDEMAIN, à condition de le repasser dix secondes dans l'eau chaude — froid, il refroidit la sauce et le plat tombe à plat."
+      },
+      {
+        "titre": "L'huile fumante n'est pas un détail décoratif",
+        "texte": "LE GESTE FINAL — l'huile chauffée à part et versée sur les aromates crus — EST CE QUI SÉPARE CE PLAT D'UNE SALADE TIÈDE. Le gingembre et l'oignon vert crus sont piquants et végétaux; touchés par une huile à 180 °C, leurs composés soufrés se transforment en une seconde et deviennent aromatiques et doux. C'est le même principe que le poisson vapeur cantonais de R35.\n\nUNE CUILLÈRE À THÉ SUFFIT, ET C'EST TOUT LE GRAS DU PLAT. Ce n'est pas un endroit où être généreux : l'huile en excès s'accumule au fond de l'assiette et ne sert à rien. LA POÊLE DOIT ÊTRE PETITE — une cuillère à thé dans une grande poêle s'évapore et brûle avant d'être versée.\n\nET LE LÉGUME NE SE SALE JAMAIS DANS L'ASSIETTE. Tout le sodium de ce plat est dans la sauce, mesurée d'avance dans un bol. C'est le même principe que la sauce prémélangée de T18, et pour la même raison : on ne dose pas au-dessus d'un plat chaud."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T12",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "chinoise",
+    "vitesse": "rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "blanchi"
+    ],
+    "axe_gout": [],
+    "axe_texture": [
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "le-blanchiment-prealable-des-viandes-zhuo-shui",
+    "jp": "焯水",
+    "jp_lecture": null,
+    "romaji": "zhuō shuǐ",
+    "langue_origine": "zh",
+    "fr": "Le blanchiment prealable des viandes (zhuo shui)",
+    "sous_titre": "Le geste qui décide si une soupe sera claire ou grise. Cinq minutes d'eau bouillante jetée, et c'est tout.",
+    "portions": "2",
+    "temps_affiche": "≈ 8 min",
+    "temps_minutes": {
+      "preparation": 1,
+      "cuisson": 5,
+      "attente": 2
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": null,
+      "proteines_affiche": "—",
+      "calories": null,
+      "calories_affiche": "—",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "La viande, la volaille ou les os destinés à un bouillon ou à un braisage",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "De l'eau froide en quantité, à couvrir largement",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 ou 3 tranches de gingembre et 1 tronçon d'oignon vert, facultatifs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de saké ou de vin de riz, facultatif",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mettre la viande dans une casserole et couvrir d'EAU FROIDE, jamais d'eau chaude. C'est le point critique de la technique : l'eau froide qui monte lentement fait sortir l'albumine du muscle. L'eau chaude la coagule en surface et l'emprisonne dedans."
+      },
+      {
+        "n": 2,
+        "texte": "Porter à ébullition à feu moyen, sans couvrir. Une écume grise et brune monte : ce sont les protéines sanguines coagulées."
+      },
+      {
+        "n": 3,
+        "texte": "Laisser bouillir 2 à 5 minutes selon la taille des morceaux. Une cuisse entière prend 5 minutes, du haché en boulettes prend 1 minute."
+      },
+      {
+        "n": 4,
+        "texte": "JETER TOUTE L'EAU. Elle ne sert à rien et elle est ce qu'on cherchait à retirer."
+      },
+      {
+        "n": 5,
+        "texte": "Rincer les morceaux sous l'eau froide en frottant du pouce pour décoller l'écume accrochée. Rincer aussi la casserole : il en reste sur les parois."
+      },
+      {
+        "n": 6,
+        "texte": "Repartir avec de l'eau propre pour le bouillon ou le braisage."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi ça compte, et quand ça ne compte pas",
+        "texte": "CE N'EST PAS UN GESTE D'HYGIÈNE, C'EST UN GESTE DE GOÛT ET DE CLARTÉ. L'écume est faite d'albumine, d'hémoglobine résiduelle et de fragments de moelle. Laissée dans le liquide, elle se disperse en particules qui troublent le bouillon et apportent un arrière-goût métallique et légèrement amer que rien ne corrige ensuite — pas plus de sel, pas plus d'aromates.\n\nC'EST LE PRÉREQUIS DES SOUPES CLAIRES, ET LE DOSSIER EN A DÉJÀ PLUSIEURS QUI S'EN PASSENT SANS LE SAVOIR. Un bouillon de poulet monté sans blanchiment préalable est buvable, il n'est simplement pas transparent. Sur un suimono ou un guk, dont toute l'esthétique est la clarté, la différence est visible dans le bol.\n\nQUAND NE PAS LE FAIRE. Sur une viande destinée à un sauté ou à un grill : on jetterait du jus et du goût pour rien, et la surface humide empêcherait ensuite la coloration. Sur du poisson : sa chair est trop fragile et il n'a pas d'albumine sanguine en quantité. LA RÈGLE EST SIMPLE : on blanchit ce qui va mijoter longtemps dans un liquide qu'on va manger.\n\nET IL Y A UNE VOIE PLUS LENTE MAIS MEILLEURE POUR UN BOUILLON QU'ON SOIGNE : ne pas blanchir, monter à frémissement et ÉCUMER À LA LOUCHE pendant les dix premières minutes. On garde plus de goût. Ça demande d'être devant la casserole, ce que le blanchiment évite. LES DEUX SONT CORRECTS; LE BLANCHIMENT EST CELUI QUI PARDONNE L'INATTENTION."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T13",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "chinoise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "saute",
+      "vapeur"
+    ],
+    "axe_gout": [
+      "doux"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "le-saute-a-l-eau-shui-you-men",
+    "jp": "水油焖",
+    "jp_lecture": null,
+    "romaji": "shuǐ yóu mèn",
+    "langue_origine": "zh",
+    "fr": "Le saute a l'eau (shui you men)",
+    "sous_titre": "Deux cuillères à thé d'huile, deux cuillères à soupe d'eau, un couvercle. La vapeur remplace la chaleur qu'une cuisinière domestique ne fournit pas — et c'est le levier lipides de toute la ligne chinoise.",
+    "portions": "2",
+    "temps_affiche": "≈ 5 min",
+    "temps_minutes": {
+      "preparation": 2,
+      "cuisson": 3,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 2,
+      "proteines_affiche": "2 g",
+      "calories": 60,
+      "calories_affiche": "≈ 60",
+      "lipides_g": 3,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "300 à 400 g de légumes coupés en morceaux réguliers : chou, bok choy, haricots verts, courgette, brocoli, champignons",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à thé d'huile neutre, PAS PLUS",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 gousse d'ail écrasée, ou 2 tranches de gingembre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Sel, ou 1 c. à thé de sauce soya en fin de cuisson",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Poêle ou wok à feu vif avec les 2 c. à thé d'huile et l'aromate. Dix secondes, pas plus : l'ail brûle vite."
+      },
+      {
+        "n": 2,
+        "texte": "Jeter les légumes d'un coup et remuer 30 à 45 secondes, jusqu'à ce que les surfaces soient brillantes d'huile."
+      },
+      {
+        "n": 3,
+        "texte": "VERSER LES 2 C. À SOUPE D'EAU ET COUVRIR IMMÉDIATEMENT. Ça siffle fort. Compter 30 à 90 secondes selon le légume — 30 pour du bok choy, 90 pour du brocoli."
+      },
+      {
+        "n": 4,
+        "texte": "Retirer le couvercle. S'il reste du liquide, monter le feu 20 secondes pour l'évaporer : un légume qui baigne est un légume bouilli."
+      },
+      {
+        "n": 5,
+        "texte": "Saler ou verser la cuillère de soya hors du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi un wok de restaurant ne se remplace pas par plus d'huile",
+        "texte": "UN BRÛLEUR DE RESTAURANT CHINOIS DÉVELOPPE DIX À VINGT FOIS LA PUISSANCE D'UNE CUISINIÈRE DOMESTIQUE. C'est cette puissance qui cuit un légume en quarante secondes tout en évaporant l'eau qu'il rend. À la maison, la même poêlée s'affaisse : le légume rend son eau, la température chute, et on obtient un légume bouilli dans son propre jus.\n\nLE RÉFLEXE EST D'AJOUTER DE L'HUILE, ET C'EST UNE ERREUR DE PHYSIQUE. L'huile transporte mieux la chaleur, donc ça marche un peu — au prix de 10 à 15 g de lipides par plat de légumes, ce qui est absurde dans un dossier plafonné à 65 g par jour.\n\nLA VRAIE RÉPONSE EST LA VAPEUR SOUS COUVERCLE. Deux cuillères à soupe d'eau dans une poêle brûlante produisent instantanément un volume de vapeur qui cuit le légume par tous les côtés à la fois, à 100 °C, sans qu'aucune surface n'ait besoin de toucher le métal. LE PLAT EST CUIT EN QUATRE-VINGT-DIX SECONDES AVEC 3 G DE LIPIDES AU TOTAL.\n\nLES DEUX ERREURS QUI ANNULENT LA TECHNIQUE. UN — trop d'eau : à un quart de tasse on braise, le légume devient mou et pâle. DEUX — soulever le couvercle pour regarder : toute la vapeur part et il faut recommencer. ON NE REGARDE PAS, ON ÉCOUTE. Quand le sifflement faiblit, l'eau est partie."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T14",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "chinoise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "la-saisie-eclair-bao",
+    "jp": "爆",
+    "jp_lecture": null,
+    "romaji": "bào",
+    "langue_origine": "zh",
+    "fr": "La saisie eclair (bao)",
+    "sous_titre": "Quatre-vingt-dix secondes, aucune fécule, aucune sauce liée. La croyance la plus tenace sur la cuisine chinoise est qu'un sauté doit être nappé — c'est faux, et ce plat le prouve.",
+    "portions": "2",
+    "temps_affiche": "≈ 4 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 2,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": null,
+      "proteines_affiche": "—",
+      "calories": null,
+      "calories_affiche": "—",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "250 à 300 g de protéine coupée en morceaux de taille égale : crevettes, poulet en cubes, bœuf tranché mince, rognon, calmar",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Aromates : 2 gousses d'ail, 2 tranches de gingembre, 3 oignons verts en tronçons de 3 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE, prémélangée au bol selon T18 : 1 c. à soupe de sauce soya réduite en sodium, 1 c. à thé de vinaigre de riz, 1 c. à thé de saké, 1/2 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif, hors du feu : 1/2 c. à thé d'huile de sésame",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "TOUT EST COUPÉ, MESURÉ ET À PORTÉE DE MAIN AVANT D'ALLUMER. La technique dure moins longtemps qu'il n'en faut pour aller chercher quelque chose."
+      },
+      {
+        "n": 2,
+        "texte": "Éponger la protéine à sec au papier absorbant. Une surface humide produit de la vapeur, et la vapeur empêche la coloration."
+      },
+      {
+        "n": 3,
+        "texte": "Poêle vide à feu vif jusqu'à ce qu'une goutte d'eau danse et s'évapore en une seconde. Puis l'huile."
+      },
+      {
+        "n": 4,
+        "texte": "La protéine en une seule couche, sans la toucher pendant 40 secondes. Retourner, 30 secondes."
+      },
+      {
+        "n": 5,
+        "texte": "Les aromates, 20 secondes. La sauce prémélangée versée sur le bord de la poêle, jamais au centre — elle grésille et réduit en dix secondes."
+      },
+      {
+        "n": 6,
+        "texte": "Hors du feu. L'huile de sésame maintenant, si on en met. Servir immédiatement : ce plat n'attend pas."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Une sauce liée n'est pas obligatoire",
+        "texte": "LA FÉCULE EST UNE CONVENTION DE RESTAURANT, PAS UNE NÉCESSITÉ DE LA CUISINE CHINOISE DOMESTIQUE. Un restaurant lie ses sauces parce que ça les fait briller sous la lampe, ça les fait tenir sur la viande pendant le trajet jusqu'à la table, et ça permet d'étirer un peu de sauce sur beaucoup d'assiettes. Aucune de ces trois raisons ne s'applique à une cuisine de maison.\n\nCE QUE LE BAO DONNE À LA PLACE : un plat sec, brillant de son propre jus caramélisé, où l'on goûte la viande et l'aromate au lieu de goûter la sauce. LES DEUX GAINS SONT MESURABLES. La fécule apporte des glucides sans intérêt nutritionnel, et surtout une sauce liée ENROBE le sel au lieu de le laisser s'égoutter — à sodium égal versé dans la poêle, un plat lié est plus salé en bouche parce que tout reste collé à la protéine.\n\nLA CONTREPARTIE, ET ELLE EST RÉELLE : il n'y a pas de sauce pour le riz. C'est un plat qui s'accompagne, pas un plat qui nappe. Si le riz a besoin de quelque chose, c'est un condiment à côté — pas une sauce liée dans la poêle."
+      },
+      {
+        "titre": "Le guo you — la technique que ce dossier refuse, et pourquoi le dire vaut mieux que l'éviter",
+        "texte": "IL EXISTE UNE TECHNIQUE CHINOISE QUI PRÉCÈDE SOUVENT LE SAUTÉ ET QUE CE DOSSIER ÉCARTE EXPLICITEMENT : LE 过油, guò yóu, LE PRÉ-PASSAGE À L'HUILE. On plonge la protéine ou le légume trente à soixante secondes dans un bain d'huile à 160-180 °C avant de le sauter. C'est ce qui donne aux plats de restaurant leur texture caractéristique — l'aubergine fondante, le porc croustillant sous sa sauce.\n\nCE N'EST PAS UNE QUESTION DE DOSE. Un légume passé à l'huile en absorbe 15 à 30 g pour deux portions, et l'aubergine en absorbe davantage que tout le reste. Il n'y a pas de version allégée : la technique EST l'absorption.\n\nPOURQUOI NOMMER LE REFUS PLUTÔT QUE D'ÉCARTER LES PLATS UN PAR UN. Parce que c'est le 过油, et pas les plats, qui rend incompatibles le 地三鲜, le 锅包肉 et le 鱼香茄子. Nommé une fois, le refus se transporte : devant une nouvelle recette, il suffit de chercher si elle commence par un bain d'huile. Écarté plat par plat, on se repose la question chaque fois.\n\nET LE SUBSTITUT EXISTE POUR LA PLUPART DES CAS. Une aubergine que l'on veut fondante se fait à la vapeur ou au four, pas dans l'huile. Un porc que l'on veut croustillant se fait selon T23, panure sèche au four. Ce ne sont pas les mêmes plats, et il faut l'assumer plutôt que de prétendre les avoir allégés."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T15",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "chinoise",
+    "vitesse": "long",
+    "type_de_plat": "technique",
+    "methode": [
+      "mijote",
+      "saute"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "souper"
+    ],
+    "slug": "le-braisage-rouge-hongshao",
+    "jp": "红烧",
+    "jp_lecture": null,
+    "romaji": "hóngshāo",
+    "langue_origine": "zh",
+    "fr": "Le braisage rouge (hongshao)",
+    "sous_titre": "Le premier braisage du recueil. Son plat emblème est incompatible avec ce dossier; la technique, elle, est parfaitement récupérable — et c'est une distinction qui mérite d'être comprise.",
+    "portions": "2",
+    "temps_affiche": "≈ 45 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 35,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": null,
+      "proteines_affiche": "—",
+      "calories": null,
+      "calories_affiche": "—",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "500 g d'un aliment qui supporte 30 minutes de liquide : ailes de poulet, cuisses, tofu ferme en gros cubes, poisson entier, bœuf maigre en cubes, champignons entiers",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sucre, pour le caramel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de sauce soya réduite en sodium, 1 c. à thé de soya foncé si disponible, pour la couleur",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de saké ou de vin de riz",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 tranches de gingembre, 2 gousses d'ail, 1 tronçon d'oignon vert",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 anis étoilé, 1 petit bâton de cannelle",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "De l'eau chaude, à mi-hauteur des morceaux, JAMAIS À COUVRIR",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T12"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Si l'aliment est une viande sur l'os, faire T12 d'abord. Sur du tofu ou des champignons, sauter cette étape."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole à fond épais, l'huile, le sucre. Feu moyen. Le sucre fond et prend une couleur d'ambre foncé — trente à quarante secondes. C'EST LE SEUL MOMENT OÙ IL FAUT REGARDER SANS RIEN FAIRE D'AUTRE : d'ambre à brûlé, il y a dix secondes."
+      },
+      {
+        "n": 3,
+        "texte": "L'aliment dans le caramel, remué pour l'enrober. Il colore immédiatement."
+      },
+      {
+        "n": 4,
+        "texte": "Le saké sur les parois chaudes, puis les soyas, les aromates, les épices."
+      },
+      {
+        "n": 5,
+        "texte": "L'eau chaude à MI-HAUTEUR seulement. Un braisage n'est pas un bouillon : le liquide doit réduire jusqu'à napper, et s'il couvre, il ne réduira jamais assez."
+      },
+      {
+        "n": 6,
+        "texte": "Couvrir, feu doux, 25 à 35 minutes. Le tofu et le poisson prennent 15."
+      },
+      {
+        "n": 7,
+        "texte": "Découvrir, monter le feu, réduire jusqu'à ce que le liquide nappe le dos d'une cuillère. Retourner les morceaux une ou deux fois dans le sirop."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La technique est récupérable même quand son plat emblème ne l'est pas",
+        "texte": "LE 红烧肉 — poitrine de porc braisée, le plat qui a rendu cette technique célèbre — EST INCOMPATIBLE AVEC CE DOSSIER, ET AUCUN AJUSTEMENT NE LE SAUVE. Le gras de la poitrine n'est pas un excès, c'est la structure : c'est lui qui fond, qui donne au liquide son corps et à la viande sa texture. Une poitrine maigre braisée deux heures ne donne pas un plat plus léger, elle donne un plat sec.\n\nMAIS LA MÉTHODE EST INDÉPENDANTE DE CETTE COUPE, ET C'EST UNE DISTINCTION QUI VAUT AU-DELÀ DE CE CAS. Le caramel, le soya, l'aromate et la réduction fonctionnent aussi bien sur des ailes de poulet, du tofu ferme, un poisson entier, du bœuf maigre ou des champignons entiers. LE DOSSIER GAGNE UNE FAMILLE DE CUISSON COMPLÈTE — le braisage — QU'IL N'AVAIT PAS DU TOUT, en refusant un seul plat.\n\nLE SODIUM EST À SURVEILLER ET IL A UNE PARTICULARITÉ. Deux cuillères à soupe de soya pour deux portions donnent de l'ordre de 900 mg par portion si l'on mange tout le liquide. MAIS UN BRAISAGE RÉDUIT LAISSE PEU DE LIQUIDE LIBRE, et une bonne partie du sel reste dans les deux ou trois cuillères de sirop qu'on peut laisser dans le plat. SERVIR LES MORCEAUX ÉGOUTTÉS ET GARDER LE SIROP À CÔTÉ EST LE MÊME LEVIER QUE NE PAS BOIRE LE BOUILLON D'UNE SOUPE.\n\nET LE CARAMEL N'EST PAS DU SUCRE AJOUTÉ AU SENS OÙ ON L'ENTEND. Une cuillère à thé pour deux portions, soit 2 g de sucre par personne, dont une partie est caramélisée donc transformée. Ce n'est pas là qu'un braisage devient sucré : c'est quand on met du sucre EN PLUS du caramel, ce que beaucoup de recettes font par réflexe. NE PAS DOUBLER."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T16",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "chinoise",
+    "vitesse": "extra-long",
+    "type_de_plat": "technique",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "le-mijotage-long-dun-bao",
+    "jp": "炖 · 煲",
+    "jp_lecture": null,
+    "romaji": "dùn · bāo",
+    "langue_origine": "zh",
+    "fr": "Le mijotage long (dun, bao)",
+    "sous_titre": "Quinze minutes de travail, deux heures de feu doux sans surveillance. C'est le seul format du recueil qui échappe au plafond de quarante-cinq minutes — parce que le temps n'est pas du travail.",
+    "portions": "4",
+    "temps_affiche": "≈ 15 min actives, 2 h de feu",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 120,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": null,
+      "proteines_affiche": "—",
+      "calories": null,
+      "calories_affiche": "—",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "600 à 800 g de volaille sur l'os, de jarret, de côtes maigres ou de poisson entier",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 L d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AROMATES SECS, un choix de trois ou quatre : dattes rouges, igname chinoise séchée, graines de lotus, orge perlé, goji, longane, amandes du Nord et du Sud, champignons séchés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 tranches de gingembre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Un légume-racine : daikon, carotte, courge cireuse, maïs en tronçons",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Sel, à la toute fin, ou dans le bol",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T12"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T12 sur la viande. Sur un mijotage de deux heures, l'écume non retirée se disperse complètement et le bouillon devient gris."
+      },
+      {
+        "n": 2,
+        "texte": "Rincer les aromates secs. Faire tremper les champignons séchés 20 minutes; garder l'eau de trempage."
+      },
+      {
+        "n": 3,
+        "texte": "Tout dans la casserole avec les 2 L d'eau froide. Porter à frémissement, JAMAIS À GROS BOUILLONS."
+      },
+      {
+        "n": 4,
+        "texte": "Couvrir, feu au plus doux, 1 h 30 à 3 h. La surface doit à peine trembler. Un bouillon qui bout devient trouble et gras."
+      },
+      {
+        "n": 5,
+        "texte": "Ajouter le légume-racine dans la dernière heure, en morceaux de 3 cm."
+      },
+      {
+        "n": 6,
+        "texte": "NE SALER QU'À LA FIN, ou mieux, laisser chacun saler son bol."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce que deux heures font que vingt minutes ne font pas",
+        "texte": "LES CINQ SOUPES DU RECUEIL SONT TOUTES DES SOUPES DE DIX À VINGT MINUTES, MONTÉES SUR UN DASHI DÉJÀ FAIT. Celle-ci est l'inverse exact, et son profil de temps est complémentaire, pas concurrent : le travail est concentré au début, puis la casserole travaille seule. UN SOUPER PLAFONNÉ À QUARANTE-CINQ MINUTES DE TRAVAIL ACTIF PEUT PORTER UN PLAT DE DEUX HEURES, à condition que le feu ait été allumé en après-midi.\n\nCE QUE LA DURÉE APPORTE CHIMIQUEMENT. Le collagène des tissus conjonctifs se convertit en gélatine, ce qui donne au bouillon un corps que rien d'autre ne reproduit — ni la fécule, ni la réduction, ni le gras. Les acides aminés libres et les nucléotides des ingrédients secs et des champignons diffusent lentement. LE RÉSULTAT EST UN BOUILLON QUI GOÛTE PLEIN SANS PRESQUE DE SEL, et c'est précisément ce que ce dossier cherche.\n\nLE 老火湯 CANTONAIS ET HONGKONGAIS EST LA FORME LA PLUS ABOUTIE DE CETTE FAMILLE, littéralement la soupe à vieux feu. Elle se boit avant ou pendant le repas, et la viande qui a tout donné se mange à part avec un peu de soya. DEUX PLATS D'UNE CASSEROLE.\n\nET C'EST LA STRUCTURE DE REPAS QUI COMPTE ICI AUTANT QUE LA TECHNIQUE. Le 兩菜一湯 ou 三菜一湯 cantonais — deux ou trois plats et une soupe — est le cousin exact du ichiju sansai japonais. AJOUTER CETTE FAMILLE RENFORCE LE MÉCANISME CENTRAL DU DOSSIER AU LIEU DE LE DILUER.\n\nDEUX ÉCUEILS. UN — écumer les premières minutes même après T12, il en remonte toujours un peu. DEUX — la tentation de saler en cours de route : le liquide réduit de vingt à trente pour cent en deux heures, et un bouillon salé au début devient trop salé à la fin. LE SEL VA DANS LE BOL."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T17",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "chinoise",
+    "vitesse": "rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "piquant"
+    ],
+    "axe_texture": [
+      "ferme",
+      "elastique"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "le-saute-a-sec-ganbian",
+    "jp": "干煸",
+    "jp_lecture": null,
+    "romaji": "gānbiān",
+    "langue_origine": "zh",
+    "fr": "Le saute a sec (ganbian)",
+    "sous_titre": "Une poêle sèche, un légume, et de la patience. Ni huile pour commencer, ni liquide, ni couvercle : on retire l'eau du légume au lieu de la faire cuire.",
+    "portions": "2",
+    "temps_affiche": "≈ 12 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 9,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 3,
+      "proteines_affiche": "3 g",
+      "calories": 90,
+      "calories_affiche": "≈ 90",
+      "lipides_g": 4,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "300 à 400 g d'un légume ferme et charnu : haricots verts, haricots longs, chou, poivrons, aubergine chinoise en bâtonnets",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à thé d'huile neutre, AJOUTÉES SEULEMENT À MI-CUISSON",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 gousses d'ail hachées, 1 c. à thé de gingembre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 2 piments séchés, 1/2 c. à thé de poivre de Sichuan",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif, 50 g de porc haché maigre comme assaisonnement",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce soya réduite en sodium, hors du feu",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Le légume sec et entier ou en gros morceaux. Une surface humide ne fonctionne pas ici."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle large à feu moyen-vif, SANS AUCUNE HUILE. Le légume en une couche."
+      },
+      {
+        "n": 3,
+        "texte": "Remuer peu, toutes les trente ou quarante secondes. Le légume se ride, se tache de brun, se rétracte. Cinq à sept minutes. C'EST LE CŒUR DE LA TECHNIQUE ET ÇA A L'AIR DE MAL SE PASSER : le légume paraît sec et fripé. C'est exactement le but."
+      },
+      {
+        "n": 4,
+        "texte": "Quand les surfaces sont marquées et le légume souple, ajouter les 2 c. à thé d'huile, l'ail, le gingembre, les épices. Une minute."
+      },
+      {
+        "n": 5,
+        "texte": "Le haché, s'il y en a, une minute de plus."
+      },
+      {
+        "n": 6,
+        "texte": "Hors du feu, la cuillère de soya."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "L'inverse de tout ce qu'on apprend sur les légumes",
+        "texte": "LA CUISINE OCCIDENTALE ENSEIGNE À CUIRE UN LÉGUME VITE ET À GARDER SON CROQUANT ET SA COULEUR. LE 干煸 FAIT L'OPPOSÉ DÉLIBÉRÉMENT : on chauffe longtemps à sec jusqu'à ce que le légume perde une bonne part de son eau. Ce qui reste est concentré, sa peau est marquée, sa texture devient dense et un peu coriace — et son goût est plusieurs fois plus intense qu'un légume blanchi.\n\nPOURQUOI CETTE FICHE EST DANS UN DOSSIER DE PERTE DE POIDS. Parce que c'est la seule méthode qui donne un goût puissant à un légume SANS HUILE ET SANS SEL. Un plat de haricots ganbian avec deux cuillères à thé d'huile et une cuillère à thé de soya pour deux portions porte environ 4 g de lipides et 150 mg de sodium, et il goûte plus fort que la même quantité de haricots sautés dans trois fois plus d'huile.\n\nLA VERSION DE RESTAURANT PASSE LES HARICOTS À L'HUILE (voir le refus du 过油 à la fiche T14) ET C'EST CE QU'ON REMPLACE ICI. La poêle sèche fait le même travail de déshydratation, en cinq minutes de plus et avec vingt grammes de gras en moins.\n\nLES DEUX RATÉS POSSIBLES. UN — remuer sans arrêt : le légume ne touche jamais assez longtemps le métal pour se marquer, et on obtient un légume tiède. DEUX — ajouter l'huile au début : elle grille toute seule pendant les cinq minutes de chaleur sèche, elle fume et elle donne un goût âcre. L'HUILE ARRIVE À MI-CUISSON, ET C'EST TOUT L'ORDRE DE LA TECHNIQUE."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T18",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "chinoise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "la-sauce-premelangee-au-bol-dui-wan-zhi",
+    "jp": "兑碗汁",
+    "jp_lecture": null,
+    "romaji": "duì wǎn zhī",
+    "langue_origine": "zh",
+    "fr": "La sauce premelangee au bol (dui wan zhi)",
+    "sous_titre": "La seule façon de contrôler le sodium d'un plat qui cuit en quatre-vingt-dix secondes. On ne verse rien à l'œil dans une poêle brûlante.",
+    "portions": "2",
+    "temps_affiche": "≈ 2 min",
+    "temps_minutes": {
+      "preparation": 2,
+      "cuisson": 0,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": null,
+      "proteines_affiche": "—",
+      "calories": null,
+      "calories_affiche": "—",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "UN PETIT BOL ET UNE CUILLÈRE. C'est tout l'équipement.",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LE GABARIT, pour 2 portions : 1 à 1,5 c. à soupe de sauce soya réduite en sodium · 1 c. à soupe de liquide neutre, eau, dashi ou bouillon · 1 c. à thé d'acide, vinaigre de riz ou de Chinkiang · 1 c. à thé de saké ou de vin de riz · 1/2 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de fécule de maïs, SEULEMENT si on veut une sauce liée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/2 c. à thé d'huile de sésame, à ajouter hors du feu et jamais au bol",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Tout mesurer dans le bol AVANT d'allumer quoi que ce soit. C'est la seule étape et c'est toute la technique."
+      },
+      {
+        "n": 2,
+        "texte": "Remuer jusqu'à dissolution du sucre. Si on met de la fécule, remuer juste avant de verser : elle se dépose en deux minutes."
+      },
+      {
+        "n": 3,
+        "texte": "Verser d'un seul coup, en fin de cuisson, SUR LE BORD DE LA POÊLE et non au centre. Le contact avec le métal chaud fait sauter l'alcool du saké et concentre la sauce en quelques secondes."
+      },
+      {
+        "n": 4,
+        "texte": "Enrober 15 à 30 secondes et sortir du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi cette fiche existe alors qu'elle ne cuit rien",
+        "texte": "UN SAUTÉ DURE DE QUATRE-VINGT-DIX SECONDES À TROIS MINUTES. Pendant ce temps, il faut remuer, surveiller la coloration, et rien ne peut attendre. C'EST LE PIRE MOMENT POSSIBLE POUR MESURER TROIS LIQUIDES. La conséquence est mécanique et se répète : on verse le soya directement de la bouteille, à l'œil, dans une poêle bruyante, et on en met une fois et demie à deux fois trop.\n\nÀ 500 MG DE SODIUM PAR CUILLÈRE À SOUPE DE SOYA RÉDUIT, UN DOUBLEMENT INVOLONTAIRE COÛTE 500 MG — soit un cinquième du plafond de la journée, dépensé sans décision. C'est aussi la raison pour laquelle un même plat refait deux fois ne goûte jamais pareil.\n\nLE BOL RÈGLE LES DEUX PROBLÈMES EN DEUX MINUTES DE MISE EN PLACE. Le dosage est décidé à froid, il est reproductible, et il est vérifiable : on peut goûter la sauce à la cuillère AVANT qu'elle touche la nourriture, ce qui est impossible une fois qu'elle est dans la poêle.\n\nET LE GABARIT EST FAIT POUR ÊTRE MODIFIÉ, PAS RÉCITÉ. Cinq axes : salé, liquide, acide, alcool, sucre. Descendre le soya d'un tiers et monter l'acide d'autant donne un plat qui goûte encore fini. C'EST LE MÊME RAISONNEMENT QUE LA VINAIGRETTE YAM DE T22 — un système à axes compensables plutôt qu'une recette fixe. La différence est que celui-ci passe par la chaleur.\n\nCETTE FICHE EST À LIRE AVANT T14, T13 ET T17. Les trois la supposent."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T19",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "laotienne",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "condiment",
+    "methode": [
+      "grille"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "le-riz-gluant-grille-moulu-khao-khua",
+    "jp": "ເຂົ້າຄ້ວ",
+    "jp_lecture": null,
+    "romaji": "khao khua",
+    "langue_origine": "lo",
+    "fr": "Le riz gluant grille moulu (khao khua)",
+    "sous_titre": "Écriture d'origine ເຂົ້າຄ້ວ, variante thaïe ข้าวคั่ว. Du riz cru grillé à sec et moulu. Ça ne coûte rien, ça ne contient pas un milligramme de sodium, et c'est le levier de compensation le plus efficace de tout le dossier.",
+    "portions": "12 (environ 6 c. à soupe de poudre)",
+    "temps_affiche": "≈ 12 min",
+    "temps_minutes": {
+      "preparation": 1,
+      "cuisson": 10,
+      "attente": 1
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 35,
+      "calories_affiche": "≈ 35 par c. à soupe",
+      "lipides_g": 0,
+      "sodium_mg": 0,
+      "variable": false,
+      "source": "estime",
+      "note": "Par cuillère à soupe. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. LE ZÉRO DE SODIUM, LUI, EST STRUCTUREL — il n'entre ni sel ni sauce dans cette poudre."
+    },
+    "ingredients": [
+      {
+        "texte": "4 c. à soupe de RIZ GLUANT CRU, non cuit, non rincé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif, et ça change le résultat : 2 tranches de galanga, 1 tige de citronnelle écrasée, 2 feuilles de lime kaffir, grillées avec le riz",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Un mortier, ou un moulin à épices, ou un moulin à café propre",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Poêle sèche à feu moyen-doux. Le riz cru, en une couche. AUCUNE HUILE, AUCUNE EAU."
+      },
+      {
+        "n": 2,
+        "texte": "Remuer presque sans arrêt, 8 à 12 minutes. Le riz passe du blanc opaque au blond, puis au brun doré. L'odeur devient celle du pain grillé et du maïs éclaté."
+      },
+      {
+        "n": 3,
+        "texte": "VISER LE BRUN DORÉ UNIFORME, PAS LE BRUN FONCÉ. Un grain noir donne une amertume qui traverse tout le plat, et on ne peut pas trier après."
+      },
+      {
+        "n": 4,
+        "texte": "Verser sur une assiette froide immédiatement — la poêle chaude continue de cuire."
+      },
+      {
+        "n": 5,
+        "texte": "Laisser refroidir complètement. Moulu tiède, le riz colle et fait une pâte."
+      },
+      {
+        "n": 6,
+        "texte": "Piler ou moudre en une poudre grossière, comme une semoule fine. PAS EN FARINE : c'est le grain qui donne la texture."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce que ça remplace, et c'est plus large qu'on croit",
+        "texte": "LE KHAO KHUA FAIT TROIS CHOSES À LA FOIS, ET C'EST CE QUI LE REND EXCEPTIONNEL DANS CE DOSSIER. UN — IL LIE. Saupoudré sur une salade humide, il boit le jus et l'accroche à la viande : il fait le travail d'une fécule ou d'un gras émulsifiant, à zéro lipide. DEUX — IL DONNE UN UMAMI SEC ET GRILLÉ, la même famille de goût que le katsuobushi ou le sésame torréfié, obtenue par réaction de Maillard sur l'amidon. TROIS — IL DONNE DU GRAIN SOUS LA DENT dans un plat qui n'en a pas autrement.\n\nET IL EST À ZÉRO MILLIGRAMME DE SODIUM. C'est ce qui en fait le meilleur outil de compensation du recueil : devant un plat allégé qui goûte plat, le réflexe est le sel; le khao khua ajoute du relief par une autre porte, exactement comme le shichimi, mais avec en plus un effet de texture et de liaison.\n\nDANS UN LAAP OU UN NAM TOK, MONTER LE KHAO KHUA À 3 C. À SOUPE PERMET DE DESCENDRE LA SAUCE DE POISSON À 1 C. À SOUPE SANS QUE LE PLAT PARAISSE AMPUTÉ. Ce n'est pas une équivalence chimique, c'est une compensation perceptive : le plat garde de la présence en bouche.\n\nSE GARDE UN MOIS DANS UN POT FERMÉ, À L'ABRI DE LA LUMIÈRE. Après, il rancit doucement et perd son parfum. EN FAIRE 4 C. À SOUPE À LA FOIS ET PAS PLUS."
+      },
+      {
+        "titre": "Le riz gluant, et pas un autre",
+        "texte": "IL FAUT DU RIZ GLUANT CRU — 糯米, sticky rice, sweet rice, riz à sushi NON. Le riz gluant est presque entièrement composé d'amylopectine, ce qui lui donne à la torréfaction une odeur de maïs éclaté et une poudre qui absorbe beaucoup de liquide. Un riz à grain court japonais grillé donne une poudre plus sableuse et nettement moins parfumée; un riz long donne peu de chose.\n\nCHEZ KIM PHAT, LE RIZ GLUANT EST AU KIOSQUE DU RIZ — Hakubai en sacs de 5 lb — ET AUSSI EN ALLÉE 33 avec les légumineuses. Le même sac sert aussi à la fournée de riz gluant vapeur qui accompagne traditionnellement le laap.\n\nLES AROMATES GRILLÉS AVEC LE RIZ SONT FACULTATIFS MAIS ILS CHANGENT LE PRODUIT. Galanga, citronnelle et feuille de lime grillés puis moulus avec le riz donnent une poudre qui porte déjà le profil du plat. C'EST LA VERSION À FAIRE SI ON SAIT QUE LA POUDRE IRA DANS DES SALADES THAÏES OU LAO; la version au riz seul est plus polyvalente et va aussi bien sur une soupe ou un légume blanchi."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T20",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "blanchi",
+      "cru"
+    ],
+    "axe_gout": [
+      "sesame-noisette",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "le-patron-namul-legumes-assaisonnes-a-la-main",
+    "jp": "나물",
+    "jp_lecture": null,
+    "romaji": "namul",
+    "langue_origine": "ko",
+    "fr": "Le patron namul — legumes assaisonnes a la main",
+    "sous_titre": "Un seul mécanisme, six légumes, quatre jours de conservation. Une session de quarante-cinq minutes le dimanche produit quatre ou cinq accompagnements pour la semaine.",
+    "portions": "4",
+    "temps_affiche": "≈ 15 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 5,
+      "attente": 5
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 3,
+      "proteines_affiche": "3 g",
+      "calories": 60,
+      "calories_affiche": "≈ 60",
+      "lipides_g": 3,
+      "sodium_mg": 80,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, sauf le sodium qui vaut environ 80 mg POUR TOUT LE PLAT de quatre portions. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 à 400 g d'un légume, un seul à la fois : germes de soya (kongnamul), épinards, daikon en julienne, courgette, aubergine, fougère, carotte",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "L'ASSAISONNEMENT DE BASE, pour 300 à 400 g : 1 gousse d'ail râpée fin, 1 c. à thé d'huile de sésame grillé, 1 c. à soupe de graines de sésame grillées, 1/4 à 1/2 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 oignon vert émincé, 1/2 c. à thé de gochugaru",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Le sel peut se remplacer par 1 c. à thé de sauce soya réduite en sodium — même sodium, plus de couleur",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "CUIRE LE LÉGUME NU, SANS AUCUN ASSAISONNEMENT. Deux voies selon la structure. VOIE A, blanchiment (feuilles, germes, fougère) : eau bouillante salée, 30 secondes à 1 minute pour des feuilles, 4 à 5 minutes à couvert pour des germes de soya. VOIE B, étuvage à couvert (daikon, courgette, carotte) : une cuillère à thé d'huile, deux cuillères à soupe d'eau, couvert, 5 à 8 minutes — c'est T13 appliqué à un namul."
+      },
+      {
+        "n": 2,
+        "texte": "Refroidir immédiatement à l'eau glacée pour la voie A. Pas pour la voie B."
+      },
+      {
+        "n": 3,
+        "texte": "ESSORER À FOND. À la main, en pressant fermement une botte serrée, droit, sans tordre. C'est ici que se joue le plat."
+      },
+      {
+        "n": 4,
+        "texte": "Assaisonner À LA MAIN, dans un bol, en massant. Pas à la cuillère."
+      },
+      {
+        "n": 5,
+        "texte": "Goûter, ajuster, laisser reposer 5 minutes avant de servir."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le mécanisme est le plat, et il s'applique à tout",
+        "texte": "UN NAMUL N'EST PAS UNE RECETTE, C'EST UN PATRON EN TROIS TEMPS : CUIRE NU, ESSORER, ASSAISONNER À LA MAIN. Apprendre ce patron une fois donne accès à toute la famille des banchan de légumes — kongnamul muchim aux germes de soya, sigeumchi namul aux épinards, mu namul au daikon, gaji namul à l'aubergine. LE LÉGUME CHANGE, LE GESTE NE CHANGE PAS.\n\nPOURQUOI CUIRE NU. Un légume assaisonné pendant la cuisson rend son eau dans l'assaisonnement et le dilue; le sel entre dans les fibres et on ne peut plus reculer. Cuit nu, essoré, puis assaisonné, on contrôle exactement ce qui entre, et ON PEUT GOÛTER ET AJUSTER, ce qui est impossible autrement.\n\nPOURQUOI À LA MAIN, ET CE N'EST PAS DU FOLKLORE. Une cuillère brasse en surface et casse les fibres. La main répartit l'huile et le sésame sur chaque brin en pressant légèrement, ce qui fait entrer l'assaisonnement dans le légume au lieu de le laisser au fond du bol. LE MOT CORÉEN POUR CE GESTE, 무침 MUCHIM, VEUT DIRE EXACTEMENT ÇA — MÉLANGÉ À LA MAIN.\n\nSE GARDE 3 À 4 JOURS AU FRIGO, DANS UN CONTENANT FERMÉ. C'est ce qui en fait le meilleur candidat du recueil pour la session du dimanche : quatre légumes différents, quarante-cinq minutes, et le poste accompagnement de la semaine est réglé. AVEC UNE EXCEPTION : les namul de concombre ne tiennent qu'un ou deux jours, le concombre continuant de rendre son eau."
+      },
+      {
+        "titre": "L'essorage décide de tout, et c'est là que les namul ratent",
+        "texte": "UN NAMUL MOU ET DÉLAYÉ EST TOUJOURS UN NAMUL MAL ESSORÉ. L'eau retenue dans le légume ressort dans les heures qui suivent, dilue l'assaisonnement, et laisse une flaque grise au fond du contenant. LE SEL, LUI, RESTE — donc le plat devient à la fois plus fade et pas moins salé.\n\nLE GESTE, PRÉCISÉMENT : rassembler le légume en une botte serrée dans le creux de la main, presser DROIT et fermement, ouvrir, repositionner, presser encore. Deux ou trois passes. NE PAS TORDRE : la torsion casse les fibres et donne une texture filandreuse, en plus de laisser de l'eau.\n\nSUR LES GERMES DE SOYA, IL Y A UNE RÈGLE DE PLUS ET ELLE EST ABSOLUE : NE PAS OUVRIR LE COUVERCLE PENDANT LA CUISSON. Un germe de soya cuit à découvert développe une odeur de haricot cru, franchement désagréable, et c'est irréversible. Quatre à cinq minutes à couvert, puis on ouvre.\n\nET LES 콩나물 NE SONT PAS LES GERMES DE HARICOT MUNGO. Ce sont deux légumes différents : le kongnamul a une grosse tête jaune et une tige longue, il demande 4 à 5 minutes; le germe de mungo est blanc, court, et 60 secondes suffisent. LES CONFONDRE DONNE SOIT DES GERMES CRUS SOIT DE LA BOUILLIE."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T21",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "vietnamienne",
+    "vitesse": "rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "blanchi"
+    ],
+    "axe_gout": [
+      "doux",
+      "acide"
+    ],
+    "axe_texture": [
+      "ferme",
+      "en-bouillon"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "le-legume-blanchi-et-son-eau-de-cuisson-rau-luoc",
+    "jp": "Rau luộc",
+    "jp_lecture": null,
+    "romaji": "rau luoc",
+    "langue_origine": "vi",
+    "fr": "Le legume blanchi et son eau de cuisson (rau luoc)",
+    "sous_titre": "Une casserole, huit minutes, et deux postes du repas sont faits : le légume et la soupe. Tout le sel du plat part dans un bol de trempette qu'on contrôle.",
+    "portions": "2",
+    "temps_affiche": "≈ 8 min",
+    "temps_minutes": {
+      "preparation": 2,
+      "cuisson": 6,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 3,
+      "proteines_affiche": "3 g",
+      "calories": 70,
+      "calories_affiche": "≈ 70",
+      "lipides_g": 0,
+      "sodium_mg": 15,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, SANS LA TREMPETTE — c'est elle qui porte tout le sodium du plat, et on n'en consomme que ce qu'on trempe. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g d'un légume-feuille ou d'une racine : liseron d'eau, chou nappa, choy sum, courge cireuse, haricots longs, chou vert",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 L d'eau, sans sel ou avec une petite pincée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "POUR L'EAU DE CUISSON, à la fin : le jus de 1/2 lime, 1 oignon vert émincé, un tour de poivre blanc",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA TREMPETTE, servie à part : 1 c. à soupe de sauce de poisson, 1 c. à soupe de jus de lime, 1 c. à thé de sucre, 2 c. à soupe d'eau, 1 gousse d'ail émincée, 1 piment",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Variante de trempette sans sauce de poisson : sauce soya réduite en sodium et lime, à parts égales",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Porter l'eau à ébullition. UNE PETITE QUANTITÉ D'EAU, environ 1 L pour 400 g : elle va devenir la soupe, donc elle doit rester concentrée."
+      },
+      {
+        "n": 2,
+        "texte": "Le légume dedans. Tiges d'abord si elles sont épaisses. Deux à cinq minutes selon le légume, jusqu'à ce qu'il soit tendre mais qu'il tienne encore."
+      },
+      {
+        "n": 3,
+        "texte": "SORTIR LE LÉGUME AVEC UNE PINCE OU UNE ÉCUMOIRE, PAS EN VIDANT LA CASSEROLE. L'eau est le deuxième plat."
+      },
+      {
+        "n": 4,
+        "texte": "Le légume dans une assiette, servi tiède ou à température de la pièce. La trempette dans un petit bol à côté."
+      },
+      {
+        "n": 5,
+        "texte": "L'eau de cuisson dans des bols : le jus de lime, l'oignon vert, le poivre. Goûter — elle a besoin de très peu, parfois de rien."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Deux plats d'une casserole, et le sel qui reste dehors",
+        "texte": "LE MÉCANISME EST DOUBLEMENT ÉCONOME ET C'EST POUR ÇA QUE CETTE FICHE EXISTE. Une casserole et huit minutes donnent le poste légume et le poste soupe du ichiju sansai — deux des quatre cases du repas. Et les vitamines hydrosolubles que le blanchiment fait sortir du légume ne sont pas jetées : elles sont dans le bol.\n\nLE VRAI GAIN EST AILLEURS, ET IL EST STRUCTUREL : TOUT LE SODIUM DU PLAT EST DANS UN BOL À CÔTÉ, PAS DANS LE PLAT. La trempette entière porte de l'ordre de 1 400 mg pour deux personnes, mais on n'en consomme que ce qu'on trempe — de l'ordre de deux à trois cuillères à thé par personne, soit 200 à 350 mg. Le même sel versé sur le légume dans la poêle aurait été mangé en entier.\n\nC'EST EXACTEMENT LA LOGIQUE DU CONTENANT QUI DÉCIDE DE LA PORTION, APPLIQUÉE AU SEL AU LIEU DE LA NOURRITURE. Et c'est la manœuvre centrale de la cuisine vietnamienne, pas une astuce : le nuoc cham est déjà lui-même une dilution — deux cuillères à soupe de sauce de poisson pour six d'eau, servies à trois personnes.\n\nLE PIÈGE DE CETTE CUISINE N'EST PAS LA SAUCE DE POISSON, C'EST LE HAT NEM. Le bouillon de poulet en poudre figure dans presque toutes les recettes familiales vietnamiennes documentées, il est aussi salé que le sel, et il n'entre dans aucun calcul parce que personne ne le compte comme un assaisonnement. DANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Le goût qu'il apportait se retrouve dans les champignons séchés, l'oignon grillé et le poivre blanc.\n\nET L'EAU DE CUISSON NE SE SALE PRESQUE PAS. Blanchir dans une eau salée met du sel dans le légume ET dans la soupe — deux fois. Une pincée dans l'eau suffit, et la lime fait le reste."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T22",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "thaie",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "technique",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant"
+    ],
+    "axe_texture": [],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "la-vinaigrette-a-trois-axes-yam",
+    "jp": "ยำ",
+    "jp_lecture": null,
+    "romaji": "yam",
+    "langue_origine": "th",
+    "fr": "La vinaigrette a trois axes (yam)",
+    "sous_titre": "Acide, piquant, salé, et rien d'autre. Aucun gras émulsifiant — et c'est la seule structure du recueil où réduire le sel de moitié se compense intégralement en montant les deux autres axes.",
+    "portions": "2",
+    "temps_affiche": "≈ 3 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 0,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 0,
+      "proteines_affiche": "0 g",
+      "calories": 30,
+      "calories_affiche": "≈ 30",
+      "lipides_g": 0,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "LE GABARIT, pour 300 g de protéine et deux portions :",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "ACIDE — 3 à 4 c. à soupe de jus de lime frais",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "SALÉ — 1 à 1,5 c. à soupe de sauce de poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "PIQUANT — 1 à 4 piments oiseaux écrasés, ou 1 à 2 c. à thé de piment séché grillé moulu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "SUCRE — 1/2 à 1 c. à thé, en trace, jamais plus",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Aromates, en volume et non en garniture : 2 échalotes en fines tranches, une grosse poignée de menthe, une de coriandre, 2 oignons verts, du céleri chinois",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif et recommandé : 2 à 3 c. à soupe de khao khua (T19)",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T19"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger lime, sauce de poisson, piment et sucre dans un bol. Remuer jusqu'à dissolution du sucre."
+      },
+      {
+        "n": 2,
+        "texte": "GOÛTER À LA CUILLÈRE. La vinaigrette doit être franchement trop forte seule : elle va être diluée par la protéine et par l'eau des herbes."
+      },
+      {
+        "n": 3,
+        "texte": "Verser sur la protéine tiède ou froide, jamais chaude. Mélanger."
+      },
+      {
+        "n": 4,
+        "texte": "Les aromates et les herbes en dernier, mélangés à la main d'un geste léger."
+      },
+      {
+        "n": 5,
+        "texte": "Le khao khua à la toute fin, saupoudré et mélangé une fois. Servir dans les minutes qui suivent."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Un système à axes, pas une recette",
+        "texte": "UNE VINAIGRETTE OCCIDENTALE EST UNE ÉMULSION : il faut du gras pour tenir l'acide, et les proportions ne bougent pas beaucoup sans que ça tranche. LA VINAIGRETTE YAM N'A AUCUN GRAS, DONC AUCUNE ÉMULSION À CASSER, DONC AUCUNE PROPORTION OBLIGATOIRE. C'est une somme de trois sensations indépendantes, et chacune peut monter ou descendre.\n\nCONSÉQUENCE DIRECTE, ET C'EST LA RAISON POUR LAQUELLE CETTE FICHE COMPTE PLUS QUE LA PLUPART : DESCENDRE LA SAUCE DE POISSON DE 2 C. À SOUPE À 1 SE COMPENSE EN MONTANT LA LIME DE 2 À 4 ET EN DOUBLANT LE PIMENT. Le plat reste complet en bouche. AUCUN AUTRE FORMAT DU RECUEIL N'OFFRE CETTE ÉLASTICITÉ — une soupe miso allégée en miso est une soupe fade, un tare de yakitori allégé en soya est un tare qui n'accroche plus.\n\nLE RENDEMENT NUTRITIONNEL EST CE QUI SUIT DE L'ABSENCE DE GRAS : une salade yam de 300 g de viande maigre apporte 60 à 70 g de protéines pour 15 g de lipides, et ces 15 g sont ceux de la viande. La vinaigrette en apporte ZÉRO.\n\nET LE SUCRE EST UN AXE, PAS UN ASSAISONNEMENT. Une demi-cuillère à thé arrondit l'acide et le rend buvable; deux cuillères à soupe — la dose de beaucoup de recettes de restaurant — en font un plat sucré. LE REPÈRE : si on goûte le sucre, il y en a trop."
+      },
+      {
+        "titre": "Ce qui n'est pas une salade yam",
+        "texte": "LA LIME DOIT ÊTRE FRAÎCHE, ET C'EST LE SEUL POINT NON NÉGOCIABLE. Le jus en bouteille est acide sans être parfumé, et dans une vinaigrette sans gras il n'y a rien pour masquer ce manque : le plat devient simplement aigre. Si les limes manquent, le jus d'un citron et demi pour deux limes plus deux feuilles de lime kaffir déchirées de plus est le meilleur repli.\n\nLES HERBES SONT UN INGRÉDIENT, PAS UNE DÉCORATION. Une salade yam correcte porte le volume d'un bol de salade en menthe, coriandre, échalote et oignon vert pour deux portions. Une pincée de coriandre sur le dessus donne une viande vinaigrée, pas une salade yam.\n\nET LA PROTÉINE N'EST JAMAIS CHAUDE QUAND ELLE ENTRE. Chaude, elle cuit les herbes qui noircissent en deux minutes, et elle fait s'évaporer les composés volatils de la lime. Tiède ou froide, tout tient. C'EST LA MÊME RÈGLE QUE L'ACIDE HORS DU FEU DE R27, POUR LA MÊME RAISON."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
+    "id": "T23",
+    "statut": "actif",
+    "categorie": "technique",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "type_de_plat": "technique",
+    "methode": [
+      "roti"
+    ],
+    "axe_gout": [
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "croustillant",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "la-panure-seche-au-four-age-yaki",
+    "jp": "揚げ焼き",
+    "jp_lecture": "age-yaki",
+    "romaji": "age-yaki",
+    "langue_origine": "ja",
+    "fr": "La panure seche au four (age-yaki)",
+    "sous_titre": "La porte d'entrée compatible vers toute la famille katsu. Deux cuillères à thé d'huile au lieu d'un litre, et un panko qu'on grille avant de paner.",
+    "portions": "2",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": null,
+      "proteines_affiche": "—",
+      "calories": null,
+      "calories_affiche": "—",
+      "lipides_g": null,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de protéine en escalopes de 1,5 cm : longe de porc, poitrine de poulet ouverte en deux, filet de poisson ferme",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "40 g de panko",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à thé d'huile neutre, POUR GRILLER LE PANKO",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de farine, 1 œuf battu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Sel et poivre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À servir : sauce tonkatsu avec parcimonie, ou ponzu, ou un quartier de citron",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T9"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Four à 220 °C, avec une grille posée sur une plaque."
+      },
+      {
+        "n": 2,
+        "texte": "GRILLER LE PANKO À SEC AVANT DE PANER. Poêle à feu moyen, les 2 c. à thé d'huile, le panko, remué sans arrêt 3 à 4 minutes jusqu'au blond doré. Verser sur une assiette froide. C'EST L'ÉTAPE QUI FAIT TOUTE LA DIFFÉRENCE ET CELLE QUE TOUTES LES RECETTES DE FOUR OUBLIENT."
+      },
+      {
+        "n": 3,
+        "texte": "Éponger la protéine, saler et poivrer."
+      },
+      {
+        "n": 4,
+        "texte": "Farine, œuf, panko grillé. Presser fermement pour que la chapelure tienne."
+      },
+      {
+        "n": 5,
+        "texte": "Sur la grille, sans rien ajouter. 12 à 16 minutes selon l'épaisseur, sans retourner."
+      },
+      {
+        "n": 6,
+        "texte": "Repos de 3 minutes avant de trancher, en travers."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Pourquoi un katsu au four rate d'habitude, et comment ça se règle",
+        "texte": "UN PANKO CRU MIS AU FOUR NE DORE PAS. La friture profonde colore la chapelure parce que l'huile à 170 °C transmet la chaleur instantanément à chaque miette et que l'humidité s'échappe en même temps. Dans un four, l'air chaud sèche le panko sans le brunir, et le résultat est une croûte pâle et poudreuse — ce qui a donné à la panure au four sa mauvaise réputation, méritée.\n\nLA SOLUTION EST DE FAIRE LA COLORATION AVANT ET NON PENDANT. Le panko grillé à sec dans deux cuillères à thé d'huile est déjà doré et déjà parfumé quand il touche la viande; le four n'a plus qu'à cuire l'intérieur. LE RÉSULTAT N'EST PAS UN TONKATSU — la croûte est plus mince et moins bruyante — MAIS C'EST UNE VRAIE CROÛTE, et 40 g de panko avec 2 c. à thé d'huile portent environ 10 g de lipides pour deux portions contre 30 à 45 g pour la même chose frite.\n\nPOURQUOI CETTE FICHE EXISTE. T9 documente la friture japonaise correctement et honnêtement, et conclut que c'est incompatible avec un régulier de semaine. ELLE N'AVAIT AUCUN DÉBOUCHÉ AJUSTÉ : le recueil disait non sans dire par quoi remplacer. Cette fiche est ce par quoi.\n\nLA GRILLE N'EST PAS UN LUXE. Posée directement sur une plaque, la face du dessous cuit dans sa propre vapeur et ramollit; sur une grille, l'air circule et les deux faces restent sèches. À DÉFAUT, RETOURNER À MI-CUISSON en acceptant de perdre un peu de chapelure.\n\nET LA SAUCE EST LE VRAI POSTE SODIQUE DE CE PLAT, PAS LA PANURE. Une cuillère à soupe de sauce tonkatsu porte de l'ordre de 250 mg. Le citron n'en porte aucun, et sur une croûte grillée au panko il suffit souvent."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": null,
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": null,
+      "auteur": null
+    },
+    "voir_aussi": [],
+    "commentaire_source": ""
+  },
+  {
     "id": "R1",
     "statut": "actif",
     "categorie": "dejeuner",

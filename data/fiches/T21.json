@@ -1,0 +1,120 @@
+{
+  "id": "T21",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "vietnamienne",
+  "vitesse": "rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "blanchi"
+  ],
+  "axe_gout": [
+    "doux",
+    "acide"
+  ],
+  "axe_texture": [
+    "ferme",
+    "en-bouillon"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "le-legume-blanchi-et-son-eau-de-cuisson-rau-luoc",
+  "jp": "Rau luộc",
+  "jp_lecture": null,
+  "romaji": "rau luoc",
+  "langue_origine": "vi",
+  "fr": "Le legume blanchi et son eau de cuisson (rau luoc)",
+  "sous_titre": "Une casserole, huit minutes, et deux postes du repas sont faits : le légume et la soupe. Tout le sel du plat part dans un bol de trempette qu'on contrôle.",
+  "portions": "2",
+  "temps_affiche": "≈ 8 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 6,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 70,
+    "calories_affiche": "≈ 70",
+    "lipides_g": 0,
+    "sodium_mg": 15,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, SANS LA TREMPETTE — c'est elle qui porte tout le sodium du plat, et on n'en consomme que ce qu'on trempe. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g d'un légume-feuille ou d'une racine : liseron d'eau, chou nappa, choy sum, courge cireuse, haricots longs, chou vert",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 L d'eau, sans sel ou avec une petite pincée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "POUR L'EAU DE CUISSON, à la fin : le jus de 1/2 lime, 1 oignon vert émincé, un tour de poivre blanc",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA TREMPETTE, servie à part : 1 c. à soupe de sauce de poisson, 1 c. à soupe de jus de lime, 1 c. à thé de sucre, 2 c. à soupe d'eau, 1 gousse d'ail émincée, 1 piment",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Variante de trempette sans sauce de poisson : sauce soya réduite en sodium et lime, à parts égales",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Porter l'eau à ébullition. UNE PETITE QUANTITÉ D'EAU, environ 1 L pour 400 g : elle va devenir la soupe, donc elle doit rester concentrée."
+    },
+    {
+      "n": 2,
+      "texte": "Le légume dedans. Tiges d'abord si elles sont épaisses. Deux à cinq minutes selon le légume, jusqu'à ce qu'il soit tendre mais qu'il tienne encore."
+    },
+    {
+      "n": 3,
+      "texte": "SORTIR LE LÉGUME AVEC UNE PINCE OU UNE ÉCUMOIRE, PAS EN VIDANT LA CASSEROLE. L'eau est le deuxième plat."
+    },
+    {
+      "n": 4,
+      "texte": "Le légume dans une assiette, servi tiède ou à température de la pièce. La trempette dans un petit bol à côté."
+    },
+    {
+      "n": 5,
+      "texte": "L'eau de cuisson dans des bols : le jus de lime, l'oignon vert, le poivre. Goûter — elle a besoin de très peu, parfois de rien."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Deux plats d'une casserole, et le sel qui reste dehors",
+      "texte": "LE MÉCANISME EST DOUBLEMENT ÉCONOME ET C'EST POUR ÇA QUE CETTE FICHE EXISTE. Une casserole et huit minutes donnent le poste légume et le poste soupe du ichiju sansai — deux des quatre cases du repas. Et les vitamines hydrosolubles que le blanchiment fait sortir du légume ne sont pas jetées : elles sont dans le bol.\n\nLE VRAI GAIN EST AILLEURS, ET IL EST STRUCTUREL : TOUT LE SODIUM DU PLAT EST DANS UN BOL À CÔTÉ, PAS DANS LE PLAT. La trempette entière porte de l'ordre de 1 400 mg pour deux personnes, mais on n'en consomme que ce qu'on trempe — de l'ordre de deux à trois cuillères à thé par personne, soit 200 à 350 mg. Le même sel versé sur le légume dans la poêle aurait été mangé en entier.\n\nC'EST EXACTEMENT LA LOGIQUE DU CONTENANT QUI DÉCIDE DE LA PORTION, APPLIQUÉE AU SEL AU LIEU DE LA NOURRITURE. Et c'est la manœuvre centrale de la cuisine vietnamienne, pas une astuce : le nuoc cham est déjà lui-même une dilution — deux cuillères à soupe de sauce de poisson pour six d'eau, servies à trois personnes.\n\nLE PIÈGE DE CETTE CUISINE N'EST PAS LA SAUCE DE POISSON, C'EST LE HAT NEM. Le bouillon de poulet en poudre figure dans presque toutes les recettes familiales vietnamiennes documentées, il est aussi salé que le sel, et il n'entre dans aucun calcul parce que personne ne le compte comme un assaisonnement. DANS CE DOSSIER, IL EST SUPPRIMÉ PAR DÉFAUT, PAS RÉDUIT. Le goût qu'il apportait se retrouve dans les champignons séchés, l'oignon grillé et le poivre blanc.\n\nET L'EAU DE CUISSON NE SE SALE PRESQUE PAS. Blanchir dans une eau salée met du sel dans le légume ET dans la soupe — deux fois. Une pincée dans l'eau suffit, et la lime fait le reste."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

@@ -1,0 +1,127 @@
+{
+  "id": "T17",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "piquant"
+  ],
+  "axe_texture": [
+    "ferme",
+    "elastique"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "le-saute-a-sec-ganbian",
+  "jp": "干煸",
+  "jp_lecture": null,
+  "romaji": "gānbiān",
+  "langue_origine": "zh",
+  "fr": "Le saute a sec (ganbian)",
+  "sous_titre": "Une poêle sèche, un légume, et de la patience. Ni huile pour commencer, ni liquide, ni couvercle : on retire l'eau du légume au lieu de la faire cuire.",
+  "portions": "2",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 9,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 90,
+    "calories_affiche": "≈ 90",
+    "lipides_g": 4,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "300 à 400 g d'un légume ferme et charnu : haricots verts, haricots longs, chou, poivrons, aubergine chinoise en bâtonnets",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre, AJOUTÉES SEULEMENT À MI-CUISSON",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 gousses d'ail hachées, 1 c. à thé de gingembre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 2 piments séchés, 1/2 c. à thé de poivre de Sichuan",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif, 50 g de porc haché maigre comme assaisonnement",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium, hors du feu",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Le légume sec et entier ou en gros morceaux. Une surface humide ne fonctionne pas ici."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle large à feu moyen-vif, SANS AUCUNE HUILE. Le légume en une couche."
+    },
+    {
+      "n": 3,
+      "texte": "Remuer peu, toutes les trente ou quarante secondes. Le légume se ride, se tache de brun, se rétracte. Cinq à sept minutes. C'EST LE CŒUR DE LA TECHNIQUE ET ÇA A L'AIR DE MAL SE PASSER : le légume paraît sec et fripé. C'est exactement le but."
+    },
+    {
+      "n": 4,
+      "texte": "Quand les surfaces sont marquées et le légume souple, ajouter les 2 c. à thé d'huile, l'ail, le gingembre, les épices. Une minute."
+    },
+    {
+      "n": 5,
+      "texte": "Le haché, s'il y en a, une minute de plus."
+    },
+    {
+      "n": 6,
+      "texte": "Hors du feu, la cuillère de soya."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "L'inverse de tout ce qu'on apprend sur les légumes",
+      "texte": "LA CUISINE OCCIDENTALE ENSEIGNE À CUIRE UN LÉGUME VITE ET À GARDER SON CROQUANT ET SA COULEUR. LE 干煸 FAIT L'OPPOSÉ DÉLIBÉRÉMENT : on chauffe longtemps à sec jusqu'à ce que le légume perde une bonne part de son eau. Ce qui reste est concentré, sa peau est marquée, sa texture devient dense et un peu coriace — et son goût est plusieurs fois plus intense qu'un légume blanchi.\n\nPOURQUOI CETTE FICHE EST DANS UN DOSSIER DE PERTE DE POIDS. Parce que c'est la seule méthode qui donne un goût puissant à un légume SANS HUILE ET SANS SEL. Un plat de haricots ganbian avec deux cuillères à thé d'huile et une cuillère à thé de soya pour deux portions porte environ 4 g de lipides et 150 mg de sodium, et il goûte plus fort que la même quantité de haricots sautés dans trois fois plus d'huile.\n\nLA VERSION DE RESTAURANT PASSE LES HARICOTS À L'HUILE (voir le refus du 过油 à la fiche T14) ET C'EST CE QU'ON REMPLACE ICI. La poêle sèche fait le même travail de déshydratation, en cinq minutes de plus et avec vingt grammes de gras en moins.\n\nLES DEUX RATÉS POSSIBLES. UN — remuer sans arrêt : le légume ne touche jamais assez longtemps le métal pour se marquer, et on obtient un légume tiède. DEUX — ajouter l'huile au début : elle grille toute seule pendant les cinq minutes de chaleur sèche, elle fume et elle donne un goût âcre. L'HUILE ARRIVE À MI-CUISSON, ET C'EST TOUT L'ORDRE DE LA TECHNIQUE."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

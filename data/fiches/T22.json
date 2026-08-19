@@ -1,0 +1,131 @@
+{
+  "id": "T22",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "thaie",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant"
+  ],
+  "axe_texture": [],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "la-vinaigrette-a-trois-axes-yam",
+  "jp": "ยำ",
+  "jp_lecture": null,
+  "romaji": "yam",
+  "langue_origine": "th",
+  "fr": "La vinaigrette a trois axes (yam)",
+  "sous_titre": "Acide, piquant, salé, et rien d'autre. Aucun gras émulsifiant — et c'est la seule structure du recueil où réduire le sel de moitié se compense intégralement en montant les deux autres axes.",
+  "portions": "2",
+  "temps_affiche": "≈ 3 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 0,
+    "proteines_affiche": "0 g",
+    "calories": 30,
+    "calories_affiche": "≈ 30",
+    "lipides_g": 0,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "LE GABARIT, pour 300 g de protéine et deux portions :",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "ACIDE — 3 à 4 c. à soupe de jus de lime frais",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "SALÉ — 1 à 1,5 c. à soupe de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "PIQUANT — 1 à 4 piments oiseaux écrasés, ou 1 à 2 c. à thé de piment séché grillé moulu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "SUCRE — 1/2 à 1 c. à thé, en trace, jamais plus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Aromates, en volume et non en garniture : 2 échalotes en fines tranches, une grosse poignée de menthe, une de coriandre, 2 oignons verts, du céleri chinois",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif et recommandé : 2 à 3 c. à soupe de khao khua (T19)",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T19"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger lime, sauce de poisson, piment et sucre dans un bol. Remuer jusqu'à dissolution du sucre."
+    },
+    {
+      "n": 2,
+      "texte": "GOÛTER À LA CUILLÈRE. La vinaigrette doit être franchement trop forte seule : elle va être diluée par la protéine et par l'eau des herbes."
+    },
+    {
+      "n": 3,
+      "texte": "Verser sur la protéine tiède ou froide, jamais chaude. Mélanger."
+    },
+    {
+      "n": 4,
+      "texte": "Les aromates et les herbes en dernier, mélangés à la main d'un geste léger."
+    },
+    {
+      "n": 5,
+      "texte": "Le khao khua à la toute fin, saupoudré et mélangé une fois. Servir dans les minutes qui suivent."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Un système à axes, pas une recette",
+      "texte": "UNE VINAIGRETTE OCCIDENTALE EST UNE ÉMULSION : il faut du gras pour tenir l'acide, et les proportions ne bougent pas beaucoup sans que ça tranche. LA VINAIGRETTE YAM N'A AUCUN GRAS, DONC AUCUNE ÉMULSION À CASSER, DONC AUCUNE PROPORTION OBLIGATOIRE. C'est une somme de trois sensations indépendantes, et chacune peut monter ou descendre.\n\nCONSÉQUENCE DIRECTE, ET C'EST LA RAISON POUR LAQUELLE CETTE FICHE COMPTE PLUS QUE LA PLUPART : DESCENDRE LA SAUCE DE POISSON DE 2 C. À SOUPE À 1 SE COMPENSE EN MONTANT LA LIME DE 2 À 4 ET EN DOUBLANT LE PIMENT. Le plat reste complet en bouche. AUCUN AUTRE FORMAT DU RECUEIL N'OFFRE CETTE ÉLASTICITÉ — une soupe miso allégée en miso est une soupe fade, un tare de yakitori allégé en soya est un tare qui n'accroche plus.\n\nLE RENDEMENT NUTRITIONNEL EST CE QUI SUIT DE L'ABSENCE DE GRAS : une salade yam de 300 g de viande maigre apporte 60 à 70 g de protéines pour 15 g de lipides, et ces 15 g sont ceux de la viande. La vinaigrette en apporte ZÉRO.\n\nET LE SUCRE EST UN AXE, PAS UN ASSAISONNEMENT. Une demi-cuillère à thé arrondit l'acide et le rend buvable; deux cuillères à soupe — la dose de beaucoup de recettes de restaurant — en font un plat sucré. LE REPÈRE : si on goûte le sucre, il y en a trop."
+    },
+    {
+      "titre": "Ce qui n'est pas une salade yam",
+      "texte": "LA LIME DOIT ÊTRE FRAÎCHE, ET C'EST LE SEUL POINT NON NÉGOCIABLE. Le jus en bouteille est acide sans être parfumé, et dans une vinaigrette sans gras il n'y a rien pour masquer ce manque : le plat devient simplement aigre. Si les limes manquent, le jus d'un citron et demi pour deux limes plus deux feuilles de lime kaffir déchirées de plus est le meilleur repli.\n\nLES HERBES SONT UN INGRÉDIENT, PAS UNE DÉCORATION. Une salade yam correcte porte le volume d'un bol de salade en menthe, coriandre, échalote et oignon vert pour deux portions. Une pincée de coriandre sur le dessus donne une viande vinaigrée, pas une salade yam.\n\nET LA PROTÉINE N'EST JAMAIS CHAUDE QUAND ELLE ENTRE. Chaude, elle cuit les herbes qui noircissent en deux minutes, et elle fait s'évaporer les composés volatils de la lime. Tiède ou froide, tout tient. C'EST LA MÊME RÈGLE QUE L'ACIDE HORS DU FEU DE R27, POUR LA MÊME RAISON."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

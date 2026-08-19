@@ -1,0 +1,115 @@
+{
+  "id": "T19",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "laotienne",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "condiment",
+  "methode": [
+    "grille"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "le-riz-gluant-grille-moulu-khao-khua",
+  "jp": "ເຂົ້າຄ້ວ",
+  "jp_lecture": null,
+  "romaji": "khao khua",
+  "langue_origine": "lo",
+  "fr": "Le riz gluant grille moulu (khao khua)",
+  "sous_titre": "Écriture d'origine ເຂົ້າຄ້ວ, variante thaïe ข้าวคั่ว. Du riz cru grillé à sec et moulu. Ça ne coûte rien, ça ne contient pas un milligramme de sodium, et c'est le levier de compensation le plus efficace de tout le dossier.",
+  "portions": "12 (environ 6 c. à soupe de poudre)",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 1,
+    "cuisson": 10,
+    "attente": 1
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 35,
+    "calories_affiche": "≈ 35 par c. à soupe",
+    "lipides_g": 0,
+    "sodium_mg": 0,
+    "variable": false,
+    "source": "estime",
+    "note": "Par cuillère à soupe. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. LE ZÉRO DE SODIUM, LUI, EST STRUCTUREL — il n'entre ni sel ni sauce dans cette poudre."
+  },
+  "ingredients": [
+    {
+      "texte": "4 c. à soupe de RIZ GLUANT CRU, non cuit, non rincé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif, et ça change le résultat : 2 tranches de galanga, 1 tige de citronnelle écrasée, 2 feuilles de lime kaffir, grillées avec le riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un mortier, ou un moulin à épices, ou un moulin à café propre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Poêle sèche à feu moyen-doux. Le riz cru, en une couche. AUCUNE HUILE, AUCUNE EAU."
+    },
+    {
+      "n": 2,
+      "texte": "Remuer presque sans arrêt, 8 à 12 minutes. Le riz passe du blanc opaque au blond, puis au brun doré. L'odeur devient celle du pain grillé et du maïs éclaté."
+    },
+    {
+      "n": 3,
+      "texte": "VISER LE BRUN DORÉ UNIFORME, PAS LE BRUN FONCÉ. Un grain noir donne une amertume qui traverse tout le plat, et on ne peut pas trier après."
+    },
+    {
+      "n": 4,
+      "texte": "Verser sur une assiette froide immédiatement — la poêle chaude continue de cuire."
+    },
+    {
+      "n": 5,
+      "texte": "Laisser refroidir complètement. Moulu tiède, le riz colle et fait une pâte."
+    },
+    {
+      "n": 6,
+      "texte": "Piler ou moudre en une poudre grossière, comme une semoule fine. PAS EN FARINE : c'est le grain qui donne la texture."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce que ça remplace, et c'est plus large qu'on croit",
+      "texte": "LE KHAO KHUA FAIT TROIS CHOSES À LA FOIS, ET C'EST CE QUI LE REND EXCEPTIONNEL DANS CE DOSSIER. UN — IL LIE. Saupoudré sur une salade humide, il boit le jus et l'accroche à la viande : il fait le travail d'une fécule ou d'un gras émulsifiant, à zéro lipide. DEUX — IL DONNE UN UMAMI SEC ET GRILLÉ, la même famille de goût que le katsuobushi ou le sésame torréfié, obtenue par réaction de Maillard sur l'amidon. TROIS — IL DONNE DU GRAIN SOUS LA DENT dans un plat qui n'en a pas autrement.\n\nET IL EST À ZÉRO MILLIGRAMME DE SODIUM. C'est ce qui en fait le meilleur outil de compensation du recueil : devant un plat allégé qui goûte plat, le réflexe est le sel; le khao khua ajoute du relief par une autre porte, exactement comme le shichimi, mais avec en plus un effet de texture et de liaison.\n\nDANS UN LAAP OU UN NAM TOK, MONTER LE KHAO KHUA À 3 C. À SOUPE PERMET DE DESCENDRE LA SAUCE DE POISSON À 1 C. À SOUPE SANS QUE LE PLAT PARAISSE AMPUTÉ. Ce n'est pas une équivalence chimique, c'est une compensation perceptive : le plat garde de la présence en bouche.\n\nSE GARDE UN MOIS DANS UN POT FERMÉ, À L'ABRI DE LA LUMIÈRE. Après, il rancit doucement et perd son parfum. EN FAIRE 4 C. À SOUPE À LA FOIS ET PAS PLUS."
+    },
+    {
+      "titre": "Le riz gluant, et pas un autre",
+      "texte": "IL FAUT DU RIZ GLUANT CRU — 糯米, sticky rice, sweet rice, riz à sushi NON. Le riz gluant est presque entièrement composé d'amylopectine, ce qui lui donne à la torréfaction une odeur de maïs éclaté et une poudre qui absorbe beaucoup de liquide. Un riz à grain court japonais grillé donne une poudre plus sableuse et nettement moins parfumée; un riz long donne peu de chose.\n\nCHEZ KIM PHAT, LE RIZ GLUANT EST AU KIOSQUE DU RIZ — Hakubai en sacs de 5 lb — ET AUSSI EN ALLÉE 33 avec les légumineuses. Le même sac sert aussi à la fournée de riz gluant vapeur qui accompagne traditionnellement le laap.\n\nLES AROMATES GRILLÉS AVEC LE RIZ SONT FACULTATIFS MAIS ILS CHANGENT LE PRODUIT. Galanga, citronnelle et feuille de lime grillés puis moulus avec le riz donnent une poudre qui porte déjà le profil du plat. C'EST LA VERSION À FAIRE SI ON SAIT QUE LA POUDRE IRA DANS DES SALADES THAÏES OU LAO; la version au riz seul est plus polyvalente et va aussi bien sur une soupe ou un légume blanchi."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

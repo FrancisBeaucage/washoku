@@ -50,6 +50,11 @@ const SOURCES = [
        déclarer d'avance. */
     champs_hors_page: [
       'nutrition.source', 'nutrition.variable', 'nutrition.note', 'voir_aussi',
+      /* `lipides_g` et `sodium_mg` sont entrés au document 19 et sont restés
+         `null` sur les 79 premières fiches : le trou ne se voyait donc pas.
+         Les techniques du document 21 les remplissent, et la règle 20 l'a
+         signalé au premier essai — c'est exactement pour ça qu'elle existe. */
+      'nutrition.lipides_g', 'nutrition.sodium_mg',
       'type_de_plat', 'methode', 'axe_gout', 'axe_texture', 'moment',
       'langue_origine',
       'etoiles', 'cout_travail', 'statut_perso', 'motif_statut', 'pour_la_maison',

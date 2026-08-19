@@ -1,0 +1,128 @@
+{
+  "id": "T23",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "type_de_plat": "technique",
+  "methode": [
+    "roti"
+  ],
+  "axe_gout": [
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "croustillant",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "la-panure-seche-au-four-age-yaki",
+  "jp": "揚げ焼き",
+  "jp_lecture": "age-yaki",
+  "romaji": "age-yaki",
+  "langue_origine": "ja",
+  "fr": "La panure seche au four (age-yaki)",
+  "sous_titre": "La porte d'entrée compatible vers toute la famille katsu. Deux cuillères à thé d'huile au lieu d'un litre, et un panko qu'on grille avant de paner.",
+  "portions": "2",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": null,
+    "calories_affiche": "—",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de protéine en escalopes de 1,5 cm : longe de porc, poitrine de poulet ouverte en deux, filet de poisson ferme",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "40 g de panko",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre, POUR GRILLER LE PANKO",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de farine, 1 œuf battu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Sel et poivre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À servir : sauce tonkatsu avec parcimonie, ou ponzu, ou un quartier de citron",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T9"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Four à 220 °C, avec une grille posée sur une plaque."
+    },
+    {
+      "n": 2,
+      "texte": "GRILLER LE PANKO À SEC AVANT DE PANER. Poêle à feu moyen, les 2 c. à thé d'huile, le panko, remué sans arrêt 3 à 4 minutes jusqu'au blond doré. Verser sur une assiette froide. C'EST L'ÉTAPE QUI FAIT TOUTE LA DIFFÉRENCE ET CELLE QUE TOUTES LES RECETTES DE FOUR OUBLIENT."
+    },
+    {
+      "n": 3,
+      "texte": "Éponger la protéine, saler et poivrer."
+    },
+    {
+      "n": 4,
+      "texte": "Farine, œuf, panko grillé. Presser fermement pour que la chapelure tienne."
+    },
+    {
+      "n": 5,
+      "texte": "Sur la grille, sans rien ajouter. 12 à 16 minutes selon l'épaisseur, sans retourner."
+    },
+    {
+      "n": 6,
+      "texte": "Repos de 3 minutes avant de trancher, en travers."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi un katsu au four rate d'habitude, et comment ça se règle",
+      "texte": "UN PANKO CRU MIS AU FOUR NE DORE PAS. La friture profonde colore la chapelure parce que l'huile à 170 °C transmet la chaleur instantanément à chaque miette et que l'humidité s'échappe en même temps. Dans un four, l'air chaud sèche le panko sans le brunir, et le résultat est une croûte pâle et poudreuse — ce qui a donné à la panure au four sa mauvaise réputation, méritée.\n\nLA SOLUTION EST DE FAIRE LA COLORATION AVANT ET NON PENDANT. Le panko grillé à sec dans deux cuillères à thé d'huile est déjà doré et déjà parfumé quand il touche la viande; le four n'a plus qu'à cuire l'intérieur. LE RÉSULTAT N'EST PAS UN TONKATSU — la croûte est plus mince et moins bruyante — MAIS C'EST UNE VRAIE CROÛTE, et 40 g de panko avec 2 c. à thé d'huile portent environ 10 g de lipides pour deux portions contre 30 à 45 g pour la même chose frite.\n\nPOURQUOI CETTE FICHE EXISTE. T9 documente la friture japonaise correctement et honnêtement, et conclut que c'est incompatible avec un régulier de semaine. ELLE N'AVAIT AUCUN DÉBOUCHÉ AJUSTÉ : le recueil disait non sans dire par quoi remplacer. Cette fiche est ce par quoi.\n\nLA GRILLE N'EST PAS UN LUXE. Posée directement sur une plaque, la face du dessous cuit dans sa propre vapeur et ramollit; sur une grille, l'air circule et les deux faces restent sèches. À DÉFAUT, RETOURNER À MI-CUISSON en acceptant de perdre un peu de chapelure.\n\nET LA SAUCE EST LE VRAI POSTE SODIQUE DE CE PLAT, PAS LA PANURE. Une cuillère à soupe de sauce tonkatsu porte de l'ordre de 250 mg. Le citron n'en porte aucun, et sur une croûte grillée au panko il suffit souvent."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

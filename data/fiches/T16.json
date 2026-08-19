@@ -1,0 +1,129 @@
+{
+  "id": "T16",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "extra-long",
+  "type_de_plat": "technique",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "le-mijotage-long-dun-bao",
+  "jp": "炖 · 煲",
+  "jp_lecture": null,
+  "romaji": "dùn · bāo",
+  "langue_origine": "zh",
+  "fr": "Le mijotage long (dun, bao)",
+  "sous_titre": "Quinze minutes de travail, deux heures de feu doux sans surveillance. C'est le seul format du recueil qui échappe au plafond de quarante-cinq minutes — parce que le temps n'est pas du travail.",
+  "portions": "4",
+  "temps_affiche": "≈ 15 min actives, 2 h de feu",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 120,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": null,
+    "proteines_affiche": "—",
+    "calories": null,
+    "calories_affiche": "—",
+    "lipides_g": null,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "600 à 800 g de volaille sur l'os, de jarret, de côtes maigres ou de poisson entier",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AROMATES SECS, un choix de trois ou quatre : dattes rouges, igname chinoise séchée, graines de lotus, orge perlé, goji, longane, amandes du Nord et du Sud, champignons séchés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 tranches de gingembre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Un légume-racine : daikon, carotte, courge cireuse, maïs en tronçons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Sel, à la toute fin, ou dans le bol",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 sur la viande. Sur un mijotage de deux heures, l'écume non retirée se disperse complètement et le bouillon devient gris."
+    },
+    {
+      "n": 2,
+      "texte": "Rincer les aromates secs. Faire tremper les champignons séchés 20 minutes; garder l'eau de trempage."
+    },
+    {
+      "n": 3,
+      "texte": "Tout dans la casserole avec les 2 L d'eau froide. Porter à frémissement, JAMAIS À GROS BOUILLONS."
+    },
+    {
+      "n": 4,
+      "texte": "Couvrir, feu au plus doux, 1 h 30 à 3 h. La surface doit à peine trembler. Un bouillon qui bout devient trouble et gras."
+    },
+    {
+      "n": 5,
+      "texte": "Ajouter le légume-racine dans la dernière heure, en morceaux de 3 cm."
+    },
+    {
+      "n": 6,
+      "texte": "NE SALER QU'À LA FIN, ou mieux, laisser chacun saler son bol."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce que deux heures font que vingt minutes ne font pas",
+      "texte": "LES CINQ SOUPES DU RECUEIL SONT TOUTES DES SOUPES DE DIX À VINGT MINUTES, MONTÉES SUR UN DASHI DÉJÀ FAIT. Celle-ci est l'inverse exact, et son profil de temps est complémentaire, pas concurrent : le travail est concentré au début, puis la casserole travaille seule. UN SOUPER PLAFONNÉ À QUARANTE-CINQ MINUTES DE TRAVAIL ACTIF PEUT PORTER UN PLAT DE DEUX HEURES, à condition que le feu ait été allumé en après-midi.\n\nCE QUE LA DURÉE APPORTE CHIMIQUEMENT. Le collagène des tissus conjonctifs se convertit en gélatine, ce qui donne au bouillon un corps que rien d'autre ne reproduit — ni la fécule, ni la réduction, ni le gras. Les acides aminés libres et les nucléotides des ingrédients secs et des champignons diffusent lentement. LE RÉSULTAT EST UN BOUILLON QUI GOÛTE PLEIN SANS PRESQUE DE SEL, et c'est précisément ce que ce dossier cherche.\n\nLE 老火湯 CANTONAIS ET HONGKONGAIS EST LA FORME LA PLUS ABOUTIE DE CETTE FAMILLE, littéralement la soupe à vieux feu. Elle se boit avant ou pendant le repas, et la viande qui a tout donné se mange à part avec un peu de soya. DEUX PLATS D'UNE CASSEROLE.\n\nET C'EST LA STRUCTURE DE REPAS QUI COMPTE ICI AUTANT QUE LA TECHNIQUE. Le 兩菜一湯 ou 三菜一湯 cantonais — deux ou trois plats et une soupe — est le cousin exact du ichiju sansai japonais. AJOUTER CETTE FAMILLE RENFORCE LE MÉCANISME CENTRAL DU DOSSIER AU LIEU DE LE DILUER.\n\nDEUX ÉCUEILS. UN — écumer les premières minutes même après T12, il en remonte toujours un peu. DEUX — la tentation de saler en cours de route : le liquide réduit de vingt à trente pour cent en deux heures, et un bouillon salé au début devient trop salé à la fin. LE SEL VA DANS LE BOL."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

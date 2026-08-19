@@ -1,0 +1,118 @@
+{
+  "id": "T13",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "chinoise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "technique",
+  "methode": [
+    "saute",
+    "vapeur"
+  ],
+  "axe_gout": [
+    "doux"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "le-saute-a-l-eau-shui-you-men",
+  "jp": "水油焖",
+  "jp_lecture": null,
+  "romaji": "shuǐ yóu mèn",
+  "langue_origine": "zh",
+  "fr": "Le saute a l'eau (shui you men)",
+  "sous_titre": "Deux cuillères à thé d'huile, deux cuillères à soupe d'eau, un couvercle. La vapeur remplace la chaleur qu'une cuisinière domestique ne fournit pas — et c'est le levier lipides de toute la ligne chinoise.",
+  "portions": "2",
+  "temps_affiche": "≈ 5 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 3,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 60,
+    "calories_affiche": "≈ 60",
+    "lipides_g": 3,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. L'étiquette du produit prime."
+  },
+  "ingredients": [
+    {
+      "texte": "300 à 400 g de légumes coupés en morceaux réguliers : chou, bok choy, haricots verts, courgette, brocoli, champignons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre, PAS PLUS",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 gousse d'ail écrasée, ou 2 tranches de gingembre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Sel, ou 1 c. à thé de sauce soya en fin de cuisson",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Poêle ou wok à feu vif avec les 2 c. à thé d'huile et l'aromate. Dix secondes, pas plus : l'ail brûle vite."
+    },
+    {
+      "n": 2,
+      "texte": "Jeter les légumes d'un coup et remuer 30 à 45 secondes, jusqu'à ce que les surfaces soient brillantes d'huile."
+    },
+    {
+      "n": 3,
+      "texte": "VERSER LES 2 C. À SOUPE D'EAU ET COUVRIR IMMÉDIATEMENT. Ça siffle fort. Compter 30 à 90 secondes selon le légume — 30 pour du bok choy, 90 pour du brocoli."
+    },
+    {
+      "n": 4,
+      "texte": "Retirer le couvercle. S'il reste du liquide, monter le feu 20 secondes pour l'évaporer : un légume qui baigne est un légume bouilli."
+    },
+    {
+      "n": 5,
+      "texte": "Saler ou verser la cuillère de soya hors du feu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi un wok de restaurant ne se remplace pas par plus d'huile",
+      "texte": "UN BRÛLEUR DE RESTAURANT CHINOIS DÉVELOPPE DIX À VINGT FOIS LA PUISSANCE D'UNE CUISINIÈRE DOMESTIQUE. C'est cette puissance qui cuit un légume en quarante secondes tout en évaporant l'eau qu'il rend. À la maison, la même poêlée s'affaisse : le légume rend son eau, la température chute, et on obtient un légume bouilli dans son propre jus.\n\nLE RÉFLEXE EST D'AJOUTER DE L'HUILE, ET C'EST UNE ERREUR DE PHYSIQUE. L'huile transporte mieux la chaleur, donc ça marche un peu — au prix de 10 à 15 g de lipides par plat de légumes, ce qui est absurde dans un dossier plafonné à 65 g par jour.\n\nLA VRAIE RÉPONSE EST LA VAPEUR SOUS COUVERCLE. Deux cuillères à soupe d'eau dans une poêle brûlante produisent instantanément un volume de vapeur qui cuit le légume par tous les côtés à la fois, à 100 °C, sans qu'aucune surface n'ait besoin de toucher le métal. LE PLAT EST CUIT EN QUATRE-VINGT-DIX SECONDES AVEC 3 G DE LIPIDES AU TOTAL.\n\nLES DEUX ERREURS QUI ANNULENT LA TECHNIQUE. UN — trop d'eau : à un quart de tasse on braise, le légume devient mou et pâle. DEUX — soulever le couvercle pour regarder : toute la vapeur part et il faut recommencer. ON NE REGARDE PAS, ON ÉCOUTE. Quand le sifflement faiblit, l'eau est partie."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": null,
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null
+  },
+  "voir_aussi": [],
+  "commentaire_source": ""
+}

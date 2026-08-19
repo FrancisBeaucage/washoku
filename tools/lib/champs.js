@@ -2,7 +2,16 @@
 /* Conversions entre la forme compacte des tableaux JS des pages et le schéma
    JSON du document 7. Les libellés longs vivent ici, une seule fois. */
 
-const CUISINES = { jp: 'japonaise', cn: 'chinoise', kr: 'coreenne', th: 'thaie', vn: 'vietnamienne' };
+/* Le laotien et l'indonésien entrent au document 21, et ce n'est pas une
+   ouverture spéculative : le khao khua (T19) est une technique lao avant d'être
+   thaïe, et le tempé est PRODUIT À MONTRÉAL et se comporte comme une viande, ce
+   qu'aucun soya du dossier ne fait. Taïwan et Hong Kong restent sous
+   `chinoise` — leur cuisine domestique EST du cantonais.
+   Sans accent et sans cédille, comme `coreenne` et `thaie` le sont déjà. */
+const CUISINES = {
+  jp: 'japonaise', cn: 'chinoise', kr: 'coreenne', th: 'thaie', vn: 'vietnamienne',
+  lo: 'laotienne', id: 'indonesienne',
+};
 const VITESSES = { xs: 'ultra-rapide', s: 'rapide', m: 'moyen', l: 'long', xl: 'extra-long' };
 const CATEGORIES = {
   tech: 'technique', dej: 'dejeuner', din: 'diner', sou: 'souper',
@@ -74,6 +83,7 @@ const LANGUES = ['ja', 'zh', 'ko', 'vi', 'th', 'lo', 'id', 'aucune'];
    recette pouvant porter un nom d'une autre langue que sa cuisine. */
 const LANGUE_PAR_CUISINE = {
   japonaise: 'ja', chinoise: 'zh', coreenne: 'ko', vietnamienne: 'vi', thaie: 'th',
+  laotienne: 'lo', indonesienne: 'id',
 };
 
 /* La base de dosage d'une étiquette du guide 3. Elle est OBLIGATOIRE dès qu'un
@@ -95,7 +105,8 @@ const BASES_NUTRITION = ['100g', 'portion', 'c-a-soupe', 'c-a-the', 'unite'];
 const LIBELLES = {
   cuisine: {
     japonaise: 'Japonais', chinoise: 'Chinois', coreenne: 'Coréen',
-    thaie: 'Thaï', vietnamienne: 'Vietnamien',
+    thaie: 'Thaï', vietnamienne: 'Vietnamien', laotienne: 'Laotien',
+    indonesienne: 'Indonésien',
   },
   vitesse: {
     'ultra-rapide': 'Ultra rapide', rapide: 'Rapide', moyen: 'Moyen',
