@@ -1,0 +1,135 @@
+{
+  "id": "R102",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "marine",
+    "saute"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "sesame-noisette"
+  ],
+  "axe_texture": [
+    "ferme",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "bulgogi-boeuf-marine-grille",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "불고기",
+  "lecture_origine": "bulgogi",
+  "langue_origine": "ko",
+  "fr": "Bulgogi — bœuf mariné grillé",
+  "sous_titre": "Le deuxième plat le plus aimé de Corée, et son sodium est déjà correct sans qu'on y touche. Le seul ajustement est la coupe de bœuf, et la poire n'est pas décorative.",
+  "portions": "3",
+  "temps_affiche": "≈ 25 min + 30 de marinade",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 10,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 340,
+    "calories_affiche": "≈ 340",
+    "lipides_g": 14,
+    "sodium_mg": 380,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "450 g de bœuf tranché très mince — SURLONGE OU HAUT DE RONDE, PAS DE RIB-EYE — congelé 45 min puis tranché à 2 mm, ou du bœuf à fondue du comptoir asiatique",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA MARINADE : 1/2 POIRE ASIATIQUE RÂPÉE, environ 100 g · 2,5 c. à soupe de sauce soya réduite en sodium · 1 c. à soupe de sucre ou de miel · 4 gousses d'ail râpées · 1 c. à soupe d'huile de sésame grillé · 1 c. à soupe de graines de sésame · poivre noir généreux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 oignon en lamelles, 3 oignons verts en tronçons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre pour la poêle",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À servir : feuilles de laitue, riz, et un banchan croquant",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger toute la marinade dans un grand bol. RÂPER LA POIRE DIRECTEMENT DEDANS, AVEC SON JUS."
+    },
+    {
+      "n": 2,
+      "texte": "Le bœuf, mélangé à la main pour séparer les tranches. L'oignon et les oignons verts."
+    },
+    {
+      "n": 3,
+      "texte": "30 minutes au frigo minimum, 4 heures au mieux. PAS PLUS DE 8 HEURES — au-delà, l'enzyme de la poire attendrit trop et la viande devient pâteuse."
+    },
+    {
+      "n": 4,
+      "texte": "Poêle en fonte ou grande poêle TRÈS chaude, un filet d'huile. LE BŒUF EN UNE SEULE COUCHE, PAR POÊLÉES DE 150 G MAXIMUM."
+    },
+    {
+      "n": 5,
+      "texte": "90 secondes sans y toucher, retourner, 60 secondes. SORTIR DÈS QUE LES BORDS CARAMÉLISENT. Répéter."
+    },
+    {
+      "n": 6,
+      "texte": "Ne pas verser le liquide de marinade dans la poêle : il ferait bouillir la viande. LE GARDER À PART ET LE RÉDUIRE 2 MINUTES EN FIN DE CUISSON SI ON VEUT UNE SAUCE."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La poire n'est pas un ingrédient de goût, c'est une enzyme",
+      "texte": "LA POIRE ASIATIQUE — 나시, nashi — CONTIENT UNE PROTÉASE QUI COUPE LES FIBRES DE COLLAGÈNE DE LA VIANDE. C'est ce qui permet à une surlonge ou à un haut de ronde, coupes maigres et fermes, de sortir aussi tendres qu'une pièce grasse. SANS LA POIRE, L'AJUSTEMENT DE COUPE NE MARCHE PAS : une surlonge marinée au soya seul reste ferme.\n\nC'EST DONC LA POIRE QUI REND CE PLAT COMPATIBLE AVEC LE DOSSIER. La version des restaurants se fait au rib-eye ou au faux-filet, dont le gras interne fait le travail — et qui portent 20 à 25 g de lipides aux 100 g contre 6 à 8 pour une surlonge. Quatorze grammes par portion ici, contre 30 dans un bulgogi de restaurant.\n\n⚠️ ET C'EST POURQUOI LA MARINADE A UNE LIMITE HAUTE. L'enzyme ne s'arrête pas : au-delà de huit heures, elle passe de « attendrir » à « désagréger », et la viande devient farineuse. Trente minutes suffisent, quatre heures est l'optimum. CE N'EST PAS UNE MARINADE QU'ON LANCE LA VEILLE.\n\nÀ DÉFAUT DE POIRE ASIATIQUE : une poire ordinaire mûre, ou une demi-pomme, ou 2 c. à soupe de jus d'ananas — moins efficace mais réel. JAMAIS DE KIWI : son enzyme est trop violente et détruit la viande en une heure."
+    },
+    {
+      "titre": "Trois cent quatre-vingts milligrammes, et c'est déjà juste",
+      "texte": "CE PLAT EST UNE EXCEPTION DANS LE RÉPERTOIRE CORÉEN : SON SODIUM N'A PAS BESOIN D'ÊTRE AJUSTÉ. Deux cuillères et demie de soya réduit pour trois portions, soit de l'ordre de 380 mg par portion — c'est comparable à un souper japonais moyen du dossier, et il n'y a ni pâte fermentée, ni bouillon, ni kimchi.\n\nET IL Y A UNE RAISON STRUCTURELLE : LE BULGOGI EST UN PLAT DE SUCRE ET DE SÉSAME, PAS DE SEL. Ce qui le rend addictif est le caramel du sucre sur la viande saisie et le gras du sésame — deux axes à zéro sodium. C'est pourquoi il supporte mal qu'on ajoute du soya « pour relever » : ça déséquilibre au lieu d'améliorer.\n\nLE LIQUIDE DE MARINADE NE VA PAS DANS LA POÊLE, ET C'EST DOUBLEMENT UTILE. Versé avec la viande, il refroidit la poêle et le bœuf bouillit au lieu de caraméliser. Gardé à part, il se réduit deux minutes en sauce — ET ON DÉCIDE COMBIEN ON EN VERSE, ce qui est encore la logique du sel servi à côté.\n\nPOÊLÉES DE 150 G MAXIMUM. Une poêle chargée perd sa température, le bœuf rend son eau, et on obtient du bœuf gris bouilli dans son jus. C'est la même règle qu'au bœuf de R17 et qu'au porc de R79."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "3qBjL_HGvco",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R103",
+    "R17"
+  ],
+  "commentaire_source": ""
+}

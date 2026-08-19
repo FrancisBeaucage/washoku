@@ -15561,5 +15561,1107 @@
       "R97"
     ],
     "commentaire_source": ""
+  },
+  {
+    "id": "R99",
+    "statut": "actif",
+    "categorie": "dejeuner",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "doux",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "omelette-roulee-coreenne-gyeranmari",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "계란말이",
+    "lecture_origine": "gyeranmari",
+    "langue_origine": "ko",
+    "fr": "Omelette roulée coréenne (gyeranmari)",
+    "sous_titre": "Cent cinquante milligrammes de sodium pour dix-neuf grammes de protéines, et ça se mange froid. C'est un dîner de vingt minutes déjà fait dans le frigo.",
+    "portions": "2",
+    "temps_affiche": "≈ 15 min",
+    "temps_minutes": {
+      "preparation": 6,
+      "cuisson": 9,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 19,
+      "proteines_affiche": "19 g",
+      "calories": 230,
+      "calories_affiche": "≈ 230",
+      "lipides_g": 15,
+      "sodium_mg": 150,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES DEUX PORTIONS, soit environ 75 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "4 œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES LÉGUMES, hachés TRÈS fin, environ 100 g au total : 1/4 de carotte · 1/4 d’oignon · 2 oignons verts · 1/4 de poivron rouge",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à soupe de lait ou d'eau, pour un roulé plus tendre",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "HACHER LES LÉGUMES TRÈS FIN, en dés de 2 à 3 mm. C'est la seule vraie difficulté du plat : des morceaux trop gros déchirent la couche d'œuf au roulage."
+      },
+      {
+        "n": 2,
+        "texte": "Battre les œufs sans faire de mousse, ajouter le sel et les légumes. Mélanger."
+      },
+      {
+        "n": 3,
+        "texte": "Poêle rectangulaire ou petite poêle antiadhésive de 20 cm, feu MOYEN-DOUX. Huiler au papier absorbant en retirant l’excès."
+      },
+      {
+        "n": 4,
+        "texte": "Verser un tiers du mélange, l'étaler. Quand la surface est prise mais ENCORE HUMIDE, rouler depuis le bord opposé vers soi."
+      },
+      {
+        "n": 5,
+        "texte": "Repousser le rouleau au fond, huiler la surface libre, verser un autre tiers EN SOULEVANT LE ROULEAU pour que l'œuf cru passe dessous. Rouler."
+      },
+      {
+        "n": 6,
+        "texte": "Répéter avec le dernier tiers."
+      },
+      {
+        "n": 7,
+        "texte": "Sortir, poser sur du papier absorbant, presser légèrement pour former le rectangle. LAISSER REFROIDIR AVANT DE TRANCHER en rondelles de 2 cm."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le cousin coréen du dashimaki, et ce qui les distingue",
+        "texte": "LE RECUEIL PORTE MAINTENANT DEUX OMELETTES ROULÉES, ET ELLES NE SE REMPLACENT PAS. Le だし巻き卵 japonais de R75 est monté au DASHI : sa texture est celle d'une crème prise, salée, sans légumes, et le liquide rend le roulage délicat. Le 계란말이 coréen est monté SEC, avec des légumes hachés : plus ferme, plus facile à rouler, et il croque un peu.\n\nCONSÉQUENCE PRATIQUE : CELUI-CI EST CELUI PAR LEQUEL COMMENCER. Sans liquide ajouté, la couche d'œuf ne se déchire pas, et le geste du roulage s'apprend sur ce plat-là avant d'aller au dashimaki.\n\nET C'EST LE PLAT LE MOINS SALÉ DE TOUT LE RÉPERTOIRE CORÉEN — cent cinquante milligrammes pour deux portions, soit le quart d'un banchan moyen. Le sodium vient du seul quart de cuillère à thé de sel; il n'y a ni soya, ni pâte fermentée, ni bouillon. QUAND UNE JOURNÉE EST DÉJÀ MANGÉE EN SODIUM, C'EST LE PLAT PROTÉINÉ À SORTIR.\n\nSE GARDE 2 JOURS AU FRIGO ET SE MANGE FROID, tranché. C'est ce qui en fait un dîner de boîte à lunch : dix-neuf grammes de protéines qu'on n'a pas à réchauffer."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "kN89ewZjOR8",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R75",
+      "R88"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R100",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "marine",
+      "grille"
+    ],
+    "axe_gout": [
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "croustillant",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "maquereau-sale-grille-godeungeo-gui",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "고등어구이",
+    "lecture_origine": "godeungeo gui",
+    "langue_origine": "ko",
+    "fr": "Maquereau salé grillé (godeungeo gui)",
+    "sous_titre": "Deux ingrédients : du maquereau et du sel. Le sodium le plus bas du lot pour trente-quatre grammes de protéines — et l'arbitrage se fait sur les lipides, pas sur le sel.",
+    "portions": "2",
+    "temps_affiche": "≈ 40 min dont 25 d'attente",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 12,
+      "attente": 25
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 34,
+      "proteines_affiche": "34 g",
+      "calories": 380,
+      "calories_affiche": "≈ 380",
+      "lipides_g": 25,
+      "sodium_mg": 320,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 filets de maquereau, environ 350 g au total, avec la peau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3/4 c. à thé de sel — de l’ordre de 1 à 1,5 % du poids du poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Papier absorbant",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À servir : quartiers de citron, daikon râpé, et du riz",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : un filet d'huile pour la poêle",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T3"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T3, le salage préalable : éponger les filets, saler les deux faces en tenant la main haute, déposer sur une grille au frigo, À DÉCOUVERT, 20 à 30 minutes."
+      },
+      {
+        "n": 2,
+        "texte": "OBSERVER À 25 MINUTES : des gouttelettes perlent en surface. C'est l'eau que le sel a tirée. LES ÉPONGER, NE PAS RINCER."
+      },
+      {
+        "n": 3,
+        "texte": "Gril du four préchauffé 5 minutes, grille à 15 cm de l'élément, plaque tapissée de papier d'aluminium. OU poêle en fonte très chaude avec un filet d'huile."
+      },
+      {
+        "n": 4,
+        "texte": "PEAU VERS LE HAUT SOUS LE GRIL, 6 à 8 minutes, sans retourner. À la poêle : peau en dessous d’abord, 5 minutes, puis 3 de l’autre côté."
+      },
+      {
+        "n": 5,
+        "texte": "La peau doit être boursouflée et dorée par endroits. La chair se sépare à la fourchette."
+      },
+      {
+        "n": 6,
+        "texte": "Servir avec le citron et le daikon râpé."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le sel est le seul assaisonnement, et l'arbitrage est ailleurs",
+        "texte": "C'EST LE PLAT LE PLUS SOBRE DE TOUT LE RÉPERTOIRE CORÉEN : du poisson, du sel, du feu. Aucune pâte fermentée, aucun soya, aucune marinade. TROIS CENT VINGT MILLIGRAMMES DE SODIUM PAR PORTION, ET LA MOITIÉ PART AVEC L'EAU DE DÉGORGEMENT — le sel qu'on éponge ne se mange pas.\n\nL'ARBITRAGE DE CE PLAT EST LIPIDIQUE, PAS SODIQUE, ET IL FAUT LE SAVOIR AVANT DE LE PLANIFIER. Le maquereau porte de l'ordre de 15 g de lipides aux 100 g — c'est un poisson gras, et c'est pourquoi il grille si bien. Vingt-cinq grammes par portion, dans un dossier plafonné à 65 g par jour. À PLACER UN JOUR MAIGRE, et surtout pas le même jour qu'un tempé ou qu'un kōyadōfu.\n\nET CE GRAS N'EST PAS UN DÉFAUT : c'est de l'oméga-3 à longue chaîne, la même famille que celui du saumon, en plus grande quantité et pour le tiers du prix. LE MAQUEREAU EST LE POISSON GRAS LE MOINS CHER DU PARCOURS KIM PHAT, au congélateur C5 de l'allée 27.\n\n⚠️ UNE NOTE DE MERCURE, ET ELLE EST FAVORABLE. Le maquereau DU PACIFIQUE et le maquereau BLEU sont des petits poissons à cycle court, donc bas en mercure — contrairement au maquereau roi, qui est à éviter. LE 고등어 CORÉEN EST LE MAQUEREAU BLEU. Le guide 1 porte la note complète sur le mercure."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "ZMYtYwjLQCE",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R14"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R101",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "piquant",
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "elastique",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "calmar-saute-epice-ojingeo-bokkeum",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "오징어볶음",
+    "lecture_origine": "ojingeo bokkeum",
+    "langue_origine": "ko",
+    "fr": "Calmar sauté épicé (ojingeo bokkeum)",
+    "sous_titre": "Seize grammes de protéines pour un gramme de lipides aux cent grammes : le meilleur rapport de toute la recherche coréenne. Et la seule chose à réussir, c'est de ne pas trop cuire.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 8,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 38,
+      "proteines_affiche": "38 g",
+      "calories": 290,
+      "calories_affiche": "≈ 290",
+      "lipides_g": 5,
+      "sodium_mg": 620,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de calmar nettoyé, en anneaux de 1,5 cm et tentacules en morceaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE, prémélangée au bol (T18) : 1 c. à soupe de gochujang · 1 c. à soupe de gochugaru · 1 c. à thé de sauce soya réduite en sodium · 1 c. à soupe de mirin · 1 c. à thé de sucre · 3 gousses d'ail râpées · 1 c. à thé de gingembre · 1 c. à thé d'huile de sésame",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES LÉGUMES, en volume : 1/2 oignon en lamelles · 1 carotte en fines rondelles biseautées · 1/2 chou vert en morceaux, environ 200 g · 3 oignons verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Graines de sésame",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger la sauce au bol AVANT d'allumer. Tout couper."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle ou wok très chaud avec l'huile. LE CALMAR SEUL, 90 SECONDES, PAS PLUS. Le sortir."
+      },
+      {
+        "n": 3,
+        "texte": "Les légumes durs — oignon, carotte — 2 minutes. Le chou, 2 minutes."
+      },
+      {
+        "n": 4,
+        "texte": "La sauce versée sur le bord de la poêle, 30 secondes."
+      },
+      {
+        "n": 5,
+        "texte": "LE CALMAR DE RETOUR, 30 SECONDES POUR L'ENROBER. Pas plus."
+      },
+      {
+        "n": 6,
+        "texte": "Hors du feu, oignons verts et sésame."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Quatre-vingt-dix secondes, ou quinze minutes — il n'y a rien entre les deux",
+        "texte": "LE CALMAR A DEUX ÉTATS COMESTIBLES ET UN LONG PURGATOIRE ENTRE LES DEUX. À MOINS DE DEUX MINUTES DE CUISSON VIVE, IL EST TENDRE. ENTRE DEUX ET QUINZE MINUTES, IL EST CAOUTCHOUTEUX. APRÈS QUINZE À VINGT MINUTES DE MIJOTAGE, IL REDEVIENT TENDRE. Il n'y a rien à négocier : c'est le collagène de son muscle qui se contracte puis se gélatinise.\n\nCE PLAT EST DANS LA PREMIÈRE FENÊTRE, DONC LA SEULE RÈGLE EST DE SORTIR LE CALMAR ET DE LE REMETTRE À LA FIN. Laissé dans la poêle pendant la cuisson des légumes, il passe les quatre-vingt-dix secondes et il est perdu. C'est la même logique que la viande de R17 et de R79, mais la marge est plus étroite.\n\nLE CALMAR PRÉNETTOYÉ CHANGE LE TEMPS DE PRÉPARATION DU SIMPLE AU DOUBLE, et il se trouve congelé chez Kim Phat, congélateur C4 de l'allée 27. DÉCONGELÉ À L'EAU FROIDE 10 MINUTES, ÉPONGÉ À FOND — un calmar humide fait de la vapeur et bouillit au lieu de saisir."
+      },
+      {
+        "titre": "Le gochujang à une cuillère, et le gochugaru qui prend le relais",
+        "texte": "LA VERSION COURANTE DE CE PLAT PORTE DEUX À TROIS CUILLÈRES À SOUPE DE GOCHUJANG. À de l'ordre de 700 mg de sodium par cuillère, ça fait 1 000 à 1 500 mg par portion pour un seul assaisonnement.\n\nL'AJUSTEMENT TIENT EN UN ÉCHANGE : UNE CUILLÈRE DE GOCHUJANG, ET LE PIQUANT MANQUANT EST REPRIS PAR UNE CUILLÈRE DE GOCHUGARU — du piment pur, moulu, à sodium négligeable. Le gochujang apporte le fermenté, le sucré et la couleur; le gochugaru apporte le feu et la couleur. ON GARDE LE PREMIER POUR CE QU'IL EST SEUL À FAIRE, ET ON PREND LE FEU AILLEURS, GRATUITEMENT.\n\nET LE SOYA DESCEND À UNE CUILLÈRE À THÉ, PAS UNE CUILLÈRE À SOUPE. Le calmar est un produit de mer : il porte déjà sa propre salinité, et beaucoup de recettes empilent le soya par-dessus sans le compter. Le mirin et le sucre font le reste du travail.\n\nC'EST LE MEILLEUR RAPPORT PROTÉINES-LIPIDES DU RÉPERTOIRE CORÉEN, ET DE LOIN : trente-huit grammes de protéines pour cinq grammes de lipides par portion, dont l'essentiel vient de la cuillère d'huile. À PLACER LES JOURS OÙ UN PLAT GRAS EST DÉJÀ PASSÉ — après un maquereau, après un tempé, après un kōyadōfu."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "--SjTRJyp4w",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R103",
+      "R100"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R102",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "marine",
+      "saute"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "sesame-noisette"
+    ],
+    "axe_texture": [
+      "ferme",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "bulgogi-boeuf-marine-grille",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "불고기",
+    "lecture_origine": "bulgogi",
+    "langue_origine": "ko",
+    "fr": "Bulgogi — bœuf mariné grillé",
+    "sous_titre": "Le deuxième plat le plus aimé de Corée, et son sodium est déjà correct sans qu'on y touche. Le seul ajustement est la coupe de bœuf, et la poire n'est pas décorative.",
+    "portions": "3",
+    "temps_affiche": "≈ 25 min + 30 de marinade",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 10,
+      "attente": 30
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 34,
+      "proteines_affiche": "34 g",
+      "calories": 340,
+      "calories_affiche": "≈ 340",
+      "lipides_g": 14,
+      "sodium_mg": 380,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "450 g de bœuf tranché très mince — SURLONGE OU HAUT DE RONDE, PAS DE RIB-EYE — congelé 45 min puis tranché à 2 mm, ou du bœuf à fondue du comptoir asiatique",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA MARINADE : 1/2 POIRE ASIATIQUE RÂPÉE, environ 100 g · 2,5 c. à soupe de sauce soya réduite en sodium · 1 c. à soupe de sucre ou de miel · 4 gousses d'ail râpées · 1 c. à soupe d'huile de sésame grillé · 1 c. à soupe de graines de sésame · poivre noir généreux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 oignon en lamelles, 3 oignons verts en tronçons",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre pour la poêle",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "À servir : feuilles de laitue, riz, et un banchan croquant",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger toute la marinade dans un grand bol. RÂPER LA POIRE DIRECTEMENT DEDANS, AVEC SON JUS."
+      },
+      {
+        "n": 2,
+        "texte": "Le bœuf, mélangé à la main pour séparer les tranches. L'oignon et les oignons verts."
+      },
+      {
+        "n": 3,
+        "texte": "30 minutes au frigo minimum, 4 heures au mieux. PAS PLUS DE 8 HEURES — au-delà, l'enzyme de la poire attendrit trop et la viande devient pâteuse."
+      },
+      {
+        "n": 4,
+        "texte": "Poêle en fonte ou grande poêle TRÈS chaude, un filet d'huile. LE BŒUF EN UNE SEULE COUCHE, PAR POÊLÉES DE 150 G MAXIMUM."
+      },
+      {
+        "n": 5,
+        "texte": "90 secondes sans y toucher, retourner, 60 secondes. SORTIR DÈS QUE LES BORDS CARAMÉLISENT. Répéter."
+      },
+      {
+        "n": 6,
+        "texte": "Ne pas verser le liquide de marinade dans la poêle : il ferait bouillir la viande. LE GARDER À PART ET LE RÉDUIRE 2 MINUTES EN FIN DE CUISSON SI ON VEUT UNE SAUCE."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La poire n'est pas un ingrédient de goût, c'est une enzyme",
+        "texte": "LA POIRE ASIATIQUE — 나시, nashi — CONTIENT UNE PROTÉASE QUI COUPE LES FIBRES DE COLLAGÈNE DE LA VIANDE. C'est ce qui permet à une surlonge ou à un haut de ronde, coupes maigres et fermes, de sortir aussi tendres qu'une pièce grasse. SANS LA POIRE, L'AJUSTEMENT DE COUPE NE MARCHE PAS : une surlonge marinée au soya seul reste ferme.\n\nC'EST DONC LA POIRE QUI REND CE PLAT COMPATIBLE AVEC LE DOSSIER. La version des restaurants se fait au rib-eye ou au faux-filet, dont le gras interne fait le travail — et qui portent 20 à 25 g de lipides aux 100 g contre 6 à 8 pour une surlonge. Quatorze grammes par portion ici, contre 30 dans un bulgogi de restaurant.\n\n⚠️ ET C'EST POURQUOI LA MARINADE A UNE LIMITE HAUTE. L'enzyme ne s'arrête pas : au-delà de huit heures, elle passe de « attendrir » à « désagréger », et la viande devient farineuse. Trente minutes suffisent, quatre heures est l'optimum. CE N'EST PAS UNE MARINADE QU'ON LANCE LA VEILLE.\n\nÀ DÉFAUT DE POIRE ASIATIQUE : une poire ordinaire mûre, ou une demi-pomme, ou 2 c. à soupe de jus d'ananas — moins efficace mais réel. JAMAIS DE KIWI : son enzyme est trop violente et détruit la viande en une heure."
+      },
+      {
+        "titre": "Trois cent quatre-vingts milligrammes, et c'est déjà juste",
+        "texte": "CE PLAT EST UNE EXCEPTION DANS LE RÉPERTOIRE CORÉEN : SON SODIUM N'A PAS BESOIN D'ÊTRE AJUSTÉ. Deux cuillères et demie de soya réduit pour trois portions, soit de l'ordre de 380 mg par portion — c'est comparable à un souper japonais moyen du dossier, et il n'y a ni pâte fermentée, ni bouillon, ni kimchi.\n\nET IL Y A UNE RAISON STRUCTURELLE : LE BULGOGI EST UN PLAT DE SUCRE ET DE SÉSAME, PAS DE SEL. Ce qui le rend addictif est le caramel du sucre sur la viande saisie et le gras du sésame — deux axes à zéro sodium. C'est pourquoi il supporte mal qu'on ajoute du soya « pour relever » : ça déséquilibre au lieu d'améliorer.\n\nLE LIQUIDE DE MARINADE NE VA PAS DANS LA POÊLE, ET C'EST DOUBLEMENT UTILE. Versé avec la viande, il refroidit la poêle et le bœuf bouillit au lieu de caraméliser. Gardé à part, il se réduit deux minutes en sauce — ET ON DÉCIDE COMBIEN ON EN VERSE, ce qui est encore la logique du sel servi à côté.\n\nPOÊLÉES DE 150 G MAXIMUM. Une poêle chargée perd sa température, le bœuf rend son eau, et on obtient du bœuf gris bouilli dans son jus. C'est la même règle qu'au bœuf de R17 et qu'au porc de R79."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "3qBjL_HGvco",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R103",
+      "R17"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R103",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "marine",
+      "saute"
+    ],
+    "axe_gout": [
+      "piquant",
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "porc-saute-au-gochujang-jeyuk-bokkeum",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "제육볶음",
+    "lecture_origine": "jeyuk bokkeum",
+    "langue_origine": "ko",
+    "fr": "Porc sauté au gochujang (jeyuk bokkeum)",
+    "sous_titre": "Le gochujang passe de six cuillères à deux, et le piquant perdu revient par le gochugaru — du piment pur, presque sans sodium. C'est l'échange le plus rentable de la ligne coréenne.",
+    "portions": "3",
+    "temps_affiche": "≈ 20 min + 30 de marinade",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 10,
+      "attente": 30
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 32,
+      "proteines_affiche": "32 g",
+      "calories": 330,
+      "calories_affiche": "≈ 330",
+      "lipides_g": 13,
+      "sodium_mg": 560,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "450 g de longe de porc tranchée mince, environ 3 mm — LONGE, PAS ÉPAULE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA MARINADE : 2 C. À SOUPE DE GOCHUJANG · 1 C. À SOUPE DE GOCHUGARU · 1 c. à soupe de mirin · 1 c. à soupe de sucre ou de miel · 4 gousses d'ail râpées · 1 c. à thé de gingembre râpé · 1 c. à soupe d'huile de sésame grillé · poivre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "⚠️ AUCUNE sauce soya — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 oignon en lamelles, 1/2 carotte, 3 oignons verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Graines de sésame, feuilles de laitue pour servir",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger la marinade. Le porc dedans, à la main. 30 minutes au frigo, ou jusqu’à 12 heures."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle très chaude, un filet d'huile. LE PORC EN UNE COUCHE, PAR POÊLÉES DE 150 G. 2 minutes sans y toucher."
+      },
+      {
+        "n": 3,
+        "texte": "Retourner, l'oignon et la carotte, 3 minutes."
+      },
+      {
+        "n": 4,
+        "texte": "LE GOCHUJANG BRÛLE : dès que les bords de la viande caramélisent et que ça sent le grillé, baisser le feu. Il contient du sucre et de la pâte de riz."
+      },
+      {
+        "n": 5,
+        "texte": "Les oignons verts, 30 secondes."
+      },
+      {
+        "n": 6,
+        "texte": "Sésame. Servir avec du riz et de la laitue pour envelopper."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Deux cuillères au lieu de six, et pourquoi ça ne se voit pas au goût",
+        "texte": "LES RECETTES COURANTES DE JEYUK BOKKEUM PORTENT DE QUATRE À SIX CUILLÈRES À SOUPE DE GOCHUJANG POUR 450 G DE VIANDE. À de l'ordre de 700 mg de sodium par cuillère, ÇA FAIT DE 900 À 1 400 MG PAR PORTION, POUR UN SEUL ASSAISONNEMENT.\n\nL'ÉCHANGE EST LE MÊME QU'AU CALMAR DE R101, ET IL VAUT LA PEINE D'ÊTRE COMPRIS UNE FOIS : LE GOCHUJANG ET LE GOCHUGARU NE FONT PAS LA MÊME CHOSE. Le gochujang est une pâte de piment FERMENTÉE au riz gluant et au soya : il apporte l'umami, le sucré, la couleur et le sel. Le gochugaru est du piment SÉCHÉ ET MOULU : il apporte le feu, l'arôme fruité et la couleur, ET PRESQUE AUCUN SODIUM.\n\nDONC : ON GARDE LE GOCHUJANG POUR CE QU'IL EST SEUL À FAIRE — LE FERMENTÉ — ET ON PREND LE FEU CHEZ LE GOCHUGARU, GRATUITEMENT. Deux cuillères de pâte plus une de poudre donnent un plat aussi rouge et aussi piquant que six cuillères de pâte, à 560 mg au lieu de 1 200.\n\n⚠️ ET AUCUNE SAUCE SOYA. C'EST LE RÉFLEXE QUI ANNULE L'AJUSTEMENT : beaucoup de recettes en ajoutent une cuillère « pour la profondeur », ce qui remet 500 mg. Le gochujang est déjà à base de soya fermenté; ce qu'on chercherait dans le soya y est déjà.\n\nLA LONGE AU LIEU DE L'ÉPAULE EST LE SECOND AJUSTEMENT, ET C'EST LE PLUS VISIBLE À L'ŒIL. L'épaule porte de 15 à 20 g de lipides aux 100 g, la longe de 5 à 8. Ce qu'on perd est de l'onctuosité; ce qu'on garde est la marinade, qui est tout le goût du plat. LA LONGE TRANCHÉE À 3 MM, SAISIE 2 MINUTES, RESTE TENDRE — c'est la même coupe et le même geste que le shōgayaki de R65."
+      },
+      {
+        "titre": "La vidéo dit « dwaejigogi-bokkeum », et c’est le même plat",
+        "texte": "LE TITRE DE LA DÉMONSTRATION DE MAANGCHI PORTE 돼지고기볶음 DWAEJIGOGI-BOKKEUM, LITTÉRALEMENT « PORC SAUTÉ », ET NON 제육볶음 JEYUK BOKKEUM. C'est le même plat sous ses deux noms courants, et la source le dit elle-même : elle liste 제육볶음 comme nom alternatif.\n\nC'EST ÉCRIT ICI POUR UNE SEULE RAISON : QUE PERSONNE NE CROIE S'ÊTRE TROMPÉ DE VIDÉO en cliquant. Les doses, elles, sont celles de la version courante — c'est cette fiche qui les corrige, et la note ci-dessus dit comment."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "3oFCGKmzQX8",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R101",
+      "R65"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R104",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "long",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "piquant",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant",
+      "en-bouillon"
+    ],
+    "moment": [
+      "souper"
+    ],
+    "slug": "poulet-braise-epice-aux-pommes-de-terre-dakbokkeumtang",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "닭볶음탕",
+    "lecture_origine": "dakbokkeumtang",
+    "langue_origine": "ko",
+    "fr": "Poulet braisé épicé aux pommes de terre (dakbokkeumtang)",
+    "sous_titre": "La pomme de terre n'est pas un légume ici, c'est le féculent du repas. C'est ce qui décide du montage de l'assiette — et ça retire le bol de riz.",
+    "portions": "4",
+    "temps_affiche": "≈ 45 min",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 33,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 33,
+      "proteines_affiche": "33 g",
+      "calories": 400,
+      "calories_affiche": "≈ 400",
+      "lipides_g": 12,
+      "sodium_mg": 640,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "900 g de hauts de cuisse de poulet désossés SANS LA PEAU, en morceaux de 5 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "600 g de pommes de terre, en gros morceaux de 4 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE : 2 C. À SOUPE DE SAUCE SOYA RÉDUITE EN SODIUM · 2 c. à soupe de gochugaru · 1 C. À SOUPE DE GOCHUJANG · 1 c. à soupe de mirin · 1 c. à thé de sucre · 6 gousses d'ail râpées · 1 c. à thé de gingembre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "500 ml d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 oignon en quartiers, 1 carotte en gros morceaux, 3 oignons verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Poivre noir",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T12"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T12 sur le poulet si on veut un bouillon net : eau froide à couvrir, ébullition, 3 minutes, jeter l'eau, rincer les morceaux et la casserole. SUR DU HAUT DE CUISSE DÉSOSSÉ, CETTE ÉTAPE EST FACULTATIVE — c'est sur l'os qu'elle compte."
+      },
+      {
+        "n": 2,
+        "texte": "Mélanger la sauce dans un bol."
+      },
+      {
+        "n": 3,
+        "texte": "Tout dans une casserole large : poulet, pommes de terre, oignon, carotte, la sauce, l'eau."
+      },
+      {
+        "n": 4,
+        "texte": "Porter à ébullition, puis FRÉMISSEMENT À COUVERT, 25 MINUTES."
+      },
+      {
+        "n": 5,
+        "texte": "Découvrir, remuer doucement, et RÉDUIRE 5 À 8 MINUTES À DÉCOUVERT jusqu’à ce que la sauce nappe. Les pommes de terre doivent céder sous une fourchette."
+      },
+      {
+        "n": 6,
+        "texte": "Les oignons verts et le poivre hors du feu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "🔴 La pomme de terre EST le quart féculent, et c’est un piège de comptabilité",
+        "texte": "LE GABARIT DU SOUPER DU GUIDE 5 DIT : moitié légumes, quart protéine, quart féculent. SIX CENTS GRAMMES DE POMMES DE TERRE POUR QUATRE PORTIONS, C'EST 150 G PAR PERSONNE — EXACTEMENT UN QUART FÉCULENT. Servi avec un bol de riz de 140 g, ce plat porte donc DEUX féculents, et la journée dépasse en glucides sans que rien ne le signale.\n\nLA RÈGLE POUR CETTE FICHE : PAS DE RIZ, OU UN DEMI-BOL. C'est l'arbitrage que tout mijoté contenant une racine amidonnée impose — UN MIJOTÉ QUI CONTIENT UNE RACINE AMIDONNÉE OCCUPE LA CASE DU FÉCULENT, PAS CELLE DU LÉGUME. Le nikujaga et la kabocha mijotée le poseront à leur tour quand ils entreront. Le champ « type de plat » ne suffit pas à le dire : il faut que ce soit écrit.\n\nET LE QUART LÉGUME RESTE À FAIRE. La carotte et l'oignon du braisage ne suffisent pas — ils ont fondu et ils sont dans la sauce. UN BANCHAN CROQUANT À CÔTÉ : le daikon de R83, un chou cru, le namul de germes de R72.\n\nLE SODIUM À 640 MG TIENT À DEUX CHOSES. DEUX CUILLÈRES À SOUPE DE SOYA POUR QUATRE PORTIONS au lieu des trois ou quatre habituelles, et UNE SEULE CUILLÈRE DE GOCHUJANG, le feu venant des deux cuillères de gochugaru. C'est le même échange qu'à R101 et R103.\n\n⚠️ ET LA PEAU SE RETIRE, PAS SEULEMENT POUR LES LIPIDES. Braisée trente minutes dans un liquide, une peau de poulet ne croustille jamais : elle devient flasque et gélatineuse, et elle relâche son gras dans la sauce. ICI, LA RETIRER N'ENLÈVE RIEN AU PLAISIR DU PLAT — contrairement à un poulet grillé, où elle est l'intérêt."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "bDXL_g6kJ5U",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R83",
+      "R85"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R105",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "bouilli"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "acide",
+      "piquant"
+    ],
+    "axe_texture": [
+      "soyeux",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "kimchi-saute-et-tofu-bouilli-dubu-kimchi",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "두부김치",
+    "lecture_origine": "dubu kimchi",
+    "langue_origine": "ko",
+    "fr": "Kimchi sauté et tofu bouilli (dubu kimchi)",
+    "sous_titre": "Le seul plat du recueil où le tofu arrive nu et bouillant à côté du sauté, et ça change tout : le tofu dilue le sel du kimchi dans la bouche plutôt que dans la casserole.",
+    "portions": "3",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 17,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 24,
+      "proteines_affiche": "24 g",
+      "calories": 280,
+      "calories_affiche": "≈ 280",
+      "lipides_g": 13,
+      "sodium_mg": 620,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de kimchi de chou vieilli, ÉGOUTTÉ ET RINCÉ BRIÈVEMENT, en morceaux de 4 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 g de porc maigre en lanières — longe ou épaule parée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "450 g de tofu ferme, en tranches de 2 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 oignon en lamelles, 3 gousses d'ail, 2 oignons verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de gochugaru, 1 c. à thé de sucre, 1 c. à thé d'huile de sésame",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "⚠️ AUCUNE sauce soya, AUCUN sel, AUCUN gochujang",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "RINCER LE KIMCHI 10 SECONDES À L'EAU FROIDE ET LE PRESSER LÉGÈREMENT. Garder 2 c. à soupe de son jus, jeter le reste."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle à feu moyen-vif avec l'huile. Le porc et l'ail, 3 minutes."
+      },
+      {
+        "n": 3,
+        "texte": "LE KIMCHI ÉGOUTTÉ, SAUTÉ 6 À 8 MINUTES AVEC LA VIANDE. Il perd son mordant cru et devient rond. C'est l'étape à ne pas écourter."
+      },
+      {
+        "n": 4,
+        "texte": "Le gochugaru, le sucre, les 2 c. à soupe de jus réservé, 2 minutes. L'oignon."
+      },
+      {
+        "n": 5,
+        "texte": "PENDANT CE TEMPS : le tofu entier dans une casserole d'eau à peine frémissante, 5 minutes. Sortir à l'écumoire et éponger."
+      },
+      {
+        "n": 6,
+        "texte": "Trancher le tofu chaud, le disposer en couronne sur l’assiette, LE SAUTÉ DE KIMCHI AU CENTRE. Oignons verts et huile de sésame."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le tofu à côté, et pas dedans — c'est le mécanisme du plat",
+        "texte": "LA TENTATION EST DE METTRE LE TOFU DANS LA POÊLE. NE PAS LE FAIRE, ET POUR UNE RAISON PRÉCISE : LE TOFU BOUILLI À PART RESTE NEUTRE, ET C'EST CE QUI PERMET AU KIMCHI D'ÊTRE FORT. On prend une bouchée de kimchi salé et acide, une bouchée de tofu nu et chaud, et l'ensemble s'équilibre dans la bouche. Cuit ensemble, le tofu absorbe le sel et il n'y a plus rien de neutre dans l'assiette.\n\nC'EST LA MÊME LOGIQUE QUE LE SEL SERVI À CÔTÉ, APPLIQUÉE À L'INVERSE : AU LIEU DE DOSER LE SEL, ON DOSE LE NON-SALÉ. Quatre cent cinquante grammes de tofu à zéro sodium contre quatre cents grammes de kimchi — le rapport est ce qui rend le plat tenable.\n\nLE RINÇAGE DU KIMCHI EST L'AUTRE MOITIÉ DE L'AJUSTEMENT. Dix secondes d'eau froide et une pression légère retirent une part réelle de la saumure de surface — c'est le même geste que sur les crevettes de R76, et comme là, la part retirée n'est pas chiffrable au panneau nutritionnel. ON GARDE DEUX CUILLÈRES DE JUS POUR LE GOÛT, ON JETTE LE RESTE. Ce jus est ce qu'il y a de plus salé dans un pot de kimchi.\n\nCE PLAT SE CLASSE SOUPER LÉGER, PAS PIÈCE MAÎTRESSE, et c'est une décision de planification. Vingt-quatre grammes de protéines et beaucoup de volume, mais son goût est monolithique : acide-piquant-fermenté du début à la fin. AVEC UN BANCHAN DOUX À CÔTÉ — le daikon étuvé de R85, l'omelette de R99 — il fait un repas; seul avec du riz, il fatigue au tiers de l'assiette."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "-Oj2xzQbo4s",
+      "auteur": "Seonkyoung Longest",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R97",
+      "R85"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R106",
+    "statut": "actif",
+    "categorie": "diner",
+    "cuisine": "coreenne",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "acide",
+      "piquant"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "riz-frit-au-kimchi-ratio-inverse-kimchi-bokkeumbap",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "김치볶음밥",
+    "lecture_origine": "kimchi bokkeumbap",
+    "langue_origine": "ko",
+    "fr": "Riz frit au kimchi, ratio inversé (kimchi bokkeumbap)",
+    "sous_titre": "Un bol de riz pour deux cent cinquante grammes de protéine et deux tasses de légumes. Le riz frit ordinaire fait l'inverse, et c'est le seul changement de cette fiche.",
+    "portions": "2",
+    "temps_affiche": "≈ 18 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 10,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 34,
+      "proteines_affiche": "34 g",
+      "calories": 480,
+      "calories_affiche": "≈ 480",
+      "lipides_g": 16,
+      "sodium_mg": 580,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "1 RONDELLE DE RIZ DE 140 G, CUITE LA VEILLE ET REFROIDIE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 g de porc haché maigre, ou de poulet haché, ou 200 g de crevettes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 g de kimchi vieilli ÉGOUTTÉ, haché, plus 2 c. à soupe de son jus",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 tasses de légumes : 1/2 oignon, 1 carotte râpée, 150 g de chou, 2 tasses de germes de soya",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 œufs, cuits au miroir à part",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de gochugaru, 1 c. à thé d'huile de sésame",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 oignons verts, 1 c. à soupe de graines de sésame, nori émincé",
+        "sante": true,
+        "sante_pos": 56
+      },
+      {
+        "texte": "⚠️ AUCUNE sauce soya, AUCUN gochujang — le kimchi suffit",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T18"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "LE RIZ DOIT ÊTRE FROID ET SEC. Une rondelle sortie du congélateur, réchauffée 1 min 30 puis étalée pour refroidir, fait l'affaire. Du riz chaud et humide donne une bouillie."
+      },
+      {
+        "n": 2,
+        "texte": "Poêle très chaude avec l'huile. Le haché, 3 minutes, écrasé à la spatule."
+      },
+      {
+        "n": 3,
+        "texte": "Le kimchi haché, 4 minutes. Il doit perdre son cru."
+      },
+      {
+        "n": 4,
+        "texte": "Les légumes durs 2 minutes, le chou et les germes 1 minute."
+      },
+      {
+        "n": 5,
+        "texte": "LE RIZ ÉMIETTÉ À LA MAIN DIRECTEMENT DANS LA POÊLE, remué 2 minutes pour l'enrober. Le gochugaru et les 2 c. à soupe de jus de kimchi."
+      },
+      {
+        "n": 6,
+        "texte": "Hors du feu : huile de sésame, oignons verts, sésame, nori."
+      },
+      {
+        "n": 7,
+        "texte": "LES ŒUFS AU MIROIR CUITS À PART, POSÉS DESSUS AU SERVICE."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le ratio inversé, et pourquoi c’est la même idée que R23",
+        "texte": "UN 김치볶음밥 ORDINAIRE EST DEUX À TROIS BOLS DE RIZ POUR UN PEU DE KIMCHI ET UN ŒUF. C'est un plat de restes, et son intérêt est d'écouler du riz — CE QUI DONNE 700 CALORIES DE GLUCIDES POUR 12 G DE PROTÉINES.\n\nCETTE FICHE RENVERSE LE RAPPORT ET C'EST TOUT L'AJUSTEMENT : UN SEUL BOL DE RIZ DE 140 G POUR 250 G DE PROTÉINE ET DEUX TASSES DE LÉGUMES. Trente-quatre grammes de protéines par portion au lieu de six, et le riz devient ce qu'il devrait être — le liant, pas la masse.\n\nC'EST EXACTEMENT L'IDÉE DU BIBIMBAP À RATIO INVERSÉ DE R23, APPLIQUÉE AU RIZ FRIT. Le dossier a maintenant deux plats de riz coréens qui appliquent le même principe, et ça vaut la peine de le nommer : QUAND UN PLAT DE RIZ ENTRE AU RECUEIL, ON REGARDE D'ABORD SON RATIO, PAS SES INGRÉDIENTS.\n\nLE RIZ FROID N'EST PAS UNE PRÉFÉRENCE, C'EST DE LA PHYSIQUE. Un riz refroidi a rétrogradé : son amidon a recristallisé, les grains sont fermes et se séparent. Chaud, il est gorgé d'eau et collant, et il s'écrase en pâte dès qu'on le remue dans une poêle. LES RONDELLES CONGELÉES DU DOSSIER SONT PARFAITES POUR ÇA — réchauffées puis étalées cinq minutes pour perdre leur vapeur.\n\n⚠️ ET LE KIMCHI PORTE TOUT LE SEL, DONC RIEN NE S'AJOUTE. Deux cent cinquante grammes de kimchi égoutté portent de l'ordre de 1 000 mg de sodium à eux seuls. Une cuillère de soya « pour la couleur » remettrait 500 mg pour rien : LA COULEUR VIENT DU GOCHUGARU ET DU JUS DE KIMCHI."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "Lf44Fk7H24s",
+      "auteur": "Maangchi",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R23",
+      "R97"
+    ],
+    "commentaire_source": ""
   }
 ]

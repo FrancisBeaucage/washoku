@@ -1,0 +1,156 @@
+{
+  "id": "R106",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "acide",
+    "piquant"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "riz-frit-au-kimchi-ratio-inverse-kimchi-bokkeumbap",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "김치볶음밥",
+  "lecture_origine": "kimchi bokkeumbap",
+  "langue_origine": "ko",
+  "fr": "Riz frit au kimchi, ratio inversé (kimchi bokkeumbap)",
+  "sous_titre": "Un bol de riz pour deux cent cinquante grammes de protéine et deux tasses de légumes. Le riz frit ordinaire fait l'inverse, et c'est le seul changement de cette fiche.",
+  "portions": "2",
+  "temps_affiche": "≈ 18 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 480,
+    "calories_affiche": "≈ 480",
+    "lipides_g": 16,
+    "sodium_mg": 580,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "1 RONDELLE DE RIZ DE 140 G, CUITE LA VEILLE ET REFROIDIE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de porc haché maigre, ou de poulet haché, ou 200 g de crevettes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de kimchi vieilli ÉGOUTTÉ, haché, plus 2 c. à soupe de son jus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 tasses de légumes : 1/2 oignon, 1 carotte râpée, 150 g de chou, 2 tasses de germes de soya",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs, cuits au miroir à part",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de gochugaru, 1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons verts, 1 c. à soupe de graines de sésame, nori émincé",
+      "sante": true,
+      "sante_pos": 56
+    },
+    {
+      "texte": "⚠️ AUCUNE sauce soya, AUCUN gochujang — le kimchi suffit",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "LE RIZ DOIT ÊTRE FROID ET SEC. Une rondelle sortie du congélateur, réchauffée 1 min 30 puis étalée pour refroidir, fait l'affaire. Du riz chaud et humide donne une bouillie."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle très chaude avec l'huile. Le haché, 3 minutes, écrasé à la spatule."
+    },
+    {
+      "n": 3,
+      "texte": "Le kimchi haché, 4 minutes. Il doit perdre son cru."
+    },
+    {
+      "n": 4,
+      "texte": "Les légumes durs 2 minutes, le chou et les germes 1 minute."
+    },
+    {
+      "n": 5,
+      "texte": "LE RIZ ÉMIETTÉ À LA MAIN DIRECTEMENT DANS LA POÊLE, remué 2 minutes pour l'enrober. Le gochugaru et les 2 c. à soupe de jus de kimchi."
+    },
+    {
+      "n": 6,
+      "texte": "Hors du feu : huile de sésame, oignons verts, sésame, nori."
+    },
+    {
+      "n": 7,
+      "texte": "LES ŒUFS AU MIROIR CUITS À PART, POSÉS DESSUS AU SERVICE."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le ratio inversé, et pourquoi c’est la même idée que R23",
+      "texte": "UN 김치볶음밥 ORDINAIRE EST DEUX À TROIS BOLS DE RIZ POUR UN PEU DE KIMCHI ET UN ŒUF. C'est un plat de restes, et son intérêt est d'écouler du riz — CE QUI DONNE 700 CALORIES DE GLUCIDES POUR 12 G DE PROTÉINES.\n\nCETTE FICHE RENVERSE LE RAPPORT ET C'EST TOUT L'AJUSTEMENT : UN SEUL BOL DE RIZ DE 140 G POUR 250 G DE PROTÉINE ET DEUX TASSES DE LÉGUMES. Trente-quatre grammes de protéines par portion au lieu de six, et le riz devient ce qu'il devrait être — le liant, pas la masse.\n\nC'EST EXACTEMENT L'IDÉE DU BIBIMBAP À RATIO INVERSÉ DE R23, APPLIQUÉE AU RIZ FRIT. Le dossier a maintenant deux plats de riz coréens qui appliquent le même principe, et ça vaut la peine de le nommer : QUAND UN PLAT DE RIZ ENTRE AU RECUEIL, ON REGARDE D'ABORD SON RATIO, PAS SES INGRÉDIENTS.\n\nLE RIZ FROID N'EST PAS UNE PRÉFÉRENCE, C'EST DE LA PHYSIQUE. Un riz refroidi a rétrogradé : son amidon a recristallisé, les grains sont fermes et se séparent. Chaud, il est gorgé d'eau et collant, et il s'écrase en pâte dès qu'on le remue dans une poêle. LES RONDELLES CONGELÉES DU DOSSIER SONT PARFAITES POUR ÇA — réchauffées puis étalées cinq minutes pour perdre leur vapeur.\n\n⚠️ ET LE KIMCHI PORTE TOUT LE SEL, DONC RIEN NE S'AJOUTE. Deux cent cinquante grammes de kimchi égoutté portent de l'ordre de 1 000 mg de sodium à eux seuls. Une cuillère de soya « pour la couleur » remettrait 500 mg pour rien : LA COULEUR VIENT DU GOCHUGARU ET DU JUS DE KIMCHI."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "Lf44Fk7H24s",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R23",
+    "R97"
+  ],
+  "commentaire_source": ""
+}

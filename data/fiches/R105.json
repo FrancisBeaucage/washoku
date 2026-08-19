@@ -1,0 +1,140 @@
+{
+  "id": "R105",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "bouilli"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "acide",
+    "piquant"
+  ],
+  "axe_texture": [
+    "soyeux",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "kimchi-saute-et-tofu-bouilli-dubu-kimchi",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "두부김치",
+  "lecture_origine": "dubu kimchi",
+  "langue_origine": "ko",
+  "fr": "Kimchi sauté et tofu bouilli (dubu kimchi)",
+  "sous_titre": "Le seul plat du recueil où le tofu arrive nu et bouillant à côté du sauté, et ça change tout : le tofu dilue le sel du kimchi dans la bouche plutôt que dans la casserole.",
+  "portions": "3",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 17,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 24,
+    "proteines_affiche": "24 g",
+    "calories": 280,
+    "calories_affiche": "≈ 280",
+    "lipides_g": 13,
+    "sodium_mg": 620,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de kimchi de chou vieilli, ÉGOUTTÉ ET RINCÉ BRIÈVEMENT, en morceaux de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de porc maigre en lanières — longe ou épaule parée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "450 g de tofu ferme, en tranches de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 oignon en lamelles, 3 gousses d'ail, 2 oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de gochugaru, 1 c. à thé de sucre, 1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "⚠️ AUCUNE sauce soya, AUCUN sel, AUCUN gochujang",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "RINCER LE KIMCHI 10 SECONDES À L'EAU FROIDE ET LE PRESSER LÉGÈREMENT. Garder 2 c. à soupe de son jus, jeter le reste."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle à feu moyen-vif avec l'huile. Le porc et l'ail, 3 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "LE KIMCHI ÉGOUTTÉ, SAUTÉ 6 À 8 MINUTES AVEC LA VIANDE. Il perd son mordant cru et devient rond. C'est l'étape à ne pas écourter."
+    },
+    {
+      "n": 4,
+      "texte": "Le gochugaru, le sucre, les 2 c. à soupe de jus réservé, 2 minutes. L'oignon."
+    },
+    {
+      "n": 5,
+      "texte": "PENDANT CE TEMPS : le tofu entier dans une casserole d'eau à peine frémissante, 5 minutes. Sortir à l'écumoire et éponger."
+    },
+    {
+      "n": 6,
+      "texte": "Trancher le tofu chaud, le disposer en couronne sur l’assiette, LE SAUTÉ DE KIMCHI AU CENTRE. Oignons verts et huile de sésame."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le tofu à côté, et pas dedans — c'est le mécanisme du plat",
+      "texte": "LA TENTATION EST DE METTRE LE TOFU DANS LA POÊLE. NE PAS LE FAIRE, ET POUR UNE RAISON PRÉCISE : LE TOFU BOUILLI À PART RESTE NEUTRE, ET C'EST CE QUI PERMET AU KIMCHI D'ÊTRE FORT. On prend une bouchée de kimchi salé et acide, une bouchée de tofu nu et chaud, et l'ensemble s'équilibre dans la bouche. Cuit ensemble, le tofu absorbe le sel et il n'y a plus rien de neutre dans l'assiette.\n\nC'EST LA MÊME LOGIQUE QUE LE SEL SERVI À CÔTÉ, APPLIQUÉE À L'INVERSE : AU LIEU DE DOSER LE SEL, ON DOSE LE NON-SALÉ. Quatre cent cinquante grammes de tofu à zéro sodium contre quatre cents grammes de kimchi — le rapport est ce qui rend le plat tenable.\n\nLE RINÇAGE DU KIMCHI EST L'AUTRE MOITIÉ DE L'AJUSTEMENT. Dix secondes d'eau froide et une pression légère retirent une part réelle de la saumure de surface — c'est le même geste que sur les crevettes de R76, et comme là, la part retirée n'est pas chiffrable au panneau nutritionnel. ON GARDE DEUX CUILLÈRES DE JUS POUR LE GOÛT, ON JETTE LE RESTE. Ce jus est ce qu'il y a de plus salé dans un pot de kimchi.\n\nCE PLAT SE CLASSE SOUPER LÉGER, PAS PIÈCE MAÎTRESSE, et c'est une décision de planification. Vingt-quatre grammes de protéines et beaucoup de volume, mais son goût est monolithique : acide-piquant-fermenté du début à la fin. AVEC UN BANCHAN DOUX À CÔTÉ — le daikon étuvé de R85, l'omelette de R99 — il fait un repas; seul avec du riz, il fatigue au tiers de l'assiette."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "-Oj2xzQbo4s",
+    "auteur": "Seonkyoung Longest",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R97",
+    "R85"
+  ],
+  "commentaire_source": ""
+}

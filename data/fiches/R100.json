@@ -1,0 +1,129 @@
+{
+  "id": "R100",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "marine",
+    "grille"
+  ],
+  "axe_gout": [
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "croustillant",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "maquereau-sale-grille-godeungeo-gui",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "고등어구이",
+  "lecture_origine": "godeungeo gui",
+  "langue_origine": "ko",
+  "fr": "Maquereau salé grillé (godeungeo gui)",
+  "sous_titre": "Deux ingrédients : du maquereau et du sel. Le sodium le plus bas du lot pour trente-quatre grammes de protéines — et l'arbitrage se fait sur les lipides, pas sur le sel.",
+  "portions": "2",
+  "temps_affiche": "≈ 40 min dont 25 d'attente",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 12,
+    "attente": 25
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 380,
+    "calories_affiche": "≈ 380",
+    "lipides_g": 25,
+    "sodium_mg": 320,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 filets de maquereau, environ 350 g au total, avec la peau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3/4 c. à thé de sel — de l’ordre de 1 à 1,5 % du poids du poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Papier absorbant",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "À servir : quartiers de citron, daikon râpé, et du riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : un filet d'huile pour la poêle",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T3"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T3, le salage préalable : éponger les filets, saler les deux faces en tenant la main haute, déposer sur une grille au frigo, À DÉCOUVERT, 20 à 30 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "OBSERVER À 25 MINUTES : des gouttelettes perlent en surface. C'est l'eau que le sel a tirée. LES ÉPONGER, NE PAS RINCER."
+    },
+    {
+      "n": 3,
+      "texte": "Gril du four préchauffé 5 minutes, grille à 15 cm de l'élément, plaque tapissée de papier d'aluminium. OU poêle en fonte très chaude avec un filet d'huile."
+    },
+    {
+      "n": 4,
+      "texte": "PEAU VERS LE HAUT SOUS LE GRIL, 6 à 8 minutes, sans retourner. À la poêle : peau en dessous d’abord, 5 minutes, puis 3 de l’autre côté."
+    },
+    {
+      "n": 5,
+      "texte": "La peau doit être boursouflée et dorée par endroits. La chair se sépare à la fourchette."
+    },
+    {
+      "n": 6,
+      "texte": "Servir avec le citron et le daikon râpé."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le sel est le seul assaisonnement, et l'arbitrage est ailleurs",
+      "texte": "C'EST LE PLAT LE PLUS SOBRE DE TOUT LE RÉPERTOIRE CORÉEN : du poisson, du sel, du feu. Aucune pâte fermentée, aucun soya, aucune marinade. TROIS CENT VINGT MILLIGRAMMES DE SODIUM PAR PORTION, ET LA MOITIÉ PART AVEC L'EAU DE DÉGORGEMENT — le sel qu'on éponge ne se mange pas.\n\nL'ARBITRAGE DE CE PLAT EST LIPIDIQUE, PAS SODIQUE, ET IL FAUT LE SAVOIR AVANT DE LE PLANIFIER. Le maquereau porte de l'ordre de 15 g de lipides aux 100 g — c'est un poisson gras, et c'est pourquoi il grille si bien. Vingt-cinq grammes par portion, dans un dossier plafonné à 65 g par jour. À PLACER UN JOUR MAIGRE, et surtout pas le même jour qu'un tempé ou qu'un kōyadōfu.\n\nET CE GRAS N'EST PAS UN DÉFAUT : c'est de l'oméga-3 à longue chaîne, la même famille que celui du saumon, en plus grande quantité et pour le tiers du prix. LE MAQUEREAU EST LE POISSON GRAS LE MOINS CHER DU PARCOURS KIM PHAT, au congélateur C5 de l'allée 27.\n\n⚠️ UNE NOTE DE MERCURE, ET ELLE EST FAVORABLE. Le maquereau DU PACIFIQUE et le maquereau BLEU sont des petits poissons à cycle court, donc bas en mercure — contrairement au maquereau roi, qui est à éviter. LE 고등어 CORÉEN EST LE MAQUEREAU BLEU. Le guide 1 porte la note complète sur le mercure."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "ZMYtYwjLQCE",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R14"
+  ],
+  "commentaire_source": ""
+}

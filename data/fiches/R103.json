@@ -1,0 +1,140 @@
+{
+  "id": "R103",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "marine",
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "porc-saute-au-gochujang-jeyuk-bokkeum",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "제육볶음",
+  "lecture_origine": "jeyuk bokkeum",
+  "langue_origine": "ko",
+  "fr": "Porc sauté au gochujang (jeyuk bokkeum)",
+  "sous_titre": "Le gochujang passe de six cuillères à deux, et le piquant perdu revient par le gochugaru — du piment pur, presque sans sodium. C'est l'échange le plus rentable de la ligne coréenne.",
+  "portions": "3",
+  "temps_affiche": "≈ 20 min + 30 de marinade",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 10,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 32,
+    "proteines_affiche": "32 g",
+    "calories": 330,
+    "calories_affiche": "≈ 330",
+    "lipides_g": 13,
+    "sodium_mg": 560,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "450 g de longe de porc tranchée mince, environ 3 mm — LONGE, PAS ÉPAULE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA MARINADE : 2 C. À SOUPE DE GOCHUJANG · 1 C. À SOUPE DE GOCHUGARU · 1 c. à soupe de mirin · 1 c. à soupe de sucre ou de miel · 4 gousses d'ail râpées · 1 c. à thé de gingembre râpé · 1 c. à soupe d'huile de sésame grillé · poivre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "⚠️ AUCUNE sauce soya — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 oignon en lamelles, 1/2 carotte, 3 oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Graines de sésame, feuilles de laitue pour servir",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger la marinade. Le porc dedans, à la main. 30 minutes au frigo, ou jusqu’à 12 heures."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle très chaude, un filet d'huile. LE PORC EN UNE COUCHE, PAR POÊLÉES DE 150 G. 2 minutes sans y toucher."
+    },
+    {
+      "n": 3,
+      "texte": "Retourner, l'oignon et la carotte, 3 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "LE GOCHUJANG BRÛLE : dès que les bords de la viande caramélisent et que ça sent le grillé, baisser le feu. Il contient du sucre et de la pâte de riz."
+    },
+    {
+      "n": 5,
+      "texte": "Les oignons verts, 30 secondes."
+    },
+    {
+      "n": 6,
+      "texte": "Sésame. Servir avec du riz et de la laitue pour envelopper."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Deux cuillères au lieu de six, et pourquoi ça ne se voit pas au goût",
+      "texte": "LES RECETTES COURANTES DE JEYUK BOKKEUM PORTENT DE QUATRE À SIX CUILLÈRES À SOUPE DE GOCHUJANG POUR 450 G DE VIANDE. À de l'ordre de 700 mg de sodium par cuillère, ÇA FAIT DE 900 À 1 400 MG PAR PORTION, POUR UN SEUL ASSAISONNEMENT.\n\nL'ÉCHANGE EST LE MÊME QU'AU CALMAR DE R101, ET IL VAUT LA PEINE D'ÊTRE COMPRIS UNE FOIS : LE GOCHUJANG ET LE GOCHUGARU NE FONT PAS LA MÊME CHOSE. Le gochujang est une pâte de piment FERMENTÉE au riz gluant et au soya : il apporte l'umami, le sucré, la couleur et le sel. Le gochugaru est du piment SÉCHÉ ET MOULU : il apporte le feu, l'arôme fruité et la couleur, ET PRESQUE AUCUN SODIUM.\n\nDONC : ON GARDE LE GOCHUJANG POUR CE QU'IL EST SEUL À FAIRE — LE FERMENTÉ — ET ON PREND LE FEU CHEZ LE GOCHUGARU, GRATUITEMENT. Deux cuillères de pâte plus une de poudre donnent un plat aussi rouge et aussi piquant que six cuillères de pâte, à 560 mg au lieu de 1 200.\n\n⚠️ ET AUCUNE SAUCE SOYA. C'EST LE RÉFLEXE QUI ANNULE L'AJUSTEMENT : beaucoup de recettes en ajoutent une cuillère « pour la profondeur », ce qui remet 500 mg. Le gochujang est déjà à base de soya fermenté; ce qu'on chercherait dans le soya y est déjà.\n\nLA LONGE AU LIEU DE L'ÉPAULE EST LE SECOND AJUSTEMENT, ET C'EST LE PLUS VISIBLE À L'ŒIL. L'épaule porte de 15 à 20 g de lipides aux 100 g, la longe de 5 à 8. Ce qu'on perd est de l'onctuosité; ce qu'on garde est la marinade, qui est tout le goût du plat. LA LONGE TRANCHÉE À 3 MM, SAISIE 2 MINUTES, RESTE TENDRE — c'est la même coupe et le même geste que le shōgayaki de R65."
+    },
+    {
+      "titre": "La vidéo dit « dwaejigogi-bokkeum », et c’est le même plat",
+      "texte": "LE TITRE DE LA DÉMONSTRATION DE MAANGCHI PORTE 돼지고기볶음 DWAEJIGOGI-BOKKEUM, LITTÉRALEMENT « PORC SAUTÉ », ET NON 제육볶음 JEYUK BOKKEUM. C'est le même plat sous ses deux noms courants, et la source le dit elle-même : elle liste 제육볶음 comme nom alternatif.\n\nC'EST ÉCRIT ICI POUR UNE SEULE RAISON : QUE PERSONNE NE CROIE S'ÊTRE TROMPÉ DE VIDÉO en cliquant. Les doses, elles, sont celles de la version courante — c'est cette fiche qui les corrige, et la note ci-dessus dit comment."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "3oFCGKmzQX8",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R101",
+    "R65"
+  ],
+  "commentaire_source": ""
+}

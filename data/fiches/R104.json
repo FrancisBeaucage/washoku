@@ -1,0 +1,134 @@
+{
+  "id": "R104",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "long",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant",
+    "en-bouillon"
+  ],
+  "moment": [
+    "souper"
+  ],
+  "slug": "poulet-braise-epice-aux-pommes-de-terre-dakbokkeumtang",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "닭볶음탕",
+  "lecture_origine": "dakbokkeumtang",
+  "langue_origine": "ko",
+  "fr": "Poulet braisé épicé aux pommes de terre (dakbokkeumtang)",
+  "sous_titre": "La pomme de terre n'est pas un légume ici, c'est le féculent du repas. C'est ce qui décide du montage de l'assiette — et ça retire le bol de riz.",
+  "portions": "4",
+  "temps_affiche": "≈ 45 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 33,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 33,
+    "proteines_affiche": "33 g",
+    "calories": 400,
+    "calories_affiche": "≈ 400",
+    "lipides_g": 12,
+    "sodium_mg": 640,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "900 g de hauts de cuisse de poulet désossés SANS LA PEAU, en morceaux de 5 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "600 g de pommes de terre, en gros morceaux de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE : 2 C. À SOUPE DE SAUCE SOYA RÉDUITE EN SODIUM · 2 c. à soupe de gochugaru · 1 C. À SOUPE DE GOCHUJANG · 1 c. à soupe de mirin · 1 c. à thé de sucre · 6 gousses d'ail râpées · 1 c. à thé de gingembre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "500 ml d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 oignon en quartiers, 1 carotte en gros morceaux, 3 oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Poivre noir",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 sur le poulet si on veut un bouillon net : eau froide à couvrir, ébullition, 3 minutes, jeter l'eau, rincer les morceaux et la casserole. SUR DU HAUT DE CUISSE DÉSOSSÉ, CETTE ÉTAPE EST FACULTATIVE — c'est sur l'os qu'elle compte."
+    },
+    {
+      "n": 2,
+      "texte": "Mélanger la sauce dans un bol."
+    },
+    {
+      "n": 3,
+      "texte": "Tout dans une casserole large : poulet, pommes de terre, oignon, carotte, la sauce, l'eau."
+    },
+    {
+      "n": 4,
+      "texte": "Porter à ébullition, puis FRÉMISSEMENT À COUVERT, 25 MINUTES."
+    },
+    {
+      "n": 5,
+      "texte": "Découvrir, remuer doucement, et RÉDUIRE 5 À 8 MINUTES À DÉCOUVERT jusqu’à ce que la sauce nappe. Les pommes de terre doivent céder sous une fourchette."
+    },
+    {
+      "n": 6,
+      "texte": "Les oignons verts et le poivre hors du feu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "🔴 La pomme de terre EST le quart féculent, et c’est un piège de comptabilité",
+      "texte": "LE GABARIT DU SOUPER DU GUIDE 5 DIT : moitié légumes, quart protéine, quart féculent. SIX CENTS GRAMMES DE POMMES DE TERRE POUR QUATRE PORTIONS, C'EST 150 G PAR PERSONNE — EXACTEMENT UN QUART FÉCULENT. Servi avec un bol de riz de 140 g, ce plat porte donc DEUX féculents, et la journée dépasse en glucides sans que rien ne le signale.\n\nLA RÈGLE POUR CETTE FICHE : PAS DE RIZ, OU UN DEMI-BOL. C'est l'arbitrage que tout mijoté contenant une racine amidonnée impose — UN MIJOTÉ QUI CONTIENT UNE RACINE AMIDONNÉE OCCUPE LA CASE DU FÉCULENT, PAS CELLE DU LÉGUME. Le nikujaga et la kabocha mijotée le poseront à leur tour quand ils entreront. Le champ « type de plat » ne suffit pas à le dire : il faut que ce soit écrit.\n\nET LE QUART LÉGUME RESTE À FAIRE. La carotte et l'oignon du braisage ne suffisent pas — ils ont fondu et ils sont dans la sauce. UN BANCHAN CROQUANT À CÔTÉ : le daikon de R83, un chou cru, le namul de germes de R72.\n\nLE SODIUM À 640 MG TIENT À DEUX CHOSES. DEUX CUILLÈRES À SOUPE DE SOYA POUR QUATRE PORTIONS au lieu des trois ou quatre habituelles, et UNE SEULE CUILLÈRE DE GOCHUJANG, le feu venant des deux cuillères de gochugaru. C'est le même échange qu'à R101 et R103.\n\n⚠️ ET LA PEAU SE RETIRE, PAS SEULEMENT POUR LES LIPIDES. Braisée trente minutes dans un liquide, une peau de poulet ne croustille jamais : elle devient flasque et gélatineuse, et elle relâche son gras dans la sauce. ICI, LA RETIRER N'ENLÈVE RIEN AU PLAISIR DU PLAT — contrairement à un poulet grillé, où elle est l'intérêt."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "bDXL_g6kJ5U",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R83",
+    "R85"
+  ],
+  "commentaire_source": ""
+}

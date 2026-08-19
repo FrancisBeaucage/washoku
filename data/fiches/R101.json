@@ -1,0 +1,135 @@
+{
+  "id": "R101",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "elastique",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "calmar-saute-epice-ojingeo-bokkeum",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "오징어볶음",
+  "lecture_origine": "ojingeo bokkeum",
+  "langue_origine": "ko",
+  "fr": "Calmar sauté épicé (ojingeo bokkeum)",
+  "sous_titre": "Seize grammes de protéines pour un gramme de lipides aux cent grammes : le meilleur rapport de toute la recherche coréenne. Et la seule chose à réussir, c'est de ne pas trop cuire.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 8,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "38 g",
+    "calories": 290,
+    "calories_affiche": "≈ 290",
+    "lipides_g": 5,
+    "sodium_mg": 620,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de calmar nettoyé, en anneaux de 1,5 cm et tentacules en morceaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE, prémélangée au bol (T18) : 1 c. à soupe de gochujang · 1 c. à soupe de gochugaru · 1 c. à thé de sauce soya réduite en sodium · 1 c. à soupe de mirin · 1 c. à thé de sucre · 3 gousses d'ail râpées · 1 c. à thé de gingembre · 1 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES LÉGUMES, en volume : 1/2 oignon en lamelles · 1 carotte en fines rondelles biseautées · 1/2 chou vert en morceaux, environ 200 g · 3 oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Graines de sésame",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger la sauce au bol AVANT d'allumer. Tout couper."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle ou wok très chaud avec l'huile. LE CALMAR SEUL, 90 SECONDES, PAS PLUS. Le sortir."
+    },
+    {
+      "n": 3,
+      "texte": "Les légumes durs — oignon, carotte — 2 minutes. Le chou, 2 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "La sauce versée sur le bord de la poêle, 30 secondes."
+    },
+    {
+      "n": 5,
+      "texte": "LE CALMAR DE RETOUR, 30 SECONDES POUR L'ENROBER. Pas plus."
+    },
+    {
+      "n": 6,
+      "texte": "Hors du feu, oignons verts et sésame."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Quatre-vingt-dix secondes, ou quinze minutes — il n'y a rien entre les deux",
+      "texte": "LE CALMAR A DEUX ÉTATS COMESTIBLES ET UN LONG PURGATOIRE ENTRE LES DEUX. À MOINS DE DEUX MINUTES DE CUISSON VIVE, IL EST TENDRE. ENTRE DEUX ET QUINZE MINUTES, IL EST CAOUTCHOUTEUX. APRÈS QUINZE À VINGT MINUTES DE MIJOTAGE, IL REDEVIENT TENDRE. Il n'y a rien à négocier : c'est le collagène de son muscle qui se contracte puis se gélatinise.\n\nCE PLAT EST DANS LA PREMIÈRE FENÊTRE, DONC LA SEULE RÈGLE EST DE SORTIR LE CALMAR ET DE LE REMETTRE À LA FIN. Laissé dans la poêle pendant la cuisson des légumes, il passe les quatre-vingt-dix secondes et il est perdu. C'est la même logique que la viande de R17 et de R79, mais la marge est plus étroite.\n\nLE CALMAR PRÉNETTOYÉ CHANGE LE TEMPS DE PRÉPARATION DU SIMPLE AU DOUBLE, et il se trouve congelé chez Kim Phat, congélateur C4 de l'allée 27. DÉCONGELÉ À L'EAU FROIDE 10 MINUTES, ÉPONGÉ À FOND — un calmar humide fait de la vapeur et bouillit au lieu de saisir."
+    },
+    {
+      "titre": "Le gochujang à une cuillère, et le gochugaru qui prend le relais",
+      "texte": "LA VERSION COURANTE DE CE PLAT PORTE DEUX À TROIS CUILLÈRES À SOUPE DE GOCHUJANG. À de l'ordre de 700 mg de sodium par cuillère, ça fait 1 000 à 1 500 mg par portion pour un seul assaisonnement.\n\nL'AJUSTEMENT TIENT EN UN ÉCHANGE : UNE CUILLÈRE DE GOCHUJANG, ET LE PIQUANT MANQUANT EST REPRIS PAR UNE CUILLÈRE DE GOCHUGARU — du piment pur, moulu, à sodium négligeable. Le gochujang apporte le fermenté, le sucré et la couleur; le gochugaru apporte le feu et la couleur. ON GARDE LE PREMIER POUR CE QU'IL EST SEUL À FAIRE, ET ON PREND LE FEU AILLEURS, GRATUITEMENT.\n\nET LE SOYA DESCEND À UNE CUILLÈRE À THÉ, PAS UNE CUILLÈRE À SOUPE. Le calmar est un produit de mer : il porte déjà sa propre salinité, et beaucoup de recettes empilent le soya par-dessus sans le compter. Le mirin et le sucre font le reste du travail.\n\nC'EST LE MEILLEUR RAPPORT PROTÉINES-LIPIDES DU RÉPERTOIRE CORÉEN, ET DE LOIN : trente-huit grammes de protéines pour cinq grammes de lipides par portion, dont l'essentiel vient de la cuillère d'huile. À PLACER LES JOURS OÙ UN PLAT GRAS EST DÉJÀ PASSÉ — après un maquereau, après un tempé, après un kōyadōfu."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "--SjTRJyp4w",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R103",
+    "R100"
+  ],
+  "commentaire_source": ""
+}

@@ -1,0 +1,133 @@
+{
+  "id": "R99",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "coreenne",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "doux",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "omelette-roulee-coreenne-gyeranmari",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "계란말이",
+  "lecture_origine": "gyeranmari",
+  "langue_origine": "ko",
+  "fr": "Omelette roulée coréenne (gyeranmari)",
+  "sous_titre": "Cent cinquante milligrammes de sodium pour dix-neuf grammes de protéines, et ça se mange froid. C'est un dîner de vingt minutes déjà fait dans le frigo.",
+  "portions": "2",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 9,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 19,
+    "proteines_affiche": "19 g",
+    "calories": 230,
+    "calories_affiche": "≈ 230",
+    "lipides_g": 15,
+    "sodium_mg": 150,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES DEUX PORTIONS, soit environ 75 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "4 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES LÉGUMES, hachés TRÈS fin, environ 100 g au total : 1/4 de carotte · 1/4 d’oignon · 2 oignons verts · 1/4 de poivron rouge",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à soupe de lait ou d'eau, pour un roulé plus tendre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "HACHER LES LÉGUMES TRÈS FIN, en dés de 2 à 3 mm. C'est la seule vraie difficulté du plat : des morceaux trop gros déchirent la couche d'œuf au roulage."
+    },
+    {
+      "n": 2,
+      "texte": "Battre les œufs sans faire de mousse, ajouter le sel et les légumes. Mélanger."
+    },
+    {
+      "n": 3,
+      "texte": "Poêle rectangulaire ou petite poêle antiadhésive de 20 cm, feu MOYEN-DOUX. Huiler au papier absorbant en retirant l’excès."
+    },
+    {
+      "n": 4,
+      "texte": "Verser un tiers du mélange, l'étaler. Quand la surface est prise mais ENCORE HUMIDE, rouler depuis le bord opposé vers soi."
+    },
+    {
+      "n": 5,
+      "texte": "Repousser le rouleau au fond, huiler la surface libre, verser un autre tiers EN SOULEVANT LE ROULEAU pour que l'œuf cru passe dessous. Rouler."
+    },
+    {
+      "n": 6,
+      "texte": "Répéter avec le dernier tiers."
+    },
+    {
+      "n": 7,
+      "texte": "Sortir, poser sur du papier absorbant, presser légèrement pour former le rectangle. LAISSER REFROIDIR AVANT DE TRANCHER en rondelles de 2 cm."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le cousin coréen du dashimaki, et ce qui les distingue",
+      "texte": "LE RECUEIL PORTE MAINTENANT DEUX OMELETTES ROULÉES, ET ELLES NE SE REMPLACENT PAS. Le だし巻き卵 japonais de R75 est monté au DASHI : sa texture est celle d'une crème prise, salée, sans légumes, et le liquide rend le roulage délicat. Le 계란말이 coréen est monté SEC, avec des légumes hachés : plus ferme, plus facile à rouler, et il croque un peu.\n\nCONSÉQUENCE PRATIQUE : CELUI-CI EST CELUI PAR LEQUEL COMMENCER. Sans liquide ajouté, la couche d'œuf ne se déchire pas, et le geste du roulage s'apprend sur ce plat-là avant d'aller au dashimaki.\n\nET C'EST LE PLAT LE MOINS SALÉ DE TOUT LE RÉPERTOIRE CORÉEN — cent cinquante milligrammes pour deux portions, soit le quart d'un banchan moyen. Le sodium vient du seul quart de cuillère à thé de sel; il n'y a ni soya, ni pâte fermentée, ni bouillon. QUAND UNE JOURNÉE EST DÉJÀ MANGÉE EN SODIUM, C'EST LE PLAT PROTÉINÉ À SORTIR.\n\nSE GARDE 2 JOURS AU FRIGO ET SE MANGE FROID, tranché. C'est ce qui en fait un dîner de boîte à lunch : dix-neuf grammes de protéines qu'on n'a pas à réchauffer."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "kN89ewZjOR8",
+    "auteur": "Maangchi",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R75",
+    "R88"
+  ],
+  "commentaire_source": ""
+}
