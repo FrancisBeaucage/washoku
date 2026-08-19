@@ -4,11 +4,22 @@
   "categorie": "garniture",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "marine",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "concombre-tataki",
   "jp": "叩ききゅうり",
   "jp_lecture": null,

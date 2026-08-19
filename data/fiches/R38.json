@@ -4,11 +4,22 @@
   "categorie": "soupe-entree",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "soyeux"
+  ],
+  "moment": [
+    "diner",
+    "souper",
+    "collation"
+  ],
   "slug": "soupe-miso-de-base",
   "jp": "味噌汁",
   "jp_lecture": null,

@@ -453,6 +453,384 @@
       "T5"
     ]
   },
+  "lexique-cuisine": {
+    "id": "lexique-cuisine",
+    "numero": "02b",
+    "titre": "Les mots de cuisine",
+    "jp_infobulle": "chōri — « tchô-ri » · la cuisine, la préparation",
+    "jp": "調理",
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "attrs": " style=\"margin:0 0 6px;font-size:16px;line-height:1.7;max-width:40em;color:#444141\"",
+        "texte": "Le dossier a un lexique complet des mots <em>japonais</em>, mais il emploie aussi partout des mots de cuisine française jamais définis. Les voici — c'est le blocage le plus fréquent quand on débute."
+      },
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(20px,3vw,40px);margin-top:26px\"",
+        "colonnes": [
+          {
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase\"",
+                "texte": "Les températures"
+              },
+              {
+                "type": "tableau",
+                "attrs": " style=\"margin:0\"",
+                "attrs_table": " style=\"min-width:0\"",
+                "lignes": [
+                  {
+                    "cellules": [
+                      {
+                        "balise": "th",
+                        "attrs": " style=\"width:30%\"",
+                        "html": "Terme"
+                      },
+                      {
+                        "balise": "th",
+                        "attrs": " style=\"width:22%\"",
+                        "html": "Temp."
+                      },
+                      {
+                        "balise": "th",
+                        "html": "À quoi ça ressemble"
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Chaleur douce</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "60-70 °C"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "Quelques bulles sur les <strong>parois</strong>, jamais au centre. Rien ne bouge en surface. C'est là qu'on retire le kombu (T2)."
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Frémir</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "85-90 °C"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "De petites bulles montent du fond et se cassent en surface. La surface <strong>tremble</strong> et fume, mais rien ne roule."
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Bouillir</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "100 °C"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "De gros bouillons qui roulent et remuent toute la casserole."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:10px 0 0;font-size:13.5px;line-height:1.6;color:#605d5d\"",
+                "texte": "Presque toutes les erreurs de dashi et de soupe miso sont des erreurs de température, pas de dosage : kombu bouilli = bouillon visqueux et amer ; miso bouilli = arômes détruits et texture grainée."
+              }
+            ]
+          },
+          {
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase\"",
+                "texte": "Les cuillères"
+              },
+              {
+                "type": "tableau",
+                "attrs": " style=\"margin:0\"",
+                "attrs_table": " style=\"min-width:0\"",
+                "lignes": [
+                  {
+                    "cellules": [
+                      {
+                        "balise": "th",
+                        "attrs": " style=\"width:55%\"",
+                        "html": "Terme"
+                      },
+                      {
+                        "balise": "th",
+                        "html": "Volume"
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "Cuillère à thé (c. à thé)"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "5 ml"
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "Cuillère à soupe (c. à soupe)"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "15 ml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:10px 0 0;font-size:13.5px;line-height:1.6;color:#605d5d\"",
+                "texte": "Au Québec, « cuillère à soupe » est une <strong>mesure</strong>, pas l'ustensile de table. <strong>Rase</strong> : arasée au dos d'un couteau. <strong>Bombée</strong> : un petit dôme par-dessus, ≈ 1,5 fois une mesure rase (une c. à soupe bombée de miso ≈ 18 g)."
+              }
+            ]
+          },
+          {
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase\"",
+                "texte": "Les gestes"
+              },
+              {
+                "type": "tableau",
+                "attrs": " style=\"margin:0\"",
+                "attrs_table": " style=\"min-width:0\"",
+                "lignes": [
+                  {
+                    "cellules": [
+                      {
+                        "balise": "th",
+                        "attrs": " style=\"width:32%\"",
+                        "html": "Terme"
+                      },
+                      {
+                        "balise": "th",
+                        "html": "Ce que ça veut dire"
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Dégorger</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "Saler un légume et attendre que le sel tire l'eau <strong>hors des cellules</strong>. Ce n'est pas la même chose que le sécher."
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Presser</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "Expulser l'eau que le sel a fait sortir des cellules — différent d'<strong>éponger</strong>, qui n'enlève que l'eau de surface."
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Éponger</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "Tapoter avec du papier absorbant pour retirer l'eau <strong>déjà sortie en surface</strong>. On n'appuie pas."
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Délayer</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "Dissoudre un ingrédient épais (le miso) dans un peu de liquide chaud <strong>à part</strong> avant de l'incorporer, pour éviter les grumeaux."
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Blanchir</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "Plonger brièvement dans l'eau bouillante, puis arrêter net la cuisson dans l'eau glacée (voir T6)."
+                      }
+                    ]
+                  },
+                  {
+                    "cellules": [
+                      {
+                        "balise": "td",
+                        "html": "<strong>Effeuiller</strong>"
+                      },
+                      {
+                        "balise": "td",
+                        "html": "Séparer les feuillets musculaires d'un poisson cuit, <strong>sans couper</strong>. Voir ci-dessous."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:14px 0 0;font-size:13.5px;line-height:1.6;color:#605d5d\"",
+                "texte": "<strong>Éponger un poisson ≠ presser un légume.</strong> Le geste s'inverse selon l'aliment. <strong>Le légume</strong> (concombre, verdure blanchie)&nbsp;: on presse, parce qu'on veut chasser l'eau <strong>de l'intérieur</strong> des cellules. <strong>Le poisson salé</strong>&nbsp;: on éponge, parce que l'eau est déjà sortie <strong>en surface</strong> — presser écraserait la chair et ferait perdre le jus qui la garde moelleuse."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:12px 0 0;font-size:13.5px;line-height:1.6;color:#605d5d\"",
+                "texte": "<strong>Effeuiller un poisson aux baguettes.</strong> On pose les deux baguettes <strong>à plat</strong> sur le pavé, on appuie légèrement et on <strong>tire vers soi</strong>&nbsp;: un feuillet musculaire se détache. On ne cisaille jamais, on ne pousse jamais à la verticale — les baguettes n'ont pas la force. Deux gestes qui aident&nbsp;: détacher la peau en premier et la manger à part (elle est croustillante et bloque l'accès à la chair), et commencer par le coin le plus mince, jamais par le centre. Le premier morceau est le plus dur&nbsp;; après, la brèche est ouverte."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fiches_liees": []
+  },
+  "montage": {
+    "id": "montage",
+    "numero": "02c",
+    "titre": "Le montage du bol",
+    "jp_infobulle": "moritsuke — « mo-ri-tsou-ké » · le dressage, le montage de l'assiette",
+    "jp": "盛り付け",
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "attrs": " style=\"margin:0 0 6px;font-size:16px;line-height:1.7;max-width:40em;color:#444141\"",
+        "texte": "Deux règles générales qui ne tiennent à aucune recette en particulier. Les deux ont été apprises en ratant un plat le 10 août&nbsp;: dans les deux cas, les ingrédients étaient bons et c'est le <em>geste de montage</em> qui a manqué."
+      },
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(20px,3vw,40px);margin-top:26px\"",
+        "colonnes": [
+          {
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase\"",
+                "texte": "① Un liquide ne se verse jamais par-dessus un monticule"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7\"",
+                "texte": "Deux cuillères à thé de ponzu versées sur un tas de garniture <strong>traversent le tas et se ramassent au fond du bol</strong>. On les goûte dans une bouchée sur dix, puis on conclut à tort qu'il en manquait. Le problème n'était pas la quantité, mais le placement."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7\"",
+                "texte": "Deux gestes corrects&nbsp;:"
+              },
+              {
+                "type": "liste",
+                "ordonnee": false,
+                "attrs": " style=\"margin:0 0 12px;padding-left:1.15em;font-size:16.5px;line-height:1.7\"",
+                "elements": [
+                  {
+                    "attrs": " style=\"margin-bottom:6px\"",
+                    "texte": "<strong>Mélanger</strong> le liquide à la garniture dans un bol à part, puis déposer la garniture assaisonnée (voir <a href=\"#R61\" style=\"color:#ae1800;text-decoration:underline\">R61</a>)."
+                  },
+                  {
+                    "texte": "<strong>Verser sous la garniture</strong>&nbsp;: le liquide sur l'élément de base, la garniture par-dessus (voir <a href=\"#R10\" style=\"color:#ae1800;text-decoration:underline\">R10</a>)."
+                  }
+                ]
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:16.5px;line-height:1.7\"",
+                "texte": "Ce constat vaut pour le ponzu, la sauce soya, le vinaigre de riz — <strong>tout assaisonnement liquide en petite quantité</strong>. C'est aussi ce qui permet de réduire les quantités sans perdre de goût, donc de tenir le sodium."
+              }
+            ]
+          },
+          {
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase\"",
+                "texte": "② Dans un repas froid, le riz vient en dernier"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7\"",
+                "texte": "Le réflexe du plat chaud — lancer le riz tôt parce que tout converge à la fin — est faux ici. Dans un repas froid, <strong>le riz est le seul élément chaud</strong>. Un hiyayakko, un sunomono, un thon assaisonné n'ont rien à perdre à attendre deux minutes dans leur bol. Le riz, lui, refroidit et se raffermit."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7\"",
+                "texte": "<strong>Séquence correcte&nbsp;:</strong> montage complet du plat froid → réchauffage du riz → service immédiat."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:13.5px;line-height:1.6;color:#605d5d\"",
+                "texte": "Rappel de la séquence de réchauffage du riz congelé (voir <a href=\"#T1\" style=\"color:#ae1800;text-decoration:underline\">T1</a>)&nbsp;: 1 min 30 au micro-ondes à 1000 W, puis 1 minute de repos couvert, puis on le sort immédiatement. Laissé dedans, il rétrograde à nouveau."
+              }
+            ]
+          }
+        ],
+        "blanc": "\n\n          "
+      }
+    ],
+    "fiches_liees": []
+  },
   "yakumi": {
     "id": "yakumi",
     "numero": "03",
@@ -1603,6 +1981,235 @@
     "intro_attrs": " style=\"margin:0 0 20px;font-size:16px;line-height:1.7;max-width:38em;color:#444141\"",
     "corps": [
       {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Très peu de choses sont nécessaires. Un four avec fonction gril et une poêle antiadhésive couvrent 90&nbsp;% de ce guide. Le tableau dit quoi acheter et dans quel ordre&nbsp;; les notes qui suivent disent pourquoi les substituts déçoivent."
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "h3",
+        "texte": "Ce qu'il faut, par ordre de priorité"
+      },
+      {
+        "type": "tableau",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "html": "Item"
+              },
+              {
+                "balise": "th",
+                "html": "Priorité"
+              },
+              {
+                "balise": "th",
+                "html": "Pourquoi"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Petit bol à riz</strong> (<span title=\"chawan — « tcha-wane » · le petit bol à riz\" style=\"cursor:help;border-bottom:1px dotted currentColor\">茶碗</span> <em>chawan</em>)"
+              },
+              {
+                "balise": "td",
+                "html": "Essentiel"
+              },
+              {
+                "balise": "td",
+                "html": "Le doseur permanent. Environ 5 $."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Pichet de 2 L avec couvercle</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Essentiel"
+              },
+              {
+                "balise": "td",
+                "html": "Pour le thé glacé au réfrigérateur"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Cuiseur à riz</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Très utile"
+              },
+              {
+                "balise": "td",
+                "html": "Libère complètement l'attention"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Cuillères à mesurer</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Très utile"
+              },
+              {
+                "balise": "td",
+                "html": "À garder <strong>à côté du poêle</strong>, pas dans un tiroir"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Contenants de portion</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Très utile"
+              },
+              {
+                "balise": "td",
+                "html": "Six petits contenants pour le riz"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Bacs à glaçons</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Très utile"
+              },
+              {
+                "balise": "td",
+                "html": "Pour congeler le dashi en petites unités"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Passoire fine</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Utile"
+              },
+              {
+                "balise": "td",
+                "html": "Filtrer le dashi et rincer le riz"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Mandoline</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Utile"
+              },
+              {
+                "balise": "td",
+                "html": "Juliennes en 30 secondes"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Panier vapeur en bambou</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Utile"
+              },
+              {
+                "balise": "td",
+                "html": "Poisson et légumes vapeur"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Râpe fine</strong> (<span title=\"oroshigane — « o-ro-chi-ga-né » · râpe fine japonaise\" style=\"cursor:help;border-bottom:1px dotted currentColor\">おろし金</span> <em>oroshigane</em>)"
+              },
+              {
+                "balise": "td",
+                "html": "Utile"
+              },
+              {
+                "balise": "td",
+                "html": "Pour le daikon et le gingembre"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Poêle en acier au carbone</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Optionnel"
+              },
+              {
+                "balise": "td",
+                "html": "Meilleure que le wok sur une cuisinière domestique"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Misokoshi</strong> (<span title=\"misokoshi — « mi-so-ko-chi » · passoire à miso\" style=\"cursor:help;border-bottom:1px dotted currentColor\">味噌こし</span> passoire à miso)"
+              },
+              {
+                "balise": "td",
+                "html": "Plus tard"
+              },
+              {
+                "balise": "td",
+                "html": "Confort&nbsp;: la louche et le dos d'une cuillère font le même travail"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "html",
+        "source": "<div class=\"g2\">\n      <figure>\n        <img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Rice_Cooker_1.png?width=1200\" alt=\"Cuiseur à riz électrique\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:4/3;object-fit:cover;background:#fff;border:2px solid #201e1d\">\n        <figcaption>炊飯器 <em>suihanki</em> — le cuiseur travaille seul</figcaption>\n      </figure>\n      <figure>\n        <img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Cooking_Mandolin_with_Carrot.jpg?width=1200\" alt=\"Mandoline de cuisine avec une carotte\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d\">\n        <figcaption>La mandoline — juliennes et tranches fines en 30 secondes</figcaption>\n      </figure>\n    </div>"
+      },
+      {
         "type": "note",
         "blanc": "\n\n          ",
         "attrs": " style=\"max-width:38em\"",
@@ -1652,6 +2259,24 @@
           },
           {
             "texte": "ET LE COROLLAIRE, QUI EST LE PRINCIPE CENTRAL DU DOSSIER&nbsp;: LE CONTENANT DÉCIDE DE LA PORTION. Un petit bol pour un kobachi, un bol de riz pour le riz, une assiette à part pour le poisson. Une portion servie «&nbsp;à l'œil&nbsp;» dans un grand plat n'est pas une portion, c'est une estimation — et le 17 août, le porc et l'oignon réservés ensemble ont rendu impossible de peser au montage."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "titre": "Note sur le wok",
+        "paragraphes": [
+          {
+            "texte": "Un wok a besoin d'une puissance de feu qu'une cuisinière domestique ne fournit pas. Un brûleur de restaurant chinois développe plus de 100 000 BTU&nbsp;; un rond résidentiel en produit 7 000 à 18 000. Résultat&nbsp;: le fond devient brûlant, les parois restent tièdes, tout s'entasse au centre et cuit à l'étouffée. Pour les sautés de ce guide, une grande poêle plate donne de meilleurs résultats. Un wok reste par contre excellent comme base pour un panier vapeur en bambou."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "titre": "Le misokoshi — plus tard, pas au départ",
+        "paragraphes": [
+          {
+            "texte": "Le <strong>misokoshi</strong> (味噌こし) est une petite passoire à manche qui s'accroche au bord de la casserole&nbsp;: on y dépose le miso, on la trempe dans le bouillon et on écrase à travers le tamis — aucun grumeau possible. Souvent vendu avec un <em>muddler</em> (le petit fouet en boule qui écrase dans la passoire), autour de 12-18&nbsp;$, chez Miyamoto ou dans les grandes surfaces asiatiques. <strong>Nécessaire&nbsp;? Non</strong>&nbsp;: la louche et le dos d'une cuillère font exactement le même travail (délayer, voir R2). Il devient utile dans deux cas seulement&nbsp;: un miso rustique avec des morceaux de soya entiers, ou une soupe quotidienne où l'on veut que l'étape prenne quinze secondes plutôt qu'une minute."
           }
         ]
       }

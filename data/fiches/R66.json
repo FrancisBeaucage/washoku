@@ -4,11 +4,22 @@
   "categorie": "garniture",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "elastique",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "kiriboshi-daikon-mijote",
   "jp": "切り干し大根の煮物",
   "jp_lecture": null,

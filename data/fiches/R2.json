@@ -4,12 +4,22 @@
   "categorie": "dejeuner",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
-  "slug": "soupe-miso-dejeuner-au-tofu-et-a-l-uf",
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote",
+    "poche"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "soyeux"
+  ],
+  "moment": [
+    "dejeuner"
+  ],
+  "slug": "soupe-miso-dejeuner-au-tofu-et-a-l-oeuf",
   "jp": "味噌汁",
   "jp_lecture": null,
   "romaji": "misoshiru",

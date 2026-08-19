@@ -4,11 +4,22 @@
   "categorie": "souper",
   "cuisine": "thaie",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "ferme"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "tom-yum-aux-crevettes",
   "jp": "トムヤムクン",
   "jp_lecture": "tome youme koung",

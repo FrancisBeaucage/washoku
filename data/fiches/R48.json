@@ -4,11 +4,21 @@
   "categorie": "collation",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "collation",
+  "methode": [
+    "bouilli"
+  ],
+  "axe_gout": [
+    "doux"
+  ],
+  "axe_texture": [
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper",
+    "collation"
+  ],
   "slug": "edamames-en-cosses-et-ecossees",
   "jp": "枝豆",
   "jp_lecture": null,

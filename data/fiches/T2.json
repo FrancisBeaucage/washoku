@@ -4,11 +4,21 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
   "slug": "le-dashi-trois-versions",
   "jp": "出汁",
   "jp_lecture": null,

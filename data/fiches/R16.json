@@ -4,11 +4,20 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "poisson-mijote-au-gingembre",
   "jp": "魚の煮付け",
   "jp_lecture": null,

@@ -4,11 +4,21 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "cru"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "acide"
+  ],
+  "axe_texture": [
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "chirashi-bowl",
   "jp": "ちらし丼",
   "jp_lecture": null,

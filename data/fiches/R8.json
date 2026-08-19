@@ -4,11 +4,21 @@
   "categorie": "dejeuner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "bouilli",
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "ferme",
+    "en-bouillon"
+  ],
+  "moment": [
+    "dejeuner"
+  ],
   "slug": "le-dejeuner-d-urgence",
   "jp": "非常朝食",
   "jp_lecture": null,

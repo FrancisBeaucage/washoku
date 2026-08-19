@@ -4,12 +4,25 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
-  "slug": "niku-udon-nouilles-au-b-uf",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "glissant",
+    "en-bouillon",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "niku-udon-nouilles-au-boeuf",
   "jp": "肉うどん",
   "jp_lecture": null,
   "romaji": "niku-udon",

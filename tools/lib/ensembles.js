@@ -20,15 +20,28 @@
 
 const fs = require('fs');
 const path = require('path');
-const { RACINE } = require('./sources');
+const { DATA } = require('./sources');
 const C = require('./champs');
 const { CATEGORIES, CUISINES, VITESSES } = C;
-const { lireBloc } = require('./blocs');
 
-/** Les clés de rayon du guide 3, lues dans le tableau `SECS` de sa page. */
+/* Les clés de rayon du guide 3. Elles se lisaient dans le tableau `SECS` de la
+   page du guide 3 ; le document 20 fait de cette page une redirection, donc la
+   table est passée dans `data/rayons.json`, d'où la lisent maintenant la règle
+   19 ET la page des ingrédients. Le principe n'a pas changé : les ensembles se
+   lisent là où ils sont définis, jamais recopiés ici. */
 function clesSecs() {
-  const html = fs.readFileSync(path.join(RACINE, 'guide-3-supermarche.html'), 'utf8');
-  return lireBloc(html, 'SECS').map((s) => s.k);
+  return JSON.parse(fs.readFileSync(path.join(DATA, 'rayons.json'), 'utf8')).map((s) => s.k);
+}
+
+/* Les zones du corps du guide 4, même histoire : la table vivait dans la page,
+   elle est passée dans `data/zones-exercices.json`. Le champ `zone` n'était
+   contrôlé par RIEN jusqu'ici — une valeur inconnue laissait simplement
+   l'exercice hors de tout filtre, avec une étiquette vide, sans qu'aucun test
+   n'échoue. C'est exactement la faute que la règle 19 existe pour attraper, et
+   elle passait à côté d'un champ sur onze. */
+function clesZones() {
+  return JSON.parse(fs.readFileSync(path.join(DATA, 'zones-exercices.json'), 'utf8'))
+    .map((z) => z.k).filter((k) => k !== 'tous');
 }
 
 /* `retiré` PORTE SON ACCENT : c'est la valeur que `generer.js` et `sources.js`
@@ -100,6 +113,7 @@ function table() {
     { fichier: 'guide-3-ingredients.json', champ: 'nutrition.base', permis: C.BASES_NUTRITION, nul: true },
     { fichier: 'guide-3-ingredients.json', champ: 'nutrition.source', permis: SOURCES_NUTRITION, nul: true },
     { fichier: 'guide-4-exercices.json', champ: 'statut', permis: STATUT },
+    { fichier: 'guide-4-exercices.json', champ: 'zone', permis: clesZones() },
     { fichier: 'historique-repas.json', champ: 'repas', permis: REPAS_HISTORIQUE },
     { fichier: 'historique-repas.json', champ: 'verdict', permis: VERDICTS, nul: true },
   ];
@@ -138,4 +152,4 @@ const NOTE_FORMES = "Comment chaque champ porte son ensemble. « valeur » : une
 
 const NOTE = "Les valeurs exactes — accents compris — que ces champs acceptent. Généré depuis la source ; la règle 19 refuse toute autre valeur. Un « null » en fin de liste veut dire que le champ l’accepte aussi. À lire avant d’écrire un document de mise à jour, plutôt que de les citer de mémoire.";
 
-module.exports = { table, parFichier, formesParFichier, clesSecs, NOTE, NOTE_FORMES };
+module.exports = { table, parFichier, formesParFichier, clesSecs, clesZones, NOTE, NOTE_FORMES };

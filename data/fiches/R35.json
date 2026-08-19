@@ -4,11 +4,20 @@
   "categorie": "souper",
   "cuisine": "chinoise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "poisson-vapeur-cantonais",
   "jp": "清蒸魚",
   "jp_lecture": "tching-djeng you",

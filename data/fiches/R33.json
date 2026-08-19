@@ -4,11 +4,22 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "poche",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant",
+    "soyeux"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "soupe-miso-au-saumon-tofu-et-edamame",
   "jp": "鮭の味噌汁",
   "jp_lecture": null,

@@ -4,11 +4,21 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "marine",
+    "grille"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "poisson-marine-au-miso",
   "jp": "西京焼き",
   "jp_lecture": null,

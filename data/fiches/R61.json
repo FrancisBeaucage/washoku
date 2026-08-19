@@ -4,11 +4,20 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "acide",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "ferme"
+  ],
+  "moment": [
+    "diner"
+  ],
   "slug": "thon-germon-assaisonne-au-ponzu",
   "jp": "ツナのポン酢和え",
   "jp_lecture": null,

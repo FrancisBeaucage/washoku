@@ -4,11 +4,21 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "extra-long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "bouilli"
+  ],
+  "axe_gout": [
+    "doux"
+  ],
+  "axe_texture": [
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
   "slug": "le-riz-rincage-et-cuisson",
   "jp": "米の研ぎ方",
   "jp_lecture": null,

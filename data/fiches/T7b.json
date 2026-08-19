@@ -4,11 +4,21 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "marine",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "saler-degorger-vinaigrer-sunomono",
   "jp": "酢の物",
   "jp_lecture": null,

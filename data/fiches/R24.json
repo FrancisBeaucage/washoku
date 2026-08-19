@@ -4,11 +4,22 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "poche"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "acide"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "shabu-shabu",
   "jp": "しゃぶしゃぶ",
   "jp_lecture": null,

@@ -4,11 +4,22 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "cru"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "porc-saute-au-gingembre",
   "jp": "豚の生姜焼き",
   "jp_lecture": null,

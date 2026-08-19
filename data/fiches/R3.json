@@ -4,11 +4,21 @@
   "categorie": "dejeuner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "cru",
+    "fermente"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "glissant",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner"
+  ],
   "slug": "natto-gohan",
   "jp": "納豆ご飯",
   "jp_lecture": null,

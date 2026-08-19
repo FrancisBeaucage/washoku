@@ -4,11 +4,21 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "okonomiyaki",
   "jp": "お好み焼き",
   "jp_lecture": null,

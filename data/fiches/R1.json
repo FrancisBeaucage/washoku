@@ -4,11 +4,24 @@
   "categorie": "dejeuner",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "grille",
+    "bouilli",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux",
+    "croustillant"
+  ],
+  "moment": [
+    "dejeuner"
+  ],
   "slug": "set-japonais-complet",
   "jp": "和朝食",
   "jp_lecture": null,

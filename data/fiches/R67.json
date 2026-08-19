@@ -4,11 +4,22 @@
   "categorie": "garniture",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "elastique",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "shimeji-sautes-au-soya",
   "jp": "しめじのソテー",
   "jp_lecture": null,

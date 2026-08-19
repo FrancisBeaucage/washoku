@@ -4,11 +4,22 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "bouilli",
+    "poche"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "glissant",
+    "en-bouillon"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "nouilles-instantanees-version-repas",
   "jp": "即席麺",
   "jp_lecture": null,

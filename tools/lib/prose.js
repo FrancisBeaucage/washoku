@@ -148,9 +148,23 @@ function analyserGrille(source, indent) {
     if (blanc !== `\n${indent}  `) return null;
     const c = attributs(col);
     if (c.nom !== 'div') return null;
-    colonnes.push(sansVides({ attrs: c.brut, blocs: analyser(c.interieur, `${indent}    `).blocs }));
+    /* La QUEUE d'une colonne — ce qui sépare son dernier élément de son
+       `</div>` — n'était pas mémorisée : `rendre` supposait toujours un saut de
+       ligne réindenté. Les colonnes du guide 1 se ferment souvent sur la même
+       ligne que leur dernier paragraphe, et l'aller-retour ajoutait alors un
+       saut de ligne qui n'y était pas. Une colonne dont la queue est la valeur
+       par défaut ne porte pas le champ : le journal, écrit à la main, n'a pas à
+       payer une clé pour un blanc ordinaire. */
+    const { blocs, queue } = analyser(c.interieur, `${indent}    `);
+    const colonne = sansVides({ attrs: c.brut, blocs });
+    if (queue !== `\n${indent}  `) colonne.queue = queue;
+    colonnes.push(colonne);
   }
-  return { type: 'grille', attrs: brut, colonnes };
+  const grille = { type: 'grille', attrs: brut, colonnes };
+  /* Le modèle ne s'applique que s'il est exact. Une grille qui ne se réécrit
+     pas au caractère près retombe dans le bloc `html`, qui la garde mot pour
+     mot : mieux vaut un bloc opaque qu'un bloc faux. */
+  return rendreBloc(grille, indent) === source ? grille : null;
 }
 
 function analyserFigure(source, indent) {
@@ -223,7 +237,7 @@ function rendreBloc(bloc, indent) {
     }
     case 'grille': {
       const cols = bloc.colonnes
-        .map((c) => `\n${indent}  <div${c.attrs || ''}>${rendre(c.blocs, `${indent}    `, `\n${indent}  `)}</div>`)
+        .map((c) => `\n${indent}  <div${c.attrs || ''}>${rendre(c.blocs, `${indent}    `, c.queue != null ? c.queue : `\n${indent}  `)}</div>`)
         .join('');
       return `<div${a}>${cols}\n${indent}</div>`;
     }

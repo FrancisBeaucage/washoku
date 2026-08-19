@@ -1,0 +1,30 @@
+[
+  {
+    "k": "tous",
+    "label": "Toutes les zones"
+  },
+  {
+    "k": "cou",
+    "label": "Cou et haut du dos"
+  },
+  {
+    "k": "haut",
+    "label": "Poitrine, épaules, bras"
+  },
+  {
+    "k": "tronc",
+    "label": "Tronc"
+  },
+  {
+    "k": "jambes",
+    "label": "Hanches, fessiers, cuisses"
+  },
+  {
+    "k": "mollets",
+    "label": "Mollets et chevilles"
+  },
+  {
+    "k": "fonc",
+    "label": "Fonctionnel"
+  }
+]

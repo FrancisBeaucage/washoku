@@ -4,11 +4,22 @@
   "categorie": "collation",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "collation",
+  "methode": [
+    "fermente"
+  ],
+  "axe_gout": [
+    "acide",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "mou"
+  ],
+  "moment": [
+    "collation",
+    "diner",
+    "souper"
+  ],
   "slug": "umeboshi",
   "jp": "梅干し",
   "jp_lecture": null,

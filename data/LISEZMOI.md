@@ -1,15 +1,20 @@
 # /data — le contenu du site
 
-Ce dossier **fait foi**. Les pages HTML en sont le rendu : elles contiennent une
-copie des données, réécrite par `tools/generer.js`. Modifier le HTML à la main
-dans un bloc `const R = [...]`, `const I = [...]` ou `const E = [...]`, ou dans
-une section extraite (journal, annexes, plan), ne sert à rien — la prochaine
-génération l'écrasera.
+Ce dossier **fait foi**. Les pages HTML ne contiennent plus aucune donnée : ce
+sont des gabarits, écrits en entier par `tools/generer.js`, qui lisent `/data`
+au chargement. **Modifier un fichier `.html` à la racine ne sert à rien** — la
+prochaine génération l'écrasera intégralement. Tout se corrige ici.
+
+Le document 20 a fait ce basculement. Avant, sept pages servaient 971 Ko de
+HTML, dont une de 297 Ko qui portait les 79 fiches en ligne et six annexes
+empilées dessous ; `/data` en était l'image, et le générateur redescendait vers
+les pages en vérifiant l'aller-retour. Maintenant, la flèche ne va que dans un
+sens.
 
 ## Le cycle
 
 ```bash
-npm run verifier      # les 21 règles + contrôle que HTML et JSON disent la même chose
+npm run verifier      # les 24 règles + contrôle que les pages sont bien celles que /data produit
 npm run appliquer 12  # marque le document 12 comme appliqué
 npm run generer       # /data → pages HTML + manifeste + index + fiches, puis validation
 ```
@@ -26,24 +31,53 @@ manifeste tire son `dernier_document_applique`.
 
 ## Les fichiers
 
-| Fichier | Contenu | Où ça se rend |
+| Fichier | Contenu | La page qui le rend |
 |---|---|---|
 | `manifeste.json` | Ce qui existe, les compteurs, et l'adresse de tout le reste. **Généré** — ne pas éditer. | — |
-| `index.json` | Un objet par fiche, réduit à ce qui sert à choisir. **Généré** — ne pas éditer. | — |
-| `fiches/<ID>.json` | Une fiche par fichier, copie exacte du recueil. **Généré** — ne pas éditer. | — |
-| `guide-2-fiches.json` | Techniques `T*` et recettes `R*` | bloc `R` de `guide-2-recettes.html` |
-| `guide-2-annexes.json` | Lexique, yakumi, dépannage, thé, équipement | sections `#lexique`, `#yakumi`, `#depannage`, `#the`, `#equipement` |
-| `guide-3-ingredients.json` | Fiches d'ingrédients | bloc `I` de `guide-3-supermarche.html` |
-| `guide-4-exercices.json` | Exercices | bloc `E` de `guide-4-bouger.html` |
-| `guide-5-plan.json` | Cibles chiffrées et sections du plan | sections `#s1` à `#s5` de `guide-5-plan.html` |
-| `guide-6-journal.json` | Entrées du journal | section `#s4` de `guide-6-journal.html` |
+| `index.json` | Un objet par fiche, réduit à ce qui sert à choisir, filtrer et rendre une carte. **Généré** — ne pas éditer. | `recettes.html`, `techniques.html` |
+| `fiches/<ID>.json` | Une fiche par fichier, copie exacte du recueil. **Généré** — ne pas éditer. | `fiche.html?id=<ID>` |
+| `guide-2-fiches.json` | Techniques `T*` et recettes `R*` | *(la source de l'index et des fiches seules)* |
+| `guide-2-annexes.json` | Lexique, mots de cuisine, montage, yakumi, dépannage, thé, équipement | `annexe.html?id=<ID>` |
+| `guide-1-manger.json` | Les 22 sections du guide 1 | `guide-section.html?guide=1&id=<ID>` |
+| `guide-3-ingredients.json` | Fiches d'ingrédients | `ingredients.html`, `ingredient.html?id=<ID>` |
+| `guide-3-sections.json` | Les 8 sections de prose du guide 3 | `guide-section.html?guide=3&id=<ID>` |
+| `guide-4-exercices.json` | Exercices | `exercices.html` |
+| `guide-4-sections.json` | Les 8 sections de prose du guide 4 | `guide-section.html?guide=4&id=<ID>` |
+| `guide-5-plan.json` | Cibles chiffrées et sections du plan | `plan.html` |
+| `guide-6-journal.json` | Entrées du journal | `journal.html` |
 | `historique-repas.json` | Ce qui a été mangé, un enregistrement par repas | — |
 | `documents-appliques.json` | Les numéros des documents de mise à jour déjà appliqués | — |
+| `rayons.json` | Les rayons du guide 3 : la clé de `section` et son libellé | `ingredients.html` |
+| `zones-exercices.json` | Les zones du corps du guide 4 : la clé de `zone` et son libellé | `exercices.html` |
 
-Ce qui reste en HTML, et pourquoi : le guide 1, les proses des guides 3 et 4, et
-les sections d'explication du guide 6. C'est de la prose longue et stable, déjà
-lisible par simple récupération de page. L'extraire corrigerait un problème qui
-n'existe pas.
+**Il ne reste plus une ligne de prose dans le HTML.** C'était le cas jusqu'au
+document 20, et ça a coûté cher à découvrir : le document diagnostiquait le
+guide 1 comme « le seul guide sans fichier de données derrière lui », alors que
+les guides 3 et 4 en portaient huit sections chacun et le guide 2 deux de plus
+que son fichier d'annexes. Dix-huit sections que la refonte aurait effacées en
+silence. C'est la règle 23 — aucun lien interne mort — qui les a trouvées, par
+un renvoi du guide 5 vers une ancre qui n'existait plus.
+
+### Les pages, et à quoi elles servent
+
+| Page | Ce qu'elle est |
+|---|---|
+| `index.html` | L'accueil : les cibles du jour et quatre portes |
+| `recettes.html` | La liste filtrable des recettes. **Rien en dessous** |
+| `techniques.html` | La liste des techniques, à part : une technique ne se choisit pas pour souper |
+| `fiche.html?id=` | Une fiche, en mode cuisine — le reste derrière un seul bouton |
+| `ingredients.html` · `ingredient.html?id=` | Le guide 3 |
+| `exercices.html` | Le guide 4 |
+| `guide.html` | La table des matières de tout ce qui s'explique |
+| `guide-section.html?guide=&id=` | Une section de prose, une page |
+| `annexe.html?id=` | Une annexe du recueil, une page |
+| `plan.html` | Le guide 5 — reste un document d'une seule page |
+| `journal.html` | Le guide 6 |
+
+Les six anciennes adresses — `guide-1-manger.html` … `guide-6-journal.html` —
+sont des **redirections**, et elles traduisent l'ancre : `guide-2-recettes.html#R14`
+aboutit à `fiche.html?id=R14`. Ces liens sont dans du CONTENU, pas dans un
+gabarit ; les casser aurait été silencieux. La règle 23 les vérifie tous.
 
 ## Le protocole de lecture, depuis l'extérieur
 
@@ -225,8 +259,18 @@ pas un bloc de texte. Chaque bloc porte un `type` :
 Les champs `attrs`, `attrs_table` et `source` sont de la **mise en page**, pas du
 contenu. Ils existent pour que l'aller-retour soit exact ; on n'y touche pas.
 
-`tools/extraire.js` refuse d'écrire si `rendre(analyser(page)) !== page`. C'est
-ce qui garantit qu'aucune migration ne perd de contenu en chemin.
+Chaque script d'extraction refuse d'écrire si `rendre(analyser(page)) !== page`,
+section par section. C'est ce qui a garanti qu'aucune migration n'a perdu de
+contenu en chemin, et c'est ce qui a permis de sortir 154 Ko de prose du
+guide 1 sans en réécrire une phrase. Les extracteurs sont des scripts
+d'**amorçage**, lancés une fois : `tools/extraire-guide-1.js`,
+`tools/extraire-prose.js`, `tools/detacher-bannieres.js`. Ils refusent de
+tourner une seconde fois.
+
+La règle 22 poursuit le même contrat de l'autre côté : le rendu des blocs
+existe en DEUX exemplaires — `lib/prose.js` pour l'outillage, `lib/vue.js` pour
+les pages — et deux copies d'un rendu divergent toujours. La règle évalue la
+seconde dans Node et compare, bloc par bloc, sur tout `/data`.
 
 Les champs de présentation vides ne s'écrivent pas : un paragraphe sans style
 n'a ni `attrs` ni `classe`. C'est ce qui rend le journal écrivable à la main.
@@ -251,10 +295,13 @@ validation qu'il vaut toujours `limace(fr)` au lieu de le laisser dériver en
 silence. Le jour où un slug curaté serait nécessaire, il faudra le déclarer ici —
 et accepter qu'aucune règle ne le surveille plus.
 
-Ils sont déclarés dans `champs_hors_page` de `tools/lib/sources.js`, et
-`extraire.js` les recopie depuis le JSON existant au lieu de les perdre. Ajouter
-un champ de ce genre sans l'y déclarer, c'est le condamner à disparaître à la
-prochaine réextraction.
+Ils sont déclarés dans `champs_hors_page` de `tools/lib/sources.js`. Le nom
+vient de l'époque où les pages portaient les données : un champ que la page ne
+rendait pas était un champ qu'une réextraction écrasait. **Les pages ne portent
+plus rien, donc ce risque-là a disparu** — mais la déclaration reste utile pour
+une autre raison, qui est la vraie : elle sépare « champ que le schéma compact
+ne rend pas, et c'est voulu » de « champ que le mapper perd ». C'est ce que
+vérifie la règle 20.
 
 **La règle 20 refuse désormais qu'un champ y échappe.** Elle fait l'aller-retour
 `versEntree` → `versJson` sur chaque entrée de `/data` et compare : ce que
@@ -264,24 +311,13 @@ dise — `nutrition.variable` (recalculé depuis `/variable/i.test()`, donc remi
 `false` sur R64 et T9), `voir_aussi` (toujours rendu vide) et `nutrition.note`
 (réécrite avec la phrase par défaut). Ils ont été déclarés au document 16.
 
-Un troisième tableau, `champs_reconstitues`, recense ce qu'`extraire.js` rebâtit
-autrement qu'à travers le mapper : `commentaire_source`, tiré des lignes qui
-précèdent l'entrée, et l'`id` du guide 3, calculé depuis `fr`. Ces champs ne se
-perdent pas ; ils ne passent simplement pas par le mapper, et la règle 20 doit
-le savoir pour ne pas crier au loup.
-
-Deux limites connues, que `champs_hors_page` ne peut pas couvrir :
-
-- **une fiche `retiré` n'est pas dans la page du tout**, donc une réextraction la
-  perdrait entière, `motif_retrait` compris. Il faudrait qu'`extraire.js`
-  reprenne les entrées absentes du HTML. Aucune fiche n'est retirée à ce jour ;
-- `extraire.js` est un script d'**amorçage**, lancé une fois. Le risque ne se
-  matérialise qu'à un `--force` — c'est-à-dire précisément quand personne ne
-  relira 75 fiches à la main.
+Un second tableau, `champs_reconstitues`, recense ce qui ne passe pas par le
+mapper du tout : `commentaire_source` et l'`id` du guide 3, calculé depuis `fr`.
+La règle 20 doit le savoir pour ne pas crier au loup.
 
 ## Les champs à valeurs fermées
 
-Vingt-deux champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
+Vingt-trois champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
 vérifie tous**, à partir d'une seule table `champ → ensemble permis` dans
 `tools/lib/ensembles.js` — pas vingt-deux règles particulières, qui laisseraient
 repasser la vingt-troisième.
@@ -323,18 +359,26 @@ que la table — deux copies d'un ensemble finiraient par diverger.
 | guide 2 | `cout_travail` | valeur | `leger`, `moyen`, `lourd`, ou `null` |
 | guide 2 | `statut_perso` | par-lecteur | `STATUTS_PERSO` |
 | guide 3 | `statut` | valeur | `actif`, `retiré` |
-| guide 3 | `section` | valeur | les clés de `SECS`, lues dans `guide-3-supermarche.html` |
+| guide 3 | `section` | valeur | les clés de `rayons.json` |
 | guide 3 | `langue_origine` | valeur | `LANGUES`, ou `null` |
 | guide 3 | `nutrition.base` | valeur | `BASES_NUTRITION`, ou `null` |
 | guide 3 | `nutrition.source` | valeur | `estime`, `etiquette`, `pese`, ou `null` |
 | guide 4 | `statut` | valeur | `actif`, `retiré` |
+| guide 4 | `zone` | valeur | les clés de `zones-exercices.json` |
 | historique | `repas` | valeur | `dejeuner`, `diner`, `souper`, `collation` |
 | historique | `verdict` | valeur | `excellent`, `bon`, `correct`, `rate`, `rejete`, ou `null` |
 
 **Les ensembles se lisent là où ils sont déjà définis, jamais recopiés.** Les
-libellés viennent de `lib/champs.js`, les rayons du tableau `SECS` de la page du
-guide 3. Recopier créerait une seconde source de vérité, et déplacerait le
-problème au lieu de le régler.
+libellés viennent de `lib/champs.js`, les rayons de `rayons.json`, les zones du
+corps de `zones-exercices.json`. Recopier créerait une seconde source de vérité,
+et déplacerait le problème au lieu de le régler.
+
+Les deux dernières tables vivaient dans les pages jusqu'au document 20 : la page
+du guide 3 portait `SECS`, celle du guide 4 portait `ZONES`. Elles sont passées
+dans `/data` quand les pages sont devenues des vues générées — et `zone` a gagné
+au passage un contrôle qu'il n'avait jamais eu : une valeur inconnue laissait
+l'exercice hors de tout regroupement, avec une étiquette vide, sans que rien
+n'échoue.
 
 `retiré` **porte son accent** : c'est la valeur que `generer.js` compare pour
 écarter une entrée de la page. Un `retire` sans accent y passerait pour une
@@ -347,22 +391,21 @@ n'échouait.
 
 ## Les nombres affichés dans les pages
 
-**Aucun nombre de fiches, de sections ou d'entrées ne s'écrit à la main dans une
-page.** `generer.js` les calcule et les réécrit ; la règle 9 échoue s'ils
-divergent. Trois familles :
+**Aucun nombre de fiches, de sections ou d'entrées n'est ÉCRIT dans une page.**
+Les pages les calculent à l'affichage, à partir des mêmes fichiers que le reste
+du site : un compteur ne peut donc plus périmer, puisqu'il n'existe nulle part
+sous forme figée. La règle 9 refuse tout nombre suivi d'un nom de collection
+dans un fichier `.html` — « 140 g » ou « 2 L » ne sont pas des compteurs, « 68
+fiches » en est un.
 
-- l'en-tête de `guide-2-recettes.html` et la phrase « N recettes et N techniques
-  de base » d'`index.html` — table `NOMBRES` de `generer.js` ;
-- les six pieds de carte d'`index.html` (« 75 fiches → ») — table de
-  `tools/lib/compteurs.js`, lue par la génération et par la règle 9.
+C'est le troisième état de cette règle, et les deux premiers ont échoué de la
+même façon. Le document 7 recalculait deux phrases. Le document 15 y a ajouté
+six pieds de carte, après que celle du recueil eut annoncé 56 fiches pour 74.
+Les deux fois, la règle vérifiait une LISTE d'endroits — et la faute suivante
+est toujours arrivée à un endroit qui n'y était pas. Le document 20 supprime la
+liste : il n'y a plus d'endroit où un compteur puisse être écrit.
 
-Le principe datait du document 7, mais ne couvrait que les deux premières : la
-carte du guide 2 a annoncé 56 fiches pour 74, et celle du guide 5 quatre sections
-pour cinq, sans qu'aucune règle bronche. Le document 15 a fermé l'écart.
 
-Le motif d'un pied de carte s'ancre sur **l'ouverture de la carte**, pas sur son
-seul `href` : la page porte aussi un menu de navigation vers les six guides et un
-renvoi en pied de page, et « N fiches → » vaut pour trois cartes à la fois.
 
 ## Ce qu'il faut savoir avant d'éditer
 
@@ -505,11 +548,9 @@ Une entrée porte des champs machine en tête, puis son `corps` en blocs.
   deux.
 - **`fiches_corrigees`** — les fiches que l'entrée a fait corriger. C'est ce qui
   rend vérifiable la règle du dossier selon laquelle une observation qui ne
-  corrige rien ne sert à rien. ⚠️ **Il n'est pas libre : `journal.js` le
-  RECALCULE** à la lecture de la page, depuis les renvois `guide-2-recettes.html#ID`
-  des blocs `liste` du corps. Une valeur écrite à la main qui ne s'accorde pas
-  avec ces renvois produit un **écart de génération permanent** — et seules les
-  fiches du guide 2 y entrent : un renvoi vers le guide 3 n'y figure pas.
+  corrige rien ne sert à rien. Il se recopiait autrefois des renvois du corps à
+  chaque extraction ; depuis que la page est une vue générée, **il s'écrit à la
+  main dans `/data`** — et la règle 2 vérifie que chaque identifiant existe.
 - **`photos`** — `{ fichier, alt, legende }`. Vide par défaut. Un bloc `figure`
   du corps y renvoie par son rang. Ne jamais y mettre de marqueur.
 

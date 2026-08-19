@@ -4,12 +4,23 @@
   "categorie": "soupe-entree",
   "cuisine": "chinoise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
-  "slug": "soupe-aux-ufs-et-tomate",
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "doux",
+    "acide"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "soyeux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-aux-oeufs-et-tomate",
   "jp": "卵とトマトのスープ",
   "jp_lecture": null,
   "romaji": "tamago to tomato no sūpu",

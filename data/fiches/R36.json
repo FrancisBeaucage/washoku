@@ -4,11 +4,23 @@
   "categorie": "souper",
   "cuisine": "vietnamienne",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote",
+    "poche"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "faux-pho-au-poulet",
   "jp": "鶏のフォー風",
   "jp_lecture": "to-ri no feu fou",

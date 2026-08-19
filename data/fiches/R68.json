@@ -4,11 +4,20 @@
   "categorie": "garniture",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "condiment",
+  "methode": [
+    "cru"
+  ],
+  "axe_gout": [
+    "piquant"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "momiji-oroshi-daikon-rape-au-piment",
   "jp": "紅葉おろし",
   "jp_lecture": null,

@@ -4,11 +4,22 @@
   "categorie": "souper",
   "cuisine": "chinoise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "poche"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "moelleux",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "soupe-won-ton-deconstruite",
   "jp": "雲呑スープ",
   "jp_lecture": null,

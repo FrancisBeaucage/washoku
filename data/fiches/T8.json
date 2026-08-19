@@ -4,12 +4,24 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
-  "slug": "l-uf-mollet-et-l-uf-dur",
+  "type_de_plat": "technique",
+  "methode": [
+    "bouilli"
+  ],
+  "axe_gout": [
+    "doux"
+  ],
+  "axe_texture": [
+    "fondant",
+    "ferme"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper",
+    "collation"
+  ],
+  "slug": "l-oeuf-mollet-et-l-oeuf-dur",
   "jp": "半熟卵",
   "jp_lecture": null,
   "romaji": "hanjuku-tamago",

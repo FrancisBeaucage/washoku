@@ -4,12 +4,21 @@
   "categorie": "dejeuner",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
-  "slug": "ufs-vapeur-au-gingembre",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "soyeux"
+  ],
+  "moment": [
+    "dejeuner"
+  ],
+  "slug": "oeufs-vapeur-au-gingembre",
   "jp": "茶碗蒸し",
   "jp_lecture": null,
   "romaji": "chawanmushi",

@@ -4,11 +4,24 @@
   "categorie": "souper",
   "cuisine": "coreenne",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "blanchi",
+    "cru"
+  ],
+  "axe_gout": [
+    "piquant",
+    "sesame-noisette",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "croquant",
+    "moelleux"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "bibimbap-a-ratio-inverse",
   "jp": "ビビンバ",
   "jp_lecture": "bi-bime-bap",

@@ -4,11 +4,20 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "grille"
+  ],
+  "axe_gout": [
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croustillant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "poulet-grille-au-sel",
   "jp": "鶏の塩焼き",
   "jp_lecture": null,

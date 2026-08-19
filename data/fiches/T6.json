@@ -4,11 +4,21 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "blanchi"
+  ],
+  "axe_gout": [
+    "doux"
+  ],
+  "axe_texture": [
+    "mou",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "le-blanchiment-des-verdures",
   "jp": "茹で方",
   "jp_lecture": null,

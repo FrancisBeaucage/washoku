@@ -4,11 +4,25 @@
   "categorie": "dejeuner",
   "cuisine": "coreenne",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "blanchi",
+    "fermente"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment",
+    "sesame-noisette"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner"
+  ],
   "slug": "bol-coreen-express",
   "jp": "韓国風丼",
   "jp_lecture": null,

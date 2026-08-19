@@ -4,11 +4,22 @@
   "categorie": "souper",
   "cuisine": "chinoise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote",
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "soyeux",
+    "en-bouillon"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "mapo-tofu-allege",
   "jp": "麻婆豆腐",
   "jp_lecture": "ma-po dow-fou",

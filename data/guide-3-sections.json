@@ -1,0 +1,973 @@
+[
+  {
+    "id": "s1",
+    "statut": "actif",
+    "titre": "Pourquoi tu ressors les mains vides",
+    "resume": "Je ne peux pas te donner le plan exact de ton supermarché asiatique. Mais la logique d'organisation, elle, est presque universelle — une fois que tu la comprends, tu déduis où sont les choses.",
+    "corps": [
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin:30px 0\"",
+        "colonnes": [
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-weight:800;font-size:28px;color:#ec3013;line-height:1\"",
+                "texte": "1"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:18px;font-weight:800;line-height:1.2\"",
+                "texte": "Le magasin est organisé par catégorie — mais chaque pays a son bout de tablette."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14.5px;line-height:1.65;color:#444141\"",
+                "texte": "Une allée de sauces, une allée de nouilles, une allée de riz. À l'intérieur d'une même allée, les produits sont regroupés par origine&nbsp;: la sauce soya japonaise n'est pas mêlée à la chinoise ni à la coréenne. <strong>Deux questions, dans cet ordre&nbsp;: « quel type de produit&nbsp;? » pour trouver l'allée, puis « ça vient de quel pays&nbsp;? » pour la bonne bouteille.</strong> Les très grandes surfaces pan-asiatiques (T&amp;T, H&nbsp;Mart) ont parfois une allée complète par cuisine&nbsp;; chez Kim&nbsp;Phat, non — c'est par catégorie."
+              }
+            ]
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-weight:800;font-size:28px;color:#ec3013;line-height:1\"",
+                "texte": "2"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:18px;font-weight:800;line-height:1.2\"",
+                "texte": "Les produits séchés ont leur propre allée."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14.5px;line-height:1.65;color:#444141\"",
+                "texte": "Complètement séparée des allées par pays. Le kombu, le katsuobushi, le nori, les champignons séchés&nbsp;: tout est ensemble, dans une allée qui ressemble à une pharmacie chinoise. <strong>C'est là qu'est ton dashi — et non, ce n'est pas à côté du thé.</strong>"
+              }
+            ]
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-weight:800;font-size:28px;color:#ec3013;line-height:1\"",
+                "texte": "3"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:18px;font-weight:800;line-height:1.2\"",
+                "texte": "Tu ne trouveras jamais rien en errant."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14.5px;line-height:1.65;color:#444141\"",
+                "texte": "Le magasin est trop dense. Il faut y aller avec une liste organisée <strong>par section</strong>, pas par recette. C'est exactement ce que fait la liste imprimable au bas de cette page."
+              }
+            ]
+          }
+        ],
+        "blanc": "\n\n        "
+      }
+    ],
+    "numero": "01",
+    "jp": "論理",
+    "jp_infobulle": "ronri — « rone-ri » · la logique"
+  },
+  {
+    "id": "s2",
+    "statut": "actif",
+    "titre": "Le plan type",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Presque tous les grands supermarchés asiatiques suivent ce modèle. <strong>La règle du périmètre</strong>&nbsp;: le frais est toujours en bordure, le sec est toujours au centre. Comme au IGA, sauf que le centre est beaucoup plus dense."
+      },
+      {
+        "type": "html",
+        "source": "<div style=\"max-width:640px;margin:28px 0\">\n          <div style=\"border:2px solid #201e1d;background:#f3f2f2\">\n            <div style=\"padding:10px 16px;border-bottom:2px solid #201e1d;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;text-align:center;background:#201e1d;color:#f3f2f2\">Entrée</div>\n            <div style=\"padding:14px 16px;border-bottom:1px solid #d7d3d3\"><p style=\"margin:0;font-size:15px;font-weight:800\">① Fruits et légumes</p><p style=\"margin:2px 0 0;font-size:13.5px;color:#605d5d\">Tu arrives ici en premier. Herbes et champignons souvent réfrigérés en bordure.</p></div>\n            <div style=\"padding:14px 16px;border-bottom:2px solid #201e1d;background:#eae9e9\"><p style=\"margin:0;font-size:15px;font-weight:800\">Allées centrales — 5 à 12 allées</p><p style=\"margin:2px 0 0;font-size:13.5px;color:#605d5d\">Les secs, regroupés par catégorie (sauces, nouilles, riz…), avec les produits rangés par origine à l'intérieur de chaque allée. Plus l'allée des séchés et l'allée du thé.</p></div>\n            <div style=\"padding:14px 16px;border-bottom:1px solid #d7d3d3\"><p style=\"margin:0;font-size:15px;font-weight:800\">② Mur réfrigéré</p><p style=\"margin:2px 0 0;font-size:13.5px;color:#605d5d\">Tofu, konnyaku, miso, kimchi, nouilles fraîches. La moitié de ta liste.</p></div>\n            <div style=\"padding:14px 16px;border-bottom:1px solid #d7d3d3\"><p style=\"margin:0;font-size:15px;font-weight:800\">③ Comptoir poisson</p><p style=\"margin:2px 0 0;font-size:13.5px;color:#605d5d\">Souvent au fond. Sashimi dans un présentoir séparé.</p></div>\n            <div style=\"padding:14px 16px;border-bottom:1px solid #d7d3d3\"><p style=\"margin:0;font-size:15px;font-weight:800\">④ Comptoir viande</p><p style=\"margin:2px 0 0;font-size:13.5px;color:#605d5d\">La viande tranchée shabu est ici, et nulle part ailleurs.</p></div>\n            <div style=\"padding:14px 16px;border-bottom:2px solid #201e1d\"><p style=\"margin:0;font-size:15px;font-weight:800\">⑤ Congélateurs</p><p style=\"margin:2px 0 0;font-size:13.5px;color:#605d5d\">Souvent un mur ou une allée complète. Edamames, gyoza, crevettes — et le natto, importé congelé ici.</p></div>\n            <div style=\"padding:10px 16px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;text-align:center;color:#7d7979\">Caisses</div>\n          </div>\n        </div>",
+        "blanc": "\n\n        "
+      }
+    ],
+    "numero": "02",
+    "jp": "見取図",
+    "jp_infobulle": "mitorizu — « mi-to-ri-zou » · le plan"
+  },
+  {
+    "id": "s4",
+    "statut": "actif",
+    "titre": "Les six pièges classiques",
+    "resume": null,
+    "corps": [
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:26px\"",
+        "colonnes": [
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:20px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-weight:800;font-size:24px;color:#ec3013;line-height:1\"",
+                "texte": "1",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2\"",
+                "texte": "Chercher le konjac dans l'allée des nouilles.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "Il est au réfrigéré, à côté du tofu. Toujours.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:20px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-weight:800;font-size:24px;color:#ec3013;line-height:1\"",
+                "texte": "2",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2\"",
+                "texte": "Chercher le dashi près du thé.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "Les sachets de dashi sont dans l'allée japonaise&nbsp;; le kombu et le katsuobushi sont dans l'allée des séchés.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:20px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-weight:800;font-size:24px;color:#ec3013;line-height:1\"",
+                "texte": "3",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2\"",
+                "texte": "Acheter la mauvaise sauce soya.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "La soya chinoise foncée et la soya japonaise ne sont pas interchangeables. Pour ce guide&nbsp;: <strong>Kikkoman réduit en sodium</strong>.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:20px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-weight:800;font-size:24px;color:#ec3013;line-height:1\"",
+                "texte": "4",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2\"",
+                "texte": "Confondre les deux formats de dashi.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "Les <strong>sachets</strong> (vrais ingrédients) et la <strong>poudre Hondashi</strong> (granulés, très salée) sont côte à côte. Avec ta tension, prends les sachets.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:20px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-weight:800;font-size:24px;color:#ec3013;line-height:1\"",
+                "texte": "5",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2\"",
+                "texte": "Acheter du nori assaisonné en pensant acheter du nori nature.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "Le nori en collation est salé et huilé. Le <strong>yaki nori nature</strong> est en grandes feuilles, dans un paquet plat rigide.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#ec3013;color:#fff;padding:20px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-weight:800;font-size:24px;color:#ffc4b8;line-height:1\"",
+                "texte": "6",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 5px;font-size:16px;font-weight:800;line-height:1.2\"",
+                "texte": "Vouloir tout acheter d'un coup.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6\"",
+                "texte": "C'est ce qui te paralyse. Voir la première visite ci-dessous&nbsp;: une liste courte, et l'objectif est de repérer les sections, pas de remplir le panier.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          }
+        ]
+      }
+    ],
+    "numero": "04",
+    "jp": "落とし穴",
+    "jp_infobulle": "otoshiana — « o-to-chi-a-na » · les pièges"
+  },
+  {
+    "id": "s5",
+    "statut": "actif",
+    "titre": "Demander de l'aide sans que ce soit pénible",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7\"",
+        "texte": "<strong>La meilleure&nbsp;: montre une photo.</strong> Sors ton téléphone, cherche l'image du produit, montre-la. Ça règle tous les problèmes de langue et de prononciation en trois secondes. C'est aussi ce qui donne le moins l'impression de « demander de l'aide » — et c'est exactement pour ça que chaque fiche de cette page a une photo."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "attrs": " style=\"margin:0 0 12px;font-size:16.5px;line-height:1.7\"",
+        "texte": "<strong>La deuxième&nbsp;: nomme le produit, pas la catégorie.</strong> « Où est le katsuobushi&nbsp;? » fonctionne beaucoup mieux que « je cherche des flocons de poisson séché ». Les employés connaissent les noms des produits."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "attrs": " style=\"margin:0;font-size:16.5px;line-height:1.7\"",
+        "texte": "<strong>Et le raccourci ultime&nbsp;:</strong> prends une photo des tablettes après avoir trouvé quelque chose de difficile. La prochaine fois, tu vas droit au but. L'anglais fonctionne partout dans ces magasins, souvent mieux que le français."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "attrs": " style=\"margin:16px 0 0;font-size:14.5px;line-height:1.8;color:#605d5d\"",
+        "texte": "Les mots à montrer pour les items les plus difficiles à trouver&nbsp;: <strong>natto</strong> 納豆 · <strong>kombu</strong> 昆布 · <strong>furikake</strong> ふりかけ · <strong>mugicha</strong> 麦茶."
+      }
+    ],
+    "numero": "05",
+    "jp": "質問",
+    "jp_infobulle": "shitsumon — « chi-tsou-mone » · les questions"
+  },
+  {
+    "id": "s6",
+    "statut": "actif",
+    "titre": "Ta première visite : la liste de départ",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Ne prends que ça la première fois. L'objectif n'est pas de remplir le panier — c'est de <strong>repérer les sections</strong> et de couvrir les premières fiches. Tu vas ressortir avec l'essentiel et une carte mentale. Deux articles (œufs, thon) s'achètent plutôt à l'épicerie ordinaire."
+      },
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:24px\"",
+        "colonnes": [
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "① Fruits et légumes",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15px;line-height:1.8\"",
+                "texte": "☐ Gingembre frais<br>☐ Oignons verts (une grosse botte)<br>☐ Bok choy ou chou nappa<br>☐ Concombre",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "② Mur réfrigéré",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15px;line-height:1.8\"",
+                "texte": "☐ Tofu ferme (1 bloc)<br>☐ Tofu soyeux (1 bloc)<br>☐ Miso blanc (1 pot)",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑤ Congélateurs",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:15px;line-height:1.8\"",
+                "texte": "☐ Natto (1 paquet de trois)<br>☐ Edamames écossés (1 sac)",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:13px;line-height:1.55;color:#605d5d\"",
+                "texte": "Le natto est ici, pas au mur réfrigéré — c'est l'erreur classique.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑥ Allée des séchés",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:15px;line-height:1.8\"",
+                "texte": "☐ Kombu<br>☐ Katsuobushi<br>☐ Wakame séché",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:13px;line-height:1.55;color:#605d5d\"",
+                "texte": "Prends le temps de trouver cette allée — c'est le repérage le plus important de la visite.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑦ Allée japonaise",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15px;line-height:1.8\"",
+                "texte": "☐ Sauce soya Kikkoman réduite en sodium<br>☐ Furikake (2 variétés)<br>☐ Mirin<br>☐ Vinaigre de riz",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑫ Riz · ⑪ Thé · Nouilles",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15px;line-height:1.8\"",
+                "texte": "☐ Riz à grain court japonais<br>☐ Mugicha (ou hojicha si introuvable)<br>☐ Nouilles instantanées non frites",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#fff;border:2px solid #201e1d;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "À l'épicerie ordinaire",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:15px;line-height:1.8\"",
+                "texte": "☐ Œufs<br>☐ Thon pâle en conserve dans l'eau",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:13px;line-height:1.55;color:#605d5d\"",
+                "texte": "Meilleur prix et meilleure rotation sur les œufs, et accès au thon pâle nature dans l'eau plutôt qu'aux thons importés à l'huile.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "Vaisselle — même visite",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:15px;line-height:1.8\"",
+                "texte": "☐ 4 bols à riz de 4,5 po (<em>chawan</em>)<br>☐ 2-3 petits plats pour les accompagnements",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:13px;line-height:1.55;color:#605d5d\"",
+                "texte": "Le contenant décide de la portion&nbsp;: 140 g de riz forment un petit dôme dans un bol de 4,5 po, une flaque dans un bol de 6 po. En rentrant, pèse 140 g de riz cuit dans le bol et regarde la ligne — c'est ta calibration. Autour de 1,50 $ le bol.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#ec3013;color:#fff;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ffc4b8\"",
+                "texte": "Ce que ça débloque",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15px;line-height:1.6\"",
+                "texte": "Avec ça, tu peux faire du dashi, de la soupe miso, du natto gohan, du riz au furikake et du mugicha <strong>dès le lendemain</strong>.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          }
+        ]
+      }
+    ],
+    "numero": "06",
+    "jp": "初回",
+    "jp_infobulle": "shokai — « cho-kaï » · la première fois"
+  },
+  {
+    "id": "poudres",
+    "statut": "actif",
+    "titre": "Les protéines à saupoudrer",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Pour ajouter des protéines à un plat <strong>sans en changer les proportions</strong>, la cuisine japonaise a déjà ses solutions — et ce sont des aliments, pas des suppléments. Ils se trouvent tous ici, au rayon des produits séchés."
+      },
+      {
+        "type": "tableau",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "attrs": " style=\"width:32%\"",
+                "html": "Ingrédient"
+              },
+              {
+                "balise": "th",
+                "attrs": " style=\"width:18%\"",
+                "html": "Protéines /100 g"
+              },
+              {
+                "balise": "th",
+                "html": "Usage"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong title=\"katsuobushi — « ka-tsou-o-bou-chi » · copeaux de bonite séchée\" style=\"cursor:help\">鰹節</strong> <em>katsuobushi</em>"
+              },
+              {
+                "balise": "td",
+                "html": "~77 g"
+              },
+              {
+                "balise": "td",
+                "html": "Une pincée généreuse sur un plat chaud&nbsp;: 2 à 3 g de protéines et beaucoup d'umami"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong title=\"chirimenjako — « tchi-ri-mène-dja-ko » · minuscules sardines séchées\" style=\"cursor:help\">ちりめんじゃこ</strong> <em>chirimenjako</em>"
+              },
+              {
+                "balise": "td",
+                "html": "~40 g"
+              },
+              {
+                "balise": "td",
+                "html": "Minuscules sardines séchées, saupoudrées sur le riz"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong title=\"sakura ebi — « sa-kou-ra é-bi » · petites crevettes séchées\" style=\"cursor:help\">桜えび</strong> <em>sakura ebi</em>"
+              },
+              {
+                "balise": "td",
+                "html": "~65 g"
+              },
+              {
+                "balise": "td",
+                "html": "Petites crevettes séchées, sur le riz ou dans une omelette"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong title=\"niboshi — « ni-bo-chi » · petites sardines séchées\" style=\"cursor:help\">煮干し</strong> <em>niboshi</em>"
+              },
+              {
+                "balise": "td",
+                "html": "~65 g"
+              },
+              {
+                "balise": "td",
+                "html": "En poudre dans le dashi, ou grignotées telles quelles"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong title=\"goma — « go-ma » · le sésame\" style=\"cursor:help\">胡麻</strong> sésame grillé"
+              },
+              {
+                "balise": "td",
+                "html": "~18 g"
+              },
+              {
+                "balise": "td",
+                "html": "Modeste, mais il vient avec du gras utile"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Ces ingrédients ajoutent des protéines <strong>sans dénaturer le plat, parce qu'ils font partie du plat</strong>. C'est la différence avec une poudre de protéines&nbsp;: celle-ci a sa place dans la collation, pas dans le bouillon — voir le <a href=\"guide-5-plan.html\">guide 5</a>."
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "attrs": " style=\"font-size:15px;color:#605d5d\"",
+        "texte": "Ordres de grandeur, sur le produit sec. Les quantités réellement utilisées sont petites&nbsp;: une pincée de katsuobushi pèse 2 à 3 g. L'étiquette du produit prime."
+      }
+    ],
+    "numero": null,
+    "jp": "乾物",
+    "jp_infobulle": "kanbutsu — « kane-bou-tsou » · les produits séchés"
+  },
+  {
+    "id": "s7",
+    "statut": "actif",
+    "titre": "La liste complète, par section",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Le parcours suit l'ordre du magasin. Coche ce dont tu as besoin avant de partir."
+      },
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:24px;font-size:14.5px;line-height:1.85\"",
+        "colonnes": [
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "① Fruits et légumes",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Gingembre ☐ Ail ☐ Oignons verts ☐ Bok choy ☐ Chou nappa ☐ Chou vert ☐ Daikon ☐ Concombres ☐ Limes ☐ Coriandre ☐ Menthe ☐ Basilic thaï ☐ Champignons (enoki, shimeji, shiitake) ☐ Fèves germées ☐ Clémentines / poires asiatiques",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "② Mur réfrigéré",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Tofu ferme ☐ Tofu soyeux ☐ Atsuage ☐ Konnyaku ☐ Nouilles shirataki ☐ Miso blanc ☐ Miso rouge ☐ Kimchi ☐ Nouilles fraîches",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "③ Comptoir poisson",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Saumon ☐ Poisson blanc entier ☐ Maquereau ☐ Sashimi",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:14px 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "④ Comptoir viande",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Bœuf tranché shabu ☐ Porc tranché ☐ Porc haché maigre ☐ Poulet haché ☐ Hauts de cuisse de poulet",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑤ Congélateurs",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Natto ☐ Edamames ☐ Crevettes crues ☐ Gyoza ☐ Filets de poisson",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:14px 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑥ Allée des séchés",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Kombu ☐ Katsuobushi ☐ Nori nature ☐ Wakame ☐ Shiitake séchés",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑦ Allée japonaise",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Sauce soya réduite en sodium ☐ Mirin ☐ Saké de cuisine ☐ Ponzu ☐ Vinaigre de riz ☐ Sachets de dashi ☐ Furikake ☐ Shichimi togarashi ☐ Wasabi ☐ Soba ☐ Panko",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑧ Allée coréenne",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Gochujang ☐ Gochugaru ☐ Huile de sésame",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:14px 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑨ Allée chinoise",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Sauce d'huîtres ☐ Doubanjiang ☐ Vinaigre noir ☐ Poivre de Sichuan ☐ Fécule de maïs ☐ Ajinomoto (MSG)",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑩ Asie du Sud-Est",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Sauce de poisson ☐ Pâte de cari rouge ☐ Pâte tom yum ☐ Lait de coco léger ☐ Vermicelles de riz",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:18px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "⑪ Thé · ⑫ Riz et collations",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0\"",
+                "texte": "☐ Mugicha ☐ Hojicha ☐ Genmaicha ☐ Sencha ☐ Riz à grain court ☐ Senbei ☐ Gelée de konjac ☐ Calmar séché ☐ Nori collation",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "attrs": " style=\"margin-top:30px\"",
+        "titre": "La règle d'or",
+        "paragraphes": [
+          {
+            "texte": "<strong>N'entre jamais sans liste, et organise la liste par section, pas par recette.</strong> C'est exactement pour ça que tu ressortais les mains vides&nbsp;: tu entrais avec une intention au lieu d'un parcours. Avec un parcours, ça devient une course de vingt minutes comme une autre."
+          }
+        ]
+      }
+    ],
+    "numero": "07",
+    "jp": "買物表",
+    "jp_infobulle": "kaimonohyō — « kaï-mo-no-hyô » · la liste d'épicerie"
+  },
+  {
+    "id": "s8",
+    "statut": "actif",
+    "titre": "Où acheter à Montréal",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "<strong>Un magasin asiatique n'est pas neutre — il a une cuisine d'origine.</strong> Un magasin fondé par une famille chinoise, cambodgienne ou vietnamienne a une section japonaise réelle mais compacte&nbsp;: les 30-40 produits qui se vendent. Comme ce recueil est à 80&nbsp;% japonais, ça change où il vaut la peine d'aller. En pratique&nbsp;: le pan-asiatique couvre 90&nbsp;% de la liste et coûte moins cher&nbsp;; le japonais et le coréen servent à combler le 10&nbsp;% qui manque."
+      },
+      {
+        "type": "html",
+        "source": "<div style=\"margin-top:26px\">\n          <p style=\"margin:0 0 12px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\">Le pan-asiatique — la base, le meilleur prix</p>\n          <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d\">\n            <div style=\"background:#f3f2f2;padding:18px\"><p style=\"margin:0 0 4px;font-size:16px;font-weight:800\">Marché Kim Phat</p><p style=\"margin:0 0 6px;font-size:13px;color:#605d5d\">4 succursales dans le Grand Montréal</p><p style=\"margin:0;font-size:14px;line-height:1.6\">Racines sino-cambodgiennes, rangé par catégorie. Excellents fruits/légumes, poisson, viande&nbsp;; section japonaise réelle mais compacte. Prix imbattables.<br><strong>Jarry</strong> — 3733 rue Jarry E (la succursale de ces photos) · <strong>Goyer</strong> — 3588 rue Goyer · <strong>Saint-Laurent</strong> — 1935 boul. Keller · <strong>Brossard</strong> — 7209 boul. Taschereau.</p></div>\n            <div style=\"background:#f3f2f2;padding:18px\"><p style=\"margin:0 0 4px;font-size:16px;font-weight:800\">T&amp;T Supermarket</p><p style=\"margin:0 0 6px;font-size:13px;color:#605d5d\">300 av. Sainte-Croix, Saint-Laurent</p><p style=\"margin:0;font-size:14px;line-height:1.6\">La plus grande surface pan-asiatique du Québec. Section japonaise nettement plus étoffée que chez Kim&nbsp;Phat, et ouvert tard. <strong>Probablement la meilleure adresse unique</strong> pour ce recueil&nbsp;: couverture japonaise correcte + tout le reste.</p></div>\n          </div>\n        </div>",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "html",
+        "source": "<div style=\"margin-top:22px\">\n          <p style=\"margin:0 0 12px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\">Le japonais — pour ce que le pan-asiatique n'a pas</p>\n          <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d\">\n            <div style=\"background:#f3f2f2;padding:18px\"><p style=\"margin:0 0 4px;font-size:16px;font-weight:800\">Miyamoto — Épicerie japonaise</p><p style=\"margin:0 0 6px;font-size:13px;color:#605d5d\">382 av. Victoria, Westmount · 10 h-19 h (sam. 18 h, dim. 17 h)</p><p style=\"margin:0;font-size:14px;line-height:1.6\">La seule vraie épicerie japonaise de Montréal, institution depuis plus de 40 ans. Petit, mais tout est japonais et importé&nbsp;: mugicha, tsukemono, poisson qualité sashimi, sushi frais sur place. Stationnement difficile — à pied ou en transport si possible.</p></div>\n          </div>\n        </div>",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "html",
+        "source": "<div style=\"margin-top:22px\">\n          <p style=\"margin:0 0 12px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\">Le coréen — la meilleure passerelle vers le japonais</p>\n          <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d\">\n            <div style=\"background:#f3f2f2;padding:18px\"><p style=\"margin:0 0 4px;font-size:16px;font-weight:800\">Marché Korea (NDG)</p><p style=\"margin:0 0 6px;font-size:13px;color:#605d5d\">6170 rue Sherbrooke O, Montréal</p><p style=\"margin:0;font-size:14px;line-height:1.6\">Grand, très propre, forte section japonaise. Cafétéria sur place.</p></div>\n            <div style=\"background:#f3f2f2;padding:18px\"><p style=\"margin:0 0 4px;font-size:16px;font-weight:800\">H Mart</p><p style=\"margin:0 0 6px;font-size:13px;color:#605d5d\">6785 rue Saint-Jacques O, Montréal</p><p style=\"margin:0;font-size:14px;line-height:1.6\">Chaîne nord-américaine, section japonaise sérieuse, stationnement à l'arrière.</p></div>\n          </div>\n        </div>",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "note",
+        "attrs": " style=\"margin-top:26px\"",
+        "titre": "Si tu ne trouves pas de mugicha",
+        "paragraphes": [
+          {
+            "texte": "Trois options, dans l'ordre&nbsp;: <strong>1.</strong> cherche du <strong>boricha (보리차)</strong> dans une épicerie coréenne — c'est exactement le même produit (thé d'orge grillé), souvent en grand format économique&nbsp;; <strong>2.</strong> <strong>Miyamoto</strong>, la seule adresse qui a le mugicha japonais à coup sûr&nbsp;; <strong>3.</strong> le <strong>hojicha</strong> — pas la même chose, mais même registre grillé, presque sans caféine, à boire froid en pichet."
+          }
+        ],
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "attrs": " style=\"margin:16px 0 0;font-size:12.5px;color:#7d7979;line-height:1.6\"",
+        "texte": "Adresses relevées en août 2026. Les heures d'ouverture changent — vérifie avant de te déplacer."
+      }
+    ],
+    "numero": "08",
+    "jp": "店舗",
+    "jp_infobulle": "tenpo — « tène-po » · les magasins"
+  }
+]

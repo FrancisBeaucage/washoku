@@ -4,11 +4,22 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "grille"
+  ],
+  "axe_gout": [
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "croustillant",
+    "fondant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
   "slug": "le-poisson-sale-grille-shioyaki",
   "jp": "塩焼き",
   "jp_lecture": null,

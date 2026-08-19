@@ -4,11 +4,21 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "glissant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "gyoza-vapeur-du-congelateur",
   "jp": "餃子",
   "jp_lecture": null,

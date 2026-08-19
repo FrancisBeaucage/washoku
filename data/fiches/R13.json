@@ -4,11 +4,20 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "croquant"
+  ],
+  "moment": [
+    "diner"
+  ],
   "slug": "onigirazu",
   "jp": "おにぎらず",
   "jp_lecture": null,

@@ -4,11 +4,20 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "poche"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "moelleux"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "soupe-aux-boulettes-de-poulet",
   "jp": "つくね汁",
   "jp_lecture": null,

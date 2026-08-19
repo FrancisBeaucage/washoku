@@ -4,11 +4,20 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "extra-long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "elastique",
+    "ferme"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "le-sechage-du-daikon",
   "jp": "切り干し",
   "jp_lecture": null,

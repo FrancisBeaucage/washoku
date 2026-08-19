@@ -82,6 +82,61 @@ const LANGUE_PAR_CUISINE = {
    inutilisable. L'inverse — la cuillère sur un légume — est absurde. */
 const BASES_NUTRITION = ['100g', 'portion', 'c-a-soupe', 'c-a-the', 'unite'];
 
+/* Les libellés d'affichage des ensembles fermés. Ils vivent ici, à côté des
+   valeurs, et non dans les gabarits de page : le document 20 fait apparaître
+   ces champs dans TROIS vues — la carte de liste, la page de fiche, le filtre —
+   et trois tables de libellés auraient fini par diverger. Une valeur sans
+   libellé s'affiche telle quelle plutôt que vide, ce qui la rend visible au
+   lieu de la faire disparaître.
+
+   `codeCuisine` est l'ancienne clé courte (`jp`, `cn`…) : elle survit parce
+   qu'elle sert de valeur de filtre dans l'URL, où « japonaise » serait plus
+   long sans rien apprendre. */
+const LIBELLES = {
+  cuisine: {
+    japonaise: 'Japonais', chinoise: 'Chinois', coreenne: 'Coréen',
+    thaie: 'Thaï', vietnamienne: 'Vietnamien',
+  },
+  vitesse: {
+    'ultra-rapide': 'Ultra rapide', rapide: 'Rapide', moyen: 'Moyen',
+    long: 'Long', 'extra-long': 'Extra long',
+  },
+  categorie: {
+    technique: 'Technique', dejeuner: 'Déjeuner', diner: 'Dîner', souper: 'Souper',
+    'soupe-entree': 'Soupe-entrée', garniture: 'Garniture', collation: 'Collation',
+  },
+  type_de_plat: {
+    soupe: 'Soupe', 'plat-principal': 'Plat principal', accompagnement: 'Accompagnement',
+    feculent: 'Féculent', condiment: 'Condiment', marinade: 'Marinade',
+    collation: 'Collation', technique: 'Technique',
+  },
+  methode: {
+    cru: 'Cru', blanchi: 'Blanchi', bouilli: 'Bouilli', poche: 'Poché', mijote: 'Mijoté',
+    vapeur: 'Vapeur', saute: 'Sauté', grille: 'Grillé', frit: 'Frit', roti: 'Rôti',
+    marine: 'Mariné', fermente: 'Fermenté', 'sans-cuisson': 'Sans cuisson',
+  },
+  axe_gout: {
+    'umami-ferment': 'Umami · fermenté', 'sale-sucre': 'Salé-sucré', acide: 'Acide',
+    piquant: 'Piquant', aromatique: 'Aromatique', doux: 'Doux',
+    'grille-torrefie': 'Grillé · torréfié', 'sesame-noisette': 'Sésame · noisette',
+    'riche-gras': 'Riche · gras',
+  },
+  axe_texture: {
+    croquant: 'Croquant', ferme: 'Ferme', fondant: 'Fondant', moelleux: 'Moelleux',
+    mou: 'Mou', croustillant: 'Croustillant', glissant: 'Glissant', soyeux: 'Soyeux',
+    elastique: 'Élastique', 'en-bouillon': 'En bouillon',
+  },
+  moment: { dejeuner: 'Déjeuner', diner: 'Dîner', souper: 'Souper', collation: 'Collation' },
+  cout_travail: { leger: 'Léger', moyen: 'Moyen', lourd: 'Lourd' },
+  statut_perso: {
+    'a-l-essai': 'À l’essai', 'au-repertoire': 'Au répertoire', 'de-service': 'De service',
+    suspendu: 'Suspendu', ecarte: 'Écarté',
+  },
+};
+
+/** « japonaise » → « jp ». La clé courte, qui sert de valeur de filtre en URL. */
+const codeCuisine = (v) => inverse(CUISINES)[v] || v;
+
 /** "≈ 190 / tasse" → 190 ; "~44 g" → 44 ; "—" ou "variable" → null. */
 function nombre(texte) {
   if (texte == null) return null;
@@ -107,9 +162,19 @@ function remettreSante(ing) {
   return ing.texte.slice(0, i) + ' †' + ing.texte.slice(i);
 }
 
-/** « Les bases » → « les-bases ». Sert à fabriquer les identifiants stables. */
+/* « Les bases » → « les-bases ». Sert à fabriquer les identifiants stables.
+
+   Les LIGATURES se déplient AVANT la décomposition Unicode : `œ` et `æ` sont
+   des lettres à part entière, pas des voyelles accentuées, donc `NFD` ne les
+   touche pas et le filtre `[^a-z0-9]` les avalait — « bœuf » donnait `b-uf`,
+   « l'œuf » donnait `l-uf`. Une lettre perdue dans un identifiant, en silence.
+   Le document 20 l'avait prévu et demandait de regarder le cas ; la page du
+   guide 2 déplie déjà `œ → oe` dans son normalisateur de recherche, donc la
+   convention existait, elle n'était simplement pas dans `limace`. */
 function limace(s) {
-  return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  return s.toLowerCase()
+    .replace(/\u0153/g, 'oe').replace(/\u00e6/g, 'ae')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
@@ -156,7 +221,7 @@ function paragraphes(texte) {
 }
 
 module.exports = {
-  CUISINES, VITESSES, CATEGORIES,
+  CUISINES, VITESSES, CATEGORIES, LIBELLES, codeCuisine,
   TYPES_DE_PLAT, METHODES, AXES_GOUT, AXES_TEXTURE, MOMENTS,
   COUTS_TRAVAIL, STATUTS_PERSO, LANGUES, LANGUE_PAR_CUISINE, BASES_NUTRITION,
   minutes, minutesMin, minutesTexte, SEPARATEUR_PARAGRAPHE, paragraphes,

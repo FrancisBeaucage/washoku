@@ -4,11 +4,23 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sesame-noisette"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
   "slug": "la-formule-donburi",
   "jp": "丼の公式",
   "jp_lecture": null,

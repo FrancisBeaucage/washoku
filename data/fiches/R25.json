@@ -4,11 +4,21 @@
   "categorie": "souper",
   "cuisine": "chinoise",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "glissant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "soupe-aigre-piquante",
   "jp": "酸辣湯",
   "jp_lecture": "souane la tang",

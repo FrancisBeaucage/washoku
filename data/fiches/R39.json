@@ -4,11 +4,22 @@
   "categorie": "soupe-entree",
   "cuisine": "vietnamienne",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote",
+    "blanchi"
+  ],
+  "axe_gout": [
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "mou"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "canh-vietnamienne",
   "jp": "canh",
   "jp_lecture": "kang",

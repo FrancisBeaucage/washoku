@@ -4,11 +4,21 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "oyakodon",
   "jp": "親子丼",
   "jp_lecture": null,

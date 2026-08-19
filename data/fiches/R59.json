@@ -4,11 +4,19 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "moelleux"
+  ],
+  "moment": [
+    "diner"
+  ],
   "slug": "onigiri-du-commerce-en-repas",
   "jp": "おにぎり",
   "jp_lecture": null,

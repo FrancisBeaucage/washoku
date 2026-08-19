@@ -4,11 +4,21 @@
   "categorie": "souper",
   "cuisine": "coreenne",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "soyeux",
+    "en-bouillon"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "sundubu-jjigae",
   "jp": "순두부찌개",
   "jp_lecture": "soune-dou-bou tchi-gué",

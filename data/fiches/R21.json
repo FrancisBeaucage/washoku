@@ -4,11 +4,20 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "grille"
+  ],
+  "axe_gout": [
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croustillant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "yakitori",
   "jp": "焼き鳥",
   "jp_lecture": null,

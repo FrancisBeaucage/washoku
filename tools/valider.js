@@ -10,7 +10,6 @@ const path = require('path');
 const { SOURCES, RACINE, DATA, BASE_URL } = require('./lib/sources');
 const { nombre } = require('./lib/champs');
 const ensembles = require('./lib/ensembles');
-const compteurs = require('./lib/compteurs');
 const { nombresCites, valeursCibles } = require('./lib/plan');
 const documents = require('./lib/documents');
 
@@ -107,35 +106,28 @@ regle(7, 'Aucun identifiant retiré n’est réutilisé',
 regle(8, 'Toute entrée de journal renvoie à une fiche',
   journal.filter((e) => !(e.plats || []).length && !(e.fiches_corrigees || []).length).map((e) => `${e.id} ne renvoie à rien`));
 
-/* 9 — les compteurs ne sont plus écrits en dur dans les pages. La règle ne
-   couvrait que deux phrases de prose, et passait au vert pendant que la carte
-   du guide 2 de la page d'accueil annonçait 56 fiches pour 74. Le document 15
-   lui ajoute les six pieds de carte, qui se calculent maintenant à la
-   génération — même table que `generer.js`, pour qu'aucune des deux ne puisse
-   en oublier un. */
+/* 9 — aucun compteur n'est ÉCRIT dans une page. La règle a changé de nature au
+   document 20, et c'est un durcissement, pas un assouplissement.
+
+   Avant, elle comparait des nombres écrits en dur dans les pages à ce que /data
+   contenait. Elle a laissé passer une carte annonçant 56 fiches pour 74, parce
+   qu'elle ne couvrait que deux phrases sur huit endroits. Maintenant, les pages
+   ne portent AUCUN nombre : elles les calculent à l'affichage, à partir des
+   mêmes fichiers que le reste du site. Un compteur ne peut donc plus périmer —
+   sauf si quelqu'un en réécrit un à la main, et c'est ce que cette règle refuse.
+
+   Le motif ne vise que les nombres suivis d'un nom de collection du dossier.
+   « 140 g » ou « 2 L » ne sont pas des compteurs. */
+const COLLECTIONS = /(\d+)\s+(fiches?|recettes?|techniques?|sections?|ingrédients?|entrées?|exercices?|annexes?)\b/g;
 const durs = [];
-for (const [page, motifs] of Object.entries({
-  'guide-2-recettes.html': [/(\d+) techniques, (\d+) recettes/],
-  'index.html': [/(\d+) recettes et (\d+) techniques/],
-})) {
-  const html = fs.readFileSync(path.join(RACINE, page), 'utf8');
-  for (const m of motifs) {
-    const t = html.match(m);
-    if (!t) { durs.push(`${page} : compteur introuvable`); continue; }
-    const [, a, b] = t.map(Number);
-    const [tech, rec] = page === 'index.html' ? [b, a] : [a, b];
-    if (tech !== attendus.techniques || rec !== attendus.recettes) {
-      durs.push(`${page} : affiche ${tech} techniques / ${rec} recettes, contenu ${attendus.techniques} / ${attendus.recettes}`);
-    }
+for (const nom of fs.readdirSync(RACINE)) {
+  if (!nom.endsWith('.html')) continue;
+  const html = fs.readFileSync(path.join(RACINE, nom), 'utf8');
+  for (const m of html.matchAll(COLLECTIONS)) {
+    durs.push(`${nom} : « ${m[0]} » est un compteur écrit à la main ; il doit se calculer depuis /data`);
   }
 }
-const accueil = fs.readFileSync(path.join(RACINE, compteurs.PAGE), 'utf8');
-for (const c of compteurs.cartes()) {
-  const actuel = compteurs.lireCarte(accueil, c);
-  if (actuel === null) durs.push(`${compteurs.PAGE} : pied de carte introuvable pour ${c.href}`);
-  else if (actuel !== c.libelle) durs.push(`${compteurs.PAGE} : carte ${c.href} affiche « ${actuel} », contenu « ${c.libelle} »`);
-}
-regle(9, 'Les nombres affichés dans les pages sont à jour', durs);
+regle(9, 'Aucun compteur n’est écrit en dur dans une page', durs);
 
 /* ── Documents 8 et 9 ─────────────────────────────────────────────────── */
 
@@ -270,7 +262,12 @@ if (!fs.existsSync(DOSSIER_FICHES)) {
     for (const e of index) {
       const f = parId.get(e.id);
       if (!f) vues.push(`index.json : ${e.id} ne correspond à aucune fiche`);
-      else if (e.fr !== f.fr || e.statut !== f.statut || e.proteines_g !== f.nutrition.proteines_g) {
+      /* Dans index.json, une clé ABSENTE veut dire « rien ne le dit » : les
+         valeurs vides ne s'y écrivent pas, parce que le fichier a un plafond de
+         taille et que chaque ouverture de la liste le paie. La comparaison doit
+         donc traiter l'absence comme un `null`, sans quoi la règle échouerait
+         sur toute fiche sans protéines chiffrées. */
+      else if (e.fr !== f.fr || e.statut !== f.statut || (e.proteines_g ?? null) !== f.nutrition.proteines_g) {
         vues.push(`index.json : ${e.id} a dérivé du recueil`);
       }
     }
@@ -305,11 +302,17 @@ if (!manifeste) {
     }
   }
 
-  const index = optionnel('index.json');
-  if (index) {
-    for (const e of index) {
-      if (e.url !== `${BASE_URL}/data/fiches/${e.id}.json`) { entree.push(`index.json : ${e.id} porte une adresse inattendue`); break; }
-    }
+  /* L'adresse de chaque fiche ne se recopie plus dans index.json — soixante-dix
+     octets par entrée pour une chaîne qui ne varie que par l'identifiant. Le
+     principe qui l'avait mise là tient toujours : un agent extérieur ne doit
+     rien avoir à deviner. C'est donc le PATRON qui doit être publié, avec
+     l'adresse du dossier, et c'est ça qu'on vérifie. */
+  const dossier = (manifeste.fichiers || []).find((f) => f.nom === 'fiches/<ID>.json');
+  if (dossier && dossier.url !== `${BASE_URL}/data/fiches/`) {
+    entree.push(`fiches/<ID>.json : l’adresse du dossier devrait être ${BASE_URL}/data/fiches/`);
+  }
+  if (!(manifeste.protocole_de_lecture || []).some((l) => l.includes('fiches/<ID>.json'))) {
+    entree.push('protocole_de_lecture ne dit pas comment atteindre une fiche seule');
   }
   if (!Array.isArray(manifeste.protocole_de_lecture) || !manifeste.protocole_de_lecture.length) {
     entree.push('protocole_de_lecture absent du manifeste');
@@ -559,6 +562,189 @@ for (const x of ingredients) {
   }
 }
 regle(21, 'Aucun chiffre ni jugement sans ce qui le rend interprétable', obligations);
+
+/* 22 — le rendu client des blocs de prose doit être IDENTIQUE au rendu Node.
+
+   Les données de prose du site — guide 1, annexes, plan, journal — sont des
+   listes de blocs, pas du HTML : c'est ce qui permet à un document de mise à
+   jour de corriger un paragraphe sans toucher à du balisage. Deux consommateurs
+   les rendent : `prose.rendre`, côté outillage, et son miroir côté page, dans
+   `lib/vue.js`. Deux copies d'un rendu finissent toujours par diverger, et la
+   divergence serait INVISIBLE — la page afficherait simplement un peu moins
+   bien, sans que rien n'échoue.
+
+   La règle évalue la chaîne du rendu client dans Node et la compare, bloc par
+   bloc, sur TOUT ce que /data contient. Aucun échantillonnage : c'est la queue
+   des cas rares — grilles imbriquées, figures à attributs — qui diverge en
+   premier. */
+const prose = require('./lib/prose');
+const vue = require('./lib/vue');
+
+const rendus = [];
+{
+  let RBS;
+  try {
+    // eslint-disable-next-line no-new-func
+    RBS = new Function('window', `${vue.RENDU_BLOCS}\nreturn RBS;`)({ React: { createElement: () => null } });
+  } catch (e) {
+    rendus.push(`le rendu client de lib/vue.js ne s'évalue pas : ${e.message}`);
+  }
+  const corpsDeData = [];
+  for (const g of require('./lib/pages').GUIDES_PROSE) {
+    for (const s of optionnel(g.fichier) || []) corpsDeData.push([`guide ${g.guide} ${s.id}`, s.corps]);
+  }
+  if (annexes) for (const [id, a] of Object.entries(annexes)) if (a.corps) corpsDeData.push([`annexe ${id}`, a.corps]);
+  if (plan) for (const s of plan.sections) corpsDeData.push([`guide 5 ${s.id}`, s.corps]);
+  for (const e of journal) {
+    /* Le journal sort ses photos du corps et n'y garde qu'un renvoi par rang ;
+       la page les y remet pour l'affichage. On compare la forme affichée. */
+    corpsDeData.push([`journal ${e.id}`, (e.corps || []).map((b) =>
+      (b.type === 'figure' && e.photos && e.photos[b.photo])
+        ? { ...b, ...e.photos[b.photo], photo: undefined }
+        : b)]);
+  }
+  if (RBS) {
+    for (const [ou, corps] of corpsDeData) {
+      let attendu;
+      let obtenu;
+      try { attendu = prose.rendre(corps || [], '  ', ''); } catch (e) { rendus.push(`${ou} : prose.rendre lève (${e.message})`); continue; }
+      try { obtenu = RBS(corps || [], '  ', ''); } catch (e) { rendus.push(`${ou} : le rendu client lève (${e.message})`); continue; }
+      if (obtenu !== attendu) {
+        let i = 0;
+        while (i < obtenu.length && i < attendu.length && obtenu[i] === attendu[i]) i += 1;
+        rendus.push(`${ou} : les deux rendus divergent au caractère ${i} — « ${attendu.slice(i, i + 40)} » contre « ${obtenu.slice(i, i + 40)} »`);
+      }
+    }
+  }
+}
+regle(22, 'Le rendu client des blocs est identique au rendu de prose.js', rendus);
+
+/* 23 — aucun lien interne mort. C'est le risque le plus élevé du document 20 :
+   il déplace toutes les pages du site, et LES LIENS SONT DANS DU CONTENU, pas
+   dans un gabarit. Le guide 1 porte à lui seul onze renvois vers
+   `guide-2-recettes.html#T1`, `#R14`, `#the`… Un lien cassé ne lève rien : il
+   amène le lecteur en haut d'une page qui n'a rien à voir.
+
+   La règle suit les liens des DEUX côtés : ceux qui sont dans /data, et ceux
+   qui sont dans les pages générées. Et elle fait passer les anciennes adresses
+   par la table de redirection, pour vérifier que l'ancre aboutit vraiment. */
+const pagesLib = require('./lib/pages');
+const liens = [];
+{
+  const idsFiches = new Set(fiches.map((f) => f.id));
+  const idsIngredients = new Set(ingredients.map((x) => x.id));
+  /* Les trois guides de prose numérotent tous leurs sections `s1`, `s2`… : les
+     identifiants ne sont uniques QUE dans leur guide. C'est pour ça que
+     l'adresse porte `guide=N`, et c'est ce couple-là qu'il faut vérifier. */
+  const idsSections = new Map(pagesLib.GUIDES_PROSE.map((g) => [
+    String(g.guide),
+    new Set((optionnel(g.fichier) || []).map((s) => s.id)),
+  ]));
+  const idsAnnexes = new Set(Object.keys(annexes || {}));
+  const parRedirection = new Map(pagesLib.REDIRECTIONS.map((r) => [r.de, r]));
+
+  const verifierCible = (href, ou) => {
+    if (/^(https?:|mailto:|tel:|data:|#)/.test(href)) return;
+    const [chemin, ancre] = href.split('#');
+    const [fichier, requete] = chemin.split('?');
+    if (!fichier) return;
+    if (!fs.existsSync(path.join(RACINE, fichier))) { liens.push(`${ou} → ${href} : ${fichier} n'existe pas`); return; }
+
+    const id = new URLSearchParams(requete || '').get('id');
+    const manque = (quoi) => liens.push(`${ou} → ${href} : ${quoi}`);
+    if (fichier === 'fiche.html' && id && !idsFiches.has(id)) manque(`aucune fiche « ${id} »`);
+    if (fichier === 'ingredient.html' && id && !idsIngredients.has(id)) manque(`aucun ingrédient « ${id} »`);
+    if (fichier === 'guide-section.html' && id) {
+      const num = new URLSearchParams(requete || '').get('guide') || '1';
+      const connues = idsSections.get(num);
+      if (!connues) manque(`aucun guide de prose numéro ${num}`);
+      else if (!connues.has(id)) manque(`aucune section « ${id} » dans le guide ${num}`);
+    }
+    if (fichier === 'annexe.html' && id && !idsAnnexes.has(id)) manque(`aucune annexe « ${id} »`);
+
+    /* Une ancienne adresse : la redirection doit savoir traduire son ancre. On
+       rejoue sa logique ici plutôt que de faire confiance — c'est exactement le
+       genre de traduction qui marche pour neuf ancres sur onze. */
+    const r = parRedirection.get(fichier);
+    if (!r || !ancre || ancre in pagesLib.ANCRES_LISTES) return;
+    if (r.annexes && /^[TR]\d/.test(ancre)) {
+      if (!idsFiches.has(ancre)) manque(`ancre #${ancre} : aucune fiche de ce nom`);
+      return;
+    }
+    if (r.annexes) {
+      if (!(ancre in pagesLib.ANCRES_ANNEXES)) manque(`ancre #${ancre} : la redirection ne sait pas où l'envoyer`);
+      else if (pagesLib.ANCRES_ANNEXES[ancre] && !idsAnnexes.has(pagesLib.ANCRES_ANNEXES[ancre])) manque(`ancre #${ancre} : annexe « ${pagesLib.ANCRES_ANNEXES[ancre]} » absente`);
+      return;
+    }
+    if (r.guide && /^(s\d+|poudres)$/.test(ancre)) {
+      const connues = idsSections.get(String(r.guide));
+      if (!connues || !connues.has(ancre)) manque(`ancre #${ancre} : aucune section de ce nom dans le guide ${r.guide}`);
+      return;
+    }
+    if (r.ingredients) {
+      if (!idsIngredients.has(ancre)) manque(`ancre #${ancre} : aucun ingrédient de ce nom`);
+      return;
+    }
+    /* La cible garde ses ancres de page : la redirection repasse le fragment
+       tel quel, mais l'identifiant doit exister dans les données qui rendent
+       cette page — sinon on arrive en haut, ce qui est le défaut silencieux
+       exact que cette règle existe pour attraper. */
+    if ('ancresPage' in r) {
+      if (!r.ancresPage) return;
+      const d = optionnel(r.ancresPage);
+      const connues = new Set((Array.isArray(d) ? d : (d && d.sections) || []).map((x) => x.id));
+      if (!connues.has(ancre)) manque(`ancre #${ancre} : aucune section de ce nom dans ${r.ancresPage}`);
+      return;
+    }
+    manque(`ancre #${ancre} : la redirection de ${fichier} ne sait pas où l'envoyer`);
+  };
+
+  const HREF = /href="([^"]*)"/g;
+  const dansTexte = (v, ou) => {
+    if (typeof v === 'string') { for (const m of v.matchAll(HREF)) verifierCible(m[1], ou); return; }
+    if (Array.isArray(v)) return v.forEach((x, i) => dansTexte(x, ou));
+    if (v && typeof v === 'object') return Object.values(v).forEach((x) => dansTexte(x, ou));
+  };
+  for (const g of pagesLib.GUIDES_PROSE) {
+    for (const s of optionnel(g.fichier) || []) dansTexte(s, `guide ${g.guide} ${s.id}`);
+  }
+  if (annexes) for (const [id, a] of Object.entries(annexes)) dansTexte(a, `annexe ${id}`);
+  if (plan) dansTexte(plan.sections, 'guide 5');
+  for (const e of journal) dansTexte(e.corps, `journal ${e.id}`);
+  for (const x of ingredients) dansTexte([x.description, x.note, x.ou_le_trouver, x.a_quoi_ca_ressemble], `ingrédient ${x.id}`);
+
+  /* Les pages générées. Leurs liens à gabarit — `fiche.html?id={{ r.id }}` —
+     ne se vérifient pas ici : l'identifiant vient des données, et la règle 2
+     couvre déjà les identifiants. On ne garde que les liens EN DUR. */
+  for (const nom of fs.readdirSync(RACINE)) {
+    if (!nom.endsWith('.html')) continue;
+    const html = fs.readFileSync(path.join(RACINE, nom), 'utf8');
+    for (const m of html.matchAll(HREF)) if (!m[1].includes('{{')) verifierCible(m[1], `page ${nom}`);
+  }
+}
+regle(23, 'Aucun lien interne mort, ancres des anciennes adresses comprises', liens);
+
+/* 24 — le poids de l'index. C'est le budget de la page de liste : elle le
+   charge en entier à chaque ouverture, sur un téléphone, souvent sur données
+   cellulaires. Le document 20 fixe la cible à 60 Ko pour 180 fiches. Le
+   plafond est vérifié SUR CE QUI PART SUR LE FIL, donc après compression —
+   c'est ce que le lecteur paie réellement, et GitHub Pages compresse. La
+   taille brute est affichée à côté, parce que c'est elle qui dérive en premier. */
+const budget = [];
+{
+  const chemin = path.join(DATA, 'index.json');
+  if (!fs.existsSync(chemin)) budget.push('index.json absent');
+  else {
+    const brut = fs.readFileSync(chemin);
+    const n = Math.max(1, fiches.length);
+    const gz = require('zlib').gzipSync(brut, { level: 9 }).length;
+    const projete = (gz / n) * 180;
+    if (projete > 60 * 1024) {
+      budget.push(`index.json : ${(gz / 1024).toFixed(1)} Ko compressés pour ${n} fiches, soit ${(projete / 1024).toFixed(1)} Ko projetés à 180 — au-dessus du plafond de 60 Ko`);
+    }
+  }
+}
+regle(24, 'L’index reste sous son plafond de taille', budget);
 
 console.log('');
 if (echecs.length) { console.error(`${echecs.length} règle(s) en échec.`); process.exit(1); }

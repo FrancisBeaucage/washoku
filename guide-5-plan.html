@@ -1,312 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 <meta charset="utf-8">
 <title>Washoku</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='12'%20fill='%23f3f2f2'/%3E%3Ctext%20x='32'%20y='49'%20text-anchor='middle'%20font-family='serif'%20font-weight='900'%20font-size='46'%20fill='%23ec3013'%3E%E5%92%8C%3C/text%3E%3C/svg%3E">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="plan.html">
+<script>
+/* guide-5-plan.html → plan.html. Page générée : voir tools/lib/pages.js, S13 du document 20.
+   L'ANCRE EST TRADUITE, PAS JETÉE. Le guide 1 porte à lui seul onze renvois de
+   ce genre, et ils sont dans du CONTENU : les casser aurait été silencieux —
+   le lecteur serait simplement arrivé en haut d'une page sans rapport. */
+(function () {
+  var ancre = (location.hash || '').replace('#', '');
+  var cible = "plan.html" + (location.search || '');
+  var guide = null;
+  var annexes = false;
+  var ingredients = false;
+  var TA = {"lexique":"lexique","lexique-cuisine":"lexique-cuisine","montage":"montage","yakumi":"yakumi","depannage":"depannage","the":"the","equipement":"equipement","recettes":null,"liste":null,"filtres":null};
+  var TL = {"exos":null,"fiches":null,"filtres":null};
+  if (ancre && !annexes && !guide && !ingredients) cible = cible + '#' + ancre;
+  else if (ancre && !(ancre in TL)) {
+    if (annexes && /^[TR]\d/.test(ancre)) cible = 'fiche.html?id=' + encodeURIComponent(ancre);
+    else if (annexes && TA[ancre]) cible = 'annexe.html?id=' + TA[ancre];
+    else if (guide && /^(s\d+|poudres)$/.test(ancre)) cible = 'guide-section.html?guide=' + guide + '&id=' + ancre;
+    else if (ingredients) cible = 'ingredient.html?id=' + encodeURIComponent(ancre);
+  }
+  location.replace(cible);
+})();
+</script>
+<meta http-equiv="refresh" content="1;url=plan.html">
 </head>
-<body>
-<x-dc>
-<helmet>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="_ds/modernist-5fa86008-2cf9-46da-9dfc-2464fb85de11/styles.css">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap">
-<style>
-  html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:64px; }
-  body { margin:0; background:#f3f2f2; color:#201e1d; font-family:"Archivo",system-ui,sans-serif; }
-  * { box-sizing:border-box; }
-  img { display:block; max-width:100%; }
-  a { color:#ae1800; text-decoration:none; }
-  a:hover { color:#ec3013; }
-  a:focus-visible, button:focus-visible, input:focus-visible { outline:2px solid #ec3013; outline-offset:2px; }
-  ::selection { background:#ffc4b8; }
-  p, li { text-wrap:pretty; }
-  button { font-family:inherit; }
-  table { border-collapse:collapse; width:100%; font-size:14.5px; min-width:440px; }
-  th { text-align:left; font-weight:800; font-size:11px; letter-spacing:.12em; text-transform:uppercase; padding:0 14px 8px 0; border-bottom:2px solid #201e1d; vertical-align:bottom; }
-  td { padding:11px 14px 11px 0; border-bottom:1px solid #d7d3d3; vertical-align:top; line-height:1.5; }
-  tr td:last-child, tr th:last-child { padding-right:0; }
-  .tw { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:22px 0; }
-  .in { max-width:1180px; margin:0 auto; padding:clamp(28px,4vw,56px) clamp(16px,4vw,40px); }
-  .p { margin:0 0 16px; font-size:17px; line-height:1.7; max-width:38em; }
-  .h3 { margin:34px 0 12px; font-size:clamp(18px,2.4vw,21px); font-weight:800; letter-spacing:-.01em; }
-  .lbl { display:block; margin:0 0 6px; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#ec3013; }
-  .note { margin:26px 0; border-top:2px solid #ec3013; padding:14px 0 0; max-width:40em; }
-  .note p { margin:0; font-size:15.5px; line-height:1.65; }
-  ul.l, ol.l { margin:0 0 16px; padding-left:1.15em; max-width:38em; font-size:16.5px; line-height:1.7; }
-  ul.l li, ol.l li { margin-bottom:8px; }
-</style>
-</helmet>
-
-<div style="background:#f3f2f2;min-height:100vh">
-
-  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:30">
-    <div style="max-width:1180px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:center;gap:16px;flex-wrap:wrap">
-      <a href="index.html" style="display:flex;align-items:center;gap:10px;color:#201e1d">
-        <span title="wa — « wa » · l'harmonie, et le Japon" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:900;font-size:22px;color:#ec3013;line-height:1">和</span>
-        <span style="font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase">Washoku</span>
-      </a>
-      <nav style="display:flex;gap:clamp(10px,2vw,22px);margin-left:auto;flex-wrap:wrap;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase">
-        <a href="guide-1-manger.html" style="color:#201e1d">1 · Manger</a>
-        <a href="guide-2-recettes.html" style="color:#201e1d">2 · Recettes</a>
-        <a href="guide-3-supermarche.html" style="color:#201e1d">3 · Supermarché</a>
-        <a href="guide-4-bouger.html" style="color:#201e1d">4 · Bouger</a>
-        <a href="guide-5-plan.html" style="color:#ec3013">5 · Plan</a>
-        <a href="guide-6-journal.html" style="color:#201e1d">6 · Journal</a>
-      </nav>
-    </div>
-  </header>
-
-  <section style="max-width:1180px;margin:0 auto;padding:clamp(30px,5vw,66px) clamp(16px,4vw,40px) clamp(18px,3vw,28px)">
-    <p style="margin:0 0 14px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">Guide 5 sur 5 · Chiffrer</p>
-    <h1 style="margin:0;font-weight:800;font-size:clamp(32px,6vw,64px);line-height:1.02;letter-spacing:-.025em;max-width:14em">Le plan quantitatif</h1>
-    <p style="margin:16px 0 0;font-family:'Noto Serif JP',serif;font-weight:600;font-size:clamp(16px,2.4vw,22px);color:#605d5d"><span title="keikaku — « ké-ka-kou » · le plan" style="cursor:help;border-bottom:1px dotted currentColor">計画</span> — mettre des chiffres, puis arrêter de compter</p>
-    <figure style="margin:clamp(24px,4vw,40px) 0 0">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1600" alt="Chirashizushi — bol de riz garni de poisson et de légumes" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:21/9;object-fit:cover;border:2px solid #201e1d">
-      <figcaption style="margin-top:9px;font-size:12.5px;color:#605d5d">La protéine est le seul chiffre à ne pas négocier&nbsp;: 165&nbsp;g par jour, répartis sur les trois repas.</figcaption>
-    </figure>
-    <p style="margin:20px 0 0;font-size:17px;line-height:1.7;max-width:38em;color:#444141">Les guides précédents expliquent le modèle et remettent en mouvement. Celui-ci met des chiffres dessus&nbsp;: combien de protéines viser, comment structurer la journée, et comment cesser de compter au bout de deux semaines.</p>
-    <div class="note" style="margin-top:22px"><span class="lbl">À valider</span><p>Ce plan n'est pas un avis médical. Les cibles sont un premier jet à ajuster avec une nutritionniste et un médecin&nbsp;: ce ne sont pas des vérités, elles se corrigent après quatre à six semaines selon ce que la réalité montre.</p></div>
-  </section>
-
-  <section style="border-top:2px solid #201e1d">
-    <div class="in" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(20px,4vw,48px)">
-      <div>
-        <span class="lbl">Dans ce guide</span>
-        <p style="margin:0;font-size:16px;line-height:1.7;color:#444141">Cinq sections&nbsp;: les cibles chiffrées, la méthode pour arrêter de compter, comment atteindre la cible protéique, comment les atteindre sans dénaturer les plats, et la liste pour démarrer cette semaine.</p>
-      </div>
-      <nav style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px 18px;font-size:14px;line-height:1.95;align-content:start">
-        <a href="#s1" style="display:block">1 Les cibles</a>
-        <a href="#s2" style="display:block">2 La méthode en deux phases</a>
-        <a href="#s3" style="display:block">3 Atteindre la cible protéique</a>
-        <a href="#s4" style="display:block">4 Sans dénaturer les plats</a>
-        <a href="#s5" style="display:block">5 Pour démarrer</a>
-      </nav>
-    </div>
-  </section>
-
-  <section id="s1" class="in" style="border-top:2px solid #201e1d">
-    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
-      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">01</span>
-      <span title="mokuhyō — « mo-kou-hyô » · la cible, l'objectif" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">目標</span>
-    </div>
-    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Les cibles</h2>
-    <p class="p">Quatre chiffres, un seul non négociable.</p>
-    <div class="tw"><table>
-      <tr><th style="width:26%">Cible</th><th style="width:26%">Valeur</th><th>Note</th></tr>
-      <tr><td><strong>Calories</strong></td><td><strong>2 000 par jour</strong></td><td>Déficit modéré et soutenable</td></tr>
-      <tr><td><strong>Protéines</strong></td><td><strong>145 à 165 g par jour</strong></td><td>Moyenne hebdomadaire visée&nbsp;: 155 g. Plancher absolu&nbsp;: 130 g.</td></tr>
-      <tr><td>Lipides</td><td>~65 g</td><td>Plancher&nbsp;: ne pas descendre sous 50 g</td></tr>
-      <tr><td>Glucides</td><td>~190 g</td><td>Le reste. Ni faible ni élevé.</td></tr>
-    </table></div>
-    <p class="p">Perte prévue&nbsp;: <strong>environ 1,5 lb par semaine.</strong></p>
-
-    <h3 class="h3">La cible&nbsp;: 145 à 165 g par jour</h3>
-    <p class="p">Le chiffre de <strong>165 g</strong> correspond à environ <strong>1,8 g par kg de poids cible</strong> — le haut de la fourchette utile. Le seuil en dessous duquel un déficit calorique commence réellement à coûter du muscle se situe plutôt autour de <strong>1,6 g/kg, soit environ 145 g</strong>. C'est donc un plancher fonctionnel, pas un arrondi de confort.</p>
-    <p class="p">Ce qui compte est la <strong>moyenne de la semaine</strong>, pas le compte de chaque jour. Une journée à 150 g où tous les plats étaient bons vaut mieux qu'une journée à 165 g où deux plats étaient difficiles à finir — parce que la seconde ne se répète pas longtemps.</p>
-    <p class="p"><strong>Plancher absolu&nbsp;: 130 g.</strong> En dessous, le bénéfice principal de la méthode — préserver le muscle pendant qu'on perd du gras — s'érode. Une journée à 125 g arrive&nbsp;; elle ne se planifie pas.</p>
-    <p class="p">Pourquoi la fourchette reste haute&nbsp;:</p>
-    <ul class="l">
-      <li><strong>Sans stimulus protéique suffisant, une part importante du poids perdu est du muscle</strong> — souvent le quart, parfois davantage. Le muscle perdu abaisse la dépense au repos, ce qui rend la reprise plus facile et chaque perte suivante plus difficile.</li>
-      <li><strong>Les protéines rassasient plus que tout le reste.</strong> C'est le levier le plus fiable&nbsp;: la satiété, pas la restriction en glucides.</li>
-      <li>Combinées à deux séances hebdomadaires de résistance, elles protègent la masse maigre.</li>
-    </ul>
-    <p class="p"><strong>Bonne nouvelle&nbsp;: le recueil est déjà construit pour ça.</strong> Chaque soupe-repas fournit 35 à 45 g par portion.</p>
-
-    <h3 class="h3">La répartition par repas</h3>
-    <div class="tw"><table style="min-width:0">
-      <tr><th>Repas</th><th>Calories</th><th>Protéines</th></tr>
-      <tr><td>Déjeuner</td><td>~450</td><td>40 g</td></tr>
-      <tr><td>Dîner</td><td>~500</td><td>40 g</td></tr>
-      <tr><td>Souper</td><td>~750</td><td>60 g</td></tr>
-      <tr><td>Collations</td><td>~300</td><td>25 g</td></tr>
-      <tr><td><strong>Total</strong></td><td><strong>2 000</strong></td><td><strong>165 g</strong></td></tr>
-    </table></div>
-    <p class="p">Le souper est plus généreux parce que c'est le repas partagé — celui où il faut le moins de friction.</p>
-    <div class="note"><span class="lbl">Le piège du déjeuner japonais</span><p>Il est rassasiant, léger et pile sur la cible en calories — mais il n'atteint pas 40&nbsp;g de protéines tout seul. Riz 140&nbsp;g + natto + 2 œufs marinés + soupe miso au tofu ferme&nbsp;: <strong>~480 cal mais seulement ~31&nbsp;g de protéines</strong>, soit 9&nbsp;g courts (le riz n'apporte que 3&nbsp;g, le natto 8, le miso 2 — ce sont les œufs qui portent presque tout). Le levier le plus propre&nbsp;: <strong>80-100&nbsp;g d'edamames écossés</strong> (+10&nbsp;g pour ~110 cal), dans la soupe ou à côté. Autres options&nbsp;: un troisième œuf (+6&nbsp;g / 70 cal), du tofu <em>ferme</em> plutôt que soyeux dans le miso (+3&nbsp;g à quantité égale — sans augmenter la quantité, voir la note suivante), ou un <a href="guide-2-recettes.html#T4">poisson grillé</a> si le rituel du dimanche en a préparé.</p></div>
-
-    <div class="note"><span class="lbl">La cible déforme les plats si on la poursuit plat par plat</span><p>Deux exemples réels, deux jours consécutifs&nbsp;: <strong>cinq sources de soya dans un déjeuner</strong> (natto, miso, tofu, edamames, sauce soya des œufs), parce que chaque plat devait contribuer&nbsp;; et <strong>80&nbsp;g de tofu dans une soupe miso</strong>, soit le double de la norme japonaise, pour la même raison. Dans les deux cas, le résultat est un repas qui atteint sa cible mais qui n'est plus le plat qu'il devait être.</p><p style="margin-top:12px"><strong>La règle&nbsp;:</strong> la cible se joue au niveau du <strong>repas</strong>, portée par <strong>une</strong> protéine principale — poisson, œuf, viande, ou tofu comme plat à part entière. Les autres plats gardent leurs proportions normales et apportent ce qu'ils apportent. Un <em>ichiju sansai</em> où chaque bol est gonflé aux protéines n'est plus un <em>ichiju sansai</em>. Les deux corrections sont documentées au <a href="guide-6-journal.html">journal</a>.</p></div>
-
-    <div class="note"><span class="lbl">Le plancher de 50&nbsp;g de lipides n'est pas qu'une contrainte nutritionnelle</span><p><strong>Le gras est le véhicule des arômes</strong>&nbsp;: il les transporte et les fait durer en bouche. Un repas construit sans gras se lit comme <em>fade</em>, même correctement assaisonné — et un repas fade se paie deux heures plus tard en envie de chips et de chocolat. Ce n'est pas un manque de volonté, c'est le corps qui réclame ce qui manquait.</p><p style="margin-top:12px"><strong>Cas vécu le 10 août&nbsp;:</strong> deux repas, 77&nbsp;g de protéines, environ 955 calories — et à peine <strong>15&nbsp;g de lipides</strong>. Le dîner était jugé fade. Fringale de sucré-salé en milieu d'après-midi.</p><p style="margin-top:12px">Le correctif coûte presque rien&nbsp;: <strong>1 c. à thé d'huile de sésame grillé = environ 40 calories et 4,5&nbsp;g de gras.</strong> Sur un plat froid à base de conserve à l'eau, c'est la différence entre fade et bon.</p><p style="margin-top:12px">Quand on planifie une journée, <strong>vérifier le gras au même titre que les protéines</strong>. Un plat de poisson en conserve à l'eau, du tofu et des légumes blanchis, c'est une journée à zéro lipide sans qu'on s'en aperçoive.</p></div>
-
-    <div class="note"><span class="lbl">Le déjeuner pressé perd son gras, jamais ses protéines</span><p>QUAND UN DÉJEUNER SE FAIT EN VITESSE, CE QUI SAUTE N'EST JAMAIS LA PROTÉINE — C'EST LE GRAS. La raison est mécanique et se répète&nbsp;: la protéine du déjeuner assemblé vient de deux contenants qu'on ouvre, le gras vient de trois solides qu'on prépare — un avocat à ouvrir et trancher, des edamames à sortir, un œuf à écaler. SOUS PRESSION, ON GARDE CE QUI S'OUVRE ET ON LAISSE CE QUI SE PRÉPARE.</p><p style="margin-top:12px">CONSÉQUENCE POUR LA CONCEPTION D'UNE FORMULE DE DÉJEUNER&nbsp;: LE GRAS DOIT ÊTRE PORTÉ PAR UN GESTE DE MOINS DE QUINZE SECONDES, sinon il n'existe pas les matins chargés. Une cuillère à soupe de graines de sésame sur le yogourt, 5 g de lipides et aucune préparation; une petite poignée de noix dans un pot déjà sur le comptoir; une cuillère de beurre de noix. L'avocat reste le meilleur rendement du dossier — 10 g de lipides pour 5 mg de sodium — mais IL DEMANDE SOIXANTE SECONDES ET UN COUTEAU, ET C'EST EXACTEMENT CE QUI MANQUE. Le garder comme la version complète, pas comme le plancher.</p><p style="margin-top:12px">ET NE PAS RATTRAPER LES LIPIDES MANQUANTS EN GONFLANT LE SOUPER. Le plancher de 50 g se joue sur la journée&nbsp;: un souper qui porte un poisson gras et un plat au sésame le tient déjà. Le levier le moins coûteux est la collation, où une demi-portion d'avocat ou une cuillère de sésame écrasé ajoute 5 à 10 g sans toucher à un plat calibré.</p></div>
-  </section>
-
-  <section id="s2" class="in" style="border-top:2px solid #201e1d">
-    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
-      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">02</span>
-      <span title="nidankai — « ni-dane-kaï » · deux phases" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">二段階</span>
-    </div>
-    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">La méthode en deux phases</h2>
-
-    <h3 class="h3">Phase 1 — Deux semaines de mesure</h3>
-    <p class="p"><strong>L'objectif n'est pas de perdre du poids. C'est d'apprendre.</strong> Deux semaines suffisent à découvrir où sont réellement les calories, ce qui est presque toujours une surprise. Ensuite, on peut arrêter de compter.</p>
-    <ol class="l">
-      <li><strong>Installer une application</strong> — MyFitnessPal (meilleure base de données canadienne) ou Cronometer (plus précis sur les micronutriments).</li>
-      <li><strong>Acheter une balance de cuisine numérique.</strong> 20&nbsp;$. Indispensable pendant ces deux semaines seulement.</li>
-      <li><strong>Tout inscrire.</strong> Y compris l'huile de cuisson, les sauces, les gorgées, les bouchées debout devant le comptoir. Surtout celles-là.</li>
-      <li><strong>Ne rien changer la première semaine.</strong> Manger normalement et observer. Le chiffre de départ est une information, pas un jugement.</li>
-      <li><strong>Appliquer la cible la deuxième semaine.</strong></li>
-    </ol>
-    <p class="p"><strong>Les cinq choses qu'on découvre presque toujours&nbsp;:</strong></p>
-    <ul class="l">
-      <li>L'huile de cuisson versée à l'œil représente 200 à 400 calories par jour</li>
-      <li>Les boissons sucrées comptent pour bien plus qu'on ne le croyait</li>
-      <li>Les portions de féculents font le double de ce qu'on estimait</li>
-      <li>Les protéines sont beaucoup plus basses que prévu — c'est la découverte la plus fréquente</li>
-      <li>Le grignotage du soir est le poste le plus sous-estimé de tous</li>
-    </ul>
-
-    <h3 class="h3">Phase 2 — Les gabarits</h3>
-    <p class="p">Après deux semaines, on abandonne le comptage quotidien. On garde <strong>une seule cible chiffrée&nbsp;: les protéines.</strong> Le reste passe aux repères visuels.</p>
-    <div class="tw"><table>
-      <tr><th>Élément</th><th>Repère</th><th>Équivaut à</th></tr>
-      <tr><td><strong>Protéine</strong></td><td>1 à 2 paumes de la main</td><td>30 à 60 g de protéines</td></tr>
-      <tr><td><strong>Riz ou féculent</strong></td><td>Le petit bol japonais, rempli une fois</td><td>140 g cuit, ~200 cal</td></tr>
-      <tr><td><strong>Légumes</strong></td><td>2 poings minimum, sans limite supérieure</td><td>50 à 100 cal</td></tr>
-      <tr><td><strong>Gras ajouté</strong></td><td>1 pouce (le doigt, pas la longueur)</td><td>1 c. à soupe, ~120 cal</td></tr>
-      <tr><td><strong>Soupe-entrée</strong></td><td>1 petit bol avant le souper</td><td>40 à 80 cal</td></tr>
-    </table></div>
-    <p class="p"><strong>La règle du souper&nbsp;:</strong> la moitié de l'assiette en légumes, le quart en protéine, le quart en féculent. Le petit bol règle le féculent tout seul.</p>
-    <p class="p"><strong>Le seul chiffre à garder en tête&nbsp;: 155 g de protéines en moyenne sur la semaine</strong>, dans une fourchette de 145 à 165. Tout le reste suit.</p>
-
-    <h3 class="h3">Assemblages — les repas qui ne se cuisinent pas</h3>
-    <p class="p">Le dossier n'a jamais demandé trois repas cuisinés par jour, mais c'est ce que la pratique est devenue, dans une maison qui n'en cuisinait qu'un. Résultat en août&nbsp;: un déjeuner à 16 g de protéines trois jours de suite, un poste collation vide, et un souper servi à 21&nbsp;h&nbsp;30. Le <em>ichiju sansai</em> est un principe de contenant, pas un principe de production.</p>
-    <p class="p"><strong>Un seul repas se cuisine par jour&nbsp;: le souper.</strong> Le déjeuner, le dîner et la collation s'assemblent, à partir de ce qui est sorti de la session de préparation du dimanche, du congélateur, d'un pot ou d'une conserve. Une seule fiche neuve par jour, jamais deux&nbsp;: le surcoût de la première exécution est réel et temporaire, mais deux nouveautés le même soir, c'est un souper à 21&nbsp;h&nbsp;30.</p>
-    <p class="p"><strong>Le déjeuner de semaine ne se cuisine pas, il s'assemble.</strong> Deux minutes, zéro cuisson, zéro vaisselle. Le travail commence quelques minutes après le lever&nbsp;: un déjeuner qui demande une casserole ne se fera pas. Sauter le déjeuner n'est pas l'option de rechange — le 11 août, un lever sans déjeuner a produit une faim marquée à 17&nbsp;h et une journée close à 109 g de protéines, sous le plancher de 130.</p>
-    <p class="p"><strong>La formule retenue&nbsp;:</strong> une boisson protéinée prête à boire (30 g de protéines, 220 mg de sodium, 7,3 mg de sodium par gramme de protéine — le meilleur rapport disponible sans préparation), plus un solide gras. <strong>Une bouteille seule ne suffit pas&nbsp;:</strong> 3 g de lipides, alors que le plancher de la journée est de 50 g. Le solide n'est pas décoratif.</p>
-    <p class="p"><strong>Les solides gras, par ordre de rendement&nbsp;:</strong> un demi-avocat (10 g de lipides, 5 mg de sodium) · 80 g d'<a href="guide-2-recettes.html#R48">edamames écossées</a> sorties du congélateur et rincées à l'eau froide (9 g de protéines, 4 g de lipides) · un œuf mariné <a href="guide-2-recettes.html#T7a">T7a</a> (6 g de protéines, mais 250 mg de sodium — le plus cher des trois).</p>
-    <p class="p"><strong>Dîner</strong> — le meilleur dîner est presque toujours le souper de la veille&nbsp;: cuire une fois et demie la portion au souper ne coûte aucune minute de plus. À défaut&nbsp;: <a href="guide-2-recettes.html#R9">R9</a> (donburi assemblé), <a href="guide-2-recettes.html#R62">R62</a> (flocons de poisson sur riz chaud), <a href="guide-2-recettes.html#R13">R13</a> (onigirazu), <a href="guide-2-recettes.html#R61">R61</a> (kobachi au ponzu).</p>
-    <p class="p"><strong>Collation</strong> — <a href="guide-2-recettes.html#R48">R48</a> en version écossée sans cuisson · <a href="guide-2-recettes.html#T7a">T7a</a> · <a href="guide-2-recettes.html#R55">R55</a> · <a href="guide-2-recettes.html#R56">R56</a> (patates douces rôties en lot, mangées froides).</p>
-    <p class="p"><strong>La fin de semaine, il n'y a pas de déjeuner.</strong> Lever vers 10&nbsp;h&nbsp;: le déjeuner et le dîner fusionnent en un premier repas vers 11&nbsp;h qui porte les deux postes, environ 950 calories et 80 g de protéines. La journée passe de quatre postes à trois. C'est plus honnête que de faire manger deux fois en deux heures pour respecter une grille.</p>
-
-    <h3 class="h3">Pourquoi cette approche plutôt qu'une autre</h3>
-    <p class="p">Compter fonctionne très bien pendant six semaines et s'effondre au troisième mois. Ce n'est pas un défaut de caractère, c'est la nature de la tâche&nbsp;: elle demande un effort quotidien qui ne diminue jamais.</p>
-    <p class="p">Les gabarits demandent un effort initial d'apprentissage, puis presque rien. Mais ils ne fonctionnent que si l'œil est calibré — d'où les deux semaines de mesure.</p>
-  </section>
-
-  <section id="s3" class="in" style="border-top:2px solid #201e1d">
-    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
-      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">03</span>
-      <span title="tanpakushitsu — « tane-pa-kou-chi-tsou » · les protéines" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">たんぱく質</span>
-    </div>
-    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Atteindre la cible protéique</h2>
-    <p class="p">C'est la partie qu'il faut planifier, parce qu'elle ne se fait pas toute seule.</p>
-
-    <h3 class="h3">Ce que fournit chaque aliment</h3>
-    <div class="tw"><table style="min-width:0">
-      <tr><th>Aliment</th><th>Portion</th><th>Protéines</th></tr>
-      <tr><td>Poitrine de poulet</td><td>150 g cuit</td><td>45 g</td></tr>
-      <tr><td>Saumon</td><td>150 g</td><td>34 g</td></tr>
-      <tr><td>Bœuf maigre</td><td>150 g</td><td>40 g</td></tr>
-      <tr><td>Crevettes</td><td>150 g</td><td>30 g</td></tr>
-      <tr><td>Thon en conserve</td><td>1 boîte</td><td>25 g</td></tr>
-      <tr><td>Tofu ferme</td><td>150 g</td><td>17 g</td></tr>
-      <tr><td>Œuf</td><td>1 gros</td><td>6 g</td></tr>
-      <tr><td>Natto</td><td>1 paquet</td><td>17 g</td></tr>
-      <tr><td>Edamames écossés</td><td>1 tasse</td><td>18 g</td></tr>
-      <tr><td>Yogourt grec 0 %</td><td>175 g</td><td>17 g</td></tr>
-      <tr><td>Soba (sarrasin)</td><td>100 g sec</td><td>14 g</td></tr>
-      <tr><td>Riz</td><td>140 g cuit</td><td>3 g</td></tr>
-    </table></div>
-
-    <h3 class="h3">Une journée type dans le haut de la fourchette</h3>
-    <div class="tw"><table>
-      <tr><th>Repas</th><th>Contenu</th><th>Protéines</th></tr>
-      <tr><td><strong>Déjeuner</strong></td><td>2 œufs + 1 natto + riz + soupe miso au tofu</td><td>40 g</td></tr>
-      <tr><td><strong>Dîner</strong></td><td>Bol de tofu froid + 1 boîte de thon + edamames</td><td>45 g</td></tr>
-      <tr><td><strong>Collation</strong></td><td>2 œufs marinés + yogourt grec</td><td>29 g</td></tr>
-      <tr><td><strong>Souper</strong></td><td>Saumon 200 g + riz + légumes + soupe</td><td>48 g</td></tr>
-      <tr><td></td><td></td><td><strong>162 g</strong></td></tr>
-    </table></div>
-
-    <h3 class="h3">Les trois leviers si le compte ne rentre pas</h3>
-    <ol class="l">
-      <li><strong>Doubler la protéine des soupes-repas.</strong> Elles sont conçues pour 400 g de protéine par recette de 2 portions — monter à 500 g change peu le goût.</li>
-      <li><strong>Le yogourt grec 0 % comme collation par défaut.</strong> 17 g pour 100 calories, le meilleur ratio disponible.</li>
-      <li><strong>Les œufs marinés en permanence au frigo.</strong> Six par semaine, préparés le dimanche.</li>
-    </ol>
-  </section>
-
-  <section id="s4" class="in" style="border-top:2px solid #201e1d">
-    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
-      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">04</span>
-      <span title="kozara — « ko-za-ra » · le petit plat" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">小皿</span>
-    </div>
-    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Atteindre la cible sans dénaturer les plats</h2>
-    <p class="p">Il existe une façon de <strong>rater la cible en l'atteignant</strong>. Elle consiste à prendre une recette normale et à en gonfler le contenu jusqu'à ce que les chiffres tombent juste. On obtient alors un plat qui n'est plus lui-même&nbsp;: un hiyayakko dont on ne voit plus le tofu, un bol de nouilles dont on ne voit plus les nouilles, une portion qu'on n'arrive pas à finir.</p>
-    <p class="p">Ce n'est pas une erreur de calcul, c'est <strong>une erreur de structure</strong>. Les deux se sont produites le 9 et le 10 août, à un jour d'intervalle. Voici les quatre règles qui les évitent.</p>
-
-    <h3 class="h3">1. Le plafond des 25&nbsp;%</h3>
-    <p class="p">Une fiche peut être servie jusqu'à environ <strong>un quart au-dessus</strong> de sa portion de référence. Au-delà, on change de plat.</p>
-    <p class="p">Une fiche à 15 g de protéines peut monter à 19. <strong>Elle ne peut pas monter à 39</strong>&nbsp;: à ce point-là, la garniture pèse autant que le sujet et le plat perd son identité.</p>
-
-    <h3 class="h3">2. Quand il manque des protéines, on ajoute un plat</h3>
-    <p class="p">C'est la réponse japonaise, et elle est inscrite dans la structure du repas. <em>Ichiju sansai</em> (<span title="ichijū sansai — « i-tchi-djou sane-saï » · une soupe et trois plats" style="cursor:help;border-bottom:1px dotted currentColor">一汁三菜</span>, une soupe et trois plats) a un grand frère&nbsp;: <em>ichiju gosai</em> (<span title="ichijū gosai — « i-tchi-djou go-saï » · une soupe et cinq plats" style="cursor:help;border-bottom:1px dotted currentColor">一汁五菜</span>, une soupe et cinq plats). Quand un repas doit porter davantage, <strong>on ajoute un kobachi. On ne double pas le contenu des bols existants.</strong></p>
-    <p class="p">Un petit plat de plus à 10 g de protéines règle un écart de 10 g sans toucher au reste du repas. Concrètement&nbsp;: des <a href="guide-2-recettes.html#R48">edamames</a>, un œuf, un kobachi de poisson, une salade de daikon au chirimenjako.</p>
-
-    <h3 class="h3">3. Les collations sont un poste du plan, pas un extra</h3>
-    <p class="p">Le plan prévoit <strong>300 calories et 25 g de protéines en collations</strong>. Ce n'est pas une marge de sécurité&nbsp;: c'est <strong>un cinquième de l'apport protéique de la journée</strong>.</p>
-    <p class="p">Les compter à zéro et essayer de rattraper l'écart dans les trois repas est exactement ce qui mène à la surcharge. Un œuf dur et un yogourt grec, c'est 25 g sans toucher à un seul plat.</p>
-
-    <h3 class="h3">4. Une journée en dessous de la cible n'est pas un échec</h3>
-    <p class="p">La cible haute de 165 g correspond à environ 1,8 g par kilo de poids cible&nbsp;; le plancher fonctionnel de 145 g, à environ 1,6 g/kg. L'écart de bénéfice entre les deux est réel, mais <strong>modeste</strong> — c'est pourquoi la cible est une fourchette et non un nombre (voir la section 1).</p>
-    <p class="p">Ce qui compte est la <strong>moyenne sur la semaine</strong>, visée à 155 g — pas le compte de chaque jour.</p>
-
-    <h3 class="h3">Et les protéines en poudre&nbsp;?</h3>
-    <p class="p">C'est une option réelle, avec des conditions — mais <strong>la piste est écartée pour le moment</strong>. Ce qui suit est là pour documenter la décision, pas pour la recommander.</p>
-    <p class="p">Un <strong>isolat de lactosérum non aromatisé</strong> apporte environ 25 à 30 g de protéines par mesure, pour à peu près 110 calories, sans goût marqué. C'est une protéine complète, riche en <strong>leucine</strong> — l'acide aminé qui déclenche la synthèse musculaire.</p>
-    <div class="note"><span class="lbl">Il coagule dans un liquide chaud</span><p>La seule méthode qui fonctionne&nbsp;: le <strong>délayer d'abord dans un peu de liquide froid</strong> pour en faire une pâte lisse, puis l'incorporer au plat <strong>retiré du feu</strong>. Même mécanique que le miso, et même interdiction de faire bouillir ensuite.</p><p style="margin-top:12px"><strong>Un mythe à écarter&nbsp;:</strong> la chaleur ne «&nbsp;détruit&nbsp;» pas la protéine. La dénaturation est un changement de structure&nbsp;; les acides aminés restent disponibles et la valeur nutritionnelle demeure.</p></div>
-    <p class="p"><strong>Le collagène est le mauvais choix ici.</strong> Il se dissout pourtant magnifiquement à chaud, ce qui le rend tentant. Mais il ne contient pas de tryptophane — c'est une protéine incomplète — et il est très pauvre en leucine. Pour préserver du muscle en déficit, c'est précisément le pire choix disponible.</p>
-    <p class="p"><strong>Où la poudre a sa place&nbsp;: dans la collation, pas dans le plat.</strong> Un bouillon dashi additionné d'isolat devient trouble et laiteux. Le repas reste intact, la collation comble l'écart — c'est plus honnête que de maquiller un bouillon.</p>
-    <p class="p">Pour ajouter des protéines <em>dans</em> un plat sans le dénaturer, la solution est ailleurs&nbsp;: katsuobushi, chirimenjako, sakura ebi, niboshi. Voir <a href="guide-3-supermarche.html#poudres">les protéines à saupoudrer</a> au guide 3.</p>
-    <div class="note"><span class="lbl">Où alléger quand la journée dépasse</span><p>QUAND UNE JOURNÉE DÉPASSE LE PLAFOND DE SODIUM, ON N'ALLÈGE PAS LE REPAS LE PLUS SALÉ — ON ALLÈGE CELUI DONT L'ASSAISONNEMENT EST LE PLUS LIBRE. Un plat de fiche a un assaisonnement calibré&nbsp;: y toucher le casse. Un donburi monté au gabarit, R9, n'a pas cette contrainte&nbsp;: sa sauce est un choix. C'est là que la marge se prend. Corollaire&nbsp;: la compensation d'un plat allégé se fait à l'acide, à l'umami sec et au gras — vinaigre de riz, sésame écrasé, nori, avocat, shichimi à table — jamais en remettant du soya.</p></div>
-    <div class="note"><span class="lbl">Ce document n'est pas un avis médical</span><p>Cette section touche à l'apport protéique. Toute décision de fond sur les cibles nutritionnelles relève d'un professionnel de la santé.</p></div>
-  </section>
-
-  <section id="s5" class="in" style="border-top:2px solid #201e1d">
-    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px">
-      <span style="font-weight:800;font-size:40px;color:#ec3013;line-height:1">05</span>
-      <span title="kaishi — « kaï-chi » · le départ, le commencement" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:600;font-size:22px;color:#9b9797">開始</span>
-    </div>
-    <h2 style="margin:0 0 8px;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.05;letter-spacing:-.02em">Pour démarrer</h2>
-    <p class="p">La liste de la première semaine.</p>
-    <ul class="l">
-      <li>Installer une application de suivi</li>
-      <li>Acheter une balance de cuisine</li>
-      <li>Acheter le petit bol à riz et le pichet</li>
-      <li><strong>Semaine 1&nbsp;:</strong> manger normalement et tout inscrire, sans rien changer</li>
-      <li>Prendre les mesures de départ&nbsp;: poids, tour de taille, photos</li>
-      <li>Marcher 20 minutes, trois fois</li>
-      <li>Prendre rendez-vous avec la nutritionniste</li>
-    </ul>
-    <div class="note"><span class="lbl">Le principe de départ</span><p><strong>Ne pas commencer le déficit avant d'avoir une semaine de données.</strong> L'information vaut plus que les sept jours perdus.</p></div>
-  </section>
-
-  <footer style="border-top:2px solid #201e1d;background:#201e1d;color:#bab6b6">
-    <div style="max-width:1180px;margin:0 auto;padding:clamp(32px,5vw,56px) clamp(16px,4vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px">
-      <div>
-        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Le reste du dossier</p>
-        <p style="margin:0;font-size:15px;line-height:1.7">Le <a href="guide-1-manger.html" style="color:#f8f4f4;text-decoration:underline">guide 1</a> pour les principes, le <a href="guide-2-recettes.html" style="color:#f8f4f4;text-decoration:underline">recueil de recettes</a> pour cuisiner, le <a href="guide-3-supermarche.html" style="color:#f8f4f4;text-decoration:underline">guide du supermarché</a> pour trouver les ingrédients, le <a href="guide-4-bouger.html" style="color:#f8f4f4;text-decoration:underline">guide Bouger</a> pour l'activité, le <a href="guide-6-journal.html" style="color:#f8f4f4;text-decoration:underline">Journal</a> pour garder la trace.</p>
-      </div>
-      <div>
-        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Les cibles évoluent</p>
-        <p style="margin:0;font-size:14px;line-height:1.7">Ce plan est un premier jet. Les cibles se recalculent à mesure que le corps change, et se valident avec une nutritionniste et un médecin.</p>
-      </div>
-      <div>
-        <p style="margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ff563c">Avertissement</p>
-        <p style="margin:0;font-size:14px;line-height:1.7">Rien ici n'est un avis médical.</p>
-        <p style="margin:14px 0 0"><a href="index.html" style="color:#f8f4f4;text-decoration:underline;font-size:14px">← Retour à l'accueil</a></p>
-        <p style="margin:6px 0 0"><a href="conditions.html" style="color:#f8f4f4;text-decoration:underline;font-size:14px">Conditions d'utilisation</a></p>
-      </div>
-    </div>
-  </footer>
-
-</div>
-</x-dc>
+<body style="margin:0;background:#f3f2f2;color:#201e1d;font-family:system-ui,sans-serif">
+<p style="max-width:38em;margin:0 auto;padding:80px 24px;font-size:17px;line-height:1.7">
+Cette page a déménagé. <a href="plan.html" style="color:#ae1800">Aller à plan.html →</a>
+</p>
 </body>
 </html>

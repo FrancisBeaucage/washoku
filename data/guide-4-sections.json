@@ -1,0 +1,1257 @@
+[
+  {
+    "id": "s1",
+    "statut": "actif",
+    "titre": "Ce qu'il faut comprendre avant de commencer",
+    "resume": "L'exercice ne fait pas maigrir. Il fait tout le reste. L'alimentation gère le poids&nbsp;; l'exercice gère le maintien et la santé.",
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "attrs": " style=\"margin-top:24px\"",
+        "texte": "Une heure de marche rapide brûle environ 300 calories, soit une pointe de pizza. Le corps compense en partie, l'appétit répond, et les essais où l'on ajoute de l'exercice sans toucher à l'alimentation produisent des pertes décevantes. <strong>Mais</strong>&nbsp;:"
+      },
+      {
+        "type": "liste",
+        "ordonnee": false,
+        "classe": "l",
+        "elements": [
+          {
+            "texte": "La quasi-totalité des gens qui perdent beaucoup de poids <strong>et le maintiennent</strong> font de l'activité physique régulière. C'est le prédicteur le plus fiable du maintien à long terme."
+          },
+          {
+            "texte": "Sans stimulus musculaire, une part importante du poids perdu est du muscle — souvent le quart. Le muscle perdu abaisse la dépense au repos et rend la reprise plus facile."
+          },
+          {
+            "texte": "Les bénéfices sur la tension, la glycémie, le sommeil, l'apnée, l'humeur et l'énergie sont <strong>indépendants de la perte de poids</strong>."
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "attrs": " style=\"margin:28px 0;font-size:clamp(19px,3vw,26px);font-weight:800;line-height:1.3;letter-spacing:-.015em;max-width:22em;border-left:3px solid #ec3013;padding-left:18px\"",
+        "texte": "Ne juge jamais ton entraînement à la balance. Si tu attends de l'exercice qu'il te fasse maigrir, tu vas l'abandonner en six semaines."
+      },
+      {
+        "type": "note",
+        "titre": "Le vrai risque du débutant",
+        "paragraphes": [
+          {
+            "texte": "Ce n'est pas le surentraînement. C'est <strong>d'en faire trop, trop vite, d'avoir mal pendant cinq jours, et de ne jamais y retourner</strong>. La règle qui prime sur toutes les autres&nbsp;: commencer plus doucement que ce dont tu te sens capable. Tu dois finir tes premières séances en te disant « j'aurais pu en faire plus »."
+          }
+        ]
+      }
+    ],
+    "numero": "01",
+    "jp": "理解",
+    "jp_infobulle": "rikai — « ri-kaï » · comprendre"
+  },
+  {
+    "id": "s2",
+    "statut": "actif",
+    "titre": "La marche",
+    "resume": "Faut-il des jours de repos&nbsp;? Non. La marche n'est pas une activité qui demande de la récupération — c'est le mouvement pour lequel le corps humain est conçu.",
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "attrs": " style=\"margin-top:24px\"",
+        "texte": "<strong>Marcher tous les jours est mieux que marcher trois fois par semaine.</strong> Il n'y a pas de contre-indication tant que l'intensité reste modérée (tu peux tenir une conversation), que tu as des chaussures adéquates, et que tu écoutes les douleurs articulaires — celles-là sont un vrai signal. La logique des jours de repos s'applique à la musculation, pas à la marche."
+      },
+      {
+        "type": "tableau",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "attrs": " style=\"width:34%\"",
+                "html": "Activité"
+              },
+              {
+                "balise": "th",
+                "html": "Plus, est-ce mieux&nbsp;?"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Marche modérée</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Oui, jusqu'à environ 60 à 90 min/jour. Rendements décroissants ensuite, mais pas de risque."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Musculation</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "<strong>Non.</strong> Le muscle se construit pendant la récupération, pas pendant la séance. 48 h entre deux séances travaillant les mêmes muscles."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Cardio intense</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Non. Trois séances intenses par semaine maximum pour un débutant."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Étirements, mobilité</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Oui, sans limite pratique."
+              }
+            ]
+          }
+        ],
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "h3",
+        "texte": "Combien, concrètement",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "tableau",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "html": "Étape"
+              },
+              {
+                "balise": "th",
+                "html": "Fréquence"
+              },
+              {
+                "balise": "th",
+                "html": "Durée"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Départ"
+              },
+              {
+                "balise": "td",
+                "html": "3 à 4 fois/semaine"
+              },
+              {
+                "balise": "td",
+                "html": "20 min"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Après 1 mois"
+              },
+              {
+                "balise": "td",
+                "html": "5 fois/semaine"
+              },
+              {
+                "balise": "td",
+                "html": "30 min"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Après 3 mois"
+              },
+              {
+                "balise": "td",
+                "html": "Tous les jours"
+              },
+              {
+                "balise": "td",
+                "html": "30 à 45 min"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Cible de croisière"
+              },
+              {
+                "balise": "td",
+                "html": "Tous les jours"
+              },
+              {
+                "balise": "td",
+                "html": "45 à 60 min, ou 2 marches de 25 min"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "<strong>Fractionner compte autant que faire d'un coup.</strong> Deux marches de 20 minutes valent une marche de 40, et sont souvent plus faciles à caser."
+      },
+      {
+        "type": "note",
+        "titre": "La marche qui rapporte le plus",
+        "paragraphes": [
+          {
+            "texte": "Celle de 10 à 15 minutes <strong>après un repas</strong>. Elle abaisse la glycémie postprandiale de façon mesurable — un bénéfice direct et immédiat pour qui est diabétique ou prédiabétique. C'est le meilleur rapport effort-bénéfice de tout ce document."
+          }
+        ],
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin:36px 0 26px\"",
+        "colonnes": [
+          {
+            "attrs": " style=\"background:#201e1d;color:#f3f2f2;padding:clamp(22px,3vw,30px);display:flex;flex-direction:column;justify-content:space-between;gap:18px\"",
+            "blocs": [
+              {
+                "type": "html",
+                "source": "<div>\n              <p style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ff563c\">Où marcher</p>\n              <p style=\"margin:0;font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(34px,5.5vw,54px);line-height:1.1;color:#ff563c\" title=\"shinrin-yoku — prononcer « chine-rine yo-kou »\">森林浴</p>\n              <p style=\"margin:8px 0 0;font-size:clamp(17px,2.2vw,21px);font-style:italic;color:#bab6b6\">shinrin-yoku</p>\n              <p style=\"margin:14px 0 0;font-size:19px;font-weight:800;line-height:1.25\">« Bain de forêt »</p>\n            </div>"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:13.5px;line-height:1.6;color:#9b9797\"",
+                "texte": "Terme créé en 1982 par l'Agence forestière japonaise (<span title=\"Rinyachō — « rine-ya-tchô » · l'Agence forestière japonaise\" style=\"cursor:help;border-bottom:1px dotted currentColor\">林野庁</span>), à Akasawa dans la vallée de Kiso."
+              }
+            ]
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:clamp(22px,3vw,30px);grid-column:span 2;min-width:0\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7\"",
+                "texte": "Le Japon est couvert de forêt à environ 67&nbsp;%, et l'État y a fait quelque chose d'inhabituel&nbsp;: il a transformé la promenade en forêt en <strong>intervention de santé publique</strong>. Le pays compte aujourd'hui une soixantaine de « forêts thérapeutiques » officiellement certifiées, et des médecins y dirigent réellement des patients."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7\"",
+                "texte": "Ce n'est pas de la poésie. Une méta-analyse de 2019 dans l'<em>International Journal of Biometeorology</em> a retenu 22 études&nbsp;: le <strong>cortisol salivaire</strong> — le marqueur de stress le plus utilisé — était significativement plus bas après une marche en forêt qu'après la même marche en ville, dans presque toutes. Les travaux de Qing Li, à la Nippon Medical School, ont aussi mesuré une hausse de l'activité des cellules NK et un basculement du système nerveux autonome vers le parasympathique — l'état « repos et digestion » plutôt que « fuite ou combat »."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 14px;font-size:16.5px;line-height:1.7\"",
+                "texte": "L'hypothèse principale pour expliquer l'écart avec la marche urbaine&nbsp;: les <strong>phytoncides</strong>, les composés volatils que les conifères émettent pour se défendre contre les insectes et les champignons. On les respire simplement en étant là."
+              },
+              {
+                "type": "html",
+                "source": "<div style=\"border-top:2px solid #ec3013;padding-top:12px;margin-top:20px\">\n              <p style=\"margin:0 0 5px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ec3013\">Ce que ça change ici</p>\n              <p style=\"margin:0;font-size:15.5px;line-height:1.65\"><strong>Le sentier bat le trottoir, et le trottoir bat le tapis roulant.</strong> À dépense calorique identique, l'effet sur le stress, la tension et l'humeur n'est pas le même. Une marche de 40 minutes sur la montagne un samedi vaut plus que ce que la balance en dira.</p>\n              <p style=\"margin:12px 0 0;font-size:15.5px;line-height:1.65\">Et le protocole est délibérément vide&nbsp;: on marche <strong>lentement</strong>, sans destination, sans écouteurs, sans compter les pas. Ce n'est pas une séance de cardio — les études qui montrent l'effet portent sur des marches tranquilles de deux heures, pas sur de la marche rapide. Les deux sont utiles, mais elles ne font pas la même chose.</p>\n            </div>"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:18px 0 0;font-size:13px;line-height:1.6;color:#7d7979\"",
+                "texte": "Réserve honnête&nbsp;: la plupart de ces études sont petites, à court terme, et sans aveugle possible — on sait toujours si on est dans une forêt. L'effet est réel et constant, son ampleur exacte l'est moins."
+              }
+            ]
+          }
+        ],
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "h3",
+        "texte": "Récupérer le NEAT perdu en télétravail",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Quelqu'un qui faisait 90 minutes de transport en commun par jour et qui passe au travail à domicile perd facilement 200 à 400 calories de dépense quotidienne. Rien n'a changé dans son alimentation, mais l'équation s'est déplacée."
+      },
+      {
+        "type": "liste",
+        "ordonnee": false,
+        "classe": "l",
+        "elements": [
+          {
+            "texte": "<strong>Une marche de 15 minutes le matin, à l'heure où tu partais avant.</strong> Le rituel compte autant que la dépense."
+          },
+          {
+            "texte": "Une autre en fin de journée, pour marquer la fin du travail"
+          },
+          {
+            "texte": "Se lever et marcher pendant les appels sans écran"
+          },
+          {
+            "texte": "Les escaliers systématiquement ▪ stationner loin ▪ descendre un arrêt plus tôt"
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Le bureau debout, lui, apporte environ 50 calories de plus par heure. Trois heures debout par jour, c'est 150 calories&nbsp;: non négligeable, mais c'est une stratégie de posture et d'énergie, pas de perte de poids."
+      }
+    ],
+    "numero": "02",
+    "jp": "歩く",
+    "jp_infobulle": "aruku — « a-rou-kou » · marcher"
+  },
+  {
+    "id": "s3",
+    "statut": "actif",
+    "titre": "Les autres activités sans impact",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Alterner deux ou trois modalités règle le problème de l'ennui et répartit la charge sur des articulations différentes."
+      },
+      {
+        "type": "html",
+        "source": "<div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:clamp(14px,2vw,24px);margin:26px 0\">\n          <figure style=\"margin:0\">\n            <img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Fahrrad-Ergometer_01_KMJ.jpg?width=1200\" alt=\"Vélo stationnaire\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d\">\n            <figcaption><strong>Vélo stationnaire</strong> — impact nul. Le corps est assis, zéro contrainte articulaire. Idéal en hiver.</figcaption>\n          </figure>\n          <figure style=\"margin:0\">\n            <img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Elliptical_machine.jpg?width=1200\" alt=\"Appareil elliptique\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d\">\n            <figcaption><strong>Elliptique</strong> — impact nul. Mouvement complet, haut et bas du corps en même temps.</figcaption>\n          </figure>\n          <figure style=\"margin:0\">\n            <img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Opera_Garnier_Stairway_2008.JPG?width=1200\" alt=\"Escalier\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d\">\n            <figcaption><strong>Les escaliers</strong> — la dépense la moins chère qui existe. Systématiquement, jamais l'ascenseur.</figcaption>\n          </figure>\n          <figure style=\"margin:0\">\n            <img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Trenirovachni_lastici_set.JPG?width=1200\" alt=\"Jeu de bandes élastiques\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #201e1d\">\n            <figcaption><strong>Bandes élastiques</strong> — 30 à 50 $ pour un jeu complet. Le meilleur rapport qualité-prix, zéro encombrement.</figcaption>\n          </figure>\n        </div>"
+      },
+      {
+        "type": "tableau",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "html": "Activité"
+              },
+              {
+                "balise": "th",
+                "html": "Impact"
+              },
+              {
+                "balise": "th",
+                "html": "Commentaire"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Vélo stationnaire</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Nul"
+              },
+              {
+                "balise": "td",
+                "html": "Le corps est assis, zéro contrainte articulaire"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Elliptique</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Nul"
+              },
+              {
+                "balise": "td",
+                "html": "Excellent. Mouvement complet, haut et bas du corps."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Natation</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Nul"
+              },
+              {
+                "balise": "td",
+                "html": "L'eau porte le corps"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Aquaforme</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Nul"
+              },
+              {
+                "balise": "td",
+                "html": "Parfait quand les articulations sont douloureuses"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Vélo extérieur</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Nul"
+              },
+              {
+                "balise": "td",
+                "html": "Bonus plein air, qui aide beaucoup à l'assiduité"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Rameur</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Faible"
+              },
+              {
+                "balise": "td",
+                "html": "Excellent, mais exige une bonne technique du dos"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Randonnée</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Faible"
+              },
+              {
+                "balise": "td",
+                "html": "Attention aux descentes, plus exigeantes pour les genoux"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Patin libre</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Faible"
+              },
+              {
+                "balise": "td",
+                "html": "Agréable, saisonnier. Risque de chute à considérer."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Course à pied</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "<strong>Élevé</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "À reporter. Chaque foulée encaisse 2 à 3 fois le poids du corps."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Sports d'équipe</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "<strong>Élevé</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Changements de direction et pivots&nbsp;: risque élevé de blessure au genou"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "numero": "03",
+    "jp": "無衝撃",
+    "jp_infobulle": "mushōgeki — « mou-chô-gué-ki » · sans impact"
+  },
+  {
+    "id": "s5",
+    "statut": "actif",
+    "titre": "Les trois formats",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Repos de 45 secondes entre les séries."
+      },
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:26px\"",
+        "colonnes": [
+          {
+            "attrs": " style=\"background:#ec3013;color:#fff;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 4px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ffc4b8\"",
+                "texte": "Le plancher"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 4px;font-size:30px;font-weight:800;line-height:1\"",
+                "texte": "15 minutes"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 14px;font-size:14px;line-height:1.6\"",
+                "texte": "L'essentiel. À faire même les mauvaises journées. Quatre exercices qui couvrent le corps entier&nbsp;: pousser, se lever, hanches, tronc."
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15px;line-height:1.9\"",
+                "texte": "9. Lever de chaise — 2 × 10<br>3. Poussée inclinée — 2 × 8<br>10. Pont fessier — 2 × 12<br>6. Bird dog — 2 × 8 par côté"
+              }
+            ]
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 4px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "L'objectif de croisière"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 4px;font-size:30px;font-weight:800;line-height:1\"",
+                "texte": "30 minutes"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 14px;font-size:14px;line-height:1.6;color:#444141\"",
+                "texte": "Le plancher au complet, plus&nbsp;:"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15px;line-height:1.9\"",
+                "texte": "4. Tirage à la bande — 3 × 12<br>11. Montée de marche — 2 × 8 par jambe<br>7. Dead bug — 2 × 8 par côté<br>12. Chaise murale — 2 × 30 sec"
+              }
+            ]
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 4px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "Quand le temps et l'envie sont là"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 4px;font-size:30px;font-weight:800;line-height:1\"",
+                "texte": "45 minutes"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 14px;font-size:14px;line-height:1.6;color:#444141\"",
+                "texte": "Tout ce qui précède, plus&nbsp;:"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15px;line-height:1.9\"",
+                "texte": "5. Développé au-dessus de la tête — 3 × 10<br>16. Port de charge — 3 allers-retours<br>13. Élévation latérale — 2 × 12 par côté<br>14. Élévation sur la pointe — 2 × 15<br>8. Planche inclinée — 2 × 30 sec<br>1, 2, 15 — mobilité, 1 série chacun"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "numero": "05",
+    "jp": "三形式",
+    "jp_infobulle": "sankeishiki — « sane-ké-chi-ki » · trois formats"
+  },
+  {
+    "id": "s6",
+    "statut": "actif",
+    "titre": "La progression sur douze semaines",
+    "resume": null,
+    "corps": [
+      {
+        "type": "tableau",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "html": "Semaines"
+              },
+              {
+                "balise": "th",
+                "html": "Marche"
+              },
+              {
+                "balise": "th",
+                "html": "Musculation"
+              },
+              {
+                "balise": "th",
+                "html": "Objectif"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>1 – 2</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "20 min, 3 à 4 fois"
+              },
+              {
+                "balise": "td",
+                "html": "Aucune"
+              },
+              {
+                "balise": "td",
+                "html": "Installer l'habitude. Rien d'autre."
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>3 – 4</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "25 min, 4 fois"
+              },
+              {
+                "balise": "td",
+                "html": "<strong>2 fois</strong>, format 15 min, 1 série"
+              },
+              {
+                "balise": "td",
+                "html": "Apprendre les mouvements"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>5 – 8</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "30 min, 5 fois"
+              },
+              {
+                "balise": "td",
+                "html": "<strong>2 fois</strong>, format 15 min, 2 séries"
+              },
+              {
+                "balise": "td",
+                "html": "Construire la base"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>9 – 12</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "30 à 45 min, 5 à 6 fois"
+              },
+              {
+                "balise": "td",
+                "html": "<strong>3 fois</strong>, format 30 min"
+              },
+              {
+                "balise": "td",
+                "html": "Monter en volume"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "<strong>Après 3 mois</strong>"
+              },
+              {
+                "balise": "td",
+                "html": "Tous les jours"
+              },
+              {
+                "balise": "td",
+                "html": "3 fois, format 30 à 45 min"
+              },
+              {
+                "balise": "td",
+                "html": "Ajouter des charges"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "h3",
+        "texte": "Une semaine type à partir du troisième mois"
+      },
+      {
+        "type": "tableau",
+        "lignes": [
+          {
+            "cellules": [
+              {
+                "balise": "th",
+                "attrs": " style=\"width:24%\"",
+                "html": "Jour"
+              },
+              {
+                "balise": "th",
+                "html": "Activité"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Lundi"
+              },
+              {
+                "balise": "td",
+                "html": "Musculation 30 min + marche 20 min"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Mardi"
+              },
+              {
+                "balise": "td",
+                "html": "Marche 40 min ou elliptique"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Mercredi"
+              },
+              {
+                "balise": "td",
+                "html": "Musculation 30 min + marche 20 min"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Jeudi"
+              },
+              {
+                "balise": "td",
+                "html": "Marche 40 min"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Vendredi"
+              },
+              {
+                "balise": "td",
+                "html": "Musculation 30 min + marche 20 min"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Samedi"
+              },
+              {
+                "balise": "td",
+                "html": "Marche longue, 45 à 60 min"
+              }
+            ]
+          },
+          {
+            "cellules": [
+              {
+                "balise": "td",
+                "html": "Dimanche"
+              },
+              {
+                "balise": "td",
+                "html": "Marche légère, mobilité"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Noter qu'il n'y a <strong>aucun jour complètement inactif</strong>, mais que la musculation laisse toujours 48 heures entre les séances."
+      },
+      {
+        "type": "texte",
+        "balise": "h3",
+        "classe": "h3",
+        "texte": "Passer aux charges",
+        "blanc": "\n\n        "
+      },
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "Après trois à quatre mois, le poids du corps ne suffira plus pour progresser sur certains mouvements. Trois options&nbsp;:"
+      },
+      {
+        "type": "liste",
+        "ordonnee": false,
+        "classe": "l",
+        "elements": [
+          {
+            "texte": "<strong>Bandes élastiques</strong> — 30 à 50 $ pour un jeu complet. Le meilleur rapport qualité-prix, zéro encombrement."
+          },
+          {
+            "texte": "<strong>Haltères ajustables</strong> — 150 à 300 $. Un seul jeu couvre des années de progression."
+          },
+          {
+            "texte": "<strong>Gym avec appareils guidés</strong> — les appareils imposent la trajectoire, donc le risque de mauvaise forme est faible. <strong>Deux ou trois séances avec un entraîneur au départ</strong> valent largement leur coût&nbsp;: elles évitent des mois de mauvaises habitudes."
+          }
+        ]
+      }
+    ],
+    "numero": "06",
+    "jp": "十二週",
+    "jp_infobulle": "jūnishū — « djou-ni-chou » · douze semaines"
+  },
+  {
+    "id": "s7",
+    "statut": "actif",
+    "titre": "Quand s'arrêter, et quand consulter",
+    "resume": null,
+    "corps": [
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d;margin-top:26px\"",
+        "colonnes": [
+          {
+            "attrs": " style=\"background:#ec3013;color:#fff;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ffc4b8\"",
+                "texte": "Arrêter la séance immédiatement"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15.5px;line-height:1.8\"",
+                "texte": "Douleur à la poitrine, dans la mâchoire ou dans le bras gauche<br>Essoufflement disproportionné à l'effort<br>Étourdissements, vision trouble<br>Douleur articulaire vive et localisée"
+              }
+            ]
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "Consulter"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15.5px;line-height:1.8;color:#444141\"",
+                "texte": "Une douleur qui persiste plus de 48 heures au même endroit<br>Un gonflement articulaire<br>Un essoufflement à l'effort qui s'aggrave de semaine en semaine plutôt que de s'améliorer"
+              }
+            ]
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ec3013\"",
+                "texte": "Courbature ou blessure&nbsp;?"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15.5px;line-height:1.7;color:#444141\"",
+                "texte": "Les <strong>courbatures</strong> sont diffuses, symétriques, et s'améliorent quand on bouge. Elles culminent 24 à 48 heures après et disparaissent ensuite. Une <strong>blessure</strong> est localisée, vive, et empire quand on la sollicite."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "titre": "Un signal particulier pour qui prend des médicaments pour la tension",
+        "paragraphes": [
+          {
+            "texte": "En perdant du poids, la tension baisse, et l'exercice l'abaisse aussi temporairement. Des étourdissements en se relevant, une faiblesse inhabituelle ou une fatigue nouvelle ne sont probablement pas dus à l'entraînement — c'est le signal d'appeler le médecin pour réviser les doses."
+          }
+        ]
+      }
+    ],
+    "numero": "07",
+    "jp": "中止",
+    "jp_infobulle": "chūshi — « tchou-chi » · arrêter"
+  },
+  {
+    "id": "s8",
+    "statut": "actif",
+    "titre": "Mesurer autre chose que le poids",
+    "resume": null,
+    "corps": [
+      {
+        "type": "texte",
+        "balise": "p",
+        "classe": "p",
+        "texte": "L'exercice ne fera pas descendre la balance. Il faut donc d'autres indicateurs, sinon la motivation s'effondre."
+      },
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:clamp(20px,3vw,36px);margin-top:26px\"",
+        "colonnes": [
+          {
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase\"",
+                "texte": "Chaque semaine"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15.5px;line-height:1.8\"",
+                "texte": "Le nombre de levers de chaise en une minute<br>La durée de la chaise murale<br>Le niveau de poussée inclinée atteint (mur → comptoir → chaise → sol)"
+              }
+            ]
+          },
+          {
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase\"",
+                "texte": "Chaque mois"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15.5px;line-height:1.8\"",
+                "texte": "Le tour de taille<br>L'essoufflement dans un escalier — combien de marches avant de devoir souffler<br>La distance parcourue en 30 minutes de marche<br>La tension artérielle au repos"
+              }
+            ]
+          },
+          {
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #201e1d;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase\"",
+                "texte": "En continu"
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:15.5px;line-height:1.8\"",
+                "texte": "La qualité du sommeil<br>L'énergie en fin de journée<br>La facilité à se relever du sol ou d'un fauteuil bas"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "titre": "Le meilleur indicateur de tous",
+        "paragraphes": [
+          {
+            "texte": "La facilité des gestes du quotidien. Monter un escalier sans y penser, se lever d'une chaise basse sans les mains, porter les sacs d'épicerie d'un seul voyage. Ces changements arrivent bien avant que la balance impressionne, et ce sont eux qui rendent le reste possible."
+          }
+        ]
+      }
+    ],
+    "numero": "08",
+    "jp": "記録",
+    "jp_infobulle": "kiroku — « ki-ro-kou » · le suivi"
+  },
+  {
+    "id": "s9",
+    "statut": "actif",
+    "titre": "Les cinq règles",
+    "resume": null,
+    "corps": [
+      {
+        "type": "grille",
+        "attrs": " style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px;background:#c9c5c5;border:2px solid #201e1d\"",
+        "colonnes": [
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1\"",
+                "texte": "1",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2\"",
+                "texte": "Commencer plus doucement que ce dont tu te sens capable.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "Finir en se disant « j'aurais pu en faire plus » est le signe qu'on y retournera.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1\"",
+                "texte": "2",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2\"",
+                "texte": "La marche tous les jours, la musculation trois fois.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "La première ne demande pas de récupération, la seconde en a besoin.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1\"",
+                "texte": "3",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2\"",
+                "texte": "Sans impact, toujours.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "Marche, vélo, elliptique, natation, appareils. La course attendra.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1\"",
+                "texte": "4",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2\"",
+                "texte": "La forme avant les répétitions, la constance avant l'intensité.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "Vingt minutes six fois par semaine battent une heure une fois.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#f3f2f2;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-weight:800;font-size:30px;color:#ec3013;line-height:1\"",
+                "texte": "5",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 6px;font-size:17px;font-weight:800;line-height:1.2\"",
+                "texte": "Ne jamais juger l'exercice à la balance.",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14px;line-height:1.6;color:#605d5d\"",
+                "texte": "L'alimentation gère le poids. L'exercice protège le résultat, et améliore à peu près tout le reste.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          },
+          {
+            "attrs": " style=\"background:#201e1d;color:#bab6b6;padding:22px\"",
+            "blocs": [
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ff563c\"",
+                "texte": "Avant de commencer",
+                "blanc": ""
+              },
+              {
+                "type": "texte",
+                "balise": "p",
+                "attrs": " style=\"margin:0;font-size:14.5px;line-height:1.65\"",
+                "texte": "Toute personne ayant des conditions cardiovasculaires, métaboliques ou articulaires devrait valider son plan avec son médecin — particulièrement pour l'intensité.",
+                "blanc": ""
+              }
+            ],
+            "queue": ""
+          }
+        ]
+      }
+    ],
+    "numero": "09",
+    "jp": "五原則",
+    "jp_infobulle": "go gensoku — « go guène-so-kou » · cinq règles"
+  }
+]

@@ -4,12 +4,23 @@
   "categorie": "souper",
   "cuisine": "chinoise",
   "vitesse": "extra-long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
-  "slug": "b-uf-et-brocoli",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "blanchi"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
+  "slug": "boeuf-et-brocoli",
   "jp": "牛肉とブロッコリー",
   "jp_lecture": null,
   "romaji": "gyūniku to burokkorī",

@@ -4,11 +4,23 @@
   "categorie": "souper",
   "cuisine": "vietnamienne",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "frit",
+    "cru"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "riche-gras",
+    "acide"
+  ],
+  "axe_texture": [
+    "croustillant",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "galettes-de-patate-douce-et-crevettes-en-feuille-de-laitue",
   "jp": "バインタム",
   "jp_lecture": "bain tomme",

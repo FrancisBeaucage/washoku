@@ -2,15 +2,17 @@
   "site": "washoku",
   "version_schema": "1.0",
   "derniere_maj": "2026-08-19",
-  "dernier_document_applique": 19,
+  "dernier_document_applique": 20,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
     "index.json dit quelles fiches existent, avec de quoi choisir laquelle ouvrir.",
-    "fiches/<ID>.json donne une fiche entière. Ne récupérer que celles dont on a besoin.",
+    "fiches/<ID>.json donne une fiche entière. Ne récupérer que celles dont on a besoin ; l’adresse du dossier est dans fichiers[].",
+    "Dans index.json, une clé ABSENTE veut dire « rien ne le dit » : les valeurs vides ne s’y écrivent pas.",
     "guide-2-fiches.json est le recueil entier : ne le charger que pour un audit.",
     "ensembles_fermes donne les valeurs exactes des champs à liste fermée. Les lire avant d’en écrire une.",
-    "formes_fermees dit si un champ fermé prend une valeur, un tableau de valeurs, ou un objet par lecteur."
+    "formes_fermees dit si un champ fermé prend une valeur, un tableau de valeurs, ou un objet par lecteur.",
+    "Les pages HTML sont une VUE générée : elles ne portent aucune donnée, elles lisent ces fichiers-ci."
   ],
   "fichiers": [
     {
@@ -35,6 +37,27 @@
       "nb_actives": 16
     },
     {
+      "nom": "guide-1-manger.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-1-manger.json",
+      "description": "Les 22 sections du guide 1",
+      "nb_entrees": 22,
+      "nb_actives": 22
+    },
+    {
+      "nom": "guide-3-sections.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-3-sections.json",
+      "description": "Les sections de prose du guide 3 : comment faire l’épicerie",
+      "nb_entrees": 8,
+      "nb_actives": 8
+    },
+    {
+      "nom": "guide-4-sections.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/guide-4-sections.json",
+      "description": "Les sections de prose du guide 4 : la marche, les formats, la progression",
+      "nb_entrees": 8,
+      "nb_actives": 8
+    },
+    {
       "nom": "guide-6-journal.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-6-journal.json",
       "description": "Entrées du journal du guide 6",
@@ -45,8 +68,8 @@
       "nom": "guide-2-annexes.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-2-annexes.json",
       "description": "Annexes du guide 2 : lexique, yakumi, dépannage, thé, équipement",
-      "nb_entrees": 5,
-      "nb_actives": 5
+      "nb_entrees": 7,
+      "nb_actives": 7
     },
     {
       "nom": "guide-5-plan.json",
@@ -66,13 +89,27 @@
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 19,
-      "nb_actives": 19
+      "nb_entrees": 20,
+      "nb_actives": 20
+    },
+    {
+      "nom": "rayons.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/rayons.json",
+      "description": "Les rayons du guide 3 : la clé de la valeur fermée `section`, et son libellé en page",
+      "nb_entrees": 13,
+      "nb_actives": 13
+    },
+    {
+      "nom": "zones-exercices.json",
+      "url": "https://francisbeaucage.github.io/washoku/data/zones-exercices.json",
+      "description": "Les zones du corps du guide 4 : la clé de la valeur fermée `zone`, et son libellé en page",
+      "nb_entrees": 7,
+      "nb_actives": 7
     },
     {
       "nom": "index.json",
       "url": "https://francisbeaucage.github.io/washoku/data/index.json",
-      "description": "Index compact des fiches : de quoi choisir laquelle ouvrir, sans charger le recueil",
+      "description": "Index compact des fiches : de quoi choisir, filtrer et rendre une carte, sans charger le recueil",
       "nb_entrees": 79,
       "nb_actives": 79
     },
@@ -262,6 +299,14 @@
       "statut": [
         "actif",
         "retiré"
+      ],
+      "zone": [
+        "cou",
+        "haut",
+        "tronc",
+        "jambes",
+        "mollets",
+        "fonc"
       ]
     },
     "historique-repas.json": {
@@ -307,7 +352,8 @@
       "nutrition.source": "valeur"
     },
     "guide-4-exercices.json": {
-      "statut": "valeur"
+      "statut": "valeur",
+      "zone": "valeur"
     },
     "historique-repas.json": {
       "repas": "valeur",

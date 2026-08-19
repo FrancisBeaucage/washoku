@@ -4,11 +4,21 @@
   "categorie": "soupe-entree",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "bouillon-au-daikon-et-gingembre",
   "jp": "大根の澄まし汁",
   "jp_lecture": null,

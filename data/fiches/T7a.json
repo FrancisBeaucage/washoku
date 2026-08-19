@@ -4,11 +4,24 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "marine",
+    "bouilli"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "ferme",
+    "fondant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "collation"
+  ],
   "slug": "faire-tremper-ajitsuke-tamago",
   "jp": "漬ける",
   "jp_lecture": null,

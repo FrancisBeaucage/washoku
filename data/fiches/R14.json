@@ -4,11 +4,23 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "grille",
+    "cru"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "acide"
+  ],
+  "axe_texture": [
+    "croustillant",
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "saumon-shioyaki-et-daikon-rape",
   "jp": "鮭の塩焼き",
   "jp_lecture": null,

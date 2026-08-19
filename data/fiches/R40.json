@@ -4,11 +4,19 @@
   "categorie": "soupe-entree",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "poche"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "suimono-bouillon-clair",
   "jp": "吸い物",
   "jp_lecture": null,

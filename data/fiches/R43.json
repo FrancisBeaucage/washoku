@@ -4,11 +4,21 @@
   "categorie": "garniture",
   "cuisine": "japonaise",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "blanchi",
+    "marine"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "mou"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "ohitashi-epinards-au-dashi",
   "jp": "お浸し",
   "jp_lecture": null,

@@ -4,11 +4,18 @@
   "categorie": "technique",
   "cuisine": "chinoise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "marine"
+  ],
   "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "le-veloute-velveting",
   "jp": "上漿",
   "jp_lecture": "tchang djiang",

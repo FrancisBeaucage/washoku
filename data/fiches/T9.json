@@ -4,11 +4,21 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "frit"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "riche-gras"
+  ],
+  "axe_texture": [
+    "croustillant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "la-friture-japonaise-agemono",
   "jp": "揚げ物",
   "jp_lecture": null,

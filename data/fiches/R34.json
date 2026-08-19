@@ -4,11 +4,22 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "extra-long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant",
+    "elastique"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "oden",
   "jp": "おでん",
   "jp_lecture": null,

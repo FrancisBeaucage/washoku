@@ -4,11 +4,21 @@
   "categorie": "souper",
   "cuisine": "japonaise",
   "vitesse": "rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "elastique",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "nouilles-konjac-aux-legumes",
   "jp": "しらたき炒め",
   "jp_lecture": null,

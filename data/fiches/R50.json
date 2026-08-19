@@ -4,11 +4,20 @@
   "categorie": "collation",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "collation",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "croustillant"
+  ],
+  "moment": [
+    "collation"
+  ],
   "slug": "nori-grille-assaisonne",
   "jp": "味付け海苔",
   "jp_lecture": null,

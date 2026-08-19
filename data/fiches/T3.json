@@ -4,11 +4,18 @@
   "categorie": "technique",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
+  "type_de_plat": "technique",
+  "methode": [
+    "marine"
+  ],
   "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "axe_texture": [
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "le-salage-prealable",
   "jp": "塩締め",
   "jp_lecture": null,

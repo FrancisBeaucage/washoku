@@ -4,11 +4,19 @@
   "categorie": "collation",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "collation",
+  "methode": [
+    "cru"
+  ],
+  "axe_gout": [
+    "doux"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "collation"
+  ],
   "slug": "poire-asiatique-et-fruits",
   "jp": "梨",
   "jp_lecture": null,

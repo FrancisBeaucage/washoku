@@ -4,11 +4,23 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "bouilli",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "glissant",
+    "en-bouillon"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "nouilles-en-bouillon-dashi-kakejiru",
   "jp": "かけ蕎麦・うどん",
   "jp_lecture": null,

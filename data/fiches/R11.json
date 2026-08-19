@@ -4,11 +4,21 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
   "slug": "ochazuke",
   "jp": "お茶漬け",
   "jp_lecture": null,

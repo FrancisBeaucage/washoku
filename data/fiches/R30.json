@@ -4,11 +4,22 @@
   "categorie": "souper",
   "cuisine": "coreenne",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "elastique",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "yukgaejang-simplifie",
   "jp": "육개장",
   "jp_lecture": "youk-gué-djang",

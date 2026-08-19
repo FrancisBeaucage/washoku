@@ -4,11 +4,22 @@
   "categorie": "dejeuner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "ferme"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner"
+  ],
   "slug": "flocons-de-saumon-sur-riz-chaud",
   "jp": "鮭フレーク",
   "jp_lecture": null,

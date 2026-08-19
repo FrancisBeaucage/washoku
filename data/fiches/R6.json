@@ -4,11 +4,21 @@
   "categorie": "dejeuner",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "doux",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "mou",
+    "en-bouillon"
+  ],
+  "moment": [
+    "dejeuner"
+  ],
   "slug": "okayu-au-poulet",
   "jp": "鶏がゆ",
   "jp_lecture": null,

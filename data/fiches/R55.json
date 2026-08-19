@@ -4,11 +4,20 @@
   "categorie": "collation",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "collation",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "doux",
+    "sesame-noisette"
+  ],
+  "axe_texture": [
+    "soyeux"
+  ],
+  "moment": [
+    "collation"
+  ],
   "slug": "yogourt-grec-au-kinako",
   "jp": "きな粉ヨーグルト",
   "jp_lecture": null,

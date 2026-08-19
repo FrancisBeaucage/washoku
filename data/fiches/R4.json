@@ -4,11 +4,21 @@
   "categorie": "dejeuner",
   "cuisine": "japonaise",
   "vitesse": "ultra-rapide",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "cru"
+  ],
+  "axe_gout": [
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "soyeux",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner"
+  ],
   "slug": "tamago-kake-gohan",
   "jp": "卵かけご飯",
   "jp_lecture": null,

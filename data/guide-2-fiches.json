@@ -5,11 +5,21 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "extra-long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "bouilli"
+    ],
+    "axe_gout": [
+      "doux"
+    ],
+    "axe_texture": [
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
     "slug": "le-riz-rincage-et-cuisson",
     "jp": "米の研ぎ方",
     "jp_lecture": null,
@@ -149,11 +159,21 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
     "slug": "le-dashi-trois-versions",
     "jp": "出汁",
     "jp_lecture": null,
@@ -307,11 +327,18 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "marine"
+    ],
     "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "axe_texture": [
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "le-salage-prealable",
     "jp": "塩締め",
     "jp_lecture": null,
@@ -404,11 +431,22 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "grille"
+    ],
+    "axe_gout": [
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "croustillant",
+      "fondant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
     "slug": "le-poisson-sale-grille-shioyaki",
     "jp": "塩焼き",
     "jp_lecture": null,
@@ -538,11 +576,18 @@
     "categorie": "technique",
     "cuisine": "chinoise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "marine"
+    ],
     "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "le-veloute-velveting",
     "jp": "上漿",
     "jp_lecture": "tchang djiang",
@@ -655,11 +700,21 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "blanchi"
+    ],
+    "axe_gout": [
+      "doux"
+    ],
+    "axe_texture": [
+      "mou",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "le-blanchiment-des-verdures",
     "jp": "茹で方",
     "jp_lecture": null,
@@ -784,11 +839,24 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "marine",
+      "bouilli"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "ferme",
+      "fondant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "collation"
+    ],
     "slug": "faire-tremper-ajitsuke-tamago",
     "jp": "漬ける",
     "jp_lecture": null,
@@ -906,11 +974,21 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "marine",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "saler-degorger-vinaigrer-sunomono",
     "jp": "酢の物",
     "jp_lecture": null,
@@ -1033,12 +1111,24 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
-    "slug": "l-uf-mollet-et-l-uf-dur",
+    "type_de_plat": "technique",
+    "methode": [
+      "bouilli"
+    ],
+    "axe_gout": [
+      "doux"
+    ],
+    "axe_texture": [
+      "fondant",
+      "ferme"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper",
+      "collation"
+    ],
+    "slug": "l-oeuf-mollet-et-l-oeuf-dur",
     "jp": "半熟卵",
     "jp_lecture": null,
     "romaji": "hanjuku-tamago",
@@ -1140,11 +1230,21 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "frit"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "riche-gras"
+    ],
+    "axe_texture": [
+      "croustillant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "la-friture-japonaise-agemono",
     "jp": "揚げ物",
     "jp_lecture": null,
@@ -1282,11 +1382,20 @@
     "categorie": "technique",
     "cuisine": "japonaise",
     "vitesse": "extra-long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "technique",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "elastique",
+      "ferme"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "le-sechage-du-daikon",
     "jp": "切り干し",
     "jp_lecture": null,
@@ -1403,11 +1512,24 @@
     "categorie": "dejeuner",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "grille",
+      "bouilli",
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "fondant",
+      "moelleux",
+      "croustillant"
+    ],
+    "moment": [
+      "dejeuner"
+    ],
     "slug": "set-japonais-complet",
     "jp": "和朝食",
     "jp_lecture": null,
@@ -1523,12 +1645,22 @@
     "categorie": "dejeuner",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
-    "slug": "soupe-miso-dejeuner-au-tofu-et-a-l-uf",
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote",
+      "poche"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "soyeux"
+    ],
+    "moment": [
+      "dejeuner"
+    ],
+    "slug": "soupe-miso-dejeuner-au-tofu-et-a-l-oeuf",
     "jp": "味噌汁",
     "jp_lecture": null,
     "romaji": "misoshiru",
@@ -1650,11 +1782,21 @@
     "categorie": "dejeuner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "cru",
+      "fermente"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "glissant",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner"
+    ],
     "slug": "natto-gohan",
     "jp": "納豆ご飯",
     "jp_lecture": null,
@@ -1778,11 +1920,21 @@
     "categorie": "dejeuner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "cru"
+    ],
+    "axe_gout": [
+      "doux",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "soyeux",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner"
+    ],
     "slug": "tamago-kake-gohan",
     "jp": "卵かけご飯",
     "jp_lecture": null,
@@ -1872,11 +2024,25 @@
     "categorie": "dejeuner",
     "cuisine": "coreenne",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "blanchi",
+      "fermente"
+    ],
+    "axe_gout": [
+      "piquant",
+      "umami-ferment",
+      "sesame-noisette"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner"
+    ],
     "slug": "bol-coreen-express",
     "jp": "韓国風丼",
     "jp_lecture": null,
@@ -1977,11 +2143,21 @@
     "categorie": "dejeuner",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "doux",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "mou",
+      "en-bouillon"
+    ],
+    "moment": [
+      "dejeuner"
+    ],
     "slug": "okayu-au-poulet",
     "jp": "鶏がゆ",
     "jp_lecture": null,
@@ -2082,12 +2258,21 @@
     "categorie": "dejeuner",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
-    "slug": "ufs-vapeur-au-gingembre",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "vapeur"
+    ],
+    "axe_gout": [
+      "aromatique",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "soyeux"
+    ],
+    "moment": [
+      "dejeuner"
+    ],
+    "slug": "oeufs-vapeur-au-gingembre",
     "jp": "茶碗蒸し",
     "jp_lecture": null,
     "romaji": "chawanmushi",
@@ -2182,11 +2367,21 @@
     "categorie": "dejeuner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "bouilli",
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "ferme",
+      "en-bouillon"
+    ],
+    "moment": [
+      "dejeuner"
+    ],
     "slug": "le-dejeuner-d-urgence",
     "jp": "非常朝食",
     "jp_lecture": null,
@@ -2266,11 +2461,23 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sesame-noisette"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
     "slug": "la-formule-donburi",
     "jp": "丼の公式",
     "jp_lecture": null,
@@ -2387,11 +2594,21 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "cru"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "soyeux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "hiyayakko-tofu-froid",
     "jp": "冷奴",
     "jp_lecture": null,
@@ -2510,11 +2727,20 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "acide",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "ferme"
+    ],
+    "moment": [
+      "diner"
+    ],
     "slug": "thon-germon-assaisonne-au-ponzu",
     "jp": "ツナのポン酢和え",
     "jp_lecture": null,
@@ -2633,11 +2859,21 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "ochazuke",
     "jp": "お茶漬け",
     "jp_lecture": null,
@@ -2727,11 +2963,22 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "bouilli",
+      "cru"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sesame-noisette"
+    ],
+    "axe_texture": [
+      "glissant",
+      "croquant"
+    ],
+    "moment": [
+      "diner"
+    ],
     "slug": "salade-de-soba",
     "jp": "蕎麦サラダ",
     "jp_lecture": null,
@@ -2831,11 +3078,20 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "croquant"
+    ],
+    "moment": [
+      "diner"
+    ],
     "slug": "onigirazu",
     "jp": "おにぎらず",
     "jp_lecture": null,
@@ -2934,11 +3190,23 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "grille",
+      "cru"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "acide"
+    ],
+    "axe_texture": [
+      "croustillant",
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "saumon-shioyaki-et-daikon-rape",
     "jp": "鮭の塩焼き",
     "jp_lecture": null,
@@ -3043,11 +3311,22 @@
     "categorie": "dejeuner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "ferme"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner"
+    ],
     "slug": "flocons-de-saumon-sur-riz-chaud",
     "jp": "鮭フレーク",
     "jp_lecture": null,
@@ -3162,11 +3441,21 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "marine",
+      "grille"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "poisson-marine-au-miso",
     "jp": "西京焼き",
     "jp_lecture": null,
@@ -3249,11 +3538,20 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "poisson-mijote-au-gingembre",
     "jp": "魚の煮付け",
     "jp_lecture": null,
@@ -3344,12 +3642,23 @@
     "categorie": "souper",
     "cuisine": "chinoise",
     "vitesse": "extra-long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
-    "slug": "b-uf-et-brocoli",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "blanchi"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
+    "slug": "boeuf-et-brocoli",
     "jp": "牛肉とブロッコリー",
     "jp_lecture": null,
     "romaji": "gyūniku to burokkorī",
@@ -3457,11 +3766,23 @@
     "categorie": "souper",
     "cuisine": "vietnamienne",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "grille",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "sale-sucre",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "croquant",
+      "ferme"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "bun-cha-vietnamien-en-bol",
     "jp": "ブンチャー",
     "jp_lecture": "boune tcha",
@@ -3555,11 +3876,21 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant",
+      "moelleux"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "oyakodon",
     "jp": "親子丼",
     "jp_lecture": null,
@@ -3677,11 +4008,21 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "cru"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "acide"
+    ],
+    "axe_texture": [
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "chirashi-bowl",
     "jp": "ちらし丼",
     "jp_lecture": null,
@@ -3807,11 +4148,20 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "grille"
+    ],
+    "axe_gout": [
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croustillant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "yakitori",
     "jp": "焼き鳥",
     "jp_lecture": null,
@@ -3901,11 +4251,20 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "grille"
+    ],
+    "axe_gout": [
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croustillant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "poulet-grille-au-sel",
     "jp": "鶏の塩焼き",
     "jp_lecture": null,
@@ -4014,11 +4373,21 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "okonomiyaki",
     "jp": "お好み焼き",
     "jp_lecture": null,
@@ -4129,11 +4498,24 @@
     "categorie": "souper",
     "cuisine": "coreenne",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "blanchi",
+      "cru"
+    ],
+    "axe_gout": [
+      "piquant",
+      "sesame-noisette",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "croquant",
+      "moelleux"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "bibimbap-a-ratio-inverse",
     "jp": "ビビンバ",
     "jp_lecture": "bi-bime-bap",
@@ -4253,11 +4635,22 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "poche"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "acide"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "shabu-shabu",
     "jp": "しゃぶしゃぶ",
     "jp_lecture": null,
@@ -4365,11 +4758,21 @@
     "categorie": "souper",
     "cuisine": "chinoise",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "glissant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "soupe-aigre-piquante",
     "jp": "酸辣湯",
     "jp_lecture": "souane la tang",
@@ -4468,11 +4871,22 @@
     "categorie": "souper",
     "cuisine": "chinoise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote",
+      "saute"
+    ],
+    "axe_gout": [
+      "piquant",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "soyeux",
+      "en-bouillon"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "mapo-tofu-allege",
     "jp": "麻婆豆腐",
     "jp_lecture": "ma-po dow-fou",
@@ -4576,11 +4990,22 @@
     "categorie": "souper",
     "cuisine": "thaie",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "ferme"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "tom-yum-aux-crevettes",
     "jp": "トムヤムクン",
     "jp_lecture": "tome youme koung",
@@ -4693,11 +5118,22 @@
     "categorie": "souper",
     "cuisine": "thaie",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "riche-gras",
+      "acide",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "tom-kha-gai-allege",
     "jp": "トムカーガイ",
     "jp_lecture": "tome ka gaï",
@@ -4787,11 +5223,21 @@
     "categorie": "souper",
     "cuisine": "coreenne",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "piquant",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "soyeux",
+      "en-bouillon"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "sundubu-jjigae",
     "jp": "순두부찌개",
     "jp_lecture": "soune-dou-bou tchi-gué",
@@ -4894,11 +5340,22 @@
     "categorie": "souper",
     "cuisine": "coreenne",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "piquant",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "elastique",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "yukgaejang-simplifie",
     "jp": "육개장",
     "jp_lecture": "youk-gué-djang",
@@ -5001,11 +5458,22 @@
     "categorie": "souper",
     "cuisine": "chinoise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "poche"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "moelleux",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "soupe-won-ton-deconstruite",
     "jp": "雲呑スープ",
     "jp_lecture": null,
@@ -5100,11 +5568,20 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "poche"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "moelleux"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "soupe-aux-boulettes-de-poulet",
     "jp": "つくね汁",
     "jp_lecture": null,
@@ -5196,11 +5673,22 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "poche",
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant",
+      "soyeux"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "soupe-miso-au-saumon-tofu-et-edamame",
     "jp": "鮭の味噌汁",
     "jp_lecture": null,
@@ -5305,11 +5793,22 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "extra-long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant",
+      "elastique"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "oden",
     "jp": "おでん",
     "jp_lecture": null,
@@ -5424,11 +5923,20 @@
     "categorie": "souper",
     "cuisine": "chinoise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "vapeur"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "poisson-vapeur-cantonais",
     "jp": "清蒸魚",
     "jp_lecture": "tching-djeng you",
@@ -5526,11 +6034,23 @@
     "categorie": "souper",
     "cuisine": "vietnamienne",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote",
+      "poche"
+    ],
+    "axe_gout": [
+      "aromatique",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "croquant",
+      "ferme"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "faux-pho-au-poulet",
     "jp": "鶏のフォー風",
     "jp_lecture": "to-ri no feu fou",
@@ -5643,11 +6163,21 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "elastique",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "nouilles-konjac-aux-legumes",
     "jp": "しらたき炒め",
     "jp_lecture": null,
@@ -5737,11 +6267,22 @@
     "categorie": "soupe-entree",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "soyeux"
+    ],
+    "moment": [
+      "diner",
+      "souper",
+      "collation"
+    ],
     "slug": "soupe-miso-de-base",
     "jp": "味噌汁",
     "jp_lecture": null,
@@ -5842,11 +6383,22 @@
     "categorie": "soupe-entree",
     "cuisine": "vietnamienne",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote",
+      "blanchi"
+    ],
+    "axe_gout": [
+      "doux",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "mou"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "canh-vietnamienne",
     "jp": "canh",
     "jp_lecture": "kang",
@@ -5936,11 +6488,19 @@
     "categorie": "soupe-entree",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "poche"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "suimono-bouillon-clair",
     "jp": "吸い物",
     "jp_lecture": null,
@@ -6035,12 +6595,23 @@
     "categorie": "soupe-entree",
     "cuisine": "chinoise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
-    "slug": "soupe-aux-ufs-et-tomate",
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "doux",
+      "acide"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "soyeux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-aux-oeufs-et-tomate",
     "jp": "卵とトマトのスープ",
     "jp_lecture": null,
     "romaji": "tamago to tomato no sūpu",
@@ -6133,11 +6704,21 @@
     "categorie": "soupe-entree",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "aromatique",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "bouillon-au-daikon-et-gingembre",
     "jp": "大根の澄まし汁",
     "jp_lecture": null,
@@ -6220,11 +6801,21 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "blanchi",
+      "marine"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "mou"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "ohitashi-epinards-au-dashi",
     "jp": "お浸し",
     "jp_lecture": null,
@@ -6316,11 +6907,21 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "blanchi"
+    ],
+    "axe_gout": [
+      "sesame-noisette",
+      "doux"
+    ],
+    "axe_texture": [
+      "mou"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "goma-ae-legumes-blanchis-au-sesame",
     "jp": "胡麻和え",
     "jp_lecture": null,
@@ -6431,11 +7032,21 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "marine",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "sunomono-concombre-vinaigre",
     "jp": "酢の物",
     "jp_lecture": null,
@@ -6545,11 +7156,22 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "croquant",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "kinpira-de-carotte-et-daikon",
     "jp": "金平",
     "jp_lecture": null,
@@ -6655,11 +7277,22 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "marine",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "concombre-tataki",
     "jp": "叩ききゅうり",
     "jp_lecture": null,
@@ -6749,11 +7382,22 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "elastique",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "kiriboshi-daikon-mijote",
     "jp": "切り干し大根の煮物",
     "jp_lecture": null,
@@ -6893,11 +7537,22 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "elastique",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "shimeji-sautes-au-soya",
     "jp": "しめじのソテー",
     "jp_lecture": null,
@@ -7014,11 +7669,20 @@
     "categorie": "garniture",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "condiment",
+    "methode": [
+      "cru"
+    ],
+    "axe_gout": [
+      "piquant"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "momiji-oroshi-daikon-rape-au-piment",
     "jp": "紅葉おろし",
     "jp_lecture": null,
@@ -7121,11 +7785,21 @@
     "categorie": "collation",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "collation",
+    "methode": [
+      "bouilli"
+    ],
+    "axe_gout": [
+      "doux"
+    ],
+    "axe_texture": [
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper",
+      "collation"
+    ],
     "slug": "edamames-en-cosses-et-ecossees",
     "jp": "枝豆",
     "jp_lecture": null,
@@ -7230,11 +7904,20 @@
     "categorie": "collation",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "collation",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "croustillant"
+    ],
+    "moment": [
+      "collation"
+    ],
     "slug": "nori-grille-assaisonne",
     "jp": "味付け海苔",
     "jp_lecture": null,
@@ -7299,11 +7982,20 @@
     "categorie": "collation",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "collation",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "croustillant"
+    ],
+    "moment": [
+      "collation"
+    ],
     "slug": "senbei",
     "jp": "煎餅",
     "jp_lecture": null,
@@ -7364,11 +8056,19 @@
     "categorie": "collation",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "collation",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "doux"
+    ],
+    "axe_texture": [
+      "elastique"
+    ],
+    "moment": [
+      "collation"
+    ],
     "slug": "konjac-zero-calorie",
     "jp": "蒟蒻",
     "jp_lecture": null,
@@ -7433,11 +8133,22 @@
     "categorie": "collation",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "collation",
+    "methode": [
+      "fermente"
+    ],
+    "axe_gout": [
+      "acide",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "mou"
+    ],
+    "moment": [
+      "collation",
+      "diner",
+      "souper"
+    ],
     "slug": "umeboshi",
     "jp": "梅干し",
     "jp_lecture": null,
@@ -7502,11 +8213,19 @@
     "categorie": "collation",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "collation",
+    "methode": [
+      "cru"
+    ],
+    "axe_gout": [
+      "doux"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "collation"
+    ],
     "slug": "poire-asiatique-et-fruits",
     "jp": "梨",
     "jp_lecture": null,
@@ -7571,11 +8290,20 @@
     "categorie": "collation",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "collation",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "doux",
+      "sesame-noisette"
+    ],
+    "axe_texture": [
+      "soyeux"
+    ],
+    "moment": [
+      "collation"
+    ],
     "slug": "yogourt-grec-au-kinako",
     "jp": "きな粉ヨーグルト",
     "jp_lecture": null,
@@ -7655,11 +8383,21 @@
     "categorie": "collation",
     "cuisine": "japonaise",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "collation",
+    "methode": [
+      "roti"
+    ],
+    "axe_gout": [
+      "doux",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "fondant",
+      "moelleux"
+    ],
+    "moment": [
+      "collation"
+    ],
     "slug": "patate-douce-rotie",
     "jp": "焼き芋",
     "jp_lecture": null,
@@ -7760,11 +8498,22 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "bouilli",
+      "poche"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "glissant",
+      "en-bouillon"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "nouilles-instantanees-version-repas",
     "jp": "即席麺",
     "jp_lecture": null,
@@ -7875,11 +8624,21 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "vapeur"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "glissant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "gyoza-vapeur-du-congelateur",
     "jp": "餃子",
     "jp_lecture": null,
@@ -7963,11 +8722,19 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "moelleux"
+    ],
+    "moment": [
+      "diner"
+    ],
     "slug": "onigiri-du-commerce-en-repas",
     "jp": "おにぎり",
     "jp_lecture": null,
@@ -8051,11 +8818,23 @@
     "categorie": "diner",
     "cuisine": "japonaise",
     "vitesse": "ultra-rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "bouilli",
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "glissant",
+      "en-bouillon"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
     "slug": "nouilles-en-bouillon-dashi-kakejiru",
     "jp": "かけ蕎麦・うどん",
     "jp_lecture": null,
@@ -8197,12 +8976,25 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "moyen",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
-    "slug": "niku-udon-nouilles-au-b-uf",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "glissant",
+      "en-bouillon",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "niku-udon-nouilles-au-boeuf",
     "jp": "肉うどん",
     "jp_lecture": null,
     "romaji": "niku-udon",
@@ -8346,11 +9138,23 @@
     "categorie": "souper",
     "cuisine": "vietnamienne",
     "vitesse": "long",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "frit",
+      "cru"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "riche-gras",
+      "acide"
+    ],
+    "axe_texture": [
+      "croustillant",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "galettes-de-patate-douce-et-crevettes-en-feuille-de-laitue",
     "jp": "バインタム",
     "jp_lecture": "bain tomme",
@@ -8505,11 +9309,22 @@
     "categorie": "souper",
     "cuisine": "japonaise",
     "vitesse": "rapide",
-    "type_de_plat": null,
-    "methode": [],
-    "axe_gout": [],
-    "axe_texture": [],
-    "moment": [],
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "cru"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
     "slug": "porc-saute-au-gingembre",
     "jp": "豚の生姜焼き",
     "jp_lecture": null,

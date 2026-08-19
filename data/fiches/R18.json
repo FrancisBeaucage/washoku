@@ -4,11 +4,23 @@
   "categorie": "souper",
   "cuisine": "vietnamienne",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "grille",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "sale-sucre",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "souper"
+  ],
   "slug": "bun-cha-vietnamien-en-bol",
   "jp": "ブンチャー",
   "jp_lecture": "boune tcha",

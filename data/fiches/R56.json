@@ -4,11 +4,21 @@
   "categorie": "collation",
   "cuisine": "japonaise",
   "vitesse": "long",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "collation",
+  "methode": [
+    "roti"
+  ],
+  "axe_gout": [
+    "doux",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux"
+  ],
+  "moment": [
+    "collation"
+  ],
   "slug": "patate-douce-rotie",
   "jp": "焼き芋",
   "jp_lecture": null,

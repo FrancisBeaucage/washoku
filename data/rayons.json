@@ -1,0 +1,54 @@
+[
+  {
+    "k": "tous",
+    "label": "Toutes les sections"
+  },
+  {
+    "k": "leg",
+    "label": "① Fruits et légumes"
+  },
+  {
+    "k": "frigo",
+    "label": "② Mur réfrigéré"
+  },
+  {
+    "k": "poisson",
+    "label": "③ Poisson"
+  },
+  {
+    "k": "viande",
+    "label": "④ Viande"
+  },
+  {
+    "k": "congel",
+    "label": "⑤ Congélateurs"
+  },
+  {
+    "k": "sec",
+    "label": "⑥ Allée des séchés"
+  },
+  {
+    "k": "jp",
+    "label": "⑦ Allée japonaise"
+  },
+  {
+    "k": "kr",
+    "label": "⑧ Allée coréenne"
+  },
+  {
+    "k": "cn",
+    "label": "⑨ Allée chinoise"
+  },
+  {
+    "k": "sea",
+    "label": "⑩ Asie du Sud-Est"
+  },
+  {
+    "k": "the",
+    "label": "⑪ Thé"
+  },
+  {
+    "k": "riz",
+    "label": "⑫ Riz et collations"
+  }
+]

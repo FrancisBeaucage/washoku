@@ -4,11 +4,22 @@
   "categorie": "diner",
   "cuisine": "japonaise",
   "vitesse": "moyen",
-  "type_de_plat": null,
-  "methode": [],
-  "axe_gout": [],
-  "axe_texture": [],
-  "moment": [],
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "bouilli",
+    "cru"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sesame-noisette"
+  ],
+  "axe_texture": [
+    "glissant",
+    "croquant"
+  ],
+  "moment": [
+    "diner"
+  ],
   "slug": "salade-de-soba",
   "jp": "蕎麦サラダ",
   "jp_lecture": null,
