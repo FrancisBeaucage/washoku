@@ -1,0 +1,133 @@
+{
+  "id": "R141",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "chinoise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "soyeux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "oeufs-vapeur-cantonais-zheng-shui-dan",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "蒸水蛋",
+  "lecture_origine": "zhēng shuǐdàn",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Œufs vapeur cantonais (zheng shui dan)",
+  "sous_titre": "Quatre œufs, de l'eau tiède, un tamis, un couvercle. Le seul plat protéiné du recueil qui ne demande ni découpe ni surveillance.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 13,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 12,
+    "proteines_affiche": "12 g",
+    "calories": 160,
+    "calories_affiche": "≈ 160",
+    "lipides_g": 10,
+    "sodium_mg": 370,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel; au huitième, le flan tombe à environ 225 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "4 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 ml d'eau TIÈDE ou de bouillon de poulet non salé — LE RATIO EST 1 VOLUME D'ŒUF POUR 1,5 D'EAU",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "APRÈS CUISSON : 1 c. à thé de sauce soya réduite · 1/2 c. à thé d'huile de sésame grillé · oignons verts en fines rondelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif AVANT cuisson : 4 crevettes crues · un peu de porc haché mariné · shiitake trempés hachés",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Battre les œufs à la fourchette avec le sel. SANS FAIRE DE MOUSSE : les bulles font des trous."
+    },
+    {
+      "n": 2,
+      "texte": "Mesurer les œufs battus dans une tasse graduée, puis ajouter une fois et demie leur volume en eau TIÈDE. L'eau froide donne une prise inégale; l'eau chaude cuit l'œuf sur le coup."
+    },
+    {
+      "n": 3,
+      "texte": "PASSER LE MÉLANGE AU TAMIS FIN, DANS L'ASSIETTE DE CUISSON. Ça retient les filaments d'albumine et la mousse. C'est l'étape qui sépare une crème lisse d'un flan grumeleux, et elle prend dix secondes."
+    },
+    {
+      "n": 4,
+      "texte": "Écumer la mousse de surface à la cuillère."
+    },
+    {
+      "n": 5,
+      "texte": "COUVRIR L'ASSIETTE — une pellicule, une autre assiette, ou du papier d'aluminium. Sans couvercle, la condensation du couvercle du cuiseur tombe dedans et creuse des cratères."
+    },
+    {
+      "n": 6,
+      "texte": "VAPEUR À FEU DOUX-MOYEN, 12 À 14 MINUTES. SURTOUT PAS À GROS BOUILLONS. Une vapeur violente fait bouillir l'œuf de l'intérieur et donne les nids d'abeille. Le couvercle du cuiseur posé de biais est la manière la plus simple de garder la vapeur douce."
+    },
+    {
+      "n": 7,
+      "texte": "LE CENTRE DOIT ENCORE TREMBLER LÉGÈREMENT. Sortir, verser le soya et l'huile de sésame en surface, oignons verts."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce n'est pas le chawanmushi de R7, et la différence est le ratio",
+      "texte": "LE RECUEIL PORTE MAINTENANT DEUX FLANS D'ŒUFS VAPEUR ET ILS NE FONT PAS LE MÊME TRAVAIL. LE CHAWANMUSHI DE R7 est monté au DASHI, donc au poisson, dans un ratio de 1 volume d'œuf pour 3 de liquide : il est à peine pris, se boit à la cuillère, porte plusieurs garnitures dedans, et donne environ 6 g de protéines par portion. CELUI-CI est monté à l'EAU ou au bouillon de poulet, dans un ratio de 1 POUR 1,5 : il est ferme, il se coupe, il ne porte rien ou une seule garniture, et il donne 12 g.\n\n🔴 LE RATIO EST TOUTE LA DIFFÉRENCE ET IL A UNE CONSÉQUENCE NUTRITIONNELLE DIRECTE : à volume de bol égal, le zheng shui dan porte deux fois plus de protéines. Un chawanmushi est un amuse-bouche; celui-ci est un plat.\n\nET C'EST LE PLAT LE PLUS ACCESSIBLE DU RECUEIL POUR UNE RAISON QU'AUCUN CHIFFRE NE DIT : IL NE DEMANDE AUCUNE DÉCOUPE ET AUCUNE SURVEILLANCE. Six minutes de préparation, dont zéro au couteau, puis treize minutes où on n'est pas dans la cuisine. C'est exactement le critère qu'on a dégagé du souper du 18 août — le nombre de gestes distincts compte autant que le total en minutes. CE PLAT EN A QUATRE.\n\nTROIS CENT SOIXANTE-DIX MILLIGRAMMES, ET LE SOYA VA DESSUS ET NON DEDANS. Un quart de cuillère à thé de sel dans le mélange — 575 mg — et une cuillère à thé de soya versée en surface après cuisson. Le soya en surface se goûte deux fois plus que le même soya dilué dans 400 ml de crème d'œuf : c'est le levier du sel de surface, appliqué à un flan.\n\n⚠️ ET LE QUART DE CUILLÈRE À THÉ DANS LE MÉLANGE EST LE POSTE À DISCUTER, PAS LE SOYA. Il porte à lui seul les trois quarts du sodium du plat. À un huitième de cuillère, le flan tombe à environ 225 mg par portion — et il reste mangeable, parce que le soya de surface arrive directement sur la langue. C'est le même arbitrage qu'au R127 : ce plat est dosable de bout en bout, et c'est ça son avantage, pas un chiffre bas en partant.\n\n⚠️ NE PAS SALER AVEC UN BOUILLON DU COMMERCE. Trois cents millilitres de bouillon de poulet en boîte ordinaire portent de 800 à 1 200 mg de sodium — soit six fois le total de cette fiche. De l'eau tiède et un quart de cuillère à thé de sel donnent un meilleur plat qu'un bouillon salé, parce que l'œuf a assez de goût pour lui-même."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "JAo99RBfmT4",
+    "auteur": "Made With Lau",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R7",
+    "R88"
+  ],
+  "commentaire_source": ""
+}

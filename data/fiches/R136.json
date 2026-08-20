@@ -1,0 +1,152 @@
+{
+  "id": "R136",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "chinoise",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "haricots-verts-au-saute-a-sec-ganbian-sijidou",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "干煸四季豆",
+  "lecture_origine": "gānbiān sìjìdòu",
+  "prononciation": "gan-biène si-ji-dou",
+  "langue_origine": "zh",
+  "fr": "Haricots verts au sauté à sec (ganbian sijidou)",
+  "sous_titre": "L'accompagnement croquant que le dossier cherche depuis son premier comptage. Des haricots ridés, fermes sous la dent, et pas une goutte de friture.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 14,
+    "proteines_affiche": "14 g",
+    "calories": 200,
+    "calories_affiche": "≈ 200",
+    "lipides_g": 6,
+    "sodium_mg": 285,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. LE YA CAI EST COMPTÉ À ≈ 400 MG PAR CUILLÈRE À SOUPE ET CE CHIFFRE N'A PAS ÉTÉ LU SUR UNE ÉTIQUETTE — à vérifier au premier achat. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de haricots verts, équeutés, ENTIERS ou coupés en deux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de porc haché maigre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de ya cai (légume mariné sichuanais) OU de zha cai haché OU, à défaut, 1 c. à thé de doubanjiang",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 gousses d'ail émincées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 piments séchés entiers, coupés en deux, graines retirées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 c. à thé de poivre de Sichuan",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre — ET C'EST TOUT : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/4 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T17"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "LES HARICOTS DOIVENT ÊTRE PARFAITEMENT SECS. Les laver la veille, ou les éponger un par un au linge. Un haricot mouillé fait de la vapeur et ne ride jamais."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle large ou wok, 2 c. à thé d'huile seulement, feu MOYEN. Les haricots en une seule couche."
+    },
+    {
+      "n": 3,
+      "texte": "8 À 12 MINUTES, EN LES RETOURNANT TOUTES LES 2 MINUTES SEULEMENT. C'est long et c'est normal. Ils doivent se rider, se tacher de brun, et perdre leur brillant. Un haricot qui a ridé s'est vidé de son eau : c'est exactement ce que 干煸 veut dire — « sauter à sec »."
+    },
+    {
+      "n": 4,
+      "texte": "Pousser les haricots sur le côté. Le porc haché dans l'espace libre, écrasé à la spatule, 3 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "L'ail, le ya cai, les piments et le poivre de Sichuan, 45 secondes."
+    },
+    {
+      "n": 6,
+      "texte": "Tout mélanger, le soya, 30 secondes. Servir chaud."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le trou du répertoire, et c'est cette fiche qui le comble",
+      "texte": "🔴 LE COMPTAGE DU RÉPERTOIRE, FAIT SUR LES 79 PREMIÈRES FICHES, AVAIT ÉTABLI CECI : le dossier n'avait QU'UN SEUL accompagnement à dominante croquante qui ne soit pas un concombre vinaigré, et c'était celui dont la julienne prend vingt minutes. Et le débrief du 18 août a établi que LA TEXTURE EST L'AXE PRÉDICTIF DU GOÛT DE FRANCIS : tout ce qui a été validé croque, tout ce qui a été écarté est mou.\n\nCETTE FICHE EST LA RÉPONSE LA PLUS DIRECTE À CES DEUX CONSTATS RÉUNIS. Un haricot vert sauté à sec pendant dix minutes n'est ni cru ni mou : IL EST RIDÉ À L'EXTÉRIEUR ET FERME À L'INTÉRIEUR, et il résiste franchement sous la dent. Aucune autre méthode du recueil ne produit cette texture — ni le blanchiment, ni la vapeur, ni le mijotage.\n\n⚠️ LA VERSION DE RESTAURANT PASSE LES HARICOTS À LA GRANDE FRITURE, ET C'EST LE SEUL OBSTACLE. Deux minutes dans un litre d'huile à 180 °C rident les haricots en deux minutes au lieu de dix, et ils en absorbent de l'ordre de 3 à 4 cuillères à soupe — 360 à 480 calories pour deux portions. La vidéo retenue s'appelle « without deep frying » et c'est pour ça qu'elle a été choisie : elle montre la version à la poêle, avec le temps que ça prend réellement.\n\nCE QUE ÇA COÛTE : dix minutes de plus, et il faut y penser à l'avance. Ce n'est pas un plat de dernière minute. Ce que ça donne : six grammes de lipides par portion au lieu de vingt-cinq.\n\nLES CENT GRAMMES DE PORC HACHÉ NE SONT PAS UNE GARNITURE : ILS SONT LA MOITIÉ DE LA PROTÉINE DU PLAT. Quatorze grammes par portion pour un accompagnement — comparé nommément, c'est plus que le shiraae de R119, qui en porte dix. Et c'est le même levier qu'au R124 : un petit plat qui porte sa propre protéine libère le plat principal.\n\n⚠️ LE YA CAI EST INTROUVABLE LA MOITIÉ DU TEMPS ET IL FAUT DIRE PAR QUOI LE REMPLACER. À défaut : du zha cai (榨菜, la tige de moutarde marinée, vendue en sachets), ou une cuillère à thé de doubanjiang. Aucun des trois n'est interchangeable en goût — le ya cai est sec et fumé, le zha cai est croquant et acide, le doubanjiang est piquant et rond — mais tous les trois donnent le fond fermenté que le plat demande."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "lEJUCwBL7-k",
+    "auteur": "KomodoCooks",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R124",
+    "R119"
+  ],
+  "commentaire_source": ""
+}

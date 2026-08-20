@@ -264,11 +264,21 @@ function remettreSante(ing) {
    accentuée, et il serait avalé de la même façon le jour où un nom allemand
    entre au recueil.
 
+   LA FORME MAJUSCULE N'A PAS BESOIN D'ÊTRE DANS LA TABLE, et le document 30 a
+   eu raison de poser la question plutôt que de le supposer : `Œufs` et `Ægis`
+   entrent au recueil ce jour-là. La réponse est dans l'ORDRE des opérations —
+   `toLowerCase()` s'exécute AVANT le dépliage, donc `Œ` est déjà devenu `œ`
+   quand la table s'applique. Vérifié : `limace("Œufs vapeur cantonais")` donne
+   `oeufs-vapeur-cantonais`. Le normalisateur de recherche de `lib/vue.js` a la
+   même architecture, donc « oeufs » y trouve « Œufs ».
+
    ⚠️ CE BOGUE ÉTAIT INVISIBLE À SON PROPRE VALIDATEUR. La règle 20 vérifie que
    `slug === limace(fr)` : elle déclarait donc corrects les slugs que la faute
    produisait. Un système qui se vérifie contre lui-même ne trouve pas ses
    propres bogues — il a fallu comparer la sortie à une valeur attendue écrite
-   ailleurs. */
+   ailleurs. C'est encore ce qui a levé le drapeau au document 30 : le rédacteur
+   avait rejoué sa propre réimplémentation de `limace()` sur ses champs `fr`, et
+   c'est le DÉSACCORD entre les deux qui a posé la question. */
 function limace(s) {
   return s.toLowerCase()
     .replace(/\u0153/g, 'oe').replace(/\u00e6/g, 'ae').replace(/\u00df/g, 'ss')

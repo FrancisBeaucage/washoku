@@ -1,0 +1,137 @@
+{
+  "id": "R135",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "chinoise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "blanchi"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "croquant",
+    "glissant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "choy-sum-blanchi-et-nappe-bai-zhuo-cai-xin",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "白灼菜心",
+  "lecture_origine": "bái zhuó càixīn",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Choy sum blanchi et nappé (bai zhuo cai xin)",
+  "sous_titre": "Le légume vert cantonais en huit minutes. Et le plat qui montre où va tout le sodium de la cuisine chinoise : dans une cuillère de sauce d'huîtres qu'on peut remplacer.",
+  "portions": "4",
+  "temps_affiche": "≈ 8 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 5,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 45,
+    "calories_affiche": "≈ 45",
+    "lipides_g": 3,
+    "sodium_mg": 130,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "500 g de choy sum (菜心) OU de gai lan OU de bok choy, lavé, bases entaillées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "POUR L'EAU : 1 c. à thé de sel · 1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE : 1 c. à soupe de sauce soya réduite en sodium · 1 c. à soupe d'eau · 1/2 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "POUR L'HUILE PARFUMÉE : 1 c. à soupe d'huile neutre · 3 gousses d'ail émincées · 1 c. à thé de gingembre en fine julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE SAUCE D'HUÎTRES — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : quelques rondelles de piment rouge",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T11"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Grande casserole d'eau à gros bouillons. LE SEL ET LA CUILLÈRE À THÉ D'HUILE. L'huile n'assaisonne rien : elle enrobe les feuilles et LES FAIT BRILLER, ce qui est tout le point du 白灼."
+    },
+    {
+      "n": 2,
+      "texte": "LES TIGES D'ABORD, 45 SECONDES. PUIS LES FEUILLES, 30 SECONDES. Le vert doit devenir franc et éclatant."
+    },
+    {
+      "n": 3,
+      "texte": "Sortir à la pince, égoutter debout dans une passoire, puis dresser en un tas serré dans le plat de service. NE PAS RINCER À L'EAU FROIDE : le plat se mange chaud."
+    },
+    {
+      "n": 4,
+      "texte": "Mélanger le soya, l'eau et le sucre. VERSER SUR LE LÉGUME, PAS DESSOUS."
+    },
+    {
+      "n": 5,
+      "texte": "Petite poêle, l'huile, l'ail et le gingembre à feu MOYEN — pas vif — 60 à 90 secondes, jusqu'à ce que l'ail soit blond pâle. BLOND, PAS BRUN : l'ail brûlé est amer et il brunit en cinq secondes."
+    },
+    {
+      "n": 6,
+      "texte": "VERSER L'HUILE BRÛLANTE ET SES AROMATES SUR LE LÉGUME. Ça doit grésiller. Servir tout de suite."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La sauce d'huîtres est le réflexe, et elle coûte 690 mg la cuillère",
+      "texte": "🔴 LE 白灼 SE SERT PARTOUT AVEC DE LA SAUCE D'HUÎTRES, ET C'EST LÀ QUE PASSE LE SODIUM DE LA CUISINE CANTONAISE. L'étiquette lue le 18 août donne 690 mg par cuillère à soupe pour la Lee Kum Kee. Une cuillère sur 500 g de légume, c'est 172 mg par portion pour un plat qui n'a rien d'autre.\n\nCE QUI LA REMPLACE : une cuillère à soupe de soya réduite, une cuillère d'eau, une demi-cuillère à thé de sucre. Cent trente milligrammes par portion, et le résultat est plus net — la sauce d'huîtres apporte une épaisseur sucrée-marine qui couvre le goût du légume; celle-ci le laisse passer. La vidéo retenue s'appelle littéralement « Less Salty », et c'est pourquoi elle a été choisie plutôt qu'une des vingt autres.\n\n⚠️ ET LE SUCRE N'EST PAS FACULTATIF ICI. Une demi-cuillère à thé pour quatre portions. Sans lui, le soya dilué est plat et un peu âpre — le sucre ne sucre pas, il remplace la rondeur que la sauce d'huîtres apportait. C'est le même rôle que dans le shiraae de R119.\n\n⚠️ ET LA CUILLÈRE À THÉ DE SEL DE L'EAU DE BLANCHIMENT N'EST PAS COMPTÉE DANS LES 130 MG. Le légume en absorbe une fraction de pourcent, et l'eau part à l'égout. Tout le sodium de cette fiche vient de la cuillère à soupe de soya répartie sur quatre portions.\n\nL'HUILE DANS L'EAU DE BLANCHIMENT EST LE VRAI SECRET DU PLAT ET PRESQUE PERSONNE NE L'EXPLIQUE. 白灼 veut dire « blanchir à blanc »; le mot 灼 évoque le brillant. Une cuillère à thé d'huile dans deux litres d'eau forme un film microscopique sur les feuilles au moment où elles sortent. Sans elle, le légume est mat et sèche en trois minutes dans l'assiette. Avec elle, il brille et reste souple. Ça ne change rien aux calories — un tiers de cuillère par portion.\n\nL'HUILE PARFUMÉE VERSÉE BRÛLANTE À LA FIN EST LA DEUXIÈME MOITIÉ DE LA TECHNIQUE. L'ail cuit dans l'huile relâche ses composés soufrés dans le gras; versé grésillant, il les dépose sur toute la surface du légume. C'EST UN ASSAISONNEMENT QUI NE CONTIENT PAS UNE TRACE DE SEL, et c'est le levier que le dossier n'exploitait pas."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "P4gmrDR_grc",
+    "auteur": "Home Cooking with Somjit",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R143",
+    "R119"
+  ],
+  "commentaire_source": ""
+}

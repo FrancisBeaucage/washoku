@@ -309,7 +309,12 @@ const PARAM = (nom) => new URLSearchParams(location.search).get(nom) || "";
 /* T avant R, puis par numéro, puis par suffixe : T1 … T7a, T7b, T8, R1 … */
 const RANG = (id) => { const m = /^([A-Z]+)(\d+)([a-z]*)$/.exec(id) || []; return [m[1] === "T" ? 0 : 1, parseInt(m[2] || "0", 10), m[3] || ""]; };
 const PAR_CODE = (a, b) => { const x = RANG(a.id), y = RANG(b.id); return x[0] - y[0] || x[1] - y[1] || (x[2] < y[2] ? -1 : x[2] > y[2] ? 1 : 0); };
-const NORM = (s) => (s || "").toLowerCase().replace(/\u0153/g, "oe").replace(/\u00e6/g, "ae").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+/* Le normalisateur de recherche déplie les mêmes ligatures que `limace()` de
+   `lib/champs.js`, et dans le même ordre : minuscules D'ABORD, ce qui règle
+   aussi les formes majuscules — « oeufs » trouve « Œufs vapeur cantonais ».
+   `ß` y entre au document 30 par parité : aucun mot du dossier n'en porte, et
+   c'est exactement pourquoi il fallait l'ajouter pendant que rien n'en dépend. */
+const NORM = (s) => (s || "").toLowerCase().replace(/\u0153/g, "oe").replace(/\u00e6/g, "ae").replace(/\u00df/g, "ss").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const OPTIONS = (tous, groupe, valeurs) => [{ k: "tous", label: tous }].concat(valeurs.map(v => ({ k: v, label: LIB(groupe, v) })));
 
 

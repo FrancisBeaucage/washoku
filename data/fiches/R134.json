@@ -1,0 +1,167 @@
+{
+  "id": "R134",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "chinoise",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "poche",
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "croquant",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "porc-et-chou-sautes-deux-fois-huiguorou",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "回锅肉",
+  "lecture_origine": "huíguōròu",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Porc et chou sautés deux fois (huiguorou)",
+  "sous_titre": "Le plat sichuanais le plus aimé, à neuf grammes de lipides au lieu de trente-huit. Un seul mot change dans la liste d'ingrédients : longe au lieu de poitrine.",
+  "portions": "2",
+  "temps_affiche": "≈ 45 min dont 25 de pochage",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 30,
+    "attente": 10
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 26,
+    "proteines_affiche": "26 g",
+    "calories": 260,
+    "calories_affiche": "≈ 260",
+    "lipides_g": 9,
+    "sodium_mg": 420,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "250 g de LONGE de porc en un seul morceau — ET NON DE LA POITRINE : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 g de chou pointu OU de chou vert, en larges morceaux de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 poireau OU 3 oignons verts, en biseaux de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé de doubanjiang — pâte de fève au piment",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de tianmianjiang — pâte de fève sucrée — OU 1 c. à thé de miso rouge",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "POUR LE POCHAGE : 2 tranches de gingembre · 1 oignon vert · 1 c. à soupe de vin de Shaoxing",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/4 c. à thé de poivre de Sichuan moulu",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12",
+    "T14"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 : le morceau de longe dans l'eau FROIDE avec le gingembre, l'oignon vert et le vin. Monter à frémissement. ÉCUMER LA MOUSSE GRISE pendant les 3 premières minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Frémissement 20 à 25 minutes, jusqu'à ce qu'une brochette traverse sans résistance. Sortir."
+    },
+    {
+      "n": 3,
+      "texte": "METTRE LA VIANDE AU CONGÉLATEUR 10 MINUTES. Une longe tiède se déchire; refroidie et raffermie, elle se tranche en lamelles de 2 mm. C'est l'étape que tout le monde escamote et c'est celle qui décide de la texture du plat."
+    },
+    {
+      "n": 4,
+      "texte": "Trancher très mince. PRÉPARER TOUT LE RESTE ET LE POSER À CÔTÉ DU FEU — c'est ce que T14 demande : la saisie éclair ne laisse pas le temps de couper quoi que ce soit."
+    },
+    {
+      "n": 5,
+      "texte": "Wok ou grande poêle très chaude, 2 c. à thé d'huile. Les tranches de porc 1 minute, étalées, jusqu'à ce que les bords se recroquevillent."
+    },
+    {
+      "n": 6,
+      "texte": "Pousser le porc sur le côté. LE DOUBANJIANG ET LE TIANMIANJIANG DANS L'HUILE CHAUDE, 20 SECONDES, jusqu'à ce que l'huile rougisse. C'est là que le plat prend sa couleur et son parfum; plus longtemps, la pâte brûle et amèrise."
+    },
+    {
+      "n": 7,
+      "texte": "Le chou et le poireau, 1 minute 30 à feu maximum sans couvrir. Le soya, le sucre. Encore 30 secondes."
+    },
+    {
+      "n": 8,
+      "texte": "Servir immédiatement. LE CHOU DOIT CROQUER."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Un mot dans la liste d'ingrédients, vingt-neuf grammes de lipides",
+      "texte": "🔴 LE HUIGUOROU AUTHENTIQUE SE FAIT AVEC DE LA POITRINE DE PORC, ET C'EST LE SEUL OBSTACLE À SA COMPATIBILITÉ. DEUX CENT CINQUANTE GRAMMES DE POITRINE PORTENT DE L'ORDRE DE 75 G DE LIPIDES. LA MÊME QUANTITÉ DE LONGE EN PORTE 12. Par portion : 38 g contre 9. Le plafond quotidien du dossier est de 65 g de lipides — la version traditionnelle en mange 58 % dans une assiette.\n\nCE QUE LA POITRINE APPORTAIT, ET QUE LA LONGE NE DONNE PAS : les bords qui se recroquevillent en petites coupelles translucides. C'est le gras qui fond et se contracte. Avec de la longe, on n'obtient pas ça, et il faut le dire plutôt que de prétendre le contraire. Ce qu'on obtient à la place : des lamelles fermes qui prennent la sauce et croquent avec le chou.\n\n🔴 ET VOICI CE QUI REND LE REMPLACEMENT POSSIBLE, PARCE QUE CE N'EST PAS ÉVIDENT : LE POCHAGE DE T12 CHANGE DE RÔLE MAIS RESTE INDISPENSABLE. Dans la version traditionnelle, les vingt-cinq minutes de frémissement servent à FONDRE le gras de la poitrine. Sur une longe, elles servent à ATTENDRIR une coupe maigre — c'est-à-dire exactement le contraire, avec le même geste. Une longe sautée crue serait de la semelle. Pochée puis saisie une minute, elle est tendre.\n\n回锅 VEUT DIRE « RETOUR AU WOK », ET LE NOM DIT LA MÉTHODE : la viande est cuite deux fois, une fois à l'eau et une fois au feu. C'est un patron transportable — le même double traitement rend utilisable n'importe quelle coupe dure et maigre.\n\n⚠️ QUATRE CENT VINGT MILLIGRAMMES, ET CE SODIUM-LÀ NE VIENT PAS DU SEL. Il n'y a pas un grain de sel dans cette recette : il vient du doubanjiang (≈ 700 mg par cuillère à soupe), du tianmianjiang et du soya. DEUX CUILLÈRES À THÉ DE DOUBANJIANG ET NON DEUX CUILLÈRES À SOUPE, comme le veut l'usage — c'est là qu'on économise 350 mg par portion, et le plat reste franchement piquant parce qu'une pâte de fève au piment est très concentrée.\n\n⚠️ LA VIDÉO MONTRE DE LA POITRINE. Un lecteur qui la regarde après avoir acheté de la longe verra autre chose que ce qu'il a dans sa poêle. C'est voulu, et c'est le seul écart entre la fiche et sa démonstration."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "EJIojMLLs2g",
+    "auteur": "Chinese Cooking Demystified",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R140",
+    "R136"
+  ],
+  "commentaire_source": ""
+}

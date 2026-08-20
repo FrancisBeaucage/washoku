@@ -1,0 +1,146 @@
+{
+  "id": "R137",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "chinoise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "ferme",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "tofu-braise-rouge-hongshao-doufu",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "红烧豆腐",
+  "lecture_origine": "hóngshāo dòufu",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Tofu braisé rouge (hongshao doufu)",
+  "sous_titre": "Le braisage rouge est une méthode, pas une recette de porc gras. Appliqué au tofu, il donne vingt-quatre grammes de protéines pour cent quatre-vingt-quinze calories.",
+  "portions": "2",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 17,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 24,
+    "proteines_affiche": "24 g",
+    "calories": 195,
+    "calories_affiche": "≈ 195",
+    "lipides_g": 12,
+    "sodium_mg": 325,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de tofu FERME, en tranches de 1,5 cm — égoutté 10 minutes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE, mélangée d'avance : 1 c. à soupe de sauce soya réduite · 1 c. à thé de sauce soya foncée, pour la couleur · 1 c. à soupe de vin de Shaoxing · 1 c. à thé de sucre · 200 ml d'eau ou de bouillon",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 gousses d'ail émincées · 1 c. à thé de gingembre râpé · 3 oignons verts, blancs et verts séparés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de fécule délayée dans 1 c. à soupe d'eau froide",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE FRITURE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 4 shiitake tranchés · 1/2 c. à thé de doubanjiang pour une version piquante",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T15"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "ÉPONGER CHAQUE TRANCHE DE TOFU AU PAPIER ABSORBANT, LES DEUX FACES. Un tofu humide colle et ne dore pas."
+    },
+    {
+      "n": 2,
+      "texte": "POÊLE ANTIADHÉSIVE, 1 C. À THÉ D'HUILE SEULEMENT, FEU MOYEN-VIF. Les tranches en une couche, 4 à 5 minutes sans y toucher, jusqu'à une croûte dorée. Retourner, 3 minutes. Sortir sur une assiette."
+    },
+    {
+      "n": 3,
+      "texte": "Même poêle : l'ail, le gingembre, les blancs d'oignon vert, 30 secondes."
+    },
+    {
+      "n": 4,
+      "texte": "Verser la sauce prémélangée. Amener à frémissement."
+    },
+    {
+      "n": 5,
+      "texte": "Remettre le tofu, en une couche, sauce à hauteur des deux tiers. 8 MINUTES À DÉCOUVERT, À FRÉMISSEMENT, en retournant une fois délicatement."
+    },
+    {
+      "n": 6,
+      "texte": "LA FÉCULE DÉLAYÉE EN FILET, EN REMUANT LA POÊLE ET NON LE TOFU. La sauce nappe en 30 secondes."
+    },
+    {
+      "n": 7,
+      "texte": "Les verts d'oignon vert, éteindre. Servir avec du riz."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le braisage rouge sur autre chose que du porc gras",
+      "texte": "LA VIDÉO DE LA TECHNIQUE T15 S'APPELLE « Red Braised Anything, Home-style », ET C'EST EXACTEMENT LE POINT. Le 红烧 est une grammaire — soya clair pour le sel, soya foncé pour la couleur, vin pour le parfum, sucre pour la rondeur, réduction pour la texture — et le dossier avait la grammaire sans une seule phrase à dire avec elle. Le plat emblème du braisage rouge est le 红烧肉, la poitrine de porc braisée deux heures, dont le gras est structurel et qu'aucune dose n'allège. CELUI-CI EST LE DÉBOUCHÉ COMPATIBLE.\n\n⚠️ LE HONGSHAO DOUFU CLASSIQUE FRIT LE TOFU AVANT DE LE BRAISER, ET C'EST LE SEUL POINT À CHANGER. Quatre cents grammes de tofu frit absorbent de l'ordre de 3 cuillères à soupe d'huile — 360 calories, 40 g de lipides. La vidéo retenue porte 不油炸 dans son titre : « sans friture ». Poêlé sur une cuillère à thé d'huile dans une poêle antiadhésive, le tofu développe la même croûte dorée en cinq minutes.\n\nET LA CROÛTE N'EST PAS COSMÉTIQUE : c'est elle qui empêche le tofu de se défaire pendant les huit minutes de braisage. Un tofu cru mis directement dans la sauce s'effrite au premier retournement. LA SAISIE EST STRUCTURELLE.\n\nLA CUILLÈRE À THÉ DE SOYA FONCÉ EST LÀ POUR LA COULEUR ET ELLE COÛTE ENVIRON 150 MG. C'est le seul ingrédient du plat dont l'utilité est visuelle, et ça se discute. Ce qu'elle apporte vraiment : le brun profond qui fait qu'on reconnaît un 红烧. Ce qu'on perd sans elle : une sauce beige. Ce n'est pas rien pour un plat qu'on mangera vingt fois.\n\nLA FÉCULE SE VERSE EN REMUANT LA POÊLE, PAS LE TOFU. Une spatule dans un tofu braisé le casse en purée. Prendre le manche et faire tourner la poêle : la sauce circule, le tofu reste entier. Même geste que les cinq dernières minutes du chikuzenni de R114."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "9LjUDV8ZfBE",
+    "auteur": "Mr. Hong Kitchen阿鸿厨房",
+    "langue": "zh"
+  },
+  "voir_aussi": [
+    "R114",
+    "R26"
+  ],
+  "commentaire_source": ""
+}

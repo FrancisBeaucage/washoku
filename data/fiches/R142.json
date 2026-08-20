@@ -1,0 +1,155 @@
+{
+  "id": "R142",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "chinoise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "acide",
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "fondant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "oeufs-sautes-a-la-tomate-fanqie-chao-dan",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "番茄炒蛋",
+  "lecture_origine": "fānqié chǎodàn",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Œufs sautés à la tomate (fanqie chao dan)",
+  "sous_titre": "Le plat le plus cuisiné dans les foyers chinois, et le seul du lot dont le sel est le seul assaisonnement. Le dossier n'avait que sa version soupe.",
+  "portions": "2",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 7,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 14,
+    "proteines_affiche": "14 g",
+    "calories": 240,
+    "calories_affiche": "≈ 240",
+    "lipides_g": 14,
+    "sodium_mg": 290,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel, qui est le seul poste; au huitième, le plat tombe à environ 145 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "4 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de tomates mûres — 3 grosses — en quartiers épais",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons verts, blancs et verts séparés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 c. à thé de gingembre râpé — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN KETCHUP, AUCUN CONCENTRÉ DE TOMATE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de vin de Shaoxing dans les œufs",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Battre les œufs avec une pincée du sel. UNE PINCÉE SEULEMENT : le reste va aux tomates."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle bien chaude, 1 c. à thé d'huile. Les œufs d'un coup. Attendre 10 secondes, puis POUSSER DU BORD VERS LE CENTRE en gros plis. Sortir dès qu'il n'y a plus de liquide libre — ils sont encore humides et c'est voulu."
+    },
+    {
+      "n": 3,
+      "texte": "Même poêle, 1 c. à thé d'huile, les blancs d'oignon vert et le gingembre, 20 secondes."
+    },
+    {
+      "n": 4,
+      "texte": "LES TOMATES, FACE COUPÉE EN DESSOUS, 3 À 4 MINUTES SANS REMUER, puis remuer. Elles doivent s'affaisser et rendre leur jus — c'est ce jus qui est la sauce du plat."
+    },
+    {
+      "n": 5,
+      "texte": "Le sucre et le reste du sel. GOÛTER LE JUS DE TOMATE SEUL : c'est le seul moment pour corriger."
+    },
+    {
+      "n": 6,
+      "texte": "Remettre les œufs, mélanger 30 secondes, éteindre. Les verts d'oignon vert."
+    },
+    {
+      "n": 7,
+      "texte": "Servir sur du riz. LE JUS DOIT COULER DANS LE RIZ : c'est la moitié du plaisir."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Séparer puis réunir, et le sucre n'est pas un choix",
+      "texte": "C'EST LE PLAT QUE LES CHINOIS CITENT QUAND ON LEUR DEMANDE CE QUE LEUR MÈRE CUISINE, et le recueil ne l'avait pas. Il avait R41, la soupe aux œufs et tomate, qui est un autre plat : celle-ci est un sauté qui se mange sur du riz et qui porte quatorze grammes de protéines.\n\n🔴 LES ŒUFS ET LES TOMATES CUISENT SÉPARÉMENT PUIS SE RÉUNISSENT, ET C'EST LA SEULE RÈGLE DU PLAT. Cuits ensemble, l'œuf boit le jus de tomate et devient une bouillie orange et caoutchouteuse. Cuit d'abord et remis à la fin, il reste en gros plis moelleux dans une sauce de tomate. Deux textures au lieu d'une.\n\nET LES ŒUFS SORTENT DE LA POÊLE ENCORE HUMIDES : ils finiront de cuire pendant les trente secondes de la fin. C'est la même règle que les œufs brouillés du soborodon de R108.\n\n⚠️ LA CUILLÈRE À THÉ DE SUCRE N'EST PAS UNE PRÉFÉRENCE ET IL FAUT DIRE POURQUOI : les tomates d'épicerie sont cueillies vertes et mûries au transport. Elles ont l'acidité d'une tomate mûre et pas son sucre. La cuillère à thé remplace ce que le soleil n'a pas fait — et si les tomates sont de saison et vraiment mûres, elle devient facultative. Goûter le jus à l'avant-dernière étape est la façon de le savoir.\n\nDEUX CENT QUATRE-VINGT-DIX MILLIGRAMMES, ET C'EST UN QUART DE CUILLÈRE À THÉ DE SEL — RIEN D'AUTRE. Ni soya, ni pâte, ni sauce. La tomate apporte son propre acide et son propre umami : le glutamate d'une tomate mûre est ce qui rend ce plat possible sans assaisonnement.\n\n⚠️ ET C'EST DONC LE PLAT LE PLUS FACILE À DOSER DE TOUT LE LOT : un seul poste de sodium, et il se mesure à la cuillère. À un huitième de cuillère à thé, le plat tombe à environ 145 mg par portion. Comparé nommément : c'est alors moins que le choy sum de R135 et à peu près comme le brocoli de R143 — pour quatorze grammes de protéines.\n\n⚠️ AUCUN KETCHUP ET AUCUN CONCENTRÉ, ET C'EST UN PIÈGE COURANT DES RECETTES OCCIDENTALISÉES. Une cuillère à soupe de ketchup porte environ 160 mg de sodium et 4 g de sucre, et elle donne au plat un goût de sauce industrielle. Les tomates fraîches font tout le travail, à condition de leur laisser les quatre minutes sans les remuer."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "FL7u21QGoo0",
+    "auteur": "J. Kenji López-Alt",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R41",
+    "R108"
+  ],
+  "commentaire_source": ""
+}

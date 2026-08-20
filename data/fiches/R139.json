@@ -1,0 +1,162 @@
+{
+  "id": "R139",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "chinoise",
+  "vitesse": "extra-long",
+  "type_de_plat": "soupe",
+  "methode": [
+    "blanchi",
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-de-courge-d-hiver-et-porc-dongguo-paigu-tang",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "冬瓜排骨汤",
+  "lecture_origine": "dōngguā páigǔtāng",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Soupe de courge d'hiver et porc (dongguo paigu tang)",
+  "sous_titre": "Cent quatre-vingt-dix milligrammes de sodium et dix-sept grammes de protéines. Douze minutes de travail pour une heure vingt sans surveillance — et trois façons d'enlever le gras du même bouillon.",
+  "portions": "4",
+  "temps_affiche": "≈ 1 h 45 dont 1 h 20 sans surveillance",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 95,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 17,
+    "proteines_affiche": "17 g",
+    "calories": 200,
+    "calories_affiche": "≈ 200",
+    "lipides_g": 10,
+    "sodium_mg": 190,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ CE BOUILLON SE BOIT EN ENTIER : ses 190 mg comptent tous. Les lipides supposent la soupe NON dégraissée; refroidie une nuit et débarrassée de sa galette de gras figé, elle perd 4 à 5 g par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "500 g de côtes levées de porc, coupées en tronçons de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "800 g de courge d'hiver (冬瓜, dōnggua) pelée, épépinée, en cubes de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 tranches de gingembre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons verts entiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de vin de Shaoxing",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "8 baies de goji — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/3 c. à thé de sel SEULEMENT, ajouté à la toute fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1,5 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN BOUILLON EN CUBE, AUCUN SOYA",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : un peu de poivre blanc · oignons verts en rondelles",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12",
+    "T16"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "FAIRE T12 : les côtes dans une casserole d'eau FROIDE, monter à ébullition, laisser bouillir 3 minutes. Une écume grise épaisse monte. JETER L'EAU, RINCER LES CÔTES À L'EAU COURANTE UNE PAR UNE, LAVER LA CASSEROLE. Ça semble excessif; ça ne l'est pas."
+    },
+    {
+      "n": 2,
+      "texte": "Remettre les côtes, 1,5 L d'eau fraîche, le gingembre, les oignons verts, le vin."
+    },
+    {
+      "n": 3,
+      "texte": "Monter à frémissement, écumer une dernière fois si nécessaire, puis COUVERCLE DE BIAIS, 1 HEURE À PETIT FRÉMISSEMENT. Aucune surveillance."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter la courge d'hiver. 25 MINUTES DE PLUS. Elle doit devenir translucide et se défaire à la cuillère."
+    },
+    {
+      "n": 5,
+      "texte": "Les goji dans les 5 dernières minutes."
+    },
+    {
+      "n": 6,
+      "texte": "RETIRER LE GINGEMBRE ET LES OIGNONS VERTS. SALER MAINTENANT ET PAS AVANT — un tiers de cuillère à thé, goûter, s'arrêter là."
+    },
+    {
+      "n": 7,
+      "texte": "Poivre blanc et oignons verts frais au service."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Trois façons d'enlever le gras du même bouillon, et la troisième est celle que personne ne fait",
+      "texte": "CETTE FICHE EST LE DÉBOUCHÉ DE T16, LE MIJOTAGE LONG, ET C'EST AUSSI LE PLAT QUI EXPLIQUE POURQUOI T12 EXISTE. Une soupe d'os de porc est un plat gras par nature. Elle est ici à dix grammes de lipides par portion, et c'est le résultat de trois gestes qui se cumulent.\n\nUN — LE BLANCHIMENT PRÉALABLE, T12. Trois minutes d'ébullition dans une eau qu'on jette. Ce qui part : l'écume — des protéines coagulées et du sang — et une partie du gras de surface. Ce qui reste : un bouillon clair. Sans ce geste, le bouillon est trouble et il goûte le métal; c'est pourquoi la technique existe et pourquoi il ne faut pas croire qu'on gaspille de la saveur. L'eau qu'on jette ne contient pas encore de goût : les os n'ont eu que trois minutes.\n\nDEUX — L'ÉCUMAGE APRÈS LA REMISE À L'EAU. Quelques cuillères de gras liquide en surface.\n\n🔴 TROIS — ET C'EST CELLE QUE PERSONNE NE FAIT : REFROIDIR LA SOUPE AU FRIGO ET SOULEVER LA GALETTE DE GRAS FIGÉ. Faite la veille, cette soupe se dégraisse toute seule pendant la nuit — le gras remonte, durcit, et se retire d'un seul morceau à la cuillère. C'est de l'ordre de 15 à 20 g de lipides enlevés pour quatre portions, soit 4 à 5 g par portion, gratuitement. Et la soupe est meilleure le lendemain de toute façon. C'est le geste le plus rentable du document et il ne coûte que de la patience.\n\n⚠️ UN TIERS DE CUILLÈRE À THÉ DE SEL POUR QUATRE BOLS — 767 MG — ET C'EST TOUT L'ASSAISONNEMENT. Pas de soya, pas de bouillon en cube. Une soupe cantonaise se juge à sa douceur, pas à son sel — la courge d'hiver et les os apportent tout. Et cette soupe SE BOIT : ses 190 mg comptent en entier, contrairement à un mijoté dont on laisse le liquide. À ce prix-là, elle laisse toute la place au reste du repas.\n\nLA COURGE D'HIVER EST À L'ALLÉE DES LÉGUMES DE KIM PHAT, vendue au poids en tranches, et c'est un légume que le dossier n'a pas encore : de l'eau, de la fibre, et une texture fondante qui n'est ni celle du daikon ni celle de la courge d'été. À défaut : du daikon, qui donne une soupe plus poivrée, ou de la courge chayotte."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "2SbL73VnOSc",
+    "auteur": "misshookitchen",
+    "langue": "zh"
+  },
+  "voir_aussi": [
+    "R128",
+    "R81"
+  ],
+  "commentaire_source": ""
+}

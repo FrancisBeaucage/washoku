@@ -1,0 +1,162 @@
+{
+  "id": "R138",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "chinoise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "marine",
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "acide",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "poulet-kung-pao-gongbao-jiding",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "宫保鸡丁",
+  "lecture_origine": "gōngbǎo jīdīng",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Poulet kung pao (gongbao jiding)",
+  "sous_titre": "Trente-sept grammes de protéines pour douze grammes de lipides. C'est de la POITRINE de poulet — et c'est le velouté qui rend ça possible.",
+  "portions": "2",
+  "temps_affiche": "≈ 30 min dont 15 de marinade",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 5,
+    "attente": 15
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 37,
+    "proteines_affiche": "37 g",
+    "calories": 300,
+    "calories_affiche": "≈ 300",
+    "lipides_g": 12,
+    "sodium_mg": 260,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de POITRINE de poulet en dés de 1,5 cm — ET NON DU HAUT DE CUISSE : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE VELOUTÉ T5 : 1 blanc d'œuf · 2 c. à thé de fécule de maïs · 1 c. à thé de vin de Shaoxing · 1/2 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE AU BOL T18, mélangée AVANT d'allumer : 1 c. à soupe de sauce soya réduite · 1 c. à soupe de vinaigre noir de Chinkiang · 1 c. à thé de sucre · 1 c. à thé de fécule · 2 c. à soupe d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "8 piments séchés, coupés en deux, graines retirées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 c. à thé de poivre de Sichuan en grains",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 gousses d'ail en tranches · 1 c. à thé de gingembre en julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 oignons verts, parties blanches seulement, en tronçons de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "20 g d'arachides non salées, grillées à sec",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T5",
+    "T18"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T5 : mélanger les dés de poulet avec le blanc d'œuf, la fécule, le vin et l'huile. TRAVAILLER À LA MAIN 30 SECONDES jusqu'à ce que la surface soit glissante. Frigo 15 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Faire T18 : mélanger tous les ingrédients de la sauce dans un bol. GOÛTER. C'est le seul moment où on peut corriger."
+    },
+    {
+      "n": 3,
+      "texte": "Griller les arachides à sec 3 minutes dans la poêle. Les sortir."
+    },
+    {
+      "n": 4,
+      "texte": "TOUT DISPOSER À CÔTÉ DU FEU. À partir d'ici, la cuisson prend quatre minutes et il n'y a plus le temps de rien couper."
+    },
+    {
+      "n": 5,
+      "texte": "Poêle très chaude, 2 c. à thé d'huile. Les dés de poulet en une couche, 90 secondes sans y toucher, puis remuer 60 secondes. Sortir dès qu'ils sont blancs."
+    },
+    {
+      "n": 6,
+      "texte": "Même poêle, feu baissé à moyen : les piments et le poivre de Sichuan 20 secondes — ils doivent foncer sans noircir. Puis l'ail, le gingembre et les blancs d'oignon vert, 30 secondes."
+    },
+    {
+      "n": 7,
+      "texte": "Remettre le poulet. Verser la sauce en remuant. 30 à 45 secondes : elle nappe."
+    },
+    {
+      "n": 8,
+      "texte": "Les arachides HORS DU FEU, pour qu'elles restent croquantes."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le velouté rend la poitrine utilisable, et c'est le levier le plus fort du document",
+      "texte": "🔴 LES RÉFÉRENCES DU DOSSIER PORTENT CETTE LIGNE : « poitrine de poulet, crue, ≈ 23 g de protéines aux 100 g — sèche vite, à éviter en mijoté ». C'EST VRAI, ET T5 EST LA RÉPONSE À CE PROBLÈME PRÉCIS.\n\nCE QUE LE VELOUTÉ FAIT, MÉCANIQUEMENT : le blanc d'œuf et la fécule forment autour de chaque dé une pellicule qui gélifie à la chaleur. Elle fait deux choses : elle retient l'eau du muscle à l'intérieur, et elle prend le choc thermique à la place de la chair. Une poitrine veloutée saisie 90 secondes reste tendre et juteuse; la même nue est sèche.\n\nCE QUE ÇA VAUT EN CHIFFRES, POUR 300 G DE POULET : HAUT DE CUISSE DÉSOSSÉ SANS PEAU, 54 g de protéines et 27 g de lipides. POITRINE VELOUTÉE, 69 g de protéines et 6 g de lipides. QUINZE GRAMMES DE PROTÉINES DE PLUS ET VINGT-UN GRAMMES DE LIPIDES DE MOINS, POUR LE MÊME POIDS ET TRENTE SECONDES DE TRAVAIL. Aucun autre geste du dossier ne déplace autant. ET CE N'EST PAS PROPRE AU KUNG PAO : le velouté s'applique à tout sauté chinois du recueil, y compris au bœuf et brocoli de R17.\n\n⚠️ CE QUE ÇA COÛTE, ET IL FAUT LE DIRE : LE VELOUTÉ NE MARCHE QUE SUR UNE SAISIE COURTE. Il n'y a pas de version veloutée d'un braisage de vingt minutes — la pellicule se dissout. T5 est un outil de sauté, pas un outil universel.\n\nLA SAUCE PRÉMÉLANGÉE DE T18 N'EST PAS UNE COMMODITÉ, C'EST CE QUI REND LE PLAT FAISABLE. Les trois dernières étapes durent quatre minutes en tout, dont trois passages où il faut compter en secondes. Verser cinq ingrédients un par un dans un wok brûlant garantit qu'on en oublie un et qu'on brûle l'ail en cherchant le vinaigre. Mélangés d'avance dans un bol, ils entrent d'un geste. Et il y a un bénéfice qu'on ne voit pas venir : ON GOÛTE LA SAUCE AVANT QU'ELLE TOUCHE LA NOURRITURE.\n\nVINGT GRAMMES D'ARACHIDES ET NON CINQUANTE. C'est la seule dose réduite sans regret : les arachides apportent le croquant et un peu de protéine, mais 50 g en ajoutent 25 de lipides. Vingt grammes suffisent à ce qu'il y en ait dans chaque bouchée. Hors du feu, toujours — deux minutes dans la sauce et elles sont molles."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "C-R17Wmd4aY",
+    "auteur": "Wei's Red House Kitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R17",
+    "R134"
+  ],
+  "commentaire_source": ""
+}

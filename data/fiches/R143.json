@@ -1,0 +1,142 @@
+{
+  "id": "R143",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "chinoise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "saute",
+    "vapeur"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "doux"
+  ],
+  "axe_texture": [
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "brocoli-au-saute-a-l-eau-suanxiang-xilanhua",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "蒜香西兰花",
+  "lecture_origine": "suànxiāng xīlánhuā",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Brocoli au sauté à l'eau (suanxiang xilanhua)",
+  "sous_titre": "Deux cuillères à thé d'huile pour six cents grammes de légume, et un couvercle. Cent quarante-cinq milligrammes de sodium, et c'est un quart de cuillère à thé de sel qui les porte tous.",
+  "portions": "4",
+  "temps_affiche": "≈ 10 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 5,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 4,
+    "proteines_affiche": "4 g",
+    "calories": 70,
+    "calories_affiche": "≈ 70",
+    "lipides_g": 2,
+    "sodium_mg": 145,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel pour quatre portions, seul poste du plat; au huitième, la portion tombe à environ 72 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de brocoli en fleurettes, tiges pelées et tranchées en biseaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 gousses d'ail en tranches",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre — ET PAS PLUS : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "60 ml d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé d'huile de sésame hors du feu · quelques piments séchés · 1 c. à thé de vin de Shaoxing avec l'eau",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T13"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "COUPER LES FLEURETTES EN MORCEAUX DE TAILLE ÉGALE, ET NE PAS JETER LES TIGES — pelées et tranchées en biseaux de 5 mm, elles sont la meilleure partie du brocoli."
+    },
+    {
+      "n": 2,
+      "texte": "Poêle large avec couvercle, ou wok, feu moyen-vif. Les 2 c. à thé d'huile, l'ail en tranches, 30 secondes — blond, pas brun."
+    },
+    {
+      "n": 3,
+      "texte": "Le brocoli, 1 minute en remuant, pour que l'huile touche tout."
+    },
+    {
+      "n": 4,
+      "texte": "VERSER LES 60 ML D'EAU ET COUVRIR IMMÉDIATEMENT. 2 À 3 MINUTES. C'est tout le 水油焖 : l'eau se transforme en vapeur sous le couvercle et cuit le légume à cœur avec deux cuillères à thé d'huile."
+    },
+    {
+      "n": 5,
+      "texte": "Découvrir. LE SEL. Monter le feu 30 à 60 secondes pour évaporer ce qui reste d'eau. Le brocoli doit briller mais la poêle doit être sèche."
+    },
+    {
+      "n": 6,
+      "texte": "Vérifier au couteau : la tige doit céder en résistant. Vert franc, jamais olive."
+    },
+    {
+      "n": 7,
+      "texte": "Huile de sésame hors du feu si on en met."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Trois façons de cuire un légume vert chinois, et laquelle choisir",
+      "texte": "AVEC CETTE FICHE, LE RECUEIL A LES TROIS MÉTHODES CHINOISES DU LÉGUME VERT, ET SAVOIR LAQUELLE PRENDRE EST L'APPORT LE PLUS UTILE DU LOT. T11, 白灼 « blanchir et napper » : eau bouillante, sauce versée dessus, une cuillère à soupe d'huile APRÈS, et un peu du goût part dans l'eau — c'est le choy sum de R135. T13, 水油焖 « sauter à l'eau » : huile, puis eau, puis couvercle, DEUX CUILLÈRES À THÉ d'huile en tout, et le goût reste dans le légume — c'est cette fiche. T14, 爆 la saisie éclair : feu maximum, 90 secondes, une à deux cuillères à soupe d'huile, le goût reste mais il faut du feu — c'est le chou de R134.\n\n🔴 CE QUE T13 FAIT DE MIEUX QUE LES DEUX AUTRES, ET C'EST POURQUOI C'EST LA MÉTHODE PAR DÉFAUT SUR UNE CUISINIÈRE DOMESTIQUE : ELLE NE PERD RIEN À L'EAU ET ELLE NE DEMANDE PAS DE FEU DE RESTAURANT. Le blanchiment laisse une partie des sucres et des minéraux du légume dans deux litres d'eau qu'on jette. La saisie éclair demande une puissance qu'une cuisinière d'appartement n'a pas — sans elle, le légume rend son eau, la température chute, et on obtient un légume bouilli dans une poêle huileuse. Le 水油焖 contourne les deux problèmes : l'eau qu'on ajoute est mesurée et elle s'évapore, donc rien ne part.\n\nDEUX CUILLÈRES À THÉ D'HUILE POUR SIX CENTS GRAMMES DE LÉGUME. Un sauté de restaurant en met deux à trois cuillères à soupe. LE COUVERCLE REMPLACE L'HUILE : c'est la vapeur qui transporte la chaleur, et la vapeur est gratuite.\n\nCENT QUARANTE-CINQ MILLIGRAMMES PAR PORTION, ET UN SEUL POSTE : un quart de cuillère à thé de sel pour quatre portions. Rien d'autre — ni soya, ni sauce d'huîtres, ni bouillon. Comparé nommément : c'est un peu plus que le choy sum de R135 à 130 mg, et un peu moins que le shiraae de R119 à 185.\n\n⚠️ ET COMME IL N'Y A QU'UN POSTE, IL SE DIVISE : à un huitième de cuillère, la portion tombe à environ 72 mg. C'est le plat à sortir un jour où le compte est déjà mangé — et il fait manger cent cinquante grammes de légume par personne.\n\n⚠️ LE SEL VA APRÈS LE COUVERCLE ET JAMAIS AVANT. Salé au début, le légume rend son eau par osmose, l'eau du couvercle devient un bouillon, et il faut deux minutes de plus pour l'évaporer — pendant lesquelles le brocoli passe de croquant à mou et de vert à olive.\n\nET LES TIGES SE MANGENT : c'est un tiers du poids d'une tête de brocoli. Pelées à l'économe et tranchées en biseaux, elles croquent plus que les fleurettes et coûtent zéro. Une tête de 600 g jetée aux fleurettes seules laisse 200 g à la poubelle."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "Q__MO_L8pAY",
+    "auteur": "Lionel Zeng",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R135",
+    "R136"
+  ],
+  "commentaire_source": ""
+}

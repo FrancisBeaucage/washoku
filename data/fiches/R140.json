@@ -1,0 +1,139 @@
+{
+  "id": "R140",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "chinoise",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "poche",
+    "cru"
+  ],
+  "axe_gout": [
+    "piquant",
+    "acide",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "porc-poche-tranche-a-l-ail-suanni-bairou",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "蒜泥白肉",
+  "lecture_origine": "suànní báiròu",
+  "prononciation": null,
+  "langue_origine": "zh",
+  "fr": "Porc poché tranché à l'ail (suanni bairou)",
+  "sous_titre": "Le cousin sichuanais du hiya-shabu : viande pochée, refroidie, tranchée mince, et une trempette à côté. Neuf grammes de lipides au lieu de vingt-deux.",
+  "portions": "2",
+  "temps_affiche": "≈ 45 min dont 30 sans surveillance",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 8,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 31,
+    "proteines_affiche": "31 g",
+    "calories": 200,
+    "calories_affiche": "≈ 200",
+    "lipides_g": 9,
+    "sodium_mg": 325,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de LONGE de porc en un seul morceau — ET NON DE LA POITRINE : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "POUR LE POCHAGE : 4 tranches de gingembre · 2 oignons verts · 1 c. à soupe de vin de Shaoxing · 1/2 c. à thé de grains de poivre de Sichuan",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE LIT : 150 g de germes de haricot mungo blanchis 1 minute · OU 200 g de laitue romaine en lanières",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA TREMPETTE, dans un petit plat PAR PERSONNE : 4 gousses d'ail écrasées en purée · 1 c. à soupe de sauce soya réduite · 1 c. à thé de vinaigre noir de Chinkiang · 1/2 c. à thé de sucre · 1 c. à thé d'huile de piment · 1/2 c. à thé d'huile de sésame",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : coriandre · sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12",
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 : le morceau de longe dans l'eau FROIDE avec les aromates. Monter à frémissement. Écumer 3 minutes."
+    },
+    {
+      "n": 2,
+      "texte": "8 MINUTES DE FRÉMISSEMENT, PUIS ÉTEINDRE LE FEU, COUVRIR, ET LAISSER 30 MINUTES DANS L'EAU CHAUDE. C'est la méthode de l'eau éteinte, la même que le mushidori de R82. Une longe bouillie 40 minutes est de la sciure; pochée 8 puis abandonnée 30, elle est rosée à cœur et tendre."
+    },
+    {
+      "n": 3,
+      "texte": "SORTIR ET LAISSER REFROIDIR COMPLÈTEMENT — 20 minutes à l'air, ou au frigo. On ne tranche pas une viande chaude en lamelles de 2 mm."
+    },
+    {
+      "n": 4,
+      "texte": "Faire T6 sur les germes : 1 minute à l'eau bouillante, égoutter, presser. Les étaler dans le plat de service."
+    },
+    {
+      "n": 5,
+      "texte": "Écraser l'ail en purée avec le plat du couteau et une pincée de sel — UNE PURÉE, PAS DES MORCEAUX : c'est ce que 蒜泥 veut dire. Mélanger la trempette dans les petits plats."
+    },
+    {
+      "n": 6,
+      "texte": "TRANCHER LE PORC LE PLUS MINCE POSSIBLE, en travers du grain. Disposer les tranches en éventail sur le lit de germes."
+    },
+    {
+      "n": 7,
+      "texte": "CHACUN TREMPE. La trempette ne se verse pas sur le plat."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La même architecture que R118, et la comparaison vaut d'être faite",
+      "texte": "LE RECUEIL PORTE MAINTENANT DEUX PLATS DE VIANDE POCHÉE FROIDE À TREMPER, UN JAPONAIS ET UN CHINOIS, ET LES COMPARER APPREND QUELQUE CHOSE. Le hiya-shabu de R118 part de tranches minces blanchies 40 secondes, sur un lit de 300 g de crudités crues, avec une trempette au ponzu et au sésame écrasé, à environ 190 mg de sodium. CELUI-CI PART D'UN MORCEAU ENTIER, poché 8 minutes puis 30 à l'eau éteinte, sur des germes blanchis, avec une trempette à l'ail en purée, au vinaigre noir et à l'huile de piment, à environ 325 mg.\n\nCE QUE LA VERSION CHINOISE FAIT DE MIEUX : elle part d'un morceau entier, donc elle coûte moins cher et elle ne demande pas de porc prétranché. Un rôti de longe remplace un paquet de shabu-shabu à trois fois le prix. CE QUE LA JAPONAISE FAIT DE MIEUX : elle est prête en vingt minutes et son lit de crudités fait manger trois cents grammes de légumes crus.\n\n🔴 ET LE MÊME AJUSTEMENT DE COUPE QUE R134. Le 蒜泥白肉 authentique se fait avec de la poitrine — 白肉, « viande blanche », désigne le gras blanc translucide des tranches. Trois cents grammes de poitrine portent 45 g de lipides; la même longe en porte 15. Par portion : 22 g contre 9.\n\nCE QU'ON PERD : les tranches ne sont pas translucides et elles ne se drapent pas. C'est visuel et c'est réel. CE QU'ON GARDE : LA TREMPETTE, QUI EST TOUT LE PLAT. Quatre gousses d'ail en purée, du vinaigre noir et de l'huile de piment donnent un assaisonnement si puissant que la coupe de la viande devient secondaire. ⚠️ La vidéo, elle, montre de la poitrine.\n\nLA TREMPETTE À CÔTÉ ET NON VERSÉE DESSUS : c'est le cinquième plat du recueil à appliquer ce levier, après R110, R117, R118 et R133. L'usage sichuanais verse la sauce sur le plat. Servie à côté, la même sauce plafonne à environ 325 mg par portion, et ce qui reste dans le petit plat est du sodium qu'on n'a pas mangé.\n\n⚠️ L'AIL EST CRU ET IL Y EN A QUATRE GOUSSES. C'est le plat le plus aillé du recueil, de loin, et ce n'est pas un plat de milieu de semaine avant une réunion. À planifier en conséquence."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "z1anMjuuhlE",
+    "auteur": "MrsLinsKitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R118",
+    "R134"
+  ],
+  "commentaire_source": ""
+}
