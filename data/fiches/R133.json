@@ -123,7 +123,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yosenabe_set.JPG?width=1200",
+  "photo_credit": {
+    "auteur": "Nissy-KITAQ",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yosenabe_set.JPG"
+  },
   "video": {
     "youtube_id": "9IbJo2tW12o",
     "auteur": "TOKYO KITCHEN",

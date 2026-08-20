@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "rau muống xào tỏi",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "rao mou-ong sao toï",
   "langue_origine": "vi",
   "fr": "Liseron d'eau sauté à l'ail (rau muong xao toi)",
   "sous_titre": "Deux textures dans un seul légume : la tige creuse croque, la feuille glisse. Quatre minutes, et le même geste que le sauté à l'eau chinois.",
@@ -124,7 +124,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rau_mu%E1%BB%91ng_x%C3%A0o_t%E1%BB%8Fi_(th%C3%A1ng_9_n%C4%83m_2018)_(3).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Phương Huy (thảo luận)",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Rau_mu%E1%BB%91ng_x%C3%A0o_t%E1%BB%8Fi_(th%C3%A1ng_9_n%C4%83m_2018)_(3).jpg"
+  },
   "video": {
     "youtube_id": "mrZzS5aUHOA",
     "auteur": "Helen's Recipes (Vietnamese Food)",

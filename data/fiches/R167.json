@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "urap sayur",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ou-rap sa-your",
   "langue_origine": "id",
   "fr": "Légumes à la noix de coco râpée (urap sayur)",
   "sous_titre": "Le quatrième liant sec du recueil, et le seul qui apporte du gras. Cent quarante-cinq milligrammes de sodium pour six cents grammes de légumes.",
@@ -124,7 +124,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Anyang_Minang.JPG?width=1200",
+  "photo_credit": {
+    "auteur": "D.W. Fisher-Freberg",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anyang_Minang.JPG"
+  },
   "video": {
     "youtube_id": "nSgyWlUCNb8",
     "auteur": "Who's The Kitchen Fairy",

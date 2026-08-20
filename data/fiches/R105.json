@@ -127,7 +127,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dubu-kimchi.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Chloe Lim",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dubu-kimchi.jpg"
+  },
   "video": {
     "youtube_id": "-Oj2xzQbo4s",
     "auteur": "Seonkyoung Longest",

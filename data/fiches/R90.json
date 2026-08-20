@@ -38,7 +38,7 @@
     "cuisson": 4,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 2 à 3 semaines au frigo.",
   "nutrition": {
     "proteines_g": 1,
     "proteines_affiche": "1 g",
@@ -98,6 +98,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "-ycTDIUhsfM",
     "auteur": "Maangchi",

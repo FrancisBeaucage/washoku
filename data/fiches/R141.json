@@ -26,7 +26,7 @@
   "romaji": null,
   "nom_origine": "蒸水蛋",
   "lecture_origine": "zhēng shuǐdàn",
-  "prononciation": null,
+  "prononciation": "djeng chouéi-dane",
   "langue_origine": "zh",
   "fr": "Œufs vapeur cantonais (zheng shui dan)",
   "sous_titre": "Quatre œufs, de l'eau tiède, un tamis, un couvercle. Le seul plat protéiné du recueil qui ne demande ni découpe ni surveillance.",
@@ -119,7 +119,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%B8%A1%E8%9B%8B%E7%BE%B9%E9%85%8D%E9%87%8E%E7%94%9F%E8%8F%8C-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "tak.wing",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E9%B8%A1%E8%9B%8B%E7%BE%B9%E9%85%8D%E9%87%8E%E7%94%9F%E8%8F%8C-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E.jpg"
+  },
   "video": {
     "youtube_id": "JAo99RBfmT4",
     "auteur": "Made With Lau",

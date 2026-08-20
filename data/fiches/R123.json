@@ -38,7 +38,7 @@
     "cuisson": 15,
     "attente": 20
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 4 jours au frigo et se mange froide. ⚠️ Plat occasionnel — voir la note.",
   "nutrition": {
     "proteines_g": 5,
     "proteines_affiche": "5 g",
@@ -138,6 +138,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "ptrh3C5cIqk",
     "auteur": "Just One Cookbook",

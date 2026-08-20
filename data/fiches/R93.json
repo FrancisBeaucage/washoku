@@ -126,7 +126,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%EC%BD%A9%EB%82%98%EB%AC%BC%EA%B5%AD_-_Kongnamul_Guk_-_Bean_sprout_soup.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Korea Tourism Organization - DNA Studio",
+    "licence": "KOGL Type 1",
+    "page": "https://commons.wikimedia.org/wiki/File:%EC%BD%A9%EB%82%98%EB%AC%BC%EA%B5%AD_-_Kongnamul_Guk_-_Bean_sprout_soup.jpg"
+  },
   "video": {
     "youtube_id": "0q8LU70IRn8",
     "auteur": "Maangchi",

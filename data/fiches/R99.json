@@ -38,7 +38,7 @@
     "cuisson": 9,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 2 jours au frigo et se mange froide, tranchée. C'est une boîte à lunch.",
   "nutrition": {
     "proteines_g": 19,
     "proteines_affiche": "19 g",
@@ -120,7 +120,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyeran-mari_4.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Asadal",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyeran-mari_4.jpg"
+  },
   "video": {
     "youtube_id": "kN89ewZjOR8",
     "auteur": "Maangchi",

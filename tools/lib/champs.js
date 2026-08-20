@@ -153,6 +153,40 @@ const LIBELLES = {
     thaie: 'Thaï', vietnamienne: 'Vietnamien', laotienne: 'Laotien',
     indonesienne: 'Indonésien',
   },
+  /* LE DRAPEAU DE L'ORIGINE, à côté du nom et jamais à sa place. Six étiquettes
+     s'empilaient sur une carte de liste avant qu'on ait lu le titre, et celle
+     qui se compresse le mieux est l'origine : elle a un symbole universel de
+     deux caractères. Le gabarit met donc le drapeau à l'affichage et le nom de
+     `cuisine` dans le `title` et l'`aria-label` — un drapeau ne se lit pas à
+     haute voix et ne se cherche pas au clavier.
+
+     ⚠️ Chrome et Edge sous Windows n'ont pas les glyphes de drapeaux : ils
+     rendent les deux lettres du code régional — JP, CN, KR. C'est un repli
+     automatique et lisible, pas une panne, et c'est pourquoi le nom en clair
+     doit toujours voyager à côté.
+
+     ⚠️ UN DRAPEAU EST UN PAYS, UNE CUISINE N'EN EST PAS UN. Le laap et le tam
+     mak hoong sont des deux côtés de la frontière lao-thaïe. C'est la même
+     simplification que `cuisine` faisait déjà avec ses noms. */
+  cuisine_drapeau: {
+    japonaise: '🇯🇵', chinoise: '🇨🇳', coreenne: '🇰🇷', thaie: '🇹🇭',
+    vietnamienne: '🇻🇳', laotienne: '🇱🇦', indonesienne: '🇮🇩',
+  },
+  /* LE REPLI, ET IL N'EST PAS AUSSI AUTOMATIQUE QUE PRÉVU. Le document 33
+     annonçait que les navigateurs sans glyphe de drapeau rendent les deux
+     lettres du code régional — c'est vrai de Chrome et d'Edge sous Windows,
+     qui ont ces lettres dans Segoe UI Emoji. Vérifié à l'écran : un navigateur
+     SANS police d'émoji du tout ne rend pas deux lettres, il rend UN CARRÉ, et
+     l'origine disparaît alors complètement de la carte.
+
+     D'où ces deux lettres, servies par `DRAPEAU()` de `lib/vue.js` quand le
+     test au pixel dit que le drapeau ne se compose pas. Elles sont aussi
+     courtes, elles se cherchent au clavier, et elles ne dépendent d'aucune
+     police. Le nom en clair reste dans le `title` dans les deux cas. */
+  cuisine_code: {
+    japonaise: 'JP', chinoise: 'CN', coreenne: 'KR', thaie: 'TH',
+    vietnamienne: 'VN', laotienne: 'LA', indonesienne: 'ID',
+  },
   vitesse: {
     'ultra-rapide': 'Ultra rapide', rapide: 'Rapide', moyen: 'Moyen',
     long: 'Long', 'extra-long': 'Extra long',
@@ -203,6 +237,25 @@ const LIBELLES = {
   statut_perso: {
     'a-l-essai': 'À l’essai', 'au-repertoire': 'Au répertoire', 'de-service': 'De service',
     suspendu: 'Suspendu', ecarte: 'Écarté',
+  },
+  /* 🔴 LE SEUL CHAMP FERMÉ AFFICHÉ QUI N'AVAIT PAS D'ALIAS, et ce n'est pas un
+     oubli d'attention : c'est une conséquence de la forme de son nom. La table
+     est indexée par un nom de champ simple, et `nutrition.source` porte un
+     point. `video.langue` avait le même problème, résolu en le nommant
+     `video_langue` ici ; celui-ci n'avait jamais reçu son alias, et la fiche
+     affichait « estime » en toutes lettres. Document 33, V5.
+
+     « Étiquette LUE » plutôt que « Étiquette » n'est pas de la coquetterie :
+     dans ce dossier, l'écart entre un chiffre estimé et un chiffre relevé sur
+     un panneau est l'écart entre une hypothèse et un fait. */
+  nutrition_source: { estime: 'Estimé', etiquette: 'Étiquette lue', pese: 'Pesé' },
+  /* L'audit demandé par le V5 en a trouvé un second, sur la page d'ingrédient :
+     la base de dosage s'affichait brute, entre parenthèses — « Nutrition
+     (c-a-soupe) ». Les libellés se lisent à la suite du mot « Nutrition », donc
+     ce sont des locutions et non des noms. */
+  nutrition_base: {
+    '100g': 'aux 100 g', portion: 'par portion', 'c-a-soupe': 'par c. à soupe',
+    'c-a-the': 'par c. à thé', unite: 'à l’unité',
   },
 };
 

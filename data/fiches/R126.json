@@ -118,7 +118,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Atsuage_dish_by_ayustety.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "ayustety from at Yakitori Daisuki in Morishita Tokyo.",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Atsuage_dish_by_ayustety.jpg"
+  },
   "video": {
     "youtube_id": "bcEIMbmevto",
     "auteur": "JapaneseCooking101",

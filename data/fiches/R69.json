@@ -133,7 +133,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuea_yang_nam_tok.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Takeaway",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuea_yang_nam_tok.jpg"
+  },
   "video": {
     "youtube_id": "v_4bz49MGow",
     "auteur": "Cooking With Khon Khao",

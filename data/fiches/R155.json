@@ -29,7 +29,7 @@
   "romaji": null,
   "nom_origine": "canh chua cá",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "cane tchoua ka",
   "langue_origine": "vi",
   "fr": "Soupe aigre au poisson (canh chua ca)",
   "sous_titre": "La soupe que les familles vietnamiennes font vraiment. L'acide est le milieu de cuisson, et l'ananas fait le sucre — pas le sucrier.",
@@ -152,7 +152,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canh_chua_%C4%90%C3%B4ng_H%C3%A0.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Phương Huy (thảo luận)",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Canh_chua_%C4%90%C3%B4ng_H%C3%A0.jpg"
+  },
   "video": {
     "youtube_id": "vO81lQvYodI",
     "auteur": "Helen's Recipes (Vietnamese Food)",

@@ -133,7 +133,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lao_meat_Larb.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Bounthy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lao_meat_Larb.jpg"
+  },
   "video": {
     "youtube_id": "XfgdIEM2UAc",
     "auteur": "Holy Rice",

@@ -27,7 +27,7 @@
   "romaji": null,
   "nom_origine": "sambal tomat",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "sam-bal to-mate",
   "langue_origine": "id",
   "fr": "Sambal aux tomates (sambal tomat)",
   "sous_titre": "La deuxième base salée réutilisable du dossier après le dashi. Deux semaines au frigo, elle se congèle, et cent milligrammes la cuillère.",
@@ -38,7 +38,7 @@
     "cuisson": 17,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Deux semaines au frigo, et il se congèle en cubes.",
   "nutrition": {
     "proteines_g": 1,
     "proteines_affiche": "1 g",
@@ -126,7 +126,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL_TOMAT.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Windi Utari",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SAMBAL_TOMAT.jpg"
+  },
   "video": {
     "youtube_id": "J8RCnzjPO4E",
     "auteur": "Asih At Home",

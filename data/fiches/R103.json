@@ -127,7 +127,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeyuk-bokkeum_4.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "대경라이프",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jeyuk-bokkeum_4.jpg"
+  },
   "video": {
     "youtube_id": "3oFCGKmzQX8",
     "auteur": "Maangchi",

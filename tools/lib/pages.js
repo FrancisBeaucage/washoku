@@ -227,6 +227,7 @@ ${ETATS}
           <div style="padding:14px 16px 18px">
             <div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px">
               <span style="font-weight:800;font-size:13px;letter-spacing:.06em;color:#ec3013">{{ r.id }}</span>
+              <span class="drap" role="img" title="{{ r.cuiLabel }}" aria-label="{{ r.cuiLabel }}" style="margin-right:auto;font-size:13px;line-height:1">{{ r.drapeau }}</span>
               <span class="etoiles">{{ r.etoiles }}</span>
             </div>
             <p title="{{ r.jpt }}" style="margin:8px 0 2px;font-family:'Noto Serif JP',serif;font-weight:600;font-size:20px;line-height:1.2;cursor:help">{{ r.jp }}</p>
@@ -332,7 +333,6 @@ class Component extends DCLogic {
         if ((r.axe_gout || []).length) pastilles.push({ classe: "past past-claire", texte: LIB("axe_gout", r.axe_gout[0]), titre: "Go\\u00fbt dominant" });
         if (r.type_de_plat) pastilles.push({ classe: "past past-claire", texte: LIB("type_de_plat", r.type_de_plat), titre: "Type de plat" });
         if (r.cout_travail) pastilles.push({ classe: "past past-claire", texte: "Travail " + LIB("cout_travail", r.cout_travail).toLowerCase(), titre: "Co\\u00fbt en travail" });
-        pastilles.push({ classe: "past past-claire", texte: LIB("cuisine", r.cuisine), titre: "Origine" });
         /* L'ajustement est un INDICATEUR DE PRÉSENCE, jamais son texte : il
            répond à une seule question avant d'ouvrir la fiche — est-ce que ce
            plat se fait tel quel chez moi, ou est-ce qu'il a une version maison ? */
@@ -348,6 +348,13 @@ class Component extends DCLogic {
         if (r.calories != null) bouts.push(r.calories + " cal");
         return {
           id: r.id, fr: r.fr, jp: NOM_ORIGINE(r), ro: LECTURE_ORIGINE(r),
+          /* 🔴 L'ORIGINE N'EST PLUS UNE PASTILLE, C'EST UN CARACTÈRE. Six
+             étiquettes s'empilaient sur une carte avant qu'on ait lu le titre,
+             et la liste en montre trente à la fois. Le drapeau ne porte JAMAIS
+             l'information seul : le nom en clair voyage dans le « title » et
+             l'« aria-label », parce qu'un drapeau ne se lit pas à haute voix et
+             ne se cherche pas au clavier. Document 33, V1. */
+          drapeau: DRAPEAU(r.cuisine), cuiLabel: LIB("cuisine", r.cuisine),
           jpt: JPT(NOM_ORIGINE(r), LECTURE_ORIGINE(r), r.fr),
           hasPhoto: !!r.photo, bg: r.photo ? 'url("' + r.photo + '")' : "none",
           etoiles: ETOILES(DE_LECTEUR(r.etoiles)),
@@ -374,7 +381,7 @@ class Component extends DCLogic {
         methode: OPTIONS("Toute m\\u00e9thode", "methode", ordonne("methode", "methode")),
         gout: OPTIONS("Tout go\\u00fbt", "axe_gout", ordonne("axe_gout", "axe_gout")),
         texture: OPTIONS("Toute texture", "axe_texture", ordonne("axe_texture", "axe_texture")),
-        cuisine: OPTIONS("Toute origine", "cuisine", ordonne("cuisine", "cuisine")),
+        cuisine: OPTIONS_ORIGINE("Toute origine", ordonne("cuisine", "cuisine")),
         vitesse: OPTIONS("Toute dur\\u00e9e", "vitesse", ordonne("vitesse", "vitesse")),
         cout: OPTIONS("Tout co\\u00fbt", "cout_travail", ordonne("cout_travail", "cout_travail")),
         etoiles: [{ k: "tous", label: "Toute note" }, { k: "5", label: "5 \\u00e9toiles" }, { k: "4", label: "4 \\u00e9toiles et plus" }, { k: "3", label: "3 \\u00e9toiles et plus" }]
@@ -428,7 +435,7 @@ const GABARIT_FICHE = `${ETATS}
 
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(20px,4vw,44px);align-items:start">
       <div>
-        <p style="margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">{{ f.id }} · {{ f.catLabel }} · {{ f.cuiLabel }}</p>
+        <p style="margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">{{ f.id }} <span class="drap" role="img" title="{{ f.cuiLabel }}" aria-label="{{ f.cuiLabel }}">{{ f.drapeau }}</span> · {{ f.catLabel }}</p>
         <p title="{{ f.jpt }}" style="margin:0;font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(28px,5.6vw,54px);line-height:1.05;cursor:help">{{ f.jp }}</p>
         <p style="margin:6px 0 0;font-size:clamp(15px,2vw,19px);font-style:italic;color:#605d5d">{{ f.romaji }}</p>
         <h1 style="margin:12px 0 0;font-weight:800;font-size:clamp(22px,3.4vw,34px);line-height:1.1;letter-spacing:-.02em">{{ f.fr }}</h1>
@@ -438,9 +445,46 @@ const GABARIT_FICHE = `${ETATS}
         </p>
       </div>
       <sc-if value="{{ f.hasPhoto }}" hint-placeholder-val="{{ true }}">
-        <figure style="margin:0">
+        <figure class="{{ f.classePhoto }}" style="margin:0">
           <div style="width:100%;aspect-ratio:4/3;border:2px solid #201e1d;background-color:#eae9e9;background-size:cover;background-position:center;background-image:{{ f.bg }}" role="img" aria-label="{{ f.fr }}"></div>
+          <!-- Le crédit de la photo — S36 du document 33. Il ne s'affiche que
+               s'il est renseigné : les 79 photos d'avant ce document n'ont ni
+               auteur ni licence, et un manque visible vaut mieux qu'un manque
+               invisible. -->
+          <sc-if value="{{ f.hasCredit }}" hint-placeholder-val="{{ false }}">
+            <figcaption style="margin:7px 0 0;font-size:11.5px;line-height:1.45;color:#7d7979"><a href="{{ f.creditPage }}" rel="noopener nofollow" target="_blank">{{ f.credit }}</a></figcaption>
+          </sc-if>
         </figure>
+      </sc-if>
+      <!-- 🔴 LA VIDÉO EST DANS LA ZONE HAUTE, plus dans le replié : c'est la
+           première chose qu'on regarde quand on ne connaît pas un plat.
+           Document 33, V2.
+
+           ET ELLE PARTAGE LA GRILLE AVEC LA PHOTO plutôt que de la remplacer.
+           Les deux montrent la même chose, donc l'une SOUS l'autre serait
+           redondant ; côte à côte dans une grille « auto-fit » de 300 px, elles
+           font trois colonnes sur large écran, deux sur moyen, et s'empilent
+           sur téléphone — où l'on ne voit de toute façon qu'une image à la
+           fois. Le cas est majoritaire — la plupart des recettes portent les
+           deux — et toute fiche sans photo a une vidéo, donc cette cellule
+           n'est jamais vide. (Les chiffres se lisent dans /data, pas ici : la
+           règle 9 refuse qu'un compteur soit écrit dans une page, et elle a
+           attrapé cette phrase à son premier essai.)
+
+           Le « loading=lazy » RESTE, et c'est ce qui rend le déplacement gratuit :
+           sans lui, sortir la vidéo du replié coûterait une requête YouTube à
+           chaque ouverture de fiche. -->
+      <sc-if value="{{ f.hasVideo }}" hint-placeholder-val="{{ false }}">
+        <div>
+          <p class="lbl" style="margin-top:0">En vidéo</p>
+          <div style="position:relative;aspect-ratio:16/9;border:2px solid #201e1d;background:#000">
+            <iframe src="https://www.youtube-nocookie.com/embed/{{ f.youtube }}" title="{{ f.fr }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe>
+          </div>
+          <p style="margin:8px 0 0;font-size:13px;line-height:1.5;color:#605d5d">Démonstration par <strong>{{ f.videoAuteur }}</strong> — la recette peut varier un peu.</p>
+          <sc-if value="{{ f.hasVideoLangue }}" hint-placeholder-val="{{ false }}">
+            <p style="margin:4px 0 0;font-size:13px;line-height:1.5;color:#605d5d">Elle est <strong>{{ f.videoLangue }}</strong> : les gestes se suivent sans le son, les quantités se lisent ici.</p>
+          </sc-if>
+        </div>
       </sc-if>
     </div>
 
@@ -459,8 +503,15 @@ const GABARIT_FICHE = `${ETATS}
     <sc-if value="{{ f.hasStatut }}" hint-placeholder-val="{{ false }}">
       <div class="note"><span class="lbl">{{ f.statutLabel }}</span><p>{{ f.motifStatut }}</p></div>
     </sc-if>
+    <!-- ⚠️ LE LIBELLÉ A CHANGÉ AVEC LE CONTENU DU CHAMP, et il fallait qu'il
+         change. Il disait « À préparer à l'avance », ce qui convenait aux trois
+         premières valeurs — des délais de trempage ou de salage. Les dix-neuf
+         valeurs du B53 du document 33 ne sont pas des délais : ce sont des
+         durées de conservation tirées des notes, « se garde 4 jours et c'est
+         meilleur au deuxième ». Et l'une d'elles est un NON — le zōsui ne se
+         garde pas — que l'ancien libellé aurait contredit en toutes lettres. -->
     <sc-if value="{{ f.hasAvance }}" hint-placeholder-val="{{ false }}">
-      <p style="margin:14px 0 0;font-size:13px;line-height:1.5;color:#605d5d">⏳ À préparer à l'avance&nbsp;: <strong>{{ f.avance }}</strong></p>
+      <p style="margin:14px 0 0;font-size:13px;line-height:1.5;color:#605d5d">⏳ <strong>D'avance et conservation</strong> — {{ f.avance }}</p>
     </sc-if>
 
     <p style="margin:16px 0 0;font-size:16.5px;line-height:1.65;color:#444141;max-width:38em">{{ f.sousTitre }}</p>
@@ -493,6 +544,22 @@ const GABARIT_FICHE = `${ETATS}
       </div>
     </div>
 
+    <!-- 🔴 LA NUTRITION EST TOUJOURS VISIBLE — V3 du document 33. C'est le bloc
+         qu'on consulte le plus souvent, et il était à deux clics.
+
+         La ligne « Provenance des chiffres » est la seule qui passe dans les
+         détails : c'est une information de méthode. La ligne « Note » RESTE
+         ICI, et c'est un écart assumé à la lettre de la demande — depuis la
+         correction du sodium du document 29, beaucoup de ces notes ne sont pas
+         de la provenance mais des LEVIERS DE DOSE : « au huitième de cuillère,
+         le bol tombe à 230 mg » est une instruction de cuisine, et une
+         instruction derrière une bascule est une instruction qu'on ne lit
+         pas. Arbitré par Francis le 19 août 2026. -->
+    <div class="tw" style="margin-top:clamp(22px,3vw,34px);max-width:44em"><table>
+      <tr><th style="width:40%">Nutrition</th><th>Valeur</th></tr>
+      <sc-for list="{{ f.nutrition }}" as="n" hint-placeholder-count="5"><tr><td>{{ n.k }}</td><td>{{ n.v }}</td></tr></sc-for>
+    </table></div>
+
     <div style="margin-top:clamp(28px,4vw,44px)">
       <button class="bouton" onClick="{{ basculer }}">{{ libelleDeplier }}</button>
     </div>
@@ -510,22 +577,11 @@ const GABARIT_FICHE = `${ETATS}
           </div>
         </sc-if>
 
-        <div class="tw" style="max-width:44em"><table>
-          <tr><th style="width:40%">Nutrition</th><th>Valeur</th></tr>
-          <sc-for list="{{ f.nutrition }}" as="n" hint-placeholder-count="5"><tr><td>{{ n.k }}</td><td>{{ n.v }}</td></tr></sc-for>
-        </table></div>
-
-        <sc-if value="{{ f.hasVideo }}" hint-placeholder-val="{{ false }}">
-          <div style="margin:clamp(22px,3vw,34px) 0;max-width:44em">
-            <p class="lbl">En vidéo</p>
-            <div style="position:relative;aspect-ratio:16/9;border:2px solid #201e1d;background:#000">
-              <iframe src="https://www.youtube-nocookie.com/embed/{{ f.youtube }}" title="{{ f.fr }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe>
-            </div>
-            <p style="margin:8px 0 0;font-size:13px;line-height:1.5;color:#605d5d">Démonstration par <strong>{{ f.videoAuteur }}</strong> — la recette peut varier un peu.</p>
-            <sc-if value="{{ f.hasVideoLangue }}" hint-placeholder-val="{{ false }}">
-              <p style="margin:4px 0 0;font-size:13px;line-height:1.5;color:#605d5d">Elle est <strong>{{ f.videoLangue }}</strong> : les gestes se suivent sans le son, les quantités se lisent ici.</p>
-            </sc-if>
-          </div>
+        <!-- D'où viennent les chiffres. C'est de la méthode, pas de la
+             cuisine — « c'est plus toi qui t'en sers que moi », dit Francis, et
+             il a raison. V3 et V5 du document 33. -->
+        <sc-if value="{{ f.hasProvenance }}" hint-placeholder-val="{{ true }}">
+          <p style="margin:0 0 22px;font-size:13px;line-height:1.5;color:#605d5d">Provenance des chiffres&nbsp;: <strong>{{ f.provenance }}</strong></p>
         </sc-if>
 
         <sc-if value="{{ f.hasVoirAussi }}" hint-placeholder-val="{{ false }}">
@@ -586,13 +642,22 @@ class Component extends DCLogic {
        portent aucun, et une ligne manquante se lit comme un plat sans sel :
        le trou doit se voir. Document 29, S33. */
     ligne("Sodium", n.sodium_mg == null ? "non chiffr\u00e9" : n.sodium_mg + " mg");
-    ligne("Provenance des chiffres", n.source);
+    /* 🔴 « Note » RESTE DANS LE TABLEAU VISIBLE, « Provenance des chiffres » en
+       sort — voir le commentaire du gabarit. La provenance passe désormais par
+       LIB() : elle s'affichait « estime » en toutes lettres, seul champ fermé
+       affiché sans alias, parce que son nom porte un point et que la table est
+       indexée par des noms simples. V5 du document 33. */
     ligne("Note", n.note);
 
     return {
       chargement: false, erreur: null, trouvee: true,
       deplie: this.state.deplie,
-      libelleDeplier: this.state.deplie ? "Tout replier" : "Tout d\\u00e9plier",
+      /* « Tout déplier » promettait plus qu'il ne livrait : il n'ouvrait qu'un
+         bloc. Et depuis que la vidéo et la nutrition sont en haut, ce bloc ne
+         porte plus que du complément — les notes, la provenance, les renvois et
+         « pour la maison ». D'où « les détails », et d'où le défaut qui reste
+         REPLIÉ : la raison d'ouvrir a disparu. V4 du document 33. */
+      libelleDeplier: this.state.deplie ? "Cacher les d\\u00e9tails" : "Afficher les d\\u00e9tails",
       basculer: () => this.setState({ deplie: !this.state.deplie }),
       /* Le retour pointe la liste d'où l'on vient — techniques ou recettes —
          et le navigateur, lui, rend ses filtres et sa position. */
@@ -602,7 +667,22 @@ class Component extends DCLogic {
         id: o.id, fr: o.fr, jp: NOM_ORIGINE(o), romaji: LECTURE_ORIGINE(o),
         jpt: JPT(NOM_ORIGINE(o), LECTURE_ORIGINE(o), o.fr, o.prononciation || o.jp_lecture),
         catLabel: LIB("categorie", o.categorie), cuiLabel: LIB("cuisine", o.cuisine),
+        /* Le drapeau REMPLACE le nom de la cuisine au surtitre, et le nom passe
+           au « title » et à l'« aria-label » du même élément. Document 33, V1. */
+        drapeau: DRAPEAU(o.cuisine),
         hasPhoto: !!o.photo, bg: o.photo ? 'url("' + o.photo + '")' : "none",
+        classePhoto: (o.video && o.video.youtube_id) ? "photo-doublon" : "",
+        /* L'AUTEUR ET LA LICENCE DE LA PHOTO — S36 du document 33. La quasi-
+           totalité des photos du recueil vient de Wikimedia Commons, et une
+           partie est sous CC BY ou CC BY-SA, des licences qui demandent de
+           nommer l'auteur, la licence, et de renvoyer à la source. Le champ
+           n'existait pas, donc l'information n'était nulle part, donc elle ne
+           pouvait pas s'afficher même en le voulant. Il reste vide sur les
+           photos entrées avant ce document : un manque visible vaut mieux
+           qu'un manque invisible. */
+        hasCredit: !!(o.photo_credit && o.photo_credit.auteur),
+        credit: o.photo_credit ? (o.photo_credit.auteur + " · " + o.photo_credit.licence) : "",
+        creditPage: (o.photo_credit && o.photo_credit.page) || "",
         etoiles: ETOILES(DE_LECTEUR(o.etoiles)),
         pastilles: pastilles,
         portions: o.portions, temps: o.temps_affiche,
@@ -634,6 +714,7 @@ class Component extends DCLogic {
         hasVoirAussi: !!(o.voir_aussi && o.voir_aussi.length),
         voirAussi: (o.voir_aussi || []).map(id => ({ id: id, label: nom(id) })),
         hasMaison: !!o.pour_la_maison, pourLaMaison: o.pour_la_maison || "",
+        hasProvenance: !!n.source, provenance: LIB("nutrition_source", n.source),
         nutrition: nutrition
       }
     };
@@ -811,9 +892,12 @@ class Component extends DCLogic {
       /* Un chiffre sans sa BASE DE DOSAGE est juste et inutilisable : un
          condiment se dose à la cuillère, pas aux 100 g. La base et le produit
          lu voyagent donc avec les chiffres, jamais séparément. */
-      if (bouts.length) ligne("Nutrition (" + (n.base || "?") + ")", bouts.join(" · "));
+      /* L'audit demandé par le V5 du document 33 en a trouvé deux de plus ici,
+         et pour la même raison — un nom de champ à point n'a pas d'alias : la
+         base s'affichait « (c-a-soupe) » et la provenance « etiquette ». */
+      if (bouts.length) ligne("Nutrition " + LIB("nutrition_base", n.base || null), bouts.join(" · "));
       if (n.produit_lu) ligne("Produit lu", n.produit_lu + (n.date_lecture ? " — " + n.date_lecture : ""));
-      ligne("Provenance des chiffres", n.source);
+      ligne("Provenance des chiffres", LIB("nutrition_source", n.source));
     }
     const nom = (id) => { const t = index.find(o => o.id === id); return id + " — " + (t ? t.fr : "?"); };
     return {

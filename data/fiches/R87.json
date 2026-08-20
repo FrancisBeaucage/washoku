@@ -37,7 +37,7 @@
     "cuisson": 6,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 4 jours, le meilleur des quatre namul — mais seulement si les rondelles sortent de la poêle encore fermes.",
   "nutrition": {
     "proteines_g": 2,
     "proteines_affiche": "2 g",
@@ -120,6 +120,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "n76W4c49UdA",
     "auteur": "Korean Bapsang",

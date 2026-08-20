@@ -144,7 +144,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tofu_hamburg_stake_(4605952443).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "pelican from Tokyo, Japan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tofu_hamburg_stake_(4605952443).jpg"
+  },
   "video": {
     "youtube_id": "SeN1_u-du0w",
     "auteur": "Just One Cookbook",

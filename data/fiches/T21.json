@@ -113,7 +113,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Den_luoc.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Tieu ngao giang ho1970 at vi.wikipedia",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Den_luoc.jpg"
+  },
   "video": {
     "youtube_id": "9LjjC6raTKE",
     "auteur": "Kỹ Năng Vào Bếp",

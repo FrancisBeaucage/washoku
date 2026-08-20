@@ -134,7 +134,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Khua_kling.JPG?width=1200",
+  "photo_credit": {
+    "auteur": "Takeaway",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Khua_kling.JPG"
+  },
   "video": {
     "youtube_id": "h6PXM-dlytI",
     "auteur": "Pailin's Kitchen",

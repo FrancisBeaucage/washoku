@@ -161,7 +161,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikujaga_%E8%82%89%E3%81%98%E3%82%83%E3%81%8C.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "ノボホショコロトソ",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nikujaga_%E8%82%89%E3%81%98%E3%82%83%E3%81%8C.jpg"
+  },
   "video": {
     "youtube_id": "0DNXABd26jk",
     "auteur": "Just One Cookbook",

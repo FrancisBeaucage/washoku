@@ -93,7 +93,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%82%82%E3%81%9A%E3%81%8F%E9%85%A2---2023-10-16.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "RuinDig/Yuki Uchida",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E3%82%82%E3%81%9A%E3%81%8F%E9%85%A2---2023-10-16.jpg"
+  },
   "video": {
     "youtube_id": "le0NTzezQ6M",
     "auteur": "ICHIGO's Kitchen - Make Japanese Instant food",

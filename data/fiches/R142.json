@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "番茄炒蛋",
   "lecture_origine": "fānqié chǎodàn",
-  "prononciation": null,
+  "prononciation": "fane-tchié tchao-dane",
   "langue_origine": "zh",
   "fr": "Œufs sautés à la tomate (fanqie chao dan)",
   "sous_titre": "Le plat le plus cuisiné dans les foyers chinois, et le seul du lot dont le sel est le seul assaisonnement. Le dossier n'avait que sa version soupe.",
@@ -141,7 +141,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B2.PNG?width=1200",
+  "photo_credit": {
+    "auteur": "三島堂",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B2.PNG"
+  },
   "video": {
     "youtube_id": "FL7u21QGoo0",
     "auteur": "J. Kenji López-Alt",

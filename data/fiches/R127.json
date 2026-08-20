@@ -132,7 +132,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Egg_drop_soup_(1).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Masahiko OHKUBO from Kobe, Japan",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Egg_drop_soup_(1).jpg"
+  },
   "video": {
     "youtube_id": "u0cUEd2FsJ0",
     "auteur": "JapaneseCooking101",

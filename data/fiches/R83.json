@@ -122,7 +122,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu-saengchae.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "chomjong",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mu-saengchae.jpg"
+  },
   "video": {
     "youtube_id": "Tp1Bbva-o8s",
     "auteur": "Maangchi",

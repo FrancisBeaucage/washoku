@@ -169,8 +169,21 @@ function parcourirTexte(valeur, ou, visiter, cle = null) {
 }
 
 const forme = [];
+/* 🔴 TOUS LES CHAMPS TEXTE DU GUIDE 2, et non plus quatre sur dix. Le document 33
+   (M1) demande cette extension et en donne la cause : les documents de mise à
+   jour SONT du markdown, donc une note écrite dans un fichier où les tableaux et
+   le gras sont légitimes hérite de la mise en forme de son enveloppe. Quarante-
+   cinq tableaux markdown sont passés dans les notes de cette façon, nettoyés à
+   la main à chaque document depuis le 26. Un refus les renvoie au bon endroit,
+   avant l'envoi, et ça vaut mieux que la bonne volonté du rédacteur. */
 const CHAMPS_FICHE = (f) => [
   ['sous_titre', f.sous_titre],
+  ['ajustement', f.ajustement],
+  ['pour_la_maison', f.pour_la_maison],
+  ['preparation_avance', f.preparation_avance],
+  ['prononciation', f.prononciation],
+  ['nutrition.note', f.nutrition && f.nutrition.note],
+  ...Object.entries(f.motif_statut || {}).map(([l, v]) => [`motif_statut.${l}`, v]),
   ...(f.ingredients || []).map((x, i) => [`ingredients[${i}]`, x.texte]),
   ...(f.etapes || []).map((x, i) => [`etapes[${i}]`, x.texte]),
   ...(f.notes || []).flatMap((x, i) => [[`notes[${i}].titre`, x.titre], [`notes[${i}].texte`, x.texte]]),
@@ -180,6 +193,13 @@ for (const f of fiches) {
     if (typeof texte !== 'string') continue;
     if (texte.includes('<')) forme.push(`${f.id} → ${ou} : « < » interdit dans une fiche`);
     if (texte.includes('**')) forme.push(`${f.id} → ${ou} : « ** » ne se rend pas`);
+    /* L'accent grave et la barre verticale sont les deux autres formes que le
+       markdown d'un document laisse derrière lui : `R110` pour un renvoi, et le
+       séparateur d'un tableau comparatif. Un renvoi s'écrit « voir R110 » en
+       texte nu ; un tableau comparatif ne va JAMAIS dans une note — quand la
+       comparaison vaut la peine, elle s'écrit en phrases. */
+    if (texte.includes('`')) forme.push(`${f.id} → ${ou} : accent grave ; un renvoi s'écrit en texte nu, « voir R110 »`);
+    if (texte.includes('|')) forme.push(`${f.id} → ${ou} : barre verticale ; un tableau ne va pas dans un champ texte`);
     /* Le contrat de paragraphes du document 19 (S6) : les champs texte du
        guide 2 acceptent plusieurs paragraphes, séparés par DEUX sauts de ligne
        et rien d'autre. Un saut simple ne se rend pas — il se replie en espace
@@ -542,6 +562,23 @@ for (const f of fiches) {
       continue;
     }
     obligations.push(`${f.id} : temps_minutes.${cle} = ${JSON.stringify(valeur)} ; un nombre ou {min, max} est attendu`);
+  }
+}
+
+/* Le crédit d'une photo — S36 du document 33. La même famille que les trois
+   au-dessus : une licence sans son auteur ni sa page n'est pas une attribution,
+   c'est un mot. Et un crédit sur une fiche sans photo ne se rendra jamais.
+   ⚠️ Ce n'est pas un avis juridique : c'est le contrôle qu'une attribution
+   ÉCRITE porte bien les trois choses qu'une attribution demande. */
+for (const f of fiches) {
+  const cr = f.photo_credit;
+  if (cr == null) continue;
+  if (!f.photo) { obligations.push(`${f.id} : photo_credit sans photo`); continue; }
+  for (const cle of ['auteur', 'licence', 'page']) {
+    if (!String(cr[cle] || '').trim()) obligations.push(`${f.id} : photo_credit sans ${cle}`);
+  }
+  if (cr.page && !/^https:\/\//.test(cr.page)) {
+    obligations.push(`${f.id} : photo_credit.page « ${cr.page} » n'est pas une adresse https`);
   }
 }
 

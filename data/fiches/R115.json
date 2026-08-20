@@ -153,7 +153,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyudon_in_Ulaanbaatar.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "ノボホショコロトソ",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyudon_in_Ulaanbaatar.jpg"
+  },
   "video": {
     "youtube_id": "2hvvVgAEPzc",
     "auteur": "JapaneseCooking101",

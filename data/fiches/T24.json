@@ -121,7 +121,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gnomefish_teriyaki_jetalone_in_Ginza%2C_Tokyo.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "jetalone from Restaurant Sanshuya in Ginza, Tokyo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gnomefish_teriyaki_jetalone_in_Ginza,_Tokyo.jpg"
+  },
   "video": {
     "youtube_id": "n88PT1dSVn8",
     "auteur": "Just One Cookbook",

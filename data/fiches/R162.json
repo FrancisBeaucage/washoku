@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "ຊຸບຜັກ",
   "lecture_origine": "soop phak",
-  "prononciation": null,
+  "prononciation": "soupe pak",
   "langue_origine": "lo",
   "fr": "Légumes lao au sésame et au riz grillé (soop phak)",
   "sous_titre": "Le quatrième liant sec du recueil, et le seul qui en combine deux : sésame écrasé et riz gluant grillé sur un légume blanchi.",
@@ -145,6 +145,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "7jpzf6x8nes",
     "auteur": "Cooking With Khon Khao",

@@ -38,7 +38,7 @@
     "cuisson": 18,
     "attente": 2
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 4 à 5 jours. Complément de R77 et de R82 dans la session du dimanche.",
   "nutrition": {
     "proteines_g": 10,
     "proteines_affiche": "10 g",
@@ -127,7 +127,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dubu-mu-jorim.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "lazy fri13th",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dubu-mu-jorim.jpg"
+  },
   "video": {
     "youtube_id": "ob2CYmTx9PM",
     "auteur": "Maangchi",

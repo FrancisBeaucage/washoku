@@ -38,7 +38,7 @@
     "cuisson": 0,
     "attente": 55
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 2 jours et se congèle en rondelles, comme le riz nature.",
   "nutrition": {
     "proteines_g": 14,
     "proteines_affiche": "14 g",
@@ -138,7 +138,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Takikomi_gohan_with_fried_pork_%E5%8F%B0%E6%B9%BE%E9%A2%A8%E7%84%BC%E3%81%8D%E8%B1%9A%E8%82%89%E5%85%A5%E3%82%8A%E3%81%AE%E4%BA%94%E7%9B%AE%E3%81%94%E9%A3%AF_(9232620206).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Shou-Hui Wang from Melbourne, Australia",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Takikomi_gohan_with_fried_pork_%E5%8F%B0%E6%B9%BE%E9%A2%A8%E7%84%BC%E3%81%8D%E8%B1%9A%E8%82%89%E5%85%A5%E3%82%8A%E3%81%AE%E4%BA%94%E7%9B%AE%E3%81%94%E9%A3%AF_(9232620206).jpg"
+  },
   "video": {
     "youtube_id": "CczmGI6PvcA",
     "auteur": "Just One Cookbook",

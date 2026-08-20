@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "ປີ້ງໄກ່",
   "lecture_origine": "ping gai",
-  "prononciation": null,
+  "prononciation": "pine-gaï",
   "langue_origine": "lo",
   "fr": "Poulet grillé à la citronnelle (ping gai)",
   "sous_titre": "Trente-six grammes de protéines, une marinade de quatre ingrédients aromatiques, et l'ingrédient signature est la partie de la coriandre que tout le monde jette.",
@@ -131,7 +131,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gai_yang_Khuukam.JPG?width=1200",
+  "photo_credit": {
+    "auteur": "Nissy-KITAQ",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gai_yang_Khuukam.JPG"
+  },
   "video": {
     "youtube_id": "H1x5nkVfjuU",
     "auteur": "Food Wishes",

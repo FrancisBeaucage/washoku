@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "回锅肉",
   "lecture_origine": "huíguōròu",
-  "prononciation": null,
+  "prononciation": "houé-gouo-rou",
   "langue_origine": "zh",
   "fr": "Porc et chou sautés deux fois (huiguorou)",
   "sous_titre": "Le plat sichuanais le plus aimé, à neuf grammes de lipides au lieu de trente-huit. Un seul mot change dans la liste d'ingrédients : longe au lieu de poitrine.",
@@ -153,7 +153,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Twice_cooked_pork_of_Gyoza-no-Manshu.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "毒島みるく",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Twice_cooked_pork_of_Gyoza-no-Manshu.jpg"
+  },
   "video": {
     "youtube_id": "EJIojMLLs2g",
     "auteur": "Chinese Cooking Demystified",

@@ -122,7 +122,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bulgogi_in_Seoul.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Brücke-Osteuropa",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bulgogi_in_Seoul.jpg"
+  },
   "video": {
     "youtube_id": "3qBjL_HGvco",
     "auteur": "Maangchi",

@@ -125,7 +125,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kongnamul-01.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "karendotcom127",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kongnamul-01.jpg"
+  },
   "video": {
     "youtube_id": "NWfhIq_MiiU",
     "auteur": "Maangchi",

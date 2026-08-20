@@ -140,7 +140,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ChanChanYaki_20190426.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "逃亡者",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:ChanChanYaki_20190426.jpg"
+  },
   "video": {
     "youtube_id": "ydQ7d-VBiFM",
     "auteur": "Cooking with Dog",

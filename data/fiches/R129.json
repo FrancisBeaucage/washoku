@@ -153,7 +153,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jikasei_Tonjiru.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "切干大根",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jikasei_Tonjiru.jpg"
+  },
   "video": {
     "youtube_id": "PHuxPEUWCcw",
     "auteur": "Just One Cookbook",

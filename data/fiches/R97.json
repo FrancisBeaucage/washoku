@@ -142,7 +142,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_stew_dish_-_Kimchi-jjigae_Kimchi_Stew_2019_(01).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "한국농수산식품유통공사",
+    "licence": "KOGL Type 1",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean_stew_dish_-_Kimchi-jjigae_Kimchi_Stew_2019_(01).jpg"
+  },
   "video": {
     "youtube_id": "rJgb92JWMCE",
     "auteur": "Maangchi",

@@ -112,7 +112,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sigeumchi-namul_2.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Hyeon-Jeong Suk",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sigeumchi-namul_2.jpg"
+  },
   "video": {
     "youtube_id": "7JQPv0xzujg",
     "auteur": "Maangchi",

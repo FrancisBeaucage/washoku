@@ -211,9 +211,31 @@ décision, pas le défaut.
 C'est le piège principal du dossier, parce qu'il n'est **pas uniforme**.
 
 **Les champs texte des fiches du guide 2 sont du texte brut.** `sous_titre`,
-`ingredients[].texte`, `etapes[].texte`, `notes[].texte` : la page les rend tels
-quels. Une balise `<strong>` s'y afficherait en toutes lettres. Pour insister,
-écrire en MAJUSCULES, comme le reste du dossier le fait déjà.
+`ingredients[].texte`, `etapes[].texte`, `notes[].texte`, `ajustement`,
+`pour_la_maison`, `preparation_avance`, `prononciation`, `nutrition.note`,
+`motif_statut[lecteur]` : la page les rend tels quels. Une balise `<strong>` s'y
+afficherait en toutes lettres. Pour insister, écrire en MAJUSCULES, comme le
+reste du dossier le fait déjà.
+
+🔴 **DEUX RÈGLES QUI N'ÉTAIENT NULLE PART, ET QUI EXPLIQUENT QUARANTE-CINQ
+OCCURRENCES.** Elles entrent au document 33 (M1), et c'est le rédacteur des
+documents qui les demande contre lui-même.
+
+1. **Un renvoi s'écrit en TEXTE NU** — « voir R110 », jamais `` `R110` `` entre
+   accents graves.
+2. **Un tableau comparatif ne va JAMAIS dans une note.** Quand la comparaison
+   vaut la peine, elle s'écrit en phrases dans la note ; le tableau reste dans
+   le document de mise à jour, pour le rédacteur et pour l'agent, pas pour le
+   site.
+
+⚠️ **CE QUI RENDAIT LA FAUTE INVISIBLE : les documents de mise à jour SONT du
+markdown.** Une note écrite dans un fichier où le gras et les tableaux sont
+légitimes hérite de la mise en forme de son enveloppe, et personne ne relit une
+note en se demandant ce qu'elle devient sortie de son document. Quarante-cinq
+tableaux markdown sont entrés dans les notes de cette façon et ont été nettoyés
+à la main à chaque document depuis le 26. **La règle 11 les refuse maintenant —
+`**`, un accent grave ou une barre verticale — sur les dix champs ci-dessus et
+non plus sur quatre.**
 
 **Les champs du guide 3 acceptent du HTML simple** — `description`,
 `ou_le_trouver`, `a_quoi_ca_ressemble`, `note.texte`.
@@ -524,9 +546,32 @@ au document 28, l'a découvert — **et c'est ce que le renommage aurait figé :
 nom faux sur de la donnée vraie.** Les douze valeurs supprimées par la migration
 du `S30` ont été reprises du diff de ce commit, pas réinventées.
 
-⚠️ **Il n'est rempli que là où quelqu'un l'a écrit** — douze fiches sur 158. Le
-reste se remplit au fil des documents, ou jamais. La page l'affiche dans
-l'infobulle du nom, à la place de la prononciation calculée depuis le romaji.
+⚠️ **Il n'est rempli que là où quelqu'un l'a écrit** — **46 fiches sur 192**
+depuis le document 33, contre 13 avant lui. Le reste se remplit au fil des
+documents, ou jamais. La page l'affiche dans l'infobulle du nom, à la place de la
+prononciation calculée depuis le romaji.
+
+**Les quatre règles qui produisent l'essentiel du bénéfice**, et elles valent
+plus que les valeurs déjà écrites parce qu'elles se transportent aux fiches qui
+attendent encore :
+
+| Écriture | Ce qu'un francophone dit | En réalité | Exemple |
+|---|---|---|---|
+| pinyin `zh` · `x` · `q` · `c` | « ze » · « iks » · « kou » · « ss » | **dj · s · tch · ts** | `zhēng` = « djeng » · `xīlánhuā` = « si-lane-houâ » · `càixīn` = « tsaï-sine » |
+| indonésien `c` | « ss » ou « k » | **tch** | `bacem` = « ba-tchème », et non « ba-sème » |
+| vietnamien `đ` contre `d` | les deux « d » | **`đ` = d · `d` = z** | `đậu` = « dao », mais `dưa` = « zoua » |
+| thaï et lao, consonne finale | prononcée | **retenue, à peine posée** | `mak` = « mak » sans le k soufflé · `saap` = « sâpe », très court |
+
+⚠️ **Une valeur déjà écrite peut être remplacée par une meilleure, et l'a été** :
+`R136` portait « gan-biène si-ji-dou », où le `j` se lit à la française alors que
+le pinyin le veut « dj ». Le document 33 le corrige en « gane-biène sseu-dji-dou ».
+**Les deux champs ne se corrigent pas l'un par l'autre** — `lecture_origine` reste
+la romanisation savante, `prononciation` reste une approximation.
+
+⚠️ **Ce qui reste vide et vaut la peine : les 23 fiches coréennes des documents
+25 et 26**, et les fiches antérieures non japonaises. Un francophone lit
+« gyeranmari » comme « jé-rane-ma-ri » alors que c'est « kié-rane-ma-ri », et
+« doenjang » comme « do-ène-jang » alors que c'est « twène-djang ».
 
 `langue_origine` (`ja` · `zh` · `ko` · `vi` · `th` · `lo` · `id` · `aucune`) dit à
 l'affichage quelle graphie montrer. Au guide 2, son défaut se déduit de `cuisine`,
@@ -551,6 +596,69 @@ dit maintenant sous le cadre.
 la langue n'est ni le français ni l'anglais : écrire `en` sur les quatre-vingt-dix
 autres serait exact et sans emploi. C'est la même convention que `langue_origine`
 au guide 3, où `null` dit qu'on ne sait pas et `aucune` serait une affirmation.
+
+### `photo` et `photo_credit`
+
+**`photo` est une ADRESSE, pas un fichier.** Les photos de fiches ne sont pas
+dans le dépôt : ce sont des liens `Special:FilePath` de Wikimedia Commons, avec
+`?width=1200`. La **règle 3** ne vérifie sur le disque que les chemins locaux —
+les photos du guide 3 et du journal, qui vivent dans `assets/`.
+
+```
+https://commons.wikimedia.org/wiki/Special:FilePath/<Nom_du_fichier>.jpg?width=1200
+```
+
+**`photo_credit`, entré au document 33 (S36), dit de qui elle est.** Il n'existait
+pas, donc l'information n'était nulle part, donc elle ne pouvait pas s'afficher
+même en le voulant — et **une partie des fichiers de Commons est sous CC BY ou
+CC BY-SA, des licences qui demandent de nommer l'auteur, la licence, et de
+renvoyer à la source.**
+
+| Clé | Contenu | Exemple |
+|---|---|---|
+| `auteur` | le nom tel que Commons l'affiche | `Ocdp` |
+| `licence` | le code court | `CC BY-SA 4.0` · `CC0` · `Domaine public` |
+| `page` | l'adresse de la page du FICHIER, pas de l'image | `https://commons.wikimedia.org/wiki/File:…` |
+
+`null` quand personne ne l'a établi. La **règle 21** refuse un crédit incomplet
+— une licence sans son auteur ni sa page n'est pas une attribution, c'est un mot
+— et refuse un crédit sur une fiche sans photo. La page rend un `<figcaption>`
+discret sous l'image, *auteur · licence*, en lien vers `page`.
+
+⚠️ **Ce n'est pas un avis juridique.** Le dossier écrit ce que Commons dit ; une
+certitude sur ce point se demande à un professionnel.
+
+🔴 **LA RÈGLE DE CHOIX VAUT PLUS QUE LE CHAMP : à qualité égale, préférer un
+fichier en domaine public ou CC0.** Il n'y a alors rien à attribuer et rien à
+maintenir. Sur les fiches qui attendent encore une photo, ce critère coûte
+quelques secondes et il enlève un problème entier.
+
+**Comment on cherche une photo, et l'API répond en deux appels :**
+
+```bash
+# 1. chercher — par lecture_origine ou romaji d'abord, c'est ainsi que les
+#    contributeurs de Commons nomment leurs fichiers
+curl -s 'https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=<termes>&srnamespace=6&srlimit=10'
+# 1 bis. souvent meilleur : la catégorie du plat
+curl -s 'https://commons.wikimedia.org/w/api.php?action=query&format=json&list=categorymembers&cmtitle=Category:<Plat>&cmtype=file&cmlimit=50'
+# 2. qualifier — jusqu'à 50 titres d'un coup, et `extmetadata` porte l'auteur
+#    et la licence, donc `photo_credit` se remplit dans le même passage
+curl -s 'https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|extmetadata&titles=File:A|File:B'
+```
+
+**Les critères de retenue, dans l'ordre :** le plat est le sujet, seul, en
+assiette ou en casserole — **rejeter les photos de table garnie, un plan large de
+six plats n'en montre aucun** ; domaine public ou CC0 si le choix existe ; au
+moins 800 px de large, puisque le gabarit demande `?width=1200` ; rejeter une
+photo de restaurant occidentalisé quand la fiche décrit une version domestique.
+
+🔴 **LE REPLI EST LÉGITIME : PAS DE PHOTO.** Le gabarit gère `hasPhoto: false` et
+la fiche reste complète. **Une photo approximative est pire qu'un cadre vide,
+parce qu'elle enseigne quelque chose de faux sans le dire.** Et certaines
+techniques n'ont pas d'image : « le blanchiment préalable des viandes », « la
+sauce prémélangée au bol », « le mijotage long » ne se photographient pas. Une
+casserole d'eau trouble est une illustration décorative, et le recueil n'en a pas
+besoin.
 
 ## Les deux blocs des fiches du guide 2
 

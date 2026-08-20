@@ -38,7 +38,7 @@
     "cuisson": 3,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 3 jours au frigo.",
   "nutrition": {
     "proteines_g": 15,
     "proteines_affiche": "15 g",
@@ -123,6 +123,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "JPhGfUWbDkg",
     "auteur": "Sudachi | Japanese Recipes | Yuto Omura",

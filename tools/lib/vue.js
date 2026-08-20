@@ -16,6 +16,17 @@
 
 const C = require('./champs');
 
+/* 🔴 LA PILE DE POLICES DU DRAPEAU, et elle n'est pas un détail : `Archivo` ne
+   porte aucun émoji, et la chaîne de repli `system-ui, sans-serif` n'en porte
+   pas non plus sur tous les systèmes. Un drapeau posé dans la police du texte
+   se rendait donc en CARRÉ là où le même caractère s'affichait parfaitement
+   dans un `<select>`, qui emploie la police de l'interface. Vu à l'écran le
+   19 août 2026, et c'est la vraie cause du repli manqué du document 33.
+
+   La même chaîne sert au test au pixel de `DRAPEAU()` : mesurer dans une police
+   que la page n'emploie pas répond à une autre question que celle qu'on pose. */
+const PILE_EMOJI = '"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",system-ui,sans-serif';
+
 /* ── La feuille de style, commune aux douze pages ─────────────────────── */
 
 const STYLE = `
@@ -81,6 +92,18 @@ const STYLE = `
   .past-claire { background:#e2dede; color:var(--encre); }
   .past-rouge { background:var(--rouge); color:#fff; }
   .etoiles { font-size:12px; letter-spacing:.06em; color:var(--rouge); white-space:nowrap; }
+  /* Le drapeau d'origine. Sa police est celle des émoji du système, jamais
+     celle du texte — voir PILE_EMOJI dans lib/vue.js. L'interlettrage est
+     remis à zéro parce que le surtitre de la fiche en porte .18em, ce qui
+     décollerait les deux moitiés d'un drapeau. */
+  .drap { font-family:${PILE_EMOJI}; letter-spacing:0; font-weight:700; }
+  /* 🔴 SUR UNE SEULE COLONNE, LA PHOTO CÈDE LA PLACE À LA VIDÉO. Les deux
+     montrent la même chose ; côte à côte sur large écran c'est un choix, l'une
+     SOUS l'autre sur un téléphone c'est mille pixels avant les portions et le
+     temps — l'inverse du mode cuisine que la fiche existe pour servir. La
+     vignette de départ d'une vidéo EST une photo du plat, donc rien ne se perd.
+     La classe ne se pose que sur les fiches qui portent les deux. */
+  @media (max-width:700px) { .photo-doublon { display:none; } }
   .fiche2 { display:grid; grid-template-columns:minmax(230px,320px) 1fr; gap:clamp(24px,4vw,52px); align-items:start; }
   .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:var(--encre); border:2px solid var(--encre); margin:clamp(22px,3vw,34px) 0; }
   .metrics > div { background:var(--fond); padding:14px 16px; }
@@ -252,6 +275,41 @@ const PAR_CODE = (a, b) => { const x = RANG(a.id), y = RANG(b.id); return x[0] -
    c'est exactement pourquoi il fallait l'ajouter pendant que rien n'en dépend. */
 const NORM = (s) => (s || "").toLowerCase().replace(/\\u0153/g, "oe").replace(/\\u00e6/g, "ae").replace(/\\u00df/g, "ss").normalize("NFD").replace(/[\\u0300-\\u036f]/g, "");
 const OPTIONS = (tous, groupe, valeurs) => [{ k: "tous", label: tous }].concat(valeurs.map(v => ({ k: v, label: LIB(groupe, v) })));
+/* 🔴 LE DRAPEAU, OU LES DEUX LETTRES QUAND IL NE SE COMPOSE PAS. Un drapeau en
+   émoji est une PAIRE d'indicateurs régionaux que la police doit savoir fondre
+   en un glyphe. Chrome et Edge sous Windows ne le savent pas et rendent « JP »,
+   ce qui dégrade proprement — mais un navigateur sans police d'émoji du tout
+   rend UN CARRÉ, et l'origine disparaît alors de la carte. Vérifié à l'écran le
+   19 août 2026, et c'est ce qui a fait ajouter ce test.
+
+   Le test est au PIXEL et non à la largeur, parce que la largeur ne distingue
+   pas un carré de repli d'un drapeau composé : les deux mesurent une chasse
+   d'émoji. Un drapeau est EN COULEUR ; un carré et deux lettres sont noirs.
+   Toute incertitude — canevas refusé, exception — répond « drapeau », qui est ce
+   que le document demande et ce que voient l'iPhone et le Mac. Document 33, V1. */
+const DRAPEAUX_OK = (() => {
+  try {
+    const cv = document.createElement("canvas");
+    cv.width = 20; cv.height = 20;
+    const c = cv.getContext("2d");
+    if (!c) return true;
+    c.font = '16px ${PILE_EMOJI}';
+    c.textBaseline = "top";
+    c.fillText("\\u{1F1EF}\\u{1F1F5}", 0, 0);
+    const d = c.getImageData(0, 0, 20, 20).data;
+    for (let i = 0; i < d.length; i += 4) {
+      if (d[i + 3] > 32 && (Math.abs(d[i] - d[i + 1]) > 24 || Math.abs(d[i + 1] - d[i + 2]) > 24)) return true;
+    }
+    return false;
+  } catch (e) { return true; }
+})();
+const DRAPEAU = (cuisine) => (DRAPEAUX_OK ? LIB("cuisine_drapeau", cuisine) : LIB("cuisine_code", cuisine));
+/* 🔴 LE SÉLECTEUR D'ORIGINE EST LA LÉGENDE DES DRAPEAUX, et c'est ce qui rend
+   inutile un bandeau de légende à maintenir en bas de page : il liste les sept
+   origines présentes avec leur drapeau ET leur nom, il est en haut, il est déjà
+   là. Le drapeau se met DEVANT le nom sans le remplacer — « Toute origine »
+   n'en prend pas. Document 33, V1. */
+const OPTIONS_ORIGINE = (tous, valeurs) => [{ k: "tous", label: tous }].concat(valeurs.map(v => ({ k: v, label: DRAPEAU(v) + " " + LIB("cuisine", v) })));
 `;
 
 module.exports = { STYLE, AIDES, RENDU_BLOCS, tableLibelles };

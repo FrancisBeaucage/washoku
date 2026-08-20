@@ -27,7 +27,7 @@
   "romaji": null,
   "nom_origine": "ยำทูน่า",
   "lecture_origine": "yam tuna",
-  "prononciation": null,
+  "prononciation": "yame tou-na",
   "langue_origine": "th",
   "fr": "Salade de thon en conserve (yam tuna)",
   "sous_titre": "Trente-cinq grammes de protéines, huit minutes, aucune cuisson. Et un seul choix à l'épicerie qui divise son sodium par deux.",
@@ -121,6 +121,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "vj_DykfQgXQ",
     "auteur": "Pailin's Kitchen",

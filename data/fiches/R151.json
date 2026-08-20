@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "ข้าวต้ม",
   "lecture_origine": "khao tom",
-  "prononciation": null,
+  "prononciation": "kao tome",
   "langue_origine": "th",
   "fr": "Soupe de riz du matin (khao tom)",
   "sous_titre": "La première fiche de déjeuner thaïe du recueil. Trente-quatre grammes de protéines pour deux cent cinquante milligrammes de sodium — et c'est le zōsui thaï.",
@@ -143,7 +143,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao_tom_pla.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Takeaway",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Khao_tom_pla.jpg"
+  },
   "video": {
     "youtube_id": "WqeFpKpYH1I",
     "auteur": "ThaiChef Food",

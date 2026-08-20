@@ -143,7 +143,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Seseri_and_Tsukune.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "ayustety from Tokyo, Japan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seseri_and_Tsukune.jpg"
+  },
   "video": {
     "youtube_id": "IyXQemAcKLw",
     "auteur": "Just One Cookbook",

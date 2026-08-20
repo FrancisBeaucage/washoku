@@ -152,7 +152,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Doenjang-jjigae.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "jyleen21",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Doenjang-jjigae.jpg"
+  },
   "video": {
     "youtube_id": "Slj_fM1jQVo",
     "auteur": "Maangchi",

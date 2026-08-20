@@ -26,7 +26,7 @@
   "romaji": null,
   "nom_origine": "ส้มตำไทย",
   "lecture_origine": "som tam thai",
-  "prononciation": null,
+  "prononciation": "sôme tame taï",
   "langue_origine": "th",
   "fr": "Salade de papaye verte (som tam thai)",
   "sous_titre": "Le croquant le plus franc du corpus thaï. Deux grammes de protéines — c'est un poste légume, et il faut le compter comme tel.",
@@ -123,7 +123,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Thai_Som_Tam_Sukhothai_Thailand.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Alexander Klink",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thai_Som_Tam_Sukhothai_Thailand.jpg"
+  },
   "video": {
     "youtube_id": "Wvv0dqZ_xa4",
     "auteur": "Pailin's Kitchen",

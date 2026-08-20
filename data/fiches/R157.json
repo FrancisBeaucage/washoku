@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "đậu hũ nhồi thịt sốt cà",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "dao hou nyoï tite sôte ka",
   "langue_origine": "vi",
   "fr": "Tofu farci à la sauce tomate (dau hu nhoi thit)",
   "sous_titre": "Le plat de tous les jours de la maison vietnamienne. Deux protéines dans une assiette, et la tomate fait l'umami que la sauce de poisson n'a pas à faire.",
@@ -39,7 +39,7 @@
     "cuisson": 20,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 3 jours et c'est meilleur le lendemain : le tofu continue de boire la sauce.",
   "nutrition": {
     "proteines_g": 24,
     "proteines_affiche": "24 g",
@@ -131,6 +131,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "-ulewHRgtbg",
     "auteur": "Helen's Recipes (Vietnamese Food)",

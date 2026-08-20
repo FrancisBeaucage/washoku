@@ -27,7 +27,7 @@
   "romaji": null,
   "nom_origine": "ໝົກປາ",
   "lecture_origine": "mok pa",
-  "prononciation": null,
+  "prononciation": "môk pa",
   "langue_origine": "lo",
   "fr": "Poisson en papillote de feuille de bananier (mok pa)",
   "sous_titre": "Trente grammes de protéines pour quatre grammes de lipides et pas une goutte d'huile ajoutée. La papillote est le cuiseur, et l'herbe signature est l'aneth.",
@@ -38,7 +38,7 @@
     "cuisson": 25,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se monte d'avance et se congèle CRU. Les papillotes montées se cuisent à la vapeur 35 minutes depuis congelé.",
   "nutrition": {
     "proteines_g": 30,
     "proteines_affiche": "30 g",
@@ -135,7 +135,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish_with_coconut_milk_served_in_banana_leaf.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "mick62",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fish_with_coconut_milk_served_in_banana_leaf.jpg"
+  },
   "video": {
     "youtube_id": "s9LLLgobDck",
     "auteur": "Saeng Douangdara",

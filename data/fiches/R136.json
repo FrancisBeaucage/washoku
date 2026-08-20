@@ -27,7 +27,7 @@
   "romaji": null,
   "nom_origine": "干煸四季豆",
   "lecture_origine": "gānbiān sìjìdòu",
-  "prononciation": "gan-biène si-ji-dou",
+  "prononciation": "gane-biène sseu-dji-dou",
   "langue_origine": "zh",
   "fr": "Haricots verts au sauté à sec (ganbian sijidou)",
   "sous_titre": "L'accompagnement croquant que le dossier cherche depuis son premier comptage. Des haricots ridés, fermes sous la dent, et pas une goutte de friture.",
@@ -139,6 +139,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "lEJUCwBL7-k",
     "auteur": "KomodoCooks",

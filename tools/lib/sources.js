@@ -59,6 +59,12 @@ const SOURCES = [
       'langue_origine',
       'etoiles', 'cout_travail', 'statut_perso', 'motif_statut', 'pour_la_maison',
       'ajustement',
+      /* L'auteur, la licence et la page du fichier de la photo — S36 du
+         document 33. Le gabarit rend un `<figcaption>` sous l'image quand le
+         champ est rempli ; la page n'a jamais porté cette information, donc le
+         mapper ne peut pas la relire. Un chemin déclaré couvre ses descendants,
+         donc les trois clés tiennent en une ligne. */
+      'photo_credit',
     ],
     champs_reconstitues: ['commentaire_source'],
   },

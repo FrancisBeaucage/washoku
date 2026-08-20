@@ -154,7 +154,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenchinjiru_soy_sauce_flavor_2009.JPG?width=1200",
+  "photo_credit": {
+    "auteur": "User:Kentin",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kenchinjiru_soy_sauce_flavor_2009.JPG"
+  },
   "video": {
     "youtube_id": "M1uP4rJBsDE",
     "auteur": "Just One Cookbook",

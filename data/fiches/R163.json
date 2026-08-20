@@ -29,7 +29,7 @@
   "romaji": null,
   "nom_origine": "soto ayam",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "so-to a-yame",
   "langue_origine": "id",
   "fr": "Soupe de poulet au curcuma (soto ayam)",
   "sous_titre": "Une soupe indonésienne sans lait de coco, jaune de curcuma frais. Trente-sept grammes de protéines pour deux tiers de cuillère à thé de sel.",
@@ -140,7 +140,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto_Ayam_-_Rest_Area_KM_726B.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Indonesiagood",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Soto_Ayam_-_Rest_Area_KM_726B.jpg"
+  },
   "video": {
     "youtube_id": "tjuO0CCAASA",
     "auteur": "Taste of Asian Food",

@@ -136,7 +136,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dashimaki_tamago_by_yajico_in_Ebisu%2C_Tokyo.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "yajico from Japanese restaurant Toneri in Ebisu, Shibuya, Tokyo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dashimaki_tamago_by_yajico_in_Ebisu,_Tokyo.jpg"
+  },
   "video": {
     "youtube_id": "4Zfh5qTwgOY",
     "auteur": "ochikeron",

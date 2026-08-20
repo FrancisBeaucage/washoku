@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "ແຈ່ວໝາກເລັ່ນ",
   "lecture_origine": "jeow mak len",
-  "prononciation": null,
+  "prononciation": "tcheo mak lène",
   "langue_origine": "lo",
   "fr": "Trempette de tomates grillées (jeow mak len)",
   "sous_titre": "Vingt-cinq calories, quatre-vingt-cinq milligrammes de sodium, et un goût qui domine une assiette. Tout vient du grill, rien de la salière.",
@@ -39,7 +39,7 @@
     "cuisson": 25,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 5 jours au frigo, et le goût se fixe après une nuit. Préparation du dimanche.",
   "nutrition": {
     "proteines_g": 1,
     "proteines_affiche": "1 g",
@@ -132,7 +132,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeow_mak_len.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Isan1985",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jeow_mak_len.jpg"
+  },
   "video": {
     "youtube_id": "omEfjsOPXEs",
     "auteur": "Cooking With Khon Khao",

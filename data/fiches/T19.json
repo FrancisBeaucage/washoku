@@ -108,7 +108,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lao_khao_khua_(toasted_rice_powder)_for_laab_and_jeow.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Isan1985",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lao_khao_khua_(toasted_rice_powder)_for_laab_and_jeow.jpg"
+  },
   "video": {
     "youtube_id": "GGdg-Bb9shA",
     "auteur": "Cooking With Khon Khao",

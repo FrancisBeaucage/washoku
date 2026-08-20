@@ -150,6 +150,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "xjkottdHL_k",
       "auteur": "Just One Cookbook",
@@ -321,6 +322,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "5qBAcsM31Rg",
       "auteur": "Just One Cookbook",
@@ -429,6 +431,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Maquereaux_etal.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "cr2cP89TtIk",
       "auteur": "Japanese Cooking 101",
@@ -578,6 +581,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Soi_yakizakana.JPG?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "cr2cP89TtIk",
       "auteur": "Japanese Cooking 101",
@@ -706,6 +710,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "odGG8AEf0LU",
       "auteur": "The Woks of Life",
@@ -849,6 +854,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "DfFv9gTxrbs",
       "auteur": "Just One Cookbook",
@@ -988,6 +994,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Boiled%20eggs%20in%20soy%20sauce%20-Jangjolim-%20%286275954552%29.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "bsDgZXoieFU",
       "auteur": "Just One Cookbook",
@@ -1129,6 +1136,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "KYRAk2qY_h4",
       "auteur": "Just One Cookbook",
@@ -1253,6 +1261,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ajitama.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "mcXzPF4-LFw",
       "auteur": "Epicurious",
@@ -1406,6 +1415,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Karaage.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "5Ea3EuwA758",
       "auteur": "Japanese Top Chefs",
@@ -1542,6 +1552,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_strips_of_radish.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -1673,6 +1684,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "zi3FB2NtLCc",
       "auteur": "Made With Lau",
@@ -1790,6 +1802,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "JWTbMPRwpvI",
       "auteur": "TheChineseSoupLady",
@@ -1912,6 +1925,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "a-Yu8qOAEYQ",
       "auteur": "Chinese Cooking Demystified",
@@ -2043,6 +2057,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "X6JE7W8Z6Hs",
       "auteur": "Chinese Cooking Demystified",
@@ -2189,6 +2204,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "EA2Mx1m7NAI",
       "auteur": "Chinese Cooking Demystified",
@@ -2322,6 +2338,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "IN0b81cVHsI",
       "auteur": "Made With Lau",
@@ -2453,7 +2470,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B9%B2%E7%85%B8%E9%9D%92%E6%A4%92-%E4%BA%91%E5%8D%97%E9%B9%A4%E5%BA%86_2024-08-05.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Kcx36",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E5%B9%B2%E7%85%B8%E9%9D%92%E6%A4%92-%E4%BA%91%E5%8D%97%E9%B9%A4%E5%BA%86_2024-08-05.jpg"
+    },
     "video": {
       "youtube_id": "tJemaPzmouQ",
       "auteur": "Made With Lau",
@@ -2564,6 +2586,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "J2-1ZErtS7A",
       "auteur": "Chinese Cooking Demystified",
@@ -2682,7 +2705,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lao_khao_khua_(toasted_rice_powder)_for_laab_and_jeow.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Isan1985",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lao_khao_khua_(toasted_rice_powder)_for_laab_and_jeow.jpg"
+    },
     "video": {
       "youtube_id": "GGdg-Bb9shA",
       "auteur": "Cooking With Khon Khao",
@@ -2807,6 +2835,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "P4JgJec4QQI",
       "auteur": "Maangchi",
@@ -2930,7 +2959,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Den_luoc.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Tieu ngao giang ho1970 at vi.wikipedia",
+      "licence": "Domaine public",
+      "page": "https://commons.wikimedia.org/wiki/File:Den_luoc.jpg"
+    },
     "video": {
       "youtube_id": "9LjjC6raTKE",
       "auteur": "Kỹ Năng Vào Bếp",
@@ -3066,6 +3100,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "9756aQ99pe8",
       "auteur": "Pailin's Kitchen",
@@ -3198,6 +3233,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "w5tI3SdeoVo",
       "auteur": "Just One Cookbook",
@@ -3335,6 +3371,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel_Kanra_Kyoto_%28Main%29_B2F_The_Kitchen_Kanra_Japanese-style_breakfast_20210628-001.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "VP9odZtZw3g",
       "auteur": "Kyodokan",
@@ -3476,6 +3513,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso%20soup%20overhead.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "wshf6yZbhwk",
       "auteur": "Just One Cookbook",
@@ -3618,6 +3656,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "6eHsqXOsyek",
       "auteur": "ochikeron",
@@ -3726,6 +3765,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tamagokake-gohan_001.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "pCH0jEOczQQ",
       "auteur": "No Recipes",
@@ -3849,6 +3889,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20mayo%20deop-bap%20-%20Kogi%2C%20Brighton.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "5YMJqshTBMI",
       "auteur": "Aaron and Claire",
@@ -3968,6 +4009,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_rice_congee.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "UE7iz3ePi_E",
       "auteur": "Japanese Cooking 101",
@@ -4081,6 +4123,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chawan-mushi.JPG?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "OEqu5c2edSw",
       "auteur": "Just One Cookbook",
@@ -4179,6 +4222,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Asage(Instant%20miso%20soup).jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -4316,6 +4360,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyudon_by_jetalone_in_Higashi-Ginza%2C_Tokyo.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -4453,6 +4498,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiyayakko_with_bonito_flakes_and_welsh_onion_2.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "Fkyb1mixSCE",
       "auteur": "Sudachi",
@@ -4589,6 +4635,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuna_can.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -4697,6 +4744,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Una_chazuke_by_Kossy%40FINEDAYS_in_Akabane.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "VEodY9THtmw",
       "auteur": "Just One Cookbook",
@@ -4816,6 +4864,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaru%20soba%20by%20spinachdip.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "-ojltkREE1c",
       "auteur": "Just One Cookbook",
@@ -4932,6 +4981,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "fdzM_zovmyo",
       "auteur": "Just One Cookbook",
@@ -5057,6 +5107,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%84%BC%E3%81%8D%E9%AE%AD---2024-03-05.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "cr2cP89TtIk",
       "auteur": "Japanese Cooking 101",
@@ -5192,6 +5243,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "assets/recettes/flocons-saumon.jpg",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -5292,6 +5344,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salmon_Saikyo-Yaki.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "a_YTAcSZOPw",
       "auteur": "Just One Cookbook",
@@ -5400,6 +5453,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellowtail%20Kingfish%20and%20tofu%20simmered%20in%20soy%20sauce%20-%20%E5%B1%B1%E5%AE%B6%20Yama-ya.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "KG8pBlF2Lsg",
       "auteur": "Sudachi",
@@ -5528,6 +5582,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef_and_broccoli_stir_fry.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "n_0JYAQzYAg",
       "auteur": "Made With Lau",
@@ -5642,6 +5697,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bun_cha_Hanoi.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "iZJzTScgB-c",
       "auteur": "Helen's Recipes",
@@ -5778,6 +5834,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Oyakodon_003.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "Vlp6ufKYDzk",
       "auteur": "Just One Cookbook",
@@ -5922,6 +5979,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "Bqpc4TtXmPo",
       "auteur": "Japanese Cooking 101",
@@ -6029,6 +6087,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking_yakitori.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "3woUacOV5KQ",
       "auteur": "Just One Cookbook",
@@ -6155,6 +6214,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20chicken%20thighs.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "00Qcvz21Bak",
       "auteur": "Japanese Cooking 101",
@@ -6284,6 +6344,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Okonomiyaki_001.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "RtqpS9FHEbc",
       "auteur": "Just One Cookbook",
@@ -6425,6 +6486,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolsot-bibimbap.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "6QQ67F8y2b8",
       "auteur": "Maangchi",
@@ -6552,6 +6614,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "tw8EXKWwudQ",
       "auteur": "Just One Cookbook",
@@ -6669,6 +6732,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ping_SJ_hot_%26_sour_soup.JPG?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "8eMk9yTm_34",
       "auteur": "Omnivore's Cookbook",
@@ -6792,6 +6856,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chen_Mapo_Tofu.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "AujuLHK3hvs",
       "auteur": "Chinese Cooking Demystified",
@@ -6924,6 +6989,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_yam_kung_maenam.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "hXaaZiMgvgI",
       "auteur": "Hot Thai Kitchen",
@@ -7033,6 +7099,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_preppybyday_4711943668--Tom_kha_gai.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "OooFZU2ZktY",
       "auteur": "Hot Thai Kitchen",
@@ -7154,6 +7221,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "Mg9zeD01kEw",
       "auteur": "Maangchi",
@@ -7276,6 +7344,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_soup-Yukgaejang-01.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "FxSmBbXSDl0",
       "auteur": "Maangchi",
@@ -7390,6 +7459,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_wonton_soup.JPG?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "0RPCzzm8l9I",
       "auteur": "Made With Lau",
@@ -7499,6 +7569,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukune_%28chicken_meatballs%29_%2816065642291%29.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "IyXQemAcKLw",
       "auteur": "Just One Cookbook",
@@ -7623,6 +7694,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso%20soup%20and%20Rice%2020141027.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "8wVjpLI2mp0",
       "auteur": "Japanese Cooking 101",
@@ -7757,6 +7829,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yataioden.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "T_rV_Vwdpdw",
       "auteur": "Chef JA Cooks",
@@ -7872,6 +7945,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_DimSum_%289023590541%29.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "NaiL0SeTz_s",
       "auteur": "Made With Lau",
@@ -8005,6 +8079,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_Meatball_pho.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "36E3XXqab40",
       "auteur": "Helen's Recipes",
@@ -8113,6 +8188,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wet_shirataki_noodles.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "qkv_CxkdWB4",
       "auteur": "Yeung Man Cooking",
@@ -8233,6 +8309,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso_Soup_001.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "wshf6yZbhwk",
       "auteur": "Just One Cookbook",
@@ -8342,6 +8419,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canhchua2.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "vO81lQvYodI",
       "auteur": "Helen's Recipes",
@@ -8453,6 +8531,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Suimono_by_Joi.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "m7d0FJjlT1U",
       "auteur": "Just One Cookbook",
@@ -8566,6 +8645,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomato_je.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "pvacqcbDb0Y",
       "auteur": "Wei's Red House Kitchen",
@@ -8667,6 +8747,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Daikon.Japan.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "MAUc-bAVymc",
       "auteur": "ochikeron",
@@ -8777,6 +8858,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "DfFv9gTxrbs",
       "auteur": "Just One Cookbook",
@@ -8906,6 +8988,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Goma-ae_salad.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "CvOoXbwUySI",
       "auteur": "Just One Cookbook",
@@ -9034,6 +9117,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "KYRAk2qY_h4",
       "auteur": "Just One Cookbook",
@@ -9159,6 +9243,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinpira_002.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "ZHbYTUq8M7U",
       "auteur": "Just One Cookbook",
@@ -9268,6 +9353,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "09g-HSTI7_o",
       "auteur": "No Recipes",
@@ -9427,6 +9513,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiriboshi_daikon_002.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -9561,6 +9648,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Buna_shimeji_%288009663976%29.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -9681,6 +9769,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Momiji_oroshi.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -9806,6 +9895,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "zBnR0bdU_JM",
       "auteur": "Japanese Cooking 101",
@@ -9889,6 +9979,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nori.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -9967,6 +10058,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Senbeis.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -10048,6 +10140,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Konnyaku.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -10132,6 +10225,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Umeboshi2.JPG?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -10213,6 +10307,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashi_pear.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -10310,6 +10405,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Greek_yoghurt_with_honey.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -10429,6 +10525,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gungoguma_(roasted_sweet_potatoes).jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "31zAQudWyUo",
       "auteur": "Chef JA Cooks",
@@ -10559,6 +10656,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/HomeCookedRamenNoodles.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -10661,6 +10759,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyoza_no_Antei_-_3.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "hVFp_H87Nzc",
       "auteur": "Japanese Cooking Ichie",
@@ -10761,6 +10860,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": null,
       "auteur": null,
@@ -10923,6 +11023,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kake%20soba%20with%20sansai%20by%20jetalone%20in%20Hachioji.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "c_waS4o02NA",
       "auteur": "Just One Cookbook",
@@ -11088,6 +11189,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "assets/recettes/niku-udon.jpg",
+    "photo_credit": null,
     "video": {
       "youtube_id": "CBRnRvJNJ10",
       "auteur": "Just One Cookbook",
@@ -11259,6 +11361,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A1nh%20t%C3%B4m%20%28th%C3%A1ng%207%20n%C4%83m%202018%29%20%282%29.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "7ENdsSQ9L9w",
       "auteur": "Helen's Recipes (Vietnamese Food)",
@@ -11433,6 +11536,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shogayaki.jpg?width=1200",
+    "photo_credit": null,
     "video": {
       "youtube_id": "-9CUm-2cui8",
       "auteur": "Cooking with Dog",
@@ -11579,7 +11683,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuea_yang_nam_tok.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Takeaway",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nuea_yang_nam_tok.jpg"
+    },
     "video": {
       "youtube_id": "v_4bz49MGow",
       "auteur": "Cooking With Khon Khao",
@@ -11725,7 +11834,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lao_meat_Larb.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Bounthy",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lao_meat_Larb.jpg"
+    },
     "video": {
       "youtube_id": "XfgdIEM2UAc",
       "auteur": "Holy Rice",
@@ -11874,6 +11988,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "miEfiWtezkw",
       "auteur": "Just One Cookbook",
@@ -12012,7 +12127,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kongnamul-01.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "karendotcom127",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kongnamul-01.jpg"
+    },
     "video": {
       "youtube_id": "NWfhIq_MiiU",
       "auteur": "Maangchi",
@@ -12160,6 +12280,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "3p0kTLZNWsA",
       "auteur": "Helen's Recipes (Vietnamese Food)",
@@ -12324,7 +12445,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Clear_Soup_2018-05-05_(1).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Index Librorum Permissorum",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Clear_Soup_2018-05-05_(1).jpg"
+    },
     "video": {
       "youtube_id": "PV__ThYw6VI",
       "auteur": "Pailin's Kitchen",
@@ -12471,7 +12597,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dashimaki_tamago_by_yajico_in_Ebisu%2C_Tokyo.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "yajico from Japanese restaurant Toneri in Ebisu, Shibuya, Tokyo",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dashimaki_tamago_by_yajico_in_Ebisu,_Tokyo.jpg"
+    },
     "video": {
       "youtube_id": "4Zfh5qTwgOY",
       "auteur": "ochikeron",
@@ -12630,6 +12761,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "VeNUmfjeOIw",
       "auteur": "Made With Lau",
@@ -12769,7 +12901,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jangjorim.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Hyeon-Jeong Suk",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jangjorim.jpg"
+    },
     "video": {
       "youtube_id": "mz98rHLxtiM",
       "auteur": "Maangchi",
@@ -12914,7 +13051,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Khua_kling.JPG?width=1200",
+    "photo_credit": {
+      "auteur": "Takeaway",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Khua_kling.JPG"
+    },
     "video": {
       "youtube_id": "h6PXM-dlytI",
       "auteur": "Pailin's Kitchen",
@@ -13056,7 +13198,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%A4%A7%E5%B0%86%E8%82%89%E9%87%8E%E8%8F%9C%E7%82%92%E3%82%81.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "ノボホショコロトソ",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%A4%A7%E5%B0%86%E8%82%89%E9%87%8E%E8%8F%9C%E7%82%92%E3%82%81.jpg"
+    },
     "video": {
       "youtube_id": "deoawaSi5Xs",
       "auteur": "JapaneseCooking101",
@@ -13202,6 +13349,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "acVbGzWXLrg",
       "auteur": "DAPUR BERKAH LEGOWO",
@@ -13357,6 +13505,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "NefPocSaeDU",
       "auteur": "Maangchi",
@@ -13495,7 +13644,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%A5%9E%E6%88%B8%E5%BA%83%E6%9D%B1%E6%96%99%E7%90%86%E6%82%A0%E8%8B%91%E3%81%95%E3%82%93%E3%81%AE%E8%92%B8%E3%81%97%E9%B6%8F%E3%81%AE%E5%86%B7%E8%8F%9C_2013-04-11_18-06.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "User:Eharayuuji",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E6%88%B8%E5%BA%83%E6%9D%B1%E6%96%99%E7%90%86%E6%82%A0%E8%8B%91%E3%81%95%E3%82%93%E3%81%AE%E8%92%B8%E3%81%97%E9%B6%8F%E3%81%AE%E5%86%B7%E8%8F%9C_2013-04-11_18-06.jpg"
+    },
     "video": {
       "youtube_id": "zR17Tc-V3sw",
       "auteur": "JapaneseCooking101",
@@ -13632,7 +13786,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu-saengchae.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "chomjong",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Mu-saengchae.jpg"
+    },
     "video": {
       "youtube_id": "Tp1Bbva-o8s",
       "auteur": "Maangchi",
@@ -13758,7 +13917,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sigeumchi-namul_2.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Hyeon-Jeong Suk",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sigeumchi-namul_2.jpg"
+    },
     "video": {
       "youtube_id": "7JQPv0xzujg",
       "auteur": "Maangchi",
@@ -13896,6 +14060,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "b4Loq4mz9p4",
       "auteur": "Maangchi",
@@ -14017,6 +14182,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "Jt4BRAUzcYc",
       "auteur": "Maangchi",
@@ -14066,7 +14232,7 @@
       "cuisson": 6,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 4 jours, le meilleur des quatre namul — mais seulement si les rondelles sortent de la poêle encore fermes.",
     "nutrition": {
       "proteines_g": 2,
       "proteines_affiche": "2 g",
@@ -14149,6 +14315,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "n76W4c49UdA",
       "auteur": "Korean Bapsang",
@@ -14281,7 +14448,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.Banchan-Gyeran.jjim-01.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "stuart_spivack (a flickr user)",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean.Banchan-Gyeran.jjim-01.jpg"
+    },
     "video": {
       "youtube_id": "-IicuyDgRyw",
       "auteur": "Maangchi",
@@ -14333,7 +14505,7 @@
       "cuisson": 18,
       "attente": 2
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 4 à 5 jours. Complément de R77 et de R82 dans la session du dimanche.",
     "nutrition": {
       "proteines_g": 10,
       "proteines_affiche": "10 g",
@@ -14422,7 +14594,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dubu-mu-jorim.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "lazy fri13th",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dubu-mu-jorim.jpg"
+    },
     "video": {
       "youtube_id": "ob2CYmTx9PM",
       "auteur": "Maangchi",
@@ -14474,7 +14651,7 @@
       "cuisson": 4,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 2 à 3 semaines au frigo.",
     "nutrition": {
       "proteines_g": 1,
       "proteines_affiche": "1 g",
@@ -14534,6 +14711,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "-ycTDIUhsfM",
       "auteur": "Maangchi",
@@ -14583,7 +14761,7 @@
       "cuisson": 6,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde des semaines dans un contenant hermétique, avec un sachet déshydratant si on en a.",
     "nutrition": {
       "proteines_g": 1,
       "proteines_affiche": "1 g",
@@ -14656,7 +14834,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_seaweed_Gim_(2).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Startandstar",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean_seaweed_Gim_(2).jpg"
+    },
     "video": {
       "youtube_id": "EWK0AIPrVSc",
       "auteur": "Maangchi",
@@ -14794,7 +14977,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.Banchan-Myelchi.bokkem-01.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "brappy! (a flickr user)",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean.Banchan-Myelchi.bokkem-01.jpg"
+    },
     "video": {
       "youtube_id": "y1mj-q21AP8",
       "auteur": "Maangchi",
@@ -14933,7 +15121,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%EC%BD%A9%EB%82%98%EB%AC%BC%EA%B5%AD_-_Kongnamul_Guk_-_Bean_sprout_soup.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Korea Tourism Organization - DNA Studio",
+      "licence": "KOGL Type 1",
+      "page": "https://commons.wikimedia.org/wiki/File:%EC%BD%A9%EB%82%98%EB%AC%BC%EA%B5%AD_-_Kongnamul_Guk_-_Bean_sprout_soup.jpg"
+    },
     "video": {
       "youtube_id": "0q8LU70IRn8",
       "auteur": "Maangchi",
@@ -14984,7 +15177,7 @@
       "cuisson": 60,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se congèle, et devient le fond de R74, de R93 ou de n'importe quelle soupe claire.",
     "nutrition": {
       "proteines_g": 34,
       "proteines_affiche": "34 g",
@@ -15074,6 +15267,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "0Atj-Npj2cs",
       "auteur": "Maangchi",
@@ -15217,6 +15411,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "5ka7NkZXB3o",
       "auteur": "Maangchi",
@@ -15355,7 +15550,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miyeok-guk.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "국립국어원",
+      "licence": "CC BY-SA 2.0 kr",
+      "page": "https://commons.wikimedia.org/wiki/File:Miyeok-guk.jpg"
+    },
     "video": {
       "youtube_id": "3iqxRPQvMn8",
       "auteur": "Maangchi",
@@ -15510,7 +15710,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_stew_dish_-_Kimchi-jjigae_Kimchi_Stew_2019_(01).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "한국농수산식품유통공사",
+      "licence": "KOGL Type 1",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean_stew_dish_-_Kimchi-jjigae_Kimchi_Stew_2019_(01).jpg"
+    },
     "video": {
       "youtube_id": "rJgb92JWMCE",
       "auteur": "Maangchi",
@@ -15676,7 +15881,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Doenjang-jjigae.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "jyleen21",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Doenjang-jjigae.jpg"
+    },
     "video": {
       "youtube_id": "Slj_fM1jQVo",
       "auteur": "Maangchi",
@@ -15728,7 +15938,7 @@
       "cuisson": 9,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 2 jours au frigo et se mange froide, tranchée. C'est une boîte à lunch.",
     "nutrition": {
       "proteines_g": 19,
       "proteines_affiche": "19 g",
@@ -15810,7 +16020,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyeran-mari_4.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Asadal",
+      "licence": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gyeran-mari_4.jpg"
+    },
     "video": {
       "youtube_id": "kN89ewZjOR8",
       "auteur": "Maangchi",
@@ -15941,7 +16156,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Godeungeo-gui.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Daniel Moskowitz",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Godeungeo-gui.jpg"
+    },
     "video": {
       "youtube_id": "ZMYtYwjLQCE",
       "auteur": "Maangchi",
@@ -16076,7 +16296,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Ojingeo.bokkeum-01.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "stuart_spivack (a flickr user)",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Ojingeo.bokkeum-01.jpg"
+    },
     "video": {
       "youtube_id": "--SjTRJyp4w",
       "auteur": "Maangchi",
@@ -16212,7 +16437,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bulgogi_in_Seoul.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Brücke-Osteuropa",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bulgogi_in_Seoul.jpg"
+    },
     "video": {
       "youtube_id": "3qBjL_HGvco",
       "auteur": "Maangchi",
@@ -16353,7 +16583,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeyuk-bokkeum_4.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "대경라이프",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jeyuk-bokkeum_4.jpg"
+    },
     "video": {
       "youtube_id": "3oFCGKmzQX8",
       "auteur": "Maangchi",
@@ -16488,7 +16723,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Dakbokemtang-01.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "stuart_spivack (a flickr user)",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Dakbokemtang-01.jpg"
+    },
     "video": {
       "youtube_id": "bDXL_g6kJ5U",
       "auteur": "Maangchi",
@@ -16629,7 +16869,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dubu-kimchi.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Chloe Lim",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dubu-kimchi.jpg"
+    },
     "video": {
       "youtube_id": "-Oj2xzQbo4s",
       "auteur": "Seonkyoung Longest",
@@ -16786,7 +17031,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_cuisine-Kimchi_bokkeumbap-01.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Jerine Lay",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Kimchi_bokkeumbap-01.jpg"
+    },
     "video": {
       "youtube_id": "Lf44Fk7H24s",
       "auteur": "Maangchi",
@@ -16921,7 +17171,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gnomefish_teriyaki_jetalone_in_Ginza%2C_Tokyo.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "jetalone from Restaurant Sanshuya in Ginza, Tokyo",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gnomefish_teriyaki_jetalone_in_Ginza,_Tokyo.jpg"
+    },
     "video": {
       "youtube_id": "n88PT1dSVn8",
       "auteur": "Just One Cookbook",
@@ -16974,7 +17229,7 @@
       "cuisson": 12,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 4 jours, et c'est vérifiable à l'œil : tant qu'il reste sec et qu'aucun liquide ne s'accumule au fond du contenant, il est bon.",
     "nutrition": {
       "proteines_g": 17,
       "proteines_affiche": "17 g",
@@ -17067,6 +17322,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "8TQux5oQz1A",
       "auteur": "ハゲのへたくそ料理runnyrunny999",
@@ -17213,7 +17469,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E8%89%B2%E4%B8%BC.jpeg?width=1200",
+    "photo_credit": {
+      "auteur": "Syced",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E8%89%B2%E4%B8%BC.jpeg"
+    },
     "video": {
       "youtube_id": "cI3LPrBrlOQ",
       "auteur": "Just One Cookbook",
@@ -17369,7 +17630,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Seseri_and_Tsukune.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "ayustety from Tokyo, Japan",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Seseri_and_Tsukune.jpg"
+    },
     "video": {
       "youtube_id": "IyXQemAcKLw",
       "auteur": "Just One Cookbook",
@@ -17527,7 +17793,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tofu_hamburg_stake_(4605952443).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "pelican from Tokyo, Japan",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tofu_hamburg_stake_(4605952443).jpg"
+    },
     "video": {
       "youtube_id": "SeN1_u-du0w",
       "auteur": "Just One Cookbook",
@@ -17682,7 +17953,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%82%89%E8%B1%86%E8%85%90%EF%BC%88%E5%AE%89%E5%AE%B6%E3%81%AE%E5%B2%A9%E3%81%A9%E3%81%86%E3%81%B5_vs._%E6%9D%B1%E5%B1%8B%E3%81%AE%E3%81%A8%E3%81%86%E3%81%B5%EF%BC%89_(31087547421).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Hajime NAKANO from Tokyo, Japan",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E8%82%89%E8%B1%86%E8%85%90%EF%BC%88%E5%AE%89%E5%AE%B6%E3%81%AE%E5%B2%A9%E3%81%A9%E3%81%86%E3%81%B5_vs._%E6%9D%B1%E5%B1%8B%E3%81%AE%E3%81%A8%E3%81%86%E3%81%B5%EF%BC%89_(31087547421).jpg"
+    },
     "video": {
       "youtube_id": "SU3ahRyWihk",
       "auteur": "JapaneseCooking101",
@@ -17850,6 +18126,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "ISGnoc_cXA4",
       "auteur": "Cooking with Dog",
@@ -18024,7 +18301,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikujaga_%E8%82%89%E3%81%98%E3%82%83%E3%81%8C.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "ノボホショコロトソ",
+      "licence": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nikujaga_%E8%82%89%E3%81%98%E3%82%83%E3%81%8C.jpg"
+    },
     "video": {
       "youtube_id": "0DNXABd26jk",
       "auteur": "Just One Cookbook",
@@ -18077,7 +18359,7 @@
       "cuisson": 30,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 4 jours, et il est meilleur au deuxième. Plat du dimanche.",
     "nutrition": {
       "proteines_g": 31,
       "proteines_affiche": "31 g",
@@ -18200,7 +18482,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%8C%E3%82%81%E7%85%AE%EF%BC%88%E7%AD%91%E5%89%8D%E7%85%AE%EF%BC%89P1010424.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "南無観自在",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%81%8C%E3%82%81%E7%85%AE%EF%BC%88%E7%AD%91%E5%89%8D%E7%85%AE%EF%BC%89P1010424.jpg"
+    },
     "video": {
       "youtube_id": "_xPNJr1aqvU",
       "auteur": "JapaneseCooking101",
@@ -18367,7 +18654,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyudon_in_Ulaanbaatar.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "ノボホショコロトソ",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gyudon_in_Ulaanbaatar.jpg"
+    },
     "video": {
       "youtube_id": "2hvvVgAEPzc",
       "auteur": "JapaneseCooking101",
@@ -18509,6 +18801,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "LZ6rXyFRJjk",
       "auteur": "Just One Cookbook",
@@ -18677,7 +18970,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Stuffed_sweet_peppers_%E3%83%94%E3%83%BC%E3%83%9E%E3%83%B3%E3%81%AE%E8%82%89%E8%A9%B0%E3%82%81_01.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "ノボホショコロトソ",
+      "licence": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Stuffed_sweet_peppers_%E3%83%94%E3%83%BC%E3%83%9E%E3%83%B3%E3%81%AE%E8%82%89%E8%A9%B0%E3%82%81_01.jpg"
+    },
     "video": {
       "youtube_id": "doCrM1ulNaE",
       "auteur": "JapaneseCooking101",
@@ -18815,7 +19113,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%B1%9A%E8%82%89%E3%81%AE%E5%86%B7%E3%81%97%E3%82%83%E3%81%B6%E3%82%B5%E3%83%A9%E3%83%80---2024-05-22.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "RuinDig/Yuki Uchida",
+      "licence": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E8%B1%9A%E8%82%89%E3%81%AE%E5%86%B7%E3%81%97%E3%82%83%E3%81%B6%E3%82%B5%E3%83%A9%E3%83%80---2024-05-22.jpg"
+    },
     "video": {
       "youtube_id": "Y8v76bt4zsk",
       "auteur": "ochikeron",
@@ -18961,7 +19264,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shira-ae_(2017-01-17).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Lombroso",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Shira-ae_(2017-01-17).jpg"
+    },
     "video": {
       "youtube_id": "MuTa0PLVcEM",
       "auteur": "Chopstick Chronicles",
@@ -19084,6 +19392,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "TGmfPuNA_A0",
       "auteur": "まいにち3品レシピ",
@@ -19226,6 +19535,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "kfXrFd7S2rg",
       "auteur": "Miki's Kitchen",
@@ -19332,7 +19642,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%82%82%E3%81%9A%E3%81%8F%E9%85%A2---2023-10-16.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "RuinDig/Yuki Uchida",
+      "licence": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%82%82%E3%81%9A%E3%81%8F%E9%85%A2---2023-10-16.jpg"
+    },
     "video": {
       "youtube_id": "le0NTzezQ6M",
       "auteur": "ICHIGO's Kitchen - Make Japanese Instant food",
@@ -19384,7 +19699,7 @@
       "cuisson": 15,
       "attente": 20
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 4 jours au frigo et se mange froide. ⚠️ Plat occasionnel — voir la note.",
     "nutrition": {
       "proteines_g": 5,
       "proteines_affiche": "5 g",
@@ -19484,6 +19799,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "ptrh3C5cIqk",
       "auteur": "Just One Cookbook",
@@ -19535,7 +19851,7 @@
       "cuisson": 3,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 3 jours au frigo.",
     "nutrition": {
       "proteines_g": 15,
       "proteines_affiche": "15 g",
@@ -19620,6 +19936,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "JPhGfUWbDkg",
       "auteur": "Sudachi | Japanese Recipes | Yuto Omura",
@@ -19669,7 +19986,7 @@
       "cuisson": 12,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 3 jours et s'améliore le premier. Se mange froide.",
     "nutrition": {
       "proteines_g": 2,
       "proteines_affiche": "2 g",
@@ -19764,6 +20081,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "MQN_dtqYtVI",
       "auteur": "JapaneseCooking101",
@@ -19895,7 +20213,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Atsuage_dish_by_ayustety.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "ayustety from at Yakitori Daisuki in Morishita Tokyo.",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Atsuage_dish_by_ayustety.jpg"
+    },
     "video": {
       "youtube_id": "bcEIMbmevto",
       "auteur": "JapaneseCooking101",
@@ -20041,7 +20364,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Egg_drop_soup_(1).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Masahiko OHKUBO from Kobe, Japan",
+      "licence": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Egg_drop_soup_(1).jpg"
+    },
     "video": {
       "youtube_id": "u0cUEd2FsJ0",
       "auteur": "JapaneseCooking101",
@@ -20209,7 +20537,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenchinjiru_soy_sauce_flavor_2009.JPG?width=1200",
+    "photo_credit": {
+      "auteur": "User:Kentin",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kenchinjiru_soy_sauce_flavor_2009.JPG"
+    },
     "video": {
       "youtube_id": "M1uP4rJBsDE",
       "auteur": "Just One Cookbook",
@@ -20376,7 +20709,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jikasei_Tonjiru.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "切干大根",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jikasei_Tonjiru.jpg"
+    },
     "video": {
       "youtube_id": "PHuxPEUWCcw",
       "auteur": "Just One Cookbook",
@@ -20429,7 +20767,7 @@
       "cuisson": 11,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Ne se garde pas : le riz continue de boire le bouillon.",
     "nutrition": {
       "proteines_g": 23,
       "proteines_affiche": "23 g",
@@ -20524,7 +20862,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinoko_Zosui%2C_at_Restaurant_Gusto_(2012.02.26).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Lombroso",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kinoko_Zosui,_at_Restaurant_Gusto_(2012.02.26).jpg"
+    },
     "video": {
       "youtube_id": "t8OQDzDtL6U",
       "auteur": "Just One Cookbook",
@@ -20576,7 +20919,7 @@
       "cuisson": 0,
       "attente": 55
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 2 jours et se congèle en rondelles, comme le riz nature.",
     "nutrition": {
       "proteines_g": 14,
       "proteines_affiche": "14 g",
@@ -20676,7 +21019,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Takikomi_gohan_with_fried_pork_%E5%8F%B0%E6%B9%BE%E9%A2%A8%E7%84%BC%E3%81%8D%E8%B1%9A%E8%82%89%E5%85%A5%E3%82%8A%E3%81%AE%E4%BA%94%E7%9B%AE%E3%81%94%E9%A3%AF_(9232620206).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Shou-Hui Wang from Melbourne, Australia",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Takikomi_gohan_with_fried_pork_%E5%8F%B0%E6%B9%BE%E9%A2%A8%E7%84%BC%E3%81%8D%E8%B1%9A%E8%82%89%E5%85%A5%E3%82%8A%E3%81%AE%E4%BA%94%E7%9B%AE%E3%81%94%E9%A3%AF_(9232620206).jpg"
+    },
     "video": {
       "youtube_id": "CczmGI6PvcA",
       "auteur": "Just One Cookbook",
@@ -20830,7 +21178,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ChanChanYaki_20190426.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "逃亡者",
+      "licence": "Domaine public",
+      "page": "https://commons.wikimedia.org/wiki/File:ChanChanYaki_20190426.jpg"
+    },
     "video": {
       "youtube_id": "ydQ7d-VBiFM",
       "auteur": "Cooking with Dog",
@@ -20967,7 +21320,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yosenabe_set.JPG?width=1200",
+    "photo_credit": {
+      "auteur": "Nissy-KITAQ",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Yosenabe_set.JPG"
+    },
     "video": {
       "youtube_id": "9IbJo2tW12o",
       "auteur": "TOKYO KITCHEN",
@@ -21009,7 +21367,7 @@
     "romaji": null,
     "nom_origine": "回锅肉",
     "lecture_origine": "huíguōròu",
-    "prononciation": null,
+    "prononciation": "houé-gouo-rou",
     "langue_origine": "zh",
     "fr": "Porc et chou sautés deux fois (huiguorou)",
     "sous_titre": "Le plat sichuanais le plus aimé, à neuf grammes de lipides au lieu de trente-huit. Un seul mot change dans la liste d'ingrédients : longe au lieu de poitrine.",
@@ -21134,7 +21492,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Twice_cooked_pork_of_Gyoza-no-Manshu.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "毒島みるく",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Twice_cooked_pork_of_Gyoza-no-Manshu.jpg"
+    },
     "video": {
       "youtube_id": "EJIojMLLs2g",
       "auteur": "Chinese Cooking Demystified",
@@ -21175,7 +21538,7 @@
     "romaji": null,
     "nom_origine": "白灼菜心",
     "lecture_origine": "bái zhuó càixīn",
-    "prononciation": null,
+    "prononciation": "baï-djouo tsaï-sine",
     "langue_origine": "zh",
     "fr": "Choy sum blanchi et nappé (bai zhuo cai xin)",
     "sous_titre": "Le légume vert cantonais en huit minutes. Et le plat qui montre où va tout le sodium de la cuisine chinoise : dans une cuillère de sauce d'huîtres qu'on peut remplacer.",
@@ -21272,6 +21635,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "P4gmrDR_grc",
       "auteur": "Home Cooking with Somjit",
@@ -21312,7 +21676,7 @@
     "romaji": null,
     "nom_origine": "干煸四季豆",
     "lecture_origine": "gānbiān sìjìdòu",
-    "prononciation": "gan-biène si-ji-dou",
+    "prononciation": "gane-biène sseu-dji-dou",
     "langue_origine": "zh",
     "fr": "Haricots verts au sauté à sec (ganbian sijidou)",
     "sous_titre": "L'accompagnement croquant que le dossier cherche depuis son premier comptage. Des haricots ridés, fermes sous la dent, et pas une goutte de friture.",
@@ -21424,6 +21788,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "lEJUCwBL7-k",
       "auteur": "KomodoCooks",
@@ -21464,7 +21829,7 @@
     "romaji": null,
     "nom_origine": "红烧豆腐",
     "lecture_origine": "hóngshāo dòufu",
-    "prononciation": null,
+    "prononciation": "hong-chao dôou-fou",
     "langue_origine": "zh",
     "fr": "Tofu braisé rouge (hongshao doufu)",
     "sous_titre": "Le braisage rouge est une méthode, pas une recette de porc gras. Appliqué au tofu, il donne vingt-quatre grammes de protéines pour cent quatre-vingt-quinze calories.",
@@ -21569,7 +21934,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/HK_SKD_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_PopCorn_mall_Pop_Deli_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_food_%E7%B4%85%E7%87%92%E8%B1%86%E8%85%90_braised_tofu_July_2024_R12S_01.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "RUATMVWOOP East Bpote STARZUIO",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:HK_SKD_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_PopCorn_mall_Pop_Deli_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_food_%E7%B4%85%E7%87%92%E8%B1%86%E8%85%90_braised_tofu_July_2024_R12S_01.jpg"
+    },
     "video": {
       "youtube_id": "9LjUDV8ZfBE",
       "auteur": "Mr. Hong Kitchen阿鸿厨房",
@@ -21611,7 +21981,7 @@
     "romaji": null,
     "nom_origine": "宫保鸡丁",
     "lecture_origine": "gōngbǎo jīdīng",
-    "prononciation": null,
+    "prononciation": "gong-bao dji-dingue",
     "langue_origine": "zh",
     "fr": "Poulet kung pao (gongbao jiding)",
     "sous_titre": "Trente-sept grammes de protéines pour douze grammes de lipides. C'est de la POITRINE de poulet — et c'est le velouté qui rend ça possible.",
@@ -21731,7 +22101,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kung_Pao_Chicken_With_Rice.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Miansari66",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kung_Pao_Chicken_With_Rice.jpg"
+    },
     "video": {
       "youtube_id": "C-R17Wmd4aY",
       "auteur": "Wei's Red House Kitchen",
@@ -21772,7 +22147,7 @@
     "romaji": null,
     "nom_origine": "冬瓜排骨汤",
     "lecture_origine": "dōngguā páigǔtāng",
-    "prononciation": null,
+    "prononciation": "dong-gouâ païe-gou-tang",
     "langue_origine": "zh",
     "fr": "Soupe de courge d'hiver et porc (dongguo paigu tang)",
     "sous_titre": "Cent quatre-vingt-dix milligrammes de sodium et dix-sept grammes de protéines. Douze minutes de travail pour une heure vingt sans surveillance — et trois façons d'enlever le gras du même bouillon.",
@@ -21894,6 +22269,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "2SbL73VnOSc",
       "auteur": "misshookitchen",
@@ -21936,7 +22312,7 @@
     "romaji": null,
     "nom_origine": "蒜泥白肉",
     "lecture_origine": "suànní báiròu",
-    "prononciation": null,
+    "prononciation": "souane-ni baï-rou",
     "langue_origine": "zh",
     "fr": "Porc poché tranché à l'ail (suanni bairou)",
     "sous_titre": "Le cousin sichuanais du hiya-shabu : viande pochée, refroidie, tranchée mince, et une trempette à côté. Neuf grammes de lipides au lieu de vingt-deux.",
@@ -22032,7 +22408,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89_Sliced_Belly_Pork_and_Cucumber_Rolls_with_Garlic_Sauce.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Alpha",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89_Sliced_Belly_Pork_and_Cucumber_Rolls_with_Garlic_Sauce.jpg"
+    },
     "video": {
       "youtube_id": "z1anMjuuhlE",
       "auteur": "MrsLinsKitchen",
@@ -22072,7 +22453,7 @@
     "romaji": null,
     "nom_origine": "蒸水蛋",
     "lecture_origine": "zhēng shuǐdàn",
-    "prononciation": null,
+    "prononciation": "djeng chouéi-dane",
     "langue_origine": "zh",
     "fr": "Œufs vapeur cantonais (zheng shui dan)",
     "sous_titre": "Quatre œufs, de l'eau tiède, un tamis, un couvercle. Le seul plat protéiné du recueil qui ne demande ni découpe ni surveillance.",
@@ -22165,7 +22546,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%B8%A1%E8%9B%8B%E7%BE%B9%E9%85%8D%E9%87%8E%E7%94%9F%E8%8F%8C-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "tak.wing",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E9%B8%A1%E8%9B%8B%E7%BE%B9%E9%85%8D%E9%87%8E%E7%94%9F%E8%8F%8C-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E.jpg"
+    },
     "video": {
       "youtube_id": "JAo99RBfmT4",
       "auteur": "Made With Lau",
@@ -22207,7 +22593,7 @@
     "romaji": null,
     "nom_origine": "番茄炒蛋",
     "lecture_origine": "fānqié chǎodàn",
-    "prononciation": null,
+    "prononciation": "fane-tchié tchao-dane",
     "langue_origine": "zh",
     "fr": "Œufs sautés à la tomate (fanqie chao dan)",
     "sous_titre": "Le plat le plus cuisiné dans les foyers chinois, et le seul du lot dont le sel est le seul assaisonnement. Le dossier n'avait que sa version soupe.",
@@ -22320,7 +22706,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B2.PNG?width=1200",
+    "photo_credit": {
+      "auteur": "三島堂",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B2.PNG"
+    },
     "video": {
       "youtube_id": "FL7u21QGoo0",
       "auteur": "J. Kenji López-Alt",
@@ -22362,7 +22753,7 @@
     "romaji": null,
     "nom_origine": "蒜香西兰花",
     "lecture_origine": "suànxiāng xīlánhuā",
-    "prononciation": null,
+    "prononciation": "souane-siang si-lane-houâ",
     "langue_origine": "zh",
     "fr": "Brocoli au sauté à l'eau (suanxiang xilanhua)",
     "sous_titre": "Deux cuillères à thé d'huile pour six cents grammes de légume, et un couvercle. Cent quarante-cinq milligrammes de sodium, et c'est un quart de cuillère à thé de sel qui les porte tous.",
@@ -22463,6 +22854,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "Q__MO_L8pAY",
       "auteur": "Lionel Zeng",
@@ -22504,7 +22896,7 @@
     "romaji": null,
     "nom_origine": "แกงป่า",
     "lecture_origine": "gaeng pa",
-    "prononciation": null,
+    "prononciation": "kèng pâ",
     "langue_origine": "th",
     "fr": "Curry de la jungle (gaeng pa)",
     "sous_titre": "Un curry thaï franc et brûlant, monté à l'eau. Pas une goutte de lait de coco — et ce n'est pas une version allégée, c'est le plat tel qu'il existe.",
@@ -22622,7 +23014,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish_Jungle_Curry_(8644200729).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Charles Haynes",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fish_Jungle_Curry_(8644200729).jpg"
+    },
     "video": {
       "youtube_id": "qaeiUpMz028",
       "auteur": "Pailin's Kitchen",
@@ -22665,7 +23062,7 @@
     "romaji": null,
     "nom_origine": "แกงส้ม",
     "lecture_origine": "gaeng som",
-    "prononciation": null,
+    "prononciation": "kèng sôme",
     "langue_origine": "th",
     "fr": "Curry aigre au tamarin (gaeng som)",
     "sous_titre": "Vingt-cinq grammes de protéines pour UN gramme de lipides. Le plat le plus maigre de ce document, et l'acide y est le milieu de cuisson — pas un accent.",
@@ -22774,7 +23171,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Vegetarian_kaeng_som.JPG?width=1200",
+    "photo_credit": {
+      "auteur": "Takeaway",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Vegetarian_kaeng_som.JPG"
+    },
     "video": {
       "youtube_id": "LU3dRxuFG1o",
       "auteur": "Pailin's Kitchen",
@@ -22817,7 +23219,7 @@
     "romaji": null,
     "nom_origine": "ต้มแซ่บ",
     "lecture_origine": "tom saap",
-    "prononciation": null,
+    "prononciation": "tome sâpe",
     "langue_origine": "th",
     "fr": "Soupe aigre-piquante de l'Isaan (tom saap)",
     "sous_titre": "La troisième soupe aigre-piquante du recueil, et la seule dont le corps ne vient ni d'une pâte ni du coco : il vient du riz grillé moulu.",
@@ -22929,7 +23331,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Saep_2018-05-23_(1).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Index Librorum Permissorum",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tom_Saep_2018-05-23_(1).jpg"
+    },
     "video": {
       "youtube_id": "EL3Q0KX82xI",
       "auteur": "Nin is Cooking",
@@ -22973,7 +23380,7 @@
     "romaji": null,
     "nom_origine": "พล่ากุ้ง",
     "lecture_origine": "pla goong",
-    "prononciation": null,
+    "prononciation": "pla koung",
     "langue_origine": "th",
     "fr": "Crevettes à la citronnelle (pla goong)",
     "sous_titre": "Trente grammes de protéines pour trois grammes de lipides — et sept cent soixante-quinze milligrammes de sodium dont la sauce de poisson ne porte qu'un tiers.",
@@ -23074,7 +23481,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Phla_kung.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Takeaway",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Phla_kung.jpg"
+    },
     "video": {
       "youtube_id": "vtuyJ1gsAWg",
       "auteur": "Thun Thun Channel",
@@ -23116,7 +23528,7 @@
     "romaji": null,
     "nom_origine": "ยำทูน่า",
     "lecture_origine": "yam tuna",
-    "prononciation": null,
+    "prononciation": "yame tou-na",
     "langue_origine": "th",
     "fr": "Salade de thon en conserve (yam tuna)",
     "sous_titre": "Trente-cinq grammes de protéines, huit minutes, aucune cuisson. Et un seul choix à l'épicerie qui divise son sodium par deux.",
@@ -23210,6 +23622,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "vj_DykfQgXQ",
       "auteur": "Pailin's Kitchen",
@@ -23250,7 +23663,7 @@
     "romaji": null,
     "nom_origine": "ส้มตำไทย",
     "lecture_origine": "som tam thai",
-    "prononciation": null,
+    "prononciation": "sôme tame taï",
     "langue_origine": "th",
     "fr": "Salade de papaye verte (som tam thai)",
     "sous_titre": "Le croquant le plus franc du corpus thaï. Deux grammes de protéines — c'est un poste légume, et il faut le compter comme tel.",
@@ -23347,7 +23760,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Thai_Som_Tam_Sukhothai_Thailand.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Alexander Klink",
+      "licence": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Thai_Som_Tam_Sukhothai_Thailand.jpg"
+    },
     "video": {
       "youtube_id": "Wvv0dqZ_xa4",
       "auteur": "Pailin's Kitchen",
@@ -23390,7 +23808,7 @@
     "romaji": null,
     "nom_origine": "ปลานึ่งมะนาว",
     "lecture_origine": "pla neung manao",
-    "prononciation": null,
+    "prononciation": "pla neung ma-nao",
     "langue_origine": "th",
     "fr": "Poisson vapeur, sauce lime crue (pla neung manao)",
     "sous_titre": "Quarante grammes de protéines pour quatre grammes de lipides, et une sauce qu'on ne cuit pas. C'est le cas d'école de la réduction réussie.",
@@ -23494,7 +23912,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Thai_steamed_fish_with_lime_juice-2.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Mattes (talk) *derivative work: an-d (talk)",
+      "licence": "Domaine public",
+      "page": "https://commons.wikimedia.org/wiki/File:Thai_steamed_fish_with_lime_juice-2.jpg"
+    },
     "video": {
       "youtube_id": "ZvGbcKXZBLg",
       "auteur": "Pailin's Kitchen",
@@ -23537,7 +23960,7 @@
     "romaji": null,
     "nom_origine": "ข้าวต้ม",
     "lecture_origine": "khao tom",
-    "prononciation": null,
+    "prononciation": "kao tome",
     "langue_origine": "th",
     "fr": "Soupe de riz du matin (khao tom)",
     "sous_titre": "La première fiche de déjeuner thaïe du recueil. Trente-quatre grammes de protéines pour deux cent cinquante milligrammes de sodium — et c'est le zōsui thaï.",
@@ -23652,7 +24075,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao_tom_pla.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Takeaway",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Khao_tom_pla.jpg"
+    },
     "video": {
       "youtube_id": "WqeFpKpYH1I",
       "auteur": "ThaiChef Food",
@@ -23694,7 +24122,7 @@
     "romaji": null,
     "nom_origine": "nước chấm",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "nou-ok tchum",
     "langue_origine": "vi",
     "fr": "La trempette diluée (nuoc cham)",
     "sous_titre": "Deux parts de sauce de poisson pour six d'eau. Ce n'est pas une version allégée : la dilution est la recette, et c'est la manœuvre centrale de la cuisine vietnamienne.",
@@ -23705,7 +24133,7 @@
       "cuisson": 0,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde une semaine au frigo sans l'ail et le piment, deux jours avec.",
     "nutrition": {
       "proteines_g": 0,
       "proteines_affiche": "0 g",
@@ -23785,7 +24213,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023%2C_Ks_Song_Ph%C6%B0%C6%A1ng_(%C4%91%E1%BB%93_%C4%83n%2C_ch%C3%A9n_n%C6%B0%E1%BB%9Bc_ch%E1%BA%A5m).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Phương Huy",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023,_Ks_Song_Ph%C6%B0%C6%A1ng_(%C4%91%E1%BB%93_%C4%83n,_ch%C3%A9n_n%C6%B0%E1%BB%9Bc_ch%E1%BA%A5m).jpg"
+    },
     "video": {
       "youtube_id": "OrUZzchXGzo",
       "auteur": "Helen's Recipes (Vietnamese Food)",
@@ -23829,7 +24262,7 @@
     "romaji": null,
     "nom_origine": "gỏi gà bắp cải",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "goï ga bap kaï",
     "langue_origine": "vi",
     "fr": "Salade de poulet et chou (goi ga bap cai)",
     "sous_titre": "Une gỏi de référence livre huit grammes de protéines par personne, parce qu'au Vietnam c'est un plat parmi quatre. Triplée, c'est un souper à quarante-et-un.",
@@ -23945,6 +24378,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "3vhfZpWI69g",
       "auteur": "Helen's Recipes (Vietnamese Food)",
@@ -23984,7 +24418,7 @@
     "romaji": null,
     "nom_origine": "thịt kho trứng",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "tite ko troung",
     "langue_origine": "vi",
     "fr": "Porc au caramel et œufs durs (thit kho)",
     "sous_titre": "On ne peut pas rincer un kho : la sauce est le plat. Alors les leviers sont ailleurs — la coupe, la dose, et ce qu'on laisse dans la casserole.",
@@ -24098,7 +24532,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Th%E1%BB%8Bt_kho_h%E1%BB%99t_v%E1%BB%8Bt.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Baoothersks",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Th%E1%BB%8Bt_kho_h%E1%BB%99t_v%E1%BB%8Bt.jpg"
+    },
     "video": {
       "youtube_id": "KNAQCwmCsL8",
       "auteur": "Helen's Recipes (Vietnamese Food)",
@@ -24142,7 +24581,7 @@
     "romaji": null,
     "nom_origine": "canh chua cá",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "cane tchoua ka",
     "langue_origine": "vi",
     "fr": "Soupe aigre au poisson (canh chua ca)",
     "sous_titre": "La soupe que les familles vietnamiennes font vraiment. L'acide est le milieu de cuisson, et l'ananas fait le sucre — pas le sucrier.",
@@ -24265,7 +24704,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canh_chua_%C4%90%C3%B4ng_H%C3%A0.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Phương Huy (thảo luận)",
+      "licence": "Domaine public",
+      "page": "https://commons.wikimedia.org/wiki/File:Canh_chua_%C4%90%C3%B4ng_H%C3%A0.jpg"
+    },
     "video": {
       "youtube_id": "vO81lQvYodI",
       "auteur": "Helen's Recipes (Vietnamese Food)",
@@ -24308,7 +24752,7 @@
     "romaji": null,
     "nom_origine": "rau muống xào tỏi",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "rao mou-ong sao toï",
     "langue_origine": "vi",
     "fr": "Liseron d'eau sauté à l'ail (rau muong xao toi)",
     "sous_titre": "Deux textures dans un seul légume : la tige creuse croque, la feuille glisse. Quatre minutes, et le même geste que le sauté à l'eau chinois.",
@@ -24404,7 +24848,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rau_mu%E1%BB%91ng_x%C3%A0o_t%E1%BB%8Fi_(th%C3%A1ng_9_n%C4%83m_2018)_(3).jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Phương Huy (thảo luận)",
+      "licence": "Domaine public",
+      "page": "https://commons.wikimedia.org/wiki/File:Rau_mu%E1%BB%91ng_x%C3%A0o_t%E1%BB%8Fi_(th%C3%A1ng_9_n%C4%83m_2018)_(3).jpg"
+    },
     "video": {
       "youtube_id": "mrZzS5aUHOA",
       "auteur": "Helen's Recipes (Vietnamese Food)",
@@ -24446,7 +24895,7 @@
     "romaji": null,
     "nom_origine": "đậu hũ nhồi thịt sốt cà",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "dao hou nyoï tite sôte ka",
     "langue_origine": "vi",
     "fr": "Tofu farci à la sauce tomate (dau hu nhoi thit)",
     "sous_titre": "Le plat de tous les jours de la maison vietnamienne. Deux protéines dans une assiette, et la tomate fait l'umami que la sauce de poisson n'a pas à faire.",
@@ -24457,7 +24906,7 @@
       "cuisson": 20,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 3 jours et c'est meilleur le lendemain : le tofu continue de boire la sauce.",
     "nutrition": {
       "proteines_g": 24,
       "proteines_affiche": "24 g",
@@ -24549,6 +24998,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "-ulewHRgtbg",
       "auteur": "Helen's Recipes (Vietnamese Food)",
@@ -24591,7 +25041,7 @@
     "romaji": null,
     "nom_origine": "ແຈ່ວໝາກເລັ່ນ",
     "lecture_origine": "jeow mak len",
-    "prononciation": null,
+    "prononciation": "tcheo mak lène",
     "langue_origine": "lo",
     "fr": "Trempette de tomates grillées (jeow mak len)",
     "sous_titre": "Vingt-cinq calories, quatre-vingt-cinq milligrammes de sodium, et un goût qui domine une assiette. Tout vient du grill, rien de la salière.",
@@ -24602,7 +25052,7 @@
       "cuisson": 25,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 5 jours au frigo, et le goût se fixe après une nuit. Préparation du dimanche.",
     "nutrition": {
       "proteines_g": 1,
       "proteines_affiche": "1 g",
@@ -24695,7 +25145,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeow_mak_len.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Isan1985",
+      "licence": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jeow_mak_len.jpg"
+    },
     "video": {
       "youtube_id": "omEfjsOPXEs",
       "auteur": "Cooking With Khon Khao",
@@ -24738,7 +25193,7 @@
     "romaji": null,
     "nom_origine": "ປີ້ງໄກ່",
     "lecture_origine": "ping gai",
-    "prononciation": null,
+    "prononciation": "pine-gaï",
     "langue_origine": "lo",
     "fr": "Poulet grillé à la citronnelle (ping gai)",
     "sous_titre": "Trente-six grammes de protéines, une marinade de quatre ingrédients aromatiques, et l'ingrédient signature est la partie de la coriandre que tout le monde jette.",
@@ -24841,7 +25296,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gai_yang_Khuukam.JPG?width=1200",
+    "photo_credit": {
+      "auteur": "Nissy-KITAQ",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gai_yang_Khuukam.JPG"
+    },
     "video": {
       "youtube_id": "H1x5nkVfjuU",
       "auteur": "Food Wishes",
@@ -24883,7 +25343,7 @@
     "romaji": null,
     "nom_origine": "ໝົກປາ",
     "lecture_origine": "mok pa",
-    "prononciation": null,
+    "prononciation": "môk pa",
     "langue_origine": "lo",
     "fr": "Poisson en papillote de feuille de bananier (mok pa)",
     "sous_titre": "Trente grammes de protéines pour quatre grammes de lipides et pas une goutte d'huile ajoutée. La papillote est le cuiseur, et l'herbe signature est l'aneth.",
@@ -24894,7 +25354,7 @@
       "cuisson": 25,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se monte d'avance et se congèle CRU. Les papillotes montées se cuisent à la vapeur 35 minutes depuis congelé.",
     "nutrition": {
       "proteines_g": 30,
       "proteines_affiche": "30 g",
@@ -24991,7 +25451,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish_with_coconut_milk_served_in_banana_leaf.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "mick62",
+      "licence": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fish_with_coconut_milk_served_in_banana_leaf.jpg"
+    },
     "video": {
       "youtube_id": "s9LLLgobDck",
       "auteur": "Saeng Douangdara",
@@ -25032,7 +25497,7 @@
     "romaji": null,
     "nom_origine": "ຕໍາໝາກຫຸ່ງ",
     "lecture_origine": "tam mak hoong",
-    "prononciation": null,
+    "prononciation": "tame mak houng",
     "langue_origine": "lo",
     "fr": "Salade de papaye lao (tam mak hoong)",
     "sous_titre": "Le cousin lao du som tam, et il goûte deux fois plus fort pour la moitié du sodium. C'est le padaek qui fait les deux.",
@@ -25136,7 +25601,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/2013_Tam_Lao.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Takeaway",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:2013_Tam_Lao.jpg"
+    },
     "video": {
       "youtube_id": "4e2JEcfm7DI",
       "auteur": "Cooking With Khon Khao",
@@ -25179,7 +25649,7 @@
     "romaji": null,
     "nom_origine": "ຊຸບຜັກ",
     "lecture_origine": "soop phak",
-    "prononciation": null,
+    "prononciation": "soupe pak",
     "langue_origine": "lo",
     "fr": "Légumes lao au sésame et au riz grillé (soop phak)",
     "sous_titre": "Le quatrième liant sec du recueil, et le seul qui en combine deux : sésame écrasé et riz gluant grillé sur un légume blanchi.",
@@ -25296,6 +25766,7 @@
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
+    "photo_credit": null,
     "video": {
       "youtube_id": "7jpzf6x8nes",
       "auteur": "Cooking With Khon Khao",
@@ -25339,7 +25810,7 @@
     "romaji": null,
     "nom_origine": "soto ayam",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "so-to a-yame",
     "langue_origine": "id",
     "fr": "Soupe de poulet au curcuma (soto ayam)",
     "sous_titre": "Une soupe indonésienne sans lait de coco, jaune de curcuma frais. Trente-sept grammes de protéines pour deux tiers de cuillère à thé de sel.",
@@ -25450,7 +25921,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto_Ayam_-_Rest_Area_KM_726B.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Indonesiagood",
+      "licence": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Soto_Ayam_-_Rest_Area_KM_726B.jpg"
+    },
     "video": {
       "youtube_id": "tjuO0CCAASA",
       "auteur": "Taste of Asian Food",
@@ -25493,7 +25969,7 @@
     "romaji": null,
     "nom_origine": "tempe bacem",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "tèm-pé ba-tchème",
     "langue_origine": "id",
     "fr": "Tempé braisé au sucre de palme (tempe bacem)",
     "sous_titre": "Le kho indonésien : caramel, eau de coco, braisage. Vingt-cinq grammes de protéines pour cent vingt-cinq milligrammes de sodium — un quart du kho vietnamien.",
@@ -25504,7 +25980,7 @@
       "cuisson": 5,
       "attente": 30
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 4 jours et c'est meilleur au deuxième. Se mange froid, à la main.",
     "nutrition": {
       "proteines_g": 25,
       "proteines_affiche": "25 g",
@@ -25606,7 +26082,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tempe_bacem_lauk_soto_Pak_Marto.JPG?width=1200",
+    "photo_credit": {
+      "auteur": "Midori",
+      "licence": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tempe_bacem_lauk_soto_Pak_Marto.JPG"
+    },
     "video": {
       "youtube_id": "7iFSyuNzbGQ",
       "auteur": "Novi's Bali Kitchen",
@@ -25648,7 +26129,7 @@
     "romaji": null,
     "nom_origine": "sambal tomat",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "sam-bal to-mate",
     "langue_origine": "id",
     "fr": "Sambal aux tomates (sambal tomat)",
     "sous_titre": "La deuxième base salée réutilisable du dossier après le dashi. Deux semaines au frigo, elle se congèle, et cent milligrammes la cuillère.",
@@ -25659,7 +26140,7 @@
       "cuisson": 17,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Deux semaines au frigo, et il se congèle en cubes.",
     "nutrition": {
       "proteines_g": 1,
       "proteines_affiche": "1 g",
@@ -25747,7 +26228,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL_TOMAT.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Windi Utari",
+      "licence": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:SAMBAL_TOMAT.jpg"
+    },
     "video": {
       "youtube_id": "J8RCnzjPO4E",
       "auteur": "Asih At Home",
@@ -25792,7 +26278,7 @@
     "romaji": null,
     "nom_origine": "telur balado",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "te-lour ba-la-do",
     "langue_origine": "id",
     "fr": "Œufs durs au sambal (telur balado)",
     "sous_titre": "Huit œufs, une sauce de piment, et le seul changement à faire : ne pas les frire. Deux cents calories économisées par portion.",
@@ -25803,7 +26289,7 @@
       "cuisson": 20,
       "attente": 0
     },
-    "preparation_avance": null,
+    "preparation_avance": "Se garde 3 jours et se mange froid. Cinq minutes si le sambal de R165 existe déjà.",
     "nutrition": {
       "proteines_g": 12,
       "proteines_affiche": "12 g",
@@ -25879,7 +26365,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Telur_Balado_101417.jpg?width=1200",
+    "photo_credit": {
+      "auteur": "Abdul Hanif Arromy",
+      "licence": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Telur_Balado_101417.jpg"
+    },
     "video": {
       "youtube_id": "W9d-0xCFU38",
       "auteur": "Unimagi Studio",
@@ -25921,7 +26412,7 @@
     "romaji": null,
     "nom_origine": "urap sayur",
     "lecture_origine": null,
-    "prononciation": null,
+    "prononciation": "ou-rap sa-your",
     "langue_origine": "id",
     "fr": "Légumes à la noix de coco râpée (urap sayur)",
     "sous_titre": "Le quatrième liant sec du recueil, et le seul qui apporte du gras. Cent quarante-cinq milligrammes de sodium pour six cents grammes de légumes.",
@@ -26017,7 +26508,12 @@
     "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
-    "photo": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Anyang_Minang.JPG?width=1200",
+    "photo_credit": {
+      "auteur": "D.W. Fisher-Freberg",
+      "licence": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Anyang_Minang.JPG"
+    },
     "video": {
       "youtube_id": "nSgyWlUCNb8",
       "auteur": "Who's The Kitchen Fairy",

@@ -122,7 +122,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Ojingeo.bokkeum-01.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "stuart_spivack (a flickr user)",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Ojingeo.bokkeum-01.jpg"
+  },
   "video": {
     "youtube_id": "--SjTRJyp4w",
     "auteur": "Maangchi",

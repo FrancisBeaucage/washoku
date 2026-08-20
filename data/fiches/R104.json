@@ -121,7 +121,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Dakbokemtang-01.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "stuart_spivack (a flickr user)",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Dakbokemtang-01.jpg"
+  },
   "video": {
     "youtube_id": "bDXL_g6kJ5U",
     "auteur": "Maangchi",

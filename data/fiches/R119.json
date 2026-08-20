@@ -132,7 +132,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shira-ae_(2017-01-17).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Lombroso",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shira-ae_(2017-01-17).jpg"
+  },
   "video": {
     "youtube_id": "MuTa0PLVcEM",
     "auteur": "Chopstick Chronicles",

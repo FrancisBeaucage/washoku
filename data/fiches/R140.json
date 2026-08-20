@@ -29,7 +29,7 @@
   "romaji": null,
   "nom_origine": "蒜泥白肉",
   "lecture_origine": "suànní báiròu",
-  "prononciation": null,
+  "prononciation": "souane-ni baï-rou",
   "langue_origine": "zh",
   "fr": "Porc poché tranché à l'ail (suanni bairou)",
   "sous_titre": "Le cousin sichuanais du hiya-shabu : viande pochée, refroidie, tranchée mince, et une trempette à côté. Neuf grammes de lipides au lieu de vingt-deux.",
@@ -125,7 +125,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89_Sliced_Belly_Pork_and_Cucumber_Rolls_with_Garlic_Sauce.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Alpha",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89_Sliced_Belly_Pork_and_Cucumber_Rolls_with_Garlic_Sauce.jpg"
+  },
   "video": {
     "youtube_id": "z1anMjuuhlE",
     "auteur": "MrsLinsKitchen",

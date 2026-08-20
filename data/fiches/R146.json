@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "ต้มแซ่บ",
   "lecture_origine": "tom saap",
-  "prononciation": null,
+  "prononciation": "tome sâpe",
   "langue_origine": "th",
   "fr": "Soupe aigre-piquante de l'Isaan (tom saap)",
   "sous_titre": "La troisième soupe aigre-piquante du recueil, et la seule dont le corps ne vient ni d'une pâte ni du coco : il vient du riz grillé moulu.",
@@ -140,7 +140,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Saep_2018-05-23_(1).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Index Librorum Permissorum",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Saep_2018-05-23_(1).jpg"
+  },
   "video": {
     "youtube_id": "EL3Q0KX82xI",
     "auteur": "Nin is Cooking",

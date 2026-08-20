@@ -39,7 +39,7 @@
     "cuisson": 12,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 4 jours, et c'est vérifiable à l'œil : tant qu'il reste sec et qu'aucun liquide ne s'accumule au fond du contenant, il est bon.",
   "nutrition": {
     "proteines_g": 17,
     "proteines_affiche": "17 g",
@@ -132,6 +132,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "8TQux5oQz1A",
     "auteur": "ハゲのへたくそ料理runnyrunny999",

@@ -36,7 +36,7 @@
     "cuisson": 12,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 3 jours et s'améliore le premier. Se mange froide.",
   "nutrition": {
     "proteines_g": 2,
     "proteines_affiche": "2 g",
@@ -131,6 +131,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "MQN_dtqYtVI",
     "auteur": "JapaneseCooking101",

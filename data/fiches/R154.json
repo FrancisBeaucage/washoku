@@ -25,7 +25,7 @@
   "romaji": null,
   "nom_origine": "thịt kho trứng",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tite ko troung",
   "langue_origine": "vi",
   "fr": "Porc au caramel et œufs durs (thit kho)",
   "sous_titre": "On ne peut pas rincer un kho : la sauce est le plat. Alors les leviers sont ailleurs — la coupe, la dose, et ce qu'on laisse dans la casserole.",
@@ -139,7 +139,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Th%E1%BB%8Bt_kho_h%E1%BB%99t_v%E1%BB%8Bt.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Baoothersks",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Th%E1%BB%8Bt_kho_h%E1%BB%99t_v%E1%BB%8Bt.jpg"
+  },
   "video": {
     "youtube_id": "KNAQCwmCsL8",
     "auteur": "Helen's Recipes (Vietnamese Food)",

@@ -39,7 +39,7 @@
     "cuisson": 30,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 4 jours, et il est meilleur au deuxième. Plat du dimanche.",
   "nutrition": {
     "proteines_g": 31,
     "proteines_affiche": "31 g",
@@ -162,7 +162,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%8C%E3%82%81%E7%85%AE%EF%BC%88%E7%AD%91%E5%89%8D%E7%85%AE%EF%BC%89P1010424.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "南無観自在",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E3%81%8C%E3%82%81%E7%85%AE%EF%BC%88%E7%AD%91%E5%89%8D%E7%85%AE%EF%BC%89P1010424.jpg"
+  },
   "video": {
     "youtube_id": "_xPNJr1aqvU",
     "auteur": "JapaneseCooking101",

@@ -26,7 +26,7 @@
   "romaji": null,
   "nom_origine": "ຕໍາໝາກຫຸ່ງ",
   "lecture_origine": "tam mak hoong",
-  "prononciation": null,
+  "prononciation": "tame mak houng",
   "langue_origine": "lo",
   "fr": "Salade de papaye lao (tam mak hoong)",
   "sous_titre": "Le cousin lao du som tam, et il goûte deux fois plus fort pour la moitié du sodium. C'est le padaek qui fait les deux.",
@@ -130,7 +130,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/2013_Tam_Lao.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Takeaway",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2013_Tam_Lao.jpg"
+  },
   "video": {
     "youtube_id": "4e2JEcfm7DI",
     "auteur": "Cooking With Khon Khao",

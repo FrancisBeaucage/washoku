@@ -126,7 +126,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miyeok-guk.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "국립국어원",
+    "licence": "CC BY-SA 2.0 kr",
+    "page": "https://commons.wikimedia.org/wiki/File:Miyeok-guk.jpg"
+  },
   "video": {
     "youtube_id": "3iqxRPQvMn8",
     "auteur": "Maangchi",

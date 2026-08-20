@@ -39,7 +39,7 @@
     "cuisson": 11,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Ne se garde pas : le riz continue de boire le bouillon.",
   "nutrition": {
     "proteines_g": 23,
     "proteines_affiche": "23 g",
@@ -134,7 +134,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinoko_Zosui%2C_at_Restaurant_Gusto_(2012.02.26).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Lombroso",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kinoko_Zosui,_at_Restaurant_Gusto_(2012.02.26).jpg"
+  },
   "video": {
     "youtube_id": "t8OQDzDtL6U",
     "auteur": "Just One Cookbook",

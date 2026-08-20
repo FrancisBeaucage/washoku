@@ -30,7 +30,7 @@
   "romaji": null,
   "nom_origine": "telur balado",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "te-lour ba-la-do",
   "langue_origine": "id",
   "fr": "Œufs durs au sambal (telur balado)",
   "sous_titre": "Huit œufs, une sauce de piment, et le seul changement à faire : ne pas les frire. Deux cents calories économisées par portion.",
@@ -41,7 +41,7 @@
     "cuisson": 20,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 3 jours et se mange froid. Cinq minutes si le sambal de R165 existe déjà.",
   "nutrition": {
     "proteines_g": 12,
     "proteines_affiche": "12 g",
@@ -117,7 +117,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Telur_Balado_101417.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Abdul Hanif Arromy",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Telur_Balado_101417.jpg"
+  },
   "video": {
     "youtube_id": "W9d-0xCFU38",
     "auteur": "Unimagi Studio",

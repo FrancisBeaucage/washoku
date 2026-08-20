@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "ปลานึ่งมะนาว",
   "lecture_origine": "pla neung manao",
-  "prononciation": null,
+  "prononciation": "pla neung ma-nao",
   "langue_origine": "th",
   "fr": "Poisson vapeur, sauce lime crue (pla neung manao)",
   "sous_titre": "Quarante grammes de protéines pour quatre grammes de lipides, et une sauce qu'on ne cuit pas. C'est le cas d'école de la réduction réussie.",
@@ -132,7 +132,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Thai_steamed_fish_with_lime_juice-2.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Mattes (talk) *derivative work: an-d (talk)",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Thai_steamed_fish_with_lime_juice-2.jpg"
+  },
   "video": {
     "youtube_id": "ZvGbcKXZBLg",
     "auteur": "Pailin's Kitchen",

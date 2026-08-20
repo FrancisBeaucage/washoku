@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "tempe bacem",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tèm-pé ba-tchème",
   "langue_origine": "id",
   "fr": "Tempé braisé au sucre de palme (tempe bacem)",
   "sous_titre": "Le kho indonésien : caramel, eau de coco, braisage. Vingt-cinq grammes de protéines pour cent vingt-cinq milligrammes de sodium — un quart du kho vietnamien.",
@@ -39,7 +39,7 @@
     "cuisson": 5,
     "attente": 30
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde 4 jours et c'est meilleur au deuxième. Se mange froid, à la main.",
   "nutrition": {
     "proteines_g": 25,
     "proteines_affiche": "25 g",
@@ -141,7 +141,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tempe_bacem_lauk_soto_Pak_Marto.JPG?width=1200",
+  "photo_credit": {
+    "auteur": "Midori",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tempe_bacem_lauk_soto_Pak_Marto.JPG"
+  },
   "video": {
     "youtube_id": "7iFSyuNzbGQ",
     "auteur": "Novi's Bali Kitchen",

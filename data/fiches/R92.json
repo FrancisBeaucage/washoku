@@ -125,7 +125,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.Banchan-Myelchi.bokkem-01.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "brappy! (a flickr user)",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean.Banchan-Myelchi.bokkem-01.jpg"
+  },
   "video": {
     "youtube_id": "y1mj-q21AP8",
     "auteur": "Maangchi",

@@ -37,7 +37,7 @@
     "cuisson": 6,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde des semaines dans un contenant hermétique, avec un sachet déshydratant si on en a.",
   "nutrition": {
     "proteines_g": 1,
     "proteines_affiche": "1 g",
@@ -110,7 +110,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_seaweed_Gim_(2).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Startandstar",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean_seaweed_Gim_(2).jpg"
+  },
   "video": {
     "youtube_id": "EWK0AIPrVSc",
     "auteur": "Maangchi",

@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "宫保鸡丁",
   "lecture_origine": "gōngbǎo jīdīng",
-  "prononciation": null,
+  "prononciation": "gong-bao dji-dingue",
   "langue_origine": "zh",
   "fr": "Poulet kung pao (gongbao jiding)",
   "sous_titre": "Trente-sept grammes de protéines pour douze grammes de lipides. C'est de la POITRINE de poulet — et c'est le velouté qui rend ça possible.",
@@ -148,7 +148,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kung_Pao_Chicken_With_Rice.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Miansari66",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kung_Pao_Chicken_With_Rice.jpg"
+  },
   "video": {
     "youtube_id": "C-R17Wmd4aY",
     "auteur": "Wei's Red House Kitchen",

@@ -152,7 +152,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Clear_Soup_2018-05-05_(1).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Index Librorum Permissorum",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Clear_Soup_2018-05-05_(1).jpg"
+  },
   "video": {
     "youtube_id": "PV__ThYw6VI",
     "auteur": "Pailin's Kitchen",

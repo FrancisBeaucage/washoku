@@ -38,7 +38,7 @@
     "cuisson": 60,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se congèle, et devient le fond de R74, de R93 ou de n'importe quelle soupe claire.",
   "nutrition": {
     "proteines_g": 34,
     "proteines_affiche": "34 g",
@@ -128,6 +128,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "0Atj-Npj2cs",
     "auteur": "Maangchi",

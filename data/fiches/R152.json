@@ -27,7 +27,7 @@
   "romaji": null,
   "nom_origine": "nước chấm",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "nou-ok tchum",
   "langue_origine": "vi",
   "fr": "La trempette diluée (nuoc cham)",
   "sous_titre": "Deux parts de sauce de poisson pour six d'eau. Ce n'est pas une version allégée : la dilution est la recette, et c'est la manœuvre centrale de la cuisine vietnamienne.",
@@ -38,7 +38,7 @@
     "cuisson": 0,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde une semaine au frigo sans l'ail et le piment, deux jours avec.",
   "nutrition": {
     "proteines_g": 0,
     "proteines_affiche": "0 g",
@@ -118,7 +118,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023%2C_Ks_Song_Ph%C6%B0%C6%A1ng_(%C4%91%E1%BB%93_%C4%83n%2C_ch%C3%A9n_n%C6%B0%E1%BB%9Bc_ch%E1%BA%A5m).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Phương Huy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023,_Ks_Song_Ph%C6%B0%C6%A1ng_(%C4%91%E1%BB%93_%C4%83n,_ch%C3%A9n_n%C6%B0%E1%BB%9Bc_ch%E1%BA%A5m).jpg"
+  },
   "video": {
     "youtube_id": "OrUZzchXGzo",
     "auteur": "Helen's Recipes (Vietnamese Food)",

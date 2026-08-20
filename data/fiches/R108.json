@@ -134,7 +134,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E8%89%B2%E4%B8%BC.jpeg?width=1200",
+  "photo_credit": {
+    "auteur": "Syced",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E8%89%B2%E4%B8%BC.jpeg"
+  },
   "video": {
     "youtube_id": "cI3LPrBrlOQ",
     "auteur": "Just One Cookbook",

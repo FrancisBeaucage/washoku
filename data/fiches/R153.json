@@ -29,7 +29,7 @@
   "romaji": null,
   "nom_origine": "gỏi gà bắp cải",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "goï ga bap kaï",
   "langue_origine": "vi",
   "fr": "Salade de poulet et chou (goi ga bap cai)",
   "sous_titre": "Une gỏi de référence livre huit grammes de protéines par personne, parce qu'au Vietnam c'est un plat parmi quatre. Triplée, c'est un souper à quarante-et-un.",
@@ -145,6 +145,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "3vhfZpWI69g",
     "auteur": "Helen's Recipes (Vietnamese Food)",

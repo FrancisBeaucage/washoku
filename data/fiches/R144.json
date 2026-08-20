@@ -28,7 +28,7 @@
   "romaji": null,
   "nom_origine": "แกงป่า",
   "lecture_origine": "gaeng pa",
-  "prononciation": null,
+  "prononciation": "kèng pâ",
   "langue_origine": "th",
   "fr": "Curry de la jungle (gaeng pa)",
   "sous_titre": "Un curry thaï franc et brûlant, monté à l'eau. Pas une goutte de lait de coco — et ce n'est pas une version allégée, c'est le plat tel qu'il existe.",
@@ -146,7 +146,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish_Jungle_Curry_(8644200729).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Charles Haynes",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fish_Jungle_Curry_(8644200729).jpg"
+  },
   "video": {
     "youtube_id": "qaeiUpMz028",
     "auteur": "Pailin's Kitchen",

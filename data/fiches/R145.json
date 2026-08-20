@@ -29,7 +29,7 @@
   "romaji": null,
   "nom_origine": "แกงส้ม",
   "lecture_origine": "gaeng som",
-  "prononciation": null,
+  "prononciation": "kèng sôme",
   "langue_origine": "th",
   "fr": "Curry aigre au tamarin (gaeng som)",
   "sous_titre": "Vingt-cinq grammes de protéines pour UN gramme de lipides. Le plat le plus maigre de ce document, et l'acide y est le milieu de cuisson — pas un accent.",
@@ -138,7 +138,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Vegetarian_kaeng_som.JPG?width=1200",
+  "photo_credit": {
+    "auteur": "Takeaway",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vegetarian_kaeng_som.JPG"
+  },
   "video": {
     "youtube_id": "LU3dRxuFG1o",
     "auteur": "Pailin's Kitchen",

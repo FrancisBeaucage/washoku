@@ -121,7 +121,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B9%B2%E7%85%B8%E9%9D%92%E6%A4%92-%E4%BA%91%E5%8D%97%E9%B9%A4%E5%BA%86_2024-08-05.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Kcx36",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%B9%B2%E7%85%B8%E9%9D%92%E6%A4%92-%E4%BA%91%E5%8D%97%E9%B9%A4%E5%BA%86_2024-08-05.jpg"
+  },
   "video": {
     "youtube_id": "tJemaPzmouQ",
     "auteur": "Made With Lau",

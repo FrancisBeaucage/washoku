@@ -141,7 +141,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%82%89%E8%B1%86%E8%85%90%EF%BC%88%E5%AE%89%E5%AE%B6%E3%81%AE%E5%B2%A9%E3%81%A9%E3%81%86%E3%81%B5_vs._%E6%9D%B1%E5%B1%8B%E3%81%AE%E3%81%A8%E3%81%86%E3%81%B5%EF%BC%89_(31087547421).jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Hajime NAKANO from Tokyo, Japan",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E8%82%89%E8%B1%86%E8%85%90%EF%BC%88%E5%AE%89%E5%AE%B6%E3%81%AE%E5%B2%A9%E3%81%A9%E3%81%86%E3%81%B5_vs._%E6%9D%B1%E5%B1%8B%E3%81%AE%E3%81%A8%E3%81%86%E3%81%B5%EF%BC%89_(31087547421).jpg"
+  },
   "video": {
     "youtube_id": "SU3ahRyWihk",
     "auteur": "JapaneseCooking101",

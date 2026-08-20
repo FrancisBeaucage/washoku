@@ -117,7 +117,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Godeungeo-gui.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Daniel Moskowitz",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Godeungeo-gui.jpg"
+  },
   "video": {
     "youtube_id": "ZMYtYwjLQCE",
     "auteur": "Maangchi",

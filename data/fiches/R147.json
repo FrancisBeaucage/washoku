@@ -29,7 +29,7 @@
   "romaji": null,
   "nom_origine": "พล่ากุ้ง",
   "lecture_origine": "pla goong",
-  "prononciation": null,
+  "prononciation": "pla koung",
   "langue_origine": "th",
   "fr": "Crevettes à la citronnelle (pla goong)",
   "sous_titre": "Trente grammes de protéines pour trois grammes de lipides — et sept cent soixante-quinze milligrammes de sodium dont la sauce de poisson ne porte qu'un tiers.",
@@ -130,7 +130,12 @@
   "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
-  "photo": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Phla_kung.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "Takeaway",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Phla_kung.jpg"
+  },
   "video": {
     "youtube_id": "vtuyJ1gsAWg",
     "auteur": "Thun Thun Channel",

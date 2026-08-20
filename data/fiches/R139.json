@@ -27,7 +27,7 @@
   "romaji": null,
   "nom_origine": "冬瓜排骨汤",
   "lecture_origine": "dōngguā páigǔtāng",
-  "prononciation": null,
+  "prononciation": "dong-gouâ païe-gou-tang",
   "langue_origine": "zh",
   "fr": "Soupe de courge d'hiver et porc (dongguo paigu tang)",
   "sous_titre": "Cent quatre-vingt-dix milligrammes de sodium et dix-sept grammes de protéines. Douze minutes de travail pour une heure vingt sans surveillance — et trois façons d'enlever le gras du même bouillon.",
@@ -149,6 +149,7 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,
+  "photo_credit": null,
   "video": {
     "youtube_id": "2SbL73VnOSc",
     "auteur": "misshookitchen",
