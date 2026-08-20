@@ -1,0 +1,154 @@
+{
+  "id": "R146",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "moyen",
+  "type_de_plat": "soupe",
+  "methode": [
+    "blanchi",
+    "mijote"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "grille-torrefie"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-aigre-piquante-de-l-isaan-tom-saap",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ต้มแซ่บ",
+  "lecture_origine": "tom saap",
+  "prononciation": null,
+  "langue_origine": "th",
+  "fr": "Soupe aigre-piquante de l'Isaan (tom saap)",
+  "sous_titre": "La troisième soupe aigre-piquante du recueil, et la seule dont le corps ne vient ni d'une pâte ni du coco : il vient du riz grillé moulu.",
+  "portions": "4",
+  "temps_affiche": "≈ 50 min dont 30 sans surveillance",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 8,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 25,
+    "proteines_affiche": "25 g",
+    "calories": 250,
+    "calories_affiche": "≈ 250",
+    "lipides_g": 10,
+    "sodium_mg": 375,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ SOUPE QU'ON BOIT : les 375 mg comptent EN ENTIER, contrairement à un bouillon-cuiseur qu'on laisse dans la casserole. Une seule cuillère à soupe de sauce de poisson pour 1,2 litre, et c'est tout le sel du plat — le khao khua, la lime, la citronnelle, le galanga et les piments n'en portent aucun. L'eau du premier blanchiment (T12) est jetée et n'est pas salée. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "500 g d'échine de porc dégraissée en cubes de 3 cm, OU de haut de cuisse de poulet",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1,2 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 tiges de citronnelle écrasées, en tronçons · 6 rondelles de galanga · 8 feuilles de makrut froissées · 4 échalotes écrasées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de khao khua — le riz gluant grillé moulu de T19 : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 c. à soupe de jus de lime, HORS DU FEU",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 piments séchés grillés à sec, écrasés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · coriandre · menthe",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN LAIT DE COCO, AUCUNE PÂTE DE CURRY",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12",
+    "T19"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 : la viande dans l'eau FROIDE, monter à ébullition, 3 MINUTES, ÉCUMER. Jeter l'eau, rincer la viande, laver la casserole."
+    },
+    {
+      "n": 2,
+      "texte": "Remettre la viande, 1,2 L d'eau fraîche, la citronnelle, le galanga, les échalotes, les feuilles de makrut. FRÉMISSEMENT 30 MINUTES, À COUVERCLE DE BIAIS. Aucune surveillance."
+    },
+    {
+      "n": 3,
+      "texte": "Faire T19 si le khao khua n'est pas déjà fait : riz gluant cru grillé à sec 8 minutes jusqu'à ce qu'il soit brun noisette, moulu au mortier."
+    },
+    {
+      "n": 4,
+      "texte": "LES PIMENTS SÉCHÉS GRILLÉS ET LA SAUCE DE POISSON, 2 MINUTES."
+    },
+    {
+      "n": 5,
+      "texte": "🔴 ÉTEINDRE LE FEU. LE KHAO KHUA ET LE JUS DE LIME HORS DU FEU. L'acide sur le feu s'évapore et devient amer; le riz grillé sur le feu se transforme en colle."
+    },
+    {
+      "n": 6,
+      "texte": "Herbes au service. GOÛTER : ça doit être franchement acide et franchement piquant."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Trois soupes aigres-piquantes, et ce qui les distingue est le corps",
+      "texte": "LE RECUEIL EN PORTE MAINTENANT TROIS, ET ELLES NE SE REMPLACENT PAS. LA DIFFÉRENCE N'EST PAS L'AROMATIQUE — c'est la même citronnelle, le même galanga, les mêmes feuilles de makrut. C'EST CE QUI DONNE DU CORPS AU BOUILLON.\n\nDans le ต้มยำ tom yum de R27, le corps vient D'UNE PÂTE, le nam prik pao : ≈ 920 mg de sodium par cuillère à soupe, étiquette lue. Dans le ต้มข่า tom kha de R28, il vient DU LAIT DE COCO — ⚠️ sa fiche ne chiffre pas ses lipides, mais 200 ml de lait de coco entier, c'est ≈ 400 cal et 40 g de lipides dans la casserole. Dans celui-ci, le ต้มแซ่บ tom saap, il vient DU RIZ GLUANT GRILLÉ MOULU : ≈ 20 calories la cuillère à soupe, zéro sodium.\n\n🔴 C'EST LE LEVIER LE PLUS RENTABLE DE TOUT LE CORPUS THAÏ, ET IL EST GRATUIT. Le khao khua est un umami sec : du riz cru grillé jusqu'au brun noisette puis moulu. Il apporte de la texture, une profondeur torréfiée et une épaisseur en bouche — exactement ce que le sel semble apporter et n'apporte pas. Deux cuillères à soupe pour quatre bols coûtent quarante calories au total.\n\nET IL EXISTE DÉJÀ AU DOSSIER : T19. C'était jusqu'ici la technique la moins employée du recueil — deux débouchés, le nam tok de R69 et le laap de R70. Celle-ci est le troisième, et c'est le premier où le riz grillé porte un bouillon au lieu d'une salade.\n\n⚠️ LE RIZ GRILLÉ ET LA LIME VONT HORS DU FEU, ET LES DEUX POUR DES RAISONS DIFFÉRENTES. La lime, parce que son acide volatil s'évapore et laisse une amertume — c'est la règle du dossier depuis le tom yum. Le khao khua, parce qu'il gonfle : mis à bouillir, il épaissit le bouillon en bouillie en deux minutes. Hors du feu, il reste en suspension.\n\n⚠️ SOUPE QU'ON BOIT : ses 375 mg comptent en entier, contrairement au yosenabe ou au nikudōfu. Une cuillère à soupe de sauce de poisson pour 1,2 litre, et c'est tout le sel du plat."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "EL3Q0KX82xI",
+    "auteur": "Nin is Cooking",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R27",
+    "R28"
+  ],
+  "commentaire_source": ""
+}

@@ -1,0 +1,138 @@
+{
+  "id": "R156",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "vietnamienne",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "saute",
+    "vapeur"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "croquant",
+    "glissant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "liseron-d-eau-saute-a-l-ail-rau-muong-xao-toi",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "rau muống xào tỏi",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "vi",
+  "fr": "Liseron d'eau sauté à l'ail (rau muong xao toi)",
+  "sous_titre": "Deux textures dans un seul légume : la tige creuse croque, la feuille glisse. Quatre minutes, et le même geste que le sauté à l'eau chinois.",
+  "portions": "4",
+  "temps_affiche": "≈ 10 min",
+  "temps_minutes": {
+    "preparation": 6,
+    "cuisson": 4,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 3,
+    "proteines_affiche": "3 g",
+    "calories": 60,
+    "calories_affiche": "≈ 60",
+    "lipides_g": 3,
+    "sodium_mg": 125,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une seule cuillère à thé de nước mắm pour 500 g de légume, seul poste salé du plat. Comparé nommément : c'est l'ordre du choy sum de R135 à 130 mg. En version au fu yu (une demi-cuillère à thé de tofu fermenté à la place de la sauce de poisson), le plat entier tombe à ≈ 100 mg, soit ≈ 25 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "500 g de liseron d'eau (rau muống, ong choy), tiges et feuilles SÉPARÉES",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "5 gousses d'ail en tranches",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de nước mắm OU de sauce soya réduite",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé de fu yu (tofu fermenté) écrasé, à la place de la sauce de poisson · 1 piment",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T13"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "LAVER À GRANDE EAU — TROIS FOIS. Le liseron pousse dans l'eau et il garde du sable dans ses tiges creuses."
+    },
+    {
+      "n": 2,
+      "texte": "🔴 SÉPARER LES TIGES DES FEUILLES ET LES COUPER EN TRONÇONS DE 6 CM. Les tiges prennent deux fois plus de temps que les feuilles; ensemble, on obtient des tiges crues et des feuilles en bouillie."
+    },
+    {
+      "n": 3,
+      "texte": "Poêle ou wok très chaud, 2 c. à thé d'huile, L'AIL 20 SECONDES — blond, jamais brun."
+    },
+    {
+      "n": 4,
+      "texte": "LES TIGES D'ABORD, 1 MINUTE 30, en remuant."
+    },
+    {
+      "n": 5,
+      "texte": "LES FEUILLES, L'EAU, ET COUVRIR 60 SECONDES. C'est le T13 : la vapeur cuit le volume sans huile supplémentaire."
+    },
+    {
+      "n": 6,
+      "texte": "DÉCOUVRIR, LA SAUCE DE POISSON, MONTER LE FEU 30 SECONDES POUR ÉVAPORER. Servir immédiatement."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le même geste que le T13 chinois, dans une autre cuisine",
+      "texte": "🔴 CE PLAT ET LE BROCOLI DE R143 SONT LA MÊME TECHNIQUE SOUS DEUX NOMS. 水油焖 shuǐ yóu mèn en chinois, xào avec un couvercle en vietnamien : un peu d'huile, un peu d'eau, un couvercle, et la vapeur fait le travail que l'huile ferait dans un sauté de restaurant. ⚠️ C'est la première fois que le recueil montre une technique partagée entre deux cuisines, et ça vaut d'être noté : T13 n'est pas une technique chinoise, c'est une technique de cuisinier sans feu de restaurant.\n\nLE LISERON D'EAU EST LE SEUL LÉGUME DU RECUEIL À DEUX TEXTURES DANS LA MÊME BOUCHÉE. La tige est creuse et cassante — elle craque; la feuille est fine et fond comme un épinard. C'est pourquoi l'étape 2 les sépare, et c'est la seule exigence du plat. Ensemble dans la poêle, on obtient le pire des deux.\n\nCENT VINGT-CINQ MILLIGRAMMES PAR PORTION, ET UNE SEULE CUILLÈRE À THÉ DE SAUCE DE POISSON POUR 500 G DE LÉGUME. Comparé nommément : c'est l'ordre du choy sum de R135 à 130 mg. Ce qui porte le plat, c'est l'ail — cinq gousses, blondes, dans l'huile.\n\nLE FU YU EST LA VERSION QUE JE RECOMMANDE D'ESSAYER. Une demi-cuillère à thé de tofu fermenté écrasé remplace la sauce de poisson : ≈ 100 mg de sodium, et un umami crémeux et fromagé qui va avec le liseron mieux que le poisson. C'est l'usage cantonais du même plat, et c'est vendu en pot chez Kim Phat.\n\n⚠️ SAISONNIER, ET IL FAUT LE DIRE : le liseron d'eau est chez Kim Phat l'été, en grosses bottes, et il disparaît le reste de l'année. ⚠️ Et il ne se garde que deux jours — les tiges creuses se vident et deviennent molles. Hors saison, la même technique sur des épinards, du bok choy ou du chou nappa donne un bon plat qui n'est pas celui-là."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "mrZzS5aUHOA",
+    "auteur": "Helen's Recipes (Vietnamese Food)",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R143",
+    "R135"
+  ],
+  "commentaire_source": ""
+}

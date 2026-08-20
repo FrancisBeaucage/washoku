@@ -20032,7 +20032,7 @@
     "notes": [
       {
         "titre": "La fécule suspend l'œuf — et pourquoi une soupe ne descend pas sous 300 mg",
-        "texte": "UN KAKITAMAJIRU RATÉ A DES GRUMEAUX D'ŒUF AU FOND ET UN BOUILLON TROUBLE. UN RÉUSSI A DES RUBANS SOYEUX EN SUSPENSION. LA DIFFÉRENCE EST UNE CUILLÈRE À THÉ DE FÉCULE. Un bouillon clair est trop fluide pour porter l'œuf : les filets tombent, se rejoignent au fond et cuisent en paquet. La fécule épaissit juste assez pour que l'œuf flotte le temps de coaguler.\n\nET LA HAUTEUR DU FILET FAIT LE RESTE. Versé de haut, l'œuf se divise en un fil très mince avant de toucher le bouillon; versé de près, il arrive en masse. C'est de la mécanique, pas du savoir-faire : plus la chute est longue, plus le fil est fin.\n\n🔴 TROIS CENT SOIXANTE-DIX MILLIGRAMMES À LA DOSE ÉCRITE, ET IL FAUT DIRE POURQUOI ON NE FAIT PAS BEAUCOUP MIEUX. Un quart de cuillère à thé de sel, c'est 575 mg; la cuillère à thé de soya en ajoute 167. Une soupe miso ordinaire tourne autour de 500 mg par bol : L'ÉCART RÉEL EST D'UN QUART, PAS DE DEUX TIERS.\n\n⚠️ ET C'EST UN PLANCHER, PAS UN RATÉ : un bouillon a besoin de l'ordre de 0,15 à 0,20 % de sodium en masse pour goûter assaisonné. En dessous, il goûte l'eau. Miso, sel, soya, pâte d'anchois arrivent tous au même endroit, parce que c'est la concentration en bouche qui décide et non la nature du sel. LA SEULE FAÇON DE PASSER SOUS CE PLANCHER EST DE NE PAS ASSAISONNER LE LIQUIDE DU TOUT — c'est ce que fait le yosenabe de R133, avec sa trempette individuelle.\n\n🔴 CE QUE L'ŒUF APPORTE VRAIMENT, ET C'EST UN VRAI AVANTAGE : IL EST DOSABLE, ET LE MISO NE L'EST PAS. Cette soupe se sale au quart de cuillère, au huitième, à la pincée, et on ajuste en goûtant — à un huitième elle tombe à environ 230 mg et elle tient debout, parce que le dashi et l'œuf portent le corps du bol. Le miso, lui, transporte son sel et son goût dans la même cuillère : en mettre moins ne fait pas une soupe moins salée, ça fait une soupe fade.\n\nC'EST UN ARGUMENT DE CONTRÔLE ET NON DE NIVEAU. Sept grammes de protéines contre trois pour une soupe miso, et un chiffre de sodium que le cuisinier décide au lieu de le subir.\n\n⚠️ ET C'EST UNE SOUPE QU'ON BOIT, DONC TOUT SON SODIUM COMPTE — aucun levier ne s'applique après coup. Les plats en bouillon du recueil se divisent en deux familles : ceux dont le bouillon est un cuiseur, qu'on laisse dans la casserole, et ceux dont le bouillon EST le plat. Celui-ci est du second genre."
+        "texte": "UN KAKITAMAJIRU RATÉ A DES GRUMEAUX D'ŒUF AU FOND ET UN BOUILLON TROUBLE. UN RÉUSSI A DES RUBANS SOYEUX EN SUSPENSION. LA DIFFÉRENCE EST UNE CUILLÈRE À THÉ DE FÉCULE. Un bouillon clair est trop fluide pour porter l'œuf : les filets tombent, se rejoignent au fond et cuisent en paquet. La fécule épaissit juste assez pour que l'œuf flotte le temps de coaguler.\n\nET LA HAUTEUR DU FILET FAIT LE RESTE. Versé de haut, l'œuf se divise en un fil très mince avant de toucher le bouillon; versé de près, il arrive en masse. C'est de la mécanique, pas du savoir-faire : plus la chute est longue, plus le fil est fin.\n\n🔴 TROIS CENT SOIXANTE-DIX MILLIGRAMMES À LA DOSE ÉCRITE, ET IL FAUT DIRE POURQUOI ON NE FAIT PAS BEAUCOUP MIEUX. Un quart de cuillère à thé de sel, c'est 575 mg; la cuillère à thé de soya en ajoute 167. Une soupe miso ordinaire arrive autour de 500 mg par bol — de l'ordre d'une cuillère à soupe de miso, et le miso porte ≈ 700 mg par cuillère à soupe : L'ÉCART RÉEL EST D'UN QUART, PAS DE DEUX TIERS. ⚠️ La fiche R38 ne chiffre pas encore son sodium : l'écart se calcule sur la dose de miso, pas sur une fiche.\n\n⚠️ ET C'EST UN PLANCHER, PAS UN RATÉ : un bouillon a besoin de l'ordre de 0,15 à 0,20 % de sodium en masse pour goûter assaisonné. En dessous, il goûte l'eau. Miso, sel, soya, pâte d'anchois arrivent tous au même endroit, parce que c'est la concentration en bouche qui décide et non la nature du sel. LA SEULE FAÇON DE PASSER SOUS CE PLANCHER EST DE NE PAS ASSAISONNER LE LIQUIDE DU TOUT — c'est ce que fait le yosenabe de R133, avec sa trempette individuelle.\n\n🔴 CE QUE L'ŒUF APPORTE VRAIMENT, ET C'EST UN VRAI AVANTAGE : IL EST DOSABLE, ET LE MISO NE L'EST PAS. Cette soupe se sale au quart de cuillère, au huitième, à la pincée, et on ajuste en goûtant — à un huitième elle tombe à environ 230 mg et elle tient debout, parce que le dashi et l'œuf portent le corps du bol. Le miso, lui, transporte son sel et son goût dans la même cuillère : en mettre moins ne fait pas une soupe moins salée, ça fait une soupe fade.\n\nC'EST UN ARGUMENT DE CONTRÔLE ET NON DE NIVEAU. Sept grammes de protéines contre trois pour une soupe miso, et un chiffre de sodium que le cuisinier décide au lieu de le subir.\n\n⚠️ ET C'EST UNE SOUPE QU'ON BOIT, DONC TOUT SON SODIUM COMPTE — aucun levier ne s'applique après coup. Les plats en bouillon du recueil se divisent en deux familles : ceux dont le bouillon est un cuiseur, qu'on laisse dans la casserole, et ceux dont le bouillon EST le plat. Celui-ci est du second genre."
       }
     ],
     "ajustement": null,
@@ -20573,8 +20573,8 @@
     "temps_affiche": "≈ 70 min dont 45 de cuiseur",
     "temps_minutes": {
       "preparation": 20,
-      "cuisson": 45,
-      "attente": 10
+      "cuisson": 0,
+      "attente": 55
     },
     "preparation_avance": null,
     "nutrition": {
@@ -21017,8 +21017,8 @@
     "temps_affiche": "≈ 45 min dont 25 de pochage",
     "temps_minutes": {
       "preparation": 10,
-      "cuisson": 30,
-      "attente": 10
+      "cuisson": 5,
+      "attente": 35
     },
     "preparation_avance": null,
     "nutrition": {
@@ -21780,8 +21780,8 @@
     "temps_affiche": "≈ 1 h 45 dont 1 h 20 sans surveillance",
     "temps_minutes": {
       "preparation": 12,
-      "cuisson": 95,
-      "attente": 0
+      "cuisson": 15,
+      "attente": 80
     },
     "preparation_avance": null,
     "nutrition": {
@@ -22471,6 +22471,2089 @@
     "voir_aussi": [
       "R135",
       "R136"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R144",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "thaie",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "piquant",
+      "aromatique",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "croquant",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "curry-de-la-jungle-gaeng-pa",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "แกงป่า",
+    "lecture_origine": "gaeng pa",
+    "prononciation": null,
+    "langue_origine": "th",
+    "fr": "Curry de la jungle (gaeng pa)",
+    "sous_titre": "Un curry thaï franc et brûlant, monté à l'eau. Pas une goutte de lait de coco — et ce n'est pas une version allégée, c'est le plat tel qu'il existe.",
+    "portions": "4",
+    "temps_affiche": "≈ 35 min",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 20,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 27,
+      "proteines_affiche": "27 g",
+      "calories": 295,
+      "calories_affiche": "≈ 295",
+      "lipides_g": 13,
+      "sodium_mg": 425,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — deux cuillères à soupe de pâte de curry du commerce (≈ 700 mg pour quatre portions) et deux cuillères à thé de sauce de poisson; une recette ordinaire en met quatre à cinq cuillères à soupe de pâte, soit 1 400 à 1 750 mg à elle seule. Le plat se mange sur du riz et la sauce descend dans le riz : le chiffre la compte EN ENTIER, c'est le cas prudent. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "600 g de haut de cuisse de poulet désossé sans peau, en morceaux de 3 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de pâte de curry rouge du commerce — et non quatre ou cinq : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 L d'eau OU de bouillon de poulet non salé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g d'aubergines thaïes en quartiers, OU 1 aubergine japonaise",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de haricots longs en tronçons de 4 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de pousses de bambou en conserve, RINCÉES",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à thé de sauce de poisson SEULEMENT",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES AROMATES QUI COMPENSENT : 4 piments oiseaux frais écrasés · 2 branches de poivre vert frais si tu en trouves · 6 feuilles de makrut froissées · 1 c. à soupe de krachai (gingembre-doigt) en julienne · 1 grosse poignée de basilic thaï, hors du feu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN LAIT DE COCO — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Poêle profonde ou casserole, 1 c. à thé d'huile, feu moyen. LA PÂTE DE CURRY 60 SECONDES, EN L'ÉCRASANT — elle doit sentir fort et foncer légèrement."
+      },
+      {
+        "n": 2,
+        "texte": "Le poulet, 2 minutes en remuant, pour qu'il s'enrobe de pâte."
+      },
+      {
+        "n": 3,
+        "texte": "VERSER L'EAU, AMENER À FRÉMISSEMENT, ÉCUMER UNE FOIS. 10 minutes."
+      },
+      {
+        "n": 4,
+        "texte": "Les pousses de bambou rincées et les aubergines, 5 minutes. LES HARICOTS LONGS, 3 MINUTES — ils doivent rester fermes."
+      },
+      {
+        "n": 5,
+        "texte": "La sauce de poisson, les feuilles de makrut, le krachai, les piments écrasés, le poivre vert. 2 MINUTES."
+      },
+      {
+        "n": 6,
+        "texte": "GOÛTER MAINTENANT. S'IL MANQUE QUELQUE CHOSE, CE N'EST PAS DU SEL : c'est du piment ou de la lime. Voir la note."
+      },
+      {
+        "n": 7,
+        "texte": "Éteindre, le basilic thaï par-dessus. SERVIR AVEC DU RIZ — c'est un plat qu'on mange par-dessus du riz, pas une soupe."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Curry ne veut pas dire lait de coco, et ce plat le prouve",
+        "texte": "🔴 แกง GAENG NE VEUT PAS DIRE « CURRY AU LAIT DE COCO » : ÇA DÉSIGNE TOUTE UNE FAMILLE, ET LA MOITIÉ DE CETTE FAMILLE EST MONTÉE À L'EAU. Le gaeng pa, le gaeng som de R145, le gaeng liang : aucun des trois n'a jamais eu de coco. Ce ne sont pas des versions allégées de quelque chose — ce sont des plats différents, et ils sont meilleurs pour le dossier.\n\nCE QUE ÇA VAUT, CHIFFRÉ. Un curry vert domestique met 400 ml de lait de coco entier pour quatre portions : environ 800 calories et 80 g de lipides, soit 200 calories et 20 g de lipides par portion. Celui-ci en met zéro. Treize grammes de lipides par portion, et ils viennent tous du poulet.\n\n⚠️ ET LE SODIUM CACHÉ DE CE PLAT EST LA PÂTE DE CURRY, PAS LA SAUCE DE POISSON. C'est le contraire de ce qu'on suppose. Une recette ordinaire met 4 à 5 cuillères à soupe de pâte du commerce — 1 400 à 1 750 mg à elle seule. La fiche en met deux, soit ≈ 700 mg pour quatre portions.\n\n🔴 CE QUI REND LA RÉDUCTION POSSIBLE EST À L'ÉTAPE 5, ET C'EST LE MÉCANISME LE PLUS UTILE DU LOT THAÏ : LA STRUCTURE DU PLAT EST ÉLASTIQUE. Le gaeng pa tient sur trois axes — le piquant, l'aromatique et le salé — et les deux premiers se montent librement. Quatre piments frais au lieu de deux, du poivre vert, du krachai, des feuilles de makrut : rien de tout ça ne porte de sodium, et tout ça remplit la place que la pâte occupait. C'est pourquoi l'étape 6 dit de ne pas ajouter de sel quand ça manque de quelque chose.\n\nLE KRACHAI EST L'INGRÉDIENT SIGNATURE ET IL EST FACULTATIF À CONTRECŒUR. C'est un rhizome en doigts fins, vendu congelé ou en pot chez Kim Phat, au goût médicinal et poivré qui ne ressemble à rien d'autre. Sans lui, c'est un bon curry à l'eau; avec lui, c'est un gaeng pa.\n\n⚠️ QUATRE CENT VINGT-CINQ MILLIGRAMMES, ET LE BOUILLON SE MANGE EN PARTIE. On sert ce plat sur du riz, la sauce descend dans le riz. Le chiffre le compte en entier — c'est le cas prudent."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "qaeiUpMz028",
+      "auteur": "Pailin's Kitchen",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R145",
+      "R28"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R145",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "thaie",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote",
+      "poche"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "curry-aigre-au-tamarin-gaeng-som",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "แกงส้ม",
+    "lecture_origine": "gaeng som",
+    "prononciation": null,
+    "langue_origine": "th",
+    "fr": "Curry aigre au tamarin (gaeng som)",
+    "sous_titre": "Vingt-cinq grammes de protéines pour UN gramme de lipides. Le plat le plus maigre de ce document, et l'acide y est le milieu de cuisson — pas un accent.",
+    "portions": "4",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 25,
+      "proteines_affiche": "25 g",
+      "calories": 150,
+      "calories_affiche": "≈ 150",
+      "lipides_g": 1,
+      "sodium_mg": 425,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — deux cuillères à soupe de pâte de curry du commerce, deux cuillères à thé de sauce de poisson et une demi-cuillère à thé de gapi (≈ 215 mg pour quatre portions, à ≈ 1 300 mg la cuillère à soupe). Il n'y a aucune huile dans cette recette : le gramme de lipides vient du poisson blanc. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "500 g de filet de poisson blanc ferme — tilapia, basa, morue — en gros morceaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de pâte de curry gaeng som du commerce OU de pâte de curry rouge + 1/2 c. à thé de curcuma moulu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de pulpe de tamarin délayée dans 100 ml d'eau chaude, filtrée — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "800 ml d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "300 g de légumes fermes : chou-fleur · haricots longs · daikon · papaye verte · chou nappa",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à thé de sauce de poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sucre de palme OU de cassonade",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif mais c'est l'ossature : 1/2 c. à thé de gapi, pâte de crevette fermentée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 piments oiseaux écrasés",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Délayer le tamarin dans l'eau chaude, écraser à la fourchette, FILTRER ET JETER LES FIBRES ET LES NOYAUX."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole : l'eau, la pâte de curry, le gapi si on en met. FOUETTER POUR DISSOUDRE. Amener à frémissement, 5 minutes — la pâte doit perdre son cru."
+      },
+      {
+        "n": 3,
+        "texte": "LE JUS DE TAMARIN, LA SAUCE DE POISSON, LE SUCRE. Goûter le bouillon SEUL. C'est le seul moment où on ajuste, et il faut que ce soit franchement acide."
+      },
+      {
+        "n": 4,
+        "texte": "Les légumes fermes, 5 à 6 minutes."
+      },
+      {
+        "n": 5,
+        "texte": "🔴 LE POISSON EN DERNIER, 3 À 4 MINUTES, SANS REMUER. On pousse les morceaux sous le liquide avec le dos d'une cuillère et on les laisse. Remué, un poisson blanc se défait en charpie."
+      },
+      {
+        "n": 6,
+        "texte": "Éteindre. Se mange avec du riz."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "L'acide est le milieu de cuisson, et le sucre n'est pas là pour sucrer",
+        "texte": "LE GAENG SOM EST BÂTI SUR L'ACIDE, ET ÇA CHANGE LA HIÉRARCHIE DE TOUT LE PLAT. Dans un curry ordinaire, le sel porte et l'acide accentue. Ici c'est l'inverse : le tamarin EST le bouillon, et la sauce de poisson n'a qu'à le soutenir. C'est pourquoi deux cuillères à thé suffisent là où une recette de restaurant en met une cuillère à soupe et demie.\n\n⚠️ CONSÉQUENCE PRATIQUE À L'ÉTAPE 3 : si le bouillon goûte plat, il manque du tamarin, pas du sel. C'est la même règle qu'au R144 et qu'au tom yum de R27, et elle vaut d'être apprise une fois pour tout le corpus thaï.\n\nUN GRAMME DE LIPIDES PAR PORTION. Il n'y a pas d'huile dans cette recette — pas une cuillère à thé — et le poisson blanc en apporte à peine. Comparé nommément : le curry de la jungle de R144 en porte 13. ⚠️ Et le tom kha gai de R28 bien plus, parce qu'il est monté au lait de coco — mais sa fiche ne porte aucun chiffre de lipides, donc la comparaison s'arrête à l'ingrédient et non au nombre. Ce plat est celui à sortir un jour où les lipides sont déjà mangés.\n\nLE GAPI EST L'OSSATURE ET IL COÛTE CHER EN SODIUM : ≈ 1 300 mg par cuillère à soupe. La fiche en met une demi-cuillère à THÉ, soit ≈ 215 mg pour quatre portions. ⚠️ C'est un des postes que les analyses de sodium oublient, avec la pâte de curry — et c'est celui qu'il ne faut pas retirer : un gaeng som sans gapi est une soupe aigre, pas un gaeng som. La demi-cuillère à thé est le compromis.\n\nLA CUILLÈRE À THÉ DE SUCRE N'EST PAS UN ASSAISONNEMENT SUCRÉ. Elle arrondit l'angle du tamarin, qui est un acide anguleux. Sans elle, le bouillon pique la langue au lieu de la réveiller. Un gramme de sucre par portion."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "LU3dRxuFG1o",
+      "auteur": "Pailin's Kitchen",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R144",
+      "R155",
+      "R150"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R146",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "thaie",
+    "vitesse": "moyen",
+    "type_de_plat": "soupe",
+    "methode": [
+      "blanchi",
+      "mijote"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "grille-torrefie"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-aigre-piquante-de-l-isaan-tom-saap",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ต้มแซ่บ",
+    "lecture_origine": "tom saap",
+    "prononciation": null,
+    "langue_origine": "th",
+    "fr": "Soupe aigre-piquante de l'Isaan (tom saap)",
+    "sous_titre": "La troisième soupe aigre-piquante du recueil, et la seule dont le corps ne vient ni d'une pâte ni du coco : il vient du riz grillé moulu.",
+    "portions": "4",
+    "temps_affiche": "≈ 50 min dont 30 sans surveillance",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 8,
+      "attente": 30
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 25,
+      "proteines_affiche": "25 g",
+      "calories": 250,
+      "calories_affiche": "≈ 250",
+      "lipides_g": 10,
+      "sodium_mg": 375,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ SOUPE QU'ON BOIT : les 375 mg comptent EN ENTIER, contrairement à un bouillon-cuiseur qu'on laisse dans la casserole. Une seule cuillère à soupe de sauce de poisson pour 1,2 litre, et c'est tout le sel du plat — le khao khua, la lime, la citronnelle, le galanga et les piments n'en portent aucun. L'eau du premier blanchiment (T12) est jetée et n'est pas salée. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "500 g d'échine de porc dégraissée en cubes de 3 cm, OU de haut de cuisse de poulet",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1,2 L d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 tiges de citronnelle écrasées, en tronçons · 6 rondelles de galanga · 8 feuilles de makrut froissées · 4 échalotes écrasées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de khao khua — le riz gluant grillé moulu de T19 : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 c. à soupe de jus de lime, HORS DU FEU",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce de poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "6 piments séchés grillés à sec, écrasés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · coriandre · menthe",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN LAIT DE COCO, AUCUNE PÂTE DE CURRY",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T12",
+      "T19"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T12 : la viande dans l'eau FROIDE, monter à ébullition, 3 MINUTES, ÉCUMER. Jeter l'eau, rincer la viande, laver la casserole."
+      },
+      {
+        "n": 2,
+        "texte": "Remettre la viande, 1,2 L d'eau fraîche, la citronnelle, le galanga, les échalotes, les feuilles de makrut. FRÉMISSEMENT 30 MINUTES, À COUVERCLE DE BIAIS. Aucune surveillance."
+      },
+      {
+        "n": 3,
+        "texte": "Faire T19 si le khao khua n'est pas déjà fait : riz gluant cru grillé à sec 8 minutes jusqu'à ce qu'il soit brun noisette, moulu au mortier."
+      },
+      {
+        "n": 4,
+        "texte": "LES PIMENTS SÉCHÉS GRILLÉS ET LA SAUCE DE POISSON, 2 MINUTES."
+      },
+      {
+        "n": 5,
+        "texte": "🔴 ÉTEINDRE LE FEU. LE KHAO KHUA ET LE JUS DE LIME HORS DU FEU. L'acide sur le feu s'évapore et devient amer; le riz grillé sur le feu se transforme en colle."
+      },
+      {
+        "n": 6,
+        "texte": "Herbes au service. GOÛTER : ça doit être franchement acide et franchement piquant."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Trois soupes aigres-piquantes, et ce qui les distingue est le corps",
+        "texte": "LE RECUEIL EN PORTE MAINTENANT TROIS, ET ELLES NE SE REMPLACENT PAS. LA DIFFÉRENCE N'EST PAS L'AROMATIQUE — c'est la même citronnelle, le même galanga, les mêmes feuilles de makrut. C'EST CE QUI DONNE DU CORPS AU BOUILLON.\n\nDans le ต้มยำ tom yum de R27, le corps vient D'UNE PÂTE, le nam prik pao : ≈ 920 mg de sodium par cuillère à soupe, étiquette lue. Dans le ต้มข่า tom kha de R28, il vient DU LAIT DE COCO — ⚠️ sa fiche ne chiffre pas ses lipides, mais 200 ml de lait de coco entier, c'est ≈ 400 cal et 40 g de lipides dans la casserole. Dans celui-ci, le ต้มแซ่บ tom saap, il vient DU RIZ GLUANT GRILLÉ MOULU : ≈ 20 calories la cuillère à soupe, zéro sodium.\n\n🔴 C'EST LE LEVIER LE PLUS RENTABLE DE TOUT LE CORPUS THAÏ, ET IL EST GRATUIT. Le khao khua est un umami sec : du riz cru grillé jusqu'au brun noisette puis moulu. Il apporte de la texture, une profondeur torréfiée et une épaisseur en bouche — exactement ce que le sel semble apporter et n'apporte pas. Deux cuillères à soupe pour quatre bols coûtent quarante calories au total.\n\nET IL EXISTE DÉJÀ AU DOSSIER : T19. C'était jusqu'ici la technique la moins employée du recueil — deux débouchés, le nam tok de R69 et le laap de R70. Celle-ci est le troisième, et c'est le premier où le riz grillé porte un bouillon au lieu d'une salade.\n\n⚠️ LE RIZ GRILLÉ ET LA LIME VONT HORS DU FEU, ET LES DEUX POUR DES RAISONS DIFFÉRENTES. La lime, parce que son acide volatil s'évapore et laisse une amertume — c'est la règle du dossier depuis le tom yum. Le khao khua, parce qu'il gonfle : mis à bouillir, il épaissit le bouillon en bouillie en deux minutes. Hors du feu, il reste en suspension.\n\n⚠️ SOUPE QU'ON BOIT : ses 375 mg comptent en entier, contrairement au yosenabe ou au nikudōfu. Une cuillère à soupe de sauce de poisson pour 1,2 litre, et c'est tout le sel du plat."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "EL3Q0KX82xI",
+      "auteur": "Nin is Cooking",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R27",
+      "R28"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R147",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "thaie",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "blanchi",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "crevettes-a-la-citronnelle-pla-goong",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "พล่ากุ้ง",
+    "lecture_origine": "pla goong",
+    "prononciation": null,
+    "langue_origine": "th",
+    "fr": "Crevettes à la citronnelle (pla goong)",
+    "sous_titre": "Trente grammes de protéines pour trois grammes de lipides — et sept cent soixante-quinze milligrammes de sodium dont la sauce de poisson ne porte qu'un tiers.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 14,
+      "cuisson": 2,
+      "attente": 4
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 30,
+      "proteines_affiche": "30 g",
+      "calories": 170,
+      "calories_affiche": "≈ 170",
+      "lipides_g": 3,
+      "sodium_mg": 775,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. 🔴 LA CAUSE DU CHIFFRE EST LA CREVETTE, PAS L'ASSAISONNEMENT : l'étiquette des crevettes crues décortiquées du dossier, lue le 18 août 2026, donne 730 mg par 125 g, soit 584 mg aux 100 g, avec sel et phosphate de sodium à la liste d'ingrédients. Trois cents grammes en portent ≈ 1 750 mg avant qu'une goutte de sauce de poisson entre. ⚠️ Le rinçage de l'étape 1 en récupère de l'ordre de 40 % — ESTIMATION, non mesure — d'où ≈ 525 mg par portion, plus 250 pour la cuillère à thé de sauce de poisson. C'est le poste du recueil qui mériterait le plus une pesée. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de crevettes crues décortiquées, DÉCONGELÉES ET RINCÉES À FOND : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 tiges de citronnelle, partie tendre seulement, en rondelles TRÈS fines",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 échalotes en fines lamelles",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "6 feuilles de makrut en chiffonnade de cheveu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 grosse poignée de menthe · 1 poignée de coriandre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA VINAIGRETTE T22 : 3 c. à soupe de jus de lime · 1 c. à thé de sauce de poisson SEULEMENT · 1/2 c. à thé de sucre · 4 piments oiseaux écrasés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 branche de céleri chinois · quelques tomates cerises",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T22"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "🔴 DÉCONGELER LES CREVETTES DANS L'EAU FROIDE, PUIS LES RINCER À L'EAU COURANTE UNE PAR UNE. Ce n'est pas une propreté : c'est le seul geste de ce plat qui déplace du sodium. Voir la note."
+      },
+      {
+        "n": 2,
+        "texte": "EAU À FRÉMISSEMENT, PAS À GROS BOUILLONS. LES CREVETTES 60 À 90 SECONDES, jusqu'à ce qu'elles soient roses et juste opaques. Sortir à l'écumoire, étaler à plat sur une assiette froide."
+      },
+      {
+        "n": 3,
+        "texte": "TRANCHER LA CITRONNELLE EN RONDELLES DE PAPIER. C'est tout le travail du plat, et une rondelle épaisse est un copeau de bois qu'on mâche."
+      },
+      {
+        "n": 4,
+        "texte": "Mélanger la vinaigrette dans un grand bol. GOÛTER : franchement acide, franchement piquant, à peine salé."
+      },
+      {
+        "n": 5,
+        "texte": "Les crevettes refroidies, la citronnelle, les échalotes, les feuilles de makrut. MÉLANGER."
+      },
+      {
+        "n": 6,
+        "texte": "LES HERBES EN DERNIER, À LA MAIN, SANS ÉCRASER. Servir tout de suite."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le sodium de ce plat est dans la crevette, et le répertoire ne l'avait pas vu",
+        "texte": "🔴 LE RÉPERTOIRE DES MANQUES ANNONÇAIT CE PLAT À « ~55 G DE PROTÉINES POUR ~3 G DE LIPIDES » ET C'ÉTAIT VRAI. IL NE DISAIT RIEN DU SODIUM, ET C'EST LÀ QUE TOUT SE JOUE.\n\nL'ÉTIQUETTE DES CREVETTES CRUES DÉCORTIQUÉES DU DOSSIER, LUE LE 18 AOÛT : 730 mg de sodium par 125 g, soit 584 mg aux 100 g. Liste d'ingrédients : crevettes, sel, phosphate de sodium. Trois cents grammes de crevettes portent donc ≈ 1 750 mg avant qu'une goutte de sauce de poisson entre dans le bol.\n\nCE QUE LE RINÇAGE DE L'ÉTAPE 1 RÉCUPÈRE : de l'ordre de 40 %, parce que la saumure est en surface et dans les premiers millimètres. Il reste ≈ 1 050 mg pour deux portions, soit 525 par portion. La cuillère à thé de sauce de poisson en ajoute 250. ⚠️ Le chiffre de 40 % est une estimation, pas une mesure — c'est le poste de ce document qui mériterait le plus une pesée.\n\n🔴 CONSÉQUENCE POUR TOUT LE DOSSIER, ET ELLE DÉPASSE CETTE FICHE : AUCUN PLAT DE CREVETTES BÂTI SUR CE PRODUIT NE PEUT ÊTRE UN PLAT À BAS SODIUM. Le tom yum de R27 avait déjà été recalculé pour cette raison. Et le levier n'est pas dans la recette — il est à l'épicerie : des crevettes sans phosphate ajouté feraient tomber ce plat de ≈ 775 à ≈ 300 mg par portion. À chercher au congélateur de Kim Phat, en lisant la liste d'ingrédients et non le devant du sac.\n\nCE QUI RESTE EXCELLENT, ET C'EST BEAUCOUP : trente grammes de protéines pour trois grammes de lipides et cent soixante-dix calories. Il n'y a pas une goutte d'huile dans ce plat. C'est la vinaigrette T22 dans sa forme la plus pure — acide, piquant, salé, aucun gras émulsifiant — et c'est pour ça qu'une salade thaïe de 300 g de protéine ne coûte rien en lipides.\n\n⚠️ UNE NOTE SUR LA VIDÉO. Un premier candidat au titre plausible a été écarté parce que la vérification n'a pas pu confirmer son sujet : l'écriture thaïe de son titre est revenue illisible. 🔴 Et il faut dire d'où vient l'illisibilité : ce n'est PAS un défaut de la vidéo, c'est une limite de la lecture de l'API — trois titres en écriture lao sont revenus en écriture thaïe sur d'autres fiches, donc la couche de lecture translittère les écritures non latines. ⚠️ CE QUI EN DÉCOULE : de l'oEmbed, seules la partie latine du titre et le nom de l'auteur sont fiables. L'écriture d'origine n'est une preuve ni pour confirmer ni pour infirmer. La décision reste la bonne — un candidat non confirmable se remplace — mais l'accusation était mal adressée. Ce n'est pas le raté de R56, où le titre était clair et le contenu différent."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "vtuyJ1gsAWg",
+      "auteur": "Thun Thun Channel",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R148",
+      "R27",
+      "R151"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R148",
+    "statut": "actif",
+    "categorie": "diner",
+    "cuisine": "thaie",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "croquant",
+      "ferme"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner"
+    ],
+    "slug": "salade-de-thon-en-conserve-yam-tuna",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ยำทูน่า",
+    "lecture_origine": "yam tuna",
+    "prononciation": null,
+    "langue_origine": "th",
+    "fr": "Salade de thon en conserve (yam tuna)",
+    "sous_titre": "Trente-cinq grammes de protéines, huit minutes, aucune cuisson. Et un seul choix à l'épicerie qui divise son sodium par deux.",
+    "portions": "2",
+    "temps_affiche": "≈ 8 min, aucune cuisson",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 0,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 35,
+      "proteines_affiche": "35 g",
+      "calories": 180,
+      "calories_affiche": "≈ 180",
+      "lipides_g": 3,
+      "sodium_mg": 325,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE, ET AVEC LE PRODUIT ÉCRIT : 325 mg avec du thon germon DANS L'EAU, SANS SEL AJOUTÉ. 🔴 Avec du thon ordinaire « dans l'eau, sel ajouté », la portion monte à ≈ 700 mg — 300 g de ce produit portent de l'ordre de 900 mg contre environ 150 pour le sans sel ajouté. Le facteur deux se décide au rayon des conserves, pas dans la recette. La cuillère à thé de sauce de poisson vaut 250 mg pour les deux portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de thon germon en conserve DANS L'EAU, SANS SEL AJOUTÉ, égoutté — environ 2 boîtes et demie : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 échalotes en fines lamelles",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 branches de céleri chinois en biseaux, feuilles comprises",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 oignons verts en rondelles",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 grosse poignée de menthe · 1 poignée de coriandre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA VINAIGRETTE T22 : 3 c. à soupe de jus de lime · 1 c. à thé de sauce de poisson · 1/2 c. à thé de sucre · 3 piments oiseaux écrasés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : tomates cerises · concombre si tu en veux · 1 c. à soupe de khao khua de T19",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T22"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "ÉGOUTTER LE THON À FOND, EN PRESSANT DANS LA PASSOIRE. L'eau de conserve porte du sel et elle délave la vinaigrette."
+      },
+      {
+        "n": 2,
+        "texte": "Mélanger la vinaigrette dans un grand bol. GOÛTER AVANT QUE LE THON ENTRE."
+      },
+      {
+        "n": 3,
+        "texte": "Émietter le thon en gros morceaux, ajouter les échalotes, le céleri chinois, les oignons verts. Mélanger."
+      },
+      {
+        "n": 4,
+        "texte": "LES HERBES EN DERNIER, À LA MAIN. Servir tout de suite ou froid."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le facteur six est au rayon des conserves, pas dans la recette",
+        "texte": "🔴 TROIS CENTS GRAMMES DE THON « DANS L'EAU, SEL AJOUTÉ » PORTENT DE L'ORDRE DE 900 MG DE SODIUM. LE MÊME POIDS EN « SANS SEL AJOUTÉ » EN PORTE ENVIRON 150. Par portion : 450 contre 75. Sur un plat dont l'assaisonnement complet vaut 250 mg, c'est le poste dominant et il se décide à l'épicerie.\n\n⚠️ C'EST LE TROISIÈME CAS DU DOSSIER OÙ L'INGRÉDIENT PORTE PLUS DE SEL QUE L'ASSAISONNEMENT, après les crevettes de R147 et le kimchi de R106. Le motif est net : les produits de la mer transformés et les légumes fermentés arrivent salés, et aucune recette ne le rattrape. À relever au prochain passage : la marque exacte du germon en stock et son panneau.\n\nUNE CUILLÈRE À THÉ DE SAUCE DE POISSON POUR DEUX PORTIONS, ET C'EST DÉLIBÉRÉMENT LA MOITIÉ DE CE QUE LE RÉPERTOIRE PROPOSAIT. Il disait « 2 c. à thé max, le thon en apporte déjà 300 à 500 mg ». Avec du thon sans sel ajouté, le calcul change : le thon n'apporte presque rien, donc la sauce de poisson pourrait remonter. Je la laisse à une cuillère à thé et je monte la lime et le piment à la place — c'est l'élasticité de la vinaigrette T22, et elle rend le sel presque optionnel.\n\nAUCUNE CUISSON, HUIT MINUTES, ET TRENTE-CINQ GRAMMES DE PROTÉINES. Comparé nommément : c'est le même ordre de protéines que la galette de R110 ou le porc blanchi de R118, sans allumer un rond. C'est un plat de dîner de semaine, et le seul de ce document qui ne demande rien d'autre qu'un couteau.\n\n⚠️ LE CÉLERI CHINOIS N'EST PAS DU CÉLERI ORDINAIRE ET LA SUBSTITUTION SE VOIT. Il est plus fin, plus creux, beaucoup plus parfumé, et ses feuilles se mangent. Du céleri de supermarché donne du croquant sans l'arôme — dans ce cas, monter la coriandre. Kim Phat en a au rayon des herbes."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "vj_DykfQgXQ",
+      "auteur": "Pailin's Kitchen",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R147",
+      "R106",
+      "R110"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R149",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "thaie",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "sesame-noisette"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "salade-de-papaye-verte-som-tam-thai",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ส้มตำไทย",
+    "lecture_origine": "som tam thai",
+    "prononciation": null,
+    "langue_origine": "th",
+    "fr": "Salade de papaye verte (som tam thai)",
+    "sous_titre": "Le croquant le plus franc du corpus thaï. Deux grammes de protéines — c'est un poste légume, et il faut le compter comme tel.",
+    "portions": "4",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 0,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 2,
+      "proteines_affiche": "2 g",
+      "calories": 85,
+      "calories_affiche": "≈ 85",
+      "lipides_g": 3,
+      "sodium_mg": 375,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une cuillère à soupe de sauce de poisson pour quatre portions, seul poste salé du plat. ⚠️ La cuillère à soupe de crevettes séchées facultative porte de l'ordre de 400 mg à elle seule : elle doublerait le sel du plat pour un demi-gramme de protéines par portion. ⚠️ DEUX GRAMMES DE PROTÉINES PAR PORTION : c'est un poste légume, pas un plat. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de papaye verte râpée en longs filaments — au couteau ou à la râpe à julienne",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de haricots longs en tronçons de 3 cm, écrasés au mortier",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 tomates en quartiers",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 gousses d'ail · 2 à 4 piments oiseaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA VINAIGRETTE T22 : 3 c. à soupe de jus de lime · 1 c. à soupe de sauce de poisson · 1 c. à thé de sucre de palme SEULEMENT : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "20 g d'arachides non salées grillées à sec, écrasées grossièrement",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à soupe de crevettes séchées",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T22"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "AU MORTIER — LE KROK DE TERRE CUITE : l'ail et les piments, piler grossièrement."
+      },
+      {
+        "n": 2,
+        "texte": "Le sucre de palme, la sauce de poisson, le jus de lime. PILER JUSQU'À DISSOLUTION DU SUCRE. GOÛTER."
+      },
+      {
+        "n": 3,
+        "texte": "Les haricots longs, PILER POUR LES FENDRE sans les réduire en purée."
+      },
+      {
+        "n": 4,
+        "texte": "LA PAPAYE ET LES TOMATES. NE PAS PILER : SOULEVER À LA CUILLÈRE ET ÉCRASER AVEC LE PILON EN TOURNANT, quinze à vingt fois. Le geste s'appelle tam et c'est le nom du plat."
+      },
+      {
+        "n": 5,
+        "texte": "Les arachides écrasées à la fin. SERVIR DANS LES VINGT MINUTES — la papaye rend son eau."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Un poste légume qu'on prend pour un plat — et le mortier n'est pas facultatif",
+        "texte": "⚠️ PIÈGE DE COMPTABILITÉ, ET C'EST LA PREMIÈRE CHOSE À DIRE : DEUX GRAMMES DE PROTÉINES PAR PORTION. Un som tam ressemble à un plat parce qu'il remplit une assiette et qu'il a du caractère. Ce n'est pas un plat : c'est un poste légume à 85 calories, à mettre À CÔTÉ d'un laap ou d'un nam tok, jamais à leur place. Un souper bâti sur un som tam est un souper à 2 g de protéines.\n\n🔴 LE MORTIER DE TERRE CUITE EST LE VRAI PRÉREQUIS, ET C'EST LA SEULE FICHE DU RECUEIL OÙ UN USTENSILE CHANGE LE PLAT PLUTÔT QUE DE LE FACILITER. Le mot ตำ tam veut dire « piler ». Pilée, la papaye se fend le long de ses fibres et boit la vinaigrette; mélangée à la cuillère, elle reste lisse et la vinaigrette glisse dessus et s'accumule au fond du bol. Ce n'est pas une différence de finesse — c'est la différence entre un plat assaisonné et un plat avec de la sauce à côté.\n\n⚠️ Un mortier japonais — le suribachi de la liste d'épicerie — ne fait PAS l'affaire ici. Il est fait pour écraser des graines contre des stries, pas pour piler du volume. Le krok thaï est profond, lourd et lisse. À défaut : un grand bol et le fond d'une tasse épaisse, en écrasant par petites quantités.\n\nUNE CUILLÈRE À THÉ DE SUCRE DE PALME POUR QUATRE PORTIONS, ET LES RECETTES DE RESTAURANT EN METTENT DEUX À TROIS FOIS PLUS. C'est le poste où le som tam dérape : sucré, il devient une friandise et on en mange le double. Une cuillère à thé pour quatre, soit un gramme de sucre par portion, suffit à arrondir la lime.\n\nLES ARACHIDES OUI, À VINGT GRAMMES; LES CREVETTES SÉCHÉES AVEC PRUDENCE. Une cuillère à soupe de crevettes séchées porte de l'ordre de 400 mg de sodium — elles doubleraient le sel du plat pour un demi-gramme de protéines par portion. Le rapport ne tient pas.\n\nLA PAPAYE VERTE EST À KIM PHAT AU RAYON DES FRUITS, entière et lourde. Une demi-papaye donne les 400 g. À défaut : du chou-rave en julienne, ou de la carotte et du daikon à parts égales — ce n'est plus un som tam, mais le mécanisme du plat tient."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "Wvv0dqZ_xa4",
+      "auteur": "Pailin's Kitchen",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R69",
+      "R70"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R150",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "thaie",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "vapeur",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "piquant",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "poisson-vapeur-sauce-lime-crue-pla-neung-manao",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ปลานึ่งมะนาว",
+    "lecture_origine": "pla neung manao",
+    "prononciation": null,
+    "langue_origine": "th",
+    "fr": "Poisson vapeur, sauce lime crue (pla neung manao)",
+    "sous_titre": "Quarante grammes de protéines pour quatre grammes de lipides, et une sauce qu'on ne cuit pas. C'est le cas d'école de la réduction réussie.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 10,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 40,
+      "proteines_affiche": "40 g",
+      "calories": 210,
+      "calories_affiche": "≈ 210",
+      "lipides_g": 4,
+      "sodium_mg": 750,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. 🔴 LE CHIFFRE PORTÉ EST LE PRUDENT : 750 mg, SAUCE VERSÉE SUR LE POISSON ET MANGÉE EN ENTIER. Servie dans deux petits plats et trempée, la portion tombe à ≈ 450 mg — c'est le levier de la trempette du R118 et du R133, la sixième fiche du recueil à l'offrir. Une seule cuillère à soupe de sauce de poisson pour deux portions, contre trois dans une recette de restaurant. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de filet de poisson blanc ferme — bar, tilapia, morue — OU 1 poisson entier vidé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 tiges de citronnelle écrasées, à mettre SOUS le poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE, CRUE, mélangée pendant que le poisson cuit :",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 c. à soupe de jus de lime — 5 limes, et c'est voulu : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce de poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "8 gousses d'ail hachées fin · 6 piments oiseaux hachés · 1 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 branches de céleri chinois en fines rondelles, feuilles comprises",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : coriandre en abondance",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "COUCHER LES TIGES DE CITRONNELLE ÉCRASÉES AU FOND DU PLAT DE CUISSON ET POSER LE POISSON DESSUS. Elles le surélèvent et le parfument par le dessous."
+      },
+      {
+        "n": 2,
+        "texte": "VAPEUR À GROS BOUILLONS, 8 À 10 MINUTES POUR DES FILETS, 12 À 15 POUR UN POISSON ENTIER. La chair doit se séparer à la fourchette au plus épais."
+      },
+      {
+        "n": 3,
+        "texte": "PENDANT CE TEMPS : MÉLANGER TOUTE LA SAUCE À FROID. Elle ne voit jamais le feu."
+      },
+      {
+        "n": 4,
+        "texte": "GOÛTER LA SAUCE SEULE. Elle doit être agressivement acide et piquante — elle va se répartir sur 400 g de poisson doux."
+      },
+      {
+        "n": 5,
+        "texte": "VERSER LE LIQUIDE RENDU PAR LA CUISSON. Il est aqueux et il diluerait la sauce."
+      },
+      {
+        "n": 6,
+        "texte": "DEUX FAÇONS DE SERVIR, ET LA NOTE EXPLIQUE LAQUELLE CHOISIR : la sauce versée sur le poisson, ou la sauce dans deux petits plats et le poisson nu."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Cinq limes pour une cuillère de sauce de poisson",
+        "texte": "LA RECETTE DE RESTAURANT MET TROIS CUILLÈRES À SOUPE DE SAUCE DE POISSON. LA FICHE EN MET UNE, ET MONTE LA LIME DE DEUX À CINQ. C'est la réduction la plus forte du corpus thaï — un tiers du sel — et elle passe inaperçue en bouche.\n\n🔴 POURQUOI ÇA MARCHE ICI MIEUX QU'AILLEURS : LA SAUCE EST CRUE. Un acide qui n'a pas vu le feu garde tout son mordant; le même jus de lime dans un bouillon frémissant en perd la moitié en trois minutes. Sur une sauce crue, l'axe acide est à pleine puissance, et il peut donc porter une plus grande part du travail. C'est la contrepartie exacte de la règle « l'acide va hors du feu » — ici, il n'y a pas de feu du tout.\n\nET L'AIL CRU EST LE DEUXIÈME PORTEUR : HUIT GOUSSES. Cru et haché, il libère de l'allicine, qui pique et qui reste. Cuit, il devient sucré et docile. Le plat repose sur trois choses agressives — acide, piquant, ail cru — et la sauce de poisson n'est que la quatrième.\n\n🔴 LES DEUX FAÇONS DE SERVIR, ET CE QUE CHACUNE COÛTE. Versée sur le poisson, toute la sauce se mange : ≈ 750 mg par portion. Servie dans deux petits plats, on trempe et il en reste : ≈ 450 mg. C'est le même levier que le porc blanchi de R118 et le yosenabe de R133, et c'est la sixième fiche du recueil à l'offrir.\n\n⚠️ MAIS ICI IL Y A UN COÛT, ET IL FAUT LE DIRE : ce plat est conçu pour que la sauce imprègne le poisson. Servie à côté, chaque bouchée est trempée d'un côté seulement, et le poisson nu est fade. Mon avis : verser la sauce, et compenser ailleurs dans la journée. Sept cent cinquante milligrammes pour quarante grammes de protéines et quatre grammes de lipides reste un bon échange — mais c'est un plat à planifier, pas un plat de secours.\n\nLE LIQUIDE DE CUISSON SE JETTE, ET CE N'EST PAS DU GASPILLAGE. Un poisson vapeur rend deux à trois cuillères à soupe d'eau presque sans goût, qui viendraient allonger la sauce et l'affadir. La sauce est calibrée sur 400 g de poisson, pas sur 400 g de poisson plus son eau."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "ZvGbcKXZBLg",
+      "auteur": "Pailin's Kitchen",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R118",
+      "R133"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R151",
+    "statut": "actif",
+    "categorie": "dejeuner",
+    "cuisine": "thaie",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "bouilli",
+      "poche"
+    ],
+    "axe_gout": [
+      "aromatique",
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner"
+    ],
+    "slug": "soupe-de-riz-du-matin-khao-tom",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ข้าวต้ม",
+    "lecture_origine": "khao tom",
+    "prononciation": null,
+    "langue_origine": "th",
+    "fr": "Soupe de riz du matin (khao tom)",
+    "sous_titre": "La première fiche de déjeuner thaïe du recueil. Trente-quatre grammes de protéines pour deux cent cinquante milligrammes de sodium — et c'est le zōsui thaï.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min",
+    "temps_minutes": {
+      "preparation": 7,
+      "cuisson": 13,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 34,
+      "proteines_affiche": "34 g",
+      "calories": 450,
+      "calories_affiche": "≈ 450",
+      "lipides_g": 18,
+      "sodium_mg": 250,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une seule cuillère à thé de sauce de poisson pour deux portions, et c'est tout le sel du bol : le poivre blanc, le gingembre, l'ail frit et la lime n'en portent aucun. ⚠️ Dix-huit grammes de lipides, dont la moitié vient du porc haché : aux crevettes, le bol tombe à ≈ 6 g de lipides et 300 calories, mais le sodium monte de ≈ 350 mg à cause de la saumure des crevettes (voir R147). Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "200 g de riz cuit, RINCÉ À L'EAU FROIDE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "700 ml d'eau OU de bouillon de porc non salé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 g de porc haché maigre, OU de crevettes, OU un reste de protéine cuite",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 œufs",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de gingembre en fine julienne",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce de poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 c. à thé de poivre blanc moulu, et c'est beaucoup : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : 2 branches de céleri chinois · 3 oignons verts · coriandre · 1 c. à soupe d'ail frit · un quartier de lime",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : quelques gouttes d'huile d'ail",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T1"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "RINCER LE RIZ CUIT À L'EAU FROIDE DANS UNE PASSOIRE, ET LE PRESSER. Sans ça, le bouillon devient de la colle en trois minutes."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole : l'eau, le gingembre. Amener à frémissement."
+      },
+      {
+        "n": 3,
+        "texte": "LE PORC HACHÉ EN PETITES BOULETTES FORMÉES À LA CUILLÈRE, OU ÉMIETTÉ À LA SPATULE. 4 minutes. Écumer."
+      },
+      {
+        "n": 4,
+        "texte": "Le riz rincé, 4 À 5 MINUTES à frémissement doux. Il gonfle un peu, il ne se défait pas."
+      },
+      {
+        "n": 5,
+        "texte": "La sauce de poisson, LA MOITIÉ DU POIVRE BLANC. Goûter."
+      },
+      {
+        "n": 6,
+        "texte": "🔴 CASSER LES ŒUFS DIRECTEMENT DANS LE BOUILLON, COUVRIR, FEU ÉTEINT, 3 MINUTES. Ils pochent dans la chaleur résiduelle et le jaune reste coulant."
+      },
+      {
+        "n": 7,
+        "texte": "Le reste du poivre blanc, les herbes, l'ail frit, le quartier de lime. SERVIR TOUT DE SUITE."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le poivre blanc est l'assaisonnement, et le sel n'est que le quatrième",
+        "texte": "DEUX CENT CINQUANTE MILLIGRAMMES POUR UN BOL QUI PORTE TRENTE-QUATRE GRAMMES DE PROTÉINES, ET UNE SEULE CUILLÈRE À THÉ DE SAUCE DE POISSON. Ce qui porte le plat à sa place : une demi-cuillère à thé de poivre blanc, une cuillère à soupe de gingembre, de l'ail frit et un quartier de lime. Aucun des quatre ne contient de sodium.\n\n🔴 LA DEMI-CUILLÈRE À THÉ DE POIVRE BLANC N'EST PAS UNE FAUTE DE FRAPPE, ET LA MOITIÉ VA À LA FIN. Le poivre blanc perd son parfum à la cuisson et garde son mordant; ajouté en deux fois, on obtient les deux. C'est l'assaisonnement définissant de ce plat comme du gaeng jued de R74 — et c'est un axe que le dossier n'exploite presque pas ailleurs.\n\n🔴 C'EST LE ZŌSUI THAÏ, ET LA COMPARAISON APPREND QUELQUE CHOSE. R130 et celui-ci sont la même architecture : du riz déjà cuit, rincé de son amidon, passé quelques minutes dans un bouillon clair, avec de l'œuf. Ce qui diffère est entièrement l'aromatique — dashi, nori et gingembre râpé d'un côté; poivre blanc, ail frit, céleri chinois et lime de l'autre.\n\n⚠️ ET LA CONSÉQUENCE EST PRATIQUE : le geste de rincer du riz cuit débloque maintenant deux plats de deux cuisines. Les rondelles de riz congelées du dossier servent aux deux. Un plat de restes qui n'est pas un plat de restes triste.\n\nQUATRE CENT CINQUANTE CALORIES ET TRENTE-QUATRE GRAMMES DE PROTÉINES : c'est exactement la cible du déjeuner du guide 5 — ≈ 450 et 40. ⚠️ Dix-huit grammes de lipides, par contre, dont la moitié vient du porc haché. Aux crevettes, le bol tombe à ≈ 6 g de lipides et 300 calories, mais le sodium monte de ≈ 350 mg à cause de la saumure des crevettes — voir R147. Au reste de poulet poché de R82, c'est le meilleur des deux mondes.\n\nL'AIL FRIT SE FAIT D'AVANCE ET SE GARDE DEUX SEMAINES : de l'ail émincé dans deux cuillères à soupe d'huile à feu doux jusqu'au blond, égoutté. Une cuillère à soupe par bol, c'est ≈ 30 calories, et c'est ce qui fait qu'un khao tom goûte comme un khao tom."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "WqeFpKpYH1I",
+      "auteur": "ThaiChef Food",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R130",
+      "R74",
+      "R82"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R152",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "vietnamienne",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "condiment",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "acide",
+      "sale-sucre",
+      "piquant"
+    ],
+    "axe_texture": [
+      "glissant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "la-trempette-diluee-nuoc-cham",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "nước chấm",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "vi",
+    "fr": "La trempette diluée (nuoc cham)",
+    "sous_titre": "Deux parts de sauce de poisson pour six d'eau. Ce n'est pas une version allégée : la dilution est la recette, et c'est la manœuvre centrale de la cuisine vietnamienne.",
+    "portions": "6",
+    "temps_affiche": "≈ 5 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 0,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 0,
+      "proteines_affiche": "0 g",
+      "calories": 15,
+      "calories_affiche": "≈ 15",
+      "lipides_g": 0,
+      "sodium_mg": 500,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, et la portion est de 2 c. à soupe de trempette montée — soit ≈ 250 mg par cuillère à soupe. Deux cuillères à soupe de nước mắm non dilué portent ≈ 3 000 mg : diluées dans l'eau et servies en six petits plats, elles ne livrent que ce qu'on a trempé. ⚠️ Le chiffre suppose qu'on mange TOUTE sa portion de trempette; le geste du plat est précisément de n'en manger qu'une partie. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 c. à soupe de nước mắm (sauce de poisson)",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "6 c. à soupe d'eau chaude",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de jus de lime — ou de vinaigre de riz",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 gousses d'ail hachées TRÈS fin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 à 2 piments oiseaux en rondelles",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif et traditionnel : 2 c. à soupe de carotte en très fines lanières · un peu de daikon",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "DISSOUDRE LE SUCRE DANS L'EAU CHAUDE D'ABORD. Dans l'eau froide, il reste au fond et la trempette est sucrée en dernière gorgée."
+      },
+      {
+        "n": 2,
+        "texte": "Ajouter la sauce de poisson et le jus de lime. GOÛTER : ÇA DOIT ÊTRE BUVABLE. Une nước chấm correcte se boit à la cuillère sans grimacer — c'est le test."
+      },
+      {
+        "n": 3,
+        "texte": "L'AIL ET LE PIMENT EN DERNIER, POUR QU'ILS FLOTTENT. L'ail haché fin flotte; l'ail écrasé coule."
+      },
+      {
+        "n": 4,
+        "texte": "Servir dans de PETITS plats individuels, un par couvert."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La dilution EST la recette, et elle était là avant nous",
+        "texte": "🔴 DEUX PARTS DE SAUCE DE POISSON POUR SIX PARTS D'EAU. CE N'EST PAS UNE RÉDUCTION QUE J'AI FAITE : C'EST LA RECETTE, ET ELLE EST VIEILLE. La cuisine vietnamienne dilue son sel avant de le servir, systématiquement — et le dossier a cherché ce levier pendant des documents alors qu'une cuisine entière est construite dessus.\n\nCE QUE ÇA CHANGE, CHIFFRÉ. Deux cuillères à soupe de nước mắm mises dans un plat, c'est 3 000 mg qu'on mange en entier. Les mêmes deux cuillères diluées dans 200 ml et servies en six petits plats individuels livrent ce qu'on a trempé, et rien de plus.\n\n🔴 ET C'EST EXACTEMENT LA LOGIQUE DU CONTENANT QUI DÉCIDE DE LA PORTION, APPLIQUÉE AU SEL AU LIEU DU VOLUME. Le ichiju sansai met la portion dans le bol; la nước chấm met le sodium dans le bol. Même idée, autre grandeur. ⚠️ C'est la septième fiche du recueil à appliquer le levier de la trempette, et la première où le levier EST le plat.\n\nLE TEST DE L'ÉTAPE 2 EST LE SEUL QUI COMPTE ET IL EST INFAILLIBLE : UNE NƯỚC CHẤM SE BOIT À LA CUILLÈRE. Si elle fait grimacer, elle est trop concentrée — et une trempette trop concentrée s'utilise en plus petite quantité mais avec plus de sel par bouchée, ce qui annule tout. Diluer jusqu'à ce que ce soit buvable est le geste qui rend la dilution efficace.\n\nLES USAGES, ET ILS SONT NOMBREUX : le bún chả de R18, les galettes de R64, le porc blanchi de la salade de R153, n'importe quel légume blanchi de T21, des rouleaux de riz, du riz nature. Se garde une semaine au frigo sans l'ail et le piment, deux jours avec.\n\n⚠️ LA CUILLÈRE À SOUPE DE SUCRE POUR SIX PORTIONS EST LE POSTE À NE PAS LAISSER DÉRIVER. Deux grammes de sucre par portion. Les versions de restaurant en mettent deux à trois fois plus, parce qu'une trempette sucrée fait manger davantage. C'est le même piège que le som tam de R149."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "OrUZzchXGzo",
+      "auteur": "Helen's Recipes (Vietnamese Food)",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R18",
+      "R64",
+      "R153"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R153",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "vietnamienne",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "poche",
+      "cru"
+    ],
+    "axe_gout": [
+      "acide",
+      "sale-sucre",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "croquant",
+      "ferme"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "salade-de-poulet-et-chou-goi-ga-bap-cai",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "gỏi gà bắp cải",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "vi",
+    "fr": "Salade de poulet et chou (goi ga bap cai)",
+    "sous_titre": "Une gỏi de référence livre huit grammes de protéines par personne, parce qu'au Vietnam c'est un plat parmi quatre. Triplée, c'est un souper à quarante-et-un.",
+    "portions": "2",
+    "temps_affiche": "≈ 45 min dont 25 sans surveillance",
+    "temps_minutes": {
+      "preparation": 18,
+      "cuisson": 5,
+      "attente": 25
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 41,
+      "proteines_affiche": "41 g",
+      "calories": 310,
+      "calories_affiche": "≈ 310",
+      "lipides_g": 8,
+      "sodium_mg": 500,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Les 500 mg sont le sodium DES ASSAISONNEMENTS : deux cuillères à thé de nước mắm dans une vinaigrette déjà diluée de deux cuillères à soupe d'eau. Le sel du chou à l'étape 3 ne compte pas — on sale, l'eau sort, on presse, le sel part avec (cas 2 du A14). 🔴 EN REVANCHE, LA DEMI-CUILLÈRE À THÉ DE L'EAU DE POCHAGE N'EST COMPTÉE NI AU CAS 2 NI AU CAS 3 : une poitrine qui reste trente minutes dans cette eau en absorbe une part réelle, non chiffrée. C'est le même régime ouvert que le mushidori de R82. Le chiffre réel est entre 500 et 700 mg par portion, et une pesée le trancherait mieux qu'une estimation de plus. Le sel du pochage peut aussi être retiré entièrement sans rien perdre. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "360 g de poitrine de poulet — 180 g par couvert, et c'est LE changement : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "400 g de chou vert en lanières TRÈS fines",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/2 oignon rouge en fines lamelles, rincé à l'eau froide",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 carotte en julienne fine",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 grosse poignée de rau răm (menthe vietnamienne) OU de menthe ordinaire",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "20 g d'arachides non salées grillées, écrasées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA VINAIGRETTE : 3 c. à soupe de jus de lime · 2 c. à thé de nước mắm · 1 c. à thé de sucre · 2 c. à soupe d'eau · 1 gousse d'ail râpée · 1 piment",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "POUR LE POCHAGE : 4 tranches de gingembre · 2 oignons verts · 1/2 c. à thé de sel dans l'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE ÉCHALOTE FRITE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T12"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T12 : le poulet dans l'eau FROIDE avec le gingembre, les oignons verts et le sel. MONTER À FRÉMISSEMENT, 5 MINUTES, ÉTEINDRE, COUVRIR, 25 MINUTES. Méthode de l'eau éteinte, comme le mushidori de R82."
+      },
+      {
+        "n": 2,
+        "texte": "SORTIR, LAISSER REFROIDIR, EFFILER À LA MAIN DANS LE SENS DU GRAIN. À la main et non au couteau : les fibres prennent la vinaigrette."
+      },
+      {
+        "n": 3,
+        "texte": "SALER LE CHOU LÉGÈREMENT ET LE LAISSER 10 MINUTES, PUIS PRESSER À LA MAIN. ⚠️ Ce sel-là ne compte pas — on presse, il part avec l'eau. Le sel de l'eau de pochage, lui, est un autre cas : voir la note."
+      },
+      {
+        "n": 4,
+        "texte": "RINCER L'OIGNON ROUGE À L'EAU FROIDE 30 SECONDES : ça enlève le mordant sulfuré sans enlever le croquant."
+      },
+      {
+        "n": 5,
+        "texte": "Mélanger la vinaigrette. GOÛTER : franchement acide."
+      },
+      {
+        "n": 6,
+        "texte": "Tout mélanger à la main, dans un grand bol. LES HERBES ET LES ARACHIDES EN DERNIER."
+      },
+      {
+        "n": 7,
+        "texte": "SERVIR DANS LES 30 MINUTES."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Tripler la protéine : la seule modification qui compte",
+        "texte": "🔴 UNE GỎI N'EST PAS UN REPAS AU VIETNAM — C'EST UN PLAT PARMI QUATRE. La recette de référence livre de l'ordre de huit grammes de protéines par personne, parce qu'elle est servie avec du riz, une canh, un plat mijoté et un légume. Prise pour un souper telle quelle, c'est une assiette de chou.\n\nLA MODIFICATION EST DONC ÉNORME EN APPARENCE ET GRATUITE EN RÉALITÉ : cent quatre-vingts grammes de poulet par couvert au lieu de soixante. Quarante-et-un grammes de protéines par portion. ⚠️ Et ça ne coûte NI TEMPS NI SODIUM — le pochage est le même, la vinaigrette est la même. C'est la modification la plus rentable de tout le corpus vietnamien, et elle ne demande qu'à acheter plus de poulet.\n\nLA POITRINE PLUTÔT QUE LA CUISSE, ET ICI ÇA MARCHE. Vingt-trois grammes de protéines aux 100 g pour deux de lipides. Ce qui la rend utilisable, c'est le pochage à l'eau éteinte — cinq minutes de frémissement puis vingt-cinq minutes hors du feu. Une poitrine bouillie vingt-cinq minutes est de la sciure; celle-là est juste ferme. C'est le même mécanisme que le velouté de T5 au R138 : la poitrine n'est pas mauvaise, elle est intolérante à la chaleur prolongée.\n\n⚠️ LE SEL DU CHOU À L'ÉTAPE 3 NE COMPTE PAS DANS LES 500 MG, ET C'EST LA RÈGLE DU A14 : on sale, l'eau sort, on presse, le sel part avec. Ce qui reste est sous la précision de l'estimation.\n\n🔴 MAIS LA DEMI-CUILLÈRE À THÉ DE L'EAU DE POCHAGE EST UN CAS QUE LA RÈGLE NE COUVRE PAS, ET IL FAUT LE DIRE PLUTÔT QUE DE L'ARRONDIR. Le cas 2 du A14 — sel d'une eau qu'on jette, compté zéro — a été écrit pour un légume blanchi quarante secondes. Ici, une poitrine de poulet reste trente minutes dans cette eau et elle en absorbe une part réelle, qui n'est pas chiffrable. C'est exactement la situation du mushidori de R82. Les 500 mg sont donc le sodium des assaisonnements; le chiffre réel est entre 500 et 700 mg par portion. Le sel du pochage peut aussi être retiré entièrement sans rien perdre : il ne fait rien que les trente minutes hors du feu ne feraient.\n\nDEUX CUILLÈRES À THÉ ET NON UNE CUILLÈRE À SOUPE, ET LA VINAIGRETTE D'UNE GỎI EST DÉJÀ DILUÉE PAR CONSTRUCTION — deux cuillères à soupe d'eau dedans. C'est la même logique que la nước chấm de R152 : le vietnamien dilue son sel avant de le servir. Quatre à cinq cents milligrammes par portion est la norme de la famille, pas une réduction.\n\n⚠️ LES ARACHIDES OUI, LES ÉCHALOTES FRITES NON. Vingt grammes d'arachides, c'est 120 calories et du croquant. Les échalotes frites du commerce sont frites à l'huile de palme et arrivent à 500 calories aux 100 g pour rien d'autre qu'un parfum. Le rapport ne tient pas, et l'ail frit du R151 fait le même travail pour le tiers du gras."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "3vhfZpWI69g",
+      "auteur": "Helen's Recipes (Vietnamese Food)",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R82",
+      "R152",
+      "R138"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R154",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "vietnamienne",
+    "vitesse": "long",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "porc-au-caramel-et-oeufs-durs-thit-kho",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "thịt kho trứng",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "vi",
+    "fr": "Porc au caramel et œufs durs (thit kho)",
+    "sous_titre": "On ne peut pas rincer un kho : la sauce est le plat. Alors les leviers sont ailleurs — la coupe, la dose, et ce qu'on laisse dans la casserole.",
+    "portions": "4",
+    "temps_affiche": "≈ 1 h 15 dont 50 sans surveillance",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 10,
+      "attente": 50
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 36,
+      "proteines_affiche": "36 g",
+      "calories": 350,
+      "calories_affiche": "≈ 350",
+      "lipides_g": 23,
+      "sodium_mg": 750,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. 🔴 LE CHIFFRE PORTÉ EST LE PRUDENT : 750 mg, LA SAUCE VERSÉE. En servant les morceaux à la cuillère trouée et en laissant la sauce dans la casserole — ce que l'étape 8 demande — la portion tombe à ≈ 500 mg. Deux cuillères à soupe de nước mắm pour quatre portions, soit 3 000 mg dans la casserole, et c'est le plafond du plat : une demi-cuillère à soupe par portion. ⚠️ Vingt-trois grammes de lipides avec les œufs : le plat le plus gras du lot. ⚠️ ET UNE RÈGLE DE FRÉQUENCE QUE LA FICHE NE PEUT PAS EXPRIMER DANS UN CHAMP : deux kho par semaine au maximum, jamais deux jours de suite. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "600 g d'épaule de porc maigre en cubes de 4 cm — et non de la poitrine : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 œufs durs T8 écalés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LE CARAMEL : 2 c. à soupe de sucre + 1 c. à soupe d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de nước mắm — soit 1/2 c. à soupe par portion, et c'est le plafond : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "400 ml d'eau de coco — le liquide, pas le lait : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 échalotes écrasées · 3 gousses d'ail écrasées · 1/2 c. à thé de poivre noir concassé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · des quartiers de lime et des piments sur la table",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN LAIT DE COCO, AUCUN SEL AJOUTÉ",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T8"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T8 : les œufs 9 minutes, écalés, mis de côté."
+      },
+      {
+        "n": 2,
+        "texte": "Faire T12 sur le porc si tu veux un bouillon net : eau froide, 3 minutes, écumer, jeter, rincer. Facultatif ici, mais ça enlève l'écume."
+      },
+      {
+        "n": 3,
+        "texte": "🔴 LE CARAMEL : LE SUCRE ET L'EAU DANS LA CASSEROLE SÈCHE, FEU MOYEN, SANS REMUER. Il fond, blondit, puis brunit. Le retirer du feu au brun ambré foncé, à la seconde où il commence à sentir l'amande grillée. Deux secondes de plus et il est amer; deux de moins et il ne sert à rien."
+      },
+      {
+        "n": 4,
+        "texte": "AJOUTER LE PORC IMMÉDIATEMENT — ça va crépiter fort — et remuer pour l'enrober. Les échalotes, l'ail, le poivre."
+      },
+      {
+        "n": 5,
+        "texte": "L'EAU DE COCO ET LA SAUCE DE POISSON. Le liquide arrive à hauteur, pas au-dessus."
+      },
+      {
+        "n": 6,
+        "texte": "FRÉMISSEMENT À COUVERCLE DE BIAIS, 45 MINUTES. Les œufs à mi-parcours."
+      },
+      {
+        "n": 7,
+        "texte": "DÉCOUVRIR, MONTER LE FEU 5 À 8 MINUTES pour que la sauce nappe."
+      },
+      {
+        "n": 8,
+        "texte": "🔴 SERVIR LES MORCEAUX À LA CUILLÈRE TROUÉE. LA SAUCE RESTE DANS LA CASSEROLE. Lime et piments sur la table."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "On ne peut pas rincer un kho, et le caramel fait le travail du sel",
+        "texte": "🔴 LE KHO EST LA FAMILLE LA MOINS COMPATIBLE DE LA CUISINE VIETNAMIENNE, ET IL FAUT LE DIRE AVANT LA RECETTE : LA SAUCE EST LE PLAT. Il n'y a pas de version où on laisse le liquide de côté sans perdre ce qu'on est venu chercher. Cinq conditions le rendent tenable, et elles se cumulent — trois seulement ne suffisent pas.\n\nUN — LA COUPE. L'épaule maigre au lieu de la poitrine. Six cents grammes de poitrine porteraient de l'ordre de 180 g de lipides; la même épaule en porte 72. Par portion : 45 contre 18. ⚠️ Vingt-trois grammes avec les œufs, et c'est le plat le plus gras de ce document.\n\nDEUX — LE PLAFOND DE SODIUM : UNE DEMI-CUILLÈRE À SOUPE DE NƯỚC MẮM PAR PORTION. Deux cuillères à soupe pour quatre, soit 3 000 mg dans la casserole. Ça semble énorme et c'est la contrainte réelle du plat.\n\nTROIS — SERVIR LES MORCEAUX, LAISSER LA SAUCE. C'est ce qui fait la différence entre 750 et 500 mg par portion. Le porc a mijoté quarante-cinq minutes dedans : il a pris ce qu'il devait prendre.\n\n🔴 QUATRE — ET C'EST LE MÉCANISME LE PLUS INTÉRESSANT DU PLAT : LE CARAMEL ET L'EAU DE COCO FONT UNE GRANDE PART DU TRAVAIL QUE LE SEL SEMBLE FAIRE. Un caramel amené au brun foncé n'est pas sucré — il est amer et grillé. Cette amertume et le sucre de l'eau de coco donnent au plat sa profondeur, et c'est pourquoi deux cuillères de sauce de poisson suffisent là où une recette sans caramel en demanderait quatre. ⚠️ Corollaire : ne PAS réduire le sucre. Le caramel est le levier, pas le problème. Deux cuillères à soupe pour quatre portions, c'est 6 g de sucre par portion, et une partie a brûlé.\n\nCINQ — DEUX KHO PAR SEMAINE AU MAXIMUM, JAMAIS DEUX JOURS DE SUITE. Ce n'est pas une règle de goût : à 500 mg par portion, deux kho dans une même journée mangent presque la moitié du plafond quotidien. Le champ statut_perso ne peut pas dire ça et aucun champ du recueil ne peut : la note doit le porter.\n\nL'EAU DE COCO N'EST PAS DU LAIT DE COCO, ET LA CONFUSION COÛTE CHER. L'eau de coco est le liquide clair de la noix : ≈ 20 calories aux 100 ml, zéro lipide. Le lait de coco en porte 200 et 20. Quatre cents millilitres d'eau de coco ajoutent 80 calories au plat entier; du lait en ajouterait 800."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "KNAQCwmCsL8",
+      "auteur": "Helen's Recipes (Vietnamese Food)",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R123",
+      "R100"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R155",
+    "statut": "actif",
+    "categorie": "soupe-entree",
+    "cuisine": "vietnamienne",
+    "vitesse": "rapide",
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote",
+      "poche"
+    ],
+    "axe_gout": [
+      "acide",
+      "doux",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "croquant",
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-aigre-au-poisson-canh-chua-ca",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "canh chua cá",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "vi",
+    "fr": "Soupe aigre au poisson (canh chua ca)",
+    "sous_titre": "La soupe que les familles vietnamiennes font vraiment. L'acide est le milieu de cuisson, et l'ananas fait le sucre — pas le sucrier.",
+    "portions": "4",
+    "temps_affiche": "≈ 30 min",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 24,
+      "proteines_affiche": "24 g",
+      "calories": 200,
+      "calories_affiche": "≈ 200",
+      "lipides_g": 8,
+      "sodium_mg": 375,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ SOUPE QU'ON BOIT : les 375 mg comptent EN ENTIER. Une seule cuillère à soupe de nước mắm pour 1,2 litre, et c'est tout le sel du plat — le tamarin, l'ananas, les tomates et les herbes n'en portent aucun. Comparé nommément : c'est l'ordre du tonjiru de R129 à 350 mg et du tom saap de R146 à 375. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "500 g de filet de poisson à chair grasse — basa, poisson-chat, ou saumon — en gros morceaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1,2 L d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de pulpe de tamarin délayée dans 150 ml d'eau chaude, filtrée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g d'ananas frais en morceaux — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 tomates en quartiers",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de gombos (okra) en biseaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g de bạc hà (tiges de taro) OU de céleri en gros tronçons",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de germes de haricot mungo, ajoutés hors du feu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de nước mắm · 1 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES HERBES, et elles ne sont pas décoratives : rau ngổ (riz paddy herb) · ngò gai (coriandre longue) · à défaut, coriandre et basilic thaï",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : ail frit · piments en rondelles",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Délayer le tamarin dans l'eau chaude, écraser, FILTRER ET JETER LES FIBRES."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole : l'eau, le jus de tamarin, l'ananas, les tomates. FRÉMISSEMENT 8 MINUTES. L'ananas doit ramollir et donner son sucre."
+      },
+      {
+        "n": 3,
+        "texte": "La sauce de poisson, le sucre. GOÛTER LE BOUILLON SEUL : franchement acide, à peine sucré, à peine salé."
+      },
+      {
+        "n": 4,
+        "texte": "Les tiges de taro ou le céleri, 3 minutes. Les gombos, 2 minutes. PAS PLUS : les gombos trop cuits deviennent gluants."
+      },
+      {
+        "n": 5,
+        "texte": "🔴 LE POISSON EN DERNIER, 4 MINUTES, SANS REMUER. Pousser les morceaux sous le liquide et les laisser."
+      },
+      {
+        "n": 6,
+        "texte": "ÉTEINDRE. LES GERMES DE HARICOT ET LES HERBES HORS DU FEU, ils doivent rester crus et croquants."
+      },
+      {
+        "n": 7,
+        "texte": "Ail frit et piments à table."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Deux soupes aigres dans ce document, et elles ne font pas le même travail",
+        "texte": "R145 LE GAENG SOM ET CELLE-CI PARTENT DU MÊME ACIDE — LE TAMARIN — ET ARRIVENT AILLEURS. La différence vaut d'être sue, parce qu'on choisira entre les deux.\n\nL'OSSATURE : dans le gaeng som, c'est le gapi, une pâte de crevette fermentée; ici, c'est l'ananas et les tomates, le sucre du fruit. LE PIQUANT : central dans le gaeng som, deux piments dans le bouillon; à table dans la canh chua, dans un plat à part. LES HERBES : aucune dans le gaeng som; une poignée par bol, crues, ici. LE RÔLE AU REPAS : le gaeng som est le plat principal, sur du riz; la canh chua est le canh, la soupe qui accompagne.\n\n🔴 ET C'EST LE POINT LE PLUS UTILE : LE CANH EST L'ÉQUIVALENT VIETNAMIEN DU ICHIJU. Une soupe claire, peu salée, servie avec le riz et les autres plats — pas un plat en soi. Le recueil en avait une, R39; celle-ci est la deuxième et c'est la version aigre. Vingt-quatre grammes de protéines par bol en font une soupe qui nourrit, contrairement à la plupart des canh.\n\nL'ANANAS N'EST PAS UNE FANTAISIE ET IL REMPLACE DU SUCRE. Deux cents grammes d'ananas frais apportent de l'ordre de 20 g de sucres naturels, un acide malique qui complète le tamarin, et de la broméline qui attendrit le poisson. ⚠️ En conserve dans le sirop, il apporte le double de sucre et aucun acide — frais ou congelé, jamais en conserve.\n\nLES HERBES SONT LA MOITIÉ DU PLAT ET ELLES SE TROUVENT. Le rau ngổ et le ngò gai sont chez Kim Phat au rayon des herbes, en bottes. Sans elles, c'est une bonne soupe aigre; avec elles, c'est une canh chua. À défaut : de la coriandre en quantité et un peu de basilic thaï — ce n'est pas la même chose et il faut le savoir.\n\n⚠️ SOUPE QU'ON BOIT : ses 375 mg comptent en entier. Une cuillère à soupe de nước mắm pour 1,2 litre, et c'est tout le sel. Comparé nommément : c'est l'ordre du tonjiru de R129 à 350 mg et du tom saap de R146 à 375.\n\nLES GOMBOS SONT LE PIÈGE DE TEXTURE. Deux minutes et ils sont fermes et fondants; quatre et ils libèrent leur mucilage et le bouillon devient filant. Les couper en biseaux épais plutôt qu'en rondelles minces : moins de surface coupée, moins de gluant."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "vO81lQvYodI",
+      "auteur": "Helen's Recipes (Vietnamese Food)",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R145",
+      "R39",
+      "R146"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R156",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "vietnamienne",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "saute",
+      "vapeur"
+    ],
+    "axe_gout": [
+      "aromatique",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "croquant",
+      "glissant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "liseron-d-eau-saute-a-l-ail-rau-muong-xao-toi",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "rau muống xào tỏi",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "vi",
+    "fr": "Liseron d'eau sauté à l'ail (rau muong xao toi)",
+    "sous_titre": "Deux textures dans un seul légume : la tige creuse croque, la feuille glisse. Quatre minutes, et le même geste que le sauté à l'eau chinois.",
+    "portions": "4",
+    "temps_affiche": "≈ 10 min",
+    "temps_minutes": {
+      "preparation": 6,
+      "cuisson": 4,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 3,
+      "proteines_affiche": "3 g",
+      "calories": 60,
+      "calories_affiche": "≈ 60",
+      "lipides_g": 3,
+      "sodium_mg": 125,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une seule cuillère à thé de nước mắm pour 500 g de légume, seul poste salé du plat. Comparé nommément : c'est l'ordre du choy sum de R135 à 130 mg. En version au fu yu (une demi-cuillère à thé de tofu fermenté à la place de la sauce de poisson), le plat entier tombe à ≈ 100 mg, soit ≈ 25 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "500 g de liseron d'eau (rau muống, ong choy), tiges et feuilles SÉPARÉES",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "5 gousses d'ail en tranches",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "3 c. à soupe d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de nước mắm OU de sauce soya réduite",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/2 c. à thé de fu yu (tofu fermenté) écrasé, à la place de la sauce de poisson · 1 piment",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T13"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "LAVER À GRANDE EAU — TROIS FOIS. Le liseron pousse dans l'eau et il garde du sable dans ses tiges creuses."
+      },
+      {
+        "n": 2,
+        "texte": "🔴 SÉPARER LES TIGES DES FEUILLES ET LES COUPER EN TRONÇONS DE 6 CM. Les tiges prennent deux fois plus de temps que les feuilles; ensemble, on obtient des tiges crues et des feuilles en bouillie."
+      },
+      {
+        "n": 3,
+        "texte": "Poêle ou wok très chaud, 2 c. à thé d'huile, L'AIL 20 SECONDES — blond, jamais brun."
+      },
+      {
+        "n": 4,
+        "texte": "LES TIGES D'ABORD, 1 MINUTE 30, en remuant."
+      },
+      {
+        "n": 5,
+        "texte": "LES FEUILLES, L'EAU, ET COUVRIR 60 SECONDES. C'est le T13 : la vapeur cuit le volume sans huile supplémentaire."
+      },
+      {
+        "n": 6,
+        "texte": "DÉCOUVRIR, LA SAUCE DE POISSON, MONTER LE FEU 30 SECONDES POUR ÉVAPORER. Servir immédiatement."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le même geste que le T13 chinois, dans une autre cuisine",
+        "texte": "🔴 CE PLAT ET LE BROCOLI DE R143 SONT LA MÊME TECHNIQUE SOUS DEUX NOMS. 水油焖 shuǐ yóu mèn en chinois, xào avec un couvercle en vietnamien : un peu d'huile, un peu d'eau, un couvercle, et la vapeur fait le travail que l'huile ferait dans un sauté de restaurant. ⚠️ C'est la première fois que le recueil montre une technique partagée entre deux cuisines, et ça vaut d'être noté : T13 n'est pas une technique chinoise, c'est une technique de cuisinier sans feu de restaurant.\n\nLE LISERON D'EAU EST LE SEUL LÉGUME DU RECUEIL À DEUX TEXTURES DANS LA MÊME BOUCHÉE. La tige est creuse et cassante — elle craque; la feuille est fine et fond comme un épinard. C'est pourquoi l'étape 2 les sépare, et c'est la seule exigence du plat. Ensemble dans la poêle, on obtient le pire des deux.\n\nCENT VINGT-CINQ MILLIGRAMMES PAR PORTION, ET UNE SEULE CUILLÈRE À THÉ DE SAUCE DE POISSON POUR 500 G DE LÉGUME. Comparé nommément : c'est l'ordre du choy sum de R135 à 130 mg. Ce qui porte le plat, c'est l'ail — cinq gousses, blondes, dans l'huile.\n\nLE FU YU EST LA VERSION QUE JE RECOMMANDE D'ESSAYER. Une demi-cuillère à thé de tofu fermenté écrasé remplace la sauce de poisson : ≈ 100 mg de sodium, et un umami crémeux et fromagé qui va avec le liseron mieux que le poisson. C'est l'usage cantonais du même plat, et c'est vendu en pot chez Kim Phat.\n\n⚠️ SAISONNIER, ET IL FAUT LE DIRE : le liseron d'eau est chez Kim Phat l'été, en grosses bottes, et il disparaît le reste de l'année. ⚠️ Et il ne se garde que deux jours — les tiges creuses se vident et deviennent molles. Hors saison, la même technique sur des épinards, du bok choy ou du chou nappa donne un bon plat qui n'est pas celui-là."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "mrZzS5aUHOA",
+      "auteur": "Helen's Recipes (Vietnamese Food)",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R143",
+      "R135"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R157",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "vietnamienne",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "saute",
+      "mijote"
+    ],
+    "axe_gout": [
+      "acide",
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "ferme",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "tofu-farci-a-la-sauce-tomate-dau-hu-nhoi-thit",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "đậu hũ nhồi thịt sốt cà",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "vi",
+    "fr": "Tofu farci à la sauce tomate (dau hu nhoi thit)",
+    "sous_titre": "Le plat de tous les jours de la maison vietnamienne. Deux protéines dans une assiette, et la tomate fait l'umami que la sauce de poisson n'a pas à faire.",
+    "portions": "4",
+    "temps_affiche": "≈ 40 min",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 20,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 24,
+      "proteines_affiche": "24 g",
+      "calories": 255,
+      "calories_affiche": "≈ 255",
+      "lipides_g": 15,
+      "sodium_mg": 375,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une seule cuillère à soupe de nước mắm pour quatre portions, et AUCUN SEL DANS LA FARCE. Ce qui remplit la place : quatre tomates mûres affaissées cinq minutes sans être remuées. ⚠️ Les 15 g de lipides supposent le tofu POÊLÉ sur une cuillère à soupe d'huile; la version classique le frit avant de le farcir, ce qui ajoute de l'ordre de trois cuillères à soupe d'huile — 360 calories et 40 g de lipides pour quatre portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de tofu FERME, en blocs de 5 cm, évidés à la petite cuillère",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA FARCE : 250 g de porc haché maigre · 1/2 oignon haché très fin · 2 oignons verts · 1/2 c. à thé de poivre noir · 1 c. à thé de fécule · aucun sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE : 4 tomates mûres en dés · 1/2 oignon en lamelles · 3 gousses d'ail · 200 ml d'eau · 1 c. à soupe de nước mắm · 1 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · coriandre · poivre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE FRITURE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "ÉPONGER LES BLOCS DE TOFU, CREUSER UNE CAVITÉ À LA PETITE CUILLÈRE en gardant 1 cm de paroi. GARDER LA MIE DE TOFU : elle va dans la farce."
+      },
+      {
+        "n": 2,
+        "texte": "Mélanger la farce avec la mie de tofu émiettée, TRAVAILLER 30 SECONDES JUSQU'AU COLLANT."
+      },
+      {
+        "n": 3,
+        "texte": "FARINER L'INTÉRIEUR DE CHAQUE CAVITÉ D'UN PEU DE FÉCULE, puis presser la farce dedans en la bombant. C'est le même geste qu'au R117 : sans lui, la farce se décolle en cuisant."
+      },
+      {
+        "n": 4,
+        "texte": "Poêle antiadhésive, 1 c. à soupe d'huile, feu moyen. CÔTÉ FARCE EN DESSOUS D'ABORD, 4 MINUTES SANS Y TOUCHER. Retourner et dorer les autres faces, 4 minutes. Sortir."
+      },
+      {
+        "n": 5,
+        "texte": "Même poêle : l'ail, l'oignon, 1 minute. LES TOMATES, 5 MINUTES SANS REMUER, jusqu'à ce qu'elles s'affaissent et rendent leur jus."
+      },
+      {
+        "n": 6,
+        "texte": "L'eau, la sauce de poisson, le sucre. GOÛTER LA SAUCE SEULE."
+      },
+      {
+        "n": 7,
+        "texte": "REMETTRE LE TOFU FARCI, SAUCE À MI-HAUTEUR, 8 À 10 MINUTES À COUVERT. Retourner une fois en remuant la poêle, pas le tofu."
+      },
+      {
+        "n": 8,
+        "texte": "Verdure et poivre au service. AVEC DU RIZ."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La tomate fait l'umami, et c'est pourquoi une cuillère suffit",
+        "texte": "C'EST UN CƠM NHÀ — un plat « de riz de la maison », c'est-à-dire ce qu'on mange un mardi soir sans y penser. Le recueil a beaucoup de plats vietnamiens de restaurant et presque aucun de ceux-là. Celui-ci en est le type même : bon marché, sans ingrédient introuvable, et meilleur réchauffé.\n\n🔴 TROIS CENT SOIXANTE-QUINZE MILLIGRAMMES POUR VINGT-QUATRE GRAMMES DE PROTÉINES, ET C'EST LA TOMATE QUI LE PERMET. Une cuillère à soupe de nước mắm pour quatre portions — 375 mg chacune — sur un plat mijoté. Ce qui remplit la place : quatre tomates mûres affaissées cinq minutes sans être remuées. Le glutamate d'une tomate cuite est un umami réel, et c'est exactement le mécanisme des œufs à la tomate de R142. ⚠️ Deux fiches de deux cuisines qui reposent sur la même chose, et ça vaut d'être nommé : la tomate est l'agent umami le moins salé du recueil.\n\nDEUX PROTÉINES DANS UNE ASSIETTE, ET LE TOFU N'EST PAS UN REMPLISSEUR. Quatre cents grammes de tofu ferme portent 47 g de protéines; les 250 g de porc en portent 47 aussi. Moitié-moitié. ⚠️ Et le tofu coûte 20 g de lipides là où la même protéine en porc en coûterait 25 — le gain est réel mais modeste. Le vrai intérêt du tofu ici est structurel : il est le contenant.\n\n⚠️ LA VERSION CLASSIQUE FRIT LE TOFU AVANT DE LE FARCIR, ET C'EST LE SEUL POINT À CHANGER. Quatre cents grammes de tofu frit absorbent de l'ordre de trois cuillères à soupe d'huile — 360 calories, 40 g de lipides. Poêlé à sec sur une cuillère à soupe d'huile dans une poêle antiadhésive, il développe la même croûte. C'est la même correction qu'au tofu braisé rouge de R137.\n\nLA MIE DE TOFU VA DANS LA FARCE ET CE N'EST PAS DE L'ÉCONOMIE. Elle retient l'eau : une farce de porc pur dans une cavité de tofu est sèche et se contracte. Avec un quart de tofu émietté dedans, elle reste moelleuse et elle gonfle au lieu de rétrécir — ce qui aide aussi à ce qu'elle tienne. Même mécanisme que la galette de R110.\n\nSE GARDE 3 JOURS ET C'EST MEILLEUR LE LENDEMAIN, parce que le tofu continue de boire la sauce. Un des rares plats du recueil dont on peut faire le double sans regret."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "-ulewHRgtbg",
+      "auteur": "Helen's Recipes (Vietnamese Food)",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R142",
+      "R137",
+      "R117"
     ],
     "commentaire_source": ""
   }

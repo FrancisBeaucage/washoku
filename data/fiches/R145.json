@@ -1,0 +1,153 @@
+{
+  "id": "R145",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote",
+    "poche"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "curry-aigre-au-tamarin-gaeng-som",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "แกงส้ม",
+  "lecture_origine": "gaeng som",
+  "prononciation": null,
+  "langue_origine": "th",
+  "fr": "Curry aigre au tamarin (gaeng som)",
+  "sous_titre": "Vingt-cinq grammes de protéines pour UN gramme de lipides. Le plat le plus maigre de ce document, et l'acide y est le milieu de cuisson — pas un accent.",
+  "portions": "4",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 25,
+    "proteines_affiche": "25 g",
+    "calories": 150,
+    "calories_affiche": "≈ 150",
+    "lipides_g": 1,
+    "sodium_mg": 425,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — deux cuillères à soupe de pâte de curry du commerce, deux cuillères à thé de sauce de poisson et une demi-cuillère à thé de gapi (≈ 215 mg pour quatre portions, à ≈ 1 300 mg la cuillère à soupe). Il n'y a aucune huile dans cette recette : le gramme de lipides vient du poisson blanc. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "500 g de filet de poisson blanc ferme — tilapia, basa, morue — en gros morceaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de pâte de curry gaeng som du commerce OU de pâte de curry rouge + 1/2 c. à thé de curcuma moulu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de pulpe de tamarin délayée dans 100 ml d'eau chaude, filtrée — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "800 ml d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 g de légumes fermes : chou-fleur · haricots longs · daikon · papaye verte · chou nappa",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sucre de palme OU de cassonade",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif mais c'est l'ossature : 1/2 c. à thé de gapi, pâte de crevette fermentée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 piments oiseaux écrasés",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Délayer le tamarin dans l'eau chaude, écraser à la fourchette, FILTRER ET JETER LES FIBRES ET LES NOYAUX."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole : l'eau, la pâte de curry, le gapi si on en met. FOUETTER POUR DISSOUDRE. Amener à frémissement, 5 minutes — la pâte doit perdre son cru."
+    },
+    {
+      "n": 3,
+      "texte": "LE JUS DE TAMARIN, LA SAUCE DE POISSON, LE SUCRE. Goûter le bouillon SEUL. C'est le seul moment où on ajuste, et il faut que ce soit franchement acide."
+    },
+    {
+      "n": 4,
+      "texte": "Les légumes fermes, 5 à 6 minutes."
+    },
+    {
+      "n": 5,
+      "texte": "🔴 LE POISSON EN DERNIER, 3 À 4 MINUTES, SANS REMUER. On pousse les morceaux sous le liquide avec le dos d'une cuillère et on les laisse. Remué, un poisson blanc se défait en charpie."
+    },
+    {
+      "n": 6,
+      "texte": "Éteindre. Se mange avec du riz."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "L'acide est le milieu de cuisson, et le sucre n'est pas là pour sucrer",
+      "texte": "LE GAENG SOM EST BÂTI SUR L'ACIDE, ET ÇA CHANGE LA HIÉRARCHIE DE TOUT LE PLAT. Dans un curry ordinaire, le sel porte et l'acide accentue. Ici c'est l'inverse : le tamarin EST le bouillon, et la sauce de poisson n'a qu'à le soutenir. C'est pourquoi deux cuillères à thé suffisent là où une recette de restaurant en met une cuillère à soupe et demie.\n\n⚠️ CONSÉQUENCE PRATIQUE À L'ÉTAPE 3 : si le bouillon goûte plat, il manque du tamarin, pas du sel. C'est la même règle qu'au R144 et qu'au tom yum de R27, et elle vaut d'être apprise une fois pour tout le corpus thaï.\n\nUN GRAMME DE LIPIDES PAR PORTION. Il n'y a pas d'huile dans cette recette — pas une cuillère à thé — et le poisson blanc en apporte à peine. Comparé nommément : le curry de la jungle de R144 en porte 13. ⚠️ Et le tom kha gai de R28 bien plus, parce qu'il est monté au lait de coco — mais sa fiche ne porte aucun chiffre de lipides, donc la comparaison s'arrête à l'ingrédient et non au nombre. Ce plat est celui à sortir un jour où les lipides sont déjà mangés.\n\nLE GAPI EST L'OSSATURE ET IL COÛTE CHER EN SODIUM : ≈ 1 300 mg par cuillère à soupe. La fiche en met une demi-cuillère à THÉ, soit ≈ 215 mg pour quatre portions. ⚠️ C'est un des postes que les analyses de sodium oublient, avec la pâte de curry — et c'est celui qu'il ne faut pas retirer : un gaeng som sans gapi est une soupe aigre, pas un gaeng som. La demi-cuillère à thé est le compromis.\n\nLA CUILLÈRE À THÉ DE SUCRE N'EST PAS UN ASSAISONNEMENT SUCRÉ. Elle arrondit l'angle du tamarin, qui est un acide anguleux. Sans elle, le bouillon pique la langue au lieu de la réveiller. Un gramme de sucre par portion."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "LU3dRxuFG1o",
+    "auteur": "Pailin's Kitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R144",
+    "R155",
+    "R150"
+  ],
+  "commentaire_source": ""
+}

@@ -1,0 +1,153 @@
+{
+  "id": "R154",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "vietnamienne",
+  "vitesse": "long",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "porc-au-caramel-et-oeufs-durs-thit-kho",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "thịt kho trứng",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "vi",
+  "fr": "Porc au caramel et œufs durs (thit kho)",
+  "sous_titre": "On ne peut pas rincer un kho : la sauce est le plat. Alors les leviers sont ailleurs — la coupe, la dose, et ce qu'on laisse dans la casserole.",
+  "portions": "4",
+  "temps_affiche": "≈ 1 h 15 dont 50 sans surveillance",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 10,
+    "attente": 50
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 36,
+    "proteines_affiche": "36 g",
+    "calories": 350,
+    "calories_affiche": "≈ 350",
+    "lipides_g": 23,
+    "sodium_mg": 750,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. 🔴 LE CHIFFRE PORTÉ EST LE PRUDENT : 750 mg, LA SAUCE VERSÉE. En servant les morceaux à la cuillère trouée et en laissant la sauce dans la casserole — ce que l'étape 8 demande — la portion tombe à ≈ 500 mg. Deux cuillères à soupe de nước mắm pour quatre portions, soit 3 000 mg dans la casserole, et c'est le plafond du plat : une demi-cuillère à soupe par portion. ⚠️ Vingt-trois grammes de lipides avec les œufs : le plat le plus gras du lot. ⚠️ ET UNE RÈGLE DE FRÉQUENCE QUE LA FICHE NE PEUT PAS EXPRIMER DANS UN CHAMP : deux kho par semaine au maximum, jamais deux jours de suite. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g d'épaule de porc maigre en cubes de 4 cm — et non de la poitrine : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 œufs durs T8 écalés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE CARAMEL : 2 c. à soupe de sucre + 1 c. à soupe d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de nước mắm — soit 1/2 c. à soupe par portion, et c'est le plafond : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 ml d'eau de coco — le liquide, pas le lait : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 échalotes écrasées · 3 gousses d'ail écrasées · 1/2 c. à thé de poivre noir concassé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · des quartiers de lime et des piments sur la table",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN LAIT DE COCO, AUCUN SEL AJOUTÉ",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T8"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T8 : les œufs 9 minutes, écalés, mis de côté."
+    },
+    {
+      "n": 2,
+      "texte": "Faire T12 sur le porc si tu veux un bouillon net : eau froide, 3 minutes, écumer, jeter, rincer. Facultatif ici, mais ça enlève l'écume."
+    },
+    {
+      "n": 3,
+      "texte": "🔴 LE CARAMEL : LE SUCRE ET L'EAU DANS LA CASSEROLE SÈCHE, FEU MOYEN, SANS REMUER. Il fond, blondit, puis brunit. Le retirer du feu au brun ambré foncé, à la seconde où il commence à sentir l'amande grillée. Deux secondes de plus et il est amer; deux de moins et il ne sert à rien."
+    },
+    {
+      "n": 4,
+      "texte": "AJOUTER LE PORC IMMÉDIATEMENT — ça va crépiter fort — et remuer pour l'enrober. Les échalotes, l'ail, le poivre."
+    },
+    {
+      "n": 5,
+      "texte": "L'EAU DE COCO ET LA SAUCE DE POISSON. Le liquide arrive à hauteur, pas au-dessus."
+    },
+    {
+      "n": 6,
+      "texte": "FRÉMISSEMENT À COUVERCLE DE BIAIS, 45 MINUTES. Les œufs à mi-parcours."
+    },
+    {
+      "n": 7,
+      "texte": "DÉCOUVRIR, MONTER LE FEU 5 À 8 MINUTES pour que la sauce nappe."
+    },
+    {
+      "n": 8,
+      "texte": "🔴 SERVIR LES MORCEAUX À LA CUILLÈRE TROUÉE. LA SAUCE RESTE DANS LA CASSEROLE. Lime et piments sur la table."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "On ne peut pas rincer un kho, et le caramel fait le travail du sel",
+      "texte": "🔴 LE KHO EST LA FAMILLE LA MOINS COMPATIBLE DE LA CUISINE VIETNAMIENNE, ET IL FAUT LE DIRE AVANT LA RECETTE : LA SAUCE EST LE PLAT. Il n'y a pas de version où on laisse le liquide de côté sans perdre ce qu'on est venu chercher. Cinq conditions le rendent tenable, et elles se cumulent — trois seulement ne suffisent pas.\n\nUN — LA COUPE. L'épaule maigre au lieu de la poitrine. Six cents grammes de poitrine porteraient de l'ordre de 180 g de lipides; la même épaule en porte 72. Par portion : 45 contre 18. ⚠️ Vingt-trois grammes avec les œufs, et c'est le plat le plus gras de ce document.\n\nDEUX — LE PLAFOND DE SODIUM : UNE DEMI-CUILLÈRE À SOUPE DE NƯỚC MẮM PAR PORTION. Deux cuillères à soupe pour quatre, soit 3 000 mg dans la casserole. Ça semble énorme et c'est la contrainte réelle du plat.\n\nTROIS — SERVIR LES MORCEAUX, LAISSER LA SAUCE. C'est ce qui fait la différence entre 750 et 500 mg par portion. Le porc a mijoté quarante-cinq minutes dedans : il a pris ce qu'il devait prendre.\n\n🔴 QUATRE — ET C'EST LE MÉCANISME LE PLUS INTÉRESSANT DU PLAT : LE CARAMEL ET L'EAU DE COCO FONT UNE GRANDE PART DU TRAVAIL QUE LE SEL SEMBLE FAIRE. Un caramel amené au brun foncé n'est pas sucré — il est amer et grillé. Cette amertume et le sucre de l'eau de coco donnent au plat sa profondeur, et c'est pourquoi deux cuillères de sauce de poisson suffisent là où une recette sans caramel en demanderait quatre. ⚠️ Corollaire : ne PAS réduire le sucre. Le caramel est le levier, pas le problème. Deux cuillères à soupe pour quatre portions, c'est 6 g de sucre par portion, et une partie a brûlé.\n\nCINQ — DEUX KHO PAR SEMAINE AU MAXIMUM, JAMAIS DEUX JOURS DE SUITE. Ce n'est pas une règle de goût : à 500 mg par portion, deux kho dans une même journée mangent presque la moitié du plafond quotidien. Le champ statut_perso ne peut pas dire ça et aucun champ du recueil ne peut : la note doit le porter.\n\nL'EAU DE COCO N'EST PAS DU LAIT DE COCO, ET LA CONFUSION COÛTE CHER. L'eau de coco est le liquide clair de la noix : ≈ 20 calories aux 100 ml, zéro lipide. Le lait de coco en porte 200 et 20. Quatre cents millilitres d'eau de coco ajoutent 80 calories au plat entier; du lait en ajouterait 800."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "KNAQCwmCsL8",
+    "auteur": "Helen's Recipes (Vietnamese Food)",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R123",
+    "R100"
+  ],
+  "commentaire_source": ""
+}

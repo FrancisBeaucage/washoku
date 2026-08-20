@@ -674,6 +674,45 @@ méthode unique ne change pas.
 soir donné, et c'est la borne haute qui décide si on a le temps. La règle 21
 vérifie la forme et que `min` ne dépasse pas `max`.
 
+### `attente` veut dire « sans surveillance », et le temps actif s'en déduit
+
+**`vitesse` mesure le TEMPS TOTAL ÉCOULÉ, et c'est le bon choix.** C'est ce qu'il
+faut pour planifier : une soupe d'une heure quarante-cinq ne s'insère pas dans un
+mardi soir, même si elle ne demande que vingt minutes de présence. Le champ le
+fait déjà de façon cohérente — `T1` le riz est `extra-long` à 61 minutes, `R151`
+le khao tom est `rapide` à 20.
+
+**Ce qui manquait, c'est que le temps de PRÉSENCE ne se voyait pas.** Un plat à
+vingt minutes de travail et un plat à quatre-vingt-dix se ressemblaient sur une
+carte. C'est le constat du débrief du 18 août 2026 : le second couvert, avec deux
+jeunes enfants, avait dit « énormément d'étapes » d'un plat dont le temps affiché
+était court. **Le temps de présence et le nombre de gestes décident pour qui
+cuisine avec des interruptions.**
+
+Le document 31 (`S35`) le règle **par dérivation et non par un champ de plus** :
+le temps actif vaut `préparation + cuisson`, donc le total moins l'attente. La
+carte et la fiche l'affichent — « ≈ 1 h 45 · 27 min de travail ». `index.json`
+porte la clé `temps_actif`, **et seulement quand elle apprend quelque chose** :
+sans attente elle vaudrait le total, donc elle ne s'écrit pas — la même
+convention que partout ailleurs dans l'index.
+
+🔴 **CE QUE ÇA EXIGE DE LA DONNÉE, ET C'EST LE PIÈGE : `attente` doit porter le
+temps sans surveillance, pas `cuisson`.** La dérivation est exacte sur les onze
+fiches qui déclaraient déjà un temps passif dans leur `temps_affiche`, et
+**fausse sur trois qui l'avaient écrit dans `cuisson`** : `R139` (1 h 20 de
+frémissement), `R131` (45 minutes de cuiseur à riz), `R134` (25 minutes de
+pochage). Sans correction, la carte de `R139` aurait annoncé « 107 min de
+travail » pour douze minutes de gestes — **exactement le chiffre faux que le
+champ existait pour éviter.** Les trois ont été redistribuées au document 31, en
+prenant le partage dans leur propre `temps_affiche` : **le total ne change sur
+aucune.**
+
+⚠️ **Donc, en écrivant une fiche : un mijotage, une marinade, un four, un
+programme de cuiseur, un repos hors du feu vont dans `attente`.** `cuisson` est
+le temps où l'on est devant la casserole. Aucune règle ne le vérifie — la
+cohérence se lit en comparant `attente` au `temps_affiche`, et c'est ce qu'il
+faut faire à la relecture d'un document.
+
 ## Le journal
 
 Une entrée porte des champs machine en tête, puis son `corps` en blocs.

@@ -1,0 +1,135 @@
+{
+  "id": "R148",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "thaie",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner"
+  ],
+  "slug": "salade-de-thon-en-conserve-yam-tuna",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ยำทูน่า",
+  "lecture_origine": "yam tuna",
+  "prononciation": null,
+  "langue_origine": "th",
+  "fr": "Salade de thon en conserve (yam tuna)",
+  "sous_titre": "Trente-cinq grammes de protéines, huit minutes, aucune cuisson. Et un seul choix à l'épicerie qui divise son sodium par deux.",
+  "portions": "2",
+  "temps_affiche": "≈ 8 min, aucune cuisson",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 35,
+    "proteines_affiche": "35 g",
+    "calories": 180,
+    "calories_affiche": "≈ 180",
+    "lipides_g": 3,
+    "sodium_mg": 325,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE, ET AVEC LE PRODUIT ÉCRIT : 325 mg avec du thon germon DANS L'EAU, SANS SEL AJOUTÉ. 🔴 Avec du thon ordinaire « dans l'eau, sel ajouté », la portion monte à ≈ 700 mg — 300 g de ce produit portent de l'ordre de 900 mg contre environ 150 pour le sans sel ajouté. Le facteur deux se décide au rayon des conserves, pas dans la recette. La cuillère à thé de sauce de poisson vaut 250 mg pour les deux portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de thon germon en conserve DANS L'EAU, SANS SEL AJOUTÉ, égoutté — environ 2 boîtes et demie : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 échalotes en fines lamelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 branches de céleri chinois en biseaux, feuilles comprises",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 oignons verts en rondelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 grosse poignée de menthe · 1 poignée de coriandre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA VINAIGRETTE T22 : 3 c. à soupe de jus de lime · 1 c. à thé de sauce de poisson · 1/2 c. à thé de sucre · 3 piments oiseaux écrasés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : tomates cerises · concombre si tu en veux · 1 c. à soupe de khao khua de T19",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T22"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "ÉGOUTTER LE THON À FOND, EN PRESSANT DANS LA PASSOIRE. L'eau de conserve porte du sel et elle délave la vinaigrette."
+    },
+    {
+      "n": 2,
+      "texte": "Mélanger la vinaigrette dans un grand bol. GOÛTER AVANT QUE LE THON ENTRE."
+    },
+    {
+      "n": 3,
+      "texte": "Émietter le thon en gros morceaux, ajouter les échalotes, le céleri chinois, les oignons verts. Mélanger."
+    },
+    {
+      "n": 4,
+      "texte": "LES HERBES EN DERNIER, À LA MAIN. Servir tout de suite ou froid."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le facteur six est au rayon des conserves, pas dans la recette",
+      "texte": "🔴 TROIS CENTS GRAMMES DE THON « DANS L'EAU, SEL AJOUTÉ » PORTENT DE L'ORDRE DE 900 MG DE SODIUM. LE MÊME POIDS EN « SANS SEL AJOUTÉ » EN PORTE ENVIRON 150. Par portion : 450 contre 75. Sur un plat dont l'assaisonnement complet vaut 250 mg, c'est le poste dominant et il se décide à l'épicerie.\n\n⚠️ C'EST LE TROISIÈME CAS DU DOSSIER OÙ L'INGRÉDIENT PORTE PLUS DE SEL QUE L'ASSAISONNEMENT, après les crevettes de R147 et le kimchi de R106. Le motif est net : les produits de la mer transformés et les légumes fermentés arrivent salés, et aucune recette ne le rattrape. À relever au prochain passage : la marque exacte du germon en stock et son panneau.\n\nUNE CUILLÈRE À THÉ DE SAUCE DE POISSON POUR DEUX PORTIONS, ET C'EST DÉLIBÉRÉMENT LA MOITIÉ DE CE QUE LE RÉPERTOIRE PROPOSAIT. Il disait « 2 c. à thé max, le thon en apporte déjà 300 à 500 mg ». Avec du thon sans sel ajouté, le calcul change : le thon n'apporte presque rien, donc la sauce de poisson pourrait remonter. Je la laisse à une cuillère à thé et je monte la lime et le piment à la place — c'est l'élasticité de la vinaigrette T22, et elle rend le sel presque optionnel.\n\nAUCUNE CUISSON, HUIT MINUTES, ET TRENTE-CINQ GRAMMES DE PROTÉINES. Comparé nommément : c'est le même ordre de protéines que la galette de R110 ou le porc blanchi de R118, sans allumer un rond. C'est un plat de dîner de semaine, et le seul de ce document qui ne demande rien d'autre qu'un couteau.\n\n⚠️ LE CÉLERI CHINOIS N'EST PAS DU CÉLERI ORDINAIRE ET LA SUBSTITUTION SE VOIT. Il est plus fin, plus creux, beaucoup plus parfumé, et ses feuilles se mangent. Du céleri de supermarché donne du croquant sans l'arôme — dans ce cas, monter la coriandre. Kim Phat en a au rayon des herbes."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "vj_DykfQgXQ",
+    "auteur": "Pailin's Kitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R147",
+    "R106",
+    "R110"
+  ],
+  "commentaire_source": ""
+}

@@ -340,6 +340,10 @@ class Component extends DCLogic {
         if (perso === "suspendu" || perso === "ecarte") pastilles.push({ classe: "past past-rouge", texte: LIB("statut_perso", perso), titre: "Statut personnel" });
         const bouts = [];
         if (r.temps_affiche) bouts.push(r.temps_affiche);
+        /* Le TEMPS DE PRÉSENCE à côté du temps affiché — S35 du document 31.
+           L'index ne porte la clé que quand elle apprend quelque chose : sans
+           attente, elle vaudrait le total. */
+        if (r.temps_actif != null) bouts.push(r.temps_actif + " min de travail");
         if (r.proteines_g != null) bouts.push(r.proteines_g + " g prot.");
         if (r.calories != null) bouts.push(r.calories + " cal");
         return {
@@ -604,7 +608,8 @@ class Component extends DCLogic {
         portions: o.portions, temps: o.temps_affiche,
         detailTemps: MIN(o.temps_minutes.preparation) + " min pr\\u00e9p"
           + (AUCUN(o.temps_minutes.cuisson) ? "" : " \\u00b7 " + MIN(o.temps_minutes.cuisson) + " min cuisson")
-          + (AUCUN(o.temps_minutes.attente) ? "" : " \\u00b7 " + MIN(o.temps_minutes.attente) + " min attente"),
+          + (AUCUN(o.temps_minutes.attente) ? "" : " \\u00b7 " + MIN(o.temps_minutes.attente) + " min attente")
+          + (AUCUN(o.temps_minutes.attente) ? "" : " \\u00b7 " + ACTIF(o.temps_minutes) + " min de travail"),
         proteines: n.proteines_affiche || "—", calories: n.calories_affiche || "—",
         sousTitre: o.sous_titre,
         ingredients: (o.ingredients || []).map(i => ({ t: i.texte + (i.sante ? " †" : "") })),

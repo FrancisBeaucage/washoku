@@ -1,0 +1,158 @@
+{
+  "id": "R151",
+  "statut": "actif",
+  "categorie": "dejeuner",
+  "cuisine": "thaie",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "bouilli",
+    "poche"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner"
+  ],
+  "slug": "soupe-de-riz-du-matin-khao-tom",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ข้าวต้ม",
+  "lecture_origine": "khao tom",
+  "prononciation": null,
+  "langue_origine": "th",
+  "fr": "Soupe de riz du matin (khao tom)",
+  "sous_titre": "La première fiche de déjeuner thaïe du recueil. Trente-quatre grammes de protéines pour deux cent cinquante milligrammes de sodium — et c'est le zōsui thaï.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 7,
+    "cuisson": 13,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 34,
+    "proteines_affiche": "34 g",
+    "calories": 450,
+    "calories_affiche": "≈ 450",
+    "lipides_g": 18,
+    "sodium_mg": 250,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une seule cuillère à thé de sauce de poisson pour deux portions, et c'est tout le sel du bol : le poivre blanc, le gingembre, l'ail frit et la lime n'en portent aucun. ⚠️ Dix-huit grammes de lipides, dont la moitié vient du porc haché : aux crevettes, le bol tombe à ≈ 6 g de lipides et 300 calories, mais le sodium monte de ≈ 350 mg à cause de la saumure des crevettes (voir R147). Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "200 g de riz cuit, RINCÉ À L'EAU FROIDE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "700 ml d'eau OU de bouillon de porc non salé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 g de porc haché maigre, OU de crevettes, OU un reste de protéine cuite",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de gingembre en fine julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 c. à thé de poivre blanc moulu, et c'est beaucoup : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : 2 branches de céleri chinois · 3 oignons verts · coriandre · 1 c. à soupe d'ail frit · un quartier de lime",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : quelques gouttes d'huile d'ail",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T1"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "RINCER LE RIZ CUIT À L'EAU FROIDE DANS UNE PASSOIRE, ET LE PRESSER. Sans ça, le bouillon devient de la colle en trois minutes."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole : l'eau, le gingembre. Amener à frémissement."
+    },
+    {
+      "n": 3,
+      "texte": "LE PORC HACHÉ EN PETITES BOULETTES FORMÉES À LA CUILLÈRE, OU ÉMIETTÉ À LA SPATULE. 4 minutes. Écumer."
+    },
+    {
+      "n": 4,
+      "texte": "Le riz rincé, 4 À 5 MINUTES à frémissement doux. Il gonfle un peu, il ne se défait pas."
+    },
+    {
+      "n": 5,
+      "texte": "La sauce de poisson, LA MOITIÉ DU POIVRE BLANC. Goûter."
+    },
+    {
+      "n": 6,
+      "texte": "🔴 CASSER LES ŒUFS DIRECTEMENT DANS LE BOUILLON, COUVRIR, FEU ÉTEINT, 3 MINUTES. Ils pochent dans la chaleur résiduelle et le jaune reste coulant."
+    },
+    {
+      "n": 7,
+      "texte": "Le reste du poivre blanc, les herbes, l'ail frit, le quartier de lime. SERVIR TOUT DE SUITE."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le poivre blanc est l'assaisonnement, et le sel n'est que le quatrième",
+      "texte": "DEUX CENT CINQUANTE MILLIGRAMMES POUR UN BOL QUI PORTE TRENTE-QUATRE GRAMMES DE PROTÉINES, ET UNE SEULE CUILLÈRE À THÉ DE SAUCE DE POISSON. Ce qui porte le plat à sa place : une demi-cuillère à thé de poivre blanc, une cuillère à soupe de gingembre, de l'ail frit et un quartier de lime. Aucun des quatre ne contient de sodium.\n\n🔴 LA DEMI-CUILLÈRE À THÉ DE POIVRE BLANC N'EST PAS UNE FAUTE DE FRAPPE, ET LA MOITIÉ VA À LA FIN. Le poivre blanc perd son parfum à la cuisson et garde son mordant; ajouté en deux fois, on obtient les deux. C'est l'assaisonnement définissant de ce plat comme du gaeng jued de R74 — et c'est un axe que le dossier n'exploite presque pas ailleurs.\n\n🔴 C'EST LE ZŌSUI THAÏ, ET LA COMPARAISON APPREND QUELQUE CHOSE. R130 et celui-ci sont la même architecture : du riz déjà cuit, rincé de son amidon, passé quelques minutes dans un bouillon clair, avec de l'œuf. Ce qui diffère est entièrement l'aromatique — dashi, nori et gingembre râpé d'un côté; poivre blanc, ail frit, céleri chinois et lime de l'autre.\n\n⚠️ ET LA CONSÉQUENCE EST PRATIQUE : le geste de rincer du riz cuit débloque maintenant deux plats de deux cuisines. Les rondelles de riz congelées du dossier servent aux deux. Un plat de restes qui n'est pas un plat de restes triste.\n\nQUATRE CENT CINQUANTE CALORIES ET TRENTE-QUATRE GRAMMES DE PROTÉINES : c'est exactement la cible du déjeuner du guide 5 — ≈ 450 et 40. ⚠️ Dix-huit grammes de lipides, par contre, dont la moitié vient du porc haché. Aux crevettes, le bol tombe à ≈ 6 g de lipides et 300 calories, mais le sodium monte de ≈ 350 mg à cause de la saumure des crevettes — voir R147. Au reste de poulet poché de R82, c'est le meilleur des deux mondes.\n\nL'AIL FRIT SE FAIT D'AVANCE ET SE GARDE DEUX SEMAINES : de l'ail émincé dans deux cuillères à soupe d'huile à feu doux jusqu'au blond, égoutté. Une cuillère à soupe par bol, c'est ≈ 30 calories, et c'est ce qui fait qu'un khao tom goûte comme un khao tom."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "WqeFpKpYH1I",
+    "auteur": "ThaiChef Food",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R130",
+    "R74",
+    "R82"
+  ],
+  "commentaire_source": ""
+}

@@ -35,8 +35,8 @@
   "temps_affiche": "≈ 1 h 45 dont 1 h 20 sans surveillance",
   "temps_minutes": {
     "preparation": 12,
-    "cuisson": 95,
-    "attente": 0
+    "cuisson": 15,
+    "attente": 80
   },
   "preparation_avance": null,
   "nutrition": {

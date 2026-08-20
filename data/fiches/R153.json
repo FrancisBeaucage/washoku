@@ -1,0 +1,159 @@
+{
+  "id": "R153",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "vietnamienne",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "poche",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "sale-sucre",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "salade-de-poulet-et-chou-goi-ga-bap-cai",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "gỏi gà bắp cải",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "vi",
+  "fr": "Salade de poulet et chou (goi ga bap cai)",
+  "sous_titre": "Une gỏi de référence livre huit grammes de protéines par personne, parce qu'au Vietnam c'est un plat parmi quatre. Triplée, c'est un souper à quarante-et-un.",
+  "portions": "2",
+  "temps_affiche": "≈ 45 min dont 25 sans surveillance",
+  "temps_minutes": {
+    "preparation": 18,
+    "cuisson": 5,
+    "attente": 25
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 41,
+    "proteines_affiche": "41 g",
+    "calories": 310,
+    "calories_affiche": "≈ 310",
+    "lipides_g": 8,
+    "sodium_mg": 500,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Les 500 mg sont le sodium DES ASSAISONNEMENTS : deux cuillères à thé de nước mắm dans une vinaigrette déjà diluée de deux cuillères à soupe d'eau. Le sel du chou à l'étape 3 ne compte pas — on sale, l'eau sort, on presse, le sel part avec (cas 2 du A14). 🔴 EN REVANCHE, LA DEMI-CUILLÈRE À THÉ DE L'EAU DE POCHAGE N'EST COMPTÉE NI AU CAS 2 NI AU CAS 3 : une poitrine qui reste trente minutes dans cette eau en absorbe une part réelle, non chiffrée. C'est le même régime ouvert que le mushidori de R82. Le chiffre réel est entre 500 et 700 mg par portion, et une pesée le trancherait mieux qu'une estimation de plus. Le sel du pochage peut aussi être retiré entièrement sans rien perdre. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "360 g de poitrine de poulet — 180 g par couvert, et c'est LE changement : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 g de chou vert en lanières TRÈS fines",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 oignon rouge en fines lamelles, rincé à l'eau froide",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 carotte en julienne fine",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 grosse poignée de rau răm (menthe vietnamienne) OU de menthe ordinaire",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "20 g d'arachides non salées grillées, écrasées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA VINAIGRETTE : 3 c. à soupe de jus de lime · 2 c. à thé de nước mắm · 1 c. à thé de sucre · 2 c. à soupe d'eau · 1 gousse d'ail râpée · 1 piment",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "POUR LE POCHAGE : 4 tranches de gingembre · 2 oignons verts · 1/2 c. à thé de sel dans l'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE ÉCHALOTE FRITE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T12"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 : le poulet dans l'eau FROIDE avec le gingembre, les oignons verts et le sel. MONTER À FRÉMISSEMENT, 5 MINUTES, ÉTEINDRE, COUVRIR, 25 MINUTES. Méthode de l'eau éteinte, comme le mushidori de R82."
+    },
+    {
+      "n": 2,
+      "texte": "SORTIR, LAISSER REFROIDIR, EFFILER À LA MAIN DANS LE SENS DU GRAIN. À la main et non au couteau : les fibres prennent la vinaigrette."
+    },
+    {
+      "n": 3,
+      "texte": "SALER LE CHOU LÉGÈREMENT ET LE LAISSER 10 MINUTES, PUIS PRESSER À LA MAIN. ⚠️ Ce sel-là ne compte pas — on presse, il part avec l'eau. Le sel de l'eau de pochage, lui, est un autre cas : voir la note."
+    },
+    {
+      "n": 4,
+      "texte": "RINCER L'OIGNON ROUGE À L'EAU FROIDE 30 SECONDES : ça enlève le mordant sulfuré sans enlever le croquant."
+    },
+    {
+      "n": 5,
+      "texte": "Mélanger la vinaigrette. GOÛTER : franchement acide."
+    },
+    {
+      "n": 6,
+      "texte": "Tout mélanger à la main, dans un grand bol. LES HERBES ET LES ARACHIDES EN DERNIER."
+    },
+    {
+      "n": 7,
+      "texte": "SERVIR DANS LES 30 MINUTES."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Tripler la protéine : la seule modification qui compte",
+      "texte": "🔴 UNE GỎI N'EST PAS UN REPAS AU VIETNAM — C'EST UN PLAT PARMI QUATRE. La recette de référence livre de l'ordre de huit grammes de protéines par personne, parce qu'elle est servie avec du riz, une canh, un plat mijoté et un légume. Prise pour un souper telle quelle, c'est une assiette de chou.\n\nLA MODIFICATION EST DONC ÉNORME EN APPARENCE ET GRATUITE EN RÉALITÉ : cent quatre-vingts grammes de poulet par couvert au lieu de soixante. Quarante-et-un grammes de protéines par portion. ⚠️ Et ça ne coûte NI TEMPS NI SODIUM — le pochage est le même, la vinaigrette est la même. C'est la modification la plus rentable de tout le corpus vietnamien, et elle ne demande qu'à acheter plus de poulet.\n\nLA POITRINE PLUTÔT QUE LA CUISSE, ET ICI ÇA MARCHE. Vingt-trois grammes de protéines aux 100 g pour deux de lipides. Ce qui la rend utilisable, c'est le pochage à l'eau éteinte — cinq minutes de frémissement puis vingt-cinq minutes hors du feu. Une poitrine bouillie vingt-cinq minutes est de la sciure; celle-là est juste ferme. C'est le même mécanisme que le velouté de T5 au R138 : la poitrine n'est pas mauvaise, elle est intolérante à la chaleur prolongée.\n\n⚠️ LE SEL DU CHOU À L'ÉTAPE 3 NE COMPTE PAS DANS LES 500 MG, ET C'EST LA RÈGLE DU A14 : on sale, l'eau sort, on presse, le sel part avec. Ce qui reste est sous la précision de l'estimation.\n\n🔴 MAIS LA DEMI-CUILLÈRE À THÉ DE L'EAU DE POCHAGE EST UN CAS QUE LA RÈGLE NE COUVRE PAS, ET IL FAUT LE DIRE PLUTÔT QUE DE L'ARRONDIR. Le cas 2 du A14 — sel d'une eau qu'on jette, compté zéro — a été écrit pour un légume blanchi quarante secondes. Ici, une poitrine de poulet reste trente minutes dans cette eau et elle en absorbe une part réelle, qui n'est pas chiffrable. C'est exactement la situation du mushidori de R82. Les 500 mg sont donc le sodium des assaisonnements; le chiffre réel est entre 500 et 700 mg par portion. Le sel du pochage peut aussi être retiré entièrement sans rien perdre : il ne fait rien que les trente minutes hors du feu ne feraient.\n\nDEUX CUILLÈRES À THÉ ET NON UNE CUILLÈRE À SOUPE, ET LA VINAIGRETTE D'UNE GỎI EST DÉJÀ DILUÉE PAR CONSTRUCTION — deux cuillères à soupe d'eau dedans. C'est la même logique que la nước chấm de R152 : le vietnamien dilue son sel avant de le servir. Quatre à cinq cents milligrammes par portion est la norme de la famille, pas une réduction.\n\n⚠️ LES ARACHIDES OUI, LES ÉCHALOTES FRITES NON. Vingt grammes d'arachides, c'est 120 calories et du croquant. Les échalotes frites du commerce sont frites à l'huile de palme et arrivent à 500 calories aux 100 g pour rien d'autre qu'un parfum. Le rapport ne tient pas, et l'ail frit du R151 fait le même travail pour le tiers du gras."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "3vhfZpWI69g",
+    "auteur": "Helen's Recipes (Vietnamese Food)",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R82",
+    "R152",
+    "R138"
+  ],
+  "commentaire_source": ""
+}

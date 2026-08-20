@@ -1,0 +1,145 @@
+{
+  "id": "R147",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "blanchi",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "crevettes-a-la-citronnelle-pla-goong",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "พล่ากุ้ง",
+  "lecture_origine": "pla goong",
+  "prononciation": null,
+  "langue_origine": "th",
+  "fr": "Crevettes à la citronnelle (pla goong)",
+  "sous_titre": "Trente grammes de protéines pour trois grammes de lipides — et sept cent soixante-quinze milligrammes de sodium dont la sauce de poisson ne porte qu'un tiers.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 14,
+    "cuisson": 2,
+    "attente": 4
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 30,
+    "proteines_affiche": "30 g",
+    "calories": 170,
+    "calories_affiche": "≈ 170",
+    "lipides_g": 3,
+    "sodium_mg": 775,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. 🔴 LA CAUSE DU CHIFFRE EST LA CREVETTE, PAS L'ASSAISONNEMENT : l'étiquette des crevettes crues décortiquées du dossier, lue le 18 août 2026, donne 730 mg par 125 g, soit 584 mg aux 100 g, avec sel et phosphate de sodium à la liste d'ingrédients. Trois cents grammes en portent ≈ 1 750 mg avant qu'une goutte de sauce de poisson entre. ⚠️ Le rinçage de l'étape 1 en récupère de l'ordre de 40 % — ESTIMATION, non mesure — d'où ≈ 525 mg par portion, plus 250 pour la cuillère à thé de sauce de poisson. C'est le poste du recueil qui mériterait le plus une pesée. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de crevettes crues décortiquées, DÉCONGELÉES ET RINCÉES À FOND : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 tiges de citronnelle, partie tendre seulement, en rondelles TRÈS fines",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 échalotes en fines lamelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 feuilles de makrut en chiffonnade de cheveu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 grosse poignée de menthe · 1 poignée de coriandre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA VINAIGRETTE T22 : 3 c. à soupe de jus de lime · 1 c. à thé de sauce de poisson SEULEMENT · 1/2 c. à thé de sucre · 4 piments oiseaux écrasés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 branche de céleri chinois · quelques tomates cerises",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T22"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "🔴 DÉCONGELER LES CREVETTES DANS L'EAU FROIDE, PUIS LES RINCER À L'EAU COURANTE UNE PAR UNE. Ce n'est pas une propreté : c'est le seul geste de ce plat qui déplace du sodium. Voir la note."
+    },
+    {
+      "n": 2,
+      "texte": "EAU À FRÉMISSEMENT, PAS À GROS BOUILLONS. LES CREVETTES 60 À 90 SECONDES, jusqu'à ce qu'elles soient roses et juste opaques. Sortir à l'écumoire, étaler à plat sur une assiette froide."
+    },
+    {
+      "n": 3,
+      "texte": "TRANCHER LA CITRONNELLE EN RONDELLES DE PAPIER. C'est tout le travail du plat, et une rondelle épaisse est un copeau de bois qu'on mâche."
+    },
+    {
+      "n": 4,
+      "texte": "Mélanger la vinaigrette dans un grand bol. GOÛTER : franchement acide, franchement piquant, à peine salé."
+    },
+    {
+      "n": 5,
+      "texte": "Les crevettes refroidies, la citronnelle, les échalotes, les feuilles de makrut. MÉLANGER."
+    },
+    {
+      "n": 6,
+      "texte": "LES HERBES EN DERNIER, À LA MAIN, SANS ÉCRASER. Servir tout de suite."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le sodium de ce plat est dans la crevette, et le répertoire ne l'avait pas vu",
+      "texte": "🔴 LE RÉPERTOIRE DES MANQUES ANNONÇAIT CE PLAT À « ~55 G DE PROTÉINES POUR ~3 G DE LIPIDES » ET C'ÉTAIT VRAI. IL NE DISAIT RIEN DU SODIUM, ET C'EST LÀ QUE TOUT SE JOUE.\n\nL'ÉTIQUETTE DES CREVETTES CRUES DÉCORTIQUÉES DU DOSSIER, LUE LE 18 AOÛT : 730 mg de sodium par 125 g, soit 584 mg aux 100 g. Liste d'ingrédients : crevettes, sel, phosphate de sodium. Trois cents grammes de crevettes portent donc ≈ 1 750 mg avant qu'une goutte de sauce de poisson entre dans le bol.\n\nCE QUE LE RINÇAGE DE L'ÉTAPE 1 RÉCUPÈRE : de l'ordre de 40 %, parce que la saumure est en surface et dans les premiers millimètres. Il reste ≈ 1 050 mg pour deux portions, soit 525 par portion. La cuillère à thé de sauce de poisson en ajoute 250. ⚠️ Le chiffre de 40 % est une estimation, pas une mesure — c'est le poste de ce document qui mériterait le plus une pesée.\n\n🔴 CONSÉQUENCE POUR TOUT LE DOSSIER, ET ELLE DÉPASSE CETTE FICHE : AUCUN PLAT DE CREVETTES BÂTI SUR CE PRODUIT NE PEUT ÊTRE UN PLAT À BAS SODIUM. Le tom yum de R27 avait déjà été recalculé pour cette raison. Et le levier n'est pas dans la recette — il est à l'épicerie : des crevettes sans phosphate ajouté feraient tomber ce plat de ≈ 775 à ≈ 300 mg par portion. À chercher au congélateur de Kim Phat, en lisant la liste d'ingrédients et non le devant du sac.\n\nCE QUI RESTE EXCELLENT, ET C'EST BEAUCOUP : trente grammes de protéines pour trois grammes de lipides et cent soixante-dix calories. Il n'y a pas une goutte d'huile dans ce plat. C'est la vinaigrette T22 dans sa forme la plus pure — acide, piquant, salé, aucun gras émulsifiant — et c'est pour ça qu'une salade thaïe de 300 g de protéine ne coûte rien en lipides.\n\n⚠️ UNE NOTE SUR LA VIDÉO. Un premier candidat au titre plausible a été écarté parce que la vérification n'a pas pu confirmer son sujet : l'écriture thaïe de son titre est revenue illisible. 🔴 Et il faut dire d'où vient l'illisibilité : ce n'est PAS un défaut de la vidéo, c'est une limite de la lecture de l'API — trois titres en écriture lao sont revenus en écriture thaïe sur d'autres fiches, donc la couche de lecture translittère les écritures non latines. ⚠️ CE QUI EN DÉCOULE : de l'oEmbed, seules la partie latine du titre et le nom de l'auteur sont fiables. L'écriture d'origine n'est une preuve ni pour confirmer ni pour infirmer. La décision reste la bonne — un candidat non confirmable se remplace — mais l'accusation était mal adressée. Ce n'est pas le raté de R56, où le titre était clair et le contenu différent."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "vtuyJ1gsAWg",
+    "auteur": "Thun Thun Channel",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R148",
+    "R27",
+    "R151"
+  ],
+  "commentaire_source": ""
+}

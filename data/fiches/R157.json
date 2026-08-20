@@ -1,0 +1,145 @@
+{
+  "id": "R157",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "vietnamienne",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "acide",
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "ferme",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "tofu-farci-a-la-sauce-tomate-dau-hu-nhoi-thit",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "đậu hũ nhồi thịt sốt cà",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "vi",
+  "fr": "Tofu farci à la sauce tomate (dau hu nhoi thit)",
+  "sous_titre": "Le plat de tous les jours de la maison vietnamienne. Deux protéines dans une assiette, et la tomate fait l'umami que la sauce de poisson n'a pas à faire.",
+  "portions": "4",
+  "temps_affiche": "≈ 40 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 20,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 24,
+    "proteines_affiche": "24 g",
+    "calories": 255,
+    "calories_affiche": "≈ 255",
+    "lipides_g": 15,
+    "sodium_mg": 375,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une seule cuillère à soupe de nước mắm pour quatre portions, et AUCUN SEL DANS LA FARCE. Ce qui remplit la place : quatre tomates mûres affaissées cinq minutes sans être remuées. ⚠️ Les 15 g de lipides supposent le tofu POÊLÉ sur une cuillère à soupe d'huile; la version classique le frit avant de le farcir, ce qui ajoute de l'ordre de trois cuillères à soupe d'huile — 360 calories et 40 g de lipides pour quatre portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de tofu FERME, en blocs de 5 cm, évidés à la petite cuillère",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA FARCE : 250 g de porc haché maigre · 1/2 oignon haché très fin · 2 oignons verts · 1/2 c. à thé de poivre noir · 1 c. à thé de fécule · aucun sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE : 4 tomates mûres en dés · 1/2 oignon en lamelles · 3 gousses d'ail · 200 ml d'eau · 1 c. à soupe de nước mắm · 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · coriandre · poivre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE FRITURE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "ÉPONGER LES BLOCS DE TOFU, CREUSER UNE CAVITÉ À LA PETITE CUILLÈRE en gardant 1 cm de paroi. GARDER LA MIE DE TOFU : elle va dans la farce."
+    },
+    {
+      "n": 2,
+      "texte": "Mélanger la farce avec la mie de tofu émiettée, TRAVAILLER 30 SECONDES JUSQU'AU COLLANT."
+    },
+    {
+      "n": 3,
+      "texte": "FARINER L'INTÉRIEUR DE CHAQUE CAVITÉ D'UN PEU DE FÉCULE, puis presser la farce dedans en la bombant. C'est le même geste qu'au R117 : sans lui, la farce se décolle en cuisant."
+    },
+    {
+      "n": 4,
+      "texte": "Poêle antiadhésive, 1 c. à soupe d'huile, feu moyen. CÔTÉ FARCE EN DESSOUS D'ABORD, 4 MINUTES SANS Y TOUCHER. Retourner et dorer les autres faces, 4 minutes. Sortir."
+    },
+    {
+      "n": 5,
+      "texte": "Même poêle : l'ail, l'oignon, 1 minute. LES TOMATES, 5 MINUTES SANS REMUER, jusqu'à ce qu'elles s'affaissent et rendent leur jus."
+    },
+    {
+      "n": 6,
+      "texte": "L'eau, la sauce de poisson, le sucre. GOÛTER LA SAUCE SEULE."
+    },
+    {
+      "n": 7,
+      "texte": "REMETTRE LE TOFU FARCI, SAUCE À MI-HAUTEUR, 8 À 10 MINUTES À COUVERT. Retourner une fois en remuant la poêle, pas le tofu."
+    },
+    {
+      "n": 8,
+      "texte": "Verdure et poivre au service. AVEC DU RIZ."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La tomate fait l'umami, et c'est pourquoi une cuillère suffit",
+      "texte": "C'EST UN CƠM NHÀ — un plat « de riz de la maison », c'est-à-dire ce qu'on mange un mardi soir sans y penser. Le recueil a beaucoup de plats vietnamiens de restaurant et presque aucun de ceux-là. Celui-ci en est le type même : bon marché, sans ingrédient introuvable, et meilleur réchauffé.\n\n🔴 TROIS CENT SOIXANTE-QUINZE MILLIGRAMMES POUR VINGT-QUATRE GRAMMES DE PROTÉINES, ET C'EST LA TOMATE QUI LE PERMET. Une cuillère à soupe de nước mắm pour quatre portions — 375 mg chacune — sur un plat mijoté. Ce qui remplit la place : quatre tomates mûres affaissées cinq minutes sans être remuées. Le glutamate d'une tomate cuite est un umami réel, et c'est exactement le mécanisme des œufs à la tomate de R142. ⚠️ Deux fiches de deux cuisines qui reposent sur la même chose, et ça vaut d'être nommé : la tomate est l'agent umami le moins salé du recueil.\n\nDEUX PROTÉINES DANS UNE ASSIETTE, ET LE TOFU N'EST PAS UN REMPLISSEUR. Quatre cents grammes de tofu ferme portent 47 g de protéines; les 250 g de porc en portent 47 aussi. Moitié-moitié. ⚠️ Et le tofu coûte 20 g de lipides là où la même protéine en porc en coûterait 25 — le gain est réel mais modeste. Le vrai intérêt du tofu ici est structurel : il est le contenant.\n\n⚠️ LA VERSION CLASSIQUE FRIT LE TOFU AVANT DE LE FARCIR, ET C'EST LE SEUL POINT À CHANGER. Quatre cents grammes de tofu frit absorbent de l'ordre de trois cuillères à soupe d'huile — 360 calories, 40 g de lipides. Poêlé à sec sur une cuillère à soupe d'huile dans une poêle antiadhésive, il développe la même croûte. C'est la même correction qu'au tofu braisé rouge de R137.\n\nLA MIE DE TOFU VA DANS LA FARCE ET CE N'EST PAS DE L'ÉCONOMIE. Elle retient l'eau : une farce de porc pur dans une cavité de tofu est sèche et se contracte. Avec un quart de tofu émietté dedans, elle reste moelleuse et elle gonfle au lieu de rétrécir — ce qui aide aussi à ce qu'elle tienne. Même mécanisme que la galette de R110.\n\nSE GARDE 3 JOURS ET C'EST MEILLEUR LE LENDEMAIN, parce que le tofu continue de boire la sauce. Un des rares plats du recueil dont on peut faire le double sans regret."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "-ulewHRgtbg",
+    "auteur": "Helen's Recipes (Vietnamese Food)",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R142",
+    "R137",
+    "R117"
+  ],
+  "commentaire_source": ""
+}

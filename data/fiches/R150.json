@@ -1,0 +1,146 @@
+{
+  "id": "R150",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "vapeur",
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "poisson-vapeur-sauce-lime-crue-pla-neung-manao",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ปลานึ่งมะนาว",
+  "lecture_origine": "pla neung manao",
+  "prononciation": null,
+  "langue_origine": "th",
+  "fr": "Poisson vapeur, sauce lime crue (pla neung manao)",
+  "sous_titre": "Quarante grammes de protéines pour quatre grammes de lipides, et une sauce qu'on ne cuit pas. C'est le cas d'école de la réduction réussie.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 40,
+    "proteines_affiche": "40 g",
+    "calories": 210,
+    "calories_affiche": "≈ 210",
+    "lipides_g": 4,
+    "sodium_mg": 750,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. 🔴 LE CHIFFRE PORTÉ EST LE PRUDENT : 750 mg, SAUCE VERSÉE SUR LE POISSON ET MANGÉE EN ENTIER. Servie dans deux petits plats et trempée, la portion tombe à ≈ 450 mg — c'est le levier de la trempette du R118 et du R133, la sixième fiche du recueil à l'offrir. Une seule cuillère à soupe de sauce de poisson pour deux portions, contre trois dans une recette de restaurant. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de filet de poisson blanc ferme — bar, tilapia, morue — OU 1 poisson entier vidé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 tiges de citronnelle écrasées, à mettre SOUS le poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE, CRUE, mélangée pendant que le poisson cuit :",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 c. à soupe de jus de lime — 5 limes, et c'est voulu : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "8 gousses d'ail hachées fin · 6 piments oiseaux hachés · 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 branches de céleri chinois en fines rondelles, feuilles comprises",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : coriandre en abondance",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "COUCHER LES TIGES DE CITRONNELLE ÉCRASÉES AU FOND DU PLAT DE CUISSON ET POSER LE POISSON DESSUS. Elles le surélèvent et le parfument par le dessous."
+    },
+    {
+      "n": 2,
+      "texte": "VAPEUR À GROS BOUILLONS, 8 À 10 MINUTES POUR DES FILETS, 12 À 15 POUR UN POISSON ENTIER. La chair doit se séparer à la fourchette au plus épais."
+    },
+    {
+      "n": 3,
+      "texte": "PENDANT CE TEMPS : MÉLANGER TOUTE LA SAUCE À FROID. Elle ne voit jamais le feu."
+    },
+    {
+      "n": 4,
+      "texte": "GOÛTER LA SAUCE SEULE. Elle doit être agressivement acide et piquante — elle va se répartir sur 400 g de poisson doux."
+    },
+    {
+      "n": 5,
+      "texte": "VERSER LE LIQUIDE RENDU PAR LA CUISSON. Il est aqueux et il diluerait la sauce."
+    },
+    {
+      "n": 6,
+      "texte": "DEUX FAÇONS DE SERVIR, ET LA NOTE EXPLIQUE LAQUELLE CHOISIR : la sauce versée sur le poisson, ou la sauce dans deux petits plats et le poisson nu."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Cinq limes pour une cuillère de sauce de poisson",
+      "texte": "LA RECETTE DE RESTAURANT MET TROIS CUILLÈRES À SOUPE DE SAUCE DE POISSON. LA FICHE EN MET UNE, ET MONTE LA LIME DE DEUX À CINQ. C'est la réduction la plus forte du corpus thaï — un tiers du sel — et elle passe inaperçue en bouche.\n\n🔴 POURQUOI ÇA MARCHE ICI MIEUX QU'AILLEURS : LA SAUCE EST CRUE. Un acide qui n'a pas vu le feu garde tout son mordant; le même jus de lime dans un bouillon frémissant en perd la moitié en trois minutes. Sur une sauce crue, l'axe acide est à pleine puissance, et il peut donc porter une plus grande part du travail. C'est la contrepartie exacte de la règle « l'acide va hors du feu » — ici, il n'y a pas de feu du tout.\n\nET L'AIL CRU EST LE DEUXIÈME PORTEUR : HUIT GOUSSES. Cru et haché, il libère de l'allicine, qui pique et qui reste. Cuit, il devient sucré et docile. Le plat repose sur trois choses agressives — acide, piquant, ail cru — et la sauce de poisson n'est que la quatrième.\n\n🔴 LES DEUX FAÇONS DE SERVIR, ET CE QUE CHACUNE COÛTE. Versée sur le poisson, toute la sauce se mange : ≈ 750 mg par portion. Servie dans deux petits plats, on trempe et il en reste : ≈ 450 mg. C'est le même levier que le porc blanchi de R118 et le yosenabe de R133, et c'est la sixième fiche du recueil à l'offrir.\n\n⚠️ MAIS ICI IL Y A UN COÛT, ET IL FAUT LE DIRE : ce plat est conçu pour que la sauce imprègne le poisson. Servie à côté, chaque bouchée est trempée d'un côté seulement, et le poisson nu est fade. Mon avis : verser la sauce, et compenser ailleurs dans la journée. Sept cent cinquante milligrammes pour quarante grammes de protéines et quatre grammes de lipides reste un bon échange — mais c'est un plat à planifier, pas un plat de secours.\n\nLE LIQUIDE DE CUISSON SE JETTE, ET CE N'EST PAS DU GASPILLAGE. Un poisson vapeur rend deux à trois cuillères à soupe d'eau presque sans goût, qui viendraient allonger la sauce et l'affadir. La sauce est calibrée sur 400 g de poisson, pas sur 400 g de poisson plus son eau."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "ZvGbcKXZBLg",
+    "auteur": "Pailin's Kitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R118",
+    "R133"
+  ],
+  "commentaire_source": ""
+}

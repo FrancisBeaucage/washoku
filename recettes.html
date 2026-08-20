@@ -268,6 +268,10 @@ const RTP = (t) => String(t == null ? "" : t).split(/\n\n+/).map(x => ({ t: RT(x
 const MIN = (v) => (v && typeof v === "object") ? (v.min === v.max ? String(v.max) : v.min + " à " + v.max) : String(v == null ? 0 : v);
 const AUCUN = (v) => (v && typeof v === "object") ? !(v.max) : !v;
 const TOTAL = (t) => { const n = (v) => (v && typeof v === "object") ? (v.max || 0) : (v || 0); return n(t.preparation) + n(t.cuisson) + n(t.attente); };
+/* LE TEMPS DE PRÉSENCE : le total moins l'attente — S35 du document 31.
+   `vitesse` mesure le temps ÉCOULÉ, ce qui est ce qu'il faut pour planifier;
+   ce qui manquait est de voir combien de ce temps demande d'être là. */
+const ACTIF = (t) => { const n = (v) => (v && typeof v === "object") ? (v.max || 0) : (v || 0); return n(t.preparation) + n(t.cuisson); };
 
 /* Les libellés d'affichage des ensembles fermés, générés depuis
    tools/lib/champs.js. Une valeur sans libellé s'affiche telle quelle : mieux
@@ -410,6 +414,10 @@ class Component extends DCLogic {
         if (perso === "suspendu" || perso === "ecarte") pastilles.push({ classe: "past past-rouge", texte: LIB("statut_perso", perso), titre: "Statut personnel" });
         const bouts = [];
         if (r.temps_affiche) bouts.push(r.temps_affiche);
+        /* Le TEMPS DE PRÉSENCE à côté du temps affiché — S35 du document 31.
+           L'index ne porte la clé que quand elle apprend quelque chose : sans
+           attente, elle vaudrait le total. */
+        if (r.temps_actif != null) bouts.push(r.temps_actif + " min de travail");
         if (r.proteines_g != null) bouts.push(r.proteines_g + " g prot.");
         if (r.calories != null) bouts.push(r.calories + " cal");
         return {

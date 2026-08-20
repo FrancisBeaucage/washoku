@@ -117,6 +117,21 @@ const index = triees.map((f) => sansVides({
      une fiche porte deux méthodes de cuisson. L'index sert à choisir un plat
      pour un soir donné — c'est la borne haute qui décide si on a le temps. */
   temps_minutes: minutes(f.temps_minutes.preparation) + minutes(f.temps_minutes.cuisson) + minutes(f.temps_minutes.attente),
+  /* LE TEMPS DE PRÉSENCE, quand il est plus court que le temps total. C'est le
+     S35 du document 31 : `vitesse` mesure le temps ÉCOULÉ, et c'est le bon
+     choix — une soupe d'une heure quarante-cinq ne s'insère pas dans un mardi
+     soir, même si elle ne demande que vingt minutes de présence. Mais un plat à
+     vingt minutes de travail et un plat à quatre-vingt-dix se ressemblaient sur
+     une carte, et le débrief du 18 août 2026 l'avait dit en toutes lettres : le
+     nombre de gestes et le temps de présence décident pour qui cuisine avec des
+     interruptions.
+
+     Il se DÉRIVE, il n'est pas un champ de plus : `préparation + cuisson`, donc
+     le total moins l'attente. La clé n'est écrite que lorsqu'elle apprend
+     quelque chose — sans attente, elle vaudrait le total et ne dirait rien. */
+  temps_actif: minutes(f.temps_minutes.attente)
+    ? minutes(f.temps_minutes.preparation) + minutes(f.temps_minutes.cuisson)
+    : null,
   temps_affiche: f.temps_affiche,
   proteines_g: f.nutrition.proteines_g,
   calories: f.nutrition.calories,

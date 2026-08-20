@@ -1,0 +1,167 @@
+{
+  "id": "R155",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "vietnamienne",
+  "vitesse": "rapide",
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote",
+    "poche"
+  ],
+  "axe_gout": [
+    "acide",
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "croquant",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-aigre-au-poisson-canh-chua-ca",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "canh chua cá",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "vi",
+  "fr": "Soupe aigre au poisson (canh chua ca)",
+  "sous_titre": "La soupe que les familles vietnamiennes font vraiment. L'acide est le milieu de cuisson, et l'ananas fait le sucre — pas le sucrier.",
+  "portions": "4",
+  "temps_affiche": "≈ 30 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 24,
+    "proteines_affiche": "24 g",
+    "calories": 200,
+    "calories_affiche": "≈ 200",
+    "lipides_g": 8,
+    "sodium_mg": 375,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ SOUPE QU'ON BOIT : les 375 mg comptent EN ENTIER. Une seule cuillère à soupe de nước mắm pour 1,2 litre, et c'est tout le sel du plat — le tamarin, l'ananas, les tomates et les herbes n'en portent aucun. Comparé nommément : c'est l'ordre du tonjiru de R129 à 350 mg et du tom saap de R146 à 375. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "500 g de filet de poisson à chair grasse — basa, poisson-chat, ou saumon — en gros morceaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1,2 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de pulpe de tamarin délayée dans 150 ml d'eau chaude, filtrée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g d'ananas frais en morceaux — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 tomates en quartiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de gombos (okra) en biseaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de bạc hà (tiges de taro) OU de céleri en gros tronçons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de germes de haricot mungo, ajoutés hors du feu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de nước mắm · 1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES HERBES, et elles ne sont pas décoratives : rau ngổ (riz paddy herb) · ngò gai (coriandre longue) · à défaut, coriandre et basilic thaï",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : ail frit · piments en rondelles",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Délayer le tamarin dans l'eau chaude, écraser, FILTRER ET JETER LES FIBRES."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole : l'eau, le jus de tamarin, l'ananas, les tomates. FRÉMISSEMENT 8 MINUTES. L'ananas doit ramollir et donner son sucre."
+    },
+    {
+      "n": 3,
+      "texte": "La sauce de poisson, le sucre. GOÛTER LE BOUILLON SEUL : franchement acide, à peine sucré, à peine salé."
+    },
+    {
+      "n": 4,
+      "texte": "Les tiges de taro ou le céleri, 3 minutes. Les gombos, 2 minutes. PAS PLUS : les gombos trop cuits deviennent gluants."
+    },
+    {
+      "n": 5,
+      "texte": "🔴 LE POISSON EN DERNIER, 4 MINUTES, SANS REMUER. Pousser les morceaux sous le liquide et les laisser."
+    },
+    {
+      "n": 6,
+      "texte": "ÉTEINDRE. LES GERMES DE HARICOT ET LES HERBES HORS DU FEU, ils doivent rester crus et croquants."
+    },
+    {
+      "n": 7,
+      "texte": "Ail frit et piments à table."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Deux soupes aigres dans ce document, et elles ne font pas le même travail",
+      "texte": "R145 LE GAENG SOM ET CELLE-CI PARTENT DU MÊME ACIDE — LE TAMARIN — ET ARRIVENT AILLEURS. La différence vaut d'être sue, parce qu'on choisira entre les deux.\n\nL'OSSATURE : dans le gaeng som, c'est le gapi, une pâte de crevette fermentée; ici, c'est l'ananas et les tomates, le sucre du fruit. LE PIQUANT : central dans le gaeng som, deux piments dans le bouillon; à table dans la canh chua, dans un plat à part. LES HERBES : aucune dans le gaeng som; une poignée par bol, crues, ici. LE RÔLE AU REPAS : le gaeng som est le plat principal, sur du riz; la canh chua est le canh, la soupe qui accompagne.\n\n🔴 ET C'EST LE POINT LE PLUS UTILE : LE CANH EST L'ÉQUIVALENT VIETNAMIEN DU ICHIJU. Une soupe claire, peu salée, servie avec le riz et les autres plats — pas un plat en soi. Le recueil en avait une, R39; celle-ci est la deuxième et c'est la version aigre. Vingt-quatre grammes de protéines par bol en font une soupe qui nourrit, contrairement à la plupart des canh.\n\nL'ANANAS N'EST PAS UNE FANTAISIE ET IL REMPLACE DU SUCRE. Deux cents grammes d'ananas frais apportent de l'ordre de 20 g de sucres naturels, un acide malique qui complète le tamarin, et de la broméline qui attendrit le poisson. ⚠️ En conserve dans le sirop, il apporte le double de sucre et aucun acide — frais ou congelé, jamais en conserve.\n\nLES HERBES SONT LA MOITIÉ DU PLAT ET ELLES SE TROUVENT. Le rau ngổ et le ngò gai sont chez Kim Phat au rayon des herbes, en bottes. Sans elles, c'est une bonne soupe aigre; avec elles, c'est une canh chua. À défaut : de la coriandre en quantité et un peu de basilic thaï — ce n'est pas la même chose et il faut le savoir.\n\n⚠️ SOUPE QU'ON BOIT : ses 375 mg comptent en entier. Une cuillère à soupe de nước mắm pour 1,2 litre, et c'est tout le sel. Comparé nommément : c'est l'ordre du tonjiru de R129 à 350 mg et du tom saap de R146 à 375.\n\nLES GOMBOS SONT LE PIÈGE DE TEXTURE. Deux minutes et ils sont fermes et fondants; quatre et ils libèrent leur mucilage et le bouillon devient filant. Les couper en biseaux épais plutôt qu'en rondelles minces : moins de surface coupée, moins de gluant."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "vO81lQvYodI",
+    "auteur": "Helen's Recipes (Vietnamese Food)",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R145",
+    "R39",
+    "R146"
+  ],
+  "commentaire_source": ""
+}

@@ -35,8 +35,8 @@
   "temps_affiche": "≈ 70 min dont 45 de cuiseur",
   "temps_minutes": {
     "preparation": 20,
-    "cuisson": 45,
-    "attente": 10
+    "cuisson": 0,
+    "attente": 55
   },
   "preparation_avance": null,
   "nutrition": {

@@ -1,0 +1,133 @@
+{
+  "id": "R152",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "vietnamienne",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "condiment",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "acide",
+    "sale-sucre",
+    "piquant"
+  ],
+  "axe_texture": [
+    "glissant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "la-trempette-diluee-nuoc-cham",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "nước chấm",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "vi",
+  "fr": "La trempette diluée (nuoc cham)",
+  "sous_titre": "Deux parts de sauce de poisson pour six d'eau. Ce n'est pas une version allégée : la dilution est la recette, et c'est la manœuvre centrale de la cuisine vietnamienne.",
+  "portions": "6",
+  "temps_affiche": "≈ 5 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 0,
+    "proteines_affiche": "0 g",
+    "calories": 15,
+    "calories_affiche": "≈ 15",
+    "lipides_g": 0,
+    "sodium_mg": 500,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, et la portion est de 2 c. à soupe de trempette montée — soit ≈ 250 mg par cuillère à soupe. Deux cuillères à soupe de nước mắm non dilué portent ≈ 3 000 mg : diluées dans l'eau et servies en six petits plats, elles ne livrent que ce qu'on a trempé. ⚠️ Le chiffre suppose qu'on mange TOUTE sa portion de trempette; le geste du plat est précisément de n'en manger qu'une partie. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 c. à soupe de nước mắm (sauce de poisson)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 c. à soupe d'eau chaude",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de jus de lime — ou de vinaigre de riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 gousses d'ail hachées TRÈS fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 à 2 piments oiseaux en rondelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif et traditionnel : 2 c. à soupe de carotte en très fines lanières · un peu de daikon",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "DISSOUDRE LE SUCRE DANS L'EAU CHAUDE D'ABORD. Dans l'eau froide, il reste au fond et la trempette est sucrée en dernière gorgée."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter la sauce de poisson et le jus de lime. GOÛTER : ÇA DOIT ÊTRE BUVABLE. Une nước chấm correcte se boit à la cuillère sans grimacer — c'est le test."
+    },
+    {
+      "n": 3,
+      "texte": "L'AIL ET LE PIMENT EN DERNIER, POUR QU'ILS FLOTTENT. L'ail haché fin flotte; l'ail écrasé coule."
+    },
+    {
+      "n": 4,
+      "texte": "Servir dans de PETITS plats individuels, un par couvert."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La dilution EST la recette, et elle était là avant nous",
+      "texte": "🔴 DEUX PARTS DE SAUCE DE POISSON POUR SIX PARTS D'EAU. CE N'EST PAS UNE RÉDUCTION QUE J'AI FAITE : C'EST LA RECETTE, ET ELLE EST VIEILLE. La cuisine vietnamienne dilue son sel avant de le servir, systématiquement — et le dossier a cherché ce levier pendant des documents alors qu'une cuisine entière est construite dessus.\n\nCE QUE ÇA CHANGE, CHIFFRÉ. Deux cuillères à soupe de nước mắm mises dans un plat, c'est 3 000 mg qu'on mange en entier. Les mêmes deux cuillères diluées dans 200 ml et servies en six petits plats individuels livrent ce qu'on a trempé, et rien de plus.\n\n🔴 ET C'EST EXACTEMENT LA LOGIQUE DU CONTENANT QUI DÉCIDE DE LA PORTION, APPLIQUÉE AU SEL AU LIEU DU VOLUME. Le ichiju sansai met la portion dans le bol; la nước chấm met le sodium dans le bol. Même idée, autre grandeur. ⚠️ C'est la septième fiche du recueil à appliquer le levier de la trempette, et la première où le levier EST le plat.\n\nLE TEST DE L'ÉTAPE 2 EST LE SEUL QUI COMPTE ET IL EST INFAILLIBLE : UNE NƯỚC CHẤM SE BOIT À LA CUILLÈRE. Si elle fait grimacer, elle est trop concentrée — et une trempette trop concentrée s'utilise en plus petite quantité mais avec plus de sel par bouchée, ce qui annule tout. Diluer jusqu'à ce que ce soit buvable est le geste qui rend la dilution efficace.\n\nLES USAGES, ET ILS SONT NOMBREUX : le bún chả de R18, les galettes de R64, le porc blanchi de la salade de R153, n'importe quel légume blanchi de T21, des rouleaux de riz, du riz nature. Se garde une semaine au frigo sans l'ail et le piment, deux jours avec.\n\n⚠️ LA CUILLÈRE À SOUPE DE SUCRE POUR SIX PORTIONS EST LE POSTE À NE PAS LAISSER DÉRIVER. Deux grammes de sucre par portion. Les versions de restaurant en mettent deux à trois fois plus, parce qu'une trempette sucrée fait manger davantage. C'est le même piège que le som tam de R149."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "OrUZzchXGzo",
+    "auteur": "Helen's Recipes (Vietnamese Food)",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R18",
+    "R64",
+    "R153"
+  ],
+  "commentaire_source": ""
+}

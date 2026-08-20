@@ -1,0 +1,160 @@
+{
+  "id": "R144",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "thaie",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "piquant",
+    "aromatique",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "croquant",
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "curry-de-la-jungle-gaeng-pa",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "แกงป่า",
+  "lecture_origine": "gaeng pa",
+  "prononciation": null,
+  "langue_origine": "th",
+  "fr": "Curry de la jungle (gaeng pa)",
+  "sous_titre": "Un curry thaï franc et brûlant, monté à l'eau. Pas une goutte de lait de coco — et ce n'est pas une version allégée, c'est le plat tel qu'il existe.",
+  "portions": "4",
+  "temps_affiche": "≈ 35 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 20,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 27,
+    "proteines_affiche": "27 g",
+    "calories": 295,
+    "calories_affiche": "≈ 295",
+    "lipides_g": 13,
+    "sodium_mg": 425,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — deux cuillères à soupe de pâte de curry du commerce (≈ 700 mg pour quatre portions) et deux cuillères à thé de sauce de poisson; une recette ordinaire en met quatre à cinq cuillères à soupe de pâte, soit 1 400 à 1 750 mg à elle seule. Le plat se mange sur du riz et la sauce descend dans le riz : le chiffre la compte EN ENTIER, c'est le cas prudent. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de haut de cuisse de poulet désossé sans peau, en morceaux de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de pâte de curry rouge du commerce — et non quatre ou cinq : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 L d'eau OU de bouillon de poulet non salé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g d'aubergines thaïes en quartiers, OU 1 aubergine japonaise",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de haricots longs en tronçons de 4 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de pousses de bambou en conserve, RINCÉES",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé de sauce de poisson SEULEMENT",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES AROMATES QUI COMPENSENT : 4 piments oiseaux frais écrasés · 2 branches de poivre vert frais si tu en trouves · 6 feuilles de makrut froissées · 1 c. à soupe de krachai (gingembre-doigt) en julienne · 1 grosse poignée de basilic thaï, hors du feu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN LAIT DE COCO — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Poêle profonde ou casserole, 1 c. à thé d'huile, feu moyen. LA PÂTE DE CURRY 60 SECONDES, EN L'ÉCRASANT — elle doit sentir fort et foncer légèrement."
+    },
+    {
+      "n": 2,
+      "texte": "Le poulet, 2 minutes en remuant, pour qu'il s'enrobe de pâte."
+    },
+    {
+      "n": 3,
+      "texte": "VERSER L'EAU, AMENER À FRÉMISSEMENT, ÉCUMER UNE FOIS. 10 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "Les pousses de bambou rincées et les aubergines, 5 minutes. LES HARICOTS LONGS, 3 MINUTES — ils doivent rester fermes."
+    },
+    {
+      "n": 5,
+      "texte": "La sauce de poisson, les feuilles de makrut, le krachai, les piments écrasés, le poivre vert. 2 MINUTES."
+    },
+    {
+      "n": 6,
+      "texte": "GOÛTER MAINTENANT. S'IL MANQUE QUELQUE CHOSE, CE N'EST PAS DU SEL : c'est du piment ou de la lime. Voir la note."
+    },
+    {
+      "n": 7,
+      "texte": "Éteindre, le basilic thaï par-dessus. SERVIR AVEC DU RIZ — c'est un plat qu'on mange par-dessus du riz, pas une soupe."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Curry ne veut pas dire lait de coco, et ce plat le prouve",
+      "texte": "🔴 แกง GAENG NE VEUT PAS DIRE « CURRY AU LAIT DE COCO » : ÇA DÉSIGNE TOUTE UNE FAMILLE, ET LA MOITIÉ DE CETTE FAMILLE EST MONTÉE À L'EAU. Le gaeng pa, le gaeng som de R145, le gaeng liang : aucun des trois n'a jamais eu de coco. Ce ne sont pas des versions allégées de quelque chose — ce sont des plats différents, et ils sont meilleurs pour le dossier.\n\nCE QUE ÇA VAUT, CHIFFRÉ. Un curry vert domestique met 400 ml de lait de coco entier pour quatre portions : environ 800 calories et 80 g de lipides, soit 200 calories et 20 g de lipides par portion. Celui-ci en met zéro. Treize grammes de lipides par portion, et ils viennent tous du poulet.\n\n⚠️ ET LE SODIUM CACHÉ DE CE PLAT EST LA PÂTE DE CURRY, PAS LA SAUCE DE POISSON. C'est le contraire de ce qu'on suppose. Une recette ordinaire met 4 à 5 cuillères à soupe de pâte du commerce — 1 400 à 1 750 mg à elle seule. La fiche en met deux, soit ≈ 700 mg pour quatre portions.\n\n🔴 CE QUI REND LA RÉDUCTION POSSIBLE EST À L'ÉTAPE 5, ET C'EST LE MÉCANISME LE PLUS UTILE DU LOT THAÏ : LA STRUCTURE DU PLAT EST ÉLASTIQUE. Le gaeng pa tient sur trois axes — le piquant, l'aromatique et le salé — et les deux premiers se montent librement. Quatre piments frais au lieu de deux, du poivre vert, du krachai, des feuilles de makrut : rien de tout ça ne porte de sodium, et tout ça remplit la place que la pâte occupait. C'est pourquoi l'étape 6 dit de ne pas ajouter de sel quand ça manque de quelque chose.\n\nLE KRACHAI EST L'INGRÉDIENT SIGNATURE ET IL EST FACULTATIF À CONTRECŒUR. C'est un rhizome en doigts fins, vendu congelé ou en pot chez Kim Phat, au goût médicinal et poivré qui ne ressemble à rien d'autre. Sans lui, c'est un bon curry à l'eau; avec lui, c'est un gaeng pa.\n\n⚠️ QUATRE CENT VINGT-CINQ MILLIGRAMMES, ET LE BOUILLON SE MANGE EN PARTIE. On sert ce plat sur du riz, la sauce descend dans le riz. Le chiffre le compte en entier — c'est le cas prudent."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "qaeiUpMz028",
+    "auteur": "Pailin's Kitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R145",
+    "R28"
+  ],
+  "commentaire_source": ""
+}

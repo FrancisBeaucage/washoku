@@ -200,6 +200,10 @@ const RTP = (t) => String(t == null ? "" : t).split(/\n\n+/).map(x => ({ t: RT(x
 const MIN = (v) => (v && typeof v === "object") ? (v.min === v.max ? String(v.max) : v.min + " à " + v.max) : String(v == null ? 0 : v);
 const AUCUN = (v) => (v && typeof v === "object") ? !(v.max) : !v;
 const TOTAL = (t) => { const n = (v) => (v && typeof v === "object") ? (v.max || 0) : (v || 0); return n(t.preparation) + n(t.cuisson) + n(t.attente); };
+/* LE TEMPS DE PRÉSENCE : le total moins l'attente — S35 du document 31.
+   `vitesse` mesure le temps ÉCOULÉ, ce qui est ce qu'il faut pour planifier;
+   ce qui manquait est de voir combien de ce temps demande d'être là. */
+const ACTIF = (t) => { const n = (v) => (v && typeof v === "object") ? (v.max || 0) : (v || 0); return n(t.preparation) + n(t.cuisson); };
 
 /* Les libellés d'affichage des ensembles fermés, générés depuis
    tools/lib/champs.js. Une valeur sans libellé s'affiche telle quelle : mieux

@@ -36,8 +36,8 @@
   "temps_affiche": "≈ 45 min dont 25 de pochage",
   "temps_minutes": {
     "preparation": 10,
-    "cuisson": 30,
-    "attente": 10
+    "cuisson": 5,
+    "attente": 35
   },
   "preparation_avance": null,
   "nutrition": {

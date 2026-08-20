@@ -1,0 +1,137 @@
+{
+  "id": "R149",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "thaie",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "cru"
+  ],
+  "axe_gout": [
+    "acide",
+    "piquant",
+    "sesame-noisette"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "salade-de-papaye-verte-som-tam-thai",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ส้มตำไทย",
+  "lecture_origine": "som tam thai",
+  "prononciation": null,
+  "langue_origine": "th",
+  "fr": "Salade de papaye verte (som tam thai)",
+  "sous_titre": "Le croquant le plus franc du corpus thaï. Deux grammes de protéines — c'est un poste légume, et il faut le compter comme tel.",
+  "portions": "4",
+  "temps_affiche": "≈ 20 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 85,
+    "calories_affiche": "≈ 85",
+    "lipides_g": 3,
+    "sodium_mg": 375,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une cuillère à soupe de sauce de poisson pour quatre portions, seul poste salé du plat. ⚠️ La cuillère à soupe de crevettes séchées facultative porte de l'ordre de 400 mg à elle seule : elle doublerait le sel du plat pour un demi-gramme de protéines par portion. ⚠️ DEUX GRAMMES DE PROTÉINES PAR PORTION : c'est un poste légume, pas un plat. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de papaye verte râpée en longs filaments — au couteau ou à la râpe à julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de haricots longs en tronçons de 3 cm, écrasés au mortier",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 tomates en quartiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 gousses d'ail · 2 à 4 piments oiseaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA VINAIGRETTE T22 : 3 c. à soupe de jus de lime · 1 c. à soupe de sauce de poisson · 1 c. à thé de sucre de palme SEULEMENT : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "20 g d'arachides non salées grillées à sec, écrasées grossièrement",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à soupe de crevettes séchées",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T22"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "AU MORTIER — LE KROK DE TERRE CUITE : l'ail et les piments, piler grossièrement."
+    },
+    {
+      "n": 2,
+      "texte": "Le sucre de palme, la sauce de poisson, le jus de lime. PILER JUSQU'À DISSOLUTION DU SUCRE. GOÛTER."
+    },
+    {
+      "n": 3,
+      "texte": "Les haricots longs, PILER POUR LES FENDRE sans les réduire en purée."
+    },
+    {
+      "n": 4,
+      "texte": "LA PAPAYE ET LES TOMATES. NE PAS PILER : SOULEVER À LA CUILLÈRE ET ÉCRASER AVEC LE PILON EN TOURNANT, quinze à vingt fois. Le geste s'appelle tam et c'est le nom du plat."
+    },
+    {
+      "n": 5,
+      "texte": "Les arachides écrasées à la fin. SERVIR DANS LES VINGT MINUTES — la papaye rend son eau."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Un poste légume qu'on prend pour un plat — et le mortier n'est pas facultatif",
+      "texte": "⚠️ PIÈGE DE COMPTABILITÉ, ET C'EST LA PREMIÈRE CHOSE À DIRE : DEUX GRAMMES DE PROTÉINES PAR PORTION. Un som tam ressemble à un plat parce qu'il remplit une assiette et qu'il a du caractère. Ce n'est pas un plat : c'est un poste légume à 85 calories, à mettre À CÔTÉ d'un laap ou d'un nam tok, jamais à leur place. Un souper bâti sur un som tam est un souper à 2 g de protéines.\n\n🔴 LE MORTIER DE TERRE CUITE EST LE VRAI PRÉREQUIS, ET C'EST LA SEULE FICHE DU RECUEIL OÙ UN USTENSILE CHANGE LE PLAT PLUTÔT QUE DE LE FACILITER. Le mot ตำ tam veut dire « piler ». Pilée, la papaye se fend le long de ses fibres et boit la vinaigrette; mélangée à la cuillère, elle reste lisse et la vinaigrette glisse dessus et s'accumule au fond du bol. Ce n'est pas une différence de finesse — c'est la différence entre un plat assaisonné et un plat avec de la sauce à côté.\n\n⚠️ Un mortier japonais — le suribachi de la liste d'épicerie — ne fait PAS l'affaire ici. Il est fait pour écraser des graines contre des stries, pas pour piler du volume. Le krok thaï est profond, lourd et lisse. À défaut : un grand bol et le fond d'une tasse épaisse, en écrasant par petites quantités.\n\nUNE CUILLÈRE À THÉ DE SUCRE DE PALME POUR QUATRE PORTIONS, ET LES RECETTES DE RESTAURANT EN METTENT DEUX À TROIS FOIS PLUS. C'est le poste où le som tam dérape : sucré, il devient une friandise et on en mange le double. Une cuillère à thé pour quatre, soit un gramme de sucre par portion, suffit à arrondir la lime.\n\nLES ARACHIDES OUI, À VINGT GRAMMES; LES CREVETTES SÉCHÉES AVEC PRUDENCE. Une cuillère à soupe de crevettes séchées porte de l'ordre de 400 mg de sodium — elles doubleraient le sel du plat pour un demi-gramme de protéines par portion. Le rapport ne tient pas.\n\nLA PAPAYE VERTE EST À KIM PHAT AU RAYON DES FRUITS, entière et lourde. Une demi-papaye donne les 400 g. À défaut : du chou-rave en julienne, ou de la carotte et du daikon à parts égales — ce n'est plus un som tam, mais le mécanisme du plat tient."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "Wvv0dqZ_xa4",
+    "auteur": "Pailin's Kitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R69",
+    "R70"
+  ],
+  "commentaire_source": ""
+}
