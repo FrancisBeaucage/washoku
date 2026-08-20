@@ -1,0 +1,148 @@
+{
+  "id": "R130",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "bouilli"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "moelleux",
+    "soyeux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "riz-en-bouillon-aux-oeufs-zosui",
+  "jp": "雑炊",
+  "jp_lecture": "ぞうすい",
+  "romaji": "zōsui",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Riz en bouillon aux œufs (zosui)",
+  "sous_titre": "Le débouché des restes du dossier : un bouillon, du riz froid rincé, deux œufs, et ce qui traîne. Vingt-trois grammes de protéines et aucun produit fermenté salé.",
+  "portions": "2",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 4,
+    "cuisson": 11,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 23,
+    "proteines_affiche": "23 g",
+    "calories": 405,
+    "calories_affiche": "≈ 405",
+    "lipides_g": 9,
+    "sodium_mg": 370,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel; au huitième, le bol tombe à environ 230 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "280 g de riz cuit — 2 rondelles congelées de 140 g, réchauffées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "500 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs battus",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de protéine cuite au choix : reste de poulet · reste de saumon · soboro R107 · 200 g de tofu ferme en cubes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · mitsuba · nori en lanières · un peu de gingembre râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 4 shiitake tranchés · 100 g d'épinards",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "RINCER LE RIZ CUIT À L'EAU FROIDE DANS UNE PASSOIRE, ET LE PRESSER LÉGÈREMENT. C'est le geste qui définit le plat : il enlève l'amidon de surface. Sans lui, le bouillon devient de la colle."
+    },
+    {
+      "n": 2,
+      "texte": "Faire T2 : 500 ml de dashi. Amener à frémissement, ajouter le soya et le sel."
+    },
+    {
+      "n": 3,
+      "texte": "Les légumes durs et la protéine cuite, 3 minutes."
+    },
+    {
+      "n": 4,
+      "texte": "LE RIZ RINCÉ, 4 À 5 MINUTES À FRÉMISSEMENT DOUX. Il doit gonfler un peu, pas se défaire."
+    },
+    {
+      "n": 5,
+      "texte": "VERSER LES ŒUFS BATTUS EN FILET, REMUER UNE FOIS, ÉTEINDRE. Couvrir 1 minute."
+    },
+    {
+      "n": 6,
+      "texte": "Verdure et nori par-dessus. SE MANGE TOUT DE SUITE : le zōsui ne se garde pas."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Rincer le riz : ce qui sépare le zōsui de l'okayu",
+      "texte": "LE RECUEIL A DEUX PLATS DE RIZ EN BOUILLON ET ILS NE SE REMPLACENT PAS. L'OKAYU de R6 cuit du riz CRU dans beaucoup d'eau pendant quarante minutes : les grains éclatent, l'amidon se libère, et on obtient une bouillie crémeuse — c'est un plat de convalescence. LE 雑炊 PART DE RIZ DÉJÀ CUIT, RINCÉ DE SON AMIDON, et le passe cinq minutes dans un bouillon clair : les grains restent entiers et le bouillon reste un bouillon.\n\n⚠️ D'OÙ L'ÉTAPE 1, QUI EST LA SEULE ÉTAPE OBLIGATOIRE DU PLAT. Du riz cuit non rincé porte de l'amidon gélatinisé en surface. Jeté dans un bouillon chaud, il le libère en trente secondes et le plat devient un okayu raté — trouble, épais, collant. Un rinçage de dix secondes à l'eau froide règle ça définitivement.\n\nCE PLAT EST L'OUTIL DU DOSSIER CONTRE LES RESTES, ET C'EST SON VRAI RÔLE. Un reste de poulet de R82, un morceau de saumon, une portion de soboro de R107, un demi-bloc de tofu : tout ce qui porte de la protéine entre ici sans changer la recette. Le champ des ingrédients dit « au choix » pour cette raison, et non par paresse.\n\nTROIS CENT SOIXANTE-DIX MILLIGRAMMES, ET AUCUN PRODUIT FERMENTÉ SALÉ N'ENTRE DANS LE BOL. Pas de miso, pas de pâte, pas de bouillon en cube : un quart de cuillère à thé de sel (575 mg) et une cuillère à thé de soya (167) dans un demi-litre de dashi. Comme au R127, tout ce sodium est dosable — au huitième de cuillère, le bol tombe à environ 230 mg. C'est aussi la fiche qui montre à quel point ce dossier dépend d'un dashi qui goûte quelque chose : ici, il n'y a rien d'autre.\n\nET C'EST LA FIN TRADITIONNELLE D'UN NABE. Quand le yosenabe de R133 est terminé, on rince du riz, on le jette dans ce qui reste du bouillon, on casse deux œufs dedans. ⚠️ ATTENTION LÀ : ON NE SALE PAS DU TOUT DANS CE CAS. Le bouillon d'un nabe fini est concentré et il a reçu du ponzu tombé dedans. Le zōsui de fin de nabe se monte sans ajouter un grain de sel, et il arrive quand même autour de 350 mg."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "t8OQDzDtL6U",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R6",
+    "R133"
+  ],
+  "commentaire_source": ""
+}

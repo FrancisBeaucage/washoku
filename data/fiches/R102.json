@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "불고기",
   "lecture_origine": "bulgogi",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Bulgogi — bœuf mariné grillé",
   "sous_titre": "Le deuxième plat le plus aimé de Corée, et son sodium est déjà correct sans qu'on y touche. Le seul ajustement est la coupe de bœuf, et la poire n'est pas décorative.",
@@ -118,9 +119,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "moyen",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

@@ -26,6 +26,7 @@
   "romaji": null,
   "nom_origine": "김구이",
   "lecture_origine": "gim gui",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Nori grillé à la maison (gim gui)",
   "sous_titre": "Vingt feuilles, une cuillère à soupe d'huile de sésame, une pincée de sel. Le faire soi-même plutôt que d'acheter les paquets préassaisonnés change tout, et c'est mesurable.",
@@ -43,10 +44,10 @@
     "calories": 15,
     "calories_affiche": "≈ 15",
     "lipides_g": 1,
-    "sodium_mg": 25,
+    "sodium_mg": 58,
     "variable": false,
     "source": "estime",
-    "note": "Par portion de DEUX FEUILLES : vingt feuilles donnent dix portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. Par portion de deux feuilles : le quart de cuillère à thé de sel se répartit sur vingt feuilles."
   },
   "ingredients": [
     {
@@ -100,15 +101,13 @@
   "notes": [
     {
       "titre": "Ce que ça change par rapport au paquet du commerce",
-      "texte": "LE NORI PRÉASSAISONNÉ DU COMMERCE — l'ajitsuke-nori japonais de R50, le gim assaisonné coréen — EST SALÉ À LA SOURCE, ET ON NE CONTRÔLE RIEN. Les paquets portent couramment 130 à 200 mg de sodium pour un petit sachet de huit feuilles, parfois avec du glutamate et du sucre. Fait à la maison avec un quart de cuillère à thé de sel pour vingt feuilles, LA MÊME QUANTITÉ EN PORTE DE L'ORDRE DE 25 MG.\n\nET LE GESTE QUI COMPTE EST LE DOSAGE DE L'HUILE, PAS LE GRILLAGE. Un nori trop huilé devient mou et gras au lieu de croustillant, et il double ses lipides pour rien. UNE FEUILLE CORRECTEMENT HUILÉE PARAÎT PRESQUE SÈCHE : l'huile ne fait que porter le sel et parfumer. Le pinceau est meilleur que les doigts, et une seule face suffit puisqu'on empile face contre face.\n\nLA FEUILLE DOIT VIRER AU VERT, C'EST LE SEUL REPÈRE. Le nori cru est noir-violet; grillé, il devient vert franc et cassant. Retiré trop tôt il reste souple et goûte l'algue humide; laissé trop longtemps il brunit et devient amer, et il n'y a pas de rattrapage. VINGT À TRENTE SECONDES PAR FACE, À FEU MOYEN-DOUX.\n\nSE GARDE DES SEMAINES DANS UN CONTENANT HERMÉTIQUE AVEC UN SACHET DÉSHYDRATANT SI ON EN A. L'ennemi est l'humidité, pas le temps : un nori qui ramollit se repasse dix secondes à la poêle sèche et redevient croustillant."
+      "texte": "LE NORI PRÉASSAISONNÉ DU COMMERCE — l'ajitsuke-nori japonais de R50, le gim assaisonné coréen — EST SALÉ À LA SOURCE, ET ON NE CONTRÔLE RIEN. Les sachets portent couramment de l'ordre de 150 à 250 mg de sodium pour la quantité qu'on mange d'un coup, parfois avec du glutamate et du sucre. FAIT À LA MAISON, LE QUART DE CUILLÈRE À THÉ DE SEL SE RÉPARTIT SUR VINGT FEUILLES : 575 mg au total, soit environ 58 mg pour une portion de deux feuilles. TROIS À QUATRE FOIS MOINS, et le chiffre du commerce est à relire sur le paquet au prochain achat plutôt qu'à croire sur parole.\n\nET LE GESTE QUI COMPTE EST LE DOSAGE DE L'HUILE, PAS LE GRILLAGE. Un nori trop huilé devient mou et gras au lieu de croustillant, et il double ses lipides pour rien. UNE FEUILLE CORRECTEMENT HUILÉE PARAÎT PRESQUE SÈCHE : l'huile ne fait que porter le sel et parfumer. Le pinceau est meilleur que les doigts, et une seule face suffit puisqu'on empile face contre face.\n\nLA FEUILLE DOIT VIRER AU VERT, C'EST LE SEUL REPÈRE. Le nori cru est noir-violet; grillé, il devient vert franc et cassant. Retiré trop tôt il reste souple et goûte l'algue humide; laissé trop longtemps il brunit et devient amer, et il n'y a pas de rattrapage. VINGT À TRENTE SECONDES PAR FACE, À FEU MOYEN-DOUX.\n\nSE GARDE DES SEMAINES DANS UN CONTENANT HERMÉTIQUE AVEC UN SACHET DÉSHYDRATANT SI ON EN A. L'ennemi est l'humidité, pas le temps : un nori qui ramollit se repasse dix secondes à la poêle sèche et redevient croustillant."
     }
   ],
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

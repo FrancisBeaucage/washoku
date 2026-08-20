@@ -29,6 +29,7 @@
   "romaji": null,
   "nom_origine": "김치찌개",
   "lecture_origine": "kimchi jjigae",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Ragoût de kimchi (kimchi jjigae)",
   "sous_titre": "Le plat coréen le plus mangé à la maison, et il entre au recueil avec son ajustement écrit dans la fiche. La règle tient en une phrase : le kimchi suffit, aucun sel ni soya ne s'ajoute.",
@@ -138,9 +139,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

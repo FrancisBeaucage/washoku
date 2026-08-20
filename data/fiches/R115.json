@@ -28,6 +28,7 @@
   "romaji": "gyūdon",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Bol de bœuf et oignons (gyūdon)",
   "sous_titre": "Huit minutes de mijotage, deux ingrédients, et le geste qui décide de tout : le bouillon reste dans la casserole.",
@@ -149,9 +150,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

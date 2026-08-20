@@ -1,0 +1,142 @@
+{
+  "id": "R121",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "acide",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "glissant",
+    "ferme"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "wakame-vinaigree-wakame-no-sunomono",
+  "jp": "わかめの酢の物",
+  "jp_lecture": "わかめのすのもの",
+  "romaji": "wakame no sunomono",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Wakame vinaigrée (wakame no sunomono)",
+  "sous_titre": "Le remplisseur de kobachi à vingt-cinq calories — et le plat qui apprend au dossier que les algues ne sont pas gratuites en sodium.",
+  "portions": "2",
+  "temps_affiche": "≈ 8 min dont 5 d'attente",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 0,
+    "attente": 5
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 25,
+    "calories_affiche": "≈ 25",
+    "lipides_g": 0,
+    "sodium_mg": 200,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "10 g de wakame séchée — elle fera environ 100 g réhydratée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 1/2 c. à soupe de vinaigre de riz",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sucre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN SEL AJOUTÉ — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN CONCOMBRE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de gingembre râpé · sésame grillé · 100 g de germes de haricot mungo blanchis 1 minute, pour le croquant",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T7b"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "FAIRE TREMPER LA WAKAME 5 MINUTES DANS BEAUCOUP D'EAU FROIDE. Elle gonfle de dix fois son volume."
+    },
+    {
+      "n": 2,
+      "texte": "RINCER À L'EAU COURANTE ET PRESSER À LA MAIN. JETER L'EAU DE TREMPAGE. C'est le geste qui enlève le sel du séchage, et c'est le seul de la recette qui compte pour le sodium."
+    },
+    {
+      "n": 3,
+      "texte": "Couper en morceaux de 3 cm si les frondes sont longues."
+    },
+    {
+      "n": 4,
+      "texte": "Mélanger le vinaigre, le sucre et le soya. GOÛTER LA VINAIGRETTE SEULE."
+    },
+    {
+      "n": 5,
+      "texte": "Verser sur la wakame pressée. Mélanger."
+    },
+    {
+      "n": 6,
+      "texte": "Laisser 5 minutes au frigo avant de servir — c'est là qu'elle prend."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Les algues ne sont pas gratuites, et le dossier le croyait",
+      "texte": "🔴 LE DOSSIER TRAITAIT LES ALGUES COMME GRATUITES PARCE QU'ELLES SONT SANS CALORIES. C'EST FAUX SUR LE SODIUM. La wakame séchée en porte de l'ordre de 2 500 à 3 500 mg aux 100 grammes — DIX GRAMMES DE FLOCONS SECS, C'EST DE L'ORDRE DE 300 MG DE SODIUM AVANT QU'ON AIT AJOUTÉ QUOI QUE CE SOIT. Rincée et pressée, il en reste peut-être les deux tiers. Deux cents milligrammes par portion pour un plat à vingt-cinq calories : le rapport est mauvais, et il fallait le savoir.\n\nCONSÉQUENCE DIRECTE, ET C'EST POURQUOI LA RECETTE NE MET PAS DE SEL : le sunomono classique commence par saler et faire dégorger. Ici il n'y a rien à faire dégorger — la wakame arrive déjà salée. Un quart de cuillère à thé de sel ajouterait 145 mg par portion pour rien.\n\nET C'EST POURQUOI L'ÉTAPE 2 N'EST PAS OPTIONNELLE. Ne pas jeter l'eau de trempage, c'est remettre le sel qu'on vient de sortir. Le même raisonnement vaut pour la wakame de la soupe miso : RINCER AVANT, PAS SEULEMENT RÉHYDRATER.\n\nCE N'EST PAS LE SUNOMONO DE R45, ET C'EST DÉLIBÉRÉ : CELUI-CI N'A PAS DE CONCOMBRE. Le concombre a été écarté au débrief du 18 août — mou et aqueux. La version à la wakame seule garde la famille de goût et jette la texture qui ne passait pas. Si un croquant est voulu, les germes de haricot mungo blanchis une minute le donnent sans rendre d'eau.\n\n⚠️ UNE NOTE D'IODE, ET ELLE EST FAVORABLE. La wakame porte 100 à 160 µg d'iode par gramme sec, soit 500 à 800 µg pour une portion de 5 g. C'est l'ordre de grandeur qui rend la wakame acceptable au quotidien, là où le kombu, à 1 500 à 3 000 µg par gramme, est réservé à l'occasionnel. Le guide 1 porte la note complète."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "kfXrFd7S2rg",
+    "auteur": "Miki's Kitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R45",
+    "R122"
+  ],
+  "commentaire_source": ""
+}

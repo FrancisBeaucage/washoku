@@ -1,0 +1,146 @@
+{
+  "id": "R119",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "blanchi",
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "sesame-noisette",
+    "doux"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "legumes-en-puree-de-tofu-et-sesame-shiraae",
+  "jp": "白和え",
+  "jp_lecture": "しらあえ",
+  "romaji": "shiraae",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Légumes en purée de tofu et sésame (shiraae)",
+  "sous_titre": "Dix grammes de protéines dans un kobachi de légumes, et c'est le tofu qui les donne. Trois fois ce que porte un namul, pour un tiers de sodium de plus.",
+  "portions": "4",
+  "temps_affiche": "≈ 25 min dont 10 d'attente",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 5,
+    "attente": 10
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 10,
+    "proteines_affiche": "10 g",
+    "calories": 105,
+    "calories_affiche": "≈ 105",
+    "lipides_g": 6,
+    "sodium_mg": 185,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de tofu ferme, ÉGOUTTÉ ET PRESSÉ",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de graines de sésame blanc",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES LÉGUMES, environ 300 g au total : 1 carotte en fine julienne · 150 g d'épinards OU de haricots verts · 100 g de konnyaku en lanières — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sucre OU de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 4 shiitake séchés réhydratés, tranchés",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "PRESSER LE TOFU 10 MINUTES entre deux assiettes avec un poids. Il doit perdre l'équivalent d'un quart de tasse d'eau. C'EST L'ÉTAPE QUI DÉCIDE DE TOUT : un tofu non pressé donne une purée liquide qui glisse des légumes."
+    },
+    {
+      "n": 2,
+      "texte": "Faire T6 sur les légumes, séparément et par ordre de dureté : la carotte 2 minutes, les haricots 3, les épinards 40 secondes. ÉGOUTTER ET PRESSER À LA MAIN."
+    },
+    {
+      "n": 3,
+      "texte": "GRILLER LE SÉSAME À SEC dans une poêle, feu moyen, 2 minutes en secouant, jusqu'à ce qu'il sente la noisette et qu'un grain saute."
+    },
+    {
+      "n": 4,
+      "texte": "ÉCRASER LE SÉSAME AU SURIBACHI jusqu'à ce que la moitié des grains soit défaite. Entier, il roule sans rien donner."
+    },
+    {
+      "n": 5,
+      "texte": "Ajouter le tofu dans le suribachi et l'écraser avec le sésame jusqu'à une purée lisse, sans grumeau. À défaut de suribachi : une fourchette et de la patience, ou un mortier."
+    },
+    {
+      "n": 6,
+      "texte": "Le sel, le soya, le sucre. GOÛTER LA PURÉE SEULE — c'est là qu'on ajuste, pas après."
+    },
+    {
+      "n": 7,
+      "texte": "Ajouter les légumes égouttés et mélanger à la spatule. SERVIR DANS L'HEURE : les légumes rendent de l'eau et la purée se détend."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le tofu est dans l'assaisonnement, pas à côté",
+      "texte": "DIX GRAMMES DE PROTÉINES POUR CENT QUATRE-VINGT-CINQ MILLIGRAMMES DE SODIUM. Comparé nommément : le namul d'épinards de R84 porte 3 g de protéines pour environ 145 mg. CE QUI FAIT LA DIFFÉRENCE N'EST PAS UN TOUR DE MAIN, C'EST QUE LE TOFU EST DANS L'ASSAISONNEMENT ET NON À CÔTÉ.\n\n⚠️ ET LE QUART DE CUILLÈRE À THÉ DE SEL EST PRESQUE TOUT LE SODIUM DE CE PLAT : 575 mg pour quatre portions, contre 167 pour la cuillère à thé de soya. Ça veut dire que ce plat est entièrement dosable — À LA PINCÉE, IL TOMBE À ENVIRON 80 MG PAR PORTION ET IL TIENT ENCORE, parce que c'est le sésame grillé qui porte le goût, pas le sel. Goûter la purée seule à l'étape 6 est le moment où ça se décide.\n\nET C'EST LE PLAT QUI RÈGLE LE PROBLÈME DU PETIT PLAT PROTÉINÉ. Le ichiju sansai demande trois plats à côté du riz et de la soupe. Les trois sont normalement des légumes, donc le souper doit trouver ses soixante grammes de protéines dans le seul plat principal. ICI, UN DES TROIS PETITS PLATS EN PORTE DIX. Trois shiraae feraient trente grammes de protéines en légumes — ce n'est pas ce qu'on veut manger, mais ça dit ce que le levier vaut.\n\nLE SUCRE N'EST PAS NÉGOCIABLE ET C'EST LA SEULE FOIS QUE JE L'ÉCRIS DANS LE DOSSIER. Une cuillère à thé pour quatre portions, soit un gramme de sucre par portion. Sans elle, la purée de tofu est plâtreuse — le sucre ne sucre pas, il ARRONDIT L'AMERTUME DU SOYA CRU. Le mirin fait le même travail.\n\n⚠️ LES LÉGUMES SE BLANCHISSENT SÉPARÉMENT ET C'EST LE PIÈGE DU PLAT. Tout jeté ensemble, les épinards sont en bouillie quand la carotte est encore crue. Trois passages dans la même eau coûtent quatre minutes en tout. Et l'ordre compte : du plus dur au plus tendre, dans la même eau, ce qui donne à la carotte un bouillon et aux épinards une eau déjà parfumée.\n\nLES HARICOTS VERTS SONT LE MEILLEUR CHOIX ICI, PAS LES ÉPINARDS. La purée est molle par nature; il faut que quelque chose résiste. C'est le constat de texture du 18 août appliqué à un plat neuf — et c'est aussi la reprise convenue de R44."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "MuTa0PLVcEM",
+    "auteur": "Chopstick Chronicles",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R84",
+    "R44"
+  ],
+  "commentaire_source": ""
+}

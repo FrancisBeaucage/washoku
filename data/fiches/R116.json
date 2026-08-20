@@ -28,6 +28,7 @@
   "romaji": "tori no teriyaki",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Poulet teriyaki",
   "sous_titre": "Deux cent cinquante-cinq milligrammes de sodium pour le plat le plus sucré-salé du recueil — parce que la sauce est réduite au lieu d'être versée.",
@@ -123,9 +124,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

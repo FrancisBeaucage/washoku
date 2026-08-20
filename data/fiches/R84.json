@@ -25,9 +25,10 @@
   "romaji": null,
   "nom_origine": "시금치나물",
   "lecture_origine": "sigeumchi namul",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Namul d'épinards (sigeumchi namul)",
-  "sous_titre": "Le namul le plus rapide de tous : soixante secondes d’eau bouillante et quatre-vingts milligrammes de sodium pour quatre portions.",
+  "sous_titre": "Le namul le plus rapide de tous : soixante secondes d'eau bouillante, et le sel de l'assaisonnement est le seul de la recette qu'on mange.",
   "portions": "4",
   "temps_affiche": "≈ 10 min",
   "temps_minutes": {
@@ -42,10 +43,10 @@
     "calories": 45,
     "calories_affiche": "≈ 45",
     "lipides_g": 3,
-    "sodium_mg": 80,
+    "sodium_mg": 145,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 80 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 20 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. La demi-cuillère à thé de l'eau de blanchiment n'est pas comptée : cette eau est jetée."
   },
   "ingredients": [
     {
@@ -102,15 +103,13 @@
   "notes": [
     {
       "titre": "La texture est molle, et c'est assumé",
-      "texte": "CETTE FICHE EST À DOMINANTE MOLLE, ET C'EST LE PROPRE DU PLAT. Un épinard blanchi s'affaisse — c'est ce qui permet à quatre cents grammes de légume de tenir dans un petit bol, et c'est aussi ce que certains n'aiment pas. LE RECUEIL A UN CONSTAT LÀ-DESSUS, ET IL EST ÉTROIT : SIX FICHES SEULEMENT ONT LE MOU COMME TEXTURE DOMINANTE, celle-ci comprise — le blanchiment des verdures de T6, l'okayu de R6, l'ohitashi de R43, le goma-ae de R44 et l'umeboshi de R53. Ce n'est pas une famille à éviter, c'est une famille à ne pas servir seule.\n\nLE MONTAGE RÈGLE ÇA, ET C'EST TOUT LE PRINCIPE DU BAPSANG : trois à cinq banchan sur la table, et ils ne se ressemblent pas. Ce namul mou à côté du daikon croquant de R83 et du tofu ferme de R89, c'est un ensemble; les trois mous ensemble, c'est un repas sans relief. QUAND ON PRÉPARE QUATRE BANCHAN LE DIMANCHE, VÉRIFIER QU'AU MOINS DEUX RÉSISTENT SOUS LA DENT.\n\nET LE SODIUM EST À METTRE EN PERSPECTIVE : QUATRE-VINGTS MILLIGRAMMES POUR QUATRE PORTIONS, soit 20 mg par bol. C'est le poste le moins coûteux de toute la table coréenne, et il permet de dépenser ailleurs."
+      "texte": "CETTE FICHE EST À DOMINANTE MOLLE, ET C'EST LE PROPRE DU PLAT. Un épinard blanchi s'affaisse — c'est ce qui permet à quatre cents grammes de légume de tenir dans un petit bol, et c'est aussi ce que certains n'aiment pas. LE RECUEIL A UN CONSTAT LÀ-DESSUS, ET IL EST ÉTROIT : SIX FICHES SEULEMENT ONT LE MOU COMME TEXTURE DOMINANTE, celle-ci comprise — le blanchiment des verdures de T6, l'okayu de R6, l'ohitashi de R43, le goma-ae de R44 et l'umeboshi de R53. Ce n'est pas une famille à éviter, c'est une famille à ne pas servir seule.\n\nLE MONTAGE RÈGLE ÇA, ET C'EST TOUT LE PRINCIPE DU BAPSANG : trois à cinq banchan sur la table, et ils ne se ressemblent pas. Ce namul mou à côté du daikon croquant de R83 et du tofu ferme de R89, c'est un ensemble; les trois mous ensemble, c'est un repas sans relief. QUAND ON PRÉPARE QUATRE BANCHAN LE DIMANCHE, VÉRIFIER QU'AU MOINS DEUX RÉSISTENT SOUS LA DENT.\n\n⚠️ ET LE SEL DE L'EAU DE BLANCHIMENT NE COMPTE PAS, CE QUI EST LA MOITIÉ DE L'HISTOIRE DU SODIUM DE CE PLAT. La demi-cuillère à thé qui va dans deux litres d'eau porte 1 150 mg, et il n'en reste qu'une fraction de pourcent dans le légume : l'eau part à l'égout. CE QU'ON MANGE, C'EST LE QUART DE CUILLÈRE À THÉ DE L'ASSAISONNEMENT — 575 mg pour quatre portions, soit environ 145 mg par bol. C'est pourquoi un namul est moins salé qu'il n'en a l'air quand on lit sa liste d'ingrédients, et c'est aussi pourquoi ce chiffre-là, lui, se dose : à la pincée, le bol tombe sous 40 mg."
     }
   ],
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

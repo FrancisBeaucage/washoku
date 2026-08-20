@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "무생채",
   "lecture_origine": "musaengchae",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Daikon en allumettes au gochugaru (musaengchae)",
   "sous_titre": "Un substitut rapide au kimchi, à sodium contrôlé, et un accompagnement franchement croquant qui n'est pas du concombre. Le recueil en avait un seul.",
@@ -44,10 +45,10 @@
     "calories": 35,
     "calories_affiche": "≈ 35",
     "lipides_g": 1,
-    "sodium_mg": 110,
+    "sodium_mg": 72,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 110 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 28 mg par portion, parce que le sel de dégorgement est RINCÉ. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. La cuillère à thé du dégorgement n'est pas comptée : elle est RINCÉE. Tout le sodium vient du huitième de cuillère à thé de l'assaisonnement."
   },
   "ingredients": [
     {
@@ -108,7 +109,7 @@
   "notes": [
     {
       "titre": "Le sel de dégorgement est rincé, et c'est tout l'écart avec le sunomono",
-      "texte": "LE RECUEIL A DÉJÀ UN PLAT DE LÉGUME DÉGORGÉ ET VINAIGRÉ — LE SUNOMONO — ET SON SEL DE DÉGORGEMENT N'EST PAS RINCÉ. Une cuillère à thé de sel représente environ 2 300 mg; le pressage en emporte une part, mais il en reste de l'ordre de 250 mg par portion. C'EST LE POSTE SODIQUE CACHÉ DE CE PLAT, ET IL EST CINQ FOIS PLUS GROS QUE SA VINAIGRETTE.\n\nICI, LE SEL EST RINCÉ ET LA DIFFÉRENCE EST MESURABLE : environ 110 mg pour QUATRE portions, soit 28 mg par portion, contre 250. LE MÊME GESTE CULINAIRE — dégorger un légume pour le rendre croquant et concentré — À UN DIXIÈME DU SODIUM.\n\nPOURQUOI LE RINÇAGE MARCHE ICI ET PAS LÀ. Le daikon en allumettes de 4 mm a une surface énorme et une chair poreuse : le sel a fait son travail osmotique en vingt minutes et il est surtout en surface. Un concombre en tranches fines dégorgé puis rincé perd aussi sa vinaigrette et devient fade — sa chair retient moins bien l'assaisonnement.\n\nET LE GOCHUGARU ENTRE AVANT LES LIQUIDES, À LA MAIN. Mélangé après le vinaigre, il fait des grumeaux rouges et ne colore rien. Sur un légume juste humide, il s'accroche à chaque allumette. C'EST LE MÊME PRINCIPE QUE L'ASSAISONNEMENT À LA MAIN DES NAMUL (T20)."
+      "texte": "LE RECUEIL A DÉJÀ UN PLAT DE LÉGUME DÉGORGÉ ET VINAIGRÉ — LE SUNOMONO — ET SON SEL DE DÉGORGEMENT N'EST PAS RINCÉ. Une cuillère à thé de sel représente environ 2 300 mg de sodium; le pressage en emporte une part, et le reste est dans le plat. C'EST LE POSTE SODIQUE CACHÉ DE CE PLAT-LÀ, ET IL EST PLUS GROS QUE SA VINAIGRETTE.\n\nICI, LE SEL EST RINCÉ, ET LA DIFFÉRENCE EST TOUTE LA FICHE : ce qui reste au compte est le HUITIÈME DE CUILLÈRE À THÉ DE L'ASSAISONNEMENT — 287 mg pour quatre portions, soit environ 72 mg par bol. LE MÊME GESTE CULINAIRE — dégorger un légume pour le rendre croquant et concentré — sans le sodium qui vient normalement avec.\n\nPOURQUOI LE RINÇAGE MARCHE ICI ET PAS LÀ. Le daikon en allumettes de 4 mm a une surface énorme et une chair poreuse : le sel a fait son travail osmotique en vingt minutes et il est surtout en surface. Un concombre en tranches fines dégorgé puis rincé perd aussi sa vinaigrette et devient fade — sa chair retient moins bien l'assaisonnement.\n\nET LE GOCHUGARU ENTRE AVANT LES LIQUIDES, À LA MAIN. Mélangé après le vinaigre, il fait des grumeaux rouges et ne colore rien. Sur un légume juste humide, il s'accroche à chaque allumette. C'EST LE MÊME PRINCIPE QUE L'ASSAISONNEMENT À LA MAIN DES NAMUL (T20)."
     },
     {
       "titre": "Pourquoi cette fiche est ici, et le trou qu'elle comble",

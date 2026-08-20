@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "제육볶음",
   "lecture_origine": "jeyuk bokkeum",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Porc sauté au gochujang (jeyuk bokkeum)",
   "sous_titre": "Le gochujang passe de six cuillères à deux, et le piquant perdu revient par le gochugaru — du piment pur, presque sans sodium. C'est l'échange le plus rentable de la ligne coréenne.",
@@ -123,9 +124,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

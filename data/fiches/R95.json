@@ -25,6 +25,7 @@
   "romaji": null,
   "nom_origine": "배추된장국",
   "lecture_origine": "baechu doenjang guk",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Soupe de chou nappa au doenjang (baechu doenjang guk)",
   "sous_titre": "La même pâte que le ragoût, diluée dans trois à quatre fois plus de liquide. C'est l'arbitrage le plus rentable de toute la ligne coréenne : le goût du doenjang jjigae pour le tiers de son sodium.",
@@ -125,9 +126,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

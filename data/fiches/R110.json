@@ -27,6 +27,7 @@
   "romaji": "tōfu hanbāgu",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Galette de poulet et tofu (tōfu hanbāgu)",
   "sous_titre": "Cent quatre-vingt-dix milligrammes de sodium pour trente-six grammes de protéines. C'est le plat principal le moins salé du recueil japonais, et c'est le tofu qui le permet.",
@@ -140,9 +141,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "moyen",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

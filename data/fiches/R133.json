@@ -1,0 +1,137 @@
+{
+  "id": "R133",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "poche",
+    "bouilli"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "acide",
+    "doux"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "souper"
+  ],
+  "slug": "marmite-claire-mixte-yosenabe",
+  "jp": "寄せ鍋",
+  "jp_lecture": "よせなべ",
+  "romaji": "yosenabe",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Marmite claire mixte (yosenabe)",
+  "sous_titre": "Une personne sur deux en mange une fois par semaine au Japon en hiver. Le bouillon n'est presque pas assaisonné — tout le sel est dans le petit plat de chacun.",
+  "portions": "4",
+  "temps_affiche": "≈ 40 min dont 20 de découpe",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 20,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 28,
+    "proteines_affiche": "28 g",
+    "calories": 350,
+    "calories_affiche": "≈ 350",
+    "lipides_g": 12,
+    "sodium_mg": 300,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. LE SODIUM SUPPOSE QUE LE BOUILLON N'EST PAS BU : on mange les solides et on laisse le liquide dans la marmite. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "LE BOUILLON : 1,2 L de dashi T2 · 1 c. à soupe de sauce soya réduite · 1 c. à soupe de mirin · 1 c. à soupe de saké · C'EST TOUT",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES PROTÉINES, environ 700 g au total : 200 g de haut de cuisse de poulet en morceaux · 200 g de filet de poisson blanc ferme · 150 g de crevettes · 300 g de tofu ferme en gros cubes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES LÉGUMES : 400 g de chou nappa en larges morceaux · 1 poireau japonais ou 2 poireaux en biseaux · 150 g de champignons — shiitake, shimeji, enoki · 1 carotte en rondelles · 200 g de shirataki rincés et ébouillantés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA TREMPETTE, un petit plat PAR PERSONNE : 1 c. à thé de ponzu · daikon râpé · oignons verts · shichimi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif pour la fin : 280 g de riz cuit rincé et 2 œufs — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T2 : 1,2 L de dashi. Ajouter le soya, le mirin et le saké. GOÛTER : ÇA DOIT ÊTRE À PEINE SALÉ. C'EST VOULU."
+    },
+    {
+      "n": 2,
+      "texte": "TOUT COUPER ET DISPOSER SUR UN GRAND PLATEAU AVANT D'ALLUMER. Vingt minutes de découpe, et c'est là qu'est tout le travail du plat."
+    },
+    {
+      "n": 3,
+      "texte": "Monter les trempettes dans les petits plats individuels."
+    },
+    {
+      "n": 4,
+      "texte": "Marmite au centre de la table sur un réchaud, ou sur la cuisinière si on la porte pleine."
+    },
+    {
+      "n": 5,
+      "texte": "L'ORDRE COMPTE : les côtes dures du nappa, la carotte et les shirataki d'abord, 5 minutes. Puis le poulet, 5 minutes. Puis le poisson, le tofu et les champignons, 4 minutes. Les crevettes et les feuilles de nappa en dernier, 2 minutes."
+    },
+    {
+      "n": 6,
+      "texte": "CHACUN PÊCHE À LA LOUCHE ET TREMPE DANS SON PETIT PLAT. Le bouillon reste dans la marmite."
+    },
+    {
+      "n": 7,
+      "texte": "Réajouter des ingrédients au fur et à mesure. NE JAMAIS LAISSER LA MARMITE BOUILLIR FORT — le poisson se défait et le bouillon se trouble."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le bouillon n'est pas assaisonné, la trempette l'est",
+      "texte": "TROIS CENTS MILLIGRAMMES POUR VINGT-HUIT GRAMMES DE PROTÉINES, ET LE MÉCANISME EST LE PLUS PUR DU RECUEIL. Une cuillère à soupe de soya dans 1,2 litre de bouillon, c'est 125 mg par portion — et on n'en boit même pas la moitié. Le reste du sel, environ 175 mg, est dans une cuillère à thé de ponzu que chacun dose lui-même.\n\n🔴 C'EST LE QUATRIÈME PLAT DU RECUEIL À APPLIQUER LE LEVIER DE LA TREMPETTE, ET C'EST CELUI QUI LE MONTRE LE MIEUX. R110, R117 et R118 déportent le sel dans un petit plat. Ici, LE PLAT ENTIER EST CONSTRUIT AUTOUR DE CE PRINCIPE : LE BOUILLON EST UN CUISEUR ET NON UNE SAUCE. Et le bénéfice se voit à la fin du repas — ce qui reste dans le petit plat est du sodium qu'on n'a pas mangé, et c'est la seule architecture de repas qui rende ça visible.\n\n⚠️ DEUX PETITS PLATS À SAUCE DANS LA MAISON, ET CE PLAT EN DEMANDE UN PAR PERSONNE. Pour deux couverts, ça passe. Pour quatre, non — et c'est le plat qui fait de l'achat des petits plats une nécessité et non un confort. La liste d'épicerie le porte déjà.\n\nVINGT MINUTES DE DÉCOUPE, ET C'EST LE VRAI COÛT DU PLAT. ⚠️ C'est aussi un plat à beaucoup de gestes distincts, ce qui est le critère qu'on a dégagé du souper à deux couverts du 18 août. MAIS TOUS LES GESTES SONT AVANT : une fois la marmite sur la table, il n'y a plus rien à faire pendant une heure. C'est le contraire d'un plat qui demande de la surveillance, et c'est pourquoi c'est le plat de réception du dossier.\n\nLA FIN TRADITIONNELLE EST UN 雑炊, ET C'EST R130. On rince du riz cuit, on le jette dans ce qui reste du bouillon concentré, on casse deux œufs dedans. ⚠️ Mais le bouillon d'un nabe fini a reçu tout le sel des ingrédients et parfois du ponzu tombé dedans : ON NE LE SALE PAS DU TOUT, et il arrive quand même autour de 350 mg.\n\nLES SHIRATAKI SONT L'AJOUT LE PLUS UTILE DE CE PLAT — zéro calorie, ils prennent du volume dans le bol et boivent le bouillon. Toujours les ébouillanter une minute avant."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "9IbJo2tW12o",
+    "auteur": "TOKYO KITCHEN",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R130",
+    "R118"
+  ],
+  "commentaire_source": ""
+}

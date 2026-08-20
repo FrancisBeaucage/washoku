@@ -1,0 +1,107 @@
+{
+  "id": "R122",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "sans-cuisson"
+  ],
+  "axe_gout": [
+    "acide",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "glissant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "mozuku-vinaigree-mozuku-su",
+  "jp": "もずく酢",
+  "jp_lecture": "もずくす",
+  "romaji": "mozuku-su",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Mozuku vinaigrée (mozuku-su)",
+  "sous_titre": "Le remplisseur de kobachi le plus économe du recueil : une barquette, une minute, dix calories. Et un panneau de valeur nutritive jamais lu.",
+  "portions": "1",
+  "temps_affiche": "≈ 1 min",
+  "temps_minutes": {
+    "preparation": 1,
+    "cuisson": 0,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 0,
+    "proteines_affiche": "0 g",
+    "calories": 10,
+    "calories_affiche": "≈ 10",
+    "lipides_g": 0,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM N'EST PAS CHIFFRÉ, ET C'EST VOULU : il n'a jamais été lu sur un contenant. L'ordre de grandeur est de 300 à 400 mg pour une barquette assaisonnée, à relever à l'étiquette au prochain passage. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "1 barquette de mozuku, 70 à 80 g — au réfrigérateur des produits japonais, souvent en paquets de trois",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "SI LA BARQUETTE EST NATURE, non assaisonnée : 1 c. à soupe de vinaigre de riz · 1/2 c. à thé de sucre · 1/4 c. à thé de sauce soya réduite",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : gingembre râpé · une pincée de sésame · un peu de daikon râpé",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "SI LA BARQUETTE EST DÉJÀ ASSAISONNÉE : l'ouvrir, la verser dans un kobachi, servir froide. C'est tout, et c'est l'intérêt du produit."
+    },
+    {
+      "n": 2,
+      "texte": "SI ELLE EST NATURE : rincer la mozuku à l'eau froide dans une passoire fine, égoutter, puis mélanger le vinaigre, le sucre et le soya."
+    },
+    {
+      "n": 3,
+      "texte": "Servir très froide. Ça se boit presque, en fin de repas."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le seul chiffre de cette fiche que je n'ai pas, et pourquoi je le dis",
+      "texte": "⚠️ LE SODIUM DE CE PLAT N'A JAMAIS ÉTÉ LU SUR UN CONTENANT ET LA FICHE NE PRÉTEND PAS LE CONNAÎTRE — elle affiche « non chiffré » plutôt qu'un nombre inventé. Les barquettes assaisonnées portent une sauce à base de vinaigre, de sucre et de sauce soya : l'ordre de grandeur est de 300 à 400 mg pour une barquette, ce qui est BEAUCOUP POUR DIX CALORIES. À relever au prochain passage chez Kim Phat, avec le panneau et la liste d'ingrédients.\n\nET LA BARQUETTE NATURE EST PROBABLEMENT LE MEILLEUR ACHAT, pour la raison qui vaut partout dans le dossier : CE QU'ON ASSAISONNE SOI-MÊME SE DOSE. Une cuillère de vinaigre et un quart de cuillère à thé de soya, c'est environ 40 mg. Un facteur huit sur le même plat.\n\nCE QUE LA MOZUKU APPORTE QUE RIEN D'AUTRE N'APPORTE : DU VOLUME À DIX CALORIES. Le dossier a besoin de remplisseurs de kobachi — le ichiju sansai demande trois petits plats et il n'y a pas toujours trois légumes prêts. Le konnyaku de R52 fait ça sans goût; celle-ci le fait avec une acidité et une texture filante.\n\n⚠️ DEUX CANDIDATS DE VIDÉO ONT ÉTÉ REJETÉS PAR LA VÉRIFICATION OEMBED SUR CE PLAT, ET ÇA VAUT D'ÊTRE DIT PARCE QUE C'EST EXACTEMENT LE RATÉ QUE LA RÈGLE ÉVITE. Le premier candidat s'est révélé être un plat de poulet à la mozuku, pas une mozuku vinaigrée. Le second était un carnet de voyage aux îles Yaeyama avec un sushi de mozuku. Les deux titres, lus dans une liste de résultats, avaient l'air d'être le bon plat. L'API a dit le contraire."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "le0NTzezQ6M",
+    "auteur": "ICHIGO's Kitchen - Make Japanese Instant food",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R52",
+    "R121"
+  ],
+  "commentaire_source": ""
+}

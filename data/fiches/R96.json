@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "미역국",
   "lecture_origine": "miyeokguk",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Soupe d'algues wakame (miyeokguk)",
   "sous_titre": "L'algue est sautée à l'ail avant d'être mijotée, et c'est ce qui distingue cette soupe d'un bouillon d'algues. Elle apporte déjà sa salinité marine : le soya se coupe de moitié.",
@@ -122,9 +123,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

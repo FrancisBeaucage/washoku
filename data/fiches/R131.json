@@ -1,0 +1,152 @@
+{
+  "id": "R131",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "long",
+  "type_de_plat": "feculent",
+  "methode": [
+    "bouilli"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre",
+    "doux"
+  ],
+  "axe_texture": [
+    "moelleux",
+    "ferme"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "riz-cuit-avec-sa-garniture-takikomi-gohan",
+  "jp": "炊き込みご飯",
+  "jp_lecture": "たきこみごはん",
+  "romaji": "takikomi gohan",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Riz cuit avec sa garniture (takikomi gohan)",
+  "sous_titre": "Le riz cesse d'être un accompagnement neutre et devient le plat. Un seul piège, et il est mesurable : le soya fait partie du volume d'eau.",
+  "portions": "4",
+  "temps_affiche": "≈ 70 min dont 45 de cuiseur",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 45,
+    "attente": 10
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 14,
+    "proteines_affiche": "14 g",
+    "calories": 355,
+    "calories_affiche": "≈ 355",
+    "lipides_g": 6,
+    "sodium_mg": 250,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 gō de riz japonais — environ 300 g cru, la tasse du cuiseur",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de haut de cuisse de poulet désossé sans peau, en dés de 1,5 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 shiitake séchés réhydratés, tranchés — GARDER L'EAU DE TREMPAGE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 carotte en fine julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "80 g de gobo en fins biseaux, dans l'eau vinaigrée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 abura-age ébouillanté 30 secondes, en lanières",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LE LIQUIDE, TOTAL 360 ml pour 2 gō : 2 c. à soupe de sauce soya réduite + 2 c. à soupe de mirin + l'eau de trempage des shiitake + du dashi T2 pour compléter",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · sésame grillé · mitsuba",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T1",
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "RINCER LE RIZ COMME EN T1, puis LE LAISSER ÉGOUTTER 15 MINUTES. Un riz mouillé fausse le volume de liquide."
+    },
+    {
+      "n": 2,
+      "texte": "MESURER LE LIQUIDE EN INCLUANT LE SOYA ET LE MIRIN. Verser le soya et le mirin dans une tasse à mesurer, puis compléter avec l'eau de shiitake et le dashi jusqu'à 360 ml au total. C'est le seul piège du plat : voir la note."
+    },
+    {
+      "n": 3,
+      "texte": "Riz égoutté dans la cuve. Verser le liquide et mélanger une fois pour dissoudre le soya."
+    },
+    {
+      "n": 4,
+      "texte": "DÉPOSER LA GARNITURE À PLAT SUR LE RIZ, SANS MÉLANGER. Le poulet, les shiitake, la carotte, le gobo, l'abura-age, étalés."
+    },
+    {
+      "n": 5,
+      "texte": "Programme normal. NE PAS OUVRIR."
+    },
+    {
+      "n": 6,
+      "texte": "À la fin, 10 minutes de repos couvercle fermé, puis COUPER À LA SPATULE EN SOULEVANT DU FOND pour répartir la garniture sans écraser les grains."
+    },
+    {
+      "n": 7,
+      "texte": "Verdure et sésame au service."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le soya fait partie de l'eau, et c'est la seule chose à retenir",
+      "texte": "🔴 LE PIÈGE DE CE PLAT EST ARITHMÉTIQUE ET IL RATE LE RIZ À COUP SÛR : deux cuillères à soupe de soya et deux de mirin, c'est 60 ml de liquide. Ajoutées PAR-DESSUS la ligne d'eau du cuiseur, elles font 17 % de liquide en trop, et le riz sort mou et collant. LE SOYA ET LE MIRIN NE SONT PAS DES ASSAISONNEMENTS VERSÉS SUR UN RIZ : CE SONT DES LIQUIDES DE CUISSON, ET ILS ENTRENT DANS LE COMPTE.\n\nLA MÉTHODE SÛRE, ET ELLE VAUT MIEUX QUE LA LIGNE DU CUISEUR : mesurer les assaisonnements d'abord dans la tasse graduée, puis compléter jusqu'au volume total. Pour 2 gō de riz japonais : 360 ml. ⚠️ Ne pas se fier à la ligne « 2 » de la cuve pour un takikomi, parce que la garniture prend de la place et que la ligne suppose un riz nu.\n\nCE PLAT FERME LA FAMILLE DU RÉPERTOIRE DES MANQUES QUI S'APPELLE « LE RIZ CUIT AVEC SA GARNITURE ». Le dossier traitait le riz comme un accompagnement neutre — une rondelle congelée de 140 g, 200 calories, 4 g de protéines. Ici, LE RIZ PORTE QUATORZE GRAMMES DE PROTÉINES PAR PORTION, parce que le poulet, l'abura-age et le shiitake ont cuit dedans.\n\n⚠️ CONSÉQUENCE POUR LES PLANS, ET ELLE EST IMPORTANTE : CE PLAT OCCUPE LE QUART FÉCULENT ET UNE PARTIE DU QUART PROTÉINE EN MÊME TEMPS. Le type de plat dit « féculent » et c'est exact, mais incomplet. Un souper autour de R131 n'a pas besoin d'un bol de riz — il EST le bol de riz — et son plat principal peut être plus léger de moitié. Un poisson grillé de 120 g suffit là où il en aurait fallu 200.\n\nNE JAMAIS METTRE LA GARNITURE SOUS LE RIZ NI LA MÉLANGER AVANT CUISSON. Le riz a besoin de circuler dans son eau pour cuire uniformément; de la garniture mêlée aux grains fait des poches sèches et des poches noyées. Posée dessus, elle cuit à la vapeur et descend d'elle-même.\n\nSE GARDE 2 JOURS ET SE CONGÈLE EN RONDELLES, exactement comme le riz nature du dossier. C'est la meilleure façon d'avoir des rondelles qui portent de la protéine."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "CczmGI6PvcA",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R130",
+    "R107"
+  ],
+  "commentaire_source": ""
+}

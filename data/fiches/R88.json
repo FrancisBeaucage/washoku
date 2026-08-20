@@ -26,6 +26,7 @@
   "romaji": null,
   "nom_origine": "계란찜",
   "lecture_origine": "gyeranjjim",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Flan d'œufs vapeur (gyeranjjim)",
   "sous_titre": "Le banchan protéiné le plus rapide du recueil. Trois œufs, un peu d’eau, et un couvercle : treize grammes de protéines dans un petit bol.",
@@ -43,10 +44,10 @@
     "calories": 130,
     "calories_affiche": "≈ 130",
     "lipides_g": 9,
-    "sodium_mg": 320,
+    "sodium_mg": 290,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 320 mg — VAUT POUR LES DEUX PORTIONS, soit environ 160 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
   },
   "ingredients": [
     {
@@ -116,9 +117,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

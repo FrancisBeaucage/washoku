@@ -503,10 +503,30 @@ d'origine est ailleurs.** Le laisser dans `jp` affirme que le plat porte un nom
 japonais; le déplacer tel quel dans `nom_origine` affirme qu'il s'écrit en
 katakana. Les deux sont faux — il faut aller chercher l'écriture native.
 
-Les lectures approximées en français que `jp_lecture` portait sur ces douze
-fiches (« souane la tang », « tome youme koung ») ont disparu avec la migration :
-`lecture_origine` porte la romanisation de la langue — pinyin, romanisation
-révisée du coréen, RTGS thaï — et non une prononciation figurée.
+### `prononciation`
+
+**Un troisième champ de nom, entré au document 29, et la distinction est nette.**
+`lecture_origine` répond à *« comment ce mot se lit dans sa langue »* —
+`sundubu jjigae`, `shàng jiāng`. C'est de la romanisation savante : exacte, et
+**elle ne s'entend pas.** `prononciation` répond à *« comment je le dis à voix
+haute en français »* — « souane la tang », « bi-bime-bap ». C'est une aide
+orale, **approximative par nature.**
+
+🔴 **C'est la seule information du recueil dont l'usage est de PARLER** :
+commander chez Kim Phat, demander un ingrédient, nommer un plat à table.
+`gānbiān sìjìdòu` avec ses tons ne sert à rien pour ça; « gan-biène si-ji-dou »
+sert. C'est pourquoi c'est un champ et non une note — une note ne se cherche pas.
+
+Il vivait déjà dans le dossier, mais **sous une étiquette qui le contredisait** :
+neuf des treize valeurs de `jp_lecture` étaient des approximations françaises et
+non des kana. Le refus du renommage global de `jp_lecture` en `lecture_locale`,
+au document 28, l'a découvert — **et c'est ce que le renommage aurait figé : un
+nom faux sur de la donnée vraie.** Les douze valeurs supprimées par la migration
+du `S30` ont été reprises du diff de ce commit, pas réinventées.
+
+⚠️ **Il n'est rempli que là où quelqu'un l'a écrit** — douze fiches sur 158. Le
+reste se remplit au fil des documents, ou jamais. La page l'affiche dans
+l'infobulle du nom, à la place de la prononciation calculée depuis le romaji.
 
 `langue_origine` (`ja` · `zh` · `ko` · `vi` · `th` · `lo` · `id` · `aucune`) dit à
 l'affichage quelle graphie montrer. Au guide 2, son défaut se déduit de `cuisine`,
@@ -588,15 +608,24 @@ Trois conséquences :
 - **La page le dit à l'écran** : « les étoiles et le statut sont l'avis de
   Francis, pas une propriété du plat ». Une étoile est l'avis de quelqu'un.
 
-⚠️ **`{}` et `a-l-essai` ne disent pas la même chose, et l'arbitrage a changé de
-camp deux fois.** `{}` dit « personne ne s'est prononcé »; `a-l-essai` dit « c'est
-un candidat que le dossier propose ». Le document 24 tenait la distinction pour
-non soutenue et remettait les fiches neuves à `{}`; **le document 28 l'a tranchée
-dans l'autre sens** et les trente-six fiches des documents 25 à 27 — `R84` à
-`R118` et `T24` — portent `a-l-essai` pour le lecteur courant. **Rien ne change à
-l'écran** dans un cas comme dans l'autre, puisqu'un avis absent se lit déjà
-`a-l-essai` : ce qui change est ce que la donnée prétend. Les 107 fiches
-antérieures restent à `{}`, ce que le document 28 ne demande pas de corriger.
+🔴 **`statut_perso` NE SE REMPLIT QUE QUAND UN HUMAIN A MANGÉ LE PLAT. Aucun
+document ne l'écrit à l'avance.** La question a été tranchée trois fois et elle
+est close : le document 23 avait écrit `a-l-essai` sur les fiches neuves, le 24
+les avait remises à `{}`, le 28 avait re-tranché dans l'autre sens, et **le
+document 29 referme dans le sens du 24 — avec l'argument qui manquait.**
+
+`{}` dit « personne ne s'est prononcé »; `a-l-essai` dit « ce lecteur a jugé le
+plat récent et veut l'essayer ». Écrire le second sur une fiche que personne n'a
+cuisinée fait dire à la donnée quelque chose de faux. **Et la raison qui semblait
+la justifier — « les fiches neuves sont proposées activement » — est une
+propriété du DOCUMENT qui les a écrites, pas une propriété de la fiche.** La
+récence est déjà dans la donnée sans champ supplémentaire : **l'identifiant
+l'encode**, `R133` est plus récente que `R84`, qui est plus récente que `R25`.
+
+**Rien ne change à l'écran** dans un cas comme dans l'autre, puisqu'un avis
+absent se lit déjà `a-l-essai` : ce qui change est ce que la donnée prétend. Le
+jour où le dossier voudra distinguer « proposé récemment », **ce sera un autre
+champ, et il faudra une meilleure raison que celle-là.**
 
 ⚠️ **`statut_perso` n'est PAS `statut`, et c'est la distinction la plus importante
 du schéma.** `statut` juge l'exactitude de la fiche : `retiré` veut dire que ce
@@ -713,6 +742,62 @@ est cuisinée, les valeurs réelles des étiquettes sont relevées et la fiche p
 à `"etiquette"`. Au rythme d'une ou deux fiches par jour, les vingt fiches
 réellement en rotation sont couvertes en deux semaines — et ce sont les seules
 qui comptent.
+
+### 🔴 Le sodium du sel, et la règle de comptage
+
+⚠️ **CE TABLEAU NE SE CITE PLUS DE MÉMOIRE. Il a été faux pendant cinq
+documents** — la ligne de la pincée avait été lue comme celle du quart de
+cuillère à thé, et tout ce qui portait du sel en cuillères s'est retrouvé
+sous-estimé d'un facteur quatre à six. Le sel de table est du chlorure de sodium
+à 39,3 % de sodium en masse, et une cuillère à thé rase en pèse 6 g : **il n'y a
+aucune approximation là-dedans, c'est de l'arithmétique.**
+
+| Dose de sel de table | Sodium |
+|---|---|
+| 1 pincée (≈ 1/16 c. à thé) | ≈ 145 mg |
+| ⅛ c. à thé | ≈ 290 mg |
+| **¼ c. à thé** | **≈ 575 mg** |
+| ⅓ c. à thé | ≈ 767 mg |
+| ½ c. à thé | ≈ 1 150 mg |
+| ¾ c. à thé | ≈ 1 725 mg |
+| **1 c. à thé** | **≈ 2 300 mg** |
+
+**Et une cuillère à thé de sauce soya réduite en sodium vaut ≈ 167 mg**, soit
+500 mg la cuillère à soupe. C'est l'autre poste qui revient partout.
+
+**COMBIEN DU SEL ÉCRIT DANS LA LISTE COMPTE VRAIMENT — trois cas, et le
+deuxième est celui qu'on confond avec le premier :**
+
+| Cas | Ce qu'on compte | Pourquoi |
+|---|---|---|
+| Le sel **mélangé au plat** | **tout** | il est mangé en entier : assaisonnement, farce, soupe, flan |
+| Le sel **dissous dans une eau qu'on jette** | **zéro**, et la fiche le dit | un légume blanchi 40 secondes dans deux litres d'eau salée en absorbe une fraction de pourcent — **la compter serait un faux précis** |
+| Le sel d'un **dégorgement éponge** (`T3`) | **≈ 60 %** | une partie part avec l'eau, une partie reste dans la chair. **Chiffre grossier, assumé** — le seul du corpus qu'une pesée corrigerait |
+
+⚠️ **Deux cas ne sont PAS couverts et il ne faut pas les y forcer** : un
+dégorgement *rincé* (`R83`) part plus loin que le cas 3 et le recueil le compte à
+zéro; **un pochage long dans une eau salée qu'on jette (`R82`, quarante minutes)
+n'est ni l'un ni l'autre, et son chiffre reste ouvert.**
+
+**`sodium_mg` est TOUJOURS PAR PORTION**, comme `proteines_g`, `calories` et
+`lipides_g` dans le même objet. Ça n'a pas toujours été vrai : douze fiches
+portaient un total pour le plat entier dans le même bloc que trois valeurs par
+portion, et seule une `note` en texte libre le disait. **C'est l'une des deux
+raisons pour lesquelles le facteur quatre a survécu cinq documents.** Si le total
+du plat vaut la peine d'être dit, il va dans la `note`, jamais dans le nombre.
+
+⚠️ **Un `sodium_mg` absent s'affiche « non chiffré » et non rien** : la majorité
+des fiches n'en portent aucun, et une ligne manquante se lit comme un plat sans
+sel. **Le trou doit se voir** — c'est le geste le moins coûteux et le plus utile
+des trois qu'on pouvait poser sur ce manque.
+
+⚠️ **AUCUN SUPERLATIF DE CORPUS.** Plus de « le moins salé du recueil » : une
+telle phrase compare une fiche aux 38 % du recueil qui portent un chiffre, en
+laissant croire que c'est 100 %. Deux formes sont admises — **un chiffre nu**
+(« ≈ 130 mg par portion »), qui se vérifie tout seul, et **une comparaison
+NOMMÉE** (« moins salé que le namul de `R84` »), que le lecteur peut ouvrir. Ce
+qu'on perd est la formule qui frappe; ce qu'on gagne est une phrase qui reste
+vraie quand le recueil grandit.
 
 **Ne jamais remplir `lipides_g` ou `sodium_mg` par estimation.** Ils valent
 `null` presque partout. `null` veut dire « inconnu », jamais « zéro » : un

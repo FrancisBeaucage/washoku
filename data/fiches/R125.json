@@ -1,0 +1,144 @@
+{
+  "id": "R125",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "aubergines-mijotees-au-dashi-nasu-no-nibitashi",
+  "jp": "茄子の煮浸し",
+  "jp_lecture": "なすのにびたし",
+  "romaji": "nasu no nibitashi",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Aubergines mijotées au dashi (nasu no nibitashi)",
+  "sous_titre": "Une aubergine fondante sans une goutte d'huile. C'est le seul plat d'aubergine compatible du dossier, et c'est la méthode qui fait tout.",
+  "portions": "2",
+  "temps_affiche": "≈ 20 min, meilleur froid après 2 h",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 12,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 45,
+    "calories_affiche": "≈ 45",
+    "lipides_g": 0,
+    "sodium_mg": 260,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 aubergines japonaises, environ 250 g, en tronçons de 4 cm fendus en croix",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "250 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de gingembre râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE HUILE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : katsuobushi · gingembre râpé frais · oignons verts",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "ENTAILLER LA CHAIR EN CROISILLONS SANS PERCER LA PEAU. Les entailles font entrer le bouillon; la peau tient le morceau."
+    },
+    {
+      "n": 2,
+      "texte": "TREMPER 5 MINUTES DANS L'EAU FROIDE SALÉE PENDANT QU'ON PRÉPARE LE RESTE. C'est ce qui empêche l'aubergine de noircir. Égoutter."
+    },
+    {
+      "n": 3,
+      "texte": "Casserole large : le dashi, le soya, le mirin, le gingembre râpé. Frémissement."
+    },
+    {
+      "n": 4,
+      "texte": "LES AUBERGINES PEAU VERS LE HAUT, EN UNE SEULE COUCHE. Otoshibuta ou couvercle posé de biais."
+    },
+    {
+      "n": 5,
+      "texte": "FRÉMISSEMENT 10 À 12 MINUTES. Une pointe de couteau doit traverser sans résistance."
+    },
+    {
+      "n": 6,
+      "texte": "Éteindre. LAISSER REFROIDIR DANS LE LIQUIDE. C'est là que le plat se fait — le mot 煮浸し veut dire « mijoté puis trempé »."
+    },
+    {
+      "n": 7,
+      "texte": "Servir froid ou à température de la pièce, avec le katsuobushi et le gingembre frais."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "煮浸し contre 揚げ浸し : trois cuillères d'huile de différence",
+      "texte": "IL Y A DEUX PLATS JAPONAIS D'AUBERGINE AU DASHI ET ILS DIFFÈRENT D'UNE SEULE ÉTAPE. Le 揚げ浸し AGEBITASHI frit l'aubergine avant de la faire tremper; le 煮浸し NIBITASHI la fait mijoter. La différence tient à trois ou quatre cuillères à soupe d'huile, soit 360 à 480 calories et 40 à 55 g de lipides pour deux portions.\n\n⚠️ ET CE N'EST PAS UNE QUESTION DE DOSE, C'EST UNE QUESTION DE PHYSIQUE : L'AUBERGINE EST UNE ÉPONGE. Sa chair est faite de poches d'air; plongée dans l'huile, elle boit tout ce qu'on lui donne, et il n'y a pas de « version allégée » de la friture d'une aubergine. C'est exactement pourquoi les plats d'aubergine sont absents du dossier depuis le début, et pourquoi celui-ci y entre : LE NIBITASHI EST LA SEULE MÉTHODE OÙ L'AUBERGINE NE BOIT QUE DU BOUILLON.\n\nCE QUI RÉSULTE : quarante-cinq calories, zéro lipide, et une texture fondante que rien d'autre du recueil ne donne. L'axe de texture porte « fondant » seul, et c'est assumé — c'est le plat qu'on met à côté de quelque chose qui croque, pas celui qu'on sert seul.\n\nLE REFROIDISSEMENT DANS LE LIQUIDE N'EST PAS UNE COMMODITÉ, C'EST LA MOITIÉ DE LA RECETTE. Une aubergine chaude sort du bouillon gorgée d'eau; en refroidissant, ses cellules se contractent et ELLE RAPPELLE LE BOUILLON EN ELLE. Servie chaude, elle goûte l'eau; servie froide après deux heures, elle goûte le dashi. Se garde 3 jours et s'améliore le premier.\n\n⚠️ DEUX CENT SOIXANTE MILLIGRAMMES, ET LE LIQUIDE SE MANGE ICI. Contrairement au nikudōfu de R111 ou au gyūdon de R115, le trempage EST le plat : on sert l'aubergine avec deux cuillères de son bouillon. Le levier « laisser le liquide » n'existe pas — c'est le prix de la méthode."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "MQN_dtqYtVI",
+    "auteur": "JapaneseCooking101",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R43",
+    "R111"
+  ],
+  "commentaire_source": ""
+}

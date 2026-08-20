@@ -1,0 +1,132 @@
+{
+  "id": "R126",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "blanchi",
+    "grille"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "acide",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "croustillant",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "tofu-frit-epais-grille-atsuage-yaki",
+  "jp": "厚揚げの焼き物",
+  "jp_lecture": "あつあげのやきもの",
+  "romaji": "atsuage yaki",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Tofu frit épais grillé (atsuage yaki)",
+  "sous_titre": "Dix minutes, aucune huile ajoutée, et une croûte croustillante sur du tofu. L'astuce est un geste de trente secondes qui s'appelle abura-nuki.",
+  "portions": "2",
+  "temps_affiche": "≈ 10 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 7,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 16,
+    "proteines_affiche": "16 g",
+    "calories": 200,
+    "calories_affiche": "≈ 200",
+    "lipides_g": 14,
+    "sodium_mg": 170,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 blocs d'atsuage — tofu frit épais — environ 300 g au total",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "DE L'EAU BOUILLANTE, pour l'abura-nuki",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE, par portion : 1 c. à thé de ponzu OU de sauce soya réduite · 2 c. à soupe de daikon râpé égoutté · gingembre râpé · oignons verts",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE HUILE DANS LA POÊLE",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : katsuobushi · shichimi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "L'ABURA-NUKI : poser l'atsuage dans une passoire et verser de l'eau bouillante dessus pendant 30 secondes, en le retournant. Ou le plonger 30 secondes dans l'eau bouillante."
+    },
+    {
+      "n": 2,
+      "texte": "ÉPONGER À FOND AU PAPIER ABSORBANT. Un atsuage mouillé ne grille pas."
+    },
+    {
+      "n": 3,
+      "texte": "Trancher chaque bloc en 4 ou 6 morceaux d'un doigt d'épaisseur."
+    },
+    {
+      "n": 4,
+      "texte": "POÊLE ANTIADHÉSIVE OU EN FONTE, TRÈS CHAUDE, À SEC. L'atsuage porte assez de gras pour se cuire lui-même."
+    },
+    {
+      "n": 5,
+      "texte": "3 minutes d'un côté sans y toucher, jusqu'à ce que la surface soit dorée et boursouflée. 2 à 3 minutes de l'autre."
+    },
+    {
+      "n": 6,
+      "texte": "Servir tout de suite, le daikon râpé et le gingembre par-dessus, LE PONZU VERSÉ À TABLE."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "L'abura-nuki : trente secondes contre l'huile de la friteuse industrielle",
+      "texte": "L'ATSUAGE EST DU TOFU FRIT EN USINE, ET L'HUILE DE SURFACE EST CELLE DE LEUR FRITEUSE, PAS CELLE QU'ON CHOISIRAIT. 油抜き, abura-nuki, veut littéralement dire « retirer l'huile » : de l'eau bouillante versée dessus emporte l'huile de surface, celle qui a le plus vieilli et qui porte le goût de rance.\n\nCE QUE ÇA RETIRE, EN CHIFFRES HONNÊTES : de l'ordre de 2 à 3 g de lipides pour deux portions. Ce n'est pas énorme. CE QUE ÇA CHANGE VRAIMENT EST AILLEURS, ET C'EST POURQUOI LE GESTE EST DANS TOUTES LES RECETTES JAPONAISES : le tofu prend le goût de ce qu'on met dessus au lieu de goûter l'huile de l'usine. C'est un geste de saveur avant d'être un geste de macro.\n\nET C'EST CE QUI PERMET DE CUIRE À SEC. Sans abura-nuki, l'huile de surface fume et brûle avant que le tofu ait doré. Rincée, la surface est nue et humide, on l'éponge, et elle grille sur sa propre matière grasse interne. AUCUNE HUILE N'ENTRE DANS LA POÊLE : c'est la seule cuisson dorée du recueil qui n'en demande pas.\n\nSEIZE GRAMMES DE PROTÉINES ET CENT SOIXANTE-DIX MILLIGRAMMES DE SODIUM POUR DIX MINUTES DE TRAVAIL. ⚠️ Son point faible est ailleurs : 14 g de lipides par portion, parce que c'est un aliment frit. À placer un jour maigre, et surtout pas le même jour que le maquereau de R100.\n\nLE MÊME GESTE VAUT POUR L'ABURA-AGE, la version mince utilisée dans la soupe miso, la hijiki de R123 et le takikomi gohan de R131. À porter au guide 3 comme une note d'ingrédient et non de recette : tout produit de soya frit passe sous l'eau bouillante avant d'entrer dans un plat."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "bcEIMbmevto",
+    "auteur": "JapaneseCooking101",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R123",
+    "R131"
+  ],
+  "commentaire_source": ""
+}

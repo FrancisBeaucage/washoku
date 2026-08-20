@@ -26,9 +26,10 @@
   "romaji": null,
   "nom_origine": "고등어구이",
   "lecture_origine": "godeungeo gui",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Maquereau salé grillé (godeungeo gui)",
-  "sous_titre": "Deux ingrédients : du maquereau et du sel. Le sodium le plus bas du lot pour trente-quatre grammes de protéines — et l'arbitrage se fait sur les lipides, pas sur le sel.",
+  "sous_titre": "Deux ingrédients : du maquereau et du sel. Trente-quatre grammes de protéines — et l'arbitrage se fait sur les lipides, pas sur le sel.",
   "portions": "2",
   "temps_affiche": "≈ 40 min dont 25 d'attente",
   "temps_minutes": {
@@ -43,10 +44,10 @@
     "calories": 380,
     "calories_affiche": "≈ 380",
     "lipides_g": 25,
-    "sodium_mg": 320,
+    "sodium_mg": 345,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. Le sel du dégorgement est compté à 60 % : une partie part avec l'eau qu'on éponge, une partie reste dans la chair. C'est une estimation grossière, et le seul endroit du recueil où une pesée changerait quelque chose."
   },
   "ingredients": [
     {
@@ -55,7 +56,7 @@
       "sante_pos": null
     },
     {
-      "texte": "3/4 c. à thé de sel — de l’ordre de 1 à 1,5 % du poids du poisson",
+      "texte": "1/2 c. à thé de sel — de l’ordre de 1 % du poids du poisson, la borne basse de ce que T3 demande",
       "sante": false,
       "sante_pos": null
     },
@@ -107,15 +108,13 @@
   "notes": [
     {
       "titre": "Le sel est le seul assaisonnement, et l'arbitrage est ailleurs",
-      "texte": "C'EST LE PLAT LE PLUS SOBRE DE TOUT LE RÉPERTOIRE CORÉEN : du poisson, du sel, du feu. Aucune pâte fermentée, aucun soya, aucune marinade. TROIS CENT VINGT MILLIGRAMMES DE SODIUM PAR PORTION, ET LA MOITIÉ PART AVEC L'EAU DE DÉGORGEMENT — le sel qu'on éponge ne se mange pas.\n\nL'ARBITRAGE DE CE PLAT EST LIPIDIQUE, PAS SODIQUE, ET IL FAUT LE SAVOIR AVANT DE LE PLANIFIER. Le maquereau porte de l'ordre de 15 g de lipides aux 100 g — c'est un poisson gras, et c'est pourquoi il grille si bien. Vingt-cinq grammes par portion, dans un dossier plafonné à 65 g par jour. À PLACER UN JOUR MAIGRE, et surtout pas le même jour qu'un tempé ou qu'un kōyadōfu.\n\nET CE GRAS N'EST PAS UN DÉFAUT : c'est de l'oméga-3 à longue chaîne, la même famille que celui du saumon, en plus grande quantité et pour le tiers du prix. LE MAQUEREAU EST LE POISSON GRAS LE MOINS CHER DU PARCOURS KIM PHAT, au congélateur C5 de l'allée 27.\n\n⚠️ UNE NOTE DE MERCURE, ET ELLE EST FAVORABLE. Le maquereau DU PACIFIQUE et le maquereau BLEU sont des petits poissons à cycle court, donc bas en mercure — contrairement au maquereau roi, qui est à éviter. LE 고등어 CORÉEN EST LE MAQUEREAU BLEU. Le guide 1 porte la note complète sur le mercure."
+      "texte": "C'EST LE PLAT LE PLUS SOBRE DE TOUT LE RÉPERTOIRE CORÉEN : du poisson, du sel, du feu. Aucune pâte fermentée, aucun soya, aucune marinade. ⚠️ LA DEMI-CUILLÈRE À THÉ DE SEL PORTE 1 150 MG, ET C'EST LE SEUL POSTE DE LA FICHE. Le dégorgement en emporte une partie avec l'eau qu'on éponge : LE RECUEIL COMPTE 60 % DE RESTANT, soit environ 345 mg par portion. CE SOIXANTE POUR CENT EST UNE ESTIMATION GROSSIÈRE, ASSUMÉE COMME TELLE — c'est le seul endroit du corpus où une pesée changerait vraiment quelque chose, et la version précédente de cette fiche annonçait 320 mg sur une arithmétique fausse.\n\nL'ARBITRAGE DE CE PLAT EST LIPIDIQUE, PAS SODIQUE, ET IL FAUT LE SAVOIR AVANT DE LE PLANIFIER. Le maquereau porte de l'ordre de 15 g de lipides aux 100 g — c'est un poisson gras, et c'est pourquoi il grille si bien. Vingt-cinq grammes par portion, dans un dossier plafonné à 65 g par jour. À PLACER UN JOUR MAIGRE, et surtout pas le même jour qu'un tempé ou qu'un kōyadōfu.\n\nET CE GRAS N'EST PAS UN DÉFAUT : c'est de l'oméga-3 à longue chaîne, la même famille que celui du saumon, en plus grande quantité et pour le tiers du prix. LE MAQUEREAU EST LE POISSON GRAS LE MOINS CHER DU PARCOURS KIM PHAT, au congélateur C5 de l'allée 27.\n\n⚠️ UNE NOTE DE MERCURE, ET ELLE EST FAVORABLE. Le maquereau DU PACIFIQUE et le maquereau BLEU sont des petits poissons à cycle court, donc bas en mercure — contrairement au maquereau roi, qui est à éviter. LE 고등어 CORÉEN EST LE MAQUEREAU BLEU. Le guide 1 porte la note complète sur le mercure."
     }
   ],
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

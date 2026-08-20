@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "깻잎찜",
   "lecture_origine": "kkaennip jjim",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Feuilles de périlla marinées (kkaennip jjim)",
   "sous_titre": "Deux à trois semaines au frigo, quarante milligrammes de sodium par portion réelle. Ce n'est pas un légume, c'est un condiment à riz — et c'est la distinction qui décide de la portion.",
@@ -93,9 +94,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "moyen",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

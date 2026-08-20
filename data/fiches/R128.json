@@ -1,0 +1,168 @@
+{
+  "id": "R128",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "type_de_plat": "soupe",
+  "methode": [
+    "saute",
+    "bouilli"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sesame-noisette",
+    "doux"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "croquant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-de-legumes-racines-au-tofu-kenchinjiru",
+  "jp": "けんちん汁",
+  "jp_lecture": "けんちんじる",
+  "romaji": "kenchinjiru",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Soupe de légumes racines au tofu (kenchinjiru)",
+  "sous_titre": "Dix grammes de protéines et cent quatre-vingt-dix milligrammes de sodium dans un bol de soupe. C'est le ichiju qui nourrit, et il n'y a pas une trace d'animal dedans.",
+  "portions": "4",
+  "temps_affiche": "≈ 35 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 20,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 10,
+    "proteines_affiche": "10 g",
+    "calories": 120,
+    "calories_affiche": "≈ 120",
+    "lipides_g": 5,
+    "sodium_mg": 190,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de tofu ferme, ÉGOUTTÉ — il sera écrasé, pas coupé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de daikon en quarts de rondelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 carotte en quarts de rondelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "80 g de gobo en biseaux — dans l'eau vinaigrée dès qu'il est coupé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de konnyaku, DÉCHIRÉ À LA MAIN, ébouillanté 2 minutes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 shiitake, frais ou réhydratés, tranchés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "800 ml de dashi T2 — de préférence un mizudashi kombu-shiitake, sans katsuobushi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 1/2 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · shichimi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T2. Le mizudashi kombu-shiitake est le bon choix ici, et pour une raison qui n'est pas gastronomique : voir la note."
+    },
+    {
+      "n": 2,
+      "texte": "CASSEROLE, HUILE DE SÉSAME, FEU MOYEN-VIF. LE TOFU ÉCRASÉ À LA MAIN DIRECTEMENT DEDANS, en gros morceaux irréguliers. 3 à 4 minutes sans trop remuer, jusqu'à ce que les faces dorent par endroits."
+    },
+    {
+      "n": 3,
+      "texte": "C'EST L'ÉTAPE QUI FAIT LE PLAT. NE PAS L'ESCAMOTER. Un tofu sauté à l'huile de sésame avant le bouillon donne une soupe qui a du corps; un tofu ajouté cru donne de l'eau avec des cubes dedans."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter le daikon, la carotte, le gobo, le konnyaku, les shiitake. 3 minutes en remuant, pour que l'huile de sésame les enrobe tous."
+    },
+    {
+      "n": 5,
+      "texte": "Le dashi. Amener à frémissement, ÉCUMER UNE FOIS, puis 15 minutes à découvert à petit frémissement."
+    },
+    {
+      "n": 6,
+      "texte": "Le soya et le mirin DANS LES 3 DERNIÈRES MINUTES SEULEMENT. Goûter."
+    },
+    {
+      "n": 7,
+      "texte": "Oignons verts au service, shichimi à table."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le ichiju qui nourrit, et pourquoi le tofu passe à la poêle d'abord",
+      "texte": "LE RECUEIL A CINQ SOUPES ET AUCUNE NE NOURRIT. R38 et R2 sont des soupes miso à 3 g de protéines; R40 et R42 sont des bouillons clairs. CELLE-CI PORTE DIX GRAMMES DE PROTÉINES POUR CENT QUATRE-VINGT-DIX MILLIGRAMMES DE SODIUM — c'est-à-dire trois fois la protéine d'une soupe miso pour un tiers de son sel.\n\nET LE MÉCANISME EST ENTIÈREMENT DANS LE TOFU SAUTÉ. Trois cents grammes de tofu ferme, c'est 35 g de protéines réparties sur quatre bols. Sauté d'abord à l'huile de sésame, il fait deux choses qu'il ne fait pas cru : ses faces dorées portent un goût grillé que rien d'autre du bol n'apporte, et sa surface raffermie l'empêche de se déliter en vingt minutes de frémissement.\n\nけんちん汁 VIENT DE LA CUISINE DES TEMPLES — 精進料理, la cuisine sans animal. C'est pourquoi la recette traditionnelle n'a ni viande ni katsuobushi, et pourquoi le dashi doit être un mizudashi kombu-shiitake si on veut le plat tel qu'il est. Ce n'est pas une contrainte à respecter par déférence : c'est un renseignement pratique. Le dossier a une règle — pas de kombu deux fois la même semaine, pour l'iode — et cette soupe est l'endroit où le kombu se justifie le mieux.\n\nCE QUE LE GOBO APPORTE, ET IL EST FACULTATIF DANS TOUTES LES RECETTES SAUF DANS CELLE-CI : une amertume de terre qui donne au bouillon un fond que le daikon et la carotte, tous deux sucrés, ne peuvent pas donner. Sans lui, c'est une bonne soupe de légumes; avec lui, c'est un kenchinjiru. Le peler au dos du couteau, pas à l'économe — la saveur est juste sous la peau.\n\n⚠️ SOUPE QU'ON BOIT : SES 190 MG COMPTENT EN ENTIER. C'est peu, et ça laisse de la place. Un souper à R128 plus un plat principal à 400 mg tient à 590 mg pour le repas complet, ce qui est le meilleur souper complet que le dossier sache construire."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "M1uP4rJBsDE",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R127",
+    "R129"
+  ],
+  "commentaire_source": ""
+}

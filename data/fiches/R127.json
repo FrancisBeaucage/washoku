@@ -1,0 +1,146 @@
+{
+  "id": "R127",
+  "statut": "actif",
+  "categorie": "soupe-entree",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "soupe",
+  "methode": [
+    "bouilli"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "doux"
+  ],
+  "axe_texture": [
+    "soyeux",
+    "en-bouillon"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-claire-aux-oeufs-files-kakitamajiru",
+  "jp": "かきたま汁",
+  "jp_lecture": "かきたまじる",
+  "romaji": "kakitamajiru",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Soupe claire aux œufs filés (kakitamajiru)",
+  "sous_titre": "Une soupe dont on décide du sel. Une soupe miso ne le permet pas : son sel et son goût voyagent dans la même cuillère.",
+  "portions": "2",
+  "temps_affiche": "≈ 10 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 7,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 7,
+    "proteines_affiche": "7 g",
+    "calories": 90,
+    "calories_affiche": "≈ 90",
+    "lipides_g": 5,
+    "sodium_mg": 370,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel; au huitième, le bol tombe à environ 230 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 œufs, battus à la fourchette sans faire de mousse",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de fécule de pomme de terre délayée dans 1 c. à soupe d'eau froide",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : mitsuba, oignons verts en fines rondelles, ou zeste de yuzu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à thé de saké",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T2 : 400 ml de dashi. Ici le dashi est tout le plat : c'est la fiche où un dashi frais se remarque le plus."
+    },
+    {
+      "n": 2,
+      "texte": "Amener à frémissement, ajouter le soya et le sel. Goûter."
+    },
+    {
+      "n": 3,
+      "texte": "VERSER LA FÉCULE DÉLAYÉE ET REMUER 30 SECONDES. Le bouillon devient très légèrement sirupeux. C'est l'étape qui fait la soupe et presque personne ne l'explique."
+    },
+    {
+      "n": 4,
+      "texte": "BAISSER À FRÉMISSEMENT DOUX — pas d'ébullition."
+    },
+    {
+      "n": 5,
+      "texte": "VERSER L'ŒUF BATTU EN FILET TRÈS FIN, LE PLUS HAUT POSSIBLE, EN DESSINANT DES CERCLES, pendant que l'autre main remue lentement dans le sens contraire."
+    },
+    {
+      "n": 6,
+      "texte": "ÉTEINDRE IMMÉDIATEMENT. L'œuf est cuit avant que la casserole ait fini de bouger."
+    },
+    {
+      "n": 7,
+      "texte": "Verdure par-dessus, servir tout de suite."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La fécule suspend l'œuf — et pourquoi une soupe ne descend pas sous 300 mg",
+      "texte": "UN KAKITAMAJIRU RATÉ A DES GRUMEAUX D'ŒUF AU FOND ET UN BOUILLON TROUBLE. UN RÉUSSI A DES RUBANS SOYEUX EN SUSPENSION. LA DIFFÉRENCE EST UNE CUILLÈRE À THÉ DE FÉCULE. Un bouillon clair est trop fluide pour porter l'œuf : les filets tombent, se rejoignent au fond et cuisent en paquet. La fécule épaissit juste assez pour que l'œuf flotte le temps de coaguler.\n\nET LA HAUTEUR DU FILET FAIT LE RESTE. Versé de haut, l'œuf se divise en un fil très mince avant de toucher le bouillon; versé de près, il arrive en masse. C'est de la mécanique, pas du savoir-faire : plus la chute est longue, plus le fil est fin.\n\n🔴 TROIS CENT SOIXANTE-DIX MILLIGRAMMES À LA DOSE ÉCRITE, ET IL FAUT DIRE POURQUOI ON NE FAIT PAS BEAUCOUP MIEUX. Un quart de cuillère à thé de sel, c'est 575 mg; la cuillère à thé de soya en ajoute 167. Une soupe miso ordinaire tourne autour de 500 mg par bol : L'ÉCART RÉEL EST D'UN QUART, PAS DE DEUX TIERS.\n\n⚠️ ET C'EST UN PLANCHER, PAS UN RATÉ : un bouillon a besoin de l'ordre de 0,15 à 0,20 % de sodium en masse pour goûter assaisonné. En dessous, il goûte l'eau. Miso, sel, soya, pâte d'anchois arrivent tous au même endroit, parce que c'est la concentration en bouche qui décide et non la nature du sel. LA SEULE FAÇON DE PASSER SOUS CE PLANCHER EST DE NE PAS ASSAISONNER LE LIQUIDE DU TOUT — c'est ce que fait le yosenabe de R133, avec sa trempette individuelle.\n\n🔴 CE QUE L'ŒUF APPORTE VRAIMENT, ET C'EST UN VRAI AVANTAGE : IL EST DOSABLE, ET LE MISO NE L'EST PAS. Cette soupe se sale au quart de cuillère, au huitième, à la pincée, et on ajuste en goûtant — à un huitième elle tombe à environ 230 mg et elle tient debout, parce que le dashi et l'œuf portent le corps du bol. Le miso, lui, transporte son sel et son goût dans la même cuillère : en mettre moins ne fait pas une soupe moins salée, ça fait une soupe fade.\n\nC'EST UN ARGUMENT DE CONTRÔLE ET NON DE NIVEAU. Sept grammes de protéines contre trois pour une soupe miso, et un chiffre de sodium que le cuisinier décide au lieu de le subir.\n\n⚠️ ET C'EST UNE SOUPE QU'ON BOIT, DONC TOUT SON SODIUM COMPTE — aucun levier ne s'applique après coup. Les plats en bouillon du recueil se divisent en deux familles : ceux dont le bouillon est un cuiseur, qu'on laisse dans la casserole, et ceux dont le bouillon EST le plat. Celui-ci est du second genre."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "u0cUEd2FsJ0",
+    "auteur": "JapaneseCooking101",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R38",
+    "R133"
+  ],
+  "commentaire_source": ""
+}

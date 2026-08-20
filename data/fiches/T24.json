@@ -27,6 +27,7 @@
   "romaji": "teriyaki",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Le glaçage teriyaki",
   "sous_titre": "Le tare classique est quatre parts égales : soya, mirin, saké, sucre. La version de la maison en retire une et divise une autre par deux — et le glaçage brille pareil.",
@@ -117,9 +118,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "멸치볶음",
   "lecture_origine": "myeolchi bokkeum",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Anchois séchés caramélisés (myeolchi bokkeum)",
   "sous_titre": "Le pire rapport sodium-poids de tout le recueil, et il est ici quand même. La raison est simple : c'est un condiment de dix grammes, pas un plat — et écrit comme tel, il tient.",
@@ -121,9 +122,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

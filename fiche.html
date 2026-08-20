@@ -390,7 +390,10 @@ class Component extends DCLogic {
     ligne("Prot\u00e9ines", n.proteines_affiche);
     ligne("Calories", n.calories_affiche);
     ligne("Lipides", n.lipides_g == null ? null : n.lipides_g + " g");
-    ligne("Sodium", n.sodium_mg == null ? null : n.sodium_mg + " mg");
+    /* 🔴 UN SODIUM ABSENT N'EST PAS UN SODIUM NUL. La majorité des fiches n'en
+       portent aucun, et une ligne manquante se lit comme un plat sans sel :
+       le trou doit se voir. Document 29, S33. */
+    ligne("Sodium", n.sodium_mg == null ? "non chiffré" : n.sodium_mg + " mg");
     ligne("Provenance des chiffres", n.source);
     ligne("Note", n.note);
 
@@ -405,7 +408,7 @@ class Component extends DCLogic {
       retourLabel: o.categorie === "technique" ? "Toutes les techniques" : "Toutes les recettes",
       f: {
         id: o.id, fr: o.fr, jp: NOM_ORIGINE(o), romaji: LECTURE_ORIGINE(o),
-        jpt: JPT(NOM_ORIGINE(o), LECTURE_ORIGINE(o), o.fr, o.jp_lecture),
+        jpt: JPT(NOM_ORIGINE(o), LECTURE_ORIGINE(o), o.fr, o.prononciation || o.jp_lecture),
         catLabel: LIB("categorie", o.categorie), cuiLabel: LIB("cuisine", o.cuisine),
         hasPhoto: !!o.photo, bg: o.photo ? 'url("' + o.photo + '")' : "none",
         etoiles: ETOILES(DE_LECTEUR(o.etoiles)),

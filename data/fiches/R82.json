@@ -27,6 +27,7 @@
   "romaji": "mushidori",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Poulet poché à froid (mushidori)",
   "sous_titre": "Cinq minutes de feu, quarante minutes où l'on ne fait rien, et la brique protéique la moins chère du recueil. Trente-trois grammes de protéines pour trois grammes de lipides.",
@@ -44,10 +45,10 @@
     "calories": 170,
     "calories_affiche": "≈ 170",
     "lipides_g": 3,
-    "sodium_mg": 150,
+    "sodium_mg": 38,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES QUATRE PORTIONS. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. Le sel de l'eau de pochage n'est compté ni en entier ni à zéro : la poitrine y séjourne quarante minutes, et la règle de comptage du document 29 ne couvre pas ce cas."
   },
   "ingredients": [
     {
@@ -112,7 +113,7 @@
   "notes": [
     {
       "titre": "Pourquoi l'eau éteinte fait mieux que l'eau qui bout",
-      "texte": "UNE POITRINE DE POULET EST LA COUPE LA PLUS FACILE À RATER DE TOUTE LA VIANDE : peu de gras, peu de collagène, et un écart de cinq degrés entre juteuse et sèche. À GROS BOUILLONS, L'EXTÉRIEUR PASSE 100 °C PENDANT QUE LE CŒUR MONTE, les fibres se contractent et expulsent leur eau, et on obtient une chair filandreuse.\n\nL'EAU ÉTEINTE RÈGLE ÇA PAR LA PHYSIQUE. Une casserole couverte d'eau à 90 °C descend lentement, et pendant trente minutes elle traverse exactement la fenêtre où les protéines du poulet coagulent sans se contracter — de 65 à 75 °C. LE POULET ARRIVE À BONNE TEMPÉRATURE PAR LE BAS, ET IL N'Y A AUCUN MOMENT OÙ IL EST SURCUIT.\n\nET LA MÉTHODE PARDONNE PRESQUE TOUT. Quarante minutes au lieu de trente ne change rien : l'eau est déjà tombée sous le seuil. C'est l'inverse d'un poulet grillé, où trois minutes de trop sont fatales. POUR UN DOSSIER OÙ LA CUISINE SE FAIT AVEC DES INTERRUPTIONS, C'EST LE PROFIL DE CUISSON LE PLUS SÛR QUI EXISTE.\n\nCENT CINQUANTE MILLIGRAMMES DE SODIUM POUR QUATRE PORTIONS, ET TROIS GRAMMES DE LIPIDES. Aucune huile n'entre, la peau est retirée, le sel est dans une eau qu'on jette en partie. C'EST LA PROTÉINE LA PLUS PROPRE DU RECUEIL, ET ELLE EST AUSSI LA MOINS CHÈRE AU GRAMME."
+      "texte": "UNE POITRINE DE POULET EST LA COUPE LA PLUS FACILE À RATER DE TOUTE LA VIANDE : peu de gras, peu de collagène, et un écart de cinq degrés entre juteuse et sèche. À GROS BOUILLONS, L'EXTÉRIEUR PASSE 100 °C PENDANT QUE LE CŒUR MONTE, les fibres se contractent et expulsent leur eau, et on obtient une chair filandreuse.\n\nL'EAU ÉTEINTE RÈGLE ÇA PAR LA PHYSIQUE. Une casserole couverte d'eau à 90 °C descend lentement, et pendant trente minutes elle traverse exactement la fenêtre où les protéines du poulet coagulent sans se contracter — de 65 à 75 °C. LE POULET ARRIVE À BONNE TEMPÉRATURE PAR LE BAS, ET IL N'Y A AUCUN MOMENT OÙ IL EST SURCUIT.\n\nET LA MÉTHODE PARDONNE PRESQUE TOUT. Quarante minutes au lieu de trente ne change rien : l'eau est déjà tombée sous le seuil. C'est l'inverse d'un poulet grillé, où trois minutes de trop sont fatales. POUR UN DOSSIER OÙ LA CUISINE SE FAIT AVEC DES INTERRUPTIONS, C'EST LE PROFIL DE CUISSON LE PLUS SÛR QUI EXISTE.\n\n⚠️ TRENTE-HUIT MILLIGRAMMES DE SODIUM PAR PORTION, ET CE CHIFFRE EST LE MOINS SÛR DE LA FICHE. La demi-cuillère à thé de sel porte 1 150 mg, mais elle est dans un litre d'eau que le poulet ne boit pas — et il y séjourne quarante minutes, ce qui n'est ni le blanchiment de quarante secondes qu'on compte à zéro ni le dégorgement qu'on compte à 60 %. LA RÈGLE DE COMPTAGE DU DOSSIER NE COUVRE PAS CE CAS, et le chiffre publié est celui d'avant la correction, ramené au par-portion. À vérifier le jour où ce plat sera cuisiné. Ce qui ne bouge pas : trois grammes de lipides, aucune huile, la peau retirée. C'EST LA PROTÉINE LA MOINS CHÈRE AU GRAMME DU RECUEIL."
     },
     {
       "titre": "Ce que ça remplace dans une semaine",

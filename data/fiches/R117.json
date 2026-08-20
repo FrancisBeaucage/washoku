@@ -28,6 +28,7 @@
   "romaji": "pīman no nikuzume",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Poivrons farcis au haché (pīman no nikuzume)",
   "sous_titre": "Un plat où le légume est le contenant : quatre poivrons portent trois cents grammes de protéine, et la farine à l'intérieur est la seule chose qui empêche tout de se séparer.",
@@ -151,9 +152,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "moyen",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

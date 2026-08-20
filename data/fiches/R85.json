@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "무나물",
   "lecture_origine": "mu namul",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Namul de daikon étuvé (mu namul)",
   "sous_titre": "Le contrepoint doux de la table coréenne, et le deuxième débouché du recueil pour un daikon entamé. Aucun piment, aucune couleur : c’est ce qui permet de manger le reste.",
@@ -44,10 +45,10 @@
     "calories": 50,
     "calories_affiche": "≈ 50",
     "lipides_g": 3,
-    "sodium_mg": 90,
+    "sodium_mg": 145,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 90 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 23 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
   },
   "ingredients": [
     {
@@ -119,9 +120,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

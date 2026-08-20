@@ -1,0 +1,154 @@
+{
+  "id": "R132",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "vapeur",
+    "grille"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "saumon-au-miso-sur-lit-de-chou-chanchanyaki",
+  "jp": "鮭のちゃんちゃん焼き",
+  "jp_lecture": "さけのちゃんちゃんやき",
+  "romaji": "sake no chanchanyaki",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Saumon au miso sur lit de chou (chanchanyaki)",
+  "sous_titre": "Une poêle, un couvercle, quinze minutes. Et un ajustement qui enlève deux cents calories sans que le plat s'en aperçoive : pas de beurre.",
+  "portions": "2",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 29,
+    "proteines_affiche": "29 g",
+    "calories": 400,
+    "calories_affiche": "≈ 400",
+    "lipides_g": 20,
+    "sodium_mg": 440,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 filets de saumon de 160 g, avec la peau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 g de chou vert en lanières de 1 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 oignon en demi-lunes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de champignons — shimeji, shiitake ou de Paris",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 carotte en fine julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE : 1 c. à soupe de miso · 1 c. à soupe de mirin · 1 c. à thé de sauce soya réduite · 1 c. à thé de gingembre râpé · 1 c. à thé de saké",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUN BEURRE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · sésame · shichimi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Mélanger la sauce dans un bol. Elle doit être une pâte épaisse, pas un liquide."
+    },
+    {
+      "n": 2,
+      "texte": "Éponger le saumon. ÉTALER LA SAUCE SUR LA CHAIR SEULEMENT, PAS SUR LA PEAU."
+    },
+    {
+      "n": 3,
+      "texte": "Grande poêle, huile, feu moyen. Le chou en lit au fond, puis l'oignon, la carotte, les champignons par-dessus."
+    },
+    {
+      "n": 4,
+      "texte": "DÉPOSER LE SAUMON PEAU EN DESSOUS SUR LES LÉGUMES, ET NON DANS LA POÊLE. Il cuit à la vapeur des légumes."
+    },
+    {
+      "n": 5,
+      "texte": "COUVRIR. 12 À 14 MINUTES À FEU MOYEN-DOUX. Ne pas ouvrir avant 10 minutes."
+    },
+    {
+      "n": 6,
+      "texte": "Vérifier : la chair se sépare à la fourchette au plus épais."
+    },
+    {
+      "n": 7,
+      "texte": "Découvrir, monter le feu 1 minute pour évaporer l'eau rendue par le chou. Mélanger grossièrement le saumon et les légumes au service, ou servir en portions."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le beurre, la sauce sur le poisson, et pourquoi le chou est en dessous",
+      "texte": "⚠️ LA RECETTE DE HOKKAIDŌ MET DU BEURRE ET LA FICHE N'EN MET PAS. C'EST L'AJUSTEMENT ANNONCÉ DANS LE RÉPERTOIRE DES MANQUES, ET IL TIENT. Deux cuillères à soupe de beurre, c'est 200 calories et 22 g de lipides pour deux portions — dans un plat qui porte déjà 20 g de lipides par portion parce que le saumon est un poisson gras. Avec le beurre, ce plat serait à 500 calories et 31 g de lipides : la moitié du plafond quotidien de lipides dans une assiette.\n\nCE QUE LE BEURRE FAISAIT : il liait la sauce et donnait du gras à un chou qui n'en a pas. Ce qui le remplace : LA PEAU DU SAUMON, qui rend son propre gras dans les légumes pendant les quatorze minutes à couvert, et LE MIRIN, qui donne à la sauce miso le brillant que le beurre lui donnait. On ne récupère pas exactement le même plat, et il faut le dire — c'est un chanchanyaki plus franc et moins rond.\n\nLA SAUCE VA SUR LE POISSON ET JAMAIS DANS LA POÊLE, ET C'EST LA DIFFÉRENCE ENTRE CE PLAT ET UN PLAT BRÛLÉ. Le miso contient des sucres et des protéines : au contact du métal chaud, il noircit en trois minutes. Posé sur la chair du saumon, il est protégé par l'humidité du poisson pendant toute la cuisson.\n\nLE CHOU EST EN DESSOUS PARCE QU'IL EST LE CUISEUR. Trois cents grammes de chou rendent de l'ordre d'un demi-verre d'eau en quinze minutes; c'est cette vapeur qui cuit le saumon. Le poisson ne touche jamais la poêle : il n'y a donc rien à retourner, rien à décoller, et la peau reste entière. C'est aussi ce qui explique la dernière étape — il faut évaporer cette eau à la fin, sinon le plat baigne.\n\nUNE CUILLÈRE À SOUPE DE MISO ET NON DEUX. L'usage en met deux à trois pour deux portions, soit 700 à 1 050 mg par portion. Une cuillère donne environ 440 mg au total avec le soya, et ce qui rend ça possible est que le chou et l'oignon sucrent en cuisant. La même logique que le gyūdon de R115 : cinq minutes d'oignon remplacent une cuillère de sel."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "ydQ7d-VBiFM",
+    "auteur": "Cooking with Dog",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R100",
+    "R115"
+  ],
+  "commentaire_source": ""
+}

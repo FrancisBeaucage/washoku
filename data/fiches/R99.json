@@ -27,9 +27,10 @@
   "romaji": null,
   "nom_origine": "계란말이",
   "lecture_origine": "gyeranmari",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Omelette roulée coréenne (gyeranmari)",
-  "sous_titre": "Cent cinquante milligrammes de sodium pour dix-neuf grammes de protéines, et ça se mange froid. C'est un dîner de vingt minutes déjà fait dans le frigo.",
+  "sous_titre": "Dix-neuf grammes de protéines dont tout le sel tient dans un quart de cuillère à thé — donc dosable, contrairement au reste du répertoire coréen. Et ça se mange froid.",
   "portions": "2",
   "temps_affiche": "≈ 15 min",
   "temps_minutes": {
@@ -44,10 +45,10 @@
     "calories": 230,
     "calories_affiche": "≈ 230",
     "lipides_g": 15,
-    "sodium_mg": 150,
+    "sodium_mg": 290,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES DEUX PORTIONS, soit environ 75 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
   },
   "ingredients": [
     {
@@ -110,15 +111,13 @@
   "notes": [
     {
       "titre": "Le cousin coréen du dashimaki, et ce qui les distingue",
-      "texte": "LE RECUEIL PORTE MAINTENANT DEUX OMELETTES ROULÉES, ET ELLES NE SE REMPLACENT PAS. Le だし巻き卵 japonais de R75 est monté au DASHI : sa texture est celle d'une crème prise, salée, sans légumes, et le liquide rend le roulage délicat. Le 계란말이 coréen est monté SEC, avec des légumes hachés : plus ferme, plus facile à rouler, et il croque un peu.\n\nCONSÉQUENCE PRATIQUE : CELUI-CI EST CELUI PAR LEQUEL COMMENCER. Sans liquide ajouté, la couche d'œuf ne se déchire pas, et le geste du roulage s'apprend sur ce plat-là avant d'aller au dashimaki.\n\nET C'EST LE PLAT LE MOINS SALÉ DE TOUT LE RÉPERTOIRE CORÉEN — cent cinquante milligrammes pour deux portions, soit le quart d'un banchan moyen. Le sodium vient du seul quart de cuillère à thé de sel; il n'y a ni soya, ni pâte fermentée, ni bouillon. QUAND UNE JOURNÉE EST DÉJÀ MANGÉE EN SODIUM, C'EST LE PLAT PROTÉINÉ À SORTIR.\n\nSE GARDE 2 JOURS AU FRIGO ET SE MANGE FROID, tranché. C'est ce qui en fait un dîner de boîte à lunch : dix-neuf grammes de protéines qu'on n'a pas à réchauffer."
+      "texte": "LE RECUEIL PORTE MAINTENANT DEUX OMELETTES ROULÉES, ET ELLES NE SE REMPLACENT PAS. Le だし巻き卵 japonais de R75 est monté au DASHI : sa texture est celle d'une crème prise, salée, sans légumes, et le liquide rend le roulage délicat. Le 계란말이 coréen est monté SEC, avec des légumes hachés : plus ferme, plus facile à rouler, et il croque un peu.\n\nCONSÉQUENCE PRATIQUE : CELUI-CI EST CELUI PAR LEQUEL COMMENCER. Sans liquide ajouté, la couche d'œuf ne se déchire pas, et le geste du roulage s'apprend sur ce plat-là avant d'aller au dashimaki.\n\nDEUX CENT QUATRE-VINGT-DIX MILLIGRAMMES PAR PORTION POUR DIX-NEUF GRAMMES DE PROTÉINES, SANS UNE TRACE DE PÂTE FERMENTÉE NI DE SOYA NI DE BOUILLON. ⚠️ Tout ce sodium vient du seul quart de cuillère à thé de sel — 575 mg pour deux portions — DONC IL SE DOSE ENTIÈREMENT : au huitième, la portion tombe à 145 mg et l'omelette tient, parce que ce sont les légumes hachés qui portent le goût. Comparé nommément : les feuilles de périlla de R90 sont à 40 mg et le nori grillé de R91 à 58; ce plat n'est pas le plus bas du répertoire coréen, il est le plus réglable.\n\nSE GARDE 2 JOURS AU FRIGO ET SE MANGE FROID, tranché. C'est ce qui en fait un dîner de boîte à lunch : dix-neuf grammes de protéines qu'on n'a pas à réchauffer."
     }
   ],
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

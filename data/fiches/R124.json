@@ -1,0 +1,136 @@
+{
+  "id": "R124",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sesame-noisette"
+  ],
+  "axe_texture": [
+    "croquant",
+    "ferme"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "poivrons-au-thon-trois-minutes-mugen-piman",
+  "jp": "無限ピーマン",
+  "jp_lecture": "むげんピーマン",
+  "romaji": "mugen pīman",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Poivrons au thon, trois minutes (mugen pīman)",
+  "sous_titre": "Quinze grammes de protéines dans un plat de légume, en six minutes, au micro-ondes. C'est le seul petit plat du recueil qui n'oblige pas à choisir entre le légume et la protéine.",
+  "portions": "2",
+  "temps_affiche": "≈ 6 min",
+  "temps_minutes": {
+    "preparation": 3,
+    "cuisson": 3,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 15,
+    "proteines_affiche": "15 g",
+    "calories": 140,
+    "calories_affiche": "≈ 140",
+    "lipides_g": 6,
+    "sodium_mg": 270,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. LE SODIUM DÉPEND ENTIÈREMENT DE LA CONSERVE DE THON et il est à relire à l'étiquette : un germon « sel ajouté » et un « sans sel ajouté » diffèrent d'un facteur six. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "4 poivrons verts OU 2 poivrons de couleur, en lanières de 3 mm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 boîte de thon germon dans l'eau, ÉGOUTTÉE — environ 120 g égouttés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de graines de sésame grillées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE MAYONNAISE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé de dashi en poudre · shichimi · katsuobushi",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Couper les poivrons en lanières FINES, 3 mm. C'est la seule vraie exigence du plat : épaisses, elles restent crues et amères."
+    },
+    {
+      "n": 2,
+      "texte": "Bol allant au micro-ondes, les lanières, COUVRIR D'UNE ASSIETTE ET NON D'UNE PELLICULE. 3 minutes à pleine puissance."
+    },
+    {
+      "n": 3,
+      "texte": "VIDER L'EAU QUI S'EST ACCUMULÉE AU FOND. Il y en aura deux cuillères à soupe, et elle délave tout le reste."
+    },
+    {
+      "n": 4,
+      "texte": "Ajouter le thon égoutté en l'émiettant, le soya, l'huile de sésame, le sésame. Mélanger."
+    },
+    {
+      "n": 5,
+      "texte": "Se mange tiède ou froid. SE GARDE 3 JOURS AU FRIGO."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce que la mayonnaise faisait, et ce qui la remplace",
+      "texte": "⚠️ LA RECETTE JAPONAISE ET LA VIDÉO METTENT DE LA MAYONNAISE. LA FICHE MET UNE CUILLÈRE À THÉ D'HUILE DE SÉSAME ET DU SÉSAME ÉCRASÉ, ET C'EST UN CHANGEMENT VOLONTAIRE. Deux cuillères à soupe de mayonnaise, c'est 200 calories et 22 g de lipides pour deux portions. L'huile de sésame et les graines en apportent 90 et 9.\n\nCE QUE LA MAYONNAISE FAISAIT VRAIMENT : ELLE LIAIT. Elle collait les lanières de poivron entre elles et portait le sel du thon. Le sésame écrasé fait le même travail de liaison — c'est pourquoi il faut l'écraser, pas le saupoudrer — et l'huile de sésame fait le travail d'enrobage avec un quart du gras.\n\nCE PLAT RÈGLE LE PROBLÈME QUE LE RÉPERTOIRE DES MANQUES NOMMAIT SANS LE RÉSOUDRE : UN LÉGUME AVEC SA PROTÉINE, EN CINQ MINUTES. Les trois petits plats du ichiju sansai sont normalement des légumes purs; celui-ci en porte quinze grammes de protéines. Sur un souper à 60 g, ça déplace un quart de la cible hors du plat principal.\n\n⚠️ LE SODIUM DÉPEND ENTIÈREMENT DE LA CONSERVE ET IL FAUT LIRE L'ÉTIQUETTE. Un thon « dans l'eau, sel ajouté » porte de l'ordre de 300 mg aux 100 g; un « sans sel ajouté » en porte 50. C'est un facteur six sur le poste principal du plat, et le dossier a déjà été pris deux fois par ce genre d'écart — les crevettes et le mirin. À relever au prochain passage : la marque exacte du germon en stock et son panneau.\n\nET LE NOM MÉRITE SA TRADUCTION : 無限 VEUT DIRE « SANS FIN ». Le plat s'appelle « poivrons infinis » parce qu'on en mange sans s'arrêter. C'est un nom de marketing domestique, pas une catégorie culinaire — mais il dit quelque chose de vrai sur un plat qui rend un poivron cru mangeable en quantité."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "JPhGfUWbDkg",
+    "auteur": "Sudachi | Japanese Recipes | Yuto Omura",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R119",
+    "R120"
+  ],
+  "commentaire_source": ""
+}

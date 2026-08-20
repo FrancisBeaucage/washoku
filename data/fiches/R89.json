@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "두부조림",
   "lecture_origine": "dubu jorim",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Tofu braisé au soya (dubu jorim)",
   "sous_titre": "Le seul banchan du recueil qui porte dix grammes de protéines SANS VIANDE et se garde cinq jours. Le tofu se dore avant d'être braisé, jamais l'inverse.",
@@ -123,9 +124,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

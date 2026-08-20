@@ -28,6 +28,7 @@
   "romaji": null,
   "nom_origine": "김치볶음밥",
   "lecture_origine": "kimchi bokkeumbap",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Riz frit au kimchi, ratio inversé (kimchi bokkeumbap)",
   "sous_titre": "Un bol de riz pour deux cent cinquante grammes de protéine et deux tasses de légumes. Le riz frit ordinaire fait l'inverse, et c'est le seul changement de cette fiche.",
@@ -139,9 +140,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

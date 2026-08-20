@@ -26,6 +26,7 @@
   "romaji": "nikudōfu",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Bœuf et tofu mijotés (nikudōfu)",
   "sous_titre": "Quarante-quatre grammes de protéines par portion, la plus haute valeur de tout le recueil japonais — parce que deux sources de protéines mijotent dans la même casserole.",
@@ -137,9 +138,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

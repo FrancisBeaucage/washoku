@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "나물",
   "lecture_origine": "namul",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Le patron namul — légumes assaisonnés à la main",
   "sous_titre": "Un seul mécanisme, six légumes, quatre jours de conservation. Une session de quarante-cinq minutes le dimanche produit quatre ou cinq accompagnements pour la semaine.",
@@ -44,10 +45,10 @@
     "calories": 60,
     "calories_affiche": "≈ 60",
     "lipides_g": 3,
-    "sodium_mg": 80,
+    "sodium_mg": 145,
     "variable": false,
     "source": "estime",
-    "note": "Par portion, sauf le sodium qui vaut environ 80 mg POUR TOUT LE PLAT de quatre portions. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. Le sodium suppose la borne basse de l'assaisonnement, un quart de cuillère à thé de sel pour quatre portions ; à la demi-cuillère, il double."
   },
   "ingredients": [
     {

@@ -25,6 +25,7 @@
   "romaji": null,
   "nom_origine": "닭볶음탕",
   "lecture_origine": "dakbokkeumtang",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Poulet braisé épicé aux pommes de terre (dakbokkeumtang)",
   "sous_titre": "La pomme de terre n'est pas un légume ici, c'est le féculent du repas. C'est ce qui décide du montage de l'assiette — et ça retire le bol de riz.",
@@ -117,9 +118,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

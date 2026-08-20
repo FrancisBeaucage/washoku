@@ -26,6 +26,7 @@
   "romaji": null,
   "nom_origine": "된장찌개",
   "lecture_origine": "doenjang jjigae",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Ragoût au doenjang (doenjang jjigae)",
   "sous_titre": "À pleine dose, un bol de ce ragoût porte la moitié du plafond de sodium de la journée. À une cuillère à soupe pour deux portions et un umami rebâti au champignon, c'est le même plat.",
@@ -148,9 +149,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

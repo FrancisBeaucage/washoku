@@ -27,9 +27,10 @@
   "romaji": null,
   "nom_origine": "소고기무국",
   "lecture_origine": "sogogi muguk",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Soupe de bœuf et daikon (sogogi muguk)",
-  "sous_titre": "Le radis fond et sucre le bouillon — la saveur ne vient pas du sel. Le plus bas en sodium de toutes les soupes coréennes, pour de la vraie protéine.",
+  "sous_titre": "Le radis fond et sucre le bouillon — la saveur ne vient pas du sel, et c'est ce qui permet de le baisser.",
   "portions": "3",
   "temps_affiche": "≈ 35 min",
   "temps_minutes": {
@@ -44,10 +45,10 @@
     "calories": 210,
     "calories_affiche": "≈ 210",
     "lipides_g": 8,
-    "sodium_mg": 380,
+    "sodium_mg": 550,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 380 mg — VAUT POUR LES TROIS PORTIONS, soit environ 127 mg par bol. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
   },
   "ingredients": [
     {
@@ -130,7 +131,7 @@
   "notes": [
     {
       "titre": "La saveur vient du radis, et c'est vérifiable",
-      "texte": "UN DAIKON MIJOTÉ VINGT MINUTES SE TRANSFORME : ses enzymes et sa chaleur convertissent une partie de ses glucides, il devient translucide, il perd son piquant soufré et IL SUCRE LE BOUILLON. Ce n'est pas une image — un bouillon de bœuf et daikon goûté sans sel est déjà rond et légèrement sucré, ce qu'un bouillon de bœuf seul n'est pas.\n\nC'EST POUR ÇA QUE CETTE SOUPE EST LA PLUS BASSE EN SODIUM DE TOUTES LES SOUPES CORÉENNES DU RÉPERTOIRE, ET DE LOIN. Un doenjang jjigae porte 1 100 à 1 300 mg par bol, un kimchi jjigae guère moins. Celle-ci tient à 380 mg pour trois portions, soit environ 127 mg par bol, ET ELLE NE GOÛTE PAS FADE — parce que ce qui la porte n'est pas le sel.\n\nLA DISTINCTION 국 GUK ET 찌개 JJIGAE MÉRITE D'ÊTRE ÉCRITE UNE FOIS POUR TOUTES. Le guk est une soupe claire et abondante, légèrement assaisonnée : c'est le ichiju du bapsang coréen, l'équivalent de la soupe miso. Le jjigae est un ragoût dense et salé qui tend à devenir le plat principal. POUR LE SODIUM, LES GUK SONT SYSTÉMATIQUEMENT MEILLEURS — ET LE RECUEIL N'AVAIT QUE DES JJIGAE. Cette fiche est le premier guk du dossier.\n\nET LE SEL VA À LA FIN, EN GOÛTANT. Le liquide réduit d'un cinquième en vingt-cinq minutes; une soupe salée au début devient trop salée à l'arrivée. C'est la même règle que T16."
+      "texte": "UN DAIKON MIJOTÉ VINGT MINUTES SE TRANSFORME : ses enzymes et sa chaleur convertissent une partie de ses glucides, il devient translucide, il perd son piquant soufré et IL SUCRE LE BOUILLON. Ce n'est pas une image — un bouillon de bœuf et daikon goûté sans sel est déjà rond et légèrement sucré, ce qu'un bouillon de bœuf seul n'est pas.\n\n🔴 ET C'EST CE QUI REND LE SEL DOSABLE, CE QUI N'EST PAS LA MÊME CHOSE QU'UN CHIFFRE BAS. À la dose écrite — une demi-cuillère à thé de sel et une cuillère à soupe de soya réduite pour trois bols — cette soupe est à environ 550 mg par bol. Ce n'est pas peu : comparé nommément, le baechu doenjang guk de R95 est à 450. CE QUI DISTINGUE CELLE-CI EST QUE SON SEL ARRIVE PAR UNE CUILLÈRE ET NON PAR UNE PÂTE : au quart de cuillère à thé, le bol tombe autour de 350 mg et il ne goûte pas fade, parce que ce qui le porte est le radis.\n\nLA DISTINCTION 국 GUK ET 찌개 JJIGAE MÉRITE D'ÊTRE ÉCRITE UNE FOIS POUR TOUTES. Le guk est une soupe claire et abondante, légèrement assaisonnée : c'est le ichiju du bapsang coréen, l'équivalent de la soupe miso. Le jjigae est un ragoût dense et salé qui tend à devenir le plat principal. ⚠️ ET L'ÉNONCÉ QUE LE DOSSIER PORTAIT — « pour le sodium, les guk sont systématiquement meilleurs » — EST FAUX ET IL EST CORRIGÉ ICI. Les jjigae du recueil sont à 700-850 mg par bol, les guk à 180-550 : la moyenne est meilleure, le mot « systématiquement » ne l'est pas. LE VRAI ÉNONCÉ EST CELUI-CI : un guk PEUT être beaucoup moins salé parce que son sel est dosable à la cuillère; un jjigae ne peut pas, parce que le sien est dans une pâte qui porte son goût et son sel ensemble.\n\nET LE SEL VA À LA FIN, EN GOÛTANT. Le liquide réduit d'un cinquième en vingt-cinq minutes; une soupe salée au début devient trop salée à l'arrivée. C'est la même règle que T16."
     },
     {
       "titre": "Le daikon, et le problème qu'il règle",

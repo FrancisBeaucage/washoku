@@ -29,6 +29,7 @@
   "romaji": "hiya-shabu",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Porc blanchi froid sur crudités (hiya-shabu)",
   "sous_titre": "La seule cuisson du recueil qui retire du gras au lieu d'en ajouter : quarante secondes d'eau bouillante, et le gras du porc part dans la casserole.",
@@ -120,9 +121,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

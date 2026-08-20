@@ -26,6 +26,7 @@
   "romaji": null,
   "nom_origine": "가지나물",
   "lecture_origine": "gaji namul",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Namul d'aubergine vapeur (gaji namul)",
   "sous_titre": "Une aubergine fondante sans une goutte d'huile. C'est le seul plat d'aubergine du recueil, et c'est la seule façon d'en faire un qui n'en boive pas.",
@@ -43,10 +44,10 @@
     "calories": 55,
     "calories_affiche": "≈ 55",
     "lipides_g": 3,
-    "sodium_mg": 220,
+    "sodium_mg": 55,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 220 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 55 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
   },
   "ingredients": [
     {
@@ -103,9 +104,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

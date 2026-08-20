@@ -28,6 +28,7 @@
   "romaji": "sanshoku don",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Bol trois couleurs (soborodon)",
   "sous_titre": "Trente-six grammes de protéines pour quatre cents milligrammes de sodium, et quinze minutes si le soboro est déjà au frigo. C'est le meilleur rapport du dossier pour un dîner.",
@@ -130,9 +131,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

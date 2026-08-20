@@ -26,9 +26,10 @@
   "romaji": null,
   "nom_origine": "콩나물무침",
   "lecture_origine": "kongnamul muchim",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Namul de germes de soya (kongnamul muchim)",
-  "sous_titre": "Le banchan national de la Corée, et le patron des six autres. Se garde quatre jours, coûte quatre-vingt-dix milligrammes de sodium pour quatre portions, et débloque à lui seul la session du dimanche.",
+  "sous_titre": "Le banchan national de la Corée, et le patron des six autres. Se garde quatre jours, tient son sodium dans un seul quart de cuillère à thé, et débloque à lui seul la session du dimanche.",
   "portions": "4",
   "temps_affiche": "≈ 15 min",
   "temps_minutes": {
@@ -43,10 +44,10 @@
     "calories": 70,
     "calories_affiche": "≈ 70",
     "lipides_g": 4,
-    "sodium_mg": 90,
+    "sodium_mg": 145,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 90 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 23 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. Le quart de cuillère à thé de l'eau de cuisson n'est pas compté : cette eau est jetée."
   },
   "ingredients": [
     {
@@ -115,7 +116,7 @@
     },
     {
       "titre": "Le patron du dimanche",
-      "texte": "CETTE FICHE EST LA PORTE D'ENTRÉE D'UNE FAMILLE ENTIÈRE, ET C'EST SA VRAIE VALEUR. Le mécanisme de T20 — cuire nu, essorer, assaisonner à la main — s'applique tel quel aux épinards (30 à 60 secondes de blanchiment), au daikon en julienne (étuvé à couvert 6 à 8 minutes), à la courgette, à l'aubergine (3 minutes de vapeur), à la carotte. L'ASSAISONNEMENT NE CHANGE PAS. Le légume change.\n\nQUARANTE-CINQ MINUTES LE DIMANCHE DONNENT QUATRE OU CINQ ACCOMPAGNEMENTS POUR LA SEMAINE, tous à moins de 100 mg de sodium pour quatre portions, tous en contenants fermés au frigo. C'EST EXACTEMENT CE QUE LE DOSSIER CHERCHE DEPUIS LE DÉBUT et qui n'existait nulle part : un poste accompagnement réglé d'avance, sans travail en semaine.\n\nET LE SODIUM EST À METTRE EN PERSPECTIVE. Quatre-vingt-dix milligrammes pour QUATRE portions, soit environ 23 mg par portion. Le sunomono du recueil, à cause de son sel de dégorgement, en porte de l'ordre de 250 par portion. C'EST DIX FOIS MOINS POUR UN PLAT QUI JOUE LE MÊME RÔLE — un petit légume froid et croquant à côté du riz."
+      "texte": "CETTE FICHE EST LA PORTE D'ENTRÉE D'UNE FAMILLE ENTIÈRE, ET C'EST SA VRAIE VALEUR. Le mécanisme de T20 — cuire nu, essorer, assaisonner à la main — s'applique tel quel aux épinards (30 à 60 secondes de blanchiment), au daikon en julienne (étuvé à couvert 6 à 8 minutes), à la courgette, à l'aubergine (3 minutes de vapeur), à la carotte. L'ASSAISONNEMENT NE CHANGE PAS. Le légume change.\n\nQUARANTE-CINQ MINUTES LE DIMANCHE DONNENT QUATRE OU CINQ ACCOMPAGNEMENTS POUR LA SEMAINE, tous en contenants fermés au frigo. C'EST EXACTEMENT CE QUE LE DOSSIER CHERCHE DEPUIS LE DÉBUT et qui n'existait nulle part : un poste accompagnement réglé d'avance, sans travail en semaine.\n\nET LE SODIUM D'UN NAMUL VIENT D'UN SEUL POSTE, CE QUI EST TOUT L'INTÉRÊT. Le quart de cuillère à thé de l'eau de cuisson est jeté avec l'eau; ce qu'on mange est le quart de cuillère à thé de l'assaisonnement, soit 575 mg pour quatre portions et environ 145 mg par bol. Comparé nommément : c'est le même chiffre que le namul d'épinards de R84, qui est le même assaisonnement sur un autre légume. UN SEUL POSTE VEUT DIRE UN SEUL RÉGLAGE — à la pincée, le bol tombe sous 40 mg, et le sésame et l'ail portent encore le plat."
     }
   ],
   "ajustement": null,

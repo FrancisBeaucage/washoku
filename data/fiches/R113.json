@@ -27,6 +27,7 @@
   "romaji": "nikujaga",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Bœuf et pommes de terre mijotés (nikujaga)",
   "sous_titre": "Le nikujaga ordinaire est un plat de pommes de terre avec de la viande dedans. Celui-ci double le bœuf et supprime le bol de riz — c'est le même plat avec le rapport à l'endroit.",
@@ -157,9 +158,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "moyen",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

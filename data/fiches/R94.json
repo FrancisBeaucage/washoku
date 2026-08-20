@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "닭곰탕",
   "lecture_origine": "dakgomtang",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Bouillon de poulet clair (dakgomtang)",
   "sous_titre": "Le meilleur cas de figure de tout le recueil pour le sodium : le plat arrive à table non salé, et chacun assaisonne son bol. Trente-quatre grammes de protéines pour cent quatre-vingts milligrammes.",
@@ -123,9 +124,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

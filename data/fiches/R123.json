@@ -1,0 +1,151 @@
+{
+  "id": "R123",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "ferme",
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "hijiki-mijotee-hijiki-no-nimono",
+  "jp": "ひじきの煮物",
+  "jp_lecture": "ひじきのにもの",
+  "romaji": "hijiki no nimono",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Hijiki mijotée (hijiki no nimono)",
+  "sous_titre": "Le petit plat de conservation le plus classique du répertoire japonais — et le seul du recueil qui vienne avec un avertissement d'agence alimentaire.",
+  "portions": "4",
+  "temps_affiche": "≈ 40 min dont 20 d'attente",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 15,
+    "attente": 20
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 5,
+    "proteines_affiche": "5 g",
+    "calories": 90,
+    "calories_affiche": "≈ 90",
+    "lipides_g": 3,
+    "sodium_mg": 200,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "30 g de hijiki séchée — elle fera environ 150 g réhydratée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 carotte en julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g d'edamames écossées, décongelées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 1/2 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 abura-age ébouillanté et taillé en lanières · konnyaku en lanières",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "FAIRE TREMPER LA HIJIKI 20 MINUTES DANS BEAUCOUP D'EAU FROIDE. RINCER À FOND, DEUX FOIS. JETER TOUTE L'EAU. Le rinçage n'est pas cosmétique : voir la note."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole, huile de sésame, feu moyen. La carotte 2 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "La hijiki égouttée, 2 minutes en remuant."
+    },
+    {
+      "n": 4,
+      "texte": "Le dashi, le soya, le mirin. LE LIQUIDE ARRIVE À HAUTEUR, PAS AU-DESSUS."
+    },
+    {
+      "n": 5,
+      "texte": "FRÉMISSEMENT À DÉCOUVERT 10 À 12 MINUTES, jusqu'à ce qu'il ne reste qu'un fond de liquide."
+    },
+    {
+      "n": 6,
+      "texte": "Les edamames dans les 2 dernières minutes."
+    },
+    {
+      "n": 7,
+      "texte": "Refroidir à découvert. SE GARDE 4 JOURS AU FRIGO ET SE MANGE FROIDE."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "L'arsenic de la hijiki, et ce que ça change à cette fiche",
+      "texte": "⚠️ LA HIJIKI EST LA SEULE ALGUE DU RECUEIL QUI CONCENTRE L'ARSENIC INORGANIQUE, et plusieurs agences alimentaires — au Royaume-Uni, au Canada, à Hong Kong — ont publié des avis recommandant d'en limiter ou d'en éviter la consommation régulière. Ce n'est pas une controverse marginale : c'est la position de plusieurs autorités, et elle porte sur cette algue précisément et non sur les algues en général. COMME POUR TOUTE QUESTION DE SANTÉ QUI TOUCHE UNE QUANTITÉ ET UNE FRÉQUENCE, C'EST À VALIDER AVEC UN PROFESSIONNEL PLUTÔT QU'AVEC UNE FICHE DE RECETTE.\n\nCE QUE ÇA CHANGE À CETTE FICHE, CONCRÈTEMENT ET SANS DRAMATISER :\n\nUN — LE TREMPAGE ET LE DOUBLE RINÇAGE DE L'ÉTAPE 1 SONT LA MESURE UTILE. L'arsenic inorganique est soluble : un trempage long, à l'eau abondante, jetée et renouvelée, en retire une part importante. C'est pourquoi l'étape 1 dit vingt minutes et deux rinçages, et non « réhydrater ».\n\nDEUX — CETTE FICHE EST UN PLAT OCCASIONNEL ET LE CHAMP statut_perso NE PEUT PAS LE DIRE. Le recueil n'a pas de champ de fréquence. La note doit donc le porter : CE N'EST PAS UN PLAT DE PRÉPARATION DU DIMANCHE À REFAIRE CHAQUE SEMAINE.\n\nTROIS — ET LA MEILLEURE NOUVELLE : LE MÊME PLAT MARCHE SANS HIJIKI. Le nimono est un patron, pas une recette. Remplacer les 30 g de hijiki par 30 g de kiriboshi daikon donne exactement R66, qui est déjà au recueil; par 10 g de wakame, on obtient un plat plus doux et plus glissant. Le dossier a donc déjà le débouché, et cette fiche existe surtout pour nommer la famille et son avertissement.\n\nCE QUE LA HIJIKI APPORTE DE PARTICULIER, POUR QUE LE CHOIX SOIT ÉCLAIRÉ : une texture ferme qui tient quinze minutes de mijotage sans se défaire — aucune autre algue ne fait ça — et un goût de terre et de mer qu'un daikon séché ne donne pas. C'est un vrai plat, pas un plat de substitution. C'est pourquoi la fiche est écrite au complet plutôt qu'écartée d'avance : LA DÉCISION REVIENT AU LECTEUR, AVEC LES FAITS SOUS LES YEUX."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "ptrh3C5cIqk",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R66",
+    "R126"
+  ],
+  "commentaire_source": ""
+}

@@ -26,6 +26,7 @@
     "romaji": "kome no togikata",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Le riz : rinçage et cuisson",
     "sous_titre": "Le rinçage n'est pas facultatif. Il enlève l'amidon de surface qui rend le riz gommant, une partie de l'arsenic inorganique, et les poussières de mouture.",
@@ -183,6 +184,7 @@
     "romaji": "dashi",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Le dashi — trois versions",
     "sous_titre": "Le bouillon de base de toute la cuisine japonaise. Environ 50 mg de sodium par tasse, contre 600 à 900 pour un bouillon commercial. Si vous ne faites qu'une seule chose maison, c'est celle-là.",
@@ -351,6 +353,7 @@
     "romaji": "shiojime",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Le salage préalable",
     "sous_titre": "Le geste qui distingue un poisson correct d'un poisson excellent. Vingt minutes d'attente, aucune compétence.",
@@ -462,6 +465,7 @@
     "romaji": "shioyaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Le poisson salé grillé (shioyaki)",
     "sous_titre": "La technique de poisson la plus courante au Japon, et la plus simple : deux ingrédients, du poisson et du sel. Trente minutes de repos, huit minutes de cuisson. Convient au saumon, au maquereau, à la sardine, à la truite, au sébaste — tout poisson à chair grasse ou mi-grasse.",
@@ -606,6 +610,7 @@
     "romaji": null,
     "nom_origine": "上漿",
     "lecture_origine": "shàng jiāng",
+    "prononciation": "tchang djiang",
     "langue_origine": "zh",
     "fr": "Le velouté (velveting)",
     "sous_titre": "Shàng jiāng, « appliquer une pâte ». Rend les coupes maigres et bon marché aussi tendres que les coupes grasses. Technique chinoise, pas japonaise — mais elle s'applique à toute viande tranchée mince destinée à un sauté ou à une soupe. Deux versions, qui n'ont ni le même mécanisme ni les mêmes conséquences sur le sodium.",
@@ -736,6 +741,7 @@
     "romaji": "yudekata",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Le blanchiment des verdures",
     "sous_titre": "Le geste dépend de la structure du légume. Deux familles, deux protocoles : les verdures molles (épinard, komatsuna, mizuna, cresson) et les verdures à tiges (bok choy, chou nappa, gai lan, choy sum). C'est la base de l'ohitashi.",
@@ -881,6 +887,7 @@
     "romaji": "tsukeru",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Faire tremper (ajitsuke tamago)",
     "sous_titre": "Faire tremper dans un liquide salé et umami (dashi, soya, mirin). Une technique de fond — la même pour les œufs, le tofu, le poulet, le poisson. Ici : l'ajitsuke tamago, l'œuf mariné.",
@@ -1016,6 +1023,7 @@
     "romaji": "sunomono",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Saler, dégorger, vinaigrer (sunomono)",
     "sous_titre": "La technique de fond : saler et dégorger, puis vinaigrer. La même pour le concombre, le chou, le navet, le radis — et la porte d'entrée vers les tsukemono.",
@@ -1158,6 +1166,7 @@
     "romaji": "hanjuku-tamago",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "L'œuf mollet et l'œuf dur",
     "sous_titre": "Le geste qui revient partout : sur le riz, dans les nouilles, en collation, mariné. La seule variable, c'est le temps de cuisson.",
@@ -1278,6 +1287,7 @@
     "romaji": "agemono",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "La friture japonaise (agemono)",
     "sous_titre": "Agemono (揚げ物) désigne toute la famille des aliments frits : karaage, tempura, tatsuta-age, korokke. Une seule variable décide de tout, et ce n'est pas la durée — c'est la température de l'huile. Une friture bien chaude est MOINS grasse qu'une friture tiède.",
@@ -1432,6 +1442,7 @@
     "romaji": "kiriboshi",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Le séchage du daikon",
     "sous_titre": "Un daikon est trop gros pour deux personnes. Le séchage est la façon dont la cuisine japonaise a réglé ce problème avant les réfrigérateurs — et il transforme le goût en même temps qu'il conserve.",
@@ -1566,6 +1577,7 @@
     "romaji": null,
     "nom_origine": "白灼",
     "lecture_origine": "bái zhuó",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Blanchir et napper (bai zhuo)",
     "sous_titre": "La technique cantonaise qui transforme n'importe quelle verdure en plat en six minutes. On ne cuit pas le légume dans l'assaisonnement — on le blanchit nu, puis on verse la sauce dessus.",
@@ -1693,6 +1705,7 @@
     "romaji": null,
     "nom_origine": "焯水",
     "lecture_origine": "zhuō shuǐ",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Le blanchiment préalable des viandes (zhuo shui)",
     "sous_titre": "Le geste qui décide si une soupe sera claire ou grise. Cinq minutes d'eau bouillante jetée, et c'est tout.",
@@ -1813,6 +1826,7 @@
     "romaji": null,
     "nom_origine": "水油焖",
     "lecture_origine": "shuǐ yóu mèn",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Le sauté à l'eau (shui you men)",
     "sous_titre": "Deux cuillères à thé d'huile, deux cuillères à soupe d'eau, un couvercle. La vapeur remplace la chaleur qu'une cuisinière domestique ne fournit pas — et c'est le levier lipides de toute la ligne chinoise.",
@@ -1933,6 +1947,7 @@
     "romaji": null,
     "nom_origine": "爆",
     "lecture_origine": "bào",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "La saisie éclair (bao)",
     "sous_titre": "Quatre-vingt-dix secondes, aucune fécule, aucune sauce liée. La croyance la plus tenace sur la cuisine chinoise est qu'un sauté doit être nappé — c'est faux, et ce plat le prouve.",
@@ -2063,6 +2078,7 @@
     "romaji": null,
     "nom_origine": "红烧",
     "lecture_origine": "hóngshāo",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Le braisage rouge (hongshao)",
     "sous_titre": "Le premier braisage du recueil. Son plat emblème est incompatible avec ce dossier; la technique, elle, est parfaitement récupérable — et c'est une distinction qui mérite d'être comprise.",
@@ -2209,6 +2225,7 @@
     "romaji": null,
     "nom_origine": "炖 · 煲",
     "lecture_origine": "dùn · bāo",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Le mijotage long (dun, bao)",
     "sous_titre": "Quinze minutes de travail, deux heures de feu doux sans surveillance. C'est le seul format du recueil qui échappe au plafond de quarante-cinq minutes — parce que le temps n'est pas du travail.",
@@ -2342,6 +2359,7 @@
     "romaji": null,
     "nom_origine": "干煸",
     "lecture_origine": "gānbiān",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Le sauté à sec (ganbian)",
     "sous_titre": "Une poêle sèche, un légume, et de la patience. Ni huile pour commencer, ni liquide, ni couvercle : on retire l'eau du légume au lieu de la faire cuire.",
@@ -2469,6 +2487,7 @@
     "romaji": null,
     "nom_origine": "兑碗汁",
     "lecture_origine": "duì wǎn zhī",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "La sauce prémélangée au bol (dui wan zhi)",
     "sous_titre": "La seule façon de contrôler le sodium d'un plat qui cuit en quatre-vingt-dix secondes. On ne verse rien à l'œil dans une poêle brûlante.",
@@ -2580,6 +2599,7 @@
     "romaji": null,
     "nom_origine": "ເຂົ້າຄ້ວ",
     "lecture_origine": "khao khua",
+    "prononciation": null,
     "langue_origine": "lo",
     "fr": "Le riz gluant grillé moulu (khao khua)",
     "sous_titre": "Variante thaïe ข้าวคั่ว. Du riz cru grillé à sec et moulu. Ça ne coûte rien, ça ne contient pas un milligramme de sodium, et c'est le levier de compensation le plus efficace de tout le dossier.",
@@ -2700,6 +2720,7 @@
     "romaji": null,
     "nom_origine": "나물",
     "lecture_origine": "namul",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Le patron namul — légumes assaisonnés à la main",
     "sous_titre": "Un seul mécanisme, six légumes, quatre jours de conservation. Une session de quarante-cinq minutes le dimanche produit quatre ou cinq accompagnements pour la semaine.",
@@ -2717,10 +2738,10 @@
       "calories": 60,
       "calories_affiche": "≈ 60",
       "lipides_g": 3,
-      "sodium_mg": 80,
+      "sodium_mg": 145,
       "variable": false,
       "source": "estime",
-      "note": "Par portion, sauf le sodium qui vaut environ 80 mg POUR TOUT LE PLAT de quatre portions. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. Le sodium suppose la borne basse de l'assaisonnement, un quart de cuillère à thé de sel pour quatre portions ; à la demi-cuillère, il double."
     },
     "ingredients": [
       {
@@ -2822,6 +2843,7 @@
     "romaji": null,
     "nom_origine": "rau luộc · nước luộc rau",
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "vi",
     "fr": "Le légume blanchi et son eau de cuisson (rau luoc)",
     "sous_titre": "Une casserole, huit minutes, et deux postes du repas sont faits : le légume et la soupe. Tout le sel du plat part dans un bol de trempette qu'on contrôle.",
@@ -2942,6 +2964,7 @@
     "romaji": null,
     "nom_origine": "ยำ",
     "lecture_origine": "yam",
+    "prononciation": null,
     "langue_origine": "th",
     "fr": "La vinaigrette à trois axes (yam)",
     "sous_titre": "Acide, piquant, salé, et rien d'autre. Aucun gras émulsifiant — et c'est la seule structure du recueil où réduire le sel de moitié se compense intégralement en montant les deux autres axes.",
@@ -3078,6 +3101,7 @@
     "romaji": "age-yaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "La panure sèche au four (age-yaki)",
     "sous_titre": "La porte d'entrée compatible vers toute la famille katsu. Deux cuillères à thé d'huile au lieu d'un litre, et un panko qu'on grille avant de paner.",
@@ -3212,6 +3236,7 @@
     "romaji": "wa-chōshoku",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Set japonais complet",
     "sous_titre": "Le déjeuner traditionnel complet. Tout se fait en parallèle : le poisson au gril pendant que l'œuf cuit et que la soupe chauffe.",
@@ -3345,6 +3370,7 @@
     "romaji": "misoshiru",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Soupe miso déjeuner au tofu et à l'œuf",
     "sous_titre": "Le déjeuner de cinq minutes qui remplace les céréales. Salé, protéiné, chaud.",
@@ -3485,6 +3511,7 @@
     "romaji": "nattō gohan",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Natto gohan",
     "sous_titre": "Trois minutes, 26 g de protéines. L'aliment le plus divisif du répertoire — et un des plus efficaces.",
@@ -3626,6 +3653,7 @@
     "romaji": "tamago kake gohan",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Tamago kake gohan",
     "sous_titre": "Deux minutes. La chaleur du riz cuit partiellement les œufs et crée une texture crémeuse.",
@@ -3737,6 +3765,7 @@
     "romaji": "kankoku-fū don",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Bol coréen express",
     "sous_titre": "Un reste de riz, deux œufs, du kimchi et des épinards. Cinq minutes.",
@@ -3855,6 +3884,7 @@
     "romaji": "tori-gayu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Okayu au poulet",
     "sous_titre": "Énorme volume pour environ 300 calories la portion. La bouillie de riz japonaise, l'équivalent du congee.",
@@ -3972,6 +4002,7 @@
     "romaji": "chawanmushi",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Œufs vapeur au gingembre",
     "sous_titre": "Un flan d'œuf salé cuit à la vapeur. La texture soyeuse vient d'une seule étape : le filtrage.",
@@ -4085,6 +4116,7 @@
     "romaji": "hijō chōshoku",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Le déjeuner d'urgence",
     "sous_titre": "Ce n'est pas de la cuisine. C'est mieux que rien, et infiniment mieux qu'un muffin.",
@@ -4184,6 +4216,7 @@
     "romaji": "donburi no kōshiki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "La formule donburi",
     "sous_titre": "Ce n'est pas une recette, c'est un gabarit. Choisir une colonne de chaque. Trois protéines préparées le dimanche — poisson grillé (R14), poulet grillé (R49) et œufs marinés (T7) — donnent cinq dîners différents.",
@@ -4318,6 +4351,7 @@
     "romaji": "hiyayakko",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Hiyayakko — tofu froid",
     "sous_titre": "« Tofu froid ». 冷 = froid ; 奴 = yakko, le motif carré porté sur la veste des valets à l'époque d'Edo, d'où le nom donné au bloc de tofu coupé en carré. Rien à voir avec une salade : c'est du tofu servi tel quel, assaisonné en surface. C'est un kobachi (小鉢), un petit plat d'accompagnement dans un ichiju sansai — ça ne porte pas un repas.",
@@ -4453,6 +4487,7 @@
     "romaji": "tsuna no ponzu-ae",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Thon germon assaisonné au ponzu",
     "sous_titre": "Un kobachi de conserve, monté en trois minutes. La leçon de la fiche est dans le geste : le ponzu est mélangé au thon, pas versé dessus. Kobachi, mais dense en protéines — celui-là peut porter un dîner, accompagné de riz et d'une soupe.",
@@ -4589,6 +4624,7 @@
     "romaji": "ochazuke",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Ochazuke",
     "sous_titre": "Le plat de restes par excellence, et une des meilleures idées de toute la cuisine japonaise. Mêmes ingrédients qu'hier soir, plat complètement différent.",
@@ -4697,6 +4733,7 @@
     "romaji": "soba sarada",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Salade de soba",
     "sous_titre": "Se transporte parfaitement. La protéine vient de la garniture, pas des nouilles — voir la note sur la lecture du paquet.",
@@ -4813,6 +4850,7 @@
     "romaji": "onigirazu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Onigirazu",
     "sous_titre": "La version « sandwich » de l'onigiri. Se façonne à la main, se transporte, et les enfants adorent en faire.",
@@ -4931,6 +4969,7 @@
     "romaji": "sake no shioyaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Saumon shioyaki et daikon râpé",
     "sous_titre": "Zéro huile ajoutée. La recette la plus facile du recueil, et celle par laquelle commencer.",
@@ -5054,6 +5093,7 @@
     "romaji": "sake furēku",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Flocons de saumon sur riz chaud",
     "sous_titre": "Le déjeuner de restes par excellence : un reste de saumon grillé (T4, R14) effiloché froid sur une portion de riz réchauffée. Aucune cuisson, aucun liant, aucune huile — la chaleur du riz fait tout le travail. C'est le plat qui rend un déjeuner japonais faisable un mardi matin.",
@@ -5186,6 +5226,7 @@
     "romaji": "saikyo-yaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Poisson mariné au miso",
     "sous_titre": "Le plat le plus impressionnant du recueil pour l'effort le plus faible. Cinq minutes de travail, deux jours d'attente.",
@@ -5285,6 +5326,7 @@
     "romaji": "sakana no nitsuke",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Poisson mijoté au gingembre",
     "sous_titre": "Mijoté dans soya, mirin et gingembre. Le poisson ne se retourne jamais.",
@@ -5394,6 +5436,7 @@
     "romaji": "gyūniku to burokkorī",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Bœuf et brocoli",
     "sous_titre": "Le plat le plus familier du recueil, et la meilleure démonstration du velouté. 500 g de brocoli pour 400 g de bœuf — au restaurant, c'est l'inverse.",
@@ -5522,6 +5565,7 @@
     "romaji": null,
     "nom_origine": "bún chả",
     "lecture_origine": null,
+    "prononciation": "boune tcha",
     "langue_origine": "vi",
     "fr": "Bun cha vietnamien en bol",
     "sous_titre": "Trois tasses de verdure fraîche par bol. Ce n'est pas une exagération, c'est la signature vietnamienne.",
@@ -5633,6 +5677,7 @@
     "romaji": "oyakodon",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Oyakodon",
     "sous_titre": "Littéralement « bol parent-enfant » — le poulet et l'œuf. Les œufs doivent rester baveux : c'est la signature du plat, pas une cuisson incomplète.",
@@ -5768,6 +5813,7 @@
     "romaji": "chirashi don",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Chirashi bowl",
     "sous_titre": "Zéro cuisson. Dix minutes pour un plat qui a l'air d'un restaurant. Le riz refroidi apporte en plus le bonus d'amidon résistant.",
@@ -5910,6 +5956,7 @@
     "romaji": "yakitori",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Yakitori",
     "sous_titre": "Ce sont des brochettes. Avec les enfants, c'est réglé. La tare se conserve un mois au réfrigérateur et s'améliore.",
@@ -6016,6 +6063,7 @@
     "romaji": "tori no shioyaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Poulet grillé au sel",
     "sous_titre": "La troisième protéine du rituel du dimanche. Aucune huile, aucune marinade, et quatre portions qui deviennent des dîners toute la semaine.",
@@ -6142,6 +6190,7 @@
     "romaji": "okonomiyaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Okonomiyaki",
     "sous_titre": "400 g de chou tenus par deux œufs et quatre cuillères de farine. Énorme dans l'assiette. Le plat le plus populaire auprès des enfants.",
@@ -6273,6 +6322,7 @@
     "romaji": null,
     "nom_origine": "비빔밥",
     "lecture_origine": "bibimbap",
+    "prononciation": "bi-bime-bap",
     "langue_origine": "ko",
     "fr": "Bibimbap à ratio inversé",
     "sous_titre": "Un petit bol de riz pour quatre tasses de légumes. Chaque légume prend 3 minutes — préparez-les le dimanche, l'assemblage prend 5 minutes en semaine.",
@@ -6411,6 +6461,7 @@
     "romaji": "shabu-shabu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Shabu-shabu",
     "sous_titre": "Le meilleur repas de famille du recueil. Chacun contrôle sa propre assiette, les enfants adorent participer, et il est impossible de manger vite.",
@@ -6536,6 +6587,7 @@
     "romaji": null,
     "nom_origine": "酸辣湯",
     "lecture_origine": "suān là tāng",
+    "prononciation": "souane la tang",
     "langue_origine": "zh",
     "fr": "Soupe aigre-piquante",
     "sous_titre": "Le piquant vient du poivre blanc, pas du piment. Goûter et ajuster : ça doit piquer et être franchement acide.",
@@ -6653,6 +6705,7 @@
     "romaji": null,
     "nom_origine": "麻婆豆腐",
     "lecture_origine": "mápó dòufu",
+    "prononciation": "ma-po dow-fou",
     "langue_origine": "zh",
     "fr": "Mapo tofu allégé",
     "sous_titre": "600 g de tofu, 200 g de porc au lieu des 400 habituels. Le tofu porte le plat, le porc n'est plus qu'un assaisonnement.",
@@ -6775,6 +6828,7 @@
     "romaji": null,
     "nom_origine": "ต้มยำกุ้ง",
     "lecture_origine": "tom yam kung",
+    "prononciation": "tome youme koung",
     "langue_origine": "th",
     "fr": "Tom yum aux crevettes",
     "sous_titre": "Bouillon clair, aromates, acidité. Le lait de coco est facultatif — et sans lui, c'est une soupe-repas à 260 calories.",
@@ -6906,6 +6960,7 @@
     "romaji": null,
     "nom_origine": "ต้มข่าไก่",
     "lecture_origine": "tom kha kai",
+    "prononciation": "tome ka gaï",
     "langue_origine": "th",
     "fr": "Tom kha gai allégé",
     "sous_titre": "Au lait de coco léger, jamais bouilli — sinon il tranche.",
@@ -7013,6 +7068,7 @@
     "romaji": null,
     "nom_origine": "순두부찌개",
     "lecture_origine": "sundubu jjigae",
+    "prononciation": "soune-dou-bou tchi-gué",
     "langue_origine": "ko",
     "fr": "Sundubu jjigae",
     "sous_titre": "Un ragoût bouillant au tofu soyeux. L'œuf se casse dans le bol au service, pas dans la casserole.",
@@ -7134,6 +7190,7 @@
     "romaji": null,
     "nom_origine": "육개장",
     "lecture_origine": "yukgaejang",
+    "prononciation": "youk-gué-djang",
     "langue_origine": "ko",
     "fr": "Yukgaejang simplifié",
     "sous_titre": "Bœuf effiloché, gochugaru, deux tasses de fèves germées. La couleur rouge vient de l'huile infusée, pas du piquant.",
@@ -7255,6 +7312,7 @@
     "romaji": "wonton sūpu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Soupe won-ton déconstruite",
     "sous_titre": "Toute la saveur du won-ton, zéro pâte.",
@@ -7366,6 +7424,7 @@
     "romaji": "tsukune-jiru",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Soupe aux boulettes de poulet",
     "sous_titre": "Même technique que R31, en version japonaise au dashi.",
@@ -7476,6 +7535,7 @@
     "romaji": "sake no misoshiru",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Soupe miso au saumon, tofu et edamame",
     "sous_titre": "Une soupe-repas complète, pas une soupe-entrée. 38 g de protéines par portion.",
@@ -7599,6 +7659,7 @@
     "romaji": "oden",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Oden",
     "sous_titre": "Le mijoté d'hiver. Meilleur réchauffé le lendemain. Le konnyaku fait environ 5 calories aux 100 g et remplit l'estomac.",
@@ -7730,6 +7791,7 @@
     "romaji": null,
     "nom_origine": "清蒸魚",
     "lecture_origine": "qīngzhēng yú",
+    "prononciation": "tching-djeng you",
     "langue_origine": "zh",
     "fr": "Poisson vapeur cantonais",
     "sous_titre": "Le plat le plus élégant du répertoire chinois. Le geste central est l'huile fumante versée sur les aromates.",
@@ -7847,6 +7909,7 @@
     "romaji": "tori no phở-fū",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "vi",
     "fr": "Faux-pho au poulet",
     "sous_titre": "Ce n'est pas un phở — un vrai bouillon mijote six à douze heures et contient des nouilles. C'est un bouillon aromatique qui en emprunte le profil, sans nouilles.",
@@ -7977,6 +8040,7 @@
     "romaji": "shirataki itame",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Nouilles konjac aux légumes",
     "sous_titre": "Les shirataki font environ 5 calories aux 100 g. L'étape 2 n'est pas facultative.",
@@ -8085,6 +8149,7 @@
     "romaji": "misoshiru",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Soupe miso de base",
     "sous_titre": "Le meilleur outil qui existe contre la fringale de 21 h. Trois minutes si le dashi est au réfrigérateur.",
@@ -8204,6 +8269,7 @@
     "romaji": null,
     "nom_origine": "canh",
     "lecture_origine": null,
+    "prononciation": "kang",
     "langue_origine": "vi",
     "fr": "Canh vietnamienne",
     "sous_titre": "La soupe maison qu'on sert à table dans tous les restaurants vietnamiens.",
@@ -8309,6 +8375,7 @@
     "romaji": "suimono",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Suimono — bouillon clair",
     "sous_titre": "Le plus élégant et le plus léger. L'esthétique compte : deux éléments qui flottent, rien d'autre.",
@@ -8422,6 +8489,7 @@
     "romaji": "tamago to tomato no sūpu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Soupe aux œufs et tomate",
     "sous_titre": "Six minutes, six ingrédients.",
@@ -8533,6 +8601,7 @@
     "romaji": "daikon no sumashi-jiru",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Bouillon au daikon et gingembre",
     "sous_titre": "Réconfortant, digestif, presque zéro calorie.",
@@ -8633,6 +8702,7 @@
     "romaji": "ohitashi",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Ohitashi — épinards au dashi",
     "sous_titre": "Se garde 3 jours. Environ 25 calories la portion, et le blanchiment améliore l'absorption du fer.",
@@ -8742,6 +8812,7 @@
     "romaji": "goma-ae",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Goma-ae — légumes blanchis au sésame",
     "sous_titre": "Le petit plat le plus courant du répertoire. Trois ingrédients, cinq minutes, à partir de légumes déjà blanchis. L'étape qui fait tout : écraser les graines de sésame au mortier — c'est ce qui libère l'huile et fait la sauce.",
@@ -8870,6 +8941,7 @@
     "romaji": "sunomono",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Sunomono — concombre vinaigré",
     "sous_titre": "Réduit aussi la réponse glycémique du repas qui suit. À côté de son assiette au souper familial, personne ne remarque rien.",
@@ -8998,6 +9070,7 @@
     "romaji": "kinpira",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Kinpira de carotte et daikon",
     "sous_titre": "Se garde 4 jours. La mandoline fait les juliennes en trente secondes.",
@@ -9122,6 +9195,7 @@
     "romaji": "tataki kyūri",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Concombre tataki",
     "sous_titre": "Pratiquement zéro calorie, et addictif. Les surfaces déchirées absorbent beaucoup mieux la marinade que des tranches nettes.",
@@ -9230,6 +9304,7 @@
     "romaji": "kiriboshi daikon no nimono",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Kiriboshi daikon mijoté",
     "sous_titre": "Le kobachi de semaine par excellence : il se fait une fois, se garde quatre ou cinq jours, et il est meilleur le lendemain. C'est aussi le plat qui justifie de sécher du daikon.",
@@ -9388,6 +9463,7 @@
     "romaji": "shimeji no sotē",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Shimeji sautés au soya",
     "sous_titre": "Le shimeji ne donne rien dans un bouillon. Il donne tout dans une poêle. Sept minutes, et le champignon le plus fade du frigo devient le plat qui goûte le plus.",
@@ -9521,6 +9597,7 @@
     "romaji": "momiji oroshi",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Momiji oroshi — daikon râpé au piment",
     "sous_titre": "« Râpé feuille d'érable » — le daikon prend la couleur de l'automne. Le condiment qui règle le problème du daikon râpé nu : il apporte enfin quelque chose de lui-même.",
@@ -9641,6 +9718,7 @@
     "romaji": "edamame",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Edamames — en cosses et écossées",
     "sous_titre": "Acheter nature congelés, pas salés — on dose soi-même. En cosses, décortiquer ralentit le rythme, ce qui fait partie de l'intérêt. Écossées, c'est un ingrédient : au bol, à la soupe, au donburi. Les deux formats ne s'assaisonnent pas de la même façon.",
@@ -9762,6 +9840,7 @@
     "romaji": "ajitsuke-nori",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Nori grillé assaisonné",
     "sous_titre": "Le remplacement des croustilles : salé, croustillant, la sensation d'huile — pour environ 30 calories le paquet.",
@@ -9843,6 +9922,7 @@
     "romaji": "senbei",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Senbei",
     "sous_titre": "Craquelins de riz. Le croquant du grignotage, avec environ la moitié du gras des croustilles.",
@@ -9919,6 +9999,7 @@
     "romaji": "konnyaku",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Konjac zéro calorie",
     "sous_titre": "Presque zéro calorie. En gelée aux fruits pour une envie de bonbon, ou en cubes et nouilles de konnyaku (le bloc gris sur la photo). Format portion, coupe la fringale sans culpabilité.",
@@ -10002,6 +10083,7 @@
     "romaji": "umeboshi",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Umeboshi",
     "sous_titre": "Prune salée fermentée. Le choc acide-salé casse une rage de sucre de façon étonnamment efficace.",
@@ -10082,6 +10164,7 @@
     "romaji": "nashi",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Poire asiatique et fruits",
     "sous_titre": "Le fruit est le dessert par défaut en Asie. Poire asiatique (nashi), mikan ou kaki selon la saison.",
@@ -10163,6 +10246,7 @@
     "romaji": "kinako-yōguruto",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Yogourt grec au kinako",
     "sous_titre": "175 g de yogourt grec 0 % et une cuillère de kinako (farine de soya grillé). 17 g de protéines : le meilleur ratio protéines-calories des collations.",
@@ -10260,6 +10344,7 @@
     "romaji": "yaki-imo",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Patate douce rôtie",
     "sous_titre": "焼き芋 yaki-imo. Sucrée naturellement, très rassasiante. Au four, elle se fait toute seule pendant qu'on fait autre chose.",
@@ -10379,6 +10464,7 @@
     "romaji": "sokusekimen",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Nouilles instantanées, version repas",
     "sous_titre": "Le paquet est une base, pas le repas. Avec des œufs et des légumes, ça devient un vrai souper à 550 calories et 32 g de protéines en cinq minutes — et ça bat la pizza.",
@@ -10507,6 +10593,7 @@
     "romaji": "gyōza",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Gyoza vapeur du congélateur",
     "sous_titre": "Le sac de gyoza congelés = un souper complet en dix minutes. Avec une soupe-entrée et une salade de concombre, environ 400 calories.",
@@ -10606,6 +10693,7 @@
     "romaji": "onigiri",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Onigiri du commerce, en repas",
     "sous_titre": "Un onigiri du commerce (≈ 200 cal) n'a que 4 à 6 g de protéines. Avec des edamames et un œuf dur, ça devient un vrai dîner.",
@@ -10709,6 +10797,7 @@
     "romaji": "kakejiru",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Nouilles en bouillon dashi (kakejiru)",
     "sous_titre": "かけ汁 kake-jiru, « le bouillon versé ». La formule de base de tous les udon et soba en soupe : trois ingrédients pour le bouillon, tout le reste est modulable. C'est la fiche qui rentabilise ta T2 — et la vraie alternative à R57, en 8 minutes, avec des nouilles sèches ordinaires qu'on trouve partout.",
@@ -10871,6 +10960,7 @@
     "romaji": "niku-udon",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Niku-udon — nouilles au bœuf",
     "sous_titre": "« Nouilles au bœuf » — et l'ordre des mots compte. C'est un bol de nouilles garni de bœuf, pas un bol de bœuf posé sur des nouilles. Monté sur un kake-jiru (R60), donc sur un dashi fort : c'est ce bouillon-là qui fait le plat, pas la viande.",
@@ -11035,6 +11125,7 @@
     "romaji": null,
     "nom_origine": "bánh tôm",
     "lecture_origine": null,
+    "prononciation": "bain tomme",
     "langue_origine": "vi",
     "fr": "Galettes de patate douce et crevettes en feuille de laitue",
     "sous_titre": "La feuille de laitue n'est pas une décoration : c'est le contenant. Une galette sans son emballage de verdure est un beignet.",
@@ -11208,6 +11299,7 @@
     "romaji": "buta no shōgayaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Porc sauté au gingembre",
     "sous_titre": "Le plat de porc le plus courant des tables japonaises. Shōga (生姜) veut dire gingembre, yaki (焼き) veut dire saisi à la poêle. Tout se joue en huit minutes et la marinade ne doit surtout pas être longue.",
@@ -11382,6 +11474,7 @@
     "romaji": null,
     "nom_origine": "น้ำตกเนื้อ",
     "lecture_origine": "nam tok nuea",
+    "prononciation": null,
     "langue_origine": "th",
     "fr": "Salade de bœuf grillé « cascade » (nam tok)",
     "sous_titre": "Le meilleur rapport protéines-sodium de tout le recueil, et il n'y a rien à ajuster. Quarante-cinq grammes de protéines, cinq cent vingt milligrammes de sodium, vingt minutes.",
@@ -11527,6 +11620,7 @@
     "romaji": null,
     "nom_origine": "ລາບ",
     "lecture_origine": "laap",
+    "prononciation": null,
     "langue_origine": "lo",
     "fr": "Laap de porc aux herbes",
     "sous_titre": "Variante thaïe ลาบ larb. Aucun corps gras n'entre jamais dans ce plat. La viande est pochée à l'eau, refroidie, et montée hors du feu — c'est la structure la plus favorable qu'on puisse écrire pour une cible de protéines.",
@@ -11670,6 +11764,7 @@
     "romaji": "kōyadōfu no fukumeni",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Koyadofu mijoté au dashi",
     "sous_titre": "Cinquante grammes de protéines aux cent grammes de produit sec. La meilleure densité protéique de tout le garde-manger asiatique, dans un sachet qui se garde des mois.",
@@ -11818,9 +11913,10 @@
     "romaji": null,
     "nom_origine": "콩나물무침",
     "lecture_origine": "kongnamul muchim",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Namul de germes de soya (kongnamul muchim)",
-    "sous_titre": "Le banchan national de la Corée, et le patron des six autres. Se garde quatre jours, coûte quatre-vingt-dix milligrammes de sodium pour quatre portions, et débloque à lui seul la session du dimanche.",
+    "sous_titre": "Le banchan national de la Corée, et le patron des six autres. Se garde quatre jours, tient son sodium dans un seul quart de cuillère à thé, et débloque à lui seul la session du dimanche.",
     "portions": "4",
     "temps_affiche": "≈ 15 min",
     "temps_minutes": {
@@ -11835,10 +11931,10 @@
       "calories": 70,
       "calories_affiche": "≈ 70",
       "lipides_g": 4,
-      "sodium_mg": 90,
+      "sodium_mg": 145,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 90 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 23 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. Le quart de cuillère à thé de l'eau de cuisson n'est pas compté : cette eau est jetée."
     },
     "ingredients": [
       {
@@ -11907,7 +12003,7 @@
       },
       {
         "titre": "Le patron du dimanche",
-        "texte": "CETTE FICHE EST LA PORTE D'ENTRÉE D'UNE FAMILLE ENTIÈRE, ET C'EST SA VRAIE VALEUR. Le mécanisme de T20 — cuire nu, essorer, assaisonner à la main — s'applique tel quel aux épinards (30 à 60 secondes de blanchiment), au daikon en julienne (étuvé à couvert 6 à 8 minutes), à la courgette, à l'aubergine (3 minutes de vapeur), à la carotte. L'ASSAISONNEMENT NE CHANGE PAS. Le légume change.\n\nQUARANTE-CINQ MINUTES LE DIMANCHE DONNENT QUATRE OU CINQ ACCOMPAGNEMENTS POUR LA SEMAINE, tous à moins de 100 mg de sodium pour quatre portions, tous en contenants fermés au frigo. C'EST EXACTEMENT CE QUE LE DOSSIER CHERCHE DEPUIS LE DÉBUT et qui n'existait nulle part : un poste accompagnement réglé d'avance, sans travail en semaine.\n\nET LE SODIUM EST À METTRE EN PERSPECTIVE. Quatre-vingt-dix milligrammes pour QUATRE portions, soit environ 23 mg par portion. Le sunomono du recueil, à cause de son sel de dégorgement, en porte de l'ordre de 250 par portion. C'EST DIX FOIS MOINS POUR UN PLAT QUI JOUE LE MÊME RÔLE — un petit légume froid et croquant à côté du riz."
+        "texte": "CETTE FICHE EST LA PORTE D'ENTRÉE D'UNE FAMILLE ENTIÈRE, ET C'EST SA VRAIE VALEUR. Le mécanisme de T20 — cuire nu, essorer, assaisonner à la main — s'applique tel quel aux épinards (30 à 60 secondes de blanchiment), au daikon en julienne (étuvé à couvert 6 à 8 minutes), à la courgette, à l'aubergine (3 minutes de vapeur), à la carotte. L'ASSAISONNEMENT NE CHANGE PAS. Le légume change.\n\nQUARANTE-CINQ MINUTES LE DIMANCHE DONNENT QUATRE OU CINQ ACCOMPAGNEMENTS POUR LA SEMAINE, tous en contenants fermés au frigo. C'EST EXACTEMENT CE QUE LE DOSSIER CHERCHE DEPUIS LE DÉBUT et qui n'existait nulle part : un poste accompagnement réglé d'avance, sans travail en semaine.\n\nET LE SODIUM D'UN NAMUL VIENT D'UN SEUL POSTE, CE QUI EST TOUT L'INTÉRÊT. Le quart de cuillère à thé de l'eau de cuisson est jeté avec l'eau; ce qu'on mange est le quart de cuillère à thé de l'assaisonnement, soit 575 mg pour quatre portions et environ 145 mg par bol. Comparé nommément : c'est le même chiffre que le namul d'épinards de R84, qui est le même assaisonnement sur un autre légume. UN SEUL POSTE VEUT DIRE UN SEUL RÉGLAGE — à la pincée, le bol tombe sous 40 mg, et le sésame et l'ail portent encore le plat."
       }
     ],
     "ajustement": null,
@@ -11951,6 +12047,7 @@
     "romaji": null,
     "nom_origine": "Cá hấp hành gừng",
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "vi",
     "fr": "Poisson vapeur au gingembre et à la ciboule",
     "sous_titre": "Quarante grammes de protéines, zéro gras de cuisson, dix-huit minutes. Le plat le plus propre du corpus vietnamien, et il ne demande rien d'autre qu'un panier vapeur.",
@@ -12103,6 +12200,7 @@
     "romaji": null,
     "nom_origine": "แกงจืด",
     "lecture_origine": "gaeng jued",
+    "prononciation": null,
     "langue_origine": "th",
     "fr": "Soupe claire au porc et aux vermicelles (gaeng jued)",
     "sous_titre": "L'équivalent thaï exact du ichiju. Sans elle, aucun repas thaï n'est construisible; avec elle, tous les autres plats thaïs deviennent des sansai.",
@@ -12264,6 +12362,7 @@
     "romaji": "dashimaki tamago",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Omelette roulée au dashi (dashimaki tamago)",
     "sous_titre": "Le plat d'œuf le plus mangé au Japon, et le recueil n'en avait aucune trace. Se mange chaud, tiède ou froid, et il va dans une boîte à lunch.",
@@ -12411,6 +12510,7 @@
     "romaji": null,
     "nom_origine": "滑蛋虾仁",
     "lecture_origine": "huádàn xiārén",
+    "prononciation": null,
     "langue_origine": "zh",
     "fr": "Crevettes aux œufs soyeux (huadan xiaren)",
     "sous_titre": "Aucune sauce salée, aucune fécule liée, aucun soya : du sel, du vin de riz et des œufs. Tout le sodium de ce plat vient des crevettes elles-mêmes — et c'est un cas d'école.",
@@ -12570,6 +12670,7 @@
     "romaji": null,
     "nom_origine": "장조림",
     "lecture_origine": "jangjorim",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Bœuf braisé au soya, effilochable (jangjorim)",
     "sous_titre": "Sept jours au frigo, dix minutes de travail, et le seul accompagnement de longue conservation du recueil qui soit vraiment protéiné. C'est l'outil contre le plancher de cent trente grammes les jours où la planification déraille.",
@@ -12706,6 +12807,7 @@
     "romaji": null,
     "nom_origine": "คั่วกลิ้ง",
     "lecture_origine": "kua kling",
+    "prononciation": null,
     "langue_origine": "th",
     "fr": "Curry sec du Sud (kua kling)",
     "sous_titre": "Un curry sans une goutte de lait de coco. Une à deux cuillères à thé de sauce de poisson pour quatre cent cinquante grammes de viande : le meilleur rapport protéines-sodium-lipides de tout le corpus thaï.",
@@ -12849,6 +12951,7 @@
     "romaji": "niku-yasai itame",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Sauté de porc et légumes (niku-yasai itame)",
     "sous_titre": "Le deuxième plat le plus cuisiné dans les foyers japonais, et le recueil n'avait aucun sauté-repas. Deux cent cinquante grammes de porc, quatre tasses de légumes, dix-huit minutes.",
@@ -12993,6 +13096,7 @@
     "romaji": null,
     "nom_origine": "tumis tempe kacang panjang",
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "id",
     "fr": "Tempé saisi aux haricots longs",
     "sous_titre": "Vingt grammes de protéines aux cent grammes, il se tranche et se saisit comme une viande, et il est produit à Montréal. Aucun soya du recueil ne fait ça.",
@@ -13135,9 +13239,10 @@
     "romaji": null,
     "nom_origine": "소고기무국",
     "lecture_origine": "sogogi muguk",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Soupe de bœuf et daikon (sogogi muguk)",
-    "sous_titre": "Le radis fond et sucre le bouillon — la saveur ne vient pas du sel. Le plus bas en sodium de toutes les soupes coréennes, pour de la vraie protéine.",
+    "sous_titre": "Le radis fond et sucre le bouillon — la saveur ne vient pas du sel, et c'est ce qui permet de le baisser.",
     "portions": "3",
     "temps_affiche": "≈ 35 min",
     "temps_minutes": {
@@ -13152,10 +13257,10 @@
       "calories": 210,
       "calories_affiche": "≈ 210",
       "lipides_g": 8,
-      "sodium_mg": 380,
+      "sodium_mg": 550,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 380 mg — VAUT POUR LES TROIS PORTIONS, soit environ 127 mg par bol. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
     },
     "ingredients": [
       {
@@ -13238,7 +13343,7 @@
     "notes": [
       {
         "titre": "La saveur vient du radis, et c'est vérifiable",
-        "texte": "UN DAIKON MIJOTÉ VINGT MINUTES SE TRANSFORME : ses enzymes et sa chaleur convertissent une partie de ses glucides, il devient translucide, il perd son piquant soufré et IL SUCRE LE BOUILLON. Ce n'est pas une image — un bouillon de bœuf et daikon goûté sans sel est déjà rond et légèrement sucré, ce qu'un bouillon de bœuf seul n'est pas.\n\nC'EST POUR ÇA QUE CETTE SOUPE EST LA PLUS BASSE EN SODIUM DE TOUTES LES SOUPES CORÉENNES DU RÉPERTOIRE, ET DE LOIN. Un doenjang jjigae porte 1 100 à 1 300 mg par bol, un kimchi jjigae guère moins. Celle-ci tient à 380 mg pour trois portions, soit environ 127 mg par bol, ET ELLE NE GOÛTE PAS FADE — parce que ce qui la porte n'est pas le sel.\n\nLA DISTINCTION 국 GUK ET 찌개 JJIGAE MÉRITE D'ÊTRE ÉCRITE UNE FOIS POUR TOUTES. Le guk est une soupe claire et abondante, légèrement assaisonnée : c'est le ichiju du bapsang coréen, l'équivalent de la soupe miso. Le jjigae est un ragoût dense et salé qui tend à devenir le plat principal. POUR LE SODIUM, LES GUK SONT SYSTÉMATIQUEMENT MEILLEURS — ET LE RECUEIL N'AVAIT QUE DES JJIGAE. Cette fiche est le premier guk du dossier.\n\nET LE SEL VA À LA FIN, EN GOÛTANT. Le liquide réduit d'un cinquième en vingt-cinq minutes; une soupe salée au début devient trop salée à l'arrivée. C'est la même règle que T16."
+        "texte": "UN DAIKON MIJOTÉ VINGT MINUTES SE TRANSFORME : ses enzymes et sa chaleur convertissent une partie de ses glucides, il devient translucide, il perd son piquant soufré et IL SUCRE LE BOUILLON. Ce n'est pas une image — un bouillon de bœuf et daikon goûté sans sel est déjà rond et légèrement sucré, ce qu'un bouillon de bœuf seul n'est pas.\n\n🔴 ET C'EST CE QUI REND LE SEL DOSABLE, CE QUI N'EST PAS LA MÊME CHOSE QU'UN CHIFFRE BAS. À la dose écrite — une demi-cuillère à thé de sel et une cuillère à soupe de soya réduite pour trois bols — cette soupe est à environ 550 mg par bol. Ce n'est pas peu : comparé nommément, le baechu doenjang guk de R95 est à 450. CE QUI DISTINGUE CELLE-CI EST QUE SON SEL ARRIVE PAR UNE CUILLÈRE ET NON PAR UNE PÂTE : au quart de cuillère à thé, le bol tombe autour de 350 mg et il ne goûte pas fade, parce que ce qui le porte est le radis.\n\nLA DISTINCTION 국 GUK ET 찌개 JJIGAE MÉRITE D'ÊTRE ÉCRITE UNE FOIS POUR TOUTES. Le guk est une soupe claire et abondante, légèrement assaisonnée : c'est le ichiju du bapsang coréen, l'équivalent de la soupe miso. Le jjigae est un ragoût dense et salé qui tend à devenir le plat principal. ⚠️ ET L'ÉNONCÉ QUE LE DOSSIER PORTAIT — « pour le sodium, les guk sont systématiquement meilleurs » — EST FAUX ET IL EST CORRIGÉ ICI. Les jjigae du recueil sont à 700-850 mg par bol, les guk à 180-550 : la moyenne est meilleure, le mot « systématiquement » ne l'est pas. LE VRAI ÉNONCÉ EST CELUI-CI : un guk PEUT être beaucoup moins salé parce que son sel est dosable à la cuillère; un jjigae ne peut pas, parce que le sien est dans une pâte qui porte son goût et son sel ensemble.\n\nET LE SEL VA À LA FIN, EN GOÛTANT. Le liquide réduit d'un cinquième en vingt-cinq minutes; une soupe salée au début devient trop salée à l'arrivée. C'est la même règle que T16."
       },
       {
         "titre": "Le daikon, et le problème qu'il règle",
@@ -13291,6 +13396,7 @@
     "romaji": "mushidori",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Poulet poché à froid (mushidori)",
     "sous_titre": "Cinq minutes de feu, quarante minutes où l'on ne fait rien, et la brique protéique la moins chère du recueil. Trente-trois grammes de protéines pour trois grammes de lipides.",
@@ -13308,10 +13414,10 @@
       "calories": 170,
       "calories_affiche": "≈ 170",
       "lipides_g": 3,
-      "sodium_mg": 150,
+      "sodium_mg": 38,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES QUATRE PORTIONS. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. Le sel de l'eau de pochage n'est compté ni en entier ni à zéro : la poitrine y séjourne quarante minutes, et la règle de comptage du document 29 ne couvre pas ce cas."
     },
     "ingredients": [
       {
@@ -13376,7 +13482,7 @@
     "notes": [
       {
         "titre": "Pourquoi l'eau éteinte fait mieux que l'eau qui bout",
-        "texte": "UNE POITRINE DE POULET EST LA COUPE LA PLUS FACILE À RATER DE TOUTE LA VIANDE : peu de gras, peu de collagène, et un écart de cinq degrés entre juteuse et sèche. À GROS BOUILLONS, L'EXTÉRIEUR PASSE 100 °C PENDANT QUE LE CŒUR MONTE, les fibres se contractent et expulsent leur eau, et on obtient une chair filandreuse.\n\nL'EAU ÉTEINTE RÈGLE ÇA PAR LA PHYSIQUE. Une casserole couverte d'eau à 90 °C descend lentement, et pendant trente minutes elle traverse exactement la fenêtre où les protéines du poulet coagulent sans se contracter — de 65 à 75 °C. LE POULET ARRIVE À BONNE TEMPÉRATURE PAR LE BAS, ET IL N'Y A AUCUN MOMENT OÙ IL EST SURCUIT.\n\nET LA MÉTHODE PARDONNE PRESQUE TOUT. Quarante minutes au lieu de trente ne change rien : l'eau est déjà tombée sous le seuil. C'est l'inverse d'un poulet grillé, où trois minutes de trop sont fatales. POUR UN DOSSIER OÙ LA CUISINE SE FAIT AVEC DES INTERRUPTIONS, C'EST LE PROFIL DE CUISSON LE PLUS SÛR QUI EXISTE.\n\nCENT CINQUANTE MILLIGRAMMES DE SODIUM POUR QUATRE PORTIONS, ET TROIS GRAMMES DE LIPIDES. Aucune huile n'entre, la peau est retirée, le sel est dans une eau qu'on jette en partie. C'EST LA PROTÉINE LA PLUS PROPRE DU RECUEIL, ET ELLE EST AUSSI LA MOINS CHÈRE AU GRAMME."
+        "texte": "UNE POITRINE DE POULET EST LA COUPE LA PLUS FACILE À RATER DE TOUTE LA VIANDE : peu de gras, peu de collagène, et un écart de cinq degrés entre juteuse et sèche. À GROS BOUILLONS, L'EXTÉRIEUR PASSE 100 °C PENDANT QUE LE CŒUR MONTE, les fibres se contractent et expulsent leur eau, et on obtient une chair filandreuse.\n\nL'EAU ÉTEINTE RÈGLE ÇA PAR LA PHYSIQUE. Une casserole couverte d'eau à 90 °C descend lentement, et pendant trente minutes elle traverse exactement la fenêtre où les protéines du poulet coagulent sans se contracter — de 65 à 75 °C. LE POULET ARRIVE À BONNE TEMPÉRATURE PAR LE BAS, ET IL N'Y A AUCUN MOMENT OÙ IL EST SURCUIT.\n\nET LA MÉTHODE PARDONNE PRESQUE TOUT. Quarante minutes au lieu de trente ne change rien : l'eau est déjà tombée sous le seuil. C'est l'inverse d'un poulet grillé, où trois minutes de trop sont fatales. POUR UN DOSSIER OÙ LA CUISINE SE FAIT AVEC DES INTERRUPTIONS, C'EST LE PROFIL DE CUISSON LE PLUS SÛR QUI EXISTE.\n\n⚠️ TRENTE-HUIT MILLIGRAMMES DE SODIUM PAR PORTION, ET CE CHIFFRE EST LE MOINS SÛR DE LA FICHE. La demi-cuillère à thé de sel porte 1 150 mg, mais elle est dans un litre d'eau que le poulet ne boit pas — et il y séjourne quarante minutes, ce qui n'est ni le blanchiment de quarante secondes qu'on compte à zéro ni le dégorgement qu'on compte à 60 %. LA RÈGLE DE COMPTAGE DU DOSSIER NE COUVRE PAS CE CAS, et le chiffre publié est celui d'avant la correction, ramené au par-portion. À vérifier le jour où ce plat sera cuisiné. Ce qui ne bouge pas : trois grammes de lipides, aucune huile, la peau retirée. C'EST LA PROTÉINE LA MOINS CHÈRE AU GRAMME DU RECUEIL."
       },
       {
         "titre": "Ce que ça remplace dans une semaine",
@@ -13431,6 +13537,7 @@
     "romaji": null,
     "nom_origine": "무생채",
     "lecture_origine": "musaengchae",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Daikon en allumettes au gochugaru (musaengchae)",
     "sous_titre": "Un substitut rapide au kimchi, à sodium contrôlé, et un accompagnement franchement croquant qui n'est pas du concombre. Le recueil en avait un seul.",
@@ -13448,10 +13555,10 @@
       "calories": 35,
       "calories_affiche": "≈ 35",
       "lipides_g": 1,
-      "sodium_mg": 110,
+      "sodium_mg": 72,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 110 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 28 mg par portion, parce que le sel de dégorgement est RINCÉ. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. La cuillère à thé du dégorgement n'est pas comptée : elle est RINCÉE. Tout le sodium vient du huitième de cuillère à thé de l'assaisonnement."
     },
     "ingredients": [
       {
@@ -13512,7 +13619,7 @@
     "notes": [
       {
         "titre": "Le sel de dégorgement est rincé, et c'est tout l'écart avec le sunomono",
-        "texte": "LE RECUEIL A DÉJÀ UN PLAT DE LÉGUME DÉGORGÉ ET VINAIGRÉ — LE SUNOMONO — ET SON SEL DE DÉGORGEMENT N'EST PAS RINCÉ. Une cuillère à thé de sel représente environ 2 300 mg; le pressage en emporte une part, mais il en reste de l'ordre de 250 mg par portion. C'EST LE POSTE SODIQUE CACHÉ DE CE PLAT, ET IL EST CINQ FOIS PLUS GROS QUE SA VINAIGRETTE.\n\nICI, LE SEL EST RINCÉ ET LA DIFFÉRENCE EST MESURABLE : environ 110 mg pour QUATRE portions, soit 28 mg par portion, contre 250. LE MÊME GESTE CULINAIRE — dégorger un légume pour le rendre croquant et concentré — À UN DIXIÈME DU SODIUM.\n\nPOURQUOI LE RINÇAGE MARCHE ICI ET PAS LÀ. Le daikon en allumettes de 4 mm a une surface énorme et une chair poreuse : le sel a fait son travail osmotique en vingt minutes et il est surtout en surface. Un concombre en tranches fines dégorgé puis rincé perd aussi sa vinaigrette et devient fade — sa chair retient moins bien l'assaisonnement.\n\nET LE GOCHUGARU ENTRE AVANT LES LIQUIDES, À LA MAIN. Mélangé après le vinaigre, il fait des grumeaux rouges et ne colore rien. Sur un légume juste humide, il s'accroche à chaque allumette. C'EST LE MÊME PRINCIPE QUE L'ASSAISONNEMENT À LA MAIN DES NAMUL (T20)."
+        "texte": "LE RECUEIL A DÉJÀ UN PLAT DE LÉGUME DÉGORGÉ ET VINAIGRÉ — LE SUNOMONO — ET SON SEL DE DÉGORGEMENT N'EST PAS RINCÉ. Une cuillère à thé de sel représente environ 2 300 mg de sodium; le pressage en emporte une part, et le reste est dans le plat. C'EST LE POSTE SODIQUE CACHÉ DE CE PLAT-LÀ, ET IL EST PLUS GROS QUE SA VINAIGRETTE.\n\nICI, LE SEL EST RINCÉ, ET LA DIFFÉRENCE EST TOUTE LA FICHE : ce qui reste au compte est le HUITIÈME DE CUILLÈRE À THÉ DE L'ASSAISONNEMENT — 287 mg pour quatre portions, soit environ 72 mg par bol. LE MÊME GESTE CULINAIRE — dégorger un légume pour le rendre croquant et concentré — sans le sodium qui vient normalement avec.\n\nPOURQUOI LE RINÇAGE MARCHE ICI ET PAS LÀ. Le daikon en allumettes de 4 mm a une surface énorme et une chair poreuse : le sel a fait son travail osmotique en vingt minutes et il est surtout en surface. Un concombre en tranches fines dégorgé puis rincé perd aussi sa vinaigrette et devient fade — sa chair retient moins bien l'assaisonnement.\n\nET LE GOCHUGARU ENTRE AVANT LES LIQUIDES, À LA MAIN. Mélangé après le vinaigre, il fait des grumeaux rouges et ne colore rien. Sur un légume juste humide, il s'accroche à chaque allumette. C'EST LE MÊME PRINCIPE QUE L'ASSAISONNEMENT À LA MAIN DES NAMUL (T20)."
       },
       {
         "titre": "Pourquoi cette fiche est ici, et le trou qu'elle comble",
@@ -13564,9 +13671,10 @@
     "romaji": null,
     "nom_origine": "시금치나물",
     "lecture_origine": "sigeumchi namul",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Namul d'épinards (sigeumchi namul)",
-    "sous_titre": "Le namul le plus rapide de tous : soixante secondes d’eau bouillante et quatre-vingts milligrammes de sodium pour quatre portions.",
+    "sous_titre": "Le namul le plus rapide de tous : soixante secondes d'eau bouillante, et le sel de l'assaisonnement est le seul de la recette qu'on mange.",
     "portions": "4",
     "temps_affiche": "≈ 10 min",
     "temps_minutes": {
@@ -13581,10 +13689,10 @@
       "calories": 45,
       "calories_affiche": "≈ 45",
       "lipides_g": 3,
-      "sodium_mg": 80,
+      "sodium_mg": 145,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 80 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 20 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. La demi-cuillère à thé de l'eau de blanchiment n'est pas comptée : cette eau est jetée."
     },
     "ingredients": [
       {
@@ -13641,15 +13749,13 @@
     "notes": [
       {
         "titre": "La texture est molle, et c'est assumé",
-        "texte": "CETTE FICHE EST À DOMINANTE MOLLE, ET C'EST LE PROPRE DU PLAT. Un épinard blanchi s'affaisse — c'est ce qui permet à quatre cents grammes de légume de tenir dans un petit bol, et c'est aussi ce que certains n'aiment pas. LE RECUEIL A UN CONSTAT LÀ-DESSUS, ET IL EST ÉTROIT : SIX FICHES SEULEMENT ONT LE MOU COMME TEXTURE DOMINANTE, celle-ci comprise — le blanchiment des verdures de T6, l'okayu de R6, l'ohitashi de R43, le goma-ae de R44 et l'umeboshi de R53. Ce n'est pas une famille à éviter, c'est une famille à ne pas servir seule.\n\nLE MONTAGE RÈGLE ÇA, ET C'EST TOUT LE PRINCIPE DU BAPSANG : trois à cinq banchan sur la table, et ils ne se ressemblent pas. Ce namul mou à côté du daikon croquant de R83 et du tofu ferme de R89, c'est un ensemble; les trois mous ensemble, c'est un repas sans relief. QUAND ON PRÉPARE QUATRE BANCHAN LE DIMANCHE, VÉRIFIER QU'AU MOINS DEUX RÉSISTENT SOUS LA DENT.\n\nET LE SODIUM EST À METTRE EN PERSPECTIVE : QUATRE-VINGTS MILLIGRAMMES POUR QUATRE PORTIONS, soit 20 mg par bol. C'est le poste le moins coûteux de toute la table coréenne, et il permet de dépenser ailleurs."
+        "texte": "CETTE FICHE EST À DOMINANTE MOLLE, ET C'EST LE PROPRE DU PLAT. Un épinard blanchi s'affaisse — c'est ce qui permet à quatre cents grammes de légume de tenir dans un petit bol, et c'est aussi ce que certains n'aiment pas. LE RECUEIL A UN CONSTAT LÀ-DESSUS, ET IL EST ÉTROIT : SIX FICHES SEULEMENT ONT LE MOU COMME TEXTURE DOMINANTE, celle-ci comprise — le blanchiment des verdures de T6, l'okayu de R6, l'ohitashi de R43, le goma-ae de R44 et l'umeboshi de R53. Ce n'est pas une famille à éviter, c'est une famille à ne pas servir seule.\n\nLE MONTAGE RÈGLE ÇA, ET C'EST TOUT LE PRINCIPE DU BAPSANG : trois à cinq banchan sur la table, et ils ne se ressemblent pas. Ce namul mou à côté du daikon croquant de R83 et du tofu ferme de R89, c'est un ensemble; les trois mous ensemble, c'est un repas sans relief. QUAND ON PRÉPARE QUATRE BANCHAN LE DIMANCHE, VÉRIFIER QU'AU MOINS DEUX RÉSISTENT SOUS LA DENT.\n\n⚠️ ET LE SEL DE L'EAU DE BLANCHIMENT NE COMPTE PAS, CE QUI EST LA MOITIÉ DE L'HISTOIRE DU SODIUM DE CE PLAT. La demi-cuillère à thé qui va dans deux litres d'eau porte 1 150 mg, et il n'en reste qu'une fraction de pourcent dans le légume : l'eau part à l'égout. CE QU'ON MANGE, C'EST LE QUART DE CUILLÈRE À THÉ DE L'ASSAISONNEMENT — 575 mg pour quatre portions, soit environ 145 mg par bol. C'est pourquoi un namul est moins salé qu'il n'en a l'air quand on lit sa liste d'ingrédients, et c'est aussi pourquoi ce chiffre-là, lui, se dose : à la pincée, le bol tombe sous 40 mg."
       }
     ],
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -13693,6 +13799,7 @@
     "romaji": null,
     "nom_origine": "무나물",
     "lecture_origine": "mu namul",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Namul de daikon étuvé (mu namul)",
     "sous_titre": "Le contrepoint doux de la table coréenne, et le deuxième débouché du recueil pour un daikon entamé. Aucun piment, aucune couleur : c’est ce qui permet de manger le reste.",
@@ -13710,10 +13817,10 @@
       "calories": 50,
       "calories_affiche": "≈ 50",
       "lipides_g": 3,
-      "sodium_mg": 90,
+      "sodium_mg": 145,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 90 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 23 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
     },
     "ingredients": [
       {
@@ -13785,9 +13892,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -13830,6 +13935,7 @@
     "romaji": null,
     "nom_origine": "가지나물",
     "lecture_origine": "gaji namul",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Namul d'aubergine vapeur (gaji namul)",
     "sous_titre": "Une aubergine fondante sans une goutte d'huile. C'est le seul plat d'aubergine du recueil, et c'est la seule façon d'en faire un qui n'en boive pas.",
@@ -13847,10 +13953,10 @@
       "calories": 55,
       "calories_affiche": "≈ 55",
       "lipides_g": 3,
-      "sodium_mg": 220,
+      "sodium_mg": 55,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 220 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 55 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
     },
     "ingredients": [
       {
@@ -13907,9 +14013,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -13951,6 +14055,7 @@
     "romaji": null,
     "nom_origine": "호박볶음",
     "lecture_origine": "hobak bokkeum",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Courgette sautée à l'ail (hobak bokkeum)",
     "sous_titre": "Dix minutes, quatre portions, et le banchan qui se garde le mieux des quatre. La règle est de ne pas trop cuire : une courgette molle rend son eau au fond du contenant.",
@@ -13968,10 +14073,10 @@
       "calories": 60,
       "calories_affiche": "≈ 60",
       "lipides_g": 4,
-      "sodium_mg": 150,
+      "sodium_mg": 145,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES QUATRE PORTIONS, soit environ 38 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
     },
     "ingredients": [
       {
@@ -14040,9 +14145,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14084,6 +14187,7 @@
     "romaji": null,
     "nom_origine": "계란찜",
     "lecture_origine": "gyeranjjim",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Flan d'œufs vapeur (gyeranjjim)",
     "sous_titre": "Le banchan protéiné le plus rapide du recueil. Trois œufs, un peu d’eau, et un couvercle : treize grammes de protéines dans un petit bol.",
@@ -14101,10 +14205,10 @@
       "calories": 130,
       "calories_affiche": "≈ 130",
       "lipides_g": 9,
-      "sodium_mg": 320,
+      "sodium_mg": 290,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 320 mg — VAUT POUR LES DEUX PORTIONS, soit environ 160 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
     },
     "ingredients": [
       {
@@ -14174,9 +14278,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14220,6 +14322,7 @@
     "romaji": null,
     "nom_origine": "두부조림",
     "lecture_origine": "dubu jorim",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Tofu braisé au soya (dubu jorim)",
     "sous_titre": "Le seul banchan du recueil qui porte dix grammes de protéines SANS VIANDE et se garde cinq jours. Le tofu se dore avant d'être braisé, jamais l'inverse.",
@@ -14316,9 +14419,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14362,6 +14463,7 @@
     "romaji": null,
     "nom_origine": "깻잎찜",
     "lecture_origine": "kkaennip jjim",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Feuilles de périlla marinées (kkaennip jjim)",
     "sous_titre": "Deux à trois semaines au frigo, quarante milligrammes de sodium par portion réelle. Ce n'est pas un légume, c'est un condiment à riz — et c'est la distinction qui décide de la portion.",
@@ -14428,9 +14530,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14472,6 +14572,7 @@
     "romaji": null,
     "nom_origine": "김구이",
     "lecture_origine": "gim gui",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Nori grillé à la maison (gim gui)",
     "sous_titre": "Vingt feuilles, une cuillère à soupe d'huile de sésame, une pincée de sel. Le faire soi-même plutôt que d'acheter les paquets préassaisonnés change tout, et c'est mesurable.",
@@ -14489,10 +14590,10 @@
       "calories": 15,
       "calories_affiche": "≈ 15",
       "lipides_g": 1,
-      "sodium_mg": 25,
+      "sodium_mg": 58,
       "variable": false,
       "source": "estime",
-      "note": "Par portion de DEUX FEUILLES : vingt feuilles donnent dix portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. Par portion de deux feuilles : le quart de cuillère à thé de sel se répartit sur vingt feuilles."
     },
     "ingredients": [
       {
@@ -14546,15 +14647,13 @@
     "notes": [
       {
         "titre": "Ce que ça change par rapport au paquet du commerce",
-        "texte": "LE NORI PRÉASSAISONNÉ DU COMMERCE — l'ajitsuke-nori japonais de R50, le gim assaisonné coréen — EST SALÉ À LA SOURCE, ET ON NE CONTRÔLE RIEN. Les paquets portent couramment 130 à 200 mg de sodium pour un petit sachet de huit feuilles, parfois avec du glutamate et du sucre. Fait à la maison avec un quart de cuillère à thé de sel pour vingt feuilles, LA MÊME QUANTITÉ EN PORTE DE L'ORDRE DE 25 MG.\n\nET LE GESTE QUI COMPTE EST LE DOSAGE DE L'HUILE, PAS LE GRILLAGE. Un nori trop huilé devient mou et gras au lieu de croustillant, et il double ses lipides pour rien. UNE FEUILLE CORRECTEMENT HUILÉE PARAÎT PRESQUE SÈCHE : l'huile ne fait que porter le sel et parfumer. Le pinceau est meilleur que les doigts, et une seule face suffit puisqu'on empile face contre face.\n\nLA FEUILLE DOIT VIRER AU VERT, C'EST LE SEUL REPÈRE. Le nori cru est noir-violet; grillé, il devient vert franc et cassant. Retiré trop tôt il reste souple et goûte l'algue humide; laissé trop longtemps il brunit et devient amer, et il n'y a pas de rattrapage. VINGT À TRENTE SECONDES PAR FACE, À FEU MOYEN-DOUX.\n\nSE GARDE DES SEMAINES DANS UN CONTENANT HERMÉTIQUE AVEC UN SACHET DÉSHYDRATANT SI ON EN A. L'ennemi est l'humidité, pas le temps : un nori qui ramollit se repasse dix secondes à la poêle sèche et redevient croustillant."
+        "texte": "LE NORI PRÉASSAISONNÉ DU COMMERCE — l'ajitsuke-nori japonais de R50, le gim assaisonné coréen — EST SALÉ À LA SOURCE, ET ON NE CONTRÔLE RIEN. Les sachets portent couramment de l'ordre de 150 à 250 mg de sodium pour la quantité qu'on mange d'un coup, parfois avec du glutamate et du sucre. FAIT À LA MAISON, LE QUART DE CUILLÈRE À THÉ DE SEL SE RÉPARTIT SUR VINGT FEUILLES : 575 mg au total, soit environ 58 mg pour une portion de deux feuilles. TROIS À QUATRE FOIS MOINS, et le chiffre du commerce est à relire sur le paquet au prochain achat plutôt qu'à croire sur parole.\n\nET LE GESTE QUI COMPTE EST LE DOSAGE DE L'HUILE, PAS LE GRILLAGE. Un nori trop huilé devient mou et gras au lieu de croustillant, et il double ses lipides pour rien. UNE FEUILLE CORRECTEMENT HUILÉE PARAÎT PRESQUE SÈCHE : l'huile ne fait que porter le sel et parfumer. Le pinceau est meilleur que les doigts, et une seule face suffit puisqu'on empile face contre face.\n\nLA FEUILLE DOIT VIRER AU VERT, C'EST LE SEUL REPÈRE. Le nori cru est noir-violet; grillé, il devient vert franc et cassant. Retiré trop tôt il reste souple et goûte l'algue humide; laissé trop longtemps il brunit et devient amer, et il n'y a pas de rattrapage. VINGT À TRENTE SECONDES PAR FACE, À FEU MOYEN-DOUX.\n\nSE GARDE DES SEMAINES DANS UN CONTENANT HERMÉTIQUE AVEC UN SACHET DÉSHYDRATANT SI ON EN A. L'ennemi est l'humidité, pas le temps : un nori qui ramollit se repasse dix secondes à la poêle sèche et redevient croustillant."
       }
     ],
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14597,6 +14696,7 @@
     "romaji": null,
     "nom_origine": "멸치볶음",
     "lecture_origine": "myeolchi bokkeum",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Anchois séchés caramélisés (myeolchi bokkeum)",
     "sous_titre": "Le pire rapport sodium-poids de tout le recueil, et il est ici quand même. La raison est simple : c'est un condiment de dix grammes, pas un plat — et écrit comme tel, il tient.",
@@ -14691,9 +14791,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14736,9 +14834,10 @@
     "romaji": null,
     "nom_origine": "콩나물국",
     "lecture_origine": "kongnamul guk",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Soupe claire aux germes de soya (kongnamul guk)",
-    "sous_titre": "Le premier guk du recueil au sens propre : un bouillon clair qui accompagne au lieu de dominer. Une cuillère à thé de sel pour trois bols, et le couvercle ne se soulève pas.",
+    "sous_titre": "Le premier guk du recueil au sens propre : un bouillon clair qui accompagne au lieu de dominer. Le sel se met à la cuillère et se goûte à chaque ajout — et le couvercle ne se soulève pas.",
     "portions": "3",
     "temps_affiche": "≈ 20 min",
     "temps_minutes": {
@@ -14753,10 +14852,10 @@
       "calories": 60,
       "calories_affiche": "≈ 60",
       "lipides_g": 2,
-      "sodium_mg": 400,
+      "sodium_mg": 385,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 400 mg — VAUT POUR LES TROIS PORTIONS, soit environ 133 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. À la demi-cuillère à thé de sel, dose de la fiche. À la cuillère entière, le bol double."
     },
     "ingredients": [
       {
@@ -14775,7 +14874,7 @@
         "sante_pos": null
       },
       {
-        "texte": "1 c. à thé de sel, GOÛTÉ ET AJUSTÉ",
+        "texte": "1/2 c. à thé de sel, GOÛTÉ ET AJUSTÉ — voir la note",
         "sante": false,
         "sante_pos": null
       },
@@ -14822,14 +14921,16 @@
       {
         "titre": "Ne pas ouvrir le couvercle — la même règle que R72, et pour la même raison",
         "texte": "UN GERME DE SOYA CUIT À DÉCOUVERT DÉVELOPPE UNE ODEUR DE HARICOT CRU, FRANCHEMENT DÉSAGRÉABLE, ET C'EST IRRÉVERSIBLE. Le mécanisme est une enzyme — la lipoxygénase — qui s'active au contact de l'oxygène pendant la montée en température. À couvert, la vapeur chasse l'oxygène et l'enzyme est détruite avant d'avoir travaillé.\n\nLA RÈGLE EST BINAIRE : COUVERCLE FERMÉ DU DÉBUT À LA FIN, OU COUVERCLE JAMAIS MIS. C'est l'entre-deux qui rate, et soulever le couvercle à mi-cuisson pour regarder est la seule façon de tout gâcher.\n\n⚠️ ET LES 콩나물 NE SONT PAS LES GERMES DE HARICOT MUNGO. Grosse tête jaune et tige longue, 4 à 5 minutes; le germe de mungo est blanc, court, et 60 secondes suffisent. Chez Kim Phat, l'îlot des germes porte les deux : demander les jaunes.\n\nLE MÊME SAC DE GERMES DONNE DEUX PLATS DE CE RECUEIL, et ça vaut la peine de le savoir en achetant : 300 g ici et 400 g pour le namul de R72, soit un sac complet pour une soupe et quatre banchan."
+      },
+      {
+        "titre": "Un guk se sale à la cuillère, et c'est ça qui le distingue d'un jjigae",
+        "texte": "LA DEMI-CUILLÈRE À THÉ DE SEL EST TOUT LE SODIUM DE CE BOL : 1 150 mg pour trois portions, soit environ 385 mg. ⚠️ LA VERSION PREMIÈRE DE CETTE FICHE EN METTAIT UNE CUILLÈRE ENTIÈRE, ce qui fait 767 mg par bol — plus qu'une soupe miso, et la fiche présentait ça comme une sobriété. LA DOSE EST RAMENÉE À LA MOITIÉ, GOÛTÉE ET AJUSTÉE.\n\nET C'EST LÀ QU'EST LA VRAIE DIFFÉRENCE ENTRE UN GUK ET UN JJIGAE, PAS DANS UN CHIFFRE PLUS BAS. Un guk se sale à la cuillère et se goûte à chaque ajout : le cuisinier décide. Un jjigae reçoit son sel dans une pâte fermentée qui porte aussi son goût — en mettre moins ne fait pas un jjigae moins salé, ça fait un jjigae fade. C'EST UN ARGUMENT DE CONTRÔLE ET NON DE NIVEAU.\n\nLE PLANCHER EXISTE QUAND MÊME, ET IL FAUT LE DIRE : un bouillon a besoin de l'ordre de 0,15 à 0,20 % de sodium en masse pour goûter assaisonné. En dessous, il goûte l'eau. On ne descend pas un bol de soupe assaisonné sous environ 300 mg, quel que soit l'agent salant — la seule façon de passer sous ce plancher est de ne pas assaisonner le liquide du tout."
       }
     ],
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -14872,6 +14973,7 @@
     "romaji": null,
     "nom_origine": "닭곰탕",
     "lecture_origine": "dakgomtang",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Bouillon de poulet clair (dakgomtang)",
     "sous_titre": "Le meilleur cas de figure de tout le recueil pour le sodium : le plat arrive à table non salé, et chacun assaisonne son bol. Trente-quatre grammes de protéines pour cent quatre-vingts milligrammes.",
@@ -14968,9 +15070,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15012,6 +15112,7 @@
     "romaji": null,
     "nom_origine": "배추된장국",
     "lecture_origine": "baechu doenjang guk",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Soupe de chou nappa au doenjang (baechu doenjang guk)",
     "sous_titre": "La même pâte que le ragoût, diluée dans trois à quatre fois plus de liquide. C'est l'arbitrage le plus rentable de toute la ligne coréenne : le goût du doenjang jjigae pour le tiers de son sodium.",
@@ -15112,9 +15213,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15157,6 +15256,7 @@
     "romaji": null,
     "nom_origine": "미역국",
     "lecture_origine": "miyeokguk",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Soupe d'algues wakame (miyeokguk)",
     "sous_titre": "L'algue est sautée à l'ail avant d'être mijotée, et c'est ce qui distingue cette soupe d'un bouillon d'algues. Elle apporte déjà sa salinité marine : le soya se coupe de moitié.",
@@ -15252,9 +15352,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15299,6 +15397,7 @@
     "romaji": null,
     "nom_origine": "김치찌개",
     "lecture_origine": "kimchi jjigae",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Ragoût de kimchi (kimchi jjigae)",
     "sous_titre": "Le plat coréen le plus mangé à la maison, et il entre au recueil avec son ajustement écrit dans la fiche. La règle tient en une phrase : le kimchi suffit, aucun sel ni soya ne s'ajoute.",
@@ -15408,9 +15507,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15453,6 +15550,7 @@
     "romaji": null,
     "nom_origine": "된장찌개",
     "lecture_origine": "doenjang jjigae",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Ragoût au doenjang (doenjang jjigae)",
     "sous_titre": "À pleine dose, un bol de ce ragoût porte la moitié du plafond de sodium de la journée. À une cuillère à soupe pour deux portions et un umami rebâti au champignon, c'est le même plat.",
@@ -15575,9 +15673,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15621,9 +15717,10 @@
     "romaji": null,
     "nom_origine": "계란말이",
     "lecture_origine": "gyeranmari",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Omelette roulée coréenne (gyeranmari)",
-    "sous_titre": "Cent cinquante milligrammes de sodium pour dix-neuf grammes de protéines, et ça se mange froid. C'est un dîner de vingt minutes déjà fait dans le frigo.",
+    "sous_titre": "Dix-neuf grammes de protéines dont tout le sel tient dans un quart de cuillère à thé — donc dosable, contrairement au reste du répertoire coréen. Et ça se mange froid.",
     "portions": "2",
     "temps_affiche": "≈ 15 min",
     "temps_minutes": {
@@ -15638,10 +15735,10 @@
       "calories": 230,
       "calories_affiche": "≈ 230",
       "lipides_g": 15,
-      "sodium_mg": 150,
+      "sodium_mg": 290,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 150 mg — VAUT POUR LES DEUX PORTIONS, soit environ 75 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
     },
     "ingredients": [
       {
@@ -15704,15 +15801,13 @@
     "notes": [
       {
         "titre": "Le cousin coréen du dashimaki, et ce qui les distingue",
-        "texte": "LE RECUEIL PORTE MAINTENANT DEUX OMELETTES ROULÉES, ET ELLES NE SE REMPLACENT PAS. Le だし巻き卵 japonais de R75 est monté au DASHI : sa texture est celle d'une crème prise, salée, sans légumes, et le liquide rend le roulage délicat. Le 계란말이 coréen est monté SEC, avec des légumes hachés : plus ferme, plus facile à rouler, et il croque un peu.\n\nCONSÉQUENCE PRATIQUE : CELUI-CI EST CELUI PAR LEQUEL COMMENCER. Sans liquide ajouté, la couche d'œuf ne se déchire pas, et le geste du roulage s'apprend sur ce plat-là avant d'aller au dashimaki.\n\nET C'EST LE PLAT LE MOINS SALÉ DE TOUT LE RÉPERTOIRE CORÉEN — cent cinquante milligrammes pour deux portions, soit le quart d'un banchan moyen. Le sodium vient du seul quart de cuillère à thé de sel; il n'y a ni soya, ni pâte fermentée, ni bouillon. QUAND UNE JOURNÉE EST DÉJÀ MANGÉE EN SODIUM, C'EST LE PLAT PROTÉINÉ À SORTIR.\n\nSE GARDE 2 JOURS AU FRIGO ET SE MANGE FROID, tranché. C'est ce qui en fait un dîner de boîte à lunch : dix-neuf grammes de protéines qu'on n'a pas à réchauffer."
+        "texte": "LE RECUEIL PORTE MAINTENANT DEUX OMELETTES ROULÉES, ET ELLES NE SE REMPLACENT PAS. Le だし巻き卵 japonais de R75 est monté au DASHI : sa texture est celle d'une crème prise, salée, sans légumes, et le liquide rend le roulage délicat. Le 계란말이 coréen est monté SEC, avec des légumes hachés : plus ferme, plus facile à rouler, et il croque un peu.\n\nCONSÉQUENCE PRATIQUE : CELUI-CI EST CELUI PAR LEQUEL COMMENCER. Sans liquide ajouté, la couche d'œuf ne se déchire pas, et le geste du roulage s'apprend sur ce plat-là avant d'aller au dashimaki.\n\nDEUX CENT QUATRE-VINGT-DIX MILLIGRAMMES PAR PORTION POUR DIX-NEUF GRAMMES DE PROTÉINES, SANS UNE TRACE DE PÂTE FERMENTÉE NI DE SOYA NI DE BOUILLON. ⚠️ Tout ce sodium vient du seul quart de cuillère à thé de sel — 575 mg pour deux portions — DONC IL SE DOSE ENTIÈREMENT : au huitième, la portion tombe à 145 mg et l'omelette tient, parce que ce sont les légumes hachés qui portent le goût. Comparé nommément : les feuilles de périlla de R90 sont à 40 mg et le nori grillé de R91 à 58; ce plat n'est pas le plus bas du répertoire coréen, il est le plus réglable.\n\nSE GARDE 2 JOURS AU FRIGO ET SE MANGE FROID, tranché. C'est ce qui en fait un dîner de boîte à lunch : dix-neuf grammes de protéines qu'on n'a pas à réchauffer."
       }
     ],
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15755,9 +15850,10 @@
     "romaji": null,
     "nom_origine": "고등어구이",
     "lecture_origine": "godeungeo gui",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Maquereau salé grillé (godeungeo gui)",
-    "sous_titre": "Deux ingrédients : du maquereau et du sel. Le sodium le plus bas du lot pour trente-quatre grammes de protéines — et l'arbitrage se fait sur les lipides, pas sur le sel.",
+    "sous_titre": "Deux ingrédients : du maquereau et du sel. Trente-quatre grammes de protéines — et l'arbitrage se fait sur les lipides, pas sur le sel.",
     "portions": "2",
     "temps_affiche": "≈ 40 min dont 25 d'attente",
     "temps_minutes": {
@@ -15772,10 +15868,10 @@
       "calories": 380,
       "calories_affiche": "≈ 380",
       "lipides_g": 25,
-      "sodium_mg": 320,
+      "sodium_mg": 345,
       "variable": false,
       "source": "estime",
-      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. Le sel du dégorgement est compté à 60 % : une partie part avec l'eau qu'on éponge, une partie reste dans la chair. C'est une estimation grossière, et le seul endroit du recueil où une pesée changerait quelque chose."
     },
     "ingredients": [
       {
@@ -15784,7 +15880,7 @@
         "sante_pos": null
       },
       {
-        "texte": "3/4 c. à thé de sel — de l’ordre de 1 à 1,5 % du poids du poisson",
+        "texte": "1/2 c. à thé de sel — de l’ordre de 1 % du poids du poisson, la borne basse de ce que T3 demande",
         "sante": false,
         "sante_pos": null
       },
@@ -15836,15 +15932,13 @@
     "notes": [
       {
         "titre": "Le sel est le seul assaisonnement, et l'arbitrage est ailleurs",
-        "texte": "C'EST LE PLAT LE PLUS SOBRE DE TOUT LE RÉPERTOIRE CORÉEN : du poisson, du sel, du feu. Aucune pâte fermentée, aucun soya, aucune marinade. TROIS CENT VINGT MILLIGRAMMES DE SODIUM PAR PORTION, ET LA MOITIÉ PART AVEC L'EAU DE DÉGORGEMENT — le sel qu'on éponge ne se mange pas.\n\nL'ARBITRAGE DE CE PLAT EST LIPIDIQUE, PAS SODIQUE, ET IL FAUT LE SAVOIR AVANT DE LE PLANIFIER. Le maquereau porte de l'ordre de 15 g de lipides aux 100 g — c'est un poisson gras, et c'est pourquoi il grille si bien. Vingt-cinq grammes par portion, dans un dossier plafonné à 65 g par jour. À PLACER UN JOUR MAIGRE, et surtout pas le même jour qu'un tempé ou qu'un kōyadōfu.\n\nET CE GRAS N'EST PAS UN DÉFAUT : c'est de l'oméga-3 à longue chaîne, la même famille que celui du saumon, en plus grande quantité et pour le tiers du prix. LE MAQUEREAU EST LE POISSON GRAS LE MOINS CHER DU PARCOURS KIM PHAT, au congélateur C5 de l'allée 27.\n\n⚠️ UNE NOTE DE MERCURE, ET ELLE EST FAVORABLE. Le maquereau DU PACIFIQUE et le maquereau BLEU sont des petits poissons à cycle court, donc bas en mercure — contrairement au maquereau roi, qui est à éviter. LE 고등어 CORÉEN EST LE MAQUEREAU BLEU. Le guide 1 porte la note complète sur le mercure."
+        "texte": "C'EST LE PLAT LE PLUS SOBRE DE TOUT LE RÉPERTOIRE CORÉEN : du poisson, du sel, du feu. Aucune pâte fermentée, aucun soya, aucune marinade. ⚠️ LA DEMI-CUILLÈRE À THÉ DE SEL PORTE 1 150 MG, ET C'EST LE SEUL POSTE DE LA FICHE. Le dégorgement en emporte une partie avec l'eau qu'on éponge : LE RECUEIL COMPTE 60 % DE RESTANT, soit environ 345 mg par portion. CE SOIXANTE POUR CENT EST UNE ESTIMATION GROSSIÈRE, ASSUMÉE COMME TELLE — c'est le seul endroit du corpus où une pesée changerait vraiment quelque chose, et la version précédente de cette fiche annonçait 320 mg sur une arithmétique fausse.\n\nL'ARBITRAGE DE CE PLAT EST LIPIDIQUE, PAS SODIQUE, ET IL FAUT LE SAVOIR AVANT DE LE PLANIFIER. Le maquereau porte de l'ordre de 15 g de lipides aux 100 g — c'est un poisson gras, et c'est pourquoi il grille si bien. Vingt-cinq grammes par portion, dans un dossier plafonné à 65 g par jour. À PLACER UN JOUR MAIGRE, et surtout pas le même jour qu'un tempé ou qu'un kōyadōfu.\n\nET CE GRAS N'EST PAS UN DÉFAUT : c'est de l'oméga-3 à longue chaîne, la même famille que celui du saumon, en plus grande quantité et pour le tiers du prix. LE MAQUEREAU EST LE POISSON GRAS LE MOINS CHER DU PARCOURS KIM PHAT, au congélateur C5 de l'allée 27.\n\n⚠️ UNE NOTE DE MERCURE, ET ELLE EST FAVORABLE. Le maquereau DU PACIFIQUE et le maquereau BLEU sont des petits poissons à cycle court, donc bas en mercure — contrairement au maquereau roi, qui est à éviter. LE 고등어 CORÉEN EST LE MAQUEREAU BLEU. Le guide 1 porte la note complète sur le mercure."
       }
     ],
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -15887,6 +15981,7 @@
     "romaji": null,
     "nom_origine": "오징어볶음",
     "lecture_origine": "ojingeo bokkeum",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Calmar sauté épicé (ojingeo bokkeum)",
     "sous_titre": "Seize grammes de protéines pour un gramme de lipides aux cent grammes : le meilleur rapport de toute la recherche coréenne. Et la seule chose à réussir, c'est de ne pas trop cuire.",
@@ -15978,9 +16073,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16024,6 +16117,7 @@
     "romaji": null,
     "nom_origine": "불고기",
     "lecture_origine": "bulgogi",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Bulgogi — bœuf mariné grillé",
     "sous_titre": "Le deuxième plat le plus aimé de Corée, et son sodium est déjà correct sans qu'on y touche. Le seul ajustement est la coupe de bœuf, et la poire n'est pas décorative.",
@@ -16115,9 +16209,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16161,6 +16253,7 @@
     "romaji": null,
     "nom_origine": "제육볶음",
     "lecture_origine": "jeyuk bokkeum",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Porc sauté au gochujang (jeyuk bokkeum)",
     "sous_titre": "Le gochujang passe de six cuillères à deux, et le piquant perdu revient par le gochugaru — du piment pur, presque sans sodium. C'est l'échange le plus rentable de la ligne coréenne.",
@@ -16257,9 +16350,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16301,6 +16392,7 @@
     "romaji": null,
     "nom_origine": "닭볶음탕",
     "lecture_origine": "dakbokkeumtang",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Poulet braisé épicé aux pommes de terre (dakbokkeumtang)",
     "sous_titre": "La pomme de terre n'est pas un légume ici, c'est le féculent du repas. C'est ce qui décide du montage de l'assiette — et ça retire le bol de riz.",
@@ -16393,9 +16485,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16440,6 +16530,7 @@
     "romaji": null,
     "nom_origine": "두부김치",
     "lecture_origine": "dubu kimchi",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Kimchi sauté et tofu bouilli (dubu kimchi)",
     "sous_titre": "Le seul plat du recueil où le tofu arrive nu et bouillant à côté du sauté, et ça change tout : le tofu dilue le sel du kimchi dans la bouche plutôt que dans la casserole.",
@@ -16535,9 +16626,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16582,6 +16671,7 @@
     "romaji": null,
     "nom_origine": "김치볶음밥",
     "lecture_origine": "kimchi bokkeumbap",
+    "prononciation": null,
     "langue_origine": "ko",
     "fr": "Riz frit au kimchi, ratio inversé (kimchi bokkeumbap)",
     "sous_titre": "Un bol de riz pour deux cent cinquante grammes de protéine et deux tasses de légumes. Le riz frit ordinaire fait l'inverse, et c'est le seul changement de cette fiche.",
@@ -16693,9 +16783,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16739,6 +16827,7 @@
     "romaji": "teriyaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Le glaçage teriyaki",
     "sous_titre": "Le tare classique est quatre parts égales : soya, mirin, saké, sucre. La version de la maison en retire une et divise une autre par deux — et le glaçage brille pareil.",
@@ -16829,9 +16918,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -16876,6 +16963,7 @@
     "romaji": "tori soboro",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Soboro de poulet",
     "sous_titre": "Quatre portions de protéine assaisonnée, faites en douze minutes, qui se gardent quatre jours au frigo. C'est la brique du dossier contre le plancher de 130 grammes.",
@@ -16975,16 +17063,14 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
     "video": {
       "youtube_id": "8TQux5oQz1A",
       "auteur": "ハゲのへたくそ料理runnyrunny999",
-      "langue": null
+      "langue": "ja"
     },
     "voir_aussi": [
       "R108"
@@ -17021,6 +17107,7 @@
     "romaji": "sanshoku don",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Bol trois couleurs (soborodon)",
     "sous_titre": "Trente-six grammes de protéines pour quatre cents milligrammes de sodium, et quinze minutes si le soboro est déjà au frigo. C'est le meilleur rapport du dossier pour un dîner.",
@@ -17123,9 +17210,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17169,6 +17254,7 @@
     "romaji": "tsukune",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Boulettes de poulet glacées (tsukune)",
     "sous_titre": "Trente-quatre grammes de protéines pour deux cent soixante milligrammes de sodium — parce que la farce n'est pas salée du tout et que tout le sel est dans le glaçage.",
@@ -17280,9 +17366,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17326,6 +17410,7 @@
     "romaji": "tōfu hanbāgu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Galette de poulet et tofu (tōfu hanbāgu)",
     "sous_titre": "Cent quatre-vingt-dix milligrammes de sodium pour trente-six grammes de protéines. C'est le plat principal le moins salé du recueil japonais, et c'est le tofu qui le permet.",
@@ -17439,9 +17524,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17484,6 +17567,7 @@
     "romaji": "nikudōfu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Bœuf et tofu mijotés (nikudōfu)",
     "sous_titre": "Quarante-quatre grammes de protéines par portion, la plus haute valeur de tout le recueil japonais — parce que deux sources de protéines mijotent dans la même casserole.",
@@ -17595,9 +17679,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17642,6 +17724,7 @@
     "romaji": "iridōfu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Tofu émietté aux légumes (iridōfu)",
     "sous_titre": "Le plat qui vide le tiroir à légumes : trente-huit grammes de protéines, une poêle, et tout ce qui reste de la semaine coupé fin.",
@@ -17763,9 +17846,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17809,6 +17890,7 @@
     "romaji": "nikujaga",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Bœuf et pommes de terre mijotés (nikujaga)",
     "sous_titre": "Le nikujaga ordinaire est un plat de pommes de terre avec de la viande dedans. Celui-ci double le bœuf et supprime le bol de riz — c'est le même plat avec le rapport à l'endroit.",
@@ -17939,9 +18021,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -17986,6 +18066,7 @@
     "romaji": "chikuzenni",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Poulet et racines mijotés (chikuzenni)",
     "sous_titre": "La seule fiche du recueil où une racine reste croquante après trente minutes de mijotage. C'est le lotus, et c'est pour ça que ce plat existe.",
@@ -18116,9 +18197,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "lourd",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18163,6 +18242,7 @@
     "romaji": "gyūdon",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Bol de bœuf et oignons (gyūdon)",
     "sous_titre": "Huit minutes de mijotage, deux ingrédients, et le geste qui décide de tout : le bouillon reste dans la casserole.",
@@ -18284,9 +18364,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18331,6 +18409,7 @@
     "romaji": "tori no teriyaki",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Poulet teriyaki",
     "sous_titre": "Deux cent cinquante-cinq milligrammes de sodium pour le plat le plus sucré-salé du recueil — parce que la sauce est réduite au lieu d'être versée.",
@@ -18426,9 +18505,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18473,6 +18550,7 @@
     "romaji": "pīman no nikuzume",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Poivrons farcis au haché (pīman no nikuzume)",
     "sous_titre": "Un plat où le légume est le contenant : quatre poivrons portent trois cents grammes de protéine, et la farine à l'intérieur est la seule chose qui empêche tout de se séparer.",
@@ -18596,9 +18674,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "moyen",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18644,6 +18720,7 @@
     "romaji": "hiya-shabu",
     "nom_origine": null,
     "lecture_origine": null,
+    "prononciation": null,
     "langue_origine": "ja",
     "fr": "Porc blanchi froid sur crudités (hiya-shabu)",
     "sous_titre": "La seule cuisson du recueil qui retire du gras au lieu d'en ajouter : quarante secondes d'eau bouillante, et le gras du porc part dans la casserole.",
@@ -18735,9 +18812,7 @@
     "ajustement": null,
     "etoiles": {},
     "cout_travail": "leger",
-    "statut_perso": {
-      "francis": "a-l-essai"
-    },
+    "statut_perso": {},
     "motif_statut": {},
     "pour_la_maison": null,
     "photo": null,
@@ -18749,6 +18824,2158 @@
     "voir_aussi": [
       "R24",
       "R82"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R119",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "blanchi",
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "sesame-noisette",
+      "doux"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "legumes-en-puree-de-tofu-et-sesame-shiraae",
+    "jp": "白和え",
+    "jp_lecture": "しらあえ",
+    "romaji": "shiraae",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Légumes en purée de tofu et sésame (shiraae)",
+    "sous_titre": "Dix grammes de protéines dans un kobachi de légumes, et c'est le tofu qui les donne. Trois fois ce que porte un namul, pour un tiers de sodium de plus.",
+    "portions": "4",
+    "temps_affiche": "≈ 25 min dont 10 d'attente",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 5,
+      "attente": 10
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 10,
+      "proteines_affiche": "10 g",
+      "calories": 105,
+      "calories_affiche": "≈ 105",
+      "lipides_g": 6,
+      "sodium_mg": 185,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de tofu ferme, ÉGOUTTÉ ET PRESSÉ",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de graines de sésame blanc",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES LÉGUMES, environ 300 g au total : 1 carotte en fine julienne · 150 g d'épinards OU de haricots verts · 100 g de konnyaku en lanières — facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sucre OU de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 4 shiitake séchés réhydratés, tranchés",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "PRESSER LE TOFU 10 MINUTES entre deux assiettes avec un poids. Il doit perdre l'équivalent d'un quart de tasse d'eau. C'EST L'ÉTAPE QUI DÉCIDE DE TOUT : un tofu non pressé donne une purée liquide qui glisse des légumes."
+      },
+      {
+        "n": 2,
+        "texte": "Faire T6 sur les légumes, séparément et par ordre de dureté : la carotte 2 minutes, les haricots 3, les épinards 40 secondes. ÉGOUTTER ET PRESSER À LA MAIN."
+      },
+      {
+        "n": 3,
+        "texte": "GRILLER LE SÉSAME À SEC dans une poêle, feu moyen, 2 minutes en secouant, jusqu'à ce qu'il sente la noisette et qu'un grain saute."
+      },
+      {
+        "n": 4,
+        "texte": "ÉCRASER LE SÉSAME AU SURIBACHI jusqu'à ce que la moitié des grains soit défaite. Entier, il roule sans rien donner."
+      },
+      {
+        "n": 5,
+        "texte": "Ajouter le tofu dans le suribachi et l'écraser avec le sésame jusqu'à une purée lisse, sans grumeau. À défaut de suribachi : une fourchette et de la patience, ou un mortier."
+      },
+      {
+        "n": 6,
+        "texte": "Le sel, le soya, le sucre. GOÛTER LA PURÉE SEULE — c'est là qu'on ajuste, pas après."
+      },
+      {
+        "n": 7,
+        "texte": "Ajouter les légumes égouttés et mélanger à la spatule. SERVIR DANS L'HEURE : les légumes rendent de l'eau et la purée se détend."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le tofu est dans l'assaisonnement, pas à côté",
+        "texte": "DIX GRAMMES DE PROTÉINES POUR CENT QUATRE-VINGT-CINQ MILLIGRAMMES DE SODIUM. Comparé nommément : le namul d'épinards de R84 porte 3 g de protéines pour environ 145 mg. CE QUI FAIT LA DIFFÉRENCE N'EST PAS UN TOUR DE MAIN, C'EST QUE LE TOFU EST DANS L'ASSAISONNEMENT ET NON À CÔTÉ.\n\n⚠️ ET LE QUART DE CUILLÈRE À THÉ DE SEL EST PRESQUE TOUT LE SODIUM DE CE PLAT : 575 mg pour quatre portions, contre 167 pour la cuillère à thé de soya. Ça veut dire que ce plat est entièrement dosable — À LA PINCÉE, IL TOMBE À ENVIRON 80 MG PAR PORTION ET IL TIENT ENCORE, parce que c'est le sésame grillé qui porte le goût, pas le sel. Goûter la purée seule à l'étape 6 est le moment où ça se décide.\n\nET C'EST LE PLAT QUI RÈGLE LE PROBLÈME DU PETIT PLAT PROTÉINÉ. Le ichiju sansai demande trois plats à côté du riz et de la soupe. Les trois sont normalement des légumes, donc le souper doit trouver ses soixante grammes de protéines dans le seul plat principal. ICI, UN DES TROIS PETITS PLATS EN PORTE DIX. Trois shiraae feraient trente grammes de protéines en légumes — ce n'est pas ce qu'on veut manger, mais ça dit ce que le levier vaut.\n\nLE SUCRE N'EST PAS NÉGOCIABLE ET C'EST LA SEULE FOIS QUE JE L'ÉCRIS DANS LE DOSSIER. Une cuillère à thé pour quatre portions, soit un gramme de sucre par portion. Sans elle, la purée de tofu est plâtreuse — le sucre ne sucre pas, il ARRONDIT L'AMERTUME DU SOYA CRU. Le mirin fait le même travail.\n\n⚠️ LES LÉGUMES SE BLANCHISSENT SÉPARÉMENT ET C'EST LE PIÈGE DU PLAT. Tout jeté ensemble, les épinards sont en bouillie quand la carotte est encore crue. Trois passages dans la même eau coûtent quatre minutes en tout. Et l'ordre compte : du plus dur au plus tendre, dans la même eau, ce qui donne à la carotte un bouillon et aux épinards une eau déjà parfumée.\n\nLES HARICOTS VERTS SONT LE MEILLEUR CHOIX ICI, PAS LES ÉPINARDS. La purée est molle par nature; il faut que quelque chose résiste. C'est le constat de texture du 18 août appliqué à un plat neuf — et c'est aussi la reprise convenue de R44."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "MuTa0PLVcEM",
+      "auteur": "Chopstick Chronicles",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R84",
+      "R44"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R120",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "blanchi"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "acide"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "legumes-au-katsuobushi-okaka-ae",
+    "jp": "おかか和え",
+    "jp_lecture": "おかかあえ",
+    "romaji": "okaka-ae",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Légumes au katsuobushi (okaka-ae)",
+    "sous_titre": "Le petit plat le plus rapide du recueil : six minutes, trois ingrédients, et une famille de goût que ni le sésame ni le dashi ne couvrent.",
+    "portions": "2",
+    "temps_affiche": "≈ 6 min",
+    "temps_minutes": {
+      "preparation": 2,
+      "cuisson": 4,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 4,
+      "proteines_affiche": "4 g",
+      "calories": 30,
+      "calories_affiche": "≈ 30",
+      "lipides_g": 0,
+      "sodium_mg": 90,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "200 g de légumes : gombos (okra) · haricots verts · épinards · asperges · brocoli",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "5 g de katsuobushi — une bonne poignée légère",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce soya réduite en sodium OU 1 c. à thé de ponzu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/2 c. à thé de vinaigre de riz si le légume est doux",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T6 : blanchir le légume dans l'eau salée. Gombos 2 minutes, haricots 3, épinards 40 secondes, asperges 2, brocoli 3."
+      },
+      {
+        "n": 2,
+        "texte": "ÉGOUTTER ET SÉCHER AU LINGE. Un légume mouillé délave le katsuobushi et fait une flaque grise au fond du bol."
+      },
+      {
+        "n": 3,
+        "texte": "Couper en bouchées de 3 cm."
+      },
+      {
+        "n": 4,
+        "texte": "MÉLANGER LE KATSUOBUSHI ET LE SOYA HORS DU BOL, DANS LA MAIN OU DANS UNE PETITE TASSE, pour que les flocons boivent le liquide avant de toucher le légume."
+      },
+      {
+        "n": 5,
+        "texte": "Ajouter le légume, mélanger. SERVIR TOUT DE SUITE."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Une troisième famille à côté du goma-ae et du ohitashi",
+        "texte": "LE RECUEIL A TROIS FAÇONS D'HABILLER UN LÉGUME BLANCHI ET IL FAUT SAVOIR LAQUELLE CHOISIR : le OHITASHI de R43 le trempe dans du dashi — le légume boit, la saveur est liquide et douce. Le GOMA-AE de R44 l'enrobe de sésame écrasé — la saveur est grasse et couvrante. L'OKAKA-AE LE POUDRE DE KATSUOBUSHI — LA SAVEUR EST SÈCHE, SALÉE, ET ELLE RESTE EN SURFACE.\n\nCE QUE ÇA CHANGE EN PRATIQUE : c'est le seul des trois qui ne mouille pas et ne graisse pas. Zéro lipide, trente calories, et il fonctionne sur un légume qui doit rester croquant. Le goma-ae ramollit ce qu'il enrobe; celui-ci ne ramollit rien.\n\nCINQ GRAMMES DE KATSUOBUSHI, C'EST QUATRE GRAMMES DE PROTÉINES. Le katsuobushi porte 77 g de protéines aux 100 g — c'est du poisson séché à l'os. Une poignée légère double la protéine du petit plat sans ajouter une calorie de gras. Et son iode est négligeable, contrairement au kombu.\n\nLE MÉLANGE HORS DU BOL À L'ÉTAPE 4 N'EST PAS UNE COQUETTERIE. Le katsuobushi est une éponge : versé sur le légume puis arrosé de soya, il boit d'un côté seulement et fait des paquets salés. Mouillé d'abord, il se répartit.\n\n⚠️ QUATRE-VINGT-DIX MILLIGRAMMES, ET LE SEL DE L'EAU DE BLANCHIMENT N'Y EST PAS COMPTÉ. Un légume passé quarante secondes dans deux litres d'eau salée en absorbe une fraction de pourcent, une valeur sous la précision de tout le reste de l'estimation. LE SODIUM DE CETTE FICHE VIENT DE LA CUILLÈRE À THÉ DE SOYA, POINT. C'est pourquoi un légume blanchi est moins salé qu'il n'en a l'air quand on lit sa liste d'ingrédients.\n\n⚠️ LA VIDÉO EST EN JAPONAIS SANS NARRATION ANGLAISE. Elle montre la version aux gombos, et le geste est lisible sans les mots — c'est un plat à quatre gestes. Elle rejoint R80, T21 et R107 dans la liste des vidéos muettes pour Francis."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "TGmfPuNA_A0",
+      "auteur": "まいにち3品レシピ",
+      "langue": "ja"
+    },
+    "voir_aussi": [
+      "R43",
+      "R44"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R121",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "acide",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "glissant",
+      "ferme"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "wakame-vinaigree-wakame-no-sunomono",
+    "jp": "わかめの酢の物",
+    "jp_lecture": "わかめのすのもの",
+    "romaji": "wakame no sunomono",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Wakame vinaigrée (wakame no sunomono)",
+    "sous_titre": "Le remplisseur de kobachi à vingt-cinq calories — et le plat qui apprend au dossier que les algues ne sont pas gratuites en sodium.",
+    "portions": "2",
+    "temps_affiche": "≈ 8 min dont 5 d'attente",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 0,
+      "attente": 5
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 25,
+      "calories_affiche": "≈ 25",
+      "lipides_g": 0,
+      "sodium_mg": 200,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "10 g de wakame séchée — elle fera environ 100 g réhydratée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 1/2 c. à soupe de vinaigre de riz",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sucre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN SEL AJOUTÉ — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN CONCOMBRE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de gingembre râpé · sésame grillé · 100 g de germes de haricot mungo blanchis 1 minute, pour le croquant",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T7b"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "FAIRE TREMPER LA WAKAME 5 MINUTES DANS BEAUCOUP D'EAU FROIDE. Elle gonfle de dix fois son volume."
+      },
+      {
+        "n": 2,
+        "texte": "RINCER À L'EAU COURANTE ET PRESSER À LA MAIN. JETER L'EAU DE TREMPAGE. C'est le geste qui enlève le sel du séchage, et c'est le seul de la recette qui compte pour le sodium."
+      },
+      {
+        "n": 3,
+        "texte": "Couper en morceaux de 3 cm si les frondes sont longues."
+      },
+      {
+        "n": 4,
+        "texte": "Mélanger le vinaigre, le sucre et le soya. GOÛTER LA VINAIGRETTE SEULE."
+      },
+      {
+        "n": 5,
+        "texte": "Verser sur la wakame pressée. Mélanger."
+      },
+      {
+        "n": 6,
+        "texte": "Laisser 5 minutes au frigo avant de servir — c'est là qu'elle prend."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Les algues ne sont pas gratuites, et le dossier le croyait",
+        "texte": "🔴 LE DOSSIER TRAITAIT LES ALGUES COMME GRATUITES PARCE QU'ELLES SONT SANS CALORIES. C'EST FAUX SUR LE SODIUM. La wakame séchée en porte de l'ordre de 2 500 à 3 500 mg aux 100 grammes — DIX GRAMMES DE FLOCONS SECS, C'EST DE L'ORDRE DE 300 MG DE SODIUM AVANT QU'ON AIT AJOUTÉ QUOI QUE CE SOIT. Rincée et pressée, il en reste peut-être les deux tiers. Deux cents milligrammes par portion pour un plat à vingt-cinq calories : le rapport est mauvais, et il fallait le savoir.\n\nCONSÉQUENCE DIRECTE, ET C'EST POURQUOI LA RECETTE NE MET PAS DE SEL : le sunomono classique commence par saler et faire dégorger. Ici il n'y a rien à faire dégorger — la wakame arrive déjà salée. Un quart de cuillère à thé de sel ajouterait 145 mg par portion pour rien.\n\nET C'EST POURQUOI L'ÉTAPE 2 N'EST PAS OPTIONNELLE. Ne pas jeter l'eau de trempage, c'est remettre le sel qu'on vient de sortir. Le même raisonnement vaut pour la wakame de la soupe miso : RINCER AVANT, PAS SEULEMENT RÉHYDRATER.\n\nCE N'EST PAS LE SUNOMONO DE R45, ET C'EST DÉLIBÉRÉ : CELUI-CI N'A PAS DE CONCOMBRE. Le concombre a été écarté au débrief du 18 août — mou et aqueux. La version à la wakame seule garde la famille de goût et jette la texture qui ne passait pas. Si un croquant est voulu, les germes de haricot mungo blanchis une minute le donnent sans rendre d'eau.\n\n⚠️ UNE NOTE D'IODE, ET ELLE EST FAVORABLE. La wakame porte 100 à 160 µg d'iode par gramme sec, soit 500 à 800 µg pour une portion de 5 g. C'est l'ordre de grandeur qui rend la wakame acceptable au quotidien, là où le kombu, à 1 500 à 3 000 µg par gramme, est réservé à l'occasionnel. Le guide 1 porte la note complète."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "kfXrFd7S2rg",
+      "auteur": "Miki's Kitchen",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R45",
+      "R122"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R122",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "sans-cuisson"
+    ],
+    "axe_gout": [
+      "acide",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "glissant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "mozuku-vinaigree-mozuku-su",
+    "jp": "もずく酢",
+    "jp_lecture": "もずくす",
+    "romaji": "mozuku-su",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Mozuku vinaigrée (mozuku-su)",
+    "sous_titre": "Le remplisseur de kobachi le plus économe du recueil : une barquette, une minute, dix calories. Et un panneau de valeur nutritive jamais lu.",
+    "portions": "1",
+    "temps_affiche": "≈ 1 min",
+    "temps_minutes": {
+      "preparation": 1,
+      "cuisson": 0,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 0,
+      "proteines_affiche": "0 g",
+      "calories": 10,
+      "calories_affiche": "≈ 10",
+      "lipides_g": 0,
+      "sodium_mg": null,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM N'EST PAS CHIFFRÉ, ET C'EST VOULU : il n'a jamais été lu sur un contenant. L'ordre de grandeur est de 300 à 400 mg pour une barquette assaisonnée, à relever à l'étiquette au prochain passage. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "1 barquette de mozuku, 70 à 80 g — au réfrigérateur des produits japonais, souvent en paquets de trois",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "SI LA BARQUETTE EST NATURE, non assaisonnée : 1 c. à soupe de vinaigre de riz · 1/2 c. à thé de sucre · 1/4 c. à thé de sauce soya réduite",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : gingembre râpé · une pincée de sésame · un peu de daikon râpé",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "SI LA BARQUETTE EST DÉJÀ ASSAISONNÉE : l'ouvrir, la verser dans un kobachi, servir froide. C'est tout, et c'est l'intérêt du produit."
+      },
+      {
+        "n": 2,
+        "texte": "SI ELLE EST NATURE : rincer la mozuku à l'eau froide dans une passoire fine, égoutter, puis mélanger le vinaigre, le sucre et le soya."
+      },
+      {
+        "n": 3,
+        "texte": "Servir très froide. Ça se boit presque, en fin de repas."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le seul chiffre de cette fiche que je n'ai pas, et pourquoi je le dis",
+        "texte": "⚠️ LE SODIUM DE CE PLAT N'A JAMAIS ÉTÉ LU SUR UN CONTENANT ET LA FICHE NE PRÉTEND PAS LE CONNAÎTRE — elle affiche « non chiffré » plutôt qu'un nombre inventé. Les barquettes assaisonnées portent une sauce à base de vinaigre, de sucre et de sauce soya : l'ordre de grandeur est de 300 à 400 mg pour une barquette, ce qui est BEAUCOUP POUR DIX CALORIES. À relever au prochain passage chez Kim Phat, avec le panneau et la liste d'ingrédients.\n\nET LA BARQUETTE NATURE EST PROBABLEMENT LE MEILLEUR ACHAT, pour la raison qui vaut partout dans le dossier : CE QU'ON ASSAISONNE SOI-MÊME SE DOSE. Une cuillère de vinaigre et un quart de cuillère à thé de soya, c'est environ 40 mg. Un facteur huit sur le même plat.\n\nCE QUE LA MOZUKU APPORTE QUE RIEN D'AUTRE N'APPORTE : DU VOLUME À DIX CALORIES. Le dossier a besoin de remplisseurs de kobachi — le ichiju sansai demande trois petits plats et il n'y a pas toujours trois légumes prêts. Le konnyaku de R52 fait ça sans goût; celle-ci le fait avec une acidité et une texture filante.\n\n⚠️ DEUX CANDIDATS DE VIDÉO ONT ÉTÉ REJETÉS PAR LA VÉRIFICATION OEMBED SUR CE PLAT, ET ÇA VAUT D'ÊTRE DIT PARCE QUE C'EST EXACTEMENT LE RATÉ QUE LA RÈGLE ÉVITE. Le premier candidat s'est révélé être un plat de poulet à la mozuku, pas une mozuku vinaigrée. Le second était un carnet de voyage aux îles Yaeyama avec un sushi de mozuku. Les deux titres, lus dans une liste de résultats, avaient l'air d'être le bon plat. L'API a dit le contraire."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "le0NTzezQ6M",
+      "auteur": "ICHIGO's Kitchen - Make Japanese Instant food",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R52",
+      "R121"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R123",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "ferme",
+      "croquant"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "hijiki-mijotee-hijiki-no-nimono",
+    "jp": "ひじきの煮物",
+    "jp_lecture": "ひじきのにもの",
+    "romaji": "hijiki no nimono",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Hijiki mijotée (hijiki no nimono)",
+    "sous_titre": "Le petit plat de conservation le plus classique du répertoire japonais — et le seul du recueil qui vienne avec un avertissement d'agence alimentaire.",
+    "portions": "4",
+    "temps_affiche": "≈ 40 min dont 20 d'attente",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 15,
+      "attente": 20
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 5,
+      "proteines_affiche": "5 g",
+      "calories": 90,
+      "calories_affiche": "≈ 90",
+      "lipides_g": 3,
+      "sodium_mg": 200,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "30 g de hijiki séchée — elle fera environ 150 g réhydratée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 carotte en julienne",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g d'edamames écossées, décongelées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 1/2 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 abura-age ébouillanté et taillé en lanières · konnyaku en lanières",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "FAIRE TREMPER LA HIJIKI 20 MINUTES DANS BEAUCOUP D'EAU FROIDE. RINCER À FOND, DEUX FOIS. JETER TOUTE L'EAU. Le rinçage n'est pas cosmétique : voir la note."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole, huile de sésame, feu moyen. La carotte 2 minutes."
+      },
+      {
+        "n": 3,
+        "texte": "La hijiki égouttée, 2 minutes en remuant."
+      },
+      {
+        "n": 4,
+        "texte": "Le dashi, le soya, le mirin. LE LIQUIDE ARRIVE À HAUTEUR, PAS AU-DESSUS."
+      },
+      {
+        "n": 5,
+        "texte": "FRÉMISSEMENT À DÉCOUVERT 10 À 12 MINUTES, jusqu'à ce qu'il ne reste qu'un fond de liquide."
+      },
+      {
+        "n": 6,
+        "texte": "Les edamames dans les 2 dernières minutes."
+      },
+      {
+        "n": 7,
+        "texte": "Refroidir à découvert. SE GARDE 4 JOURS AU FRIGO ET SE MANGE FROIDE."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "L'arsenic de la hijiki, et ce que ça change à cette fiche",
+        "texte": "⚠️ LA HIJIKI EST LA SEULE ALGUE DU RECUEIL QUI CONCENTRE L'ARSENIC INORGANIQUE, et plusieurs agences alimentaires — au Royaume-Uni, au Canada, à Hong Kong — ont publié des avis recommandant d'en limiter ou d'en éviter la consommation régulière. Ce n'est pas une controverse marginale : c'est la position de plusieurs autorités, et elle porte sur cette algue précisément et non sur les algues en général. COMME POUR TOUTE QUESTION DE SANTÉ QUI TOUCHE UNE QUANTITÉ ET UNE FRÉQUENCE, C'EST À VALIDER AVEC UN PROFESSIONNEL PLUTÔT QU'AVEC UNE FICHE DE RECETTE.\n\nCE QUE ÇA CHANGE À CETTE FICHE, CONCRÈTEMENT ET SANS DRAMATISER :\n\nUN — LE TREMPAGE ET LE DOUBLE RINÇAGE DE L'ÉTAPE 1 SONT LA MESURE UTILE. L'arsenic inorganique est soluble : un trempage long, à l'eau abondante, jetée et renouvelée, en retire une part importante. C'est pourquoi l'étape 1 dit vingt minutes et deux rinçages, et non « réhydrater ».\n\nDEUX — CETTE FICHE EST UN PLAT OCCASIONNEL ET LE CHAMP statut_perso NE PEUT PAS LE DIRE. Le recueil n'a pas de champ de fréquence. La note doit donc le porter : CE N'EST PAS UN PLAT DE PRÉPARATION DU DIMANCHE À REFAIRE CHAQUE SEMAINE.\n\nTROIS — ET LA MEILLEURE NOUVELLE : LE MÊME PLAT MARCHE SANS HIJIKI. Le nimono est un patron, pas une recette. Remplacer les 30 g de hijiki par 30 g de kiriboshi daikon donne exactement R66, qui est déjà au recueil; par 10 g de wakame, on obtient un plat plus doux et plus glissant. Le dossier a donc déjà le débouché, et cette fiche existe surtout pour nommer la famille et son avertissement.\n\nCE QUE LA HIJIKI APPORTE DE PARTICULIER, POUR QUE LE CHOIX SOIT ÉCLAIRÉ : une texture ferme qui tient quinze minutes de mijotage sans se défaire — aucune autre algue ne fait ça — et un goût de terre et de mer qu'un daikon séché ne donne pas. C'est un vrai plat, pas un plat de substitution. C'est pourquoi la fiche est écrite au complet plutôt qu'écartée d'avance : LA DÉCISION REVIENT AU LECTEUR, AVEC LES FAITS SOUS LES YEUX."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "ptrh3C5cIqk",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R66",
+      "R126"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R124",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "vapeur"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sesame-noisette"
+    ],
+    "axe_texture": [
+      "croquant",
+      "ferme"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "poivrons-au-thon-trois-minutes-mugen-piman",
+    "jp": "無限ピーマン",
+    "jp_lecture": "むげんピーマン",
+    "romaji": "mugen pīman",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Poivrons au thon, trois minutes (mugen pīman)",
+    "sous_titre": "Quinze grammes de protéines dans un plat de légume, en six minutes, au micro-ondes. C'est le seul petit plat du recueil qui n'oblige pas à choisir entre le légume et la protéine.",
+    "portions": "2",
+    "temps_affiche": "≈ 6 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 3,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 15,
+      "proteines_affiche": "15 g",
+      "calories": 140,
+      "calories_affiche": "≈ 140",
+      "lipides_g": 6,
+      "sodium_mg": 270,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. LE SODIUM DÉPEND ENTIÈREMENT DE LA CONSERVE DE THON et il est à relire à l'étiquette : un germon « sel ajouté » et un « sans sel ajouté » diffèrent d'un facteur six. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "4 poivrons verts OU 2 poivrons de couleur, en lanières de 3 mm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 boîte de thon germon dans l'eau, ÉGOUTTÉE — environ 120 g égouttés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de graines de sésame grillées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE MAYONNAISE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/2 c. à thé de dashi en poudre · shichimi · katsuobushi",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Couper les poivrons en lanières FINES, 3 mm. C'est la seule vraie exigence du plat : épaisses, elles restent crues et amères."
+      },
+      {
+        "n": 2,
+        "texte": "Bol allant au micro-ondes, les lanières, COUVRIR D'UNE ASSIETTE ET NON D'UNE PELLICULE. 3 minutes à pleine puissance."
+      },
+      {
+        "n": 3,
+        "texte": "VIDER L'EAU QUI S'EST ACCUMULÉE AU FOND. Il y en aura deux cuillères à soupe, et elle délave tout le reste."
+      },
+      {
+        "n": 4,
+        "texte": "Ajouter le thon égoutté en l'émiettant, le soya, l'huile de sésame, le sésame. Mélanger."
+      },
+      {
+        "n": 5,
+        "texte": "Se mange tiède ou froid. SE GARDE 3 JOURS AU FRIGO."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ce que la mayonnaise faisait, et ce qui la remplace",
+        "texte": "⚠️ LA RECETTE JAPONAISE ET LA VIDÉO METTENT DE LA MAYONNAISE. LA FICHE MET UNE CUILLÈRE À THÉ D'HUILE DE SÉSAME ET DU SÉSAME ÉCRASÉ, ET C'EST UN CHANGEMENT VOLONTAIRE. Deux cuillères à soupe de mayonnaise, c'est 200 calories et 22 g de lipides pour deux portions. L'huile de sésame et les graines en apportent 90 et 9.\n\nCE QUE LA MAYONNAISE FAISAIT VRAIMENT : ELLE LIAIT. Elle collait les lanières de poivron entre elles et portait le sel du thon. Le sésame écrasé fait le même travail de liaison — c'est pourquoi il faut l'écraser, pas le saupoudrer — et l'huile de sésame fait le travail d'enrobage avec un quart du gras.\n\nCE PLAT RÈGLE LE PROBLÈME QUE LE RÉPERTOIRE DES MANQUES NOMMAIT SANS LE RÉSOUDRE : UN LÉGUME AVEC SA PROTÉINE, EN CINQ MINUTES. Les trois petits plats du ichiju sansai sont normalement des légumes purs; celui-ci en porte quinze grammes de protéines. Sur un souper à 60 g, ça déplace un quart de la cible hors du plat principal.\n\n⚠️ LE SODIUM DÉPEND ENTIÈREMENT DE LA CONSERVE ET IL FAUT LIRE L'ÉTIQUETTE. Un thon « dans l'eau, sel ajouté » porte de l'ordre de 300 mg aux 100 g; un « sans sel ajouté » en porte 50. C'est un facteur six sur le poste principal du plat, et le dossier a déjà été pris deux fois par ce genre d'écart — les crevettes et le mirin. À relever au prochain passage : la marque exacte du germon en stock et son panneau.\n\nET LE NOM MÉRITE SA TRADUCTION : 無限 VEUT DIRE « SANS FIN ». Le plat s'appelle « poivrons infinis » parce qu'on en mange sans s'arrêter. C'est un nom de marketing domestique, pas une catégorie culinaire — mais il dit quelque chose de vrai sur un plat qui rend un poivron cru mangeable en quantité."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "JPhGfUWbDkg",
+      "auteur": "Sudachi | Japanese Recipes | Yuto Omura",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R119",
+      "R120"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R125",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "fondant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "aubergines-mijotees-au-dashi-nasu-no-nibitashi",
+    "jp": "茄子の煮浸し",
+    "jp_lecture": "なすのにびたし",
+    "romaji": "nasu no nibitashi",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Aubergines mijotées au dashi (nasu no nibitashi)",
+    "sous_titre": "Une aubergine fondante sans une goutte d'huile. C'est le seul plat d'aubergine compatible du dossier, et c'est la méthode qui fait tout.",
+    "portions": "2",
+    "temps_affiche": "≈ 20 min, meilleur froid après 2 h",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 12,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 2,
+      "proteines_affiche": "2 g",
+      "calories": 45,
+      "calories_affiche": "≈ 45",
+      "lipides_g": 0,
+      "sodium_mg": 260,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 aubergines japonaises, environ 250 g, en tronçons de 4 cm fendus en croix",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "250 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de gingembre râpé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE HUILE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : katsuobushi · gingembre râpé frais · oignons verts",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "ENTAILLER LA CHAIR EN CROISILLONS SANS PERCER LA PEAU. Les entailles font entrer le bouillon; la peau tient le morceau."
+      },
+      {
+        "n": 2,
+        "texte": "TREMPER 5 MINUTES DANS L'EAU FROIDE SALÉE PENDANT QU'ON PRÉPARE LE RESTE. C'est ce qui empêche l'aubergine de noircir. Égoutter."
+      },
+      {
+        "n": 3,
+        "texte": "Casserole large : le dashi, le soya, le mirin, le gingembre râpé. Frémissement."
+      },
+      {
+        "n": 4,
+        "texte": "LES AUBERGINES PEAU VERS LE HAUT, EN UNE SEULE COUCHE. Otoshibuta ou couvercle posé de biais."
+      },
+      {
+        "n": 5,
+        "texte": "FRÉMISSEMENT 10 À 12 MINUTES. Une pointe de couteau doit traverser sans résistance."
+      },
+      {
+        "n": 6,
+        "texte": "Éteindre. LAISSER REFROIDIR DANS LE LIQUIDE. C'est là que le plat se fait — le mot 煮浸し veut dire « mijoté puis trempé »."
+      },
+      {
+        "n": 7,
+        "texte": "Servir froid ou à température de la pièce, avec le katsuobushi et le gingembre frais."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "煮浸し contre 揚げ浸し : trois cuillères d'huile de différence",
+        "texte": "IL Y A DEUX PLATS JAPONAIS D'AUBERGINE AU DASHI ET ILS DIFFÈRENT D'UNE SEULE ÉTAPE. Le 揚げ浸し AGEBITASHI frit l'aubergine avant de la faire tremper; le 煮浸し NIBITASHI la fait mijoter. La différence tient à trois ou quatre cuillères à soupe d'huile, soit 360 à 480 calories et 40 à 55 g de lipides pour deux portions.\n\n⚠️ ET CE N'EST PAS UNE QUESTION DE DOSE, C'EST UNE QUESTION DE PHYSIQUE : L'AUBERGINE EST UNE ÉPONGE. Sa chair est faite de poches d'air; plongée dans l'huile, elle boit tout ce qu'on lui donne, et il n'y a pas de « version allégée » de la friture d'une aubergine. C'est exactement pourquoi les plats d'aubergine sont absents du dossier depuis le début, et pourquoi celui-ci y entre : LE NIBITASHI EST LA SEULE MÉTHODE OÙ L'AUBERGINE NE BOIT QUE DU BOUILLON.\n\nCE QUI RÉSULTE : quarante-cinq calories, zéro lipide, et une texture fondante que rien d'autre du recueil ne donne. L'axe de texture porte « fondant » seul, et c'est assumé — c'est le plat qu'on met à côté de quelque chose qui croque, pas celui qu'on sert seul.\n\nLE REFROIDISSEMENT DANS LE LIQUIDE N'EST PAS UNE COMMODITÉ, C'EST LA MOITIÉ DE LA RECETTE. Une aubergine chaude sort du bouillon gorgée d'eau; en refroidissant, ses cellules se contractent et ELLE RAPPELLE LE BOUILLON EN ELLE. Servie chaude, elle goûte l'eau; servie froide après deux heures, elle goûte le dashi. Se garde 3 jours et s'améliore le premier.\n\n⚠️ DEUX CENT SOIXANTE MILLIGRAMMES, ET LE LIQUIDE SE MANGE ICI. Contrairement au nikudōfu de R111 ou au gyūdon de R115, le trempage EST le plat : on sert l'aubergine avec deux cuillères de son bouillon. Le levier « laisser le liquide » n'existe pas — c'est le prix de la méthode."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "MQN_dtqYtVI",
+      "auteur": "JapaneseCooking101",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R43",
+      "R111"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R126",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "blanchi",
+      "grille"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "acide",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "croustillant",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "tofu-frit-epais-grille-atsuage-yaki",
+    "jp": "厚揚げの焼き物",
+    "jp_lecture": "あつあげのやきもの",
+    "romaji": "atsuage yaki",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Tofu frit épais grillé (atsuage yaki)",
+    "sous_titre": "Dix minutes, aucune huile ajoutée, et une croûte croustillante sur du tofu. L'astuce est un geste de trente secondes qui s'appelle abura-nuki.",
+    "portions": "2",
+    "temps_affiche": "≈ 10 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 7,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 16,
+      "proteines_affiche": "16 g",
+      "calories": 200,
+      "calories_affiche": "≈ 200",
+      "lipides_g": 14,
+      "sodium_mg": 170,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 blocs d'atsuage — tofu frit épais — environ 300 g au total",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "DE L'EAU BOUILLANTE, pour l'abura-nuki",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE, par portion : 1 c. à thé de ponzu OU de sauce soya réduite · 2 c. à soupe de daikon râpé égoutté · gingembre râpé · oignons verts",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE HUILE DANS LA POÊLE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : katsuobushi · shichimi",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "L'ABURA-NUKI : poser l'atsuage dans une passoire et verser de l'eau bouillante dessus pendant 30 secondes, en le retournant. Ou le plonger 30 secondes dans l'eau bouillante."
+      },
+      {
+        "n": 2,
+        "texte": "ÉPONGER À FOND AU PAPIER ABSORBANT. Un atsuage mouillé ne grille pas."
+      },
+      {
+        "n": 3,
+        "texte": "Trancher chaque bloc en 4 ou 6 morceaux d'un doigt d'épaisseur."
+      },
+      {
+        "n": 4,
+        "texte": "POÊLE ANTIADHÉSIVE OU EN FONTE, TRÈS CHAUDE, À SEC. L'atsuage porte assez de gras pour se cuire lui-même."
+      },
+      {
+        "n": 5,
+        "texte": "3 minutes d'un côté sans y toucher, jusqu'à ce que la surface soit dorée et boursouflée. 2 à 3 minutes de l'autre."
+      },
+      {
+        "n": 6,
+        "texte": "Servir tout de suite, le daikon râpé et le gingembre par-dessus, LE PONZU VERSÉ À TABLE."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "L'abura-nuki : trente secondes contre l'huile de la friteuse industrielle",
+        "texte": "L'ATSUAGE EST DU TOFU FRIT EN USINE, ET L'HUILE DE SURFACE EST CELLE DE LEUR FRITEUSE, PAS CELLE QU'ON CHOISIRAIT. 油抜き, abura-nuki, veut littéralement dire « retirer l'huile » : de l'eau bouillante versée dessus emporte l'huile de surface, celle qui a le plus vieilli et qui porte le goût de rance.\n\nCE QUE ÇA RETIRE, EN CHIFFRES HONNÊTES : de l'ordre de 2 à 3 g de lipides pour deux portions. Ce n'est pas énorme. CE QUE ÇA CHANGE VRAIMENT EST AILLEURS, ET C'EST POURQUOI LE GESTE EST DANS TOUTES LES RECETTES JAPONAISES : le tofu prend le goût de ce qu'on met dessus au lieu de goûter l'huile de l'usine. C'est un geste de saveur avant d'être un geste de macro.\n\nET C'EST CE QUI PERMET DE CUIRE À SEC. Sans abura-nuki, l'huile de surface fume et brûle avant que le tofu ait doré. Rincée, la surface est nue et humide, on l'éponge, et elle grille sur sa propre matière grasse interne. AUCUNE HUILE N'ENTRE DANS LA POÊLE : c'est la seule cuisson dorée du recueil qui n'en demande pas.\n\nSEIZE GRAMMES DE PROTÉINES ET CENT SOIXANTE-DIX MILLIGRAMMES DE SODIUM POUR DIX MINUTES DE TRAVAIL. ⚠️ Son point faible est ailleurs : 14 g de lipides par portion, parce que c'est un aliment frit. À placer un jour maigre, et surtout pas le même jour que le maquereau de R100.\n\nLE MÊME GESTE VAUT POUR L'ABURA-AGE, la version mince utilisée dans la soupe miso, la hijiki de R123 et le takikomi gohan de R131. À porter au guide 3 comme une note d'ingrédient et non de recette : tout produit de soya frit passe sous l'eau bouillante avant d'entrer dans un plat."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "bcEIMbmevto",
+      "auteur": "JapaneseCooking101",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R123",
+      "R131"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R127",
+    "statut": "actif",
+    "categorie": "soupe-entree",
+    "cuisine": "japonaise",
+    "vitesse": "ultra-rapide",
+    "type_de_plat": "soupe",
+    "methode": [
+      "bouilli"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "soyeux",
+      "en-bouillon"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-claire-aux-oeufs-files-kakitamajiru",
+    "jp": "かきたま汁",
+    "jp_lecture": "かきたまじる",
+    "romaji": "kakitamajiru",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Soupe claire aux œufs filés (kakitamajiru)",
+    "sous_titre": "Une soupe dont on décide du sel. Une soupe miso ne le permet pas : son sel et son goût voyagent dans la même cuillère.",
+    "portions": "2",
+    "temps_affiche": "≈ 10 min",
+    "temps_minutes": {
+      "preparation": 3,
+      "cuisson": 7,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 7,
+      "proteines_affiche": "7 g",
+      "calories": 90,
+      "calories_affiche": "≈ 90",
+      "lipides_g": 5,
+      "sodium_mg": 370,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel; au huitième, le bol tombe à environ 230 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 œufs, battus à la fourchette sans faire de mousse",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de fécule de pomme de terre délayée dans 1 c. à soupe d'eau froide",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : mitsuba, oignons verts en fines rondelles, ou zeste de yuzu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à thé de saké",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T2 : 400 ml de dashi. Ici le dashi est tout le plat : c'est la fiche où un dashi frais se remarque le plus."
+      },
+      {
+        "n": 2,
+        "texte": "Amener à frémissement, ajouter le soya et le sel. Goûter."
+      },
+      {
+        "n": 3,
+        "texte": "VERSER LA FÉCULE DÉLAYÉE ET REMUER 30 SECONDES. Le bouillon devient très légèrement sirupeux. C'est l'étape qui fait la soupe et presque personne ne l'explique."
+      },
+      {
+        "n": 4,
+        "texte": "BAISSER À FRÉMISSEMENT DOUX — pas d'ébullition."
+      },
+      {
+        "n": 5,
+        "texte": "VERSER L'ŒUF BATTU EN FILET TRÈS FIN, LE PLUS HAUT POSSIBLE, EN DESSINANT DES CERCLES, pendant que l'autre main remue lentement dans le sens contraire."
+      },
+      {
+        "n": 6,
+        "texte": "ÉTEINDRE IMMÉDIATEMENT. L'œuf est cuit avant que la casserole ait fini de bouger."
+      },
+      {
+        "n": 7,
+        "texte": "Verdure par-dessus, servir tout de suite."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La fécule suspend l'œuf — et pourquoi une soupe ne descend pas sous 300 mg",
+        "texte": "UN KAKITAMAJIRU RATÉ A DES GRUMEAUX D'ŒUF AU FOND ET UN BOUILLON TROUBLE. UN RÉUSSI A DES RUBANS SOYEUX EN SUSPENSION. LA DIFFÉRENCE EST UNE CUILLÈRE À THÉ DE FÉCULE. Un bouillon clair est trop fluide pour porter l'œuf : les filets tombent, se rejoignent au fond et cuisent en paquet. La fécule épaissit juste assez pour que l'œuf flotte le temps de coaguler.\n\nET LA HAUTEUR DU FILET FAIT LE RESTE. Versé de haut, l'œuf se divise en un fil très mince avant de toucher le bouillon; versé de près, il arrive en masse. C'est de la mécanique, pas du savoir-faire : plus la chute est longue, plus le fil est fin.\n\n🔴 TROIS CENT SOIXANTE-DIX MILLIGRAMMES À LA DOSE ÉCRITE, ET IL FAUT DIRE POURQUOI ON NE FAIT PAS BEAUCOUP MIEUX. Un quart de cuillère à thé de sel, c'est 575 mg; la cuillère à thé de soya en ajoute 167. Une soupe miso ordinaire tourne autour de 500 mg par bol : L'ÉCART RÉEL EST D'UN QUART, PAS DE DEUX TIERS.\n\n⚠️ ET C'EST UN PLANCHER, PAS UN RATÉ : un bouillon a besoin de l'ordre de 0,15 à 0,20 % de sodium en masse pour goûter assaisonné. En dessous, il goûte l'eau. Miso, sel, soya, pâte d'anchois arrivent tous au même endroit, parce que c'est la concentration en bouche qui décide et non la nature du sel. LA SEULE FAÇON DE PASSER SOUS CE PLANCHER EST DE NE PAS ASSAISONNER LE LIQUIDE DU TOUT — c'est ce que fait le yosenabe de R133, avec sa trempette individuelle.\n\n🔴 CE QUE L'ŒUF APPORTE VRAIMENT, ET C'EST UN VRAI AVANTAGE : IL EST DOSABLE, ET LE MISO NE L'EST PAS. Cette soupe se sale au quart de cuillère, au huitième, à la pincée, et on ajuste en goûtant — à un huitième elle tombe à environ 230 mg et elle tient debout, parce que le dashi et l'œuf portent le corps du bol. Le miso, lui, transporte son sel et son goût dans la même cuillère : en mettre moins ne fait pas une soupe moins salée, ça fait une soupe fade.\n\nC'EST UN ARGUMENT DE CONTRÔLE ET NON DE NIVEAU. Sept grammes de protéines contre trois pour une soupe miso, et un chiffre de sodium que le cuisinier décide au lieu de le subir.\n\n⚠️ ET C'EST UNE SOUPE QU'ON BOIT, DONC TOUT SON SODIUM COMPTE — aucun levier ne s'applique après coup. Les plats en bouillon du recueil se divisent en deux familles : ceux dont le bouillon est un cuiseur, qu'on laisse dans la casserole, et ceux dont le bouillon EST le plat. Celui-ci est du second genre."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "u0cUEd2FsJ0",
+      "auteur": "JapaneseCooking101",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R38",
+      "R133"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R128",
+    "statut": "actif",
+    "categorie": "soupe-entree",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "type_de_plat": "soupe",
+    "methode": [
+      "saute",
+      "bouilli"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sesame-noisette",
+      "doux"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "croquant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-de-legumes-racines-au-tofu-kenchinjiru",
+    "jp": "けんちん汁",
+    "jp_lecture": "けんちんじる",
+    "romaji": "kenchinjiru",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Soupe de légumes racines au tofu (kenchinjiru)",
+    "sous_titre": "Dix grammes de protéines et cent quatre-vingt-dix milligrammes de sodium dans un bol de soupe. C'est le ichiju qui nourrit, et il n'y a pas une trace d'animal dedans.",
+    "portions": "4",
+    "temps_affiche": "≈ 35 min",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 20,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 10,
+      "proteines_affiche": "10 g",
+      "calories": 120,
+      "calories_affiche": "≈ 120",
+      "lipides_g": 5,
+      "sodium_mg": 190,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de tofu ferme, ÉGOUTTÉ — il sera écrasé, pas coupé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g de daikon en quarts de rondelles",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 carotte en quarts de rondelles",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "80 g de gobo en biseaux — dans l'eau vinaigrée dès qu'il est coupé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de konnyaku, DÉCHIRÉ À LA MAIN, ébouillanté 2 minutes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 shiitake, frais ou réhydratés, tranchés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "800 ml de dashi T2 — de préférence un mizudashi kombu-shiitake, sans katsuobushi",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 1/2 c. à soupe de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de mirin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · shichimi",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T2. Le mizudashi kombu-shiitake est le bon choix ici, et pour une raison qui n'est pas gastronomique : voir la note."
+      },
+      {
+        "n": 2,
+        "texte": "CASSEROLE, HUILE DE SÉSAME, FEU MOYEN-VIF. LE TOFU ÉCRASÉ À LA MAIN DIRECTEMENT DEDANS, en gros morceaux irréguliers. 3 à 4 minutes sans trop remuer, jusqu'à ce que les faces dorent par endroits."
+      },
+      {
+        "n": 3,
+        "texte": "C'EST L'ÉTAPE QUI FAIT LE PLAT. NE PAS L'ESCAMOTER. Un tofu sauté à l'huile de sésame avant le bouillon donne une soupe qui a du corps; un tofu ajouté cru donne de l'eau avec des cubes dedans."
+      },
+      {
+        "n": 4,
+        "texte": "Ajouter le daikon, la carotte, le gobo, le konnyaku, les shiitake. 3 minutes en remuant, pour que l'huile de sésame les enrobe tous."
+      },
+      {
+        "n": 5,
+        "texte": "Le dashi. Amener à frémissement, ÉCUMER UNE FOIS, puis 15 minutes à découvert à petit frémissement."
+      },
+      {
+        "n": 6,
+        "texte": "Le soya et le mirin DANS LES 3 DERNIÈRES MINUTES SEULEMENT. Goûter."
+      },
+      {
+        "n": 7,
+        "texte": "Oignons verts au service, shichimi à table."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le ichiju qui nourrit, et pourquoi le tofu passe à la poêle d'abord",
+        "texte": "LE RECUEIL A CINQ SOUPES ET AUCUNE NE NOURRIT. R38 et R2 sont des soupes miso à 3 g de protéines; R40 et R42 sont des bouillons clairs. CELLE-CI PORTE DIX GRAMMES DE PROTÉINES POUR CENT QUATRE-VINGT-DIX MILLIGRAMMES DE SODIUM — c'est-à-dire trois fois la protéine d'une soupe miso pour un tiers de son sel.\n\nET LE MÉCANISME EST ENTIÈREMENT DANS LE TOFU SAUTÉ. Trois cents grammes de tofu ferme, c'est 35 g de protéines réparties sur quatre bols. Sauté d'abord à l'huile de sésame, il fait deux choses qu'il ne fait pas cru : ses faces dorées portent un goût grillé que rien d'autre du bol n'apporte, et sa surface raffermie l'empêche de se déliter en vingt minutes de frémissement.\n\nけんちん汁 VIENT DE LA CUISINE DES TEMPLES — 精進料理, la cuisine sans animal. C'est pourquoi la recette traditionnelle n'a ni viande ni katsuobushi, et pourquoi le dashi doit être un mizudashi kombu-shiitake si on veut le plat tel qu'il est. Ce n'est pas une contrainte à respecter par déférence : c'est un renseignement pratique. Le dossier a une règle — pas de kombu deux fois la même semaine, pour l'iode — et cette soupe est l'endroit où le kombu se justifie le mieux.\n\nCE QUE LE GOBO APPORTE, ET IL EST FACULTATIF DANS TOUTES LES RECETTES SAUF DANS CELLE-CI : une amertume de terre qui donne au bouillon un fond que le daikon et la carotte, tous deux sucrés, ne peuvent pas donner. Sans lui, c'est une bonne soupe de légumes; avec lui, c'est un kenchinjiru. Le peler au dos du couteau, pas à l'économe — la saveur est juste sous la peau.\n\n⚠️ SOUPE QU'ON BOIT : SES 190 MG COMPTENT EN ENTIER. C'est peu, et ça laisse de la place. Un souper à R128 plus un plat principal à 400 mg tient à 590 mg pour le repas complet, ce qui est le meilleur souper complet que le dossier sache construire."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "M1uP4rJBsDE",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R127",
+      "R129"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R129",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "type_de_plat": "soupe",
+    "methode": [
+      "saute",
+      "bouilli"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "riche-gras"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-miso-au-porc-et-aux-racines-tonjiru",
+    "jp": "豚汁",
+    "jp_lecture": "とんじる",
+    "romaji": "tonjiru",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Soupe miso au porc et aux racines (tonjiru)",
+    "sous_titre": "Une soupe qui est un repas : dix-sept grammes de protéines dans un bol. Et le seul plat du recueil où le levier « ne pas boire le bouillon » n'existe pas.",
+    "portions": "4",
+    "temps_affiche": "≈ 35 min",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 20,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 17,
+      "proteines_affiche": "17 g",
+      "calories": 190,
+      "calories_affiche": "≈ 190",
+      "lipides_g": 9,
+      "sodium_mg": 350,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ CE BOUILLON SE BOIT EN ENTIER : ses 350 mg comptent tous, contrairement à un mijoté dont on laisse le liquide. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "300 g de porc tranché mince OU de côtelette désossée en fines lanières",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g de daikon en quarts de rondelles",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 carotte en quarts de rondelles",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "80 g de gobo en biseaux, dans l'eau vinaigrée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de konnyaku déchiré à la main, ébouillanté 2 minutes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 shiitake tranchés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "800 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de miso — ET NON 3 : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile de sésame grillé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · shichimi",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE POMME DE TERRE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T2 : 800 ml de dashi."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole, huile de sésame, feu moyen-vif. Le porc en une couche, 2 minutes, juste pour qu'il perde son rouge."
+      },
+      {
+        "n": 3,
+        "texte": "RETIRER LE GRAS RENDU AU PAPIER ABSORBANT. Trois cents grammes de porc en laissent une bonne cuillère à soupe."
+      },
+      {
+        "n": 4,
+        "texte": "Les légumes et le konnyaku, 3 minutes en remuant."
+      },
+      {
+        "n": 5,
+        "texte": "Le dashi, frémissement, ÉCUMER, puis 15 minutes à découvert."
+      },
+      {
+        "n": 6,
+        "texte": "ÉTEINDRE LE FEU. DÉLAYER LE MISO DANS UNE LOUCHE DE BOUILLON CHAUD, HORS DE LA CASSEROLE, PUIS LE VERSER. Le miso bouilli perd ses arômes et devient plat — c'est la même logique que le glaçage hors du feu de T24."
+      },
+      {
+        "n": 7,
+        "texte": "Ne plus faire bouillir. Oignons verts, shichimi à table."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La soupe qu'on boit : tout son sodium compte, et c'est une famille à part",
+        "texte": "🔴 C'EST LA FICHE QUI OBLIGE À ÉCRIRE UNE DISTINCTION QUE LE DOSSIER APPLIQUAIT SANS LA NOMMER : LES PLATS EN BOUILLON SE DIVISENT EN DEUX FAMILLES.\n\nCELLE DONT LE BOUILLON EST UN CUISEUR — le nikudōfu de R111, le gyūdon de R115, le yosenabe de R133. On mange les solides, on laisse le liquide, et UN TIERS À LA MOITIÉ DU SODIUM RESTE DANS LA CASSEROLE. C'est le levier le plus puissant du dossier et il est gratuit.\n\nCELLE QU'ON BOIT — celle-ci, le kenchinjiru de R128, le kakitamajiru de R127, les soupes miso. LE BOUILLON EST LE PLAT. Aucun levier ne s'applique après coup : le seul moment où le sodium se décide est le moment où on dose le miso.\n\nD'OÙ LES DEUX CUILLÈRES À SOUPE ET NON TROIS. La recette japonaise ordinaire met 3 à 4 c. à soupe de miso pour quatre bols, soit environ 525 à 700 mg par bol. Deux cuillères donnent environ 350 mg, et ce qui rend ça tenable est ailleurs dans le bol : trois cents grammes de porc et cinq légumes ont déjà donné un bouillon plein. LE MISO D'UN TONJIRU ASSAISONNE UN LIQUIDE QUI A DU GOÛT; celui d'une soupe miso claire doit en créer un.\n\n⚠️ ET C'EST LE PLAT DU RECUEIL LE PLUS FACILE À SUR-SALER SANS S'EN RENDRE COMPTE, parce que le miso se juge à la couleur du bouillon et non au goût. Trois cuillères font une soupe plus opaque et plus « riche » à l'œil. SE FIER À LA CUILLÈRE, PAS À LA COULEUR.\n\nAUCUNE POMME DE TERRE, ET C'EST LA RÈGLE DU QUART FÉCULENT. Beaucoup de tonjiru en portent. Cent cinquante grammes de pommes de terre par bol feraient de cette soupe le féculent du repas, et le bol de riz sauterait — ce qui est absurde pour un plat dont l'intérêt est justement de se manger avec du riz. Daikon, carotte, gobo et konnyaku occupent le quart légume; le riz reste.\n\nDIX-SEPT GRAMMES DE PROTÉINES DANS UN BOL DE SOUPE : c'est un plat principal déguisé en ichiju, et il faut le compter comme tel dans un plan. Avec un bol de riz et un petit plat, c'est un souper complet à environ 600 calories."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "PHuxPEUWCcw",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R128",
+      "R38"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R130",
+    "statut": "actif",
+    "categorie": "diner",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "bouilli"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "doux"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "moelleux",
+      "soyeux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "riz-en-bouillon-aux-oeufs-zosui",
+    "jp": "雑炊",
+    "jp_lecture": "ぞうすい",
+    "romaji": "zōsui",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Riz en bouillon aux œufs (zosui)",
+    "sous_titre": "Le débouché des restes du dossier : un bouillon, du riz froid rincé, deux œufs, et ce qui traîne. Vingt-trois grammes de protéines et aucun produit fermenté salé.",
+    "portions": "2",
+    "temps_affiche": "≈ 15 min",
+    "temps_minutes": {
+      "preparation": 4,
+      "cuisson": 11,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 23,
+      "proteines_affiche": "23 g",
+      "calories": 405,
+      "calories_affiche": "≈ 405",
+      "lipides_g": 9,
+      "sodium_mg": 370,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel; au huitième, le bol tombe à environ 230 mg. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "280 g de riz cuit — 2 rondelles congelées de 140 g, réchauffées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "500 ml de dashi T2",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 œufs battus",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de protéine cuite au choix : reste de poulet · reste de saumon · soboro R107 · 200 g de tofu ferme en cubes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce soya réduite en sodium",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · mitsuba · nori en lanières · un peu de gingembre râpé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 4 shiitake tranchés · 100 g d'épinards",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "RINCER LE RIZ CUIT À L'EAU FROIDE DANS UNE PASSOIRE, ET LE PRESSER LÉGÈREMENT. C'est le geste qui définit le plat : il enlève l'amidon de surface. Sans lui, le bouillon devient de la colle."
+      },
+      {
+        "n": 2,
+        "texte": "Faire T2 : 500 ml de dashi. Amener à frémissement, ajouter le soya et le sel."
+      },
+      {
+        "n": 3,
+        "texte": "Les légumes durs et la protéine cuite, 3 minutes."
+      },
+      {
+        "n": 4,
+        "texte": "LE RIZ RINCÉ, 4 À 5 MINUTES À FRÉMISSEMENT DOUX. Il doit gonfler un peu, pas se défaire."
+      },
+      {
+        "n": 5,
+        "texte": "VERSER LES ŒUFS BATTUS EN FILET, REMUER UNE FOIS, ÉTEINDRE. Couvrir 1 minute."
+      },
+      {
+        "n": 6,
+        "texte": "Verdure et nori par-dessus. SE MANGE TOUT DE SUITE : le zōsui ne se garde pas."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Rincer le riz : ce qui sépare le zōsui de l'okayu",
+        "texte": "LE RECUEIL A DEUX PLATS DE RIZ EN BOUILLON ET ILS NE SE REMPLACENT PAS. L'OKAYU de R6 cuit du riz CRU dans beaucoup d'eau pendant quarante minutes : les grains éclatent, l'amidon se libère, et on obtient une bouillie crémeuse — c'est un plat de convalescence. LE 雑炊 PART DE RIZ DÉJÀ CUIT, RINCÉ DE SON AMIDON, et le passe cinq minutes dans un bouillon clair : les grains restent entiers et le bouillon reste un bouillon.\n\n⚠️ D'OÙ L'ÉTAPE 1, QUI EST LA SEULE ÉTAPE OBLIGATOIRE DU PLAT. Du riz cuit non rincé porte de l'amidon gélatinisé en surface. Jeté dans un bouillon chaud, il le libère en trente secondes et le plat devient un okayu raté — trouble, épais, collant. Un rinçage de dix secondes à l'eau froide règle ça définitivement.\n\nCE PLAT EST L'OUTIL DU DOSSIER CONTRE LES RESTES, ET C'EST SON VRAI RÔLE. Un reste de poulet de R82, un morceau de saumon, une portion de soboro de R107, un demi-bloc de tofu : tout ce qui porte de la protéine entre ici sans changer la recette. Le champ des ingrédients dit « au choix » pour cette raison, et non par paresse.\n\nTROIS CENT SOIXANTE-DIX MILLIGRAMMES, ET AUCUN PRODUIT FERMENTÉ SALÉ N'ENTRE DANS LE BOL. Pas de miso, pas de pâte, pas de bouillon en cube : un quart de cuillère à thé de sel (575 mg) et une cuillère à thé de soya (167) dans un demi-litre de dashi. Comme au R127, tout ce sodium est dosable — au huitième de cuillère, le bol tombe à environ 230 mg. C'est aussi la fiche qui montre à quel point ce dossier dépend d'un dashi qui goûte quelque chose : ici, il n'y a rien d'autre.\n\nET C'EST LA FIN TRADITIONNELLE D'UN NABE. Quand le yosenabe de R133 est terminé, on rince du riz, on le jette dans ce qui reste du bouillon, on casse deux œufs dedans. ⚠️ ATTENTION LÀ : ON NE SALE PAS DU TOUT DANS CE CAS. Le bouillon d'un nabe fini est concentré et il a reçu du ponzu tombé dedans. Le zōsui de fin de nabe se monte sans ajouter un grain de sel, et il arrive quand même autour de 350 mg."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "t8OQDzDtL6U",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R6",
+      "R133"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R131",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "long",
+    "type_de_plat": "feculent",
+    "methode": [
+      "bouilli"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre",
+      "doux"
+    ],
+    "axe_texture": [
+      "moelleux",
+      "ferme"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "riz-cuit-avec-sa-garniture-takikomi-gohan",
+    "jp": "炊き込みご飯",
+    "jp_lecture": "たきこみごはん",
+    "romaji": "takikomi gohan",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Riz cuit avec sa garniture (takikomi gohan)",
+    "sous_titre": "Le riz cesse d'être un accompagnement neutre et devient le plat. Un seul piège, et il est mesurable : le soya fait partie du volume d'eau.",
+    "portions": "4",
+    "temps_affiche": "≈ 70 min dont 45 de cuiseur",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 45,
+      "attente": 10
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 14,
+      "proteines_affiche": "14 g",
+      "calories": 355,
+      "calories_affiche": "≈ 355",
+      "lipides_g": 6,
+      "sodium_mg": 250,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 gō de riz japonais — environ 300 g cru, la tasse du cuiseur",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g de haut de cuisse de poulet désossé sans peau, en dés de 1,5 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 shiitake séchés réhydratés, tranchés — GARDER L'EAU DE TREMPAGE",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 carotte en fine julienne",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "80 g de gobo en fins biseaux, dans l'eau vinaigrée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 abura-age ébouillanté 30 secondes, en lanières",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LE LIQUIDE, TOTAL 360 ml pour 2 gō : 2 c. à soupe de sauce soya réduite + 2 c. à soupe de mirin + l'eau de trempage des shiitake + du dashi T2 pour compléter",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · sésame grillé · mitsuba",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T1",
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "RINCER LE RIZ COMME EN T1, puis LE LAISSER ÉGOUTTER 15 MINUTES. Un riz mouillé fausse le volume de liquide."
+      },
+      {
+        "n": 2,
+        "texte": "MESURER LE LIQUIDE EN INCLUANT LE SOYA ET LE MIRIN. Verser le soya et le mirin dans une tasse à mesurer, puis compléter avec l'eau de shiitake et le dashi jusqu'à 360 ml au total. C'est le seul piège du plat : voir la note."
+      },
+      {
+        "n": 3,
+        "texte": "Riz égoutté dans la cuve. Verser le liquide et mélanger une fois pour dissoudre le soya."
+      },
+      {
+        "n": 4,
+        "texte": "DÉPOSER LA GARNITURE À PLAT SUR LE RIZ, SANS MÉLANGER. Le poulet, les shiitake, la carotte, le gobo, l'abura-age, étalés."
+      },
+      {
+        "n": 5,
+        "texte": "Programme normal. NE PAS OUVRIR."
+      },
+      {
+        "n": 6,
+        "texte": "À la fin, 10 minutes de repos couvercle fermé, puis COUPER À LA SPATULE EN SOULEVANT DU FOND pour répartir la garniture sans écraser les grains."
+      },
+      {
+        "n": 7,
+        "texte": "Verdure et sésame au service."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le soya fait partie de l'eau, et c'est la seule chose à retenir",
+        "texte": "🔴 LE PIÈGE DE CE PLAT EST ARITHMÉTIQUE ET IL RATE LE RIZ À COUP SÛR : deux cuillères à soupe de soya et deux de mirin, c'est 60 ml de liquide. Ajoutées PAR-DESSUS la ligne d'eau du cuiseur, elles font 17 % de liquide en trop, et le riz sort mou et collant. LE SOYA ET LE MIRIN NE SONT PAS DES ASSAISONNEMENTS VERSÉS SUR UN RIZ : CE SONT DES LIQUIDES DE CUISSON, ET ILS ENTRENT DANS LE COMPTE.\n\nLA MÉTHODE SÛRE, ET ELLE VAUT MIEUX QUE LA LIGNE DU CUISEUR : mesurer les assaisonnements d'abord dans la tasse graduée, puis compléter jusqu'au volume total. Pour 2 gō de riz japonais : 360 ml. ⚠️ Ne pas se fier à la ligne « 2 » de la cuve pour un takikomi, parce que la garniture prend de la place et que la ligne suppose un riz nu.\n\nCE PLAT FERME LA FAMILLE DU RÉPERTOIRE DES MANQUES QUI S'APPELLE « LE RIZ CUIT AVEC SA GARNITURE ». Le dossier traitait le riz comme un accompagnement neutre — une rondelle congelée de 140 g, 200 calories, 4 g de protéines. Ici, LE RIZ PORTE QUATORZE GRAMMES DE PROTÉINES PAR PORTION, parce que le poulet, l'abura-age et le shiitake ont cuit dedans.\n\n⚠️ CONSÉQUENCE POUR LES PLANS, ET ELLE EST IMPORTANTE : CE PLAT OCCUPE LE QUART FÉCULENT ET UNE PARTIE DU QUART PROTÉINE EN MÊME TEMPS. Le type de plat dit « féculent » et c'est exact, mais incomplet. Un souper autour de R131 n'a pas besoin d'un bol de riz — il EST le bol de riz — et son plat principal peut être plus léger de moitié. Un poisson grillé de 120 g suffit là où il en aurait fallu 200.\n\nNE JAMAIS METTRE LA GARNITURE SOUS LE RIZ NI LA MÉLANGER AVANT CUISSON. Le riz a besoin de circuler dans son eau pour cuire uniformément; de la garniture mêlée aux grains fait des poches sèches et des poches noyées. Posée dessus, elle cuit à la vapeur et descend d'elle-même.\n\nSE GARDE 2 JOURS ET SE CONGÈLE EN RONDELLES, exactement comme le riz nature du dossier. C'est la meilleure façon d'avoir des rondelles qui portent de la protéine."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "CczmGI6PvcA",
+      "auteur": "Just One Cookbook",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R130",
+      "R107"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R132",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "rapide",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "vapeur",
+      "grille"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "saumon-au-miso-sur-lit-de-chou-chanchanyaki",
+    "jp": "鮭のちゃんちゃん焼き",
+    "jp_lecture": "さけのちゃんちゃんやき",
+    "romaji": "sake no chanchanyaki",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Saumon au miso sur lit de chou (chanchanyaki)",
+    "sous_titre": "Une poêle, un couvercle, quinze minutes. Et un ajustement qui enlève deux cents calories sans que le plat s'en aperçoive : pas de beurre.",
+    "portions": "2",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 29,
+      "proteines_affiche": "29 g",
+      "calories": 400,
+      "calories_affiche": "≈ 400",
+      "lipides_g": 20,
+      "sodium_mg": 440,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "2 filets de saumon de 160 g, avec la peau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "300 g de chou vert en lanières de 1 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 oignon en demi-lunes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "150 g de champignons — shimeji, shiitake ou de Paris",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 carotte en fine julienne",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE : 1 c. à soupe de miso · 1 c. à soupe de mirin · 1 c. à thé de sauce soya réduite · 1 c. à thé de gingembre râpé · 1 c. à thé de saké",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUN BEURRE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : oignons verts · sésame · shichimi",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Mélanger la sauce dans un bol. Elle doit être une pâte épaisse, pas un liquide."
+      },
+      {
+        "n": 2,
+        "texte": "Éponger le saumon. ÉTALER LA SAUCE SUR LA CHAIR SEULEMENT, PAS SUR LA PEAU."
+      },
+      {
+        "n": 3,
+        "texte": "Grande poêle, huile, feu moyen. Le chou en lit au fond, puis l'oignon, la carotte, les champignons par-dessus."
+      },
+      {
+        "n": 4,
+        "texte": "DÉPOSER LE SAUMON PEAU EN DESSOUS SUR LES LÉGUMES, ET NON DANS LA POÊLE. Il cuit à la vapeur des légumes."
+      },
+      {
+        "n": 5,
+        "texte": "COUVRIR. 12 À 14 MINUTES À FEU MOYEN-DOUX. Ne pas ouvrir avant 10 minutes."
+      },
+      {
+        "n": 6,
+        "texte": "Vérifier : la chair se sépare à la fourchette au plus épais."
+      },
+      {
+        "n": 7,
+        "texte": "Découvrir, monter le feu 1 minute pour évaporer l'eau rendue par le chou. Mélanger grossièrement le saumon et les légumes au service, ou servir en portions."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le beurre, la sauce sur le poisson, et pourquoi le chou est en dessous",
+        "texte": "⚠️ LA RECETTE DE HOKKAIDŌ MET DU BEURRE ET LA FICHE N'EN MET PAS. C'EST L'AJUSTEMENT ANNONCÉ DANS LE RÉPERTOIRE DES MANQUES, ET IL TIENT. Deux cuillères à soupe de beurre, c'est 200 calories et 22 g de lipides pour deux portions — dans un plat qui porte déjà 20 g de lipides par portion parce que le saumon est un poisson gras. Avec le beurre, ce plat serait à 500 calories et 31 g de lipides : la moitié du plafond quotidien de lipides dans une assiette.\n\nCE QUE LE BEURRE FAISAIT : il liait la sauce et donnait du gras à un chou qui n'en a pas. Ce qui le remplace : LA PEAU DU SAUMON, qui rend son propre gras dans les légumes pendant les quatorze minutes à couvert, et LE MIRIN, qui donne à la sauce miso le brillant que le beurre lui donnait. On ne récupère pas exactement le même plat, et il faut le dire — c'est un chanchanyaki plus franc et moins rond.\n\nLA SAUCE VA SUR LE POISSON ET JAMAIS DANS LA POÊLE, ET C'EST LA DIFFÉRENCE ENTRE CE PLAT ET UN PLAT BRÛLÉ. Le miso contient des sucres et des protéines : au contact du métal chaud, il noircit en trois minutes. Posé sur la chair du saumon, il est protégé par l'humidité du poisson pendant toute la cuisson.\n\nLE CHOU EST EN DESSOUS PARCE QU'IL EST LE CUISEUR. Trois cents grammes de chou rendent de l'ordre d'un demi-verre d'eau en quinze minutes; c'est cette vapeur qui cuit le saumon. Le poisson ne touche jamais la poêle : il n'y a donc rien à retourner, rien à décoller, et la peau reste entière. C'est aussi ce qui explique la dernière étape — il faut évaporer cette eau à la fin, sinon le plat baigne.\n\nUNE CUILLÈRE À SOUPE DE MISO ET NON DEUX. L'usage en met deux à trois pour deux portions, soit 700 à 1 050 mg par portion. Une cuillère donne environ 440 mg au total avec le soya, et ce qui rend ça possible est que le chou et l'oignon sucrent en cuisant. La même logique que le gyūdon de R115 : cinq minutes d'oignon remplacent une cuillère de sel."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "ydQ7d-VBiFM",
+      "auteur": "Cooking with Dog",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R100",
+      "R115"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R133",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "japonaise",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "poche",
+      "bouilli"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "acide",
+      "doux"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "souper"
+    ],
+    "slug": "marmite-claire-mixte-yosenabe",
+    "jp": "寄せ鍋",
+    "jp_lecture": "よせなべ",
+    "romaji": "yosenabe",
+    "nom_origine": null,
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "ja",
+    "fr": "Marmite claire mixte (yosenabe)",
+    "sous_titre": "Une personne sur deux en mange une fois par semaine au Japon en hiver. Le bouillon n'est presque pas assaisonné — tout le sel est dans le petit plat de chacun.",
+    "portions": "4",
+    "temps_affiche": "≈ 40 min dont 20 de découpe",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 20,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 28,
+      "proteines_affiche": "28 g",
+      "calories": 350,
+      "calories_affiche": "≈ 350",
+      "lipides_g": 12,
+      "sodium_mg": 300,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. LE SODIUM SUPPOSE QUE LE BOUILLON N'EST PAS BU : on mange les solides et on laisse le liquide dans la marmite. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "LE BOUILLON : 1,2 L de dashi T2 · 1 c. à soupe de sauce soya réduite · 1 c. à soupe de mirin · 1 c. à soupe de saké · C'EST TOUT",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES PROTÉINES, environ 700 g au total : 200 g de haut de cuisse de poulet en morceaux · 200 g de filet de poisson blanc ferme · 150 g de crevettes · 300 g de tofu ferme en gros cubes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES LÉGUMES : 400 g de chou nappa en larges morceaux · 1 poireau japonais ou 2 poireaux en biseaux · 150 g de champignons — shiitake, shimeji, enoki · 1 carotte en rondelles · 200 g de shirataki rincés et ébouillantés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA TREMPETTE, un petit plat PAR PERSONNE : 1 c. à thé de ponzu · daikon râpé · oignons verts · shichimi",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif pour la fin : 280 g de riz cuit rincé et 2 œufs — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T2"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T2 : 1,2 L de dashi. Ajouter le soya, le mirin et le saké. GOÛTER : ÇA DOIT ÊTRE À PEINE SALÉ. C'EST VOULU."
+      },
+      {
+        "n": 2,
+        "texte": "TOUT COUPER ET DISPOSER SUR UN GRAND PLATEAU AVANT D'ALLUMER. Vingt minutes de découpe, et c'est là qu'est tout le travail du plat."
+      },
+      {
+        "n": 3,
+        "texte": "Monter les trempettes dans les petits plats individuels."
+      },
+      {
+        "n": 4,
+        "texte": "Marmite au centre de la table sur un réchaud, ou sur la cuisinière si on la porte pleine."
+      },
+      {
+        "n": 5,
+        "texte": "L'ORDRE COMPTE : les côtes dures du nappa, la carotte et les shirataki d'abord, 5 minutes. Puis le poulet, 5 minutes. Puis le poisson, le tofu et les champignons, 4 minutes. Les crevettes et les feuilles de nappa en dernier, 2 minutes."
+      },
+      {
+        "n": 6,
+        "texte": "CHACUN PÊCHE À LA LOUCHE ET TREMPE DANS SON PETIT PLAT. Le bouillon reste dans la marmite."
+      },
+      {
+        "n": 7,
+        "texte": "Réajouter des ingrédients au fur et à mesure. NE JAMAIS LAISSER LA MARMITE BOUILLIR FORT — le poisson se défait et le bouillon se trouble."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le bouillon n'est pas assaisonné, la trempette l'est",
+        "texte": "TROIS CENTS MILLIGRAMMES POUR VINGT-HUIT GRAMMES DE PROTÉINES, ET LE MÉCANISME EST LE PLUS PUR DU RECUEIL. Une cuillère à soupe de soya dans 1,2 litre de bouillon, c'est 125 mg par portion — et on n'en boit même pas la moitié. Le reste du sel, environ 175 mg, est dans une cuillère à thé de ponzu que chacun dose lui-même.\n\n🔴 C'EST LE QUATRIÈME PLAT DU RECUEIL À APPLIQUER LE LEVIER DE LA TREMPETTE, ET C'EST CELUI QUI LE MONTRE LE MIEUX. R110, R117 et R118 déportent le sel dans un petit plat. Ici, LE PLAT ENTIER EST CONSTRUIT AUTOUR DE CE PRINCIPE : LE BOUILLON EST UN CUISEUR ET NON UNE SAUCE. Et le bénéfice se voit à la fin du repas — ce qui reste dans le petit plat est du sodium qu'on n'a pas mangé, et c'est la seule architecture de repas qui rende ça visible.\n\n⚠️ DEUX PETITS PLATS À SAUCE DANS LA MAISON, ET CE PLAT EN DEMANDE UN PAR PERSONNE. Pour deux couverts, ça passe. Pour quatre, non — et c'est le plat qui fait de l'achat des petits plats une nécessité et non un confort. La liste d'épicerie le porte déjà.\n\nVINGT MINUTES DE DÉCOUPE, ET C'EST LE VRAI COÛT DU PLAT. ⚠️ C'est aussi un plat à beaucoup de gestes distincts, ce qui est le critère qu'on a dégagé du souper à deux couverts du 18 août. MAIS TOUS LES GESTES SONT AVANT : une fois la marmite sur la table, il n'y a plus rien à faire pendant une heure. C'est le contraire d'un plat qui demande de la surveillance, et c'est pourquoi c'est le plat de réception du dossier.\n\nLA FIN TRADITIONNELLE EST UN 雑炊, ET C'EST R130. On rince du riz cuit, on le jette dans ce qui reste du bouillon concentré, on casse deux œufs dedans. ⚠️ Mais le bouillon d'un nabe fini a reçu tout le sel des ingrédients et parfois du ponzu tombé dedans : ON NE LE SALE PAS DU TOUT, et il arrive quand même autour de 350 mg.\n\nLES SHIRATAKI SONT L'AJOUT LE PLUS UTILE DE CE PLAT — zéro calorie, ils prennent du volume dans le bol et boivent le bouillon. Toujours les ébouillanter une minute avant."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "9IbJo2tW12o",
+      "auteur": "TOKYO KITCHEN",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R130",
+      "R118"
     ],
     "commentaire_source": ""
   }

@@ -28,6 +28,7 @@
   "romaji": "chikuzenni",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Poulet et racines mijotés (chikuzenni)",
   "sous_titre": "La seule fiche du recueil où une racine reste croquante après trente minutes de mijotage. C'est le lotus, et c'est pour ça que ce plat existe.",
@@ -158,9 +159,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "lourd",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

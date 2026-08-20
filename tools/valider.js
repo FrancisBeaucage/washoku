@@ -757,15 +757,22 @@ regle(24, 'L’index reste sous son plafond de taille', budget);
    et un document futur qui cherche « le nom d'origine » ne saurait pas laquelle
    lire.
 
-   ⚠️ CE QUE LA RÈGLE NE VÉRIFIE PAS, ET POURQUOI. Dix-sept des 79 fiches
-   d'origine portent encore du non-japonais dans `jp` — 酸辣湯, 순두부찌개,
-   上漿. Le document 23 défère leur migration, et il a raison pour une raison
-   plus forte que celle qu'il donne : elle N'EST PAS MÉCANIQUE. Sept de ces
-   dix-sept portent une écriture native (T5, R25, R26, R29, R30, R35, R39) ;
-   les dix autres portent un vrai nom JAPONAIS d'un plat étranger — 韓国風丼,
-   ブンチャー, 牛肉とブロッコリー — qui appartient légitimement à `jp`. Trier les
-   deux demande un jugement par fiche, donc une table dans un document, pas une
-   règle. */
+   L'ÉTAT TRANSITOIRE EST RÉGLÉ DEPUIS LE DOCUMENT 28, et le tri n'était en
+   effet pas mécanique : il a demandé une table par fiche. Sept fiches portaient
+   une écriture native dans `jp` et ont migré (T5, R25, R26, R29, R30, R35,
+   R39) ; cinq portaient une TRANSCRIPTION KATAKANA d'un nom étranger — ビビンバ
+   n'est pas un nom japonais du bibimbap, c'est le mot coréen écrit avec
+   l'alphabet japonais — et ont été remplacées par l'écriture native (R18, R23,
+   R27, R28, R64) ; cinq portent un vrai nom JAPONAIS d'un plat étranger —
+   韓国風丼, 牛肉とブロッコリー — et restent dans `jp`, où elles sont chez elles
+   (R5, R17, R31, R36, R41).
+
+   ⚠️ CE QUE LA RÈGLE NE VÉRIFIERA JAMAIS, PARCE QU'AUCUNE RÈGLE NE LE PEUT :
+   la différence entre les deux derniers cas. Elle se tranche en demandant si
+   quelqu'un, en japonais, appellerait le plat autrement s'il avait à le décrire.
+   Un nom descriptif est une construction japonaise ; un mot étranger passé par
+   les katakana est un emprunt phonétique, et le nom d'origine est ailleurs.
+   C'est du jugement, donc une table dans un document. */
 const origines = [];
 for (const f of fiches) {
   if (f.jp && f.nom_origine) origines.push(`${f.id} : porte à la fois jp « ${f.jp} » et nom_origine « ${f.nom_origine} » — un nom, un champ`);

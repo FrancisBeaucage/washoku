@@ -1,0 +1,167 @@
+{
+  "id": "R129",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "vitesse": "moyen",
+  "type_de_plat": "soupe",
+  "methode": [
+    "saute",
+    "bouilli"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "riche-gras"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-miso-au-porc-et-aux-racines-tonjiru",
+  "jp": "豚汁",
+  "jp_lecture": "とんじる",
+  "romaji": "tonjiru",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Soupe miso au porc et aux racines (tonjiru)",
+  "sous_titre": "Une soupe qui est un repas : dix-sept grammes de protéines dans un bol. Et le seul plat du recueil où le levier « ne pas boire le bouillon » n'existe pas.",
+  "portions": "4",
+  "temps_affiche": "≈ 35 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 20,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 17,
+    "proteines_affiche": "17 g",
+    "calories": 190,
+    "calories_affiche": "≈ 190",
+    "lipides_g": 9,
+    "sodium_mg": 350,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ CE BOUILLON SE BOIT EN ENTIER : ses 350 mg comptent tous, contrairement à un mijoté dont on laisse le liquide. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "300 g de porc tranché mince OU de côtelette désossée en fines lanières",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de daikon en quarts de rondelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 carotte en quarts de rondelles",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "80 g de gobo en biseaux, dans l'eau vinaigrée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "150 g de konnyaku déchiré à la main, ébouillanté 2 minutes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 shiitake tranchés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "800 ml de dashi T2",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de miso — ET NON 3 : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile de sésame grillé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : oignons verts · shichimi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE POMME DE TERRE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T2 : 800 ml de dashi."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole, huile de sésame, feu moyen-vif. Le porc en une couche, 2 minutes, juste pour qu'il perde son rouge."
+    },
+    {
+      "n": 3,
+      "texte": "RETIRER LE GRAS RENDU AU PAPIER ABSORBANT. Trois cents grammes de porc en laissent une bonne cuillère à soupe."
+    },
+    {
+      "n": 4,
+      "texte": "Les légumes et le konnyaku, 3 minutes en remuant."
+    },
+    {
+      "n": 5,
+      "texte": "Le dashi, frémissement, ÉCUMER, puis 15 minutes à découvert."
+    },
+    {
+      "n": 6,
+      "texte": "ÉTEINDRE LE FEU. DÉLAYER LE MISO DANS UNE LOUCHE DE BOUILLON CHAUD, HORS DE LA CASSEROLE, PUIS LE VERSER. Le miso bouilli perd ses arômes et devient plat — c'est la même logique que le glaçage hors du feu de T24."
+    },
+    {
+      "n": 7,
+      "texte": "Ne plus faire bouillir. Oignons verts, shichimi à table."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La soupe qu'on boit : tout son sodium compte, et c'est une famille à part",
+      "texte": "🔴 C'EST LA FICHE QUI OBLIGE À ÉCRIRE UNE DISTINCTION QUE LE DOSSIER APPLIQUAIT SANS LA NOMMER : LES PLATS EN BOUILLON SE DIVISENT EN DEUX FAMILLES.\n\nCELLE DONT LE BOUILLON EST UN CUISEUR — le nikudōfu de R111, le gyūdon de R115, le yosenabe de R133. On mange les solides, on laisse le liquide, et UN TIERS À LA MOITIÉ DU SODIUM RESTE DANS LA CASSEROLE. C'est le levier le plus puissant du dossier et il est gratuit.\n\nCELLE QU'ON BOIT — celle-ci, le kenchinjiru de R128, le kakitamajiru de R127, les soupes miso. LE BOUILLON EST LE PLAT. Aucun levier ne s'applique après coup : le seul moment où le sodium se décide est le moment où on dose le miso.\n\nD'OÙ LES DEUX CUILLÈRES À SOUPE ET NON TROIS. La recette japonaise ordinaire met 3 à 4 c. à soupe de miso pour quatre bols, soit environ 525 à 700 mg par bol. Deux cuillères donnent environ 350 mg, et ce qui rend ça tenable est ailleurs dans le bol : trois cents grammes de porc et cinq légumes ont déjà donné un bouillon plein. LE MISO D'UN TONJIRU ASSAISONNE UN LIQUIDE QUI A DU GOÛT; celui d'une soupe miso claire doit en créer un.\n\n⚠️ ET C'EST LE PLAT DU RECUEIL LE PLUS FACILE À SUR-SALER SANS S'EN RENDRE COMPTE, parce que le miso se juge à la couleur du bouillon et non au goût. Trois cuillères font une soupe plus opaque et plus « riche » à l'œil. SE FIER À LA CUILLÈRE, PAS À LA COULEUR.\n\nAUCUNE POMME DE TERRE, ET C'EST LA RÈGLE DU QUART FÉCULENT. Beaucoup de tonjiru en portent. Cent cinquante grammes de pommes de terre par bol feraient de cette soupe le féculent du repas, et le bol de riz sauterait — ce qui est absurde pour un plat dont l'intérêt est justement de se manger avec du riz. Daikon, carotte, gobo et konnyaku occupent le quart légume; le riz reste.\n\nDIX-SEPT GRAMMES DE PROTÉINES DANS UN BOL DE SOUPE : c'est un plat principal déguisé en ichiju, et il faut le compter comme tel dans un plan. Avec un bol de riz et un petit plat, c'est un souper complet à environ 600 calories."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "PHuxPEUWCcw",
+    "auteur": "Just One Cookbook",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R128",
+    "R38"
+  ],
+  "commentaire_source": ""
+}

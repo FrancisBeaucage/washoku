@@ -27,6 +27,7 @@
   "romaji": null,
   "nom_origine": "오징어볶음",
   "lecture_origine": "ojingeo bokkeum",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Calmar sauté épicé (ojingeo bokkeum)",
   "sous_titre": "Seize grammes de protéines pour un gramme de lipides aux cent grammes : le meilleur rapport de toute la recherche coréenne. Et la seule chose à réussir, c'est de ne pas trop cuire.",
@@ -118,9 +119,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

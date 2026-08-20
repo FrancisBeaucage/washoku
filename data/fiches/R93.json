@@ -27,9 +27,10 @@
   "romaji": null,
   "nom_origine": "콩나물국",
   "lecture_origine": "kongnamul guk",
+  "prononciation": null,
   "langue_origine": "ko",
   "fr": "Soupe claire aux germes de soya (kongnamul guk)",
-  "sous_titre": "Le premier guk du recueil au sens propre : un bouillon clair qui accompagne au lieu de dominer. Une cuillère à thé de sel pour trois bols, et le couvercle ne se soulève pas.",
+  "sous_titre": "Le premier guk du recueil au sens propre : un bouillon clair qui accompagne au lieu de dominer. Le sel se met à la cuillère et se goûte à chaque ajout — et le couvercle ne se soulève pas.",
   "portions": "3",
   "temps_affiche": "≈ 20 min",
   "temps_minutes": {
@@ -44,10 +45,10 @@
     "calories": 60,
     "calories_affiche": "≈ 60",
     "lipides_g": 2,
-    "sodium_mg": 400,
+    "sodium_mg": 385,
     "variable": false,
     "source": "estime",
-    "note": "Par portion pour les protéines, les calories et les lipides. LE SODIUM — environ 400 mg — VAUT POUR LES TROIS PORTIONS, soit environ 133 mg par portion. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée. À la demi-cuillère à thé de sel, dose de la fiche. À la cuillère entière, le bol double."
   },
   "ingredients": [
     {
@@ -66,7 +67,7 @@
       "sante_pos": null
     },
     {
-      "texte": "1 c. à thé de sel, GOÛTÉ ET AJUSTÉ",
+      "texte": "1/2 c. à thé de sel, GOÛTÉ ET AJUSTÉ — voir la note",
       "sante": false,
       "sante_pos": null
     },
@@ -113,14 +114,16 @@
     {
       "titre": "Ne pas ouvrir le couvercle — la même règle que R72, et pour la même raison",
       "texte": "UN GERME DE SOYA CUIT À DÉCOUVERT DÉVELOPPE UNE ODEUR DE HARICOT CRU, FRANCHEMENT DÉSAGRÉABLE, ET C'EST IRRÉVERSIBLE. Le mécanisme est une enzyme — la lipoxygénase — qui s'active au contact de l'oxygène pendant la montée en température. À couvert, la vapeur chasse l'oxygène et l'enzyme est détruite avant d'avoir travaillé.\n\nLA RÈGLE EST BINAIRE : COUVERCLE FERMÉ DU DÉBUT À LA FIN, OU COUVERCLE JAMAIS MIS. C'est l'entre-deux qui rate, et soulever le couvercle à mi-cuisson pour regarder est la seule façon de tout gâcher.\n\n⚠️ ET LES 콩나물 NE SONT PAS LES GERMES DE HARICOT MUNGO. Grosse tête jaune et tige longue, 4 à 5 minutes; le germe de mungo est blanc, court, et 60 secondes suffisent. Chez Kim Phat, l'îlot des germes porte les deux : demander les jaunes.\n\nLE MÊME SAC DE GERMES DONNE DEUX PLATS DE CE RECUEIL, et ça vaut la peine de le savoir en achetant : 300 g ici et 400 g pour le namul de R72, soit un sac complet pour une soupe et quatre banchan."
+    },
+    {
+      "titre": "Un guk se sale à la cuillère, et c'est ça qui le distingue d'un jjigae",
+      "texte": "LA DEMI-CUILLÈRE À THÉ DE SEL EST TOUT LE SODIUM DE CE BOL : 1 150 mg pour trois portions, soit environ 385 mg. ⚠️ LA VERSION PREMIÈRE DE CETTE FICHE EN METTAIT UNE CUILLÈRE ENTIÈRE, ce qui fait 767 mg par bol — plus qu'une soupe miso, et la fiche présentait ça comme une sobriété. LA DOSE EST RAMENÉE À LA MOITIÉ, GOÛTÉE ET AJUSTÉE.\n\nET C'EST LÀ QU'EST LA VRAIE DIFFÉRENCE ENTRE UN GUK ET UN JJIGAE, PAS DANS UN CHIFFRE PLUS BAS. Un guk se sale à la cuillère et se goûte à chaque ajout : le cuisinier décide. Un jjigae reçoit son sel dans une pâte fermentée qui porte aussi son goût — en mettre moins ne fait pas un jjigae moins salé, ça fait un jjigae fade. C'EST UN ARGUMENT DE CONTRÔLE ET NON DE NIVEAU.\n\nLE PLANCHER EXISTE QUAND MÊME, ET IL FAUT LE DIRE : un bouillon a besoin de l'ordre de 0,15 à 0,20 % de sodium en masse pour goûter assaisonné. En dessous, il goûte l'eau. On ne descend pas un bol de soupe assaisonné sous environ 300 mg, quel que soit l'agent salant — la seule façon de passer sous ce plancher est de ne pas assaisonner le liquide du tout."
     }
   ],
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

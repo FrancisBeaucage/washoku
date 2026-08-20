@@ -1,0 +1,122 @@
+{
+  "id": "R120",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "japonaise",
+  "vitesse": "ultra-rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "blanchi"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "acide"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "legumes-au-katsuobushi-okaka-ae",
+  "jp": "おかか和え",
+  "jp_lecture": "おかかあえ",
+  "romaji": "okaka-ae",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "ja",
+  "fr": "Légumes au katsuobushi (okaka-ae)",
+  "sous_titre": "Le petit plat le plus rapide du recueil : six minutes, trois ingrédients, et une famille de goût que ni le sésame ni le dashi ne couvrent.",
+  "portions": "2",
+  "temps_affiche": "≈ 6 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 4,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 4,
+    "proteines_affiche": "4 g",
+    "calories": 30,
+    "calories_affiche": "≈ 30",
+    "lipides_g": 0,
+    "sodium_mg": 90,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "200 g de légumes : gombos (okra) · haricots verts · épinards · asperges · brocoli",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "5 g de katsuobushi — une bonne poignée légère",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce soya réduite en sodium OU 1 c. à thé de ponzu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé de vinaigre de riz si le légume est doux",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T6 : blanchir le légume dans l'eau salée. Gombos 2 minutes, haricots 3, épinards 40 secondes, asperges 2, brocoli 3."
+    },
+    {
+      "n": 2,
+      "texte": "ÉGOUTTER ET SÉCHER AU LINGE. Un légume mouillé délave le katsuobushi et fait une flaque grise au fond du bol."
+    },
+    {
+      "n": 3,
+      "texte": "Couper en bouchées de 3 cm."
+    },
+    {
+      "n": 4,
+      "texte": "MÉLANGER LE KATSUOBUSHI ET LE SOYA HORS DU BOL, DANS LA MAIN OU DANS UNE PETITE TASSE, pour que les flocons boivent le liquide avant de toucher le légume."
+    },
+    {
+      "n": 5,
+      "texte": "Ajouter le légume, mélanger. SERVIR TOUT DE SUITE."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Une troisième famille à côté du goma-ae et du ohitashi",
+      "texte": "LE RECUEIL A TROIS FAÇONS D'HABILLER UN LÉGUME BLANCHI ET IL FAUT SAVOIR LAQUELLE CHOISIR : le OHITASHI de R43 le trempe dans du dashi — le légume boit, la saveur est liquide et douce. Le GOMA-AE de R44 l'enrobe de sésame écrasé — la saveur est grasse et couvrante. L'OKAKA-AE LE POUDRE DE KATSUOBUSHI — LA SAVEUR EST SÈCHE, SALÉE, ET ELLE RESTE EN SURFACE.\n\nCE QUE ÇA CHANGE EN PRATIQUE : c'est le seul des trois qui ne mouille pas et ne graisse pas. Zéro lipide, trente calories, et il fonctionne sur un légume qui doit rester croquant. Le goma-ae ramollit ce qu'il enrobe; celui-ci ne ramollit rien.\n\nCINQ GRAMMES DE KATSUOBUSHI, C'EST QUATRE GRAMMES DE PROTÉINES. Le katsuobushi porte 77 g de protéines aux 100 g — c'est du poisson séché à l'os. Une poignée légère double la protéine du petit plat sans ajouter une calorie de gras. Et son iode est négligeable, contrairement au kombu.\n\nLE MÉLANGE HORS DU BOL À L'ÉTAPE 4 N'EST PAS UNE COQUETTERIE. Le katsuobushi est une éponge : versé sur le légume puis arrosé de soya, il boit d'un côté seulement et fait des paquets salés. Mouillé d'abord, il se répartit.\n\n⚠️ QUATRE-VINGT-DIX MILLIGRAMMES, ET LE SEL DE L'EAU DE BLANCHIMENT N'Y EST PAS COMPTÉ. Un légume passé quarante secondes dans deux litres d'eau salée en absorbe une fraction de pourcent, une valeur sous la précision de tout le reste de l'estimation. LE SODIUM DE CETTE FICHE VIENT DE LA CUILLÈRE À THÉ DE SOYA, POINT. C'est pourquoi un légume blanchi est moins salé qu'il n'en a l'air quand on lit sa liste d'ingrédients.\n\n⚠️ LA VIDÉO EST EN JAPONAIS SANS NARRATION ANGLAISE. Elle montre la version aux gombos, et le geste est lisible sans les mots — c'est un plat à quatre gestes. Elle rejoint R80, T21 et R107 dans la liste des vidéos muettes pour Francis."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "TGmfPuNA_A0",
+    "auteur": "まいにち3品レシピ",
+    "langue": "ja"
+  },
+  "voir_aussi": [
+    "R43",
+    "R44"
+  ],
+  "commentaire_source": ""
+}

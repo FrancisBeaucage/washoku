@@ -28,6 +28,7 @@
   "romaji": "tsukune",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Boulettes de poulet glacées (tsukune)",
   "sous_titre": "Trente-quatre grammes de protéines pour deux cent soixante milligrammes de sodium — parce que la farce n'est pas salée du tout et que tout le sel est dans le glaçage.",
@@ -139,9 +140,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "moyen",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

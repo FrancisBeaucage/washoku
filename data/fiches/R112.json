@@ -28,6 +28,7 @@
   "romaji": "iridōfu",
   "nom_origine": null,
   "lecture_origine": null,
+  "prononciation": null,
   "langue_origine": "ja",
   "fr": "Tofu émietté aux légumes (iridōfu)",
   "sous_titre": "Le plat qui vide le tiroir à légumes : trente-huit grammes de protéines, une poêle, et tout ce qui reste de la semaine coupé fin.",
@@ -149,9 +150,7 @@
   "ajustement": null,
   "etoiles": {},
   "cout_travail": "leger",
-  "statut_perso": {
-    "francis": "a-l-essai"
-  },
+  "statut_perso": {},
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": null,

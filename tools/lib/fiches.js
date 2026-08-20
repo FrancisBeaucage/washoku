@@ -52,6 +52,15 @@ function versJson(r) {
        règle 11. */
     nom_origine: r.no || null,
     lecture_origine: r.nol || null,
+    /* COMMENT ON LE DIT À VOIX HAUTE, en français approximatif. Ce n'est pas
+       `lecture_origine`, qui est une romanisation savante — `sundubu jjigae`,
+       `shàng jiāng` — exacte et qui ne s'entend pas. Celui-ci répond à une
+       autre question : comment nommer le plat à table ou demander l'ingrédient
+       chez Kim Phat. C'est la seule information du recueil dont l'usage est de
+       PARLER, et elle vivait jusqu'au document 29 dans `jp_lecture`, sous une
+       étiquette qui la contredisait : neuf des treize valeurs de ce champ
+       étaient des approximations françaises et non des kana. */
+    prononciation: r.pron || null,
     langue_origine: C.LANGUE_PAR_CUISINE[cuisine] || null,
     fr: r.fr,
     sous_titre: r.sub,
@@ -126,6 +135,7 @@ function versFiche(f) {
   if (f.jp_lecture) r.pr = f.jp_lecture;
   if (f.nom_origine) r.no = f.nom_origine;
   if (f.lecture_origine) r.nol = f.lecture_origine;
+  if (f.prononciation) r.pron = f.prononciation;
   r.fr = f.fr;
   r.img = f.photo;
   r.por = f.portions;
