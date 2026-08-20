@@ -1,0 +1,159 @@
+{
+  "id": "R162",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "laotienne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "blanchi",
+    "vapeur"
+  ],
+  "axe_gout": [
+    "sesame-noisette",
+    "grille-torrefie",
+    "acide"
+  ],
+  "axe_texture": [
+    "croquant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "legumes-lao-au-sesame-et-au-riz-grille-soop-phak",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ຊຸບຜັກ",
+  "lecture_origine": "soop phak",
+  "prononciation": null,
+  "langue_origine": "lo",
+  "fr": "Légumes lao au sésame et au riz grillé (soop phak)",
+  "sous_titre": "Le quatrième liant sec du recueil, et le seul qui en combine deux : sésame écrasé et riz gluant grillé sur un légume blanchi.",
+  "portions": "4",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 13,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 4,
+    "proteines_affiche": "4 g",
+    "calories": 90,
+    "calories_affiche": "≈ 90",
+    "lipides_g": 3,
+    "sodium_mg": 250,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — deux cuillères à thé de sauce de poisson pour 600 g de légumes et quatre portions, seul poste salé du plat. Le sésame, le khao khua, les échalotes et l'ail grillés à sec et la lime n'en portent aucun. L'eau de blanchiment n'est pas salée. Comparé nommément : le choy sum de R135 est à 130 mg, l'urap de R167 à 145. ⚠️ QUATRE GRAMMES DE PROTÉINES : c'est un poste légume, pas un plat. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de légumes assortis : haricots longs · chou en gros morceaux · aubergine thaïe · courge · pousses de bambou · chou-fleur",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de graines de sésame grillées, ÉCRASÉES",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de khao khua — le riz gluant grillé moulu de T19",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 échalotes GRILLÉES À SEC et hachées · 3 gousses d'ail grillées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à thé de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de jus de lime",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 grosse poignée d'aneth · oignons verts · coriandre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 piments oiseaux écrasés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE HUILE",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6",
+    "T19"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T6 sur chaque légume séparément, DU PLUS DUR AU PLUS TENDRE DANS LA MÊME EAU : chou-fleur 3 min, haricots longs 3, courge 4, chou 2. Égoutter et laisser tiédir."
+    },
+    {
+      "n": 2,
+      "texte": "GRILLER LES ÉCHALOTES ET L'AIL À SEC dans une poêle en fonte, 6 à 8 minutes, jusqu'à des taches noires. Hacher."
+    },
+    {
+      "n": 3,
+      "texte": "GRILLER ET ÉCRASER LE SÉSAME au suribachi. Faire T19 si le khao khua n'est pas prêt."
+    },
+    {
+      "n": 4,
+      "texte": "Couper les légumes tiédis en bouchées."
+    },
+    {
+      "n": 5,
+      "texte": "Grand bol : la sauce de poisson, le jus de lime, les piments, les échalotes et l'ail grillés. Mélanger."
+    },
+    {
+      "n": 6,
+      "texte": "LES LÉGUMES, PUIS LE SÉSAME ET LE KHAO KHUA EN DERNIER. Les herbes."
+    },
+    {
+      "n": 7,
+      "texte": "SERVIR TIÈDE OU À TEMPÉRATURE DE LA PIÈCE, dans l'heure."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Quatre liants secs, quatre cuisines, une même idée",
+      "texte": "🔴 AVEC CETTE FICHE, LE RECUEIL POSSÈDE QUATRE FAÇONS D'ENROBER UN LÉGUME BLANCHI SANS UNE GOUTTE DE SAUCE — ET AUCUNE NE PORTE DE SODIUM PAR ELLE-MÊME.\n\nLE SÉSAME ÉCRASÉ, au goma-ae de R44 : gras, couvrant, sucré. LA PURÉE DE TOFU ET SÉSAME, au shiraae de R119 : crémeuse, et 10 g de protéines. LE RIZ GLUANT GRILLÉ MOULU, au tom saap de R146 et ici : sec, torréfié, zéro gras. LA NOIX DE COCO RÂPÉE ASSAISONNÉE, à l'urap de R167 : grasse, parfumée, 8 g de lipides.\n\n⚠️ CE SOOP PHAK EST LE SEUL À EN COMBINER DEUX, et c'est ce qui le distingue : le sésame donne le gras et le rond, le khao khua donne le sec et le grillé. Aucun des deux seul ne fait ça.\n\n🔴 ET C'EST LE QUATRIÈME DÉBOUCHÉ DE T19, qui était la technique la moins employée du recueil. Trois de ces débouchés sont arrivés dans les documents 31 et 32 — le tom saap, celui-ci, et le liant cru distinct du mok pa. Une technique livrée sans débouché reste une page morte pendant des mois : c'est la leçon du document 30 sur les neuf techniques chinoises, et elle se répète.\n\nLES ÉCHALOTES ET L'AIL SONT GRILLÉS À SEC, COMME AU R158. C'est le même mécanisme, dans un plat différent : griller concentre les sucres et crée l'amertume qui occupe la place du sel. Deux cuillères à thé de sauce de poisson pour 600 g de légumes, et ça suffit.\n\nL'ANETH ENCORE, ET C'EST LE MARQUEUR LAO. Comme au mok pa de R160. ⚠️ Deux fiches lao sur cinq en demandent une grosse poignée — c'est une herbe à acheter en botte, pas au brin.\n\nLES LÉGUMES SE BLANCHISSENT SÉPARÉMENT ET DANS LA MÊME EAU, DU PLUS DUR AU PLUS TENDRE. Même règle qu'au shiraae de R119. Quatre passages coûtent six minutes en tout, et l'eau devient un bouillon léger qui parfume les derniers légumes."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "7jpzf6x8nes",
+    "auteur": "Cooking With Khon Khao",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R44",
+    "R119",
+    "R167"
+  ],
+  "commentaire_source": ""
+}

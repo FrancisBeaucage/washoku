@@ -1,0 +1,145 @@
+{
+  "id": "R161",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "laotienne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "cru"
+  ],
+  "axe_gout": [
+    "umami-ferment",
+    "piquant",
+    "acide"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "salade-de-papaye-lao-tam-mak-hoong",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ຕໍາໝາກຫຸ່ງ",
+  "lecture_origine": "tam mak hoong",
+  "prononciation": null,
+  "langue_origine": "lo",
+  "fr": "Salade de papaye lao (tam mak hoong)",
+  "sous_titre": "Le cousin lao du som tam, et il goûte deux fois plus fort pour la moitié du sodium. C'est le padaek qui fait les deux.",
+  "portions": "4",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 5,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 2,
+    "proteines_affiche": "2 g",
+    "calories": 60,
+    "calories_affiche": "≈ 60",
+    "lipides_g": 0,
+    "sodium_mg": 200,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — deux cuillères à thé de padaek, soit ≈ 650 mg pour quatre portions à ≈ 1 950 mg la cuillère à soupe, et AUCUNE sauce de poisson. 🔴 Moins salé que le som tam thaï de R149 à 375 mg, alors qu'il goûte beaucoup plus fort : c'est un rendement en goût par milligramme, pas une concentration. ⚠️ DEUX GRAMMES DE PROTÉINES PAR PORTION : c'est un poste légume, pas un plat — même piège de comptabilité que R149. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de papaye verte râpée en longs filaments",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de haricots longs en tronçons",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 tomates en quartiers · 1 aubergine thaïe en fines tranches — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 gousses d'ail · 6 à 10 piments oiseaux",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "🔴 2 c. à thé de padaek, BOUILLI 5 MINUTES — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de jus de lime · 1 c. à thé de sucre de palme",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE SAUCE DE POISSON, AUCUNE ARACHIDE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1 c. à soupe de crabe fermenté, l'usage traditionnel — je ne le recommande pas : voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "🔴 FAIRE BOUILLIR LE PADAEK 5 MINUTES DANS UN PEU D'EAU, PUIS LE FILTRER. Ce n'est pas facultatif : voir la note."
+    },
+    {
+      "n": 2,
+      "texte": "AU MORTIER : l'ail et les piments, piler grossièrement."
+    },
+    {
+      "n": 3,
+      "texte": "Le sucre, le padaek bouilli, le jus de lime. PILER, GOÛTER."
+    },
+    {
+      "n": 4,
+      "texte": "Les haricots longs, PILER POUR LES FENDRE."
+    },
+    {
+      "n": 5,
+      "texte": "LA PAPAYE, LES TOMATES, L'AUBERGINE. SOULEVER À LA CUILLÈRE ET ÉCRASER AU PILON EN TOURNANT, vingt à trente fois — plus longuement que pour le som tam thaï de R149 : le tam mak hoong se veut mou et imbibé, pas croquant et net."
+    },
+    {
+      "n": 6,
+      "texte": "LAISSER 10 MINUTES AVANT DE SERVIR. Se mange avec du riz gluant."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le ferment le plus fort est le moins salé, et c'est contre-intuitif",
+      "texte": "🔴 VOICI LE CHIFFRE QUI SURPREND : LE TAM MAK HOONG EST MOINS SALÉ QUE LE SOM TAM THAÏ DE R149 — 200 mg contre 375 — ALORS QU'IL GOÛTE BEAUCOUP PLUS FORT.\n\nLA RAISON EST UN RENDEMENT. Une cuillère à soupe de padaek porte de l'ordre de 1 950 mg de sodium, contre 1 500 pour la sauce de poisson — il est donc plus salé au volume. Mais c'est un poisson fermenté entier, non filtré, dont l'umami est plusieurs fois plus concentré : deux cuillères à thé de padaek portent un plat que même une cuillère à soupe de sauce de poisson ne porterait pas. Deux cuillères à thé, c'est ≈ 650 mg pour quatre portions.\n\n⚠️ CE QUI SE GÉNÉRALISE, ET C'EST LA LEÇON À RETENIR AU-DELÀ DE CETTE FICHE : ce qui compte est le rendement en goût par milligramme, pas la concentration apparente du produit. Un ferment « fort » n'est pas un ferment coûteux — c'est souvent l'inverse, parce qu'on en met moins. Le même raisonnement vaut pour le doubanjiang de R134 et le gapi de R145.\n\n⚠️ LE PADAEK SE FAIT BOUILLIR CINQ MINUTES AVANT USAGE, ET C'EST L'USAGE TRADITIONNEL AUTANT QUE LA PRUDENCE. C'est un poisson d'eau douce fermenté cru, et l'ébullition est ce que font les cuisines lao pour l'employer dans un plat froid. Une question de cette nature se valide avec un professionnel plutôt qu'avec moi. Le bouillir n'enlève rien au goût : il en retire l'agressivité et il fait tomber la matière solide, qu'on filtre.\n\n🔴 ET SANS PADAEK, CE N'EST PAS UN TAM MAK HOONG — C'EST UN SOM TAM. C'est exactement la différence entre les deux plats. Si le padaek est introuvable, faire le R149 et ne pas prétendre faire celui-ci. Chez Kim Phat, il est en bouteille au rayon des sauces thaïes et lao, souvent étiqueté padek ou pla ra.\n\nAUCUNE ARACHIDE, ET LE PILAGE EST PLUS LONG. Ce sont les deux autres différences avec le som tam thaï : le lao n'est pas sucré, pas croquant en arachides, et il est pilé jusqu'à ce que la papaye s'affaisse. Deux plats, un seul mortier, deux résultats.\n\n⚠️ LE CRABE FERMENTÉ EST L'USAGE TRADITIONNEL ET JE NE LE RECOMMANDE PAS. C'est un crabe de rizière cru fermenté; il porte les mêmes questions que le padaek sans que l'ébullition soit d'usage. Le plat est complet sans lui.\n\n⚠️ DEUX GRAMMES DE PROTÉINES : même piège de comptabilité que le R149. C'est un poste légume à mettre à côté d'un ping gai ou d'un laap, pas à leur place."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "4e2JEcfm7DI",
+    "auteur": "Cooking With Khon Khao",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R149",
+    "R159",
+    "R70"
+  ],
+  "commentaire_source": ""
+}

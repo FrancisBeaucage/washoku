@@ -1,0 +1,147 @@
+{
+  "id": "R158",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "laotienne",
+  "vitesse": "moyen",
+  "type_de_plat": "condiment",
+  "methode": [
+    "grille",
+    "torrefie"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "piquant",
+    "acide"
+  ],
+  "axe_texture": [
+    "mou"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "trempette-de-tomates-grillees-jeow-mak-len",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ແຈ່ວໝາກເລັ່ນ",
+  "lecture_origine": "jeow mak len",
+  "prononciation": null,
+  "langue_origine": "lo",
+  "fr": "Trempette de tomates grillées (jeow mak len)",
+  "sous_titre": "Vingt-cinq calories, quatre-vingt-cinq milligrammes de sodium, et un goût qui domine une assiette. Tout vient du grill, rien de la salière.",
+  "portions": "6",
+  "temps_affiche": "≈ 35 min",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 25,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 25,
+    "calories_affiche": "≈ 25",
+    "lipides_g": 0,
+    "sodium_mg": 85,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, et la portion est de 2 c. à soupe. À LA DOSE ÉCRITE — une seule cuillère à thé de sauce de poisson pour six portions, soit ≈ 500 mg répartis, et c'est tout le sel du plat. En version traditionnelle, une demi-cuillère à thé de padaek bouilli coûte ≈ 325 mg pour les six portions, donc moins encore. ⚠️ Ne pas doubler la recette pour en faire un plat : un jeow se mange par cuillères à thé. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "6 tomates italiennes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 tête d'ail entière, non pelée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 échalotes, non pelées",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 piments séchés OU 4 piments frais",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sauce de poisson SEULEMENT — OU 1/2 c. à thé de padaek bouilli",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de jus de lime",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Coriandre et oignons verts hachés, en abondance",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE HUILE, AUCUN SUCRE",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "🔴 TOUT GRILLER À SEC, SANS HUILE : les tomates, l'ail en tête entière, les échalotes non pelées, les piments. AU FOUR À BROIL, 15 À 20 MINUTES, EN RETOURNANT, ou dans une poêle en fonte très chaude."
+    },
+    {
+      "n": 2,
+      "texte": "NE PAS ARRÊTER AUX PREMIÈRES TACHES. LA PEAU DOIT NOIRCIR PAR PLAQUES ET L'INTÉRIEUR DOIT S'AFFAISSER. C'est là que tout se passe."
+    },
+    {
+      "n": 3,
+      "texte": "PELER L'AIL ET LES ÉCHALOTES — la peau s'enlève seule — et retirer la peau noircie des tomates si elle se détache. GARDER LE JUS."
+    },
+    {
+      "n": 4,
+      "texte": "PILER AU MORTIER, en commençant par l'ail, les échalotes et les piments, puis les tomates. Une texture grossière, pas une purée."
+    },
+    {
+      "n": 5,
+      "texte": "La sauce de poisson, le jus de lime. GOÛTER."
+    },
+    {
+      "n": 6,
+      "texte": "Coriandre et oignons verts. SERVIR À TEMPÉRATURE DE LA PIÈCE, dans un petit plat, avec un plateau de crudités et du riz gluant."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le grillage est l'assaisonnement, et c'est mesurable",
+      "texte": "🔴 QUATRE-VINGT-CINQ MILLIGRAMMES DE SODIUM POUR UN CONDIMENT QUI PORTE UNE ASSIETTE, ET UNE SEULE CUILLÈRE À THÉ DE SAUCE DE POISSON POUR SIX PORTIONS. Ce qui remplit la place du sel n'est pas un autre assaisonnement : c'est le grillage à sec de l'étape 1.\n\nCE QUE LE GRILL FAIT, MÉCANIQUEMENT. Une tomate perd la moitié de son eau et concentre ses sucres et son acide; l'ail et l'échalote caramélisent leurs sucres et perdent leur mordant sulfuré; la peau noircie apporte une amertume de fumée. Trois transformations, toutes gratuites, et aucune ne contient de sodium. L'étape 2 dit de ne pas arrêter trop tôt parce que c'est exactement là que le rendement se joue.\n\n🔴 ET C'EST LA STRUCTURE DE REPAS LA PLUS EFFICACE DU LOT : LE PLATEAU EST LE PLAT. Une à deux cuillères à soupe de jeow, un plateau de crudités et de légumes vapeur, du riz gluant. Le condiment est le seul poste salé du repas, et il est dans un petit plat dont on contrôle la consommation. ⚠️ C'est le huitième cas du recueil sur le levier de la trempette, et c'est celui dont le rapport goût/sodium est le plus favorable — comparé nommément : la nước chấm de R152 est à 500 mg par portion, celle-ci à 85.\n\n⚠️ NE JAMAIS DOUBLER LA RECETTE POUR EN FAIRE UN PLAT. Un jeow se mange par cuillères à thé. Six portions de deux cuillères à soupe, c'est de quoi accompagner deux repas pour deux couverts. Servi en quantité de plat, il devient un légume à l'huile de coude sans protéine.\n\nLE PADAEK EST L'OPTION TRADITIONNELLE ET IL COÛTE MOINS CHER EN SODIUM QU'ON PENSE. Une demi-cuillère à thé de padaek bouilli, c'est ≈ 325 mg pour six portions, contre 500 pour la cuillère à thé de sauce de poisson — et il porte beaucoup plus loin. Voir le R161 pour le raisonnement complet et pour la consigne de l'ébullition.\n\nSE GARDE 5 JOURS AU FRIGO ET LE GOÛT SE FIXE APRÈS UNE NUIT. C'est une préparation du dimanche."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "omEfjsOPXEs",
+    "auteur": "Cooking With Khon Khao",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R159",
+    "R152",
+    "R165"
+  ],
+  "commentaire_source": ""
+}

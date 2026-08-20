@@ -1,0 +1,141 @@
+{
+  "id": "R165",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "indonesienne",
+  "vitesse": "rapide",
+  "type_de_plat": "condiment",
+  "methode": [
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "acide",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "mou"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "sambal-aux-tomates-sambal-tomat",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "sambal tomat",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "id",
+  "fr": "Sambal aux tomates (sambal tomat)",
+  "sous_titre": "La deuxième base salée réutilisable du dossier après le dashi. Deux semaines au frigo, elle se congèle, et cent milligrammes la cuillère.",
+  "portions": "8",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 8,
+    "cuisson": 17,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 30,
+    "calories_affiche": "≈ 30",
+    "lipides_g": 2,
+    "sodium_mg": 100,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, et la portion est de 1 c. à soupe. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel pour huit portions, soit ≈ 575 mg répartis, plus ≈ 27 mg par portion si on met la demi-cuillère à thé de terasi (≈ 1 300 mg la cuillère à soupe). Comparé nommément : la sauce d'huîtres est à 690 mg la cuillère à soupe, le doubanjiang à ≈ 700, le gochujang à ≈ 700 — un sambal maison est de six à sept fois moins salé, parce qu'il n'a pas à se conserver un an sur une tablette. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "6 tomates italiennes en quartiers",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "10 à 15 piments rouges frais — la dose décide de tout le reste",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "5 échalotes · 3 gousses d'ail",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel · 1 c. à thé de sucre de palme",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de jus de lime, HORS DU FEU",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/2 c. à thé de terasi (pâte de crevette grillée) — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "POÊLE, L'HUILE, FEU MOYEN. LES ÉCHALOTES, L'AIL ET LES PIMENTS ENTIERS, 6 À 8 MINUTES, jusqu'à ce qu'ils s'affaissent et se tachent."
+    },
+    {
+      "n": 2,
+      "texte": "Les tomates, 8 À 10 MINUTES, jusqu'à ce qu'elles rendent leur eau et que la poêle redevienne presque sèche."
+    },
+    {
+      "n": 3,
+      "texte": "LE TERASI SI ON EN MET, ÉCRASÉ, 1 MINUTE — il doit sentir fort."
+    },
+    {
+      "n": 4,
+      "texte": "PILER AU MORTIER OU ÉCRASER À LA FOURCHETTE. ⚠️ Pas au mélangeur : un sambal doit rester grossier, avec des morceaux de peau visibles."
+    },
+    {
+      "n": 5,
+      "texte": "Le sel, le sucre. REMETTRE 2 MINUTES À LA POÊLE pour que ça se lie."
+    },
+    {
+      "n": 6,
+      "texte": "LE JUS DE LIME HORS DU FEU. Refroidir, mettre en pot."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La première base salée réutilisable depuis le dashi",
+      "texte": "🔴 LE RÉPERTOIRE DES MANQUES NOTAIT UN TROU QUE PERSONNE N'AVAIT REMARQUÉ : le dossier n'a AUCUNE préparation de base salée réutilisable, sauf le dashi. Pas de saumure-mère, pas de pâte à garder, rien qui se fasse le dimanche et qui serve six fois. Ce sambal en est une : deux semaines au frigo, et il se congèle en cubes.\n\nCENT MILLIGRAMMES PAR CUILLÈRE À SOUPE, ET UN QUART DE CUILLÈRE À THÉ DE SEL POUR HUIT PORTIONS. Comparé nommément : la sauce d'huîtres est à 690 mg la cuillère à soupe, le doubanjiang à ≈ 700, le gochujang à ≈ 700. ⚠️ Un sambal maison est de six à sept fois moins salé que n'importe quelle pâte de piment du commerce, et c'est parce qu'il n'a pas à se conserver un an sur une tablette.\n\nCE QUI LE PORTE : les piments, et la dose est le vrai réglage du plat. Dix piments donnent un sambal qu'on met à la cuillère à soupe; quinze, un sambal qu'on met à la cuillère à thé. À dose de sodium égale, plus il est fort, moins on en met — c'est le même rendement que le padaek du R161.\n\n⚠️ LE TERASI EST L'OSSATURE INDONÉSIENNE ET IL COÛTE ≈ 1 300 MG PAR CUILLÈRE À SOUPE. Une demi-cuillère à THÉ pour huit portions, c'est ≈ 27 mg par portion — négligeable, et ça change complètement le sambal. Il faut le griller ou le faire revenir : cru, il est agressif; cuit, il donne une profondeur marine que rien d'autre ne donne. Vendu en bloc chez Kim Phat, et un bloc dure un an.\n\nLES USAGES : le soto ayam de R163, le tempe bacem de R164, les œufs de R166, les légumes de R167, du riz nature, un œuf au miroir. ⚠️ Et c'est aussi le sambal qui accompagne le tempé de R80, qui n'en avait aucun.\n\nPAS AU MÉLANGEUR, ET CE N'EST PAS DU PURISME. Un sambal mixé devient une purée orange homogène qui goûte la sauce tomate piquante. Pilé ou écrasé, il garde des morceaux de peau et des fragments d'échalote, et chaque cuillère est différente de la précédente. C'est le même raisonnement que le konnyaku déchiré à la main du R114."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "J8RCnzjPO4E",
+    "auteur": "Asih At Home",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R166",
+    "R163",
+    "R80"
+  ],
+  "commentaire_source": ""
+}

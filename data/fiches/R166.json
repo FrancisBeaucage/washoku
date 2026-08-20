@@ -1,0 +1,131 @@
+{
+  "id": "R166",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "indonesienne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "bouilli",
+    "saute"
+  ],
+  "axe_gout": [
+    "piquant",
+    "acide",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "ferme",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper",
+    "collation"
+  ],
+  "slug": "oeufs-durs-au-sambal-telur-balado",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "telur balado",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "id",
+  "fr": "Œufs durs au sambal (telur balado)",
+  "sous_titre": "Huit œufs, une sauce de piment, et le seul changement à faire : ne pas les frire. Deux cents calories économisées par portion.",
+  "portions": "4",
+  "temps_affiche": "≈ 25 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 20,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 12,
+    "proteines_affiche": "12 g",
+    "calories": 200,
+    "calories_affiche": "≈ 200",
+    "lipides_g": 13,
+    "sodium_mg": 145,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, et la portion est de 2 œufs enrobés. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel dans la sauce, pour quatre portions; l'œuf lui-même n'apporte rien. Comparé nommément : l'œuf mariné du dossier porte ≈ 250 mg pour UN seul œuf, parce qu'il trempe dans du soya. ⚠️ Les 13 g de lipides supposent qu'on NE FRIT PAS les œufs : la friture ajoute de l'ordre de 2 c. à soupe d'huile, soit ≈ 240 calories et 27 g de lipides pour quatre portions. ⚠️ En collation — deux portions, quatre œufs — c'est 24 g de protéines pour 400 calories et 26 g de lipides : les lipides sont le poste qui coince, d'où une collation de jour maigre. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "8 œufs durs T8, écalés",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA SAUCE : la moitié du R165 — environ 4 c. à soupe — OU, faite pour l'occasion : 8 piments rouges · 4 échalotes · 2 gousses d'ail · 3 tomates · 1 c. à soupe d'huile · 1/4 c. à thé de sel · 1 c. à thé de sucre de palme",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de jus de lime, hors du feu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 feuilles de citronnier froissées — facultatif",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "NE PAS FRIRE LES ŒUFS — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T8"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T8 : les œufs 9 minutes, refroidis, écalés. LES SÉCHER AU LINGE."
+    },
+    {
+      "n": 2,
+      "texte": "Si la sauce n'est pas déjà faite : suivre le R165 jusqu'à l'étape 5."
+    },
+    {
+      "n": 3,
+      "texte": "🔴 POÊLE ANTIADHÉSIVE, À SEC, LES ŒUFS ENTIERS 3 À 4 MINUTES EN LES ROULANT. La surface se raffermit et se tache légèrement. C'est ce qui remplace la friture."
+    },
+    {
+      "n": 4,
+      "texte": "VERSER LA SAUCE, BAISSER LE FEU, ROULER LES ŒUFS DEDANS 4 À 5 MINUTES pour qu'ils s'enrobent et prennent la couleur."
+    },
+    {
+      "n": 5,
+      "texte": "JUS DE LIME HORS DU FEU. Servir tiède ou froid, coupés en deux."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ne pas frire les œufs : deux cents calories, et personne ne le remarque",
+      "texte": "⚠️ LA RECETTE INDONÉSIENNE FRIT LES ŒUFS DURS AVANT DE LES ENROBER, ET C'EST LE SEUL POINT À CHANGER. Huit œufs durs plongés dans l'huile en absorbent peu — leur surface est étanche — mais la friture ajoute de l'ordre de 2 c. à soupe d'huile qui reste sur eux et dans la poêle : ≈ 240 calories et 27 g de lipides pour quatre portions.\n\nCE QUE LA FRITURE APPORTE : une peau bosselée, dorée, légèrement croustillante, qui accroche la sauce. CE QUI LA REMPLACE : trois à quatre minutes à sec dans une poêle antiadhésive, en roulant. ⚠️ On n'obtient pas les bosses. On obtient une surface raffermie qui accroche presque aussi bien. C'est un échange honnête et il faut le dire tel quel.\n\nDOUZE GRAMMES DE PROTÉINES ET CENT QUARANTE-CINQ MILLIGRAMMES DE SODIUM POUR DEUX ŒUFS ENROBÉS. ⚠️ Comparé nommément : l'œuf mariné du dossier porte ≈ 250 mg pour un seul œuf — parce qu'il trempe dans du soya. Celui-ci est enrobé d'une sauce dont le sel est un quart de cuillère à thé pour quatre portions. L'œuf, lui, n'apporte rien.\n\n🔴 ET ÇA EN FAIT UNE COLLATION, PAS SEULEMENT UN ACCOMPAGNEMENT. La cible de collation du guide 5 est ≈ 300 calories et 25 g de protéines. Deux portions de cette fiche — quatre œufs — donnent 24 g de protéines pour 400 calories. ⚠️ Les 26 g de lipides sont le poste qui coince, et c'est pourquoi le champ « moment » porte collation mais que la fiche ne s'en réclame pas : c'est une collation de jour maigre.\n\nSE GARDE 3 JOURS ET SE MANGE FROID. Les œufs continuent de prendre la sauce. C'est une préparation du dimanche qui coûte cinq minutes si le sambal de R165 existe déjà — et c'est le premier vrai débouché de ce sambal."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "W9d-0xCFU38",
+    "auteur": "Unimagi Studio",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R165",
+    "R164"
+  ],
+  "commentaire_source": ""
+}

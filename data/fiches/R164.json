@@ -1,0 +1,156 @@
+{
+  "id": "R164",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "indonesienne",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "mijote"
+  ],
+  "axe_gout": [
+    "sale-sucre",
+    "umami-ferment",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "ferme",
+    "moelleux"
+  ],
+  "moment": [
+    "dejeuner",
+    "diner",
+    "souper"
+  ],
+  "slug": "tempe-braise-au-sucre-de-palme-tempe-bacem",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "tempe bacem",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "id",
+  "fr": "Tempé braisé au sucre de palme (tempe bacem)",
+  "sous_titre": "Le kho indonésien : caramel, eau de coco, braisage. Vingt-cinq grammes de protéines pour cent vingt-cinq milligrammes de sodium — un quart du kho vietnamien.",
+  "portions": "4",
+  "temps_affiche": "≈ 45 min dont 30 sans surveillance",
+  "temps_minutes": {
+    "preparation": 10,
+    "cuisson": 5,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 25,
+    "proteines_affiche": "25 g",
+    "calories": 245,
+    "calories_affiche": "≈ 245",
+    "lipides_g": 13,
+    "sodium_mg": 125,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une cuillère à soupe de sauce soya réduite en sodium, soit 500 mg pour quatre portions (étiquette lue), et rien d'autre. Compté EN ENTIER : le liquide est absorbé, il ne se jette pas. 🔴 Un quart du thịt kho vietnamien de R154, qui est à 500-750 mg, et la différence entière est la protéine — le tempé est lui-même un ferment de soya NON salé. ⚠️ Les 13 g de lipides supposent qu'on NE FRIT PAS les tranches après le braisage : la version classique le fait, et ça ajoute de l'ordre de trois cuillères à soupe d'huile, soit 360 calories et 40 g de lipides pour quatre portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "400 g de tempé en tranches de 1 cm — produit à Montréal : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "200 g de tofu ferme en cubes de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA PÂTE, pilée : 5 échalotes · 4 gousses d'ail · 1 c. à thé de coriandre moulue · 1/2 c. à thé de poivre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "300 ml d'eau de coco — le liquide, pas le lait",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sucre de palme (gula jawa) OU de cassonade foncée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce soya réduite en sodium SEULEMENT",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de pulpe de tamarin délayée et filtrée",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 feuilles de salam · 2 rondelles de galanga",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE FRITURE APRÈS LE BRAISAGE — voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "PILER LA PÂTE AU MORTIER — échalotes, ail, coriandre, poivre."
+    },
+    {
+      "n": 2,
+      "texte": "Casserole large : la pâte, l'eau de coco, le sucre de palme, la sauce soya, le tamarin, les feuilles de salam, le galanga. Amener à frémissement, 3 minutes."
+    },
+    {
+      "n": 3,
+      "texte": "DÉPOSER LE TEMPÉ ET LE TOFU À PLAT, EN UNE SEULE COUCHE, liquide aux trois quarts."
+    },
+    {
+      "n": 4,
+      "texte": "COUVERCLE DE BIAIS, FRÉMISSEMENT 25 À 30 MINUTES, en retournant une fois à la cuillère. Le liquide doit être presque entièrement absorbé."
+    },
+    {
+      "n": 5,
+      "texte": "DÉCOUVRIR, MONTER LE FEU 3 À 5 MINUTES pour que le fond devienne sirupeux et que les tranches se colorent."
+    },
+    {
+      "n": 6,
+      "texte": "LAISSER REFROIDIR DANS LA CASSEROLE. ⚠️ Ne PAS frire ensuite : voir la note."
+    },
+    {
+      "n": 7,
+      "texte": "Se mange tiède ou froid, avec du riz et le sambal de R165."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le kho indonésien, et pourquoi il coûte quatre fois moins que le vietnamien",
+      "texte": "🔴 CE PLAT ET LE THỊT KHO DE R154 SONT LA MÊME GRAMMAIRE SOUS DEUX NOMS : du sucre caramélisé, de l'eau de coco, un peu de ferment salé, et un braisage jusqu'à ce que le liquide nappe. ⚠️ Deux cuisines qui n'ont pas de frontière commune, la même architecture. Et les chiffres sont très différents.\n\nLA PROTÉINE : du porc d'épaule dans le thịt kho, du tempé et du tofu ici. LE SEL : deux cuillères à soupe de nước mắm dans le vietnamien, soit 3 000 mg dans la casserole; UNE cuillère à soupe de soya réduite ici, soit 500 mg. LE SODIUM PAR PORTION : 500 à 750 mg là-bas, 125 ici. LES LIPIDES PAR PORTION : 23 g là-bas, 13 ici.\n\n🔴 LA DIFFÉRENCE ENTIÈRE EST LA PROTÉINE, ET C'EST LA LEÇON. Le porc arrive salé — de sa propre chair et de la sauce de poisson qu'il demande pour être porté. Le tempé arrive avec rien : c'est un ferment de soya non salé, et il porte son propre umami. Une cuillère à soupe de soya réduite suffit là où le porc en demande six fois plus. Quand une protéine est elle-même un ferment, elle n'a pas besoin d'un ferment salé pour goûter quelque chose.\n\nLE TEMPÉ EST À 19 G DE PROTÉINES AUX 100 G ET IL EST PRODUIT À MONTRÉAL. Le répertoire des manques le notait déjà : aucun équivalent au dossier, et il se comporte comme une viande — il tient au braisage, il se tranche, il dore. ⚠️ Ce n'est pas du tofu : c'est du soya entier fermenté, avec sa fibre. Le goût est de noisette et de champignon, franc, et il ne plaît pas à tout le monde du premier coup.\n\n⚠️ LA VERSION CLASSIQUE FRIT LES TRANCHES APRÈS LE BRAISAGE, ET C'EST LE SEUL POINT À CHANGER. Quatre cents grammes de tempé braisé puis frit absorbent de l'ordre de trois cuillères à soupe d'huile — 360 calories, 40 g de lipides pour quatre portions. Ce que la friture apporte : une croûte. Ce qui la remplace : les trois à cinq minutes à découvert de l'étape 5, qui caramélisent le fond et colorent les tranches. Ce n'est pas identique, et c'est le meilleur échange de ce document.\n\nLE SUCRE DE PALME EST LE LEVIER, PAS LE PROBLÈME — même raisonnement qu'au R154. Une cuillère à soupe pour quatre portions, soit 3 g de sucre par portion, et une partie caramélise. Sans lui, le plat est plat, et on compenserait au soya.\n\nSE GARDE 4 JOURS ET C'EST MEILLEUR AU DEUXIÈME. Se mange froid, à la main, comme une collation protéinée à 25 g. C'est le plat de préparation d'avance le moins salé du recueil."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "7iFSyuNzbGQ",
+    "auteur": "Novi's Bali Kitchen",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R154",
+    "R165",
+    "R80"
+  ],
+  "commentaire_source": ""
+}

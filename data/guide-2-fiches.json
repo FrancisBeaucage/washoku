@@ -22937,7 +22937,8 @@
     },
     "voir_aussi": [
       "R27",
-      "R28"
+      "R28",
+      "R162"
     ],
     "commentaire_source": ""
   },
@@ -23354,7 +23355,8 @@
     },
     "voir_aussi": [
       "R69",
-      "R70"
+      "R70",
+      "R161"
     ],
     "commentaire_source": ""
   },
@@ -23500,7 +23502,8 @@
     },
     "voir_aussi": [
       "R118",
-      "R133"
+      "R133",
+      "R160"
     ],
     "commentaire_source": ""
   },
@@ -24103,7 +24106,8 @@
     },
     "voir_aussi": [
       "R123",
-      "R100"
+      "R100",
+      "R164"
     ],
     "commentaire_source": ""
   },
@@ -24554,6 +24558,1475 @@
       "R142",
       "R137",
       "R117"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R158",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "laotienne",
+    "vitesse": "moyen",
+    "type_de_plat": "condiment",
+    "methode": [
+      "grille",
+      "torrefie"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "piquant",
+      "acide"
+    ],
+    "axe_texture": [
+      "mou"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "trempette-de-tomates-grillees-jeow-mak-len",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ແຈ່ວໝາກເລັ່ນ",
+    "lecture_origine": "jeow mak len",
+    "prononciation": null,
+    "langue_origine": "lo",
+    "fr": "Trempette de tomates grillées (jeow mak len)",
+    "sous_titre": "Vingt-cinq calories, quatre-vingt-cinq milligrammes de sodium, et un goût qui domine une assiette. Tout vient du grill, rien de la salière.",
+    "portions": "6",
+    "temps_affiche": "≈ 35 min",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 25,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 25,
+      "calories_affiche": "≈ 25",
+      "lipides_g": 0,
+      "sodium_mg": 85,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, et la portion est de 2 c. à soupe. À LA DOSE ÉCRITE — une seule cuillère à thé de sauce de poisson pour six portions, soit ≈ 500 mg répartis, et c'est tout le sel du plat. En version traditionnelle, une demi-cuillère à thé de padaek bouilli coûte ≈ 325 mg pour les six portions, donc moins encore. ⚠️ Ne pas doubler la recette pour en faire un plat : un jeow se mange par cuillères à thé. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "6 tomates italiennes",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 tête d'ail entière, non pelée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 échalotes, non pelées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "6 piments séchés OU 4 piments frais",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sauce de poisson SEULEMENT — OU 1/2 c. à thé de padaek bouilli",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de jus de lime",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Coriandre et oignons verts hachés, en abondance",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE HUILE, AUCUN SUCRE",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "🔴 TOUT GRILLER À SEC, SANS HUILE : les tomates, l'ail en tête entière, les échalotes non pelées, les piments. AU FOUR À BROIL, 15 À 20 MINUTES, EN RETOURNANT, ou dans une poêle en fonte très chaude."
+      },
+      {
+        "n": 2,
+        "texte": "NE PAS ARRÊTER AUX PREMIÈRES TACHES. LA PEAU DOIT NOIRCIR PAR PLAQUES ET L'INTÉRIEUR DOIT S'AFFAISSER. C'est là que tout se passe."
+      },
+      {
+        "n": 3,
+        "texte": "PELER L'AIL ET LES ÉCHALOTES — la peau s'enlève seule — et retirer la peau noircie des tomates si elle se détache. GARDER LE JUS."
+      },
+      {
+        "n": 4,
+        "texte": "PILER AU MORTIER, en commençant par l'ail, les échalotes et les piments, puis les tomates. Une texture grossière, pas une purée."
+      },
+      {
+        "n": 5,
+        "texte": "La sauce de poisson, le jus de lime. GOÛTER."
+      },
+      {
+        "n": 6,
+        "texte": "Coriandre et oignons verts. SERVIR À TEMPÉRATURE DE LA PIÈCE, dans un petit plat, avec un plateau de crudités et du riz gluant."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le grillage est l'assaisonnement, et c'est mesurable",
+        "texte": "🔴 QUATRE-VINGT-CINQ MILLIGRAMMES DE SODIUM POUR UN CONDIMENT QUI PORTE UNE ASSIETTE, ET UNE SEULE CUILLÈRE À THÉ DE SAUCE DE POISSON POUR SIX PORTIONS. Ce qui remplit la place du sel n'est pas un autre assaisonnement : c'est le grillage à sec de l'étape 1.\n\nCE QUE LE GRILL FAIT, MÉCANIQUEMENT. Une tomate perd la moitié de son eau et concentre ses sucres et son acide; l'ail et l'échalote caramélisent leurs sucres et perdent leur mordant sulfuré; la peau noircie apporte une amertume de fumée. Trois transformations, toutes gratuites, et aucune ne contient de sodium. L'étape 2 dit de ne pas arrêter trop tôt parce que c'est exactement là que le rendement se joue.\n\n🔴 ET C'EST LA STRUCTURE DE REPAS LA PLUS EFFICACE DU LOT : LE PLATEAU EST LE PLAT. Une à deux cuillères à soupe de jeow, un plateau de crudités et de légumes vapeur, du riz gluant. Le condiment est le seul poste salé du repas, et il est dans un petit plat dont on contrôle la consommation. ⚠️ C'est le huitième cas du recueil sur le levier de la trempette, et c'est celui dont le rapport goût/sodium est le plus favorable — comparé nommément : la nước chấm de R152 est à 500 mg par portion, celle-ci à 85.\n\n⚠️ NE JAMAIS DOUBLER LA RECETTE POUR EN FAIRE UN PLAT. Un jeow se mange par cuillères à thé. Six portions de deux cuillères à soupe, c'est de quoi accompagner deux repas pour deux couverts. Servi en quantité de plat, il devient un légume à l'huile de coude sans protéine.\n\nLE PADAEK EST L'OPTION TRADITIONNELLE ET IL COÛTE MOINS CHER EN SODIUM QU'ON PENSE. Une demi-cuillère à thé de padaek bouilli, c'est ≈ 325 mg pour six portions, contre 500 pour la cuillère à thé de sauce de poisson — et il porte beaucoup plus loin. Voir le R161 pour le raisonnement complet et pour la consigne de l'ébullition.\n\nSE GARDE 5 JOURS AU FRIGO ET LE GOÛT SE FIXE APRÈS UNE NUIT. C'est une préparation du dimanche."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "omEfjsOPXEs",
+      "auteur": "Cooking With Khon Khao",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R159",
+      "R152",
+      "R165"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R159",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "laotienne",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "marine",
+      "grille"
+    ],
+    "axe_gout": [
+      "grille-torrefie",
+      "aromatique",
+      "sale-sucre"
+    ],
+    "axe_texture": [
+      "fondant",
+      "croustillant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "poulet-grille-a-la-citronnelle-ping-gai",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ປີ້ງໄກ່",
+    "lecture_origine": "ping gai",
+    "prononciation": null,
+    "langue_origine": "lo",
+    "fr": "Poulet grillé à la citronnelle (ping gai)",
+    "sous_titre": "Trente-six grammes de protéines, une marinade de quatre ingrédients aromatiques, et l'ingrédient signature est la partie de la coriandre que tout le monde jette.",
+    "portions": "4",
+    "temps_affiche": "≈ 50 min dont 30 de marinade",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 20,
+      "attente": 30
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 36,
+      "proteines_affiche": "36 g",
+      "calories": 340,
+      "calories_affiche": "≈ 340",
+      "lipides_g": 18,
+      "sodium_mg": 375,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une cuillère à soupe de sauce de poisson pour quatre portions, dans la marinade, et rien d'autre. Le sel est compté EN ENTIER : une marinade s'accroche à la chair et se mange avec elle. ⚠️ Dix-huit grammes de lipides malgré le retrait de la peau — 800 g de haut de cuisse avec peau en porteraient de l'ordre de 100 g contre 72 sans. 🔴 En repas complet — ping gai, jeow de R158, riz gluant et crudités — le total est de ≈ 36 g de protéines pour ≈ 460 mg de sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "800 g de haut de cuisse de poulet désossé SANS PEAU, aplati à épaisseur égale",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA MARINADE : 4 racines de coriandre lavées et écrasées — à défaut, 8 tiges : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "6 gousses d'ail · 2 tiges de citronnelle, partie tendre, hachées fin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de poivre blanc concassé grossièrement",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce de poisson · 1 c. à thé de sucre de palme",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AU SERVICE : R158 le jeow · du riz gluant · un plateau de crudités",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE HUILE DANS LA MARINADE",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "PILER AU MORTIER LA RACINE DE CORIANDRE, L'AIL, LA CITRONNELLE ET LE POIVRE BLANC JUSQU'À UNE PÂTE GROSSIÈRE. C'est le seul travail du plat."
+      },
+      {
+        "n": 2,
+        "texte": "Ajouter la sauce de poisson et le sucre, mélanger."
+      },
+      {
+        "n": 3,
+        "texte": "ENROBER LE POULET, 30 MINUTES AU FRIGO. PAS PLUS DE 4 HEURES — la marinade est salée et elle finirait par raffermir la chair."
+      },
+      {
+        "n": 4,
+        "texte": "GRIL DU FOUR PRÉCHAUFFÉ, GRILLE À 15 CM, ou barbecue, ou poêle en fonte très chaude."
+      },
+      {
+        "n": 5,
+        "texte": "FACE QUI PORTAIT LA PEAU EN DESSOUS D'ABORD, 8 À 10 MINUTES SANS Y TOUCHER. Retourner, 6 à 8 minutes. IL DOIT Y AVOIR DES ZONES FRANCHEMENT NOIRCIES : c'est voulu."
+      },
+      {
+        "n": 6,
+        "texte": "REPOS 5 MINUTES avant de trancher en biais."
+      },
+      {
+        "n": 7,
+        "texte": "Servir avec le jeow dans un petit plat par personne, du riz gluant, et des crudités."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La racine de coriandre : l'ingrédient signature qu'on jette",
+        "texte": "🔴 LA RACINE DE CORIANDRE EST L'INGRÉDIENT DÉFINISSANT DE CE PLAT, ET ELLE EST VENDUE ATTACHÉE À LA BOTTE QU'ON ACHÈTE DÉJÀ. Chez Kim Phat, la coriandre se vend en bottes avec les racines; dans un supermarché ordinaire, elle est coupée. Ce n'est pas un ingrédient à trouver : c'est un ingrédient à ne pas jeter.\n\nCE QU'ELLE APPORTE ET QUE LES FEUILLES N'APPORTENT PAS : un goût terreux, poivré, presque de céleri-rave, qui résiste à la chaleur. Les feuilles de coriandre disparaissent au gril; la racine tient. À défaut, les tiges épaisses du bas de la botte donnent les deux tiers du résultat — les feuilles, presque rien. ⚠️ Se congèlent : laver, sécher, sac scellé, six mois. À faire à chaque botte.\n\nLE POIVRE BLANC À LA CUILLÈRE À SOUPE N'EST PAS UNE ERREUR. Le trio racine de coriandre – ail – poivre blanc est la base aromatique lao et thaïe, comme le mirepoix ailleurs. C'est le troisième plat du recueil où le poivre blanc est un axe et non un accent, après le gaeng jued de R74 et le khao tom de R151.\n\nSANS PEAU, ET LE GRILL COMPENSE. Huit cents grammes de haut de cuisse avec peau porteraient de l'ordre de 100 g de lipides; sans peau, 72. ⚠️ Dix-huit grammes par portion reste substantiel — c'est un plat de jour maigre. Ce qui remplace le croustillant de la peau : les zones noircies de l'étape 5, sur la chair elle-même.\n\n🔴 ET LE REPAS COMPLET EST L'INTÉRÊT DE CETTE FICHE, PAS LE POULET SEUL. Ping gai + jeow de R158 + riz gluant + crudités, c'est ≈ 36 g de protéines et ≈ 460 mg de sodium pour tout le repas — parce que le poulet porte son sel dans sa marinade et que le reste de l'assiette est un plateau et une trempette. C'est l'architecture de repas la plus économe en sodium que le dossier sache construire."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "H1x5nkVfjuU",
+      "auteur": "Food Wishes",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R158",
+      "R151",
+      "R74"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R160",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "laotienne",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "vapeur"
+    ],
+    "axe_gout": [
+      "aromatique",
+      "piquant",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "fondant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "poisson-en-papillote-de-feuille-de-bananier-mok-pa",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ໝົກປາ",
+    "lecture_origine": "mok pa",
+    "prononciation": null,
+    "langue_origine": "lo",
+    "fr": "Poisson en papillote de feuille de bananier (mok pa)",
+    "sous_titre": "Trente grammes de protéines pour quatre grammes de lipides et pas une goutte d'huile ajoutée. La papillote est le cuiseur, et l'herbe signature est l'aneth.",
+    "portions": "4",
+    "temps_affiche": "≈ 45 min",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 25,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 30,
+      "proteines_affiche": "30 g",
+      "calories": 180,
+      "calories_affiche": "≈ 180",
+      "lipides_g": 4,
+      "sodium_mg": 375,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une cuillère à soupe de sauce de poisson pour quatre portions, et c'est tout le sel. Compté EN ENTIER : rien ne sort de la papillote. AUCUNE MATIÈRE GRASSE N'ENTRE DANS LA RECETTE : les quatre grammes viennent du poisson. Beaucoup de recettes ajoutent 200 ml de lait de coco pour épaissir — ≈ 400 calories et 40 g de lipides pour quatre portions — là où la cuillère à soupe de riz gluant cru fait le même travail pour ≈ 50 calories au total. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "600 g de filet de poisson blanc ferme, en morceaux de 3 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA PÂTE, pilée au mortier : 3 tiges de citronnelle · 5 échalotes · 4 gousses d'ail · 4 piments · 1 c. à thé de galanga râpé",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de riz gluant CRU, trempé 30 minutes et écrasé — c'est le liant : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 grosse poignée d'aneth frais, hachée — l'herbe signature : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 oignons verts · 1 poignée de basilic thaï",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce de poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Feuilles de bananier (rayon congelé de Kim Phat) OU papier parchemin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE HUILE",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "FAIRE TREMPER LE RIZ GLUANT CRU 30 MINUTES, l'égoutter, l'écraser au mortier en pâte."
+      },
+      {
+        "n": 2,
+        "texte": "PILER LA CITRONNELLE, LES ÉCHALOTES, L'AIL, LES PIMENTS ET LE GALANGA en pâte grossière."
+      },
+      {
+        "n": 3,
+        "texte": "DÉCONGELER LES FEUILLES DE BANANIER ET LES PASSER 10 SECONDES AU-DESSUS D'UNE FLAMME OU DANS L'EAU BOUILLANTE — elles deviennent souples et cessent de se fendre."
+      },
+      {
+        "n": 4,
+        "texte": "Mélanger le poisson, la pâte, la pâte de riz gluant, l'aneth, les oignons verts, le basilic et la sauce de poisson. À LA MAIN, SANS ÉCRASER LE POISSON."
+      },
+      {
+        "n": 5,
+        "texte": "MONTER LES PAPILLOTES : deux feuilles croisées, une portion au centre, replier les quatre côtés, ficeler ou piquer d'un cure-dent."
+      },
+      {
+        "n": 6,
+        "texte": "VAPEUR 25 MINUTES. ⚠️ Sans panier vapeur : au four à 200 °C, 30 minutes, papillotes de parchemin sur une plaque."
+      },
+      {
+        "n": 7,
+        "texte": "OUVRIR À TABLE. La vapeur qui sort est la moitié du plaisir."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le riz gluant cru est le liant, et l'aneth est lao",
+        "texte": "🔴 UNE CUILLÈRE À SOUPE DE RIZ GLUANT CRU, TREMPÉ ET ÉCRASÉ, EST CE QUI TIENT CE PLAT ENSEMBLE — ET CE N'EST PAS LE KHAO KHUA DE T19. Il faut le dire parce que la confusion est facile : le khao khua est du riz GRILLÉ moulu, un umami sec qu'on ajoute hors du feu. Ici, le riz est cru et trempé : il gélatinise à la vapeur et lie le jus du poisson en une crème légère. Deux préparations du même grain, deux fonctions opposées.\n\nCE QUE ÇA REMPLACE : de l'huile ou du lait de coco. Sans liant, un mok pa cuit à la vapeur rend son eau et le poisson baigne. Beaucoup de recettes ajoutent du lait de coco pour épaissir — 200 ml, c'est 400 calories et 40 g de lipides pour quatre portions. Le riz gluant fait le même travail pour ≈ 50 calories au total.\n\n🔴 L'ANETH EST L'HERBE SIGNATURE DE LA CUISINE LAO, ET C'EST SURPRENANT. On l'associe au Nord de l'Europe et au poisson scandinave; il est central au Laos et au Nord du Vietnam — le phak si. Une grosse poignée, pas une garniture. ⚠️ Sans lui, c'est un poisson vapeur aromatique correct; avec lui, c'est un mok pa. Kim Phat en a au rayon des herbes, et le supermarché ordinaire aussi.\n\nLA FEUILLE DE BANANIER N'EST PAS DÉCORATIVE MAIS ELLE EST REMPLAÇABLE. Elle apporte un parfum végétal léger et elle scelle mieux que le parchemin. Le parchemin donne 90 % du résultat. ⚠️ Le passage à la flamme de l'étape 3 n'est pas optionnel sur la feuille congelée : sèche, elle se fend au pliage et la papillote fuit.\n\nTRENTE GRAMMES DE PROTÉINES POUR QUATRE GRAMMES DE LIPIDES, ET AUCUNE MATIÈRE GRASSE N'ENTRE DANS LA RECETTE. Comparé nommément : c'est le même ordre que le gaeng som de R145 et le poisson vapeur de R150. Trois plats de poisson, trois cuisines, et le point commun est qu'aucun ne cuit dans du gras.\n\nSE MONTE D'AVANCE ET SE CONGÈLE CRU. Les papillotes montées se congèlent et se cuisent à la vapeur 35 minutes depuis congelé. C'est le seul plat du recueil qui se prépare en série et se cuit à l'unité."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "s9LLLgobDck",
+      "auteur": "Saeng Douangdara",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R145",
+      "R150",
+      "R146"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R161",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "laotienne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "cru"
+    ],
+    "axe_gout": [
+      "umami-ferment",
+      "piquant",
+      "acide"
+    ],
+    "axe_texture": [
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "salade-de-papaye-lao-tam-mak-hoong",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ຕໍາໝາກຫຸ່ງ",
+    "lecture_origine": "tam mak hoong",
+    "prononciation": null,
+    "langue_origine": "lo",
+    "fr": "Salade de papaye lao (tam mak hoong)",
+    "sous_titre": "Le cousin lao du som tam, et il goûte deux fois plus fort pour la moitié du sodium. C'est le padaek qui fait les deux.",
+    "portions": "4",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 5,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 2,
+      "proteines_affiche": "2 g",
+      "calories": 60,
+      "calories_affiche": "≈ 60",
+      "lipides_g": 0,
+      "sodium_mg": 200,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — deux cuillères à thé de padaek, soit ≈ 650 mg pour quatre portions à ≈ 1 950 mg la cuillère à soupe, et AUCUNE sauce de poisson. 🔴 Moins salé que le som tam thaï de R149 à 375 mg, alors qu'il goûte beaucoup plus fort : c'est un rendement en goût par milligramme, pas une concentration. ⚠️ DEUX GRAMMES DE PROTÉINES PAR PORTION : c'est un poste légume, pas un plat — même piège de comptabilité que R149. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de papaye verte râpée en longs filaments",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de haricots longs en tronçons",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 tomates en quartiers · 1 aubergine thaïe en fines tranches — facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 gousses d'ail · 6 à 10 piments oiseaux",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "🔴 2 c. à thé de padaek, BOUILLI 5 MINUTES — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de jus de lime · 1 c. à thé de sucre de palme",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE SAUCE DE POISSON, AUCUNE ARACHIDE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1 c. à soupe de crabe fermenté, l'usage traditionnel — je ne le recommande pas : voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "🔴 FAIRE BOUILLIR LE PADAEK 5 MINUTES DANS UN PEU D'EAU, PUIS LE FILTRER. Ce n'est pas facultatif : voir la note."
+      },
+      {
+        "n": 2,
+        "texte": "AU MORTIER : l'ail et les piments, piler grossièrement."
+      },
+      {
+        "n": 3,
+        "texte": "Le sucre, le padaek bouilli, le jus de lime. PILER, GOÛTER."
+      },
+      {
+        "n": 4,
+        "texte": "Les haricots longs, PILER POUR LES FENDRE."
+      },
+      {
+        "n": 5,
+        "texte": "LA PAPAYE, LES TOMATES, L'AUBERGINE. SOULEVER À LA CUILLÈRE ET ÉCRASER AU PILON EN TOURNANT, vingt à trente fois — plus longuement que pour le som tam thaï de R149 : le tam mak hoong se veut mou et imbibé, pas croquant et net."
+      },
+      {
+        "n": 6,
+        "texte": "LAISSER 10 MINUTES AVANT DE SERVIR. Se mange avec du riz gluant."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le ferment le plus fort est le moins salé, et c'est contre-intuitif",
+        "texte": "🔴 VOICI LE CHIFFRE QUI SURPREND : LE TAM MAK HOONG EST MOINS SALÉ QUE LE SOM TAM THAÏ DE R149 — 200 mg contre 375 — ALORS QU'IL GOÛTE BEAUCOUP PLUS FORT.\n\nLA RAISON EST UN RENDEMENT. Une cuillère à soupe de padaek porte de l'ordre de 1 950 mg de sodium, contre 1 500 pour la sauce de poisson — il est donc plus salé au volume. Mais c'est un poisson fermenté entier, non filtré, dont l'umami est plusieurs fois plus concentré : deux cuillères à thé de padaek portent un plat que même une cuillère à soupe de sauce de poisson ne porterait pas. Deux cuillères à thé, c'est ≈ 650 mg pour quatre portions.\n\n⚠️ CE QUI SE GÉNÉRALISE, ET C'EST LA LEÇON À RETENIR AU-DELÀ DE CETTE FICHE : ce qui compte est le rendement en goût par milligramme, pas la concentration apparente du produit. Un ferment « fort » n'est pas un ferment coûteux — c'est souvent l'inverse, parce qu'on en met moins. Le même raisonnement vaut pour le doubanjiang de R134 et le gapi de R145.\n\n⚠️ LE PADAEK SE FAIT BOUILLIR CINQ MINUTES AVANT USAGE, ET C'EST L'USAGE TRADITIONNEL AUTANT QUE LA PRUDENCE. C'est un poisson d'eau douce fermenté cru, et l'ébullition est ce que font les cuisines lao pour l'employer dans un plat froid. Une question de cette nature se valide avec un professionnel plutôt qu'avec moi. Le bouillir n'enlève rien au goût : il en retire l'agressivité et il fait tomber la matière solide, qu'on filtre.\n\n🔴 ET SANS PADAEK, CE N'EST PAS UN TAM MAK HOONG — C'EST UN SOM TAM. C'est exactement la différence entre les deux plats. Si le padaek est introuvable, faire le R149 et ne pas prétendre faire celui-ci. Chez Kim Phat, il est en bouteille au rayon des sauces thaïes et lao, souvent étiqueté padek ou pla ra.\n\nAUCUNE ARACHIDE, ET LE PILAGE EST PLUS LONG. Ce sont les deux autres différences avec le som tam thaï : le lao n'est pas sucré, pas croquant en arachides, et il est pilé jusqu'à ce que la papaye s'affaisse. Deux plats, un seul mortier, deux résultats.\n\n⚠️ LE CRABE FERMENTÉ EST L'USAGE TRADITIONNEL ET JE NE LE RECOMMANDE PAS. C'est un crabe de rizière cru fermenté; il porte les mêmes questions que le padaek sans que l'ébullition soit d'usage. Le plat est complet sans lui.\n\n⚠️ DEUX GRAMMES DE PROTÉINES : même piège de comptabilité que le R149. C'est un poste légume à mettre à côté d'un ping gai ou d'un laap, pas à leur place."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "4e2JEcfm7DI",
+      "auteur": "Cooking With Khon Khao",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R149",
+      "R159",
+      "R70"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R162",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "laotienne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "blanchi",
+      "vapeur"
+    ],
+    "axe_gout": [
+      "sesame-noisette",
+      "grille-torrefie",
+      "acide"
+    ],
+    "axe_texture": [
+      "croquant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "legumes-lao-au-sesame-et-au-riz-grille-soop-phak",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "ຊຸບຜັກ",
+    "lecture_origine": "soop phak",
+    "prononciation": null,
+    "langue_origine": "lo",
+    "fr": "Légumes lao au sésame et au riz grillé (soop phak)",
+    "sous_titre": "Le quatrième liant sec du recueil, et le seul qui en combine deux : sésame écrasé et riz gluant grillé sur un légume blanchi.",
+    "portions": "4",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 12,
+      "cuisson": 13,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 4,
+      "proteines_affiche": "4 g",
+      "calories": 90,
+      "calories_affiche": "≈ 90",
+      "lipides_g": 3,
+      "sodium_mg": 250,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — deux cuillères à thé de sauce de poisson pour 600 g de légumes et quatre portions, seul poste salé du plat. Le sésame, le khao khua, les échalotes et l'ail grillés à sec et la lime n'en portent aucun. L'eau de blanchiment n'est pas salée. Comparé nommément : le choy sum de R135 est à 130 mg, l'urap de R167 à 145. ⚠️ QUATRE GRAMMES DE PROTÉINES : c'est un poste légume, pas un plat. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "600 g de légumes assortis : haricots longs · chou en gros morceaux · aubergine thaïe · courge · pousses de bambou · chou-fleur",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de graines de sésame grillées, ÉCRASÉES",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de khao khua — le riz gluant grillé moulu de T19",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "4 échalotes GRILLÉES À SEC et hachées · 3 gousses d'ail grillées",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à thé de sauce de poisson",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 c. à soupe de jus de lime",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 grosse poignée d'aneth · oignons verts · coriandre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 piments oiseaux écrasés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE HUILE",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T6",
+      "T19"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T6 sur chaque légume séparément, DU PLUS DUR AU PLUS TENDRE DANS LA MÊME EAU : chou-fleur 3 min, haricots longs 3, courge 4, chou 2. Égoutter et laisser tiédir."
+      },
+      {
+        "n": 2,
+        "texte": "GRILLER LES ÉCHALOTES ET L'AIL À SEC dans une poêle en fonte, 6 à 8 minutes, jusqu'à des taches noires. Hacher."
+      },
+      {
+        "n": 3,
+        "texte": "GRILLER ET ÉCRASER LE SÉSAME au suribachi. Faire T19 si le khao khua n'est pas prêt."
+      },
+      {
+        "n": 4,
+        "texte": "Couper les légumes tiédis en bouchées."
+      },
+      {
+        "n": 5,
+        "texte": "Grand bol : la sauce de poisson, le jus de lime, les piments, les échalotes et l'ail grillés. Mélanger."
+      },
+      {
+        "n": 6,
+        "texte": "LES LÉGUMES, PUIS LE SÉSAME ET LE KHAO KHUA EN DERNIER. Les herbes."
+      },
+      {
+        "n": 7,
+        "texte": "SERVIR TIÈDE OU À TEMPÉRATURE DE LA PIÈCE, dans l'heure."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Quatre liants secs, quatre cuisines, une même idée",
+        "texte": "🔴 AVEC CETTE FICHE, LE RECUEIL POSSÈDE QUATRE FAÇONS D'ENROBER UN LÉGUME BLANCHI SANS UNE GOUTTE DE SAUCE — ET AUCUNE NE PORTE DE SODIUM PAR ELLE-MÊME.\n\nLE SÉSAME ÉCRASÉ, au goma-ae de R44 : gras, couvrant, sucré. LA PURÉE DE TOFU ET SÉSAME, au shiraae de R119 : crémeuse, et 10 g de protéines. LE RIZ GLUANT GRILLÉ MOULU, au tom saap de R146 et ici : sec, torréfié, zéro gras. LA NOIX DE COCO RÂPÉE ASSAISONNÉE, à l'urap de R167 : grasse, parfumée, 8 g de lipides.\n\n⚠️ CE SOOP PHAK EST LE SEUL À EN COMBINER DEUX, et c'est ce qui le distingue : le sésame donne le gras et le rond, le khao khua donne le sec et le grillé. Aucun des deux seul ne fait ça.\n\n🔴 ET C'EST LE QUATRIÈME DÉBOUCHÉ DE T19, qui était la technique la moins employée du recueil. Trois de ces débouchés sont arrivés dans les documents 31 et 32 — le tom saap, celui-ci, et le liant cru distinct du mok pa. Une technique livrée sans débouché reste une page morte pendant des mois : c'est la leçon du document 30 sur les neuf techniques chinoises, et elle se répète.\n\nLES ÉCHALOTES ET L'AIL SONT GRILLÉS À SEC, COMME AU R158. C'est le même mécanisme, dans un plat différent : griller concentre les sucres et crée l'amertume qui occupe la place du sel. Deux cuillères à thé de sauce de poisson pour 600 g de légumes, et ça suffit.\n\nL'ANETH ENCORE, ET C'EST LE MARQUEUR LAO. Comme au mok pa de R160. ⚠️ Deux fiches lao sur cinq en demandent une grosse poignée — c'est une herbe à acheter en botte, pas au brin.\n\nLES LÉGUMES SE BLANCHISSENT SÉPARÉMENT ET DANS LA MÊME EAU, DU PLUS DUR AU PLUS TENDRE. Même règle qu'au shiraae de R119. Quatre passages coûtent six minutes en tout, et l'eau devient un bouillon léger qui parfume les derniers légumes."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "7jpzf6x8nes",
+      "auteur": "Cooking With Khon Khao",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R44",
+      "R119",
+      "R167"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R163",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "indonesienne",
+    "vitesse": "long",
+    "type_de_plat": "soupe",
+    "methode": [
+      "mijote",
+      "saute"
+    ],
+    "axe_gout": [
+      "aromatique",
+      "umami-ferment",
+      "acide"
+    ],
+    "axe_texture": [
+      "en-bouillon",
+      "fondant",
+      "croquant"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "soupe-de-poulet-au-curcuma-soto-ayam",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "soto ayam",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "id",
+    "fr": "Soupe de poulet au curcuma (soto ayam)",
+    "sous_titre": "Une soupe indonésienne sans lait de coco, jaune de curcuma frais. Trente-sept grammes de protéines pour deux tiers de cuillère à thé de sel.",
+    "portions": "4",
+    "temps_affiche": "≈ 1 h 10 dont 40 sans surveillance",
+    "temps_minutes": {
+      "preparation": 20,
+      "cuisson": 10,
+      "attente": 40
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 37,
+      "proteines_affiche": "37 g",
+      "calories": 350,
+      "calories_affiche": "≈ 350",
+      "lipides_g": 18,
+      "sodium_mg": 385,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ SOUPE QU'ON BOIT : les 385 mg comptent EN ENTIER. À LA DOSE ÉCRITE — deux tiers de cuillère à thé de sel pour quatre bols, soit 1 533 mg, et c'est le seul poste salé du bouillon. L'eau du premier blanchiment (T12) est jetée et n'est pas salée. Le sambal de R165 est servi à côté et porte son propre sodium, ≈ 100 mg par cuillère à soupe. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "700 g de haut de cuisse de poulet désossé sans peau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1,5 L d'eau",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA PÂTE (bumbu), pilée ou mixée : 6 échalotes · 4 gousses d'ail · 3 cm de curcuma FRAIS · 2 cm de gingembre · 4 noix de cajou · 1 c. à thé de coriandre moulue · 1/2 c. à thé de poivre blanc",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 tiges de citronnelle écrasées · 4 feuilles de citronnier froissées · 3 feuilles de salam si tu en trouves",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2/3 c. à thé de sel SEULEMENT",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé d'huile neutre pour la pâte",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LES GARNITURES, et elles font le plat : 4 œufs durs T8 · 200 g de chou en fines lanières, CRU · 150 g de germes de haricot mungo, CRUS · 2 branches de céleri chinois · 2 c. à soupe d'ail frit · quartiers de lime · R165 le sambal",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 100 g de vermicelles de riz",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T8",
+      "T12"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T12 : le poulet dans l'eau froide, monter à ébullition, 3 MINUTES, ÉCUMER, JETER L'EAU, RINCER."
+      },
+      {
+        "n": 2,
+        "texte": "Remettre le poulet, 1,5 L d'eau fraîche, la citronnelle, les feuilles. FRÉMISSEMENT 30 MINUTES. Sortir le poulet, l'effiler à la main, remettre le bouillon sur le feu."
+      },
+      {
+        "n": 3,
+        "texte": "🔴 FAIRE REVENIR LA PÂTE 4 À 5 MINUTES DANS 1 C. À THÉ D'HUILE, jusqu'à ce qu'elle sente et fonce. C'est l'étape qui distingue une soupe indonésienne d'une eau aromatisée : le bumbu doit être cuit avant d'entrer."
+      },
+      {
+        "n": 4,
+        "texte": "Verser la pâte dans le bouillon, 10 MINUTES DE FRÉMISSEMENT. Le sel. GOÛTER."
+      },
+      {
+        "n": 5,
+        "texte": "Faire T8 : les œufs 9 minutes."
+      },
+      {
+        "n": 6,
+        "texte": "MONTER CHAQUE BOL À FROID : LE CHOU CRU, LES GERMES CRUS, LE POULET EFFILÉ, UN DEMI-ŒUF. Verser le bouillon brûlant dessus."
+      },
+      {
+        "n": 7,
+        "texte": "Ail frit, céleri chinois, un quartier de lime et le sambal à côté."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le bumbu se cuit avant d'entrer, et les légumes n'entrent jamais",
+        "texte": "🔴 PREMIER POINT, ET C'EST LE MÊME QUE LE R144 : LE SOTO AYAM N'A PAS DE LAIT DE COCO. Il existe des soto qui en portent — le soto betawi — mais celui-ci, le plus commun, est un bouillon clair. Ce n'est pas une version allégée : c'est le plat. ⚠️ Comparé prudemment : la fiche R28 ne chiffre pas ses lipides, donc la comparaison porte sur l'ingrédient et non sur son nombre — 200 ml de lait de coco entier dans une casserole, c'est ≈ 400 calories et 40 g de lipides à répartir. Celui-ci en met zéro.\n\n🔴 DEUXIÈME POINT : LE BUMBU SE FAIT REVENIR AVANT D'ENTRER DANS LE LIQUIDE, ET C'EST LA GRAMMAIRE DE TOUTE LA CUISINE INDONÉSIENNE. Une pâte d'échalote, d'ail, de curcuma et de noix jetée crue dans un bouillon donne un goût de légume cru et une soupe trouble. Quatre minutes dans une cuillère à thé d'huile, et les sucres de l'échalote caramélisent, le curcuma libère ses composés liposolubles, les noix de cajou épaississent. ⚠️ C'est l'équivalent du tempering indien et de l'huile parfumée du R135 : le gras est un véhicule, pas un assaisonnement. Une cuillère à thé pour quatre portions.\n\nLE CURCUMA FRAIS ET NON EN POUDRE, ET LA DIFFÉRENCE EST GRANDE. Frais, il est résineux, poivré, légèrement amer; en poudre, il colore et poussière. Kim Phat en a au rayon des racines, à côté du galanga. Se congèle entier et se râpe congelé.\n\n🔴 TROISIÈME POINT, ET C'EST CE QUI FAIT LE PLAT : LES LÉGUMES NE CUISENT PAS. ILS SONT AU FOND DU BOL, CRUS, ET LE BOUILLON BRÛLANT LES BLANCHIT À PEINE. Le chou reste craquant, les germes restent cassants. C'est un contraste chaud-froid et mou-croquant dans la même cuillère, et il disparaît si on met les légumes dans la casserole.\n\n⚠️ DEUX TIERS DE CUILLÈRE À THÉ DE SEL POUR QUATRE BOLS — 1 533 mg, soit 385 par portion — ET C'EST UNE SOUPE QU'ON BOIT. Tout compte. Ce qui permet d'en rester là : le bumbu revenu, le curcuma frais, l'ail frit et le quartier de lime. Le sambal est à côté, dans un petit plat, et il porte son propre sodium — voir R165."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "tjuO0CCAASA",
+      "auteur": "Taste of Asian Food",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R144",
+      "R165",
+      "R135"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R164",
+    "statut": "actif",
+    "categorie": "souper",
+    "cuisine": "indonesienne",
+    "vitesse": "moyen",
+    "type_de_plat": "plat-principal",
+    "methode": [
+      "mijote"
+    ],
+    "axe_gout": [
+      "sale-sucre",
+      "umami-ferment",
+      "aromatique"
+    ],
+    "axe_texture": [
+      "ferme",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "tempe-braise-au-sucre-de-palme-tempe-bacem",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "tempe bacem",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "id",
+    "fr": "Tempé braisé au sucre de palme (tempe bacem)",
+    "sous_titre": "Le kho indonésien : caramel, eau de coco, braisage. Vingt-cinq grammes de protéines pour cent vingt-cinq milligrammes de sodium — un quart du kho vietnamien.",
+    "portions": "4",
+    "temps_affiche": "≈ 45 min dont 30 sans surveillance",
+    "temps_minutes": {
+      "preparation": 10,
+      "cuisson": 5,
+      "attente": 30
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 25,
+      "proteines_affiche": "25 g",
+      "calories": 245,
+      "calories_affiche": "≈ 245",
+      "lipides_g": 13,
+      "sodium_mg": 125,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une cuillère à soupe de sauce soya réduite en sodium, soit 500 mg pour quatre portions (étiquette lue), et rien d'autre. Compté EN ENTIER : le liquide est absorbé, il ne se jette pas. 🔴 Un quart du thịt kho vietnamien de R154, qui est à 500-750 mg, et la différence entière est la protéine — le tempé est lui-même un ferment de soya NON salé. ⚠️ Les 13 g de lipides supposent qu'on NE FRIT PAS les tranches après le braisage : la version classique le fait, et ça ajoute de l'ordre de trois cuillères à soupe d'huile, soit 360 calories et 40 g de lipides pour quatre portions. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "400 g de tempé en tranches de 1 cm — produit à Montréal : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "200 g de tofu ferme en cubes de 3 cm",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA PÂTE, pilée : 5 échalotes · 4 gousses d'ail · 1 c. à thé de coriandre moulue · 1/2 c. à thé de poivre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "300 ml d'eau de coco — le liquide, pas le lait",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sucre de palme (gula jawa) OU de cassonade foncée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de sauce soya réduite en sodium SEULEMENT",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de pulpe de tamarin délayée et filtrée",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 feuilles de salam · 2 rondelles de galanga",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "AUCUNE FRITURE APRÈS LE BRAISAGE — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "PILER LA PÂTE AU MORTIER — échalotes, ail, coriandre, poivre."
+      },
+      {
+        "n": 2,
+        "texte": "Casserole large : la pâte, l'eau de coco, le sucre de palme, la sauce soya, le tamarin, les feuilles de salam, le galanga. Amener à frémissement, 3 minutes."
+      },
+      {
+        "n": 3,
+        "texte": "DÉPOSER LE TEMPÉ ET LE TOFU À PLAT, EN UNE SEULE COUCHE, liquide aux trois quarts."
+      },
+      {
+        "n": 4,
+        "texte": "COUVERCLE DE BIAIS, FRÉMISSEMENT 25 À 30 MINUTES, en retournant une fois à la cuillère. Le liquide doit être presque entièrement absorbé."
+      },
+      {
+        "n": 5,
+        "texte": "DÉCOUVRIR, MONTER LE FEU 3 À 5 MINUTES pour que le fond devienne sirupeux et que les tranches se colorent."
+      },
+      {
+        "n": 6,
+        "texte": "LAISSER REFROIDIR DANS LA CASSEROLE. ⚠️ Ne PAS frire ensuite : voir la note."
+      },
+      {
+        "n": 7,
+        "texte": "Se mange tiède ou froid, avec du riz et le sambal de R165."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Le kho indonésien, et pourquoi il coûte quatre fois moins que le vietnamien",
+        "texte": "🔴 CE PLAT ET LE THỊT KHO DE R154 SONT LA MÊME GRAMMAIRE SOUS DEUX NOMS : du sucre caramélisé, de l'eau de coco, un peu de ferment salé, et un braisage jusqu'à ce que le liquide nappe. ⚠️ Deux cuisines qui n'ont pas de frontière commune, la même architecture. Et les chiffres sont très différents.\n\nLA PROTÉINE : du porc d'épaule dans le thịt kho, du tempé et du tofu ici. LE SEL : deux cuillères à soupe de nước mắm dans le vietnamien, soit 3 000 mg dans la casserole; UNE cuillère à soupe de soya réduite ici, soit 500 mg. LE SODIUM PAR PORTION : 500 à 750 mg là-bas, 125 ici. LES LIPIDES PAR PORTION : 23 g là-bas, 13 ici.\n\n🔴 LA DIFFÉRENCE ENTIÈRE EST LA PROTÉINE, ET C'EST LA LEÇON. Le porc arrive salé — de sa propre chair et de la sauce de poisson qu'il demande pour être porté. Le tempé arrive avec rien : c'est un ferment de soya non salé, et il porte son propre umami. Une cuillère à soupe de soya réduite suffit là où le porc en demande six fois plus. Quand une protéine est elle-même un ferment, elle n'a pas besoin d'un ferment salé pour goûter quelque chose.\n\nLE TEMPÉ EST À 19 G DE PROTÉINES AUX 100 G ET IL EST PRODUIT À MONTRÉAL. Le répertoire des manques le notait déjà : aucun équivalent au dossier, et il se comporte comme une viande — il tient au braisage, il se tranche, il dore. ⚠️ Ce n'est pas du tofu : c'est du soya entier fermenté, avec sa fibre. Le goût est de noisette et de champignon, franc, et il ne plaît pas à tout le monde du premier coup.\n\n⚠️ LA VERSION CLASSIQUE FRIT LES TRANCHES APRÈS LE BRAISAGE, ET C'EST LE SEUL POINT À CHANGER. Quatre cents grammes de tempé braisé puis frit absorbent de l'ordre de trois cuillères à soupe d'huile — 360 calories, 40 g de lipides pour quatre portions. Ce que la friture apporte : une croûte. Ce qui la remplace : les trois à cinq minutes à découvert de l'étape 5, qui caramélisent le fond et colorent les tranches. Ce n'est pas identique, et c'est le meilleur échange de ce document.\n\nLE SUCRE DE PALME EST LE LEVIER, PAS LE PROBLÈME — même raisonnement qu'au R154. Une cuillère à soupe pour quatre portions, soit 3 g de sucre par portion, et une partie caramélise. Sans lui, le plat est plat, et on compenserait au soya.\n\nSE GARDE 4 JOURS ET C'EST MEILLEUR AU DEUXIÈME. Se mange froid, à la main, comme une collation protéinée à 25 g. C'est le plat de préparation d'avance le moins salé du recueil."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "7iFSyuNzbGQ",
+      "auteur": "Novi's Bali Kitchen",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R154",
+      "R165",
+      "R80"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R165",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "indonesienne",
+    "vitesse": "rapide",
+    "type_de_plat": "condiment",
+    "methode": [
+      "saute"
+    ],
+    "axe_gout": [
+      "piquant",
+      "acide",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "mou"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper"
+    ],
+    "slug": "sambal-aux-tomates-sambal-tomat",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "sambal tomat",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "id",
+    "fr": "Sambal aux tomates (sambal tomat)",
+    "sous_titre": "La deuxième base salée réutilisable du dossier après le dashi. Deux semaines au frigo, elle se congèle, et cent milligrammes la cuillère.",
+    "portions": "8",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 8,
+      "cuisson": 17,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 1,
+      "proteines_affiche": "1 g",
+      "calories": 30,
+      "calories_affiche": "≈ 30",
+      "lipides_g": 2,
+      "sodium_mg": 100,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, et la portion est de 1 c. à soupe. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel pour huit portions, soit ≈ 575 mg répartis, plus ≈ 27 mg par portion si on met la demi-cuillère à thé de terasi (≈ 1 300 mg la cuillère à soupe). Comparé nommément : la sauce d'huîtres est à 690 mg la cuillère à soupe, le doubanjiang à ≈ 700, le gochujang à ≈ 700 — un sambal maison est de six à sept fois moins salé, parce qu'il n'a pas à se conserver un an sur une tablette. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "6 tomates italiennes en quartiers",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "10 à 15 piments rouges frais — la dose décide de tout le reste",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "5 échalotes · 3 gousses d'ail",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe d'huile neutre",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1/4 c. à thé de sel · 1 c. à thé de sucre de palme",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de jus de lime, HORS DU FEU",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif : 1/2 c. à thé de terasi (pâte de crevette grillée) — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "POÊLE, L'HUILE, FEU MOYEN. LES ÉCHALOTES, L'AIL ET LES PIMENTS ENTIERS, 6 À 8 MINUTES, jusqu'à ce qu'ils s'affaissent et se tachent."
+      },
+      {
+        "n": 2,
+        "texte": "Les tomates, 8 À 10 MINUTES, jusqu'à ce qu'elles rendent leur eau et que la poêle redevienne presque sèche."
+      },
+      {
+        "n": 3,
+        "texte": "LE TERASI SI ON EN MET, ÉCRASÉ, 1 MINUTE — il doit sentir fort."
+      },
+      {
+        "n": 4,
+        "texte": "PILER AU MORTIER OU ÉCRASER À LA FOURCHETTE. ⚠️ Pas au mélangeur : un sambal doit rester grossier, avec des morceaux de peau visibles."
+      },
+      {
+        "n": 5,
+        "texte": "Le sel, le sucre. REMETTRE 2 MINUTES À LA POÊLE pour que ça se lie."
+      },
+      {
+        "n": 6,
+        "texte": "LE JUS DE LIME HORS DU FEU. Refroidir, mettre en pot."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La première base salée réutilisable depuis le dashi",
+        "texte": "🔴 LE RÉPERTOIRE DES MANQUES NOTAIT UN TROU QUE PERSONNE N'AVAIT REMARQUÉ : le dossier n'a AUCUNE préparation de base salée réutilisable, sauf le dashi. Pas de saumure-mère, pas de pâte à garder, rien qui se fasse le dimanche et qui serve six fois. Ce sambal en est une : deux semaines au frigo, et il se congèle en cubes.\n\nCENT MILLIGRAMMES PAR CUILLÈRE À SOUPE, ET UN QUART DE CUILLÈRE À THÉ DE SEL POUR HUIT PORTIONS. Comparé nommément : la sauce d'huîtres est à 690 mg la cuillère à soupe, le doubanjiang à ≈ 700, le gochujang à ≈ 700. ⚠️ Un sambal maison est de six à sept fois moins salé que n'importe quelle pâte de piment du commerce, et c'est parce qu'il n'a pas à se conserver un an sur une tablette.\n\nCE QUI LE PORTE : les piments, et la dose est le vrai réglage du plat. Dix piments donnent un sambal qu'on met à la cuillère à soupe; quinze, un sambal qu'on met à la cuillère à thé. À dose de sodium égale, plus il est fort, moins on en met — c'est le même rendement que le padaek du R161.\n\n⚠️ LE TERASI EST L'OSSATURE INDONÉSIENNE ET IL COÛTE ≈ 1 300 MG PAR CUILLÈRE À SOUPE. Une demi-cuillère à THÉ pour huit portions, c'est ≈ 27 mg par portion — négligeable, et ça change complètement le sambal. Il faut le griller ou le faire revenir : cru, il est agressif; cuit, il donne une profondeur marine que rien d'autre ne donne. Vendu en bloc chez Kim Phat, et un bloc dure un an.\n\nLES USAGES : le soto ayam de R163, le tempe bacem de R164, les œufs de R166, les légumes de R167, du riz nature, un œuf au miroir. ⚠️ Et c'est aussi le sambal qui accompagne le tempé de R80, qui n'en avait aucun.\n\nPAS AU MÉLANGEUR, ET CE N'EST PAS DU PURISME. Un sambal mixé devient une purée orange homogène qui goûte la sauce tomate piquante. Pilé ou écrasé, il garde des morceaux de peau et des fragments d'échalote, et chaque cuillère est différente de la précédente. C'est le même raisonnement que le konnyaku déchiré à la main du R114."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "J8RCnzjPO4E",
+      "auteur": "Asih At Home",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R166",
+      "R163",
+      "R80"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R166",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "indonesienne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "bouilli",
+      "saute"
+    ],
+    "axe_gout": [
+      "piquant",
+      "acide",
+      "umami-ferment"
+    ],
+    "axe_texture": [
+      "ferme",
+      "moelleux"
+    ],
+    "moment": [
+      "dejeuner",
+      "diner",
+      "souper",
+      "collation"
+    ],
+    "slug": "oeufs-durs-au-sambal-telur-balado",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "telur balado",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "id",
+    "fr": "Œufs durs au sambal (telur balado)",
+    "sous_titre": "Huit œufs, une sauce de piment, et le seul changement à faire : ne pas les frire. Deux cents calories économisées par portion.",
+    "portions": "4",
+    "temps_affiche": "≈ 25 min",
+    "temps_minutes": {
+      "preparation": 5,
+      "cuisson": 20,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 12,
+      "proteines_affiche": "12 g",
+      "calories": 200,
+      "calories_affiche": "≈ 200",
+      "lipides_g": 13,
+      "sodium_mg": 145,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion, et la portion est de 2 œufs enrobés. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel dans la sauce, pour quatre portions; l'œuf lui-même n'apporte rien. Comparé nommément : l'œuf mariné du dossier porte ≈ 250 mg pour UN seul œuf, parce qu'il trempe dans du soya. ⚠️ Les 13 g de lipides supposent qu'on NE FRIT PAS les œufs : la friture ajoute de l'ordre de 2 c. à soupe d'huile, soit ≈ 240 calories et 27 g de lipides pour quatre portions. ⚠️ En collation — deux portions, quatre œufs — c'est 24 g de protéines pour 400 calories et 26 g de lipides : les lipides sont le poste qui coince, d'où une collation de jour maigre. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "8 œufs durs T8, écalés",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA SAUCE : la moitié du R165 — environ 4 c. à soupe — OU, faite pour l'occasion : 8 piments rouges · 4 échalotes · 2 gousses d'ail · 3 tomates · 1 c. à soupe d'huile · 1/4 c. à thé de sel · 1 c. à thé de sucre de palme",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de jus de lime, hors du feu",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "2 feuilles de citronnier froissées — facultatif",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "NE PAS FRIRE LES ŒUFS — voir la note",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T8"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T8 : les œufs 9 minutes, refroidis, écalés. LES SÉCHER AU LINGE."
+      },
+      {
+        "n": 2,
+        "texte": "Si la sauce n'est pas déjà faite : suivre le R165 jusqu'à l'étape 5."
+      },
+      {
+        "n": 3,
+        "texte": "🔴 POÊLE ANTIADHÉSIVE, À SEC, LES ŒUFS ENTIERS 3 À 4 MINUTES EN LES ROULANT. La surface se raffermit et se tache légèrement. C'est ce qui remplace la friture."
+      },
+      {
+        "n": 4,
+        "texte": "VERSER LA SAUCE, BAISSER LE FEU, ROULER LES ŒUFS DEDANS 4 À 5 MINUTES pour qu'ils s'enrobent et prennent la couleur."
+      },
+      {
+        "n": 5,
+        "texte": "JUS DE LIME HORS DU FEU. Servir tiède ou froid, coupés en deux."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "Ne pas frire les œufs : deux cents calories, et personne ne le remarque",
+        "texte": "⚠️ LA RECETTE INDONÉSIENNE FRIT LES ŒUFS DURS AVANT DE LES ENROBER, ET C'EST LE SEUL POINT À CHANGER. Huit œufs durs plongés dans l'huile en absorbent peu — leur surface est étanche — mais la friture ajoute de l'ordre de 2 c. à soupe d'huile qui reste sur eux et dans la poêle : ≈ 240 calories et 27 g de lipides pour quatre portions.\n\nCE QUE LA FRITURE APPORTE : une peau bosselée, dorée, légèrement croustillante, qui accroche la sauce. CE QUI LA REMPLACE : trois à quatre minutes à sec dans une poêle antiadhésive, en roulant. ⚠️ On n'obtient pas les bosses. On obtient une surface raffermie qui accroche presque aussi bien. C'est un échange honnête et il faut le dire tel quel.\n\nDOUZE GRAMMES DE PROTÉINES ET CENT QUARANTE-CINQ MILLIGRAMMES DE SODIUM POUR DEUX ŒUFS ENROBÉS. ⚠️ Comparé nommément : l'œuf mariné du dossier porte ≈ 250 mg pour un seul œuf — parce qu'il trempe dans du soya. Celui-ci est enrobé d'une sauce dont le sel est un quart de cuillère à thé pour quatre portions. L'œuf, lui, n'apporte rien.\n\n🔴 ET ÇA EN FAIT UNE COLLATION, PAS SEULEMENT UN ACCOMPAGNEMENT. La cible de collation du guide 5 est ≈ 300 calories et 25 g de protéines. Deux portions de cette fiche — quatre œufs — donnent 24 g de protéines pour 400 calories. ⚠️ Les 26 g de lipides sont le poste qui coince, et c'est pourquoi le champ « moment » porte collation mais que la fiche ne s'en réclame pas : c'est une collation de jour maigre.\n\nSE GARDE 3 JOURS ET SE MANGE FROID. Les œufs continuent de prendre la sauce. C'est une préparation du dimanche qui coûte cinq minutes si le sambal de R165 existe déjà — et c'est le premier vrai débouché de ce sambal."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "leger",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "W9d-0xCFU38",
+      "auteur": "Unimagi Studio",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R165",
+      "R164"
+    ],
+    "commentaire_source": ""
+  },
+  {
+    "id": "R167",
+    "statut": "actif",
+    "categorie": "garniture",
+    "cuisine": "indonesienne",
+    "vitesse": "rapide",
+    "type_de_plat": "accompagnement",
+    "methode": [
+      "blanchi",
+      "vapeur"
+    ],
+    "axe_gout": [
+      "piquant",
+      "sesame-noisette",
+      "acide"
+    ],
+    "axe_texture": [
+      "croquant",
+      "moelleux"
+    ],
+    "moment": [
+      "diner",
+      "souper"
+    ],
+    "slug": "legumes-a-la-noix-de-coco-rapee-urap-sayur",
+    "jp": null,
+    "jp_lecture": null,
+    "romaji": null,
+    "nom_origine": "urap sayur",
+    "lecture_origine": null,
+    "prononciation": null,
+    "langue_origine": "id",
+    "fr": "Légumes à la noix de coco râpée (urap sayur)",
+    "sous_titre": "Le quatrième liant sec du recueil, et le seul qui apporte du gras. Cent quarante-cinq milligrammes de sodium pour six cents grammes de légumes.",
+    "portions": "4",
+    "temps_affiche": "≈ 30 min",
+    "temps_minutes": {
+      "preparation": 15,
+      "cuisson": 15,
+      "attente": 0
+    },
+    "preparation_avance": null,
+    "nutrition": {
+      "proteines_g": 5,
+      "proteines_affiche": "5 g",
+      "calories": 125,
+      "calories_affiche": "≈ 125",
+      "lipides_g": 8,
+      "sodium_mg": 145,
+      "variable": false,
+      "source": "estime",
+      "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel dans la pâte, pour quatre portions. ⚠️ Le sel de l'eau de blanchiment ne compte pas : elle est jetée, c'est le cas 2 du A14. Comparé nommément : le soop phak de R162 est à 250 mg, le choy sum de R135 à 130. ⚠️ Les 8 g de lipides viennent de la coco : 100 g de noix de coco fraîche râpée portent de l'ordre de 33 g de lipides, majoritairement saturés. C'est le poste à connaître, et c'est le seul. ⚠️ CINQ GRAMMES DE PROTÉINES : c'est un poste légume, pas un plat. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+    },
+    "ingredients": [
+      {
+        "texte": "600 g de légumes : haricots longs · germes de haricot mungo · chou en lanières · épinards ou liseron d'eau · carotte en julienne",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à thé de sel POUR L'EAU DE BLANCHIMENT — jetée avec l'eau, non comptée : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "100 g de noix de coco râpée NON SUCRÉE — fraîche ou congelée, jamais sucrée : voir la note",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "LA PÂTE, pilée : 3 gousses d'ail · 4 piments rouges · 2 feuilles de citronnier en chiffonnade · 1 c. à thé de sucre de palme · 1/4 c. à thé de sel · 1 c. à thé de pulpe de tamarin",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "1 c. à soupe de jus de lime",
+        "sante": false,
+        "sante_pos": null
+      },
+      {
+        "texte": "Facultatif et traditionnel : 1 c. à thé de kencur (galanga aromatique) râpé",
+        "sante": false,
+        "sante_pos": null
+      }
+    ],
+    "techniques": [
+      "T6"
+    ],
+    "etapes": [
+      {
+        "n": 1,
+        "texte": "Faire T6 sur chaque légume séparément, DU PLUS DUR AU PLUS TENDRE DANS LA MÊME EAU : carotte 2 min, haricots longs 3, chou 2, germes 45 s, épinards 40 s. Égoutter et PRESSER."
+      },
+      {
+        "n": 2,
+        "texte": "PILER LA PÂTE AU MORTIER — ail, piments, feuilles de citronnier, sucre, sel, tamarin."
+      },
+      {
+        "n": 3,
+        "texte": "🔴 MÉLANGER LA PÂTE À LA NOIX DE COCO RÂPÉE, PUIS CUIRE LE MÉLANGE À LA VAPEUR 10 MINUTES. C'est l'étape que tout le monde escamote : voir la note."
+      },
+      {
+        "n": 4,
+        "texte": "Laisser tiédir la coco assaisonnée."
+      },
+      {
+        "n": 5,
+        "texte": "MÉLANGER AUX LÉGUMES ÉGOUTTÉS, À LA MAIN. Le jus de lime."
+      },
+      {
+        "n": 6,
+        "texte": "SERVIR À TEMPÉRATURE DE LA PIÈCE, dans l'heure."
+      }
+    ],
+    "notes": [
+      {
+        "titre": "La coco se cuit à la vapeur avec sa pâte, et c'est ce qui change tout",
+        "texte": "🔴 L'ÉTAPE 3 EST LA RECETTE, ET C'EST CELLE QU'ON SAUTE. De la noix de coco râpée crue mélangée à une pâte crue donne un plat qui goûte la coco et l'ail cru, séparément. Dix minutes à la vapeur, et la pâte pénètre les filaments, l'ail perd son mordant, le sucre de palme fond, le tamarin se répartit. La coco devient un assaisonnement au lieu d'être un ingrédient.\n\nC'EST LE QUATRIÈME LIANT SEC DU RECUEIL, ET LE SEUL QUI APPORTE DU GRAS. Le sésame de R44, la purée de tofu-sésame de R119, le riz gluant grillé de R162 — et celui-ci. ⚠️ Cent grammes de noix de coco fraîche râpée portent de l'ordre de 33 g de lipides, majoritairement saturés : huit grammes par portion. C'est le poste à connaître, et c'est le seul.\n\n⚠️ NON SUCRÉE, ET C'EST UN PIÈGE D'ÉPICERIE RÉEL. La noix de coco râpée des supermarchés est presque toujours sucrée et séchée — du sucre ajouté et aucune humidité. Il faut la coco râpée fraîche ou congelée non sucrée, au congélateur de Kim Phat, en sacs. La version séchée non sucrée fonctionne à condition de la réhydrater 10 minutes dans un peu d'eau chaude avant l'étape 3.\n\nCENT QUARANTE-CINQ MILLIGRAMMES POUR SIX CENTS GRAMMES DE LÉGUMES, ET UN QUART DE CUILLÈRE À THÉ DE SEL. ⚠️ Le sel de l'eau de blanchiment ne compte pas — règle du A14. Comparé nommément : le soop phak de R162 est à 250 mg, le choy sum de R135 à 130. Ce qui porte celui-ci, c'est le gras de la coco et les quatre piments.\n\nCINQ GRAMMES DE PROTÉINES : c'est un poste légume, pas un plat. Même avertissement qu'au R149 et au R161. Mais il fait manger six cents grammes de légumes pour quatre couverts, ce qui est le plus haut chiffre de légume par portion de tout le lot.\n\nLE KENCUR EST L'INGRÉDIENT QUI FAIT DIRE « C'EST ÇA ». C'est un rhizome de la famille du galanga, plus camphré, presque médicinal. Sans lui, un bon plat de légumes à la coco; avec lui, un urap. Chez Kim Phat, congelé ou en pot, souvent étiqueté kaempferia ou cekur."
+      }
+    ],
+    "ajustement": null,
+    "etoiles": {},
+    "cout_travail": "moyen",
+    "statut_perso": {},
+    "motif_statut": {},
+    "pour_la_maison": null,
+    "photo": null,
+    "video": {
+      "youtube_id": "nSgyWlUCNb8",
+      "auteur": "Who's The Kitchen Fairy",
+      "langue": null
+    },
+    "voir_aussi": [
+      "R162",
+      "R44",
+      "R119"
     ],
     "commentaire_source": ""
   }

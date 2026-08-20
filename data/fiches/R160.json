@@ -1,0 +1,150 @@
+{
+  "id": "R160",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "laotienne",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "vapeur"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "piquant",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "poisson-en-papillote-de-feuille-de-bananier-mok-pa",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ໝົກປາ",
+  "lecture_origine": "mok pa",
+  "prononciation": null,
+  "langue_origine": "lo",
+  "fr": "Poisson en papillote de feuille de bananier (mok pa)",
+  "sous_titre": "Trente grammes de protéines pour quatre grammes de lipides et pas une goutte d'huile ajoutée. La papillote est le cuiseur, et l'herbe signature est l'aneth.",
+  "portions": "4",
+  "temps_affiche": "≈ 45 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 25,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 30,
+    "proteines_affiche": "30 g",
+    "calories": 180,
+    "calories_affiche": "≈ 180",
+    "lipides_g": 4,
+    "sodium_mg": 375,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une cuillère à soupe de sauce de poisson pour quatre portions, et c'est tout le sel. Compté EN ENTIER : rien ne sort de la papillote. AUCUNE MATIÈRE GRASSE N'ENTRE DANS LA RECETTE : les quatre grammes viennent du poisson. Beaucoup de recettes ajoutent 200 ml de lait de coco pour épaissir — ≈ 400 calories et 40 g de lipides pour quatre portions — là où la cuillère à soupe de riz gluant cru fait le même travail pour ≈ 50 calories au total. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de filet de poisson blanc ferme, en morceaux de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA PÂTE, pilée au mortier : 3 tiges de citronnelle · 5 échalotes · 4 gousses d'ail · 4 piments · 1 c. à thé de galanga râpé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de riz gluant CRU, trempé 30 minutes et écrasé — c'est le liant : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 grosse poignée d'aneth frais, hachée — l'herbe signature : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 oignons verts · 1 poignée de basilic thaï",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce de poisson",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Feuilles de bananier (rayon congelé de Kim Phat) OU papier parchemin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE HUILE",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "FAIRE TREMPER LE RIZ GLUANT CRU 30 MINUTES, l'égoutter, l'écraser au mortier en pâte."
+    },
+    {
+      "n": 2,
+      "texte": "PILER LA CITRONNELLE, LES ÉCHALOTES, L'AIL, LES PIMENTS ET LE GALANGA en pâte grossière."
+    },
+    {
+      "n": 3,
+      "texte": "DÉCONGELER LES FEUILLES DE BANANIER ET LES PASSER 10 SECONDES AU-DESSUS D'UNE FLAMME OU DANS L'EAU BOUILLANTE — elles deviennent souples et cessent de se fendre."
+    },
+    {
+      "n": 4,
+      "texte": "Mélanger le poisson, la pâte, la pâte de riz gluant, l'aneth, les oignons verts, le basilic et la sauce de poisson. À LA MAIN, SANS ÉCRASER LE POISSON."
+    },
+    {
+      "n": 5,
+      "texte": "MONTER LES PAPILLOTES : deux feuilles croisées, une portion au centre, replier les quatre côtés, ficeler ou piquer d'un cure-dent."
+    },
+    {
+      "n": 6,
+      "texte": "VAPEUR 25 MINUTES. ⚠️ Sans panier vapeur : au four à 200 °C, 30 minutes, papillotes de parchemin sur une plaque."
+    },
+    {
+      "n": 7,
+      "texte": "OUVRIR À TABLE. La vapeur qui sort est la moitié du plaisir."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le riz gluant cru est le liant, et l'aneth est lao",
+      "texte": "🔴 UNE CUILLÈRE À SOUPE DE RIZ GLUANT CRU, TREMPÉ ET ÉCRASÉ, EST CE QUI TIENT CE PLAT ENSEMBLE — ET CE N'EST PAS LE KHAO KHUA DE T19. Il faut le dire parce que la confusion est facile : le khao khua est du riz GRILLÉ moulu, un umami sec qu'on ajoute hors du feu. Ici, le riz est cru et trempé : il gélatinise à la vapeur et lie le jus du poisson en une crème légère. Deux préparations du même grain, deux fonctions opposées.\n\nCE QUE ÇA REMPLACE : de l'huile ou du lait de coco. Sans liant, un mok pa cuit à la vapeur rend son eau et le poisson baigne. Beaucoup de recettes ajoutent du lait de coco pour épaissir — 200 ml, c'est 400 calories et 40 g de lipides pour quatre portions. Le riz gluant fait le même travail pour ≈ 50 calories au total.\n\n🔴 L'ANETH EST L'HERBE SIGNATURE DE LA CUISINE LAO, ET C'EST SURPRENANT. On l'associe au Nord de l'Europe et au poisson scandinave; il est central au Laos et au Nord du Vietnam — le phak si. Une grosse poignée, pas une garniture. ⚠️ Sans lui, c'est un poisson vapeur aromatique correct; avec lui, c'est un mok pa. Kim Phat en a au rayon des herbes, et le supermarché ordinaire aussi.\n\nLA FEUILLE DE BANANIER N'EST PAS DÉCORATIVE MAIS ELLE EST REMPLAÇABLE. Elle apporte un parfum végétal léger et elle scelle mieux que le parchemin. Le parchemin donne 90 % du résultat. ⚠️ Le passage à la flamme de l'étape 3 n'est pas optionnel sur la feuille congelée : sèche, elle se fend au pliage et la papillote fuit.\n\nTRENTE GRAMMES DE PROTÉINES POUR QUATRE GRAMMES DE LIPIDES, ET AUCUNE MATIÈRE GRASSE N'ENTRE DANS LA RECETTE. Comparé nommément : c'est le même ordre que le gaeng som de R145 et le poisson vapeur de R150. Trois plats de poisson, trois cuisines, et le point commun est qu'aucun ne cuit dans du gras.\n\nSE MONTE D'AVANCE ET SE CONGÈLE CRU. Les papillotes montées se congèlent et se cuisent à la vapeur 35 minutes depuis congelé. C'est le seul plat du recueil qui se prépare en série et se cuit à l'unité."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "s9LLLgobDck",
+    "auteur": "Saeng Douangdara",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R145",
+    "R150",
+    "R146"
+  ],
+  "commentaire_source": ""
+}

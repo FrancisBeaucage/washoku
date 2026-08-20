@@ -1,0 +1,146 @@
+{
+  "id": "R159",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "laotienne",
+  "vitesse": "moyen",
+  "type_de_plat": "plat-principal",
+  "methode": [
+    "marine",
+    "grille"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "aromatique",
+    "sale-sucre"
+  ],
+  "axe_texture": [
+    "fondant",
+    "croustillant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "poulet-grille-a-la-citronnelle-ping-gai",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "ປີ້ງໄກ່",
+  "lecture_origine": "ping gai",
+  "prononciation": null,
+  "langue_origine": "lo",
+  "fr": "Poulet grillé à la citronnelle (ping gai)",
+  "sous_titre": "Trente-six grammes de protéines, une marinade de quatre ingrédients aromatiques, et l'ingrédient signature est la partie de la coriandre que tout le monde jette.",
+  "portions": "4",
+  "temps_affiche": "≈ 50 min dont 30 de marinade",
+  "temps_minutes": {
+    "preparation": 12,
+    "cuisson": 20,
+    "attente": 30
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 36,
+    "proteines_affiche": "36 g",
+    "calories": 340,
+    "calories_affiche": "≈ 340",
+    "lipides_g": 18,
+    "sodium_mg": 375,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — une cuillère à soupe de sauce de poisson pour quatre portions, dans la marinade, et rien d'autre. Le sel est compté EN ENTIER : une marinade s'accroche à la chair et se mange avec elle. ⚠️ Dix-huit grammes de lipides malgré le retrait de la peau — 800 g de haut de cuisse avec peau en porteraient de l'ordre de 100 g contre 72 sans. 🔴 En repas complet — ping gai, jeow de R158, riz gluant et crudités — le total est de ≈ 36 g de protéines pour ≈ 460 mg de sodium. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "800 g de haut de cuisse de poulet désossé SANS PEAU, aplati à épaisseur égale",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA MARINADE : 4 racines de coriandre lavées et écrasées — à défaut, 8 tiges : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "6 gousses d'ail · 2 tiges de citronnelle, partie tendre, hachées fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de poivre blanc concassé grossièrement",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce de poisson · 1 c. à thé de sucre de palme",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AU SERVICE : R158 le jeow · du riz gluant · un plateau de crudités",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE HUILE DANS LA MARINADE",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "PILER AU MORTIER LA RACINE DE CORIANDRE, L'AIL, LA CITRONNELLE ET LE POIVRE BLANC JUSQU'À UNE PÂTE GROSSIÈRE. C'est le seul travail du plat."
+    },
+    {
+      "n": 2,
+      "texte": "Ajouter la sauce de poisson et le sucre, mélanger."
+    },
+    {
+      "n": 3,
+      "texte": "ENROBER LE POULET, 30 MINUTES AU FRIGO. PAS PLUS DE 4 HEURES — la marinade est salée et elle finirait par raffermir la chair."
+    },
+    {
+      "n": 4,
+      "texte": "GRIL DU FOUR PRÉCHAUFFÉ, GRILLE À 15 CM, ou barbecue, ou poêle en fonte très chaude."
+    },
+    {
+      "n": 5,
+      "texte": "FACE QUI PORTAIT LA PEAU EN DESSOUS D'ABORD, 8 À 10 MINUTES SANS Y TOUCHER. Retourner, 6 à 8 minutes. IL DOIT Y AVOIR DES ZONES FRANCHEMENT NOIRCIES : c'est voulu."
+    },
+    {
+      "n": 6,
+      "texte": "REPOS 5 MINUTES avant de trancher en biais."
+    },
+    {
+      "n": 7,
+      "texte": "Servir avec le jeow dans un petit plat par personne, du riz gluant, et des crudités."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La racine de coriandre : l'ingrédient signature qu'on jette",
+      "texte": "🔴 LA RACINE DE CORIANDRE EST L'INGRÉDIENT DÉFINISSANT DE CE PLAT, ET ELLE EST VENDUE ATTACHÉE À LA BOTTE QU'ON ACHÈTE DÉJÀ. Chez Kim Phat, la coriandre se vend en bottes avec les racines; dans un supermarché ordinaire, elle est coupée. Ce n'est pas un ingrédient à trouver : c'est un ingrédient à ne pas jeter.\n\nCE QU'ELLE APPORTE ET QUE LES FEUILLES N'APPORTENT PAS : un goût terreux, poivré, presque de céleri-rave, qui résiste à la chaleur. Les feuilles de coriandre disparaissent au gril; la racine tient. À défaut, les tiges épaisses du bas de la botte donnent les deux tiers du résultat — les feuilles, presque rien. ⚠️ Se congèlent : laver, sécher, sac scellé, six mois. À faire à chaque botte.\n\nLE POIVRE BLANC À LA CUILLÈRE À SOUPE N'EST PAS UNE ERREUR. Le trio racine de coriandre – ail – poivre blanc est la base aromatique lao et thaïe, comme le mirepoix ailleurs. C'est le troisième plat du recueil où le poivre blanc est un axe et non un accent, après le gaeng jued de R74 et le khao tom de R151.\n\nSANS PEAU, ET LE GRILL COMPENSE. Huit cents grammes de haut de cuisse avec peau porteraient de l'ordre de 100 g de lipides; sans peau, 72. ⚠️ Dix-huit grammes par portion reste substantiel — c'est un plat de jour maigre. Ce qui remplace le croustillant de la peau : les zones noircies de l'étape 5, sur la chair elle-même.\n\n🔴 ET LE REPAS COMPLET EST L'INTÉRÊT DE CETTE FICHE, PAS LE POULET SEUL. Ping gai + jeow de R158 + riz gluant + crudités, c'est ≈ 36 g de protéines et ≈ 460 mg de sodium pour tout le repas — parce que le poulet porte son sel dans sa marinade et que le reste de l'assiette est un plateau et une trempette. C'est l'architecture de repas la plus économe en sodium que le dossier sache construire."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "H1x5nkVfjuU",
+    "auteur": "Food Wishes",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R158",
+    "R151",
+    "R74"
+  ],
+  "commentaire_source": ""
+}

@@ -1,0 +1,139 @@
+{
+  "id": "R167",
+  "statut": "actif",
+  "categorie": "garniture",
+  "cuisine": "indonesienne",
+  "vitesse": "rapide",
+  "type_de_plat": "accompagnement",
+  "methode": [
+    "blanchi",
+    "vapeur"
+  ],
+  "axe_gout": [
+    "piquant",
+    "sesame-noisette",
+    "acide"
+  ],
+  "axe_texture": [
+    "croquant",
+    "moelleux"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "legumes-a-la-noix-de-coco-rapee-urap-sayur",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "urap sayur",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "id",
+  "fr": "Légumes à la noix de coco râpée (urap sayur)",
+  "sous_titre": "Le quatrième liant sec du recueil, et le seul qui apporte du gras. Cent quarante-cinq milligrammes de sodium pour six cents grammes de légumes.",
+  "portions": "4",
+  "temps_affiche": "≈ 30 min",
+  "temps_minutes": {
+    "preparation": 15,
+    "cuisson": 15,
+    "attente": 0
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 5,
+    "proteines_affiche": "5 g",
+    "calories": 125,
+    "calories_affiche": "≈ 125",
+    "lipides_g": 8,
+    "sodium_mg": 145,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. À LA DOSE ÉCRITE — un quart de cuillère à thé de sel dans la pâte, pour quatre portions. ⚠️ Le sel de l'eau de blanchiment ne compte pas : elle est jetée, c'est le cas 2 du A14. Comparé nommément : le soop phak de R162 est à 250 mg, le choy sum de R135 à 130. ⚠️ Les 8 g de lipides viennent de la coco : 100 g de noix de coco fraîche râpée portent de l'ordre de 33 g de lipides, majoritairement saturés. C'est le poste à connaître, et c'est le seul. ⚠️ CINQ GRAMMES DE PROTÉINES : c'est un poste légume, pas un plat. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de légumes : haricots longs · germes de haricot mungo · chou en lanières · épinards ou liseron d'eau · carotte en julienne",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de sel POUR L'EAU DE BLANCHIMENT — jetée avec l'eau, non comptée : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "100 g de noix de coco râpée NON SUCRÉE — fraîche ou congelée, jamais sucrée : voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA PÂTE, pilée : 3 gousses d'ail · 4 piments rouges · 2 feuilles de citronnier en chiffonnade · 1 c. à thé de sucre de palme · 1/4 c. à thé de sel · 1 c. à thé de pulpe de tamarin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de jus de lime",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif et traditionnel : 1 c. à thé de kencur (galanga aromatique) râpé",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T6"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T6 sur chaque légume séparément, DU PLUS DUR AU PLUS TENDRE DANS LA MÊME EAU : carotte 2 min, haricots longs 3, chou 2, germes 45 s, épinards 40 s. Égoutter et PRESSER."
+    },
+    {
+      "n": 2,
+      "texte": "PILER LA PÂTE AU MORTIER — ail, piments, feuilles de citronnier, sucre, sel, tamarin."
+    },
+    {
+      "n": 3,
+      "texte": "🔴 MÉLANGER LA PÂTE À LA NOIX DE COCO RÂPÉE, PUIS CUIRE LE MÉLANGE À LA VAPEUR 10 MINUTES. C'est l'étape que tout le monde escamote : voir la note."
+    },
+    {
+      "n": 4,
+      "texte": "Laisser tiédir la coco assaisonnée."
+    },
+    {
+      "n": 5,
+      "texte": "MÉLANGER AUX LÉGUMES ÉGOUTTÉS, À LA MAIN. Le jus de lime."
+    },
+    {
+      "n": 6,
+      "texte": "SERVIR À TEMPÉRATURE DE LA PIÈCE, dans l'heure."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La coco se cuit à la vapeur avec sa pâte, et c'est ce qui change tout",
+      "texte": "🔴 L'ÉTAPE 3 EST LA RECETTE, ET C'EST CELLE QU'ON SAUTE. De la noix de coco râpée crue mélangée à une pâte crue donne un plat qui goûte la coco et l'ail cru, séparément. Dix minutes à la vapeur, et la pâte pénètre les filaments, l'ail perd son mordant, le sucre de palme fond, le tamarin se répartit. La coco devient un assaisonnement au lieu d'être un ingrédient.\n\nC'EST LE QUATRIÈME LIANT SEC DU RECUEIL, ET LE SEUL QUI APPORTE DU GRAS. Le sésame de R44, la purée de tofu-sésame de R119, le riz gluant grillé de R162 — et celui-ci. ⚠️ Cent grammes de noix de coco fraîche râpée portent de l'ordre de 33 g de lipides, majoritairement saturés : huit grammes par portion. C'est le poste à connaître, et c'est le seul.\n\n⚠️ NON SUCRÉE, ET C'EST UN PIÈGE D'ÉPICERIE RÉEL. La noix de coco râpée des supermarchés est presque toujours sucrée et séchée — du sucre ajouté et aucune humidité. Il faut la coco râpée fraîche ou congelée non sucrée, au congélateur de Kim Phat, en sacs. La version séchée non sucrée fonctionne à condition de la réhydrater 10 minutes dans un peu d'eau chaude avant l'étape 3.\n\nCENT QUARANTE-CINQ MILLIGRAMMES POUR SIX CENTS GRAMMES DE LÉGUMES, ET UN QUART DE CUILLÈRE À THÉ DE SEL. ⚠️ Le sel de l'eau de blanchiment ne compte pas — règle du A14. Comparé nommément : le soop phak de R162 est à 250 mg, le choy sum de R135 à 130. Ce qui porte celui-ci, c'est le gras de la coco et les quatre piments.\n\nCINQ GRAMMES DE PROTÉINES : c'est un poste légume, pas un plat. Même avertissement qu'au R149 et au R161. Mais il fait manger six cents grammes de légumes pour quatre couverts, ce qui est le plus haut chiffre de légume par portion de tout le lot.\n\nLE KENCUR EST L'INGRÉDIENT QUI FAIT DIRE « C'EST ÇA ». C'est un rhizome de la famille du galanga, plus camphré, presque médicinal. Sans lui, un bon plat de légumes à la coco; avec lui, un urap. Chez Kim Phat, congelé ou en pot, souvent étiqueté kaempferia ou cekur."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "nSgyWlUCNb8",
+    "auteur": "Who's The Kitchen Fairy",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R162",
+    "R44",
+    "R119"
+  ],
+  "commentaire_source": ""
+}

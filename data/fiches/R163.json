@@ -1,0 +1,155 @@
+{
+  "id": "R163",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "indonesienne",
+  "vitesse": "long",
+  "type_de_plat": "soupe",
+  "methode": [
+    "mijote",
+    "saute"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "umami-ferment",
+    "acide"
+  ],
+  "axe_texture": [
+    "en-bouillon",
+    "fondant",
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "soupe-de-poulet-au-curcuma-soto-ayam",
+  "jp": null,
+  "jp_lecture": null,
+  "romaji": null,
+  "nom_origine": "soto ayam",
+  "lecture_origine": null,
+  "prononciation": null,
+  "langue_origine": "id",
+  "fr": "Soupe de poulet au curcuma (soto ayam)",
+  "sous_titre": "Une soupe indonésienne sans lait de coco, jaune de curcuma frais. Trente-sept grammes de protéines pour deux tiers de cuillère à thé de sel.",
+  "portions": "4",
+  "temps_affiche": "≈ 1 h 10 dont 40 sans surveillance",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 10,
+    "attente": 40
+  },
+  "preparation_avance": null,
+  "nutrition": {
+    "proteines_g": 37,
+    "proteines_affiche": "37 g",
+    "calories": 350,
+    "calories_affiche": "≈ 350",
+    "lipides_g": 18,
+    "sodium_mg": 385,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium. ⚠️ SOUPE QU'ON BOIT : les 385 mg comptent EN ENTIER. À LA DOSE ÉCRITE — deux tiers de cuillère à thé de sel pour quatre bols, soit 1 533 mg, et c'est le seul poste salé du bouillon. L'eau du premier blanchiment (T12) est jetée et n'est pas salée. Le sambal de R165 est servi à côté et porte son propre sodium, ≈ 100 mg par cuillère à soupe. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "700 g de haut de cuisse de poulet désossé sans peau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1,5 L d'eau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LA PÂTE (bumbu), pilée ou mixée : 6 échalotes · 4 gousses d'ail · 3 cm de curcuma FRAIS · 2 cm de gingembre · 4 noix de cajou · 1 c. à thé de coriandre moulue · 1/2 c. à thé de poivre blanc",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 tiges de citronnelle écrasées · 4 feuilles de citronnier froissées · 3 feuilles de salam si tu en trouves",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2/3 c. à thé de sel SEULEMENT",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé d'huile neutre pour la pâte",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "LES GARNITURES, et elles font le plat : 4 œufs durs T8 · 200 g de chou en fines lanières, CRU · 150 g de germes de haricot mungo, CRUS · 2 branches de céleri chinois · 2 c. à soupe d'ail frit · quartiers de lime · R165 le sambal",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 100 g de vermicelles de riz",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T8",
+    "T12"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Faire T12 : le poulet dans l'eau froide, monter à ébullition, 3 MINUTES, ÉCUMER, JETER L'EAU, RINCER."
+    },
+    {
+      "n": 2,
+      "texte": "Remettre le poulet, 1,5 L d'eau fraîche, la citronnelle, les feuilles. FRÉMISSEMENT 30 MINUTES. Sortir le poulet, l'effiler à la main, remettre le bouillon sur le feu."
+    },
+    {
+      "n": 3,
+      "texte": "🔴 FAIRE REVENIR LA PÂTE 4 À 5 MINUTES DANS 1 C. À THÉ D'HUILE, jusqu'à ce qu'elle sente et fonce. C'est l'étape qui distingue une soupe indonésienne d'une eau aromatisée : le bumbu doit être cuit avant d'entrer."
+    },
+    {
+      "n": 4,
+      "texte": "Verser la pâte dans le bouillon, 10 MINUTES DE FRÉMISSEMENT. Le sel. GOÛTER."
+    },
+    {
+      "n": 5,
+      "texte": "Faire T8 : les œufs 9 minutes."
+    },
+    {
+      "n": 6,
+      "texte": "MONTER CHAQUE BOL À FROID : LE CHOU CRU, LES GERMES CRUS, LE POULET EFFILÉ, UN DEMI-ŒUF. Verser le bouillon brûlant dessus."
+    },
+    {
+      "n": 7,
+      "texte": "Ail frit, céleri chinois, un quartier de lime et le sambal à côté."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Le bumbu se cuit avant d'entrer, et les légumes n'entrent jamais",
+      "texte": "🔴 PREMIER POINT, ET C'EST LE MÊME QUE LE R144 : LE SOTO AYAM N'A PAS DE LAIT DE COCO. Il existe des soto qui en portent — le soto betawi — mais celui-ci, le plus commun, est un bouillon clair. Ce n'est pas une version allégée : c'est le plat. ⚠️ Comparé prudemment : la fiche R28 ne chiffre pas ses lipides, donc la comparaison porte sur l'ingrédient et non sur son nombre — 200 ml de lait de coco entier dans une casserole, c'est ≈ 400 calories et 40 g de lipides à répartir. Celui-ci en met zéro.\n\n🔴 DEUXIÈME POINT : LE BUMBU SE FAIT REVENIR AVANT D'ENTRER DANS LE LIQUIDE, ET C'EST LA GRAMMAIRE DE TOUTE LA CUISINE INDONÉSIENNE. Une pâte d'échalote, d'ail, de curcuma et de noix jetée crue dans un bouillon donne un goût de légume cru et une soupe trouble. Quatre minutes dans une cuillère à thé d'huile, et les sucres de l'échalote caramélisent, le curcuma libère ses composés liposolubles, les noix de cajou épaississent. ⚠️ C'est l'équivalent du tempering indien et de l'huile parfumée du R135 : le gras est un véhicule, pas un assaisonnement. Une cuillère à thé pour quatre portions.\n\nLE CURCUMA FRAIS ET NON EN POUDRE, ET LA DIFFÉRENCE EST GRANDE. Frais, il est résineux, poivré, légèrement amer; en poudre, il colore et poussière. Kim Phat en a au rayon des racines, à côté du galanga. Se congèle entier et se râpe congelé.\n\n🔴 TROISIÈME POINT, ET C'EST CE QUI FAIT LE PLAT : LES LÉGUMES NE CUISENT PAS. ILS SONT AU FOND DU BOL, CRUS, ET LE BOUILLON BRÛLANT LES BLANCHIT À PEINE. Le chou reste craquant, les germes restent cassants. C'est un contraste chaud-froid et mou-croquant dans la même cuillère, et il disparaît si on met les légumes dans la casserole.\n\n⚠️ DEUX TIERS DE CUILLÈRE À THÉ DE SEL POUR QUATRE BOLS — 1 533 mg, soit 385 par portion — ET C'EST UNE SOUPE QU'ON BOIT. Tout compte. Ce qui permet d'en rester là : le bumbu revenu, le curcuma frais, l'ail frit et le quartier de lime. Le sambal est à côté, dans un petit plat, et il porte son propre sodium — voir R165."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "video": {
+    "youtube_id": "tjuO0CCAASA",
+    "auteur": "Taste of Asian Food",
+    "langue": null
+  },
+  "voir_aussi": [
+    "R144",
+    "R165",
+    "R135"
+  ],
+  "commentaire_source": ""
+}
