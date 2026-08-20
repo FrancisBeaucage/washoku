@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "bouilli"
   ],
@@ -27,7 +28,7 @@
   "romaji": "kakitamajiru",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ka-ki-ta-ma-dji-rou",
   "langue_origine": "ja",
   "fr": "Soupe claire aux œufs filés (kakitamajiru)",
   "sous_titre": "Une soupe dont on décide du sel. Une soupe miso ne le permet pas : son sel et son goût voyagent dans la même cuillère.",
@@ -141,7 +142,7 @@
   "video": {
     "youtube_id": "u0cUEd2FsJ0",
     "auteur": "JapaneseCooking101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R38",

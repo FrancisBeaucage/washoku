@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "thaie",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -99,11 +100,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_preppybyday_4711943668--Tom_kha_gai.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Evan Joshua Swigart (TheCulinaryGeek) from Chicago, Illinois, USA; hometown of Ames, Iowa, USA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_preppybyday_4711943668--Tom_kha_gai.jpg"
+  },
   "video": {
     "youtube_id": "OooFZU2ZktY",
     "auteur": "Hot Thai Kitchen",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

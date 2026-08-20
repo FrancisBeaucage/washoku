@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -26,7 +27,7 @@
   "romaji": "kinpira",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "kim-pi-ra",
   "langue_origine": "ja",
   "fr": "Kinpira de carotte et daikon",
   "sous_titre": "Se garde 4 jours. La mandoline fait les juliennes en trente secondes.",
@@ -115,11 +116,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinpira_002.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "yoppy",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kinpira_002.jpg"
+  },
   "video": {
     "youtube_id": "ZHbYTUq8M7U",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

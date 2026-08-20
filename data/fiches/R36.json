@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "vietnamienne",
-  "vitesse": "long",
+  "registre": "emprunt",
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote",
     "poche"
@@ -27,8 +28,8 @@
   "romaji": "tori no phở-fū",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
-  "langue_origine": "vi",
+  "prononciation": "to-ri no fo-fou",
+  "langue_origine": "ja",
   "fr": "Faux-pho au poulet",
   "sous_titre": "Ce n'est pas un phở — un vrai bouillon mijote six à douze heures et contient des nouilles. C'est un bouillon aromatique qui en emprunte le profil, sans nouilles.",
   "portions": "2",
@@ -123,11 +124,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_Meatball_pho.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "SerraKnightz",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bowl_of_Meatball_pho.jpg"
+  },
   "video": {
     "youtube_id": "36E3XXqab40",
     "auteur": "Helen's Recipes",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

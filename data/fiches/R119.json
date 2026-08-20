@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "blanchi",
     "sans-cuisson"
@@ -27,7 +28,7 @@
   "romaji": "shiraae",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "chi-ra-a-é",
   "langue_origine": "ja",
   "fr": "Légumes en purée de tofu et sésame (shiraae)",
   "sous_titre": "Dix grammes de protéines dans un kobachi de légumes, et c'est le tofu qui les donne. Trois fois ce que porte un namul, pour un tiers de sodium de plus.",
@@ -141,7 +142,7 @@
   "video": {
     "youtube_id": "MuTa0PLVcEM",
     "auteur": "Chopstick Chronicles",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R84",

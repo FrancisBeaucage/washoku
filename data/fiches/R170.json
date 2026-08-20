@@ -1,0 +1,145 @@
+{
+  "id": "R170",
+  "statut": "actif",
+  "categorie": "diner",
+  "cuisine": "japonaise",
+  "registre": "emprunt",
+  "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
+  "methode": [
+    "bouilli",
+    "mijote"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "glissant",
+    "en-bouillon"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "kare-udon-nouilles-au-curry-kare-udon",
+  "jp": "カレーうどん",
+  "jp_lecture": "カレーうどん",
+  "romaji": "karē udon",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": "ka-rê ou-don",
+  "langue_origine": "ja",
+  "fr": "Kare udon — nouilles au curry (karē udon)",
+  "sous_titre": "C'est la raison de faire le curry en lot. Le reste de la veille, allongé au dashi, devient un plat que personne ne prend pour un reste.",
+  "portions": "2",
+  "temps_affiche": "≈ 15 min",
+  "temps_minutes": {
+    "preparation": 5,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": "LE PLAT EXISTE POUR LE LENDEMAIN : il se fait avec un curry de la veille, jamais avec un curry frais. Une fois monté, il ne se garde pas — les udon boivent la sauce et deviennent pâteux en une heure.",
+  "nutrition": {
+    "proteines_g": 45,
+    "proteines_affiche": "45 g",
+    "calories": 704,
+    "calories_affiche": "≈ 704",
+    "lipides_g": 22,
+    "sodium_mg": null,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, avec les udon. LE SODIUM RESTE NON CHIFFRÉ VOLONTAIREMENT, ET VOICI CE QU'ON SAIT : le curry de R168 apporte environ 270 mg par portion. Les udon sont le poste inconnu, et il peut être le plus gros — la pâte à udon est salée à la fabrication. Les udon séchés en portent beaucoup, mais une grande partie passe dans l'eau de cuisson, qui est jetée : c'est le cas 2 de la règle de comptage du sel. Les udon surgelés en portent moins au départ. AUCUNE DES DEUX ÉTIQUETTES N'A ÉTÉ LUE, DONC RIEN NE S'ÉCRIT. À ajouter à la liste des étiquettes à lire. Corroboration : R63, l'autre plat d'udon du recueil, ne chiffre pas son sodium non plus, et pour la même raison. Ordres de grandeur pour le reste : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "2 portions de curry R168 ou R169 de la veille (environ 350 g)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "400 ml de dashi",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 portions d'udon — surgelés de préférence, voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de fécule de pomme de terre délayée dans 1 c. à soupe d'eau froide, SI la sauce est trop claire",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons verts en biseau",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/4 c. à thé de shichimi à table",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : un œuf mollet de T8 par bol",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T2"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Cuire les udon selon leur paquet, DANS UNE AUTRE CASSEROLE que la sauce. Égoutter, ne pas rincer."
+    },
+    {
+      "n": 2,
+      "texte": "Pendant ce temps : curry et dashi dans une casserole, feu moyen, écraser les morceaux à la cuillère pour qu'ils fondent dans le bouillon."
+    },
+    {
+      "n": 3,
+      "texte": "Cinq minutes de frémissement. La sauce doit napper sans être une soupe claire : à mi-chemin entre le curry de la veille et un bouillon de nouilles."
+    },
+    {
+      "n": 4,
+      "texte": "Si elle reste trop claire, la fécule délayée, en filet, feu vif, trente secondes."
+    },
+    {
+      "n": 5,
+      "texte": "Udon dans les bols, sauce par-dessus, oignon vert. Le shichimi et l'œuf à table."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Deux calibrages selon le repas, et pourquoi les udon surgelés",
+      "texte": "TEL QU'ÉCRIT, C'EST UN SOUPER : environ 704 calories et 45 g de protéines par bol, ce qui entre dans la cible de souper. POUR UN DÎNER, ON DIVISE LE CURRY : une seule portion de curry pour les deux bols, cinquante millilitres de dashi de plus, et un œuf mollet de T8 dans chacun. Le bol descend autour de 490 calories et 26 g de protéines, ce qui est la cible du dîner. Le même plat, deux dosages, et c'est le curry qu'on dose — pas les nouilles.\n\nLES UDON SURGELÉS PLUTÔT QUE SÉCHÉS, POUR DEUX RAISONS QUI VONT DANS LE MÊME SENS. La texture d'abord : un udon surgelé est déjà cuit et refroidi, il garde du mordant là où le séché ramollit. Le sodium ensuite : la pâte séchée est salée pour tenir au séchage, et même si l'eau de cuisson en emporte une part, le départ est plus haut. NI L'UNE NI L'AUTRE ÉTIQUETTE N'A ÉTÉ LUE À CE JOUR, donc cette phrase est un mécanisme, pas un chiffre.\n\nDEUX CASSEROLES, ET C'EST LA SEULE ERREUR QUI GÂCHE VRAIMENT CE PLAT. Cuire les udon dans la sauce paraît économe : l'amidon des nouilles épaissit le curry jusqu'à la colle, et les nouilles boivent la sauce au lieu d'être nappées. C'est la même règle que le zosui de R130, en sens inverse : là on rince le riz pour l'empêcher de coller un bouillon, ici on cuit les nouilles à part pour la même raison.\n\nET IL FAUT NOMMER CE QUE CE PLAT EST : un plat de restes qui n'en a pas l'air. Le curry de la veille est meilleur que celui du jour parce que les épices ont fini de se lier. Allongé au dashi, il devient une sauce de nouilles au lieu d'un curry réchauffé. C'est le seul plat du recueil dont la préparation d'avance n'est pas un service rendu mais une condition."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%B8%E4%BA%80%E8%A3%BD%E9%BA%BA_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%86%E3%81%A9%E3%82%93.jpg?width=1200",
+  "photo_credit": {
+    "auteur": "KKPCW",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%B8%E4%BA%80%E8%A3%BD%E9%BA%BA_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%86%E3%81%A9%E3%82%93.jpg"
+  },
+  "video": {
+    "youtube_id": "tIG3NALt8lI",
+    "auteur": "Just One Cookbook",
+    "langue": "en"
+  },
+  "voir_aussi": [
+    "R168",
+    "R63",
+    "R60"
+  ],
+  "commentaire_source": ""
+}

@@ -21,7 +21,35 @@
 
 const { STYLE, AIDES, RENDU_BLOCS } = require('./vue');
 
-const ICONE = "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='12'%20fill='%23f3f2f2'/%3E%3Ctext%20x='32'%20y='49'%20text-anchor='middle'%20font-family='serif'%20font-weight='900'%20font-size='46'%20fill='%23ec3013'%3E%E5%92%8C%3C/text%3E%3C/svg%3E";
+/* LE NOM DU SITE, une seule fois. Il était écrit en clair à sept endroits de ce
+   fichier — titre, deux mots-marques, favicon, trois `document.title` — et le
+   S41 du document 34 les a tous changés d'un coup. Une chaîne d'affichage
+   répétée sept fois est une chaîne qui finira par n'être corrigée que six fois.
+
+   🔴 L'ADRESSE NE CHANGE PAS : le site reste à `.../washoku/`. Un nom est une
+   chaîne d'affichage, une adresse est un chemin de dépôt. `washoku` devient le
+   nom de code du dépôt, ce qui est sans conséquence — aucun lien externe
+   n'existe, et renommer l'adresse casserait le raccourci de l'écran d'accueil
+   pour rien. Le domaine vit dans `lib/sources.js`, et lui seul. */
+const NOM = 'Teishoku';
+
+/* Le mot-marque. 定食 teishoku nomme le PLATEAU, pas la nationalité : riz,
+   soupe, un plat, des accompagnements. Le mot reste exact quoi qu'on ajoute
+   ensuite — ce que 和食 washoku n'était plus, la part japonaise étant passée
+   sous la moitié, et ce qu'il n'était pas non plus dans l'autre sens, puisqu'il
+   exclut par définition le 洋食 yōshoku dont le curry du document 34 fait
+   partie.
+
+   🔴 ET LE CARACTÈRE 定 DIT LE MÉCANISME DU DOSSIER. 定 veut dire « fixé,
+   déterminé, décidé » : 定食, c'est « le repas décidé », et la phrase centrale
+   du dossier est « le contenant décide de la portion ». L'ancien 和 portait
+   l'infobulle « l'harmonie, et le Japon », ce qui était joli et ne disait rien
+   de la méthode. */
+const GLYPHE = '定';
+const GLYPHE_URL = '%E5%AE%9A';
+const INFOBULLE = 'tei — « téï » · fixé, décidé. Le repas dont la portion est décidée par le contenant.';
+
+const ICONE = `data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='12'%20fill='%23f3f2f2'/%3E%3Ctext%20x='32'%20y='49'%20text-anchor='middle'%20font-family='serif'%20font-weight='900'%20font-size='46'%20fill='%23ec3013'%3E${GLYPHE_URL}%3C/text%3E%3C/svg%3E`;
 
 /* LA NAVIGATION À QUATRE ENTRÉES — trois outils et une porte.
    La numérotation « 1 · Manger, 2 · Recettes, 3 · Supermarché… » était un
@@ -57,8 +85,8 @@ function barre(actif) {
   return `  <header style="border-bottom:2px solid #201e1d;background:#f3f2f2;position:sticky;top:0;z-index:var(--z-menu)">
     <div style="max-width:1180px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:center;gap:16px;flex-wrap:wrap">
       <a href="index.html" style="display:flex;align-items:center;gap:10px;color:#201e1d">
-        <span title="wa — « wa » · l'harmonie, et le Japon" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:900;font-size:22px;color:#ec3013;line-height:1">和</span>
-        <span style="font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase">Washoku</span>
+        <span title="${echapper(INFOBULLE)}" style="cursor:help;font-family:'Noto Serif JP',serif;font-weight:900;font-size:22px;color:#ec3013;line-height:1">${GLYPHE}</span>
+        <span style="font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase">${NOM}</span>
       </a>
       <nav style="display:flex;gap:clamp(12px,2.4vw,26px);margin-left:auto;flex-wrap:wrap;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase">
 ${liens}
@@ -69,7 +97,7 @@ ${liens}
 
 const PIED = `  <footer style="border-top:2px solid #201e1d;background:#201e1d;color:#f3f2f2">
     <div style="max-width:1180px;margin:0 auto;padding:clamp(26px,4vw,44px) clamp(16px,4vw,40px);display:flex;flex-wrap:wrap;gap:18px 32px;align-items:baseline;font-size:13px">
-      <span style="font-weight:800;letter-spacing:.14em;text-transform:uppercase">Washoku</span>
+      <span style="font-weight:800;letter-spacing:.14em;text-transform:uppercase">${NOM}</span>
       <a href="recettes.html" style="color:#f3f2f2">Recettes</a>
       <a href="techniques.html" style="color:#f3f2f2">Techniques</a>
       <a href="ingredients.html" style="color:#f3f2f2">Ingrédients</a>
@@ -105,7 +133,7 @@ function coquille({ titre, actif, gabarit, logique }) {
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>${titre === 'Washoku' ? 'Washoku' : `${echapper(titre)} — Washoku`}</title>
+<title>${titre === NOM ? NOM : `${echapper(titre)} — ${NOM}`}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
 <link rel="icon" href="${ICONE}">
@@ -227,7 +255,11 @@ ${ETATS}
           <div style="padding:14px 16px 18px">
             <div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px">
               <span style="font-weight:800;font-size:13px;letter-spacing:.06em;color:#ec3013">{{ r.id }}</span>
-              <span class="drap" role="img" title="{{ r.cuiLabel }}" aria-label="{{ r.cuiLabel }}" style="margin-right:auto;font-size:13px;line-height:1">{{ r.drapeau }}</span>
+              <span class="drap" role="img" title="{{ r.cuiLabel }}" aria-label="{{ r.cuiLabel }}" style="font-size:13px;line-height:1">{{ r.drapeau }}</span>
+              <sc-if value="{{ r.hasRegistre }}" hint-placeholder-val="{{ false }}">
+                <span title="Plat d'emprunt" aria-label="Plat d'emprunt" style="margin-right:auto;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#9b9797">{{ r.registre }}</span>
+              </sc-if>
+              <sc-if value="{{ r.sansRegistre }}" hint-placeholder-val="{{ true }}"><span style="margin-right:auto"></span></sc-if>
               <span class="etoiles">{{ r.etoiles }}</span>
             </div>
             <p title="{{ r.jpt }}" style="margin:8px 0 2px;font-family:'Noto Serif JP',serif;font-weight:600;font-size:20px;line-height:1.2;cursor:help">{{ r.jp }}</p>
@@ -355,6 +387,22 @@ class Component extends DCLogic {
              l'« aria-label », parce qu'un drapeau ne se lit pas à haute voix et
              ne se cherche pas au clavier. Document 33, V1. */
           drapeau: DRAPEAU(r.cuisine), cuiLabel: LIB("cuisine", r.cuisine),
+          /* 🔴 LE REGISTRE EST UN MOT, PAS UNE SEPTIÈME PASTILLE, et les deux
+             moitiés de cette phrase sont des contraintes du document 34.
+
+             Pas une pastille : on vient de passer de sept à six au V1, et la
+             raison tient — six étiquettes s'empilaient avant qu'on ait lu le
+             titre. Pas un pictogramme non plus : le drapeau a rendu un CARRÉ
+             sur un navigateur sans police d'émoji, vu à l'écran au V1, et une
+             marque qui dépend d'une police n'est pas une marque. Un mot en
+             capitales espacées, gris, à côté du drapeau : il se lit à haute
+             voix, il se cherche au clavier, et aucune police ne peut le perdre.
+
+             \`sansRegistre\` porte la cale qui pousse les étoiles à droite quand
+             le mot est absent — le \`margin-right:auto\` voyage avec le dernier
+             élément de la paire, pas avec le drapeau. */
+          hasRegistre: !!r.registre, sansRegistre: !r.registre,
+          registre: LIB("registre", r.registre),
           jpt: JPT(NOM_ORIGINE(r), LECTURE_ORIGINE(r), r.fr),
           hasPhoto: !!r.photo, bg: r.photo ? 'url("' + r.photo + '")' : "none",
           etoiles: ETOILES(DE_LECTEUR(r.etoiles)),
@@ -435,7 +483,7 @@ const GABARIT_FICHE = `${ETATS}
 
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(20px,4vw,44px);align-items:start">
       <div>
-        <p style="margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">{{ f.id }} <span class="drap" role="img" title="{{ f.cuiLabel }}" aria-label="{{ f.cuiLabel }}">{{ f.drapeau }}</span> · {{ f.catLabel }}</p>
+        <p style="margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">{{ f.id }} <span class="drap" role="img" title="{{ f.cuiLabel }}" aria-label="{{ f.cuiLabel }}">{{ f.drapeau }}</span><sc-if value="{{ f.hasRegistre }}" hint-placeholder-val="{{ false }}"> <span title="Plat d'emprunt : sa propre culture le nomme comme venu d'ailleurs" style="cursor:help;color:#9b9797">· {{ f.registre }}</span></sc-if> · {{ f.catLabel }}</p>
         <p title="{{ f.jpt }}" style="margin:0;font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(28px,5.6vw,54px);line-height:1.05;cursor:help">{{ f.jp }}</p>
         <p style="margin:6px 0 0;font-size:clamp(15px,2vw,19px);font-style:italic;color:#605d5d">{{ f.romaji }}</p>
         <h1 style="margin:12px 0 0;font-weight:800;font-size:clamp(22px,3.4vw,34px);line-height:1.1;letter-spacing:-.02em">{{ f.fr }}</h1>
@@ -510,6 +558,22 @@ const GABARIT_FICHE = `${ETATS}
          durées de conservation tirées des notes, « se garde 4 jours et c'est
          meilleur au deuxième ». Et l'une d'elles est un NON — le zōsui ne se
          garde pas — que l'ancien libellé aurait contredit en toutes lettres. -->
+    <!-- 🔴 LE BOL DE RIZ, ET SEULEMENT QUAND IL S'ÉCARTE DU DÉFAUT — S39 du
+         document 34. La règle vivait dans la prose de trois fiches, où aucun
+         filtre ne la voyait et où il fallait avoir lu la note pour la trouver.
+
+         ELLE EST UNE LIGNE ET NON UNE CASE DE LA GRILLE DES MESURES, et l'essai
+         a tranché : la grille est à quatre colonnes fixes, une cinquième case ne
+         paraît que sur quinze fiches, et sur celles-là elle laissait trois
+         cellules vides où le fond SOMBRE de la grille passait à travers. Vu à
+         l'écran. Une case conditionnelle dans une grille à colonnes fixes est un
+         trou, pas une case — et cette information est de toute façon une
+         consigne d'assiette, de la même famille que la conservation juste en
+         dessous, pas un chiffre. -->
+    <sc-if value="{{ f.hasBol }}" hint-placeholder-val="{{ false }}">
+      <p style="margin:14px 0 0;font-size:13px;line-height:1.5;color:#605d5d">🍚 <strong>Bol de riz</strong> — {{ f.bol }}. {{ f.bolNote }}.</p>
+    </sc-if>
+
     <sc-if value="{{ f.hasAvance }}" hint-placeholder-val="{{ false }}">
       <p style="margin:14px 0 0;font-size:13px;line-height:1.5;color:#605d5d">⏳ <strong>D'avance et conservation</strong> — {{ f.avance }}</p>
     </sc-if>
@@ -579,8 +643,13 @@ const GABARIT_FICHE = `${ETATS}
 
         <!-- D'où viennent les chiffres. C'est de la méthode, pas de la
              cuisine — « c'est plus toi qui t'en sers que moi », dit Francis, et
-             il a raison. V3 et V5 du document 33. -->
-        <sc-if value="{{ f.hasProvenance }}" hint-placeholder-val="{{ true }}">
+             il a raison. V3 et V5 du document 33.
+
+             ET ELLE NE S'AFFICHE QUE HORS DÉFAUT depuis le S40 du document 34 :
+             à \`estime\`, qui est la valeur de tout le recueil, rien ne s'écrit.
+             L'absence de mention dit la même chose que la mention, et elle ne
+             coûte pas une ligne sur chaque fiche. -->
+        <sc-if value="{{ f.hasProvenance }}" hint-placeholder-val="{{ false }}">
           <p style="margin:0 0 22px;font-size:13px;line-height:1.5;color:#605d5d">Provenance des chiffres&nbsp;: <strong>{{ f.provenance }}</strong></p>
         </sc-if>
 
@@ -611,7 +680,7 @@ class Component extends DCLogic {
     /* Une fiche = un fichier. La cascade de lecture du dossier ne change pas :
        c'est la vue qui change, pas la source. */
     Promise.all([CHARGER("data/fiches/" + encodeURIComponent(id) + ".json"), CHARGER("data/index.json")])
-      .then(([fiche, index]) => { document.title = fiche.fr + " — Washoku"; this.setState({ fiche: fiche, index: index }); })
+      .then(([fiche, index]) => { document.title = fiche.fr + " — ${NOM}"; this.setState({ fiche: fiche, index: index }); })
       .catch(e => this.setState({ erreur: e.message }));
   }
 
@@ -670,6 +739,12 @@ class Component extends DCLogic {
         /* Le drapeau REMPLACE le nom de la cuisine au surtitre, et le nom passe
            au « title » et à l'« aria-label » du même élément. Document 33, V1. */
         drapeau: DRAPEAU(o.cuisine),
+        /* LE REGISTRE, au surtitre et après le drapeau : les deux champs font
+           deux métiers différents et le document 34 les sépare explicitement.
+           Le drapeau dit D'OÙ VIENT le plat — R17 garde son drapeau chinois ;
+           le registre dit QUAND ET COMMENT il est entré dans sa cuisine. Un mot
+           et non un pictogramme, pour la raison du V1 : voir la carte de liste. */
+        hasRegistre: !!o.registre, registre: LIB("registre", o.registre),
         hasPhoto: !!o.photo, bg: o.photo ? 'url("' + o.photo + '")' : "none",
         classePhoto: (o.video && o.video.youtube_id) ? "photo-doublon" : "",
         /* L'AUTEUR ET LA LICENCE DE LA PHOTO — S36 du document 33. La quasi-
@@ -702,19 +777,53 @@ class Component extends DCLogic {
         hasStatut: perso === "suspendu" || perso === "ecarte",
         statutLabel: LIB("statut_perso", perso), motifStatut: motif || "",
         hasAvance: !!o.preparation_avance, avance: o.preparation_avance || "",
+        /* LE BOL DE RIZ QUE LE PLAT REMPLACE. C'est une consigne d'assiette, pas
+           un chiffre : elle va donc à côté du temps et des portions, là où on
+           regarde avant de dresser, et pas dans le tableau de nutrition. Elle ne
+           s'affiche que lorsqu'elle s'écarte du défaut — un plat qui prend son
+           bol entier est le cas normal, et l'absence de mention le dit aussi
+           bien. Document 34, S39. */
+        hasBol: !!o.bol_de_riz, bol: LIB("bol_de_riz", o.bol_de_riz),
+        bolNote: o.bol_de_riz === "demi" ? "Le plat en porte la moiti\u00e9" : "Le plat porte son f\u00e9culent",
         hasVideo: !!(o.video && o.video.youtube_id),
         youtube: (o.video && o.video.youtube_id) || "", videoAuteur: (o.video && o.video.auteur) || "",
-        /* La langue de la démonstration, et seulement quand elle est déclarée :
-           R80 est en indonésien et T21 en vietnamien. Le geste se voit quand
-           même, mais on veut le savoir avant de cliquer. */
-        hasVideoLangue: !!(o.video && o.video.langue),
+        /* 🔴 LA LANGUE DE LA DÉMONSTRATION, ET SEULEMENT QUAND ELLE EST UN
+           AVERTISSEMENT. Le B57 du document 34 le remplit sur la vaste majorité
+           du recueil — relevé à la CHAÎNE et non à la vidéo, parce qu'une chaîne
+           sert plusieurs vidéos et qu'un titre bilingue est la norme, donc le
+           script du titre ne dit rien de la langue parlée. « Elle est en
+           anglais » sur presque chaque fiche serait exactement le mobilier que
+           le S40 retire ailleurs.
+
+           Il ne s'affiche donc que hors \`fr\` et hors \`en\` : c'est un
+           avertissement, pas une métadonnée. Un \`null\` ne prétend rien, un \`en\`
+           ne surprend personne, et la poignée qui reste — du japonais, du
+           chinois, du vietnamien, de l'indonésien — est le seul cas où le
+           lecteur veut le savoir avant de cliquer.
+
+           (Les comptes se lisent dans /data, pas ici : la règle 9 refuse qu'un
+           compteur soit écrit dans une page, et elle a attrapé cette phrase à
+           son premier essai — comme elle l'avait fait au V2 du document 33.) */
+        hasVideoLangue: !!(o.video && o.video.langue) && o.video.langue !== "fr" && o.video.langue !== "en",
         videoLangue: LIB("video_langue", (o.video && o.video.langue) || null),
         hasTechniques: !!(o.techniques && o.techniques.length),
         techniques: (o.techniques || []).map(id => ({ id: id, label: nom(id) })),
         hasVoirAussi: !!(o.voir_aussi && o.voir_aussi.length),
         voirAussi: (o.voir_aussi || []).map(id => ({ id: id, label: nom(id) })),
         hasMaison: !!o.pour_la_maison, pourLaMaison: o.pour_la_maison || "",
-        hasProvenance: !!n.source, provenance: LIB("nutrition_source", n.source),
+        /* 🔴 LA PROVENANCE NE S'AFFICHE QU'HORS DÉFAUT. Le recueil ENTIER portait
+           \`source: "estime"\` — la même réponse sur chacune de ses fiches — et le
+           V5 du document 33 venait de lui donner un libellé, ce qui rendait son
+           silence plus visible qu'avant. Un champ qui donne la même réponse
+           partout n'est pas de l'information, c'est du mobilier.
+
+           « estime » RESTE LA BONNE VALEUR : la source d'un total est celle de sa
+           composante la plus faible, et dès qu'un poste est estimé le total
+           l'est. Le champ n'est pas faux, il est PRÉMATURÉ — il parlera le jour
+           où une fiche sera pesée. C'est le même geste et la même raison que
+           \`video.langue\` juste au-dessus. Document 34, S40. */
+        hasProvenance: n.source === "etiquette" || n.source === "pese",
+        provenance: LIB("nutrition_source", n.source),
         nutrition: nutrition
       }
     };
@@ -863,7 +972,7 @@ class Component extends DCLogic {
       .then(([tous, index, rayons]) => {
         const x = tous.find(o => o.id === id);
         if (!x) throw new Error("aucun ingrédient « " + id + " »");
-        document.title = x.fr + " — Washoku";
+        document.title = x.fr + " — ${NOM}";
         this.setState({ x: x, index: index, rayons: rayons });
       })
       .catch(e => this.setState({ erreur: e.message }));
@@ -1112,7 +1221,7 @@ class Component extends DCLogic {
     CHARGER("data/" + p.fichier).then(sections => {
       const s = sections.find(x => x.id === id);
       if (!s) throw new Error("aucune section « " + id + " » dans le guide " + num);
-      document.title = s.titre + " — Washoku";
+      document.title = s.titre + " — ${NOM}";
       this.setState({ section: s, groupe: p.titre });
     }).catch(e => this.setState({ erreur: e.message }));
   }
@@ -1192,7 +1301,7 @@ class Component extends DCLogic {
     Promise.all([CHARGER("data/guide-2-annexes.json"), CHARGER("data/index.json")]).then(([annexes, index]) => {
       const a = annexes[id];
       if (!a) throw new Error("aucune annexe « " + id + " »");
-      document.title = a.titre + " — Washoku";
+      document.title = a.titre + " — ${NOM}";
       this.setState({ a: a, index: index });
     }).catch(e => this.setState({ erreur: e.message }));
   }
@@ -1298,7 +1407,7 @@ class Component extends DCLogic {
 /* ── index.html — l'accueil ───────────────────────────────────────────── */
 
 const GABARIT_ACCUEIL = `  <section class="in">
-    <p style="margin:0 0 14px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">和食 · washoku</p>
+    <p style="margin:0 0 14px;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#ec3013">定食 · teishoku</p>
     <h1 style="margin:0;font-weight:800;font-size:clamp(34px,6.5vw,68px);line-height:1.02;letter-spacing:-.025em;max-width:14em">Manger asiatique pour perdre du poids</h1>
     <p style="margin:16px 0 0;font-size:17.5px;line-height:1.7;max-width:38em;color:#444141">Trois outils et une porte. Les outils se consultent debout&nbsp;; la porte s'ouvre quand on veut comprendre pourquoi.</p>
   </section>
@@ -1414,7 +1523,7 @@ function redirection({ de, vers, guide, annexes, ingredients }) {
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Washoku</title>
+<title>${NOM}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="${ICONE}">
 <link rel="canonical" href="${vers}">
@@ -1458,7 +1567,7 @@ Cette page a déménagé. <a href="${vers}" style="color:#ae1800">Aller à ${ver
 function toutes() {
   const listeCommune = (techniques) => ({ gabarit: gabaritListe({ techniques }), logique: logiqueListe({ techniques }) });
   const p = [
-    { nom: 'index.html', titre: 'Washoku', actif: null, gabarit: GABARIT_ACCUEIL, logique: LOGIQUE_ACCUEIL },
+    { nom: 'index.html', titre: NOM, actif: null, gabarit: GABARIT_ACCUEIL, logique: LOGIQUE_ACCUEIL },
     { nom: 'recettes.html', titre: 'Recettes', actif: 'recettes', ...listeCommune(false) },
     { nom: 'techniques.html', titre: 'Techniques', actif: 'recettes', ...listeCommune(true) },
     { nom: 'fiche.html', titre: 'Fiche', actif: 'recettes', gabarit: GABARIT_FICHE, logique: LOGIQUE_FICHE },
@@ -1475,4 +1584,4 @@ function toutes() {
   return p.concat(REDIRECTIONS.map((r) => ({ nom: r.de, html: redirection(r) })));
 }
 
-module.exports = { toutes, NAV, REDIRECTIONS, ANCRES_ANNEXES, ANCRES_LISTES, GUIDES_PROSE, coquille, RENDU_BLOCS };
+module.exports = { toutes, NOM, NAV, REDIRECTIONS, ANCRES_ANNEXES, ANCRES_LISTES, GUIDES_PROSE, coquille, RENDU_BLOCS };

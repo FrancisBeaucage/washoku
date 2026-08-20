@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "vietnamienne",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "poche",
     "cru"
@@ -149,7 +150,7 @@
   "video": {
     "youtube_id": "3vhfZpWI69g",
     "auteur": "Helen's Recipes (Vietnamese Food)",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R82",

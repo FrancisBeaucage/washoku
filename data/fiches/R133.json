@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "poche",
     "bouilli"
@@ -28,7 +29,7 @@
   "romaji": "yosenabe",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "yo-sé-na-bé",
   "langue_origine": "ja",
   "fr": "Marmite claire mixte (yosenabe)",
   "sous_titre": "Une personne sur deux en mange une fois par semaine au Japon en hiver. Le bouillon n'est presque pas assaisonné — tout le sel est dans le petit plat de chacun.",

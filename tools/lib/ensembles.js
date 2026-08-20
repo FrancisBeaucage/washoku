@@ -90,7 +90,6 @@ function table() {
     { fichier: 'guide-2-fiches.json', champ: 'statut', permis: STATUT },
     { fichier: 'guide-2-fiches.json', champ: 'categorie', permis: Object.values(CATEGORIES) },
     { fichier: 'guide-2-fiches.json', champ: 'cuisine', permis: Object.values(CUISINES) },
-    { fichier: 'guide-2-fiches.json', champ: 'vitesse', permis: Object.values(VITESSES) },
     { fichier: 'guide-2-fiches.json', champ: 'nutrition.source', permis: SOURCES_NUTRITION },
     /* Le bloc descriptif du document 19 : ce que le plat EST. */
     { fichier: 'guide-2-fiches.json', champ: 'type_de_plat', permis: C.TYPES_DE_PLAT, nul: true },
@@ -99,6 +98,14 @@ function table() {
     { fichier: 'guide-2-fiches.json', champ: 'axe_texture', permis: C.AXES_TEXTURE, forme: 'liste' },
     { fichier: 'guide-2-fiches.json', champ: 'moment', permis: C.MOMENTS, forme: 'liste' },
     { fichier: 'guide-2-fiches.json', champ: 'langue_origine', permis: C.LANGUES, nul: true },
+    /* Les deux champs du document 34, conçus avec le principe du `temps_actif`
+       DÈS LE DÉPART : leur valeur par défaut est l'absence. `registre` dit quand
+       et comment le plat est entré dans sa cuisine, là où `cuisine` dit d'où il
+       vient ; `bol_de_riz` dit que le plat porte lui-même son féculent. Un seul
+       `permis` pour le premier, deux pour le second — et `null` dans les deux
+       cas, qui est la valeur de la vaste majorité. */
+    { fichier: 'guide-2-fiches.json', champ: 'registre', permis: C.REGISTRES, nul: true },
+    { fichier: 'guide-2-fiches.json', champ: 'bol_de_riz', permis: C.BOLS_DE_RIZ, nul: true },
     /* La langue parlée dans la vidéo. `null` est le cas normal et ne veut pas
        dire « français » : il veut dire que personne ne l'a établi. Voir le
        commentaire de `LANGUES_VIDEO` dans `champs.js`. */
@@ -119,6 +126,19 @@ function table() {
     { fichier: 'guide-3-ingredients.json', champ: 'nutrition.source', permis: SOURCES_NUTRITION, nul: true },
     { fichier: 'guide-4-exercices.json', champ: 'statut', permis: STATUT },
     { fichier: 'guide-4-exercices.json', champ: 'zone', permis: clesZones() },
+    /* 🔴 `vitesse` EST PUBLIÉE SOUS `index.json`, ET C'EST LE POINT DU S38 DU
+       DOCUMENT 34 : elle a cessé d'être un champ de fiche pour devenir une
+       valeur DÉRIVÉE du temps total, calculée par `generer.js`, écrite dans le
+       seul fichier qui la consomme — l'index, qui la sert au filtre de durée de
+       la page de liste.
+
+       Elle reste dans cette table, et il fallait qu'elle y reste : le manifeste
+       publie ces ensembles pour qu'un rédacteur de document lise les valeurs
+       exactes au lieu de les citer de mémoire, et il en a autant besoin pour un
+       champ dérivé — il doit savoir que `moyen` existe et que `median` n'existe
+       pas. Ce qui change, c'est le FICHIER où la règle 19 va la chercher. Les
+       seuils qui la produisent sont dans `lib/champs.js`, à un seul endroit. */
+    { fichier: 'index.json', champ: 'vitesse', permis: Object.values(VITESSES) },
     { fichier: 'historique-repas.json', champ: 'repas', permis: REPAS_HISTORIQUE },
     { fichier: 'historique-repas.json', champ: 'verdict', permis: VERDICTS, nul: true },
   ];

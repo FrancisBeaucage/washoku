@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "cru"
@@ -26,7 +27,7 @@
   "romaji": "buta no shōgayaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "bou-ta no chô-ga-ya-ki",
   "langue_origine": "ja",
   "fr": "Porc sauté au gingembre",
   "sous_titre": "Le plat de porc le plus courant des tables japonaises. Shōga (生姜) veut dire gingembre, yaki (焼き) veut dire saisi à la poêle. Tout se joue en huit minutes et la marinade ne doit surtout pas être longue.",
@@ -160,11 +161,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shogayaki.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "jetalone(Hajime NAKANO) from Tokyo, JAPAN",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shogayaki.jpg"
+  },
   "video": {
     "youtube_id": "-9CUm-2cui8",
     "auteur": "Cooking with Dog",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R63",

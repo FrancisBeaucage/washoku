@@ -407,6 +407,14 @@ const suivre = (objet, chemin) => chemin.split('.').reduce((v, c) => (v == null 
 
 const PAR_FICHIER = {
   'guide-2-fiches.json': { entrees: fiches, ou: (f) => f.id },
+  /* `index.json` est une SORTIE de `generer.js`, et elle est contrôlée quand
+     même : `vitesse` y vit depuis le S38 du document 34, dérivée du temps total.
+     Un ensemble fermé sur un fichier généré n'est pas une tautologie — ce qu'il
+     attrape, c'est une table de seuils qui produirait une classe inexistante,
+     et c'est exactement la faute qu'un champ dérivé peut commettre sans que
+     personne ne la voie. Le fichier peut être absent avant la première
+     génération : la règle le dit alors plutôt que de planter. */
+  'index.json': { entrees: optionnel('index.json') || [], ou: (f) => f.id },
   'guide-3-ingredients.json': { entrees: ingredients, ou: (x) => x.id },
   'guide-4-exercices.json': { entrees: exercices, ou: (e) => e.id },
   'historique-repas.json': { entrees: historique, ou: (r) => `${r.date} ${r.repas}` },

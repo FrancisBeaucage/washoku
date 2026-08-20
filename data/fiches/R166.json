@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "indonesienne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "bouilli",
     "saute"

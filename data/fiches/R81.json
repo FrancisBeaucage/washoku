@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "coreenne",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote",
     "saute"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "소고기무국",
   "lecture_origine": "sogogi muguk",
-  "prononciation": null,
+  "prononciation": "so-go-gui mou-gouk",
   "langue_origine": "ko",
   "fr": "Soupe de bœuf et daikon (sogogi muguk)",
   "sous_titre": "Le radis fond et sucre le bouillon — la saveur ne vient pas du sel, et c'est ce qui permet de le baisser.",
@@ -149,7 +150,7 @@
   "video": {
     "youtube_id": "NefPocSaeDU",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R77"

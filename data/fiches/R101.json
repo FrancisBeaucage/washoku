@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "오징어볶음",
   "lecture_origine": "ojingeo bokkeum",
-  "prononciation": null,
+  "prononciation": "o-djing-eo bok-keum",
   "langue_origine": "ko",
   "fr": "Calmar sauté épicé (ojingeo bokkeum)",
   "sous_titre": "Seize grammes de protéines pour un gramme de lipides aux cent grammes : le meilleur rapport de toute la recherche coréenne. Et la seule chose à réussir, c'est de ne pas trop cuire.",
@@ -131,7 +132,7 @@
   "video": {
     "youtube_id": "--SjTRJyp4w",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R103",

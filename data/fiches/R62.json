@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -26,7 +27,7 @@
   "romaji": "sake furēku",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "sa-ké fou-rê-kou",
   "langue_origine": "ja",
   "fr": "Flocons de saumon sur riz chaud",
   "sous_titre": "Le déjeuner de restes par excellence : un reste de saumon grillé (T4, R14) effiloché froid sur une portion de riz réchauffée. Aucune cuisson, aucun liant, aucune huile — la chaleur du riz fait tout le travail. C'est le plat qui rend un déjeuner japonais faisable un mardi matin.",
@@ -37,7 +38,7 @@
     "cuisson": 2,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "LE POISSON NE SE RÉCHAUFFE PAS, PAR AUCUN MOYEN. Les flocons se font d'avance et se posent FROIDS sur du riz chaud.",
   "nutrition": {
     "proteines_g": 28,
     "proteines_affiche": "~28 g",

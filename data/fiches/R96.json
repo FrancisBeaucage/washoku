@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "coreenne",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "mijote"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "미역국",
   "lecture_origine": "miyeokguk",
-  "prononciation": null,
+  "prononciation": "mi-yeok-kouk",
   "langue_origine": "ko",
   "fr": "Soupe d'algues wakame (miyeokguk)",
   "sous_titre": "L'algue est sautée à l'ail avant d'être mijotée, et c'est ce qui distingue cette soupe d'un bouillon d'algues. Elle apporte déjà sa salinité marine : le soya se coupe de moitié.",
@@ -135,7 +136,7 @@
   "video": {
     "youtube_id": "3iqxRPQvMn8",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "T2"

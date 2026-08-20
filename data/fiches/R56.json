@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "collation",
   "cuisine": "japonaise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "collation",
+  "bol_de_riz": null,
   "methode": [
     "roti"
   ],
@@ -25,7 +26,7 @@
   "romaji": "yaki-imo",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ya-ki-i-mo",
   "langue_origine": "ja",
   "fr": "Patate douce rôtie",
   "sous_titre": "焼き芋 yaki-imo. Sucrée naturellement, très rassasiante. Au four, elle se fait toute seule pendant qu'on fait autre chose.",
@@ -39,7 +40,7 @@
     },
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde trois à quatre jours, ENTIÈRE. On la tranche au moment de manger.",
   "nutrition": {
     "proteines_g": 3,
     "proteines_affiche": "3 g",
@@ -110,11 +111,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gungoguma_(roasted_sweet_potatoes).jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "국립국어원",
+    "licence": "CC BY-SA 2.0 kr",
+    "page": "https://commons.wikimedia.org/wiki/File:Gungoguma_(roasted_sweet_potatoes).jpg"
+  },
   "video": {
     "youtube_id": "31zAQudWyUo",
     "auteur": "Chef JA Cooks",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": []
 }

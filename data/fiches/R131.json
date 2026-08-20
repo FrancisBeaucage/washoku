@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "feculent",
+  "bol_de_riz": "non",
   "methode": [
     "bouilli"
   ],
@@ -27,7 +28,7 @@
   "romaji": "takikomi gohan",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ta-ki-ko-mi go-han",
   "langue_origine": "ja",
   "fr": "Riz cuit avec sa garniture (takikomi gohan)",
   "sous_titre": "Le riz cesse d'être un accompagnement neutre et devient le plat. Un seul piège, et il est mesurable : le soya fait partie du volume d'eau.",
@@ -147,7 +148,7 @@
   "video": {
     "youtube_id": "CczmGI6PvcA",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R130",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "thaie",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "คั่วกลิ้ง",
   "lecture_origine": "kua kling",
-  "prononciation": null,
+  "prononciation": "koua-kling",
   "langue_origine": "th",
   "fr": "Curry sec du Sud (kua kling)",
   "sous_titre": "Un curry sans une goutte de lait de coco. Une à deux cuillères à thé de sauce de poisson pour quatre cent cinquante grammes de viande : le meilleur rapport protéines-sodium-lipides de tout le corpus thaï.",
@@ -143,7 +144,7 @@
   "video": {
     "youtube_id": "h6PXM-dlytI",
     "auteur": "Pailin's Kitchen",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

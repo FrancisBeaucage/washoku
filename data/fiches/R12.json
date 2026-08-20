@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "bouilli",
     "cru"
@@ -26,7 +27,7 @@
   "romaji": "soba sarada",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "so-ba sa-ra-da",
   "langue_origine": "ja",
   "fr": "Salade de soba",
   "sous_titre": "Se transporte parfaitement. La protéine vient de la garniture, pas des nouilles — voir la note sur la lecture du paquet.",
@@ -109,11 +110,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaru%20soba%20by%20spinachdip.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "spinachdip from Minamikiso, Nagano",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zaru_soba_by_spinachdip.jpg"
+  },
   "video": {
     "youtube_id": "-ojltkREE1c",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

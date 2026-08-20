@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -27,7 +28,7 @@
   "romaji": "dashimaki tamago",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "da-chi-ma-ki ta-ma-go",
   "langue_origine": "ja",
   "fr": "Omelette roulée au dashi (dashimaki tamago)",
   "sous_titre": "Le plat d'œuf le plus mangé au Japon, et le recueil n'en avait aucune trace. Se mange chaud, tiède ou froid, et il va dans une boîte à lunch.",
@@ -145,7 +146,7 @@
   "video": {
     "youtube_id": "4Zfh5qTwgOY",
     "auteur": "ochikeron",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R7"

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "bouilli",
     "poche"
@@ -26,7 +27,7 @@
   "romaji": "sokusekimen",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "so-kou-sé-ki-mèn",
   "langue_origine": "ja",
   "fr": "Nouilles instantanées, version repas",
   "sous_titre": "Le paquet est une base, pas le repas. Avec des œufs et des légumes, ça devient un vrai souper à 550 calories et 32 g de protéines en cinq minutes — et ça bat la pizza.",
@@ -121,7 +122,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/HomeCookedRamenNoodles.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Amar Nath Adak",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HomeCookedRamenNoodles.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

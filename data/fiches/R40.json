@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "poche"
   ],
@@ -23,7 +24,7 @@
   "romaji": "suimono",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "soui-mo-no",
   "langue_origine": "ja",
   "fr": "Suimono — bouillon clair",
   "sous_titre": "Le plus élégant et le plus léger. L'esthétique compte : deux éléments qui flottent, rien d'autre.",
@@ -101,11 +102,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Suimono_by_Joi.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Joi",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Suimono_by_Joi.jpg"
+  },
   "video": {
     "youtube_id": "m7d0FJjlT1U",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

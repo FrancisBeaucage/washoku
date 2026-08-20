@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "grille"
@@ -28,7 +29,7 @@
   "romaji": "tori no teriyaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "to-ri no té-ri-ya-ki",
   "langue_origine": "ja",
   "fr": "Poulet teriyaki",
   "sous_titre": "Deux cent cinquante-cinq milligrammes de sodium pour le plat le plus sucré-salé du recueil — parce que la sauce est réduite au lieu d'être versée.",
@@ -132,7 +133,7 @@
   "video": {
     "youtube_id": "LZ6rXyFRJjk",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "T24",

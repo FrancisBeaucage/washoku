@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "indonesienne",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote",
     "saute"
@@ -149,7 +150,7 @@
   "video": {
     "youtube_id": "tjuO0CCAASA",
     "auteur": "Taste of Asian Food",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R144",

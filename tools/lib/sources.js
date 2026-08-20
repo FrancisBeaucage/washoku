@@ -57,6 +57,10 @@ const SOURCES = [
       'nutrition.lipides_g', 'nutrition.sodium_mg',
       'type_de_plat', 'methode', 'axe_gout', 'axe_texture', 'moment',
       'langue_origine',
+      /* Document 34 : `registre` dit si le plat est un emprunt que sa propre
+         culture nomme comme tel, `bol_de_riz` s'il porte lui-même son féculent.
+         Aucun des deux n'a jamais vécu dans une page. */
+      'registre', 'bol_de_riz',
       'etoiles', 'cout_travail', 'statut_perso', 'motif_statut', 'pour_la_maison',
       'ajustement',
       /* L'auteur, la licence et la page du fichier de la photo — S36 du

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": "emprunt",
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "vapeur"
   ],
@@ -25,7 +26,7 @@
   "romaji": "gyōza",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "gyô-za",
   "langue_origine": "ja",
   "fr": "Gyoza vapeur du congélateur",
   "sous_titre": "Le sac de gyoza congelés = un souper complet en dix minutes. Avec une soupe-entrée et une salade de concombre, environ 400 calories.",
@@ -93,11 +94,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyoza_no_Antei_-_3.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Enming Yan / 闫恩铭",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyoza_no_Antei_-_3.jpg"
+  },
   "video": {
     "youtube_id": "hVFp_H87Nzc",
     "auteur": "Japanese Cooking Ichie",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": []
 }

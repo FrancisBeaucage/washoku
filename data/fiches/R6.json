@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -25,7 +26,7 @@
   "romaji": "tori-gayu",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "to-ri-ga-you",
   "langue_origine": "ja",
   "fr": "Okayu au poulet",
   "sous_titre": "Énorme volume pour environ 300 calories la portion. La bouillie de riz japonaise, l'équivalent du congee.",
@@ -109,11 +110,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_rice_congee.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Daiju Azuma",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Chinese_rice_congee.jpg"
+  },
   "video": {
     "youtube_id": "UE7iz3ePi_E",
     "auteur": "Japanese Cooking 101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

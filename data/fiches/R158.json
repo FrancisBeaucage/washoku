@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "laotienne",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "condiment",
+  "bol_de_riz": null,
   "methode": [
     "grille",
     "torrefie"
@@ -141,7 +142,7 @@
   "video": {
     "youtube_id": "omEfjsOPXEs",
     "auteur": "Cooking With Khon Khao",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R159",

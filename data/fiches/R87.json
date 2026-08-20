@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "호박볶음",
   "lecture_origine": "hobak bokkeum",
-  "prononciation": null,
+  "prononciation": "ho-bak bok-keum",
   "langue_origine": "ko",
   "fr": "Courgette sautée à l'ail (hobak bokkeum)",
   "sous_titre": "Dix minutes, quatre portions, et le banchan qui se garde le mieux des quatre. La règle est de ne pas trop cuire : une courgette molle rend son eau au fond du contenant.",
@@ -124,7 +125,7 @@
   "video": {
     "youtube_id": "n76W4c49UdA",
     "auteur": "Korean Bapsang",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R85"

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "thaie",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -23,7 +24,7 @@
   "romaji": null,
   "nom_origine": "ยำ",
   "lecture_origine": "yam",
-  "prononciation": null,
+  "prononciation": "yam",
   "langue_origine": "th",
   "fr": "La vinaigrette à trois axes (yam)",
   "sous_titre": "Acide, piquant, salé, et rien d'autre. Aucun gras émulsifiant — et c'est la seule structure du recueil où réduire le sel de moitié se compense intégralement en montant les deux autres axes.",
@@ -129,7 +130,7 @@
   "video": {
     "youtube_id": "9756aQ99pe8",
     "auteur": "Pailin's Kitchen",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

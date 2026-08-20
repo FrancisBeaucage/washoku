@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "condiment",
+  "bol_de_riz": null,
   "methode": [
     "cru"
   ],
@@ -24,7 +25,7 @@
   "romaji": "momiji oroshi",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "mo-mi-dji o-ro-chi",
   "langue_origine": "ja",
   "fr": "Momiji oroshi — daikon râpé au piment",
   "sous_titre": "« Râpé feuille d'érable » — le daikon prend la couleur de l'automne. Le condiment qui règle le problème du daikon râpé nu : il apporte enfin quelque chose de lui-même.",
@@ -108,7 +109,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Momiji_oroshi.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Jun OHWADA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Momiji_oroshi.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

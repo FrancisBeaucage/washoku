@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "chinoise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -23,7 +24,7 @@
   "romaji": null,
   "nom_origine": "兑碗汁",
   "lecture_origine": "duì wǎn zhī",
-  "prononciation": null,
+  "prononciation": "douéi-wan-dji",
   "langue_origine": "zh",
   "fr": "La sauce prémélangée au bol (dui wan zhi)",
   "sous_titre": "La seule façon de contrôler le sodium d'un plat qui cuit en quatre-vingt-dix secondes. On ne verse rien à l'œil dans une poêle brûlante.",
@@ -104,7 +105,7 @@
   "video": {
     "youtube_id": "J2-1ZErtS7A",
     "auteur": "Chinese Cooking Demystified",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

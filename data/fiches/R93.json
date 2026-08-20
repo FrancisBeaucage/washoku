@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "콩나물국",
   "lecture_origine": "kongnamul guk",
-  "prononciation": null,
+  "prononciation": "kong-na-moul kouk",
   "langue_origine": "ko",
   "fr": "Soupe claire aux germes de soya (kongnamul guk)",
   "sous_titre": "Le premier guk du recueil au sens propre : un bouillon clair qui accompagne au lieu de dominer. Le sel se met à la cuillère et se goûte à chaque ajout — et le couvercle ne se soulève pas.",
@@ -135,7 +136,7 @@
   "video": {
     "youtube_id": "0q8LU70IRn8",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R72"

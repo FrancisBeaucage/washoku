@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "marine",
     "bouilli"
@@ -28,7 +29,7 @@
   "romaji": "tsukeru",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tsou-ké-rou",
   "langue_origine": "ja",
   "fr": "Faire tremper (ajitsuke tamago)",
   "sous_titre": "Faire tremper dans un liquide salé et umami (dashi, soya, mirin). Une technique de fond — la même pour les œufs, le tofu, le poulet, le poisson. Ici : l'ajitsuke tamago, l'œuf mariné.",
@@ -129,11 +130,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Boiled%20eggs%20in%20soy%20sauce%20-Jangjolim-%20%286275954552%29.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Chloe Lim from Seoul, South Korea",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boiled_eggs_in_soy_sauce_-Jangjolim-_(6275954552).jpg"
+  },
   "video": {
     "youtube_id": "bsDgZXoieFU",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

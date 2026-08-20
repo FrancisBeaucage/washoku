@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "grille"
   ],
@@ -24,7 +25,7 @@
   "romaji": "tori no shioyaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "to-ri no chio-ya-ki",
   "langue_origine": "ja",
   "fr": "Poulet grillé au sel",
   "sous_titre": "La troisième protéine du rituel du dimanche. Aucune huile, aucune marinade, et quatre portions qui deviennent des dîners toute la semaine.",
@@ -35,7 +36,7 @@
     "cuisson": 18,
     "attente": 20
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde quatre jours au réfrigérateur.",
   "nutrition": {
     "proteines_g": 38,
     "proteines_affiche": "38 g",
@@ -116,11 +117,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Raw%20chicken%20thighs.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "gran",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raw_chicken_thighs.jpg"
+  },
   "video": {
     "youtube_id": "00Qcvz21Bak",
     "auteur": "Japanese Cooking 101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

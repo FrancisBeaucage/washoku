@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "grille"
   ],
@@ -24,7 +25,7 @@
   "romaji": "yakitori",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ya-ki-to-ri",
   "langue_origine": "ja",
   "fr": "Yakitori",
   "sous_titre": "Ce sont des brochettes. Avec les enfants, c'est réglé. La tare se conserve un mois au réfrigérateur et s'améliore.",
@@ -97,11 +98,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking_yakitori.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "竹麦魚(Searobin)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cooking_yakitori.jpg"
+  },
   "video": {
     "youtube_id": "3woUacOV5KQ",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

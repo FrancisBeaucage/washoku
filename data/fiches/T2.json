@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -25,7 +26,7 @@
   "romaji": "dashi",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "da-chi",
   "langue_origine": "ja",
   "fr": "Le dashi — trois versions",
   "sous_titre": "Le bouillon de base de toute la cuisine japonaise. Environ 50 mg de sodium par tasse, contre 600 à 900 pour un bouillon commercial. Si vous ne faites qu'une seule chose maison, c'est celle-là.",
@@ -36,7 +37,7 @@
     "cuisson": 12,
     "attente": 30
   },
-  "preparation_avance": null,
+  "preparation_avance": "Quatre jours au réfrigérateur, un mois au congélateur. SE CONGÈLE EN PORTIONS, PAS EN VOLUME : bacs à glaçons pour les cubes de 30 ml, ou sacs de 200 à 300 ml.",
   "nutrition": {
     "proteines_g": null,
     "proteines_affiche": "—",
@@ -162,11 +163,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kombu.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Alice Wiegand, ( Lyzzy )",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kombu.jpg"
+  },
   "video": {
     "youtube_id": "5qBAcsM31Rg",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "cru"
   ],
@@ -25,7 +26,7 @@
   "romaji": "chirashi don",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tchi-ra-chi don",
   "langue_origine": "ja",
   "fr": "Chirashi bowl",
   "sous_titre": "Zéro cuisson. Dix minutes pour un plat qui a l'air d'un restaurant. Le riz refroidi apporte en plus le bonus d'amidon résistant.",
@@ -36,7 +37,7 @@
     "cuisson": 0,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Le daikon en surplus se garde deux à trois jours dans l'eau au réfrigérateur, et se recycle en kinpira (voir R46) ou en sunomono (voir R45).",
   "nutrition": {
     "proteines_g": 36,
     "proteines_affiche": "36 g",
@@ -134,11 +135,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "lookslikeamy from Izakaya Sakura in Convoy Steet, San Diego, California",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chirashizushi_in_San_Diego_by_lookslikeamy.jpg"
+  },
   "video": {
     "youtube_id": "Bqpc4TtXmPo",
     "auteur": "Japanese Cooking 101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

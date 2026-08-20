@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "thaie",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -155,7 +156,7 @@
   "video": {
     "youtube_id": "qaeiUpMz028",
     "auteur": "Pailin's Kitchen",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R145",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "marine",
     "cru"
@@ -25,7 +26,7 @@
   "romaji": "sunomono",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "sou-no-mo-no",
   "langue_origine": "ja",
   "fr": "Saler, dégorger, vinaigrer (sunomono)",
   "sous_titre": "La technique de fond : saler et dégorger, puis vinaigrer. La même pour le concombre, le chou, le navet, le radis — et la porte d'entrée vers les tsukemono.",
@@ -36,7 +37,7 @@
     "cuisson": 0,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "NE SE GARDE PAS. Deux jours au maximum, et le croquant disparaît dès le premier.",
   "nutrition": {
     "proteines_g": null,
     "proteines_affiche": "—",
@@ -131,11 +132,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunomono_Salad_%286737787789%29.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Jen Arrr",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunomono_Salad_(6737787789).jpg"
+  },
   "video": {
     "youtube_id": "KYRAk2qY_h4",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

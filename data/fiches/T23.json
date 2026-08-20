@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "roti"
   ],
@@ -25,7 +26,7 @@
   "romaji": "age-yaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "a-gué-ya-ki",
   "langue_origine": "ja",
   "fr": "La panure sèche au four (age-yaki)",
   "sous_titre": "La porte d'entrée compatible vers toute la famille katsu. Deux cuillères à thé d'huile au lieu d'un litre, et un panko qu'on grille avant de paner.",
@@ -126,7 +127,7 @@
   "video": {
     "youtube_id": "w5tI3SdeoVo",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

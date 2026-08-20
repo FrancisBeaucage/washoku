@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "mijote",
     "saute"
@@ -29,7 +30,7 @@
   "romaji": null,
   "nom_origine": "김치찌개",
   "lecture_origine": "kimchi jjigae",
-  "prononciation": null,
+  "prononciation": "kim-tchi tchi-gué",
   "langue_origine": "ko",
   "fr": "Ragoût de kimchi (kimchi jjigae)",
   "sous_titre": "Le plat coréen le plus mangé à la maison, et il entre au recueil avec son ajustement écrit dans la fiche. La règle tient en une phrase : le kimchi suffit, aucun sel ni soya ne s'ajoute.",
@@ -151,7 +152,7 @@
   "video": {
     "youtube_id": "rJgb92JWMCE",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R95",

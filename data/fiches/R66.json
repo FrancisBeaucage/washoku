@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -26,7 +27,7 @@
   "romaji": "kiriboshi daikon no nimono",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ki-ri-bo-chi daï-kon no ni-mo-no",
   "langue_origine": "ja",
   "fr": "Kiriboshi daikon mijoté",
   "sous_titre": "Le kobachi de semaine par excellence : il se fait une fois, se garde quatre ou cinq jours, et il est meilleur le lendemain. C'est aussi le plat qui justifie de sécher du daikon.",
@@ -37,7 +38,7 @@
     "cuisson": 20,
     "attente": 20
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde quatre à cinq jours au réfrigérateur, et IL EST MEILLEUR AU DEUXIÈME JOUR, une fois que le légume a fini de boire.",
   "nutrition": {
     "proteines_g": 5,
     "proteines_affiche": "5 g",
@@ -149,7 +150,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiriboshi_daikon_002.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Ocdp",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiriboshi_daikon_002.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

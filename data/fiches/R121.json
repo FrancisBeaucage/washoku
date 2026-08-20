@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -27,7 +28,7 @@
   "romaji": "wakame no sunomono",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "wa-ka-mé no sou-no-mo-no",
   "langue_origine": "ja",
   "fr": "Wakame vinaigrée (wakame no sunomono)",
   "sous_titre": "Le remplisseur de kobachi à vingt-cinq calories — et le plat qui apprend au dossier que les algues ne sont pas gratuites en sodium.",

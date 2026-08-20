@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "thaie",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "vapeur",
     "cru"
@@ -141,7 +142,7 @@
   "video": {
     "youtube_id": "ZvGbcKXZBLg",
     "auteur": "Pailin's Kitchen",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R118",

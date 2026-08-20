@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -111,11 +112,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "행복한 초록개구리",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sundubu-jjigae.jpg"
+  },
   "video": {
     "youtube_id": "Mg9zeD01kEw",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

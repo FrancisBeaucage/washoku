@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "saute"
   ],
@@ -28,7 +29,7 @@
   "romaji": null,
   "nom_origine": "김치볶음밥",
   "lecture_origine": "kimchi bokkeumbap",
-  "prononciation": null,
+  "prononciation": "kim-tchi bok-keum-bap",
   "langue_origine": "ko",
   "fr": "Riz frit au kimchi, ratio inversé (kimchi bokkeumbap)",
   "sous_titre": "Un bol de riz pour deux cent cinquante grammes de protéine et deux tasses de légumes. Le riz frit ordinaire fait l'inverse, et c'est le seul changement de cette fiche.",
@@ -152,7 +153,7 @@
   "video": {
     "youtube_id": "Lf44Fk7H24s",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R23",

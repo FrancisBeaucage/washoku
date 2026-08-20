@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -26,7 +27,7 @@
   "romaji": "misoshiru",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "mi-so-chi-rou",
   "langue_origine": "ja",
   "fr": "Soupe miso de base",
   "sous_titre": "Le meilleur outil qui existe contre la fringale de 21 h. Trois minutes si le dashi est au réfrigérateur.",
@@ -110,11 +111,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Miso_Soup_001.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Ocdp",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Miso_Soup_001.jpg"
+  },
   "video": {
     "youtube_id": "wshf6yZbhwk",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

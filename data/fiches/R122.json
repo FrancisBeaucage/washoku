@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -26,7 +27,7 @@
   "romaji": "mozuku-su",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "mo-zou-kou-sou",
   "langue_origine": "ja",
   "fr": "Mozuku vinaigrée (mozuku-su)",
   "sous_titre": "Le remplisseur de kobachi le plus économe du recueil : une barquette, une minute, dix calories. Et un panneau de valeur nutritive jamais lu.",

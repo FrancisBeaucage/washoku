@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "mijote"
@@ -28,7 +29,7 @@
   "romaji": "chikuzenni",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tchi-kou-zèn-ni",
   "langue_origine": "ja",
   "fr": "Poulet et racines mijotés (chikuzenni)",
   "sous_titre": "La seule fiche du recueil où une racine reste croquante après trente minutes de mijotage. C'est le lotus, et c'est pour ça que ce plat existe.",
@@ -171,7 +172,7 @@
   "video": {
     "youtube_id": "_xPNJr1aqvU",
     "auteur": "JapaneseCooking101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R113",

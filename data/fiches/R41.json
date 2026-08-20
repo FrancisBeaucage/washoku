@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "chinoise",
-  "vitesse": "rapide",
+  "registre": "emprunt",
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -26,8 +27,8 @@
   "romaji": "tamago to tomato no sūpu",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
-  "langue_origine": "zh",
+  "prononciation": "ta-ma-go to to-ma-to no sou-pou",
+  "langue_origine": "ja",
   "fr": "Soupe aux œufs et tomate",
   "sous_titre": "Six minutes, six ingrédients.",
   "portions": "2 bols",
@@ -103,11 +104,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomato_je.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Softeis",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tomato_je.jpg"
+  },
   "video": {
     "youtube_id": "pvacqcbDb0Y",
     "auteur": "Wei's Red House Kitchen",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

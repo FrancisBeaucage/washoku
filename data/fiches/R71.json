@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -26,7 +27,7 @@
   "romaji": "kōyadōfu no fukumeni",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "kô-ya-dô-fou no fou-kou-mé-ni",
   "langue_origine": "ja",
   "fr": "Koyadofu mijoté au dashi",
   "sous_titre": "Cinquante grammes de protéines aux cent grammes de produit sec. La meilleure densité protéique de tout le garde-manger asiatique, dans un sachet qui se garde des mois.",
@@ -140,7 +141,7 @@
   "video": {
     "youtube_id": "miEfiWtezkw",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R72",

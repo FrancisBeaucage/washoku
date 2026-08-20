@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -112,11 +113,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_soup-Yukgaejang-01.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "live",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean_soup-Yukgaejang-01.jpg"
+  },
   "video": {
     "youtube_id": "FxSmBbXSDl0",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

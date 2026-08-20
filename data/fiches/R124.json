@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "vapeur"
   ],
@@ -27,7 +28,7 @@
   "romaji": "mugen pīman",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "mou-guèn pî-man",
   "langue_origine": "ja",
   "fr": "Poivrons au thon, trois minutes (mugen pīman)",
   "sous_titre": "Quinze grammes de protéines dans un plat de légume, en six minutes, au micro-ondes. C'est le seul petit plat du recueil qui n'oblige pas à choisir entre le légume et la protéine.",
@@ -127,7 +128,7 @@
   "video": {
     "youtube_id": "JPhGfUWbDkg",
     "auteur": "Sudachi | Japanese Recipes | Yuto Omura",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R119",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "chinoise",
-  "vitesse": "extra-long",
+  "registre": "emprunt",
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "blanchi"
@@ -26,8 +27,8 @@
   "romaji": "gyūniku to burokkorī",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
-  "langue_origine": "zh",
+  "prononciation": "gyou-ni-kou to bou-ro-kko-rî",
+  "langue_origine": "ja",
   "fr": "Bœuf et brocoli",
   "sous_titre": "Le plat le plus familier du recueil, et la meilleure démonstration du velouté. 500 g de brocoli pour 400 g de bœuf — au restaurant, c'est l'inverse.",
   "portions": "2",
@@ -118,11 +119,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef_and_broccoli_stir_fry.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Joy",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beef_and_broccoli_stir_fry.jpg"
+  },
   "video": {
     "youtube_id": "n_0JYAQzYAg",
     "auteur": "Made With Lau",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

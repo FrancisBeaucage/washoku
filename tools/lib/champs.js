@@ -85,6 +85,48 @@ const COUTS_TRAVAIL = ['leger', 'moyen', 'lourd'];
    fiche exacte détruirait de l'information pour les autres lecteurs. */
 const STATUTS_PERSO = ['a-l-essai', 'au-repertoire', 'de-service', 'suspendu', 'ecarte'];
 
+/* QUAND ET COMMENT LE PLAT EST ENTRÉ DANS SA CUISINE — à ne pas confondre avec
+   `cuisine`, qui dit D'OÙ IL VIENT. Les deux font deux métiers différents : R17
+   garde son drapeau chinois ET porte `registre: emprunt`, parce que c'est un
+   plat sino-américain que le japonais nomme en japonais.
+
+   L'ensemble n'a QU'UNE valeur, et `null` — qui veut dire traditionnel — est le
+   cas de la vaste majorité. Ce n'est pas une lacune de conception : c'est le
+   principe du `temps_actif` appliqué dès la conception plutôt qu'après coup.
+   Un champ affiché sur cent quatre-vingt-seize fiches qui porte la même valeur
+   cent quatre-vingt-seize fois n'est pas de l'information, c'est du mobilier.
+
+   LE CRITÈRE, écrit pour que la passe suivante n'ait pas à le réinventer : le
+   registre vaut `emprunt` quand la CULTURE DU PLAT LE NOMME ELLE-MÊME comme
+   venu d'ailleurs — 中華 chūka (le chinois passé au Japon), 洋食 yōshoku
+   (l'occidental passé au Japon), 韓国風 ou フォー風 (« façon coréenne », « façon
+   phở »). Ce n'est pas un jugement de pureté, c'est une information d'histoire.
+
+   ⚠️ UNE FICHE EXAMINÉE ET ÉCARTÉE, avec sa raison, pour que l'absence se lise
+   comme une décision : R57, les nouilles instantanées. C'est un produit
+   industriel de 1958, pas un emprunt — sa lignée passe par le rāmen, qui est
+   chūka, mais le plat a été inventé sur place. Le jour où une valeur `moderne`
+   s'ajoute, R57 est son premier cas. Document 34, S37. */
+const REGISTRES = ['emprunt'];
+
+/* LE BOL DE RIZ QUE LE PLAT REMPLACE, OU N'AUTORISE QU'À MOITIÉ. La règle
+   vivait dans la prose de trois fiches, où aucun filtre ne la voyait : R104
+   (« pas de riz, ou un demi-bol »), R113 (« le bol de riz saute »), R131 (« il
+   EST le bol de riz »). Et R114 portait le contre-exemple — ses racines gardent
+   leur bol, « parce que c'est de la fibre et de l'eau, pas de l'amidon ».
+
+   `null` veut dire que le plat s'accompagne d'un bol de riz normal, et c'est la
+   valeur de la vaste majorité : encore une fois, le champ ne parle que quand il
+   a quelque chose à dire.
+
+   CRITÈRE : `non` quand le plat porte lui-même le féculent — le riz ou les
+   nouilles sont dedans — ou quand il apporte assez d'amidon pour occuper le
+   quart féculent. `demi` quand la fiche l'a écrit. Le test est L'AMIDON, PAS LA
+   FORME : pomme de terre, patate douce, taro et kabocha occupent le quart
+   féculent ; daikon, lotus, gobo et carotte occupent le quart légume.
+   Document 34, S39. */
+const BOLS_DE_RIZ = ['demi', 'non'];
+
 /* La langue d'origine du nom du plat ou du produit. Elle existe parce qu'un
    champ japonais OBLIGATOIRE sur une fiche de yogourt grec est un signe que le
    schéma croit encore que le dossier est uniquement japonais : un champ qu'on
@@ -227,6 +269,17 @@ const LIBELLES = {
     autre: 'Ailleurs',
   },
   cout_travail: { leger: 'Léger', moyen: 'Moyen', lourd: 'Lourd' },
+  /* 🔴 UN MOT, PAS UN PICTOGRAMME, et la contrainte vient du V1 du document 33 :
+     le drapeau a rendu un CARRÉ sur un navigateur sans police d'émoji, et
+     l'origine avait disparu de la carte. Une marque qui dépend d'une police
+     n'est pas une marque. « emprunt » est en minuscules parce qu'il se lit à la
+     suite du drapeau au surtitre, où le reste de la ligne est déjà capitalisé
+     par la CSS. Document 34, S37. */
+  registre: { emprunt: 'emprunt' },
+  /* Les deux se lisent à la suite de « Bol de riz », donc ce sont des réponses
+     et non des noms. `null` ne s'affiche pas du tout : un plat qui prend son bol
+     entier est le cas normal, et l'absence de mention le dit aussi bien. */
+  bol_de_riz: { demi: 'un demi', non: 'aucun' },
   /* Une préposition et non un nom de langue : le libellé se lit à la suite de
      « Démonstration par X », où « Indonésien » ne se serait pas rendu. */
   video_langue: {
@@ -351,6 +404,39 @@ function minutes(v) {
   return 0;
 }
 
+/* 🔴 `vitesse` SE DÉRIVE DU TEMPS TOTAL. Elle a été un champ écrit à la main
+   jusqu'au document 34, et elle avait dérivé sur un quart du corpus : un plat
+   `rapide` à cinquante minutes et un plat `moyen` à seize coexistaient. Les
+   classes se chevauchaient contre les DEUX lectures possibles du champ, donc
+   elle n'était fonction d'aucun temps — c'était une étiquette posée fiche par
+   fiche, et rien ne la rattachait à quoi que ce soit de vérifiable.
+
+   LE TEMPS MESURÉ EST LE TEMPS ÉCOULÉ, ET C'EST LE BON CHOIX : une soupe d'une
+   heure quarante-cinq ne s'insère pas dans un mardi soir, même si elle ne
+   demande que vingt minutes de présence. Le temps de PRÉSENCE a son propre
+   champ dérivé, `temps_actif`, écrit seulement quand il apprend quelque chose.
+   Le S38 du document 34 note que la correction inverse — dériver `vitesse` du
+   temps actif — avait été envisagée, et que c'est le commentaire déjà écrit ici
+   qui l'a arrêtée. Une décision motivée par écrit résiste à la révision
+   suivante ; une décision tacite non.
+
+   LES SEUILS SONT UN CHOIX DE GOÛT, PAS UN FAIT, et ils sont ici pour qu'on
+   puisse les déplacer d'un seul endroit. Ceux-ci étalent la distribution, ce qui
+   est le but d'un filtre : la classe `rapide` en portait plus du tiers du
+   recueil à elle seule avant qu'on les pose. */
+const SEUILS_VITESSE = [
+  [10, 'ultra-rapide'],
+  [20, 'rapide'],
+  [35, 'moyen'],
+  [60, 'long'],
+];
+
+/** Le total en minutes → la classe de vitesse. Au-delà du dernier seuil : `extra-long`. */
+function vitesse(total) {
+  for (const [borne, classe] of SEUILS_VITESSE) if (total <= borne) return classe;
+  return VITESSES.xl;
+}
+
 /** La borne basse d'un temps : le nombre lui-même, ou `min` d'une fourchette. */
 function minutesMin(v) {
   if (v == null) return 0;
@@ -385,8 +471,10 @@ module.exports = {
   CUISINES, VITESSES, CATEGORIES, LIBELLES, codeCuisine, LECTEUR,
   TYPES_DE_PLAT, METHODES, AXES_GOUT, AXES_TEXTURE, MOMENTS,
   COUTS_TRAVAIL, STATUTS_PERSO, LANGUES, LANGUE_PAR_CUISINE, LANGUES_VIDEO,
+  REGISTRES, BOLS_DE_RIZ,
   BASES_NUTRITION, ZONES_MAGASIN,
   minutes, minutesMin, minutesTexte, SEPARATEUR_PARAGRAPHE, paragraphes,
+  SEUILS_VITESSE, vitesse,
   limace,
   CUISINES_INV: inverse(CUISINES), VITESSES_INV: inverse(VITESSES), CATEGORIES_INV: inverse(CATEGORIES),
   nombre, extraireSante, remettreSante,

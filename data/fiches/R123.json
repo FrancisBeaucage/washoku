@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -27,7 +28,7 @@
   "romaji": "hijiki no nimono",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "hi-dji-ki no ni-mo-no",
   "langue_origine": "ja",
   "fr": "Hijiki mijotée (hijiki no nimono)",
   "sous_titre": "Le petit plat de conservation le plus classique du répertoire japonais — et le seul du recueil qui vienne avec un avertissement d'agence alimentaire.",
@@ -142,7 +143,7 @@
   "video": {
     "youtube_id": "ptrh3C5cIqk",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R66",

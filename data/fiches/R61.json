@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -24,7 +25,7 @@
   "romaji": "tsuna no ponzu-ae",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tsou-na no pon-zou-a-é",
   "langue_origine": "ja",
   "fr": "Thon germon assaisonné au ponzu",
   "sous_titre": "Un kobachi de conserve, monté en trois minutes. La leçon de la fiche est dans le geste : le ponzu est mélangé au thon, pas versé dessus. Kobachi, mais dense en protéines — celui-là peut porter un dîner, accompagné de riz et d'une soupe.",
@@ -126,7 +127,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuna_can.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Pavel Ševela",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tuna_can.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

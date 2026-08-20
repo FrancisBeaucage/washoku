@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "extra-long",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "bouilli"
   ],
@@ -25,7 +26,7 @@
   "romaji": "kome no togikata",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ko-mé no to-gui-ka-ta",
   "langue_origine": "ja",
   "fr": "Le riz : rinçage et cuisson",
   "sous_titre": "Le rinçage n'est pas facultatif. Il enlève l'amidon de surface qui rend le riz gommant, une partie de l'arsenic inorganique, et les poussières de mouture.",
@@ -36,7 +37,7 @@
     "cuisson": 15,
     "attente": 40
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se congèle en rondelles de 140 g : un mois pour la texture, deux au maximum. Emballer le riz encore chaud mais asséché en surface.",
   "nutrition": {
     "proteines_g": 3,
     "proteines_affiche": "3 g / portion",
@@ -149,11 +150,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Short-grain_rice_%28japonica%29.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "ch1310",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Short-grain_rice_(japonica).jpg"
+  },
   "video": {
     "youtube_id": "xjkottdHL_k",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": []
 }

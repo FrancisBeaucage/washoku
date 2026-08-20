@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "blanchi"
   ],
@@ -25,7 +26,7 @@
   "romaji": "yudekata",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "you-dé-ka-ta",
   "langue_origine": "ja",
   "fr": "Le blanchiment des verdures",
   "sous_titre": "Le geste dépend de la structure du légume. Deux familles, deux protocoles : les verdures molles (épinard, komatsuna, mizuna, cresson) et les verdures à tiges (bok choy, chou nappa, gai lan, choy sum). C'est la base de l'ohitashi.",
@@ -36,7 +37,7 @@
     "cuisson": 10,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Trois jours au réfrigérateur, contenant fermé, un essuie-tout au fond : les verdures continuent de rendre de l'eau.",
   "nutrition": {
     "proteines_g": null,
     "proteines_affiche": "—",
@@ -133,11 +134,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Rasbak",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spinacia_oleracea_Spinazie_bloeiend.jpg"
+  },
   "video": {
     "youtube_id": "DfFv9gTxrbs",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

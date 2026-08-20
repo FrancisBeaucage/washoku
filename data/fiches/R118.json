@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "blanchi",
     "cru"
@@ -29,7 +30,7 @@
   "romaji": "hiya-shabu",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "hi-ya-cha-bou",
   "langue_origine": "ja",
   "fr": "Porc blanchi froid sur crudités (hiya-shabu)",
   "sous_titre": "La seule cuisson du recueil qui retire du gras au lieu d'en ajouter : quarante secondes d'eau bouillante, et le gras du porc part dans la casserole.",
@@ -133,7 +134,7 @@
   "video": {
     "youtube_id": "Y8v76bt4zsk",
     "auteur": "ochikeron",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R24",

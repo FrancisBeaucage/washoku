@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "collation",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "collation",
+  "bol_de_riz": null,
   "methode": [
     "bouilli"
   ],
@@ -25,7 +26,7 @@
   "romaji": "edamame",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "é-da-ma-mé",
   "langue_origine": "ja",
   "fr": "Edamames — en cosses et écossées",
   "sous_titre": "Acheter nature congelés, pas salés — on dose soi-même. En cosses, décortiquer ralentit le rythme, ce qui fait partie de l'intérêt. Écossées, c'est un ingrédient : au bol, à la soupe, au donburi. Les deux formats ne s'assaisonnent pas de la même façon.",
@@ -113,11 +114,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edamame_in_a_tray.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Jiafei Slay Queen",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edamame_in_a_tray.jpg"
+  },
   "video": {
     "youtube_id": "zBnR0bdU_JM",
     "auteur": "Japanese Cooking 101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

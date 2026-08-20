@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "bouilli",
     "sans-cuisson"
@@ -25,7 +26,7 @@
   "romaji": "hijō chōshoku",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "hi-djô tchô-cho-kou",
   "langue_origine": "ja",
   "fr": "Le déjeuner d'urgence",
   "sous_titre": "Ce n'est pas de la cuisine. C'est mieux que rien, et infiniment mieux qu'un muffin.",
@@ -88,7 +89,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Asage(Instant%20miso%20soup).jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "多摩に暇人",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Asage(Instant_miso_soup).jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

@@ -1,0 +1,173 @@
+{
+  "id": "R169",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "registre": "emprunt",
+  "type_de_plat": "plat-principal",
+  "bol_de_riz": "demi",
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "doux"
+  ],
+  "axe_texture": [
+    "fondant",
+    "moelleux"
+  ],
+  "moment": [
+    "souper"
+  ],
+  "slug": "curry-de-kabocha-et-porc-sans-farine-kabocha-kare",
+  "jp": "かぼちゃカレー",
+  "jp_lecture": "かぼちゃカレー",
+  "romaji": "kabocha karē",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": "ka-bo-tcha ka-rê",
+  "langue_origine": "ja",
+  "fr": "Curry de kabocha et porc, sans farine (kabocha karē)",
+  "sous_titre": "Ici, il n'y a pas de farine du tout : la courge EST l'épaississant. Un tiers des cubes se défait, et c'est la sauce.",
+  "portions": "4",
+  "temps_affiche": "≈ 50 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 30,
+    "attente": 0
+  },
+  "preparation_avance": "Se garde trois jours au réfrigérateur. NE SE CONGÈLE PAS BIEN : la courge rend son eau au dégel et la sauce se sépare. C'est l'inverse de R168, qui se congèle justement parce qu'il ne porte pas de féculent fondant.",
+  "nutrition": {
+    "proteines_g": 28,
+    "proteines_affiche": "28 g",
+    "calories": 372,
+    "calories_affiche": "≈ 372",
+    "lipides_g": 19,
+    "sodium_mg": 269,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion, sans le riz. À LA DOSE ÉCRITE : une cuillère à soupe de sauce soya réduite en sodium à 500 mg et un quart de cuillère à thé de sel à 575 mg, pour QUATRE portions. Comparé nommément et vérifié dans les fiches : le curry de poulet de R168 est à 270 mg, le nikujaga de R113 à 380. LES 19 G DE LIPIDES VIENNENT DE L'ÉPAULE DE PORC, et c'est le poste à connaître : la même recette au haut de cuisse de poulet descend autour de 14 g. Ordres de grandeur : cette recette n'a pas encore été exécutée."
+  },
+  "ingredients": [
+    {
+      "texte": "600 g de kabocha en cubes de 3 cm, AVEC LA PEAU",
+      "sante": true,
+      "sante_pos": 47
+    },
+    {
+      "texte": "500 g d'épaule de porc maigre en cubes de 2 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 oignons (environ 300 g), en demi-lunes",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 c. à soupe de poudre de cari",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de garam masala, hors du feu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "600 ml de dashi ou de bouillon non salé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce soya réduite en sodium",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE FARINE, aucun roux : voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T25"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Huile, oignons, feu moyen, quinze minutes jusqu'au blond."
+    },
+    {
+      "n": 2,
+      "texte": "Monter le feu, saisir le porc. Six minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Poudre de cari DIRECTEMENT SUR LA VIANDE ET LES OIGNONS, une minute en remuant. Elle doit sentir le grillé, pas la poussière."
+    },
+    {
+      "n": 4,
+      "texte": "Bouillon, soya, sel, mirin. Frémissement."
+    },
+    {
+      "n": 5,
+      "texte": "Ajouter le kabocha. Couvrir. VINGT MINUTES SANS REMUER — c'est ce qui décide si la courge tient ou se défait."
+    },
+    {
+      "n": 6,
+      "texte": "Découvrir. Écraser à la cuillère UN TIERS DES CUBES contre la paroi de la marmite, laisser les autres entiers. Cinq minutes à découvert."
+    },
+    {
+      "n": 7,
+      "texte": "Feu coupé, garam masala, repos couvert deux minutes."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "La courge est le roux, et le geste de l'étape 6 est toute la recette",
+      "texte": "UN CURRY SANS FARINE N'EST PAS UN CURRY ALLÉGÉ : C'EST UN CURRY ÉPAISSI AUTREMENT. Le kabocha porte de l'amidon et de la pectine. Vingt minutes à couvert, sans remuer, et les cubes du fond sont déjà sur le point de se défaire. On en écrase un tiers volontairement : ils deviennent la sauce, les deux autres tiers restent des morceaux qu'on reconnaît sous la dent. Une purée entière serait une soupe, des cubes intacts seraient un bouillon.\n\nPOURQUOI SANS REMUER. Chaque coup de cuillère pendant la cuisson casse des arêtes de cubes, et ces arêtes se dissolvent. On perd le contraste et on obtient une bouillie homogène — le même piège que le sambal passé au mélangeur. Le geste se fait à la fin, une seule fois, et on choisit quels cubes il touche.\n\nLA PEAU RESTE, ET CE N'EST PAS PAR PRINCIPE. Elle tient les cubes ensemble pendant le mijotage : c'est elle qui permet aux deux tiers de survivre à vingt minutes. Elle se mange, elle est tendre, et elle porte de la fibre. Le seul vrai travail de cette recette est de couper une courge dure en cubes — vingt minutes de préparation, presque toutes là."
+    },
+    {
+      "titre": "Cent cinquante grammes de courge par portion, donc un demi-bol de riz",
+      "texte": "LE KABOCHA EST UN FÉCULENT, PAS UN LÉGUME VERT, et le dossier a déjà tranché ce test : le critère est l'amidon, pas la forme. Pomme de terre, patate douce, taro et kabocha occupent le quart féculent. Daikon, lotus, gobo et carotte occupent le quart légume. Cent cinquante grammes de courge par portion, c'est une moitié de rondelle de riz en glucides.\n\nD'OÙ LE CHAMP BOL DE RIZ À DEMI, ET C'EST LA DIFFÉRENCE AVEC R168. Le curry de poulet ne porte aucun féculent, donc il prend sa rondelle entière. Celui-ci en porte la moitié. Le contraste avec R114 est instructif : le chikuzenni est aussi un mijoté de racines, et il GARDE son bol entier, parce que le lotus, le gobo et la carotte sont de la fibre et de l'eau.\n\nAUCUNE VIDÉO POUR CETTE FICHE, ET C'EST UNE DÉCISION. Ce qui existe est soit du curry thaï à la noix de coco, soit du curry japonais monté au bloc avec de la courge dedans. Rien qui montre le geste de l'étape 6. La vidéo de T25 montre le principe du roux sec, celle de R168 le montage d'un curry japonais complet : les deux ensemble valent mieux qu'une vidéo qui montrerait le contraire de la fiche."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "photo_credit": null,
+  "video": {
+    "youtube_id": null,
+    "auteur": null,
+    "langue": null
+  },
+  "voir_aussi": [
+    "R168",
+    "T25",
+    "R114",
+    "R113"
+  ],
+  "commentaire_source": ""
+}

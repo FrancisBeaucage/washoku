@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "collation",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "collation",
+  "bol_de_riz": null,
   "methode": [
     "fermente"
   ],
@@ -26,7 +27,7 @@
   "romaji": "umeboshi",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ou-mé-bo-chi",
   "langue_origine": "ja",
   "fr": "Umeboshi",
   "sous_titre": "Prune salée fermentée. Le choc acide-salé casse une rage de sucre de façon étonnamment efficace.",
@@ -75,7 +76,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Umeboshi2.JPG?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Haragayato",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Umeboshi2.JPG"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

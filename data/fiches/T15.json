@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "chinoise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "mijote",
     "saute"
@@ -25,7 +26,7 @@
   "romaji": null,
   "nom_origine": "红烧",
   "lecture_origine": "hóngshāo",
-  "prononciation": null,
+  "prononciation": "hong-chao",
   "langue_origine": "zh",
   "fr": "Le braisage rouge (hongshao)",
   "sous_titre": "Le premier braisage du recueil. Son plat emblème est incompatible avec ce dossier; la technique, elle, est parfaitement récupérable — et c'est une distinction qui mérite d'être comprise.",
@@ -140,7 +141,7 @@
   "video": {
     "youtube_id": "EA2Mx1m7NAI",
     "auteur": "Chinese Cooking Demystified",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

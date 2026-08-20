@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "sans-cuisson"
   ],
@@ -27,7 +28,7 @@
   "romaji": "donburi no kōshiki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "don-bou-ri no kô-chi-ki",
   "langue_origine": "ja",
   "fr": "La formule donburi",
   "sous_titre": "Ce n'est pas une recette, c'est un gabarit. Choisir une colonne de chaque. Trois protéines préparées le dimanche — poisson grillé (R14), poulet grillé (R49) et œufs marinés (T7) — donnent cinq dîners différents.",
@@ -127,7 +128,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyudon_by_jetalone_in_Higashi-Ginza%2C_Tokyo.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "jetalone from Higashi-Ginza, Tokyo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyudon_by_jetalone_in_Higashi-Ginza,_Tokyo.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

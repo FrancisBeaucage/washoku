@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "collation",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "collation",
+  "bol_de_riz": null,
   "methode": [
     "cru"
   ],
@@ -23,7 +24,7 @@
   "romaji": "nashi",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "na-chi",
   "langue_origine": "ja",
   "fr": "Poire asiatique et fruits",
   "sous_titre": "Le fruit est le dessert par défaut en Asie. Poire asiatique (nashi), mikan ou kaki selon la saison.",
@@ -72,7 +73,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashi_pear.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Pazuzu",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nashi_pear.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

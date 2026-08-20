@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": "emprunt",
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -27,7 +28,7 @@
   "romaji": "tōfu hanbāgu",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tô-fou han-bâ-gou",
   "langue_origine": "ja",
   "fr": "Galette de poulet et tofu (tōfu hanbāgu)",
   "sous_titre": "Cent quatre-vingt-dix milligrammes de sodium pour trente-six grammes de protéines. C'est le plat principal le moins salé du recueil japonais, et c'est le tofu qui le permet.",
@@ -153,7 +154,7 @@
   "video": {
     "youtube_id": "SeN1_u-du0w",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R117",

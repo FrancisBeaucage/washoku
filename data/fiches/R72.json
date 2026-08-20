@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "blanchi"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "콩나물무침",
   "lecture_origine": "kongnamul muchim",
-  "prononciation": null,
+  "prononciation": "kong-na-moul mou-tchim",
   "langue_origine": "ko",
   "fr": "Namul de germes de soya (kongnamul muchim)",
   "sous_titre": "Le banchan national de la Corée, et le patron des six autres. Se garde quatre jours, tient son sodium dans un seul quart de cuillère à thé, et débloque à lui seul la session du dimanche.",
@@ -134,7 +135,7 @@
   "video": {
     "youtube_id": "NWfhIq_MiiU",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

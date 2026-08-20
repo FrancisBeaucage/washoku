@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -25,7 +26,7 @@
   "romaji": "shirataki itame",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "chi-ra-ta-ki i-ta-mé",
   "langue_origine": "ja",
   "fr": "Nouilles konjac aux légumes",
   "sous_titre": "Les shirataki font environ 5 calories aux 100 g. L'étape 2 n'est pas facultative.",
@@ -98,11 +99,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wet_shirataki_noodles.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "DaveM93",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wet_shirataki_noodles.jpg"
+  },
   "video": {
     "youtube_id": "qkv_CxkdWB4",
     "auteur": "Yeung Man Cooking",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

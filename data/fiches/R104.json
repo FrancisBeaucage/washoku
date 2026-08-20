@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "demi",
   "methode": [
     "mijote"
   ],
@@ -25,7 +26,7 @@
   "romaji": null,
   "nom_origine": "닭볶음탕",
   "lecture_origine": "dakbokkeumtang",
-  "prononciation": null,
+  "prononciation": "tak-bok-keum-tang",
   "langue_origine": "ko",
   "fr": "Poulet braisé épicé aux pommes de terre (dakbokkeumtang)",
   "sous_titre": "La pomme de terre n'est pas un légume ici, c'est le féculent du repas. C'est ce qui décide du montage de l'assiette — et ça retire le bol de riz.",
@@ -130,7 +131,7 @@
   "video": {
     "youtube_id": "bDXL_g6kJ5U",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R83",

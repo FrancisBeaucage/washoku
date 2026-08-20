@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -24,7 +25,7 @@
   "romaji": "sakana no nitsuke",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "sa-ka-na no ni-tsou-ké",
   "langue_origine": "ja",
   "fr": "Poisson mijoté au gingembre",
   "sous_titre": "Mijoté dans soya, mirin et gingembre. Le poisson ne se retourne jamais.",
@@ -98,11 +99,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellowtail%20Kingfish%20and%20tofu%20simmered%20in%20soy%20sauce%20-%20%E5%B1%B1%E5%AE%B6%20Yama-ya.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "avlxyz",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yellowtail_Kingfish_and_tofu_simmered_in_soy_sauce_-_%E5%B1%B1%E5%AE%B6_Yama-ya.jpg"
+  },
   "video": {
     "youtube_id": "KG8pBlF2Lsg",
     "auteur": "Sudachi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

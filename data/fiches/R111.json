@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -26,7 +27,7 @@
   "romaji": "nikudōfu",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ni-kou-dô-fou",
   "langue_origine": "ja",
   "fr": "Bœuf et tofu mijotés (nikudōfu)",
   "sous_titre": "Quarante-quatre grammes de protéines par portion, la plus haute valeur de tout le recueil japonais — parce que deux sources de protéines mijotent dans la même casserole.",
@@ -150,7 +151,7 @@
   "video": {
     "youtube_id": "SU3ahRyWihk",
     "auteur": "JapaneseCooking101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R115",

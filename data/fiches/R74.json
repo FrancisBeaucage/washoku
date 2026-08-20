@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "thaie",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "poche",
     "mijote"
@@ -28,7 +29,7 @@
   "romaji": null,
   "nom_origine": "แกงจืด",
   "lecture_origine": "gaeng jued",
-  "prononciation": null,
+  "prononciation": "gèng-tcheut",
   "langue_origine": "th",
   "fr": "Soupe claire au porc et aux vermicelles (gaeng jued)",
   "sous_titre": "L'équivalent thaï exact du ichiju. Sans elle, aucun repas thaï n'est construisible; avec elle, tous les autres plats thaïs deviennent des sansai.",
@@ -161,7 +162,7 @@
   "video": {
     "youtube_id": "PV__ThYw6VI",
     "auteur": "Pailin's Kitchen",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

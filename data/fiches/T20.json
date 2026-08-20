@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "blanchi",
     "cru"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "나물",
   "lecture_origine": "namul",
-  "prononciation": null,
+  "prononciation": "na-moul",
   "langue_origine": "ko",
   "fr": "Le patron namul — légumes assaisonnés à la main",
   "sous_titre": "Un seul mécanisme, six légumes, quatre jours de conservation. Une session de quarante-cinq minutes le dimanche produit quatre ou cinq accompagnements pour la semaine.",
@@ -38,7 +39,7 @@
     "cuisson": 5,
     "attente": 5
   },
-  "preparation_avance": null,
+  "preparation_avance": "Trois à quatre jours au réfrigérateur, contenant fermé.",
   "nutrition": {
     "proteines_g": 3,
     "proteines_affiche": "3 g",
@@ -118,7 +119,7 @@
   "video": {
     "youtube_id": "P4JgJec4QQI",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

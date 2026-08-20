@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "poche"
   ],
@@ -27,7 +28,7 @@
   "romaji": "mushidori",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "mou-chi-do-ri",
   "langue_origine": "ja",
   "fr": "Poulet poché à froid (mushidori)",
   "sous_titre": "Cinq minutes de feu, quarante minutes où l'on ne fait rien, et la brique protéique la moins chère du recueil. Trente-trois grammes de protéines pour trois grammes de lipides.",
@@ -128,14 +129,14 @@
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%A5%9E%E6%88%B8%E5%BA%83%E6%9D%B1%E6%96%99%E7%90%86%E6%82%A0%E8%8B%91%E3%81%95%E3%82%93%E3%81%AE%E8%92%B8%E3%81%97%E9%B6%8F%E3%81%AE%E5%86%B7%E8%8F%9C_2013-04-11_18-06.jpg?width=1200",
   "photo_credit": {
-    "auteur": "User:Eharayuuji",
+    "auteur": "Eharayuuji",
     "licence": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E6%88%B8%E5%BA%83%E6%9D%B1%E6%96%99%E7%90%86%E6%82%A0%E8%8B%91%E3%81%95%E3%82%93%E3%81%AE%E8%92%B8%E3%81%97%E9%B6%8F%E3%81%AE%E5%86%B7%E8%8F%9C_2013-04-11_18-06.jpg"
   },
   "video": {
     "youtube_id": "zR17Tc-V3sw",
     "auteur": "JapaneseCooking101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R72",

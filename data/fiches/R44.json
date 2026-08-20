@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "blanchi"
   ],
@@ -25,7 +26,7 @@
   "romaji": "goma-ae",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "go-ma-a-é",
   "langue_origine": "ja",
   "fr": "Goma-ae — légumes blanchis au sésame",
   "sous_titre": "Le petit plat le plus courant du répertoire. Trois ingrédients, cinq minutes, à partir de légumes déjà blanchis. L'étape qui fait tout : écraser les graines de sésame au mortier — c'est ce qui libère l'huile et fait la sauce.",
@@ -36,7 +37,7 @@
     "cuisson": 2,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Le légume blanchi se garde NATURE. L'assaisonnement se fait à l'assiette, portion par portion.",
   "nutrition": {
     "proteines_g": 4,
     "proteines_affiche": "4 g",
@@ -119,11 +120,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Goma-ae_salad.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Alice Seba (vegetarianlost.com)",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Goma-ae_salad.jpg"
+  },
   "video": {
     "youtube_id": "CvOoXbwUySI",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

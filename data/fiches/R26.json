@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "chinoise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "mijote",
     "saute"
@@ -113,11 +114,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chen_Mapo_Tofu.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "ZhengZhou",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chen_Mapo_Tofu.jpg"
+  },
   "video": {
     "youtube_id": "AujuLHK3hvs",
     "auteur": "Chinese Cooking Demystified",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

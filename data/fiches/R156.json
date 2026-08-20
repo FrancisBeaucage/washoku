@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "vietnamienne",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "vapeur"
@@ -39,7 +40,7 @@
     "cuisson": 4,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "NE SE GARDE QUE DEUX JOURS : les tiges creuses se vident et deviennent molles.",
   "nutrition": {
     "proteines_g": 3,
     "proteines_affiche": "3 g",
@@ -133,7 +134,7 @@
   "video": {
     "youtube_id": "mrZzS5aUHOA",
     "auteur": "Helen's Recipes (Vietnamese Food)",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R143",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "chinoise",
-  "vitesse": "extra-long",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "炖 · 煲",
   "lecture_origine": "dùn · bāo",
-  "prononciation": null,
+  "prononciation": "doun · bao",
   "langue_origine": "zh",
   "fr": "Le mijotage long (dun, bao)",
   "sous_titre": "Quinze minutes de travail, deux heures de feu doux sans surveillance. C'est le seul format du recueil qui échappe au plafond de quarante-cinq minutes — parce que le temps n'est pas du travail.",
@@ -127,7 +128,7 @@
   "video": {
     "youtube_id": "IN0b81cVHsI",
     "auteur": "Made With Lau",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

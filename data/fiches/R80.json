@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "indonesienne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "tumis tempe kacang panjang",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tou-miss tèm-pé ka-tchang pan-djang",
   "langue_origine": "id",
   "fr": "Tempé saisi aux haricots longs",
   "sous_titre": "Vingt grammes de protéines aux cent grammes, il se tranche et se saisit comme une viande, et il est produit à Montréal. Aucun soya du recueil ne fait ça.",

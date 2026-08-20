@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "marine",
     "grille"
@@ -25,7 +26,7 @@
   "romaji": "saikyo-yaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "saï-kyo-ya-ki",
   "langue_origine": "ja",
   "fr": "Poisson mariné au miso",
   "sous_titre": "Le plat le plus impressionnant du recueil pour l'effort le plus faible. Cinq minutes de travail, deux jours d'attente.",
@@ -91,11 +92,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salmon_Saikyo-Yaki.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Totti",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salmon_Saikyo-Yaki.jpg"
+  },
   "video": {
     "youtube_id": "a_YTAcSZOPw",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": "\n"

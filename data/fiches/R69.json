@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "thaie",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "grille",
     "cru"
@@ -28,7 +29,7 @@
   "romaji": null,
   "nom_origine": "น้ำตกเนื้อ",
   "lecture_origine": "nam tok nuea",
-  "prononciation": null,
+  "prononciation": "nam-tok neu-a",
   "langue_origine": "th",
   "fr": "Salade de bœuf grillé « cascade » (nam tok)",
   "sous_titre": "Le meilleur rapport protéines-sodium de tout le recueil, et il n'y a rien à ajuster. Quarante-cinq grammes de protéines, cinq cent vingt milligrammes de sodium, vingt minutes.",
@@ -142,7 +143,7 @@
   "video": {
     "youtube_id": "v_4bz49MGow",
     "auteur": "Cooking With Khon Khao",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R70"

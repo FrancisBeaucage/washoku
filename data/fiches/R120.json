@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "blanchi"
   ],
@@ -26,7 +27,7 @@
   "romaji": "okaka-ae",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "o-ka-ka-a-é",
   "langue_origine": "ja",
   "fr": "Légumes au katsuobushi (okaka-ae)",
   "sous_titre": "Le petit plat le plus rapide du recueil : six minutes, trois ingrédients, et une famille de goût que ni le sésame ni le dashi ne couvrent.",

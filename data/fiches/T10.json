@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "extra-long",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -24,7 +25,7 @@
   "romaji": "kiriboshi",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ki-ri-bo-chi",
   "langue_origine": "ja",
   "fr": "Le séchage du daikon",
   "sous_titre": "Un daikon est trop gros pour deux personnes. Le séchage est la façon dont la cuisine japonaise a réglé ce problème avant les réfrigérateurs — et il transforme le goût en même temps qu'il conserve.",
@@ -35,7 +36,7 @@
     "cuisson": 0,
     "attente": 480
   },
-  "preparation_avance": null,
+  "preparation_avance": "Une à deux semaines au réfrigérateur. Ce n'est pas une conserve : c'est une façon de régler un reste de daikon en un après-midi.",
   "nutrition": {
     "proteines_g": null,
     "proteines_affiche": "—",
@@ -124,7 +125,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dried_strips_of_radish.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Pieria(Uploader and Photographer)",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Dried_strips_of_radish.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

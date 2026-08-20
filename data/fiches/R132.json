@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "vapeur",
     "grille"
@@ -27,7 +28,7 @@
   "romaji": "sake no chanchanyaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "sa-ké no tchan-tchan-ya-ki",
   "langue_origine": "ja",
   "fr": "Saumon au miso sur lit de chou (chanchanyaki)",
   "sous_titre": "Une poêle, un couvercle, quinze minutes. Et un ajustement qui enlève deux cents calories sans que le plat s'en aperçoive : pas de beurre.",
@@ -149,7 +150,7 @@
   "video": {
     "youtube_id": "ydQ7d-VBiFM",
     "auteur": "Cooking with Dog",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R100",

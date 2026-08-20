@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "thaie",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "bouilli",
     "poche"
@@ -39,7 +40,7 @@
     "cuisson": 13,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "L'AIL FRIT SE FAIT D'AVANCE ET SE GARDE DEUX SEMAINES : ail émincé dans deux cuillères à soupe d'huile à feu doux jusqu'au blond, égoutté. La soupe, elle, se fait au moment.",
   "nutrition": {
     "proteines_g": 34,
     "proteines_affiche": "34 g",

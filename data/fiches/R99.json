@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "계란말이",
   "lecture_origine": "gyeranmari",
-  "prononciation": null,
+  "prononciation": "kyé-ran-ma-ri",
   "langue_origine": "ko",
   "fr": "Omelette roulée coréenne (gyeranmari)",
   "sous_titre": "Dix-neuf grammes de protéines dont tout le sel tient dans un quart de cuillère à thé — donc dosable, contrairement au reste du répertoire coréen. Et ça se mange froid.",
@@ -129,7 +130,7 @@
   "video": {
     "youtube_id": "kN89ewZjOR8",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R75",

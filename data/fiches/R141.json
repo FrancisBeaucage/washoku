@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "chinoise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "vapeur"
   ],
@@ -128,7 +129,7 @@
   "video": {
     "youtube_id": "JAo99RBfmT4",
     "auteur": "Made With Lau",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R7",

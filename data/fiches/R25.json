@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "chinoise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -107,11 +108,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ping_SJ_hot_%26_sour_soup.JPG?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "BrokenSphere",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ping_SJ_hot_&_sour_soup.JPG"
+  },
   "video": {
     "youtube_id": "8eMk9yTm_34",
     "auteur": "Omnivore's Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

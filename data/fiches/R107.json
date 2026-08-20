@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "mijote"
@@ -28,7 +29,7 @@
   "romaji": "tori soboro",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "to-ri so-bo-ro",
   "langue_origine": "ja",
   "fr": "Soboro de poulet",
   "sous_titre": "Quatre portions de protéine assaisonnée, faites en douze minutes, qui se gardent quatre jours au frigo. C'est la brique du dossier contre le plancher de 130 grammes.",

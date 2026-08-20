@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "condiment",
+  "bol_de_riz": null,
   "methode": [
     "vapeur",
     "marine"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "깻잎찜",
   "lecture_origine": "kkaennip jjim",
-  "prononciation": null,
+  "prononciation": "kèn-nip tchim",
   "langue_origine": "ko",
   "fr": "Feuilles de périlla marinées (kkaennip jjim)",
   "sous_titre": "Deux à trois semaines au frigo, quarante milligrammes de sodium par portion réelle. Ce n'est pas un légume, c'est un condiment à riz — et c'est la distinction qui décide de la portion.",
@@ -102,7 +103,7 @@
   "video": {
     "youtube_id": "-ycTDIUhsfM",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R53"

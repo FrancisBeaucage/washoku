@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "laotienne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "cru"
   ],
@@ -139,7 +140,7 @@
   "video": {
     "youtube_id": "4e2JEcfm7DI",
     "auteur": "Cooking With Khon Khao",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R149",

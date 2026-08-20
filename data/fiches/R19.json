@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -25,7 +26,7 @@
   "romaji": "oyakodon",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "o-ya-ko-don",
   "langue_origine": "ja",
   "fr": "Oyakodon",
   "sous_titre": "Littéralement « bol parent-enfant » — le poulet et l'œuf. Les œufs doivent rester baveux : c'est la signature du plat, pas une cuisson incomplète.",
@@ -126,11 +127,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Oyakodon_003.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Ocdp",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oyakodon_003.jpg"
+  },
   "video": {
     "youtube_id": "Vlp6ufKYDzk",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

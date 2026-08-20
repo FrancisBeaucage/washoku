@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "bouilli",
     "mijote"
@@ -27,7 +28,7 @@
   "romaji": "kakejiru",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ka-ké-dji-rou",
   "langue_origine": "ja",
   "fr": "Nouilles en bouillon dashi (kakejiru)",
   "sous_titre": "かけ汁 kake-jiru, « le bouillon versé ». La formule de base de tous les udon et soba en soupe : trois ingrédients pour le bouillon, tout le reste est modulable. C'est la fiche qui rentabilise ta T2 — et la vraie alternative à R57, en 8 minutes, avec des nouilles sèches ordinaires qu'on trouve partout.",
@@ -38,7 +39,7 @@
     "cuisson": 5,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "Le bouillon se fait en lot et se garde quatre à cinq jours au réfrigérateur.",
   "nutrition": {
     "proteines_g": 38,
     "proteines_affiche": "~38 g",
@@ -153,11 +154,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kake%20soba%20with%20sansai%20by%20jetalone%20in%20Hachioji.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "jetalone",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kake_soba_with_sansai_by_jetalone_in_Hachioji.jpg"
+  },
   "video": {
     "youtube_id": "c_waS4o02NA",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": []
 }

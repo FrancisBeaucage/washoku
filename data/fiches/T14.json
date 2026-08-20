@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "chinoise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -25,7 +26,7 @@
   "romaji": null,
   "nom_origine": "爆",
   "lecture_origine": "bào",
-  "prononciation": null,
+  "prononciation": "bao",
   "langue_origine": "zh",
   "fr": "La saisie éclair (bao)",
   "sous_titre": "Quatre-vingt-dix secondes, aucune fécule, aucune sauce liée. La croyance la plus tenace sur la cuisine chinoise est qu'un sauté doit être nappé — c'est faux, et ce plat le prouve.",
@@ -125,7 +126,7 @@
   "video": {
     "youtube_id": "X6JE7W8Z6Hs",
     "auteur": "Chinese Cooking Demystified",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

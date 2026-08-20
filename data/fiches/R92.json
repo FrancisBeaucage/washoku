@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "condiment",
+  "bol_de_riz": null,
   "methode": [
     "torrefie",
     "saute"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "멸치볶음",
   "lecture_origine": "myeolchi bokkeum",
-  "prononciation": null,
+  "prononciation": "myeol-tchi bok-keum",
   "langue_origine": "ko",
   "fr": "Anchois séchés caramélisés (myeolchi bokkeum)",
   "sous_titre": "Le pire rapport sodium-poids de tout le recueil, et il est ici quand même. La raison est simple : c'est un condiment de dix grammes, pas un plat — et écrit comme tel, il tient.",
@@ -134,7 +135,7 @@
   "video": {
     "youtube_id": "y1mj-q21AP8",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R91"

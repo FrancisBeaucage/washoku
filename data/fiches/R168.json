@@ -1,0 +1,183 @@
+{
+  "id": "R168",
+  "statut": "actif",
+  "categorie": "souper",
+  "cuisine": "japonaise",
+  "registre": "emprunt",
+  "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
+  "methode": [
+    "saute",
+    "mijote"
+  ],
+  "axe_gout": [
+    "aromatique",
+    "doux",
+    "umami-ferment"
+  ],
+  "axe_texture": [
+    "fondant"
+  ],
+  "moment": [
+    "souper"
+  ],
+  "slug": "curry-japonais-au-poulet-sans-roux-kare-raisu",
+  "jp": "カレーライス",
+  "jp_lecture": "カレーライス",
+  "romaji": "karē raisu",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": "ka-rê raï-sou",
+  "langue_origine": "ja",
+  "fr": "Curry japonais au poulet, sans roux (kare raisu)",
+  "sous_titre": "Deux cent soixante-dix milligrammes de sodium par portion, contre 880 pour le seul bloc de roux d'un curry du commerce. Le plat n'était pas le problème.",
+  "portions": "4",
+  "temps_affiche": "≈ 60 min",
+  "temps_minutes": {
+    "preparation": 20,
+    "cuisson": 40,
+    "attente": 0
+  },
+  "preparation_avance": "SE GARDE QUATRE JOURS AU RÉFRIGÉRATEUR ET IL EST MEILLEUR LE DEUXIÈME. Se congèle un mois — et il se congèle bien PARCE QU'il n'y a pas de pomme de terre dedans.",
+  "nutrition": {
+    "proteines_g": 38,
+    "proteines_affiche": "38 g",
+    "calories": 434,
+    "calories_affiche": "≈ 434",
+    "lipides_g": 22,
+    "sodium_mg": 270,
+    "variable": false,
+    "source": "estime",
+    "note": "Par portion pour les protéines, les calories, les lipides et le sodium, sans le riz. À LA DOSE ÉCRITE : une cuillère à soupe de sauce soya réduite en sodium à 500 mg et un quart de cuillère à thé de sel à 575 mg, pour QUATRE portions. Le roux sec de T25 n'apporte pas de sodium. Comparé nommément et vérifié dans les fiches : le nikujaga de R113 est à 380 mg, le gyudon de R115 à 350, le chikuzenni de R114 à 380, le dakbokkeumtang de R104 à 640. Ordres de grandeur : cette recette n'a pas encore été exécutée. AVEC LA RONDELLE DE RIZ DE 140 G : environ 634 calories et 42 g de protéines, ce qui laisse de la place sous la cible de souper mais reste court en protéines — voir la note."
+  },
+  "ingredients": [
+    {
+      "texte": "800 g de haut de cuisse de poulet désossé, en cubes de 3 cm",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 oignons (environ 450 g), en demi-lunes fines",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "2 carottes (environ 200 g), en rondelles épaisses",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 pomme râpée avec sa peau (environ 100 g) — le sucre et la pectine du bloc, en version entière",
+      "sante": true,
+      "sante_pos": 26
+    },
+    {
+      "texte": "1 c. à soupe d'huile neutre",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "4 c. à soupe rases de roux sec T25",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "700 ml de dashi ou de bouillon de poulet non salé",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de sauce soya réduite en sodium — 500 mg pour la marmite entière",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/4 c. à thé de sel — 575 mg pour la marmite entière, voir la note",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à soupe de mirin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1 c. à thé de garam masala, HORS DU FEU à la fin",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "AUCUNE POMME DE TERRE, et c'est voulu : voir la note",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [
+    "T25",
+    "T1"
+  ],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Huile, oignons, feu moyen. VINGT MINUTES, en remuant de temps en temps, jusqu'au blond foncé. C'est l'étape qui fait le plat : on ne la raccourcit pas."
+    },
+    {
+      "n": 2,
+      "texte": "Pousser les oignons de côté, monter le feu, saisir le poulet sur toutes ses faces. Six à huit minutes."
+    },
+    {
+      "n": 3,
+      "texte": "Carottes, pomme râpée, bouillon. Porter à frémissement, couvrir, vingt minutes."
+    },
+    {
+      "n": 4,
+      "texte": "Prélever une louche de liquide chaud dans un bol, y délayer le roux sec T25 en pâte lisse. LE VERSER DANS LA MARMITE À TRAVERS UNE PASSOIRE si la pâte fait des grumeaux."
+    },
+    {
+      "n": 5,
+      "texte": "Soya, sel, mirin. Frémissement à découvert, dix minutes, jusqu'à ce que la sauce nappe la cuillère."
+    },
+    {
+      "n": 6,
+      "texte": "Feu coupé. Garam masala. Deux minutes de repos couvert."
+    },
+    {
+      "n": 7,
+      "texte": "Servir à côté d'une rondelle de riz de 140 g, jamais versé dessus : voir la note."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Ce que le bloc de roux coûte vraiment, étiquette en main",
+      "texte": "DIX-NEUF GRAMMES DE ROUX DU COMMERCE, SOIT UNE PORTION, PORTENT 880 MG DE SODIUM. C'est 38 pour cent du plafond d'une journée entière, pour un épaississant, avant la sauce soya et avant tout le reste. Étiquette lue le 20 août 2026 sur le House Vermont Curry, le roux le plus vendu. Ses quatre premiers ingrédients, dans l'ordre : huile de palme, farine de blé, sucre, sel. Viennent ensuite le glutamate, l'extrait de levure et un hydrolysat de protéines. Cent calories et sept grammes de gras par portion, dont trois et demi de saturés.\n\nLE CONSTAT QUI COMPTE EST AILLEURS : LES CALORIES N'ÉTAIENT PAS LE PROBLÈME. Un curry complet avec son riz arrive autour de 630 calories, dans la cible du souper. C'est le sodium qui disqualifiait le plat, et le sodium était entièrement dans un produit industriel. En le remplaçant par de la farine grillée, le plat descend à 270 mg et garde son goût — parce que ce que le bloc apportait de bon, la farine grillée l'apporte aussi.\n\nPOURQUOI IL N'Y A PAS DE POMME DE TERRE, ALORS QUE LE CURRY JAPONAIS EN PORTE TOUJOURS. C'est la règle de R104 et de R113 appliquée à un plat de yoshoku : un kare RAISU est par définition servi sur du riz, donc le riz est le féculent du repas. Ajouter 150 g de pomme de terre par portion mettrait deux féculents dans la même assiette et ferait dépasser la journée en glucides sans que rien ne le signale. La carotte reste : c'est de la fibre et de l'eau. Et le bénéfice est double, parce que c'est la pomme de terre qui empêche un curry de se congeler proprement — elle devient farineuse.\n\nLE GARAM MASALA VA HORS DU FEU, ET CE N'EST PAS UN DÉTAIL. Les composés volatils de la cardamome et de la cannelle partent à la cuisson. La poudre de cari, elle, a besoin de chaleur pour perdre son goût de poussière. Deux familles d'épices, deux moments : le cari dans le roux sec, le garam masala à la fin."
+    },
+    {
+      "titre": "Le curry est pauvre en protéines par calorie, et il faut le savoir avant de dresser",
+      "texte": "TRENTE-HUIT GRAMMES DE PROTÉINES PAR PORTION, CE QUI EST BON — mais 42 seulement avec le riz, contre une cible de souper à 60. Un curry est une SAUCE : son volume vient de l'oignon, de la carotte et du liquide, pas de la viande. Même à 200 g de haut de cuisse par personne, il reste court.\n\nLA CORRECTION N'EST PAS D'AJOUTER DE LA VIANDE, C'EST DE DRESSER UN PLATEAU. Quatre-vingts grammes d'edamames écossées ajoutent 9 g de protéines et 90 calories pour un sodium négligeable. Le shiraae de R119 en ajoute 10 avec sa purée de tofu. L'un ou l'autre monte le souper à environ 51 g de protéines pour 725 calories, ce qui entre dans les cibles.\n\nET C'EST L'ARGUMENT DU PLATEAU, PAS UNE CONSOLATION. Un curry mangé seul dans un bol creux, versé sur le riz, n'a pas de portion : on se sert jusqu'à ce que la sauce soit finie. Servi comme un teishoku — le curry dans un bol moyen, la rondelle de riz mesurée à côté, un légume assaisonné et une soupe claire — la portion est décidée par les contenants, comme partout ailleurs dans ce recueil. C'EST LE PLAT QUI DEMANDE LE PLUS EXPLICITEMENT LA STRUCTURE, PARCE QUE C'EST LE SEUL QU'ON PEUT MANGER SANS ELLE."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "moyen",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_curry_rice_1_2021-11-28.jpeg?width=1200",
+  "photo_credit": {
+    "auteur": "F ASTILY",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Japanese_curry_rice_1_2021-11-28.jpeg"
+  },
+  "video": {
+    "youtube_id": "P8zJpiQMkEk",
+    "auteur": "Japanese Cooking Ichie",
+    "langue": "en"
+  },
+  "voir_aussi": [
+    "T25",
+    "R169",
+    "R170",
+    "R113"
+  ],
+  "commentaire_source": ""
+}

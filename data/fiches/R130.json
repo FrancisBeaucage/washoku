@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "bouilli"
   ],
@@ -28,7 +29,7 @@
   "romaji": "zōsui",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "zô-soui",
   "langue_origine": "ja",
   "fr": "Riz en bouillon aux œufs (zosui)",
   "sous_titre": "Le débouché des restes du dossier : un bouillon, du riz froid rincé, deux œufs, et ce qui traîne. Vingt-trois grammes de protéines et aucun produit fermenté salé.",
@@ -143,7 +144,7 @@
   "video": {
     "youtube_id": "t8OQDzDtL6U",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R6",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "marine",
     "cru"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "무생채",
   "lecture_origine": "musaengchae",
-  "prononciation": null,
+  "prononciation": "mou-sèng-tché",
   "langue_origine": "ko",
   "fr": "Daikon en allumettes au gochugaru (musaengchae)",
   "sous_titre": "Un substitut rapide au kimchi, à sodium contrôlé, et un accompagnement franchement croquant qui n'est pas du concombre. Le recueil en avait un seul.",
@@ -131,7 +132,7 @@
   "video": {
     "youtube_id": "Tp1Bbva-o8s",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R45",

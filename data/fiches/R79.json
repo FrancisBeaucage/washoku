@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -26,7 +27,7 @@
   "romaji": "niku-yasai itame",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ni-kou-ya-saï i-ta-mé",
   "langue_origine": "ja",
   "fr": "Sauté de porc et légumes (niku-yasai itame)",
   "sous_titre": "Le deuxième plat le plus cuisiné dans les foyers japonais, et le recueil n'avait aucun sauté-repas. Deux cent cinquante grammes de porc, quatre tasses de légumes, dix-huit minutes.",
@@ -140,7 +141,7 @@
   "video": {
     "youtube_id": "deoawaSi5Xs",
     "auteur": "JapaneseCooking101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R17"

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "chinoise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "torrefie",
     "saute"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "干煸",
   "lecture_origine": "gānbiān",
-  "prononciation": null,
+  "prononciation": "gan-bièn",
   "langue_origine": "zh",
   "fr": "Le sauté à sec (ganbian)",
   "sous_titre": "Une poêle sèche, un légume, et de la patience. Ni huile pour commencer, ni liquide, ni couvercle : on retire l'eau du légume au lieu de la faire cuire.",
@@ -130,7 +131,7 @@
   "video": {
     "youtube_id": "tJemaPzmouQ",
     "auteur": "Made With Lau",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

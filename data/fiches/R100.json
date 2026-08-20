@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "marine",
     "grille"
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "고등어구이",
   "lecture_origine": "godeungeo gui",
-  "prononciation": null,
+  "prononciation": "ko-doung-eo goui",
   "langue_origine": "ko",
   "fr": "Maquereau salé grillé (godeungeo gui)",
   "sous_titre": "Deux ingrédients : du maquereau et du sel. Trente-quatre grammes de protéines — et l'arbitrage se fait sur les lipides, pas sur le sel.",
@@ -126,7 +127,7 @@
   "video": {
     "youtube_id": "ZMYtYwjLQCE",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R14"

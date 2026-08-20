@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "vietnamienne",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "condiment",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -127,7 +128,7 @@
   "video": {
     "youtube_id": "OrUZzchXGzo",
     "auteur": "Helen's Recipes (Vietnamese Food)",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R18",

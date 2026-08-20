@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -25,7 +26,7 @@
   "romaji": "daikon no sumashi-jiru",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "daï-kon no sou-ma-chi-dji-rou",
   "langue_origine": "ja",
   "fr": "Bouillon au daikon et gingembre",
   "sous_titre": "Réconfortant, digestif, presque zéro calorie.",
@@ -91,11 +92,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Daikon.Japan.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Chris 73 / Wikimedia Commons",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Daikon.Japan.jpg"
+  },
   "video": {
     "youtube_id": "MAUc-bAVymc",
     "auteur": "ochikeron",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

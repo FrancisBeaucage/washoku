@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "saute",
     "blanchi"
@@ -28,7 +29,7 @@
   "romaji": "sanshoku don",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "san-cho-kou don",
   "langue_origine": "ja",
   "fr": "Bol trois couleurs (soborodon)",
   "sous_titre": "Trente-six grammes de protéines pour quatre cents milligrammes de sodium, et quinze minutes si le soboro est déjà au frigo. C'est le meilleur rapport du dossier pour un dîner.",
@@ -39,7 +40,7 @@
     "cuisson": 10,
     "attente": 0
   },
-  "preparation_avance": null,
+  "preparation_avance": "LE RIZ NE SE RÉCHAUFFE PAS AU BUREAU, ET IL N'EN A PAS BESOIN : le bol se mange à température de la pièce.",
   "nutrition": {
     "proteines_g": 36,
     "proteines_affiche": "36 g",
@@ -143,7 +144,7 @@
   "video": {
     "youtube_id": "cI3LPrBrlOQ",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R107"

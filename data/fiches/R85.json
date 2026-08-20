@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "vapeur",
     "saute"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "무나물",
   "lecture_origine": "mu namul",
-  "prononciation": null,
+  "prononciation": "mou na-moul",
   "langue_origine": "ko",
   "fr": "Namul de daikon étuvé (mu namul)",
   "sous_titre": "Le contrepoint doux de la table coréenne, et le deuxième débouché du recueil pour un daikon entamé. Aucun piment, aucune couleur : c’est ce qui permet de manger le reste.",
@@ -128,7 +129,7 @@
   "video": {
     "youtube_id": "b4Loq4mz9p4",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R83",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "vietnamienne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "blanchi"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "rau luộc · nước luộc rau",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "rao louok",
   "langue_origine": "vi",
   "fr": "Le légume blanchi et son eau de cuisson (rau luoc)",
   "sous_titre": "Une casserole, huit minutes, et deux postes du repas sont faits : le légume et la soupe. Tout le sel du plat part dans un bol de trempette qu'on contrôle.",

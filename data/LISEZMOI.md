@@ -11,6 +11,40 @@ empilées dessous ; `/data` en était l'image, et le générateur redescendait v
 les pages en vérifiant l'aller-retour. Maintenant, la flèche ne va que dans un
 sens.
 
+## Le nom du site, et son adresse
+
+🔴 **LE SITE S'APPELLE TEISHOKU. SON ADRESSE RESTE `.../washoku/`.** Les deux ne
+sont pas la même chose : **un nom est une chaîne d'affichage, une adresse est un
+chemin de dépôt.** Renommer l'adresse casserait le raccourci de l'écran d'accueil
+pour rien, puisqu'aucun lien externe n'existe. `washoku` est donc le nom de code
+du dépôt, et c'est sans conséquence.
+
+**定食 *teishoku* nomme le PLATEAU, pas la nationalité** : riz, soupe, un plat,
+des accompagnements. *Washoku* (和食, la cuisine japonaise traditionnelle) était
+inexact deux fois — **trop étroit**, la part japonaise étant passée sous la
+moitié, et **trop précis**, puisqu'il exclut par définition le 洋食 *yōshoku*,
+dont le curry. Un *teishoku-ya* sert le poisson grillé, le mābō dōfu chinois et le
+curry sous le même toit sans que personne ne s'en étonne : **le mot reste exact
+quoi qu'on ajoute ensuite.**
+
+**Et le caractère 定 dit le mécanisme du dossier.** 定 veut dire « fixé, déterminé,
+décidé » : 定食, c'est « le repas décidé », et la phrase centrale du dossier est
+« le contenant décide de la portion ». L'ancien mot-marque, 和, portait
+l'infobulle « l'harmonie, et le Japon » — joli, et muet sur la méthode.
+
+**Où le nom vit** : dans la constante `NOM` de `tools/lib/pages.js`, avec
+`GLYPHE`, `GLYPHE_URL` et `INFOBULLE`. De là partent le `<title>` de chaque page,
+les deux mots-marques, le favicon en data-URL et les quatre `document.title`
+posés côté client. Le manifeste publie `site: "washoku"` (la clé du dépôt) **et**
+`nom: "Teishoku"` (le nom affiché), pour qu'un agent extérieur n'ait pas à
+choisir. Document 34, `S41`.
+
+⚠️ **Deux fichiers échappent à cette constante et se corrigent à la main** :
+`apple-touch-icon.png`, qui porte le glyphe en image, et **`conditions.html`, qui
+n'est PAS générée par `pages.js`** — c'est la seule page du site dans ce cas, et
+elle porte quand même l'en-tête et le favicon. Un renommage qui l'oublie laisse
+une page qui contredit les dix-huit autres.
+
 ## Le cycle
 
 ```bash
@@ -328,7 +362,7 @@ pas, donc on ne peut pas les en relire. Une réextraction les écraserait.
 
 | Fichier | Champs |
 |---|---|
-| `guide-2-fiches.json` | `nutrition.source`, `nutrition.variable`, `nutrition.note`, `voir_aussi`, les cinq champs descriptifs sauf `slug`, `langue_origine`, les cinq champs évaluatifs, `ajustement` |
+| `guide-2-fiches.json` | `nutrition.source`, `nutrition.variable`, `nutrition.note`, `voir_aussi`, les cinq champs descriptifs sauf `slug`, `langue_origine`, `registre`, `bol_de_riz`, les cinq champs évaluatifs, `ajustement`, `photo_credit` |
 | `guide-3-ingredients.json` | `description_visuelle`, `zone_magasin`, `nutrition`, `langue_origine` |
 
 **Un chemin déclaré couvre aussi ses descendants** : `etoiles` couvre
@@ -363,10 +397,10 @@ La règle 20 doit le savoir pour ne pas crier au loup.
 
 ## Les champs à valeurs fermées
 
-Vingt-cinq champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
+Vingt-sept champs n'acceptent qu'une valeur d'une liste connue. **La règle 19 les
 vérifie tous**, à partir d'une seule table `champ → ensemble permis` dans
-`tools/lib/ensembles.js` — pas vingt-deux règles particulières, qui laisseraient
-repasser la vingt-troisième.
+`tools/lib/ensembles.js` — pas vingt-sept règles particulières, qui laisseraient
+repasser la vingt-huitième.
 
 **Le manifeste publie ces ensembles**, sous `ensembles_fermes`. C'est la réponse
 à une cause commune : trois fautes du document 14 — `retire` écrit sans accent,
@@ -393,7 +427,8 @@ que la table — deux copies d'un ensemble finiraient par diverger.
 | guide 2 | `statut` | valeur | `actif`, `retiré` |
 | guide 2 | `categorie` | valeur | les libellés de `CATEGORIES` (`lib/champs.js`) |
 | guide 2 | `cuisine` | valeur | les libellés de `CUISINES` |
-| guide 2 | `vitesse` | valeur | les libellés de `VITESSES` |
+| guide 2 | `registre` | valeur | `emprunt`, ou `null` |
+| guide 2 | `bol_de_riz` | valeur | `demi`, `non`, ou `null` |
 | guide 2 | `nutrition.source` | valeur | `estime`, `etiquette`, `pese` |
 | guide 2 | `type_de_plat` | valeur | `TYPES_DE_PLAT`, ou `null` |
 | guide 2 | `methode` | liste | `METHODES` |
@@ -413,8 +448,18 @@ que la table — deux copies d'un ensemble finiraient par diverger.
 | guide 3 | `nutrition.source` | valeur | `estime`, `etiquette`, `pese`, ou `null` |
 | guide 4 | `statut` | valeur | `actif`, `retiré` |
 | guide 4 | `zone` | valeur | les clés de `zones-exercices.json` |
+| index | `vitesse` | valeur | les libellés de `VITESSES` |
 | historique | `repas` | valeur | `dejeuner`, `diner`, `souper`, `collation` |
 | historique | `verdict` | valeur | `excellent`, `bon`, `correct`, `rate`, `rejete`, ou `null` |
+
+🔴 **`vitesse` EST LA SEULE LIGNE DE CETTE TABLE QUI PORTE UN FICHIER GÉNÉRÉ, et
+c'est voulu.** Depuis le document 34 (`S38`) elle ne s'écrit plus à la main : elle
+se dérive du temps total et `generer.js` l'écrit dans `index.json`, le seul
+fichier qui la consomme. Elle reste dans la table parce qu'un rédacteur de
+document a autant besoin de connaître ses valeurs exactes pour un champ dérivé
+que pour un autre — il doit savoir que `moyen` existe et que `median` n'existe
+pas. Et le contrôle n'est pas une tautologie : ce qu'il attrape, c'est une table
+de seuils qui produirait une classe inexistante.
 
 **Les ensembles se lisent là où ils sont déjà définis, jamais recopiés.** Les
 libellés viennent de `lib/champs.js`, les rayons de `rayons.json`, les zones du
@@ -436,6 +481,34 @@ Cette règle existe parce que le document 13 donnait `section: "legumes"` là o�
 clé réelle est `leg`. Une clé inconnue ne fait rien planter : elle laisse la
 fiche hors de tout filtre de rayon, avec une étiquette vide, et aucun test
 n'échouait.
+
+## 🔴 Un champ qui donne la même réponse partout ne s'affiche pas
+
+**Il s'affiche quand il S'ÉCARTE du défaut.** C'est la règle du document 34, et
+elle vaut pour tout champ à valeurs fermées qui finit sur une page :
+
+> **UN CHAMP AFFICHÉ SUR CHAQUE FICHE QUI PORTE LA MÊME VALEUR SUR CHAQUE FICHE
+> N'EST PAS DE L'INFORMATION, C'EST DU MOBILIER.**
+
+Le principe existait déjà, écrit dans `generer.js` pour `temps_actif` : *« la clé
+n'est écrite que lorsqu'elle apprend quelque chose »* — sans attente, elle
+vaudrait le total et ne dirait rien. Le document 34 l'applique aux trois champs
+qui l'avaient oublié, et **conçoit ses deux champs neufs avec lui dès le départ :
+leur valeur par défaut est l'absence.**
+
+| Champ | Défaut, qui ne s'affiche pas | Ce qui s'affiche |
+|---|---|---|
+| `nutrition.source` | `estime` — la valeur de tout le recueil | `etiquette`, `pese` |
+| `video.langue` | `null` et `en` | tout le reste : c'est un avertissement |
+| `registre` | `null`, qui veut dire traditionnel | `emprunt` |
+| `bol_de_riz` | `null`, un bol de riz normal | `demi`, `non` |
+| `temps_actif` (dérivé) | absent quand il vaut le total | le temps de présence |
+
+⚠️ **La différence avec un champ vide est entière, et c'est ce qu'il faut garder
+en tête** : `sodium_mg: null` s'affiche « non chiffré », parce qu'un trou dans la
+donnée doit se voir (`S33` du document 29). Ici, ce n'est pas un trou : c'est le
+cas normal, et l'absence de mention le dit aussi bien que la mention. Un champ
+PRÉMATURÉ se cache ; un champ MANQUANT se montre.
 
 ## Les nombres affichés dans les pages
 
@@ -592,10 +665,104 @@ utile pour les gestes, mais il faut le savoir avant de cliquer**, et la page le
 dit maintenant sous le cadre.
 
 ⚠️ **`null` ne veut pas dire « français ».** Il veut dire que personne ne l'a
-établi. Le champ ne se remplit que quand la réponse est utile, c'est-à-dire quand
-la langue n'est ni le français ni l'anglais : écrire `en` sur les quatre-vingt-dix
-autres serait exact et sans emploi. C'est la même convention que `langue_origine`
-au guide 3, où `null` dit qu'on ne sait pas et `aucune` serait une affirmation.
+établi. C'est la même convention que `langue_origine` au guide 3, où `null` dit
+qu'on ne sait pas et `aucune` serait une affirmation.
+
+🔴 **IL NE SE DÉDUIT JAMAIS DU TITRE, ET LE DOCUMENT 34 (`B57`) L'A ÉTABLI PAR
+L'ÉCHEC.** Un titre bilingue est la NORME sur ces chaînes, pas l'exception : la
+majorité des titres mêlent une écriture non latine et des mots anglais — « How To
+Make Dashi 3 Ways (Recipe) だしの作り方３種類（レシピ） », de Just One Cookbook, qui
+est une chaîne anglophone. Un détecteur d'écriture ne peut donc pas remplir ce
+champ, et celui qui a été écrit pour essayer a trouvé une alerte sur les quatre
+qui existaient : le vietnamien et l'indonésien s'écrivent en lettres latines,
+donc son test comptait « Cách Luộc Rau ngon giòn » comme du texte latin
+ordinaire. ⚠️ **Un résultat négatif d'un détecteur qu'on vient d'écrire n'est pas
+une preuve d'absence** — s'y fier aurait supprimé trois avertissements vrais qui
+étaient déjà consignés.
+
+✅ **LA BONNE UNITÉ EST LA CHAÎNE, PAS LA VIDÉO**, et c'est ce qui rend le champ
+remplissable : il y a environ trois fois moins de chaînes que de vidéos, une
+poignée d'entre elles couvre la vaste majorité du recueil, et une chaîne parle
+une langue. Le coût passe de « regarder chaque vidéo » à « classer chaque
+chaîne ». Ce qui reste — les petites chaînes qu'on ne peut pas classer sans
+regarder — reste à `null`, et un `null` n'affiche rien, donc il ne prétend rien.
+
+**À l'affichage, il ne parle que hors `fr` et hors `en`** : c'est un
+avertissement, pas une métadonnée. Voir « Un champ qui donne la même réponse
+partout ne s'affiche pas ».
+
+### `registre` — le plat traditionnel et le plat d'emprunt
+
+**Le drapeau du `V1` dit D'OÙ VIENT un plat. `registre` dit QUAND ET COMMENT il
+est entré dans sa cuisine.** Les deux font deux métiers différents et le document
+34 (`S37`) les sépare explicitement : `R17`, le bœuf et brocoli, garde son drapeau
+chinois ET porte `registre: emprunt`, parce que c'est un plat sino-américain que
+le japonais nomme en japonais.
+
+**Ensemble fermé à une seule valeur : `emprunt`, ou `null`. `null` veut dire
+traditionnel**, et c'est le cas de la vaste majorité.
+
+**LE CRITÈRE, pour que la passe suivante n'ait pas à le réinventer : le registre
+vaut `emprunt` quand la culture du plat le nomme ELLE-MÊME comme venu
+d'ailleurs** — 中華 *chūka* (le chinois passé au Japon), 洋食 *yōshoku*
+(l'occidental passé au Japon), 韓国風 ou フォー風 (« façon coréenne », « façon
+phở »). **Ce n'est pas un jugement de pureté, c'est une information d'histoire.**
+
+🔴 **ET LE RECUEIL AVAIT DÉJÀ ENCODÉ L'EMPRUNT, dans le seul endroit qui ne peut
+pas filtrer : le nom.** Cinq fiches portent un nom JAPONAIS pour un plat étranger
+— 韓国風丼, フォー風, 雲呑 wonton en caractères japonais — et déclaraient pourtant
+`langue_origine` d'un autre pays. Le `A19` du document 34 les a corrigées à `ja` :
+**`langue_origine` décrit la langue du NOM, pas le pays du plat.** La correction
+devait précéder la passe de prononciation, qui applique les règles de lecture de
+la langue déclarée et aurait mis du pinyin sur des mots japonais.
+
+⚠️ **Une fiche examinée et ÉCARTÉE, avec sa raison, pour que l'absence se lise
+comme une décision** : `R57`, les nouilles instantanées. C'est un produit
+industriel de 1958, pas un emprunt — sa lignée passe par le rāmen, qui est chūka,
+mais le plat a été inventé sur place. **Le jour où une valeur `moderne`
+s'ajoute, `R57` est son premier cas.** Mieux vaut un champ à une valeur qui ne
+mente sur aucune fiche qu'un champ à deux valeurs dont la frontière est floue.
+
+**À l'affichage : un MOT, pas une pastille et pas un pictogramme.** Pas une
+pastille parce qu'on vient de passer de sept à six au `V1` et que la raison
+tient. Pas un pictogramme parce que le drapeau a rendu un CARRÉ sur un navigateur
+sans police d'émoji, vu à l'écran : **une marque qui dépend d'une police n'est
+pas une marque.** Le mot est au surtitre de la fiche après le drapeau, et sur la
+carte de liste en capitales espacées grises, avec « Plat d'emprunt » en `title` et
+en `aria-label`.
+
+### `bol_de_riz` — le plat qui remplace le féculent
+
+**La règle vivait dans la PROSE de trois fiches, où aucun filtre ne la voyait** :
+`R104` (« pas de riz, ou un demi-bol »), `R113` (« le bol de riz saute »), `R131`
+(« il EST le bol de riz »). Et `R114` portait le contre-exemple explicite : ses
+racines GARDENT leur bol, « parce que c'est de la fibre et de l'eau, pas de
+l'amidon ». Document 34, `S39`.
+
+**Ensemble fermé : `demi`, `non`, ou `null`. `null` veut dire que le plat
+s'accompagne d'un bol de riz normal**, et c'est le cas de la vaste majorité.
+
+**CRITÈRE — `non`** quand le plat porte lui-même le féculent (le riz ou les
+nouilles sont dedans) ou quand il apporte assez d'amidon pour occuper le quart
+féculent ; **`demi`** quand la fiche l'a écrit.
+
+🔴 **LE TEST EST L'AMIDON, PAS LA FORME**, et c'est ce qui tranche les cas
+limites : pomme de terre, patate douce, taro et kabocha occupent le quart
+féculent ; daikon, lotus, gobo et carotte occupent le quart légume. D'où le
+contraste entre `R169`, curry de kabocha à `demi` — cent cinquante grammes de
+courge par portion valent une demi-rondelle de riz — et `R114`, mijoté de racines
+qui garde son bol entier.
+
+⚠️ **Les fiches écartées comptent autant que celles retenues, et leur raison
+s'écrit** : `R37` (les nouilles de konjac remplacent le VOLUME, pas l'amidon —
+zéro calorie n'occupe pas un quart féculent) ; `R70`, `R159`, `R160` (le riz
+gluant y est l'ACCOMPAGNEMENT attendu, pas un féculent que le plat porte) ;
+`R98`, `R109` (quantité de liant ou de garniture, pas de portion) ; `R8` (il ne
+porte aucun féculent du tout, donc il prend son bol entier).
+
+**À l'affichage : une case de la grille des mesures, à côté des portions et du
+temps** — c'est une consigne d'assiette qu'on lit avant de dresser, pas un chiffre
+de nutrition. Elle ne paraît que hors défaut.
 
 ### `photo` et `photo_credit`
 
@@ -620,6 +787,33 @@ renvoyer à la source.**
 | `licence` | le code court | `CC BY-SA 4.0` · `CC0` · `Domaine public` |
 | `page` | l'adresse de la page du FICHIER, pas de l'image | `https://commons.wikimedia.org/wiki/File:…` |
 
+🔴 **OÙ SE LIT LE NOM DE L'AUTEUR, ET L'ORDRE COMPTE. `Attribution` PRIME SUR
+`Artist`.** C'est le champ où le téléverseur DIT comment il veut être crédité, et
+il est là exactement pour ça. `Artist`, lui, est du HTML libre et peut contenir
+n'importe quoi : sur `File:Tuna can.jpg`, il porte une demande de notification de
+trois phrases — « I would appreciate being notified if you use my work… » — et le
+nom, *Pavel Ševela*, n'est que dans `Attribution`. Une passe qui lit `Artist`
+d'abord écrit la demande dans le crédit et l'affiche sous la photo. L'ordre à
+suivre :
+
+1. **`Attribution`**, nettoyé de son HTML ;
+2. **`Artist`**, s'il ressemble à un nom — écarter ce qui fait une phrase
+   (verbe de licence, « please », « do not », plusieurs points) ;
+3. **`Credit`**, sauf quand il vaut « Own work », qui ne nomme personne ;
+4. **le téléverseur**, en dernier recours et seulement quand le fichier ne nomme
+   personne alors que sa licence exige une attribution. Deux fichiers du recueil
+   sont dans ce cas, tous deux CC BY-SA 3.0 avec `AttributionRequired: true` et
+   aucun auteur déclaré.
+
+⚠️ **`User:` est un préfixe d'espace de noms, pas une partie du nom** : il se
+retire. Deux crédits du document 33 le portaient.
+
+⚠️ **Une photo d'`assets/` ne porte PAS de crédit, et ce n'est pas un manque** :
+ce sont les photos du dossier lui-même — `R62` et `R63` — et il n'y a personne à
+attribuer. La règle 21 demande les trois clés ou aucune, donc le champ reste
+`null` plutôt que de porter une licence supposée. Le `figcaption` ne paraît pas
+sur ces deux fiches, et c'est correct.
+
 `null` quand personne ne l'a établi. La **règle 21** refuse un crédit incomplet
 — une licence sans son auteur ni sa page n'est pas une attribution, c'est un mot
 — et refuse un crédit sur une fiche sans photo. La page rend un `<figcaption>`
@@ -642,8 +836,10 @@ curl -s 'https://commons.wikimedia.org/w/api.php?action=query&format=json&list=s
 # 1 bis. souvent meilleur : la catégorie du plat
 curl -s 'https://commons.wikimedia.org/w/api.php?action=query&format=json&list=categorymembers&cmtitle=Category:<Plat>&cmtype=file&cmlimit=50'
 # 2. qualifier — jusqu'à 50 titres d'un coup, et `extmetadata` porte l'auteur
-#    et la licence, donc `photo_credit` se remplit dans le même passage
-curl -s 'https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|extmetadata&titles=File:A|File:B'
+#    et la licence, donc `photo_credit` se remplit dans le même passage.
+#    `iiprop=user` en plus : le téléverseur est le dernier recours quand le
+#    fichier ne nomme personne. Lire Attribution AVANT Artist — voir plus haut.
+curl -s 'https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|user|extmetadata&titles=File:A|File:B'
 ```
 
 **Les critères de retenue, dans l'ordre :** le plat est le sujet, seul, en
@@ -651,6 +847,24 @@ assiette ou en casserole — **rejeter les photos de table garnie, un plan large
 six plats n'en montre aucun** ; domaine public ou CC0 si le choix existe ; au
 moins 800 px de large, puisque le gabarit demande `?width=1200` ; rejeter une
 photo de restaurant occidentalisé quand la fiche décrit une version domestique.
+
+🔴 **RECOUPER L'IMAGE AVEC LE TITRE *ET* LA DESCRIPTION DU FICHIER : NI L'ŒIL
+SEUL NI LE NOM SEUL NE SUFFIT.** Cinq erreurs du document 33 avaient cette cause,
+et le document 34 en a évité trois de plus par ce seul geste :
+`File:Curry rice.jpg` montre exactement ce qu'une fiche de curry japonais
+demanderait, et sa description dit « Korean curry rice » ; `File:Curry with
+onions (9).jpg` est catégorisé « Curry dishes in Poland ». **Un titre neutre et
+une belle image ne disent pas de quel pays vient le plat ; la description, si.**
+Un fichier SANS description ne peut pas être recoupé : c'est une raison de le
+refuser, pas un détail.
+
+🔴 **ET LE CRITÈRE DE RETENUE PRIME SUR LA DISPONIBILITÉ.** Une photo qui
+CONTREDIT la fiche est pire que pas de photo, même quand elle est la seule
+disponible : un curry brun-orange lisse et uniforme, monté au bloc de roux,
+contredit une fiche dont tout l'argument est qu'on n'en met pas — et des cubes de
+pomme de terre bien visibles contredisent une fiche qui consacre un paragraphe à
+expliquer pourquoi elle n'en porte pas. **« Aucune photo » est une réponse
+admissible, et c'est la bonne dans ces cas-là.**
 
 🔴 **LE REPLI EST LÉGITIME : PAS DE PHOTO.** Le gabarit gère `hasPhoto: false` et
 la fiche reste complète. **Une photo approximative est pire qu'un cadre vide,
@@ -782,13 +996,56 @@ méthode unique ne change pas.
 soir donné, et c'est la borne haute qui décide si on a le temps. La règle 21
 vérifie la forme et que `min` ne dépasse pas `max`.
 
-### `attente` veut dire « sans surveillance », et le temps actif s'en déduit
+⚠️ **C'EST UNE FORME LÉGITIME, PAS UNE ERREUR À CORRIGER**, et c'est pour ça
+qu'elle est écrite ici. Une seule fiche du recueil la porte — `R56`, la patate
+douce rôtie, parce qu'une patate de 300 g et une de 600 g ne rôtissent pas dans le
+même temps. **Une forme légitime non documentée finit par être « corrigée » par
+quelqu'un qui la prend pour une faute**, et le `B58` du document 34 a posé la
+question dans ce sens précis. La réponse est : elle était déjà documentée ici et
+déjà admise par la règle 21 — rien à changer, sinon le dire.
 
-**`vitesse` mesure le TEMPS TOTAL ÉCOULÉ, et c'est le bon choix.** C'est ce qu'il
-faut pour planifier : une soupe d'une heure quarante-cinq ne s'insère pas dans un
-mardi soir, même si elle ne demande que vingt minutes de présence. Le champ le
-fait déjà de façon cohérente — `T1` le riz est `extra-long` à 61 minutes, `R151`
-le khao tom est `rapide` à 20.
+### 🔴 `vitesse` se DÉRIVE du temps total, elle ne s'écrit plus
+
+**Elle mesure le TEMPS TOTAL ÉCOULÉ, et c'est le bon choix.** C'est ce qu'il faut
+pour planifier : une soupe d'une heure quarante-cinq ne s'insère pas dans un
+mardi soir, même si elle ne demande que vingt minutes de présence.
+
+**Mais elle a été écrite à la main jusqu'au document 34, et elle avait dérivé sur
+un quart du corpus.** Un plat `rapide` à cinquante minutes et un plat `moyen` à
+seize coexistaient dans le recueil ; les classes se chevauchaient contre les DEUX
+lectures possibles du champ, donc elle n'était fonction d'aucun temps — c'était
+une étiquette posée fiche par fiche. **Un champ dérivable écrit à la main dérive**,
+et le `S38` du document 34 la fait calculer par `generer.js`, comme `temps_actif`
+juste en dessous et comme le `slug`, qui vaut `limace(fr)`.
+
+**Les seuils, sur le total `préparation + cuisson + attente`**, dans
+`SEUILS_VITESSE` de `lib/champs.js` — un seul endroit :
+
+| Classe | Total |
+|---|---|
+| ultra-rapide | ≤ 10 min |
+| rapide | ≤ 20 |
+| moyen | ≤ 35 |
+| long | ≤ 60 |
+| extra-long | > 60 |
+
+Ils étalent la distribution, ce qui est le but d'un filtre : `rapide` en portait
+plus du tiers du recueil à elle seule avant qu'on les pose. ⚠️ **Ce sont un choix
+de goût, pas un fait** — ils se déplacent d'une ligne. Ce qui n'est pas
+négociable, c'est qu'un champ dérivable cesse d'être écrit à la main.
+
+🔴 **ELLE VIT DANS `index.json` ET PLUS DANS LA FICHE**, parce que c'est l'index
+qui la consomme : c'est une clé de filtre de la page de liste, et la page de fiche
+ne l'affiche pas. Une valeur dérivée écrite dans la donnée serait une seconde
+source de vérité.
+
+✅ **Et la mauvaise correction a été évitée par un commentaire de code.** Le
+premier réflexe était de dériver `vitesse` du temps ACTIF ; c'est le commentaire
+du `S35`, déjà écrit dans `generer.js`, qui l'a arrêté en rappelant pourquoi c'est
+le temps écoulé qui compte. **Une décision motivée par écrit résiste à la révision
+suivante ; une décision tacite non.**
+
+### `attente` veut dire « sans surveillance », et le temps actif s'en déduit
 
 **Ce qui manquait, c'est que le temps de PRÉSENCE ne se voyait pas.** Un plat à
 vingt minutes de travail et un plat à quatre-vingt-dix se ressemblaient sur une
@@ -883,6 +1140,18 @@ fourchette annoncée ; `variable: true` dit le reste.
   toutes les fiches du recueil.
 - `"etiquette"` — relevé sur l'emballage des produits réellement utilisés.
 - `"pese"` — pesé et calculé ingrédient par ingrédient.
+
+🔴 **LA SOURCE D'UN TOTAL EST CELLE DE SA COMPOSANTE LA PLUS FAIBLE.** Sans cette
+phrase, quelqu'un finira par écrire `etiquette` sur une fiche dont un seul
+ingrédient a été lu. Un chiffre de fiche agrège une étiquette lue — le sodium de
+la sauce soya — et des ordres de grandeur — le poids du légume, la rétention du
+liquide : **dès qu'un poste est estimé, le total l'est.** C'est ce qui explique
+que le recueil entier soit encore à `estime` alors que des étiquettes sont lues
+depuis le document 19, et c'est pourquoi le champ n'est pas faux mais
+**prématuré** : il parlera le jour où une fiche sera pesée.
+
+⚠️ **Et il ne s'affiche donc que hors `estime`** — `S40` du document 34. Voir « Un
+champ qui donne la même réponse partout ne s'affiche pas ».
 
 **Le remplissage est opportuniste, jamais rétroactif.** Chaque fois qu'une fiche
 est cuisinée, les valeurs réelles des étiquettes sont relevées et la fiche passe

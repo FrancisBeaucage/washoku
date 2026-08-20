@@ -1,0 +1,128 @@
+{
+  "id": "T25",
+  "statut": "actif",
+  "categorie": "technique",
+  "cuisine": "japonaise",
+  "registre": "emprunt",
+  "type_de_plat": "condiment",
+  "bol_de_riz": null,
+  "methode": [
+    "torrefie"
+  ],
+  "axe_gout": [
+    "grille-torrefie",
+    "aromatique"
+  ],
+  "axe_texture": [
+    "croquant"
+  ],
+  "moment": [
+    "diner",
+    "souper"
+  ],
+  "slug": "le-roux-sec-farine-grillee-et-epices-kara-iri",
+  "jp": "乾煎りカレー粉",
+  "jp_lecture": "からいりカレーこ",
+  "romaji": "kara-iri karē-ko",
+  "nom_origine": null,
+  "lecture_origine": null,
+  "prononciation": "ka-ra-i-ri ka-rê-ko",
+  "langue_origine": "ja",
+  "fr": "Le roux sec — farine grillée et épices (kara-iri)",
+  "sous_titre": "Le bloc de roux du commerce est de l'huile de palme, de la farine, du sucre et du sel — dans cet ordre. La farine grillée à sec fait le même travail d'épaississant et de goût torréfié, sans une goutte de gras ni un milligramme de sel ajouté.",
+  "portions": "12 (environ 85 g de poudre)",
+  "temps_affiche": "≈ 12 min",
+  "temps_minutes": {
+    "preparation": 2,
+    "cuisson": 10,
+    "attente": 0
+  },
+  "preparation_avance": "Se garde trois mois dans un pot fermé, à l'abri de la lumière. C'EST LE POINT DE LA TECHNIQUE : on la fait une fois pour douze plats.",
+  "nutrition": {
+    "proteines_g": 1,
+    "proteines_affiche": "1 g",
+    "calories": 20,
+    "calories_affiche": "≈ 20",
+    "lipides_g": 0,
+    "sodium_mg": 0,
+    "variable": false,
+    "source": "estime",
+    "note": "Par cuillère à soupe rase, soit environ 7 g. Ordres de grandeur : cette technique n'a pas encore été exécutée ni pesée. LE ZÉRO DE SODIUM EST STRUCTUREL : il n'entre ni sel ni sauce dans cette poudre. L'étiquette de la poudre de cari S&B ne porte pas de sel dans sa liste d'ingrédients — dix-sept épices — et son panneau annonce 0 g de sodium par cuillère à thé. UNE BASE DE DONNÉES CALCULE NÉANMOINS DE L'ORDRE DE 1 040 MG AUX 100 G, soit environ 20 mg par cuillère à thé, ce qui reste négligeable à l'échelle d'un plat. À CONFIRMER SUR LE POT ACHETÉ."
+  },
+  "ingredients": [
+    {
+      "texte": "60 g de farine tout usage (environ 6 c. à soupe rases)",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "3 c. à soupe de poudre de cari — S&B, boîte rouge : dix-sept épices, PAS DE SEL dans la liste",
+      "sante": true,
+      "sante_pos": 30
+    },
+    {
+      "texte": "1 c. à thé de garam masala",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "1/2 c. à thé de cumin moulu",
+      "sante": false,
+      "sante_pos": null
+    },
+    {
+      "texte": "Facultatif : 1/4 c. à thé de cannelle, 1/4 c. à thé de poivre noir",
+      "sante": false,
+      "sante_pos": null
+    }
+  ],
+  "techniques": [],
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Farine seule dans une poêle sèche, à feu MOYEN-DOUX, aucune matière grasse. Remuer sans arrêt à la spatule."
+    },
+    {
+      "n": 2,
+      "texte": "Huit à dix minutes. La farine passe du blanc au blond, puis à la couleur de la noisette, et l'odeur devient celle du biscuit. ARRÊTER À LA NOISETTE — au-delà, elle amérit et perd son pouvoir épaississant."
+    },
+    {
+      "n": 3,
+      "texte": "Hors du feu, verser la farine dans un bol froid IMMÉDIATEMENT. Dans la poêle chaude, elle continue de cuire."
+    },
+    {
+      "n": 4,
+      "texte": "Une fois COMPLÈTEMENT froide, mélanger les épices. À chaud, les épices grillent aussi et deviennent âcres."
+    },
+    {
+      "n": 5,
+      "texte": "En pot fermé, à l'abri de la lumière."
+    }
+  ],
+  "notes": [
+    {
+      "titre": "Pourquoi la farine grillée remplace le bloc, et ce qu'elle ne remplace pas",
+      "texte": "LE ROUX DU COMMERCE FAIT TROIS CHOSES À LA FOIS, ET UNE SEULE MÉRITE D'ÊTRE GARDÉE. Il épaissit, par sa farine. Il porte un goût grillé, par la cuisson de cette farine dans le gras. Et il assaisonne, par son sel et son glutamate — c'est cette troisième fonction qui coûte 880 mg de sodium par portion. La farine grillée à sec garde les deux premières et laisse la troisième au cuisinier, qui la dose.\n\nCE QU'ELLE NE REMPLACE PAS, ET IL FAUT LE SAVOIR EN ARRIVANT À TABLE : le gras. Un curry monté au bloc est onctueux parce qu'il porte sept grammes de gras par portion rien qu'en épaississant. Celui-ci est plus clair en bouche. La compensation n'est pas d'ajouter de l'huile : c'est l'oignon fondu longtemps et la pomme râpée, qui donnent du corps par leur pectine et leur sucre. Voir R168 pour la proportion.\n\nLA FARINE GRILLÉE ÉPAISSIT MOINS QUE LA FARINE CRUE, et c'est normal : le grillage casse une partie de l'amidon. Compter environ une cuillère à soupe rase par portion de sauce, contre deux tiers pour une farine crue. Si la sauce reste claire après dix minutes de frémissement, ce n'est pas un manque de poudre — c'est qu'elle n'a pas assez réduit.\n\nMÊME FAMILLE QUE LE KHAO KHUA DE T19, ET LE MÊME LEVIER : une céréale grillée à sec est un assaisonnement à zéro sodium. Le lao l'emploie pour la texture et le parfum de noisette, le japonais pour lier. C'est la deuxième fois que le recueil arrive à cette conclusion par un autre chemin."
+    }
+  ],
+  "ajustement": null,
+  "etoiles": {},
+  "cout_travail": "leger",
+  "statut_perso": {},
+  "motif_statut": {},
+  "pour_la_maison": null,
+  "photo": null,
+  "photo_credit": null,
+  "video": {
+    "youtube_id": "q8WoVjhRTBE",
+    "auteur": "CHIBI CHIBI CHEF - Japanese Home Cooking -",
+    "langue": "en"
+  },
+  "voir_aussi": [
+    "R168",
+    "R169",
+    "R170",
+    "T19"
+  ],
+  "commentaire_source": ""
+}

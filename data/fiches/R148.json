@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "thaie",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -125,7 +126,7 @@
   "video": {
     "youtube_id": "vj_DykfQgXQ",
     "auteur": "Pailin's Kitchen",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R147",

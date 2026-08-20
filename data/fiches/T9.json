@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "frit"
   ],
@@ -25,7 +26,7 @@
   "romaji": "agemono",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "a-gué-mo-no",
   "langue_origine": "ja",
   "fr": "La friture japonaise (agemono)",
   "sous_titre": "Agemono (揚げ物) désigne toute la famille des aliments frits : karaage, tempura, tatsuta-age, korokke. Une seule variable décide de tout, et ce n'est pas la durée — c'est la température de l'huile. Une friture bien chaude est MOINS grasse qu'une friture tiède.",
@@ -144,7 +145,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Karaage.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "RightCowLeftCoast",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karaage.jpg"
+  },
   "video": {
     "youtube_id": "5Ea3EuwA758",
     "auteur": "Japanese Top Chefs",

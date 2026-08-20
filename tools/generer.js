@@ -20,7 +20,7 @@ const { SOURCES, PROSES, DONNEES_SEULES, RACINE, DATA, BASE_URL } = require('./l
 const documents = require('./lib/documents');
 const ensembles = require('./lib/ensembles');
 const pages = require('./lib/pages');
-const { minutes, LECTEUR } = require('./lib/champs');
+const { minutes, vitesse, LECTEUR } = require('./lib/champs');
 
 const verifier = process.argv.includes('--verifier');
 
@@ -91,6 +91,8 @@ const triees = [...toutesLesFiches].sort((a, b) => {
    kilo-octets qui ne disent rien. `id`, `fr` et `statut` ne s'omettent jamais :
    ils identifient l'entrée. */
 const TOUJOURS = new Set(['id', 'fr', 'statut']);
+/** Le temps écoulé d'une fiche, bornes hautes comprises. Sert au total ET à `vitesse`. */
+const total = (f) => minutes(f.temps_minutes.preparation) + minutes(f.temps_minutes.cuisson) + minutes(f.temps_minutes.attente);
 const vide = (v) => v == null || v === '' || v === false
   || (Array.isArray(v) && !v.length)
   || (v && typeof v === 'object' && !Array.isArray(v) && !Object.keys(v).length);
@@ -112,11 +114,25 @@ const index = triees.map((f) => sansVides({
   axe_gout: f.axe_gout,
   axe_texture: f.axe_texture,
   cuisine: f.cuisine,
-  vitesse: f.vitesse,
+  registre: f.registre,
+  bol_de_riz: f.bol_de_riz,
   /* Le total en minutes, borne HAUTE : un temps peut être une fourchette quand
      une fiche porte deux méthodes de cuisson. L'index sert à choisir un plat
      pour un soir donné — c'est la borne haute qui décide si on a le temps. */
-  temps_minutes: minutes(f.temps_minutes.preparation) + minutes(f.temps_minutes.cuisson) + minutes(f.temps_minutes.attente),
+  temps_minutes: total(f),
+  /* 🔴 `vitesse` EST DÉRIVÉE DEPUIS LE DOCUMENT 34, elle n'est plus un champ de
+     la fiche. Elle a été écrite à la main jusque-là et avait dérivé sur un quart
+     du corpus : un plat `rapide` à cinquante minutes et un plat `moyen` à seize
+     coexistaient dans le recueil. Un champ dérivable écrit à la main dérive —
+     c'est le même raisonnement que `temps_actif` juste en dessous, et que le
+     `slug`, qui vaut `limace(fr)` et que la règle 20 vérifie au lieu de le
+     laisser vivre sa vie.
+
+     Elle vit dans l'INDEX et non dans la fiche, parce que c'est l'index qui la
+     consomme : elle est une clé de filtre de la page de liste, et la page de
+     fiche ne l'affiche pas. Les seuils sont dans `lib/champs.js`, en un seul
+     endroit, avec la raison de leur choix. */
+  vitesse: vitesse(total(f)),
   /* LE TEMPS DE PRÉSENCE, quand il est plus court que le temps total. C'est le
      S35 du document 31 : `vitesse` mesure le temps ÉCOULÉ, et c'est le bon
      choix — une soupe d'une heure quarante-cinq ne s'insère pas dans un mardi
@@ -239,7 +255,18 @@ function aujourdhui() {
 }
 
 const manifeste = {
+  /* 🔴 `site` EST LA CLÉ DU DÉPÔT, `nom` EST LE NOM AFFICHÉ, et le S41 du
+     document 34 vient de les séparer. Le site s'appelle Teishoku depuis ce
+     document ; son adresse reste `.../washoku/`, parce qu'un nom est une chaîne
+     d'affichage et qu'une adresse est un chemin de dépôt. Renommer l'adresse
+     casserait le raccourci de l'écran d'accueil sans rien gagner — aucun lien
+     externe n'existe.
+
+     Les deux clés sont donc là toutes les deux, et un agent extérieur qui lit
+     le manifeste n'a plus à choisir entre appeler le site par son chemin ou
+     deviner son nom. */
   site: 'washoku',
+  nom: pages.NOM,
   version_schema: '1.0',
   derniere_maj: process.env.WASHOKU_DATE || aujourdhui(),
   dernier_document_applique: dernierDocumentApplique,

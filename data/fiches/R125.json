@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -25,7 +26,7 @@
   "romaji": "nasu no nibitashi",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "na-sou no ni-bi-ta-chi",
   "langue_origine": "ja",
   "fr": "Aubergines mijotées au dashi (nasu no nibitashi)",
   "sous_titre": "Une aubergine fondante sans une goutte d'huile. C'est le seul plat d'aubergine compatible du dossier, et c'est la méthode qui fait tout.",
@@ -135,7 +136,7 @@
   "video": {
     "youtube_id": "MQN_dtqYtVI",
     "auteur": "JapaneseCooking101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R43",

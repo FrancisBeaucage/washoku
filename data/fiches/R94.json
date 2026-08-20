@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote",
     "poche"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "닭곰탕",
   "lecture_origine": "dakgomtang",
-  "prononciation": null,
+  "prononciation": "tak-kom-tang",
   "langue_origine": "ko",
   "fr": "Bouillon de poulet clair (dakgomtang)",
   "sous_titre": "Le meilleur cas de figure de tout le recueil pour le sodium : le plat arrive à table non salé, et chacun assaisonne son bol. Trente-quatre grammes de protéines pour cent quatre-vingts milligrammes.",
@@ -132,7 +133,7 @@
   "video": {
     "youtube_id": "0Atj-Npj2cs",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R93",

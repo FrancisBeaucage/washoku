@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "chinoise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "marine"
   ],
@@ -118,11 +119,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "jimg944",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shabu-shabu-01.jpg"
+  },
   "video": {
     "youtube_id": "odGG8AEf0LU",
     "auteur": "The Woks of Life",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

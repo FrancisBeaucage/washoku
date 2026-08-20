@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "bouilli"
@@ -29,7 +30,7 @@
   "romaji": "kenchinjiru",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "kèn-tchin-dji-rou",
   "langue_origine": "ja",
   "fr": "Soupe de légumes racines au tofu (kenchinjiru)",
   "sous_titre": "Dix grammes de protéines et cent quatre-vingt-dix milligrammes de sodium dans un bol de soupe. C'est le ichiju qui nourrit, et il n'y a pas une trace d'animal dedans.",
@@ -156,14 +157,14 @@
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenchinjiru_soy_sauce_flavor_2009.JPG?width=1200",
   "photo_credit": {
-    "auteur": "User:Kentin",
+    "auteur": "Kentin",
     "licence": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kenchinjiru_soy_sauce_flavor_2009.JPG"
   },
   "video": {
     "youtube_id": "M1uP4rJBsDE",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R127",

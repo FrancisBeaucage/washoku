@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": "emprunt",
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "blanchi",
@@ -29,8 +30,8 @@
   "romaji": "kankoku-fū don",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
-  "langue_origine": "ko",
+  "prononciation": "kan-ko-kou-fou don",
+  "langue_origine": "ja",
   "fr": "Bol coréen express",
   "sous_titre": "Un reste de riz, deux œufs, du kimchi et des épinards. Cinq minutes.",
   "portions": "1",
@@ -113,11 +114,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20mayo%20deop-bap%20-%20Kogi%2C%20Brighton.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_mayo_deop-bap_-_Kogi,_Brighton.jpg"
+  },
   "video": {
     "youtube_id": "5YMJqshTBMI",
     "auteur": "Aaron and Claire",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

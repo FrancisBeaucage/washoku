@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "collation",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "collation",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -24,7 +25,7 @@
   "romaji": "ajitsuke-nori",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "a-dji-tsou-ké no-ri",
   "langue_origine": "ja",
   "fr": "Nori grillé assaisonné",
   "sous_titre": "Le remplacement des croustilles : salé, croustillant, la sensation d'huile — pour environ 30 calories le paquet.",
@@ -73,7 +74,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nori.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Alice Wiegand, ( Lyzzy )",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nori.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

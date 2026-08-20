@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "vapeur"
@@ -28,7 +29,7 @@
   "romaji": "pīman no nikuzume",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "pî-man no ni-kou-zou-mé",
   "langue_origine": "ja",
   "fr": "Poivrons farcis au haché (pīman no nikuzume)",
   "sous_titre": "Un plat où le légume est le contenant : quatre poivrons portent trois cents grammes de protéine, et la farine à l'intérieur est la seule chose qui empêche tout de se séparer.",
@@ -164,7 +165,7 @@
   "video": {
     "youtube_id": "doCrM1ulNaE",
     "auteur": "JapaneseCooking101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R110",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "mijote"
@@ -27,7 +28,7 @@
   "romaji": null,
   "nom_origine": "두부조림",
   "lecture_origine": "dubu jorim",
-  "prononciation": null,
+  "prononciation": "tou-bou djo-rim",
   "langue_origine": "ko",
   "fr": "Tofu braisé au soya (dubu jorim)",
   "sous_titre": "Le seul banchan du recueil qui porte dix grammes de protéines SANS VIANDE et se garde cinq jours. Le tofu se dore avant d'être braisé, jamais l'inverse.",
@@ -136,7 +137,7 @@
   "video": {
     "youtube_id": "ob2CYmTx9PM",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R80",

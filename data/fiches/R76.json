@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "chinoise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "滑蛋虾仁",
   "lecture_origine": "huádàn xiārén",
-  "prononciation": null,
+  "prononciation": "houa-dan sia-rèn",
   "langue_origine": "zh",
   "fr": "Crevettes aux œufs soyeux (huadan xiaren)",
   "sous_titre": "Aucune sauce salée, aucune fécule liée, aucun soya : du sel, du vin de riz et des œufs. Tout le sodium de ce plat vient des crevettes elles-mêmes — et c'est un cas d'école.",
@@ -150,7 +151,7 @@
   "video": {
     "youtube_id": "VeNUmfjeOIw",
     "auteur": "Made With Lau",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R72",

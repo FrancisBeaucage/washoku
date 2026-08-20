@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "diner",
   "cuisine": "chinoise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -150,7 +151,7 @@
   "video": {
     "youtube_id": "FL7u21QGoo0",
     "auteur": "J. Kenji López-Alt",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R41",

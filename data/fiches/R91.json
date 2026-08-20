@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "condiment",
+  "bol_de_riz": null,
   "methode": [
     "torrefie"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "김구이",
   "lecture_origine": "gim gui",
-  "prononciation": null,
+  "prononciation": "kim goui",
   "langue_origine": "ko",
   "fr": "Nori grillé à la maison (gim gui)",
   "sous_titre": "Vingt feuilles, une cuillère à soupe d'huile de sésame, une pincée de sel. Le faire soi-même plutôt que d'acheter les paquets préassaisonnés change tout, et c'est mesurable.",
@@ -119,7 +120,7 @@
   "video": {
     "youtube_id": "EWK0AIPrVSc",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R50"

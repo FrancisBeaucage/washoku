@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -26,7 +27,7 @@
   "romaji": "shimeji no sotē",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "chi-mé-dji no so-té",
   "langue_origine": "ja",
   "fr": "Shimeji sautés au soya",
   "sous_titre": "Le shimeji ne donne rien dans un bouillon. Il donne tout dans une poêle. Sept minutes, et le champignon le plus fade du frigo devient le plat qui goûte le plus.",
@@ -124,7 +125,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Buna_shimeji_%288009663976%29.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Andy / Andrew Fogg from near Cambridge, UK",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Buna_shimeji_(8009663976).jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

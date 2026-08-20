@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "marine",
     "cru"
@@ -26,7 +27,7 @@
   "romaji": "tataki kyūri",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ta-ta-ki kyou-ri",
   "langue_origine": "ja",
   "fr": "Concombre tataki",
   "sous_titre": "Pratiquement zéro calorie, et addictif. Les surfaces déchirées absorbent beaucoup mieux la marinade que des tranches nettes.",
@@ -99,11 +100,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ARS_cucumber.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Stephen Ausmus, USDA ARS",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg"
+  },
   "video": {
     "youtube_id": "09g-HSTI7_o",
     "auteur": "No Recipes",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

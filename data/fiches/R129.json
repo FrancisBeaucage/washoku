@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "bouilli"
@@ -28,7 +29,7 @@
   "romaji": "tonjiru",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ton-dji-rou",
   "langue_origine": "ja",
   "fr": "Soupe miso au porc et aux racines (tonjiru)",
   "sous_titre": "Une soupe qui est un repas : dix-sept grammes de protéines dans un bol. Et le seul plat du recueil où le levier « ne pas boire le bouillon » n'existe pas.",
@@ -162,7 +163,7 @@
   "video": {
     "youtube_id": "PHuxPEUWCcw",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R128",

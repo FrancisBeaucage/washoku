@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "extra-long",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -26,7 +27,7 @@
   "romaji": "oden",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "o-dèn",
   "langue_origine": "ja",
   "fr": "Oden",
   "sous_titre": "Le mijoté d'hiver. Meilleur réchauffé le lendemain. Le konnyaku fait environ 5 calories aux 100 g et remplit l'estomac.",
@@ -124,11 +125,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yataioden.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Hykw-a4",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yataioden.jpg"
+  },
   "video": {
     "youtube_id": "T_rV_Vwdpdw",
     "auteur": "Chef JA Cooks",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": "non",
   "methode": [
     "mijote"
   ],
@@ -27,7 +28,7 @@
   "romaji": "nikujaga",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ni-kou-dja-ga",
   "langue_origine": "ja",
   "fr": "Bœuf et pommes de terre mijotés (nikujaga)",
   "sous_titre": "Le nikujaga ordinaire est un plat de pommes de terre avec de la viande dedans. Celui-ci double le bœuf et supprime le bol de riz — c'est le même plat avec le rapport à l'endroit.",
@@ -170,7 +171,7 @@
   "video": {
     "youtube_id": "0DNXABd26jk",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R114",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "mijote"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "된장찌개",
   "lecture_origine": "doenjang jjigae",
-  "prononciation": null,
+  "prononciation": "twène-djang tchi-gué",
   "langue_origine": "ko",
   "fr": "Ragoût au doenjang (doenjang jjigae)",
   "sous_titre": "À pleine dose, un bol de ce ragoût porte la moitié du plafond de sodium de la journée. À une cuillère à soupe pour deux portions et un umami rebâti au champignon, c'est le même plat.",
@@ -161,7 +162,7 @@
   "video": {
     "youtube_id": "Slj_fM1jQVo",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R95",

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "poche"
   ],
@@ -24,7 +25,7 @@
   "romaji": "tsukune-jiru",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tsou-kou-né-dji-rou",
   "langue_origine": "ja",
   "fr": "Soupe aux boulettes de poulet",
   "sous_titre": "Même technique que R31, en version japonaise au dashi.",
@@ -99,11 +100,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukune_%28chicken_meatballs%29_%2816065642291%29.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Arnold Gatilao from Oakland, CA, USA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tsukune_(chicken_meatballs)_(16065642291).jpg"
+  },
   "video": {
     "youtube_id": "IyXQemAcKLw",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

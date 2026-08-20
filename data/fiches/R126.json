@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "blanchi",
     "grille"
@@ -29,7 +30,7 @@
   "romaji": "atsuage yaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "a-tsou-a-gué ya-ki",
   "langue_origine": "ja",
   "fr": "Tofu frit épais grillé (atsuage yaki)",
   "sous_titre": "Dix minutes, aucune huile ajoutée, et une croûte croustillante sur du tofu. L'astuce est un geste de trente secondes qui s'appelle abura-nuki.",
@@ -127,7 +128,7 @@
   "video": {
     "youtube_id": "bcEIMbmevto",
     "auteur": "JapaneseCooking101",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R123",

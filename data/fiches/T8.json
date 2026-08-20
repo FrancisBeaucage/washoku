@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "bouilli"
   ],
@@ -27,7 +28,7 @@
   "romaji": "hanjuku-tamago",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "han-djou-kou ta-ma-go",
   "langue_origine": "ja",
   "fr": "L'œuf mollet et l'œuf dur",
   "sous_titre": "Le geste qui revient partout : sur le riz, dans les nouilles, en collation, mariné. La seule variable, c'est le temps de cuisson.",
@@ -114,11 +115,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ajitama.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Guilhem Vellut",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ajitama.jpg"
+  },
   "video": {
     "youtube_id": "mcXzPF4-LFw",
     "auteur": "Epicurious",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": []
 }

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -28,7 +29,7 @@
   "romaji": "iridōfu",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "i-ri-dô-fou",
   "langue_origine": "ja",
   "fr": "Tofu émietté aux légumes (iridōfu)",
   "sous_titre": "Le plat qui vide le tiroir à légumes : trente-huit grammes de protéines, une poêle, et tout ce qui reste de la semaine coupé fin.",
@@ -158,7 +159,7 @@
   "video": {
     "youtube_id": "ISGnoc_cXA4",
     "auteur": "Cooking with Dog",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R110",

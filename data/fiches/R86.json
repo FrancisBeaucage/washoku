@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "vapeur"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "가지나물",
   "lecture_origine": "gaji namul",
-  "prononciation": null,
+  "prononciation": "ka-dji na-moul",
   "langue_origine": "ko",
   "fr": "Namul d'aubergine vapeur (gaji namul)",
   "sous_titre": "Une aubergine fondante sans une goutte d'huile. C'est le seul plat d'aubergine du recueil, et c'est la seule façon d'en faire un qui n'en boive pas.",
@@ -112,7 +113,7 @@
   "video": {
     "youtube_id": "Jt4BRAUzcYc",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R47"

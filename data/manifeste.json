@@ -1,8 +1,9 @@
 {
   "site": "washoku",
+  "nom": "Teishoku",
   "version_schema": "1.0",
-  "derniere_maj": "2026-08-19",
-  "dernier_document_applique": 33,
+  "derniere_maj": "2026-08-20",
+  "dernier_document_applique": 34,
   "note": "Fichier généré par tools/generer.js. Ne pas éditer à la main : les compteurs sont calculés à partir de /data.",
   "protocole_de_lecture": [
     "Ce manifeste donne l’adresse complète de tous les autres fichiers.",
@@ -19,8 +20,8 @@
       "nom": "guide-2-fiches.json",
       "url": "https://francisbeaucage.github.io/washoku/data/guide-2-fiches.json",
       "description": "Techniques et recettes du guide 2",
-      "nb_entrees": 192,
-      "nb_actives": 192
+      "nb_entrees": 196,
+      "nb_actives": 196
     },
     {
       "nom": "guide-3-ingredients.json",
@@ -89,8 +90,8 @@
       "nom": "documents-appliques.json",
       "url": "https://francisbeaucage.github.io/washoku/data/documents-appliques.json",
       "description": "Numéros des documents de mise à jour déjà appliqués ; le manifeste en tire dernier_document_applique",
-      "nb_entrees": 33,
-      "nb_actives": 33
+      "nb_entrees": 34,
+      "nb_actives": 34
     },
     {
       "nom": "rayons.json",
@@ -110,21 +111,21 @@
       "nom": "index.json",
       "url": "https://francisbeaucage.github.io/washoku/data/index.json",
       "description": "Index compact des fiches : de quoi choisir, filtrer et rendre une carte, sans charger le recueil",
-      "nb_entrees": 192,
-      "nb_actives": 192
+      "nb_entrees": 196,
+      "nb_actives": 196
     },
     {
       "nom": "fiches/<ID>.json",
       "url": "https://francisbeaucage.github.io/washoku/data/fiches/",
       "description": "Une fiche par fichier, identique à son entrée du recueil. Adresse exacte dans index.json",
-      "nb_entrees": 192,
-      "nb_actives": 192
+      "nb_entrees": 196,
+      "nb_actives": 196
     }
   ],
   "compteurs": {
-    "techniques": 25,
-    "recettes": 167,
-    "fiches_actives": 192,
+    "techniques": 26,
+    "recettes": 170,
+    "fiches_actives": 196,
     "fiches_retirees": 0
   },
   "ensembles_fermes": {
@@ -150,13 +151,6 @@
         "vietnamienne",
         "laotienne",
         "indonesienne"
-      ],
-      "vitesse": [
-        "ultra-rapide",
-        "rapide",
-        "moyen",
-        "long",
-        "extra-long"
       ],
       "nutrition.source": [
         "estime",
@@ -228,6 +222,15 @@
         "lo",
         "id",
         "aucune",
+        null
+      ],
+      "registre": [
+        "emprunt",
+        null
+      ],
+      "bol_de_riz": [
+        "demi",
+        "non",
         null
       ],
       "video.langue": [
@@ -341,6 +344,15 @@
         "fonc"
       ]
     },
+    "index.json": {
+      "vitesse": [
+        "ultra-rapide",
+        "rapide",
+        "moyen",
+        "long",
+        "extra-long"
+      ]
+    },
     "historique-repas.json": {
       "repas": [
         "dejeuner",
@@ -364,7 +376,6 @@
       "statut": "valeur",
       "categorie": "valeur",
       "cuisine": "valeur",
-      "vitesse": "valeur",
       "nutrition.source": "valeur",
       "type_de_plat": "valeur",
       "methode": "liste",
@@ -372,6 +383,8 @@
       "axe_texture": "liste",
       "moment": "liste",
       "langue_origine": "valeur",
+      "registre": "valeur",
+      "bol_de_riz": "valeur",
       "video.langue": "valeur",
       "etoiles": "par-lecteur",
       "cout_travail": "valeur",
@@ -388,6 +401,9 @@
     "guide-4-exercices.json": {
       "statut": "valeur",
       "zone": "valeur"
+    },
+    "index.json": {
+      "vitesse": "valeur"
     },
     "historique-repas.json": {
       "repas": "valeur",

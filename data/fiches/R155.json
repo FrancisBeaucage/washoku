@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "soupe-entree",
   "cuisine": "vietnamienne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "mijote",
     "poche"
@@ -161,7 +162,7 @@
   "video": {
     "youtube_id": "vO81lQvYodI",
     "auteur": "Helen's Recipes (Vietnamese Food)",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R145",

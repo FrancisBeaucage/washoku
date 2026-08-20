@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "cru",
     "fermente"
@@ -25,7 +26,7 @@
   "romaji": "nattō gohan",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "nat-tô go-han",
   "langue_origine": "ja",
   "fr": "Natto gohan",
   "sous_titre": "Trois minutes, 26 g de protéines. L'aliment le plus divisif du répertoire — et un des plus efficaces.",
@@ -132,11 +133,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Natto_mixed_by_Kinchan1.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Kinchan1",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Natto_mixed_by_Kinchan1.jpg"
+  },
   "video": {
     "youtube_id": "6eHsqXOsyek",
     "auteur": "ochikeron",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

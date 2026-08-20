@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "collation",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "collation",
+  "bol_de_riz": null,
   "methode": [
     "sans-cuisson"
   ],
@@ -24,7 +25,7 @@
   "romaji": "kinako-yōguruto",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ki-na-ko yô-gou-rou-to",
   "langue_origine": "ja",
   "fr": "Yogourt grec au kinako",
   "sous_titre": "175 g de yogourt grec 0 % et une cuillère de kinako (farine de soya grillé). 17 g de protéines : le meilleur ratio protéines-calories des collations.",
@@ -88,7 +89,11 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Greek_yoghurt_with_honey.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "ProjectManhattan",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek_yoghurt_with_honey.jpg"
+  },
   "video": {
     "youtube_id": null,
     "auteur": null,

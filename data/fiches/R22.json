@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute"
   ],
@@ -25,7 +26,7 @@
   "romaji": "okonomiyaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "o-ko-no-mi-ya-ki",
   "langue_origine": "ja",
   "fr": "Okonomiyaki",
   "sous_titre": "400 g de chou tenus par deux œufs et quatre cuillères de farine. Énorme dans l'assiette. Le plat le plus populaire auprès des enfants.",
@@ -119,11 +120,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Okonomiyaki_001.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "ume-y",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg"
+  },
   "video": {
     "youtube_id": "RtqpS9FHEbc",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

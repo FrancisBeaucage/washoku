@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "coreenne",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "vapeur"
   ],
@@ -26,7 +27,7 @@
   "romaji": null,
   "nom_origine": "계란찜",
   "lecture_origine": "gyeranjjim",
-  "prononciation": null,
+  "prononciation": "kyé-ran-tchim",
   "langue_origine": "ko",
   "fr": "Flan d'œufs vapeur (gyeranjjim)",
   "sous_titre": "Le banchan protéiné le plus rapide du recueil. Trois œufs, un peu d’eau, et un couvercle : treize grammes de protéines dans un petit bol.",
@@ -129,7 +130,7 @@
   "video": {
     "youtube_id": "-IicuyDgRyw",
     "auteur": "Maangchi",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R7",

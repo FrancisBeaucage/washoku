@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "vietnamienne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "vapeur"
   ],
@@ -24,7 +25,7 @@
   "romaji": null,
   "nom_origine": "Cá hấp hành gừng",
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "ka hâp hagn gueung",
   "langue_origine": "vi",
   "fr": "Poisson vapeur au gingembre et à la ciboule",
   "sous_titre": "Quarante grammes de protéines, zéro gras de cuisson, dix-huit minutes. Le plat le plus propre du corpus vietnamien, et il ne demande rien d'autre qu'un panier vapeur.",
@@ -141,7 +142,7 @@
   "video": {
     "youtube_id": "3p0kTLZNWsA",
     "auteur": "Helen's Recipes (Vietnamese Food)",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R35"

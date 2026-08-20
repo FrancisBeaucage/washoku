@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "japonaise",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "grille"
@@ -27,7 +28,7 @@
   "romaji": "teriyaki",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "té-ri-ya-ki",
   "langue_origine": "ja",
   "fr": "Le glaçage teriyaki",
   "sous_titre": "Le tare classique est quatre parts égales : soya, mirin, saké, sucre. La version de la maison en retire une et divise une autre par deux — et le glaçage brille pareil.",
@@ -130,7 +131,7 @@
   "video": {
     "youtube_id": "n88PT1dSVn8",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R116",

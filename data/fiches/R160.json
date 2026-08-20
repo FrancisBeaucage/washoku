@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "laotienne",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "vapeur"
   ],
@@ -144,7 +145,7 @@
   "video": {
     "youtube_id": "s9LLLgobDck",
     "auteur": "Saeng Douangdara",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R145",

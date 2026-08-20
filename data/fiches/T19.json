@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "laotienne",
-  "vitesse": "ultra-rapide",
+  "registre": null,
   "type_de_plat": "condiment",
+  "bol_de_riz": null,
   "methode": [
     "torrefie"
   ],
@@ -25,7 +26,7 @@
   "romaji": null,
   "nom_origine": "ເຂົ້າຄ້ວ",
   "lecture_origine": "khao khua",
-  "prononciation": null,
+  "prononciation": "khao-khoua",
   "langue_origine": "lo",
   "fr": "Le riz gluant grillé moulu (khao khua)",
   "sous_titre": "Variante thaïe ข้าวคั่ว. Du riz cru grillé à sec et moulu. Ça ne coûte rien, ça ne contient pas un milligramme de sodium, et c'est le levier de compensation le plus efficace de tout le dossier.",
@@ -36,7 +37,7 @@
     "cuisson": 10,
     "attente": 1
   },
-  "preparation_avance": null,
+  "preparation_avance": "Se garde un mois dans un pot fermé, à l'abri de la lumière.",
   "nutrition": {
     "proteines_g": 1,
     "proteines_affiche": "1 g",
@@ -117,7 +118,7 @@
   "video": {
     "youtube_id": "GGdg-Bb9shA",
     "auteur": "Cooking With Khon Khao",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

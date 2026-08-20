@@ -12,13 +12,21 @@ function versJson(r) {
     statut: 'actif',
     categorie: C.CATEGORIES[r.cat],
     cuisine,
-    vitesse: C.VITESSES[r.spd],
+    /* `vitesse` N'EST PLUS ICI : elle se dérive du temps total dans
+       `generer.js`, qui l'écrit dans l'index — le seul consommateur — au lieu de
+       la laisser s'écrire à la main sur la fiche. Document 34, S38. */
     /* ── Bloc descriptif (document 19, S2) ────────────────────────────────
        Ce que le plat EST : objectif, vérifiable, et vrai pour tout lecteur.
        Il ne se mélange jamais au bloc évaluatif plus bas — un schéma qui
        range la préférence dans la description impose le goût d'un lecteur à
        tous les autres. */
     type_de_plat: null,
+    /* Les deux champs du document 34. Ils ne passent pas par la forme compacte —
+       la page ne les a jamais portés — donc `sources.js` les déclare en champs
+       hors page, comme `type_de_plat` et `langue_origine`. Voir `REGISTRES` et
+       `BOLS_DE_RIZ` dans `champs.js` pour leur critère. */
+    registre: null,
+    bol_de_riz: null,
     methode: [],
     axe_gout: [],
     axe_texture: [],
@@ -143,7 +151,6 @@ function versFiche(f) {
   r.prep = f.temps_minutes.preparation;
   r.cook = f.temps_minutes.cuisson;
   r.rest = f.temps_minutes.attente;
-  r.spd = C.VITESSES_INV[f.vitesse];
   r.wait = f.preparation_avance || '';
   r.pro = f.nutrition.proteines_affiche;
   r.cal = f.nutrition.calories_affiche;

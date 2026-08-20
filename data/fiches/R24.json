@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "poche"
   ],
@@ -26,7 +27,7 @@
   "romaji": "shabu-shabu",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "cha-bou-cha-bou",
   "langue_origine": "ja",
   "fr": "Shabu-shabu",
   "sous_titre": "Le meilleur repas de famille du recueil. Chacun contrôle sa propre assiette, les enfants adorent participer, et il est impossible de manger vite.",
@@ -117,11 +118,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shabu-shabu-01.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "jimg944",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shabu-shabu-01.jpg"
+  },
   "video": {
     "youtube_id": "tw8EXKWwudQ",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "coreenne",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "saute",
     "bouilli"
@@ -28,7 +29,7 @@
   "romaji": null,
   "nom_origine": "두부김치",
   "lecture_origine": "dubu kimchi",
-  "prononciation": null,
+  "prononciation": "tou-bou kim-tchi",
   "langue_origine": "ko",
   "fr": "Kimchi sauté et tofu bouilli (dubu kimchi)",
   "sous_titre": "Le seul plat du recueil où le tofu arrive nu et bouillant à côté du sauté, et ça change tout : le tofu dilue le sel du kimchi dans la bouche plutôt que dans la casserole.",
@@ -136,7 +137,7 @@
   "video": {
     "youtube_id": "-Oj2xzQbo4s",
     "auteur": "Seonkyoung Longest",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [
     "R97",

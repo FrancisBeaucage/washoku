@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "dejeuner",
   "cuisine": "japonaise",
-  "vitesse": "moyen",
+  "registre": null,
   "type_de_plat": "plat-principal",
+  "bol_de_riz": null,
   "methode": [
     "vapeur"
   ],
@@ -24,7 +25,7 @@
   "romaji": "chawanmushi",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "tcha-wan-mou-chi",
   "langue_origine": "ja",
   "fr": "Œufs vapeur au gingembre",
   "sous_titre": "Un flan d'œuf salé cuit à la vapeur. La texture soyeuse vient d'une seule étape : le filtrage.",
@@ -103,11 +104,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chawan-mushi.JPG?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Brücke-Osteuropa",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chawan-mushi.JPG"
+  },
   "video": {
     "youtube_id": "OEqu5c2edSw",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

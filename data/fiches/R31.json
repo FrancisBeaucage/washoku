@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "souper",
   "cuisine": "chinoise",
-  "vitesse": "moyen",
+  "registre": "emprunt",
   "type_de_plat": "soupe",
+  "bol_de_riz": null,
   "methode": [
     "poche"
   ],
@@ -26,8 +27,8 @@
   "romaji": "wonton sūpu",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
-  "langue_origine": "zh",
+  "prononciation": "won-ton sou-pou",
+  "langue_origine": "ja",
   "fr": "Soupe won-ton déconstruite",
   "sous_titre": "Toute la saveur du won-ton, zéro pâte.",
   "portions": "2",
@@ -104,11 +105,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_of_wonton_soup.JPG?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "BrokenSphere",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bowl_of_wonton_soup.JPG"
+  },
   "video": {
     "youtube_id": "0RPCzzm8l9I",
     "auteur": "Made With Lau",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "technique",
   "cuisine": "chinoise",
-  "vitesse": "rapide",
+  "registre": null,
   "type_de_plat": "technique",
+  "bol_de_riz": null,
   "methode": [
     "blanchi"
   ],
@@ -22,7 +23,7 @@
   "romaji": null,
   "nom_origine": "焯水",
   "lecture_origine": "zhuō shuǐ",
-  "prononciation": null,
+  "prononciation": "djouo-chouéi",
   "langue_origine": "zh",
   "fr": "Le blanchiment préalable des viandes (zhuo shui)",
   "sous_titre": "Le geste qui décide si une soupe sera claire ou grise. Cinq minutes d'eau bouillante jetée, et c'est tout.",
@@ -111,7 +112,7 @@
   "video": {
     "youtube_id": "JWTbMPRwpvI",
     "auteur": "TheChineseSoupLady",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""

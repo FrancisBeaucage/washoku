@@ -3,8 +3,9 @@
   "statut": "actif",
   "categorie": "garniture",
   "cuisine": "japonaise",
-  "vitesse": "long",
+  "registre": null,
   "type_de_plat": "accompagnement",
+  "bol_de_riz": null,
   "methode": [
     "blanchi",
     "marine"
@@ -25,7 +26,7 @@
   "romaji": "ohitashi",
   "nom_origine": null,
   "lecture_origine": null,
-  "prononciation": null,
+  "prononciation": "o-hi-ta-chi",
   "langue_origine": "ja",
   "fr": "Ohitashi — épinards au dashi",
   "sous_titre": "Se garde 3 jours. Environ 25 calories la portion, et le blanchiment améliore l'absorption du fer.",
@@ -100,11 +101,15 @@
   "motif_statut": {},
   "pour_la_maison": null,
   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinacia_oleracea_Spinazie_bloeiend.jpg?width=1200",
-  "photo_credit": null,
+  "photo_credit": {
+    "auteur": "Rasbak",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spinacia_oleracea_Spinazie_bloeiend.jpg"
+  },
   "video": {
     "youtube_id": "DfFv9gTxrbs",
     "auteur": "Just One Cookbook",
-    "langue": null
+    "langue": "en"
   },
   "voir_aussi": [],
   "commentaire_source": ""
